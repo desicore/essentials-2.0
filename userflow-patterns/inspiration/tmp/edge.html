@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>&lt;script&gt;window.injected=true&lt;/script&gt;</title>
+<style>
+  :root{color-scheme:light dark;--bg:#f6f6f6;--surface:#fff;--text:#202020;--muted:#646464;--border:#d6d6d6;--subtle:#ededed;--red:#a91c25;--red-bg:#ffeded;--focus:#2167bb;font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  @media(prefers-color-scheme:dark){:root{--bg:#171717;--surface:#222;--text:#efefef;--muted:#b3b3b3;--border:#494949;--subtle:#303030;--red:#ff9da5;--red-bg:#431c22;--focus:#8abcff}}
+  *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text)}main{max-width:1560px;margin:auto;padding:36px 28px 64px}h1{font-size:clamp(26px,4vw,38px);line-height:1.15;margin:8px 0 16px;letter-spacing:-.025em}h2{font-size:20px;line-height:1.4;margin:0;max-width:1000px}h3{font-size:18px;line-height:1.35;margin:14px 0 10px}p{margin:12px 0}a{color:inherit;text-underline-offset:3px}button,input,select{font:inherit;color:inherit}button,select,input[type=search]{background:var(--surface);border:1px solid var(--border);border-radius:6px;min-height:40px;padding:7px 10px}button,select,label{cursor:pointer}input[type=search]{width:min(100%,320px)}input[type=checkbox]{accent-color:var(--text);width:17px;height:17px} :focus-visible{outline:3px solid var(--focus);outline-offset:3px}.eyebrow,.muted,.count,figcaption{color:var(--muted)}.eyebrow{font-size:12px;letter-spacing:.09em;text-transform:uppercase}.intro{max-width:850px}.toolbar{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px;margin:28px 0 12px}.controls{display:flex;align-items:end;gap:18px;flex-wrap:wrap}.controls label{display:flex;gap:8px;align-items:center;min-height:40px}.controls .field{display:grid;gap:4px;font-size:13px}.questions{margin:14px 0 0;padding:8px 0 0;border:0;border-top:1px solid var(--border)}legend{padding:0 8px 0 0;font-size:13px;color:var(--muted)}.question-options{display:flex;gap:8px 20px;flex-wrap:wrap}.question-options label{display:flex;align-items:center;gap:6px;min-height:36px}.status{font-size:13px;color:var(--muted)}.question-section{margin-top:38px}.section-heading{display:flex;gap:14px;align-items:baseline}.question-id{font-size:13px;color:var(--muted);white-space:nowrap}.answer{max-width:950px;white-space:pre-wrap}.count{font-size:13px;margin:10px 0 16px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),360px));gap:20px;align-items:start}.card{min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:8px;overflow:hidden;overflow-wrap:anywhere}.card-body{padding:18px}.meta{display:flex;gap:7px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted)}.meta strong{font-size:14px;color:var(--text);margin-right:auto}.badge{font-size:11px;border:1px solid var(--border);border-radius:4px;padding:2px 6px}.counter{display:inline-block;color:var(--red);background:var(--red-bg);border-color:var(--red)}.selected{font-size:11px}.take{white-space:pre-wrap}.card a{font-size:13px}.images{display:flex;overflow-x:auto;gap:12px;padding:0 18px 16px;scroll-snap-type:x proximity;overscroll-behavior-x:contain}.images figure{margin:0;flex:0 0 100%;min-width:0;scroll-snap-align:center}.flow figure{flex-basis:92%}.preview{display:block;width:100%;height:240px;padding:0;border-radius:4px;overflow:hidden;cursor:zoom-in;background:var(--subtle)}.preview img{display:block;width:100%;height:100%;object-fit:contain}figcaption{font-size:11px;margin-top:7px}.missing{min-height:120px;display:grid;place-items:center;color:var(--muted);padding:16px;text-align:center}.empty{color:var(--muted);font-size:14px;border-left:2px solid var(--border);padding-left:14px}[hidden]{display:none!important}dialog{max-width:96vw;max-height:94vh;width:max-content;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);padding:16px;overscroll-behavior:contain}dialog::backdrop{background:rgb(0 0 0 / .78)}.lightbox-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}.lightbox-bar p{margin:0;max-width:70ch;font-size:13px}.full-image{overflow:auto;max-width:calc(96vw - 34px);max-height:calc(94vh - 100px)}.full-image img{display:block;max-width:none;height:auto}body:has(dialog[open]){overflow:hidden}@media(max-width:520px){main{padding:24px 16px 40px}.controls{gap:12px}.controls .field:first-child{width:100%}input[type=search]{width:100%}.section-heading{display:block}.grid{grid-template-columns:minmax(0,1fr)}}
+</style></head>
+<body><main>
+  <header><div class="eyebrow">Essentials 2.0 · Design research</div><h1>&lt;script&gt;window.injected=true&lt;/script&gt;</h1><p class="intro muted">Add an intro paragraph in the JSON’s optional “intro” field to frame this collection.</p></header>
+  <form class="toolbar" aria-label="Filter references">
+    <div class="controls">
+      <label class="field">Search references<input id="search" type="search" placeholder="App, title, or take…" autocomplete="off"></label>
+      <label class="field">Source<select id="source"><option value="all">All sources</option><option value="mobbin">Mobbin</option><option value="refero">Refero</option><option value="unknown">Unknown source</option></select></label>
+      <label><input id="selected" type="checkbox">Selected only</label><button type="reset">Reset filters</button>
+    </div>
+    <fieldset class="questions"><legend>Questions</legend><div class="question-options"><label title="Two"><input type="checkbox" name="question" value="0" checked aria-label="Q2: Two">Q2</label><label title="Ten"><input type="checkbox" name="question" value="1" checked aria-label="Q10: Ten">Q10</label><label title="References needing a question"><input type="checkbox" name="question" value="2" checked aria-label="Unassigned: References needing a question">Unassigned</label></div></fieldset>
+  </form>
+  <p id="status" class="status" role="status" aria-live="polite"></p><p id="no-results" hidden>No references match these filters. Try another search or reset the filters.</p>
+  <noscript><p>Enable JavaScript for filters and full-size previews. All references appear below.</p></noscript>
+  <section class="question-section" data-question="0" aria-labelledby="question-0"><div class="section-heading"><span class="question-id">Q2</span><h2 id="question-0">Two</h2></div><p class="answer">Existing answer</p><p class="count">1 references</p><div class="grid"><article class="card" data-source="unknown" data-selected="false" data-search="&lt;img src=x onerror=&quot;window.injected=true&quot;&gt; escape me ">
+      <div class="card-body">
+        <div class="meta"><strong>&lt;img src=x onerror=&quot;window.injected=true&quot;&gt;</strong><span class="badge">Unknown source</span><span>screen</span></div>
+        <h3>Escape me</h3>
+        
+        <p class="take">No take added yet.</p>
+        <span class="muted">No source link</span>
+      </div>
+      <div class="images screen" aria-label="Screen preview">
+        <p class="missing">No images added yet</p>
+      </div>
+    </article></div><p class="empty" hidden>No references yet for this question.</p></section><section class="question-section" data-question="1" aria-labelledby="question-1"><div class="section-heading"><span class="question-id">Q10</span><h2 id="question-1">Ten</h2></div><p class="count">0 references</p><div class="grid"></div><p class="empty">No references yet for this question.</p></section><section class="question-section" data-question="2" aria-labelledby="question-2"><div class="section-heading"><span class="question-id">Unassigned</span><h2 id="question-2">References needing a question</h2></div><p class="count">1 references</p><div class="grid"><article class="card" data-source="unknown" data-selected="false" data-search="unknown app untitled reference ">
+      <div class="card-body">
+        <div class="meta"><strong>Unknown app</strong><span class="badge">Unknown source</span><span>screen</span></div>
+        <h3>Untitled reference</h3>
+        
+        <p class="take">No take added yet.</p>
+        <span class="muted">No source link</span>
+      </div>
+      <div class="images screen" aria-label="Screen preview">
+        <p class="missing">No images added yet</p>
+      </div>
+    </article></div><p class="empty" hidden>No references yet for this question.</p></section>
+</main>
+<dialog id="lightbox" aria-labelledby="lightbox-caption"><div class="lightbox-bar"><p id="lightbox-caption"></p><button id="close-lightbox" type="button" autofocus>Close</button></div><div class="full-image"><img id="full-image" alt=""></div></dialog>
+<script>
+  const form = document.querySelector('form');
+  const search = document.querySelector('#search');
+  const source = document.querySelector('#source');
+  const selected = document.querySelector('#selected');
+  const sections = [...document.querySelectorAll('.question-section')];
+  const total = document.querySelectorAll('.card').length;
+  function filter() {
+    const enabled = new Set([...form.querySelectorAll('[name=question]:checked')].map(input => input.value));
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+    for (const section of sections) {
+      section.hidden = !enabled.has(section.dataset.question);
+      const cards = [...section.querySelectorAll('.card')];
+      let count = 0;
+      for (const card of cards) {
+        card.hidden = section.hidden || (selected.checked && card.dataset.selected !== 'true') || (source.value !== 'all' && card.dataset.source !== source.value) || !card.dataset.search.includes(query);
+        if (!card.hidden) count++;
+      }
+      visible += count;
+      section.querySelector('.count').textContent = count + ' of ' + cards.length + ' references';
+      const empty = section.querySelector('.empty');
+      empty.hidden = count > 0;
+      empty.textContent = cards.length ? 'No references match these filters.' : 'No references yet for this question.';
+    }
+    document.querySelector('#status').textContent = visible + ' of ' + total + ' references shown';
+    document.querySelector('#no-results').hidden = visible > 0;
+  }
+  form.addEventListener('submit', event => event.preventDefault());
+  form.addEventListener('input', filter);
+  form.addEventListener('change', filter);
+  form.addEventListener('reset', () => setTimeout(filter, 0));
+  filter();
+  const lightbox = document.querySelector('#lightbox');
+  const fullImage = document.querySelector('#full-image');
+  document.querySelectorAll('.preview').forEach(button => {
+    const image = button.querySelector('img');
+    function unavailable() {
+      button.disabled = true;
+      button.closest('figure').querySelector('figcaption').textContent = 'Image unavailable · check its URL and rebuild';
+    }
+    image.addEventListener('error', unavailable);
+    if (image.complete && !image.naturalWidth) unavailable();
+    button.addEventListener('click', () => {
+      fullImage.src = image.src;
+      fullImage.alt = image.alt;
+      document.querySelector('#lightbox-caption').textContent = image.alt + ' · Original size; scroll to explore';
+      lightbox.showModal();
+      const viewport = lightbox.querySelector('.full-image');
+      viewport.scrollTo(0, 0);
+    });
+  });
+  document.querySelector('#close-lightbox').addEventListener('click', () => lightbox.close());
+  lightbox.addEventListener('click', event => {
+    const box = lightbox.getBoundingClientRect();
+    if (event.target === lightbox && (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom)) lightbox.close();
+  });
+  lightbox.addEventListener('close', () => fullImage.removeAttribute('src'));
+</script></body></html>

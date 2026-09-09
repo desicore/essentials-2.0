@@ -1,0 +1,694 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 1.00346925,
+  "result": {
+    "operations": [
+      {
+        "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+        "pageId": "5:422",
+        "createdNodeIds": [
+          "117:574",
+          "117:578",
+          "117:579",
+          "117:580",
+          "117:584",
+          "117:585",
+          "117:589",
+          "117:590",
+          "117:594",
+          "117:595",
+          "117:599",
+          "117:600",
+          "117:604",
+          "117:605",
+          "117:609",
+          "117:610",
+          "117:614",
+          "117:615",
+          "117:619",
+          "117:620",
+          "117:621",
+          "117:625",
+          "117:626",
+          "117:627",
+          "117:631",
+          "117:632",
+          "117:636",
+          "117:637",
+          "117:641",
+          "117:642",
+          "117:646",
+          "117:647",
+          "117:651",
+          "117:652",
+          "117:656",
+          "117:657",
+          "117:661",
+          "117:662",
+          "117:666",
+          "117:667",
+          "117:668",
+          "117:672",
+          "117:673",
+          "117:674",
+          "117:678",
+          "117:679",
+          "117:683",
+          "117:684",
+          "117:688",
+          "117:689",
+          "117:690",
+          "117:694",
+          "117:695",
+          "117:696",
+          "117:697"
+        ],
+        "mutatedNodeIds": [
+          "105:430",
+          "105:431",
+          "105:432",
+          "105:433"
+        ],
+        "sectionRecords": [
+          {
+            "question": "Q5",
+            "nodeId": "105:430",
+            "headingNodeId": "105:431",
+            "synthesisNodeId": "105:432",
+            "questionsNodeId": "105:433",
+            "x": 10676,
+            "y": 1200,
+            "width": 3048,
+            "height": 2597
+          }
+        ],
+        "referenceRecords": [
+          {
+            "id": "refero:671",
+            "question": "Q5",
+            "sectionId": "105:430",
+            "stickyNodeId": "117:574",
+            "sourceNodeId": "117:578",
+            "contextNodeId": "117:579",
+            "reportNodeId": "117:620",
+            "y": 500,
+            "height": 385,
+            "images": [
+              {
+                "referenceId": "refero:671",
+                "index": 0,
+                "nodeId": "117:580",
+                "relativePath": "assets/refero-671/0.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:584",
+                "x": 620,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:671",
+                "index": 1,
+                "nodeId": "117:585",
+                "relativePath": "assets/refero-671/1.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:589",
+                "x": 916,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:671",
+                "index": 3,
+                "nodeId": "117:590",
+                "relativePath": "assets/refero-671/3.jpg",
+                "width": 280,
+                "height": 203,
+                "captionNodeId": "117:594",
+                "x": 1212,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:671",
+                "index": 4,
+                "nodeId": "117:595",
+                "relativePath": "assets/refero-671/4.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:599",
+                "x": 1508,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:671",
+                "index": 6,
+                "nodeId": "117:600",
+                "relativePath": "assets/refero-671/6.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:604",
+                "x": 1804,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:671",
+                "index": 10,
+                "nodeId": "117:605",
+                "relativePath": "assets/refero-671/10.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:609",
+                "x": 2100,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:671",
+                "index": 11,
+                "nodeId": "117:610",
+                "relativePath": "assets/refero-671/11.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:614",
+                "x": 2396,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:671",
+                "index": 12,
+                "nodeId": "117:615",
+                "relativePath": "assets/refero-671/12.jpg",
+                "width": 280,
+                "height": 178,
+                "captionNodeId": "117:619",
+                "x": 2692,
+                "y": 572
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              10,
+              11,
+              12
+            ],
+            "omittedStepIndices": [
+              2,
+              5,
+              7,
+              8,
+              9
+            ]
+          },
+          {
+            "id": "refero:10795",
+            "question": "Q5",
+            "sectionId": "105:430",
+            "stickyNodeId": "117:621",
+            "sourceNodeId": "117:625",
+            "contextNodeId": "117:626",
+            "reportNodeId": "117:667",
+            "y": 965,
+            "height": 340,
+            "images": [
+              {
+                "referenceId": "refero:10795",
+                "index": 0,
+                "nodeId": "117:627",
+                "relativePath": "assets/refero-10795/0.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:631",
+                "x": 620,
+                "y": 1037
+              },
+              {
+                "referenceId": "refero:10795",
+                "index": 1,
+                "nodeId": "117:632",
+                "relativePath": "assets/refero-10795/1.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:636",
+                "x": 916,
+                "y": 1037
+              },
+              {
+                "referenceId": "refero:10795",
+                "index": 2,
+                "nodeId": "117:637",
+                "relativePath": "assets/refero-10795/2.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:641",
+                "x": 1212,
+                "y": 1037
+              },
+              {
+                "referenceId": "refero:10795",
+                "index": 3,
+                "nodeId": "117:642",
+                "relativePath": "assets/refero-10795/3.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:646",
+                "x": 1508,
+                "y": 1037
+              },
+              {
+                "referenceId": "refero:10795",
+                "index": 5,
+                "nodeId": "117:647",
+                "relativePath": "assets/refero-10795/5.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:651",
+                "x": 1804,
+                "y": 1037
+              },
+              {
+                "referenceId": "refero:10795",
+                "index": 6,
+                "nodeId": "117:652",
+                "relativePath": "assets/refero-10795/6.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:656",
+                "x": 2100,
+                "y": 1037
+              },
+              {
+                "referenceId": "refero:10795",
+                "index": 7,
+                "nodeId": "117:657",
+                "relativePath": "assets/refero-10795/7.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:661",
+                "x": 2396,
+                "y": 1037
+              },
+              {
+                "referenceId": "refero:10795",
+                "index": 8,
+                "nodeId": "117:662",
+                "relativePath": "assets/refero-10795/8.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "117:666",
+                "x": 2692,
+                "y": 1037
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8
+            ],
+            "omittedStepIndices": [
+              4
+            ]
+          },
+          {
+            "id": "documentation:canvas-export",
+            "question": "Q5",
+            "sectionId": "105:430",
+            "stickyNodeId": "117:668",
+            "sourceNodeId": "117:672",
+            "contextNodeId": "117:673",
+            "reportNodeId": "117:689",
+            "y": 1385,
+            "height": 650,
+            "images": [
+              {
+                "referenceId": "documentation:canvas-export",
+                "index": 0,
+                "nodeId": "117:674",
+                "relativePath": "assets/documentation/canvas-export-2.png",
+                "width": 280,
+                "height": 16,
+                "captionNodeId": "117:678",
+                "x": 620,
+                "y": 1457
+              },
+              {
+                "referenceId": "documentation:canvas-export",
+                "index": 1,
+                "nodeId": "117:679",
+                "relativePath": "assets/documentation/canvas-export-7.png",
+                "width": 280,
+                "height": 430,
+                "captionNodeId": "117:683",
+                "x": 916,
+                "y": 1457
+              },
+              {
+                "referenceId": "documentation:canvas-export",
+                "index": 2,
+                "nodeId": "117:684",
+                "relativePath": "assets/documentation/canvas-export-15.png",
+                "width": 280,
+                "height": 21,
+                "captionNodeId": "117:688",
+                "x": 1212,
+                "y": 1457
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1,
+              2
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:canvas-export-fields",
+            "question": "Q5",
+            "sectionId": "105:430",
+            "stickyNodeId": "117:690",
+            "sourceNodeId": "117:694",
+            "contextNodeId": "117:695",
+            "reportNodeId": "117:697",
+            "y": 2115,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          }
+        ],
+        "imageTargets": [
+          {
+            "referenceId": "refero:671",
+            "index": 0,
+            "nodeId": "117:580",
+            "relativePath": "assets/refero-671/0.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:584",
+            "x": 620,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:671",
+            "index": 1,
+            "nodeId": "117:585",
+            "relativePath": "assets/refero-671/1.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:589",
+            "x": 916,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:671",
+            "index": 3,
+            "nodeId": "117:590",
+            "relativePath": "assets/refero-671/3.jpg",
+            "width": 280,
+            "height": 203,
+            "captionNodeId": "117:594",
+            "x": 1212,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:671",
+            "index": 4,
+            "nodeId": "117:595",
+            "relativePath": "assets/refero-671/4.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:599",
+            "x": 1508,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:671",
+            "index": 6,
+            "nodeId": "117:600",
+            "relativePath": "assets/refero-671/6.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:604",
+            "x": 1804,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:671",
+            "index": 10,
+            "nodeId": "117:605",
+            "relativePath": "assets/refero-671/10.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:609",
+            "x": 2100,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:671",
+            "index": 11,
+            "nodeId": "117:610",
+            "relativePath": "assets/refero-671/11.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:614",
+            "x": 2396,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:671",
+            "index": 12,
+            "nodeId": "117:615",
+            "relativePath": "assets/refero-671/12.jpg",
+            "width": 280,
+            "height": 178,
+            "captionNodeId": "117:619",
+            "x": 2692,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:10795",
+            "index": 0,
+            "nodeId": "117:627",
+            "relativePath": "assets/refero-10795/0.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:631",
+            "x": 620,
+            "y": 1037
+          },
+          {
+            "referenceId": "refero:10795",
+            "index": 1,
+            "nodeId": "117:632",
+            "relativePath": "assets/refero-10795/1.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:636",
+            "x": 916,
+            "y": 1037
+          },
+          {
+            "referenceId": "refero:10795",
+            "index": 2,
+            "nodeId": "117:637",
+            "relativePath": "assets/refero-10795/2.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:641",
+            "x": 1212,
+            "y": 1037
+          },
+          {
+            "referenceId": "refero:10795",
+            "index": 3,
+            "nodeId": "117:642",
+            "relativePath": "assets/refero-10795/3.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:646",
+            "x": 1508,
+            "y": 1037
+          },
+          {
+            "referenceId": "refero:10795",
+            "index": 5,
+            "nodeId": "117:647",
+            "relativePath": "assets/refero-10795/5.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:651",
+            "x": 1804,
+            "y": 1037
+          },
+          {
+            "referenceId": "refero:10795",
+            "index": 6,
+            "nodeId": "117:652",
+            "relativePath": "assets/refero-10795/6.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:656",
+            "x": 2100,
+            "y": 1037
+          },
+          {
+            "referenceId": "refero:10795",
+            "index": 7,
+            "nodeId": "117:657",
+            "relativePath": "assets/refero-10795/7.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:661",
+            "x": 2396,
+            "y": 1037
+          },
+          {
+            "referenceId": "refero:10795",
+            "index": 8,
+            "nodeId": "117:662",
+            "relativePath": "assets/refero-10795/8.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "117:666",
+            "x": 2692,
+            "y": 1037
+          },
+          {
+            "referenceId": "documentation:canvas-export",
+            "index": 0,
+            "nodeId": "117:674",
+            "relativePath": "assets/documentation/canvas-export-2.png",
+            "width": 280,
+            "height": 16,
+            "captionNodeId": "117:678",
+            "x": 620,
+            "y": 1457
+          },
+          {
+            "referenceId": "documentation:canvas-export",
+            "index": 1,
+            "nodeId": "117:679",
+            "relativePath": "assets/documentation/canvas-export-7.png",
+            "width": 280,
+            "height": 430,
+            "captionNodeId": "117:683",
+            "x": 916,
+            "y": 1457
+          },
+          {
+            "referenceId": "documentation:canvas-export",
+            "index": 2,
+            "nodeId": "117:684",
+            "relativePath": "assets/documentation/canvas-export-15.png",
+            "width": 280,
+            "height": 21,
+            "captionNodeId": "117:688",
+            "x": 1212,
+            "y": 1457
+          }
+        ]
+      },
+      {
+        "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+        "pageId": "5:422",
+        "createdNodeIds": [
+          "118:624",
+          "118:628",
+          "118:629",
+          "118:630",
+          "118:631",
+          "118:632",
+          "118:636",
+          "118:637",
+          "118:638",
+          "118:639",
+          "118:640",
+          "118:644",
+          "118:645",
+          "118:646",
+          "118:647"
+        ],
+        "mutatedNodeIds": [
+          "105:434",
+          "105:435",
+          "105:436",
+          "105:437"
+        ],
+        "sectionRecords": [
+          {
+            "question": "Q6",
+            "nodeId": "105:434",
+            "headingNodeId": "105:435",
+            "synthesisNodeId": "105:436",
+            "questionsNodeId": "105:437",
+            "x": 13904,
+            "y": 1200,
+            "width": 2300,
+            "height": 1840
+          }
+        ],
+        "referenceRecords": [
+          {
+            "id": "documentation:canvas-nrps-roster",
+            "question": "Q6",
+            "sectionId": "105:434",
+            "stickyNodeId": "118:624",
+            "sourceNodeId": "118:628",
+            "contextNodeId": "118:629",
+            "reportNodeId": "118:631",
+            "y": 500,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:canvas-nrps-identifiers",
+            "question": "Q6",
+            "sectionId": "105:434",
+            "stickyNodeId": "118:632",
+            "sourceNodeId": "118:636",
+            "contextNodeId": "118:637",
+            "reportNodeId": "118:639",
+            "y": 882,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:canvas-enrollment-status",
+            "question": "Q6",
+            "sectionId": "105:434",
+            "stickyNodeId": "118:640",
+            "sourceNodeId": "118:644",
+            "contextNodeId": "118:645",
+            "reportNodeId": "118:647",
+            "y": 1264,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          }
+        ],
+        "imageTargets": []
+      }
+    ],
+    "error": null
+  }
+}

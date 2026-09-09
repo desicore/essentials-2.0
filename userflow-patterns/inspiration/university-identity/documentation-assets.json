@@ -1,0 +1,191 @@
+[
+  {
+    "source": "entra-on-demand",
+    "source_index": 0,
+    "title": "Screenshot that shows the Microsoft Entra admin center UI for provisioning a user on demand.",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/provision-on-demand/on-demand-provision-user.png",
+    "local": "assets/documentation/entra-on-demand-0.png",
+    "width": 1200,
+    "height": 640,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "entra-on-demand",
+    "source_index": 1,
+    "title": "Screenshot that shows the successful on-demand provisioning of a user.",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/provision-on-demand/success-on-demand-provision.png",
+    "local": "assets/documentation/entra-on-demand-1.png",
+    "width": 1200,
+    "height": 640,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "github-linking",
+    "source_index": 1,
+    "title": "Screenshot of the people summary for @octocat. A link, labeled \"SAML identity linked\", is highlighted with an orange outline.",
+    "url": "https://docs.github.com/assets/cb-36907/mw-1440/images/help/saml/saml-identity-linked.webp",
+    "local": "assets/documentation/github-linking-1.png",
+    "width": 550,
+    "height": 772,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "atlassian-group-conflicts",
+    "source_index": 0,
+    "title": "A list of group names, their product access, and the changes that will happen with sync",
+    "url": "https://images.ctfassets.net/zsv3d0ugroxu/2QFZFXi609obpZKkubMoVy/34b245d968f486ea09fc6810aa18f340/diagram_UserProvisioning2.png",
+    "local": "assets/documentation/atlassian-group-conflicts-0.png",
+    "width": 1465,
+    "height": 589,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "atlassian-jit",
+    "source_index": 0,
+    "title": "Automatically claim accounts from the verified domain",
+    "url": "https://images.ctfassets.net/zsv3d0ugroxu/1xHsn_I89su7jRtxTr8Aj/8716cd9a70c679428c5fa1b20df3ad99/Screenshot_2025-01-28_at_2.43.14_PM.png",
+    "local": "assets/documentation/atlassian-jit-0.png",
+    "width": 3456,
+    "height": 962,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt",
+    "source_alt": "(Auto-migrated image: description temporarily unavailable)"
+  },
+  {
+    "source": "atlassian-jit",
+    "source_index": 1,
+    "title": "Require single sign-on in the default authentication policy",
+    "url": "https://images.ctfassets.net/zsv3d0ugroxu/9SI-vZbeuHl7Ag0L9kDKO/8332fe8f7cac73c6525141c83cd8047d/image-2025-1-28_14-48-16.png",
+    "local": "assets/documentation/atlassian-jit-1.png",
+    "width": 1978,
+    "height": 1092,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt",
+    "source_alt": "(Auto-migrated image: description temporarily unavailable)"
+  },
+  {
+    "source": "entra-lifecycle",
+    "source_index": 3,
+    "title": "Disable a user",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/how-provisioning-works/disable-user.png",
+    "local": "assets/documentation/entra-lifecycle-3.png",
+    "width": 1199,
+    "height": 532,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "entra-lifecycle",
+    "source_index": 4,
+    "title": "Delete a user",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/how-provisioning-works/delete-user.png",
+    "local": "assets/documentation/entra-lifecycle-4.png",
+    "width": 1199,
+    "height": 533,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "entra-status",
+    "source_index": 0,
+    "title": "Summary report",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/check-status-user-account-provisioning/provisioning-progress-bar-section.png",
+    "local": "assets/documentation/entra-status-0.png",
+    "width": 602,
+    "height": 537,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "entra-logs",
+    "source_index": 0,
+    "title": "Screenshot of the download button in the provisioning logs.",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/monitoring-health/media/howto-analyze-provisioning-logs/download.png",
+    "local": "assets/documentation/entra-logs-0.png",
+    "width": 989,
+    "height": 319,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "canvas-export",
+    "source_index": 2,
+    "title": "Account Settings tab with the Reports tab highlighted",
+    "url": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/GCH0S3Y79RLN/795cd72b-e879-429d-8c91-be69a64a915e.png",
+    "local": "assets/documentation/canvas-export-2.png",
+    "width": 855,
+    "height": 49,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "canvas-export",
+    "source_index": 3,
+    "title": "Reports page with the report name, help icon, and last run time highlighted",
+    "url": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/2TD8X0N969JA/5f0b544e-6008-4c69-9ede-4e91c5daba33.png",
+    "local": "assets/documentation/canvas-export-3.png",
+    "width": 855,
+    "height": 293,
+    "selected": false,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "canvas-export",
+    "source_index": 4,
+    "title": "Reports page with the Configure button highlighted",
+    "url": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/9B55DCWT5Y79/912d33f9-3769-4865-a53c-340c40454f66.png",
+    "local": "assets/documentation/canvas-export-4.png",
+    "width": 855,
+    "height": 196,
+    "selected": false,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "canvas-export",
+    "source_index": 5,
+    "title": "Report configuration with the Term menu and Include Deleted Objects checkbox highlighted",
+    "url": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/EEPVX1IBCOM3/8b0f059d-4a6b-48ac-9c7a-6ffc321c0719.png",
+    "local": "assets/documentation/canvas-export-5.png",
+    "width": 411,
+    "height": 214,
+    "selected": false,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "canvas-export",
+    "source_index": 7,
+    "title": "Report configuration with the CSV file, Created by SIS, and Include Deleted Objects checkboxes highlighted",
+    "url": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/9792I7LZAITQ/3f4bc838-81ef-4b64-a1c6-be2596c295c9.png",
+    "local": "assets/documentation/canvas-export-7.png",
+    "width": 404,
+    "height": 621,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "canvas-export",
+    "source_index": 14,
+    "title": "Report configuration with the Run Report button highlighted",
+    "url": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/HG97VTTQ3XMU/c82108d4-dc82-4a3b-aaf3-19ed3ad3d42d.png",
+    "local": "assets/documentation/canvas-export-14.png",
+    "width": 411,
+    "height": 214,
+    "selected": false,
+    "asset_kind": "official documentation screenshot excerpt"
+  },
+  {
+    "source": "canvas-export",
+    "source_index": 15,
+    "title": "Reports page with the Download icon highlighted",
+    "url": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/DN03OG3FSO20/339947cb-629e-4782-923c-7dc8c06a13a6.png",
+    "local": "assets/documentation/canvas-export-15.png",
+    "width": 831,
+    "height": 62,
+    "selected": true,
+    "asset_kind": "official documentation screenshot excerpt"
+  }
+]

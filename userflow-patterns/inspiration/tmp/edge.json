@@ -1,0 +1,1 @@
+{"title":"<script>window.injected=true</script>","questions":[{"id":"Q10","title":"Ten"},{"id":"Q2","title":"Two","answer":"Existing answer"}],"references":[{"id":"../odd","app":"<img src=x onerror=\"window.injected=true\">","title":"Escape me","question":"Q2","url":"javascript:alert(1)"},{"id":"unassigned","question":"Q99","images":[]}]}

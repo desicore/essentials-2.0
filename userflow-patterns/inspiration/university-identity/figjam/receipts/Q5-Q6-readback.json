@@ -1,0 +1,281 @@
+{
+  "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+  "pageId": "5:422",
+  "createdNodeIds": [],
+  "mutatedNodeIds": [],
+  "images": [
+    {
+      "referenceId": "refero:671",
+      "index": 0,
+      "nodeId": "117:580",
+      "imageHash": "ed892e13d0ea0ee46d92d23b0f138ac0428bdfeb",
+      "expectedImageHash": "ed892e13d0ea0ee46d92d23b0f138ac0428bdfeb",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:671",
+      "index": 1,
+      "nodeId": "117:585",
+      "imageHash": "562fb0f89baf58a89562494a7e92802896555cb4",
+      "expectedImageHash": "562fb0f89baf58a89562494a7e92802896555cb4",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:671",
+      "index": 3,
+      "nodeId": "117:590",
+      "imageHash": "721b9860a2c2f0e768d0fc8d6b8acc04b1c5792c",
+      "expectedImageHash": "721b9860a2c2f0e768d0fc8d6b8acc04b1c5792c",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 203,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:671",
+      "index": 4,
+      "nodeId": "117:595",
+      "imageHash": "5dd9616093f07b6159b545d964a792e240f3c7a9",
+      "expectedImageHash": "5dd9616093f07b6159b545d964a792e240f3c7a9",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:671",
+      "index": 6,
+      "nodeId": "117:600",
+      "imageHash": "0d35c9b5f3ff085c2c435d1aba9b7bcb32cce390",
+      "expectedImageHash": "0d35c9b5f3ff085c2c435d1aba9b7bcb32cce390",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:671",
+      "index": 10,
+      "nodeId": "117:605",
+      "imageHash": "7b3351d5b1eeb66530a0793d20da0d8ad99f9c42",
+      "expectedImageHash": "7b3351d5b1eeb66530a0793d20da0d8ad99f9c42",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:671",
+      "index": 11,
+      "nodeId": "117:610",
+      "imageHash": "0a64c8c058b4c15490b156df4cd83a85ddc1d862",
+      "expectedImageHash": "0a64c8c058b4c15490b156df4cd83a85ddc1d862",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:671",
+      "index": 12,
+      "nodeId": "117:615",
+      "imageHash": "188c75eb75290421b0fd17a6c6c99d8ce3ec67f2",
+      "expectedImageHash": "188c75eb75290421b0fd17a6c6c99d8ce3ec67f2",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 178,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:10795",
+      "index": 0,
+      "nodeId": "117:627",
+      "imageHash": "acc482da13aa32fcbde8be2d51d6307a2e41d5de",
+      "expectedImageHash": "acc482da13aa32fcbde8be2d51d6307a2e41d5de",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:10795",
+      "index": 1,
+      "nodeId": "117:632",
+      "imageHash": "3878cc6e3192fb3fa0d9605a32b2ac5158b7bfe7",
+      "expectedImageHash": "3878cc6e3192fb3fa0d9605a32b2ac5158b7bfe7",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:10795",
+      "index": 2,
+      "nodeId": "117:637",
+      "imageHash": "567dab049fa18dc5907df22fcc9b1e3b49a23c3c",
+      "expectedImageHash": "567dab049fa18dc5907df22fcc9b1e3b49a23c3c",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:10795",
+      "index": 3,
+      "nodeId": "117:642",
+      "imageHash": "84071c287a0fd69036d08d82aa5c58ee4dfc8941",
+      "expectedImageHash": "84071c287a0fd69036d08d82aa5c58ee4dfc8941",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:10795",
+      "index": 5,
+      "nodeId": "117:647",
+      "imageHash": "f9ef02ade1de6a93e35d38bc0d93065e48b7b2cc",
+      "expectedImageHash": "f9ef02ade1de6a93e35d38bc0d93065e48b7b2cc",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:10795",
+      "index": 6,
+      "nodeId": "117:652",
+      "imageHash": "d394a5f081c8c5025074f9c82345cf071201e8bd",
+      "expectedImageHash": "d394a5f081c8c5025074f9c82345cf071201e8bd",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:10795",
+      "index": 7,
+      "nodeId": "117:657",
+      "imageHash": "738f56a4084d1ec430d22dd3d3a0ff1f2173d7dc",
+      "expectedImageHash": "738f56a4084d1ec430d22dd3d3a0ff1f2173d7dc",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "refero:10795",
+      "index": 8,
+      "nodeId": "117:662",
+      "imageHash": "a97da03ffdcc4f74b4b737f87016e896d770a05f",
+      "expectedImageHash": "a97da03ffdcc4f74b4b737f87016e896d770a05f",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 158,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "documentation:canvas-export",
+      "index": 0,
+      "nodeId": "117:674",
+      "imageHash": "340a6307ac6fbe9e4b9320836021a0de968269f9",
+      "expectedImageHash": "340a6307ac6fbe9e4b9320836021a0de968269f9",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 16,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "documentation:canvas-export",
+      "index": 1,
+      "nodeId": "117:679",
+      "imageHash": "9efa251612ab6dd28e9e977c8eb2347ec49f6e84",
+      "expectedImageHash": "9efa251612ab6dd28e9e977c8eb2347ec49f6e84",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 430,
+      "residentVerified": true
+    },
+    {
+      "referenceId": "documentation:canvas-export",
+      "index": 2,
+      "nodeId": "117:684",
+      "imageHash": "ae545bd6b0034257bf201dd24c511eae53a8dc42",
+      "expectedImageHash": "ae545bd6b0034257bf201dd24c511eae53a8dc42",
+      "hasImageFill": true,
+      "hashMatches": true,
+      "width": 280,
+      "height": 21,
+      "residentVerified": true
+    }
+  ],
+  "references": [
+    {
+      "id": "refero:671",
+      "hasAnnotation": true,
+      "hasSource": true
+    },
+    {
+      "id": "refero:10795",
+      "hasAnnotation": true,
+      "hasSource": true
+    },
+    {
+      "id": "documentation:canvas-export",
+      "hasAnnotation": true,
+      "hasSource": true
+    },
+    {
+      "id": "documentation:canvas-export-fields",
+      "hasAnnotation": true,
+      "hasSource": true
+    },
+    {
+      "id": "documentation:canvas-nrps-roster",
+      "hasAnnotation": true,
+      "hasSource": true
+    },
+    {
+      "id": "documentation:canvas-nrps-identifiers",
+      "hasAnnotation": true,
+      "hasSource": true
+    },
+    {
+      "id": "documentation:canvas-enrollment-status",
+      "hasAnnotation": true,
+      "hasSource": true
+    }
+  ],
+  "issues": [],
+  "residentCheck": {
+    "uniqueHashes": 19,
+    "positiveDimensions": 19,
+    "errors": []
+  },
+  "structuralPassed": true,
+  "visualVerificationRequired": true
+}

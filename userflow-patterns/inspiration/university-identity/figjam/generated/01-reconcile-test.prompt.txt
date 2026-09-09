@@ -1,0 +1,19 @@
+Apply a targeted authorized recovery to the test image only. The supported upload_assets tool/raw POST returned HTTP200 and imageHash ad30546d76a88165564171a353af89280591ade5, but readback shows target100:423 has only its original solid fill. Do not request another upload or fetch outside images. Reusing an already-uploaded hash in the same file is explicitly supported.
+
+Read the local mandatory figma-use and figma-use-figjam SKILL.md files (paths in prior operator instructions, /Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/) and figma-use/references/api-reference.md Images section. Then use_figma fileKey tN2AM7RZD2InF1LYnN0zcn skillNames figma-use,figma-use-figjam with this exact code:
+
+const page=await figma.getNodeByIdAsync('5:422');
+if(!page||page.type!=='PAGE')throw new Error('Page2 missing');
+await figma.setCurrentPageAsync(page);
+const target=await figma.getNodeByIdAsync('100:423');
+if(!target||target.type!=='SHAPE_WITH_TEXT')throw new Error('Wrong image target');
+let p=target;while(p&&p.type!=='PAGE')p=p.parent;if(!p||p.id!=='5:422')throw new Error('Wrong target page');
+const hash='ad30546d76a88165564171a353af89280591ade5';
+const image=figma.getImageByHash(hash);if(!image)throw new Error('Previously uploaded image hash unavailable in this file');
+const imageSize=await image.getSizeAsync();
+await figma.loadFontAsync(target.text.fontName);
+target.fills=[{type:'IMAGE',imageHash:hash,scaleMode:'FIT'}];
+await target.screenshot({scale:2});
+return {fileKey:'tN2AM7RZD2InF1LYnN0zcn',pageId:page.id,createdNodeIds:[],mutatedNodeIds:[target.id],targetNodeId:target.id,imageHash:hash,imageSize,width:target.width,height:target.height,fills:target.fills};
+
+Inspect the inline screenshot from the successful script: identify actual Zendesk SAML setup fields or report blank. If script fails, stop with actual error, no blind retries. If success, immediately call get_screenshot exactnode100:423 to verify persistence in a separate read call. Return JSON with exact use_figma returned object under operation, visual assessment inline and persistedScreenshot, all affected IDs, and screenshot artifact URL if present. No other mutations.

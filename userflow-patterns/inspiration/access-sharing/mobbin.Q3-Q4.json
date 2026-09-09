@@ -1,0 +1,506 @@
+[
+  {
+    "id": "mobbin:b1cd6357-2ef6-4ba2-80e7-5256dc32bf7c",
+    "source": "mobbin",
+    "app": "Ghost",
+    "title": "Importing members",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/b1cd6357-2ef6-4ba2-80e7-5256dc32bf7c",
+    "images": [
+      "https://mobbin.com/api/mcp/short/oyAKpWbF",
+      "https://mobbin.com/api/mcp/short/g7PaWZNh",
+      "https://mobbin.com/api/mcp/short/R3ybbHy2",
+      "https://mobbin.com/api/mcp/short/GJwJ0kGZ",
+      "https://mobbin.com/api/mcp/short/6AbhtJJ5",
+      "https://mobbin.com/api/mcp/short/Rj8sVNvi",
+      "https://mobbin.com/api/mcp/short/EjwWnbfo",
+      "https://mobbin.com/api/mcp/short/GElCXF6J",
+      "https://mobbin.com/api/mcp/short/Lo7wYTqw",
+      "https://mobbin.com/api/mcp/short/Kwo62qTz"
+    ],
+    "question": "Q3",
+    "take": "CSV import as column-mapping table (field / sample data / import as), upserts on matching email, and auto-labels the batch 'Import <date>' so the cohort is findable afterwards.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:34a0e809-69b1-4d32-9687-449918865efd",
+    "source": "mobbin",
+    "app": "Circle",
+    "title": "Importing members",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/34a0e809-69b1-4d32-9687-449918865efd",
+    "images": [
+      "https://mobbin.com/api/mcp/short/rAezIL3w",
+      "https://mobbin.com/api/mcp/short/1Qv1vOzp",
+      "https://mobbin.com/api/mcp/short/F9VsT3oC",
+      "https://mobbin.com/api/mcp/short/ZIjtZ0gy",
+      "https://mobbin.com/api/mcp/short/6cxe0DYA",
+      "https://mobbin.com/api/mcp/short/LI2KXhx3"
+    ],
+    "question": "Q3",
+    "take": "'Enter manually | Import CSV' is a toggle inside the same Invite wizard (not a buried settings page), with a template CSV link and tag assignment for the whole batch; answers the 'batch upload existed but nobody found it' problem.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:aaa47dba-39f8-4997-ae31-4a6c6624265e",
+    "source": "mobbin",
+    "app": "Circle",
+    "title": "Importing member from CSV",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/aaa47dba-39f8-4997-ae31-4a6c6624265e",
+    "images": [
+      "https://mobbin.com/api/mcp/short/V6qXnkOo",
+      "https://mobbin.com/api/mcp/short/HjtrxsaS",
+      "https://mobbin.com/api/mcp/short/GugXOjRa",
+      "https://mobbin.com/api/mcp/short/wEP1WEDc",
+      "https://mobbin.com/api/mcp/short/FJWzMjfl",
+      "https://mobbin.com/api/mcp/short/LE2uPKvS",
+      "https://mobbin.com/api/mcp/short/N8sZ4RyF"
+    ],
+    "question": "Q3",
+    "take": "Bulk import page shows the invite email preview and defaults before upload, then a 'Bulk logs' table (Pending -> Completed 2/2, input + output CSV) so a tech can verify what actually landed.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:246ac8d9-3fc6-42e1-a04c-aede744f7879",
+    "source": "mobbin",
+    "app": "Customer.io",
+    "title": "Mapping fields",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/246ac8d9-3fc6-42e1-a04c-aede744f7879",
+    "images": [
+      "https://mobbin.com/api/mcp/short/61Y3iAGy",
+      "https://mobbin.com/api/mcp/short/i6TjwsBW",
+      "https://mobbin.com/api/mcp/short/TDRkDgU3",
+      "https://mobbin.com/api/mcp/short/9gUpW0s4"
+    ],
+    "question": "Q3",
+    "take": "3-step Upload / Map fields / Review; the review screen counts new vs existing people, warnings and errors, and offers 'add these people to a new or existing segment' — i.e. import creates the cohort in one go.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:47c6268d-6177-487e-9420-837030e1b1c3",
+    "source": "mobbin",
+    "app": "Google Workspace",
+    "title": "Manage members",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/47c6268d-6177-487e-9420-837030e1b1c3",
+    "images": [
+      "https://mobbin.com/api/mcp/short/xRQqMVnN",
+      "https://mobbin.com/api/mcp/short/y4b6NDgX",
+      "https://mobbin.com/api/mcp/short/OZd8o1G6"
+    ],
+    "question": "Q3",
+    "take": "Group page puts Add members / Bulk upload members / Download members side by side, and separates direct vs indirect (nested) members — a model for cohorts that contain sub-groups.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:44413772-2ae1-4a33-85e7-df96010438b9",
+    "source": "mobbin",
+    "app": "Linear",
+    "title": "Inviting team members",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/44413772-2ae1-4a33-85e7-df96010438b9",
+    "images": [
+      "https://mobbin.com/api/mcp/short/vlhXY9dW",
+      "https://mobbin.com/api/mcp/short/EyA1aIae",
+      "https://mobbin.com/api/mcp/short/UR41iFD7",
+      "https://mobbin.com/api/mcp/short/J2wWqrrE",
+      "https://mobbin.com/api/mcp/short/R0r0H7rl"
+    ],
+    "question": "Q3",
+    "take": "Paste comma-separated emails + optional 'Add to team' in one dialog; invitees appear immediately in the members table with '(Invited)' status and their team chip, so the roster exists before anyone accepts.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:4337ee88-c5cd-431d-ab23-cf3cfaa34354",
+    "source": "mobbin",
+    "app": "Front",
+    "title": "Creating a teammate group",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/4337ee88-c5cd-431d-ab23-cf3cfaa34354",
+    "images": [
+      "https://mobbin.com/api/mcp/short/qYeezfsD",
+      "https://mobbin.com/api/mcp/short/pPwRB51e",
+      "https://mobbin.com/api/mcp/short/6rA6Hq7A",
+      "https://mobbin.com/api/mcp/short/nCHiII6c",
+      "https://mobbin.com/api/mcp/short/rSfTYHAc",
+      "https://mobbin.com/api/mcp/short/eURb9lIc",
+      "https://mobbin.com/api/mcp/short/yro5QQsv"
+    ],
+    "question": "Q3",
+    "take": "Create-group form offers both a checkbox picker of existing people AND 'Download CSV template / Import CSV' inline — small groups by hand, big cohorts by file, same screen.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:ce64d3f8-b527-4b9f-a350-770b20cd1027",
+    "source": "mobbin",
+    "app": "Notion",
+    "title": "Creating a group",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/ce64d3f8-b527-4b9f-a350-770b20cd1027",
+    "images": [
+      "https://mobbin.com/api/mcp/short/Hx5Di6Tq",
+      "https://mobbin.com/api/mcp/short/GIWkJxyN",
+      "https://mobbin.com/api/mcp/short/F9QzCHn5",
+      "https://mobbin.com/api/mcp/short/8YjEce4I",
+      "https://mobbin.com/api/mcp/short/5p3qarss",
+      "https://mobbin.com/api/mcp/short/bulB0MPV",
+      "https://mobbin.com/api/mcp/short/LMsx2QeL",
+      "https://mobbin.com/api/mcp/short/cCnImxvF"
+    ],
+    "question": "Q3",
+    "take": "People settings use Members / Guests / Groups tabs; a group is an expandable row with inline 'Add members', and the members table shows each person's teamspaces and groups — cohort membership is visible from both sides.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:a31922e1-44e3-4be6-a0b3-5dee4d8005bc",
+    "source": "mobbin",
+    "app": "Grammarly",
+    "title": "Invite members dialog (link, email, 'Import list' nudge)",
+    "kind": "screen",
+    "url": "https://mobbin.com/screens/a31922e1-44e3-4be6-a0b3-5dee4d8005bc",
+    "images": [
+      "https://mobbin.com/api/mcp/short/PbNwETbG"
+    ],
+    "question": "Q3",
+    "take": "Invite dialog surfaces bulk import as a one-line nudge under the email box ('Want to add emails in bulk? Import list') plus a domain-restricted join link — discoverability of bulk without a separate feature.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:1c57f1f3-5e23-49b2-ad6a-c4cba92bd9c4",
+    "source": "mobbin",
+    "app": "Slite",
+    "title": "Invite teammates (link, Google/Slack contacts, emails)",
+    "kind": "screen",
+    "url": "https://mobbin.com/screens/1c57f1f3-5e23-49b2-ad6a-c4cba92bd9c4",
+    "images": [
+      "https://mobbin.com/api/mcp/short/pPpk4yM7"
+    ],
+    "question": "Q3",
+    "take": "Three entry paths stacked on one card: join link, pull from Google/Slack contacts, or type emails — a join link/code is the cheapest answer to a cohort that churns until week one (learners self-enrol).",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:733cc632-9935-41a9-9536-86e792611638",
+    "source": "mobbin",
+    "app": "Vimeo",
+    "title": "Event registrants list with 'Sync from email list' and 'Upload CSV'",
+    "kind": "screen",
+    "url": "https://mobbin.com/screens/733cc632-9935-41a9-9536-86e792611638",
+    "images": [
+      "https://mobbin.com/api/mcp/short/w66TfdlX"
+    ],
+    "question": "Q3",
+    "take": "Roster header offers 'Sync from email list' next to 'Upload CSV' with an in-page progress toast; sync (continuous, from a source of truth) and upload (one-off) are distinct verbs, matching SIS/Canvas vs spreadsheet.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:f9e90f25-5d36-4474-86a5-d61fbc08051b",
+    "source": "mobbin",
+    "app": "Deel",
+    "title": "Uploading a CSV (bulk edit of workers)",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/f9e90f25-5d36-4474-86a5-d61fbc08051b",
+    "images": [
+      "https://mobbin.com/api/mcp/short/rDV7o1v9",
+      "https://mobbin.com/api/mcp/short/9RQPOc5X",
+      "https://mobbin.com/api/mcp/short/YgsWxyiF",
+      "https://mobbin.com/api/mcp/short/IsNsidmt",
+      "https://mobbin.com/api/mcp/short/ckUqBwfX",
+      "https://mobbin.com/api/mcp/short/4sNDfTBk",
+      "https://mobbin.com/api/mcp/short/kvgc70te",
+      "https://mobbin.com/api/mcp/short/fyOgPiw7",
+      "https://mobbin.com/api/mcp/short/yVSQp9gh",
+      "https://mobbin.com/api/mcp/short/NmCTqnv6",
+      "https://mobbin.com/api/mcp/short/GG4C3FrF",
+      "https://mobbin.com/api/mcp/short/sjLSE6hV"
+    ],
+    "question": "Q3",
+    "take": "COUNTER-EXAMPLE: download-edit-upload-validate-choose-review, a 4-stage wizard in a full-screen takeover; right for 300 payroll records, far too heavy for a sim tech adding a 4-10 learner group.",
+    "counter_example": true,
+    "selected": false,
+    "crop": ""
+  },
+
+  {
+    "id": "mobbin:7f0ede33-3db2-426e-870c-99f42747c5d1",
+    "source": "mobbin",
+    "app": "Gamma",
+    "title": "Changing a member role",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/7f0ede33-3db2-426e-870c-99f42747c5d1",
+    "images": [
+      "https://mobbin.com/api/mcp/short/BGheoITV",
+      "https://mobbin.com/api/mcp/short/x37J3LsX",
+      "https://mobbin.com/api/mcp/short/4WvH1TUP"
+    ],
+    "question": "Q4",
+    "take": "The floor: exactly two roles (Admin / Member), each with a one-line description in the dropdown, 'Remove from workspace' as the third option; role changes are a single click with a toast, no confirm.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:7e43776a-22eb-433a-b8a8-66c09235280a",
+    "source": "mobbin",
+    "app": "Obvious",
+    "title": "Invite member with Guest / Member / Admin / Owner dropdown",
+    "kind": "screen",
+    "url": "https://mobbin.com/screens/7e43776a-22eb-433a-b8a8-66c09235280a",
+    "images": [
+      "https://mobbin.com/api/mcp/short/d4FzihNE"
+    ],
+    "question": "Q4",
+    "take": "The canonical 4-role ladder with descriptions inline at invite time: Guest 'only projects they're invited to', Member 'create and access projects', Admin 'manage members and settings', Owner 'billing and transfer'.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:82917d93-5b95-4339-863b-0f652695dddc",
+    "source": "mobbin",
+    "app": "Height",
+    "title": "Changing a role",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/82917d93-5b95-4339-863b-0f652695dddc",
+    "images": [
+      "https://mobbin.com/api/mcp/short/uA5Ykfp0",
+      "https://mobbin.com/api/mcp/short/op99le9W",
+      "https://mobbin.com/api/mcp/short/J9F0vBiR",
+      "https://mobbin.com/api/mcp/short/p7QuJA1g"
+    ],
+    "question": "Q4",
+    "take": "Users page is split into Invited / Guests / Members sections; a role cell offers 'Convert to guest' / 'Convert to admin' / 'Remove' with a lightweight inline confirm — guest is a conversion, not a separate account type.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:dc476b26-8776-496c-8ab3-4ffe267aeea3",
+    "source": "mobbin",
+    "app": "Expensify",
+    "title": "Editing member role",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/dc476b26-8776-496c-8ab3-4ffe267aeea3",
+    "images": [
+      "https://mobbin.com/api/mcp/short/gyGxjnr2",
+      "https://mobbin.com/api/mcp/short/89ShXtoK",
+      "https://mobbin.com/api/mcp/short/52xn7FT3",
+      "https://mobbin.com/api/mcp/short/ymELxIiR",
+      "https://mobbin.com/api/mcp/short/vdixpsje"
+    ],
+    "question": "Q4",
+    "take": "Three roles (Employee / Auditor / Admin) as a segmented control with the selected role's description underneath; members table also has 'Import from spreadsheet' and a join link right in the header.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:342f1e42-56cb-4715-b02b-0085978ef87c",
+    "source": "mobbin",
+    "app": "Slack",
+    "title": "Inviting people (guest)",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/342f1e42-56cb-4715-b02b-0085978ef87c",
+    "images": [
+      "https://mobbin.com/api/mcp/short/BTHyxkeY",
+      "https://mobbin.com/api/mcp/short/Gcj7yq2W",
+      "https://mobbin.com/api/mcp/short/KjfDetYW",
+      "https://mobbin.com/api/mcp/short/aQ78b8bp",
+      "https://mobbin.com/api/mcp/short/IKEbvuXc",
+      "https://mobbin.com/api/mcp/short/iK5oskET",
+      "https://mobbin.com/api/mcp/short/hxy7fzdo",
+      "https://mobbin.com/api/mcp/short/qmmH6Q79",
+      "https://mobbin.com/api/mcp/short/gwZqBqOn",
+      "https://mobbin.com/api/mcp/short/794plJ9y"
+    ],
+    "question": "Q4",
+    "take": "Switching 'Invite as' to Guest progressively reveals required channels + an expiration date; a guest is scoped to content and time — the pattern for simulated patients or visiting faculty without a dedicated global role.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:c8b198c5-09da-45fc-b1a2-15f21edda5c1",
+    "source": "mobbin",
+    "app": "Twist",
+    "title": "Downgrading a member",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/c8b198c5-09da-45fc-b1a2-15f21edda5c1",
+    "images": [
+      "https://mobbin.com/api/mcp/short/6aY5CjcC",
+      "https://mobbin.com/api/mcp/short/N3uS7Ebs",
+      "https://mobbin.com/api/mcp/short/IOV8pxSi",
+      "https://mobbin.com/api/mcp/short/5ZikmIUQ",
+      "https://mobbin.com/api/mcp/short/zcIEOmMD"
+    ],
+    "question": "Q4",
+    "take": "Member -> Guest downgrade opens a confirm that spells out the consequences ('can only access channels they've been invited to, can't invite members') with an explicit 'Yes, I'm absolutely sure' checkbox.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:dd458c76-9c8e-4edb-802b-0f06a16ef0b9",
+    "source": "mobbin",
+    "app": "Notion",
+    "title": "Inviting a guest",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/dd458c76-9c8e-4edb-802b-0f06a16ef0b9",
+    "images": [
+      "https://mobbin.com/api/mcp/short/LVfLmYw9",
+      "https://mobbin.com/api/mcp/short/65Ledd2w",
+      "https://mobbin.com/api/mcp/short/PZorQvQc",
+      "https://mobbin.com/api/mcp/short/pNVrLh7b",
+      "https://mobbin.com/api/mcp/short/RfsFQi5j",
+      "https://mobbin.com/api/mcp/short/vg6BWTG9",
+      "https://mobbin.com/api/mcp/short/zId9FzQM",
+      "https://mobbin.com/api/mcp/short/16mmIi17",
+      "https://mobbin.com/api/mcp/short/coqEv4TT",
+      "https://mobbin.com/api/mcp/short/NDGAERgP",
+      "https://mobbin.com/api/mcp/short/D6sM409Q"
+    ],
+    "question": "Q4",
+    "take": "Per-item escape hatch on top of workspace roles: Share panel lists people (with 'Guest' badge), the teamspace, and 'General access: Everyone at <workspace>', each with its own Full access / Can edit / Can comment level.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:d9c973e5-bd71-44c2-8322-6b383e50a263",
+    "source": "mobbin",
+    "app": "Coda",
+    "title": "Updating sharing permissions",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/d9c973e5-bd71-44c2-8322-6b383e50a263",
+    "images": [
+      "https://mobbin.com/api/mcp/short/qY5AoLdK",
+      "https://mobbin.com/api/mcp/short/LsXqdvMg",
+      "https://mobbin.com/api/mcp/short/n7Wvwmfz"
+    ],
+    "question": "Q4",
+    "take": "Share dialog stacks audience rows — anyone with link / anyone in workspace / inherited from folder (greyed) / named people — each with Can view / comment / edit / No access; inherited rows are shown but locked.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:727068f2-16d1-4bc4-ae63-e3de1cc1160c",
+    "source": "mobbin",
+    "app": "GitBook",
+    "title": "Share space with 'Inherited' org access and explicit per-person role",
+    "kind": "screen",
+    "url": "https://mobbin.com/screens/727068f2-16d1-4bc4-ae63-e3de1cc1160c",
+    "images": [
+      "https://mobbin.com/api/mcp/short/ne3ELtS2"
+    ],
+    "question": "Q4",
+    "take": "Labels the org-wide row as 'Inherited' with member count while a named person has an explicit 'Administrator' override, plus a toggle to mint a guest link with its own role — three layers, one small panel.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:1fb17c11-dd5b-4d8c-928f-6b1b64c444fc",
+    "source": "mobbin",
+    "app": "Sketch",
+    "title": "Share a document",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/1fb17c11-dd5b-4d8c-928f-6b1b64c444fc",
+    "images": [
+      "https://mobbin.com/api/mcp/short/r8fkimQD",
+      "https://mobbin.com/api/mcp/short/tmageAJh",
+      "https://mobbin.com/api/mcp/short/AB9c9pmq",
+      "https://mobbin.com/api/mcp/short/XSqEXt57"
+    ],
+    "question": "Q4",
+    "take": "Share dialog is tabbed by audience — Workspace Members (Restricted) / Guests / Everyone (No Access) — with the current state in the tab label; a clean mental model for 'who can see this scenario'.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:d66be551-092d-415b-a3a6-1d4eb272b88e",
+    "source": "mobbin",
+    "app": "Remote",
+    "title": "Adding a new role",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/d66be551-092d-415b-a3a6-1d4eb272b88e",
+    "images": [
+      "https://mobbin.com/api/mcp/short/xFJgQI8q",
+      "https://mobbin.com/api/mcp/short/ihbRk7DM",
+      "https://mobbin.com/api/mcp/short/27jdEFy9",
+      "https://mobbin.com/api/mcp/short/znMBw5Yr",
+      "https://mobbin.com/api/mcp/short/y5WqsSSK",
+      "https://mobbin.com/api/mcp/short/3Shm1dEn",
+      "https://mobbin.com/api/mcp/short/zIk2SdQx",
+      "https://mobbin.com/api/mcp/short/PVPoaR9s",
+      "https://mobbin.com/api/mcp/short/dtYzcTVQ",
+      "https://mobbin.com/api/mcp/short/Zcat0oig"
+    ],
+    "question": "Q4",
+    "take": "Roles as cards with plain-language descriptions and head counts, plus a dashed 'Add new role' card as the escape hatch; custom role permissions are grouped by AREA with just View / Edit columns, not per-action toggles.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:fa26aaaf-aa62-48a7-8b13-b39bbb12e3d4",
+    "source": "mobbin",
+    "app": "StackAI",
+    "title": "Adding a role",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/fa26aaaf-aa62-48a7-8b13-b39bbb12e3d4",
+    "images": [
+      "https://mobbin.com/api/mcp/short/KsvySNIj",
+      "https://mobbin.com/api/mcp/short/JICeOGNY",
+      "https://mobbin.com/api/mcp/short/Lz9S541b",
+      "https://mobbin.com/api/mcp/short/pYv4HMzZ",
+      "https://mobbin.com/api/mcp/short/1RID5QMa"
+    ],
+    "question": "Q4",
+    "take": "COUNTER-EXAMPLE: roles x permissions checkbox matrix that gains a column per role and a row per action; adding 'Contributor' means auditing ~30 cells. This is what 8 global roles turns into.",
+    "counter_example": true,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "mobbin:ec88a366-1d9e-437c-9d14-e3a6275010cd",
+    "source": "mobbin",
+    "app": "Fresha",
+    "title": "Team permissions matrix (Basic / Low / Med / High / Owner)",
+    "kind": "screen",
+    "url": "https://mobbin.com/screens/ec88a366-1d9e-437c-9d14-e3a6275010cd",
+    "images": [
+      "https://mobbin.com/api/mcp/short/zf98D4qF"
+    ],
+    "question": "Q4",
+    "take": "COUNTER-EXAMPLE: permission levels named Basic/Low/Med/High carry no meaning — the admin must read the whole grid to know what 'Med' does; role names should describe a job, not a rank.",
+    "counter_example": true,
+    "selected": false,
+    "crop": ""
+  }
+]

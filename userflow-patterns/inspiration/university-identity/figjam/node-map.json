@@ -1,0 +1,4498 @@
+{
+  "destination": {
+    "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+    "pageId": "5:422"
+  },
+  "status": "complete",
+  "verified": true,
+  "sections": {
+    "Q1": {
+      "question": "Q1",
+      "nodeId": "100:413",
+      "headingNodeId": "100:414",
+      "synthesisNodeId": "100:415",
+      "questionsNodeId": "100:416",
+      "x": 600,
+      "y": 1200,
+      "width": 2456,
+      "height": 4135
+    },
+    "Q2": {
+      "question": "Q2",
+      "nodeId": "105:418",
+      "headingNodeId": "105:419",
+      "synthesisNodeId": "105:420",
+      "questionsNodeId": "105:421",
+      "x": 3236,
+      "y": 1200,
+      "width": 2300,
+      "height": 2903
+    },
+    "Q3": {
+      "question": "Q3",
+      "nodeId": "105:422",
+      "headingNodeId": "105:423",
+      "synthesisNodeId": "105:424",
+      "questionsNodeId": "105:425",
+      "x": 5716,
+      "y": 1200,
+      "width": 2300,
+      "height": 2552
+    },
+    "Q4": {
+      "question": "Q4",
+      "nodeId": "105:426",
+      "headingNodeId": "105:427",
+      "synthesisNodeId": "105:428",
+      "questionsNodeId": "105:429",
+      "x": 8196,
+      "y": 1200,
+      "width": 2300,
+      "height": 2988
+    },
+    "Q5": {
+      "question": "Q5",
+      "nodeId": "105:430",
+      "headingNodeId": "105:431",
+      "synthesisNodeId": "105:432",
+      "questionsNodeId": "105:433",
+      "x": 10676,
+      "y": 1200,
+      "width": 3048,
+      "height": 2597
+    },
+    "Q6": {
+      "question": "Q6",
+      "nodeId": "105:434",
+      "headingNodeId": "105:435",
+      "synthesisNodeId": "105:436",
+      "questionsNodeId": "105:437",
+      "x": 13904,
+      "y": 1200,
+      "width": 2300,
+      "height": 1840
+    }
+  },
+  "references": {
+    "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e": {
+      "id": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "question": "Q1",
+      "sectionId": "100:413",
+      "stickyNodeId": "100:417",
+      "sourceNodeId": "100:421",
+      "contextNodeId": "100:422",
+      "reportNodeId": "100:428",
+      "y": 500,
+      "height": 386,
+      "images": [
+        {
+          "referenceId": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+          "index": 0,
+          "nodeId": "100:423",
+          "relativePath": "assets/zendesk-saml.jpg",
+          "width": 280,
+          "height": 204,
+          "captionNodeId": "100:427",
+          "x": 620,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:16:30.863Z",
+          "sha256": "a3b6e472b101c87761cffa2616d05b49fc0cdefdf6439c63d90840947c3e7439",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:16:32.032Z",
+          "imageHash": "ad30546d76a88165564171a353af89280591ade5",
+          "actualImageHash": "ad30546d76a88165564171a353af89280591ade5",
+          "fillVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.947Z",
+          "residentVerified": true
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0
+      ],
+      "omittedStepIndices": [],
+      "annotationVerified": true,
+      "placementVerified": true,
+      "verified": true
+    },
+    "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc": {
+      "id": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+      "question": "Q1",
+      "sectionId": "100:413",
+      "stickyNodeId": "106:418",
+      "sourceNodeId": "106:422",
+      "contextNodeId": "106:423",
+      "reportNodeId": "106:429",
+      "y": 966,
+      "height": 340,
+      "images": [
+        {
+          "referenceId": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+          "index": 0,
+          "nodeId": "106:424",
+          "relativePath": "assets/calendly-provisioning.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "106:428",
+          "x": 620,
+          "y": 1038,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:07.752Z",
+          "sha256": "43e6f9a505f9c0465dc8519ca2dbef0db28be2af04ab01996f48976318e18f0f",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:08.459Z",
+          "imageHash": "e251b54281d5aeb7a62f286d9c34ea8156e08e4c",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "e251b54281d5aeb7a62f286d9c34ea8156e08e4c"
+          },
+          "actualImageHash": "e251b54281d5aeb7a62f286d9c34ea8156e08e4c",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1": {
+      "id": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+      "question": "Q1",
+      "sectionId": "100:413",
+      "stickyNodeId": "106:430",
+      "sourceNodeId": "106:434",
+      "contextNodeId": "106:435",
+      "reportNodeId": "106:456",
+      "y": 1386,
+      "height": 373,
+      "images": [
+        {
+          "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "index": 0,
+          "nodeId": "106:436",
+          "relativePath": "assets/mobbin/31350159-fd49-4cd3-bc01-967f1a7bfe0e.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:440",
+          "x": 620,
+          "y": 1458,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:08.460Z",
+          "sha256": "b8493652f6f874f8c93069a018d4a50020cd6f7463999dd323c5c627ea043e84",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:09.167Z",
+          "imageHash": "956213ddeff3835b666ba679fde5767240e5e498",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "956213ddeff3835b666ba679fde5767240e5e498"
+          },
+          "actualImageHash": "956213ddeff3835b666ba679fde5767240e5e498",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "index": 1,
+          "nodeId": "106:441",
+          "relativePath": "assets/mobbin/231210d1-e819-4996-994d-e20afa4b904d.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:445",
+          "x": 916,
+          "y": 1458,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:09.168Z",
+          "sha256": "dc1123c86a5f9cd29b860041f1df3d9a6f1fbddd8455f7187b9e3098cf98a223",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:09.896Z",
+          "imageHash": "5fad85dca147eba65a45e1b2f3b7b978ea874868",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "5fad85dca147eba65a45e1b2f3b7b978ea874868"
+          },
+          "actualImageHash": "5fad85dca147eba65a45e1b2f3b7b978ea874868",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "index": 2,
+          "nodeId": "106:446",
+          "relativePath": "assets/mobbin/34474b95-2f25-44db-b004-df6e19041835.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:450",
+          "x": 1212,
+          "y": 1458,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:09.897Z",
+          "sha256": "b0bf39307519cfd3a6c6bbd5519d17b2f2fdd372661b1beebabda9147270243b",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:10.632Z",
+          "imageHash": "1c50578272cbcab42cba279b541e422aaa0626e3",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "1c50578272cbcab42cba279b541e422aaa0626e3"
+          },
+          "actualImageHash": "1c50578272cbcab42cba279b541e422aaa0626e3",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "index": 3,
+          "nodeId": "106:451",
+          "relativePath": "assets/mobbin/fba63c89-1bfb-4bc5-a3b2-78e69958d8bd.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:455",
+          "x": 1508,
+          "y": 1458,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:10.633Z",
+          "sha256": "9c7102314a55070d5af6a8f11434c7134a2b942ea04817011c58ae2a50fc46b2",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:11.442Z",
+          "imageHash": "16cde2c8becb40372797fbad900babf4db2dbc72",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "16cde2c8becb40372797fbad900babf4db2dbc72"
+          },
+          "actualImageHash": "16cde2c8becb40372797fbad900babf4db2dbc72",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916": {
+      "id": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+      "question": "Q1",
+      "sectionId": "100:413",
+      "stickyNodeId": "106:457",
+      "sourceNodeId": "106:461",
+      "contextNodeId": "106:462",
+      "reportNodeId": "106:493",
+      "y": 1839,
+      "height": 373,
+      "images": [
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 0,
+          "nodeId": "106:463",
+          "relativePath": "assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:467",
+          "x": 620,
+          "y": 1911,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:11.443Z",
+          "sha256": "e5daae7b041a1b566676249a64945314b545ab4751413e4fc76bacf558abc390",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:12.239Z",
+          "imageHash": "a8d82a95df6e8b32548eaa718c30769158c040ee",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "a8d82a95df6e8b32548eaa718c30769158c040ee"
+          },
+          "actualImageHash": "a8d82a95df6e8b32548eaa718c30769158c040ee",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 1,
+          "nodeId": "106:468",
+          "relativePath": "assets/mobbin/950bd8fb-e973-4367-a68b-a6c5ef485e8f.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:472",
+          "x": 916,
+          "y": 1911,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:12.240Z",
+          "sha256": "3b725812b595432be5b139254f79c0ccab5227a408ca081d008697788f9282b8",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:13.031Z",
+          "imageHash": "5b242742b12156c4804ba232c8c5fb5737d5d920",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "5b242742b12156c4804ba232c8c5fb5737d5d920"
+          },
+          "actualImageHash": "5b242742b12156c4804ba232c8c5fb5737d5d920",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 2,
+          "nodeId": "106:473",
+          "relativePath": "assets/mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:477",
+          "x": 1212,
+          "y": 1911,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:13.032Z",
+          "sha256": "ecd728a7b8e541032643b0a046749fc5c71c72ee7f80441ed3d2af18327c4cb1",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:13.601Z",
+          "imageHash": "9c5a2e498dac5836d48adf51db51eda695a36551",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "9c5a2e498dac5836d48adf51db51eda695a36551"
+          },
+          "actualImageHash": "9c5a2e498dac5836d48adf51db51eda695a36551",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 3,
+          "nodeId": "106:478",
+          "relativePath": "assets/mobbin/87218698-4c32-45f7-adc3-61198ccd33b0.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:482",
+          "x": 1508,
+          "y": 1911,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:13.602Z",
+          "sha256": "e72d5f82474c46c3035d6381bd7de98b1446a08010bdfdd2b48331cbd9a36915",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:14.292Z",
+          "imageHash": "a70dc712cda9151f95ebc3e55d68b3f2fb48f14e",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "a70dc712cda9151f95ebc3e55d68b3f2fb48f14e"
+          },
+          "actualImageHash": "a70dc712cda9151f95ebc3e55d68b3f2fb48f14e",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 4,
+          "nodeId": "106:483",
+          "relativePath": "assets/mobbin/821604af-39b9-46e2-8e20-3f8ced157142.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:487",
+          "x": 1804,
+          "y": 1911,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:14.294Z",
+          "sha256": "537ae0b099b2236522d86831d3a7580a9529c6fc5b3a9cf6634455a6fb48a4b7",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:15.144Z",
+          "imageHash": "e799a6c533d824f7bea51dace9bd02761748d2f8",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "e799a6c533d824f7bea51dace9bd02761748d2f8"
+          },
+          "actualImageHash": "e799a6c533d824f7bea51dace9bd02761748d2f8",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 5,
+          "nodeId": "106:488",
+          "relativePath": "assets/mobbin/0c726d9e-6f02-432d-b2ba-055cbc15c6a6.jpg",
+          "width": 280,
+          "height": 191,
+          "captionNodeId": "106:492",
+          "x": 2100,
+          "y": 1911,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:15.146Z",
+          "sha256": "48898d8d8e736b8cc3e86958d05db092fbd90cabeb0cab474e0325746a1807cb",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:15.957Z",
+          "imageHash": "b088e1c68e3703a607555880d6570911ebda15af",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "b088e1c68e3703a607555880d6570911ebda15af"
+          },
+          "actualImageHash": "b088e1c68e3703a607555880d6570911ebda15af",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c": {
+      "id": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+      "question": "Q1",
+      "sectionId": "100:413",
+      "stickyNodeId": "106:494",
+      "sourceNodeId": "106:498",
+      "contextNodeId": "106:499",
+      "reportNodeId": "106:520",
+      "y": 2292,
+      "height": 372,
+      "images": [
+        {
+          "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "index": 0,
+          "nodeId": "106:500",
+          "relativePath": "assets/mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "106:504",
+          "x": 620,
+          "y": 2364,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:15.958Z",
+          "sha256": "7a169dd7dbee6223c776e5377434018feab4a41aef457c1d41291337035dca63",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:17.126Z",
+          "imageHash": "8505e7d4a977064d64af180ce07a26776bfff606",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "8505e7d4a977064d64af180ce07a26776bfff606"
+          },
+          "actualImageHash": "8505e7d4a977064d64af180ce07a26776bfff606",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "index": 1,
+          "nodeId": "106:505",
+          "relativePath": "assets/mobbin/dc451bfe-7fdc-435e-bd9f-5e8d6301d82d.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "106:509",
+          "x": 916,
+          "y": 2364,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:17.127Z",
+          "sha256": "9c505d5e1d59349f236e8812a6f4216ddb10a7f230965345b945a6d4a9ed606b",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:17.867Z",
+          "imageHash": "6275efd3987aceb9e19dd25efc18be0358537418",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "6275efd3987aceb9e19dd25efc18be0358537418"
+          },
+          "actualImageHash": "6275efd3987aceb9e19dd25efc18be0358537418",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "index": 2,
+          "nodeId": "106:510",
+          "relativePath": "assets/mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "106:514",
+          "x": 1212,
+          "y": 2364,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:17.867Z",
+          "sha256": "b2fd348ffb14a917fd8c45464b9cabc98a5771cbd05be718becadd108d993a40",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:18.602Z",
+          "imageHash": "f9378a7afbebf799f3a63656c1a3e4f21badfeac",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "f9378a7afbebf799f3a63656c1a3e4f21badfeac"
+          },
+          "actualImageHash": "f9378a7afbebf799f3a63656c1a3e4f21badfeac",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "index": 3,
+          "nodeId": "106:515",
+          "relativePath": "assets/mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "106:519",
+          "x": 1508,
+          "y": 2364,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:18.604Z",
+          "sha256": "ddf44fc5543a667cd35788f70cf90786956361795b1b5ff81e6c7948a252dec0",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:21.074Z",
+          "imageHash": "b4389209be4c984c11c8dd088b57f20ed60efef2",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "b4389209be4c984c11c8dd088b57f20ed60efef2"
+          },
+          "actualImageHash": "b4389209be4c984c11c8dd088b57f20ed60efef2",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:entra-ldap": {
+      "id": "documentation:entra-ldap",
+      "question": "Q1",
+      "sectionId": "100:413",
+      "stickyNodeId": "106:521",
+      "sourceNodeId": "106:525",
+      "contextNodeId": "106:526",
+      "reportNodeId": "106:528",
+      "y": 2744,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:okta-ad-scope": {
+      "id": "documentation:okta-ad-scope",
+      "question": "Q1",
+      "sectionId": "100:413",
+      "stickyNodeId": "106:529",
+      "sourceNodeId": "106:533",
+      "contextNodeId": "106:534",
+      "reportNodeId": "106:536",
+      "y": 3126,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:google-simulation": {
+      "id": "documentation:google-simulation",
+      "question": "Q1",
+      "sectionId": "100:413",
+      "stickyNodeId": "106:537",
+      "sourceNodeId": "106:541",
+      "contextNodeId": "106:542",
+      "reportNodeId": "106:544",
+      "y": 3508,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:entra-on-demand": {
+      "id": "documentation:entra-on-demand",
+      "question": "Q1",
+      "sectionId": "100:413",
+      "stickyNodeId": "106:545",
+      "sourceNodeId": "106:549",
+      "contextNodeId": "106:550",
+      "reportNodeId": "106:561",
+      "y": 3890,
+      "height": 369,
+      "images": [
+        {
+          "referenceId": "documentation:entra-on-demand",
+          "index": 0,
+          "nodeId": "106:551",
+          "relativePath": "assets/documentation/entra-on-demand-0.png",
+          "width": 280,
+          "height": 149,
+          "captionNodeId": "106:555",
+          "x": 620,
+          "y": 3962,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:21.075Z",
+          "sha256": "36c0dfeaf64b0215f6ba5ab351ca768b11fe31b74ce830c34b316c82da5271d3",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:21.895Z",
+          "imageHash": "48b046139c17bcbe23ae6fed6d2ab9ab09f62e88",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "48b046139c17bcbe23ae6fed6d2ab9ab09f62e88"
+          },
+          "actualImageHash": "48b046139c17bcbe23ae6fed6d2ab9ab09f62e88",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "documentation:entra-on-demand",
+          "index": 1,
+          "nodeId": "106:556",
+          "relativePath": "assets/documentation/entra-on-demand-1.png",
+          "width": 280,
+          "height": 149,
+          "captionNodeId": "106:560",
+          "x": 916,
+          "y": 3962,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:21.897Z",
+          "sha256": "91aec5f2e79ca27fe797298d7118fb513e445004b2146fc9ab632db2eddbeb7b",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:23.172Z",
+          "imageHash": "cb29bdcf6b72a4481ecaf324943941deb71bc868",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "cb29bdcf6b72a4481ecaf324943941deb71bc868"
+          },
+          "actualImageHash": "cb29bdcf6b72a4481ecaf324943941deb71bc868",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "refero:4649": {
+      "id": "refero:4649",
+      "question": "Q2",
+      "sectionId": "105:418",
+      "stickyNodeId": "107:476",
+      "sourceNodeId": "107:480",
+      "contextNodeId": "107:481",
+      "reportNodeId": "107:502",
+      "y": 500,
+      "height": 358,
+      "images": [
+        {
+          "referenceId": "refero:4649",
+          "index": 1,
+          "nodeId": "107:482",
+          "relativePath": "assets/refero-4649/1.jpg",
+          "width": 280,
+          "height": 157,
+          "captionNodeId": "107:486",
+          "x": 620,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:23.173Z",
+          "sha256": "7fa88ffaf69884bd995d7fc6ec6190bce099a711242b60a4967c2274e7263d10",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:23.687Z",
+          "imageHash": "06788bcb1b6e369afc7e79975afe19b96e7f3bc4",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "06788bcb1b6e369afc7e79975afe19b96e7f3bc4"
+          },
+          "actualImageHash": "06788bcb1b6e369afc7e79975afe19b96e7f3bc4",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:4649",
+          "index": 2,
+          "nodeId": "107:487",
+          "relativePath": "assets/refero-4649/2.jpg",
+          "width": 280,
+          "height": 157,
+          "captionNodeId": "107:491",
+          "x": 916,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:23.688Z",
+          "sha256": "0d04c74a939b140b7d31a412031c75a312fe2ef7767669de98c168f9e45980e4",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:24.201Z",
+          "imageHash": "14eac58ff4562cf71c93f2d2206f58458366c6fe",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "14eac58ff4562cf71c93f2d2206f58458366c6fe"
+          },
+          "actualImageHash": "14eac58ff4562cf71c93f2d2206f58458366c6fe",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:4649",
+          "index": 3,
+          "nodeId": "107:492",
+          "relativePath": "assets/refero-4649/3.jpg",
+          "width": 280,
+          "height": 157,
+          "captionNodeId": "107:496",
+          "x": 1212,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:31:24.202Z",
+          "sha256": "9fa885ea6a2a8b422ac0e1c1b50814f7cf7baf86498ecf74e78e730909ed6ae0",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:31:24.765Z",
+          "imageHash": "2c211cb99a0efbc34db2e6cfb54b766c3442b1f6",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "2c211cb99a0efbc34db2e6cfb54b766c3442b1f6"
+          },
+          "actualImageHash": "2c211cb99a0efbc34db2e6cfb54b766c3442b1f6",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:4649",
+          "index": 4,
+          "nodeId": "107:497",
+          "relativePath": "assets/refero-4649/4.jpg",
+          "width": 280,
+          "height": 157,
+          "captionNodeId": "107:501",
+          "x": 1508,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:32:29.336Z",
+          "sha256": "646a982a3a20fe5272aa396c3e1056821b1da82299610a476e2af216cae11af6",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:32:30.097Z",
+          "imageHash": "541d35dae6a8c2ec7a9b417152cc16d2d6260f1a",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "541d35dae6a8c2ec7a9b417152cc16d2d6260f1a"
+          },
+          "actualImageHash": "541d35dae6a8c2ec7a9b417152cc16d2d6260f1a",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "omittedStepIndices": [
+        0
+      ],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5": {
+      "id": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+      "question": "Q2",
+      "sectionId": "105:418",
+      "stickyNodeId": "107:503",
+      "sourceNodeId": "107:507",
+      "contextNodeId": "107:508",
+      "reportNodeId": "107:529",
+      "y": 938,
+      "height": 391,
+      "images": [
+        {
+          "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "index": 0,
+          "nodeId": "107:509",
+          "relativePath": "assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "107:513",
+          "x": 620,
+          "y": 1010,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:32:30.099Z",
+          "sha256": "65ab6e88ca012acada6fdf3d90ba6cf32040c2fc14ab40a6d840fcbb48426488",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:32:30.915Z",
+          "imageHash": "d5561b45b7b90df427f06dd6ae348f9705c1f941",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "d5561b45b7b90df427f06dd6ae348f9705c1f941"
+          },
+          "actualImageHash": "d5561b45b7b90df427f06dd6ae348f9705c1f941",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "index": 1,
+          "nodeId": "107:514",
+          "relativePath": "assets/mobbin/5ceb2f48-9668-421d-b59a-70da94d82a2e.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "107:518",
+          "x": 916,
+          "y": 1010,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:32:30.916Z",
+          "sha256": "a9f90319b4e0e8f56f2081c4c9ee1e17422d323f6268d0770539a7ea7b1df2bf",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:32:31.504Z",
+          "imageHash": "7e75949189a3aa67b1187f9efc5e09cb5aead96e",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "7e75949189a3aa67b1187f9efc5e09cb5aead96e"
+          },
+          "actualImageHash": "7e75949189a3aa67b1187f9efc5e09cb5aead96e",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "index": 2,
+          "nodeId": "107:519",
+          "relativePath": "assets/mobbin/e1843d29-60fa-4786-9191-b9704e17142d.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "107:523",
+          "x": 1212,
+          "y": 1010,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:32:31.506Z",
+          "sha256": "8009050705b248af00e0acdbbb0c7911d2fbbeffc67ca0c1508c80914cc1a1f9",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:32:32.244Z",
+          "imageHash": "b6cca6577d2ef5f2657be3d8a3af436797c8cc15",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "b6cca6577d2ef5f2657be3d8a3af436797c8cc15"
+          },
+          "actualImageHash": "b6cca6577d2ef5f2657be3d8a3af436797c8cc15",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "index": 3,
+          "nodeId": "107:524",
+          "relativePath": "assets/mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "107:528",
+          "x": 1508,
+          "y": 1010,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:32:32.245Z",
+          "sha256": "c0f8a267e032075303759c2b0d37be59c4241f4fe52c6720fdd14a7b43b3ca07",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:32:32.810Z",
+          "imageHash": "aa5add917c42f584625844b903b9db53b57a58d2",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "aa5add917c42f584625844b903b9db53b57a58d2"
+          },
+          "actualImageHash": "aa5add917c42f584625844b903b9db53b57a58d2",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:entra-matching": {
+      "id": "documentation:entra-matching",
+      "question": "Q2",
+      "sectionId": "105:418",
+      "stickyNodeId": "107:530",
+      "sourceNodeId": "107:534",
+      "contextNodeId": "107:535",
+      "reportNodeId": "107:537",
+      "y": 1409,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:atlassian-jit": {
+      "id": "documentation:atlassian-jit",
+      "question": "Q2",
+      "sectionId": "105:418",
+      "stickyNodeId": "107:538",
+      "sourceNodeId": "107:542",
+      "contextNodeId": "107:543",
+      "reportNodeId": "107:554",
+      "y": 1791,
+      "height": 356,
+      "images": [
+        {
+          "referenceId": "documentation:atlassian-jit",
+          "index": 0,
+          "nodeId": "107:544",
+          "relativePath": "assets/documentation/atlassian-jit-0.png",
+          "width": 280,
+          "height": 78,
+          "captionNodeId": "107:548",
+          "x": 620,
+          "y": 1863,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:32:32.812Z",
+          "sha256": "e04a2dffb2bd433e049f52d29c7fac8bcfb239dc84ec7e6c622346ee1bbe7c60",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:32:33.985Z",
+          "imageHash": "fa8047e2f59a7012ed76afeb01b58facd4f5afa0",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "fa8047e2f59a7012ed76afeb01b58facd4f5afa0"
+          },
+          "actualImageHash": "fa8047e2f59a7012ed76afeb01b58facd4f5afa0",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "documentation:atlassian-jit",
+          "index": 1,
+          "nodeId": "107:549",
+          "relativePath": "assets/documentation/atlassian-jit-1.png",
+          "width": 280,
+          "height": 155,
+          "captionNodeId": "107:553",
+          "x": 916,
+          "y": 1863,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:32:33.986Z",
+          "sha256": "259eec5b0d137846a2fcc0ebe3205cb980e8b2468521087c0c3ecbe48575eff1",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:32:34.833Z",
+          "imageHash": "eb8e14d34d866e09219313be55cfa6c3fbcea2ad",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "eb8e14d34d866e09219313be55cfa6c3fbcea2ad"
+          },
+          "actualImageHash": "eb8e14d34d866e09219313be55cfa6c3fbcea2ad",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:github-linking": {
+      "id": "documentation:github-linking",
+      "question": "Q2",
+      "sectionId": "105:418",
+      "stickyNodeId": "107:555",
+      "sourceNodeId": "107:559",
+      "contextNodeId": "107:560",
+      "reportNodeId": "107:566",
+      "y": 2227,
+      "height": 613,
+      "images": [
+        {
+          "referenceId": "documentation:github-linking",
+          "index": 0,
+          "nodeId": "107:561",
+          "relativePath": "assets/documentation/github-linking-1.png",
+          "width": 280,
+          "height": 393,
+          "captionNodeId": "107:565",
+          "x": 620,
+          "y": 2299,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:32:34.834Z",
+          "sha256": "0b44670d42f1bb7e6578dd0b39a0c54a1adb3cf5c3f53787a0fa0f68e4dc2df1",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:32:35.726Z",
+          "imageHash": "3494945864873f5d0aa6d12a11610552c6e218de",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "3494945864873f5d0aa6d12a11610552c6e218de"
+          },
+          "actualImageHash": "3494945864873f5d0aa6d12a11610552c6e218de",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f": {
+      "id": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+      "question": "Q3",
+      "sectionId": "105:422",
+      "stickyNodeId": "112:513",
+      "sourceNodeId": "112:517",
+      "contextNodeId": "112:518",
+      "reportNodeId": "112:544",
+      "y": 500,
+      "height": 391,
+      "images": [
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 0,
+          "nodeId": "112:519",
+          "relativePath": "assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "112:523",
+          "x": 620,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:37.076Z",
+          "sha256": "319f234605e35a93bfdc592c87520a49e9f02714f32c63b34fe254c9fa6866b8",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:37.856Z",
+          "imageHash": "8c64b0108c2f5084496ae1989cc0bca3a05232bd",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "8c64b0108c2f5084496ae1989cc0bca3a05232bd"
+          },
+          "actualImageHash": "8c64b0108c2f5084496ae1989cc0bca3a05232bd",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 1,
+          "nodeId": "112:524",
+          "relativePath": "assets/mobbin/02a533b3-ba02-4194-b5cb-5762d3d2b279.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "112:528",
+          "x": 916,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:37.858Z",
+          "sha256": "61ad60885a1eee7e447a5b4fad6da883fe8e383c30390b900a8ae31d0063104a",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:38.597Z",
+          "imageHash": "c3937c826f655c664c3ab16f94b70bb5299adee2",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "c3937c826f655c664c3ab16f94b70bb5299adee2"
+          },
+          "actualImageHash": "c3937c826f655c664c3ab16f94b70bb5299adee2",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 2,
+          "nodeId": "112:529",
+          "relativePath": "assets/mobbin/9f98944b-93c9-4dc2-85f4-11f991d0545e.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "112:533",
+          "x": 1212,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:38.598Z",
+          "sha256": "25bc91d1b370ffba574f2ba4d44ca573a204f8a6e1b8494762438e285ec529a0",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:39.208Z",
+          "imageHash": "00ef088e8c58b18a432e0b7269e3572831f5bd28",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "00ef088e8c58b18a432e0b7269e3572831f5bd28"
+          },
+          "actualImageHash": "00ef088e8c58b18a432e0b7269e3572831f5bd28",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 3,
+          "nodeId": "112:534",
+          "relativePath": "assets/mobbin/cc52905e-1f42-4fe7-984a-6a86f8271bc6.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "112:538",
+          "x": 1508,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:39.210Z",
+          "sha256": "7b65fd4e4cdb7accb51d2eb4ab9ef70711f90b58d1adab49757ea69a2f5d8243",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:40.001Z",
+          "imageHash": "e5c2e598feee12b5ed96f6a2380877ef8779498d",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "e5c2e598feee12b5ed96f6a2380877ef8779498d"
+          },
+          "actualImageHash": "e5c2e598feee12b5ed96f6a2380877ef8779498d",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 4,
+          "nodeId": "112:539",
+          "relativePath": "assets/mobbin/2ae61b76-5411-42b1-87ec-3564bde6bd73.jpg",
+          "width": 280,
+          "height": 190,
+          "captionNodeId": "112:543",
+          "x": 1804,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:40.003Z",
+          "sha256": "23670ee406cf1c0547b5c58d97e4592dfd755279ded9bd26552e12d470584340",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:40.820Z",
+          "imageHash": "6f7a394281ac441956563f61b79d0f9d8b511a21",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "6f7a394281ac441956563f61b79d0f9d8b511a21"
+          },
+          "actualImageHash": "6f7a394281ac441956563f61b79d0f9d8b511a21",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:atlassian-managed": {
+      "id": "documentation:atlassian-managed",
+      "question": "Q3",
+      "sectionId": "105:422",
+      "stickyNodeId": "112:545",
+      "sourceNodeId": "112:549",
+      "contextNodeId": "112:550",
+      "reportNodeId": "112:552",
+      "y": 971,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:github-team-sync": {
+      "id": "documentation:github-team-sync",
+      "question": "Q3",
+      "sectionId": "105:422",
+      "stickyNodeId": "112:553",
+      "sourceNodeId": "112:557",
+      "contextNodeId": "112:558",
+      "reportNodeId": "112:560",
+      "y": 1353,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:atlassian-group-conflicts": {
+      "id": "documentation:atlassian-group-conflicts",
+      "question": "Q3",
+      "sectionId": "105:422",
+      "stickyNodeId": "112:561",
+      "sourceNodeId": "112:565",
+      "contextNodeId": "112:566",
+      "reportNodeId": "112:572",
+      "y": 1735,
+      "height": 333,
+      "images": [
+        {
+          "referenceId": "documentation:atlassian-group-conflicts",
+          "index": 0,
+          "nodeId": "112:567",
+          "relativePath": "assets/documentation/atlassian-group-conflicts-0.png",
+          "width": 280,
+          "height": 113,
+          "captionNodeId": "112:571",
+          "x": 620,
+          "y": 1807,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:40.821Z",
+          "sha256": "ba0c4fb950d16408c3823b5304c5e3457f476f1eb8d60749a25e2a73e2662e85",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:41.639Z",
+          "imageHash": "06e722b5956a153eb26685cab64ab20627d43a1c",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "06e722b5956a153eb26685cab64ab20627d43a1c"
+          },
+          "actualImageHash": "06e722b5956a153eb26685cab64ab20627d43a1c",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:canvas-course-roles": {
+      "id": "documentation:canvas-course-roles",
+      "question": "Q3",
+      "sectionId": "105:422",
+      "stickyNodeId": "112:573",
+      "sourceNodeId": "112:577",
+      "contextNodeId": "112:578",
+      "reportNodeId": "112:580",
+      "y": 2148,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "refero:1250": {
+      "id": "refero:1250",
+      "question": "Q4",
+      "sectionId": "105:426",
+      "stickyNodeId": "113:540",
+      "sourceNodeId": "113:544",
+      "contextNodeId": "113:545",
+      "reportNodeId": "113:566",
+      "y": 500,
+      "height": 350,
+      "images": [
+        {
+          "referenceId": "refero:1250",
+          "index": 0,
+          "nodeId": "113:546",
+          "relativePath": "assets/refero-1250/0.jpg",
+          "width": 280,
+          "height": 168,
+          "captionNodeId": "113:550",
+          "x": 620,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:41.640Z",
+          "sha256": "a53e2c8f4643d0dea275d82350495bc21b139c07b83eab076c7c6842ce334fdf",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:43.893Z",
+          "imageHash": "814358eca60177997a960f63e7266484216a69bf",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "814358eca60177997a960f63e7266484216a69bf"
+          },
+          "actualImageHash": "814358eca60177997a960f63e7266484216a69bf",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:1250",
+          "index": 1,
+          "nodeId": "113:551",
+          "relativePath": "assets/refero-1250/1.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "113:555",
+          "x": 916,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:43.894Z",
+          "sha256": "a7d67a23cf9298d57b7a2cb5cae43c6a10f76e1e3b96c7944a5b0dc179e8d014",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:44.916Z",
+          "imageHash": "ae9e43ccfc499d535bceadbe46d74909f81d7b5e",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "ae9e43ccfc499d535bceadbe46d74909f81d7b5e"
+          },
+          "actualImageHash": "ae9e43ccfc499d535bceadbe46d74909f81d7b5e",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:1250",
+          "index": 2,
+          "nodeId": "113:556",
+          "relativePath": "assets/refero-1250/2.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "113:560",
+          "x": 1212,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:44.918Z",
+          "sha256": "5ced4058b0981d07c2c684b52cbe4df41a5e5b01cadc0b7a7187ae8c1973ee63",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:45.533Z",
+          "imageHash": "5e3503cf16bb67024aec3e44e99d10b59e182736",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "5e3503cf16bb67024aec3e44e99d10b59e182736"
+          },
+          "actualImageHash": "5e3503cf16bb67024aec3e44e99d10b59e182736",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:1250",
+          "index": 3,
+          "nodeId": "113:561",
+          "relativePath": "assets/refero-1250/3.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "113:565",
+          "x": 1508,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:45.535Z",
+          "sha256": "c08e1a3218044e6bcf7b17d1551d2a2af19c5a63312087cb12865eb653e49e70",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:46.108Z",
+          "imageHash": "fbbc83e70d08790609a16554f0fad386ae5ee53c",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "fbbc83e70d08790609a16554f0fad386ae5ee53c"
+          },
+          "actualImageHash": "fbbc83e70d08790609a16554f0fad386ae5ee53c",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:entra-lifecycle": {
+      "id": "documentation:entra-lifecycle",
+      "question": "Q4",
+      "sectionId": "105:426",
+      "stickyNodeId": "113:567",
+      "sourceNodeId": "113:571",
+      "contextNodeId": "113:572",
+      "reportNodeId": "113:583",
+      "y": 930,
+      "height": 302,
+      "images": [
+        {
+          "referenceId": "documentation:entra-lifecycle",
+          "index": 0,
+          "nodeId": "113:573",
+          "relativePath": "assets/documentation/entra-lifecycle-3.png",
+          "width": 280,
+          "height": 124,
+          "captionNodeId": "113:577",
+          "x": 620,
+          "y": 1002,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:46.110Z",
+          "sha256": "3061cf6dcc3a5c53b2298e05d4497e3cb399014102f5a5ddb948e83a37cbcba2",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:46.965Z",
+          "imageHash": "4ce834611cad8b44f74c8d42426beefd0eeba62d",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "4ce834611cad8b44f74c8d42426beefd0eeba62d"
+          },
+          "actualImageHash": "4ce834611cad8b44f74c8d42426beefd0eeba62d",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "documentation:entra-lifecycle",
+          "index": 1,
+          "nodeId": "113:578",
+          "relativePath": "assets/documentation/entra-lifecycle-4.png",
+          "width": 280,
+          "height": 124,
+          "captionNodeId": "113:582",
+          "x": 916,
+          "y": 1002,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:46.967Z",
+          "sha256": "cf7461c682a23ed54096d7029150d60deb029d7fcc6efc4dfebc7a646320b240",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:47.540Z",
+          "imageHash": "daf38b177bed1623468e9c03b381f5294acd2877",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "daf38b177bed1623468e9c03b381f5294acd2877"
+          },
+          "actualImageHash": "daf38b177bed1623468e9c03b381f5294acd2877",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:entra-status": {
+      "id": "documentation:entra-status",
+      "question": "Q4",
+      "sectionId": "105:426",
+      "stickyNodeId": "113:584",
+      "sourceNodeId": "113:588",
+      "contextNodeId": "113:589",
+      "reportNodeId": "113:595",
+      "y": 1312,
+      "height": 413,
+      "images": [
+        {
+          "referenceId": "documentation:entra-status",
+          "index": 0,
+          "nodeId": "113:590",
+          "relativePath": "assets/documentation/entra-status-0.png",
+          "width": 280,
+          "height": 250,
+          "captionNodeId": "113:594",
+          "x": 620,
+          "y": 1384,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:47.541Z",
+          "sha256": "3445c6b06fb1f4db7920bcc7e3459be0ee0544e1644057df84feccbcf910b23a",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:48.398Z",
+          "imageHash": "1af6533d6f7b4ad2b30c4987980dd87d32574532",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "1af6533d6f7b4ad2b30c4987980dd87d32574532"
+          },
+          "actualImageHash": "1af6533d6f7b4ad2b30c4987980dd87d32574532",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:entra-logs": {
+      "id": "documentation:entra-logs",
+      "question": "Q4",
+      "sectionId": "105:426",
+      "stickyNodeId": "113:596",
+      "sourceNodeId": "113:600",
+      "contextNodeId": "113:601",
+      "reportNodeId": "113:607",
+      "y": 1805,
+      "height": 302,
+      "images": [
+        {
+          "referenceId": "documentation:entra-logs",
+          "index": 0,
+          "nodeId": "113:602",
+          "relativePath": "assets/documentation/entra-logs-0.png",
+          "width": 280,
+          "height": 90,
+          "captionNodeId": "113:606",
+          "x": 620,
+          "y": 1877,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:43:48.399Z",
+          "sha256": "1f4d8db9ae250c2fc20d89c1b59b0a65112aef3997097ff5806c045e9e037831",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:43:49.216Z",
+          "imageHash": "616fb77d89ab3c42bd0228384f3b282aef342a0e",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "616fb77d89ab3c42bd0228384f3b282aef342a0e"
+          },
+          "actualImageHash": "616fb77d89ab3c42bd0228384f3b282aef342a0e",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:entra-deletion-guard": {
+      "id": "documentation:entra-deletion-guard",
+      "question": "Q4",
+      "sectionId": "105:426",
+      "stickyNodeId": "113:608",
+      "sourceNodeId": "113:612",
+      "contextNodeId": "113:613",
+      "reportNodeId": "113:615",
+      "y": 2187,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:atlassian-sync-actions": {
+      "id": "documentation:atlassian-sync-actions",
+      "question": "Q4",
+      "sectionId": "105:426",
+      "stickyNodeId": "113:616",
+      "sourceNodeId": "113:620",
+      "contextNodeId": "113:621",
+      "reportNodeId": "113:623",
+      "y": 2569,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "refero:671": {
+      "id": "refero:671",
+      "question": "Q5",
+      "sectionId": "105:430",
+      "stickyNodeId": "117:574",
+      "sourceNodeId": "117:578",
+      "contextNodeId": "117:579",
+      "reportNodeId": "117:620",
+      "y": 500,
+      "height": 385,
+      "images": [
+        {
+          "referenceId": "refero:671",
+          "index": 0,
+          "nodeId": "117:580",
+          "relativePath": "assets/refero-671/0.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:584",
+          "x": 620,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:07.252Z",
+          "sha256": "ff89a001e1e1496931a437703df0a0bb15e87b8f25dd29bf55d6f4de233fc607",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:07.902Z",
+          "imageHash": "ed892e13d0ea0ee46d92d23b0f138ac0428bdfeb",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "ed892e13d0ea0ee46d92d23b0f138ac0428bdfeb"
+          },
+          "actualImageHash": "ed892e13d0ea0ee46d92d23b0f138ac0428bdfeb",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:671",
+          "index": 1,
+          "nodeId": "117:585",
+          "relativePath": "assets/refero-671/1.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:589",
+          "x": 916,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:07.905Z",
+          "sha256": "4f60c6dfa6d9ae3f587f1c5123b80d60ff10598a1136f1009d75cf72dc95ab38",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:08.478Z",
+          "imageHash": "562fb0f89baf58a89562494a7e92802896555cb4",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "562fb0f89baf58a89562494a7e92802896555cb4"
+          },
+          "actualImageHash": "562fb0f89baf58a89562494a7e92802896555cb4",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:671",
+          "index": 3,
+          "nodeId": "117:590",
+          "relativePath": "assets/refero-671/3.jpg",
+          "width": 280,
+          "height": 203,
+          "captionNodeId": "117:594",
+          "x": 1212,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:08.479Z",
+          "sha256": "d7fc18e87e29f2ccf20e4e78c3dbdcba73ef2fccbd7a232c071991feac972313",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:09.064Z",
+          "imageHash": "721b9860a2c2f0e768d0fc8d6b8acc04b1c5792c",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "721b9860a2c2f0e768d0fc8d6b8acc04b1c5792c"
+          },
+          "actualImageHash": "721b9860a2c2f0e768d0fc8d6b8acc04b1c5792c",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:671",
+          "index": 4,
+          "nodeId": "117:595",
+          "relativePath": "assets/refero-671/4.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:599",
+          "x": 1508,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:09.065Z",
+          "sha256": "b1abc8e0246786576a32ec8300090ad64f2e561cd1e25f95b73955da1856c4ed",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:09.750Z",
+          "imageHash": "5dd9616093f07b6159b545d964a792e240f3c7a9",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "5dd9616093f07b6159b545d964a792e240f3c7a9"
+          },
+          "actualImageHash": "5dd9616093f07b6159b545d964a792e240f3c7a9",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:671",
+          "index": 6,
+          "nodeId": "117:600",
+          "relativePath": "assets/refero-671/6.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:604",
+          "x": 1804,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:09.751Z",
+          "sha256": "515ac5b60def18ef704f6960127ff9c98b58f47823eb1f7859857efef3d9794e",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:10.424Z",
+          "imageHash": "0d35c9b5f3ff085c2c435d1aba9b7bcb32cce390",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "0d35c9b5f3ff085c2c435d1aba9b7bcb32cce390"
+          },
+          "actualImageHash": "0d35c9b5f3ff085c2c435d1aba9b7bcb32cce390",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:671",
+          "index": 10,
+          "nodeId": "117:605",
+          "relativePath": "assets/refero-671/10.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:609",
+          "x": 2100,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:10.426Z",
+          "sha256": "f6150cd29716d8dcc33692244b747979f085bf19303c64cf5a3b44222b2dc99b",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:10.986Z",
+          "imageHash": "7b3351d5b1eeb66530a0793d20da0d8ad99f9c42",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "7b3351d5b1eeb66530a0793d20da0d8ad99f9c42"
+          },
+          "actualImageHash": "7b3351d5b1eeb66530a0793d20da0d8ad99f9c42",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:671",
+          "index": 11,
+          "nodeId": "117:610",
+          "relativePath": "assets/refero-671/11.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:614",
+          "x": 2396,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:10.987Z",
+          "sha256": "0ba66b560739db423e997a1d4dcb7e4c36cc747219c416dbf187d80be72f4ea9",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:11.596Z",
+          "imageHash": "0a64c8c058b4c15490b156df4cd83a85ddc1d862",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "0a64c8c058b4c15490b156df4cd83a85ddc1d862"
+          },
+          "actualImageHash": "0a64c8c058b4c15490b156df4cd83a85ddc1d862",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:671",
+          "index": 12,
+          "nodeId": "117:615",
+          "relativePath": "assets/refero-671/12.jpg",
+          "width": 280,
+          "height": 178,
+          "captionNodeId": "117:619",
+          "x": 2692,
+          "y": 572,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:11.597Z",
+          "sha256": "fa320a66cae80ad7991224e26b27daf61cede6a1a5c17e3b5b29b15d65853725",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:12.218Z",
+          "imageHash": "188c75eb75290421b0fd17a6c6c99d8ce3ec67f2",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "188c75eb75290421b0fd17a6c6c99d8ce3ec67f2"
+          },
+          "actualImageHash": "188c75eb75290421b0fd17a6c6c99d8ce3ec67f2",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        10,
+        11,
+        12
+      ],
+      "omittedStepIndices": [
+        2,
+        5,
+        7,
+        8,
+        9
+      ],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "refero:10795": {
+      "id": "refero:10795",
+      "question": "Q5",
+      "sectionId": "105:430",
+      "stickyNodeId": "117:621",
+      "sourceNodeId": "117:625",
+      "contextNodeId": "117:626",
+      "reportNodeId": "117:667",
+      "y": 965,
+      "height": 340,
+      "images": [
+        {
+          "referenceId": "refero:10795",
+          "index": 0,
+          "nodeId": "117:627",
+          "relativePath": "assets/refero-10795/0.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:631",
+          "x": 620,
+          "y": 1037,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:12.219Z",
+          "sha256": "b6ead3ddff8a4b82a24c28c1549ccc0335bf395053f88cf87df2d78943154b95",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:12.951Z",
+          "imageHash": "acc482da13aa32fcbde8be2d51d6307a2e41d5de",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "acc482da13aa32fcbde8be2d51d6307a2e41d5de"
+          },
+          "actualImageHash": "acc482da13aa32fcbde8be2d51d6307a2e41d5de",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:10795",
+          "index": 1,
+          "nodeId": "117:632",
+          "relativePath": "assets/refero-10795/1.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:636",
+          "x": 916,
+          "y": 1037,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:12.952Z",
+          "sha256": "d49ee11029e6889c1b40fb68b44a75b351269bfed29975310a894a20bc4b6cce",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:13.679Z",
+          "imageHash": "3878cc6e3192fb3fa0d9605a32b2ac5158b7bfe7",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "3878cc6e3192fb3fa0d9605a32b2ac5158b7bfe7"
+          },
+          "actualImageHash": "3878cc6e3192fb3fa0d9605a32b2ac5158b7bfe7",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:10795",
+          "index": 2,
+          "nodeId": "117:637",
+          "relativePath": "assets/refero-10795/2.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:641",
+          "x": 1212,
+          "y": 1037,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:13.680Z",
+          "sha256": "3e346c32acd725c6d23006f871a23b99f9d25e766d2a2dae0ac140d9f7bb3ce3",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:14.397Z",
+          "imageHash": "567dab049fa18dc5907df22fcc9b1e3b49a23c3c",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "567dab049fa18dc5907df22fcc9b1e3b49a23c3c"
+          },
+          "actualImageHash": "567dab049fa18dc5907df22fcc9b1e3b49a23c3c",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:10795",
+          "index": 3,
+          "nodeId": "117:642",
+          "relativePath": "assets/refero-10795/3.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:646",
+          "x": 1508,
+          "y": 1037,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:14.398Z",
+          "sha256": "45f64b848835f777c62d68325a921bac31c2c883b21fe71313a1aea0413c1d7a",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:17.101Z",
+          "imageHash": "84071c287a0fd69036d08d82aa5c58ee4dfc8941",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "84071c287a0fd69036d08d82aa5c58ee4dfc8941"
+          },
+          "actualImageHash": "84071c287a0fd69036d08d82aa5c58ee4dfc8941",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:10795",
+          "index": 5,
+          "nodeId": "117:647",
+          "relativePath": "assets/refero-10795/5.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:651",
+          "x": 1804,
+          "y": 1037,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:17.103Z",
+          "sha256": "5714672aef65e3328bd8b3a55dfe5827d9a71735c2fa0ad7c48306b5ae4f052f",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:17.886Z",
+          "imageHash": "f9ef02ade1de6a93e35d38bc0d93065e48b7b2cc",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "f9ef02ade1de6a93e35d38bc0d93065e48b7b2cc"
+          },
+          "actualImageHash": "f9ef02ade1de6a93e35d38bc0d93065e48b7b2cc",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:10795",
+          "index": 6,
+          "nodeId": "117:652",
+          "relativePath": "assets/refero-10795/6.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:656",
+          "x": 2100,
+          "y": 1037,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:17.888Z",
+          "sha256": "f5c950802acbc4d6ab6ada6c2c1963bc8ba1659d6e4aca1b8ed31c392a7be9e5",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:18.522Z",
+          "imageHash": "d394a5f081c8c5025074f9c82345cf071201e8bd",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "d394a5f081c8c5025074f9c82345cf071201e8bd"
+          },
+          "actualImageHash": "d394a5f081c8c5025074f9c82345cf071201e8bd",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:10795",
+          "index": 7,
+          "nodeId": "117:657",
+          "relativePath": "assets/refero-10795/7.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:661",
+          "x": 2396,
+          "y": 1037,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:18.524Z",
+          "sha256": "f5bc02ac404e9ee55ec16c86360d42cac56e4f4214c3eff0a544bfb88cf8e1d3",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:19.139Z",
+          "imageHash": "738f56a4084d1ec430d22dd3d3a0ff1f2173d7dc",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "738f56a4084d1ec430d22dd3d3a0ff1f2173d7dc"
+          },
+          "actualImageHash": "738f56a4084d1ec430d22dd3d3a0ff1f2173d7dc",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "refero:10795",
+          "index": 8,
+          "nodeId": "117:662",
+          "relativePath": "assets/refero-10795/8.jpg",
+          "width": 280,
+          "height": 158,
+          "captionNodeId": "117:666",
+          "x": 2692,
+          "y": 1037,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:19.141Z",
+          "sha256": "a740ad5e2a968d667b99c150f85310007fa9d0fd6d50b8af828636d9b01751ae",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:19.837Z",
+          "imageHash": "a97da03ffdcc4f74b4b737f87016e896d770a05f",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "a97da03ffdcc4f74b4b737f87016e896d770a05f"
+          },
+          "actualImageHash": "a97da03ffdcc4f74b4b737f87016e896d770a05f",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "omittedStepIndices": [
+        4
+      ],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:canvas-export": {
+      "id": "documentation:canvas-export",
+      "question": "Q5",
+      "sectionId": "105:430",
+      "stickyNodeId": "117:668",
+      "sourceNodeId": "117:672",
+      "contextNodeId": "117:673",
+      "reportNodeId": "117:689",
+      "y": 1385,
+      "height": 650,
+      "images": [
+        {
+          "referenceId": "documentation:canvas-export",
+          "index": 0,
+          "nodeId": "117:674",
+          "relativePath": "assets/documentation/canvas-export-2.png",
+          "width": 855,
+          "height": 49,
+          "captionNodeId": "117:678",
+          "x": 620,
+          "y": 1457,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:19.838Z",
+          "sha256": "d4eed7cfea2af646302c3e242662ba24e6c3c1a52eb2b3999c52194e51012379",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:20.370Z",
+          "imageHash": "340a6307ac6fbe9e4b9320836021a0de968269f9",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "340a6307ac6fbe9e4b9320836021a0de968269f9"
+          },
+          "actualImageHash": "340a6307ac6fbe9e4b9320836021a0de968269f9",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "documentation:canvas-export",
+          "index": 1,
+          "nodeId": "117:679",
+          "relativePath": "assets/documentation/canvas-export-7.png",
+          "width": 280,
+          "height": 430,
+          "captionNodeId": "117:683",
+          "x": 1491,
+          "y": 1457,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:20.372Z",
+          "sha256": "5dc7cd91111ef130fbdc3cecff41ce7a170c5190e848101b0d5b3817322c7d56",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:21.074Z",
+          "imageHash": "9efa251612ab6dd28e9e977c8eb2347ec49f6e84",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "9efa251612ab6dd28e9e977c8eb2347ec49f6e84"
+          },
+          "actualImageHash": "9efa251612ab6dd28e9e977c8eb2347ec49f6e84",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        },
+        {
+          "referenceId": "documentation:canvas-export",
+          "index": 2,
+          "nodeId": "117:684",
+          "relativePath": "assets/documentation/canvas-export-15.png",
+          "width": 831,
+          "height": 62,
+          "captionNodeId": "117:688",
+          "x": 1787,
+          "y": 1457,
+          "status": "verified",
+          "attemptedAt": "2026-09-08T15:53:21.076Z",
+          "sha256": "ed48c2f01632829e49df716df2c9b4d44eafb95cd8f67da269ab8da48afe8a1c",
+          "httpStatus": 200,
+          "uploadedAt": "2026-09-08T15:53:21.949Z",
+          "imageHash": "ae545bd6b0034257bf201dd24c511eae53a8dc42",
+          "fillVerified": true,
+          "responseKeys": [
+            "success",
+            "imageHash",
+            "sizeBytes",
+            "contentType"
+          ],
+          "hasCommitUrl": false,
+          "responseShape": {
+            "success": "boolean",
+            "imageHash": "string",
+            "sizeBytes": "number",
+            "contentType": "string"
+          },
+          "placementResponse": {
+            "success": true,
+            "imageHash": "ae545bd6b0034257bf201dd24c511eae53a8dc42"
+          },
+          "actualImageHash": "ae545bd6b0034257bf201dd24c511eae53a8dc42",
+          "residentVerified": true,
+          "fillCheckedAt": "2026-09-08T16:14:50.948Z"
+        }
+      ],
+      "status": "placed",
+      "selectedStepIndices": [
+        0,
+        1,
+        2
+      ],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:canvas-export-fields": {
+      "id": "documentation:canvas-export-fields",
+      "question": "Q5",
+      "sectionId": "105:430",
+      "stickyNodeId": "117:690",
+      "sourceNodeId": "117:694",
+      "contextNodeId": "117:695",
+      "reportNodeId": "117:697",
+      "y": 2115,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:canvas-nrps-roster": {
+      "id": "documentation:canvas-nrps-roster",
+      "question": "Q6",
+      "sectionId": "105:434",
+      "stickyNodeId": "118:624",
+      "sourceNodeId": "118:628",
+      "contextNodeId": "118:629",
+      "reportNodeId": "118:631",
+      "y": 500,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:canvas-nrps-identifiers": {
+      "id": "documentation:canvas-nrps-identifiers",
+      "question": "Q6",
+      "sectionId": "105:434",
+      "stickyNodeId": "118:632",
+      "sourceNodeId": "118:636",
+      "contextNodeId": "118:637",
+      "reportNodeId": "118:639",
+      "y": 882,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    },
+    "documentation:canvas-enrollment-status": {
+      "id": "documentation:canvas-enrollment-status",
+      "question": "Q6",
+      "sectionId": "105:434",
+      "stickyNodeId": "118:640",
+      "sourceNodeId": "118:644",
+      "contextNodeId": "118:645",
+      "reportNodeId": "118:647",
+      "y": 1264,
+      "height": 302,
+      "images": [],
+      "status": "placed",
+      "selectedStepIndices": [],
+      "omittedStepIndices": [],
+      "placementVerified": true,
+      "annotationVerified": true,
+      "verified": true
+    }
+  },
+  "placedReferenceCount": 32,
+  "placedImageCount": 62,
+  "allAffectedNodeIds": [
+    "100:413",
+    "100:414",
+    "100:415",
+    "100:416",
+    "100:417",
+    "100:421",
+    "100:422",
+    "100:423",
+    "100:427",
+    "100:428",
+    "105:418",
+    "105:419",
+    "105:420",
+    "105:421",
+    "105:422",
+    "105:423",
+    "105:424",
+    "105:425",
+    "105:426",
+    "105:427",
+    "105:428",
+    "105:429",
+    "105:430",
+    "105:431",
+    "105:432",
+    "105:433",
+    "105:434",
+    "105:435",
+    "105:436",
+    "105:437",
+    "105:438",
+    "105:439",
+    "105:440",
+    "105:441",
+    "105:442",
+    "106:418",
+    "106:422",
+    "106:423",
+    "106:424",
+    "106:428",
+    "106:429",
+    "106:430",
+    "106:434",
+    "106:435",
+    "106:436",
+    "106:440",
+    "106:441",
+    "106:445",
+    "106:446",
+    "106:450",
+    "106:451",
+    "106:455",
+    "106:456",
+    "106:457",
+    "106:461",
+    "106:462",
+    "106:463",
+    "106:467",
+    "106:468",
+    "106:472",
+    "106:473",
+    "106:477",
+    "106:478",
+    "106:482",
+    "106:483",
+    "106:487",
+    "106:488",
+    "106:492",
+    "106:493",
+    "106:494",
+    "106:498",
+    "106:499",
+    "106:500",
+    "106:504",
+    "106:505",
+    "106:509",
+    "106:510",
+    "106:514",
+    "106:515",
+    "106:519",
+    "106:520",
+    "106:521",
+    "106:525",
+    "106:526",
+    "106:527",
+    "106:528",
+    "106:529",
+    "106:533",
+    "106:534",
+    "106:535",
+    "106:536",
+    "106:537",
+    "106:541",
+    "106:542",
+    "106:543",
+    "106:544",
+    "106:545",
+    "106:549",
+    "106:550",
+    "106:551",
+    "106:555",
+    "106:556",
+    "106:560",
+    "106:561",
+    "107:476",
+    "107:480",
+    "107:481",
+    "107:482",
+    "107:486",
+    "107:487",
+    "107:491",
+    "107:492",
+    "107:496",
+    "107:497",
+    "107:501",
+    "107:502",
+    "107:503",
+    "107:507",
+    "107:508",
+    "107:509",
+    "107:513",
+    "107:514",
+    "107:518",
+    "107:519",
+    "107:523",
+    "107:524",
+    "107:528",
+    "107:529",
+    "107:530",
+    "107:534",
+    "107:535",
+    "107:536",
+    "107:537",
+    "107:538",
+    "107:542",
+    "107:543",
+    "107:544",
+    "107:548",
+    "107:549",
+    "107:553",
+    "107:554",
+    "107:555",
+    "107:559",
+    "107:560",
+    "107:561",
+    "107:565",
+    "107:566",
+    "112:513",
+    "112:517",
+    "112:518",
+    "112:519",
+    "112:523",
+    "112:524",
+    "112:528",
+    "112:529",
+    "112:533",
+    "112:534",
+    "112:538",
+    "112:539",
+    "112:543",
+    "112:544",
+    "112:545",
+    "112:549",
+    "112:550",
+    "112:551",
+    "112:552",
+    "112:553",
+    "112:557",
+    "112:558",
+    "112:559",
+    "112:560",
+    "112:561",
+    "112:565",
+    "112:566",
+    "112:567",
+    "112:571",
+    "112:572",
+    "112:573",
+    "112:577",
+    "112:578",
+    "112:579",
+    "112:580",
+    "113:540",
+    "113:544",
+    "113:545",
+    "113:546",
+    "113:550",
+    "113:551",
+    "113:555",
+    "113:556",
+    "113:560",
+    "113:561",
+    "113:565",
+    "113:566",
+    "113:567",
+    "113:571",
+    "113:572",
+    "113:573",
+    "113:577",
+    "113:578",
+    "113:582",
+    "113:583",
+    "113:584",
+    "113:588",
+    "113:589",
+    "113:590",
+    "113:594",
+    "113:595",
+    "113:596",
+    "113:600",
+    "113:601",
+    "113:602",
+    "113:606",
+    "113:607",
+    "113:608",
+    "113:612",
+    "113:613",
+    "113:614",
+    "113:615",
+    "113:616",
+    "113:620",
+    "113:621",
+    "113:622",
+    "113:623",
+    "117:574",
+    "117:578",
+    "117:579",
+    "117:580",
+    "117:584",
+    "117:585",
+    "117:589",
+    "117:590",
+    "117:594",
+    "117:595",
+    "117:599",
+    "117:600",
+    "117:604",
+    "117:605",
+    "117:609",
+    "117:610",
+    "117:614",
+    "117:615",
+    "117:619",
+    "117:620",
+    "117:621",
+    "117:625",
+    "117:626",
+    "117:627",
+    "117:631",
+    "117:632",
+    "117:636",
+    "117:637",
+    "117:641",
+    "117:642",
+    "117:646",
+    "117:647",
+    "117:651",
+    "117:652",
+    "117:656",
+    "117:657",
+    "117:661",
+    "117:662",
+    "117:666",
+    "117:667",
+    "117:668",
+    "117:672",
+    "117:673",
+    "117:674",
+    "117:678",
+    "117:679",
+    "117:683",
+    "117:684",
+    "117:688",
+    "117:689",
+    "117:690",
+    "117:694",
+    "117:695",
+    "117:696",
+    "117:697",
+    "118:624",
+    "118:628",
+    "118:629",
+    "118:630",
+    "118:631",
+    "118:632",
+    "118:636",
+    "118:637",
+    "118:638",
+    "118:639",
+    "118:640",
+    "118:644",
+    "118:645",
+    "118:646",
+    "118:647"
+  ],
+  "lastRecordedAt": "2026-09-08T16:07:04.544Z",
+  "expectedReferenceCount": 32,
+  "expectedImageCount": 62,
+  "referenceRowsCreatedCount": 32,
+  "uploadedAssetCount": 62,
+  "placementComplete": true,
+  "structuralVerification": {
+    "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+    "pageId": "5:422",
+    "createdNodeIds": [],
+    "mutatedNodeIds": [],
+    "images": [
+      {
+        "referenceId": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+        "index": 0,
+        "nodeId": "100:423",
+        "imageHash": "ad30546d76a88165564171a353af89280591ade5",
+        "expectedImageHash": "ad30546d76a88165564171a353af89280591ade5",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 204,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+        "index": 0,
+        "nodeId": "106:424",
+        "imageHash": "e251b54281d5aeb7a62f286d9c34ea8156e08e4c",
+        "expectedImageHash": "e251b54281d5aeb7a62f286d9c34ea8156e08e4c",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+        "index": 0,
+        "nodeId": "106:436",
+        "imageHash": "956213ddeff3835b666ba679fde5767240e5e498",
+        "expectedImageHash": "956213ddeff3835b666ba679fde5767240e5e498",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+        "index": 1,
+        "nodeId": "106:441",
+        "imageHash": "5fad85dca147eba65a45e1b2f3b7b978ea874868",
+        "expectedImageHash": "5fad85dca147eba65a45e1b2f3b7b978ea874868",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+        "index": 2,
+        "nodeId": "106:446",
+        "imageHash": "1c50578272cbcab42cba279b541e422aaa0626e3",
+        "expectedImageHash": "1c50578272cbcab42cba279b541e422aaa0626e3",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+        "index": 3,
+        "nodeId": "106:451",
+        "imageHash": "16cde2c8becb40372797fbad900babf4db2dbc72",
+        "expectedImageHash": "16cde2c8becb40372797fbad900babf4db2dbc72",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+        "index": 0,
+        "nodeId": "106:463",
+        "imageHash": "a8d82a95df6e8b32548eaa718c30769158c040ee",
+        "expectedImageHash": "a8d82a95df6e8b32548eaa718c30769158c040ee",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+        "index": 1,
+        "nodeId": "106:468",
+        "imageHash": "5b242742b12156c4804ba232c8c5fb5737d5d920",
+        "expectedImageHash": "5b242742b12156c4804ba232c8c5fb5737d5d920",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+        "index": 2,
+        "nodeId": "106:473",
+        "imageHash": "9c5a2e498dac5836d48adf51db51eda695a36551",
+        "expectedImageHash": "9c5a2e498dac5836d48adf51db51eda695a36551",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+        "index": 3,
+        "nodeId": "106:478",
+        "imageHash": "a70dc712cda9151f95ebc3e55d68b3f2fb48f14e",
+        "expectedImageHash": "a70dc712cda9151f95ebc3e55d68b3f2fb48f14e",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+        "index": 4,
+        "nodeId": "106:483",
+        "imageHash": "e799a6c533d824f7bea51dace9bd02761748d2f8",
+        "expectedImageHash": "e799a6c533d824f7bea51dace9bd02761748d2f8",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+        "index": 5,
+        "nodeId": "106:488",
+        "imageHash": "b088e1c68e3703a607555880d6570911ebda15af",
+        "expectedImageHash": "b088e1c68e3703a607555880d6570911ebda15af",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 191,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+        "index": 0,
+        "nodeId": "106:500",
+        "imageHash": "8505e7d4a977064d64af180ce07a26776bfff606",
+        "expectedImageHash": "8505e7d4a977064d64af180ce07a26776bfff606",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+        "index": 1,
+        "nodeId": "106:505",
+        "imageHash": "6275efd3987aceb9e19dd25efc18be0358537418",
+        "expectedImageHash": "6275efd3987aceb9e19dd25efc18be0358537418",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+        "index": 2,
+        "nodeId": "106:510",
+        "imageHash": "f9378a7afbebf799f3a63656c1a3e4f21badfeac",
+        "expectedImageHash": "f9378a7afbebf799f3a63656c1a3e4f21badfeac",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+        "index": 3,
+        "nodeId": "106:515",
+        "imageHash": "b4389209be4c984c11c8dd088b57f20ed60efef2",
+        "expectedImageHash": "b4389209be4c984c11c8dd088b57f20ed60efef2",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:entra-on-demand",
+        "index": 0,
+        "nodeId": "106:551",
+        "imageHash": "48b046139c17bcbe23ae6fed6d2ab9ab09f62e88",
+        "expectedImageHash": "48b046139c17bcbe23ae6fed6d2ab9ab09f62e88",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 149,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:entra-on-demand",
+        "index": 1,
+        "nodeId": "106:556",
+        "imageHash": "cb29bdcf6b72a4481ecaf324943941deb71bc868",
+        "expectedImageHash": "cb29bdcf6b72a4481ecaf324943941deb71bc868",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 149,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:4649",
+        "index": 1,
+        "nodeId": "107:482",
+        "imageHash": "06788bcb1b6e369afc7e79975afe19b96e7f3bc4",
+        "expectedImageHash": "06788bcb1b6e369afc7e79975afe19b96e7f3bc4",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 157,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:4649",
+        "index": 2,
+        "nodeId": "107:487",
+        "imageHash": "14eac58ff4562cf71c93f2d2206f58458366c6fe",
+        "expectedImageHash": "14eac58ff4562cf71c93f2d2206f58458366c6fe",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 157,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:4649",
+        "index": 3,
+        "nodeId": "107:492",
+        "imageHash": "2c211cb99a0efbc34db2e6cfb54b766c3442b1f6",
+        "expectedImageHash": "2c211cb99a0efbc34db2e6cfb54b766c3442b1f6",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 157,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:4649",
+        "index": 4,
+        "nodeId": "107:497",
+        "imageHash": "541d35dae6a8c2ec7a9b417152cc16d2d6260f1a",
+        "expectedImageHash": "541d35dae6a8c2ec7a9b417152cc16d2d6260f1a",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 157,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+        "index": 0,
+        "nodeId": "107:509",
+        "imageHash": "d5561b45b7b90df427f06dd6ae348f9705c1f941",
+        "expectedImageHash": "d5561b45b7b90df427f06dd6ae348f9705c1f941",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+        "index": 1,
+        "nodeId": "107:514",
+        "imageHash": "7e75949189a3aa67b1187f9efc5e09cb5aead96e",
+        "expectedImageHash": "7e75949189a3aa67b1187f9efc5e09cb5aead96e",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+        "index": 2,
+        "nodeId": "107:519",
+        "imageHash": "b6cca6577d2ef5f2657be3d8a3af436797c8cc15",
+        "expectedImageHash": "b6cca6577d2ef5f2657be3d8a3af436797c8cc15",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+        "index": 3,
+        "nodeId": "107:524",
+        "imageHash": "aa5add917c42f584625844b903b9db53b57a58d2",
+        "expectedImageHash": "aa5add917c42f584625844b903b9db53b57a58d2",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:atlassian-jit",
+        "index": 0,
+        "nodeId": "107:544",
+        "imageHash": "fa8047e2f59a7012ed76afeb01b58facd4f5afa0",
+        "expectedImageHash": "fa8047e2f59a7012ed76afeb01b58facd4f5afa0",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 78,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:atlassian-jit",
+        "index": 1,
+        "nodeId": "107:549",
+        "imageHash": "eb8e14d34d866e09219313be55cfa6c3fbcea2ad",
+        "expectedImageHash": "eb8e14d34d866e09219313be55cfa6c3fbcea2ad",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 155,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:github-linking",
+        "index": 0,
+        "nodeId": "107:561",
+        "imageHash": "3494945864873f5d0aa6d12a11610552c6e218de",
+        "expectedImageHash": "3494945864873f5d0aa6d12a11610552c6e218de",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 393,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+        "index": 0,
+        "nodeId": "112:519",
+        "imageHash": "8c64b0108c2f5084496ae1989cc0bca3a05232bd",
+        "expectedImageHash": "8c64b0108c2f5084496ae1989cc0bca3a05232bd",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+        "index": 1,
+        "nodeId": "112:524",
+        "imageHash": "c3937c826f655c664c3ab16f94b70bb5299adee2",
+        "expectedImageHash": "c3937c826f655c664c3ab16f94b70bb5299adee2",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+        "index": 2,
+        "nodeId": "112:529",
+        "imageHash": "00ef088e8c58b18a432e0b7269e3572831f5bd28",
+        "expectedImageHash": "00ef088e8c58b18a432e0b7269e3572831f5bd28",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+        "index": 3,
+        "nodeId": "112:534",
+        "imageHash": "e5c2e598feee12b5ed96f6a2380877ef8779498d",
+        "expectedImageHash": "e5c2e598feee12b5ed96f6a2380877ef8779498d",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+        "index": 4,
+        "nodeId": "112:539",
+        "imageHash": "6f7a394281ac441956563f61b79d0f9d8b511a21",
+        "expectedImageHash": "6f7a394281ac441956563f61b79d0f9d8b511a21",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 190,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:atlassian-group-conflicts",
+        "index": 0,
+        "nodeId": "112:567",
+        "imageHash": "06e722b5956a153eb26685cab64ab20627d43a1c",
+        "expectedImageHash": "06e722b5956a153eb26685cab64ab20627d43a1c",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 113,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:1250",
+        "index": 0,
+        "nodeId": "113:546",
+        "imageHash": "814358eca60177997a960f63e7266484216a69bf",
+        "expectedImageHash": "814358eca60177997a960f63e7266484216a69bf",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 168,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:1250",
+        "index": 1,
+        "nodeId": "113:551",
+        "imageHash": "ae9e43ccfc499d535bceadbe46d74909f81d7b5e",
+        "expectedImageHash": "ae9e43ccfc499d535bceadbe46d74909f81d7b5e",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:1250",
+        "index": 2,
+        "nodeId": "113:556",
+        "imageHash": "5e3503cf16bb67024aec3e44e99d10b59e182736",
+        "expectedImageHash": "5e3503cf16bb67024aec3e44e99d10b59e182736",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:1250",
+        "index": 3,
+        "nodeId": "113:561",
+        "imageHash": "fbbc83e70d08790609a16554f0fad386ae5ee53c",
+        "expectedImageHash": "fbbc83e70d08790609a16554f0fad386ae5ee53c",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:entra-lifecycle",
+        "index": 0,
+        "nodeId": "113:573",
+        "imageHash": "4ce834611cad8b44f74c8d42426beefd0eeba62d",
+        "expectedImageHash": "4ce834611cad8b44f74c8d42426beefd0eeba62d",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 124,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:entra-lifecycle",
+        "index": 1,
+        "nodeId": "113:578",
+        "imageHash": "daf38b177bed1623468e9c03b381f5294acd2877",
+        "expectedImageHash": "daf38b177bed1623468e9c03b381f5294acd2877",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 124,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:entra-status",
+        "index": 0,
+        "nodeId": "113:590",
+        "imageHash": "1af6533d6f7b4ad2b30c4987980dd87d32574532",
+        "expectedImageHash": "1af6533d6f7b4ad2b30c4987980dd87d32574532",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 250,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:entra-logs",
+        "index": 0,
+        "nodeId": "113:602",
+        "imageHash": "616fb77d89ab3c42bd0228384f3b282aef342a0e",
+        "expectedImageHash": "616fb77d89ab3c42bd0228384f3b282aef342a0e",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 90,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:671",
+        "index": 0,
+        "nodeId": "117:580",
+        "imageHash": "ed892e13d0ea0ee46d92d23b0f138ac0428bdfeb",
+        "expectedImageHash": "ed892e13d0ea0ee46d92d23b0f138ac0428bdfeb",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:671",
+        "index": 1,
+        "nodeId": "117:585",
+        "imageHash": "562fb0f89baf58a89562494a7e92802896555cb4",
+        "expectedImageHash": "562fb0f89baf58a89562494a7e92802896555cb4",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:671",
+        "index": 3,
+        "nodeId": "117:590",
+        "imageHash": "721b9860a2c2f0e768d0fc8d6b8acc04b1c5792c",
+        "expectedImageHash": "721b9860a2c2f0e768d0fc8d6b8acc04b1c5792c",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 203,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:671",
+        "index": 4,
+        "nodeId": "117:595",
+        "imageHash": "5dd9616093f07b6159b545d964a792e240f3c7a9",
+        "expectedImageHash": "5dd9616093f07b6159b545d964a792e240f3c7a9",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:671",
+        "index": 6,
+        "nodeId": "117:600",
+        "imageHash": "0d35c9b5f3ff085c2c435d1aba9b7bcb32cce390",
+        "expectedImageHash": "0d35c9b5f3ff085c2c435d1aba9b7bcb32cce390",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:671",
+        "index": 10,
+        "nodeId": "117:605",
+        "imageHash": "7b3351d5b1eeb66530a0793d20da0d8ad99f9c42",
+        "expectedImageHash": "7b3351d5b1eeb66530a0793d20da0d8ad99f9c42",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:671",
+        "index": 11,
+        "nodeId": "117:610",
+        "imageHash": "0a64c8c058b4c15490b156df4cd83a85ddc1d862",
+        "expectedImageHash": "0a64c8c058b4c15490b156df4cd83a85ddc1d862",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:671",
+        "index": 12,
+        "nodeId": "117:615",
+        "imageHash": "188c75eb75290421b0fd17a6c6c99d8ce3ec67f2",
+        "expectedImageHash": "188c75eb75290421b0fd17a6c6c99d8ce3ec67f2",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 178,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:10795",
+        "index": 0,
+        "nodeId": "117:627",
+        "imageHash": "acc482da13aa32fcbde8be2d51d6307a2e41d5de",
+        "expectedImageHash": "acc482da13aa32fcbde8be2d51d6307a2e41d5de",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:10795",
+        "index": 1,
+        "nodeId": "117:632",
+        "imageHash": "3878cc6e3192fb3fa0d9605a32b2ac5158b7bfe7",
+        "expectedImageHash": "3878cc6e3192fb3fa0d9605a32b2ac5158b7bfe7",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:10795",
+        "index": 2,
+        "nodeId": "117:637",
+        "imageHash": "567dab049fa18dc5907df22fcc9b1e3b49a23c3c",
+        "expectedImageHash": "567dab049fa18dc5907df22fcc9b1e3b49a23c3c",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:10795",
+        "index": 3,
+        "nodeId": "117:642",
+        "imageHash": "84071c287a0fd69036d08d82aa5c58ee4dfc8941",
+        "expectedImageHash": "84071c287a0fd69036d08d82aa5c58ee4dfc8941",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:10795",
+        "index": 5,
+        "nodeId": "117:647",
+        "imageHash": "f9ef02ade1de6a93e35d38bc0d93065e48b7b2cc",
+        "expectedImageHash": "f9ef02ade1de6a93e35d38bc0d93065e48b7b2cc",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:10795",
+        "index": 6,
+        "nodeId": "117:652",
+        "imageHash": "d394a5f081c8c5025074f9c82345cf071201e8bd",
+        "expectedImageHash": "d394a5f081c8c5025074f9c82345cf071201e8bd",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:10795",
+        "index": 7,
+        "nodeId": "117:657",
+        "imageHash": "738f56a4084d1ec430d22dd3d3a0ff1f2173d7dc",
+        "expectedImageHash": "738f56a4084d1ec430d22dd3d3a0ff1f2173d7dc",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "refero:10795",
+        "index": 8,
+        "nodeId": "117:662",
+        "imageHash": "a97da03ffdcc4f74b4b737f87016e896d770a05f",
+        "expectedImageHash": "a97da03ffdcc4f74b4b737f87016e896d770a05f",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 158,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:canvas-export",
+        "index": 0,
+        "nodeId": "117:674",
+        "imageHash": "340a6307ac6fbe9e4b9320836021a0de968269f9",
+        "expectedImageHash": "340a6307ac6fbe9e4b9320836021a0de968269f9",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 855,
+        "height": 49,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:canvas-export",
+        "index": 1,
+        "nodeId": "117:679",
+        "imageHash": "9efa251612ab6dd28e9e977c8eb2347ec49f6e84",
+        "expectedImageHash": "9efa251612ab6dd28e9e977c8eb2347ec49f6e84",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 280,
+        "height": 430,
+        "residentVerified": true
+      },
+      {
+        "referenceId": "documentation:canvas-export",
+        "index": 2,
+        "nodeId": "117:684",
+        "imageHash": "ae545bd6b0034257bf201dd24c511eae53a8dc42",
+        "expectedImageHash": "ae545bd6b0034257bf201dd24c511eae53a8dc42",
+        "hasImageFill": true,
+        "hashMatches": true,
+        "width": 831,
+        "height": 62,
+        "residentVerified": true
+      }
+    ],
+    "references": [
+      {
+        "id": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:entra-ldap",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:okta-ad-scope",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:google-simulation",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:entra-on-demand",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "refero:4649",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:entra-matching",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:atlassian-jit",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:github-linking",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:atlassian-managed",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:github-team-sync",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:atlassian-group-conflicts",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:canvas-course-roles",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "refero:1250",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:entra-lifecycle",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:entra-status",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:entra-logs",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:entra-deletion-guard",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:atlassian-sync-actions",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "refero:671",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "refero:10795",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:canvas-export",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:canvas-export-fields",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:canvas-nrps-roster",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:canvas-nrps-identifiers",
+        "hasAnnotation": true,
+        "hasSource": true
+      },
+      {
+        "id": "documentation:canvas-enrollment-status",
+        "hasAnnotation": true,
+        "hasSource": true
+      }
+    ],
+    "issues": [],
+    "residentCheck": {
+      "uniqueHashes": 62,
+      "positiveDimensions": 62,
+      "errors": []
+    },
+    "structuralPassed": true,
+    "visualVerificationRequired": true,
+    "allExpectedReferencesAndImageHashesVerified": true
+  },
+  "lastStructuralCheckAt": "2026-09-08T16:14:50.948Z",
+  "verifiedAt": "2026-09-08T16:16:02.606369+00:00",
+  "overviewNodeId": "105:438",
+  "layoutVerification": {
+    "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+    "pageId": "5:422",
+    "mutations": 0,
+    "counts": {
+      "sections": 6,
+      "overviews": 1,
+      "references": 32,
+      "sourceLinks": 32,
+      "imageTargets": 62,
+      "orderedRows": 32,
+      "ownedStickyCount": 32,
+      "ownedImageCount": 62
+    },
+    "omissionChecks": [
+      {
+        "id": "refero:4649",
+        "omittedOriginalIndices": [
+          0
+        ],
+        "explicitNotePresent": true
+      },
+      {
+        "id": "refero:671",
+        "omittedOriginalIndices": [
+          2,
+          5,
+          7,
+          8,
+          9
+        ],
+        "explicitNotePresent": true
+      },
+      {
+        "id": "refero:10795",
+        "omittedOriginalIndices": [
+          4
+        ],
+        "explicitNotePresent": true
+      }
+    ],
+    "sections": [
+      {
+        "question": "Q1",
+        "nodeId": "100:413"
+      },
+      {
+        "question": "Q2",
+        "nodeId": "105:418"
+      },
+      {
+        "question": "Q3",
+        "nodeId": "105:422"
+      },
+      {
+        "question": "Q4",
+        "nodeId": "105:426"
+      },
+      {
+        "question": "Q5",
+        "nodeId": "105:430"
+      },
+      {
+        "question": "Q6",
+        "nodeId": "105:434"
+      }
+    ],
+    "overviewNodeId": "105:438",
+    "issues": [],
+    "passed": true
+  },
+  "page1PreservationVerification": {
+    "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+    "pageId": "0:1",
+    "readOnly": true,
+    "unchanged": true,
+    "differences": [],
+    "topLevelIds": [
+      "6:5",
+      "6:6",
+      "6:7",
+      "6:8",
+      "6:9",
+      "6:10",
+      "6:11",
+      "6:12"
+    ],
+    "sampledChildIds": [
+      "9:6",
+      "9:10",
+      "9:11",
+      "9:15",
+      "9:16",
+      "9:20",
+      "9:21",
+      "9:25",
+      "9:26",
+      "9:30",
+      "9:31",
+      "9:35"
+    ],
+    "baselineReceipt": "00-preflight.json",
+    "createdNodeIds": [],
+    "mutatedNodeIds": []
+  },
+  "visualVerification": {
+    "passed": true,
+    "receipts": [
+      "figjam/receipts/Q1-Q2-reconcile-wrapper.json",
+      "figjam/receipts/Q3-Q4-reconcile-wrapper.json",
+      "figjam/receipts/Q5-Q6-reconcile-wrapper.json",
+      "figjam/receipts/Q5-readability-fix-wrapper.json",
+      "figjam/receipts/final-audit-wrapper.json",
+      "figjam/receipts/page1-final-wrapper.json"
+    ],
+    "finalOverview": {
+      "pageId": "5:422",
+      "sectionNodeIds": [
+        "105:438",
+        "100:413",
+        "105:418",
+        "105:422",
+        "105:426",
+        "105:430",
+        "105:434"
+      ],
+      "passed": true,
+      "observations": "Screenshots genuinely inspected: page 5:422, overview 105:438, plus columns 100:413 and 105:430 at higher magnification; Q2/Q3/Q4/Q6 assessed only at page scale. Overview renders full synthesis, hypothesis, decisions, assumptions and questions legibly. Seven sections present, evenly spaced, no overlaps; stickies uniformly blue, section styling consistent; real screenshot pixels with captions beneath, documentation rows text-only.",
+      "issues": [
+        "Captions wrapping to two or three lines produce ragged baselines within rows refero:671 and documentation:canvas-export (cosmetic, no collision).",
+        "documentation:canvas-export mixes 855/280/831-wide targets, leaving a visibly wide gap after illustration 1 and an uneven row bottom.",
+        "Q6 (105:434) holds documentation-only references with zero images, appearing sparse next to image-rich columns.",
+        "Q2/Q3/Q4/Q6 were reviewed only at full-page scale, so fine text detail in those columns was not resolvable."
+      ]
+    },
+    "canvasReadabilityFix": {
+      "sectionNodeIds": [
+        "105:430"
+      ],
+      "closeupNodeIds": [
+        "117:674",
+        "117:684",
+        "117:662"
+      ],
+      "passed": true,
+      "observations": "Q5 Canvas row now shows all three documentation excerpts in order 1–3 at native width: 855x49 Reports tab bar (Reports outlined red), 280x430 Configure Report panel with three highlighted checkboxes, 831x62 Outcome Export download row with red arrow. All pixels legible, no crops, stretching or overlaps; captions sit below each image, wrapped to image width, correctly numbered. Rox final node 117:662 renders 280x158; its bottom-right CSV toast is present in the retained full-resolution source but unreadable at this render scale. Caption already reads 'Upload accepted; processing toast'.",
+      "issues": [],
+      "limitations": [
+        "Canvas evidence is official documentation excerpts (thin UI strips and a config panel), not captured live Provisioning-run product screens; labelled as such in captions.",
+        "Rox 117:662 board render is 280x158, so the bottom-right toast text is sub-pixel-legible at this zoom. Verified from the retained original /assets/refero-10795/8.jpg: it reads 'CSV Uploaded — We are processing the CSV and adding contacts. This may take a few minutes...'. The toast is definitively present, not absent; the earlier thumbnail-scale miss was a zoom limitation. Matching image hash preserves full source pixels.",
+        "This call performed no global board audit; verification scope was section 105:430 and the four screenshotted nodes only."
+      ]
+    },
+    "acceptedLimitations": [
+      "Documentation excerpts are labelled and retained in full; Q6 intentionally has documentation evidence without product screenshots.",
+      "Image heights and caption baselines vary to preserve original aspect ratios.",
+      "Fine screenshot UI requires zoom or the full-size local report. Rox final state is upload accepted/processing, not completed import.",
+      "Final overview covers all sections; detailed screenshots were inspected per pair. Page1 preservation audit compares all eight top-level nodes and twelve sampled children to the preflight, supplemented by Page2-only mutation guards."
+    ],
+    "assessmentClarifications": [
+      "The earlier Q5 thumbnail assessment missing the Rox toast is superseded by the original-image inspection and readability-fix receipt.",
+      "Canvas target gaps are 16px by actual geometry; unequal original image widths/heights are intentional.",
+      "Ragged image/caption baselines preserve whole-source proportions and produce no collisions."
+    ]
+  }
+}

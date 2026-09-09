@@ -1,0 +1,12 @@
+Perform only read-only inspection using existing claude.ai Figma, file tN2AM7RZD2InF1LYnN0zcn. First batch-discover use_figma,get_figjam,get_screenshot,upload_assets,whoami. Read the local mandatory skill files:
+/Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-use/SKILL.md
+/Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-use-figjam/SKILL.md
+Also read figma-use/references/plugin-api-standalone.index.md and figma-use/references/gotchas.md only relevant text/font/page rules if needed.
+
+Call get_figjam on existing Page 2 node 5:422 includeImagesOfNodes=false upfront. Then use_figma with this read-only code for Page 1 (skillNames figma-use,figma-use-figjam):
+const page = await figma.getNodeByIdAsync('0:1'); await figma.setCurrentPageAsync(page);
+const top = page.children.map(n=>({id:n.id,name:n.name,type:n.type,x:n.x,y:n.y,width:n.width,height:n.height}));
+const first=page.children.find(n=>n.type==='SECTION');
+return {pageId:page.id,topLevel:top,firstSection:first?{id:first.id,name:first.name,fills:first.fills,children:first.children.slice(0,12).map(n=>({id:n.id,name:n.name,type:n.type,x:n.x,y:n.y,width:n.width,height:n.height,fills:('fills' in n)?n.fills:undefined,text:n.type==='TEXT'?n.characters:(n.type==='STICKY'?n.text.characters:undefined)}))}:null};
+
+Do not mutate anything. Return JSON with page2 get_figjam result verbatim text and page1 use_figma returned object verbatim. Include exact full tool names of use_figma and upload_assets and the discovered upload_assets schema fields (not any upload URLs; no upload call now). No extra research.

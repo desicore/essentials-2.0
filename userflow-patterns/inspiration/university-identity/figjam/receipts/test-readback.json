@@ -1,0 +1,23 @@
+{
+  "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+  "pageId": "5:422",
+  "images": [
+    {
+      "referenceId": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "index": 0,
+      "nodeId": "100:423",
+      "imageHash": "ad30546d76a88165564171a353af89280591ade5",
+      "hasImageFill": true
+    }
+  ],
+  "references": [
+    {
+      "id": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "hasAnnotation": true,
+      "hasSource": true
+    }
+  ],
+  "visualEvidence": "test-direct-fill.json + test-visual.json",
+  "structuralPassed": true,
+  "issues": []
+}

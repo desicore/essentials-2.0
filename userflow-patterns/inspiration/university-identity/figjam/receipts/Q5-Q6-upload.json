@@ -1,0 +1,12 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 0.322169,
+  "result": {
+    "batch": 0,
+    "exit_code": 0,
+    "sanitized_upload_log": "{\"referenceId\":\"refero:671\",\"index\":0,\"nodeId\":\"117:580\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:671\",\"index\":1,\"nodeId\":\"117:585\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:671\",\"index\":3,\"nodeId\":\"117:590\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:671\",\"index\":4,\"nodeId\":\"117:595\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:671\",\"index\":6,\"nodeId\":\"117:600\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:671\",\"index\":10,\"nodeId\":\"117:605\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:671\",\"index\":11,\"nodeId\":\"117:610\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:671\",\"index\":12,\"nodeId\":\"117:615\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:10795\",\"index\":0,\"nodeId\":\"117:627\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:10795\",\"index\":1,\"nodeId\":\"117:632\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:10795\",\"index\":2,\"nodeId\":\"117:637\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:10795\",\"index\":3,\"nodeId\":\"117:642\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:10795\",\"index\":5,\"nodeId\":\"117:647\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:10795\",\"index\":6,\"nodeId\":\"117:652\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:10795\",\"index\":7,\"nodeId\":\"117:657\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:10795\",\"index\":8,\"nodeId\":\"117:662\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:canvas-export\",\"index\":0,\"nodeId\":\"117:674\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:canvas-export\",\"index\":1,\"nodeId\":\"117:679\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:canvas-export\",\"index\":2,\"nodeId\":\"117:684\",\"status\":\"uploaded\",\"httpStatus\":200}\nAll URLs posted once; temporary URL file removed. Inspect actual screenshots before marking visual verification.\n",
+    "capabilities_persisted": false
+  }
+}

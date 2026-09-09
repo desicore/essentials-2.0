@@ -1,0 +1,40 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 0.57431875,
+  "result": {
+    "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+    "pageId": "0:1",
+    "readOnly": true,
+    "unchanged": true,
+    "differences": [],
+    "topLevelIds": [
+      "6:5",
+      "6:6",
+      "6:7",
+      "6:8",
+      "6:9",
+      "6:10",
+      "6:11",
+      "6:12"
+    ],
+    "sampledChildIds": [
+      "9:6",
+      "9:10",
+      "9:11",
+      "9:15",
+      "9:16",
+      "9:20",
+      "9:21",
+      "9:25",
+      "9:26",
+      "9:30",
+      "9:31",
+      "9:35"
+    ],
+    "baselineReceipt": "00-preflight.json",
+    "createdNodeIds": [],
+    "mutatedNodeIds": []
+  }
+}

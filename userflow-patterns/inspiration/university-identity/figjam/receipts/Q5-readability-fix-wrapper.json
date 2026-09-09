@@ -1,0 +1,98 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 0.5580890000000001,
+  "result": {
+    "operation": {
+      "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+      "pageId": "5:422",
+      "createdNodeIds": [],
+      "mutatedNodeIds": [
+        "117:674",
+        "117:678",
+        "117:679",
+        "117:683",
+        "117:684",
+        "117:688"
+      ],
+      "referenceRecords": [
+        {
+          "id": "documentation:canvas-export",
+          "question": "Q5",
+          "sectionId": "105:430",
+          "stickyNodeId": "117:668",
+          "sourceNodeId": "117:672",
+          "contextNodeId": "117:673",
+          "reportNodeId": "117:689",
+          "y": 1385,
+          "height": 650,
+          "selectedStepIndices": [
+            0,
+            1,
+            2
+          ],
+          "omittedStepIndices": [],
+          "images": [
+            {
+              "referenceId": "documentation:canvas-export",
+              "index": 0,
+              "nodeId": "117:674",
+              "captionNodeId": "117:678",
+              "relativePath": "assets/documentation/canvas-export-2.png",
+              "width": 855,
+              "height": 49,
+              "x": 620,
+              "y": 1457,
+              "imageHash": "340a6307ac6fbe9e4b9320836021a0de968269f9"
+            },
+            {
+              "referenceId": "documentation:canvas-export",
+              "index": 1,
+              "nodeId": "117:679",
+              "captionNodeId": "117:683",
+              "relativePath": "assets/documentation/canvas-export-7.png",
+              "width": 280,
+              "height": 430,
+              "x": 1491,
+              "y": 1457,
+              "imageHash": "9efa251612ab6dd28e9e977c8eb2347ec49f6e84"
+            },
+            {
+              "referenceId": "documentation:canvas-export",
+              "index": 2,
+              "nodeId": "117:684",
+              "captionNodeId": "117:688",
+              "relativePath": "assets/documentation/canvas-export-15.png",
+              "width": 831,
+              "height": 62,
+              "x": 1787,
+              "y": 1457,
+              "imageHash": "ae545bd6b0034257bf201dd24c511eae53a8dc42"
+            }
+          ]
+        }
+      ],
+      "imagesRetained": true,
+      "sectionReflow": false
+    },
+    "visual": {
+      "sectionNodeIds": [
+        "105:430"
+      ],
+      "closeupNodeIds": [
+        "117:674",
+        "117:684",
+        "117:662"
+      ],
+      "passed": true,
+      "observations": "Q5 Canvas row now shows all three documentation excerpts in order 1–3 at native width: 855x49 Reports tab bar (Reports outlined red), 280x430 Configure Report panel with three highlighted checkboxes, 831x62 Outcome Export download row with red arrow. All pixels legible, no crops, stretching or overlaps; captions sit below each image, wrapped to image width, correctly numbered. Rox final node 117:662 renders 280x158; its bottom-right CSV toast is present in the retained full-resolution source but unreadable at this render scale. Caption already reads 'Upload accepted; processing toast'.",
+      "issues": [],
+      "limitations": [
+        "Canvas evidence is official documentation excerpts (thin UI strips and a config panel), not captured live Provisioning-run product screens; labelled as such in captions.",
+        "Rox 117:662 board render is 280x158, so the bottom-right toast text is sub-pixel-legible at this zoom. Verified from the retained original /assets/refero-10795/8.jpg: it reads 'CSV Uploaded — We are processing the CSV and adding contacts. This may take a few minutes...'. The toast is definitively present, not absent; the earlier thumbnail-scale miss was a zoom limitation. Matching image hash preserves full source pixels.",
+        "This call performed no global board audit; verification scope was section 105:430 and the four screenshotted nodes only."
+      ]
+    }
+  }
+}

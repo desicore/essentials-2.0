@@ -1,0 +1,1086 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 1.4193522500000002,
+  "result": {
+    "operations": [
+      {
+        "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+        "pageId": "5:422",
+        "createdNodeIds": [
+          "106:418",
+          "106:422",
+          "106:423",
+          "106:424",
+          "106:428",
+          "106:429",
+          "106:430",
+          "106:434",
+          "106:435",
+          "106:436",
+          "106:440",
+          "106:441",
+          "106:445",
+          "106:446",
+          "106:450",
+          "106:451",
+          "106:455",
+          "106:456",
+          "106:457",
+          "106:461",
+          "106:462",
+          "106:463",
+          "106:467",
+          "106:468",
+          "106:472",
+          "106:473",
+          "106:477",
+          "106:478",
+          "106:482",
+          "106:483",
+          "106:487",
+          "106:488",
+          "106:492",
+          "106:493",
+          "106:494",
+          "106:498",
+          "106:499",
+          "106:500",
+          "106:504",
+          "106:505",
+          "106:509",
+          "106:510",
+          "106:514",
+          "106:515",
+          "106:519",
+          "106:520",
+          "106:521",
+          "106:525",
+          "106:526",
+          "106:527",
+          "106:528",
+          "106:529",
+          "106:533",
+          "106:534",
+          "106:535",
+          "106:536",
+          "106:537",
+          "106:541",
+          "106:542",
+          "106:543",
+          "106:544",
+          "106:545",
+          "106:549",
+          "106:550",
+          "106:551",
+          "106:555",
+          "106:556",
+          "106:560",
+          "106:561"
+        ],
+        "mutatedNodeIds": [
+          "100:413",
+          "100:414",
+          "100:415",
+          "100:416",
+          "100:417",
+          "100:421",
+          "100:422",
+          "100:423",
+          "100:427",
+          "100:428"
+        ],
+        "sectionRecords": [
+          {
+            "question": "Q1",
+            "nodeId": "100:413",
+            "headingNodeId": "100:414",
+            "synthesisNodeId": "100:415",
+            "questionsNodeId": "100:416",
+            "x": 600,
+            "y": 1200,
+            "width": 2456,
+            "height": 4135
+          }
+        ],
+        "referenceRecords": [
+          {
+            "id": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+            "question": "Q1",
+            "sectionId": "100:413",
+            "stickyNodeId": "100:417",
+            "sourceNodeId": "100:421",
+            "contextNodeId": "100:422",
+            "reportNodeId": "100:428",
+            "y": 500,
+            "height": 386,
+            "images": [
+              {
+                "referenceId": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+                "index": 0,
+                "nodeId": "100:423",
+                "relativePath": "assets/zendesk-saml.jpg",
+                "width": 280,
+                "height": 204,
+                "captionNodeId": "100:427",
+                "x": 620,
+                "y": 572
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+            "question": "Q1",
+            "sectionId": "100:413",
+            "stickyNodeId": "106:418",
+            "sourceNodeId": "106:422",
+            "contextNodeId": "106:423",
+            "reportNodeId": "106:429",
+            "y": 966,
+            "height": 340,
+            "images": [
+              {
+                "referenceId": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+                "index": 0,
+                "nodeId": "106:424",
+                "relativePath": "assets/calendly-provisioning.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "106:428",
+                "x": 620,
+                "y": 1038
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+            "question": "Q1",
+            "sectionId": "100:413",
+            "stickyNodeId": "106:430",
+            "sourceNodeId": "106:434",
+            "contextNodeId": "106:435",
+            "reportNodeId": "106:456",
+            "y": 1386,
+            "height": 373,
+            "images": [
+              {
+                "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+                "index": 0,
+                "nodeId": "106:436",
+                "relativePath": "assets/mobbin/31350159-fd49-4cd3-bc01-967f1a7bfe0e.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:440",
+                "x": 620,
+                "y": 1458
+              },
+              {
+                "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+                "index": 1,
+                "nodeId": "106:441",
+                "relativePath": "assets/mobbin/231210d1-e819-4996-994d-e20afa4b904d.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:445",
+                "x": 916,
+                "y": 1458
+              },
+              {
+                "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+                "index": 2,
+                "nodeId": "106:446",
+                "relativePath": "assets/mobbin/34474b95-2f25-44db-b004-df6e19041835.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:450",
+                "x": 1212,
+                "y": 1458
+              },
+              {
+                "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+                "index": 3,
+                "nodeId": "106:451",
+                "relativePath": "assets/mobbin/fba63c89-1bfb-4bc5-a3b2-78e69958d8bd.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:455",
+                "x": 1508,
+                "y": 1458
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+            "question": "Q1",
+            "sectionId": "100:413",
+            "stickyNodeId": "106:457",
+            "sourceNodeId": "106:461",
+            "contextNodeId": "106:462",
+            "reportNodeId": "106:493",
+            "y": 1839,
+            "height": 373,
+            "images": [
+              {
+                "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+                "index": 0,
+                "nodeId": "106:463",
+                "relativePath": "assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:467",
+                "x": 620,
+                "y": 1911
+              },
+              {
+                "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+                "index": 1,
+                "nodeId": "106:468",
+                "relativePath": "assets/mobbin/950bd8fb-e973-4367-a68b-a6c5ef485e8f.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:472",
+                "x": 916,
+                "y": 1911
+              },
+              {
+                "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+                "index": 2,
+                "nodeId": "106:473",
+                "relativePath": "assets/mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:477",
+                "x": 1212,
+                "y": 1911
+              },
+              {
+                "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+                "index": 3,
+                "nodeId": "106:478",
+                "relativePath": "assets/mobbin/87218698-4c32-45f7-adc3-61198ccd33b0.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:482",
+                "x": 1508,
+                "y": 1911
+              },
+              {
+                "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+                "index": 4,
+                "nodeId": "106:483",
+                "relativePath": "assets/mobbin/821604af-39b9-46e2-8e20-3f8ced157142.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:487",
+                "x": 1804,
+                "y": 1911
+              },
+              {
+                "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+                "index": 5,
+                "nodeId": "106:488",
+                "relativePath": "assets/mobbin/0c726d9e-6f02-432d-b2ba-055cbc15c6a6.jpg",
+                "width": 280,
+                "height": 191,
+                "captionNodeId": "106:492",
+                "x": 2100,
+                "y": 1911
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+            "question": "Q1",
+            "sectionId": "100:413",
+            "stickyNodeId": "106:494",
+            "sourceNodeId": "106:498",
+            "contextNodeId": "106:499",
+            "reportNodeId": "106:520",
+            "y": 2292,
+            "height": 372,
+            "images": [
+              {
+                "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+                "index": 0,
+                "nodeId": "106:500",
+                "relativePath": "assets/mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "106:504",
+                "x": 620,
+                "y": 2364
+              },
+              {
+                "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+                "index": 1,
+                "nodeId": "106:505",
+                "relativePath": "assets/mobbin/dc451bfe-7fdc-435e-bd9f-5e8d6301d82d.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "106:509",
+                "x": 916,
+                "y": 2364
+              },
+              {
+                "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+                "index": 2,
+                "nodeId": "106:510",
+                "relativePath": "assets/mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "106:514",
+                "x": 1212,
+                "y": 2364
+              },
+              {
+                "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+                "index": 3,
+                "nodeId": "106:515",
+                "relativePath": "assets/mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "106:519",
+                "x": 1508,
+                "y": 2364
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:entra-ldap",
+            "question": "Q1",
+            "sectionId": "100:413",
+            "stickyNodeId": "106:521",
+            "sourceNodeId": "106:525",
+            "contextNodeId": "106:526",
+            "reportNodeId": "106:528",
+            "y": 2744,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:okta-ad-scope",
+            "question": "Q1",
+            "sectionId": "100:413",
+            "stickyNodeId": "106:529",
+            "sourceNodeId": "106:533",
+            "contextNodeId": "106:534",
+            "reportNodeId": "106:536",
+            "y": 3126,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:google-simulation",
+            "question": "Q1",
+            "sectionId": "100:413",
+            "stickyNodeId": "106:537",
+            "sourceNodeId": "106:541",
+            "contextNodeId": "106:542",
+            "reportNodeId": "106:544",
+            "y": 3508,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:entra-on-demand",
+            "question": "Q1",
+            "sectionId": "100:413",
+            "stickyNodeId": "106:545",
+            "sourceNodeId": "106:549",
+            "contextNodeId": "106:550",
+            "reportNodeId": "106:561",
+            "y": 3890,
+            "height": 369,
+            "images": [
+              {
+                "referenceId": "documentation:entra-on-demand",
+                "index": 0,
+                "nodeId": "106:551",
+                "relativePath": "assets/documentation/entra-on-demand-0.png",
+                "width": 280,
+                "height": 149,
+                "captionNodeId": "106:555",
+                "x": 620,
+                "y": 3962
+              },
+              {
+                "referenceId": "documentation:entra-on-demand",
+                "index": 1,
+                "nodeId": "106:556",
+                "relativePath": "assets/documentation/entra-on-demand-1.png",
+                "width": 280,
+                "height": 149,
+                "captionNodeId": "106:560",
+                "x": 916,
+                "y": 3962
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1
+            ],
+            "omittedStepIndices": []
+          }
+        ],
+        "imageTargets": [
+          {
+            "referenceId": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+            "index": 0,
+            "nodeId": "100:423",
+            "relativePath": "assets/zendesk-saml.jpg",
+            "width": 280,
+            "height": 204,
+            "captionNodeId": "100:427",
+            "x": 620,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+            "index": 0,
+            "nodeId": "106:424",
+            "relativePath": "assets/calendly-provisioning.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "106:428",
+            "x": 620,
+            "y": 1038
+          },
+          {
+            "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+            "index": 0,
+            "nodeId": "106:436",
+            "relativePath": "assets/mobbin/31350159-fd49-4cd3-bc01-967f1a7bfe0e.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:440",
+            "x": 620,
+            "y": 1458
+          },
+          {
+            "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+            "index": 1,
+            "nodeId": "106:441",
+            "relativePath": "assets/mobbin/231210d1-e819-4996-994d-e20afa4b904d.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:445",
+            "x": 916,
+            "y": 1458
+          },
+          {
+            "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+            "index": 2,
+            "nodeId": "106:446",
+            "relativePath": "assets/mobbin/34474b95-2f25-44db-b004-df6e19041835.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:450",
+            "x": 1212,
+            "y": 1458
+          },
+          {
+            "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+            "index": 3,
+            "nodeId": "106:451",
+            "relativePath": "assets/mobbin/fba63c89-1bfb-4bc5-a3b2-78e69958d8bd.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:455",
+            "x": 1508,
+            "y": 1458
+          },
+          {
+            "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+            "index": 0,
+            "nodeId": "106:463",
+            "relativePath": "assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:467",
+            "x": 620,
+            "y": 1911
+          },
+          {
+            "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+            "index": 1,
+            "nodeId": "106:468",
+            "relativePath": "assets/mobbin/950bd8fb-e973-4367-a68b-a6c5ef485e8f.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:472",
+            "x": 916,
+            "y": 1911
+          },
+          {
+            "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+            "index": 2,
+            "nodeId": "106:473",
+            "relativePath": "assets/mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:477",
+            "x": 1212,
+            "y": 1911
+          },
+          {
+            "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+            "index": 3,
+            "nodeId": "106:478",
+            "relativePath": "assets/mobbin/87218698-4c32-45f7-adc3-61198ccd33b0.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:482",
+            "x": 1508,
+            "y": 1911
+          },
+          {
+            "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+            "index": 4,
+            "nodeId": "106:483",
+            "relativePath": "assets/mobbin/821604af-39b9-46e2-8e20-3f8ced157142.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:487",
+            "x": 1804,
+            "y": 1911
+          },
+          {
+            "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+            "index": 5,
+            "nodeId": "106:488",
+            "relativePath": "assets/mobbin/0c726d9e-6f02-432d-b2ba-055cbc15c6a6.jpg",
+            "width": 280,
+            "height": 191,
+            "captionNodeId": "106:492",
+            "x": 2100,
+            "y": 1911
+          },
+          {
+            "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+            "index": 0,
+            "nodeId": "106:500",
+            "relativePath": "assets/mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "106:504",
+            "x": 620,
+            "y": 2364
+          },
+          {
+            "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+            "index": 1,
+            "nodeId": "106:505",
+            "relativePath": "assets/mobbin/dc451bfe-7fdc-435e-bd9f-5e8d6301d82d.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "106:509",
+            "x": 916,
+            "y": 2364
+          },
+          {
+            "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+            "index": 2,
+            "nodeId": "106:510",
+            "relativePath": "assets/mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "106:514",
+            "x": 1212,
+            "y": 2364
+          },
+          {
+            "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+            "index": 3,
+            "nodeId": "106:515",
+            "relativePath": "assets/mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "106:519",
+            "x": 1508,
+            "y": 2364
+          },
+          {
+            "referenceId": "documentation:entra-on-demand",
+            "index": 0,
+            "nodeId": "106:551",
+            "relativePath": "assets/documentation/entra-on-demand-0.png",
+            "width": 280,
+            "height": 149,
+            "captionNodeId": "106:555",
+            "x": 620,
+            "y": 3962
+          },
+          {
+            "referenceId": "documentation:entra-on-demand",
+            "index": 1,
+            "nodeId": "106:556",
+            "relativePath": "assets/documentation/entra-on-demand-1.png",
+            "width": 280,
+            "height": 149,
+            "captionNodeId": "106:560",
+            "x": 916,
+            "y": 3962
+          }
+        ]
+      },
+      {
+        "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+        "pageId": "5:422",
+        "createdNodeIds": [
+          "107:476",
+          "107:480",
+          "107:481",
+          "107:482",
+          "107:486",
+          "107:487",
+          "107:491",
+          "107:492",
+          "107:496",
+          "107:497",
+          "107:501",
+          "107:502",
+          "107:503",
+          "107:507",
+          "107:508",
+          "107:509",
+          "107:513",
+          "107:514",
+          "107:518",
+          "107:519",
+          "107:523",
+          "107:524",
+          "107:528",
+          "107:529",
+          "107:530",
+          "107:534",
+          "107:535",
+          "107:536",
+          "107:537",
+          "107:538",
+          "107:542",
+          "107:543",
+          "107:544",
+          "107:548",
+          "107:549",
+          "107:553",
+          "107:554",
+          "107:555",
+          "107:559",
+          "107:560",
+          "107:561",
+          "107:565",
+          "107:566"
+        ],
+        "mutatedNodeIds": [
+          "105:418",
+          "105:419",
+          "105:420",
+          "105:421"
+        ],
+        "sectionRecords": [
+          {
+            "question": "Q2",
+            "nodeId": "105:418",
+            "headingNodeId": "105:419",
+            "synthesisNodeId": "105:420",
+            "questionsNodeId": "105:421",
+            "x": 3236,
+            "y": 1200,
+            "width": 2300,
+            "height": 2903
+          }
+        ],
+        "referenceRecords": [
+          {
+            "id": "refero:4649",
+            "question": "Q2",
+            "sectionId": "105:418",
+            "stickyNodeId": "107:476",
+            "sourceNodeId": "107:480",
+            "contextNodeId": "107:481",
+            "reportNodeId": "107:502",
+            "y": 500,
+            "height": 358,
+            "images": [
+              {
+                "referenceId": "refero:4649",
+                "index": 1,
+                "nodeId": "107:482",
+                "relativePath": "assets/refero-4649/1.jpg",
+                "width": 280,
+                "height": 157,
+                "captionNodeId": "107:486",
+                "x": 620,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:4649",
+                "index": 2,
+                "nodeId": "107:487",
+                "relativePath": "assets/refero-4649/2.jpg",
+                "width": 280,
+                "height": 157,
+                "captionNodeId": "107:491",
+                "x": 916,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:4649",
+                "index": 3,
+                "nodeId": "107:492",
+                "relativePath": "assets/refero-4649/3.jpg",
+                "width": 280,
+                "height": 157,
+                "captionNodeId": "107:496",
+                "x": 1212,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:4649",
+                "index": 4,
+                "nodeId": "107:497",
+                "relativePath": "assets/refero-4649/4.jpg",
+                "width": 280,
+                "height": 157,
+                "captionNodeId": "107:501",
+                "x": 1508,
+                "y": 572
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "omittedStepIndices": [
+              0
+            ]
+          },
+          {
+            "id": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+            "question": "Q2",
+            "sectionId": "105:418",
+            "stickyNodeId": "107:503",
+            "sourceNodeId": "107:507",
+            "contextNodeId": "107:508",
+            "reportNodeId": "107:529",
+            "y": 938,
+            "height": 391,
+            "images": [
+              {
+                "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+                "index": 0,
+                "nodeId": "107:509",
+                "relativePath": "assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "107:513",
+                "x": 620,
+                "y": 1010
+              },
+              {
+                "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+                "index": 1,
+                "nodeId": "107:514",
+                "relativePath": "assets/mobbin/5ceb2f48-9668-421d-b59a-70da94d82a2e.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "107:518",
+                "x": 916,
+                "y": 1010
+              },
+              {
+                "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+                "index": 2,
+                "nodeId": "107:519",
+                "relativePath": "assets/mobbin/e1843d29-60fa-4786-9191-b9704e17142d.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "107:523",
+                "x": 1212,
+                "y": 1010
+              },
+              {
+                "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+                "index": 3,
+                "nodeId": "107:524",
+                "relativePath": "assets/mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "107:528",
+                "x": 1508,
+                "y": 1010
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:entra-matching",
+            "question": "Q2",
+            "sectionId": "105:418",
+            "stickyNodeId": "107:530",
+            "sourceNodeId": "107:534",
+            "contextNodeId": "107:535",
+            "reportNodeId": "107:537",
+            "y": 1409,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:atlassian-jit",
+            "question": "Q2",
+            "sectionId": "105:418",
+            "stickyNodeId": "107:538",
+            "sourceNodeId": "107:542",
+            "contextNodeId": "107:543",
+            "reportNodeId": "107:554",
+            "y": 1791,
+            "height": 356,
+            "images": [
+              {
+                "referenceId": "documentation:atlassian-jit",
+                "index": 0,
+                "nodeId": "107:544",
+                "relativePath": "assets/documentation/atlassian-jit-0.png",
+                "width": 280,
+                "height": 78,
+                "captionNodeId": "107:548",
+                "x": 620,
+                "y": 1863
+              },
+              {
+                "referenceId": "documentation:atlassian-jit",
+                "index": 1,
+                "nodeId": "107:549",
+                "relativePath": "assets/documentation/atlassian-jit-1.png",
+                "width": 280,
+                "height": 155,
+                "captionNodeId": "107:553",
+                "x": 916,
+                "y": 1863
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:github-linking",
+            "question": "Q2",
+            "sectionId": "105:418",
+            "stickyNodeId": "107:555",
+            "sourceNodeId": "107:559",
+            "contextNodeId": "107:560",
+            "reportNodeId": "107:566",
+            "y": 2227,
+            "height": 613,
+            "images": [
+              {
+                "referenceId": "documentation:github-linking",
+                "index": 0,
+                "nodeId": "107:561",
+                "relativePath": "assets/documentation/github-linking-1.png",
+                "width": 280,
+                "height": 393,
+                "captionNodeId": "107:565",
+                "x": 620,
+                "y": 2299
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0
+            ],
+            "omittedStepIndices": []
+          }
+        ],
+        "imageTargets": [
+          {
+            "referenceId": "refero:4649",
+            "index": 1,
+            "nodeId": "107:482",
+            "relativePath": "assets/refero-4649/1.jpg",
+            "width": 280,
+            "height": 157,
+            "captionNodeId": "107:486",
+            "x": 620,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:4649",
+            "index": 2,
+            "nodeId": "107:487",
+            "relativePath": "assets/refero-4649/2.jpg",
+            "width": 280,
+            "height": 157,
+            "captionNodeId": "107:491",
+            "x": 916,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:4649",
+            "index": 3,
+            "nodeId": "107:492",
+            "relativePath": "assets/refero-4649/3.jpg",
+            "width": 280,
+            "height": 157,
+            "captionNodeId": "107:496",
+            "x": 1212,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:4649",
+            "index": 4,
+            "nodeId": "107:497",
+            "relativePath": "assets/refero-4649/4.jpg",
+            "width": 280,
+            "height": 157,
+            "captionNodeId": "107:501",
+            "x": 1508,
+            "y": 572
+          },
+          {
+            "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+            "index": 0,
+            "nodeId": "107:509",
+            "relativePath": "assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "107:513",
+            "x": 620,
+            "y": 1010
+          },
+          {
+            "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+            "index": 1,
+            "nodeId": "107:514",
+            "relativePath": "assets/mobbin/5ceb2f48-9668-421d-b59a-70da94d82a2e.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "107:518",
+            "x": 916,
+            "y": 1010
+          },
+          {
+            "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+            "index": 2,
+            "nodeId": "107:519",
+            "relativePath": "assets/mobbin/e1843d29-60fa-4786-9191-b9704e17142d.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "107:523",
+            "x": 1212,
+            "y": 1010
+          },
+          {
+            "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+            "index": 3,
+            "nodeId": "107:524",
+            "relativePath": "assets/mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "107:528",
+            "x": 1508,
+            "y": 1010
+          },
+          {
+            "referenceId": "documentation:atlassian-jit",
+            "index": 0,
+            "nodeId": "107:544",
+            "relativePath": "assets/documentation/atlassian-jit-0.png",
+            "width": 280,
+            "height": 78,
+            "captionNodeId": "107:548",
+            "x": 620,
+            "y": 1863
+          },
+          {
+            "referenceId": "documentation:atlassian-jit",
+            "index": 1,
+            "nodeId": "107:549",
+            "relativePath": "assets/documentation/atlassian-jit-1.png",
+            "width": 280,
+            "height": 155,
+            "captionNodeId": "107:553",
+            "x": 916,
+            "y": 1863
+          },
+          {
+            "referenceId": "documentation:github-linking",
+            "index": 0,
+            "nodeId": "107:561",
+            "relativePath": "assets/documentation/github-linking-1.png",
+            "width": 280,
+            "height": 393,
+            "captionNodeId": "107:565",
+            "x": 620,
+            "y": 2299
+          }
+        ]
+      }
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,635 @@
+{
+  "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+  "pageId": "5:422",
+  "status": "prepared_not_executed",
+  "testReferenceId": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+  "referenceCount": 32,
+  "imageCount": 62,
+  "references": [
+    {
+      "id": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "question": "Q1",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/zendesk-saml.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+      "question": "Q1",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/calendly-provisioning.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+      "question": "Q1",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/31350159-fd49-4cd3-bc01-967f1a7bfe0e.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/231210d1-e819-4996-994d-e20afa4b904d.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/34474b95-2f25-44db-b004-df6e19041835.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 3,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/fba63c89-1bfb-4bc5-a3b2-78e69958d8bd.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+      "question": "Q1",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/950bd8fb-e973-4367-a68b-a6c5ef485e8f.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 3,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/87218698-4c32-45f7-adc3-61198ccd33b0.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 4,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/821604af-39b9-46e2-8e20-3f8ced157142.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 5,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/0c726d9e-6f02-432d-b2ba-055cbc15c6a6.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+      "question": "Q1",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/dc451bfe-7fdc-435e-bd9f-5e8d6301d82d.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 3,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:entra-ldap",
+      "question": "Q1",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:okta-ad-scope",
+      "question": "Q1",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:google-simulation",
+      "question": "Q1",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:entra-on-demand",
+      "question": "Q1",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/documentation/entra-on-demand-0.png",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/documentation/entra-on-demand-1.png",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "refero:4649",
+      "question": "Q2",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/refero-4649/1.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "nodeId": null,
+          "relativePath": "assets/refero-4649/2.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 3,
+          "nodeId": null,
+          "relativePath": "assets/refero-4649/3.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 4,
+          "nodeId": null,
+          "relativePath": "assets/refero-4649/4.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+      "question": "Q2",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/5ceb2f48-9668-421d-b59a-70da94d82a2e.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/e1843d29-60fa-4786-9191-b9704e17142d.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 3,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:entra-matching",
+      "question": "Q2",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:atlassian-jit",
+      "question": "Q2",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/documentation/atlassian-jit-0.png",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/documentation/atlassian-jit-1.png",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:github-linking",
+      "question": "Q2",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/documentation/github-linking-1.png",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+      "question": "Q3",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/02a533b3-ba02-4194-b5cb-5762d3d2b279.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/9f98944b-93c9-4dc2-85f4-11f991d0545e.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 3,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/cc52905e-1f42-4fe7-984a-6a86f8271bc6.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 4,
+          "nodeId": null,
+          "relativePath": "assets/mobbin/2ae61b76-5411-42b1-87ec-3564bde6bd73.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:atlassian-managed",
+      "question": "Q3",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:github-team-sync",
+      "question": "Q3",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:atlassian-group-conflicts",
+      "question": "Q3",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/documentation/atlassian-group-conflicts-0.png",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:canvas-course-roles",
+      "question": "Q3",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "refero:1250",
+      "question": "Q4",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/refero-1250/0.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/refero-1250/1.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "nodeId": null,
+          "relativePath": "assets/refero-1250/2.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 3,
+          "nodeId": null,
+          "relativePath": "assets/refero-1250/3.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:entra-lifecycle",
+      "question": "Q4",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/documentation/entra-lifecycle-3.png",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/documentation/entra-lifecycle-4.png",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:entra-status",
+      "question": "Q4",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/documentation/entra-status-0.png",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:entra-logs",
+      "question": "Q4",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/documentation/entra-logs-0.png",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:entra-deletion-guard",
+      "question": "Q4",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:atlassian-sync-actions",
+      "question": "Q4",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "refero:671",
+      "question": "Q5",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/refero-671/0.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/refero-671/1.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 3,
+          "nodeId": null,
+          "relativePath": "assets/refero-671/3.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 4,
+          "nodeId": null,
+          "relativePath": "assets/refero-671/4.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 6,
+          "nodeId": null,
+          "relativePath": "assets/refero-671/6.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 10,
+          "nodeId": null,
+          "relativePath": "assets/refero-671/10.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 11,
+          "nodeId": null,
+          "relativePath": "assets/refero-671/11.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 12,
+          "nodeId": null,
+          "relativePath": "assets/refero-671/12.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "refero:10795",
+      "question": "Q5",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/refero-10795/0.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/refero-10795/1.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "nodeId": null,
+          "relativePath": "assets/refero-10795/2.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 3,
+          "nodeId": null,
+          "relativePath": "assets/refero-10795/3.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 5,
+          "nodeId": null,
+          "relativePath": "assets/refero-10795/5.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 6,
+          "nodeId": null,
+          "relativePath": "assets/refero-10795/6.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 7,
+          "nodeId": null,
+          "relativePath": "assets/refero-10795/7.jpg",
+          "status": "pending"
+        },
+        {
+          "index": 8,
+          "nodeId": null,
+          "relativePath": "assets/refero-10795/8.jpg",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:canvas-export",
+      "question": "Q5",
+      "status": "pending",
+      "nodeId": null,
+      "images": [
+        {
+          "index": 0,
+          "nodeId": null,
+          "relativePath": "assets/documentation/canvas-export-2.png",
+          "status": "pending"
+        },
+        {
+          "index": 1,
+          "nodeId": null,
+          "relativePath": "assets/documentation/canvas-export-7.png",
+          "status": "pending"
+        },
+        {
+          "index": 2,
+          "nodeId": null,
+          "relativePath": "assets/documentation/canvas-export-15.png",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "documentation:canvas-export-fields",
+      "question": "Q5",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:canvas-nrps-roster",
+      "question": "Q6",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:canvas-nrps-identifiers",
+      "question": "Q6",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    },
+    {
+      "id": "documentation:canvas-enrollment-status",
+      "question": "Q6",
+      "status": "pending",
+      "nodeId": null,
+      "images": []
+    }
+  ],
+  "workflow": [
+    "inspect exact page2",
+    "test reference targets",
+    "upload test image(s)",
+    "verify test screenshot",
+    "create sections and intro",
+    "create remaining reference batches",
+    "upload image batches to explicit nodeIds",
+    "structural and visual verification"
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "module": "university-identity",
+  "title": "University identity, directory sync & user import",
+  "references": [
+    {
+      "id": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "source": "refero",
+      "app": "Zendesk",
+      "kind": "screen",
+      "url": "https://refero.design/pages/91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "images": [
+        "https://images.refero.design/screenshots/zendesk.com/desktop/60db8fbd-fffa-4d42-bbe5-0c6e22108058_thumb.jpg"
+      ],
+      "sourceIds": [
+        "91dab9ae-9676-49b6-8b26-01dde539cb0e"
+      ],
+      "source_ids": [
+        "91dab9ae-9676-49b6-8b26-01dde539cb0e"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/zendesk-saml.jpg"
+      ],
+      "question": "Q1",
+      "title": "Configure a named SAML connection",
+      "actor": "University IT",
+      "evidenceType": "direct pattern",
+      "take": "Explain every identity-provider value at the configuration field. Keep sign-in setup distinct from user provisioning, and add an explicit test before enabling institutional access.",
+      "observed": "The SAML form requires a recognizable configuration name, SSO URL and certificate fingerprint. Helper text identifies the assertion-consumer URL and where to obtain certificate data. Optional logout URL and IP ranges follow; Save and Cancel end the form.",
+      "adaptation": "Give university IT provider-specific instructions beside each field and a recognizable connection name. A separate test and rollout preview would reduce uncertainty before institutional sign-in changes.",
+      "limitation": "One unfilled setup screen only. No connection test, save result, provider validation, group scope or provisioning lifecycle is visible. The proposed test is an adaptation, not an observed Zendesk step.",
+      "evidence_type": "direct pattern",
+      "boardStepIndices": [
+        0
+      ],
+      "steps": [
+        {
+          "id": "91dab9ae-9676-49b6-8b26-01dde539cb0e",
+          "label": "Create SAML configuration",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/zendesk-saml.jpg",
+          "url": "https://refero.design/pages/91dab9ae-9676-49b6-8b26-01dde539cb0e"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+      "source": "refero",
+      "app": "Calendly",
+      "kind": "screen",
+      "url": "https://refero.design/pages/4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+      "images": [
+        "https://images.refero.design/screenshots/calendly.com/desktop/4ab944f3-be31-469f-9f6b-5bc394e13002_thumb.jpg"
+      ],
+      "sourceIds": [
+        "4fc8ea47-ce2b-40b1-8817-71e138851fcc"
+      ],
+      "source_ids": [
+        "4fc8ea47-ce2b-40b1-8817-71e138851fcc"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/calendly-provisioning.jpg"
+      ],
+      "question": "Q1",
+      "title": "Separate sign-in from user provisioning",
+      "actor": "University IT",
+      "evidenceType": "direct pattern",
+      "take": "Place authentication and provisioning in separate admin areas, explaining that automated account creation and removal need their own setup and support route.",
+      "observed": "Organization Login has separate Single sign-on, User provisioning and Domain control tabs. The provisioning tab explains SCIM and provisioning/deprovisioning, marks Enterprise availability and offers help-center and Contact us routes.",
+      "adaptation": "Use distinct setup states for institutional sign-in and user lifecycle. Explain capabilities and prerequisites before requesting directory access, with a support path when integration needs IT involvement.",
+      "limitation": "This is an informational enterprise entry screen, not a working connection wizard. It does not demonstrate SCIM setup, scope selection, synchronization or deactivation results.",
+      "evidence_type": "direct pattern",
+      "boardStepIndices": [
+        0
+      ],
+      "steps": [
+        {
+          "id": "4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+          "label": "User provisioning explanation and support entry",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/calendly-provisioning.jpg",
+          "url": "https://refero.design/pages/4fc8ea47-ce2b-40b1-8817-71e138851fcc"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "refero:4649",
+      "source": "refero",
+      "app": "Riverside",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4649",
+      "images": [
+        "https://images.refero.design/screenshots/riverside.fm/desktop/b103b13d-e553-4bae-814a-08ef577f6321_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/df0e1500-036d-4f73-b6eb-581524fa0ad0_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/5957e643-419f-4588-9883-ce5ef4f0016a_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/16a3db40-f30e-4fe4-b926-5de594e10cea_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/8e0bca3c-74e8-40cc-b338-7a345d6a5ab0_thumb.jpg"
+      ],
+      "sourceIds": [
+        "f6c6ace0-9aa3-4691-b8c1-54c5163b80d5",
+        "942168e6-2dfd-4a93-94d3-ee407c8e8966",
+        "2f7c207e-044f-4a8d-ae6c-2aa5da88ec07",
+        "59d24999-e4ee-4259-8723-be4aa5be3f74",
+        "3775da7a-b67a-4c79-818f-b78dcffd8005"
+      ],
+      "source_ids": [
+        "f6c6ace0-9aa3-4691-b8c1-54c5163b80d5",
+        "942168e6-2dfd-4a93-94d3-ee407c8e8966",
+        "2f7c207e-044f-4a8d-ae6c-2aa5da88ec07",
+        "59d24999-e4ee-4259-8723-be4aa5be3f74",
+        "3775da7a-b67a-4c79-818f-b78dcffd8005"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/refero-4649/0.jpg",
+        "assets/refero-4649/1.jpg",
+        "assets/refero-4649/2.jpg",
+        "assets/refero-4649/3.jpg",
+        "assets/refero-4649/4.jpg"
+      ],
+      "question": "Q2",
+      "title": "SSO email discovery with an explicit failure",
+      "actor": "Faculty / learner",
+      "evidenceType": "analogy",
+      "take": "Keep institutional sign-in recognizable and explain when an email cannot use it. Give a support route and return path without implying that authentication creates course access.",
+      "observed": "From the marketing entry, the login modal offers a separate SSO link. The user enters a work email. The final screen says the email is not recognized for SSO and directs the person to their organization administrator; Back to Log in remains available.",
+      "adaptation": "Offer a clear university sign-in route alongside a separate guest route, with institution-specific support guidance when identity discovery fails. Treat this failure differently from successful sign-in without LearningSpace access.",
+      "limitation": "No identity-provider handoff, successful authentication, account creation, linking or course-access check is shown. Guest routing is a proposed adaptation. The first screen is a long marketing page retained only for complete sequence provenance.",
+      "figjamImageIndices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "evidence_type": "analogy",
+      "boardStepIndices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "boardOmissionNote": "Selected original steps shown in order; omitted intermediate screens remain in the complete HTML report. Riverside omits the marketing entry; Intercom and Rox omit repetitive intermediate mapping/tag states.",
+      "steps": [
+        {
+          "id": "f6c6ace0-9aa3-4691-b8c1-54c5163b80d5",
+          "label": "Marketing entry (context)",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/refero-4649/0.jpg",
+          "url": "https://refero.design/pages/f6c6ace0-9aa3-4691-b8c1-54c5163b80d5"
+        },
+        {
+          "id": "942168e6-2dfd-4a93-94d3-ee407c8e8966",
+          "label": "Login options with SSO link",
+          "index": 1,
+          "imageIndex": 1,
+          "localAsset": "assets/refero-4649/1.jpg",
+          "url": "https://refero.design/pages/942168e6-2dfd-4a93-94d3-ee407c8e8966"
+        },
+        {
+          "id": "2f7c207e-044f-4a8d-ae6c-2aa5da88ec07",
+          "label": "SSO work-email entry",
+          "index": 2,
+          "imageIndex": 2,
+          "localAsset": "assets/refero-4649/2.jpg",
+          "url": "https://refero.design/pages/2f7c207e-044f-4a8d-ae6c-2aa5da88ec07"
+        },
+        {
+          "id": "59d24999-e4ee-4259-8723-be4aa5be3f74",
+          "label": "Email entered",
+          "index": 3,
+          "imageIndex": 3,
+          "localAsset": "assets/refero-4649/3.jpg",
+          "url": "https://refero.design/pages/59d24999-e4ee-4259-8723-be4aa5be3f74"
+        },
+        {
+          "id": "3775da7a-b67a-4c79-818f-b78dcffd8005",
+          "label": "SSO email not recognized; contact organization administrator",
+          "index": 4,
+          "imageIndex": 4,
+          "localAsset": "assets/refero-4649/4.jpg",
+          "url": "https://refero.design/pages/3775da7a-b67a-4c79-818f-b78dcffd8005"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "refero:1250",
+      "source": "refero",
+      "app": "Loom",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1250",
+      "images": [
+        "https://images.refero.design/screenshots/loom.com/desktop/7e8f9365-004a-4d1f-91b8-bdd93fcbdf91_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/8a8c75b5-ac22-4905-8014-5858f9691fdf_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/1b27f1ac-7212-4155-aeee-8a5d88ce36f8_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/475b4052-9140-4d53-8978-b919fbefd796_thumb.jpg"
+      ],
+      "sourceIds": [
+        "326fb4bf-ab76-4648-800b-b33c14b50e03",
+        "d3838abe-bd78-4da2-bbe3-05b3ba4c050e",
+        "892e7d52-3eab-48dd-8ea4-0027b9b9c6b1",
+        "3a135916-ba1c-4122-bcf5-696e6735cfdb"
+      ],
+      "source_ids": [
+        "326fb4bf-ab76-4648-800b-b33c14b50e03",
+        "d3838abe-bd78-4da2-bbe3-05b3ba4c050e",
+        "892e7d52-3eab-48dd-8ea4-0027b9b9c6b1",
+        "3a135916-ba1c-4122-bcf5-696e6735cfdb"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/refero-1250/0.jpg",
+        "assets/refero-1250/1.jpg",
+        "assets/refero-1250/2.jpg",
+        "assets/refero-1250/3.jpg"
+      ],
+      "question": "Q4",
+      "title": "Deactivate access while explaining content consequences",
+      "actor": "LearningSpace administrator",
+      "evidenceType": "analogy",
+      "take": "Before deactivation, separate access loss from historical-content consequences. State what remains available and confirm the person has left the active list.",
+      "observed": "The Members list opens a member details panel with role, joined date, Active status and Deactivate. Confirmation explains lost workspace access, which shared content remains accessible, ownership constraints and reactivation billing. After confirmation, the active member count drops from two to one and an update toast appears.",
+      "adaptation": "Preview the effect on access, teaching history and retained learning records before a local deactivation. Keep deactivation separate from course enrollment removal and permanent deletion, and identify the system that owns the action.",
+      "limitation": "This is a local workspace action, not a directory-triggered departure. The flow does not show retained inactive rows, an actual reactivation, identity re-linking, synchronization or learning-record retention policy.",
+      "evidence_type": "analogy",
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "steps": [
+        {
+          "id": "326fb4bf-ab76-4648-800b-b33c14b50e03",
+          "label": "Active workspace members",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/refero-1250/0.jpg",
+          "url": "https://refero.design/pages/326fb4bf-ab76-4648-800b-b33c14b50e03"
+        },
+        {
+          "id": "d3838abe-bd78-4da2-bbe3-05b3ba4c050e",
+          "label": "Member details and Deactivate action",
+          "index": 1,
+          "imageIndex": 1,
+          "localAsset": "assets/refero-1250/1.jpg",
+          "url": "https://refero.design/pages/d3838abe-bd78-4da2-bbe3-05b3ba4c050e"
+        },
+        {
+          "id": "892e7d52-3eab-48dd-8ea4-0027b9b9c6b1",
+          "label": "Deactivation consequences and confirmation",
+          "index": 2,
+          "imageIndex": 2,
+          "localAsset": "assets/refero-1250/2.jpg",
+          "url": "https://refero.design/pages/892e7d52-3eab-48dd-8ea4-0027b9b9c6b1"
+        },
+        {
+          "id": "3a135916-ba1c-4122-bcf5-696e6735cfdb",
+          "label": "Active list updated",
+          "index": 3,
+          "imageIndex": 3,
+          "localAsset": "assets/refero-1250/3.jpg",
+          "url": "https://refero.design/pages/3a135916-ba1c-4122-bcf5-696e6735cfdb"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "refero:671",
+      "source": "refero",
+      "app": "Intercom",
+      "kind": "flow",
+      "url": "https://refero.design/flows/671",
+      "images": [
+        "https://images.refero.design/screenshots/intercom.com/desktop/638e3125-aac1-4239-bff8-cee3b95bf70b_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/8568eaf3-cef8-4484-a748-1bebf5c41cdf_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/ceecb45c-ce62-4edf-9835-d035b07c6ac2_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/a931fb85-8443-4b02-9c72-7c3915ddb575_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/fb8f81f4-356d-4e9b-a1ee-21783ccf9204_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/c927c903-527b-417e-bb3d-a91ac9e5d98e_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/3cbe7cf6-0654-47bd-9e79-e5a522e6735a_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/8327c6ea-2964-4d46-981c-f735d8b8b431_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/0a339fb9-67a1-429a-b964-f09270e149ed_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/c39eac55-4690-44a4-8a40-736d3fbb125d_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/85020c8f-5dd8-4641-8510-2571df7045fb_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/fff56f66-503f-480b-af91-bbd8090226e3_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/65867693-c5ca-46f9-8a4e-5d5dd3829c0e_thumb.jpg"
+      ],
+      "sourceIds": [
+        "2e9768da-57ec-4142-9280-e6a630309675",
+        "3a8fd987-a4ce-48f1-bc53-0f1ff4df160e",
+        "a249ee7d-d23b-4ec0-9edd-b165edd8612b",
+        "e1773c3f-922c-40d5-a37a-4af677279e5c",
+        "d7e7ff87-f8c8-4ec0-a06c-adc044a403f8",
+        "76d74436-9e19-4608-b02c-86a9f090f698",
+        "80606ab4-2673-44e1-baf0-94f2087daea9",
+        "53a9ed54-517f-4ea4-b6d4-6fa71f21cd16",
+        "cac2fc27-f22e-49ce-9ab2-294bb713af17",
+        "2ab15aa7-193e-4d3f-8c9d-1923295ffcaf",
+        "d8626fb9-9252-44dd-b247-8eff5533e542",
+        "1cca620d-ddd0-4370-adab-2bdafbcc649e",
+        "27a17a87-0d85-475d-8636-d8660b5eacc6"
+      ],
+      "source_ids": [
+        "2e9768da-57ec-4142-9280-e6a630309675",
+        "3a8fd987-a4ce-48f1-bc53-0f1ff4df160e",
+        "a249ee7d-d23b-4ec0-9edd-b165edd8612b",
+        "e1773c3f-922c-40d5-a37a-4af677279e5c",
+        "d7e7ff87-f8c8-4ec0-a06c-adc044a403f8",
+        "76d74436-9e19-4608-b02c-86a9f090f698",
+        "80606ab4-2673-44e1-baf0-94f2087daea9",
+        "53a9ed54-517f-4ea4-b6d4-6fa71f21cd16",
+        "cac2fc27-f22e-49ce-9ab2-294bb713af17",
+        "2ab15aa7-193e-4d3f-8c9d-1923295ffcaf",
+        "d8626fb9-9252-44dd-b247-8eff5533e542",
+        "1cca620d-ddd0-4370-adab-2bdafbcc649e",
+        "27a17a87-0d85-475d-8636-d8660b5eacc6"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/refero-671/0.jpg",
+        "assets/refero-671/1.jpg",
+        "assets/refero-671/2.jpg",
+        "assets/refero-671/3.jpg",
+        "assets/refero-671/4.jpg",
+        "assets/refero-671/5.jpg",
+        "assets/refero-671/6.jpg",
+        "assets/refero-671/7.jpg",
+        "assets/refero-671/8.jpg",
+        "assets/refero-671/9.jpg",
+        "assets/refero-671/10.jpg",
+        "assets/refero-671/11.jpg",
+        "assets/refero-671/12.jpg"
+      ],
+      "question": "Q5",
+      "title": "Repeat-import matching and an all-error result",
+      "actor": "LearningSpace administrator",
+      "evidenceType": "analogy",
+      "take": "Explain how repeat imports match existing people; report created, updated and failed rows separately. A finished job can still have zero successful records.",
+      "observed": "The CSV introduction states that matching user ID or email updates an existing person; otherwise it creates one. The flow maps CSV columns, previews mapped attributes, adds import tags and runs a background import. Its final screen shows 0 users created, 0 users updated and 9 invalid-email errors with row and column details.",
+      "adaptation": "For a Canvas export or other institutional CSV, require an explicit stable-identifier matching policy, preview additions versus updates, and provide actionable per-row validation. Preserve job history so administrators can correct and repeat a snapshot import.",
+      "limitation": "All nine rows fail in the observed run; this is not partial success. Successful duplicate resolution, recovery retry and a downloaded error report are not shown. The source metadata calls this a happy path, which the actual final screen contradicts. Email matching here is an analogy, not a recommended university identity key.",
+      "deduplication": "Reuses page-1 Refero flow 671 for materially new questions: identity matching on repeat imports and recovery from an all-error result. Page 1 used the flow for bulk-user entry/discovery. The prior reference record is reused for the new question. Page-1 assets were missing; supported full images were retrieved in this research round and reused without another download during selection.",
+      "figjamImageIndices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        10,
+        11,
+        12
+      ],
+      "evidence_type": "analogy",
+      "reuseRationale": "Reuses page-1 Refero flow 671 for materially new questions: identity matching on repeat imports and recovery from an all-error result. Page 1 used the flow for bulk-user entry/discovery. The prior reference record is reused for the new question. Page-1 assets were missing; supported full images were retrieved in this research round and reused without another download during selection.",
+      "boardStepIndices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        10,
+        11,
+        12
+      ],
+      "boardOmissionNote": "Selected original steps shown in order; omitted intermediate screens remain in the complete HTML report. Riverside omits the marketing entry; Intercom and Rox omit repetitive intermediate mapping/tag states.",
+      "steps": [
+        {
+          "id": "2e9768da-57ec-4142-9280-e6a630309675",
+          "label": "Choose CSV importer",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/refero-671/0.jpg",
+          "url": "https://refero.design/pages/2e9768da-57ec-4142-9280-e6a630309675"
+        },
+        {
+          "id": "3a8fd987-a4ce-48f1-bc53-0f1ff4df160e",
+          "label": "Read update-versus-create rule and choose users",
+          "index": 1,
+          "imageIndex": 1,
+          "localAsset": "assets/refero-671/1.jpg",
+          "url": "https://refero.design/pages/3a8fd987-a4ce-48f1-bc53-0f1ff4df160e"
+        },
+        {
+          "id": "a249ee7d-d23b-4ec0-9edd-b165edd8612b",
+          "label": "CSV selected for upload",
+          "index": 2,
+          "imageIndex": 2,
+          "localAsset": "assets/refero-671/2.jpg",
+          "url": "https://refero.design/pages/a249ee7d-d23b-4ec0-9edd-b165edd8612b"
+        },
+        {
+          "id": "e1773c3f-922c-40d5-a37a-4af677279e5c",
+          "label": "Choose source email column",
+          "index": 3,
+          "imageIndex": 3,
+          "localAsset": "assets/refero-671/3.jpg",
+          "url": "https://refero.design/pages/e1773c3f-922c-40d5-a37a-4af677279e5c"
+        },
+        {
+          "id": "d7e7ff87-f8c8-4ec0-a06c-adc044a403f8",
+          "label": "Confirm column mapping",
+          "index": 4,
+          "imageIndex": 4,
+          "localAsset": "assets/refero-671/4.jpg",
+          "url": "https://refero.design/pages/d7e7ff87-f8c8-4ec0-a06c-adc044a403f8"
+        },
+        {
+          "id": "76d74436-9e19-4608-b02c-86a9f090f698",
+          "label": "Mapped identifier, email and name; optional date step",
+          "index": 5,
+          "imageIndex": 5,
+          "localAsset": "assets/refero-671/5.jpg",
+          "url": "https://refero.design/pages/76d74436-9e19-4608-b02c-86a9f090f698"
+        },
+        {
+          "id": "80606ab4-2673-44e1-baf0-94f2087daea9",
+          "label": "Review mapped data",
+          "index": 6,
+          "imageIndex": 6,
+          "localAsset": "assets/refero-671/6.jpg",
+          "url": "https://refero.design/pages/80606ab4-2673-44e1-baf0-94f2087daea9"
+        },
+        {
+          "id": "53a9ed54-517f-4ea4-b6d4-6fa71f21cd16",
+          "label": "Import tags",
+          "index": 7,
+          "imageIndex": 7,
+          "localAsset": "assets/refero-671/7.jpg",
+          "url": "https://refero.design/pages/53a9ed54-517f-4ea4-b6d4-6fa71f21cd16"
+        },
+        {
+          "id": "cac2fc27-f22e-49ce-9ab2-294bb713af17",
+          "label": "Choose tags",
+          "index": 8,
+          "imageIndex": 8,
+          "localAsset": "assets/refero-671/8.jpg",
+          "url": "https://refero.design/pages/cac2fc27-f22e-49ce-9ab2-294bb713af17"
+        },
+        {
+          "id": "2ab15aa7-193e-4d3f-8c9d-1923295ffcaf",
+          "label": "Tags selected",
+          "index": 9,
+          "imageIndex": 9,
+          "localAsset": "assets/refero-671/9.jpg",
+          "url": "https://refero.design/pages/2ab15aa7-193e-4d3f-8c9d-1923295ffcaf"
+        },
+        {
+          "id": "d8626fb9-9252-44dd-b247-8eff5533e542",
+          "label": "Tags saved; ready to import",
+          "index": 10,
+          "imageIndex": 10,
+          "localAsset": "assets/refero-671/10.jpg",
+          "url": "https://refero.design/pages/d8626fb9-9252-44dd-b247-8eff5533e542"
+        },
+        {
+          "id": "1cca620d-ddd0-4370-adab-2bdafbcc649e",
+          "label": "Import processing and history route",
+          "index": 11,
+          "imageIndex": 11,
+          "localAsset": "assets/refero-671/11.jpg",
+          "url": "https://refero.design/pages/1cca620d-ddd0-4370-adab-2bdafbcc649e"
+        },
+        {
+          "id": "27a17a87-0d85-475d-8636-d8660b5eacc6",
+          "label": "Job finished: 0 created, 0 updated, 9 invalid-email errors",
+          "index": 12,
+          "imageIndex": 12,
+          "localAsset": "assets/refero-671/12.jpg",
+          "url": "https://refero.design/pages/27a17a87-0d85-475d-8636-d8660b5eacc6"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "refero:10795",
+      "source": "refero",
+      "app": "Rox",
+      "kind": "flow",
+      "url": "https://refero.design/flows/10795",
+      "images": [
+        "https://images.refero.design/screenshots/rox.com/desktop/288031a6-ac62-411e-9b2b-63d7309c8c10_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/26624d8c-6e31-4ebd-870d-2cf0d33c397b_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/08f11f8d-c2d5-48da-8e35-906f498e626c_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/4c576b85-13ab-4d3d-9dc0-9318798534e2_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/b8286522-1340-489d-9650-1d722dd97bb2_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/995bdc50-d8a8-4d10-9da4-1118a8b04958_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/440e2cb7-7058-490b-86dc-7ab6849715d1_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/444b3c33-0a7e-48ad-9b24-f43710b0b787_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/13882560-7516-4789-b2a9-c8fcb9391ce6_thumb.jpg"
+      ],
+      "sourceIds": [
+        "288031a6-ac62-411e-9b2b-63d7309c8c10",
+        "26624d8c-6e31-4ebd-870d-2cf0d33c397b",
+        "08f11f8d-c2d5-48da-8e35-906f498e626c",
+        "4c576b85-13ab-4d3d-9dc0-9318798534e2",
+        "b8286522-1340-489d-9650-1d722dd97bb2",
+        "995bdc50-d8a8-4d10-9da4-1118a8b04958",
+        "440e2cb7-7058-490b-86dc-7ab6849715d1",
+        "444b3c33-0a7e-48ad-9b24-f43710b0b787",
+        "13882560-7516-4789-b2a9-c8fcb9391ce6"
+      ],
+      "source_ids": [
+        "288031a6-ac62-411e-9b2b-63d7309c8c10",
+        "26624d8c-6e31-4ebd-870d-2cf0d33c397b",
+        "08f11f8d-c2d5-48da-8e35-906f498e626c",
+        "4c576b85-13ab-4d3d-9dc0-9318798534e2",
+        "b8286522-1340-489d-9650-1d722dd97bb2",
+        "995bdc50-d8a8-4d10-9da4-1118a8b04958",
+        "440e2cb7-7058-490b-86dc-7ab6849715d1",
+        "444b3c33-0a7e-48ad-9b24-f43710b0b787",
+        "13882560-7516-4789-b2a9-c8fcb9391ce6"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/refero-10795/0.jpg",
+        "assets/refero-10795/1.jpg",
+        "assets/refero-10795/2.jpg",
+        "assets/refero-10795/3.jpg",
+        "assets/refero-10795/4.jpg",
+        "assets/refero-10795/5.jpg",
+        "assets/refero-10795/6.jpg",
+        "assets/refero-10795/7.jpg",
+        "assets/refero-10795/8.jpg"
+      ],
+      "question": "Q5",
+      "title": "Map columns with sample data and validation review",
+      "actor": "LearningSpace administrator",
+      "evidenceType": "analogy",
+      "take": "Preview sample values while mapping each column, then review valid and invalid counts before importing. Completion must distinguish accepted upload from finished processing.",
+      "observed": "Contacts offers Add via CSV. After upload, Map your columns shows source fields alongside a selected field\u2019s sample values, an auto-map control and destination field choices. The review shows name and email each valid for 10/10 records and zero invalid columns. After Add Contacts, a toast says the file is uploaded and processing may take a few minutes.",
+      "adaptation": "Let administrators map Canvas or generic institutional exports while viewing real sample values. Show required identifiers and validation before commit, then link the processing state to a durable results page.",
+      "limitation": "This is CRM contact enrichment, not account provisioning. Mapping only names and email proves neither stable identity matching nor course access. The final screen confirms processing, not completed additions, updates or failures.",
+      "figjamImageIndices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "evidence_type": "analogy",
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "boardOmissionNote": "Selected original steps shown in order; omitted intermediate screens remain in the complete HTML report. Riverside omits the marketing entry; Intercom and Rox omit repetitive intermediate mapping/tag states.",
+      "steps": [
+        {
+          "id": "288031a6-ac62-411e-9b2b-63d7309c8c10",
+          "label": "Contacts: Add via CSV",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/refero-10795/0.jpg",
+          "url": "https://refero.design/pages/288031a6-ac62-411e-9b2b-63d7309c8c10"
+        },
+        {
+          "id": "26624d8c-6e31-4ebd-870d-2cf0d33c397b",
+          "label": "Upload CSV and read requirements",
+          "index": 1,
+          "imageIndex": 1,
+          "localAsset": "assets/refero-10795/1.jpg",
+          "url": "https://refero.design/pages/26624d8c-6e31-4ebd-870d-2cf0d33c397b"
+        },
+        {
+          "id": "08f11f8d-c2d5-48da-8e35-906f498e626c",
+          "label": "Map source columns with sample values",
+          "index": 2,
+          "imageIndex": 2,
+          "localAsset": "assets/refero-10795/2.jpg",
+          "url": "https://refero.design/pages/08f11f8d-c2d5-48da-8e35-906f498e626c"
+        },
+        {
+          "id": "4c576b85-13ab-4d3d-9dc0-9318798534e2",
+          "label": "Choose destination field for name",
+          "index": 3,
+          "imageIndex": 3,
+          "localAsset": "assets/refero-10795/3.jpg",
+          "url": "https://refero.design/pages/4c576b85-13ab-4d3d-9dc0-9318798534e2"
+        },
+        {
+          "id": "b8286522-1340-489d-9650-1d722dd97bb2",
+          "label": "Name mapped; incomplete-mapping warning",
+          "index": 4,
+          "imageIndex": 4,
+          "localAsset": "assets/refero-10795/4.jpg",
+          "url": "https://refero.design/pages/b8286522-1340-489d-9650-1d722dd97bb2"
+        },
+        {
+          "id": "995bdc50-d8a8-4d10-9da4-1118a8b04958",
+          "label": "Choose destination field for email",
+          "index": 5,
+          "imageIndex": 5,
+          "localAsset": "assets/refero-10795/5.jpg",
+          "url": "https://refero.design/pages/995bdc50-d8a8-4d10-9da4-1118a8b04958"
+        },
+        {
+          "id": "440e2cb7-7058-490b-86dc-7ab6849715d1",
+          "label": "Both columns mapped",
+          "index": 6,
+          "imageIndex": 6,
+          "localAsset": "assets/refero-10795/6.jpg",
+          "url": "https://refero.design/pages/440e2cb7-7058-490b-86dc-7ab6849715d1"
+        },
+        {
+          "id": "444b3c33-0a7e-48ad-9b24-f43710b0b787",
+          "label": "Review mappings: 10/10 valid in both columns",
+          "index": 7,
+          "imageIndex": 7,
+          "localAsset": "assets/refero-10795/7.jpg",
+          "url": "https://refero.design/pages/444b3c33-0a7e-48ad-9b24-f43710b0b787"
+        },
+        {
+          "id": "13882560-7516-4789-b2a9-c8fcb9391ce6",
+          "label": "Upload accepted; processing toast",
+          "index": 8,
+          "imageIndex": 8,
+          "localAsset": "assets/refero-10795/8.jpg",
+          "url": "https://refero.design/pages/13882560-7516-4789-b2a9-c8fcb9391ce6"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    }
+  ]
+}

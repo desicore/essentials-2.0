@@ -1,0 +1,12 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 0.34072225,
+  "result": {
+    "batch": 1,
+    "exit_code": 0,
+    "sanitized_upload_log": "{\"referenceId\":\"refero:4649\",\"index\":4,\"nodeId\":\"107:497\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5\",\"index\":0,\"nodeId\":\"107:509\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5\",\"index\":1,\"nodeId\":\"107:514\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5\",\"index\":2,\"nodeId\":\"107:519\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5\",\"index\":3,\"nodeId\":\"107:524\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:atlassian-jit\",\"index\":0,\"nodeId\":\"107:544\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:atlassian-jit\",\"index\":1,\"nodeId\":\"107:549\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:github-linking\",\"index\":0,\"nodeId\":\"107:561\",\"status\":\"uploaded\",\"httpStatus\":200}\nAll URLs posted once; temporary URL file removed. Inspect actual screenshots before marking visual verification.\n",
+    "capabilities_persisted": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "access_date": "2026-09-08",
+  "route": "Installed authenticated Claude CLI → claude.ai Figma MCP",
+  "executable": "/Users/danielbrassnyo/.local/bin/claude",
+  "connection_outcome": "success",
+  "identity": {
+    "handle": "Daniel Brassnyo",
+    "organization": "Elevate Healthcare",
+    "seat": "Full",
+    "tier": "org"
+  },
+  "read_only_probe": {
+    "tool": "get_figjam",
+    "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+    "nodeId": "5:422",
+    "outcome": "success",
+    "reported_node_type": "canvas",
+    "reported_name": "Page 2",
+    "reported_dimensions": [0, 0],
+    "reported_children": "No child content returned; appears empty.",
+    "limitation": "This is the CLI agent's structured summary of two successful read calls. No screenshot or raw page tree was exported in this bounded discovery probe. Reinspect before writes."
+  },
+  "relevant_tools_discovered": ["whoami", "get_figjam", "get_screenshot", "use_figma", "upload_assets", "get_figma_skill", "read_skill_uri"],
+  "mutation_tools_called": [],
+  "permission_denials": [],
+  "configuration_changes": false,
+  "authentication_changes": false,
+  "cli_flags": ["-p", "--no-session-persistence", "--disable-slash-commands", "--tools", "ToolSearch", "--permission-prompts", "none", "--max-budget-usd", "2", "--output-format", "json"],
+  "safety_notes": "Capture subprocess output; emit only parsed result fields. Never emit raw mcp list because unrelated configured URLs may include secrets. The working cloud connector is distinct from the local plugin:figma:figma health entry. Mandatory Figma skill prerequisites apply before write tools."
+}

@@ -1,0 +1,11 @@
+Reconcile and verify ONLY current Q3/Q4 batch,14 uploaded images/11 references. Existing authorized claude.ai Figma file tN2AM7RZD2InF1LYnN0zcn Page2 5:422. Direct assignment of upload-returned imageHash is tested and supported; don't create or upload any images. Preserve Page1.
+
+Read mandatory figma-use/SKILL.md and figma-use-figjam/SKILL.md under /Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/ before use_figma. Execute requests IN ORDER, one sequential use_figma per exact code/fileKey/description/skillNames:
+/Users/danielbrassnyo/Documents/dev-projects/elevate/essentials-2.0/inspiration/university-identity/figjam/generated-compact/05-reconcile-uploaded-hashes.request.json
+/Users/danielbrassnyo/Documents/dev-projects/elevate/essentials-2.0/inspiration/university-identity/figjam/generated-compact/06-verify-uploaded-images.request.json
+
+No getImageByHash guard before assignment; post-assignment resident dimension check belongs in separate readback. Stop on error and retain completed results; no blind retry.
+
+After readback passes, get_screenshot of Q3section105:422 andQ4section105:426 for layout; also closeups112:567(group conflict preview) and113:561(final user deactivationflow screen). Inspect actualpixels, proportions, screenshot order, labels and overlaps. Do not call otherwrites. Q5Q6 are still intentionally pending.
+
+Return ONLY JSON {reconcile:{fileKey,pageId,createdNodeIds:[],mutatedNodeIds:ALL_FROM_OPERATION1,issues},readback:EXACT_OPERATION2_RETURN,visual:{sectionNodeIds,closeupNodeIds,passed,observations,issues}}. Limit visual prose to80words total; preserve actual readback IDs/hash/dimensions without prose duplication. No global completion claim yet.

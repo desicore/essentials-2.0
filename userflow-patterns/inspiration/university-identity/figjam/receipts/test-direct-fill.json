@@ -1,0 +1,115 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 0.752459,
+  "result": {
+    "status": "success",
+    "operation": {
+      "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+      "pageId": "5:422",
+      "createdNodeIds": [],
+      "mutatedNodeIds": [
+        "100:423"
+      ],
+      "targetNodeId": "100:423",
+      "imageHash": "ad30546d76a88165564171a353af89280591ade5",
+      "width": 280,
+      "height": 204,
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FIT",
+          "scalingFactor": 1,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "ad30546d76a88165564171a353af89280591ade5"
+        }
+      ]
+    },
+    "visualAssessmentInline": {
+      "blank": false,
+      "screenshotSource": "inline node.screenshot({scale:2}) from successful use_figma call",
+      "content": "Zendesk Admin Center — Account > Security > Single sign-on > Create SAML configuration",
+      "samlFieldsObserved": [
+        "Configuration name* — 'Use something you'll recognize, like the identity provider name.'",
+        "SAML SSO URL* — URL Zendesk invokes to redirect users to your identity provider; ACS URL is https://<subdomain>.zendesk.com/access/saml",
+        "Certificate fingerprint* — SHA256 fingerprint of the SAML certificate, obtained from the SAML identity provider",
+        "Remote logout URL — URL Zendesk redirects users to after they sign out (example: https://www.example.com/services/logout)",
+        "IP ranges — requests from these ranges always routed via remote authentication; blank means all; supports n.n.n.n, asterisk wildcard, space-separated multiples"
+      ],
+      "otherUiObserved": [
+        "Left nav: Home, Recently viewed, Account (Billing, Subscription, Contacts), Security (Team member authentication, End user authentication, Single sign-on [selected], Advanced, More settings), Brand management (Brands), Appearance (Branding, Localization), Tools (Benchmark survey), People (Team, Team members)",
+        "Breadcrumb: Account / Security / Single sign-on / Create SAML configuration",
+        "Footer actions: Cancel, Save (primary)"
+      ],
+      "renderNote": "Image fill renders correctly with FIT scaling inside the 280x204 SHAPE_WITH_TEXT bounds; no blank or solid-fill-only state."
+    },
+    "persistedScreenshot": {
+      "verified": true,
+      "method": "separate get_screenshot read call after the write",
+      "nodeId": "100:423",
+      "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+      "artifactUrl": "https://www.figma.com/api/mcp/asset/5caed5d2-4a9b-45bb-987c-2998679c6f6c.png",
+      "format": "png",
+      "width": 280,
+      "height": 204,
+      "original_width": 280,
+      "original_height": 204,
+      "note": "Short-lived asset URL returned by the read call; dimensions match the mutated node exactly. Not downloaded (no outside-image fetch performed)."
+    },
+    "affectedIds": {
+      "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+      "pageId": "5:422",
+      "mutatedNodeIds": [
+        "100:423"
+      ],
+      "createdNodeIds": [],
+      "imageHash": "ad30546d76a88165564171a353af89280591ade5",
+      "preservedUntouched": [
+        "0:1"
+      ]
+    },
+    "constraintsObserved": {
+      "skillsReadBeforeUseFigma": [
+        "figma-use/SKILL.md",
+        "figma-use-figjam/SKILL.md",
+        "figma-use/references/api-reference.md#images"
+      ],
+      "skillNamesParam": "figma-use,figma-use-figjam",
+      "setCurrentPageAsyncCount": 1,
+      "getImageByHashReintroduced": false,
+      "newUploadsRequested": false,
+      "outsideImageFetches": 0,
+      "createImageOrCreateImageAsyncUsed": false,
+      "setPluginDataUsed": false,
+      "closePluginOrNotifyUsed": false,
+      "asyncIifeUsed": false,
+      "otherMutations": "none",
+      "page1NodeId0_1": "untouched"
+    }
+  }
+}

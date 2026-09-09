@@ -1,0 +1,109 @@
+{
+  "searches": [
+    {
+      "query": "Remote Turn on single sign-on SAML configuration",
+      "platform": "web",
+      "limit": 1,
+      "page": 1,
+      "has_next_page": true,
+      "flows": [
+        {
+          "id": "e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "name": "Turn on single sign-on",
+          "actions": [],
+          "mobbin_url": "https://mobbin.com/flows/e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "app_name": "Remote",
+          "platform": "web",
+          "screen_count": 4,
+          "screens": [
+            {
+              "screen_id": "31350159-fd49-4cd3-bc01-967f1a7bfe0e",
+              "image_url": "https://mobbin.com/api/mcp/short/lGoVJXnx",
+              "position": 1
+            },
+            {
+              "screen_id": "231210d1-e819-4996-994d-e20afa4b904d",
+              "image_url": "https://mobbin.com/api/mcp/short/AgwqBLJg",
+              "position": 2
+            },
+            {
+              "screen_id": "34474b95-2f25-44db-b004-df6e19041835",
+              "image_url": "https://mobbin.com/api/mcp/short/C7TBtZze",
+              "position": 3
+            },
+            {
+              "screen_id": "fba63c89-1bfb-4bc5-a3b2-78e69958d8bd",
+              "image_url": "https://mobbin.com/api/mcp/short/Aqf6v9Yj",
+              "position": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "GitHub Enabling SAML single sign-on enterprise authentication",
+      "platform": "web",
+      "limit": 1,
+      "page": 1,
+      "has_next_page": true,
+      "flows": [
+        {
+          "id": "d25edb45-ec9a-42af-89aa-95e717388f0c",
+          "name": "Enterprise",
+          "actions": [],
+          "mobbin_url": "https://mobbin.com/flows/d25edb45-ec9a-42af-89aa-95e717388f0c",
+          "app_name": "GitHub",
+          "platform": "web",
+          "screen_count": 9,
+          "screens": [
+            {
+              "screen_id": "ddd6fbe0-9246-4b57-9149-3c6b750cb5a1",
+              "image_url": "https://mobbin.com/api/mcp/short/jehCCKPm",
+              "position": 1
+            },
+            {
+              "screen_id": "cf035a22-6c20-4a04-9af0-2bef92fef8e8",
+              "image_url": "https://mobbin.com/api/mcp/short/yrINljFL",
+              "position": 2
+            },
+            {
+              "screen_id": "a75fcef3-6696-4eca-87ef-6753e69c1369",
+              "image_url": "https://mobbin.com/api/mcp/short/Mx6bur92",
+              "position": 3
+            },
+            {
+              "screen_id": "054b197e-baf6-4692-8d51-ee6e826c2b71",
+              "image_url": "https://mobbin.com/api/mcp/short/anh0tM61",
+              "position": 4
+            },
+            {
+              "screen_id": "80dca4a7-39c7-4c4b-adec-a74e85b41d11",
+              "image_url": "https://mobbin.com/api/mcp/short/Mqcs1gjP",
+              "position": 5
+            },
+            {
+              "screen_id": "4cecf2ea-6e2d-4685-a3dd-d0eae3727eb3",
+              "image_url": "https://mobbin.com/api/mcp/short/s5OQqucn",
+              "position": 6
+            },
+            {
+              "screen_id": "acb9ac1a-a5f4-41e4-8a8e-8e903b189576",
+              "image_url": "https://mobbin.com/api/mcp/short/QqkxR6Mf",
+              "position": 7
+            },
+            {
+              "screen_id": "51315de0-aa8d-431b-883b-5a1e38561ef9",
+              "image_url": "https://mobbin.com/api/mcp/short/YnYWsxh7",
+              "position": 8
+            },
+            {
+              "screen_id": "c1232e5a-e13d-4e29-a607-23afc78148c6",
+              "image_url": "https://mobbin.com/api/mcp/short/06Eu7NOL",
+              "position": 9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

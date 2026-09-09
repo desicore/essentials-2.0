@@ -1,0 +1,89 @@
+{
+  "module": "access-sharing",
+  "title": "Access, roles & sharing",
+  "intro": "Pipeline test data only. These photographs and invented example annotations are placeholders, not product screenshots or research evidence. Replace them with verified references before review.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "How do products let people in *without* creating accounts up front (magic link, guest, identity from SSO/LMS)?",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "How is access scoped by *content* (share a course / recording with a person or group) instead of by global role?",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "How do products handle bulk rosters: CSV/LMS import, sync, cohorts that churn until week one?",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "What is the minimal role set that still has an escape hatch (owner/admin/member/guest + per-item overrides)?",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "How is access time-boxed (release date, expiry, semester end, view-only links)?",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "How do products remove login friction and account recovery dependency?",
+      "answer": ""
+    }
+  ],
+  "references": [
+    {
+      "id": "mobbin:00000000-0000-4000-8000-000000000001",
+      "source": "mobbin",
+      "app": "Notion",
+      "title": "Invite guests to a page (example)",
+      "kind": "flow",
+      "url": "https://mobbin.com/",
+      "images": [
+        "https://picsum.photos/seed/essentials-guest-1/800/600",
+        "https://picsum.photos/seed/essentials-guest-2/800/600"
+      ],
+      "question": "Q1",
+      "take": "Placeholder example: invite a guest directly from the content they will access.",
+      "counter_example": false,
+      "selected": true,
+      "crop": "0:100,80,400,300"
+    },
+    {
+      "id": "mobbin:00000000-0000-4000-8000-000000000002",
+      "source": "mobbin",
+      "app": "Google Drive",
+      "title": "Share a recording with a group (example)",
+      "kind": "flow",
+      "url": "https://mobbin.com/",
+      "images": [
+        "https://picsum.photos/seed/essentials-sharing-1/800/600",
+        "https://picsum.photos/seed/essentials-sharing-2/800/600"
+      ],
+      "question": "Q2",
+      "take": "Placeholder example: choose recipients and permissions on a single item.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:00000000-0000-4000-8000-000000000003",
+      "source": "refero",
+      "app": "Example workspace",
+      "title": "Global role matrix (counter-example)",
+      "kind": "screen",
+      "url": "https://refero.design/",
+      "images": [
+        "https://picsum.photos/seed/essentials-roles/800/600"
+      ],
+      "question": "Q4",
+      "take": "Placeholder counter-example: a dense global matrix makes ordinary sharing depend on role administration.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

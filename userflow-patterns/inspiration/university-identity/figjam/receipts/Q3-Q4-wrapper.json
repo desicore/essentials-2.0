@@ -1,0 +1,645 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 1.056587,
+  "result": {
+    "operations": [
+      {
+        "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+        "pageId": "5:422",
+        "createdNodeIds": [
+          "112:513",
+          "112:517",
+          "112:518",
+          "112:519",
+          "112:523",
+          "112:524",
+          "112:528",
+          "112:529",
+          "112:533",
+          "112:534",
+          "112:538",
+          "112:539",
+          "112:543",
+          "112:544",
+          "112:545",
+          "112:549",
+          "112:550",
+          "112:551",
+          "112:552",
+          "112:553",
+          "112:557",
+          "112:558",
+          "112:559",
+          "112:560",
+          "112:561",
+          "112:565",
+          "112:566",
+          "112:567",
+          "112:571",
+          "112:572",
+          "112:573",
+          "112:577",
+          "112:578",
+          "112:579",
+          "112:580"
+        ],
+        "mutatedNodeIds": [
+          "105:422",
+          "105:423",
+          "105:424",
+          "105:425"
+        ],
+        "sectionRecords": [
+          {
+            "question": "Q3",
+            "nodeId": "105:422",
+            "headingNodeId": "105:423",
+            "synthesisNodeId": "105:424",
+            "questionsNodeId": "105:425",
+            "x": 5716,
+            "y": 1200,
+            "width": 2300,
+            "height": 2552
+          }
+        ],
+        "referenceRecords": [
+          {
+            "id": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+            "question": "Q3",
+            "sectionId": "105:422",
+            "stickyNodeId": "112:513",
+            "sourceNodeId": "112:517",
+            "contextNodeId": "112:518",
+            "reportNodeId": "112:544",
+            "y": 500,
+            "height": 391,
+            "images": [
+              {
+                "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+                "index": 0,
+                "nodeId": "112:519",
+                "relativePath": "assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "112:523",
+                "x": 620,
+                "y": 572
+              },
+              {
+                "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+                "index": 1,
+                "nodeId": "112:524",
+                "relativePath": "assets/mobbin/02a533b3-ba02-4194-b5cb-5762d3d2b279.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "112:528",
+                "x": 916,
+                "y": 572
+              },
+              {
+                "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+                "index": 2,
+                "nodeId": "112:529",
+                "relativePath": "assets/mobbin/9f98944b-93c9-4dc2-85f4-11f991d0545e.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "112:533",
+                "x": 1212,
+                "y": 572
+              },
+              {
+                "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+                "index": 3,
+                "nodeId": "112:534",
+                "relativePath": "assets/mobbin/cc52905e-1f42-4fe7-984a-6a86f8271bc6.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "112:538",
+                "x": 1508,
+                "y": 572
+              },
+              {
+                "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+                "index": 4,
+                "nodeId": "112:539",
+                "relativePath": "assets/mobbin/2ae61b76-5411-42b1-87ec-3564bde6bd73.jpg",
+                "width": 280,
+                "height": 190,
+                "captionNodeId": "112:543",
+                "x": 1804,
+                "y": 572
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:atlassian-managed",
+            "question": "Q3",
+            "sectionId": "105:422",
+            "stickyNodeId": "112:545",
+            "sourceNodeId": "112:549",
+            "contextNodeId": "112:550",
+            "reportNodeId": "112:552",
+            "y": 971,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:github-team-sync",
+            "question": "Q3",
+            "sectionId": "105:422",
+            "stickyNodeId": "112:553",
+            "sourceNodeId": "112:557",
+            "contextNodeId": "112:558",
+            "reportNodeId": "112:560",
+            "y": 1353,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:atlassian-group-conflicts",
+            "question": "Q3",
+            "sectionId": "105:422",
+            "stickyNodeId": "112:561",
+            "sourceNodeId": "112:565",
+            "contextNodeId": "112:566",
+            "reportNodeId": "112:572",
+            "y": 1735,
+            "height": 333,
+            "images": [
+              {
+                "referenceId": "documentation:atlassian-group-conflicts",
+                "index": 0,
+                "nodeId": "112:567",
+                "relativePath": "assets/documentation/atlassian-group-conflicts-0.png",
+                "width": 280,
+                "height": 113,
+                "captionNodeId": "112:571",
+                "x": 620,
+                "y": 1807
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:canvas-course-roles",
+            "question": "Q3",
+            "sectionId": "105:422",
+            "stickyNodeId": "112:573",
+            "sourceNodeId": "112:577",
+            "contextNodeId": "112:578",
+            "reportNodeId": "112:580",
+            "y": 2148,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          }
+        ],
+        "imageTargets": [
+          {
+            "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+            "index": 0,
+            "nodeId": "112:519",
+            "relativePath": "assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "112:523",
+            "x": 620,
+            "y": 572
+          },
+          {
+            "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+            "index": 1,
+            "nodeId": "112:524",
+            "relativePath": "assets/mobbin/02a533b3-ba02-4194-b5cb-5762d3d2b279.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "112:528",
+            "x": 916,
+            "y": 572
+          },
+          {
+            "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+            "index": 2,
+            "nodeId": "112:529",
+            "relativePath": "assets/mobbin/9f98944b-93c9-4dc2-85f4-11f991d0545e.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "112:533",
+            "x": 1212,
+            "y": 572
+          },
+          {
+            "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+            "index": 3,
+            "nodeId": "112:534",
+            "relativePath": "assets/mobbin/cc52905e-1f42-4fe7-984a-6a86f8271bc6.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "112:538",
+            "x": 1508,
+            "y": 572
+          },
+          {
+            "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+            "index": 4,
+            "nodeId": "112:539",
+            "relativePath": "assets/mobbin/2ae61b76-5411-42b1-87ec-3564bde6bd73.jpg",
+            "width": 280,
+            "height": 190,
+            "captionNodeId": "112:543",
+            "x": 1804,
+            "y": 572
+          },
+          {
+            "referenceId": "documentation:atlassian-group-conflicts",
+            "index": 0,
+            "nodeId": "112:567",
+            "relativePath": "assets/documentation/atlassian-group-conflicts-0.png",
+            "width": 280,
+            "height": 113,
+            "captionNodeId": "112:571",
+            "x": 620,
+            "y": 1807
+          }
+        ]
+      },
+      {
+        "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+        "pageId": "5:422",
+        "createdNodeIds": [
+          "113:540",
+          "113:544",
+          "113:545",
+          "113:546",
+          "113:550",
+          "113:551",
+          "113:555",
+          "113:556",
+          "113:560",
+          "113:561",
+          "113:565",
+          "113:566",
+          "113:567",
+          "113:571",
+          "113:572",
+          "113:573",
+          "113:577",
+          "113:578",
+          "113:582",
+          "113:583",
+          "113:584",
+          "113:588",
+          "113:589",
+          "113:590",
+          "113:594",
+          "113:595",
+          "113:596",
+          "113:600",
+          "113:601",
+          "113:602",
+          "113:606",
+          "113:607",
+          "113:608",
+          "113:612",
+          "113:613",
+          "113:614",
+          "113:615",
+          "113:616",
+          "113:620",
+          "113:621",
+          "113:622",
+          "113:623"
+        ],
+        "mutatedNodeIds": [
+          "105:426",
+          "105:427",
+          "105:428",
+          "105:429"
+        ],
+        "sectionRecords": [
+          {
+            "question": "Q4",
+            "nodeId": "105:426",
+            "headingNodeId": "105:427",
+            "synthesisNodeId": "105:428",
+            "questionsNodeId": "105:429",
+            "x": 8196,
+            "y": 1200,
+            "width": 2300,
+            "height": 2988
+          }
+        ],
+        "referenceRecords": [
+          {
+            "id": "refero:1250",
+            "question": "Q4",
+            "sectionId": "105:426",
+            "stickyNodeId": "113:540",
+            "sourceNodeId": "113:544",
+            "contextNodeId": "113:545",
+            "reportNodeId": "113:566",
+            "y": 500,
+            "height": 350,
+            "images": [
+              {
+                "referenceId": "refero:1250",
+                "index": 0,
+                "nodeId": "113:546",
+                "relativePath": "assets/refero-1250/0.jpg",
+                "width": 280,
+                "height": 168,
+                "captionNodeId": "113:550",
+                "x": 620,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:1250",
+                "index": 1,
+                "nodeId": "113:551",
+                "relativePath": "assets/refero-1250/1.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "113:555",
+                "x": 916,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:1250",
+                "index": 2,
+                "nodeId": "113:556",
+                "relativePath": "assets/refero-1250/2.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "113:560",
+                "x": 1212,
+                "y": 572
+              },
+              {
+                "referenceId": "refero:1250",
+                "index": 3,
+                "nodeId": "113:561",
+                "relativePath": "assets/refero-1250/3.jpg",
+                "width": 280,
+                "height": 158,
+                "captionNodeId": "113:565",
+                "x": 1508,
+                "y": 572
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:entra-lifecycle",
+            "question": "Q4",
+            "sectionId": "105:426",
+            "stickyNodeId": "113:567",
+            "sourceNodeId": "113:571",
+            "contextNodeId": "113:572",
+            "reportNodeId": "113:583",
+            "y": 930,
+            "height": 302,
+            "images": [
+              {
+                "referenceId": "documentation:entra-lifecycle",
+                "index": 0,
+                "nodeId": "113:573",
+                "relativePath": "assets/documentation/entra-lifecycle-3.png",
+                "width": 280,
+                "height": 124,
+                "captionNodeId": "113:577",
+                "x": 620,
+                "y": 1002
+              },
+              {
+                "referenceId": "documentation:entra-lifecycle",
+                "index": 1,
+                "nodeId": "113:578",
+                "relativePath": "assets/documentation/entra-lifecycle-4.png",
+                "width": 280,
+                "height": 124,
+                "captionNodeId": "113:582",
+                "x": 916,
+                "y": 1002
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0,
+              1
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:entra-status",
+            "question": "Q4",
+            "sectionId": "105:426",
+            "stickyNodeId": "113:584",
+            "sourceNodeId": "113:588",
+            "contextNodeId": "113:589",
+            "reportNodeId": "113:595",
+            "y": 1312,
+            "height": 413,
+            "images": [
+              {
+                "referenceId": "documentation:entra-status",
+                "index": 0,
+                "nodeId": "113:590",
+                "relativePath": "assets/documentation/entra-status-0.png",
+                "width": 280,
+                "height": 250,
+                "captionNodeId": "113:594",
+                "x": 620,
+                "y": 1384
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:entra-logs",
+            "question": "Q4",
+            "sectionId": "105:426",
+            "stickyNodeId": "113:596",
+            "sourceNodeId": "113:600",
+            "contextNodeId": "113:601",
+            "reportNodeId": "113:607",
+            "y": 1805,
+            "height": 302,
+            "images": [
+              {
+                "referenceId": "documentation:entra-logs",
+                "index": 0,
+                "nodeId": "113:602",
+                "relativePath": "assets/documentation/entra-logs-0.png",
+                "width": 280,
+                "height": 90,
+                "captionNodeId": "113:606",
+                "x": 620,
+                "y": 1877
+              }
+            ],
+            "status": "targets_created",
+            "selectedStepIndices": [
+              0
+            ],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:entra-deletion-guard",
+            "question": "Q4",
+            "sectionId": "105:426",
+            "stickyNodeId": "113:608",
+            "sourceNodeId": "113:612",
+            "contextNodeId": "113:613",
+            "reportNodeId": "113:615",
+            "y": 2187,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          },
+          {
+            "id": "documentation:atlassian-sync-actions",
+            "question": "Q4",
+            "sectionId": "105:426",
+            "stickyNodeId": "113:616",
+            "sourceNodeId": "113:620",
+            "contextNodeId": "113:621",
+            "reportNodeId": "113:623",
+            "y": 2569,
+            "height": 302,
+            "images": [],
+            "status": "targets_created",
+            "selectedStepIndices": [],
+            "omittedStepIndices": []
+          }
+        ],
+        "imageTargets": [
+          {
+            "referenceId": "refero:1250",
+            "index": 0,
+            "nodeId": "113:546",
+            "relativePath": "assets/refero-1250/0.jpg",
+            "width": 280,
+            "height": 168,
+            "captionNodeId": "113:550",
+            "x": 620,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:1250",
+            "index": 1,
+            "nodeId": "113:551",
+            "relativePath": "assets/refero-1250/1.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "113:555",
+            "x": 916,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:1250",
+            "index": 2,
+            "nodeId": "113:556",
+            "relativePath": "assets/refero-1250/2.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "113:560",
+            "x": 1212,
+            "y": 572
+          },
+          {
+            "referenceId": "refero:1250",
+            "index": 3,
+            "nodeId": "113:561",
+            "relativePath": "assets/refero-1250/3.jpg",
+            "width": 280,
+            "height": 158,
+            "captionNodeId": "113:565",
+            "x": 1508,
+            "y": 572
+          },
+          {
+            "referenceId": "documentation:entra-lifecycle",
+            "index": 0,
+            "nodeId": "113:573",
+            "relativePath": "assets/documentation/entra-lifecycle-3.png",
+            "width": 280,
+            "height": 124,
+            "captionNodeId": "113:577",
+            "x": 620,
+            "y": 1002
+          },
+          {
+            "referenceId": "documentation:entra-lifecycle",
+            "index": 1,
+            "nodeId": "113:578",
+            "relativePath": "assets/documentation/entra-lifecycle-4.png",
+            "width": 280,
+            "height": 124,
+            "captionNodeId": "113:582",
+            "x": 916,
+            "y": 1002
+          },
+          {
+            "referenceId": "documentation:entra-status",
+            "index": 0,
+            "nodeId": "113:590",
+            "relativePath": "assets/documentation/entra-status-0.png",
+            "width": 280,
+            "height": 250,
+            "captionNodeId": "113:594",
+            "x": 620,
+            "y": 1384
+          },
+          {
+            "referenceId": "documentation:entra-logs",
+            "index": 0,
+            "nodeId": "113:602",
+            "relativePath": "assets/documentation/entra-logs-0.png",
+            "width": 280,
+            "height": 90,
+            "captionNodeId": "113:606",
+            "x": 620,
+            "y": 1877
+          }
+        ]
+      }
+    ],
+    "error": null
+  }
+}

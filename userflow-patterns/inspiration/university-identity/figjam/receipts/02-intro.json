@@ -1,0 +1,107 @@
+{
+  "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+  "pageId": "5:422",
+  "createdNodeIds": [
+    "105:418",
+    "105:419",
+    "105:420",
+    "105:421",
+    "105:422",
+    "105:423",
+    "105:424",
+    "105:425",
+    "105:426",
+    "105:427",
+    "105:428",
+    "105:429",
+    "105:430",
+    "105:431",
+    "105:432",
+    "105:433",
+    "105:434",
+    "105:435",
+    "105:436",
+    "105:437",
+    "105:438",
+    "105:439",
+    "105:440",
+    "105:441",
+    "105:442"
+  ],
+  "mutatedNodeIds": [
+    "100:413",
+    "100:414",
+    "100:415",
+    "100:416"
+  ],
+  "sectionRecords": [
+    {
+      "question": "Q1",
+      "nodeId": "100:413",
+      "headingNodeId": "100:414",
+      "synthesisNodeId": "100:415",
+      "questionsNodeId": "100:416",
+      "x": 600,
+      "y": 1200,
+      "width": 2456,
+      "height": 4135
+    },
+    {
+      "question": "Q2",
+      "nodeId": "105:418",
+      "headingNodeId": "105:419",
+      "synthesisNodeId": "105:420",
+      "questionsNodeId": "105:421",
+      "x": 3236,
+      "y": 1200,
+      "width": 2300,
+      "height": 2903
+    },
+    {
+      "question": "Q3",
+      "nodeId": "105:422",
+      "headingNodeId": "105:423",
+      "synthesisNodeId": "105:424",
+      "questionsNodeId": "105:425",
+      "x": 5716,
+      "y": 1200,
+      "width": 2300,
+      "height": 2552
+    },
+    {
+      "question": "Q4",
+      "nodeId": "105:426",
+      "headingNodeId": "105:427",
+      "synthesisNodeId": "105:428",
+      "questionsNodeId": "105:429",
+      "x": 8196,
+      "y": 1200,
+      "width": 2300,
+      "height": 2988
+    },
+    {
+      "question": "Q5",
+      "nodeId": "105:430",
+      "headingNodeId": "105:431",
+      "synthesisNodeId": "105:432",
+      "questionsNodeId": "105:433",
+      "x": 10676,
+      "y": 1200,
+      "width": 3048,
+      "height": 2597
+    },
+    {
+      "question": "Q6",
+      "nodeId": "105:434",
+      "headingNodeId": "105:435",
+      "synthesisNodeId": "105:436",
+      "questionsNodeId": "105:437",
+      "x": 13904,
+      "y": 1200,
+      "width": 2300,
+      "height": 1840
+    }
+  ],
+  "referenceRecords": [],
+  "imageTargets": []
+}

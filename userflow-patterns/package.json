@@ -1,0 +1,17 @@
+{
+  "name": "essentials-2-design-research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "build-report": "node inspiration/scripts/build-report.mjs",
+    "fetch-assets": "node inspiration/scripts/fetch-assets.mjs",
+    "crop": "node inspiration/scripts/crop.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4"
+  }
+}

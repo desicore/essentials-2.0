@@ -1,0 +1,88 @@
+{
+  "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+  "pageId": "5:422",
+  "createdNodeIds": [
+    "118:624",
+    "118:628",
+    "118:629",
+    "118:630",
+    "118:631",
+    "118:632",
+    "118:636",
+    "118:637",
+    "118:638",
+    "118:639",
+    "118:640",
+    "118:644",
+    "118:645",
+    "118:646",
+    "118:647"
+  ],
+  "mutatedNodeIds": [
+    "105:434",
+    "105:435",
+    "105:436",
+    "105:437"
+  ],
+  "sectionRecords": [
+    {
+      "question": "Q6",
+      "nodeId": "105:434",
+      "headingNodeId": "105:435",
+      "synthesisNodeId": "105:436",
+      "questionsNodeId": "105:437",
+      "x": 13904,
+      "y": 1200,
+      "width": 2300,
+      "height": 1840
+    }
+  ],
+  "referenceRecords": [
+    {
+      "id": "documentation:canvas-nrps-roster",
+      "question": "Q6",
+      "sectionId": "105:434",
+      "stickyNodeId": "118:624",
+      "sourceNodeId": "118:628",
+      "contextNodeId": "118:629",
+      "reportNodeId": "118:631",
+      "y": 500,
+      "height": 302,
+      "images": [],
+      "status": "targets_created",
+      "selectedStepIndices": [],
+      "omittedStepIndices": []
+    },
+    {
+      "id": "documentation:canvas-nrps-identifiers",
+      "question": "Q6",
+      "sectionId": "105:434",
+      "stickyNodeId": "118:632",
+      "sourceNodeId": "118:636",
+      "contextNodeId": "118:637",
+      "reportNodeId": "118:639",
+      "y": 882,
+      "height": 302,
+      "images": [],
+      "status": "targets_created",
+      "selectedStepIndices": [],
+      "omittedStepIndices": []
+    },
+    {
+      "id": "documentation:canvas-enrollment-status",
+      "question": "Q6",
+      "sectionId": "105:434",
+      "stickyNodeId": "118:640",
+      "sourceNodeId": "118:644",
+      "contextNodeId": "118:645",
+      "reportNodeId": "118:647",
+      "y": 1264,
+      "height": 302,
+      "images": [],
+      "status": "targets_created",
+      "selectedStepIndices": [],
+      "omittedStepIndices": []
+    }
+  ],
+  "imageTargets": []
+}

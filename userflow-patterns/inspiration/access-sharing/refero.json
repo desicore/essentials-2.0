@@ -1,0 +1,1270 @@
+[
+  {
+    "id": "refero:9266",
+    "source": "refero",
+    "app": "Chargetrip",
+    "title": "Passwordless login to Analytics",
+    "kind": "flow",
+    "url": "https://refero.design/flows/9266",
+    "images": [
+      "https://images.refero.design/screenshots/chargetrip.com/desktop/b1c3b55d-5ffe-4391-8928-0fd47ca530cb_preview.jpg",
+      "https://images.refero.design/screenshots/chargetrip.io/desktop/e89cbeea-1dcf-4886-b1e6-28a5d8bd074a_preview.jpg",
+      "https://images.refero.design/screenshots/chargetrip.io/desktop/5f66aa52-bebb-44d2-9f79-fb5da3c97765_preview.jpg",
+      "https://images.refero.design/screenshots/chargetrip.io/desktop/28682242-8d8a-4d83-82f9-94a53b8f07b3_preview.jpg",
+      "https://images.refero.design/screenshots/chargetrip.io/desktop/8cb551e7-a76d-49e1-a819-55a1dd8fc563_preview.jpg",
+      "https://images.refero.design/screenshots/google.com/desktop/b8304614-4e44-42c0-9b39-0c7babb5d522_preview.jpg",
+      "https://images.refero.design/screenshots/chargetrip.io/desktop/791d80eb-c403-4295-abc7-32b57b89fff4_preview.jpg",
+      "https://images.refero.design/screenshots/chargetrip.io/desktop/6ca1724f-a5a8-4833-a0da-250b61a91458_preview.jpg"
+    ],
+    "question": "Q1",
+    "take": "Email-only sign-in that doubles as sign-up; \"check your email\" step offers mail-client shortcuts and an explicit \"Logging in…\" state.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:4274",
+    "source": "refero",
+    "app": "Enode",
+    "title": "Developer account sign-up and magic-link login",
+    "kind": "flow",
+    "url": "https://refero.design/flows/4274",
+    "images": [
+      "https://images.refero.design/screenshots/enode.com/desktop/f4ffc512-5aeb-4223-b276-f2efcc4ad8ad_preview.jpg",
+      "https://images.refero.design/screenshots/enode.com/desktop/52add7d8-f982-4f95-9580-3b4b67ca2664_preview.jpg",
+      "https://images.refero.design/screenshots/enode.com/desktop/b798e0cd-f448-4da7-b764-a903ecf6daaa_preview.jpg",
+      "https://images.refero.design/screenshots/enode.com/desktop/411ed7f4-8ef6-4243-8665-1405c0234fc6_preview.jpg",
+      "https://images.refero.design/screenshots/enode.com/desktop/200aebf8-4592-4d94-bc21-d58244c476db_preview.jpg",
+      "https://images.refero.design/screenshots/enode.com/desktop/d9a55bc7-1069-44aa-a86c-58288fd8818e_preview.jpg",
+      "https://images.refero.design/screenshots/enode.com/desktop/246b5fda-2dab-4321-9091-f9a7cd60a347_preview.jpg"
+    ],
+    "question": "Q1",
+    "take": "One email form serves both sign-up and log-in via magic link; in-app \"Verify your log-in\" confirmation before landing in the dashboard.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:12506",
+    "source": "refero",
+    "app": "Cushion",
+    "title": "Email Login to Inbox",
+    "kind": "flow",
+    "url": "https://refero.design/flows/12506",
+    "images": [
+      "https://images.refero.design/screenshots/cushion.so/desktop/8d6fcfda-e457-47ca-822d-7874d448901e_preview.jpg",
+      "https://images.refero.design/screenshots/cushion.so/desktop/ec2a3f4c-f097-4ae5-9e14-7a631b658071_preview.jpg",
+      "https://images.refero.design/screenshots/cushion.so/desktop/a55136b1-f170-4a58-becd-c1c255528443_preview.jpg",
+      "https://images.refero.design/screenshots/cushion.so/desktop/1f711b33-f938-49b6-9e49-3c53598b53d0_preview.jpg",
+      "https://images.refero.design/screenshots/cushion.so/desktop/33b2fd3b-29c3-4d86-8cd7-96d456943cb8_preview.jpg",
+      "https://images.refero.design/screenshots/cushion.so/desktop/a5ed365b-c15a-44f6-a273-d45f954afec8_preview.jpg"
+    ],
+    "question": "Q1",
+    "take": "Six-step magic-link login with distinct \"sending link\" and \"link sent\" states — the minimum viable passwordless loop.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:9042",
+    "source": "refero",
+    "app": "Parallel",
+    "title": "Passwordless sign-in & Organization Setup",
+    "kind": "flow",
+    "url": "https://refero.design/flows/9042",
+    "images": [
+      "https://images.refero.design/screenshots/parallel.ai/desktop/df459ad3-1af2-4731-8be7-de329b47bf7b_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/81c8dd99-cce3-4d40-a02b-65d57dcb9852_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/788bddd6-6ca8-4897-9f71-d4c1672bd083_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/7e561c63-aa57-40e9-a069-16c9ceeb0e20_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/7e73a355-901f-4531-80a6-10b14e7df2e9_preview.jpg",
+      "https://images.refero.design/screenshots/google.com/desktop/1d07258a-eb8c-454e-a162-12f034414cda_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/61b019c7-a6b5-46b3-80b7-6930903310c5_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/909a8bde-6187-4090-a02b-91d023ab1fa8_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/814ce906-658f-4b37-8600-9e08a486d4cf_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/9bb707d9-71c9-48ac-b3f6-8cd31c58e942_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/75e53d3a-751f-45d4-816f-e9810d45adaa_preview.jpg",
+      "https://images.refero.design/screenshots/parallel.ai/desktop/ae5abf5a-8e8e-4e8b-a2f7-091590dbbb2b_preview.jpg"
+    ],
+    "question": "Q1",
+    "take": "\"Sign in with work email\" magic link lands straight in org creation — identity first, workspace second, no password anywhere.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:9798",
+    "source": "refero",
+    "app": "Flask.do",
+    "title": "Email Magic-Link Onboarding",
+    "kind": "flow",
+    "url": "https://refero.design/flows/9798",
+    "images": [
+      "https://images.refero.design/screenshots/flask.do/desktop/00f5bf5b-305a-441e-bbda-08a4aade64f5_preview.jpg",
+      "https://images.refero.design/screenshots/flask.do/desktop/687f5eaa-6514-4ffb-9adb-710f01ddbcaa_preview.jpg",
+      "https://images.refero.design/screenshots/flask.do/desktop/5ebb0cd3-74d1-45ca-a6b1-41ebdae55322_preview.jpg",
+      "https://images.refero.design/screenshots/flask.do/desktop/f152b4a2-5456-45e4-ace0-c141b32419ae_preview.jpg",
+      "https://images.refero.design/screenshots/flask.do/desktop/89d44463-3646-431e-865c-15d575da42e4_preview.jpg",
+      "https://images.refero.design/screenshots/flask.do/desktop/83ea2bce-e338-43be-8e01-0c8cae340e40_preview.jpg"
+    ],
+    "question": "Q1",
+    "take": "Marketing CTA → auth-method card → email → link sent → empty team workspace; nothing asked beyond an email.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:1693",
+    "source": "refero",
+    "app": "Slite",
+    "title": "Invite teammates",
+    "kind": "flow",
+    "url": "https://refero.design/flows/1693",
+    "images": [
+      "https://images.refero.design/screenshots/slite.com/desktop/961df89f-d396-41fd-a7f0-8528d915ef78_preview.jpg",
+      "https://images.refero.design/screenshots/slite.com/desktop/c0101766-6ba3-4e5c-b74b-2b610019a1f1_preview.jpg",
+      "https://images.refero.design/screenshots/slite.com/desktop/2f74fe46-7c26-4087-b4d2-50b6db64415c_preview.jpg",
+      "https://images.refero.design/screenshots/slite.com/desktop/88117cdd-b668-4793-be1b-f30a0f48635b_preview.jpg"
+    ],
+    "question": "Q1",
+    "take": "One \"Add people\" modal offers a shareable invite link and email invites side by side, with inline error feedback.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:1e20e343-27e6-4908-8d42-069070aaad89",
+    "source": "refero",
+    "app": "Slab",
+    "title": "SSO authentication settings (admin)",
+    "kind": "screen",
+    "url": "https://refero.design/pages/1e20e343-27e6-4908-8d42-069070aaad89",
+    "images": [
+      "https://images.refero.design/screenshots/slab.com/desktop/83037381-0f4e-4f7a-9f16-1062cf9b4ffb_preview.jpg"
+    ],
+    "question": "Q1",
+    "take": "Org SSO settings page: \"no providers yet\" empty state with one \"Manage integrations\" CTA — SSO as an admin toggle, invisible to end users.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:f690f4ed-6af6-4a63-8496-ad6e23925486",
+    "source": "refero",
+    "app": "Homerun",
+    "title": "Team login policy: none / 2FA or SSO / SSO",
+    "kind": "screen",
+    "url": "https://refero.design/pages/f690f4ed-6af6-4a63-8496-ad6e23925486",
+    "images": [
+      "https://images.refero.design/screenshots/homerun.co/desktop/f05829c5-427b-4523-bd79-b5f2fd5952bd_preview.jpg"
+    ],
+    "question": "Q1",
+    "take": "Three-radio login policy (none / 2FA or SSO / SSO only) with consequence text — org-level enforcement in one control.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:84515928-46c1-49f2-aaa5-2516f368b142",
+    "source": "refero",
+    "app": "Calendly",
+    "title": "Admin login settings: SSO, provisioning, domain control",
+    "kind": "screen",
+    "url": "https://refero.design/pages/84515928-46c1-49f2-aaa5-2516f368b142",
+    "images": [
+      "https://images.refero.design/screenshots/calendly.com/desktop/b5c3075f-4241-4fb1-b43a-a56cf1c273bf_preview.jpg"
+    ],
+    "question": "Q1",
+    "take": "Single \"Login\" admin page with tabs for SSO, user provisioning and domain control — identity settings in one place.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:5007",
+    "source": "refero",
+    "app": "Figma",
+    "title": "Manage sharing and invite collaborator",
+    "kind": "flow",
+    "url": "https://refero.design/flows/5007",
+    "images": [
+      "https://images.refero.design/screenshots/figma.com/desktop/7ff4ffc1-f435-4268-bf6b-82f416503f04_preview.jpg",
+      "https://images.refero.design/screenshots/figma.com/desktop/e935c7b8-bf4d-40c2-addb-be8ca05dee22_preview.jpg",
+      "https://images.refero.design/screenshots/figma.com/desktop/75f1a48d-21ce-470a-9766-2b05218fb9e3_preview.jpg",
+      "https://images.refero.design/screenshots/figma.com/desktop/32ea6b46-4062-43a6-a960-d9511676163e_preview.jpg",
+      "https://images.refero.design/screenshots/figma.com/desktop/4e4da893-b06d-4922-98f8-6bbaa8c43f84_preview.jpg",
+      "https://images.refero.design/screenshots/figma.com/desktop/ae34217e-1086-49a5-9072-2f33eb5bd8f6_preview.jpg",
+      "https://images.refero.design/screenshots/figma.com/desktop/ff54f40e-2976-4dd5-ac72-028c5fbc5901_preview.jpg",
+      "https://images.refero.design/screenshots/figma.com/desktop/3d9a7ef0-a748-4cff-992c-402c607f59a6_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "Per-file share settings switch link access to \"Only invited people\", then invite by email — item-level scope overrides team default.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:13031",
+    "source": "refero",
+    "app": "Dropbox",
+    "title": "Folder access management",
+    "kind": "flow",
+    "url": "https://refero.design/flows/13031",
+    "images": [
+      "https://images.refero.design/screenshots/dropbox.com/desktop/e6ce47e7-b6ce-450d-a50e-314273571c5f_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/74761004-af4d-4846-8642-c85bd488d522_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/ee866162-52d5-4b3e-9894-f0f1b77a379b_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/bba9dd7b-6a2a-48bd-8e76-b9452f1c8a8c_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "Folder \"Manage access\" dialog with a per-collaborator permission selector and inline confirmation of the change.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:6152",
+    "source": "refero",
+    "app": "Cake Equity",
+    "title": "Folder sharing management",
+    "kind": "flow",
+    "url": "https://refero.design/flows/6152",
+    "images": [
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/592d9877-8a71-4d74-b21b-670a04371ea0_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/0a8c8c3e-0a83-4d68-9cdc-5e083e848d50_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/cefdefe2-7ec8-47bf-b2e9-8d522dc460ad_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/9c72a540-c467-4e8f-855e-3c5ac05369a4_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/4e8199b9-469d-4e54-a1e2-d447ef86d1ec_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "Share a document folder to a specific shareholder or group from the folder context menu — you pick a person/group, not a global role.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:9583",
+    "source": "refero",
+    "app": "Teachable",
+    "title": "Community Access Management",
+    "kind": "flow",
+    "url": "https://refero.design/flows/9583",
+    "images": [
+      "https://images.refero.design/screenshots/teachable.com/desktop/a07708a9-3130-4e5e-b6a5-ba1a89548d72_preview.jpg",
+      "https://images.refero.design/screenshots/teachable.com/desktop/6d92cb68-b7c3-477a-8a46-b7eb4495738e_preview.jpg",
+      "https://images.refero.design/screenshots/teachable.com/desktop/20c8c811-ca14-4686-a521-ef80014ed8a4_preview.jpg",
+      "https://images.refero.design/screenshots/teachable.com/desktop/42482f6b-6931-4fcb-9e2e-988c1f48babb_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "Gate a content area by audience: pick which membership tiers can access the community in a modal — edtech cohort-based scoping.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:10880",
+    "source": "refero",
+    "app": "Clipchamp",
+    "title": "Project sharing & link invite",
+    "kind": "flow",
+    "url": "https://refero.design/flows/10880",
+    "images": [
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/63fea054-4b5c-4f61-ae02-ac5f43e44c65_preview.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/65ec7402-0459-454f-a02b-a54af3a75d1a_preview.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/be2e46cf-92fb-4c43-b5c7-e76554fe56fc_preview.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/1e5c994c-8c9e-4474-8261-96459da44c4e_preview.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/18768669-d3ee-4248-a84a-7e6f2448b1d3_preview.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/994097df-f84f-46f5-8801-c9fad960de4c_preview.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/ea006391-2919-4942-a9de-d693b86f5faa_preview.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/73ac39a3-c29b-43b1-abbd-eba066191b0b_preview.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/7e5434d7-9021-49a1-8c6c-e11b94129779_preview.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/83173c76-7082-4b88-98f9-d8d8a05ddfcb_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "Video-project share menu: send link to recipients (autosuggest) plus separate link settings; includes share error and retry states.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:4401",
+    "source": "refero",
+    "app": "Hello Ivy",
+    "title": "Invite client to workspace",
+    "kind": "flow",
+    "url": "https://refero.design/flows/4401",
+    "images": [
+      "https://images.refero.design/screenshots/helloivy.co/desktop/02742ea6-5691-4fd5-99ce-65ac1f5ea329_preview.jpg",
+      "https://images.refero.design/screenshots/helloivy.co/desktop/83cc2922-9005-415a-8c75-5f5a346ee191_preview.jpg",
+      "https://images.refero.design/screenshots/helloivy.co/desktop/dec7fe92-b520-44a6-a612-96163457e5a9_preview.jpg",
+      "https://images.refero.design/screenshots/helloivy.co/desktop/5ad3620e-87d0-4561-bda1-3f546783e4f9_preview.jpg",
+      "https://images.refero.design/screenshots/helloivy.co/desktop/34f93408-d964-4666-87dc-68217aa95229_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "External-client invite modal lets you adjust what the client can see before sending; pending invite shown in the client list.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:13746",
+    "source": "refero",
+    "app": "Synthesia.io",
+    "title": "Invite External Collaborator",
+    "kind": "flow",
+    "url": "https://refero.design/flows/13746",
+    "images": [
+      "https://images.refero.design/screenshots/synthesia.io/desktop/275f527f-5133-44f8-9c02-f049b5a02898_preview.jpg",
+      "https://images.refero.design/screenshots/synthesia.io/desktop/95074500-e6f6-4fce-b3b6-7a36ab9b88d5_preview.jpg",
+      "https://images.refero.design/screenshots/synthesia.io/desktop/9034625b-1269-4115-a3bc-5fa3f62710f6_preview.jpg",
+      "https://images.refero.design/screenshots/synthesia.io/desktop/5d32bc22-ab07-4e50-a5dc-8dfc85db919a_preview.jpg",
+      "https://images.refero.design/screenshots/synthesia.io/desktop/9aec491c-eb16-43e9-bdee-3872fa1ce1c5_preview.jpg",
+      "https://images.refero.design/screenshots/synthesia.io/desktop/1210fb90-d723-4246-a21e-529df13a0a8c_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "Guest invited to a single project: a \"Review external access\" step warns what they will see, then a permission level is chosen.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:199",
+    "source": "refero",
+    "app": "Bezi",
+    "title": "Share modal controls",
+    "kind": "flow",
+    "url": "https://refero.design/flows/199",
+    "images": [
+      "https://images.refero.design/screenshots/bezi.com/desktop/92dc2e9d-5aca-44da-853b-e2455bcaa480_preview.jpg",
+      "https://images.refero.design/screenshots/bezi.com/desktop/32b763d3-05a0-4a27-8bfe-26787bd5b9b3_preview.jpg",
+      "https://images.refero.design/screenshots/bezi.com/desktop/30290ab0-c199-4d78-a687-bb52ebb8ec46_preview.jpg",
+      "https://images.refero.design/screenshots/bezi.com/desktop/9c04851a-65fc-4d95-8eb1-feb950e87787_preview.jpg",
+      "https://images.refero.design/screenshots/bezi.com/desktop/ca51d955-e5e5-4ffb-9a6d-84091be1f98c_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "One share modal combines link-access dropdown, collaborator invite, and per-collaborator role change/remove.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:0108bda4-75dc-4653-936f-52d180b0cdea",
+    "source": "refero",
+    "app": "Skiff",
+    "title": "Share document: invite with role + public link toggle",
+    "kind": "screen",
+    "url": "https://refero.design/pages/0108bda4-75dc-4653-936f-52d180b0cdea",
+    "images": [
+      "https://images.refero.design/screenshots/skiff.com/desktop/c0745ba7-de92-4127-8f4d-c5985a9a3468_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "Doc-level modal: invite by email with role, list of guests vs team members, and a public-link toggle — all scoped to one document.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:c2570ea4-33ea-40e8-9608-72632aff9370",
+    "source": "refero",
+    "app": "Maze",
+    "title": "Share reel: team-only vs anyone with link",
+    "kind": "screen",
+    "url": "https://refero.design/pages/c2570ea4-33ea-40e8-9608-72632aff9370",
+    "images": [
+      "https://images.refero.design/screenshots/maze.co/desktop/820f7b06-9f55-4549-a8d6-d95d873b92ec_preview.jpg"
+    ],
+    "question": "Q2",
+    "take": "Two radios — \"Only members in your team\" vs \"Anyone with the link\" — the minimal audience choice for sharing a recording.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:10626",
+    "source": "refero",
+    "app": "Resend",
+    "title": "Import contacts from CSV",
+    "kind": "flow",
+    "url": "https://refero.design/flows/10626",
+    "images": [
+      "https://images.refero.design/screenshots/resend.com/desktop/88828501-a4ac-4281-ada5-cbc2e5fa8069_preview.jpg",
+      "https://images.refero.design/screenshots/resend.com/desktop/51640a78-1af7-4c8f-87db-3e8394855137_preview.jpg",
+      "https://images.refero.design/screenshots/resend.com/desktop/31a50d26-29c6-450f-a49b-8987e46d3d69_preview.jpg",
+      "https://images.refero.design/screenshots/resend.com/desktop/7b7039b5-58fc-4802-9565-90728c81d6ad_preview.jpg",
+      "https://images.refero.design/screenshots/resend.com/desktop/a0163e9a-a8b1-461f-b78d-e5eec2ec145b_preview.jpg",
+      "https://images.refero.design/screenshots/resend.com/desktop/439525f7-547c-46a6-b9eb-5bf976bcc7b2_preview.jpg",
+      "https://images.refero.design/screenshots/resend.com/desktop/2506d7c7-e3c9-44a1-a9eb-8eb0734e9877_preview.jpg",
+      "https://images.refero.design/screenshots/resend.com/desktop/679cc9d1-5e29-42fb-bc04-ceab48e50dd2_preview.jpg",
+      "https://images.refero.design/screenshots/resend.com/desktop/95848562-2641-4eaa-8830-ae5e0411cef3_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Canonical CSV import: upload → map columns (auto then manual) → review parsed rows → importing indicator → list.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:671",
+    "source": "refero",
+    "app": "Intercom",
+    "title": "CSV User Import",
+    "kind": "flow",
+    "url": "https://refero.design/flows/671",
+    "images": [
+      "https://images.refero.design/screenshots/intercom.com/desktop/638e3125-aac1-4239-bff8-cee3b95bf70b_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/8568eaf3-cef8-4484-a748-1bebf5c41cdf_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/ceecb45c-ce62-4edf-9835-d035b07c6ac2_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/a931fb85-8443-4b02-9c72-7c3915ddb575_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/fb8f81f4-356d-4e9b-a1ee-21783ccf9204_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/c927c903-527b-417e-bb3d-a91ac9e5d98e_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/3cbe7cf6-0654-47bd-9e79-e5a522e6735a_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/8327c6ea-2964-4d46-981c-f735d8b8b431_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/0a339fb9-67a1-429a-b964-f09270e149ed_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/c39eac55-4690-44a4-8a40-736d3fbb125d_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/85020c8f-5dd8-4641-8510-2571df7045fb_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/fff56f66-503f-480b-af91-bbd8090226e3_preview.jpg",
+      "https://images.refero.design/screenshots/intercom.com/desktop/65867693-c5ca-46f9-8a4e-5d5dd3829c0e_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Import wizard maps each CSV column to a user attribute, then ends with a post-import report of created/updated/failed rows.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:9855",
+    "source": "refero",
+    "app": "Acuity Scheduling",
+    "title": "Client Import/Export",
+    "kind": "flow",
+    "url": "https://refero.design/flows/9855",
+    "images": [
+      "https://images.refero.design/screenshots/acuityscheduling.com/desktop/80d87910-775e-4096-9945-2e81b3212a94_preview.jpg",
+      "https://images.refero.design/screenshots/acuityscheduling.com/desktop/ee147665-cadc-418c-b19f-722f87f357e2_preview.jpg",
+      "https://images.refero.design/screenshots/acuityscheduling.com/desktop/7fa84e54-d33e-4171-bc52-6f964bb9310b_preview.jpg",
+      "https://images.refero.design/screenshots/acuityscheduling.com/desktop/24d74854-b2af-45d3-983e-582d8f6569d4_preview.jpg",
+      "https://images.refero.design/screenshots/acuityscheduling.com/desktop/435fcfa5-1a8c-4ebc-8871-64f35411cefb_preview.jpg",
+      "https://images.refero.design/screenshots/acuityscheduling.com/desktop/2f510a32-d021-4120-a0de-382d6fedc833_preview.jpg",
+      "https://images.refero.design/screenshots/acuityscheduling.com/desktop/388467af-243a-4c87-a516-20541e855048_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "CSV import with a \"mapping required\" preview state and column labels applied before a success banner on the client list.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:6126",
+    "source": "refero",
+    "app": "Cake Equity",
+    "title": "Bulk Stakeholder Import",
+    "kind": "flow",
+    "url": "https://refero.design/flows/6126",
+    "images": [
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/1cca1138-ff56-484d-a8d8-f254c857496b_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/ae6d2992-fb1f-4511-8978-12094ce8d64e_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/23a876e8-270a-47fe-bf5b-47e22ced578e_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/240d010e-2b47-40cc-a40c-e597beecc641_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/6e02e18e-ae0a-4182-a79c-1f78e9ca95d3_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/c8e65369-4bcc-4f1f-bfa7-697eed7c6585_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/d1ab1b5b-bc3b-419c-b828-a25d2b468b06_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/356e76c9-a1b8-4df1-9ba2-39e8dd7d7e37_preview.jpg",
+      "https://images.refero.design/screenshots/cakeequity.com/desktop/57185543-feaa-45c0-ac38-866777a05692_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Auto-maps columns on upload, then validates on import attempt with row-level errors before committing.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:380",
+    "source": "refero",
+    "app": "Uber Eats",
+    "title": "Invite people to meal plan",
+    "kind": "flow",
+    "url": "https://refero.design/flows/380",
+    "images": [
+      "https://images.refero.design/screenshots/ubereats.com/desktop/a1418567-4805-406b-a660-2f3878a8af22_preview.jpg",
+      "https://images.refero.design/screenshots/ubereats.com/desktop/7cef5945-b6b4-4fe0-bb25-79ba56e2c01e_preview.jpg",
+      "https://images.refero.design/screenshots/ubereats.com/desktop/68928685-6148-4f74-b2dd-cac41aa7979d_preview.jpg",
+      "https://images.refero.design/screenshots/ubereats.com/desktop/b7f59b01-0b1b-491f-bc0b-d20ea16ca4ae_preview.jpg",
+      "https://images.refero.design/screenshots/ubereats.com/desktop/6c266b10-61de-49ee-8645-2ac558de58fe_preview.jpg",
+      "https://images.refero.design/screenshots/ubereats.com/desktop/3e2e28f9-90d6-4aa6-8662-ff00533268f8_preview.jpg",
+      "https://images.refero.design/screenshots/ubereats.com/desktop/f9eba191-c5e4-4e46-8d79-d36c41dde9fe_preview.jpg",
+      "https://images.refero.design/screenshots/ubereats.com/desktop/47e4fe79-9723-4be5-a1a9-8a56d73051a6_preview.jpg",
+      "https://images.refero.design/screenshots/ubereats.com/desktop/c8de271e-b809-43a1-8114-741f28954694_preview.jpg",
+      "https://images.refero.design/screenshots/ubereats.com/desktop/ad39efe7-00b2-4045-8d92-7eee41dd2591_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Same invite modal supports manual emails or CSV upload; shows format error and an \"imported 0 of 5\" review list to fix rows.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:9613",
+    "source": "refero",
+    "app": "Teachable",
+    "title": "Add and enroll student",
+    "kind": "flow",
+    "url": "https://refero.design/flows/9613",
+    "images": [
+      "https://images.refero.design/screenshots/teachable.com/desktop/e19c04ab-745c-4cf6-91b0-4a1e0d0606bb_preview.jpg",
+      "https://images.refero.design/screenshots/teachable.com/desktop/49f17cb3-f7a1-434e-97a7-417830caf1e0_preview.jpg",
+      "https://images.refero.design/screenshots/teachable.com/desktop/6092c2e9-aa2b-4475-9264-d9b17433cfc3_preview.jpg",
+      "https://images.refero.design/screenshots/teachable.com/desktop/33b92b67-161d-4cdc-b4b5-ed14da35b118_preview.jpg",
+      "https://images.refero.design/screenshots/teachable.com/desktop/9f6a955e-4c1a-4472-9111-005e7956e89e_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Add students manually with an \"enroll in course\" toggle in the same modal, then import feedback and an updated roster.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:8084",
+    "source": "refero",
+    "app": "Canva",
+    "title": "Manage team members",
+    "kind": "flow",
+    "url": "https://refero.design/flows/8084",
+    "images": [
+      "https://images.refero.design/screenshots/canva.com/desktop/dac58d87-a551-4122-94fb-120166d8a50c_preview.jpg",
+      "https://images.refero.design/screenshots/canva.com/desktop/6004fe98-ec91-40e5-bad8-e8625abacabd_preview.jpg",
+      "https://images.refero.design/screenshots/canva.com/desktop/fd89c279-6b23-4329-b629-502c40d2bab0_preview.jpg",
+      "https://images.refero.design/screenshots/canva.com/desktop/aaa8e26b-d89f-4201-84d0-f594beb5912e_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Multi-select people in the roster → \"Add to group\" overlay — groups/cohorts built from the existing member list.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:6641",
+    "source": "refero",
+    "app": "Linear",
+    "title": "Invite Members",
+    "kind": "flow",
+    "url": "https://refero.design/flows/6641",
+    "images": [
+      "https://images.refero.design/screenshots/linear.app/desktop/b35ec9c8-4727-469f-a411-f51a964b2b3f_preview.jpg",
+      "https://images.refero.design/screenshots/linear.app/desktop/17173786-24c6-4852-8646-276a172c7c90_preview.jpg",
+      "https://images.refero.design/screenshots/linear.app/desktop/db58109d-4ac3-49c5-9301-f369b79900a1_preview.jpg",
+      "https://images.refero.design/screenshots/linear.app/desktop/316a2f55-e150-4ab5-9d9d-4cd8709294b4_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Paste many emails into one field; the members list immediately reflects pending invites.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:6c361e65-4f9d-4e4f-81dd-93f36f6955a3",
+    "source": "refero",
+    "app": "Miro",
+    "title": "Invite to team: paste multiple emails",
+    "kind": "screen",
+    "url": "https://refero.design/pages/6c361e65-4f9d-4e4f-81dd-93f36f6955a3",
+    "images": [
+      "https://images.refero.design/screenshots/miro.com/desktop/06bb10d1-bbaf-401c-a79c-29fec0012322_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Multiline paste box for bulk emails with an \"add individually\" fallback — one field handles 1 or 100 invites.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:c38bf684-80b3-475b-bfc1-400bc9fc5113",
+    "source": "refero",
+    "app": "Calendly",
+    "title": "Admin center: Groups",
+    "kind": "screen",
+    "url": "https://refero.design/pages/c38bf684-80b3-475b-bfc1-400bc9fc5113",
+    "images": [
+      "https://images.refero.design/screenshots/calendly.com/desktop/09d9a4eb-667f-4ef3-9492-937a6bac4220_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Admin \"Groups\" area organizes members by department/location with group admins — cohort structure with delegated admin.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:c3e50548-7421-4c7d-a721-3611243d25f0",
+    "source": "refero",
+    "app": "Dropbox",
+    "title": "Admin console: Members list with status filter",
+    "kind": "screen",
+    "url": "https://refero.design/pages/c3e50548-7421-4c7d-a721-3611243d25f0",
+    "images": [
+      "https://images.refero.design/screenshots/dropbox.com/desktop/c3e50548-7421-4c7d-a721-3611243d25f0_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "Admin members table with status filter (invited/active) and Groups as a sibling nav item — roster + cohorts in one console.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:8d70fdbc-4b2b-4049-a902-bccb0a1eaf20",
+    "source": "refero",
+    "app": "Canva",
+    "title": "SSO & provisioning: domain verification",
+    "kind": "screen",
+    "url": "https://refero.design/pages/8d70fdbc-4b2b-4049-a902-bccb0a1eaf20",
+    "images": [
+      "https://images.refero.design/screenshots/canva.com/desktop/8f522481-5104-403d-9bfb-24defdbcad55_preview.jpg"
+    ],
+    "question": "Q3",
+    "take": "\"SSO & provisioning\" settings with domain-verification tab — directory sync is set up next to SSO, not as a separate product.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:73",
+    "source": "refero",
+    "app": "Stripe",
+    "title": "Team Member Invitation and Role Assignment",
+    "kind": "flow",
+    "url": "https://refero.design/flows/73",
+    "images": [
+      "https://images.refero.design/screenshots/stripe.com/desktop/8f0f83ad-5a5b-4ceb-9ede-2252a6168ff1_preview.jpg",
+      "https://images.refero.design/screenshots/stripe.com/desktop/fdc825ac-6b2a-4a39-a4d7-460350016e8f_preview.jpg",
+      "https://images.refero.design/screenshots/stripe.com/desktop/4d1bb1a1-c885-4b7d-b3d5-4926026b6818_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "Role chosen at invite time from a short fixed list with one-line descriptions — no separate role-admin step.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:1398",
+    "source": "refero",
+    "app": "Zendesk",
+    "title": "Team member roles and access",
+    "kind": "flow",
+    "url": "https://refero.design/flows/1398",
+    "images": [
+      "https://images.refero.design/screenshots/zendesk.com/desktop/d51d8388-22f2-42f2-951a-d5913fb70e3a_preview.jpg",
+      "https://images.refero.design/screenshots/zendesk.com/desktop/229ea3a4-5330-4967-809a-7fd1a6674f96_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "Per-member \"roles and access\" page: one role plus product-level access toggles — the escape hatch lives on the person, not in a matrix.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:3904",
+    "source": "refero",
+    "app": "Replo",
+    "title": "Invite Members",
+    "kind": "flow",
+    "url": "https://refero.design/flows/3904",
+    "images": [
+      "https://images.refero.design/screenshots/replo.app/desktop/71703214-b571-4a7e-b0f0-3d988b87af11_preview.jpg",
+      "https://images.refero.design/screenshots/replo.app/desktop/1233d293-127c-4efb-9f80-1d5ffd0144e4_preview.jpg",
+      "https://images.refero.design/screenshots/replo.app/desktop/3010a953-24a8-417e-aed2-1ff859897630_preview.jpg",
+      "https://images.refero.design/screenshots/replo.app/desktop/5b4d1428-6f1f-412d-88e2-fe32eedea6d8_preview.jpg",
+      "https://images.refero.design/screenshots/replo.app/desktop/ac0bfd42-c1b3-4a2d-a43f-cd3d94d3f582_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "Invite modal with an expandable \"view role descriptions\" panel so people pick the right role without leaving the flow.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:1940",
+    "source": "refero",
+    "app": "Column",
+    "title": "Invite Users from Platform Settings",
+    "kind": "flow",
+    "url": "https://refero.design/flows/1940",
+    "images": [
+      "https://images.refero.design/screenshots/column.com/desktop/4985ed2c-ade8-4eb6-817f-9b564a20125d_preview.jpg",
+      "https://images.refero.design/screenshots/column.com/desktop/8b5faea4-6f21-405c-a345-4a09af4444e0_preview.jpg",
+      "https://images.refero.design/screenshots/column.com/desktop/751a9e99-f1a4-4257-a6a7-9534ed8ec6b6_preview.jpg",
+      "https://images.refero.design/screenshots/column.com/desktop/303a6b77-fa22-4397-b7f3-2e3a722f2d6c_preview.jpg",
+      "https://images.refero.design/screenshots/column.com/desktop/55a29d3b-df31-414c-b358-e70b4acc5edd_preview.jpg",
+      "https://images.refero.design/screenshots/column.com/desktop/987dbe03-5036-4383-95c6-9befbd75779d_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "Role dropdown plus a \"Roles help\" explainer inside the invite modal; pending invites list updates in place.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:2634",
+    "source": "refero",
+    "app": "Ballpark",
+    "title": "Manage team member permission",
+    "kind": "flow",
+    "url": "https://refero.design/flows/2634",
+    "images": [
+      "https://images.refero.design/screenshots/ballparkhq.com/desktop/d6e25646-e411-4006-aea5-c0a16d4683d8_preview.jpg",
+      "https://images.refero.design/screenshots/ballparkhq.com/desktop/573efe97-2553-435a-9e8b-c11ea0445047_preview.jpg",
+      "https://images.refero.design/screenshots/ballparkhq.com/desktop/c64bc7a3-3d87-4e4a-a431-63135fd957aa_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "Change a member's permission from the row via a selector and confirm inline — no edit page.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:2622",
+    "source": "refero",
+    "app": "Ballpark",
+    "title": "Workspace Guest Invitation",
+    "kind": "flow",
+    "url": "https://refero.design/flows/2622",
+    "images": [
+      "https://images.refero.design/screenshots/ballparkhq.com/desktop/3e8752a5-80de-4a82-aab0-0de15c021417_preview.jpg",
+      "https://images.refero.design/screenshots/ballparkhq.com/desktop/2d8c36e9-3f80-4c78-b653-d2cea2518da6_preview.jpg",
+      "https://images.refero.design/screenshots/ballparkhq.com/desktop/430a0150-91c2-48cf-a9fb-03915c3087b7_preview.jpg",
+      "https://images.refero.design/screenshots/ballparkhq.com/desktop/63bf33cd-ed02-4e29-8d64-8120cf2e6328_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "Separate \"Guests\" area for external people with a restricted role — guest as a first-class, clearly bounded role.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:2131",
+    "source": "refero",
+    "app": "Descript",
+    "title": "Project Access Management",
+    "kind": "flow",
+    "url": "https://refero.design/flows/2131",
+    "images": [
+      "https://images.refero.design/screenshots/descript.com/desktop/33317787-325f-48fe-a397-4aa4fb34aeb1_preview.jpg",
+      "https://images.refero.design/screenshots/descript.com/desktop/7d3d2a03-f3c3-4367-b89a-acecd8a3310f_preview.jpg",
+      "https://images.refero.design/screenshots/descript.com/desktop/f7141479-d456-4847-9095-13b32ac0ccbc_preview.jpg",
+      "https://images.refero.design/screenshots/descript.com/desktop/395d2ebb-1a50-4ea0-8792-bdeb3fb9bda9_preview.jpg",
+      "https://images.refero.design/screenshots/descript.com/desktop/018ae19e-a322-4c5f-8915-5bd5b09b9ace_preview.jpg",
+      "https://images.refero.design/screenshots/descript.com/desktop/998e4e63-f407-4a5d-b849-45d4f4381589_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "Per-project collaborator roles override the workspace role — the per-item escape hatch next to a small global role set.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:974",
+    "source": "refero",
+    "app": "Pinterest",
+    "title": "Add and assign employee permissions",
+    "kind": "flow",
+    "url": "https://refero.design/flows/974",
+    "images": [
+      "https://images.refero.design/screenshots/pinterest.com/desktop/37fa9bbb-e760-45af-9485-6b6d1a851183_preview.jpg",
+      "https://images.refero.design/screenshots/pinterest.com/desktop/8ead3c75-cd8b-4c59-a7f6-349669728f24_preview.jpg",
+      "https://images.refero.design/screenshots/pinterest.com/desktop/f0457655-ded0-4849-8501-eebff1678d09_preview.jpg",
+      "https://images.refero.design/screenshots/pinterest.com/desktop/6b856d81-6921-4bc5-9e7e-8b4152cdfd0a_preview.jpg",
+      "https://images.refero.design/screenshots/pinterest.com/desktop/9c7e8c40-a1c5-45f6-aba9-861ac842b7c1_preview.jpg",
+      "https://images.refero.design/screenshots/pinterest.com/desktop/4c71ae71-be65-411d-b395-1f5494e3a958_preview.jpg",
+      "https://images.refero.design/screenshots/pinterest.com/desktop/f3ab7f5c-282a-4471-877e-c69981c2e886_preview.jpg",
+      "https://images.refero.design/screenshots/pinterest.com/desktop/ace2cd34-55ea-4dc8-9f1a-4264f8b3ff45_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "COUNTER: role choice, then per-business, then per-permission checklist — 8 steps to add one employee; matrix explosion.",
+    "counter_example": true,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:6239ee2f-4ac8-444e-9397-14063164d97a",
+    "source": "refero",
+    "app": "Teachable",
+    "title": "User Roles with View permissions",
+    "kind": "screen",
+    "url": "https://refero.design/pages/6239ee2f-4ac8-444e-9397-14063164d97a",
+    "images": [
+      "https://images.refero.design/screenshots/teachable.com/desktop/8f4695b8-c088-4602-9cfe-54795ab7e77a_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "Fixed role list (Primary Owner / Owner / Author / Affiliate) with a \"View permissions\" expander — small set, fully transparent.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:b2b65fe2-6a0c-43be-8f46-5e5fdfc041f8",
+    "source": "refero",
+    "app": "Synthesia.io",
+    "title": "Workspace members: Members / Guests tabs",
+    "kind": "screen",
+    "url": "https://refero.design/pages/b2b65fe2-6a0c-43be-8f46-5e5fdfc041f8",
+    "images": [
+      "https://images.refero.design/screenshots/synthesia.io/desktop/b2b65fe2-6a0c-43be-8f46-5e5fdfc041f8_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "Members vs Guests tabs; each row shows role and license — guest is a tab, not a role-matrix column.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:310b8314-6883-42f6-b181-b6e47513d720",
+    "source": "refero",
+    "app": "Retool",
+    "title": "Permission groups (apps x resources x users)",
+    "kind": "screen",
+    "url": "https://refero.design/pages/310b8314-6883-42f6-b181-b6e47513d720",
+    "images": [
+      "https://images.refero.design/screenshots/retool.com/desktop/45499563-7ad3-4a72-a5ec-a8470798ab41_preview.jpg"
+    ],
+    "question": "Q4",
+    "take": "COUNTER: \"Permission groups\" each tracking apps × resources × users — admin must reason about a 3-D matrix to answer \"who can see X\".",
+    "counter_example": true,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:3937",
+    "source": "refero",
+    "app": "Hashnode",
+    "title": "Invite link creation",
+    "kind": "flow",
+    "url": "https://refero.design/flows/3937",
+    "images": [
+      "https://images.refero.design/screenshots/hashnode.com/desktop/0bc49980-21d8-4d98-935b-338595148864_preview.jpg",
+      "https://images.refero.design/screenshots/hashnode.com/desktop/36624b4f-1f2b-4630-a297-35b41a533617_preview.jpg",
+      "https://images.refero.design/screenshots/hashnode.com/desktop/68e7a6ad-1ef6-401a-a354-2b6782e120f3_preview.jpg",
+      "https://images.refero.design/screenshots/hashnode.com/desktop/59c5bffa-4ffd-4e8e-adea-c04d3372a453_preview.jpg",
+      "https://images.refero.design/screenshots/hashnode.com/desktop/59ab1644-fba5-4b4a-bedd-365b0619f790_preview.jpg",
+      "https://images.refero.design/screenshots/hashnode.com/desktop/17e204ef-a438-41db-9e99-6455d4f02061_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "Admin-created invite link carries a role, a usage limit and an expiry date — cohort self-enrolment with a built-in shelf life.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:13033",
+    "source": "refero",
+    "app": "Dropbox",
+    "title": "Team Folder Viewing Link Settings",
+    "kind": "flow",
+    "url": "https://refero.design/flows/13033",
+    "images": [
+      "https://images.refero.design/screenshots/dropbox.com/desktop/afd63e73-4a30-4360-896f-333195703887_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/746bdaea-baa9-4549-ae67-0ef43d2ff18c_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "View-only folder link settings with expiration, password and download toggles, plus delete-link — all in one modal.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:8055",
+    "source": "refero",
+    "app": "Canva",
+    "title": "Share link and set permission",
+    "kind": "flow",
+    "url": "https://refero.design/flows/8055",
+    "images": [
+      "https://images.refero.design/screenshots/canva.com/desktop/68a223bb-fce2-4806-8abb-5b415844a037_preview.jpg",
+      "https://images.refero.design/screenshots/canva.com/desktop/5981656f-62e9-4fa3-bd69-4a35b1db3391_preview.jpg",
+      "https://images.refero.design/screenshots/canva.com/desktop/6867eeea-175c-477c-ba8f-3b993f0f156c_preview.jpg",
+      "https://images.refero.design/screenshots/canva.com/desktop/69cccff1-8991-48a2-8719-ca4ab678fef8_preview.jpg",
+      "https://images.refero.design/screenshots/canva.com/desktop/8f14cccc-22b6-462a-a755-fed4229a7cf0_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "Switch from restricted to link-based access and choose the link's permission level in the same step, then copy.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:1642",
+    "source": "refero",
+    "app": "Airtable",
+    "title": "Share Base Public Link",
+    "kind": "flow",
+    "url": "https://refero.design/flows/1642",
+    "images": [
+      "https://images.refero.design/screenshots/airtable.com/desktop/90abe04a-eb8b-4a23-ab82-01d969c2eb49_preview.jpg",
+      "https://images.refero.design/screenshots/airtable.com/desktop/647233eb-eac3-4a23-848e-26d4d7e944de_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "Public link lives on its own \"Share publicly\" tab, configured separately from collaborator invites.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:10849",
+    "source": "refero",
+    "app": "MonoDesk",
+    "title": "Shareable Link Creation",
+    "kind": "flow",
+    "url": "https://refero.design/flows/10849",
+    "images": [
+      "https://images.refero.design/screenshots/monodesk.com/desktop/858d6d1d-3753-445b-b834-be241a88769a_preview.jpg",
+      "https://images.refero.design/screenshots/monodesk.com/desktop/cdae81e3-5a8f-4420-a82f-3bbf681bd5e7_preview.jpg",
+      "https://images.refero.design/screenshots/monodesk.com/desktop/e1f05736-a7ee-4d17-93a4-063e344da54e_preview.jpg",
+      "https://images.refero.design/screenshots/monodesk.com/desktop/4740796e-4742-4f91-b614-cbcab5691222_preview.jpg",
+      "https://images.refero.design/screenshots/monodesk.com/desktop/0f28c4a6-b154-41a5-ad9e-ed0254b74729_preview.jpg",
+      "https://images.refero.design/screenshots/monodesk.com/desktop/baa5bcee-e2a0-4f32-9ba0-94b9c690b781_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "\"Configure protections\" step before the link is generated — expiry/password set up-front, not as an afterthought.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:5943",
+    "source": "refero",
+    "app": "[untitled]",
+    "title": "Track share and invite link",
+    "kind": "flow",
+    "url": "https://refero.design/flows/5943",
+    "images": [
+      "https://images.refero.design/screenshots/untitled.stream/desktop/bede02c3-2f02-4c16-838c-1023fb943a5f_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/245d1f0a-7f22-43d6-aadd-a8c3942944f3_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/fd87fff5-e535-4968-8bbf-153e7445b624_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/6ff88a20-c550-4f40-b5b6-553a8d00e2ed_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/056765d9-58cf-4bc9-9c60-69b1d5db92fa_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/72993e6e-dfc6-468d-9a2e-d30c6f7e524f_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/118e24db-71d1-41be-af99-6117595dde27_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/f1cd8991-17d1-4a87-9b36-8448ca57bfc9_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/e403f367-7cab-49f0-a21a-e695a038ecc4_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "Track sharing: invite-only vs public, allow downloads, password-protect — media-specific link controls in one panel.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:5945",
+    "source": "refero",
+    "app": "[untitled]",
+    "title": "Manage track share link",
+    "kind": "flow",
+    "url": "https://refero.design/flows/5945",
+    "images": [
+      "https://images.refero.design/screenshots/untitled.stream/desktop/149498ff-229b-4c72-b4ba-b5b09782eeb8_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/cbc9c30a-d02b-4570-b77d-1e0597ebd237_preview.jpg",
+      "https://images.refero.design/screenshots/untitled.stream/desktop/84535e85-d81e-4357-a2ba-b7794b80836c_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "Reset share link with a confirmation dialog — old link dies, new one issued; the simplest revoke pattern.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:7957",
+    "source": "refero",
+    "app": "Craft",
+    "title": "Publish Document to Web",
+    "kind": "flow",
+    "url": "https://refero.design/flows/7957",
+    "images": [
+      "https://images.refero.design/screenshots/craft.do/desktop/d1b0180e-371d-43f5-b4f3-1d81e0ded8f3_preview.jpg",
+      "https://images.refero.design/screenshots/craft.do/desktop/2e00639c-3e40-4c6d-970b-a73871a70d78_preview.jpg",
+      "https://images.refero.design/screenshots/craft.do/desktop/cecf288c-2ae9-4bb9-9cd2-ecd8f7ea64ab_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "Publish document to web: published state shows URL + options; unpublish is the inverse toggle.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:7298",
+    "source": "refero",
+    "app": "Fourthwall",
+    "title": "Create and schedule post",
+    "kind": "flow",
+    "url": "https://refero.design/flows/7298",
+    "images": [
+      "https://images.refero.design/screenshots/fourthwall.com/desktop/04d22479-c9ac-4404-a00f-7e537bbd795d_preview.jpg",
+      "https://images.refero.design/screenshots/fourthwall.com/desktop/5cb2a563-cbe7-4b99-8881-d12d633eadb0_preview.jpg",
+      "https://images.refero.design/screenshots/fourthwall.com/desktop/8bbab7e7-d6ca-462e-85e6-e74a5b84c9fe_preview.jpg",
+      "https://images.refero.design/screenshots/fourthwall.com/desktop/7ecb2115-2094-4b8f-80b3-919d4fc8b01b_preview.jpg",
+      "https://images.refero.design/screenshots/fourthwall.com/desktop/ca28cfda-eb39-4472-8fec-9751463f1612_preview.jpg",
+      "https://images.refero.design/screenshots/fourthwall.com/desktop/d5cc9560-e835-48ff-85e2-478c609a3895_preview.jpg",
+      "https://images.refero.design/screenshots/fourthwall.com/desktop/84b8072a-fcdc-4e06-a211-4e423a1c9348_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "Schedule a membership post's publication date/time from the post editor — scheduled publish for gated content.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:13060",
+    "source": "refero",
+    "app": "Dropbox",
+    "title": "Cancel Team Invitation",
+    "kind": "flow",
+    "url": "https://refero.design/flows/13060",
+    "images": [
+      "https://images.refero.design/screenshots/dropbox.com/desktop/c3e50548-7421-4c7d-a721-3611243d25f0_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/6da427b3-5336-45d0-8125-2610d5743c2f_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/0a26193b-3a8a-4023-af78-83fdeb6a31e4_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/cb79dc9c-62fc-422a-a612-56024694039c_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/29890ff2-e779-47a3-82b8-edb543d33b11_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/aabc97b2-7550-4f9b-88e6-e05cb4a444e2_preview.jpg",
+      "https://images.refero.design/screenshots/dropbox.com/desktop/1ee83d99-adef-41e2-a7d1-d69fd59232ac_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "Cancel a pending invite from the admin members row — revoke before the person ever gets in.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:6cfcb277-992e-4939-ab18-0c0bc5b1abbc",
+    "source": "refero",
+    "app": "Shuttle",
+    "title": "Edit shared link: permission + expires after",
+    "kind": "screen",
+    "url": "https://refero.design/pages/6cfcb277-992e-4939-ab18-0c0bc5b1abbc",
+    "images": [
+      "https://images.refero.design/screenshots/shuttle.zip/desktop/4b8c23cb-e6ae-41be-bc6d-c5b83d51b141_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "Edit an existing per-recipient link: permission dropdown + \"Expires after\" — expiry remains editable after the link is created.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:48b360db-7456-4ade-a6b3-195f5dd0edce",
+    "source": "refero",
+    "app": "1Password",
+    "title": "Share item link: expires after + available to",
+    "kind": "screen",
+    "url": "https://refero.design/pages/48b360db-7456-4ade-a6b3-195f5dd0edce",
+    "images": [
+      "https://images.refero.design/screenshots/1password.com/desktop/fcefc493-32b7-48d4-84da-3df53f8ef4d7_preview.jpg"
+    ],
+    "question": "Q5",
+    "take": "\"Link expires after\" + \"Available to\" (anyone / specific emails) — two dropdowns cover expiry and audience for a shared item.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:11027",
+    "source": "refero",
+    "app": "Mercury",
+    "title": "Sign-in to Business Dashboard",
+    "kind": "flow",
+    "url": "https://refero.design/flows/11027",
+    "images": [
+      "https://images.refero.design/screenshots/mercury.com/desktop/349a65db-7a40-43bc-aa79-d8bbaff368cc_preview.jpg",
+      "https://images.refero.design/screenshots/mercury.com/desktop/28a05ea2-1550-45d9-ba51-c78cadc21384_preview.jpg",
+      "https://images.refero.design/screenshots/mercury.com/desktop/94763a9a-67e9-43bf-b644-9851e421d116_preview.jpg",
+      "https://images.refero.design/screenshots/mercury.com/desktop/e9329782-f301-4381-9414-2f2b5a2308ff_preview.jpg",
+      "https://images.refero.design/screenshots/mercury.com/desktop/06f3c9c0-f423-4fe9-93d4-72ceab26b77f_preview.jpg",
+      "https://images.refero.design/screenshots/mercury.com/desktop/ff94f3d0-0209-47a5-99a6-c37accbc152a_preview.jpg",
+      "https://images.refero.design/screenshots/mercury.com/desktop/cd553d96-edff-4120-bb74-8230a7c4f490_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "After password + 2FA, prompt passkey enrolment so the next login is one step.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:3604",
+    "source": "refero",
+    "app": "Maze",
+    "title": "SSO sign-in with team identifier",
+    "kind": "flow",
+    "url": "https://refero.design/flows/3604",
+    "images": [
+      "https://images.refero.design/screenshots/maze.co/desktop/b000cc65-a13e-423f-8926-78a911fa818e_preview.jpg",
+      "https://images.refero.design/screenshots/maze.co/desktop/106cb2f2-9fdc-416d-b733-a9c3b50e7eae_preview.jpg",
+      "https://images.refero.design/screenshots/maze.co/desktop/e4421f99-ed77-4a6f-8474-9cf3885e81e7_preview.jpg",
+      "https://images.refero.design/screenshots/maze.co/desktop/dfd267be-51aa-4f88-940d-f407a412f704_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "SSO entry via team identifier with an explicit SSO-initiation error state.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:5063",
+    "source": "refero",
+    "app": "Epidemic Sound",
+    "title": "SSO email check and error handling",
+    "kind": "flow",
+    "url": "https://refero.design/flows/5063",
+    "images": [
+      "https://images.refero.design/screenshots/epidemicsound.com/desktop/71dd7981-356a-4ed2-a7fc-d00395ac6dbd_preview.jpg",
+      "https://images.refero.design/screenshots/epidemicsound.com/desktop/55790449-0096-4f92-b901-3afd57a9d1bb_preview.jpg",
+      "https://images.refero.design/screenshots/epidemicsound.com/desktop/55d294ac-c4d9-40ae-97a4-8f65574e15c3_preview.jpg",
+      "https://images.refero.design/screenshots/epidemicsound.com/desktop/768fb217-2899-4a3d-8524-1614e8d20a66_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "Enter email → system checks for SSO config → clear error when the domain has no SSO — email-first routing.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:10263",
+    "source": "refero",
+    "app": "HBO Max",
+    "title": "Sign-in to Content Home",
+    "kind": "flow",
+    "url": "https://refero.design/flows/10263",
+    "images": [
+      "https://images.refero.design/screenshots/hbomax.com/desktop/597143a2-8c4d-4bd5-917c-dfb02df75890_preview.jpg",
+      "https://images.refero.design/screenshots/hbomax.com/desktop/07fd31e5-d182-4527-ac6e-82cc22871ebe_preview.jpg",
+      "https://images.refero.design/screenshots/hbomax.com/desktop/c208033f-c85b-4fd0-92d0-7cc1f3aee2bf_preview.jpg",
+      "https://images.refero.design/screenshots/hbomax.com/desktop/8c5b8fce-109a-4113-90d4-20e44cb956c2_preview.jpg",
+      "https://images.refero.design/screenshots/hbomax.com/desktop/c78497a3-67fd-4a02-8e7a-d072ae3cc29e_preview.jpg",
+      "https://images.refero.design/screenshots/hbomax.com/desktop/eac0165a-2b2e-4626-b35e-8b1ebfb1270a_preview.jpg",
+      "https://images.refero.design/screenshots/hbomax.com/desktop/e44c6b2e-9fe6-4f59-a245-8d5beec6f46a_preview.jpg",
+      "https://images.refero.design/screenshots/hbomax.com/desktop/1cc724ac-c320-4c72-b724-17e6ab2c3f3f_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "After email, choose \"password or one-time code\" — lets users skip password recall without a reset.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:1268",
+    "source": "refero",
+    "app": "Patreon",
+    "title": "Email Code Sign-In",
+    "kind": "flow",
+    "url": "https://refero.design/flows/1268",
+    "images": [
+      "https://images.refero.design/screenshots/patreon.com/desktop/65204988-deca-4374-8759-0865f944afad_preview.jpg",
+      "https://images.refero.design/screenshots/patreon.com/desktop/7dbfa651-6beb-4ad0-9ff1-ca681cb952bc_preview.jpg",
+      "https://images.refero.design/screenshots/patreon.com/desktop/9519b4d5-9434-4df7-817c-36d352e28faa_preview.jpg",
+      "https://images.refero.design/screenshots/patreon.com/desktop/68f063ab-1f65-4585-ab73-cb08b2513c55_preview.jpg",
+      "https://images.refero.design/screenshots/patreon.com/desktop/99f96872-6708-450c-bb01-d52279f7785d_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "On password mismatch, offer an email code instead of a reset link; handles invalid code and retry.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:8227",
+    "source": "refero",
+    "app": "IKEA",
+    "title": "Password reset via one-time code",
+    "kind": "flow",
+    "url": "https://refero.design/flows/8227",
+    "images": [
+      "https://images.refero.design/screenshots/ikea.com/desktop/4c017ef2-3724-461f-9a63-67a3a371b14f_preview.jpg",
+      "https://images.refero.design/screenshots/ikea.com/desktop/5887e990-712f-44a0-a3f2-b4eba5a03211_preview.jpg",
+      "https://images.refero.design/screenshots/ikea.com/desktop/9d99537a-db6e-42de-a16e-0c82b451daca_preview.jpg",
+      "https://images.refero.design/screenshots/ikea.com/desktop/6cf6710d-a49a-4672-828b-afe1885f12b8_preview.jpg",
+      "https://images.refero.design/screenshots/ikea.com/desktop/16cecf6d-b40f-4649-970d-1a37a8a7244f_preview.jpg",
+      "https://images.refero.design/screenshots/ikea.com/desktop/e3022ecc-76d7-4836-a3e9-b73c39fa1765_preview.jpg",
+      "https://images.refero.design/screenshots/ikea.com/desktop/08928d6f-8926-487f-a77c-7b22b7129644_preview.jpg",
+      "https://images.refero.design/screenshots/ikea.com/desktop/2c710373-8ce8-44ff-a2a0-d277e7da4463_preview.jpg",
+      "https://images.refero.design/screenshots/ikea.com/desktop/66798090-3b00-41ba-8381-3292f7d29512_preview.jpg",
+      "https://images.refero.design/screenshots/ikea.com/desktop/1550671b-0077-4090-bfb3-ad49a6901dde_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "Password reset via one-time code typed inline, no link to click — fewer context switches.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:374",
+    "source": "refero",
+    "app": "Miro",
+    "title": "Password recovery and reset",
+    "kind": "flow",
+    "url": "https://refero.design/flows/374",
+    "images": [
+      "https://images.refero.design/screenshots/miro.com/desktop/9a64e19d-cc08-463d-95f1-c3339b821833_preview.jpg",
+      "https://images.refero.design/screenshots/miro.com/desktop/b849a3c4-8ddf-4c3b-9a50-abe2d736c7c4_preview.jpg",
+      "https://images.refero.design/screenshots/miro.com/desktop/b0b6322b-3d90-482b-bf66-2c150f1bf718_preview.jpg",
+      "https://images.refero.design/screenshots/miro.com/desktop/14c4c928-f75f-4d70-a95e-4e74d92d0687_preview.jpg",
+      "https://images.refero.design/screenshots/miro.com/desktop/0562160f-616c-423a-a5cd-aa363b540718_preview.jpg",
+      "https://images.refero.design/screenshots/miro.com/desktop/143360f0-8631-4dec-9754-3cb026d97059_preview.jpg",
+      "https://images.refero.design/screenshots/miro.com/desktop/3cc6ff32-d088-4ea5-8d9c-cdc16842d969_preview.jpg",
+      "https://images.refero.design/screenshots/miro.com/desktop/0d65eaeb-b8c4-4872-8f85-5419ea755a14_preview.jpg",
+      "https://images.refero.design/screenshots/miro.com/desktop/ee561ad3-077d-412f-a72b-09a773fe9d7f_preview.jpg",
+      "https://images.refero.design/screenshots/miro.com/desktop/8326345e-55e1-460c-901c-b4ca27b9f143_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "Complete recovery loop: error → enter email → loading → \"instructions sent\" → set new password → back in.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:9556",
+    "source": "refero",
+    "app": "n8n",
+    "title": "Two-factor authentication setup",
+    "kind": "flow",
+    "url": "https://refero.design/flows/9556",
+    "images": [
+      "https://images.refero.design/screenshots/n8n.cloud/desktop/d30fca7f-f1d1-441b-89b2-22fc704471a3_preview.jpg",
+      "https://images.refero.design/screenshots/n8n.cloud/desktop/0e0f31a5-8777-4efe-8eb0-2cc5a7396f6e_preview.jpg",
+      "https://images.refero.design/screenshots/n8n.cloud/desktop/0389f3ac-0387-4d4e-91f9-53ed06ead93a_preview.jpg",
+      "https://images.refero.design/screenshots/n8n.cloud/desktop/93a5739f-f639-4220-b445-127d187b7c5d_preview.jpg",
+      "https://images.refero.design/screenshots/n8n.cloud/desktop/49d35f76-7e48-40ae-a67f-463ff3be4a0c_preview.jpg",
+      "https://images.refero.design/screenshots/n8n.cloud/desktop/725f73dc-ec10-4d06-8f34-eed967e54ab7_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "2FA setup shows recovery codes and requires acknowledgement before finishing — recovery set up when access is set up.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:db4c0373-9281-4997-a6c6-cd69411f9239",
+    "source": "refero",
+    "app": "Canva",
+    "title": "Login & security: password, passkeys, sign out all",
+    "kind": "screen",
+    "url": "https://refero.design/pages/db4c0373-9281-4997-a6c6-cd69411f9239",
+    "images": [
+      "https://images.refero.design/screenshots/canva.com/desktop/3306f40e-068d-488e-9da6-3e268f9283e7_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "Login & security page manages password and passkeys side by side, plus \"sign out of all devices\".",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  },
+  {
+    "id": "refero:1e530b09-3726-4367-b2c4-108f5e7e034c",
+    "source": "refero",
+    "app": "Family",
+    "title": "Account recovery: recovery codes",
+    "kind": "screen",
+    "url": "https://refero.design/pages/1e530b09-3726-4367-b2c4-108f5e7e034c",
+    "images": [
+      "https://images.refero.design/screenshots/family.co/desktop/0d980685-7555-4bbb-9645-07695eee770d_preview.jpg"
+    ],
+    "question": "Q6",
+    "take": "Account recovery page lists masked recovery codes with remove and \"+ New recovery code\" — recovery as a managed inventory.",
+    "counter_example": false,
+    "selected": false,
+    "crop": ""
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "validatedAt": "2026-09-08T16:16:02.672Z",
+  "staticChecks": "passed",
+  "uiChecks": {
+    "status": "passed",
+    "source": "evidence/parent-verification.json",
+    "checks": [
+      "The final report opens locally and shows 32 of 32 references.",
+      "In the initial build, searching Intercom isolated its complete 13-step flow; the final image shows 0 created, 0 updated, and 9 errors.",
+      "The final Mobbin source filter shows 5 of 32 references.",
+      "The WorkOS saved-state image opens at full size, with the complete screenshot and attribution intact.",
+      "The report is readable at a 1224-pixel viewport."
+    ]
+  },
+  "references": 32,
+  "images": 69,
+  "plannedBoardImages": 62,
+  "reportBytes": 5100207,
+  "page1RepeatedIds": [
+    {
+      "id": "refero:671",
+      "newRelevance": "Reuses page-1 Refero flow 671 for materially new questions: identity matching on repeat imports and recovery from an all-error result. Page 1 used the flow for bulk-user entry/discovery. The prior reference record is reused for the new question. Page-1 assets were missing; supported full images were retrieved in this research round and reused without another download during selection."
+    }
+  ]
+}

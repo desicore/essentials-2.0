@@ -1,0 +1,17 @@
+{
+  "accessedAt": "2026-09-08",
+  "route": "Existing authenticated Mobbin MCP connector in installed Claude CLI; noninteractive print command, built-in tools restricted to ToolSearch, existing permission state, no permission grants or configuration changes.",
+  "tool": "mcp__mobbin__search_flows",
+  "query": "enterprise single sign-on SSO setup with SAML configuration and directory provisioning in admin settings",
+  "platform": "web",
+  "limit": 5,
+  "status": "Search succeeded; no permission denials.",
+  "evidenceLevel": "Search result metadata returned by a bounded Claude CLI tool invocation. These candidate screens have not yet been visually inspected or selected.",
+  "records": [
+    {"app":"Remote","title":"Turn on single sign-on","id":"e304a20c-fb7b-467a-97de-7f725cd317c1","url":"https://mobbin.com/flows/e304a20c-fb7b-467a-97de-7f725cd317c1","screenCount":4,"description":"Company settings authentication; SAML setup with callback URL, audience, company domain, IdP URL and PEM certificate. Search metadata reports an unsupported-certificate-file error."},
+    {"app":"GitHub","title":"Enabling SAML single sign-on","id":"ced1a847-5c4e-49bd-92b4-dcec2b5a8916","url":"https://mobbin.com/flows/ced1a847-5c4e-49bd-92b4-dcec2b5a8916","screenCount":6,"description":"Enterprise authentication settings with SAML fields and Test SAML configuration before Save. Search metadata reports a failed-test banner."},
+    {"app":"Vercel","title":"Security & privacy","id":"c3787743-d0b5-4394-9001-56e6124ee343","url":"https://mobbin.com/flows/c3787743-d0b5-4394-9001-56e6124ee343","screenCount":3,"description":"Team domain and adjacent SAML and Directory Sync settings; search metadata reports enterprise upgrade gates."},
+    {"app":"Clerk","title":"Creating an enterprise connection","id":"14a49d69-c218-4bc8-862e-4bdce263332c","url":"https://mobbin.com/flows/14a49d69-c218-4bc8-862e-4bdce263332c","screenCount":6,"description":"Enterprise connection creation, name/domain/provider, enable toggle and service-provider configuration."},
+    {"app":"WorkOS","title":"Setting up single sign on","id":"77fd8b39-f2fd-43ea-b512-1d5a35f32803","url":"https://mobbin.com/flows/77fd8b39-f2fd-43ea-b512-1d5a35f32803","screenCount":7,"description":"SSO setup wizard and organizations table with per-organization SSO and Directory Sync status columns."}
+  ]
+}
