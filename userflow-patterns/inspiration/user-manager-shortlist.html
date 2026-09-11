@@ -1,0 +1,1076 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>User Manager — narrowed inspiration shortlist</title>
+<style>
+  :root{color-scheme:light dark;--bg:#f6f6f6;--surface:#fff;--text:#202020;--muted:#646464;--border:#d6d6d6;--subtle:#ededed;--red:#a91c25;--red-bg:#ffeded;--focus:#2167bb;font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  @media(prefers-color-scheme:dark){:root{--bg:#171717;--surface:#222;--text:#efefef;--muted:#b3b3b3;--border:#494949;--subtle:#303030;--red:#ff9da5;--red-bg:#431c22;--focus:#8abcff}}
+  *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text)}main{max-width:1560px;margin:auto;padding:36px 28px 64px}
+  h1{font-size:clamp(26px,4vw,38px);line-height:1.15;margin:8px 0 16px;letter-spacing:-.025em}
+  h2{font-size:20px;line-height:1.4;margin:0;max-width:1000px}h3{font-size:18px;line-height:1.35;margin:22px 0 10px}h4{font-size:15px;margin:10px 0 4px}
+  p{margin:12px 0}a{color:inherit;text-underline-offset:3px}code{background:var(--subtle);border-radius:4px;padding:1px 5px;font-size:.92em}
+  button,input{font:inherit;color:inherit}input[type=search]{background:var(--surface);border:1px solid var(--border);border-radius:6px;min-height:40px;padding:7px 10px;width:min(100%,320px)}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+  .eyebrow,.muted,figcaption{color:var(--muted)}.eyebrow{font-size:12px;letter-spacing:.09em;text-transform:uppercase}
+  .intro,.reports-line{max-width:850px}.reports-line{font-size:14px}
+  .summary{border-collapse:collapse;width:100%;max-width:1100px;margin:20px 0 8px;font-size:14px}
+  .summary th,.summary td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--border)}
+  .summary th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+  .node-nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--border);padding:10px 0;margin-top:8px}
+  .node-nav ol{list-style:none;display:flex;flex-wrap:wrap;gap:6px 16px;margin:0;padding:0;font-size:13px}
+  .node-nav a{white-space:nowrap}
+  .node-section{margin-top:44px;padding-top:8px}
+  .node-heading{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+  .node-number{color:var(--muted)}
+  .node-badges{display:flex;gap:8px}
+  .lead{max-width:950px}
+  .search-bar{margin:24px 0}
+  #status{font-size:13px;color:var(--muted)}
+  .section-heading{margin-top:22px}.section-heading .eyebrow{margin-bottom:2px}.section-heading h3{margin-top:2px}
+  .badge{display:inline-block;font-size:11px;border:1px solid var(--border);border-radius:4px;padding:2px 6px}
+  .counter{color:var(--red);background:var(--red-bg);border-color:var(--red)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),360px));gap:20px;align-items:stretch;margin-top:12px}
+  .card{min-width:0;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--border);border-radius:8px;overflow:hidden;overflow-wrap:anywhere}
+  .card-counter{border-left:4px solid var(--red)}
+  .card-media{min-height:240px;background:var(--subtle)}
+  .preview-figure{margin:0;position:relative}
+  .preview-btn{display:block;width:100%;height:240px;padding:0;border:0;background:var(--subtle);cursor:zoom-in}
+  .preview-btn img{display:block;width:100%;height:100%;object-fit:contain}
+  .placeholder-only{height:240px;display:grid;place-items:center;text-align:center;color:var(--muted);padding:16px;font-size:13px}
+  .img-broken-only{display:none}
+  .img-broken .preview-btn{display:none}.img-broken .img-broken-only{height:240px;display:grid;place-items:center;color:var(--muted);font-size:13px;background:var(--subtle)}
+  .card-body{padding:16px;flex:1 1 auto}
+  .card-eyebrow{margin:0 0 6px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  .app-name{margin:0}.card-title{margin:2px 0 8px}
+  .take{white-space:pre-wrap}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 0}.tags .tag{font-size:11px;border:1px solid var(--border);border-radius:4px;padding:2px 6px;color:var(--muted)}
+  .card-footer{display:flex;justify-content:space-between;gap:10px;padding:12px 16px;border-top:1px solid var(--border);font-size:13px}
+  .callouts{display:grid;gap:14px;margin-top:20px}
+  .callout{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:14px 16px}
+  .callout-label{margin:0 0 4px;font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+  .callout-dropped{opacity:.85}.dropped-text{font-size:13px;color:var(--muted)}
+  [hidden]{display:none!important}
+  dialog{max-width:96vw;max-height:94vh;width:max-content;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);padding:16px;overscroll-behavior:contain}
+  dialog::backdrop{background:rgb(0 0 0 / .78)}
+  .lightbox-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}
+  .lightbox-bar p{margin:0;max-width:70ch;font-size:13px}
+  .full-image{overflow:auto;max-width:calc(96vw - 34px);max-height:calc(94vh - 100px)}
+  .full-image img{display:block;max-width:none;height:auto}
+  body:has(dialog[open]){overflow:hidden}
+  @media(max-width:520px){main{padding:24px 16px 40px}.grid{grid-template-columns:minmax(0,1fr)}.node-heading{display:block}}
+</style></head>
+<body><main>
+  <header>
+    <div class="eyebrow">Essentials 2.0 · Design research · User Manager</div>
+    <h1>User Manager — narrowed inspiration shortlist</h1>
+    <p class="intro">Companion to <code>user-manager-map-index.md</code>. That file lists <em>everything</em> that touches each of Gabor&#39;s six User Manager nodes. This file is the cut: the references that best match each node, plus the counter-examples worth keeping on the &quot;don&#39;t build this&quot; wall.</p><p class="intro">Result: 169 refs → 41 keeps + 10 counter-examples. Per-node reasoning and every dropped ref with a reason lives in <code>.context/user-manager-shortlist/node-*.md</code>.</p>
+    <p class="reports-line">Reports: <a href="tmp/report-hotlink.html">R1 — Access, roles &amp; sharing</a> (137 refs) · <a href="university-identity/report.html">R2 — University identity, directory sync &amp; user import</a> (32 refs)</p>
+    <table class="summary">
+    <thead><tr><th>Node</th><th>Keeps</th><th>Counters</th><th>Strongest single reference</th></tr></thead>
+    <tbody><tr><td><a href="#canvas-import">import learners from Canvas?</a></td><td>4</td><td>0</td><td>R2 Q6 · <strong>Canvas</strong> — Retrieve a course roster through LTI NRPS</td></tr><tr><td><a href="#learner-groups">Add/Remove/Edit learner groups</a></td><td>6</td><td>2</td><td>R1 Q3 · <strong>Front</strong> — Creating a teammate group</td></tr><tr><td><a href="#users-crud">Add/Remove/Edit users</a></td><td>7</td><td>2</td><td>R2 Q4 · <strong>Loom</strong> — Deactivate access while explaining content consequences</td></tr><tr><td><a href="#permissions-access">Give permissions and access</a></td><td>9</td><td>3</td><td>R1 Q2 · <strong>Basecamp</strong> — What can Jane Doe access?</td></tr><tr><td><a href="#batch-upload">Batch upload (AI?)</a></td><td>7</td><td>1</td><td>R1 Q3 · <strong>Customer.io</strong> — Mapping fields</td></tr><tr><td><a href="#sso">SSO</a></td><td>8</td><td>2</td><td>R2 Q1 · <strong>Okta</strong> — Select AD users and groups before import</td></tr></tbody>
+  </table>
+  </header>
+  <nav class="node-nav" aria-label="Node sections"><ol><li><a href="#canvas-import">1. import learners from Canvas?</a></li><li><a href="#learner-groups">2. Add/Remove/Edit learner groups</a></li><li><a href="#users-crud">3. Add/Remove/Edit users</a></li><li><a href="#permissions-access">4. Give permissions and access</a></li><li><a href="#batch-upload">5. Batch upload (AI?)</a></li><li><a href="#sso">6. SSO</a></li></ol></nav>
+  <div class="search-bar"><label class="field">Search cards<br><input id="search" type="search" placeholder="App, title, or take…" autocomplete="off"></label></div>
+  <p id="status" role="status" aria-live="polite"></p>
+  <section id="canvas-import" class="node-section" aria-labelledby="canvas-import-heading">
+      <div class="node-heading">
+        <h2 id="canvas-import-heading"><span class="node-number">1.</span> import learners from Canvas?</h2>
+        <div class="node-badges"><span class="badge">4 keeps</span><span class="badge">0 counters</span></div>
+      </div>
+      <p class="lead">All documentation, no product screens except Vimeo. Kept the refs that answer &quot;pull learners from Canvas without creating duplicate users&quot;.</p>
+      <div class="grid"><article class="card" data-search="canvas retrieve a course roster through lti nrps the live-roster mechanism; pulls the whole course population and matches to existing accounts instead of importing a snapshot.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q6</p>
+        <p class="app-name"><strong>Canvas</strong></p>
+        <h4 class="card-title">Retrieve a course roster through LTI NRPS</h4>
+        <p class="take">the live-roster mechanism; pulls the whole course population and matches to existing accounts instead of importing a snapshot.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.provisioning" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="canvas respect roster identifier and privacy boundaries names the duplicate-user trap: an lti user id is not the directory id, so identifiers must be previewed before matching.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q6</p>
+        <p class="app-name"><strong>Canvas</strong></p>
+        <h4 class="card-title">Respect roster identifier and privacy boundaries</h4>
+        <p class="take">names the duplicate-user trap: an LTI user id is not the directory id, so identifiers must be previewed before matching.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://developerdocs.instructure.com/services/canvas/resources/names_and_role" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="canvas join user identifiers to separate enrollment data the csv path to the same problem; users and enrollments files must be joined, not assumed to create accounts.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q5</p>
+        <p class="app-name"><strong>Canvas</strong></p>
+        <h4 class="card-title">Join user identifiers to separate enrollment data</h4>
+        <p class="take">the CSV path to the same problem; Users and Enrollments files must be joined, not assumed to create accounts.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://community.instructure.com/en/kb/articles/387054-canvas-default-account-reports" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="vimeo event registrants list with &#39;sync from email list&#39; and &#39;upload csv&#39; the one real screen; continuous sync and one-shot upload as distinct verbs in the same roster header.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Vimeo — Event registrants list with &#39;Sync from email list&#39; and &#39;Upload CSV&#39;">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/w66TfdlX" alt="Vimeo — Event registrants list with &#39;Sync from email list&#39; and &#39;Upload CSV&#39;" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
+        <p class="app-name"><strong>Vimeo</strong></p>
+        <h4 class="card-title">Event registrants list with &#39;Sync from email list&#39; and &#39;Upload CSV&#39;</h4>
+        <p class="take">the one real screen; continuous sync and one-shot upload as distinct verbs in the same roster header.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/733cc632-9935-41a9-9536-86e792611638" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div>
+      
+      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Canvas course-departure vs suspension (enrollment states, belongs to the users node if anywhere), Canvas Provisioning CSV export (mechanics only), Canvas roles-on-enrollments (better used as an argument in the permissions node).</p></div></div>
+    </section><section id="learner-groups" class="node-section" aria-labelledby="learner-groups-heading">
+      <div class="node-heading">
+        <h2 id="learner-groups-heading"><span class="node-number">2.</span> Add/Remove/Edit learner groups</h2>
+        <div class="node-badges"><span class="badge">6 keeps</span><span class="badge">2 counters</span></div>
+      </div>
+      <p class="lead">Still the thinnest node. Two distinct jobs: groups a sim tech builds by hand, and groups the university&#39;s IdP owns.</p>
+      <h3>Hand-built groups</h3><div class="grid"><article class="card" data-search="front creating a teammate group checkbox picker of existing people *and* csv import on one screen; small groups by hand, big cohorts by file. best single reference.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Front — Creating a teammate group">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/qYeezfsD" alt="Front — Creating a teammate group" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
+        <p class="app-name"><strong>Front</strong></p>
+        <h4 class="card-title">Creating a teammate group</h4>
+        <p class="take">checkbox picker of existing people <em>and</em> CSV import on one screen; small groups by hand, big cohorts by file. Best single reference.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/4337ee88-c5cd-431d-ab23-cf3cfaa34354" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="google workspace manage members add / bulk upload / download side by side, plus direct vs nested members.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Google Workspace — Manage members">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/xRQqMVnN" alt="Google Workspace — Manage members" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
+        <p class="app-name"><strong>Google Workspace</strong></p>
+        <h4 class="card-title">Manage members</h4>
+        <p class="take">Add / Bulk upload / Download side by side, plus direct vs nested members.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/47c6268d-6177-487e-9420-837030e1b1c3" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="calendly admin center: groups groups by department/location with named group admins; the only delegated-admin reference.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Calendly — Admin center: Groups">
+            <img class="preview" src="https://images.refero.design/screenshots/calendly.com/desktop/09d9a4eb-667f-4ef3-9492-937a6bac4220_preview.jpg" alt="Calendly — Admin center: Groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
+        <p class="app-name"><strong>Calendly</strong></p>
+        <h4 class="card-title">Admin center: Groups</h4>
+        <p class="take">groups by department/location with named group admins; the only delegated-admin reference.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/pages/c38bf684-80b3-475b-bfc1-400bc9fc5113" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="canva manage team members multi-select in the roster → &quot;add to group&quot;; groups built from the member list, no separate builder.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Canva — Manage team members">
+            <img class="preview" src="https://images.refero.design/screenshots/canva.com/desktop/dac58d87-a551-4122-94fb-120166d8a50c_preview.jpg" alt="Canva — Manage team members" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
+        <p class="app-name"><strong>Canva</strong></p>
+        <h4 class="card-title">Manage team members</h4>
+        <p class="take">multi-select in the roster → &quot;Add to group&quot;; groups built from the member list, no separate builder.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/flows/8084" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div><h3>IdP-owned groups</h3><div class="grid"><article class="card" data-search="okta show directory status and system-managed groups group source filter (system / directory / local) makes it visible who owns membership.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Okta — Show directory status and system-managed groups">
+            <img class="preview" src="university-identity/assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg" alt="Okta — Show directory status and system-managed groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q3</p>
+        <p class="app-name"><strong>Okta</strong></p>
+        <h4 class="card-title">Show directory status and system-managed groups</h4>
+        <p class="take">Group source filter (system / directory / local) makes it visible who owns membership.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="atlassian review access changes before replacing conflicting groups the migration screen for a university that already has local groups: shows membership and access deltas before you choose which to sync.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Atlassian — Review access changes before replacing conflicting groups">
+            <img class="preview" src="university-identity/assets/documentation/atlassian-group-conflicts-0.png" alt="Atlassian — Review access changes before replacing conflicting groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q3</p>
+        <p class="app-name"><strong>Atlassian</strong></p>
+        <h4 class="card-title">Review access changes before replacing conflicting groups</h4>
+        <p class="take">the migration screen for a university that already has local groups: shows membership and access deltas before you choose which to sync.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://support.atlassian.com/provisioning-users/docs/resolve-group-conflicts-when-syncing-users/" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article></div>
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="confluence hub permissions (per-user grid) hub permissions per-user grid (15 checkbox columns)">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Confluence — Hub permissions (per-user grid)">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/gRRen6ld" alt="Confluence — Hub permissions (per-user grid)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>Confluence</strong></p>
+        <h4 class="card-title">Hub permissions (per-user grid)</h4>
+        <p class="take">Hub permissions per-user grid (15 checkbox columns)</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/91a83cd9-614a-4cbf-aebf-d79b6725e3de" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card card-counter" data-search="stackai roles permission matrix roles permission matrix">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: StackAI — Roles permission matrix">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/Q1N3rPxX" alt="StackAI — Roles permission matrix" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>StackAI</strong></p>
+        <h4 class="card-title">Roles permission matrix</h4>
+        <p class="take">Roles permission matrix</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/4a80b0e2-e462-407e-8842-d0fd15510391" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div>
+      <div class="callouts"><div class="callout callout-uncovered"><p class="callout-label">Still uncovered</p><p>renaming / merging groups, archiving a group and what happens to its shared content, late joiners getting retroactive access. This is the Q7 gap; it cannot be narrowed to, only researched.</p></div><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Fireflies Team (User Groups), Notion Creating a group, Hex, Aboard — all show a group as a <em>sharing target</em>, which the permissions node already covers.</p></div></div>
+    </section><section id="users-crud" class="node-section" aria-labelledby="users-crud-heading">
+      <div class="node-heading">
+        <h2 id="users-crud-heading"><span class="node-number">3.</span> Add/Remove/Edit users</h2>
+        <div class="node-badges"><span class="badge">7 keeps</span><span class="badge">2 counters</span></div>
+      </div>
+      
+      <h3>Add</h3><div class="grid"><article class="card" data-search="atlassian create accounts at first saml sign-in jit provisioning plus verified-domain claiming; the default add path for university learners.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Atlassian — Create accounts at first SAML sign-in">
+            <img class="preview" src="university-identity/assets/documentation/atlassian-jit-0.png" alt="Atlassian — Create accounts at first SAML sign-in" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
+        <p class="app-name"><strong>Atlassian</strong></p>
+        <h4 class="card-title">Create accounts at first SAML sign-in</h4>
+        <p class="take">JIT provisioning plus verified-domain claiming; the default add path for university learners.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://support.atlassian.com/atlassian-cloud/kb/what-is-just-in-time-provisioning-and-how-to-set-it-up/" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="github inspect and repair a linked saml identity admin revokes a wrong identity link so the person retries; the fix for first-login failures currently repaired by hand.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: GitHub — Inspect and repair a linked SAML identity">
+            <img class="preview" src="university-identity/assets/documentation/github-linking-1.png" alt="GitHub — Inspect and repair a linked SAML identity" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
+        <p class="app-name"><strong>GitHub</strong></p>
+        <h4 class="card-title">Inspect and repair a linked SAML identity</h4>
+        <p class="take">admin revokes a wrong identity link so the person retries; the fix for first-login failures currently repaired by hand.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/viewing-and-managing-a-members-saml-access-to-your-organization" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="slite accepting an invitation join link, import from contacts, or typed emails as three parallel ways in.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Slite — Accepting an invitation">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/FnPpgnEa" alt="Slite — Accepting an invitation" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q1</p>
+        <p class="app-name"><strong>Slite</strong></p>
+        <h4 class="card-title">Accepting an invitation</h4>
+        <p class="take">join link, import from contacts, or typed emails as three parallel ways in.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/702f32f7-4e64-4d3b-9cb8-e3b3f4892c7c" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div><h3>Edit</h3><div class="grid"><article class="card" data-search="expensify editing member role role as an inline segmented control on the row.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Expensify — Editing member role">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/gyGxjnr2" alt="Expensify — Editing member role" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
+        <p class="app-name"><strong>Expensify</strong></p>
+        <h4 class="card-title">Editing member role</h4>
+        <p class="take">role as an inline segmented control on the row.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/dc476b26-8776-496c-8ab3-4ffe267aeea3" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="twist downgrading a member the confirmation explains what the person loses.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Twist — Downgrading a member">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/6aY5CjcC" alt="Twist — Downgrading a member" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
+        <p class="app-name"><strong>Twist</strong></p>
+        <h4 class="card-title">Downgrading a member</h4>
+        <p class="take">the confirmation explains what the person loses.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/c8b198c5-09da-45fc-b1a2-15f21edda5c1" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div><h3>Remove / deactivate</h3><div class="grid"><article class="card" data-search="loom deactivate access while explaining content consequences spells out lost access, content that stays reachable, and ownership transfer. best deactivation reference in either round.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Loom — Deactivate access while explaining content consequences">
+            <img class="preview" src="university-identity/assets/refero-1250/0.jpg" alt="Loom — Deactivate access while explaining content consequences" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q4</p>
+        <p class="app-name"><strong>Loom</strong></p>
+        <h4 class="card-title">Deactivate access while explaining content consequences</h4>
+        <p class="take">spells out lost access, content that stays reachable, and ownership transfer. Best deactivation reference in either round.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/flows/1250" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="microsoft entra separate disabling, deletion, and return disable on scope exit vs delete; restoring reactivates.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Microsoft Entra — Separate disabling, deletion, and return">
+            <img class="preview" src="university-identity/assets/documentation/entra-lifecycle-3.png" alt="Microsoft Entra — Separate disabling, deletion, and return" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q4</p>
+        <p class="app-name"><strong>Microsoft Entra</strong></p>
+        <h4 class="card-title">Separate disabling, deletion, and return</h4>
+        <p class="take">disable on scope exit vs delete; restoring reactivates.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article></div>
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="dovetail accepting invite accepting invite (full name + 12-char password before entry)">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Dovetail — Accepting invite">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/KCTd3dfH" alt="Dovetail — Accepting invite" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q1 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>Dovetail</strong></p>
+        <h4 class="card-title">Accepting invite</h4>
+        <p class="take">Accepting invite (full name + 12-char password before entry)</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/d89d0f52-1133-4d81-a6d7-5d344002997d" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card card-counter" data-search="retool permission groups (apps x resources x users) permission groups">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Retool — Permission groups (apps x resources x users)">
+            <img class="preview" src="https://images.refero.design/screenshots/retool.com/desktop/45499563-7ad3-4a72-a5ec-a8470798ab41_preview.jpg" alt="Retool — Permission groups (apps x resources x users)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>Retool</strong></p>
+        <h4 class="card-title">Permission groups (apps x resources x users)</h4>
+        <p class="take">Permission groups</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/pages/310b8314-6883-42f6-b181-b6e47513d720" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div>
+      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Jitter magic-link invite and Mural visitor (no institutional identity), Ballpark inline row edit (same pattern as Expensify), Atlassian stop-sync vs resync (troubleshooting, not CRUD).</p></div></div>
+    </section><section id="permissions-access" class="node-section" aria-labelledby="permissions-access-heading">
+      <div class="node-heading">
+        <h2 id="permissions-access-heading"><span class="node-number">4.</span> Give permissions and access</h2>
+        <div class="node-badges"><span class="badge">9 keeps</span><span class="badge">3 counters</span></div>
+      </div>
+      <p class="lead">Deepest node, so this was mostly cutting. Sonnet reviewed all 68 candidates.</p>
+      <h3>Minimal role set (the 8 → 3 argument)</h3><div class="grid"><article class="card" data-search="gamma changing a member role the floor: two roles, one-line descriptions, one-click change.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Gamma — Changing a member role">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/BGheoITV" alt="Gamma — Changing a member role" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
+        <p class="app-name"><strong>Gamma</strong></p>
+        <h4 class="card-title">Changing a member role</h4>
+        <p class="take">the floor: two roles, one-line descriptions, one-click change.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/7f0ede33-3db2-426e-870c-99f42747c5d1" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="slack inviting people (guest) guest role reveals required channels *and* an expiry on one screen: role, content scope and time scope together.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Slack — Inviting people (guest)">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/BTHyxkeY" alt="Slack — Inviting people (guest)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
+        <p class="app-name"><strong>Slack</strong></p>
+        <h4 class="card-title">Inviting people (guest)</h4>
+        <p class="take">guest role reveals required channels <em>and</em> an expiry on one screen: role, content scope and time scope together.</p>
+        <p class="tags"><span class="tag">Not in original index</span></p>
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/342f1e42-56cb-4715-b02b-0085978ef87c" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="zendesk team member roles and access one role plus toggles on the person, no matrix.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Zendesk — Team member roles and access">
+            <img class="preview" src="https://images.refero.design/screenshots/zendesk.com/desktop/d51d8388-22f2-42f2-951a-d5913fb70e3a_thumb.jpg" alt="Zendesk — Team member roles and access" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
+        <p class="app-name"><strong>Zendesk</strong></p>
+        <h4 class="card-title">Team member roles and access</h4>
+        <p class="take">one role plus toggles on the person, no matrix.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/flows/1398" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div><h3>Content-scoped sharing (the vault)</h3><div class="grid"><article class="card" data-search="coda updating sharing permissions link / workspace / inherited-from-folder (greyed) / named people, each with its own level. the json tags this q4, not q2 as the index said.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Coda — Updating sharing permissions">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/qY5AoLdK" alt="Coda — Updating sharing permissions" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
+        <p class="app-name"><strong>Coda</strong></p>
+        <h4 class="card-title">Updating sharing permissions</h4>
+        <p class="take">link / workspace / inherited-from-folder (greyed) / named people, each with its own level. The JSON tags this Q4, not Q2 as the index said.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/d9c973e5-bd71-44c2-8322-6b383e50a263" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="elevenlabs sharing a project collaborators vs readers over three independently levelled audiences.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: ElevenLabs — Sharing a project">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/UmsiA9VE" alt="ElevenLabs — Sharing a project" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2</p>
+        <p class="app-name"><strong>ElevenLabs</strong></p>
+        <h4 class="card-title">Sharing a project</h4>
+        <p class="take">Collaborators vs Readers over three independently levelled audiences.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/4c27548d-9b5a-46f9-953a-53c9aadcf6d0" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div><h3>&quot;Who can see what&quot; inverse view</h3><div class="grid"><article class="card" data-search="basecamp what can jane doe access? person-side checklist with plain-english consequences; the direct answer to galen&#39;s lab-manager complaint.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Basecamp — What can Jane Doe access?">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/BzoJQI5c" alt="Basecamp — What can Jane Doe access?" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2</p>
+        <p class="app-name"><strong>Basecamp</strong></p>
+        <h4 class="card-title">What can Jane Doe access?</h4>
+        <p class="take">person-side checklist with plain-English consequences; the direct answer to Galen&#39;s lab-manager complaint.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/3ce07a85-4805-4f28-a882-56303dc5324d" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div><h3>Time-boxed access (release and closing dates)</h3><div class="grid"><article class="card" data-search="frame.io scheduling an expiration date video share panel with presets plus exact date/time; the closing-date mechanic.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Frame.io — Scheduling an expiration date">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/yLjZ4mKf" alt="Frame.io — Scheduling an expiration date" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q5</p>
+        <p class="app-name"><strong>Frame.io</strong></p>
+        <h4 class="card-title">Scheduling an expiration date</h4>
+        <p class="take">video share panel with presets plus exact date/time; the closing-date mechanic.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/c537e383-521f-4785-8478-0ba54a3e6f74" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="squarespace updating content status draft / published / scheduled with a date, bulk-settable; the release-date half.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Squarespace — Updating content status">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/anuQaQrF" alt="Squarespace — Updating content status" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q5</p>
+        <p class="app-name"><strong>Squarespace</strong></p>
+        <h4 class="card-title">Updating content status</h4>
+        <p class="take">Draft / Published / Scheduled with a date, bulk-settable; the release-date half.</p>
+        <p class="tags"><span class="tag">Not in original index</span></p>
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/7c78bf7a-2d77-4f83-840e-44db0912039c" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="hashnode invite link creation role + usage limit + expiry on one link.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Hashnode — Invite link creation">
+            <img class="preview" src="https://images.refero.design/screenshots/hashnode.com/desktop/0bc49980-21d8-4d98-935b-338595148864_preview.jpg" alt="Hashnode — Invite link creation" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q5</p>
+        <p class="app-name"><strong>Hashnode</strong></p>
+        <h4 class="card-title">Invite link creation</h4>
+        <p class="take">role + usage limit + expiry on one link.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/flows/3937" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div>
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="stackai roles permission matrix roles permission matrix (its take names the &quot;8-global-roles trap&quot;)">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: StackAI — Roles permission matrix">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/Q1N3rPxX" alt="StackAI — Roles permission matrix" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>StackAI</strong></p>
+        <h4 class="card-title">Roles permission matrix</h4>
+        <p class="take">Roles permission matrix (its take names the &quot;8-global-roles trap&quot;)</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/4a80b0e2-e462-407e-8842-d0fd15510391" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card card-counter" data-search="retool permission groups (apps x resources x users) permission groups (apps × resources × users)">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Retool — Permission groups (apps x resources x users)">
+            <img class="preview" src="https://images.refero.design/screenshots/retool.com/desktop/45499563-7ad3-4a72-a5ec-a8470798ab41_preview.jpg" alt="Retool — Permission groups (apps x resources x users)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>Retool</strong></p>
+        <h4 class="card-title">Permission groups (apps x resources x users)</h4>
+        <p class="take">Permission groups (apps × resources × users)</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/pages/310b8314-6883-42f6-b181-b6e47513d720" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card card-counter" data-search="fresha team permissions matrix (basic / low / med / high / owner) basic/low/med/high tiers that carry no meaning">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Fresha — Team permissions matrix (Basic / Low / Med / High / Owner)">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/zf98D4qF" alt="Fresha — Team permissions matrix (Basic / Low / Med / High / Owner)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>Fresha</strong></p>
+        <h4 class="card-title">Team permissions matrix (Basic / Low / Med / High / Owner)</h4>
+        <p class="take">Basic/Low/Med/High tiers that carry no meaning</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/ec88a366-1d9e-437c-9d14-e3a6275010cd" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div>
+      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Stripe role-at-invite (Gamma shows the same idea more simply), GitHub &quot;previous role plus X&quot; (docs-only, use as copywriting reference), Sketch and Figma sharing (ElevenLabs and Coda cover the pattern), Craft / 1Password / Shuttle expiry (Frame.io is the video-specific one), Asana request access (recovery path, keep in mind for later).</p></div></div>
+    </section><section id="batch-upload" class="node-section" aria-labelledby="batch-upload-heading">
+      <div class="node-heading">
+        <h2 id="batch-upload-heading"><span class="node-number">5.</span> Batch upload (AI?)</h2>
+        <div class="node-badges"><span class="badge">7 keeps</span><span class="badge">1 counters</span></div>
+      </div>
+      
+      <h3>Small batch (a sim tech adding 4–10)</h3><div class="grid"><article class="card" data-search="miro invite to team: paste multiple emails one paste box handles 1 or 100; rows appear immediately.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Miro — Invite to team: paste multiple emails">
+            <img class="preview" src="https://images.refero.design/screenshots/miro.com/desktop/06bb10d1-bbaf-401c-a79c-29fec0012322_preview.jpg" alt="Miro — Invite to team: paste multiple emails" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
+        <p class="app-name"><strong>Miro</strong></p>
+        <h4 class="card-title">Invite to team: paste multiple emails</h4>
+        <p class="take">one paste box handles 1 or 100; rows appear immediately.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/pages/6c361e65-4f9d-4e4f-81dd-93f36f6955a3" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="linear inviting team members paste emails plus &quot;add to team&quot; in the same dialog; roster exists before anyone accepts.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Linear — Inviting team members">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/vlhXY9dW" alt="Linear — Inviting team members" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
+        <p class="app-name"><strong>Linear</strong></p>
+        <h4 class="card-title">Inviting team members</h4>
+        <p class="take">paste emails plus &quot;Add to team&quot; in the same dialog; roster exists before anyone accepts.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/44413772-2ae1-4a33-85e7-df96010438b9" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div><h3>CSV import with mapping and review</h3><div class="grid"><article class="card" data-search="customer.io mapping fields upload / map / review; the review counts new vs existing and can drop the batch into a segment. answers &quot;update, don&#39;t duplicate&quot;.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Customer.io — Mapping fields">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/61Y3iAGy" alt="Customer.io — Mapping fields" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
+        <p class="app-name"><strong>Customer.io</strong></p>
+        <h4 class="card-title">Mapping fields</h4>
+        <p class="take">Upload / Map / Review; the review counts new vs existing and can drop the batch into a segment. Answers &quot;update, don&#39;t duplicate&quot;.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/246ac8d9-3fc6-42e1-a04c-aede744f7879" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="ghost importing members column map with sample data, upsert on email, auto-labels the batch &quot;import &lt;date&gt;&quot;.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Ghost — Importing members">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/oyAKpWbF" alt="Ghost — Importing members" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
+        <p class="app-name"><strong>Ghost</strong></p>
+        <h4 class="card-title">Importing members</h4>
+        <p class="take">column map with sample data, upsert on email, auto-labels the batch &quot;Import &lt;date&gt;&quot;.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/b1cd6357-2ef6-4ba2-80e7-5256dc32bf7c" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="rox map columns with sample data and validation review sample values beside each destination field, valid/invalid counts before commit.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Rox — Map columns with sample data and validation review">
+            <img class="preview" src="https://images.refero.design/screenshots/rox.com/desktop/288031a6-ac62-411e-9b2b-63d7309c8c10_thumb.jpg" alt="Rox — Map columns with sample data and validation review" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q5</p>
+        <p class="app-name"><strong>Rox</strong></p>
+        <h4 class="card-title">Map columns with sample data and validation review</h4>
+        <p class="take">sample values beside each destination field, valid/invalid counts before commit.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/flows/10795" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article></div><h3>Safety net for large or repeated imports</h3><div class="grid"><article class="card" data-search="intercom repeat-import matching and an all-error result states the matching rule up front; reports created / updated / failed honestly, even when everything failed.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Intercom — Repeat-import matching and an all-error result">
+            <img class="preview" src="https://images.refero.design/screenshots/intercom.com/desktop/638e3125-aac1-4239-bff8-cee3b95bf70b_thumb.jpg" alt="Intercom — Repeat-import matching and an all-error result" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q5</p>
+        <p class="app-name"><strong>Intercom</strong></p>
+        <h4 class="card-title">Repeat-import matching and an all-error result</h4>
+        <p class="take">states the matching rule up front; reports created / updated / failed honestly, even when everything failed.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/flows/671" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="microsoft entra quarantine unexpected mass removals deletion threshold pauses the run for inspection. the guard against a bad file mass-deleting learners.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q4</p>
+        <p class="app-name"><strong>Microsoft Entra</strong></p>
+        <h4 class="card-title">Quarantine unexpected mass removals</h4>
+        <p class="take">deletion threshold pauses the run for inspection. The guard against a bad file mass-deleting learners.</p>
+        <p class="tags"><span class="tag">Docs only</span></p>
+      </div>
+      <div class="card-footer">
+        <a href="https://learn.microsoft.com/en-us/entra/identity/app-provisioning/accidental-deletions" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article></div>
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="deel uploading a csv (bulk edit of workers) uploading a csv, 4-stage full-screen wizard">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Deel — Uploading a CSV (bulk edit of workers)">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/rDV7o1v9" alt="Deel — Uploading a CSV (bulk edit of workers)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>Deel</strong></p>
+        <h4 class="card-title">Uploading a CSV (bulk edit of workers)</h4>
+        <p class="take">Uploading a CSV, 4-stage full-screen wizard</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/f9e90f25-5d36-4474-86a5-d61fbc08051b" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div>
+      <div class="callouts"><div class="callout callout-ai"><p class="callout-label">AI</p><p>no evidence in either round. The only &quot;auto&quot; anything is Cake Equity&#39;s rule-based column auto-map. If the AI question matters, it is a new research question, not a narrowing.</p></div><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Grammarly &quot;Import list&quot; nudge (worth remembering for the discoverability problem, but it is one button), Intercom / Circle / Resend / Acuity / Cake Equity CSV imports (same pattern as Customer.io and Ghost), Google GCDS simulate-first (Entra quarantine covers the safety idea with a clearer screen).</p></div></div>
+    </section><section id="sso" class="node-section" aria-labelledby="sso-heading">
+      <div class="node-heading">
+        <h2 id="sso-heading"><span class="node-number">6.</span> SSO</h2>
+        <div class="node-badges"><span class="badge">8 keeps</span><span class="badge">2 counters</span></div>
+      </div>
+      
+      <h3>IT setup and scoping</h3><div class="grid"><article class="card" data-search="okta select active directory users and groups before import separate user-ou and group-ou selection, matching rules, and a warning that changing filters can deactivate people. the core ldap/ad reference.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q1</p>
+        <p class="app-name"><strong>Okta</strong></p>
+        <h4 class="card-title">Select Active Directory users and groups before import</h4>
+        <p class="take">separate user-OU and group-OU selection, matching rules, and a warning that changing filters can deactivate people. The core LDAP/AD reference.</p>
+        <p class="tags"><span class="tag">Docs only</span></p>
+      </div>
+      <div class="card-footer">
+        <a href="https://help.okta.com/oie/en-us/content/topics/directory/ad-agent-configure-import.htm" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="github test saml before saving an enforced sign-in policy save stays disabled until the test passes. stops the months-long lockout failure mode.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: GitHub — Test SAML before saving an enforced sign-in policy">
+            <img class="preview" src="university-identity/assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg" alt="GitHub — Test SAML before saving an enforced sign-in policy" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q1</p>
+        <p class="app-name"><strong>GitHub</strong></p>
+        <h4 class="card-title">Test SAML before saving an enforced sign-in policy</h4>
+        <p class="take">Save stays disabled until the test passes. Stops the months-long lockout failure mode.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/ced1a847-5c4e-49bd-92b4-dcec2b5a8916" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="homerun team login policy: none / 2fa or sso / sso three radios with consequence text before enforcement.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Homerun — Team login policy: none / 2FA or SSO / SSO">
+            <img class="preview" src="https://images.refero.design/screenshots/homerun.co/desktop/f05829c5-427b-4523-bd79-b5f2fd5952bd_preview.jpg" alt="Homerun — Team login policy: none / 2FA or SSO / SSO" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q1</p>
+        <p class="app-name"><strong>Homerun</strong></p>
+        <h4 class="card-title">Team login policy: none / 2FA or SSO / SSO</h4>
+        <p class="take">three radios with consequence text before enforcement.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/pages/f690f4ed-6af6-4a63-8496-ad6e23925486" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div><h3>Learner sign-in and failure states</h3><div class="grid"><article class="card" data-search="riverside sso email discovery with an explicit failure &quot;this email is not recognised for sso&quot; with a supported next step.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Riverside — SSO email discovery with an explicit failure">
+            <img class="preview" src="university-identity/assets/refero-4649/0.jpg" alt="Riverside — SSO email discovery with an explicit failure" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
+        <p class="app-name"><strong>Riverside</strong></p>
+        <h4 class="card-title">SSO email discovery with an explicit failure</h4>
+        <p class="take">&quot;this email is not recognised for SSO&quot; with a supported next step.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://refero.design/flows/4649" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="incident.io keep saml failure and recovery routes visible retry and contact-admin paths stay on screen after a failed sign-in.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: incident.io — Keep SAML failure and recovery routes visible">
+            <img class="preview" src="university-identity/assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg" alt="incident.io — Keep SAML failure and recovery routes visible" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
+        <p class="app-name"><strong>incident.io</strong></p>
+        <h4 class="card-title">Keep SAML failure and recovery routes visible</h4>
+        <p class="take">retry and contact-admin paths stay on screen after a failed sign-in.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/flows/93a5db68-6f50-4b51-90fd-0b5ae39257a5" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article><article class="card" data-search="atlassian create accounts at first saml sign-in shared with the users node; jit as an explicit policy.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Atlassian — Create accounts at first SAML sign-in">
+            <img class="preview" src="university-identity/assets/documentation/atlassian-jit-0.png" alt="Atlassian — Create accounts at first SAML sign-in" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
+        <p class="app-name"><strong>Atlassian</strong></p>
+        <h4 class="card-title">Create accounts at first SAML sign-in</h4>
+        <p class="take">shared with the users node; JIT as an explicit policy.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://support.atlassian.com/atlassian-cloud/kb/what-is-just-in-time-provisioning-and-how-to-set-it-up/" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
+      </div>
+    </article></div><h3>Account recovery for lockouts</h3><div class="grid"><article class="card" data-search="microsoft copilot incorrect password - send a code instead inline code fallback on a wrong password.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Microsoft Copilot — Incorrect password - send a code instead">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/SG2p0r0R" alt="Microsoft Copilot — Incorrect password - send a code instead" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6</p>
+        <p class="app-name"><strong>Microsoft Copilot</strong></p>
+        <h4 class="card-title">Incorrect password - send a code instead</h4>
+        <p class="take">inline code fallback on a wrong password.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/1f44597f-d45a-400f-ba0c-f3a914bfc6b3" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card" data-search="surfshark too many login attempts - login with code code as the way out of a rate limit instead of a hard lockout.">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Surfshark — Too many login attempts - login with code">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/Zv3LvYo2" alt="Surfshark — Too many login attempts - login with code" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6</p>
+        <p class="app-name"><strong>Surfshark</strong></p>
+        <h4 class="card-title">Too many login attempts - login with code</h4>
+        <p class="take">code as the way out of a rate limit instead of a hard lockout.</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/a216f75b-1823-4834-820d-c15b5a3e1685" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div>
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="skiff recover your account with recovery key recover with recovery key (its take: &quot;the hidden recovery dependency that produces six-month lockouts&quot;)">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Skiff — Recover your account with recovery key">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/e4zzhg5R" alt="Skiff — Recover your account with recovery key" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>Skiff</strong></p>
+        <h4 class="card-title">Recover your account with recovery key</h4>
+        <p class="take">Recover with recovery key (its take: &quot;the hidden recovery dependency that produces six-month lockouts&quot;)</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/c3eb55db-308d-478a-8c34-beca03d2797f" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article><article class="card card-counter" data-search="sentry recover account - link invalid or expired recover account, link invalid or expired">
+      <div class="card-media"><figure class="preview-figure">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Sentry — Recover Account - link invalid or expired">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/Vrc7gXLg" alt="Sentry — Recover Account - link invalid or expired" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          </button>
+          <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
+        </figure></div>
+      <div class="card-body">
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6 <span class="badge counter">Counter-example</span></p>
+        <p class="app-name"><strong>Sentry</strong></p>
+        <h4 class="card-title">Recover Account - link invalid or expired</h4>
+        <p class="take">Recover account, link invalid or expired</p>
+        
+      </div>
+      <div class="card-footer">
+        <a href="https://mobbin.com/screens/0dbee83b-078f-4234-ac44-939735152a23" target="_blank" rel="noopener noreferrer">Source ↗</a>
+        <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
+      </div>
+    </article></div>
+      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Calendly SSO / provisioning / domain-control tabs (clean IA, but it is an information-architecture reference rather than a flow; pull it back if you design the settings page), Zendesk named SAML connection and Remote SAML guide (form-level detail, GitHub&#39;s test-before-save is the stronger lesson), WorkOS attribute toggles, Entra provisioning diagnostics, Epidemic Sound / Maze / Workable sign-in variants, OpenAI and Miro recovery (not counter-examples despite the index saying so; the JSON flags them false).</p></div></div>
+    </section>
+  <section class="node-section" aria-labelledby="next-step-heading">
+    <h2 id="next-step-heading">Next step</h2>
+    <p class="lead"></p>
+  </section>
+</main>
+<dialog id="lightbox" aria-labelledby="lightbox-caption">
+  <div class="lightbox-bar"><p id="lightbox-caption"></p><button id="close-lightbox" type="button" autofocus>Close</button></div>
+  <div class="full-image"><img id="full-image" alt=""></div>
+</dialog>
+<script>
+(function(){
+  var input = document.getElementById('search');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+  var status = document.getElementById('status');
+  function filter(){
+    var q = input.value.trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function(c){
+      var match = !q || c.dataset.search.indexOf(q) !== -1;
+      c.hidden = !match;
+      if (match) shown++;
+    });
+    status.textContent = shown + ' of ' + cards.length + ' cards shown';
+  }
+  input.addEventListener('input', filter);
+  filter();
+
+  var lightbox = document.getElementById('lightbox');
+  var fullImage = document.getElementById('full-image');
+  var caption = document.getElementById('lightbox-caption');
+  document.querySelectorAll('.preview-btn').forEach(function(btn){
+    var img = btn.querySelector('img');
+    btn.addEventListener('click', function(){
+      fullImage.src = img.src;
+      fullImage.alt = img.alt;
+      caption.textContent = img.alt;
+      lightbox.showModal();
+      lightbox.querySelector('.full-image').scrollTo(0, 0);
+    });
+  });
+  document.getElementById('close-lightbox').addEventListener('click', function(){ lightbox.close(); });
+  lightbox.addEventListener('click', function(e){
+    var r = lightbox.getBoundingClientRect();
+    if (e.target === lightbox && (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom)) lightbox.close();
+  });
+  lightbox.addEventListener('close', function(){ fullImage.removeAttribute('src'); });
+})();
+</script>
+</body></html>

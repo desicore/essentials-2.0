@@ -117,8 +117,48 @@ for (const ids of chunk(SCREENS.map((s) => s.id), 10)) {
 }
 
 // ---- Compose -------------------------------------------------------------------
+// Some older Refero flows only have the 800px `_thumb.jpg` on the CDN; their
+// `_preview.jpg` variant 403s. Verify each rewritten URL with a HEAD request
+// and fall back to the thumb when the preview doesn't actually exist.
+async function resolvePreviewUrls(thumbs) {
+  const unique = [...new Set(thumbs.filter(Boolean))];
+  const results = new Map();
+  for (const group of chunk(unique, 8)) {
+    await Promise.all(group.map(async (thumb) => {
+      const previewUrl = preview(thumb);
+      if (!previewUrl || previewUrl === thumb) { results.set(thumb, { url: previewUrl || thumb, fallback: false }); return; }
+      let url = previewUrl;
+      let fallback = false;
+      try {
+        const res = await fetch(previewUrl, { method: 'HEAD' });
+        if (!res.ok) { url = thumb; fallback = true; }
+      } catch {
+        url = thumb;
+        fallback = true;
+      }
+      results.set(thumb, { url, fallback });
+    }));
+  }
+  return results;
+}
+
+const allThumbs = [];
+for (const sel of FLOWS) {
+  const f = flowById.get(sel.id);
+  if (!f) continue;
+  for (const s of (f.steps || [])) if (s.thumbnail_url) allThumbs.push(s.thumbnail_url);
+}
+for (const sel of SCREENS) {
+  const s = screenById.get(sel.id);
+  if (s && !s.preview_url && s.thumbnail_url) allThumbs.push(s.thumbnail_url);
+}
+const previewByThumb = await resolvePreviewUrls(allThumbs);
+const previewOf = (thumb) => (thumb ? (previewByThumb.get(thumb) || { url: preview(thumb), fallback: false }) : { url: '', fallback: false });
+
 const out = [];
 const missing = [];
+const fallbackFlowIds = new Set();
+let fallbackStepCount = 0;
 for (const sel of FLOWS) {
   const f = flowById.get(sel.id);
   if (!f) { missing.push(`flow ${sel.id}`); continue; }
@@ -130,7 +170,11 @@ for (const sel of FLOWS) {
     title: f.name,
     kind: 'flow',
     url: f.refero_url || `https://refero.design/flows/${f.id}`,
-    images: steps.map((s) => preview(s.thumbnail_url)),
+    images: steps.map((s) => {
+      const r = previewOf(s.thumbnail_url);
+      if (r.fallback) { fallbackStepCount++; fallbackFlowIds.add(f.id); }
+      return r.url;
+    }),
     question: sel.q,
     take: sel.take,
     counter_example: !!sel.counter,
@@ -142,6 +186,8 @@ for (const sel of SCREENS) {
   const s = screenById.get(sel.id);
   if (!s) { missing.push(`screen ${sel.id}`); continue; }
   const title = (s.content?.description || '').split(/[.\n]/)[0].replace(/^The screen (shows|displays|is|features|presents)\s*/i, '').trim();
+  const screenPreview = s.preview_url ? null : previewOf(s.thumbnail_url);
+  if (screenPreview && screenPreview.fallback) fallbackStepCount++;
   out.push({
     id: `refero:${s.uuid}`,
     source: 'refero',
@@ -149,7 +195,7 @@ for (const sel of SCREENS) {
     title: sel.title || (title.length > 90 ? title.slice(0, 87) + '…' : title),
     kind: 'screen',
     url: s.refero_url || `https://refero.design/pages/${s.uuid}`,
-    images: [s.preview_url || preview(s.thumbnail_url)],
+    images: [s.preview_url || (screenPreview ? screenPreview.url : '')],
     question: sel.q,
     take: sel.take,
     counter_example: !!sel.counter,
@@ -172,6 +218,7 @@ console.log('top apps:', Object.entries(apps).sort((a, b) => b[1] - a[1]).slice(
 console.log('flows with 0 images:', out.filter((o) => o.kind === 'flow' && o.images.length === 0).map((o) => o.id).join(',') || 'none');
 console.log('flows with empty steps:', [...flowById.values()].filter((f) => !(f.steps || []).length).map((f) => f.id).join(',') || 'none');
 if (missing.length) console.log('MISSING:', missing.join('; '));
+if (fallbackStepCount) console.log(`preview fallback: ${fallbackStepCount} step image(s) used _thumb.jpg (no _preview.jpg on CDN) — flows: ${[...fallbackFlowIds].sort((a, b) => a - b).join(', ')}`);
 
 // HEAD-check image variants for one flow step and one screen
 const sample = out.find((o) => o.kind === 'flow' && o.images.length)?.images[0];

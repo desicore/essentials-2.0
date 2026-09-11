@@ -67,6 +67,6 @@ scripts are separate from these utilities.
 
 - **WebP → PNG before uploading to Figma.** Figma cannot read WebP metadata and renders the fill blank. `node inspiration/scripts/convert-webp.mjs <assets dir>`.
 - **Mobbin image links expire.** They are per-call redirect links; run `fetch-assets` right after research.
-- **Refero previews may 403.** `build-report --embed --assets <manifest>` leaves those hotlinked and warns.
+- **Refero `_preview.jpg` may not exist for older flows** (the CDN returns 403). `refero-build-access-sharing.mjs` now HEAD-checks each preview and falls back to the step's `_thumb.jpg` (800px). If a 403 still appears, re-run that script; `build-report --embed --assets <manifest>` leaves any remaining failures hotlinked and warns.
 - **One source per product.** `merge-references.mjs` keeps Mobbin (or whichever has the flow) when the same app appears in both sources for a question.
 - FigJam pipeline: `figjam-plan.mjs` → `upload_assets` (Figma MCP, 60 per call) → `figjam-upload.mjs` → `figjam-gen.mjs place` → `use_figma`.

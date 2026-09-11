@@ -524,11 +524,11 @@
       "kind": "flow",
       "url": "https://refero.design/flows/199",
       "images": [
-        "https://images.refero.design/screenshots/bezi.com/desktop/92dc2e9d-5aca-44da-853b-e2455bcaa480_preview.jpg",
-        "https://images.refero.design/screenshots/bezi.com/desktop/32b763d3-05a0-4a27-8bfe-26787bd5b9b3_preview.jpg",
-        "https://images.refero.design/screenshots/bezi.com/desktop/30290ab0-c199-4d78-a687-bb52ebb8ec46_preview.jpg",
-        "https://images.refero.design/screenshots/bezi.com/desktop/9c04851a-65fc-4d95-8eb1-feb950e87787_preview.jpg",
-        "https://images.refero.design/screenshots/bezi.com/desktop/ca51d955-e5e5-4ffb-9a6d-84091be1f98c_preview.jpg"
+        "https://images.refero.design/screenshots/bezi.com/desktop/92dc2e9d-5aca-44da-853b-e2455bcaa480_thumb.jpg",
+        "https://images.refero.design/screenshots/bezi.com/desktop/32b763d3-05a0-4a27-8bfe-26787bd5b9b3_thumb.jpg",
+        "https://images.refero.design/screenshots/bezi.com/desktop/30290ab0-c199-4d78-a687-bb52ebb8ec46_thumb.jpg",
+        "https://images.refero.design/screenshots/bezi.com/desktop/9c04851a-65fc-4d95-8eb1-feb950e87787_thumb.jpg",
+        "https://images.refero.design/screenshots/bezi.com/desktop/ca51d955-e5e5-4ffb-9a6d-84091be1f98c_thumb.jpg"
       ],
       "question": "Q2",
       "take": "One share modal combines link-access dropdown, collaborator invite, and per-collaborator role change/remove.",
@@ -1178,19 +1178,19 @@
       "kind": "flow",
       "url": "https://refero.design/flows/671",
       "images": [
-        "https://images.refero.design/screenshots/intercom.com/desktop/638e3125-aac1-4239-bff8-cee3b95bf70b_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/8568eaf3-cef8-4484-a748-1bebf5c41cdf_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/ceecb45c-ce62-4edf-9835-d035b07c6ac2_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/a931fb85-8443-4b02-9c72-7c3915ddb575_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/fb8f81f4-356d-4e9b-a1ee-21783ccf9204_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/c927c903-527b-417e-bb3d-a91ac9e5d98e_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/3cbe7cf6-0654-47bd-9e79-e5a522e6735a_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/8327c6ea-2964-4d46-981c-f735d8b8b431_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/0a339fb9-67a1-429a-b964-f09270e149ed_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/c39eac55-4690-44a4-8a40-736d3fbb125d_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/85020c8f-5dd8-4641-8510-2571df7045fb_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/fff56f66-503f-480b-af91-bbd8090226e3_preview.jpg",
-        "https://images.refero.design/screenshots/intercom.com/desktop/65867693-c5ca-46f9-8a4e-5d5dd3829c0e_preview.jpg"
+        "https://images.refero.design/screenshots/intercom.com/desktop/638e3125-aac1-4239-bff8-cee3b95bf70b_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/8568eaf3-cef8-4484-a748-1bebf5c41cdf_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/ceecb45c-ce62-4edf-9835-d035b07c6ac2_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/a931fb85-8443-4b02-9c72-7c3915ddb575_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/fb8f81f4-356d-4e9b-a1ee-21783ccf9204_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/c927c903-527b-417e-bb3d-a91ac9e5d98e_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/3cbe7cf6-0654-47bd-9e79-e5a522e6735a_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/8327c6ea-2964-4d46-981c-f735d8b8b431_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/0a339fb9-67a1-429a-b964-f09270e149ed_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/c39eac55-4690-44a4-8a40-736d3fbb125d_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/85020c8f-5dd8-4641-8510-2571df7045fb_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/fff56f66-503f-480b-af91-bbd8090226e3_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/65867693-c5ca-46f9-8a4e-5d5dd3829c0e_thumb.jpg"
       ],
       "question": "Q3",
       "take": "Import wizard maps each CSV column to a user attribute, then ends with a post-import report of created/updated/failed rows.",
@@ -1302,16 +1302,16 @@
       "kind": "flow",
       "url": "https://refero.design/flows/380",
       "images": [
-        "https://images.refero.design/screenshots/ubereats.com/desktop/a1418567-4805-406b-a660-2f3878a8af22_preview.jpg",
-        "https://images.refero.design/screenshots/ubereats.com/desktop/7cef5945-b6b4-4fe0-bb25-79ba56e2c01e_preview.jpg",
-        "https://images.refero.design/screenshots/ubereats.com/desktop/68928685-6148-4f74-b2dd-cac41aa7979d_preview.jpg",
-        "https://images.refero.design/screenshots/ubereats.com/desktop/b7f59b01-0b1b-491f-bc0b-d20ea16ca4ae_preview.jpg",
-        "https://images.refero.design/screenshots/ubereats.com/desktop/6c266b10-61de-49ee-8645-2ac558de58fe_preview.jpg",
-        "https://images.refero.design/screenshots/ubereats.com/desktop/3e2e28f9-90d6-4aa6-8662-ff00533268f8_preview.jpg",
-        "https://images.refero.design/screenshots/ubereats.com/desktop/f9eba191-c5e4-4e46-8d79-d36c41dde9fe_preview.jpg",
-        "https://images.refero.design/screenshots/ubereats.com/desktop/47e4fe79-9723-4be5-a1a9-8a56d73051a6_preview.jpg",
-        "https://images.refero.design/screenshots/ubereats.com/desktop/c8de271e-b809-43a1-8114-741f28954694_preview.jpg",
-        "https://images.refero.design/screenshots/ubereats.com/desktop/ad39efe7-00b2-4045-8d92-7eee41dd2591_preview.jpg"
+        "https://images.refero.design/screenshots/ubereats.com/desktop/a1418567-4805-406b-a660-2f3878a8af22_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/7cef5945-b6b4-4fe0-bb25-79ba56e2c01e_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/68928685-6148-4f74-b2dd-cac41aa7979d_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/b7f59b01-0b1b-491f-bc0b-d20ea16ca4ae_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/6c266b10-61de-49ee-8645-2ac558de58fe_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/3e2e28f9-90d6-4aa6-8662-ff00533268f8_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/f9eba191-c5e4-4e46-8d79-d36c41dde9fe_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/47e4fe79-9723-4be5-a1a9-8a56d73051a6_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/c8de271e-b809-43a1-8114-741f28954694_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/ad39efe7-00b2-4045-8d92-7eee41dd2591_thumb.jpg"
       ],
       "question": "Q3",
       "take": "Same invite modal supports manual emails or CSV upload; shows format error and an \"imported 0 of 5\" review list to fix rows.",
@@ -1398,12 +1398,12 @@
       "kind": "flow",
       "url": "https://refero.design/flows/1940",
       "images": [
-        "https://images.refero.design/screenshots/column.com/desktop/4985ed2c-ade8-4eb6-817f-9b564a20125d_preview.jpg",
-        "https://images.refero.design/screenshots/column.com/desktop/8b5faea4-6f21-405c-a345-4a09af4444e0_preview.jpg",
-        "https://images.refero.design/screenshots/column.com/desktop/751a9e99-f1a4-4257-a6a7-9534ed8ec6b6_preview.jpg",
-        "https://images.refero.design/screenshots/column.com/desktop/303a6b77-fa22-4397-b7f3-2e3a722f2d6c_preview.jpg",
-        "https://images.refero.design/screenshots/column.com/desktop/55a29d3b-df31-414c-b358-e70b4acc5edd_preview.jpg",
-        "https://images.refero.design/screenshots/column.com/desktop/987dbe03-5036-4383-95c6-9befbd75779d_preview.jpg"
+        "https://images.refero.design/screenshots/column.com/desktop/4985ed2c-ade8-4eb6-817f-9b564a20125d_thumb.jpg",
+        "https://images.refero.design/screenshots/column.com/desktop/8b5faea4-6f21-405c-a345-4a09af4444e0_thumb.jpg",
+        "https://images.refero.design/screenshots/column.com/desktop/751a9e99-f1a4-4257-a6a7-9534ed8ec6b6_thumb.jpg",
+        "https://images.refero.design/screenshots/column.com/desktop/303a6b77-fa22-4397-b7f3-2e3a722f2d6c_thumb.jpg",
+        "https://images.refero.design/screenshots/column.com/desktop/55a29d3b-df31-414c-b358-e70b4acc5edd_thumb.jpg",
+        "https://images.refero.design/screenshots/column.com/desktop/987dbe03-5036-4383-95c6-9befbd75779d_thumb.jpg"
       ],
       "question": "Q4",
       "take": "Role dropdown plus a \"Roles help\" explainer inside the invite modal; pending invites list updates in place.",
@@ -1571,14 +1571,14 @@
       "kind": "flow",
       "url": "https://refero.design/flows/974",
       "images": [
-        "https://images.refero.design/screenshots/pinterest.com/desktop/37fa9bbb-e760-45af-9485-6b6d1a851183_preview.jpg",
-        "https://images.refero.design/screenshots/pinterest.com/desktop/8ead3c75-cd8b-4c59-a7f6-349669728f24_preview.jpg",
-        "https://images.refero.design/screenshots/pinterest.com/desktop/f0457655-ded0-4849-8501-eebff1678d09_preview.jpg",
-        "https://images.refero.design/screenshots/pinterest.com/desktop/6b856d81-6921-4bc5-9e7e-8b4152cdfd0a_preview.jpg",
-        "https://images.refero.design/screenshots/pinterest.com/desktop/9c7e8c40-a1c5-45f6-aba9-861ac842b7c1_preview.jpg",
-        "https://images.refero.design/screenshots/pinterest.com/desktop/4c71ae71-be65-411d-b395-1f5494e3a958_preview.jpg",
-        "https://images.refero.design/screenshots/pinterest.com/desktop/f3ab7f5c-282a-4471-877e-c69981c2e886_preview.jpg",
-        "https://images.refero.design/screenshots/pinterest.com/desktop/ace2cd34-55ea-4dc8-9f1a-4264f8b3ff45_preview.jpg"
+        "https://images.refero.design/screenshots/pinterest.com/desktop/37fa9bbb-e760-45af-9485-6b6d1a851183_thumb.jpg",
+        "https://images.refero.design/screenshots/pinterest.com/desktop/8ead3c75-cd8b-4c59-a7f6-349669728f24_thumb.jpg",
+        "https://images.refero.design/screenshots/pinterest.com/desktop/f0457655-ded0-4849-8501-eebff1678d09_thumb.jpg",
+        "https://images.refero.design/screenshots/pinterest.com/desktop/6b856d81-6921-4bc5-9e7e-8b4152cdfd0a_thumb.jpg",
+        "https://images.refero.design/screenshots/pinterest.com/desktop/9c7e8c40-a1c5-45f6-aba9-861ac842b7c1_thumb.jpg",
+        "https://images.refero.design/screenshots/pinterest.com/desktop/4c71ae71-be65-411d-b395-1f5494e3a958_thumb.jpg",
+        "https://images.refero.design/screenshots/pinterest.com/desktop/f3ab7f5c-282a-4471-877e-c69981c2e886_thumb.jpg",
+        "https://images.refero.design/screenshots/pinterest.com/desktop/ace2cd34-55ea-4dc8-9f1a-4264f8b3ff45_thumb.jpg"
       ],
       "question": "Q4",
       "take": "COUNTER: role choice, then per-business, then per-permission checklist — 8 steps to add one employee; matrix explosion.",
@@ -1700,9 +1700,9 @@
       "kind": "flow",
       "url": "https://refero.design/flows/73",
       "images": [
-        "https://images.refero.design/screenshots/stripe.com/desktop/8f0f83ad-5a5b-4ceb-9ede-2252a6168ff1_preview.jpg",
-        "https://images.refero.design/screenshots/stripe.com/desktop/fdc825ac-6b2a-4a39-a4d7-460350016e8f_preview.jpg",
-        "https://images.refero.design/screenshots/stripe.com/desktop/4d1bb1a1-c885-4b7d-b3d5-4926026b6818_preview.jpg"
+        "https://images.refero.design/screenshots/stripe.com/desktop/8f0f83ad-5a5b-4ceb-9ede-2252a6168ff1_thumb.jpg",
+        "https://images.refero.design/screenshots/stripe.com/desktop/fdc825ac-6b2a-4a39-a4d7-460350016e8f_thumb.jpg",
+        "https://images.refero.design/screenshots/stripe.com/desktop/4d1bb1a1-c885-4b7d-b3d5-4926026b6818_thumb.jpg"
       ],
       "question": "Q4",
       "take": "Role chosen at invite time from a short fixed list with one-line descriptions — no separate role-admin step.",
@@ -1770,8 +1770,8 @@
       "kind": "flow",
       "url": "https://refero.design/flows/1398",
       "images": [
-        "https://images.refero.design/screenshots/zendesk.com/desktop/d51d8388-22f2-42f2-951a-d5913fb70e3a_preview.jpg",
-        "https://images.refero.design/screenshots/zendesk.com/desktop/229ea3a4-5330-4967-809a-7fd1a6674f96_preview.jpg"
+        "https://images.refero.design/screenshots/zendesk.com/desktop/d51d8388-22f2-42f2-951a-d5913fb70e3a_thumb.jpg",
+        "https://images.refero.design/screenshots/zendesk.com/desktop/229ea3a4-5330-4967-809a-7fd1a6674f96_thumb.jpg"
       ],
       "question": "Q4",
       "take": "Per-member \"roles and access\" page: one role plus product-level access toggles — the escape hatch lives on the person, not in a matrix.",
@@ -1877,8 +1877,8 @@
       "kind": "flow",
       "url": "https://refero.design/flows/1642",
       "images": [
-        "https://images.refero.design/screenshots/airtable.com/desktop/90abe04a-eb8b-4a23-ab82-01d969c2eb49_preview.jpg",
-        "https://images.refero.design/screenshots/airtable.com/desktop/647233eb-eac3-4a23-848e-26d4d7e944de_preview.jpg"
+        "https://images.refero.design/screenshots/airtable.com/desktop/90abe04a-eb8b-4a23-ab82-01d969c2eb49_thumb.jpg",
+        "https://images.refero.design/screenshots/airtable.com/desktop/647233eb-eac3-4a23-848e-26d4d7e944de_thumb.jpg"
       ],
       "question": "Q5",
       "take": "Public link lives on its own \"Share publicly\" tab, configured separately from collaborator invites.",
@@ -2463,16 +2463,16 @@
       "kind": "flow",
       "url": "https://refero.design/flows/374",
       "images": [
-        "https://images.refero.design/screenshots/miro.com/desktop/9a64e19d-cc08-463d-95f1-c3339b821833_preview.jpg",
-        "https://images.refero.design/screenshots/miro.com/desktop/b849a3c4-8ddf-4c3b-9a50-abe2d736c7c4_preview.jpg",
-        "https://images.refero.design/screenshots/miro.com/desktop/b0b6322b-3d90-482b-bf66-2c150f1bf718_preview.jpg",
-        "https://images.refero.design/screenshots/miro.com/desktop/14c4c928-f75f-4d70-a95e-4e74d92d0687_preview.jpg",
-        "https://images.refero.design/screenshots/miro.com/desktop/0562160f-616c-423a-a5cd-aa363b540718_preview.jpg",
-        "https://images.refero.design/screenshots/miro.com/desktop/143360f0-8631-4dec-9754-3cb026d97059_preview.jpg",
-        "https://images.refero.design/screenshots/miro.com/desktop/3cc6ff32-d088-4ea5-8d9c-cdc16842d969_preview.jpg",
-        "https://images.refero.design/screenshots/miro.com/desktop/0d65eaeb-b8c4-4872-8f85-5419ea755a14_preview.jpg",
-        "https://images.refero.design/screenshots/miro.com/desktop/ee561ad3-077d-412f-a72b-09a773fe9d7f_preview.jpg",
-        "https://images.refero.design/screenshots/miro.com/desktop/8326345e-55e1-460c-901c-b4ca27b9f143_preview.jpg"
+        "https://images.refero.design/screenshots/miro.com/desktop/9a64e19d-cc08-463d-95f1-c3339b821833_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/b849a3c4-8ddf-4c3b-9a50-abe2d736c7c4_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/b0b6322b-3d90-482b-bf66-2c150f1bf718_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/14c4c928-f75f-4d70-a95e-4e74d92d0687_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/0562160f-616c-423a-a5cd-aa363b540718_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/143360f0-8631-4dec-9754-3cb026d97059_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/3cc6ff32-d088-4ea5-8d9c-cdc16842d969_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/0d65eaeb-b8c4-4872-8f85-5419ea755a14_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/ee561ad3-077d-412f-a72b-09a773fe9d7f_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/8326345e-55e1-460c-901c-b4ca27b9f143_thumb.jpg"
       ],
       "question": "Q6",
       "take": "Complete recovery loop: error → enter email → loading → \"instructions sent\" → set new password → back in.",
@@ -2553,11 +2553,11 @@
       "kind": "flow",
       "url": "https://refero.design/flows/1268",
       "images": [
-        "https://images.refero.design/screenshots/patreon.com/desktop/65204988-deca-4374-8759-0865f944afad_preview.jpg",
-        "https://images.refero.design/screenshots/patreon.com/desktop/7dbfa651-6beb-4ad0-9ff1-ca681cb952bc_preview.jpg",
-        "https://images.refero.design/screenshots/patreon.com/desktop/9519b4d5-9434-4df7-817c-36d352e28faa_preview.jpg",
-        "https://images.refero.design/screenshots/patreon.com/desktop/68f063ab-1f65-4585-ab73-cb08b2513c55_preview.jpg",
-        "https://images.refero.design/screenshots/patreon.com/desktop/99f96872-6708-450c-bb01-d52279f7785d_preview.jpg"
+        "https://images.refero.design/screenshots/patreon.com/desktop/65204988-deca-4374-8759-0865f944afad_thumb.jpg",
+        "https://images.refero.design/screenshots/patreon.com/desktop/7dbfa651-6beb-4ad0-9ff1-ca681cb952bc_thumb.jpg",
+        "https://images.refero.design/screenshots/patreon.com/desktop/9519b4d5-9434-4df7-817c-36d352e28faa_thumb.jpg",
+        "https://images.refero.design/screenshots/patreon.com/desktop/68f063ab-1f65-4585-ab73-cb08b2513c55_thumb.jpg",
+        "https://images.refero.design/screenshots/patreon.com/desktop/99f96872-6708-450c-bb01-d52279f7785d_thumb.jpg"
       ],
       "question": "Q6",
       "take": "On password mismatch, offer an email code instead of a reset link; handles invalid code and retry.",

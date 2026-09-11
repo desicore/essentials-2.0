@@ -74,7 +74,7 @@ Deepest node, so this was mostly cutting. Sonnet reviewed all 68 candidates.
 **Minimal role set (the 8 → 3 argument)**
 - **R1 Q4 · Gamma — Changing a member role** — the floor: two roles, one-line descriptions, one-click change. `https://mobbin.com/api/mcp/short/BGheoITV`
 - **R1 Q4 · Slack — Inviting people (guest)** — guest role reveals required channels *and* an expiry on one screen: role, content scope and time scope together. Not in the original index. `https://mobbin.com/api/mcp/short/BTHyxkeY`
-- **R1 Q4 · Zendesk — Team member roles and access** — one role plus toggles on the person, no matrix. `https://images.refero.design/screenshots/zendesk.com/desktop/d51d8388-22f2-42f2-951a-d5913fb70e3a_preview.jpg`
+- **R1 Q4 · Zendesk — Team member roles and access** — one role plus toggles on the person, no matrix. `https://images.refero.design/screenshots/zendesk.com/desktop/d51d8388-22f2-42f2-951a-d5913fb70e3a_thumb.jpg`
 
 **Content-scoped sharing (the vault)**
 - **R1 Q4 · Coda — Updating sharing permissions** — link / workspace / inherited-from-folder (greyed) / named people, each with its own level. The JSON tags this Q4, not Q2 as the index said. `https://mobbin.com/api/mcp/short/qY5AoLdK`
