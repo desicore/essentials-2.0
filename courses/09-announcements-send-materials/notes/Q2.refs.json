@@ -1,0 +1,66 @@
+{
+  "question": "Q2",
+  "title": "Channel choice (in-app feed, email, push, link, external LMS) and whether it is one composer or many features",
+  "references": [
+    {
+      "id": "mobbin:0bc24c79-1906-420b-8c71-4c4c9fada060",
+      "source": "mobbin",
+      "app": "Basecamp",
+      "title": "Message with notification recipient and audience control",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/0bc24c79-1906-420b-8c71-4c4c9fada060",
+      "take": "Post composer with controls for who should see the message, who gets notified, and selective notification audience.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A0bc24c79-1906-420b-8c71-4c4c9fada060/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:748e794e-69b4-4b84-81e8-eb81c5e32f85",
+      "source": "mobbin",
+      "app": "beehiiv",
+      "title": "Excluded segments and delivery options",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/748e794e-69b4-4b84-81e8-eb81c5e32f85",
+      "take": "Email delivery composer with managed audiences, segment exclusion, and multiple publication channels (email, web).",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A748e794e-69b4-4b84-81e8-eb81c5e32f85/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:7380bc5c-aee1-470d-afae-832b147f9e1b",
+      "source": "mobbin",
+      "app": "Intercom",
+      "title": "Run a test with email collector and push notification options",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/7380bc5c-aee1-470d-afae-832b147f9e1b",
+      "take": "Message composer with content tab showing email and push notification delivery method options and audience routing.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A7380bc5c-aee1-470d-afae-832b147f9e1b/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:f722d4bb-07d8-409a-9b9b-4c12cbcfaec9",
+      "source": "mobbin",
+      "app": "Kit",
+      "title": "Send list with audience and delivery channel selection",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/f722d4bb-07d8-409a-9b9b-4c12cbcfaec9",
+      "take": "Broadcast composer with subscriber list selection, send-now vs scheduled options, and delivery channel choices.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Af722d4bb-07d8-409a-9b9b-4c12cbcfaec9/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:a7ebc4ec-996c-4383-9eff-adb43819f10c",
+      "source": "mobbin",
+      "app": "Substack",
+      "title": "Publish with audience and delivery notification iOS",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a7ebc4ec-996c-4383-9eff-adb43819f10c",
+      "take": "iOS publish modal showing audience (who can view), notification delivery toggle for email/push, and send controls.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Aa7ebc4ec-996c-4383-9eff-adb43819f10c/0.jpg"
+      ]
+    }
+  ]
+}

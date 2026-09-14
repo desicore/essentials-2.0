@@ -1,0 +1,77 @@
+{
+  "question": "Q5",
+  "verdicts": [
+    {
+      "app": "Udemy",
+      "status": "yes",
+      "text": "Requires at least four outcomes, implies a 160-character limit, and provides a prerequisite-copy example but no measurable-outcome example.",
+      "refs": ["mobbin:3558619c-01e4-44de-9e1b-159104717ba1", "mobbin:3476c06a-c7b3-49ac-bc99-6875a0563ec6"]
+    },
+    {
+      "app": "Asana",
+      "status": "partial",
+      "text": "Explains objective choices, prompts authors to define success, and offers AI improvement beside percentage progress.",
+      "refs": ["refero:195b0110-a6d4-404f-81bf-be74a9af62c1", "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948"]
+    },
+    {
+      "app": "Kajabi",
+      "status": "partial",
+      "text": "AI generates a reviewable course outline, while contextual suggestions target marketing copy rather than measurable outcomes.",
+      "refs": ["mobbin:deee3b15-0748-485c-9921-7be6cc0a456a", "mobbin:4753100b-9870-45a7-88f7-447b3760e712", "mobbin:5e554c6d-92e6-4852-99e2-f863def8f299"]
+    },
+    {
+      "app": "Teachable",
+      "status": "unknown",
+      "text": "An AI assistant is present in lesson editing, but its prompts and objective-related behavior are not visible.",
+      "refs": ["mobbin:c9d90a3c-c778-4949-ad9f-5537e5caf0a7", "mobbin:ffec1858-d352-4d00-9f52-585ce701769f"]
+    },
+    {
+      "app": "Canva",
+      "status": "no",
+      "text": "Generic writing and social-caption generation do not evidence learning-objective authoring guidance.",
+      "refs": ["mobbin:a7faf3e1-c2fc-4eec-b9ee-c2d975375b6c", "mobbin:f7fd7a5c-8762-4cbe-9b04-a2e6d1b53ea2"]
+    }
+  ],
+  "reject": [
+    {
+      "id": "mobbin:a7faf3e1-c2fc-4eec-b9ee-c2d975375b6c",
+      "reason": "Generic Magic Write task presets are too distant from course-objective authoring."
+    },
+    {
+      "id": "mobbin:f7fd7a5c-8762-4cbe-9b04-a2e6d1b53ea2",
+      "reason": "Generated Instagram captions and refinement controls do not address measurable learning outcomes."
+    }
+  ],
+  "takeCorrections": [
+    {
+      "id": "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+      "take": "Udemy requires at least four separate outcomes; the displayed numbers are remaining-character counters implying a 160-character maximum."
+    },
+    {
+      "id": "mobbin:3476c06a-c7b3-49ac-bc99-6875a0563ec6",
+      "take": "Udemy provides an explicit prerequisite placeholder example, but it does not model a measurable learning outcome."
+    },
+    {
+      "id": "mobbin:4753100b-9870-45a7-88f7-447b3760e712",
+      "take": "Kajabi generates editable course structure and descriptions for review, not demonstrated learning objectives."
+    },
+    {
+      "id": "mobbin:5e554c6d-92e6-4852-99e2-f863def8f299",
+      "take": "Ama's visible suggestions concern opt-in and sales copy, not course-objective authoring."
+    },
+    {
+      "id": "mobbin:ffec1858-d352-4d00-9f52-585ce701769f",
+      "take": "The capture shows selected lesson text and a color picker with an AI button present; it does not demonstrate AI editing behavior."
+    }
+  ],
+  "counterCandidates": [
+    {
+      "id": "mobbin:deee3b15-0748-485c-9921-7be6cc0a456a",
+      "reason": "A course-specific AI generator can still stop at topic-to-outline generation without coaching measurable outcomes."
+    },
+    {
+      "id": "mobbin:c9d90a3c-c778-4949-ad9f-5537e5caf0a7",
+      "reason": "Placing AI at the authoring surface does not establish objective-specific prompts, examples, or quality checks."
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "module": "01-objectives-outcomes-requirements",
+  "title": "Courses · Objectives / Outcomes / Requirements",
+  "intro": "Research for Essentials 2.0: Semester → Courses → Objectives / Outcomes / Requirements. How instructors define learner achievement and readiness, expose those expectations in the Learner Portal, and preserve links for later assessment. Competency setup, scenarios, sharing and Canvas delivery remain neighbouring modules. Evidence distinguishes observed controls from unverified behaviour.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Objectives are structured (list items, not free text) and reorderable",
+      "answer": "Udemy authors course outcomes as separate required fields with Add more and remaining-character counters (mobbin:3558619c-01e4-44de-9e1b-159104717ba1). Teachable uses repeated add/delete fields for optional checkout bullet points, an adjacent presentation pattern rather than a formal outcome model (mobbin:007d841f-48d2-425f-bbaf-75ba21693a3c). Neither capture demonstrates reordering. For Essentials, structured outcome items are well supported; moving items and preserving their order should be an explicit design decision, not a claimed industry finding."
+    },
+    {
+      "id": "Q2",
+      "title": "Objectives are visible to the learner in the same shape the instructor authored them",
+      "answer": "Udemy explicitly tells instructors their Intended learners descriptions will appear publicly, and separate learner captures show outcome checklists (mobbin:3558619c-01e4-44de-9e1b-159104717ba1; mobbin:04a7c094-adec-42d4-9f50-b4500ed8825d). Coursera presents checked outcomes on desktop and module prose on mobile (mobbin:2d300077-7580-47c6-875a-369da8b0a065; mobbin:96fd5ba3-c8bd-4fbc-b875-9b58e616c622). These are not matched author/learner captures of the same course, so exact wording and order remain unverified. Teachable's sampled preview sequence shows that draft curriculum can exist in admin while the student view is empty (mobbin:e6757446-af84-43d5-bed0-da79c9a3826c). Essentials needs a preview that exposes both publication state and the actual learner result."
+    },
+    {
+      "id": "Q3",
+      "title": "Requirements / prerequisites are enforced or only informational (and how that's communicated)",
+      "answer": "Udemy separates prerequisite descriptions into their own authoring field with a concrete readiness example, but no admission rule is shown (mobbin:4b041654-20d2-49dd-8779-2f45211103f7). Distinguish entry readiness, progression locks and completion rules. Kajabi configures a module lock against completion of a selected lesson and explains that an assessment must be passed (mobbin:60f6d746-a953-49ba-9af9-784ff378d031). Codecademy states all-content and 70% test-score requirements for completion (mobbin:6768ff06-2ec2-4e8b-8900-21500eb233a8); its runtime failure state was not tested. Skillshare communicates Beginner level and skills beside Watch Now (mobbin:84584675-5845-46cc-a5bf-90fafdd128b4), while Uxcel pairs beginner-friendly guidance with an enrollment path and a separate commercial upsell (mobbin:074a824b-a9f4-4e59-9039-fc5a59eb12c4). These last two captures do not demonstrate learning-prerequisite enforcement. A requirement description must not silently imply an access rule."
+    },
+    {
+      "id": "Q4",
+      "title": "Objectives can be linked downstream (lesson, assessment, competency)",
+      "answer": "Udemy associates an objective with a curriculum section above nested content, but does not demonstrate reusable course-outcome links to individual assessments or competencies (mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47). Asana supplies the clearest generic relationship flow: no connected project → searchable picker → connected project with weight and progress (mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948). Its automatic roll-up is an analogue, not evidence that project completion proves learning. Essentials should preserve a linkable objective identity while leaving competency setup and scenario mapping to their neighbouring modules."
+    },
+    {
+      "id": "Q5",
+      "title": "Guidance for authoring (examples, verb prompts, character limits, AI suggestions)",
+      "answer": "Udemy makes authoring constraints visible: at least four outcomes and per-item remaining-character counters (mobbin:3558619c-01e4-44de-9e1b-159104717ba1). Udemy also supplies a prerequisite example explaining that prior programming experience is unnecessary; this is readiness-copy guidance, not a measurable-outcome example (mobbin:3476c06a-c7b3-49ac-bc99-6875a0563ec6). Asana asks authors how they will define success and offers AI improvement in its goal flow (mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948); its separate onboarding screen explains choices and permits uncertainty (refero:195b0110-a6d4-404f-81bf-be74a9af62c1). Kajabi generates a course outline, then exposes editable results with Apply/Discard (mobbin:deee3b15-0748-485c-9921-7be6cc0a456a; mobbin:4753100b-9870-45a7-88f7-447b3760e712). That is useful review control, but no supplied example demonstrates action-verb coaching or AI checking whether a learning objective is measurable. Treat such support as an Essentials proposal, not observed convergence."
+    },
+    {
+      "id": "Q6",
+      "title": "Where in the course-creation flow this step sits (required up front vs. optional later)",
+      "answer": "Udemy locates Intended learners first under Plan your course and explicitly requires at least four outcomes; the screenshot does not exercise the submission gate (mobbin:3558619c-01e4-44de-9e1b-159104717ba1). Teachable's sampled course flow proceeds from Setup guide through confirmation and launch success to Published, without exposing an objective step (mobbin:ca328d45-4fee-42c1-925b-ff8e298dc4b8). Kajabi's wizard shows generation and appearance stages, but does not locate outcome authoring. Those captures cannot establish that outcomes are optional. For Essentials, define the publication requirement separately from the order in which an instructor may draft the course."
+    }
+  ],
+  "references": [
+    {
+      "id": "mobbin:007d841f-48d2-425f-bbaf-75ba21693a3c",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course setup bullet points editor",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/007d841f-48d2-425f-bbaf-75ba21693a3c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7BMInGpx"
+      ],
+      "question": "Q1",
+      "take": "Teachable shows separate optional bullet fields with add and delete controls; no reorder control is visible.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:fbde5f46-53c8-464f-8ff5-a4bca072426a",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Additional course setup bullet points",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/fbde5f46-53c8-464f-8ff5-a4bca072426a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/BtP9bBUP"
+      ],
+      "question": "Q1",
+      "take": "Teachable shows populated and empty checkout bullet fields in the same repeated structure; storage semantics and reordering are not verified.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+      "source": "mobbin",
+      "app": "Udemy",
+      "title": "Intended learners objectives step",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3558619c-01e4-44de-9e1b-159104717ba1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Sv0smWZK"
+      ],
+      "question": "Q1",
+      "take": "Udemy requires at least four separate outcomes, provides remaining-character counters and Add more, and explains that the statements appear publicly; reordering is not demonstrated.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2d300077-7580-47c6-875a-369da8b0a065",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Course page What you'll learn",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2d300077-7580-47c6-875a-369da8b0a065",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GoRS10LM"
+      ],
+      "question": "Q2",
+      "take": "Coursera shows a learner-facing checked outcomes list; preservation of author text and order is unverified.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:96fd5ba3-c8bd-4fbc-b875-9b58e616c622",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Mobile course outcomes view",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/96fd5ba3-c8bd-4fbc-b875-9b58e616c622",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ln5CVTJV"
+      ],
+      "question": "Q2",
+      "take": "Coursera mobile shows module-level syllabus prose, not evidence of the same author-authored objective list.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Curriculum preview",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e6757446-af84-43d5-bed0-da79c9a3826c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/PHLaoGiU",
+        "https://mobbin.com/api/mcp/short/tyIGYNiP",
+        "https://mobbin.com/api/mcp/short/3u6RL9C2"
+      ],
+      "question": "Q2",
+      "take": "Sampled flow previews: Teachable provides Preview as student, but this capture shows an empty learner curriculum because only published content appears.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:04a7c094-adec-42d4-9f50-b4500ed8825d",
+      "source": "mobbin",
+      "app": "Udemy",
+      "title": "Course landing page outcomes",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/04a7c094-adec-42d4-9f50-b4500ed8825d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/jT3iQKoe"
+      ],
+      "question": "Q2",
+      "take": "Udemy’s course landing page exposes a dedicated learner-facing learning outcomes area, making expected achievement scannable before enrollment.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:d3ce7d30-a5b0-4586-9312-62fb4365aa18",
+      "source": "mobbin",
+      "app": "Udemy",
+      "title": "Course outcomes list",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/d3ce7d30-a5b0-4586-9312-62fb4365aa18",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hpll2ij2"
+      ],
+      "question": "Q2",
+      "take": "A second Udemy course view shows outcomes as discrete learner-readable items, supporting a checklist-style presentation of objectives.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:656a8d57-91b1-425b-bf02-14167f6af9a6",
+      "source": "mobbin",
+      "app": "Udemy",
+      "title": "About this course",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/656a8d57-91b1-425b-bf02-14167f6af9a6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/3GlYvZ1o",
+        "https://mobbin.com/api/mcp/short/euVsfneI"
+      ],
+      "question": "Q2",
+      "take": "Sampled flow previews: Udemy mobile exposes course outcomes under More → About this course; authoring fidelity is unverified.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:6768ff06-2ec2-4e8b-8900-21500eb233a8",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Course prerequisite prompt",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/6768ff06-2ec2-4e8b-8900-21500eb233a8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TOPGBwwe"
+      ],
+      "question": "Q3",
+      "take": "Codecademy states completion criteria: watch all content and score at least 70%; the capture does not exercise a failure or blocking state.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:60f6d746-a953-49ba-9af9-784ff378d031",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Course access requirements",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/60f6d746-a953-49ba-9af9-784ff378d031",
+      "images": [
+        "https://mobbin.com/api/mcp/short/JaGOy4hg"
+      ],
+      "question": "Q3",
+      "take": "Kajabi explicitly configures a module lock based on completion of a selected lesson; assessment completion requires passing.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:84584675-5845-46cc-a5bf-90fafdd128b4",
+      "source": "mobbin",
+      "app": "Skillshare",
+      "title": "Course requirements information",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/84584675-5845-46cc-a5bf-90fafdd128b4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/bwg7sqzc"
+      ],
+      "question": "Q3",
+      "take": "Requirements can be presented as informational context on a course surface, separate from enrollment controls.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:4b041654-20d2-49dd-8779-2f45211103f7",
+      "source": "mobbin",
+      "app": "Udemy",
+      "title": "Requirements or prerequisites authoring",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/4b041654-20d2-49dd-8779-2f45211103f7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/x8QGKpPI"
+      ],
+      "question": "Q3",
+      "take": "Udemy asks authors for public requirements/prerequisites text, including skills, experience, tools, or equipment; the field is informational and does not prove enforced admission.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:074a824b-a9f4-4e59-9039-fc5a59eb12c4",
+      "source": "mobbin",
+      "app": "Uxcel",
+      "title": "Learning path prerequisite state",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/074a824b-a9f4-4e59-9039-fc5a59eb12c4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/0zSm6Klp"
+      ],
+      "question": "Q3",
+      "take": "Uxcel shows beginner-friendly readiness messaging and open enrollment; the Pro-membership prompt is a commercial gate, not a learning prerequisite.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948",
+      "source": "mobbin",
+      "app": "Asana",
+      "title": "Connecting a goal with a project",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/2f67fe8d-dbad-4ee4-ad75-5d08c69fe948",
+      "images": [
+        "https://mobbin.com/api/mcp/short/y9lrJVC5",
+        "https://mobbin.com/api/mcp/short/I9l5JhF3",
+        "https://mobbin.com/api/mcp/short/TcAKbaTj"
+      ],
+      "question": "Q4",
+      "take": "Asana's sampled previews show a goal-to-project connection from empty state, through project search, to a connected row with progress roll-up; this is a cross-domain analogue.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47",
+      "source": "mobbin",
+      "app": "Udemy",
+      "title": "Curriculum section learning objective",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/7fa8a407-5fc0-4de1-b169-0c7825495e47",
+      "images": [
+        "https://mobbin.com/api/mcp/short/H3aTU86L"
+      ],
+      "question": "Q4",
+      "take": "Udemy attaches a learning objective to a curriculum section containing nested lecture/content controls; it does not prove objective mapping to an individual lesson, assessment, or competency.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:195b0110-a6d4-404f-81bf-be74a9af62c1",
+      "source": "refero",
+      "app": "Asana",
+      "title": "Objective selection during onboarding",
+      "kind": "screen",
+      "url": "https://refero.design/pages/195b0110-a6d4-404f-81bf-be74a9af62c1",
+      "images": [
+        "https://images.refero.design/screenshots/asana.com/desktop/409a58f5-87fb-47b4-bcfb-90ed85f12cb0_preview.jpg"
+      ],
+      "question": "Q5",
+      "take": "Asana onboarding explains three objective choices and offers an unsure option; this is a choice-guidance analogue, not a measurable learning-objective editor.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:deee3b15-0748-485c-9921-7be6cc0a456a",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "AI course generator prompt",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/deee3b15-0748-485c-9921-7be6cc0a456a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GJ7IkgDL"
+      ],
+      "question": "Q5",
+      "take": "Kajabi exposes a focused Course generator dialog with a concrete topic field and Generate action, showing AI assistance can start from a single authoring prompt.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:4753100b-9870-45a7-88f7-447b3760e712",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Generated course outline review",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/4753100b-9870-45a7-88f7-447b3760e712",
+      "images": [
+        "https://mobbin.com/api/mcp/short/yW24xiJO"
+      ],
+      "question": "Q5",
+      "take": "Kajabi generates editable course structure and descriptions for review, not demonstrated learning objectives.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c9d90a3c-c778-4949-ad9f-5537e5caf0a7",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Lesson editor with AI assistant",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/c9d90a3c-c778-4949-ad9f-5537e5caf0a7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/BskmVdMa"
+      ],
+      "question": "Q5",
+      "take": "Teachable places an AI assistant beside lesson content; no objective-specific prompt or generated outcome is visible.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3476c06a-c7b3-49ac-bc99-6875a0563ec6",
+      "source": "mobbin",
+      "app": "Udemy",
+      "title": "Intended learners guidance",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3476c06a-c7b3-49ac-bc99-6875a0563ec6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/75QVQtMM"
+      ],
+      "question": "Q5",
+      "take": "Udemy provides an explicit prerequisite placeholder example, but it does not model a measurable learning outcome.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2e01c0b8-2b25-491e-a7d1-992341cc9269",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Creation wizard progress",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2e01c0b8-2b25-491e-a7d1-992341cc9269",
+      "images": [
+        "https://mobbin.com/api/mcp/short/asbXuyYB"
+      ],
+      "question": "Q6",
+      "take": "Kajabi visibly generates an outline, landing page, and email in sequence; no objective step is shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:b7491347-c116-4aad-950c-8d48f577b98a",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Optional course appearance step",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/b7491347-c116-4aad-950c-8d48f577b98a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/51GNLV87"
+      ],
+      "question": "Q6",
+      "take": "Kajabi explicitly makes the thumbnail optional; this does not establish whether outcomes are optional.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2da07b87-105e-4850-8686-9cad55f3f455",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course setup guide",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2da07b87-105e-4850-8686-9cad55f3f455",
+      "images": [
+        "https://mobbin.com/api/mcp/short/v0FjtOgx"
+      ],
+      "question": "Q6",
+      "take": "Teachable's course Setup guide puts curriculum creation first, then customization and pricing on one page, with Publish your course persistently visible.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:1f84e7ef-b3c7-4b32-a5c9-29796bf44de6",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course published confirmation",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/1f84e7ef-b3c7-4b32-a5c9-29796bf44de6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/OlRiT7dL"
+      ],
+      "question": "Q6",
+      "take": "Teachable confirms launch in a modal with a sales page link and Done action, visibly separating publication from earlier editing steps.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Publish section flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/VyGQgwm9",
+        "https://mobbin.com/api/mcp/short/26QoJbys",
+        "https://mobbin.com/api/mcp/short/xgB2kGfq"
+      ],
+      "question": "Q6",
+      "take": "Sampled three-frame flow shows curriculum section publishing only, with no objective requirement visible.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ca328d45-4fee-42c1-925b-ff8e298dc4b8",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Publish course flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/ca328d45-4fee-42c1-925b-ff8e298dc4b8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5dEENLhu",
+        "https://mobbin.com/api/mcp/short/LlJsSDsv",
+        "https://mobbin.com/api/mcp/short/SoRTOEIW",
+        "https://mobbin.com/api/mcp/short/tx0dDx9W"
+      ],
+      "question": "Q6",
+      "take": "Sampled four-frame flow shows course setup through published state, without an objective step.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

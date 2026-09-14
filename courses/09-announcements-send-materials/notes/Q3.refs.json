@@ -1,0 +1,119 @@
+{
+  "question": "Q3",
+  "title": "Shareable link controls (expiry, access level, revoke, tracking)",
+  "references": [
+    {
+      "id": "mobbin:7f248abd-f90a-4477-a2a7-8b9aa0cbcc10",
+      "source": "mobbin",
+      "app": "ClickUp",
+      "title": "Share link with expiration settings (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/7f248abd-f90a-4477-a2a7-8b9aa0cbcc10",
+      "take": "iOS share dialog showing permissions tab, public link option, expiration setting (never/preset dates), search engines toggle, and copy link button.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A7f248abd-f90a-4477-a2a7-8b9aa0cbcc10/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:c333ff8e-e76b-44a7-ba91-3f29d4dfbd7f",
+      "source": "mobbin",
+      "app": "Coda",
+      "title": "Sharing a doc",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c333ff8e-e76b-44a7-ba91-3f29d4dfbd7f",
+      "take": "Complete flow showing access mode selection (anyone, specific people), recipient selection, copy link action, and permission confirmation in a document sharing dialog.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ac333ff8e-e76b-44a7-ba91-3f29d4dfbd7f/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ac333ff8e-e76b-44a7-ba91-3f29d4dfbd7f/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ac333ff8e-e76b-44a7-ba91-3f29d4dfbd7f/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ac333ff8e-e76b-44a7-ba91-3f29d4dfbd7f/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ac333ff8e-e76b-44a7-ba91-3f29d4dfbd7f/4.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ac333ff8e-e76b-44a7-ba91-3f29d4dfbd7f/5.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ac333ff8e-e76b-44a7-ba91-3f29d4dfbd7f/6.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ac333ff8e-e76b-44a7-ba91-3f29d4dfbd7f/7.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:777c4ef0-4481-474a-9a3c-10637247e000",
+      "source": "mobbin",
+      "app": "Dropbox",
+      "title": "Sharing a document",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/777c4ef0-4481-474a-9a3c-10637247e000",
+      "take": "Shows document sharing flow with who-can-access settings, link generation, and options to add expiration and password protection.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A777c4ef0-4481-474a-9a3c-10637247e000/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A777c4ef0-4481-474a-9a3c-10637247e000/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A777c4ef0-4481-474a-9a3c-10637247e000/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A777c4ef0-4481-474a-9a3c-10637247e000/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A777c4ef0-4481-474a-9a3c-10637247e000/4.jpg"
+      ]
+    },
+    {
+      "id": "refero:1242",
+      "source": "refero",
+      "app": "Loom",
+      "title": "Loom: share dialog with per-person permission level and invited list",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1242",
+      "take": "Loom's Share dialog lets the owner add a person or Space and set a permission level (e.g. Can view) before sending the invite, then confirms the person now appears in an invited/access list — a pattern for showing who currently has access to a shared item, not just generating a link.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A1242/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A1242/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A1242/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A1242/3.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:836e980f-286d-4092-a9dd-799a8ebb6bce",
+      "source": "mobbin",
+      "app": "Mural",
+      "title": "Link sharing access and expiration settings",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/836e980f-286d-4092-a9dd-799a8ebb6bce",
+      "take": "Access and settings panel showing restricted/general access options, visitor link access controls, expiration date, password, and reset visitor link button.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A836e980f-286d-4092-a9dd-799a8ebb6bce/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:cfca14fb-a833-4bf6-b549-9e646bac5ec9",
+      "source": "mobbin",
+      "app": "Notion",
+      "title": "Link expiration and access controls (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/cfca14fb-a833-4bf6-b549-9e646bac5ec9",
+      "take": "iOS link access dialog showing access level options (can edit, can comment, can view), link expiration with time presets (1 hour, 1 day, 1 week), and remove access option.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Acfca14fb-a833-4bf6-b549-9e646bac5ec9/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:ef4fcd7f-0f50-47de-9df4-b67bf14bda2d",
+      "source": "mobbin",
+      "app": "Proton",
+      "title": "Share link settings with expiration and password",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ef4fcd7f-0f50-47de-9df4-b67bf14bda2d",
+      "take": "Settings dialog for shared link with expiration date field, password requirement toggle, and stop sharing option to revoke access.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Aef4fcd7f-0f50-47de-9df4-b67bf14bda2d/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:1fb17c11-dd5b-4d8c-928f-6b1b64c444fc",
+      "source": "mobbin",
+      "app": "Sketch",
+      "title": "Share a document with permissions",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/1fb17c11-dd5b-4d8c-928f-6b1b64c444fc",
+      "take": "Shows sharing a document by setting access permissions, selecting recipients, generating a link, and confirming share settings.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A1fb17c11-dd5b-4d8c-928f-6b1b64c444fc/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A1fb17c11-dd5b-4d8c-928f-6b1b64c444fc/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A1fb17c11-dd5b-4d8c-928f-6b1b64c444fc/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A1fb17c11-dd5b-4d8c-928f-6b1b64c444fc/3.jpg"
+      ]
+    }
+  ]
+}

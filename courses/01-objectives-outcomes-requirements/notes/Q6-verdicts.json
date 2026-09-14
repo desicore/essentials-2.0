@@ -1,0 +1,57 @@
+{
+  "question": "Q6",
+  "verdicts": [
+    {
+      "app": "Udemy",
+      "status": "yes",
+      "text": "Intended learners is the first planning step and requires at least four outcomes.",
+      "refs": ["mobbin:3558619c-01e4-44de-9e1b-159104717ba1"]
+    },
+    {
+      "app": "Kajabi",
+      "status": "unknown",
+      "text": "Wizard order and optional thumbnail are visible; objective placement is absent.",
+      "refs": ["mobbin:2e01c0b8-2b25-491e-a7d1-992341cc9269", "mobbin:b7491347-c116-4aad-950c-8d48f577b98a"]
+    },
+    {
+      "app": "Teachable",
+      "status": "unknown",
+      "text": "Sampled flows place publishing after curriculum setup but show no objective step.",
+      "refs": ["mobbin:2da07b87-105e-4850-8686-9cad55f3f455", "mobbin:757f57cb-e9e7-4355-a542-db3033f23dc0", "mobbin:ca328d45-4fee-42c1-925b-ff8e298dc4b8", "mobbin:1f84e7ef-b3c7-4b32-a5c9-29796bf44de6"]
+    }
+  ],
+  "reject": [
+    {
+      "id": "mobbin:c5ee32ed-ff6c-4f21-adfa-197b2194a290",
+      "reason": "School-level brand, website, and earning checklist does not evidence course-objective placement or requiredness."
+    },
+    {
+      "id": "mobbin:8aca7d42-8261-4b3d-a6f3-93034df7de5f",
+      "reason": "AI outline inputs show a curriculum starting point, not an objectives/outcomes step or its requiredness."
+    }
+  ],
+  "takeCorrections": [
+    {
+      "id": "mobbin:2e01c0b8-2b25-491e-a7d1-992341cc9269",
+      "take": "Kajabi visibly generates an outline, landing page, and email in sequence; no objective step is shown."
+    },
+    {
+      "id": "mobbin:b7491347-c116-4aad-950c-8d48f577b98a",
+      "take": "Kajabi explicitly makes the thumbnail optional; this does not establish whether outcomes are optional."
+    },
+    {
+      "id": "mobbin:757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "take": "Sampled three-frame flow shows curriculum section publishing only, with no objective requirement visible."
+    },
+    {
+      "id": "mobbin:ca328d45-4fee-42c1-925b-ff8e298dc4b8",
+      "take": "Sampled four-frame flow shows course setup through published state, without an objective step."
+    }
+  ],
+  "counterCandidates": [
+    {
+      "id": "mobbin:ca328d45-4fee-42c1-925b-ff8e298dc4b8",
+      "reason": "A sampled Teachable course reaches publish confirmation without a visible objective step; useful as a candidate challenge, not proof no hidden gate exists."
+    }
+  ]
+}

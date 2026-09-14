@@ -1,0 +1,150 @@
+{
+  "module": "09-announcements-send-materials",
+  "references": [
+    {
+      "id": "refero:19605564-a5ad-4b12-867b-678a4e2e6f13",
+      "source": "refero",
+      "app": "Google Classroom",
+      "title": "Stream composer: \"Announce to class\" box with All students picker",
+      "kind": "screen",
+      "url": "https://refero.design/pages/19605564-a5ad-4b12-867b-678a4e2e6f13",
+      "images": [
+        "https://images.refero.design/screenshots/google.com/desktop/40df4057-deff-425f-ad64-970147087e4d_preview.jpg"
+      ],
+      "question": "Q1",
+      "take": "The class Stream page pairs a lightweight \"Announce something to your class\" text box with a \"For / All students\" audience dropdown directly above it, showing that audience targeting can live as one control next to the compose field instead of a separate step.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:2fe44823-76a1-42a1-98d6-8ac79e5dc594",
+      "source": "refero",
+      "app": "Dub",
+      "title": "Dub link analytics: clicks/leads/sales for a tagged share link",
+      "kind": "screen",
+      "url": "https://refero.design/pages/2fe44823-76a1-42a1-98d6-8ac79e5dc594",
+      "images": [
+        "https://images.refero.design/screenshots/dub.co/desktop/c72dc094-be2d-4a20-9987-82e21d67da76_preview.jpg"
+      ],
+      "question": "Q4",
+      "take": "Dub's Analytics view shows Clicks/Leads/Sales counters plus a time-series chart for links filtered by tag, evidence that link-level delivery feedback can be a few aggregate counters and a trend line rather than a per-recipient log of who clicked.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:471b8f0c-f9ef-4977-99b8-e5c9fbd9c019",
+      "source": "refero",
+      "app": "Spotify",
+      "title": "Spotify notification settings: per-category Email/Push toggles",
+      "kind": "screen",
+      "url": "https://refero.design/pages/471b8f0c-f9ef-4977-99b8-e5c9fbd9c019",
+      "images": [
+        "https://images.refero.design/screenshots/spotify.com/desktop/de6e5ecc-5438-40c3-875d-ebf228152c41_preview.jpg"
+      ],
+      "question": "Q6",
+      "take": "Spotify's Notification settings list content categories (Music, Podcasts, Audiobooks, Concerts, Livestreams), each with its own Email and Push checkboxes, modeling how a learner-facing portal could let people set per-category channel preferences for course communications.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4564",
+      "source": "refero",
+      "app": "The Leap",
+      "title": "The Leap: broadcast composer with template, editor, and recipient segments",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4564",
+      "images": [
+        "https://images.refero.design/screenshots/theleap.co/desktop/ca5b7106-f6e3-4283-b8e7-f5a0fb1258da_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/68c5dd1e-4102-4bee-95cc-f3bbc916b7c2_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/6e6b3eee-07a9-4534-8169-1d3ebb7a774d_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/205acfbc-106d-4078-bbd2-41225f4fea8c_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/cc424db3-c42b-4048-998d-53e3004e75a5_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/ec64efbb-9eb3-40ad-88b0-b23300f4279d_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/79acb335-9101-44c1-bdb0-fcd0c99e90b7_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/59817483-8bec-4f97-8f97-7a0bbf601657_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "The Leap's broadcast flow chains a template chooser into a rich-text editor with a dedicated recipients dropdown for picking one or more contact segments, then forces a review-and-confirm modal before send and finishes on a sent-state screen with immediate analytics — a model for pairing audience targeting with an explicit confirm step in a course composer.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9617",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Teachable: compose and send a broadcast email to a recipient group",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9617",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/de9af544-674a-4afd-9b5f-2dabc6b10199_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/c2794d5d-b70f-48f8-81a1-1261d20691c6_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/8b50d451-1a62-40fe-a33a-1672ffddc6ed_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/43d4da29-5cae-4afd-878a-8c233a3c28ac_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Teachable's Compose flow (built to compose \"a new announcement or message to users\") has the course admin write a subject/body, pick a recipient group, confirm in a modal, and land on a success acknowledgement — showing that a minimal 4-screen composer-plus-confirm pattern is enough for an announcement tool inside an education product.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:863",
+      "source": "refero",
+      "app": "LinkedIn",
+      "title": "LinkedIn: compose a post, then open a date/time scheduling dialog",
+      "kind": "flow",
+      "url": "https://refero.design/flows/863",
+      "images": [
+        "https://images.refero.design/screenshots/linkedin.com/desktop/633ce185-faba-4c79-9e3b-657ec10afb6d_thumb.jpg",
+        "https://images.refero.design/screenshots/linkedin.com/desktop/727cd278-ebb7-493c-9496-eea1a713d509_thumb.jpg",
+        "https://images.refero.design/screenshots/linkedin.com/desktop/f3f9f3c1-74d7-431b-ba68-908ac1a44392_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "LinkedIn's composer exposes a scheduling entry point in the compose toolbar that opens a dedicated date-and-time picker before the post is queued, showing how scheduling can be an optional side-dialog off the main composer rather than a separate screen or mode.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:1242",
+      "source": "refero",
+      "app": "Loom",
+      "title": "Loom: share dialog with per-person permission level and invited list",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1242",
+      "images": [
+        "https://images.refero.design/screenshots/loom.com/desktop/6a9c5ab9-5c27-449a-8645-126318afa6ce_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/8f4af9c8-1c29-4a31-bff4-aa324f2d516a_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/9c28099c-4444-472a-9181-4f0c46665d71_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/6cbd1e97-bd92-4b03-8ac6-06094e3d2cae_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Loom's Share dialog lets the owner add a person or Space and set a permission level (e.g. Can view) before sending the invite, then confirms the person now appears in an invited/access list — a pattern for showing who currently has access to a shared item, not just generating a link.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:13032",
+      "source": "refero",
+      "app": "Dropbox",
+      "title": "Dropbox: generate a folder view-only link, then review its link settings",
+      "kind": "flow",
+      "url": "https://refero.design/flows/13032",
+      "images": [
+        "https://images.refero.design/screenshots/dropbox.com/desktop/2f3c36d1-2066-46f5-956e-64d33a7da50f_thumb.jpg",
+        "https://images.refero.design/screenshots/dropbox.com/desktop/6f415835-d2de-4158-984a-df88e145656c_thumb.jpg",
+        "https://images.refero.design/screenshots/dropbox.com/desktop/0cf3bdaf-ebc8-4901-ae1a-50dc635f6ecd_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Dropbox's Create Folder View Link flow separates link generation from link management: after the viewing link is created, a Link Settings screen surfaces the access controls for that specific link — a clean split between \"create the link\" and \"configure/audit the link\" that a course materials share dialog could mirror.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

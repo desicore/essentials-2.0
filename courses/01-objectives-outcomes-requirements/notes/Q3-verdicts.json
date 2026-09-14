@@ -1,0 +1,81 @@
+{
+  "question": "Q3",
+  "verdicts": [
+    {
+      "app": "Codecademy",
+      "status": "yes",
+      "text": "Enforced course-completion criteria: all content plus a 70% test score; entry gating is not shown.",
+      "refs": ["mobbin:6768ff06-2ec2-4e8b-8900-21500eb233a8"]
+    },
+    {
+      "app": "Kajabi",
+      "status": "yes",
+      "text": "Enforced completion order: a module remains locked until the selected lesson is completed or its assessment passed.",
+      "refs": ["mobbin:60f6d746-a953-49ba-9af9-784ff378d031"]
+    },
+    {
+      "app": "Udemy",
+      "status": "yes",
+      "text": "Informational authoring: instructors enter public prerequisite/readiness text; enforced admission is not shown.",
+      "refs": ["mobbin:4b041654-20d2-49dd-8779-2f45211103f7"]
+    },
+    {
+      "app": "Skillshare",
+      "status": "yes",
+      "text": "Informational readiness only: Beginner level and skills are shown beside an available Watch Now action.",
+      "refs": ["mobbin:84584675-5845-46cc-a5bf-90fafdd128b4"]
+    },
+    {
+      "app": "Uxcel",
+      "status": "partial",
+      "text": "Beginner-friendly guidance suggests readiness; enrollment is available and the separate Pro upsell is commercial.",
+      "refs": ["mobbin:074a824b-a9f4-4e59-9039-fc5a59eb12c4"]
+    },
+    {
+      "app": "Podia",
+      "status": "unknown",
+      "text": "Publishing, availability, sign-up limits, and delayed release are shown; learning prerequisites are not observed.",
+      "refs": ["mobbin:94f6be70-d9b2-4363-8091-62d20f8d1f9e"]
+    },
+    {
+      "app": "Teachable",
+      "status": "unknown",
+      "text": "The sampled metadata step has no prerequisite control or learner enforcement evidence.",
+      "refs": ["refero:5f33c727-7dc2-479d-9000-e2728360224d"]
+    }
+  ],
+  "reject": [
+    {
+      "id": "mobbin:94f6be70-d9b2-4363-8091-62d20f8d1f9e",
+      "reason": "Publishing, sign-up limits, delayed release, and audience administration do not establish learning prerequisites."
+    },
+    {
+      "id": "refero:5f33c727-7dc2-479d-9000-e2728360224d",
+      "reason": "A title/description setup step without a prerequisite control cannot establish informational or enforced requirements."
+    }
+  ],
+  "takeCorrections": [
+    {
+      "id": "mobbin:6768ff06-2ec2-4e8b-8900-21500eb233a8",
+      "take": "The learner modal states enforced completion criteria—watch all content and score at least 70%—but does not show access being limited."
+    },
+    {
+      "id": "mobbin:60f6d746-a953-49ba-9af9-784ff378d031",
+      "take": "Kajabi explicitly configures a module lock based on completion of a selected lesson; assessment completion requires passing."
+    },
+    {
+      "id": "mobbin:074a824b-a9f4-4e59-9039-fc5a59eb12c4",
+      "take": "Uxcel shows beginner-friendly readiness messaging and open enrollment; the Pro-membership prompt is a commercial gate, not a learning prerequisite."
+    },
+    {
+      "id": "mobbin:4b041654-20d2-49dd-8779-2f45211103f7",
+      "take": "Udemy asks authors for public requirements/prerequisites text, including skills, experience, tools, or equipment; the field is informational and does not prove enforced admission."
+    }
+  ],
+  "counterCandidates": [
+    {
+      "id": "mobbin:84584675-5845-46cc-a5bf-90fafdd128b4",
+      "reason": "Shows readiness as learner-facing level and skills information while Watch Now remains available, with no observed enforcement."
+    }
+  ]
+}

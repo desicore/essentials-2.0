@@ -1,0 +1,1198 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: Essentials 2.0 · Design research · 09-announcements-send-materials
+    - heading "Announcements / Send learning materials or send to Canvas → Shareable link" [level=1] [ref=e5]
+    - paragraph [ref=e6]: "Internal board for the Essentials 2.0 solution concept (Semester → Courses → Announcements / send materials → Shareable link). Not about UI: each reference shows how another product lets someone running a course communicate from inside it: announce to everyone or a group, send selected files or links ahead of a session, choose the channel (portal feed, email, shareable link, Canvas LMS), schedule it, and see who received or opened it. One section per question; every card says what we would take from it. Counter-examples are flagged. Raw material from Mobbin and Refero, to be cut down in the converge pass before anything is shown outside the team."
+  - region [ref=e7]:
+    - heading "Synthesis" [level=2] [ref=e8]
+    - paragraph [ref=e9]:
+      - text: Read this first. Sections Q1–Q6 below hold the evidence cards; every product and reference id named here is in the report. Ids are shortened to their first block (for example
+      - code [ref=e10]: mobbin:3135010e
+      - text: ).
+    - heading "Top examples" [level=3] [ref=e11]
+    - list [ref=e12]:
+      - listitem [ref=e13]:
+        - strong [ref=e14]: The Leap
+        - text: (Refero,
+        - code [ref=e15]: refero:4564
+        - text: ") — one flow from recipient segment to confirmation to live open/click stats: the whole loop a course announcement needs, in eight steps."
+      - listitem [ref=e16]:
+        - strong [ref=e17]: Google Classroom
+        - text: (Refero,
+        - code [ref=e18]: refero:19605564
+        - text: ) — the audience dropdown ("For · All students") sits on the composer itself; the canonical LMS composer.
+      - listitem [ref=e19]:
+        - strong [ref=e20]: beehiiv
+        - text: (Mobbin,
+        - code [ref=e21]: mobbin:748e794e
+        - text: ) — one post object with Post / Email / Website tabs and a per-channel recipient summary before Send.
+      - listitem [ref=e22]:
+        - strong [ref=e23]: Basecamp
+        - text: (Mobbin,
+        - code [ref=e24]: mobbin:0bc24c79
+        - text: ) — separates "who should see this" from "who gets notified" inside one composer.
+      - listitem [ref=e25]:
+        - strong [ref=e26]: Mural
+        - text: (Mobbin,
+        - code [ref=e27]: mobbin:836e980f
+        - text: ) — a single access panel with access level, visitor-link level, password, timezone-stamped expiry and Reset link.
+      - listitem [ref=e28]:
+        - strong [ref=e29]: Navan
+        - text: (Mobbin,
+        - code [ref=e30]: mobbin:9d8af34f
+        - text: ) — per-person status table where you select the non-responders and "Send a reminder" without leaving it.
+      - listitem [ref=e31]:
+        - strong [ref=e32]: SchoolAI
+        - text: (Mobbin,
+        - code [ref=e33]: mobbin:3135010e
+        - text: ") — the only complete LMS hand-off: Export → permission → class picker → \"Exported to Google Classroom!\"."
+      - listitem [ref=e34]:
+        - strong [ref=e35]: Microsoft Teams
+        - text: (Mobbin,
+        - code [ref=e36]: mobbin:88ad5199
+        - text: ) — "Announcement" is a distinct post type with a bold title and replies attached; learners can tell it from chatter.
+    - heading "Pattern comparison" [level=3] [ref=e37]
+    - table [ref=e39]:
+      - rowgroup [ref=e40]:
+        - row [ref=e41]:
+          - columnheader "Product" [ref=e42]
+          - columnheader "Q1 Composer" [ref=e43]
+          - columnheader "Q2 Channel" [ref=e44]
+          - columnheader "Q3 Link controls" [ref=e45]
+          - columnheader "Q4 Feedback" [ref=e46]
+          - columnheader "Q5 LMS hand-off" [ref=e47]
+          - columnheader "Q6 Learner side" [ref=e48]
+      - rowgroup [ref=e49]:
+        - row [ref=e50]:
+          - cell "Google Classroom" [ref=e51]
+          - cell "✓ audience dropdown on composer" [ref=e52]
+          - cell "◐ stream post is the channel" [ref=e53]
+          - cell "✗" [ref=e54]
+          - cell "✗" [ref=e55]
+          - cell "✗ (destination only, via SchoolAI)" [ref=e56]
+          - cell "◐ stream doubles as learner feed" [ref=e57]
+        - row [ref=e58]:
+          - cell "Basecamp" [ref=e59]
+          - cell "◐ PDF + schedule, no audience" [ref=e60]
+          - cell "✓ see vs notify split" [ref=e61]
+          - cell "✗" [ref=e62]
+          - cell "✗" [ref=e63]
+          - cell "✗" [ref=e64]
+          - cell "✗" [ref=e65]
+        - row [ref=e66]:
+          - cell "Teachable" [ref=e67]
+          - cell "✓ everyone / course / individual" [ref=e68]
+          - cell "◐ email only" [ref=e69]
+          - cell "✗" [ref=e70]
+          - cell "◐ sent confirmation" [ref=e71]
+          - cell "✗" [ref=e72]
+          - cell "✗" [ref=e73]
+        - row [ref=e74]:
+          - cell "The Leap" [ref=e75]
+          - cell "✓ segments + confirm" [ref=e76]
+          - cell "◐ email only" [ref=e77]
+          - cell "✗" [ref=e78]
+          - cell "✓ open/click stats after send" [ref=e79]
+          - cell "✗" [ref=e80]
+          - cell "✗" [ref=e81]
+        - row [ref=e82]:
+          - cell "beehiiv" [ref=e83]
+          - cell "◐ schedule + exclusions" [ref=e84]
+          - cell "✓ channel tabs + recipient summary" [ref=e85]
+          - cell "✗" [ref=e86]
+          - cell "✗" [ref=e87]
+          - cell "✗" [ref=e88]
+          - cell "✗" [ref=e89]
+        - row [ref=e90]:
+          - cell "Slack" [ref=e91]
+          - cell "✓ schedule on send button" [ref=e92]
+          - cell "✗" [ref=e93]
+          - cell "✗" [ref=e94]
+          - cell "✗" [ref=e95]
+          - cell "✗" [ref=e96]
+          - cell "✓ Activity inbox, unread counts" [ref=e97]
+        - row [ref=e98]:
+          - cell "Notion" [ref=e99]
+          - cell "✗" [ref=e100]
+          - cell "✗" [ref=e101]
+          - cell "✓ level + expiry presets + Remove" [ref=e102]
+          - cell "✗" [ref=e103]
+          - cell "✗" [ref=e104]
+          - cell "✗" [ref=e105]
+        - row [ref=e106]:
+          - cell "Mural" [ref=e107]
+          - cell "✗" [ref=e108]
+          - cell "✗" [ref=e109]
+          - cell "✓ all five controls, reset link" [ref=e110]
+          - cell "✗" [ref=e111]
+          - cell "✗" [ref=e112]
+          - cell "✗" [ref=e113]
+        - row [ref=e114]:
+          - cell "Loom" [ref=e115]
+          - cell "✗" [ref=e116]
+          - cell "✗" [ref=e117]
+          - cell "✓ per-person level" [ref=e118]
+          - cell "◐ view count beside share" [ref=e119]
+          - cell "✗" [ref=e120]
+          - cell "✗" [ref=e121]
+        - row [ref=e122]:
+          - cell "Navan" [ref=e123]
+          - cell "✗" [ref=e124]
+          - cell "✗" [ref=e125]
+          - cell "✗" [ref=e126]
+          - cell "✓ per-person status + reminder" [ref=e127]
+          - cell "✗" [ref=e128]
+          - cell "✗" [ref=e129]
+        - row [ref=e130]:
+          - cell "SchoolAI" [ref=e131]
+          - cell "✗" [ref=e132]
+          - cell "✗" [ref=e133]
+          - cell "✗" [ref=e134]
+          - cell "✗" [ref=e135]
+          - cell "✓ export → permission → class → confirm" [ref=e136]
+          - cell "✗" [ref=e137]
+        - row [ref=e138]:
+          - cell "ClassDojo" [ref=e139]
+          - cell "✓ attach + schedule, one class" [ref=e140]
+          - cell "✗" [ref=e141]
+          - cell "✗" [ref=e142]
+          - cell "✗" [ref=e143]
+          - cell "✗" [ref=e144]
+          - cell "✓ pin, attachment and replies inline" [ref=e145]
+    - paragraph [ref=e146]: ✓ shown clearly in the referenced screens · ◐ partly shown or implicit · ✗ not shown in the references collected (not a claim that the product lacks it).
+    - heading "What the best apps do differently" [level=3] [ref=e147]
+    - list [ref=e148]:
+      - listitem [ref=e149]:
+        - strong [ref=e150]: They separate visibility from notification.
+        - text: Basecamp asks "who should see this?" and, separately, "when I post this, notify…" (
+        - code [ref=e151]: mobbin:0bc24c79
+        - text: ); beehiiv reconciles channels into a per-channel recipient count before Send (
+        - code [ref=e152]: mobbin:748e794e
+        - text: ). Substack collapses email and push into one default-on toggle (
+        - code [ref=e153]: mobbin:a7ebc4ec
+        - text: ), the simplest version of the same idea. Nobody in the set exposes an LMS as a channel inside the composer.
+      - listitem [ref=e154]:
+        - strong [ref=e155]: Scheduling is a property of the send button, not a feature.
+        - text: Slack's send dropdown with presets (
+        - code [ref=e156]: mobbin:fd356e91
+        - text: ), Whop's inline popover (
+        - code [ref=e157]: mobbin:16eb85ed
+        - text: ), Kit's send-time field that defaults to now (
+        - code [ref=e158]: mobbin:f722d4bb
+        - text: ), LinkedIn's clock icon (
+        - code [ref=e159]: refero:863
+        - text: ). Only Confluence adds an end date (
+        - code [ref=e160]: mobbin:fcc604e7
+        - text: ), the closest thing to "show this until the session".
+      - listitem [ref=e161]:
+        - strong [ref=e162]: Audience targeting is coarser than expected.
+        - text: Google Classroom offers "All students" or a selection (
+        - code [ref=e163]: refero:19605564
+        - text: ), Teachable everyone / course / individual (
+        - code [ref=e164]: refero:9617
+        - text: ), The Leap named segments (
+        - code [ref=e165]: refero:4564
+        - text: ). ClassDojo has no audience control at all because the class is the audience (
+        - code [ref=e166]: mobbin:53e9bdad
+        - text: ).
+      - listitem [ref=e167]:
+        - strong [ref=e168]: Feedback only matters when it is per person and has an action next to it.
+        - text: Navan selects non-responders and reminds them from the same table (
+        - code [ref=e169]: mobbin:9d8af34f
+        - text: ); Superhuman shows who opened, on which device, when, inline on the thread (
+        - code [ref=e170]: mobbin:ba56c2de
+        - text: ); HoneyBook branches the follow-up on "viewed within 1 day" (
+        - code [ref=e171]: mobbin:8afb0d65
+        - text: ); Docusign configures reminder cadence (
+        - code [ref=e172]: mobbin:e4a526c1
+        - text: ). Aggregate dashboards (HubSpot
+        - code [ref=e173]: mobbin:5814d24c
+        - text: ", Dub"
+        - code [ref=e174]: refero:2fe44823
+        - text: ) and Square's empty "Seen by" column (
+        - code [ref=e175]: mobbin:1c8c3422
+        - text: ) give a course manager nothing to act on.
+      - listitem [ref=e176]:
+        - strong [ref=e177]: Link controls converge on one panel with five questions.
+        - text: "Who can open, at what level, until when, with which password, how to revoke: Mural ("
+        - code [ref=e178]: mobbin:836e980f
+        - text: ), Proton (
+        - code [ref=e179]: mobbin:ef4fcd7f
+        - text: ), Notion with relative presets resolved to a date (
+        - code [ref=e180]: mobbin:cfca14fb
+        - text: ). Loom is the only one that puts view tracking beside the share (
+        - code [ref=e181]: refero:1242
+        - text: ). ClickUp (
+        - code [ref=e182]: mobbin:7f248abd
+        - text: ") is the counter-example: expiry defaults to Never, no level, revoke is Unpublish."
+      - listitem [ref=e183]:
+        - strong [ref=e184]: The LMS hand-off maps to a specific class and confirms.
+        - text: SchoolAI is the only complete example (
+        - code [ref=e185]: mobbin:3135010e
+        - text: ). Course platforms treat publishing as the send and never hand off (Kajabi
+        - code [ref=e186]: mobbin:9aa981d2
+        - text: ); generic connectors stop at authorization (Craft
+        - code [ref=e187]: mobbin:e9079303
+        - text: ", Cofounder"
+        - code [ref=e188]: mobbin:7897406d
+        - text: ", counter-example)."
+      - listitem [ref=e189]:
+        - strong [ref=e190]: On the learner side, announcements get their own type or place.
+        - text: Teams' "Announcement" post type (
+        - code [ref=e191]: mobbin:88ad5199
+        - text: ), Circle's separate Announcements space (
+        - code [ref=e192]: mobbin:c1b1c3ad
+        - text: ), ClassDojo's teacher-only Pin (
+        - code [ref=e193]: mobbin:3edf67a5
+        - text: ); unread state aggregated centrally in Slack Activity (
+        - code [ref=e194]: mobbin:8e65f9c9
+        - text: ); channel preference per category in Spotify (
+        - code [ref=e195]: refero:471b8f0c
+        - text: ). Coursera's undifferentiated Latest list is the counter-example (
+        - code [ref=e196]: mobbin:36db9592
+        - text: ).
+    - heading "Best practices top companies converge on" [level=3] [ref=e197]
+    - list [ref=e198]:
+      - listitem [ref=e199]: One composer for announcements and material sends; the post in the portal is the record, channels (email, push, link, LMS) are how people hear about it.
+      - listitem [ref=e200]: "Ask two questions, not one: who can see this (course / group / individuals) and who gets notified now."
+      - listitem [ref=e201]: Put "send now / schedule" on the send button with presets; add an optional end date for time-boxed material.
+      - listitem [ref=e202]: Attach materials by reference from the course library, not by re-upload (no product in the set does this; it is the gap Essentials can fill).
+      - listitem [ref=e203]: "Give the shareable link one panel: who, level, expiry (relative presets resolved to a date), password, revoke; show opens next to the link."
+      - listitem [ref=e204]: Report delivery per person with an action beside it (remind non-openers, optionally automatic before the session); aggregate counts are secondary.
+      - listitem [ref=e205]: "For the LMS hand-off: say what will be sent, map to one specific course, confirm with a toast, and keep the link back."
+      - listitem [ref=e206]: "On the learner side: a distinct announcement type, pinnable, with attachments and replies inline, and a central unread inbox that agrees with email."
+    - heading "Open questions for Essentials 2.0" [level=3] [ref=e207]
+    - list [ref=e208]:
+      - listitem [ref=e209]:
+        - strong [ref=e210]: Audience unit.
+        - text: The set targets by segment or course. For a simulation course the natural units are the course roster, the learner groups from sub-module 04, and the session cohort from 06; faculty and observers are a fourth audience nobody in the set models.
+      - listitem [ref=e211]:
+        - strong [ref=e212]: Materials by reference.
+        - text: Every composer uploads. If materials live in sub-module 02, an announcement should link to the library item, inherit its access, and show whether it is already released; no reference shows this.
+      - listitem [ref=e213]:
+        - strong [ref=e214]: Portal as source of truth.
+        - text: If the Learner Portal feed is the record, email and push are notifications of the same post, and the shareable link is a login-free view of it. That ties directly to the access-sharing module (magic links, time-boxed access); the link controls in Q3 should reuse those rules rather than add a second permission system.
+      - listitem [ref=e215]:
+        - strong [ref=e216]: Canvas hand-off object.
+        - text: SchoolAI sends a document to one class. For Canvas the open questions are what object is created (announcement, module item, or a link back to the portal), how an Essentials course maps to a Canvas course when they differ, what happens on edit after send, and whether the learner then has two places to look. No reference shows edit-after-send or re-sync.
+      - listitem [ref=e217]:
+        - strong [ref=e218]: "\"Seen\" in education."
+        - text: Superhuman-style per-person opens are useful before a simulation (did they read the pre-brief?) but may feel like surveillance to learners. Whether reminders are manual (Navan) or automatic before the session (Docusign / HoneyBook) is a product decision, not a pattern the set settles.
+      - listitem [ref=e219]:
+        - strong [ref=e220]: Scheduling against the session.
+        - text: Products schedule by date/time. Essentials could schedule relative to a session ("two days before", "after debrief"), which none of the references model.
+  - form "Filter references" [ref=e221]:
+    - generic [ref=e222]:
+      - generic [ref=e223] [cursor=pointer]:
+        - text: Search references
+        - searchbox "Search references" [ref=e224]
+      - generic [ref=e225] [cursor=pointer]:
+        - text: Source
+        - combobox "Source" [ref=e226]:
+          - option "All sources" [selected]
+          - option "Mobbin"
+          - option "Refero"
+      - generic [ref=e227] [cursor=pointer]:
+        - checkbox "Selected only" [ref=e228]
+        - text: Selected only
+      - button "Reset filters" [ref=e229] [cursor=pointer]
+    - group "Questions" [ref=e230]:
+      - generic [ref=e232]:
+        - 'generic "Composer: audience targeting (course / group / individual), attachment of course materials, scheduling" [ref=e233] [cursor=pointer]':
+          - 'checkbox "Q1: Composer: audience targeting (course / group / individual), attachment of course materials, scheduling" [checked] [ref=e234]'
+          - text: Q1
+        - generic "Channel choice (in-app feed, email, push, link, external LMS) and whether it is one composer or many features" [ref=e235] [cursor=pointer]:
+          - 'checkbox "Q2: Channel choice (in-app feed, email, push, link, external LMS) and whether it is one composer or many features" [checked] [ref=e236]'
+          - text: Q2
+        - generic "Shareable link controls (expiry, access level, revoke, tracking)" [ref=e237] [cursor=pointer]:
+          - 'checkbox "Q3: Shareable link controls (expiry, access level, revoke, tracking)" [checked] [ref=e238]'
+          - text: Q3
+        - generic "Delivery feedback (sent / delivered / seen, reminders)" [ref=e239] [cursor=pointer]:
+          - 'checkbox "Q4: Delivery feedback (sent / delivered / seen, reminders)" [checked] [ref=e240]'
+          - text: Q4
+        - generic "External LMS hand-off UX (auth, mapping to course, what is sent, confirmation)" [ref=e241] [cursor=pointer]:
+          - 'checkbox "Q5: External LMS hand-off UX (auth, mapping to course, what is sent, confirmation)" [checked] [ref=e242]'
+          - text: Q5
+        - generic "Learner-side reception (feed, notification, email) and consistency with the portal" [ref=e243] [cursor=pointer]:
+          - 'checkbox "Q6: Learner-side reception (feed, notification, email) and consistency with the portal" [checked] [ref=e244]'
+          - text: Q6
+  - status [ref=e245]: 42 of 42 references shown
+  - region [ref=e246]:
+    - generic [ref=e247]:
+      - generic [ref=e248]: Q1
+      - 'heading "Composer: audience targeting (course / group / individual), attachment of course materials, scheduling" [level=2] [ref=e249]'
+    - paragraph [ref=e250]: "Every composer in the set treats scheduling as a property of the send action, not a separate feature: Slack's send-button dropdown with presets and a custom date/time (mobbin:fd356e91), Whop's inline calendar popover (mobbin:16eb85ed), LinkedIn's clock icon (refero:863), Basecamp's 'Schedule and save' (mobbin:25c42c82). Audience targeting is rarer and coarser than the question assumes: Google Classroom puts a 'For / All students' dropdown directly above the text box (refero:19605564), Teachable offers everyone / a course / an individual (refero:9617), The Leap uses described segments (refero:4564), and Confluence only Public/Private plus a start–end window (mobbin:fcc604e7). Attachments are inline uploads (ClassDojo photo, Basecamp PDF, Whop image); nobody attaches from a course library. Only The Leap closes the loop from recipients through confirmation to open/click stats. Confluence's one-active-banner cap is the caveat: a persistent materials banner and a timely one cannot coexist."
+    - paragraph [ref=e251]: 9 of 9 references
+    - generic [ref=e252]:
+      - article [ref=e253]:
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - strong [ref=e256]: Basecamp
+            - generic [ref=e257]: Mobbin
+            - generic [ref=e258]: screen
+          - heading "Message scheduling with date/time and audience notification options" [level=3] [ref=e259]
+          - paragraph [ref=e260]: PDF-attached message composer with a clock-icon schedule popover (date/time, 'Schedule and save'); no audience or notification controls on this screen.
+          - link "View source ↗" [ref=e261] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/25c42c82-898e-423e-83aa-24f51379f3b9
+        - generic "Screen preview" [ref=e262]:
+          - figure "Screen · Click to enlarge" [ref=e263]:
+            - 'button "Open full-size: Basecamp — Message scheduling with date/time and audience notification options, image 1" [ref=e264]':
+              - img "Basecamp — Message scheduling with date/time and audience notification options, image 1" [ref=e265]
+      - article [ref=e267]:
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - strong [ref=e270]: ClassDojo
+            - generic [ref=e271]: Mobbin
+            - generic [ref=e272]: flow
+          - heading "Scheduling a post with file attachments flow" [level=3] [ref=e273]
+          - paragraph [ref=e274]: "New Post modal for one class: attach a photo, optional AI writing assist, then a calendar-and-time scheduler; there is no audience selector because the class is the audience."
+          - link "View source ↗" [ref=e275] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/53e9bdad-e9b2-43f9-9018-b50c458aed37
+        - generic "Flow steps in order; scroll horizontally" [ref=e276]:
+          - figure "Step 1 of 8 · Click to enlarge" [ref=e277]:
+            - 'button "Open full-size: ClassDojo — Scheduling a post with file attachments flow, step 1" [ref=e278]':
+              - img "ClassDojo — Scheduling a post with file attachments flow, step 1" [ref=e279]
+          - figure "Step 2 of 8 · Click to enlarge" [ref=e281]:
+            - 'button "Open full-size: ClassDojo — Scheduling a post with file attachments flow, step 2" [ref=e282]':
+              - img "ClassDojo — Scheduling a post with file attachments flow, step 2" [ref=e283]
+          - figure "Step 3 of 8 · Click to enlarge" [ref=e285]:
+            - 'button "Open full-size: ClassDojo — Scheduling a post with file attachments flow, step 3" [ref=e286]':
+              - img "ClassDojo — Scheduling a post with file attachments flow, step 3" [ref=e287]
+          - figure "Step 4 of 8 · Click to enlarge" [ref=e289]:
+            - 'button "Open full-size: ClassDojo — Scheduling a post with file attachments flow, step 4" [ref=e290]':
+              - img "ClassDojo — Scheduling a post with file attachments flow, step 4" [ref=e291]
+          - figure "Step 5 of 8 · Click to enlarge" [ref=e293]:
+            - 'button "Open full-size: ClassDojo — Scheduling a post with file attachments flow, step 5" [ref=e294]':
+              - img "ClassDojo — Scheduling a post with file attachments flow, step 5" [ref=e295]
+          - figure "Step 6 of 8 · Click to enlarge" [ref=e297]:
+            - 'button "Open full-size: ClassDojo — Scheduling a post with file attachments flow, step 6" [ref=e298]':
+              - img "ClassDojo — Scheduling a post with file attachments flow, step 6" [ref=e299]
+          - figure "Step 7 of 8 · Click to enlarge" [ref=e301]:
+            - 'button "Open full-size: ClassDojo — Scheduling a post with file attachments flow, step 7" [ref=e302]':
+              - img "ClassDojo — Scheduling a post with file attachments flow, step 7" [ref=e303]
+          - figure "Step 8 of 8 · Click to enlarge" [ref=e305]:
+            - 'button "Open full-size: ClassDojo — Scheduling a post with file attachments flow, step 8" [ref=e306]':
+              - img "ClassDojo — Scheduling a post with file attachments flow, step 8" [ref=e307]
+      - article [ref=e309]:
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - strong [ref=e312]: Confluence
+            - generic [ref=e313]: Mobbin
+            - generic [ref=e314]: flow
+          - heading "Creating an announcement flow" [level=3] [ref=e315]
+          - paragraph [ref=e316]: "Admin announcement-banner flow: title, banner style, Public/Private audience radio and an optional start/end date-time window with timezone; only one banner can be active at a time."
+          - link "View source ↗" [ref=e317] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/fcc604e7-819a-421f-8448-430d4e2f2fda
+        - generic "Flow steps in order; scroll horizontally" [ref=e318]:
+          - figure "Step 1 of 8 · Click to enlarge" [ref=e319]:
+            - 'button "Open full-size: Confluence — Creating an announcement flow, step 1" [ref=e320]':
+              - img "Confluence — Creating an announcement flow, step 1" [ref=e321]
+          - figure "Step 2 of 8 · Click to enlarge" [ref=e323]:
+            - 'button "Open full-size: Confluence — Creating an announcement flow, step 2" [ref=e324]':
+              - img "Confluence — Creating an announcement flow, step 2" [ref=e325]
+          - figure "Step 3 of 8 · Click to enlarge" [ref=e327]:
+            - 'button "Open full-size: Confluence — Creating an announcement flow, step 3" [ref=e328]':
+              - img "Confluence — Creating an announcement flow, step 3" [ref=e329]
+          - figure "Step 4 of 8 · Click to enlarge" [ref=e331]:
+            - 'button "Open full-size: Confluence — Creating an announcement flow, step 4" [ref=e332]':
+              - img "Confluence — Creating an announcement flow, step 4" [ref=e333]
+          - figure "Step 5 of 8 · Click to enlarge" [ref=e335]:
+            - 'button "Open full-size: Confluence — Creating an announcement flow, step 5" [ref=e336]':
+              - img "Confluence — Creating an announcement flow, step 5" [ref=e337]
+          - figure "Step 6 of 8 · Click to enlarge" [ref=e339]:
+            - 'button "Open full-size: Confluence — Creating an announcement flow, step 6" [ref=e340]':
+              - img "Confluence — Creating an announcement flow, step 6" [ref=e341]
+          - figure "Step 7 of 8 · Click to enlarge" [ref=e343]:
+            - 'button "Open full-size: Confluence — Creating an announcement flow, step 7" [ref=e344]':
+              - img "Confluence — Creating an announcement flow, step 7" [ref=e345]
+          - figure "Step 8 of 8 · Click to enlarge" [ref=e347]:
+            - 'button "Open full-size: Confluence — Creating an announcement flow, step 8" [ref=e348]':
+              - img "Confluence — Creating an announcement flow, step 8" [ref=e349]
+      - article [ref=e351]:
+        - generic [ref=e352]:
+          - generic [ref=e353]:
+            - strong [ref=e354]: Google Classroom
+            - generic [ref=e355]: Refero
+            - generic [ref=e356]: screen
+          - 'heading "Stream composer: \"Announce to class\" box with All students picker" [level=3] [ref=e357]'
+          - paragraph [ref=e358]: The class Stream page pairs a lightweight "Announce something to your class" text box with a "For / All students" audience dropdown directly above it, showing that audience targeting can live as one control next to the compose field instead of a separate step.
+          - link "View source ↗" [ref=e359] [cursor=pointer]:
+            - /url: https://refero.design/pages/19605564-a5ad-4b12-867b-678a4e2e6f13
+        - generic "Screen preview" [ref=e360]:
+          - figure "Screen · Click to enlarge" [ref=e361]:
+            - 'button "Open full-size: Google Classroom — Stream composer: \"Announce to class\" box with All students picker, image 1" [ref=e362]':
+              - 'img "Google Classroom — Stream composer: \"Announce to class\" box with All students picker, image 1" [ref=e363]'
+      - article [ref=e365]:
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - strong [ref=e368]: LinkedIn
+            - generic [ref=e369]: Refero
+            - generic [ref=e370]: flow
+          - 'heading "LinkedIn: compose a post, then open a date/time scheduling dialog" [level=3] [ref=e371]'
+          - paragraph [ref=e372]: LinkedIn's composer exposes a scheduling entry point in the compose toolbar that opens a dedicated date-and-time picker before the post is queued, showing how scheduling can be an optional side-dialog off the main composer rather than a separate screen or mode.
+          - link "View source ↗" [ref=e373] [cursor=pointer]:
+            - /url: https://refero.design/flows/863
+        - generic "Flow steps in order; scroll horizontally" [ref=e374]:
+          - figure "Step 1 of 3 · Click to enlarge" [ref=e375]:
+            - 'button "Open full-size: LinkedIn — LinkedIn: compose a post, then open a date/time scheduling dialog, step 1" [ref=e376]':
+              - 'img "LinkedIn — LinkedIn: compose a post, then open a date/time scheduling dialog, step 1" [ref=e377]'
+          - figure "Step 2 of 3 · Click to enlarge" [ref=e379]:
+            - 'button "Open full-size: LinkedIn — LinkedIn: compose a post, then open a date/time scheduling dialog, step 2" [ref=e380]':
+              - 'img "LinkedIn — LinkedIn: compose a post, then open a date/time scheduling dialog, step 2" [ref=e381]'
+          - figure "Step 3 of 3 · Click to enlarge" [ref=e383]:
+            - 'button "Open full-size: LinkedIn — LinkedIn: compose a post, then open a date/time scheduling dialog, step 3" [ref=e384]':
+              - 'img "LinkedIn — LinkedIn: compose a post, then open a date/time scheduling dialog, step 3" [ref=e385]'
+      - article [ref=e387]:
+        - generic [ref=e388]:
+          - generic [ref=e389]:
+            - strong [ref=e390]: Slack
+            - generic [ref=e391]: Mobbin
+            - generic [ref=e392]: flow
+          - heading "Scheduling a message flow" [level=3] [ref=e393]
+          - paragraph [ref=e394]: "Scheduling lives on the send button: a dropdown of presets or a custom date/time modal with timezone; channel targeting and attachments are not exercised in these steps."
+          - link "View source ↗" [ref=e395] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/fd356e91-8285-4f2c-a807-3cb7c80a5981
+        - generic "Flow steps in order; scroll horizontally" [ref=e396]:
+          - figure "Step 1 of 8 · Click to enlarge" [ref=e397]:
+            - 'button "Open full-size: Slack — Scheduling a message flow, step 1" [ref=e398]':
+              - img "Slack — Scheduling a message flow, step 1" [ref=e399]
+          - figure "Step 2 of 8 · Click to enlarge" [ref=e401]:
+            - 'button "Open full-size: Slack — Scheduling a message flow, step 2" [ref=e402]':
+              - img "Slack — Scheduling a message flow, step 2" [ref=e403]
+          - figure "Step 3 of 8 · Click to enlarge" [ref=e405]:
+            - 'button "Open full-size: Slack — Scheduling a message flow, step 3" [ref=e406]':
+              - img "Slack — Scheduling a message flow, step 3" [ref=e407]
+          - figure "Step 4 of 8 · Click to enlarge" [ref=e409]:
+            - 'button "Open full-size: Slack — Scheduling a message flow, step 4" [ref=e410]':
+              - img "Slack — Scheduling a message flow, step 4" [ref=e411]
+          - figure "Step 5 of 8 · Click to enlarge" [ref=e413]:
+            - 'button "Open full-size: Slack — Scheduling a message flow, step 5" [ref=e414]':
+              - img "Slack — Scheduling a message flow, step 5" [ref=e415]
+          - figure "Step 6 of 8 · Click to enlarge" [ref=e417]:
+            - 'button "Open full-size: Slack — Scheduling a message flow, step 6" [ref=e418]':
+              - img "Slack — Scheduling a message flow, step 6" [ref=e419]
+          - figure "Step 7 of 8 · Click to enlarge" [ref=e421]:
+            - 'button "Open full-size: Slack — Scheduling a message flow, step 7" [ref=e422]':
+              - img "Slack — Scheduling a message flow, step 7" [ref=e423]
+          - figure "Step 8 of 8 · Click to enlarge" [ref=e425]:
+            - 'button "Open full-size: Slack — Scheduling a message flow, step 8" [ref=e426]':
+              - img "Slack — Scheduling a message flow, step 8" [ref=e427]
+      - article [ref=e429]:
+        - generic [ref=e430]:
+          - generic [ref=e431]:
+            - strong [ref=e432]: Teachable
+            - generic [ref=e433]: Refero
+            - generic [ref=e434]: flow
+          - 'heading "Teachable: compose and send a broadcast email to a recipient group" [level=3] [ref=e435]'
+          - paragraph [ref=e436]: Announcement email composer with a Send-to dropdown (everyone / a course / an individual) plus subject and body, a confirm modal, then a sent state; no attachment is used.
+          - link "View source ↗" [ref=e437] [cursor=pointer]:
+            - /url: https://refero.design/flows/9617
+        - generic "Flow steps in order; scroll horizontally" [ref=e438]:
+          - figure "Step 1 of 4 · Click to enlarge" [ref=e439]:
+            - 'button "Open full-size: Teachable — Teachable: compose and send a broadcast email to a recipient group, step 1" [ref=e440]':
+              - 'img "Teachable — Teachable: compose and send a broadcast email to a recipient group, step 1" [ref=e441]'
+          - figure "Step 2 of 4 · Click to enlarge" [ref=e443]:
+            - 'button "Open full-size: Teachable — Teachable: compose and send a broadcast email to a recipient group, step 2" [ref=e444]':
+              - 'img "Teachable — Teachable: compose and send a broadcast email to a recipient group, step 2" [ref=e445]'
+          - figure "Step 3 of 4 · Click to enlarge" [ref=e447]:
+            - 'button "Open full-size: Teachable — Teachable: compose and send a broadcast email to a recipient group, step 3" [ref=e448]':
+              - 'img "Teachable — Teachable: compose and send a broadcast email to a recipient group, step 3" [ref=e449]'
+          - figure "Step 4 of 4 · Click to enlarge" [ref=e451]:
+            - 'button "Open full-size: Teachable — Teachable: compose and send a broadcast email to a recipient group, step 4" [ref=e452]':
+              - 'img "Teachable — Teachable: compose and send a broadcast email to a recipient group, step 4" [ref=e453]'
+      - article [ref=e455]:
+        - generic [ref=e456]:
+          - generic [ref=e457]:
+            - strong [ref=e458]: The Leap
+            - generic [ref=e459]: Refero
+            - generic [ref=e460]: flow
+          - 'heading "The Leap: broadcast composer with template, editor, and recipient segments" [level=3] [ref=e461]'
+          - paragraph [ref=e462]: The Leap's broadcast flow chains a template chooser into a rich-text editor with a dedicated recipients dropdown for picking one or more contact segments, then forces a review-and-confirm modal before send and finishes on a sent-state screen with immediate analytics — a model for pairing audience targeting with an explicit confirm step in a course composer.
+          - link "View source ↗" [ref=e463] [cursor=pointer]:
+            - /url: https://refero.design/flows/4564
+        - generic "Flow steps in order; scroll horizontally" [ref=e464]:
+          - figure "Step 1 of 8 · Click to enlarge" [ref=e465]:
+            - 'button "Open full-size: The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 1" [ref=e466]':
+              - 'img "The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 1" [ref=e467]'
+          - figure "Step 2 of 8 · Click to enlarge" [ref=e469]:
+            - 'button "Open full-size: The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 2" [ref=e470]':
+              - 'img "The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 2" [ref=e471]'
+          - figure "Step 3 of 8 · Click to enlarge" [ref=e473]:
+            - 'button "Open full-size: The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 3" [ref=e474]':
+              - 'img "The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 3" [ref=e475]'
+          - figure "Step 4 of 8 · Click to enlarge" [ref=e477]:
+            - 'button "Open full-size: The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 4" [ref=e478]':
+              - 'img "The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 4" [ref=e479]'
+          - figure "Step 5 of 8 · Click to enlarge" [ref=e481]:
+            - 'button "Open full-size: The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 5" [ref=e482]':
+              - 'img "The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 5" [ref=e483]'
+          - figure "Step 6 of 8 · Click to enlarge" [ref=e485]:
+            - 'button "Open full-size: The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 6" [ref=e486]':
+              - 'img "The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 6" [ref=e487]'
+          - figure "Step 7 of 8 · Click to enlarge" [ref=e489]:
+            - 'button "Open full-size: The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 7" [ref=e490]':
+              - 'img "The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 7" [ref=e491]'
+          - figure "Step 8 of 8 · Click to enlarge" [ref=e493]:
+            - 'button "Open full-size: The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 8" [ref=e494]':
+              - 'img "The Leap — The Leap: broadcast composer with template, editor, and recipient segments, step 8" [ref=e495]'
+      - article [ref=e497]:
+        - generic [ref=e498]:
+          - generic [ref=e499]:
+            - strong [ref=e500]: Whop
+            - generic [ref=e501]: Mobbin
+            - generic [ref=e502]: flow
+          - heading "Scheduling an announcement flow" [level=3] [ref=e503]
+          - paragraph [ref=e504]: Composer with an embedded image where an inline calendar popover switches the primary action between publish now and scheduled; no audience control.
+          - link "View source ↗" [ref=e505] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/16eb85ed-35c2-40ca-a1d5-feef221e7e3d
+        - generic "Flow steps in order; scroll horizontally" [ref=e506]:
+          - figure "Step 1 of 5 · Click to enlarge" [ref=e507]:
+            - 'button "Open full-size: Whop — Scheduling an announcement flow, step 1" [ref=e508]':
+              - img "Whop — Scheduling an announcement flow, step 1" [ref=e509]
+          - figure "Step 2 of 5 · Click to enlarge" [ref=e511]:
+            - 'button "Open full-size: Whop — Scheduling an announcement flow, step 2" [ref=e512]':
+              - img "Whop — Scheduling an announcement flow, step 2" [ref=e513]
+          - figure "Step 3 of 5 · Click to enlarge" [ref=e515]:
+            - 'button "Open full-size: Whop — Scheduling an announcement flow, step 3" [ref=e516]':
+              - img "Whop — Scheduling an announcement flow, step 3" [ref=e517]
+          - figure "Step 4 of 5 · Click to enlarge" [ref=e519]:
+            - 'button "Open full-size: Whop — Scheduling an announcement flow, step 4" [ref=e520]':
+              - img "Whop — Scheduling an announcement flow, step 4" [ref=e521]
+          - figure "Step 5 of 5 · Click to enlarge" [ref=e523]:
+            - 'button "Open full-size: Whop — Scheduling an announcement flow, step 5" [ref=e524]':
+              - img "Whop — Scheduling an announcement flow, step 5" [ref=e525]
+  - region [ref=e527]:
+    - generic [ref=e528]:
+      - generic [ref=e529]: Q2
+      - heading "Channel choice (in-app feed, email, push, link, external LMS) and whether it is one composer or many features" [level=2] [ref=e530]
+    - paragraph [ref=e531]: "Two models. 'One composer, many channels' puts the channel as a control on the same post: beehiiv's Post / Email / Website / Delivery tabs reconcile into a per-channel recipient summary before sending (mobbin:748e794e); Kit layers a 'Publish to web' opt-in over a default email send (mobbin:f722d4bb); Intercom folds platform (web / iOS / Android) and push into one panel (mobbin:7380bc5c). 'Implicit channel' treats the in-app post as the channel and only asks who is notified: Basecamp separates 'who should see this' from 'when I post this, notify…' (mobbin:0bc24c79), and Substack bundles email and push into a single default-on 'notify subscribers' toggle (mobbin:a7ebc4ec). Nobody in the set exposes an external LMS as a channel inside the composer; that lives in an export menu (see Q5). The useful distinction for a course is visibility versus notification: the post is the record, the channels are how people hear about it."
+    - paragraph [ref=e532]: 5 of 5 references
+    - generic [ref=e533]:
+      - article [ref=e534]:
+        - generic [ref=e535]:
+          - generic [ref=e536]:
+            - strong [ref=e537]: Basecamp
+            - generic [ref=e538]: Mobbin
+            - generic [ref=e539]: screen
+          - heading "Message with notification recipient and audience control" [level=3] [ref=e540]
+          - paragraph [ref=e541]: One message-board composer that separates 'Who should see this?' (team only vs allow client) from 'When I post this, notify…' (requester / everyone I select / no one); the in-app post is the channel.
+          - link "View source ↗" [ref=e542] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/0bc24c79-1906-420b-8c71-4c4c9fada060
+        - generic "Screen preview" [ref=e543]:
+          - figure "Screen · Click to enlarge" [ref=e544]:
+            - 'button "Open full-size: Basecamp — Message with notification recipient and audience control, image 1" [ref=e545]':
+              - img "Basecamp — Message with notification recipient and audience control, image 1" [ref=e546]
+      - article [ref=e548]:
+        - generic [ref=e549]:
+          - generic [ref=e550]:
+            - strong [ref=e551]: beehiiv
+            - generic [ref=e552]: Mobbin
+            - generic [ref=e553]: screen
+          - heading "Excluded segments and delivery options" [level=3] [ref=e554]
+          - paragraph [ref=e555]: "Delivery tab of a single post object with Post / Email / Website / SEO tabs: segment exclusions, a web-access toggle and a per-channel recipient summary (Email: 6, Web: all free subscribers) before Schedule or Send."
+          - link "View source ↗" [ref=e556] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/748e794e-69b4-4b84-81e8-eb81c5e32f85
+        - generic "Screen preview" [ref=e557]:
+          - figure "Screen · Click to enlarge" [ref=e558]:
+            - 'button "Open full-size: beehiiv — Excluded segments and delivery options, image 1" [ref=e559]':
+              - img "beehiiv — Excluded segments and delivery options, image 1" [ref=e560]
+      - article [ref=e562]:
+        - generic [ref=e563]:
+          - generic [ref=e564]:
+            - strong [ref=e565]: Intercom
+            - generic [ref=e566]: Mobbin
+            - generic [ref=e567]: screen
+          - heading "Run a test with email collector and push notification options" [level=3] [ref=e568]
+          - paragraph [ref=e569]: Content tab of one message composer mixing reply type (chat vs email collector), platform (Web / iOS / Android) and a mobile push toggle in a single panel; audience routing is not on this screen.
+          - link "View source ↗" [ref=e570] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/7380bc5c-aee1-470d-afae-832b147f9e1b
+        - generic "Screen preview" [ref=e571]:
+          - figure "Screen · Click to enlarge" [ref=e572]:
+            - 'button "Open full-size: Intercom — Run a test with email collector and push notification options, image 1" [ref=e573]':
+              - img "Intercom — Run a test with email collector and push notification options, image 1" [ref=e574]
+      - article [ref=e576]:
+        - generic [ref=e577]:
+          - generic [ref=e578]:
+            - strong [ref=e579]: Kit
+            - generic [ref=e580]: Mobbin
+            - generic [ref=e581]: screen
+          - heading "Send list with audience and delivery channel selection" [level=3] [ref=e582]
+          - paragraph [ref=e583]: Single broadcast composer with an audience filter builder, a send-time field that defaults to 'Send now', and a 'Publish to web' toggle as an extra channel on top of the default email.
+          - link "View source ↗" [ref=e584] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/f722d4bb-07d8-409a-9b9b-4c12cbcfaec9
+        - generic "Screen preview" [ref=e585]:
+          - figure "Screen · Click to enlarge" [ref=e586]:
+            - 'button "Open full-size: Kit — Send list with audience and delivery channel selection, image 1" [ref=e587]':
+              - img "Kit — Send list with audience and delivery channel selection, image 1" [ref=e588]
+      - article [ref=e590]:
+        - generic [ref=e591]:
+          - generic [ref=e592]:
+            - strong [ref=e593]: Substack
+            - generic [ref=e594]: Mobbin
+            - generic [ref=e595]: screen
+          - heading "Publish with audience and delivery notification iOS" [level=3] [ref=e596]
+          - paragraph [ref=e597]: iOS publish modal showing audience (who can view), notification delivery toggle for email/push, and send controls.
+          - link "View source ↗" [ref=e598] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/a7ebc4ec-996c-4383-9eff-adb43819f10c
+        - generic "Screen preview" [ref=e599]:
+          - figure "Screen · Click to enlarge" [ref=e600]:
+            - 'button "Open full-size: Substack — Publish with audience and delivery notification iOS, image 1" [ref=e601]':
+              - img "Substack — Publish with audience and delivery notification iOS, image 1" [ref=e602]
+  - region [ref=e604]:
+    - generic [ref=e605]:
+      - generic [ref=e606]: Q3
+      - heading "Shareable link controls (expiry, access level, revoke, tracking)" [level=2] [ref=e607]
+    - paragraph [ref=e608]: "Link controls converge on one panel with five questions: who can open (anyone / workspace / specific people), at what level (view / comment / edit), until when, with which password, and how to revoke. Mural shows all five, including a timezone-stamped expiry and a 'Reset visitor link' that regenerates rather than merely disables (mobbin:836e980f); Proton has expiry, password and 'Stop sharing' (mobbin:ef4fcd7f); Notion resolves relative presets ('in a week') to an absolute date inline and ends with a red Remove (mobbin:cfca14fb). Coda (mobbin:c333ff8e), Dropbox (mobbin:777c4ef0) and Sketch (mobbin:1fb17c11) focus on tiered access (workspace / guests / everyone) and per-person levels, with Copy link always in the same corner; Sketch splits public rights into download versus comment checkboxes. Only Loom shows tracking next to the share ('No views yet', refero:1242). ClickUp is the counter-example (mobbin:7f248abd): expiry defaults to Never with no presets, no access level, and the only revoke is an all-or-nothing Unpublish."
+    - paragraph [ref=e609]: 8 of 8 references
+    - generic [ref=e610]:
+      - article [ref=e611]:
+        - generic [ref=e612]:
+          - generic [ref=e613]:
+            - strong [ref=e614]: ClickUp
+            - generic [ref=e615]: Mobbin
+            - generic [ref=e616]: screen
+          - heading "Share link with expiration settings (iOS)" [level=3] [ref=e617]
+          - generic [ref=e618]: Counter-example
+          - paragraph [ref=e619]: "Public tab of the share sheet: public link, 'Expire link after: Never' with no presets, search-engine toggle, per-field visibility toggles, and Unpublish as the only, all-or-nothing revoke."
+          - link "View source ↗" [ref=e620] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/7f248abd-f90a-4477-a2a7-8b9aa0cbcc10
+        - generic "Screen preview" [ref=e621]:
+          - figure "Screen · Click to enlarge" [ref=e622]:
+            - 'button "Open full-size: ClickUp — Share link with expiration settings (iOS), image 1" [ref=e623]':
+              - img "ClickUp — Share link with expiration settings (iOS), image 1" [ref=e624]
+      - article [ref=e626]:
+        - generic [ref=e627]:
+          - generic [ref=e628]:
+            - strong [ref=e629]: Coda
+            - generic [ref=e630]: Mobbin
+            - generic [ref=e631]: flow
+          - heading "Sharing a doc" [level=3] [ref=e632]
+          - paragraph [ref=e633]: Complete flow showing access mode selection (anyone, specific people), recipient selection, copy link action, and permission confirmation in a document sharing dialog.
+          - link "View source ↗" [ref=e634] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/c333ff8e-e76b-44a7-ba91-3f29d4dfbd7f
+        - generic "Flow steps in order; scroll horizontally" [ref=e635]:
+          - figure "Step 1 of 8 · Click to enlarge" [ref=e636]:
+            - 'button "Open full-size: Coda — Sharing a doc, step 1" [ref=e637]':
+              - img "Coda — Sharing a doc, step 1" [ref=e638]
+          - figure "Step 2 of 8 · Click to enlarge" [ref=e640]:
+            - 'button "Open full-size: Coda — Sharing a doc, step 2" [ref=e641]':
+              - img "Coda — Sharing a doc, step 2" [ref=e642]
+          - figure "Step 3 of 8 · Click to enlarge" [ref=e644]:
+            - 'button "Open full-size: Coda — Sharing a doc, step 3" [ref=e645]':
+              - img "Coda — Sharing a doc, step 3" [ref=e646]
+          - figure "Step 4 of 8 · Click to enlarge" [ref=e648]:
+            - 'button "Open full-size: Coda — Sharing a doc, step 4" [ref=e649]':
+              - img "Coda — Sharing a doc, step 4" [ref=e650]
+          - figure "Step 5 of 8 · Click to enlarge" [ref=e652]:
+            - 'button "Open full-size: Coda — Sharing a doc, step 5" [ref=e653]':
+              - img "Coda — Sharing a doc, step 5" [ref=e654]
+          - figure "Step 6 of 8 · Click to enlarge" [ref=e656]:
+            - 'button "Open full-size: Coda — Sharing a doc, step 6" [ref=e657]':
+              - img "Coda — Sharing a doc, step 6" [ref=e658]
+          - figure "Step 7 of 8 · Click to enlarge" [ref=e660]:
+            - 'button "Open full-size: Coda — Sharing a doc, step 7" [ref=e661]':
+              - img "Coda — Sharing a doc, step 7" [ref=e662]
+          - figure "Step 8 of 8 · Click to enlarge" [ref=e664]:
+            - 'button "Open full-size: Coda — Sharing a doc, step 8" [ref=e665]':
+              - img "Coda — Sharing a doc, step 8" [ref=e666]
+      - article [ref=e668]:
+        - generic [ref=e669]:
+          - generic [ref=e670]:
+            - strong [ref=e671]: Dropbox
+            - generic [ref=e672]: Mobbin
+            - generic [ref=e673]: flow
+          - heading "Sharing a document" [level=3] [ref=e674]
+          - paragraph [ref=e675]: "Share dialog with an 'Anyone with this link: can edit' dropdown, add-person-by-email with a note, and Copy link; expiration and password sit behind an unopened Settings link."
+          - link "View source ↗" [ref=e676] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/777c4ef0-4481-474a-9a3c-10637247e000
+        - generic "Flow steps in order; scroll horizontally" [ref=e677]:
+          - figure "Step 1 of 5 · Click to enlarge" [ref=e678]:
+            - 'button "Open full-size: Dropbox — Sharing a document, step 1" [ref=e679]':
+              - img "Dropbox — Sharing a document, step 1" [ref=e680]
+          - figure "Step 2 of 5 · Click to enlarge" [ref=e682]:
+            - 'button "Open full-size: Dropbox — Sharing a document, step 2" [ref=e683]':
+              - img "Dropbox — Sharing a document, step 2" [ref=e684]
+          - figure "Step 3 of 5 · Click to enlarge" [ref=e686]:
+            - 'button "Open full-size: Dropbox — Sharing a document, step 3" [ref=e687]':
+              - img "Dropbox — Sharing a document, step 3" [ref=e688]
+          - figure "Step 4 of 5 · Click to enlarge" [ref=e690]:
+            - 'button "Open full-size: Dropbox — Sharing a document, step 4" [ref=e691]':
+              - img "Dropbox — Sharing a document, step 4" [ref=e692]
+          - figure "Step 5 of 5 · Click to enlarge" [ref=e694]:
+            - 'button "Open full-size: Dropbox — Sharing a document, step 5" [ref=e695]':
+              - img "Dropbox — Sharing a document, step 5" [ref=e696]
+      - article [ref=e698]:
+        - generic [ref=e699]:
+          - generic [ref=e700]:
+            - strong [ref=e701]: Loom
+            - generic [ref=e702]: Refero
+            - generic [ref=e703]: flow
+          - 'heading "Loom: share dialog with per-person permission level and invited list" [level=3] [ref=e704]'
+          - paragraph [ref=e705]: Loom's Share dialog lets the owner add a person or Space and set a permission level (e.g. Can view) before sending the invite, then confirms the person now appears in an invited/access list — a pattern for showing who currently has access to a shared item, not just generating a link.
+          - link "View source ↗" [ref=e706] [cursor=pointer]:
+            - /url: https://refero.design/flows/1242
+        - generic "Flow steps in order; scroll horizontally" [ref=e707]:
+          - figure "Step 1 of 4 · Click to enlarge" [ref=e708]:
+            - 'button "Open full-size: Loom — Loom: share dialog with per-person permission level and invited list, step 1" [ref=e709]':
+              - 'img "Loom — Loom: share dialog with per-person permission level and invited list, step 1" [ref=e710]'
+          - figure "Step 2 of 4 · Click to enlarge" [ref=e712]:
+            - 'button "Open full-size: Loom — Loom: share dialog with per-person permission level and invited list, step 2" [ref=e713]':
+              - 'img "Loom — Loom: share dialog with per-person permission level and invited list, step 2" [ref=e714]'
+          - figure "Step 3 of 4 · Click to enlarge" [ref=e716]:
+            - 'button "Open full-size: Loom — Loom: share dialog with per-person permission level and invited list, step 3" [ref=e717]':
+              - 'img "Loom — Loom: share dialog with per-person permission level and invited list, step 3" [ref=e718]'
+          - figure "Step 4 of 4 · Click to enlarge" [ref=e720]:
+            - 'button "Open full-size: Loom — Loom: share dialog with per-person permission level and invited list, step 4" [ref=e721]':
+              - 'img "Loom — Loom: share dialog with per-person permission level and invited list, step 4" [ref=e722]'
+      - article [ref=e724]:
+        - generic [ref=e725]:
+          - generic [ref=e726]:
+            - strong [ref=e727]: Mural
+            - generic [ref=e728]: Mobbin
+            - generic [ref=e729]: screen
+          - heading "Link sharing access and expiration settings" [level=3] [ref=e730]
+          - paragraph [ref=e731]: Access and settings panel showing restricted/general access options, visitor link access controls, expiration date, password, and reset visitor link button.
+          - link "View source ↗" [ref=e732] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/836e980f-286d-4092-a9dd-799a8ebb6bce
+        - generic "Screen preview" [ref=e733]:
+          - figure "Screen · Click to enlarge" [ref=e734]:
+            - 'button "Open full-size: Mural — Link sharing access and expiration settings, image 1" [ref=e735]':
+              - img "Mural — Link sharing access and expiration settings, image 1" [ref=e736]
+      - article [ref=e738]:
+        - generic [ref=e739]:
+          - generic [ref=e740]:
+            - strong [ref=e741]: Notion
+            - generic [ref=e742]: Mobbin
+            - generic [ref=e743]: screen
+          - heading "Link expiration and access controls (iOS)" [level=3] [ref=e744]
+          - paragraph [ref=e745]: iOS link access dialog showing access level options (can edit, can comment, can view), link expiration with time presets (1 hour, 1 day, 1 week), and remove access option.
+          - link "View source ↗" [ref=e746] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/cfca14fb-a833-4bf6-b549-9e646bac5ec9
+        - generic "Screen preview" [ref=e747]:
+          - figure "Screen · Click to enlarge" [ref=e748]:
+            - 'button "Open full-size: Notion — Link expiration and access controls (iOS), image 1" [ref=e749]':
+              - img "Notion — Link expiration and access controls (iOS), image 1" [ref=e750]
+      - article [ref=e752]:
+        - generic [ref=e753]:
+          - generic [ref=e754]:
+            - strong [ref=e755]: Proton
+            - generic [ref=e756]: Mobbin
+            - generic [ref=e757]: screen
+          - heading "Share link settings with expiration and password" [level=3] [ref=e758]
+          - paragraph [ref=e759]: Settings dialog for shared link with expiration date field, password requirement toggle, and stop sharing option to revoke access.
+          - link "View source ↗" [ref=e760] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/ef4fcd7f-0f50-47de-9df4-b67bf14bda2d
+        - generic "Screen preview" [ref=e761]:
+          - figure "Screen · Click to enlarge" [ref=e762]:
+            - 'button "Open full-size: Proton — Share link settings with expiration and password, image 1" [ref=e763]':
+              - img "Proton — Share link settings with expiration and password, image 1" [ref=e764]
+      - article [ref=e766]:
+        - generic [ref=e767]:
+          - generic [ref=e768]:
+            - strong [ref=e769]: Sketch
+            - generic [ref=e770]: Mobbin
+            - generic [ref=e771]: flow
+          - heading "Share a document with permissions" [level=3] [ref=e772]
+          - paragraph [ref=e773]: Share dialog with three access tiers (Workspace members / Guests / Everyone); the public-link tier has a view-or-no-access radio plus separate Inspect-and-download and Comment checkboxes, Copy Link fixed top-right.
+          - link "View source ↗" [ref=e774] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/1fb17c11-dd5b-4d8c-928f-6b1b64c444fc
+        - generic "Flow steps in order; scroll horizontally" [ref=e775]:
+          - figure "Step 1 of 4 · Click to enlarge" [ref=e776]:
+            - 'button "Open full-size: Sketch — Share a document with permissions, step 1" [ref=e777]':
+              - img "Sketch — Share a document with permissions, step 1" [ref=e778]
+          - figure "Step 2 of 4 · Click to enlarge" [ref=e780]:
+            - 'button "Open full-size: Sketch — Share a document with permissions, step 2" [ref=e781]':
+              - img "Sketch — Share a document with permissions, step 2" [ref=e782]
+          - figure "Step 3 of 4 · Click to enlarge" [ref=e784]:
+            - 'button "Open full-size: Sketch — Share a document with permissions, step 3" [ref=e785]':
+              - img "Sketch — Share a document with permissions, step 3" [ref=e786]
+          - figure "Step 4 of 4 · Click to enlarge" [ref=e788]:
+            - 'button "Open full-size: Sketch — Share a document with permissions, step 4" [ref=e789]':
+              - img "Sketch — Share a document with permissions, step 4" [ref=e790]
+  - region [ref=e792]:
+    - generic [ref=e793]:
+      - generic [ref=e794]: Q4
+      - heading "Delivery feedback (sent / delivered / seen, reminders)" [level=2] [ref=e795]
+    - paragraph [ref=e796]: "Feedback is worth having only when it is per person and has an action next to it. Navan lists each invitee with a status, lets you select the non-responders and 'Send a reminder' from the same table (mobbin:9d8af34f); Superhuman shows per-person, per-device, timestamped opens inline on the thread itself (mobbin:ba56c2de). Automation goes further: HoneyBook branches the follow-up on 'file viewed within 1 day' (mobbin:8afb0d65); Docusign lets you set the days before the first reminder and the repeat interval (mobbin:e4a526c1). Newsletter tools lead with aggregate counters (Mailchimp mobbin:6db18da5, HubSpot mobbin:5814d24c; Dub for link clicks, refero:2fe44823) and keep per-recipient detail one tab away (Outseta's Recipients tab with last-opened timestamps, mobbin:34451b74). WhatsApp's Delivered / Read is the minimum: two states, one recipient (mobbin:5580e66f). Square's Announcements list is the caution (mobbin:1c8c3422): a 'Seen by' column that shows nothing and offers no follow-up action."
+    - paragraph [ref=e797]: 10 of 10 references
+    - generic [ref=e798]:
+      - article [ref=e799]:
+        - generic [ref=e800]:
+          - generic [ref=e801]:
+            - strong [ref=e802]: Docusign
+            - generic [ref=e803]: Mobbin
+            - generic [ref=e804]: flow
+          - heading "Turning on auto reminders with conditions" [level=3] [ref=e805]
+          - paragraph [ref=e806]: "Advanced reminder setup: expiration date, recipient privileges, auto-reminder toggle, days before first reminder, repeat interval, and custom number of days config."
+          - link "View source ↗" [ref=e807] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/e4a526c1-f462-45b3-9f07-777742cc3701
+        - generic "Flow steps in order; scroll horizontally" [ref=e808]:
+          - figure "Step 1 of 8 · Click to enlarge" [ref=e809]:
+            - 'button "Open full-size: Docusign — Turning on auto reminders with conditions, step 1" [ref=e810]':
+              - img "Docusign — Turning on auto reminders with conditions, step 1" [ref=e811]
+          - figure "Step 2 of 8 · Click to enlarge" [ref=e813]:
+            - 'button "Open full-size: Docusign — Turning on auto reminders with conditions, step 2" [ref=e814]':
+              - img "Docusign — Turning on auto reminders with conditions, step 2" [ref=e815]
+          - figure "Step 3 of 8 · Click to enlarge" [ref=e817]:
+            - 'button "Open full-size: Docusign — Turning on auto reminders with conditions, step 3" [ref=e818]':
+              - img "Docusign — Turning on auto reminders with conditions, step 3" [ref=e819]
+          - figure "Step 4 of 8 · Click to enlarge" [ref=e821]:
+            - 'button "Open full-size: Docusign — Turning on auto reminders with conditions, step 4" [ref=e822]':
+              - img "Docusign — Turning on auto reminders with conditions, step 4" [ref=e823]
+          - figure "Step 5 of 8 · Click to enlarge" [ref=e825]:
+            - 'button "Open full-size: Docusign — Turning on auto reminders with conditions, step 5" [ref=e826]':
+              - img "Docusign — Turning on auto reminders with conditions, step 5" [ref=e827]
+          - figure "Step 6 of 8 · Click to enlarge" [ref=e829]:
+            - 'button "Open full-size: Docusign — Turning on auto reminders with conditions, step 6" [ref=e830]':
+              - img "Docusign — Turning on auto reminders with conditions, step 6" [ref=e831]
+          - figure "Step 7 of 8 · Click to enlarge" [ref=e833]:
+            - 'button "Open full-size: Docusign — Turning on auto reminders with conditions, step 7" [ref=e834]':
+              - img "Docusign — Turning on auto reminders with conditions, step 7" [ref=e835]
+          - figure "Step 8 of 8 · Click to enlarge" [ref=e837]:
+            - 'button "Open full-size: Docusign — Turning on auto reminders with conditions, step 8" [ref=e838]':
+              - img "Docusign — Turning on auto reminders with conditions, step 8" [ref=e839]
+      - article [ref=e841]:
+        - generic [ref=e842]:
+          - generic [ref=e843]:
+            - strong [ref=e844]: Dub
+            - generic [ref=e845]: Refero
+            - generic [ref=e846]: screen
+          - 'heading "Dub link analytics: clicks/leads/sales for a tagged share link" [level=3] [ref=e847]'
+          - paragraph [ref=e848]: Dub's Analytics view shows Clicks/Leads/Sales counters plus a time-series chart for links filtered by tag, evidence that link-level delivery feedback can be a few aggregate counters and a trend line rather than a per-recipient log of who clicked.
+          - link "View source ↗" [ref=e849] [cursor=pointer]:
+            - /url: https://refero.design/pages/2fe44823-76a1-42a1-98d6-8ac79e5dc594
+        - generic "Screen preview" [ref=e850]:
+          - figure "Screen · Click to enlarge" [ref=e851]:
+            - 'button "Open full-size: Dub — Dub link analytics: clicks/leads/sales for a tagged share link, image 1" [ref=e852]':
+              - 'img "Dub — Dub link analytics: clicks/leads/sales for a tagged share link, image 1" [ref=e853]'
+      - article [ref=e855]:
+        - generic [ref=e856]:
+          - generic [ref=e857]:
+            - strong [ref=e858]: HoneyBook
+            - generic [ref=e859]: Mobbin
+            - generic [ref=e860]: flow
+          - heading "Adding conditions for automated reminders" [level=3] [ref=e861]
+          - paragraph [ref=e862]: "Workflow showing automation setup: send email, wait for 1 day, check if file was viewed within that period, then branch to send different followup emails."
+          - link "View source ↗" [ref=e863] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/8afb0d65-fa9a-48b9-9652-b4ac556b4459
+        - generic "Flow steps in order; scroll horizontally" [ref=e864]:
+          - figure "Step 1 of 4 · Click to enlarge" [ref=e865]:
+            - 'button "Open full-size: HoneyBook — Adding conditions for automated reminders, step 1" [ref=e866]':
+              - img "HoneyBook — Adding conditions for automated reminders, step 1" [ref=e867]
+          - figure "Step 2 of 4 · Click to enlarge" [ref=e869]:
+            - 'button "Open full-size: HoneyBook — Adding conditions for automated reminders, step 2" [ref=e870]':
+              - img "HoneyBook — Adding conditions for automated reminders, step 2" [ref=e871]
+          - figure "Step 3 of 4 · Click to enlarge" [ref=e873]:
+            - 'button "Open full-size: HoneyBook — Adding conditions for automated reminders, step 3" [ref=e874]':
+              - img "HoneyBook — Adding conditions for automated reminders, step 3" [ref=e875]
+          - figure "Step 4 of 4 · Click to enlarge" [ref=e877]:
+            - 'button "Open full-size: HoneyBook — Adding conditions for automated reminders, step 4" [ref=e878]':
+              - img "HoneyBook — Adding conditions for automated reminders, step 4" [ref=e879]
+      - article [ref=e881]:
+        - generic [ref=e882]:
+          - generic [ref=e883]:
+            - strong [ref=e884]: HubSpot
+            - generic [ref=e885]: Mobbin
+            - generic [ref=e886]: screen
+          - heading "Email campaign recipient engagement metrics" [level=3] [ref=e887]
+          - paragraph [ref=e888]: Campaign Analyze tab with aggregate metrics only (Sent, Delivered rate, Open / Click / Reply rate, bounce, unsubscribe, spam); no per-recipient list or action on this screen.
+          - link "View source ↗" [ref=e889] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/5814d24c-84ba-4c75-9aaa-a0466693f385
+        - generic "Screen preview" [ref=e890]:
+          - figure "Screen · Click to enlarge" [ref=e891]:
+            - 'button "Open full-size: HubSpot — Email campaign recipient engagement metrics, image 1" [ref=e892]':
+              - img "HubSpot — Email campaign recipient engagement metrics, image 1" [ref=e893]
+      - article [ref=e895]:
+        - generic [ref=e896]:
+          - generic [ref=e897]:
+            - strong [ref=e898]: Mailchimp
+            - generic [ref=e899]: Mobbin
+            - generic [ref=e900]: screen
+          - heading "Email campaign report with sent, opened, clicked counts" [level=3] [ref=e901]
+          - paragraph [ref=e902]: Campaign analytics overview showing 3 recipients, delivered, clicked, bounced, unsubscribed counts; recipient activity tab with open/click tracking per recipient.
+          - link "View source ↗" [ref=e903] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/6db18da5-ec40-44da-bddb-6f6b3a4b7e61
+        - generic "Screen preview" [ref=e904]:
+          - figure "Screen · Click to enlarge" [ref=e905]:
+            - 'button "Open full-size: Mailchimp — Email campaign report with sent, opened, clicked counts, image 1" [ref=e906]':
+              - img "Mailchimp — Email campaign report with sent, opened, clicked counts, image 1" [ref=e907]
+      - article [ref=e909]:
+        - generic [ref=e910]:
+          - generic [ref=e911]:
+            - strong [ref=e912]: Navan
+            - generic [ref=e913]: Mobbin
+            - generic [ref=e914]: flow
+          - heading "Sending a reminder to non-responders" [level=3] [ref=e915]
+          - paragraph [ref=e916]: Flow showing invite creation, reminder selection from invite list, and confirmation to send reminder email to selected non-responders.
+          - link "View source ↗" [ref=e917] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/9d8af34f-5293-47eb-92cd-faba0c6e0dc7
+        - generic "Flow steps in order; scroll horizontally" [ref=e918]:
+          - figure "Step 1 of 4 · Click to enlarge" [ref=e919]:
+            - 'button "Open full-size: Navan — Sending a reminder to non-responders, step 1" [ref=e920]':
+              - img "Navan — Sending a reminder to non-responders, step 1" [ref=e921]
+          - figure "Step 2 of 4 · Click to enlarge" [ref=e923]:
+            - 'button "Open full-size: Navan — Sending a reminder to non-responders, step 2" [ref=e924]':
+              - img "Navan — Sending a reminder to non-responders, step 2" [ref=e925]
+          - figure "Step 3 of 4 · Click to enlarge" [ref=e927]:
+            - 'button "Open full-size: Navan — Sending a reminder to non-responders, step 3" [ref=e928]':
+              - img "Navan — Sending a reminder to non-responders, step 3" [ref=e929]
+          - figure "Step 4 of 4 · Click to enlarge" [ref=e931]:
+            - 'button "Open full-size: Navan — Sending a reminder to non-responders, step 4" [ref=e932]':
+              - img "Navan — Sending a reminder to non-responders, step 4" [ref=e933]
+      - article [ref=e935]:
+        - generic [ref=e936]:
+          - generic [ref=e937]:
+            - strong [ref=e938]: Outseta
+            - generic [ref=e939]: Mobbin
+            - generic [ref=e940]: screen
+          - heading "Newsletter performance metrics with opened/clicked tracking" [level=3] [ref=e941]
+          - paragraph [ref=e942]: "Recipients tab of a sent broadcast: one row per recipient with Last opened / Clicked / Unsubscribed timestamps and status sub-filters (Opened, Clicked, Bounced…) plus Export; no resend action on this screen."
+          - link "View source ↗" [ref=e943] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/34451b74-38ce-4557-aa8c-784d8df6d63c
+        - generic "Screen preview" [ref=e944]:
+          - figure "Screen · Click to enlarge" [ref=e945]:
+            - 'button "Open full-size: Outseta — Newsletter performance metrics with opened/clicked tracking, image 1" [ref=e946]':
+              - img "Outseta — Newsletter performance metrics with opened/clicked tracking, image 1" [ref=e947]
+      - article [ref=e949]:
+        - generic [ref=e950]:
+          - generic [ref=e951]:
+            - strong [ref=e952]: Square
+            - generic [ref=e953]: Mobbin
+            - generic [ref=e954]: screen
+          - heading "Announcement status - sent indicator" [level=3] [ref=e955]
+          - paragraph [ref=e956]: Announcements list with a Status column (Sent) and a separate 'Seen by' column that is empty for the row shown; the field exists without data and without a follow-up action.
+          - link "View source ↗" [ref=e957] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/1c8c3422-f935-4762-b78c-a460c688d98a
+        - generic "Screen preview" [ref=e958]:
+          - figure "Screen · Click to enlarge" [ref=e959]:
+            - 'button "Open full-size: Square — Announcement status - sent indicator, image 1" [ref=e960]':
+              - img "Square — Announcement status - sent indicator, image 1" [ref=e961]
+      - article [ref=e963]:
+        - generic [ref=e964]:
+          - generic [ref=e965]:
+            - strong [ref=e966]: Superhuman Mail
+            - generic [ref=e967]: Mobbin
+            - generic [ref=e968]: screen
+          - heading "Message read status indicators" [level=3] [ref=e969]
+          - paragraph [ref=e970]: "Mail interface showing team read statuses with opened/unopened indicator: June and Perry have opened, and the view shows who has opened messages."
+          - link "View source ↗" [ref=e971] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/ba56c2de-4b7b-45cb-9848-40895ec356f7
+        - generic "Screen preview" [ref=e972]:
+          - figure "Screen · Click to enlarge" [ref=e973]:
+            - 'button "Open full-size: Superhuman Mail — Message read status indicators, image 1" [ref=e974]':
+              - img "Superhuman Mail — Message read status indicators, image 1" [ref=e975]
+      - article [ref=e977]:
+        - generic [ref=e978]:
+          - generic [ref=e979]:
+            - strong [ref=e980]: WhatsApp
+            - generic [ref=e981]: Mobbin
+            - generic [ref=e982]: screen
+          - heading "Message read and delivered status (iOS)" [level=3] [ref=e983]
+          - paragraph [ref=e984]: Per-message info screen with two states, Read and Delivered (timestamped); the minimum viable feedback, single recipient, no breakdown.
+          - link "View source ↗" [ref=e985] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/5580e66f-5a8e-4f01-aa52-b6b35c2964bb
+        - generic "Screen preview" [ref=e986]:
+          - figure "Screen · Click to enlarge" [ref=e987]:
+            - 'button "Open full-size: WhatsApp — Message read and delivered status (iOS), image 1" [ref=e988]':
+              - img "WhatsApp — Message read and delivered status (iOS), image 1" [ref=e989]
+  - region [ref=e991]:
+    - generic [ref=e992]:
+      - generic [ref=e993]: Q5
+      - heading "External LMS hand-off UX (auth, mapping to course, what is sent, confirmation)" [level=2] [ref=e994]
+    - paragraph [ref=e995]: "The thinnest question in the set and the most important one for Essentials. Only SchoolAI shows a complete hand-off (mobbin:3135010e): an Export menu that lists Google Classroom next to Docs / PDF, a permission modal that says what will be shared, an OAuth enable step, a Class picker that maps the document to one specific class, and an 'Exported to Google Classroom!' toast. Course platforms in the set have no hand-off at all: in Kajabi, publishing inside the product is the send, so the learner-facing surface is the product's own portal (mobbin:9aa981d2). Generic connectors stop at authorization: Craft is a Connect / Disconnect toggle on a settings page (mobbin:e9079303), and Cofounder's OAuth flow with per-scope toggles never reaches a 'what was sent' or success state (mobbin:7897406d, counter-example). Nobody shows editing or re-syncing after the hand-off."
+    - paragraph [ref=e996]: 4 of 4 references
+    - generic [ref=e997]:
+      - article [ref=e998]:
+        - generic [ref=e999]:
+          - generic [ref=e1000]:
+            - strong [ref=e1001]: Cofounder
+            - generic [ref=e1002]: Mobbin
+            - generic [ref=e1003]: flow
+          - heading "OAuth-based app connection workflow" [level=3] [ref=e1004]
+          - generic [ref=e1005]: Counter-example
+          - paragraph [ref=e1006]: "OAuth connect flow for cross-posting: destination picker, per-scope permission toggles, a 'continue sharing?' re-consent screen, then a loading state; the flow ends before showing what was sent or any success state."
+          - link "View source ↗" [ref=e1007] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/7897406d-dd60-4afa-94ad-65a9468c1d64
+        - generic "Flow steps in order; scroll horizontally" [ref=e1008]:
+          - figure "Step 1 of 5 · Click to enlarge" [ref=e1009]:
+            - 'button "Open full-size: Cofounder — OAuth-based app connection workflow, step 1" [ref=e1010]':
+              - img "Cofounder — OAuth-based app connection workflow, step 1" [ref=e1011]
+          - figure "Step 2 of 5 · Click to enlarge" [ref=e1013]:
+            - 'button "Open full-size: Cofounder — OAuth-based app connection workflow, step 2" [ref=e1014]':
+              - img "Cofounder — OAuth-based app connection workflow, step 2" [ref=e1015]
+          - figure "Step 3 of 5 · Click to enlarge" [ref=e1017]:
+            - 'button "Open full-size: Cofounder — OAuth-based app connection workflow, step 3" [ref=e1018]':
+              - img "Cofounder — OAuth-based app connection workflow, step 3" [ref=e1019]
+          - figure "Step 4 of 5 · Click to enlarge" [ref=e1021]:
+            - 'button "Open full-size: Cofounder — OAuth-based app connection workflow, step 4" [ref=e1022]':
+              - img "Cofounder — OAuth-based app connection workflow, step 4" [ref=e1023]
+          - figure "Step 5 of 5 · Click to enlarge" [ref=e1025]:
+            - 'button "Open full-size: Cofounder — OAuth-based app connection workflow, step 5" [ref=e1026]':
+              - img "Cofounder — OAuth-based app connection workflow, step 5" [ref=e1027]
+      - article [ref=e1029]:
+        - generic [ref=e1030]:
+          - generic [ref=e1031]:
+            - strong [ref=e1032]: Craft
+            - generic [ref=e1033]: Mobbin
+            - generic [ref=e1034]: flow
+          - heading "Connecting and integrating third-party services" [level=3] [ref=e1035]
+          - paragraph [ref=e1036]: Settings-page list of integrations (Figma, GitHub, Jira, Linear) with a bare Connect / Disconnect toggle; no destination, no content, no confirmation of anything sent.
+          - link "View source ↗" [ref=e1037] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/e9079303-b68b-4a54-98b0-0ba587e8ba7d
+        - generic "Flow steps in order; scroll horizontally" [ref=e1038]:
+          - figure "Step 1 of 3 · Click to enlarge" [ref=e1039]:
+            - 'button "Open full-size: Craft — Connecting and integrating third-party services, step 1" [ref=e1040]':
+              - img "Craft — Connecting and integrating third-party services, step 1" [ref=e1041]
+          - figure "Step 2 of 3 · Click to enlarge" [ref=e1043]:
+            - 'button "Open full-size: Craft — Connecting and integrating third-party services, step 2" [ref=e1044]':
+              - img "Craft — Connecting and integrating third-party services, step 2" [ref=e1045]
+          - figure "Step 3 of 3 · Click to enlarge" [ref=e1047]:
+            - 'button "Open full-size: Craft — Connecting and integrating third-party services, step 3" [ref=e1048]':
+              - img "Craft — Connecting and integrating third-party services, step 3" [ref=e1049]
+      - article [ref=e1051]:
+        - generic [ref=e1052]:
+          - generic [ref=e1053]:
+            - strong [ref=e1054]: Kajabi
+            - generic [ref=e1055]: Mobbin
+            - generic [ref=e1056]: flow
+          - heading "Publishing course content to members" [level=3] [ref=e1057]
+          - paragraph [ref=e1058]: "Internal Draft → Published status change on a curriculum module with a 'Successfully updated module' toast: in a course platform, publishing is the send and there is no external hand-off."
+          - link "View source ↗" [ref=e1059] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/9aa981d2-b178-4843-b8dd-0685815ecd62
+        - generic "Flow steps in order; scroll horizontally" [ref=e1060]:
+          - figure "Step 1 of 4 · Click to enlarge" [ref=e1061]:
+            - 'button "Open full-size: Kajabi — Publishing course content to members, step 1" [ref=e1062]':
+              - img "Kajabi — Publishing course content to members, step 1" [ref=e1063]
+          - figure "Step 2 of 4 · Click to enlarge" [ref=e1065]:
+            - 'button "Open full-size: Kajabi — Publishing course content to members, step 2" [ref=e1066]':
+              - img "Kajabi — Publishing course content to members, step 2" [ref=e1067]
+          - figure "Step 3 of 4 · Click to enlarge" [ref=e1069]:
+            - 'button "Open full-size: Kajabi — Publishing course content to members, step 3" [ref=e1070]':
+              - img "Kajabi — Publishing course content to members, step 3" [ref=e1071]
+          - figure "Step 4 of 4 · Click to enlarge" [ref=e1073]:
+            - 'button "Open full-size: Kajabi — Publishing course content to members, step 4" [ref=e1074]':
+              - img "Kajabi — Publishing course content to members, step 4" [ref=e1075]
+      - article [ref=e1077]:
+        - generic [ref=e1078]:
+          - generic [ref=e1079]:
+            - strong [ref=e1080]: SchoolAI
+            - generic [ref=e1081]: Mobbin
+            - generic [ref=e1082]: flow
+          - heading "Adding content to Google Classroom" [level=3] [ref=e1083]
+          - paragraph [ref=e1084]: "Complete external hand-off: Export menu lists Google Classroom next to Docs / PDF, a permission modal says what will be shared, an OAuth enable step, a Class picker maps the document to one class, and a toast confirms the export."
+          - link "View source ↗" [ref=e1085] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/3135010e-a999-439d-8ebd-50e7f4a58dcc
+        - generic "Flow steps in order; scroll horizontally" [ref=e1086]:
+          - figure "Step 1 of 7 · Click to enlarge" [ref=e1087]:
+            - 'button "Open full-size: SchoolAI — Adding content to Google Classroom, step 1" [ref=e1088]':
+              - img "SchoolAI — Adding content to Google Classroom, step 1" [ref=e1089]
+          - figure "Step 2 of 7 · Click to enlarge" [ref=e1091]:
+            - 'button "Open full-size: SchoolAI — Adding content to Google Classroom, step 2" [ref=e1092]':
+              - img "SchoolAI — Adding content to Google Classroom, step 2" [ref=e1093]
+          - figure "Step 3 of 7 · Click to enlarge" [ref=e1095]:
+            - 'button "Open full-size: SchoolAI — Adding content to Google Classroom, step 3" [ref=e1096]':
+              - img "SchoolAI — Adding content to Google Classroom, step 3" [ref=e1097]
+          - figure "Step 4 of 7 · Click to enlarge" [ref=e1099]:
+            - 'button "Open full-size: SchoolAI — Adding content to Google Classroom, step 4" [ref=e1100]':
+              - img "SchoolAI — Adding content to Google Classroom, step 4" [ref=e1101]
+          - figure "Step 5 of 7 · Click to enlarge" [ref=e1103]:
+            - 'button "Open full-size: SchoolAI — Adding content to Google Classroom, step 5" [ref=e1104]':
+              - img "SchoolAI — Adding content to Google Classroom, step 5" [ref=e1105]
+          - figure "Step 6 of 7 · Click to enlarge" [ref=e1107]:
+            - 'button "Open full-size: SchoolAI — Adding content to Google Classroom, step 6" [ref=e1108]':
+              - img "SchoolAI — Adding content to Google Classroom, step 6" [ref=e1109]
+          - figure "Step 7 of 7 · Click to enlarge" [ref=e1111]:
+            - 'button "Open full-size: SchoolAI — Adding content to Google Classroom, step 7" [ref=e1112]':
+              - img "SchoolAI — Adding content to Google Classroom, step 7" [ref=e1113]
+  - region [ref=e1115]:
+    - generic [ref=e1116]:
+      - generic [ref=e1117]: Q6
+      - heading "Learner-side reception (feed, notification, email) and consistency with the portal" [level=2] [ref=e1118]
+    - paragraph [ref=e1119]: "The consistent products give announcements a distinct type or place on the learner side. Microsoft Teams offers 'Post' versus 'Announcement' in the composer and renders announcements with a bold title and replies attached (mobbin:88ad5199); Circle routes them to an 'Announcements' space separate from the feed (mobbin:c1b1c3ad); ClassDojo keeps a teacher-only Pin so the post stays on top, with the attachment and replies inline (mobbin:3edf67a5). Unread state is aggregated centrally in Slack's Activity screen rather than only inside the source channel (mobbin:8e65f9c9), and Spotify lets the recipient choose email versus push per category, a model for learner notification preferences (refero:471b8f0c). Coursera is the counter-example (mobbin:36db9592): instructor content sits in a 'Latest'-sorted Q&A list with no pin, no unread marker and no sender role, so an announcement is indistinguishable from peer chatter."
+    - paragraph [ref=e1120]: 6 of 6 references
+    - generic [ref=e1121]:
+      - article [ref=e1122]:
+        - generic [ref=e1123]:
+          - generic [ref=e1124]:
+            - strong [ref=e1125]: Circle
+            - generic [ref=e1126]: Mobbin
+            - generic [ref=e1127]: screen
+          - heading "Community course feed with announcements" [level=3] [ref=e1128]
+          - paragraph [ref=e1129]: Sidebar with 'Announcements' as its own space separate from 'Feed' and a notification bell in the header, so admin announcements have a dedicated place instead of mixing into ordinary posts.
+          - link "View source ↗" [ref=e1130] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/c1b1c3ad-57ca-4bcc-85fd-3d9e4c062498
+        - generic "Screen preview" [ref=e1131]:
+          - figure "Screen · Click to enlarge" [ref=e1132]:
+            - 'button "Open full-size: Circle — Community course feed with announcements, image 1" [ref=e1133]':
+              - img "Circle — Community course feed with announcements, image 1" [ref=e1134]
+      - article [ref=e1136]:
+        - generic [ref=e1137]:
+          - generic [ref=e1138]:
+            - strong [ref=e1139]: ClassDojo
+            - generic [ref=e1140]: Mobbin
+            - generic [ref=e1141]: screen
+          - heading "Course announcements feed with pinned posts" [level=3] [ref=e1142]
+          - paragraph [ref=e1143]: Teacher-posted course announcement visible to families showing rich text, imagery, likes, and comments for learner reception.
+          - link "View source ↗" [ref=e1144] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/3edf67a5-b266-45b6-a3a3-69f19d809fa9
+        - generic "Screen preview" [ref=e1145]:
+          - figure "Screen · Click to enlarge" [ref=e1146]:
+            - 'button "Open full-size: ClassDojo — Course announcements feed with pinned posts, image 1" [ref=e1147]':
+              - img "ClassDojo — Course announcements feed with pinned posts, image 1" [ref=e1148]
+      - article [ref=e1150]:
+        - generic [ref=e1151]:
+          - generic [ref=e1152]:
+            - strong [ref=e1153]: Coursera
+            - generic [ref=e1154]: Mobbin
+            - generic [ref=e1155]: screen
+          - heading "Course discussion and activity feed (iOS)" [level=3] [ref=e1156]
+          - generic [ref=e1157]: Counter-example
+          - paragraph [ref=e1158]: "Mobile discussion list sorted by Latest that mixes a bug report, a technical question and a lecture question with no pin, unread marker or sender role: an announcement dropped here would be indistinguishable from peer chatter."
+          - link "View source ↗" [ref=e1159] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/36db9592-bedb-47b6-a4ee-78fe6f0fd84c
+        - generic "Screen preview" [ref=e1160]:
+          - figure "Screen · Click to enlarge" [ref=e1161]:
+            - 'button "Open full-size: Coursera — Course discussion and activity feed (iOS), image 1" [ref=e1162]':
+              - img "Coursera — Course discussion and activity feed (iOS), image 1" [ref=e1163]
+      - article [ref=e1165]:
+        - generic [ref=e1166]:
+          - generic [ref=e1167]:
+            - strong [ref=e1168]: Microsoft Teams
+            - generic [ref=e1169]: Mobbin
+            - generic [ref=e1170]: screen
+          - heading "Course channel announcements and posts" [level=3] [ref=e1171]
+          - paragraph [ref=e1172]: Team channel announcement post with metadata showing how learners receive course updates with reply and engagement options.
+          - link "View source ↗" [ref=e1173] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/88ad5199-f31a-4a5b-aadb-3bc0f5536b36
+        - generic "Screen preview" [ref=e1174]:
+          - figure "Screen · Click to enlarge" [ref=e1175]:
+            - 'button "Open full-size: Microsoft Teams — Course channel announcements and posts, image 1" [ref=e1176]':
+              - img "Microsoft Teams — Course channel announcements and posts, image 1" [ref=e1177]
+      - article [ref=e1179]:
+        - generic [ref=e1180]:
+          - generic [ref=e1181]:
+            - strong [ref=e1182]: Slack
+            - generic [ref=e1183]: Mobbin
+            - generic [ref=e1184]: screen
+          - heading "Activity and announcements inbox (iOS)" [level=3] [ref=e1185]
+          - paragraph [ref=e1186]: Mobile notification and activity inbox showing how learners receive course announcements and mentions in centralized notification interface.
+          - link "View source ↗" [ref=e1187] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/8e65f9c9-5b08-4303-8a56-ef403676143e
+        - generic "Screen preview" [ref=e1188]:
+          - figure "Screen · Click to enlarge" [ref=e1189]:
+            - 'button "Open full-size: Slack — Activity and announcements inbox (iOS), image 1" [ref=e1190]':
+              - img "Slack — Activity and announcements inbox (iOS), image 1" [ref=e1191]
+      - article [ref=e1193]:
+        - generic [ref=e1194]:
+          - generic [ref=e1195]:
+            - strong [ref=e1196]: Spotify
+            - generic [ref=e1197]: Refero
+            - generic [ref=e1198]: screen
+          - 'heading "Spotify notification settings: per-category Email/Push toggles" [level=3] [ref=e1199]'
+          - paragraph [ref=e1200]: Spotify's Notification settings list content categories (Music, Podcasts, Audiobooks, Concerts, Livestreams), each with its own Email and Push checkboxes, modeling how a learner-facing portal could let people set per-category channel preferences for course communications.
+          - link "View source ↗" [ref=e1201] [cursor=pointer]:
+            - /url: https://refero.design/pages/471b8f0c-f9ef-4977-99b8-e5c9fbd9c019
+        - generic "Screen preview" [ref=e1202]:
+          - figure "Screen · Click to enlarge" [ref=e1203]:
+            - 'button "Open full-size: Spotify — Spotify notification settings: per-category Email/Push toggles, image 1" [ref=e1204]':
+              - 'img "Spotify — Spotify notification settings: per-category Email/Push toggles, image 1" [ref=e1205]'

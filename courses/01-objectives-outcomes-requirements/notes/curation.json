@@ -1,0 +1,66 @@
+{
+  "removed": [
+    {
+      "id": "refero:c7e8fd82-9a85-487b-8f34-32490773c7da",
+      "reason": "Shows learner course selection and progress, not instructor-authored course objectives."
+    },
+    {
+      "id": "mobbin:94f6be70-d9b2-4363-8091-62d20f8d1f9e",
+      "reason": "Publishing, sign-up limits, delayed release, and audience administration do not establish learning prerequisites."
+    },
+    {
+      "id": "refero:5f33c727-7dc2-479d-9000-e2728360224d",
+      "reason": "A title/description setup step without a prerequisite control cannot establish informational or enforced requirements."
+    },
+    {
+      "id": "refero:957512a1-de88-42af-9586-1a9e3b1a1a0c",
+      "reason": "No initiative-to-project or other objective-to-work relationship is visible."
+    },
+    {
+      "id": "mobbin:497f13ae-8101-487c-9bc2-477b6effce96",
+      "reason": "Standalone goal dashboard does not visibly identify connected supporting work."
+    },
+    {
+      "id": "mobbin:2435925c-c007-4f9d-a529-32bdc976aa68",
+      "reason": "Standalone goal detail says no sub-goals are connected and does not show a linked project."
+    },
+    {
+      "id": "mobbin:a7faf3e1-c2fc-4eec-b9ee-c2d975375b6c",
+      "reason": "Generic Magic Write task presets are too distant from course-objective authoring."
+    },
+    {
+      "id": "mobbin:f7fd7a5c-8762-4cbe-9b04-a2e6d1b53ea2",
+      "reason": "Generated Instagram captions and refinement controls do not address measurable learning outcomes."
+    },
+    {
+      "id": "mobbin:c5ee32ed-ff6c-4f21-adfa-197b2194a290",
+      "reason": "School-level brand, website, and earning checklist does not evidence course-objective placement or requiredness."
+    },
+    {
+      "id": "mobbin:8aca7d42-8261-4b3d-a6f3-93034df7de5f",
+      "reason": "AI outline inputs show a curriculum starting point, not an objectives/outcomes step or its requiredness."
+    },
+    {
+      "id": "mobbin:ffec1858-d352-4d00-9f52-585ce701769f",
+      "reason": "Ordinary lesson formatting and a color picker do not evidence objective authoring guidance."
+    },
+    {
+      "id": "mobbin:5e554c6d-92e6-4852-99e2-f863def8f299",
+      "reason": "Sales and opt-in copy suggestions fall outside outcome authoring."
+    }
+  ],
+  "reassigned": {
+    "mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47": "Q4"
+  },
+  "finalReferences": 27,
+  "products": [
+    "Asana",
+    "Codecademy",
+    "Coursera",
+    "Kajabi",
+    "Skillshare",
+    "Teachable",
+    "Udemy",
+    "Uxcel"
+  ]
+}

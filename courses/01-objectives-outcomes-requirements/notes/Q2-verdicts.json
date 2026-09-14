@@ -1,0 +1,73 @@
+{
+  "question": "Q2",
+  "verdicts": [
+    {
+      "app": "Udemy",
+      "status": "partial",
+      "text": "Public landing-page mapping and learner lists observed; same-course text and order unproven.",
+      "refs": [
+        "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+        "mobbin:04a7c094-adec-42d4-9f50-b4500ed8825d",
+        "mobbin:d3ce7d30-a5b0-4586-9312-62fb4365aa18",
+        "mobbin:656a8d57-91b1-425b-bf02-14167f6af9a6"
+      ]
+    },
+    {
+      "app": "Coursera",
+      "status": "partial",
+      "text": "Learner outcomes are visible as checked items or module prose; no matching author view.",
+      "refs": [
+        "mobbin:2d300077-7580-47c6-875a-369da8b0a065",
+        "mobbin:96fd5ba3-c8bd-4fbc-b875-9b58e616c622"
+      ]
+    },
+    {
+      "app": "Teachable",
+      "status": "partial",
+      "text": "Student preview exists and publication gates content; objective fidelity is not shown.",
+      "refs": [
+        "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c",
+        "mobbin:007d841f-48d2-425f-bbaf-75ba21693a3c",
+        "mobbin:fbde5f46-53c8-464f-8ff5-a4bca072426a"
+      ]
+    },
+    {
+      "app": "Promova",
+      "status": "unknown",
+      "text": "Learner course progress is shown, but no course-objective read surface is present.",
+      "refs": [
+        "refero:c7e8fd82-9a85-487b-8f34-32490773c7da"
+      ]
+    }
+  ],
+  "reject": [
+    {
+      "id": "refero:c7e8fd82-9a85-487b-8f34-32490773c7da",
+      "reason": "Shows learner course selection and progress, not instructor-authored course objectives."
+    }
+  ],
+  "takeCorrections": [
+    {
+      "id": "mobbin:2d300077-7580-47c6-875a-369da8b0a065",
+      "take": "Coursera shows a learner-facing checked outcomes list; preservation of author text and order is unverified."
+    },
+    {
+      "id": "mobbin:96fd5ba3-c8bd-4fbc-b875-9b58e616c622",
+      "take": "Coursera mobile shows module-level syllabus prose, not evidence of the same author-authored objective list."
+    },
+    {
+      "id": "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c",
+      "take": "Teachable provides Preview as student, but this capture shows an empty learner curriculum because only published content appears."
+    },
+    {
+      "id": "mobbin:656a8d57-91b1-425b-bf02-14167f6af9a6",
+      "take": "Udemy mobile exposes course outcomes under More → About this course; authoring fidelity is unverified."
+    }
+  ],
+  "counterCandidates": [
+    {
+      "id": "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c",
+      "reason": "Draft curriculum items appear in admin while student preview is empty, demonstrating publication-state gating."
+    }
+  ]
+}

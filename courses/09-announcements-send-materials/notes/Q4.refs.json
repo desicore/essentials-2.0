@@ -1,0 +1,139 @@
+{
+  "question": "Q4",
+  "title": "Delivery feedback (sent / delivered / seen, reminders)",
+  "references": [
+    {
+      "id": "mobbin:e4a526c1-f462-45b3-9f07-777742cc3701",
+      "source": "mobbin",
+      "app": "Docusign",
+      "title": "Turning on auto reminders with conditions",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e4a526c1-f462-45b3-9f07-777742cc3701",
+      "take": "Advanced reminder setup: expiration date, recipient privileges, auto-reminder toggle, days before first reminder, repeat interval, and custom number of days config.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae4a526c1-f462-45b3-9f07-777742cc3701/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae4a526c1-f462-45b3-9f07-777742cc3701/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae4a526c1-f462-45b3-9f07-777742cc3701/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae4a526c1-f462-45b3-9f07-777742cc3701/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae4a526c1-f462-45b3-9f07-777742cc3701/4.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae4a526c1-f462-45b3-9f07-777742cc3701/5.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae4a526c1-f462-45b3-9f07-777742cc3701/6.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae4a526c1-f462-45b3-9f07-777742cc3701/7.jpg"
+      ]
+    },
+    {
+      "id": "refero:2fe44823-76a1-42a1-98d6-8ac79e5dc594",
+      "source": "refero",
+      "app": "Dub",
+      "title": "Dub link analytics: clicks/leads/sales for a tagged share link",
+      "kind": "screen",
+      "url": "https://refero.design/pages/2fe44823-76a1-42a1-98d6-8ac79e5dc594",
+      "take": "Dub's Analytics view shows Clicks/Leads/Sales counters plus a time-series chart for links filtered by tag, evidence that link-level delivery feedback can be a few aggregate counters and a trend line rather than a per-recipient log of who clicked.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A2fe44823-76a1-42a1-98d6-8ac79e5dc594/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:8afb0d65-fa9a-48b9-9652-b4ac556b4459",
+      "source": "mobbin",
+      "app": "HoneyBook",
+      "title": "Adding conditions for automated reminders",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8afb0d65-fa9a-48b9-9652-b4ac556b4459",
+      "take": "Workflow showing automation setup: send email, wait for 1 day, check if file was viewed within that period, then branch to send different followup emails.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A8afb0d65-fa9a-48b9-9652-b4ac556b4459/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A8afb0d65-fa9a-48b9-9652-b4ac556b4459/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A8afb0d65-fa9a-48b9-9652-b4ac556b4459/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A8afb0d65-fa9a-48b9-9652-b4ac556b4459/3.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:5814d24c-84ba-4c75-9aaa-a0466693f385",
+      "source": "mobbin",
+      "app": "HubSpot",
+      "title": "Email campaign recipient engagement metrics",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5814d24c-84ba-4c75-9aaa-a0466693f385",
+      "take": "Marketing email analytics showing sent, open rate, click rate, delivery metrics, and recipient engagement breakdown for tracking campaign performance.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A5814d24c-84ba-4c75-9aaa-a0466693f385/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:6db18da5-ec40-44da-bddb-6f6b3a4b7e61",
+      "source": "mobbin",
+      "app": "Mailchimp",
+      "title": "Email campaign report with sent, opened, clicked counts",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/6db18da5-ec40-44da-bddb-6f6b3a4b7e61",
+      "take": "Campaign analytics overview showing 3 recipients, delivered, clicked, bounced, unsubscribed counts; recipient activity tab with open/click tracking per recipient.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A6db18da5-ec40-44da-bddb-6f6b3a4b7e61/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:9d8af34f-5293-47eb-92cd-faba0c6e0dc7",
+      "source": "mobbin",
+      "app": "Navan",
+      "title": "Sending a reminder to non-responders",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9d8af34f-5293-47eb-92cd-faba0c6e0dc7",
+      "take": "Flow showing invite creation, reminder selection from invite list, and confirmation to send reminder email to selected non-responders.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A9d8af34f-5293-47eb-92cd-faba0c6e0dc7/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A9d8af34f-5293-47eb-92cd-faba0c6e0dc7/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A9d8af34f-5293-47eb-92cd-faba0c6e0dc7/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A9d8af34f-5293-47eb-92cd-faba0c6e0dc7/3.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:34451b74-38ce-4557-aa8c-784d8df6d63c",
+      "source": "mobbin",
+      "app": "Outseta",
+      "title": "Newsletter performance metrics with opened/clicked tracking",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/34451b74-38ce-4557-aa8c-784d8df6d63c",
+      "take": "Newsletter performance dashboard showing recipients tab with delivered, opened, and clicked counts, allowing resend to unopened.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A34451b74-38ce-4557-aa8c-784d8df6d63c/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:1c8c3422-f935-4762-b78c-a460c688d98a",
+      "source": "mobbin",
+      "app": "Square",
+      "title": "Announcement status - sent indicator",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/1c8c3422-f935-4762-b78c-a460c688d98a",
+      "take": "Announcements list showing status column with sent status, allowing staff to track which announcements have been sent to the team.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A1c8c3422-f935-4762-b78c-a460c688d98a/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:ba56c2de-4b7b-45cb-9848-40895ec356f7",
+      "source": "mobbin",
+      "app": "Superhuman Mail",
+      "title": "Message read status indicators",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ba56c2de-4b7b-45cb-9848-40895ec356f7",
+      "take": "Mail interface showing team read statuses with opened/unopened indicator: June and Perry have opened, and the view shows who has opened messages.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Aba56c2de-4b7b-45cb-9848-40895ec356f7/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:5580e66f-5a8e-4f01-aa52-b6b35c2964bb",
+      "source": "mobbin",
+      "app": "WhatsApp",
+      "title": "Message read and delivered status (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5580e66f-5a8e-4f01-aa52-b6b35c2964bb",
+      "take": "iOS message info screen showing message delivery and read statuses: delivered indicator and read confirmation with timestamp.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A5580e66f-5a8e-4f01-aa52-b6b35c2964bb/0.jpg"
+      ]
+    }
+  ]
+}

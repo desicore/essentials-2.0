@@ -1,0 +1,38 @@
+{
+  "module": "01-objectives-outcomes-requirements",
+  "title": "Courses \u00b7 Objectives / Outcomes / Requirements",
+  "intro": "Research for Essentials 2.0: Semester \u2192 Courses \u2192 Objectives / Outcomes / Requirements. How instructors define learner achievement and readiness, expose those expectations in the Learner Portal, and preserve links for later assessment. Competency setup, scenarios, sharing and Canvas delivery remain neighbouring modules. Evidence distinguishes observed controls from unverified behaviour.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Objectives are structured (list items, not free text) and reorderable",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "Objectives are visible to the learner in the same shape the instructor authored them",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "Requirements / prerequisites are enforced or only informational (and how that's communicated)",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Objectives can be linked downstream (lesson, assessment, competency)",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "Guidance for authoring (examples, verb prompts, character limits, AI suggestions)",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "Where in the course-creation flow this step sits (required up front vs. optional later)",
+      "answer": ""
+    }
+  ],
+  "references": []
+}

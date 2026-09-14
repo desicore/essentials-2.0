@@ -1,0 +1,25 @@
+{
+  "title": "Courses · Objectives / Outcomes / Requirements",
+  "h2": [
+    "Objectives are structured (list items, not free text) and reorderable",
+    "Objectives are visible to the learner in the same shape the instructor authored them",
+    "Requirements / prerequisites are enforced or only informational (and how that's communicated)",
+    "Objectives can be linked downstream (lesson, assessment, competency)",
+    "Guidance for authoring (examples, verb prompts, character limits, AI suggestions)",
+    "Where in the course-creation flow this step sits (required up front vs. optional later)"
+  ],
+  "cards": 27,
+  "images": 37,
+  "broken": [],
+  "externalImages": 0,
+  "synthesis": true,
+  "comparisonRows": 8,
+  "invalidAnchors": [],
+  "overflow": false,
+  "status": "27 of 27 references shown",
+  "lightbox": true,
+  "search": "0 of 27 references shown",
+  "selectedStatus": "0 of 27 references shown",
+  "mobileOverflow": false,
+  "errors": []
+}
