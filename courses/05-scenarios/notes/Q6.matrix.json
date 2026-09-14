@@ -1,0 +1,8 @@
+[
+  {"app":"Circle","reference_id":"mobbin:5341f9e1-8516-4a2f-b941-a3ef17a2f63f","status":"partial","evidence":"Shows 1 section, 0 lessons, editable Untitled section - 1, Add new, and Add section. No suggestions, examples, guidance, or library route."},
+  {"app":"Kajabi","reference_id":"mobbin:8edcefcc-f539-46e6-a13a-d0ed44fa3308","status":"✓","evidence":"Confirms successful outline creation, then shows search, three populated modules, global and module Add content actions, expandable rows, and Draft controls. Generation itself is not shown."},
+  {"app":"MasterClass","reference_id":"refero:screen-75721406","status":"✗","evidence":"Reports No results found for “buddism” while category controls, filters, and an unrelated Terence Tao course card remain visible, creating an ambiguous empty-result state; counterexample."},
+  {"app":"Podia","reference_id":"mobbin:6d57146d-b827-45d3-800f-d925dc03c06c","status":"✓","evidence":"Combines How to create an online course/See how guidance, New lesson/New section actions, and starter content with sample text, video, and quiz lessons."},
+  {"app":"Teachable","reference_id":"refero:flow-9573-q6","status":"partial","evidence":"Empty Courses table explains where created courses appear and offers Create course plus Learn more. Only the flow entry screen is available locally, so later steps are unverified."},
+  {"app":"Teachable","reference_id":"refero:screen-4f0eb823","status":"✓","evidence":"Step 5/5 presents Generate with AI from a description, Start from scratch, and Bulk upload as distinct curriculum paths, with Back and Finish controls."}
+]

@@ -1,0 +1,6 @@
+[
+  {"app":"Canva","status":"✓","text":"Visible View as learner entry and learner-facing result.","ids":["mobbin:5c96453b-0c58-434f-94ba-c6d68a8f5bd5"]},
+  {"app":"Circle","status":"✓","text":"Preview as enrolled member preserves lesson media/content and completion action.","ids":["mobbin:02f1cfb0-ef6b-4f9f-8218-bfe24c660981"]},
+  {"app":"Teachable","status":"partial","text":"Curriculum Preview is visible; learner-role toggle not established.","ids":["mobbin:e6757446-af84-43d5-bed0-da79c9a3826c"]},
+  {"app":"SchoolAI","status":"✓","text":"Editor visibly labels a panel Previewing as a student and offers Restart preview.","ids":["mobbin:56f720b3-daec-4967-9fc4-60a7f8501c55"]}
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b",
+    "take": "Squarespace surfaces lesson state in the course outline and supports Draft, Published, or Scheduled with an inline date/time picker.",
+    "observed": "Select lesson checkbox; choose Set status; select Scheduled; choose date and time; save. The row changes from DRAFT to SCHEDULED and the preview header repeats the state.",
+    "limits": "Five sampled frames; no learner view, recurrence, timezone control, or per-group access is shown.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605",
+    "take": "Teachable applies enrollment-relative drip at section level while keeping lesson publication as a separate row action.",
+    "observed": "Open Drip; use Days after enrollment; enter 1; save; activate drip. The section gains an availability summary; the panel offers an optional email and shows UTC/local-time information.",
+    "limits": "Six sampled frames do not prove every click, learner behavior, or per-group targeting; activating drip is not evidence that lessons are published.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:6f84d500-27bc-4a9c-9bf9-04e5f525e5f3",
+    "take": "Teachable's curriculum screen pairs per-lesson Publish buttons with a section-level drip panel offering days-after-enrollment or specific-date release.",
+    "observed": "The open Drip panel names the selected section, shows Days after enrollment, a numeric delay, Save, Activate drip, and Create an email; lesson rows retain separate Publish buttons.",
+    "limits": "Single frame; it does not show completing the specific-date path, learner results, or group controls.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:8f6d425a-cfdc-4b2a-a100-6ec7b5e4fcd4",
+    "take": "Kajabi makes a lesson's binary Draft/Published state prominent beside its details.",
+    "observed": "A Status card contains Draft and Published radio options; Draft is selected, and the page has Preview and Save actions.",
+    "limits": "Single lesson-edit frame; no scheduling, learner result, or per-group access appears.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:79259c68-06d8-411f-b63f-4d026338d2fe",
+    "take": "Podia changes a lesson from Hidden to visible through its row overflow menu, but does not leave a positive visible-state label.",
+    "observed": "Open the kebab menu for the Hidden lesson; choose Set as visible; the Hidden label disappears. Another section is labeled Delayed 1 day, but this flow does not edit it.",
+    "limits": "Three sampled frames; no draft terminology, delay setup, learner result, or per-group access is shown.",
+    "counter_example_candidate": true
+  }
+]

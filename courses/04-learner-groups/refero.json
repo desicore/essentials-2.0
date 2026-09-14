@@ -1,0 +1,132 @@
+{
+  "references": [
+    {
+      "id": "refero:15a1b600-261c-4889-9438-cad957236183",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Add Students modal with manual and CSV paths",
+      "kind": "screen",
+      "url": "https://refero.design/pages/15a1b600-261c-4889-9438-cad957236183",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/49f17cb3-f7a1-434e-97a7-417830caf1e0_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "Teachable puts manual entry and Import CSV in one Add Students modal, keeping the bulk path adjacent to the quick path.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:35697ad5-2976-4ede-acf9-7bec3360f48f",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Student add form with course enrollment option",
+      "kind": "screen",
+      "url": "https://refero.design/pages/35697ad5-2976-4ede-acf9-7bec3360f48f",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/6092c2e9-aa2b-4475-9264-d9b17433cfc3_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "The add-student form combines identity fields with an enrollment choice, a useful seam for attaching a selected learner group to a course.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:bfec5414-633e-4a7f-b53d-d6eb7563c1f7",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Students management list with enrollment feedback",
+      "kind": "screen",
+      "url": "https://refero.design/pages/bfec5414-633e-4a7f-b53d-d6eb7563c1f7",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/33b92b67-161d-4cdc-b4b5-ed14da35b118_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Teachable returns the instructor to a dedicated Students list after adding, making roster state and confirmation visible in the management context.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:69e79aed-e795-47bb-be76-5025a8f8d88a",
+      "source": "refero",
+      "app": "Linear",
+      "title": "Project access and collaborator list",
+      "kind": "screen",
+      "url": "https://refero.design/pages/69e79aed-e795-47bb-be76-5025a8f8d88a",
+      "images": [
+        "https://images.refero.design/screenshots/linear.app/desktop/391fc27a-7ac5-4b72-8dfc-35438ba96371_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Linear keeps the project\u2019s existing access list visible in the invite surface, giving the admin a review point before confirming who gains access.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:6e7c436d-ec26-4227-b23b-a3977f6544a1",
+      "source": "refero",
+      "app": "Slack",
+      "title": "Sent invitation tracking view",
+      "kind": "screen",
+      "url": "https://refero.design/pages/6e7c436d-ec26-4227-b23b-a3977f6544a1",
+      "images": [
+        "https://images.refero.design/screenshots/slack.com/desktop/0d9595ec-8f37-4d9a-b465-bd479c1d1077_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "Slack exposes sent invitations as a trackable state, suggesting enrollment notifications need a visible pending or delivered seam rather than disappearing after confirmation.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4f821362-5e07-4f2a-9a8d-a63a3330ccdb",
+      "source": "refero",
+      "app": "Luma",
+      "title": "Set maximum capacity dialog",
+      "kind": "screen",
+      "url": "https://refero.design/pages/4f821362-5e07-4f2a-9a8d-a63a3330ccdb",
+      "images": [
+        "https://images.refero.design/screenshots/lu.ma/desktop/591c4fb6-35ac-440c-9248-ce260385d0f6_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "Event-registration analogy: Max Capacity states registration closes at the limit and exposes an Over-Capacity Waitlist toggle. Group admission and promotion rules are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:d19d15c3-daac-4d6e-834f-a128a511a7ba",
+      "source": "refero",
+      "app": "Partiful",
+      "title": "Email invites with bulk entry and recipient review",
+      "kind": "screen",
+      "url": "https://refero.design/pages/d19d15c3-daac-4d6e-834f-a128a511a7ba",
+      "images": [
+        "https://images.refero.design/screenshots/partiful.com/desktop/661081f1-0107-49cc-9025-b88327fef7a3_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "Event-invitation analogy: Add Manually/Bulk Add, CSV template and Name/Email headers, recipient review, a message and Send emails share one modal. This does not prove course enrollment or delivery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:da334082-7e3b-4aac-b0c6-71c5cc894f09",
+      "source": "refero",
+      "app": "1Password",
+      "title": "CSV import review and mapping step",
+      "kind": "screen",
+      "url": "https://refero.design/pages/da334082-7e3b-4aac-b0c6-71c5cc894f09",
+      "images": [
+        "https://images.refero.design/screenshots/1password.com/desktop/d0746557-4a3d-4eb8-8845-a32e965d2001_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "1Password inserts a structured review and mapping step between CSV upload and commit, giving admins a place to resolve row-level conflicts before impact is applied.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

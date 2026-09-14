@@ -1,0 +1,84 @@
+{
+  "references": [
+    {
+      "id": "refero:9ec0386f-182d-4acc-bfdb-0ef34c046fc9",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Course setup guide",
+      "kind": "screen",
+      "url": "https://refero.design/pages/9ec0386f-182d-4acc-bfdb-0ef34c046fc9",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/98ce6682-c529-42b8-862d-c453fdc01f00_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Captured LMS evidence: course setup is organized as a guided checklist, with publishing treated as an explicit milestone.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:03908427-03dc-4df9-86d8-47378b44264b",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Publish your course CTA",
+      "kind": "screen",
+      "url": "https://refero.design/pages/03908427-03dc-4df9-86d8-47378b44264b",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/04dd446d-90eb-4caa-9d3e-d837d321a60f_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Captured LMS evidence: a prominent Publish your course action gives a clear completion signal for course release.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:755d46c4-58fd-4221-bdef-702d8a8ae50f",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Course outline creation",
+      "kind": "screen",
+      "url": "https://refero.design/pages/755d46c4-58fd-4221-bdef-702d8a8ae50f",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/cefaef65-99e0-4a78-a75f-a1a58361c0a1_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Captured LMS evidence: the instructor creation view keeps course structure and content editing central; a learner preview control was not visible in this capture.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:1629250b-6670-41ac-bfc8-e10c95b6fd7a",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "AI course outline editor",
+      "kind": "screen",
+      "url": "https://refero.design/pages/1629250b-6670-41ac-bfc8-e10c95b6fd7a",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/6f4519a8-3d53-4d3e-9b5d-de27a7a6d1b2_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Captured LMS evidence: outline editing uses a focused authoring canvas; preview fidelity remains unobserved.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "source": "refero",
+      "app": "Gumroad",
+      "title": "Digital course content manager",
+      "kind": "screen",
+      "url": "https://refero.design/pages/11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "images": [
+        "https://images.refero.design/screenshots/gumroad.com/desktop/97f93b6d-9424-4a99-b962-15abdc366417_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Adjacent sharing analogy: product navigation separates content, collaborators, and checkout concerns, suggesting access controls should be easy to find beside course content.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

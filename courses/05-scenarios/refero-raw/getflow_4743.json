@@ -1,0 +1,334 @@
+{
+  "id": 4743,
+  "platform": "web",
+  "refero_url": "https://refero.design/flows/4743",
+  "name": "Template-based map creation",
+  "screens_count": 9,
+  "description": "Happy-path: A logged-in user opens their account panel on the map canvas, chooses \"Make a map\", selects \"Create from template\", browses template categories, previews the \"Roadtrip Planner\" template, clicks \"Copy Map\", watches a short copying progress modal, and then lands on the newly created map which is added to their list. Entry: user is signed in and on the main map canvas. Exit: a new map (copy of the Roadtrip Planner template) appears in the user's left-hand list and on the map canvas.",
+  "problem": "User goal: Quickly create a new, pre-populated map (a roadtrip itinerary) without building it from scratch. The user expects to browse templates, preview content, copy the template, and immediately see the copied places and route on the map. Interface perspective: The UI provides an entry point in the user panel (Make a map), a creation menu (including 'Create from template'), a templates browser with categories, a template preview with a prominent 'Copy Map' action, and a short progress modal while places are duplicated. Result: User-perceived outcome — a ready-to-edit map titled/instanced from the chosen template with places and route visible; system-level outcome — a new map object is created in the user's account, template place records are duplicated into the new map, and the new map is listed in the user's map library.",
+  "site": {
+    "id": 615,
+    "domain": "pampam.city",
+    "description": "AI Map Maker for Custom Interactive Maps",
+    "name": "PamPam",
+    "background_url": "https://images.refero.design/backgrounds/pampam.city/57c2fdec-4168-433f-8190-c8fa4efd1273.jpg",
+    "refero_url": "https://refero.design/websites/615",
+    "categories": [
+      "AI Tool",
+      "Map & Navigation"
+    ],
+    "favicon_url": "https://images.refero.design/favicon/pampam.city/76cff321-cedd-4324-b3c6-a5ac9989ad70.jpg",
+    "background_color": ""
+  },
+  "steps": [
+    {
+      "name": "Account panel / Home",
+      "screen_id": "35f0ff87-eeab-4f8f-b620-5430bc242cb9",
+      "refero_url": "https://refero.design/pages/35f0ff87-eeab-4f8f-b620-5430bc242cb9",
+      "thumbnail_url": "https://images.refero.design/screenshots/pampam.city/desktop/f6e74fe4-d738-4d41-a96a-062653f9136f_thumb.jpg",
+      "goal": "Start creating a new map from the user's account area",
+      "action": "User opens the left-hand account panel and clicks the 'Make a map' button",
+      "system_response": "UI highlights the Make a map action and opens the creation menu overlay centered on the map canvas.",
+      "page_types": [
+        "Home Page"
+      ],
+      "ui_elements": [
+        "Map",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Avatar"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "San Francisco",
+        "Arial",
+        "Intercom",
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen displays an interactive city map as the background, showing streets, blocks, and water bodies. On the left side, there is a white rectangular overlay panel containing user interface elements. At the top of this panel, a search field labeled \"Search this map\" is present, with a rounded rectangle input area on the left side and a magnifying glass icon indicating search functionality. Next to it on the right side are two circular icon buttons labeled \"...\" and \"View.\" Below the search bar, a small gradient square avatar image is shown, followed by the user's name \"Connie Perry\" in bold, large black font, and below it, the user plan label \"Free Plan\" in smaller, gray text. Beneath the user information, there is a horizontally oriented card with a thumbnail image of a location titled \"Liverpool\" accompanied by a short description \"Must-see places in Liverpool\" in small grey text, and a lock icon on the right side indicating restricted access. The card background is a soft beige color with rounded corners and subtle shadow. At the bottom of the panel, a wide blue rectangular button labeled \"Make a map\" in white uppercase text is placed with rounded corners. The map behind the panel uses a light peach and blue color theme for land and water respectively, with street lines in a muted reddish tone. There are subtle shadows and smooth edges throughout the panel. The overall style is modern, clean, and minimalistic with a well-structured layout, balanced spacing, and consistent typography. The panel uses a white background (#FFFFFF), button in bright blue (#3B82F6 or similar), text mostly black (#000000) and grey tones (#6B7280), and icons in matching monochrome colors. The layout is left-aligned with a scrollable or fixed width panel on the left and a large map occupying the rest of the space.",
+        "layout": "The screen layout is divided into two main sections: a large background map area filling approximately three-quarters of the screen on the right, and a compact vertical side panel anchored on the left. The side panel includes a top search bar spanning nearly the full width, followed by user profile information arranged vertically with left alignment. Below the profile is a single card grouping representing a saved location, horizontally oriented with an image on the left and text details to the right, and an icon aligned to the far right within the card. The bottom of the panel contains a full-width call-to-action button. Layout uses consistent vertical spacing with generous padding inside the panel, spacing between items, and rounded corners for all interactive components. The map area behind uses full-bleed coverage with muted pastel colors, while the side panel has a solid white background, creating clear visual separation. The panel likely uses a fixed width with internal vertical stack layout and horizontal alignment inside cards. The design is clean, minimal, with intuitive grouping and a crisp hierarchy of elements.",
+        "functions": "Users can interact with the map interface by searching for locations using the search field, which allows input and dynamically filters map data. They can view saved map collections or locations marked as favorites, such as \"Liverpool,\" with descriptive information and access restrictions indicated by a lock icon. Users can identify their current plan status (Free Plan) and possibly upgrade or manage their account. The \"Make a map\" button enables users to create custom map visualizations or collections based on selected points of interest. Medium-level tasks include managing and organizing saved locations or maps, browsing through saved collections, and customizing map content. The primary goal of this interface is to allow users to easily create, manage, and explore personalized maps and places of interest, ensuring clarity and ease of use by grouping controls in a compact side panel overlay and prominently displaying map information with a visually appealing background. The interface supports intuitive navigation, clear call-to-action prompts, and visual cues like lock icons to indicate permission levels or content status, enhancing user control and functionality."
+      }
+    },
+    {
+      "name": "Creation menu",
+      "screen_id": "8bccf725-7d54-4d91-9542-97f345995da4",
+      "refero_url": "https://refero.design/pages/8bccf725-7d54-4d91-9542-97f345995da4",
+      "thumbnail_url": "https://images.refero.design/screenshots/pampam.city/desktop/34f5f35f-20e0-431d-ac17-9ea131aab513_thumb.jpg",
+      "goal": "Choose a creation method",
+      "action": "User selects 'Create from template' from the list of creation options",
+      "system_response": "Template browser panel is opened; the main map remains visible behind the panel.",
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "List",
+        "Text Field",
+        "Icon",
+        "Popover"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "San Francisco",
+        "Arial",
+        "Intercom",
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen displays an interactive map interface with a light, pastel color palette. The background is a detailed map with streets and buildings shown in light peach and beige tones, while water bodies are colored deep blue (#003366). On the left side, there is a user profile card with a white background and subtle shadows, featuring a profile picture placeholder with a gradient (pink to blue), the user's name 'Connie Perry' in bold black text, and a 'Free Plan' label below in smaller font. Below that, a card highlights a location 'Liverpool' with a small thumbnail image and a brief description. A prominent blue button labeled 'Make a map' is positioned at the bottom of this card. Adjacent to the profile card, a command/search input field is centered with a placeholder text 'Type a command or search...'. Underneath are five horizontally stacked options with icons and text: 'Create blank map', 'Create from template' (highlighted in light blue), 'Import from URL and Notion', 'Import from text', and 'Import from Airtable, Sheets, CSV'. The UI uses a clean sans-serif font, medium size, with consistent spacing and alignment. The layout is minimalistic and functional, focusing on map creation commands and user information. The interface uses subtle shadows and rounded corners for cards and buttons to create a modern, approachable feel.",
+        "layout": "The layout consists of two main vertical groups positioned on the left side over the map background. The leftmost group is a vertical card containing user profile info at the top, a highlighted project card below, and a full-width button at the bottom. To the right of this card, centered vertically, is a vertical list of command options inside a white rectangular container with a search input on top and five horizontally stacked option rows below. The background is a full-screen interactive map. The layout uses consistent padding around cards and spacing between elements, with rounded corners and subtle drop shadows. The overall layout is a two-column vertical stack grouped on the left side, with the rest of the screen dominated by the map view.",
+        "functions": "Users can search or type commands in the input field to initiate map-related tasks. They can create a new blank map, start from a template, or import map data from various sources like URL, Notion, text, or CSV files. The user profile section provides context about the current user and their plan, along with quick access to a saved map project ('Liverpool'). The 'Make a map' button likely triggers the map creation process based on the selected or input options. Overall, the interface facilitates efficient map creation and management by offering multiple entry points and clear options, allowing users to start mapping projects with ease and flexibility."
+      }
+    },
+    {
+      "name": "Templates landing (Communities)",
+      "screen_id": "f93fb706-c95a-4713-8263-4499ea71eaec",
+      "refero_url": "https://refero.design/pages/f93fb706-c95a-4713-8263-4499ea71eaec",
+      "thumbnail_url": "https://images.refero.design/screenshots/pampam.city/desktop/c9396cbc-d3a2-4577-bbd4-0d05fbae8e69_thumb.jpg",
+      "goal": "Browse available template categories and example templates",
+      "action": "User scrolls or inspects the templates list and category headings",
+      "system_response": "Template thumbnails are displayed on the left; templates are also shown as map thumbnails on the canvas to indicate examples.",
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Map",
+        "List",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Avatar",
+        "Map Pin"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "San Francisco",
+        "Arial",
+        "Intercom",
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen presents an interactive world map as the primary background, covering most of the space, with a left sidebar panel overlay. The sidebar panel has a white background (#FFFFFF) and rounded corners, containing the section title 'Templates' in bold black text with a sans-serif font (likely 16-18px, medium-bold weight). Below is a subtitle with smaller, regular-weight text describing 'Copy a template below to get started.' The sidebar lists community template categories in rectangular cards with light greys (#F5F5F5) backgrounds and subtle drop shadows or borders. Each card includes a small thumbnail image on the left side, with textual content on the right: a bold title in black (~14-16px) and a brief description below in smaller grey text (#6B7280 or similar). The cards are stacked vertically with even spacing and have subtle hover or focus states that highlight them (like a light blue or border change). A thin horizontal dividing line or spacing separates 'Communities' heading from the 'Popular' link (with right arrow) below the cards, also in black text. The map behind uses a muted pastel color scheme for continents and water bodies in light blues and greys (#D1D5DB and #E0E7FF), with minimal detail to keep the focus on template groups. There are scattered image icons pinned on various world regions, each with a small label below or beside it in black or dark grey text (e.g., 'Travel Log', 'Business Directory'). The UI is minimalistic and clean with a focus on ease of navigation and visual hierarchy. The share button is present in the top-right corner in a blue color (#2563EB), styled as a small rounded rectangle with white text. The layout uses a two-column structure: a narrow left sidebar and a large interactive map area occupying the remainder. The map items are evenly spaced and aligned roughly to the geographical locations they represent with small thumbnail images and labels. The typography is modern sans-serif, consistent with professional digital mapping tools. The overall style is functional with subtle visual flourishes that reinforce clarity and usability without clutter.",
+        "layout": "The layout consists of two main columns. The left column is a fixed-width sidebar (~25-30% width) containing the template navigation and search field arranged vertically from top to bottom. Inside the sidebar, vertical stacking groups the search bar (top), headings (Templates, Communities), and a vertical list of cards for each template category with even padding and margin spacing (~12-16px). The right column (~70-75% width) is the primary content area featuring an interactive world map occupying full height and width of this section. On the map, pinned template items are spaced across roughly four rows and multiple columns aligned approximately by continents or regions for geographic accuracy. The map's scaled images and labels form a loose grid but follow geographic contours rather than strict rows and columns. The Share button floats top-right above the map area, outside the main columns but aligned close to the top edge. The sidebar uses a vertical column layout with consistent left alignment for headings and cards, while the map column fills the remainder, ensuring a clear visual separation. Margins and padding ensure whitespace around elements, with no overlapping or clutter.",
+        "functions": "Users can interact with the left sidebar to browse through available community templates by clicking or tapping on the listed template cards. The cards provide a visual and textual summary of each template, helping users decide which template to select for their needs. Hover and click states give feedback on which card is active or selectable. Users can search the map or templates using the search input at the top left. The main map area displays clickable pins or icons representing different template categories or specific community maps scattered over the world map, allowing users to click these to explore or load relevant location-based template data. Users can also share the current map view or selection using the prominent Share button at the top right, which likely triggers sharing options. The overall task enables users to find, explore, and select community and directory templates for use in map-driven projects. The interface supports browsing by category or by map location, facilitating quick discovery of useful resources. The combination of textual, image, and geographic data helps users understand both content and context intuitively."
+      }
+    },
+    {
+      "name": "Popular templates list",
+      "screen_id": "64c2bac9-5eb5-4968-b0e0-a8e60b5ad9dc",
+      "refero_url": "https://refero.design/pages/64c2bac9-5eb5-4968-b0e0-a8e60b5ad9dc",
+      "thumbnail_url": "https://images.refero.design/screenshots/pampam.city/desktop/a9363a8e-8100-4e7e-b848-a23b83e270fd_thumb.jpg",
+      "goal": "Find a suitable template quickly (e.g., roadtrip)",
+      "action": "User selects the 'Popular' category and taps the 'Roadtrip Planner' template from the list",
+      "system_response": "The right side of the interface updates to show a map preview with the selected template's content and details appear in the left template panel.",
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Map",
+        "List",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Avatar",
+        "Map Pin"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "San Francisco",
+        "Arial",
+        "Intercom",
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen shows a large interactive map primarily covering the southern United States, Mexico, Central America, and parts of South America and the Caribbean, using a soft muted color palette. The map background is light gray with geographical details such as city names and country borders illustrated in subtle darker grays. Over the map, there are several small rectangular photo thumbnails with slight shadowing and rounded corners, positioned over specific geographic regions (e.g., near Houston, near the East Coast, and the Caribbean). Each thumbnail includes an image representing locations or themes (e.g., cityscapes, landscapes) and a subtle white border to provide contrast against the map. The top-left corner contains a semi-transparent card or panel with a white background and soft shadows, featuring a search field labeled \"Search this map\" at the top with a magnifying glass icon and rounded corners. Below the search bar, a bold heading \"Popular\" introduces a vertical list of three templates: \"City Guide,\" \"Travel Log,\" and \"Roadtrip Planner.\" Each template line consists of a small thumbnail image on the left, a bold template title, and a descriptive subtitle in smaller, lighter gray text. The panel includes subtle rounded corners with a modern, clean typography style using sans-serif fonts in black for headings and dark gray for descriptions. The interface includes minimalistic icons on the left side for layers or other map controls, arranged vertically with ample spacing, and a bright blue \"Share\" button on the upper right side with white text and rounded corners. The overall style is modern, clean, and minimalistic, with a focus on usability and clear map interaction. Typography is consistent and uses a medium-weight sans-serif font for headings and medium-light for body text, sized for readability. There are subtle shadows and depth effects on the panel and thumbnails to separate them visually from the map. The layout is spacious and uncluttered, emphasizing the large interactive map area and easy template selection.",
+        "layout": "The layout features a full-screen interactive map as the background occupying the entire viewport. Overlaid on the left side is a single vertical floating panel containing the search bar at the top, followed by a vertically stacked list of three template options under the \"Popular\" heading. The side panel has generous padding and clear vertical spacing between template items. Each template item is horizontally aligned with a thumbnail on the left and textual information (title and description) on the right. On the left vertical edge of the screen, aligned roughly center-left, is another narrow vertical toolbar with three circular icon buttons stacked vertically with equal spacing. At the top-right corner is a standalone rectangular button labeled \"Share.\" The map itself contains multiple overlaid semi-transparent thumbnails positioned on specific geographical locations, arranged diagonally from north to south-east along the map. The overall grid can be described as a full-screen, single column map background with floated UI elements on the left (side panel) and right (share button), and vertical bar of icons on the left middle area. Padding around the panel and icons keeps interface elements clearly separated from the edges.",
+        "functions": "Users can interact with the map by searching locations using the search field at the top-left and browsing pre-defined travel-related templates such as City Guide, Travel Log, and Roadtrip Planner from the side panel. Users can click on these templates to select or copy map setups or guides related to those travel themes. The template list includes descriptive text and small preview images to help users understand each option. Users can also use map navigation controls and additional icons on the left to adjust map layers or settings. The 'Share' button on the top-right allows users to share their current map view or selected templates with others. The interface supports exploration and planning of travel routes or guides, helping users customize their travel itinerary or create location-focused content. The layout and controls are designed to make searching, selecting, and sharing map-based travel templates efficient and intuitive, consolidating map interaction and template browsing into one screen."
+      }
+    },
+    {
+      "name": "Template preview (Roadtrip Planner)",
+      "screen_id": "223de75f-7e9e-4086-916f-e40a10b7b005",
+      "refero_url": "https://refero.design/pages/223de75f-7e9e-4086-916f-e40a10b7b005",
+      "thumbnail_url": "https://images.refero.design/screenshots/pampam.city/desktop/a72595c7-c218-46e3-b6aa-25c094ce9a9b_thumb.jpg",
+      "goal": "Review the template details and sample route before copying",
+      "action": "User reads instructions and inspects the map preview; decides to copy the template and clicks the 'Copy Map' button",
+      "system_response": "A 'Copy Map' call-to-action is triggered; the UI begins the copy operation and will show progress feedback.",
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Map",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Avatar",
+        "Map Pin"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "San Francisco",
+        "Arial",
+        "Intercom",
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen is divided into two main vertical sections: a left sidebar panel and a large interactive map on the right. The left sidebar panel is a vertical rectangle with rounded corners and a white background (#FFFFFF). It includes a search field at the top with placeholder text 'Search this map' inside a rounded search box with light gray border (#CCCCCC) and subtle shadows. Below the search bar is a thumbnail image of a desert road with blue sky, framed with subtle rounded corners. Underneath is a heading 'Roadtrip Planner' in bold black font (likely a sans-serif, about 20-24px, weight 700). Below the heading is a short paragraph of instructional text in a smaller, regular-weight, dark gray font (#444444), explaining how to use the planner with a numbered list from 1 to 5 in the same font style and size. Further down, another heading 'Roadtrip' in bold followed by additional instructions in smaller text. The left panel is separated from the map by a subtle vertical divider or margin. The right side features a large map of a portion of the western United States, with the route drawn in a blue curved line connecting multiple photo markers. The route is visually highlighted with a blue line and numbered markers (1, 2, 3, etc.) placed above corresponding location thumbnails. Each photo marker has a small red notification circle with numbers indicating spots or alerts. A bright blue rectangular button labeled 'Copy Map' is placed in the upper right corner of the map area, with white text (#FFFFFF) and subtle drop shadow for prominence. The overall style is clean and modern with focus on usability. The map uses muted earth tones and blue for water, with red accent badges and blue route lines for contrast. Typography is mainly sans-serif with clear hierarchy in font weight and size. The layout is horizontally split with a left-side control panel and right-side map occupying approximately 35% and 65% width respectively. Padding in the left panel is consistent, aligning content in vertical stacks with spacing between elements. All interactive elements such as buttons and markers have clear visual cues (rounded corners, shadows, badge numbers) to indicate clickability. This design supports user interaction for planning, editing, and sharing roadtrip routes visually through the map and sidebar.",
+        "layout": "The layout uses a two-column structure with the left column as a fixed-width sidebar (about 35% width) containing search, image thumbnail, headings, descriptive and instructional text, stacked vertically with consistent padding and spacing. The right column is a fluid container (65% width) displaying a detailed interactive geographical map with visual routing. The route is represented as a curved blue path connecting multiple spaced photo markers aligned along the mapped trajectory. The markers are spaced horizontally and vertically following the geographic scale but are visually grouped and numbered for clarity. The 'Copy Map' button is absolutely or fixed positioned in the top right corner of the map area. The columns are separated by a subtle vertical margin or border for visual separation. The sidebar content is left-aligned with vertical stack alignment, whereas the map covers the remaining right space fully. The layout keywords include 'two-column', 'sidebar-main', 'vertical stack', 'interactive map', 'responsive width', 'fixed sidebar width', 'top-right button', 'visual route line', 'photo markers', 'notification badges'.",
+        "functions": "Users can perform multiple actions in this interface starting with searching the map location via the search field in the left sidebar. They can read instructions about how to use the roadtrip planner, including copying the map, adding spots, and sharing the itinerary. The sidebar provides textual guidance and a visual thumbnail to orient users. On the map, users can interact with photo markers which correspond to specific stops on the road trip. These markers display small red numeric badges indicating the number of photos or notifications associated with each stop. Users can click on these markers to view details or reorder spots by drag and drop as suggested by instructions. The prominent 'Copy Map' button allows users to duplicate the current itinerary map, facilitating sharing or saving. On a broader level, the interface allows users to collaboratively plan a roadtrip by visually plotting a route with stops, adding notes or photos, reordering locations, and then sharing the completed itinerary. The combination of map interaction and sidebar instructions supports clarity and ease in creating and customizing a multi-stop travel route efficiently."
+      }
+    },
+    {
+      "name": "Template contents list",
+      "screen_id": "9c267bb1-562f-4d53-92b5-fa3776dc8402",
+      "refero_url": "https://refero.design/pages/9c267bb1-562f-4d53-92b5-fa3776dc8402",
+      "thumbnail_url": "https://images.refero.design/screenshots/pampam.city/desktop/fac7e9bf-befc-459b-8012-b994e4be20b2_thumb.jpg",
+      "goal": "Confirm which spots and order will be copied",
+      "action": "User opens the 'Roadtrip' spots list within the template preview to verify included places",
+      "system_response": "Left panel shows the list of places (up to 10 items) that belong to the template; map shows corresponding markers and route.",
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Map",
+        "List",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Avatar",
+        "Map Pin"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "San Francisco",
+        "Arial",
+        "Intercom",
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen presents an interactive roadtrip planner interface split into two main sections horizontally. On the left side, a vertical panel with rounded corners and a light grey background contains a search bar at the top with placeholder text \"Search this map\" and a magnifying glass icon on the left side inside the input. Below the input is a bold heading \"Roadtrip\" with a subtext instructing users to add up to 10 spots and reorder them by dragging up and down. The panel lists five roadtrip locations in vertical order. Each list item is a horizontal card with a light cream/beige background and rounded corners, containing a small thumbnail image on the left and the location name in bold text on the right. Some cards have a small red badge with a white number at the top-right corner of the thumbnail indicating the order. The Yosemite National Park card includes an additional descriptive subtext under the title in smaller font. The items can be reordered by dragging vertically within the list, indicated by the visual spacing and subtle shadows. On the right side, a large interactive map spans the majority of the screen with geographical details in muted beige with blue lakes and dark text for place names. The map displays the travel route as a bright blue line connecting the locations in the list. Each stop along the route is marked with a small rectangular thumbnail image and a corresponding red badge with the spot number near the top-right corner. Tooltips with travel time between spots appear in blue bubbles along route segments. Top-right corner above the map includes a prominent blue rectangular button labeled \"Copy Map\" with white text. The entire layout is spacious, uses a clean and modern style with pastel and muted colors, clear typography, and consistent rounding on corners. The map background is minimal with subtle geographical highlights, and the overlay panel uses subtle shadows and spacing for clarity. The design is responsive and user-friendly, emphasizing easy navigation, visual mapping, and interaction.",
+        "layout": "The layout uses a two-column split structure. The left column is a vertical list container with a fixed narrow width holding the search input, heading with instructions, and a list of five card-like location spots stacked vertically. Each card is equally spaced with margins and rounded corners. The right column is a large interactive map occupying the majority of horizontal space, with location thumbnails pinned along a visible blue route line. The map includes dynamic elements like travel time bubbles spaced appropriately along the route between pins. The 'Copy Map' button is positioned in the top-right corner above the map area. The layout effectively balances the narrow functional control panel on the left with the expansive map visualization on the right, ensuring good distribution of elements. Padding and spacing maintain clarity and separation between UI components. The interface is horizontally symmetrical with distinct zones for controls and visualization.",
+        "functions": "Users can interact with the map by searching locations using the search bar on the left panel. They can add up to 10 favorite spots for their roadtrip and visually map their travel route on the right map section. The numbered badges on each list item and map marker provide clear visual feedback to support ordering and identification. Users can drag spots up and down within the left-side list to reorder their itinerary, and this change is reflected visually by the route update on the map with corresponding travel time tooltips between points. Clicking or hovering on spots on the map or list likely reveals additional information or highlights the corresponding item. The 'Copy Map' button enables users to copy the displayed route map for sharing or saving purposes. Collectively, the interface supports a travel planning workflow allowing users to build, customize, and share their roadtrip plans efficiently by combining textual search, drag-and-drop reordering, and spatial route visualization."
+      }
+    },
+    {
+      "name": "Copy progress modal",
+      "screen_id": "aa5a432a-370f-4d53-a028-3515aa6188a0",
+      "refero_url": "https://refero.design/pages/aa5a432a-370f-4d53-a028-3515aa6188a0",
+      "thumbnail_url": "https://images.refero.design/screenshots/pampam.city/desktop/e2e8b9b1-9891-494b-a112-59e0f91f9a7c_thumb.jpg",
+      "goal": "Wait for the system to duplicate template data",
+      "action": "User waits while the system copies places and content into a new map instance",
+      "system_response": "A centered progress modal displays 'Copying places...' indicating an in-progress duplication operation.",
+      "ux_patterns": [
+        "Edit",
+        "Loading & Connecting"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "San Francisco",
+        "Arial",
+        "Intercom",
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen features a two-part layout with a left sidebar and a large interactive map on the right. The left sidebar has a search field at the top with rounded corners and a search icon, typed placeholder text is lightly visible. Below the search field is a selection card showcasing a photograph of a desert road with clear blue sky, captioned 'Roadtrip Planner.' The sidebar includes black text instructions and steps, describing how to use the roadtrip planner. The text uses a clean sans-serif font, approx 14-16 px size, left aligned with consistent spacing and line height. Below the instructions is a smaller section labeled 'Roadtrip' with smaller text instructing users to add up to 10 spots using drag-and-drop and ordering features. The color palette includes whites for background, black for text, blue highlights on links, and subtle shadows around the cards for depth. \n\nThe right side contains a full-screen map of the western United States, displayed in muted earth tones with dark blue water bodies and light grey for land. The route is visualized as a blue line that connects various places across the map from San Francisco through Las Vegas to Denver. Along the route are multiple clickable photo thumbnail spots representing key destinations like Grand Canyon, Mesa Verde National Park, and Denver. Each thumbnail includes a location name label with dark text over a semi-transparent background. \n\nCentered above the map is a semi-transparent white modal box with rounded corners and subtle shadow, containing a loading pagination indicator with three dots and the text 'Copying places...' below it in a small bold font, indicating a background process or synchronization. The interface has consistent spacing and alignment, ensuring a clear hierarchy and ease of navigation. The use of a modal overlay suggests user interaction blocking during copy process. Overall, the style is modern and minimalistic, focusing on functionality with clean typography and map visualization techniques.",
+        "layout": "The layout comprises two main vertical sections: a left sidebar navigation panel occupying about 25-30% of the screen width, and a large interactive map area taking up the remaining 70-75% of the screen on the right. The sidebar is arranged in a single column with stacked elements: a search field at the top, below that an image card with heading and explanatory text, and further instructions and another smaller text section below. The right side features a full-bleed map with overlaid route lines and clickable photo thumbnails spaced horizontally along the route. Above the map center is a small modal overlay for status display. The layout uses padding within the sidebar to separate text blocks, consistent margins around the image card, and balanced whitespace to keep the interface uncluttered. The modal is centered with fixed size and rounded corners, layered above the map content. The design uses a grid-based alignment for sidebar content and absolute positioning overlays for map markers and the modal. This layout supports effective visual hierarchy and interaction focus.",
+        "functions": "Users can type into the search field on the left sidebar to find locations or trip planning templates. They can read the provided instructions to understand how to copy the roadtrip planner map, add up to 10 spots, and reorder them in the 'Roadtrip' section. The interface allows users to interact with the map on the right by viewing various destination thumbnails placed along the route. The modal with copying status provides feedback to users that the app is processing their map or place copying, assuring users that progress is occurring. The combination of these functions supports the broader task of planning and organizing a roadtrip itinerary by visualizing a custom route with photos and location names, enabling users to personalize and share their travel plans. The design encourages engagement through clear instructions, interactive map elements, and visible progress states to facilitate a smooth user experience during trip planning activities."
+      }
+    },
+    {
+      "name": "Copied map on canvas",
+      "screen_id": "ec262ecb-b082-47cc-bc6b-6e1670057e71",
+      "refero_url": "https://refero.design/pages/ec262ecb-b082-47cc-bc6b-6e1670057e71",
+      "thumbnail_url": "https://images.refero.design/screenshots/pampam.city/desktop/5237bf74-74ad-4019-9e38-103767a88b55_thumb.jpg",
+      "goal": "Verify the copied map appears and that markers/route are placed correctly",
+      "action": "User views the map canvas where the newly copied route and pins are visible; left panel still shows the template content",
+      "system_response": "The template's places and route are rendered on the map as map features; controls like 'Copy Map' remain visible until the user closes the preview.",
+      "ux_patterns": [
+        "Location & Address"
+      ],
+      "ui_elements": [
+        "Map",
+        "Button",
+        "Text Field",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Toolbar",
+        "Photo",
+        "Icon",
+        "Thumbnail",
+        "Avatar",
+        "Map Pin"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "San Francisco",
+        "Arial",
+        "Intercom",
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen is a split view with an interactive map on the right and a panel on the left. The map shows a route across the western United States with multiple marked stops represented by small photo thumbnails. Each stop has a red circular badge indicating numerical order or count. Blue lines connect each stop with estimated travel times shown in light blue text boxes overlaying the path. The map background is a neutral color with geographic details and water bodies displayed in blue. On the left, there's a vertical scrollable panel with a white background containing text instructions and map search input. At the top of this panel is a search field with a rounded rectangle shape and a search icon in the placeholder text area. Below is a large photo thumbnail representing a road with desert scenery and a caption reading \"Roadtrip Planner\" in bold, black text. The instructions are smaller grey text and explain usage steps in a list format. There are plus and minus circular buttons along the panel edges for zooming or adding/removing spots. The overall style uses clean sans-serif typography with clear hierarchy: bold headings, smaller instruction text, and numeric badges in red circles with white numbering for visual emphasis. The colors include white (#FFFFFF) for the panel background, black (#000000) for headings, grey (#6b6b6b approximately) for instructions, blue (#1e90ff) for route lines and time labels, and red (#ff0000) for stop badges. The layout positions the panel on the left taking roughly 30-35% width with padding inside for text spacing, and the map fills the remaining right side. The map is interactive with visual markers and paths that stand out clearly against the muted map background. The UI includes icons for search and navigation controls that are minimalistic and consistent. No visible animations are present but the design suggests dynamic interactions such as dragging spots or updating route paths.",
+        "layout": "The layout consists of a two-column split. The left column is a vertical side panel occupying about one third of the width, containing a search field at the top, followed by a large image with a title and textual instructions beneath. The panel uses padding inside for spacing and includes zoom and control buttons arranged vertically along edges. The right column is a full interactive map filling approximately two thirds of the width. The map displays multiple stops arranged linearly from right (Denver) to left (San Francisco), connected by blue route lines with small travel time labels centered on lines between stops. Each stop includes a rectangular photo thumbnail with a numeric red badge in the upper corner. There is consistent vertical and horizontal spacing between UI elements. The text in the panel is aligned left with clear hierarchy and spacing separating each block. The zoom buttons on the panel edges are circular and positioned vertically with some margins between them. The map pins with images are aligned along the route, arranged horizontally with small vertical offsets for clarity. The page uses a clear two-column grid layout.",
+        "functions": "Users can search locations via the search field to find places on the map. They can add up to 10 spots for a road trip by dragging and dropping or clicking 'Add'. The interface visually displays the travel route connecting these spots with estimated travel times. Users can reorder locations by dragging them or adjusting their position, supported visually by numbered badges on the markers. The plus and minus buttons allow zooming or modifying stops on the trip. Instructions on the left guide users step-by-step to copy the template, add spots, and share their itinerary. Users can also share a link or invite friends, facilitating collaboration. Overall, the screen supports planning a road trip efficiently through visual selection and organization of travel stops on an interactive map, providing clarity on route and travel duration to assist travel itinerary creation."
+      }
+    },
+    {
+      "name": "New map listed in account",
+      "screen_id": "7fe71206-8235-446d-b1d6-13c9d4f3eaea",
+      "refero_url": "https://refero.design/pages/7fe71206-8235-446d-b1d6-13c9d4f3eaea",
+      "thumbnail_url": "https://images.refero.design/screenshots/pampam.city/desktop/9e672dde-6991-417d-86f6-72e6118387da_thumb.jpg",
+      "goal": "Return to account home and confirm the new map is in the user's library",
+      "action": "User closes preview or navigates back to the account panel to see the created map listed (Roadtrip Planner)",
+      "system_response": "The user's left-hand panel shows the new Roadtrip Planner item in the map list; the map canvas may refocus to the new map's extent or show its thumbnail.",
+      "page_types": [
+        "Home Page"
+      ],
+      "ui_elements": [
+        "Map",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Avatar"
+      ],
+      "fonts": [
+        "Helvetica Neue",
+        "San Francisco",
+        "Arial",
+        "Intercom",
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen presents an interactive map interface covering the US and parts of Canada and Mexico, with a dominant deep blue color for the water bodies (approximate HEX #00247d) and neutral off-white for land. Key cities and regions are labeled in a light reddish color (approximate HEX #db6a41). The map uses minimalistic cartographic styling with lakes and borders clearly demarcated. On the left side, there is a floating card-like sidebar with a white background (#FFFFFF) and subtle drop shadow, slightly rounded corners, containing user information and trip options. The sidebar uses black text for titles and dark grey for descriptions, paired with small thumbnail images to the left side of text entries. At the top of the sidebar is a search field with a magnifying glass icon, a text placeholder 'Search this map', and adjacent control buttons with icons, consistent in style with the sidebar. The sidebar header includes a colorful square placeholder image above the bold user name 'Connie Perry' and a smaller subtitle 'Free Plan'. Below, there are two horizontally stacked cards listing 'Liverpool' with a lock icon (indicating restricted content) and 'Roadtrip Planner' with an image and description snippet. Both cards have subtle rounded corners and are horizontally aligned with their images on the left and text on the right. A prominent blue call-to-action button labeled 'Make a map' spans the bottom of the sidebar, styled with white text and medium blue background (#4a88e8) with rounded edges. Additional UI elements appear as small floating circular buttons on the sidebar's left edge, including pencil, plus, and a color palette icons, presumably for editing and adding map features. On the map, a small pinned card labeled 'Roadtrip Planner' appears near California, small in size with a thumbnail image and caption text, consistent with the cards in the sidebar. The overall style is clean, modern with an emphasis on usability and quick access to trip planning features. The layout is divided primarily into a two-column structure with a large map area and a narrow interaction panel aligned left. Spacing is generous with balanced margins and padding around interface elements for clarity. Typography uses a sans-serif font with hierarchy from large bold names to smaller descriptive text, left aligned within the sidebar and in-line with thumbnails. No animations are visible in the screenshot but the design suggests interactive map panning and clickable cards.",
+        "layout": "The layout is a two-column structure: a narrow left sidebar column and a large main content column for the map. The left sidebar is a vertically stacked container with multiple groups: at the top, a search field with adjacent icons; below, user profile details and plan type; then a vertical list of two trip plan cards with thumbnails and descriptive text; followed by a full-width call-to-action button at the bottom labeled 'Make a map'. The left sidebar column includes an aligned group of floating circular buttons along its left edge, vertically spaced, offering additional functionalities. The right main column is entirely devoted to a large interactive map, occupying approximately 75%–80% of the screen width. Within the map, a pinned card appears centered roughly near California, showing an image and title text. The sidebar’s elements have consistent horizontal and vertical padding, with a slight margin separating the search input from the top edge. The card elements use a small grid with an image thumbnail on the left (about 25% of card width) and textual content on the right (75%), all contained within rounded rectangular backgrounds. Overall, the screen uses grid-based alignment for the sidebar, with a fixed-width column for the sidebar and responsive full-width map area.",
+        "functions": "On this screen, users can interact with a map interface that allows them to search locations, view and manage trip plans, and access user-specific data. Users can enter text queries in the search field to find locations or map-related content, supported by the search icon for affordance. They can browse through trip plans or location lists displayed as card elements in the sidebar, each card including thumbnail images and titles describing the trip or location, some of which may be locked (restricted), informing users visually about content access. The floating buttons on the sidebar's left provide quick access to actions such as editing map pins, adding new map features or elements, and customizing map appearance or themes, enhancing interactive control. The 'Make a map' button enables users to create or generate a new map or trip plan, consolidating their data inputs into actionable output. On the map itself, pinned cards serve as markers representing existing trip plans or points of interest, which users can possibly click to expand or modify. At a broader level, this interface supports trip planning workflows where users search and select locations, configure trips, and manage their saved plans visually on the map, facilitating travel organization and personalized map creation. The clean layout and clearly labeled buttons ensure ease of navigation, enabling users to perform their tasks efficiently and intuitively while receiving visual feedback through distinct UI states such as locked items or active buttons."
+      }
+    }
+  ],
+  "related_queries": [
+    "create map from template",
+    "copy roadtrip planner template",
+    "open template library map",
+    "select popular map template",
+    "preview and copy template",
+    "template copying progress modal",
+    "new map added home",
+    "template places import flow",
+    "browse community map templates",
+    "make a map from template"
+  ]
+}

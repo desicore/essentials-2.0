@@ -1,0 +1,178 @@
+{
+  "id": 9574,
+  "platform": "web",
+  "refero_url": "https://refero.design/flows/9574",
+  "name": "Add lesson resource",
+  "screens_count": 5,
+  "description": "Instructor is editing a course lesson in the curriculum editor (desktop, logged-in instructor). The entry point is an open lesson ('Understanding A1 to B1 CEFR Levels') in the course curriculum. The happy path: instructor opens the lesson, clicks Add content, chooses the Resource content type, uploads or imports a file via the Add resource modal, confirms the upload, and returns to the lesson with the resource attached and a visible download link. Exit point: the lesson editor showing the newly added resource beneath the lesson content. Assumptions: user is authenticated with course-edit permissions, using a desktop browser, and file-upload/import integrations (local device, link, Dropbox, Google Drive) are available.",
+  "problem": "User task (user perspective): Attach a downloadable resource file (e.g., a .docx) to a specific lesson so students can download it. The user expects to find an 'Add content' control, select the relevant content type, supply a file (drag/drop, browse, or import), confirm upload, and then see the file listed in the lesson with a download link visible.\n\nInterface/system perspective: The UI exposes an 'Add content' action inside a lesson editor which opens a content picker. Selecting 'Resource' opens a modal for file input with multiple import sources and drag/drop support. The system accepts the selected file, shows a preview in the modal, provides an explicit upload/confirm control, and upon successful upload the editor injects a new Resource block under the lesson content and marks the download link as visible. \n\nResult at end: User-perceived outcome — the file appears in the lesson as a Resource block (e.g., 'Introduction.docx') with a label indicating the download link is visible. System-level outcome — the resource file is stored and associated with the lesson so students can access/download it when the lesson is published or visible to them.",
+  "site": {
+    "id": 358,
+    "domain": "teachable.com",
+    "description": "Sell Courses, Coaching and Digital Downloads",
+    "name": " Teachable",
+    "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+    "refero_url": "https://refero.design/websites/358",
+    "categories": [
+      "Business"
+    ],
+    "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+    "background_color": "2f73c1"
+  },
+  "steps": [
+    {
+      "name": "Open lesson in curriculum editor",
+      "screen_id": "44abfeaa-8226-458d-809e-3b44da80311c",
+      "refero_url": "https://refero.design/pages/44abfeaa-8226-458d-809e-3b44da80311c",
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/c2d2c3e3-5e51-4463-8a01-1786c9220d9e_thumb.jpg",
+      "goal": "Review the lesson and prepare to add new content (resource) to it.",
+      "action": "User views 'Understanding A1 to B1 CEFR Levels' lesson and clicks the prominent 'Add content' button inside the lesson area.",
+      "system_response": "Lesson editor remains open; the interface awaits the user's selection of which content type to add.",
+      "page_types": [
+        "Content Management Page"
+      ],
+      "ux_patterns": [
+        "Edit"
+      ],
+      "ui_elements": [
+        "Button",
+        "Switch & Toggle",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "fonts": [
+        "San Francisco"
+      ],
+      "content": {
+        "description": "The screen is a web-based curriculum management interface for an online education platform named 'Liam's School'. The design adopts a clean, minimalistic layout with a predominantly white background (#FFFFFF) for the main content area and a dark sidebar (#2E2E2E) on the left side. The left vertical sidebar includes navigation links with white (#FFFFFF) text and some accent highlights in bright yellow (#FFD700), such as the \"Setup guide\" button and the selected course title. The sidebar uses simple icons in white and has the user's name 'Liam' at the bottom. The main content area is split horizontally into multiple sections with clear separation.\n\nAt the top, breadcrumb navigation is included in small, light gray (#6E6E6E) font for context. The page heading uses a serif or classic font in black (#000000) at a large size (around 24-28px) for \"Curriculum\".\n\nThe main content block is a white card with subtle gray borders (#CCCCCC) and rounded corners, containing a section header \"Understanding A1 to B1 CEFR Levels\" with a \"Publish\" button styled as a rectangular button with a subtle border and black text. Adjacent is an \"Edit\" link.\n\nThe main text area within this block contains a block of lesson description text with normal body font style (approximately 14-16px, line height 1.5, dark gray #333333). Bullet points highlight key lesson concepts.\n\nBelow the main content are lesson settings with toggle switches for \"Student comments\" and \"Public preview\" states, styled as circular toggles in gray with an X mark indicating off state. A red delete link \"Delete lesson\" is positioned below these toggles.\n\nOn the right side, a narrow vertical outline panel presents an \"Outline\" with headings and sub-items, the text is dark gray with a small \"Edit\" link in blue. The outline is categorized into sections such as Introduction, Building Foundations, Speaking Skills Development.\n\nA prominent bright yellow (#FFD700) \"Preview\" button is located at the top right area, ensuring user focus and easy access.\n\nThe layout is spacious with generous padding around elements for clarity and readability. Typography is consistent with sans-serif fonts for body and controls, and serif or bold for headings.\n\nOverall, the style is professional and functional designed for course authors to create, manage and preview curriculum steps efficiently. The interface is user-friendly, with clear call-to-actions and a logical hierarchy, combining navigation, content editing, and settings on a single screen.",
+        "layout": "The screen uses a two main column layout: a fixed vertical left sidebar and a flexible main content area that includes two primary horizontal sections. The sidebar on the left is a vertical navigation pane occupying approximately 20% of the screen width, with stacked navigation items arranged vertically, each spaced with padding for comfortable touch/click targets. The sidebar includes a footer area at the bottom with the account name.\n\nThe main content area (about 80% width) is divided horizontally into two main parts. The top horizontal section contains the breadcrumb navigation at the very top, followed by the large main curriculum content card aligned center-left, which takes about 60% of the horizontal space. Adjacent to this, on the right, is a narrower vertical outline panel (around 25% width), with the outline title, list of course sections and lesson titles arranged vertically in a scrollable container with spacing between items.\n\nBelow the main content card, there is a settings section with toggles and action buttons arranged vertically. All content sections use consistent padding and margins, with alignment primarily left-aligned for text blocks and controls, creating a balanced and readable structure.\n\nThe layout keywords are: two-column, vertical sidebar, horizontal section division, card layout, vertical list, fixed navigation, responsive spacing, vertical alignment, scrollable outline, toggle controls.",
+        "functions": "Users can review and manage the curriculum of an online educational course. Specifically, they can read the lesson content and key concepts presented within a text block that includes paragraphs and bullet points. Users have the ability to edit the text and images of the lesson by clicking the 'Edit' link, which likely transforms the content area into an editable form. Authors can publish the lesson content using the 'Publish' button to make it available to students and set its live status.\n\nOn the right, users can view and interact with the course outline that shows different course sections and lessons, helping them navigate and manage the curriculum structure. An 'Edit' link near the outline enables modification of the outline content.\n\nIn the lower area, users can toggle lesson settings such as enabling or disabling student comments and public previews to control interactions and visibility of the lesson content. They also have the option to delete the lesson entirely via a clearly marked 'Delete lesson' button.\n\nAt the top right corner, a 'Preview' button allows users to see how the course or specific lesson would appear to learners. This facilitates checking the final rendered version before publishing or making further changes.\n\nTogether, these features enable course creators to build, edit, organize, and control their educational content efficiently in a single interface, supporting the broader goal of managing and delivering online courses effectively."
+      }
+    },
+    {
+      "name": "Open content picker",
+      "screen_id": "6e7d40f7-0553-4f44-9e53-dd73b0c45538",
+      "refero_url": "https://refero.design/pages/6e7d40f7-0553-4f44-9e53-dd73b0c45538",
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/02868304-3eb4-46c9-89ca-99d5d2427f00_thumb.jpg",
+      "goal": "Select the appropriate content type (Resource) to attach a downloadable file to the lesson.",
+      "action": "User clicks 'Add content' and the right-side Add content panel slides/open. User chooses the 'Resource' tile from the content options.",
+      "system_response": "The content picker stays open while the system prepares to open the resource upload modal (or shows the resource upload control).",
+      "page_types": [
+        "Content Management Page"
+      ],
+      "ux_patterns": [
+        "Edit"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Switch & Toggle",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "fonts": [
+        "San Francisco"
+      ],
+      "content": {
+        "description": "The interface displays a curriculum editor for an e-learning course titled 'Understanding A1 to B1 CEFR Levels'. The design has a clean and professional look with a predominantly white background (#FFFFFF) and uses a black (#000000) and dark gray (#3A3A3A) color palette for text. The page is divided into three main areas: a dark vertical sidebar menu on the left, the main content editing area in the center, and a content adding panel on the right. The sidebar is dark gray (#2D2D2D) with white text and icons. It includes the school name 'Liam's School' at the top in white, navigation icons, and text links for sections like Setup guide, Curriculum, Certificates, and others. The main content area has a breadcrumb navigation at the top with small black text and muted color. Below is the heading 'Curriculum' in a larger serif font (likely a 24px or 28px size). Underneath is the course title in bold (around 18-20px), with a 'Publish' button to the right, styled as a simple white button with black border and text. The text editor section includes a title bar labeled 'TEXT & IMAGES' with an 'Edit' option to the right. The main text block uses a serif or sans serif font with normal weight around 14-16px, line height about 1.5, and is left aligned. Bullet points highlight key lesson concepts. Below the text area is a subtle 'Lesson summary' label with an icon, colored in yellow (#FFD600). On the right, the 'Add content' panel is a white block with a header highlighted in bright yellow (#FFFF00) with black text. It contains different content types (Text & Images, Video, PDF Viewer, Audio, Banner Image, Resource, Code example, Embed media) arranged in a 2x4 grid with icons and labels inside buttons or tiles with subtle borders. Further down, sections for Educational Tools (Quiz, Open-ended) and Marketing Tools (Upsell, Referrals) are shown with similar button styling. At the bottom-left of the page, there is a settings section (Lesson settings) with toggle switches for Student comments and Public preview, styled minimalistically in gray. A delete lesson option is present in red text accompanied by a trash can icon. The overall style is minimalistic, professional, functional, and clean with emphasis on usability. Buttons and toggles are consistent in style. Text hierarchy is clear through font size, weight and spacing. The layout is a three-column grid: narrow sidebar left, large editor center, narrow content add panel right, ensuring clear visual separation and ease of access.",
+        "layout": "The layout is a 3-column grid structure. The first column on the left is a narrow vertical sidebar containing navigation icons and text links, stacked vertically, spanning the entire height. The middle column is a wide content editing area that occupies the majority of horizontal space. It starts with breadcrumb navigation near the top, followed by a page title and course title arranged horizontally, with a 'Publish' button aligned to the right within the header area. Below is the main content section that houses a bordered and segmented text area with controls for editing. Beneath this is a lesson summary label aligned left. The third column on the right is a narrow vertical panel for adding content, containing labelled buttons arranged in a 2-column by 4-row grid, categorized into content types, educational tools, and marketing tools. The bottom portion of the middle content area contains lesson settings arranged vertically with toggle switches and a delete lesson option. The overall spacing uses consistent left and right gutters, and vertical padding between sections ensures clarity and separation. The alignment is mostly left-aligned for primary text and controls, with some right alignment for buttons in header. The design uses clear grouping with subtle borders and background contrasts to separate sidebars, main content, and side panels.",
+        "functions": "Users can navigate through different sections of the e-learning platform using the sidebar menu on the left. They can view and edit the curriculum of a specific course, particularly the course titled 'Understanding A1 to B1 CEFR Levels'. They can add, edit or delete content blocks within a lesson. The content block shown is primarily text with images, explaining key lesson concepts with bullet points. Users can click 'Edit' to modify this block. The interface supports adding various content types to the lesson through the right panel, including text, video, PDF documents, audio, images, code examples, and embedded media, supporting rich multimedia lessons. Users can also add educational tools like quizzes or open-ended questions to enhance learning interactivity. Marketing tools like upsell offers and referrals can be integrated into lessons. Controls for lesson-level settings such as enabling student comments and public preview are available via toggles, allowing customization of lesson accessibility and interactivity. A 'Publish' button indicates that users can finalize the lesson for students to access. The delete lesson option allows permanent removal of the current lesson. Overall, the interface enables course creators or instructors to design, customize, enrich, and manage online course content efficiently. It supports multi-format content placement, interactivity features, and marketing integrations within a streamlined content management workflow, facilitating the creation of engaging and comprehensive educational courses."
+      }
+    },
+    {
+      "name": "Open Add resource modal",
+      "screen_id": "4c265aa2-6394-4750-8fc4-277d98731b42",
+      "refero_url": "https://refero.design/pages/4c265aa2-6394-4750-8fc4-277d98731b42",
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/63c3c3f3-67cf-4196-a7e2-7986c1ca2b1c_thumb.jpg",
+      "goal": "Provide a file to upload — via drag & drop, file browser, or import from link/Dropbox/Google Drive.",
+      "action": "User drags a file into the modal or clicks 'browse files' or an import source. The modal indicates supported import sources (My Device, Link, Dropbox, Google Drive).",
+      "system_response": "Modal shows the dropped/selected file slot and readies it for upload. The UI displays file area and import source icons; upload controls remain disabled until a file is selected.",
+      "ux_patterns": [
+        "Upload & Download"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dialog & Modal Window",
+        "Icon",
+        "Popover"
+      ],
+      "fonts": [
+        "San Francisco"
+      ],
+      "content": {
+        "description": "The screen shows an 'Add resource' modal dialog placed centrally over the background interface, which is dimmed out. The modal has a white background with subtle rounded corners and a thin gray border. At the top right corner is a small close button ('X') to dismiss the modal. The modal header includes the bold title 'Add resource' aligned to the left, followed by a subtitle in smaller regular font: 'Upload resource files that can be downloaded by your students. You can upload multiple files at once and most file types are supported.' The content area below presents a large rectangular drop zone area with a faint gray border and rounded corners. Inside the drop zone is text instructing 'Drop files here, browse files or import from:' where 'browse files' is a text link in blue color that is clickable. Below are four horizontally aligned icons with labels for file import sources: a folder icon labeled 'My Device', a link icon labeled 'Link', a Dropbox logo labeled 'Dropbox', and a Google Drive logo labeled 'Google Drive'. Each icon is spaced evenly with label text in small gray font underneath. Beneath the drop zone is a light beige horizontal information bar containing a small lightning bolt icon on the left and text describing a limitation: 'This plan is limited to 10 lesson video uploads, and video resources count toward that limit. Start your subscription to add more videos.' The phrase 'Start your subscription' is a clickable link in blue. The typography uses a clean sans-serif font, likely 14-16px for body text and 18-20px bold for the title, left aligned. The modal is sized for desktop, with a balanced padding around elements, leaving generous white space for clarity. The background behind is partially visible with gray overlay, showing a sidebar and other content blurred out. Overall style is minimalistic, functional, and professional, adhering to modern UI design principles like clarity, accessibility, and user-friendly prompts.",
+        "layout": "The layout is a modal window centered on the screen with a vertical rectangular shape. At the top left is a text block with two lines: a prominent modal title and a smaller subtitle beneath it, both left aligned with consistent padding around. Below is a large drop zone area occupying the majority of the modal width and height, aligned centrally within the modal with even internal padding. Inside the drop zone, text is horizontally centered on the upper portion, with a horizontal row of four evenly spaced file import source icons and labels aligned in a single column beneath that text. Beneath the drop zone, spanning the full width is a horizontal information bar with a lightning bolt icon on the left and text next to it, aligned horizontally with left padding. The modal includes a close icon at the top right corner, visually separated by padding. The layering uses a dimmed overlay behind the modal to create focus. The modal uses a single-column grid structure: header text, drop zone content, and info bar stacked vertically with consistent spacing. Ample white space dominates, ensuring clarity and legibility.",
+        "functions": "Users can perform file uploads by dragging files directly into the drop zone, clicking the 'browse files' link to manually select files from their device, or importing from external sources including their device, a URL link, Dropbox, or Google Drive by clicking the respective icons. These multiple upload methods provide flexibility for users to add educational resources in various formats. Once files are selected or dropped, users can upload them as resources available for their students to download. The modal provides feedback on plan limitations with an informative message about video upload restrictions and a link to upgrade the plan for higher limits. Users can close the modal with the 'X' button if they choose not to upload. Overall, the screen supports resource file management within an educational context, facilitating uploading, importing, and managing downloadable student content efficiently."
+      }
+    },
+    {
+      "name": "Confirm file selection",
+      "screen_id": "d8cd1c81-f0a6-435b-9679-701e8fc80079",
+      "refero_url": "https://refero.design/pages/d8cd1c81-f0a6-435b-9679-701e8fc80079",
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/609de55e-16a0-4563-b10e-196cf5b9a8d3_thumb.jpg",
+      "goal": "Verify the selected file and start the upload.",
+      "action": "User reviews the selected file preview (e.g., 'Introduction.docx') and clicks the green 'Upload 1 file' button.",
+      "system_response": "System uploads the file; the modal indicates progress or success (not shown in screenshots) and then closes or returns control to the lesson editor after the upload completes.",
+      "ux_patterns": [
+        "Files",
+        "Upload & Download"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dialog & Modal Window",
+        "Icon",
+        "Popover"
+      ],
+      "fonts": [
+        "San Francisco"
+      ],
+      "content": {
+        "description": "The screen displays a modal popup for uploading resource files, intended for educational content creators or instructors. The modal window is centered on a white background overlay that dims the underlying page. The popup has a clean, minimal design with a heading 'Add resource' in bold, likely black or dark gray font. Below the heading is a subtitle instructing users that they can upload multiple resource files downloadable by students, with a smaller, standard font text emphasizing supported file types and upload guidelines in black or gray color. The modal includes two text links: a 'Cancel' link on the top-left in a subtle blue or gray link style, and an '+ Add more' link on the top-right in a similar style, indicating the ability to add additional files. In the center is a large file preview area with a box containing a file icon (a document with a folded corner) in a muted blue-gray color. The file area background is a lighter gray, and the filename 'Introduction.docx' is displayed below the icon in small text. There is a small black circular close button with a white 'x' icon in the top-right corner of the file preview box to remove the file. Underneath, a large green rectangular button labeled 'Upload 1 file' uses white text in a medium-large font, positioned with comfortable padding. Below the button, a notification bar features a subtle light beige or off-white background with an icon indicating a warning or info (lightning bolt) followed by explanatory text about the plan limitations for video uploads. The notification includes a clickable 'Start your subscription' link styled as underlined text in blue or black. The main page behind the modal is a dashboard interface dimmed out but visible with a vertical dark sidebar on the left containing icons and labels in muted white or greenish text. The overall style is modern and professional, using a grayscale and green color palette with blue links for actions, ample whitespace, and a clear hierarchical layout for ease of use.",
+        "layout": "The layout uses a centered fixed modal popup with a two-column vertical structure inside the modal, dominated by a large file preview area centrally aligned. The top has a header row with the title left-aligned and two clickable links on left and right corners respectively. The preview section occupies the central space with the file icon and filename stacked vertically, followed by a full-width colored upload button below. A notification bar is positioned at the bottom of the modal with a horizontally aligned icon and text with an embedded link. The underlying page is blurred or dimmed with full-page overlay. The modal has consistent padding on all sides with a balanced margin between elements. The hierarchy is visually established by font weights and button coloring. The modal's content flows in a vertical linear format from top to bottom, emphasizing a simple, stepwise user flow.",
+        "functions": "Users can upload educational resource files by selecting and previewing files in the upload modal. They can remove selected files using the close icon on the file preview. Users can add more files with the '+ Add more' link, which likely opens a file browser or drag-and-drop area for further uploads. The Cancel link closes the modal without uploading. The 'Upload 1 file' button triggers the actual upload process for all selected files, providing a clear call to action. The notification informs users about limits on video uploads under their plan and offers a subscription link for upgrade. Overall, the screen supports the medium-level task of adding teaching materials to a course curriculum, facilitating organization and distribution to students. The broader purpose is to enable educators to efficiently manage multiple resource files for their lessons, enhancing the course content's accessibility and completeness."
+      }
+    },
+    {
+      "name": "Resource added to lesson",
+      "screen_id": "a68d25c8-7cda-41fb-aa23-67308245866e",
+      "refero_url": "https://refero.design/pages/a68d25c8-7cda-41fb-aa23-67308245866e",
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/d6b39d1b-9677-483c-8591-402f363b3f72_thumb.jpg",
+      "goal": "Confirm the resource is attached to the lesson and visible to students (download link visible).",
+      "action": "User sees the new 'RESOURCE' block under the lesson content listing the uploaded file and the 'Download link visible' indicator.",
+      "system_response": "Lesson editor displays the resource entry associated with the lesson; the file is stored and linked to the lesson so students can download it. The editor remains available for further edits or publishing.",
+      "page_types": [
+        "Content Management Page"
+      ],
+      "ux_patterns": [
+        "Edit"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Switch & Toggle",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "fonts": [
+        "San Francisco"
+      ],
+      "content": {
+        "description": "The screen displays a course curriculum management interface for an educational platform named 'Liam's School'. The overall style is clean, minimalist, and professional, with a clear typographic hierarchy. The layout has a dark gray sidebar on the left (#2E2E2E) and a white content area (#FFFFFF) on the right. The sidebar includes multiple menu items in light gray (#B0B0B0) text, with the active item highlighted with a yellow border (#FFD600) and text color. The main content area uses a serif font for headings (likely Georgia or Times New Roman) with font size around 20-24px for the heading 'Curriculum', and standard sans-serif font for body text at about 14-16px with comfortable line spacing. Black text (#000000) is used for high contrast on white background. The top portion has breadcrumb navigation in small font, with links separated by vertical bars. Below is the main content titled 'Understanding A1 to B1 CEFR Levels', featuring an editable text block on the left containing paragraphs and bullet lists describing lesson content concepts. The text block has subtle borders and minimal padding. To the right is an outline panel labeled 'Outline Edit', showing sections like 'Introduction' and 'Building Foundations' as separate lines with collapsible or editable links, all in black text on white background. Buttons including 'Publish' and 'Preview' are rectangular with black text on white background or bright yellow backgrounds (#FFD600) with black text, using a slightly rounded rectangular shape. The bottom area includes toggle switches for 'Student comments' and 'Public preview', styled as grey toggles with icons indicating on/off states. The 'Delete lesson' option is shown in red text with a trash icon. Small icons such as download arrows appear next to resource files, which are displayed as links with underlined text. The layout is mostly single column in the main content with a right sidebar for the outline. Elements are spaced with consistent padding of approximately 16-24px and the interface uses subtle lines or dividers to separate content sections. The design has no visible animations but presumably supports dynamic editing with states for editing and publishing. Overall, the interface is user focused, clean, and supports course curriculum editing workflows.",
+        "layout": "The screen layout is divided into three main areas. On the far left is a vertical sidebar navigation panel approximately 20% width, with a dark background and vertical menu items arranged in a single column. The main content area occupies roughly 65-70% width in the center column, containing the lesson title heading at top, followed by editable text sections in a vertical layout. Below the main text is a section for lesson summary, a highlighted 'Add content' button, and lesson setting toggles vertically stacked. On the right side, about 10-15% width, is a narrow vertical outline panel aligned top to bottom, showing the course outline with clickable text links, with vertical stacking of outline items grouped under labeled headings like 'Introduction' and 'Building Foundations'. The layout uses margins and padding consistently, with significant white space around elements for clarity. The layout is a fixed left main content panel with right supplementary panel structure, following a typical admin dashboard pattern. The height fits the viewport, with likely scroll support in the central documentation area and outline sidebar. The arrangement prioritizes main content and editing workflow, with persistent navigation and outline for context. The design keywords reflect modern educational dashboard: column layout, vertical sidebar, fixed navigation, outline sidebar, hierarchical content, padding, white space, multi-panel, responsive spacing.",
+        "functions": "Users can navigate through the course curriculum management system using the sidebar on the left to access 'Setup guide', 'Curriculum', 'Design templates', and more. On this screen, users can view and edit the lesson titled 'Understanding A1 to B1 CEFR Levels'. They can read the editable text block that describes the lesson content and key concepts, and use an 'Edit' button to modify this text. Users can add new content sections with an 'Add content' button. The right sidebar outlines the course structure, allowing users to see and edit sections of the curriculum such as 'Introduction' and 'Building Foundations'. The user can publish changes with a 'Publish' button and preview the lesson with the 'Preview' button. Toggles allow enabling or disabling student comments and public preview options, giving control over lesson visibility and interaction. Users can also delete the lesson using a prominently placed option. Resource files linked within the text can be downloaded by clicking on the corresponding download links. This screen supports the workflow of curriculum creation, editing, organizing, reviewing, publishing, and managing educational content efficiently, helping instructors or curriculum managers to build and maintain course lessons easily with a clear visual structure and controls."
+      }
+    }
+  ],
+  "related_queries": [
+    "course curriculum editor resource upload",
+    "add downloadable resource to lesson",
+    "teacher lesson content add resource",
+    "upload file to lesson curriculum",
+    "insert resource into course lesson",
+    "lesson content picker add resource",
+    "drag and drop lesson resource upload",
+    "import document from Google Drive lesson",
+    "preview lesson with new resource",
+    "show download link for lesson resource"
+  ]
+}

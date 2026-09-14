@@ -1,0 +1,14 @@
+{
+  "module": "06-events",
+  "title": "Adding events to courses",
+  "intro": "Semester → Courses → Events. Research into how instructors create and edit scheduled events inside a course (simulation sessions, live classes, labs, exam slots): date and time, room and equipment, which scenarios run, which learner groups attend, facilitators, capacity and recurrence. The calendar overview and communicating dates to learners is sub-module 10; scenarios (05) and learner groups (04) are neighbouring concerns.",
+  "questions": [
+    { "id": "Q1", "title": "Event creation surface: inline in course vs. global calendar with course tag", "answer": "" },
+    { "id": "Q2", "title": "Linking content and groups to the event (and whether that link is visible both ways)", "answer": "" },
+    { "id": "Q3", "title": "Recurrence and series editing (this / following / all)", "answer": "" },
+    { "id": "Q4", "title": "Resource conflicts (room, facilitator, equipment) surfaced at creation", "answer": "" },
+    { "id": "Q5", "title": "Capacity, sign-up and attendance model", "answer": "" },
+    { "id": "Q6", "title": "Time zone and duration handling", "answer": "" }
+  ],
+  "references": []
+}

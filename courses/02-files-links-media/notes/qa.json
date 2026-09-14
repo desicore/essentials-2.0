@@ -1,0 +1,22 @@
+{
+  "h2": [
+    "Upload + link + embed handled in one place vs. separate features",
+    "Organisation model (flat list / folders / sections tied to course structure)",
+    "Reuse across courses (central library vs. per-course silo)",
+    "Preview and inline playback without leaving the course",
+    "Visibility controls (draft / scheduled / per-group) and how they are surfaced",
+    "Learner-side view mirrors instructor-side structure"
+  ],
+  "cards": 30,
+  "images": 61,
+  "embedded": true,
+  "synthesis": true,
+  "citations": 79,
+  "brokenAnchors": 0,
+  "overflow": false,
+  "lightbox": true,
+  "filterEmpty": true,
+  "mobileOverflow": false,
+  "bytes": 3469248,
+  "errors": []
+}

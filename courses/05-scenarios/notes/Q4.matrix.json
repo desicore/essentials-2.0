@@ -1,0 +1,32 @@
+[
+  {
+    "app": "Circle",
+    "reference_id": "mobbin:0489e85e-877c-41fc-92dc-6e6e7bc9c7da",
+    "status": "\u2713",
+    "evidence": "Five frames show a newly present fifth lesson, the complete Culinary Explorations section lifted, moved above The World of Potatoes, and settled with lesson membership and Draft states preserved."
+  },
+  {
+    "app": "Kajabi",
+    "reference_id": "mobbin:5b4497cf-d3c9-445f-bff6-754fbbb1cf7c",
+    "status": "partial",
+    "evidence": "One authoring screen shows four grouped modules, Add Content controls, collapse controls, and Draft, Publish, Drip, and Lock labels; no ordering action or prerequisite setup is shown."
+  },
+  {
+    "app": "Podia",
+    "reference_id": "mobbin:0aed2e1a-0de0-4f32-9dba-2d5a627a1e87",
+    "status": "partial",
+    "evidence": "The authoring screen shows New lesson and New section controls, lessons grouped in sections, and a module labeled Delayed 1 day; no reorder action or item prerequisite is shown."
+  },
+  {
+    "app": "Teachable",
+    "reference_id": "mobbin:e84f7cdf-c9b2-4a3d-bddf-31e53e19e509",
+    "status": "partial",
+    "evidence": "A sectioned curriculum shows lesson rows and creation controls; an open Drip panel configures release by date or days after enrollment. Grip icons are visible, but movement is not demonstrated."
+  },
+  {
+    "app": "Udemy",
+    "reference_id": "mobbin:045c215d-6e08-432c-9bb6-3ddd4495fc69",
+    "status": "partial",
+    "evidence": "The learner view shows 14 sections, 88 lectures, numbered lessons in an expanded first section, and collapsed later sections; authoring, reorder, and prerequisite controls are absent."
+  }
+]

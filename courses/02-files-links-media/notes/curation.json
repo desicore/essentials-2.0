@@ -1,0 +1,35 @@
+[
+  {
+    "id": "refero:71fab656-7401-4838-b001-024e2534f560",
+    "app": "Cake Equity",
+    "reason": "Scope and product-count curation: weaker course-material relevance than retained examples"
+  },
+  {
+    "id": "refero:8614ec8e-e4a0-46c6-9eeb-81171c9cb116",
+    "app": "Cake Equity",
+    "reason": "Scope and product-count curation: weaker course-material relevance than retained examples"
+  },
+  {
+    "id": "mobbin:95307add-8679-4519-b7bf-db0cc9bd59f8",
+    "app": "MasterClass",
+    "reason": "Scope and product-count curation: weaker course-material relevance than retained examples"
+  },
+  {
+    "id": "mobbin:762c8d37-6574-4237-bf7d-f51a33b9c9f2",
+    "app": "OpenAI Platform",
+    "reason": "Scope and product-count curation: weaker course-material relevance than retained examples"
+  },
+  {
+    "id": "mobbin:f8dd3dbd-d79a-43a1-b44a-549368ae7466",
+    "app": "Codecademy",
+    "reason": "Scope and product-count curation: weaker course-material relevance than retained examples"
+  },
+  {
+    "id": "mobbin:4bd66e6d-010d-4551-9b1c-10410c5362e7",
+    "reason": "Metadata says Adobe; image is Cake Equity document management, outside course-material scope."
+  },
+  {
+    "id": "refero:dcb0fe52-b9ca-45ce-86ef-60bb453067a5",
+    "reason": "Receipt editor, not content visibility."
+  }
+]

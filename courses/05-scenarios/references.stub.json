@@ -1,0 +1,38 @@
+{
+  "module": "05-scenarios",
+  "title": "Adding scenarios to courses",
+  "intro": "Semester \u2192 Courses \u2192 Scenarios. Research into selecting reusable scenarios from institutional and personal libraries, placing them in a course, and managing their sequence and course-specific settings. Scenario authoring is out of scope; events, competencies, learner visibility and Canvas hand-off are neighbouring concerns.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Library browse UX: search, filters (tags, competency, duration), preview before adding",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "Multi-select and batch add vs. one at a time",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "Instance vs. reference semantics (edits to master propagate? per-course overrides?)",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Sequencing after add (drag reorder, grouping into sections, prerequisites between items)",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "Metadata carried along (competencies, duration, equipment) and shown in the outline",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "Empty / first-run state and suggestions",
+      "answer": ""
+    }
+  ],
+  "references": []
+}

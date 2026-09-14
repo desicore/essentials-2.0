@@ -1,0 +1,2 @@
+Refero queries: course editor preview as learner student view; course publishing visibility schedule learner preview invitations; Teachable publish course and preview as student; course invite learners and track enrollment status; Coursera learner course dashboard progress; course invite students pending enrollment.
+Gaps: no direct opened/viewed invite analytics; no reliable matched web/mobile Refero captures; preview control not visible in returned Teachable screens; several search results were unrelated and excluded.

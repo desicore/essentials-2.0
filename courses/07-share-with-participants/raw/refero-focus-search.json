@@ -1,0 +1,8 @@
+{
+  "queries": [
+    {"query":"Figma share","screen_ids":["e51e1e0c-a4ea-4090-80de-b2453c8eda77","e90fde29-ec8a-4104-bfab-2996e15f8c8a"]},
+    {"query":"Teachable","screen_ids":["9ec0386f-182d-4acc-bfdb-0ef34c046fc9"]},
+    {"query":"Circle course","screen_ids":["5d94c947-c876-4df3-8c9b-1458671d8d53","d107d09b-4a1f-417d-a874-4e76dfa35e12"]}
+  ],
+  "note": "Refero compact HTTP searches; full metadata retrieved for selected screens. Not all returned records were relevant course/share UI."
+}

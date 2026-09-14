@@ -1,0 +1,38 @@
+{
+  "module": "02-files-links-media",
+  "title": "Files, links, media",
+  "intro": "Research for Essentials 2.0: Semester \u2192 Courses \u2192 Files, links, media. How instructors collect, organise, reuse and control course materials, and how learners consume them. Sending and distribution belong to sub-module 09; recording production and reports belong to 08.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Upload + link + embed handled in one place vs. separate features",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "Organisation model (flat list / folders / sections tied to course structure)",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "Reuse across courses (central library vs. per-course silo)",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Preview and inline playback without leaving the course",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "Visibility controls (draft / scheduled / per-group) and how they are surfaced",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "Learner-side view mirrors instructor-side structure",
+      "answer": ""
+    }
+  ],
+  "references": []
+}

@@ -1,0 +1,345 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 181,
+    "total_pages": 19
+  },
+  "records": [
+    {
+      "id": 9238,
+      "platform": "web",
+      "screens_count": 14,
+      "refero_url": "https://refero.design/flows/9238",
+      "name": "Create and Publish Digital Course",
+      "description": "Happy-path: a logged-in seller creates and publishes a digital course on Gumroad. Entry: Products dashboard (empty state). The user clicks New product → selects product type (Digital product) → provides a name and price → proceeds to the product editor. In the Product tab the user fills title, rich-text description, URL slug, uploads cover/thumbnail, chooses CTA text, adds summary/details, sets integrations, pricing and sales settings. The user switches to Content to add course content and external links, then to Receipt to edit the download button text and custom message (preview updates). Finally the user publishes and uses the Share tab to set Discover category/tags and sharing options. Exit: product appears in the Products list as Published. Assumptions: user is logged in with product-creation permissions; working desktop browser; uploading assets and external links are allowed.",
+      "problem": "User task (user perspective): Create a purchasable digital product (a web design course), provide product metadata (title, description, cover, thumbnail), set a price and sales settings, add the content (including an external download link), customize the post-purchase receipt message and button, publish the product, and make it discoverable/shareable. The user expects real-time preview of the product/receipt, toggles for optional behaviours (integrations, sales limits), and a final published product listing.\n\nInterface/system perspective: The UI guides the user across discrete tabs (Product, Content, Receipt, Share). At each step the UI validates required fields (name/price visible), offers upload widgets for images, rich-text editing for product content, modal for inserting links, toggles for optional integrations and settings, and a live preview panel that reflects changes. On publishing the system marks the product Published and surfaces it on the Products dashboard with status, price and sales metrics.\n\nResult: user-perceived outcome — the course is created, previewable, and published with a custom receipt message and content links; system-level outcome — a new product record is saved and marked Published, visible in product listings and share controls are enabled.",
+      "steps": [
+        "Products dashboard (empty)",
+        "Choose product type & initial details",
+        "Confirm name and price",
+        "Product tab — metadata & assets",
+        "Product tab — integrations, pricing and settings",
+        "Content tab — editor open",
+        "Insert link modal (empty)",
+        "Insert link modal (filled)",
+        "Content editor — link & content added",
+        "Receipt tab — customize download button",
+        "Receipt preview updated",
+        "Share tab — publish and distribution options",
+        "Products list — published product row",
+        "Final verification & post-publish actions"
+      ],
+      "site": {
+        "id": 296,
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad",
+        "background_url": "https://images.refero.design/backgrounds/gumroad.com/c480775e-e221-491f-84c8-6cd8eae3684e.jpg",
+        "refero_url": "https://refero.design/websites/296",
+        "categories": [
+          "Business",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/gumroad.com/4b57e0a6-9290-4a1c-bfb6-057b7e136e92.jpg",
+        "background_color": "ffc906"
+      }
+    },
+    {
+      "id": 9239,
+      "platform": "web",
+      "screens_count": 4,
+      "refero_url": "https://refero.design/flows/9239",
+      "name": "Insert content hyperlink",
+      "description": "Happy path: A logged-in seller opens a product's Content tab, uses the rich-text toolbar to open the Insert Link modal, enters link text and a destination URL, adds the link, then sees the hyperlink inserted into the product description (with Save/Publish options available). Entry point: Product > Content for an existing product. Exit point: Link is inserted into the editor; user can Save changes or Publish and continue. Assumptions: user is authenticated as the product owner or collaborator with edit permission and is using a desktop browser with the full editor toolbar available.",
+      "problem": "User task (user perspective): The user wants to place a clickable link in the product description so buyers can download the course (or reach an external resource). They decide what link text to show and what destination URL to use; they expect the editor to insert an anchor that appears inline and is clickable in the editor.\n\nInterface task (system perspective): The editor exposes a toolbar action to insert links. Triggering that action opens a modal with two input fields (link text and URL) and an 'Add link' button. The system should validate/accept the inputs, insert an inline hyperlink at the cursor position, and update the editor state so Save/Publish will persist the change.\n\nEnd result:\n- User-perceived outcome: The chosen link text appears in the description as an underlined/clickable hyperlink (e.g., \"Download the course.\") and the Save/Publish controls remain available.\n- System-level outcome: The editor document model now contains an anchor with the provided URL and text. When the user saves or publishes, the link is stored with the product content for customers to access.",
+      "steps": [
+        "Product content editor",
+        "Open Insert Link modal",
+        "Enter link text and URL",
+        "Link inserted in editor"
+      ],
+      "site": {
+        "id": 296,
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad",
+        "background_url": "https://images.refero.design/backgrounds/gumroad.com/c480775e-e221-491f-84c8-6cd8eae3684e.jpg",
+        "refero_url": "https://refero.design/websites/296",
+        "categories": [
+          "Business",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/gumroad.com/4b57e0a6-9290-4a1c-bfb6-057b7e136e92.jpg",
+        "background_color": "ffc906"
+      }
+    },
+    {
+      "id": 9573,
+      "platform": "web",
+      "screens_count": 34,
+      "refero_url": "https://refero.design/flows/9573",
+      "name": "Create and publish course",
+      "description": "Happy-path: Instructor creates a new course from the Courses list, steps through a 5-step guided wizard (title/description, thumbnail, pricing, pricing details, outline method), then builds content (adds resources, video embed, quiz generated by AI), reviews the curriculum in the Setup guide, publishes the course and receives a launch confirmation with the sales link. Entry point: Courses list (logged-in instructor). Exit point: Courses list with the new course marked Published and a visible sales link. Assumes user is logged in with permission to create and publish courses and has files (image, resources) available for upload.",
+      "problem": "User task: Create and publish a new online course so students can purchase and access it. From the user's perspective they expect a guided, linear setup that captures course metadata (title, description, thumbnail), pricing (one-time/payment options), curriculum (outline, lessons, embedded media), and optional AI assistance for outline and quizzes — then publish and get a shareable sales link. From the system perspective the UI enforces a step sequence in a modal wizard for initial metadata, provides upload and preview affordances for images, exposes pricing options and a pricing detail form, offers AI options to generate outlines and quiz questions, surfaces curriculum editing (lesson-level content, resources, quiz blocks), and requires a final publish confirmation. Final result: User-perceived outcome is a published course with curriculum and pricing visible; system-level outcome is a new product record created, curriculum items saved, pricing plan attached, course state changed to Published, and a public sales link generated.",
+      "steps": [
+        "Courses list (start)",
+        "Wizard — Title & Description",
+        "Wizard — Continue enabled",
+        "Wizard — Add thumbnail",
+        "Upload modal — select file",
+        "Thumbnail preview",
+        "Wizard — Pricing options",
+        "Pricing detail form (blank)",
+        "Pricing detail form (filled)",
+        "Wizard — Outline method",
+        "Quiz block editor — empty",
+        "Quiz generation in progress",
+        "Quiz generated — review",
+        "Curriculum — lesson with quiz and resources",
+        "Setup guide — course overview",
+        "Publish confirmation modal",
+        "Launch success modal",
+        "Post-launch state — Setup guide (published)",
+        "Setup guide final state",
+        "Courses list (end)"
+      ],
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      }
+    },
+    {
+      "id": 11830,
+      "platform": "web",
+      "screens_count": 3,
+      "refero_url": "https://refero.design/flows/11830",
+      "name": "Remove Language Course",
+      "description": "Happy path for removing a language course from a logged-in Duolingo account. Entry point is the Courses settings section, where the user sees enrolled languages with a Remove action. After choosing Remove for a course, a confirmation dialog appears warning that progress will be lost and cannot be undone. If the user confirms, the course is removed and the Courses list updates to show the language with a Reset action instead of Remove. Assumes the user is authenticated and already on the account settings area on desktop.",
+      "problem": "The user wants to remove an enrolled language course from their account. From the user’s perspective, they are reviewing their active courses, choosing one to delete, and deciding whether to proceed after being warned that progress will be lost. From the interface perspective, the Courses section lists enrolled languages and provides a Remove control for each one, then interrupts the action with a confirmation dialog to prevent accidental deletion. After confirmation, the system updates the course state so the removed language remains visible but is now presented as resettable, indicating the progress has been cleared or the course has been returned to an initial state. The result is that the user sees the course no longer active in its previous form, and the system has removed that course progress from the account.",
+      "steps": [
+        "Courses List",
+        "Removal Confirmation",
+        "Updated Courses State"
+      ],
+      "site": {
+        "id": 147,
+        "domain": "duolingo.com",
+        "description": "The world's most popular way to learn",
+        "name": "Duolingo",
+        "background_url": "https://images.refero.design/backgrounds/duolingo.com/b02e2cb9-908b-4a71-9b14-1e52e47e505f.jpg",
+        "refero_url": "https://refero.design/websites/147",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/duolingo.com/b3c7e139-ccf0-44ba-a781-d505dc6004ed.jpg",
+        "background_color": "76ce00"
+      }
+    },
+    {
+      "id": 4354,
+      "platform": "web",
+      "screens_count": 7,
+      "refero_url": "https://refero.design/flows/4354",
+      "name": "Complete single lesson and claim rewards",
+      "description": "Happy path for completing a single lesson within a larger course. Entry point is the course view where an individual lesson (Count the Werewolves) is selected. The user starts the lesson, answers an in-lesson interactive question by choosing roles for three characters, submits the answer, receives immediate correctness feedback and XP, then sees a lesson-complete summary and an additional reward (streak charge). Exit point is the reward confirmation screen. Assumes the user is signed in (XP and streak rewards persist, visible top-right indicator) and using a desktop/browser layout with a top progress indicator.",
+      "problem": "User task: complete a single interactive puzzle lesson and collect associated rewards. From the user's perspective they want to: open the lesson from the course map, read the short instructions, select one of two role options for each of three characters, submit their selections, receive immediate feedback and XP, then see completion and reward screens before returning to the course. From the interface perspective the UI must: present the lesson entry CTA, display the interactive question with selectable human/werewolf controls, enable the primary 'Check' action only after selections are made, show correctness feedback and awarded XP inline, then show a lesson completion summary and any additional rewards. Result at the end: user-perceived outcome — the user sees a success message, gained XP total and a streak charge reward and can continue; system-level outcome — the lesson is marked complete, XP is credited (15 XP shown for the answer and total 25 XP on completion), and a streak charge is granted.",
+      "steps": [
+        "Course lesson selection",
+        "Lesson prompt (initial)",
+        "Select answers",
+        "Answer feedback",
+        "Lesson completion summary",
+        "Streak reward confirmation"
+      ],
+      "site": {
+        "id": 221,
+        "domain": "brilliant.org",
+        "description": "Learn by doing",
+        "name": "Brilliant",
+        "background_url": "https://images.refero.design/backgrounds/brilliant.org/125eaf46-2edc-4f7b-aa1f-6eb09fb5ef12.jpg",
+        "refero_url": "https://refero.design/websites/221",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/brilliant.org/4c115bf8-4d4b-4d96-b3fd-252f55b79181.jpg",
+        "background_color": "36c45a"
+      }
+    },
+    {
+      "id": 4351,
+      "platform": "web",
+      "screens_count": 9,
+      "refero_url": "https://refero.design/flows/4351",
+      "name": "Lesson answer to rewards",
+      "description": "Happy-path: A learner opens a course lesson from the course map, answers a single visual puzzle (balance scales) via multiple-choice, receives immediate correctness feedback, then passes through a short reward sequence (lesson complete → streak-charge award → leagues qualification) before returning to the course map. Entry point: course '100 Days of Puzzles' lesson tile. Exit point: course overview / next-lesson tile visible. Assumptions: user is signed in and enrolled in the course; the UI displays per-lesson progress, XP rewards, and gamification modals.",
+      "problem": "User goal: Complete one puzzle lesson and see progress / rewards. From the user's perspective they want to: (1) view the puzzle, (2) pick which side of the final scale is heavier, (3) receive immediate feedback, and (4) collect any earned rewards and return to the course map to continue learning. From the interface perspective the UI must: present the visual puzzle and multiple-choice answers; accept a tap/click selection; show selection state and correctness feedback; show intermediate modals for lesson-completion and gamification rewards (XP, streak charge, leagues); and finally restore the course navigation state. End result: The user perceives that the lesson was completed, sees XP credited (25 XP shown), is notified that a Streak Charge was earned, and sees that they qualified for leagues (leaderboard). System-level outcomes (visible in UI): the lesson is marked complete, total XP increment is displayed, a streak charge is awarded, and the user appears in the leagues leaderboard; the app returns to the course overview so the learner can continue.",
+      "steps": [
+        "Course overview / lesson tile",
+        "In-lesson puzzle view",
+        "Answer selection state",
+        "Correctness feedback",
+        "Lesson complete modal",
+        "Streak-charge reward",
+        "Leagues qualification modal",
+        "Leaderboard highlight",
+        "Return to course map"
+      ],
+      "site": {
+        "id": 221,
+        "domain": "brilliant.org",
+        "description": "Learn by doing",
+        "name": "Brilliant",
+        "background_url": "https://images.refero.design/backgrounds/brilliant.org/125eaf46-2edc-4f7b-aa1f-6eb09fb5ef12.jpg",
+        "refero_url": "https://refero.design/websites/221",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/brilliant.org/4c115bf8-4d4b-4d96-b3fd-252f55b79181.jpg",
+        "background_color": "36c45a"
+      }
+    },
+    {
+      "id": 4358,
+      "platform": "web",
+      "screens_count": 6,
+      "refero_url": "https://refero.design/flows/4358",
+      "name": "Answer question and claim reward",
+      "description": "Happy-path: A learner encounters a multiple-choice question inside a lesson, selects an answer, submits it, and is shown a lesson-complete reward (XP). If the XP causes a level change, a level-up confirmation is displayed next. Entry point: user is viewing the question in a lesson (desktop layout). Exit point: user dismisses the level-up modal and returns to the learning interface (not shown). Assumptions: user is signed in; this question is part of a lesson flow; the device is a wide/desktop viewport.",
+      "problem": "User goal: finish the lesson by answering the presented multiple-choice question, submit their answer, and receive feedback/rewards (XP and possible level-up). The user expects selection to be straightforward, an obvious Submit/Check action to appear after choosing an option, immediate acknowledgement of lesson completion, and visible XP/level changes.\n\nInterface perspective: the UI displays a text prompt and three radio-style options with a disabled 'Check' control initially. When the user selects an option, the selection becomes highlighted and the 'Check' control activates. After submission the selection becomes inactive/locked and the interface transitions to a lesson completion acknowledgement that shows XP gained. If the accumulated XP triggers a new level, a level-up acknowledgement appears.\n\nEnd result:\n- User-perceived outcome: the user sees their answer registered, sees a 'Lesson complete' screen indicating XP awarded, and (if applicable) a 'You leveled up' confirmation. They can tap Continue to proceed.\n- System-level outcome (visible effects): the UI shows +10 XP awarded and a level increment (to level 2) in the modal sequence, and the modal flow is dismissible with Continue buttons.",
+      "steps": [
+        "Question prompt",
+        "Select answer",
+        "Submit answer",
+        "Lesson complete acknowledgement",
+        "Level-up acknowledgement"
+      ],
+      "site": {
+        "id": 221,
+        "domain": "brilliant.org",
+        "description": "Learn by doing",
+        "name": "Brilliant",
+        "background_url": "https://images.refero.design/backgrounds/brilliant.org/125eaf46-2edc-4f7b-aa1f-6eb09fb5ef12.jpg",
+        "refero_url": "https://refero.design/websites/221",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/brilliant.org/4c115bf8-4d4b-4d96-b3fd-252f55b79181.jpg",
+        "background_color": "36c45a"
+      }
+    },
+    {
+      "id": 4356,
+      "platform": "web",
+      "screens_count": 25,
+      "refero_url": "https://refero.design/flows/4356",
+      "name": "Reading Bar Charts Lesson",
+      "description": "Happy-path for a single lesson inside a course titled \"Exploring Data Visually\". Entry: user opens the course and selects the \"Reading Bar Charts\" lesson. The lesson contains an intro slide, a linear sequence of interactive bar-chart questions where the user selects bars and uses a Check button, immediate feedback (correct/incorrect), optional \"Why?/Explanation\" content in a modal, and a final \"Lesson complete\" screen. Exit: user is returned to the course map where a practice node is presented. Assumes user is signed in and viewing the lesson on a desktop/laptop viewport (progress bar and header shown).",
+      "problem": "User task: Learn to read and interpret bar charts by answering short interactive questions and receiving immediate feedback and explanations.\n- User perspective: The user expects an introduction, a series of short visual questions where they choose the bar (or bars) that answer the prompt, a way to submit their answer (Check), immediate validation (correct/incorrect), access to an explanation, and a clear end-of-lesson confirmation.\n- System/UI perspective: The interface presents an intro slide then renders each question as a chart card with a selectable chart area, a Check action control, and an optional \"Why?/Explanation\" affordance. On submit the UI displays inline feedback (toast/banner) indicating correctness plus XP, and can open an explanation modal. Progress is tracked with a horizontal progress bar and lesson navigation is linear. At the end the UI shows a confirmation state and returns the user to the course map where a practice activity node is available.\n- Result: User-perceived outcome: the user completes the lesson, receives feedback on answers and explanations, and sees lesson completion. System-level outcome: question attempt states are submitted, feedback displayed, and the course map updates to show progress and next available node (practice).",
+      "steps": [
+        "Course map overview",
+        "Course detail with lesson callout",
+        "Lesson intro slide",
+        "Question card - first chart",
+        "Bar selected and flagged",
+        "Second question card",
+        "Third question card with multiple bars",
+        "Submit answer - correct feedback",
+        "Open explanation modal (correct)",
+        "New question set - different dataset",
+        "Select and submit answer",
+        "Correct feedback and continue",
+        "Explanation modal for drinks question",
+        "Next question - numeric estimation",
+        "Submit answer - incorrect feedback",
+        "Explanation modal after incorrect answer",
+        "Lesson complete screen",
+        "Course map with practice node",
+        "Progress indicator states",
+        "Check button enabled/disabled behavior"
+      ],
+      "site": {
+        "id": 221,
+        "domain": "brilliant.org",
+        "description": "Learn by doing",
+        "name": "Brilliant",
+        "background_url": "https://images.refero.design/backgrounds/brilliant.org/125eaf46-2edc-4f7b-aa1f-6eb09fb5ef12.jpg",
+        "refero_url": "https://refero.design/websites/221",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/brilliant.org/4c115bf8-4d4b-4d96-b3fd-252f55b79181.jpg",
+        "background_color": "36c45a"
+      }
+    },
+    {
+      "id": 4355,
+      "platform": "web",
+      "screens_count": 7,
+      "refero_url": "https://refero.design/flows/4355",
+      "name": "Lesson: operator-puzzle completion",
+      "description": "Happy path: A learner opens the '100 Days of Puzzles' course, selects a lesson node ('Make It Equal 5'), completes the interactive operator puzzle by choosing operators and submitting an answer, views feedback (incorrect -> try again -> reveal correct solution), finishes the lesson and receives XP, then returns to the course map with the lesson marked as completed. Entry point: course map listing lessons. Exit point: course map with updated lesson state. Assumptions: user is signed in, has access to the lesson, and is on a desktop breakpoint (wide layout). The flow assumes the interactive lesson is launched inline (modal/immersive card) and that the system awards XP and updates course progress on completion.",
+      "problem": "User task: Solve a micro-puzzle by changing three arithmetic operators so the expression evaluates to a target number. From the user's perspective they need to: read the brief instructions, manipulate the three vertical operator selectors to try different operator combinations, submit their attempt, respond to feedback (retry or view answer), optionally read an explanation, and then finish the lesson to receive XP and continue. From the interface perspective the UI must: present the puzzle prompt and operator controls, enable/disable the Check button based on interaction, validate the submitted expression, show inline feedback (success or failure) with actions (Try again, See answer), reveal the correct operators and offer an explanation, show a lesson-complete screen that displays XP gained, and return the user to the course map while updating the lesson node as completed. Result: User-perceived outcome — the user either corrects their answer or views the solution, then sees confirmation of completion and XP earned. System-level outcome — the answer is validated, the lesson is marked complete, XP is credited, and course progress/lesson state is updated.",
+      "steps": [
+        "Course map / lesson selection",
+        "Exercise prompt (initial state)",
+        "User attempts answer (Check enabled)",
+        "Incorrect feedback with actions",
+        "Correct answer revealed / explanation options",
+        "Lesson complete / XP awarded",
+        "Course map updated (post-completion)"
+      ],
+      "site": {
+        "id": 221,
+        "domain": "brilliant.org",
+        "description": "Learn by doing",
+        "name": "Brilliant",
+        "background_url": "https://images.refero.design/backgrounds/brilliant.org/125eaf46-2edc-4f7b-aa1f-6eb09fb5ef12.jpg",
+        "refero_url": "https://refero.design/websites/221",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/brilliant.org/4c115bf8-4d4b-4d96-b3fd-252f55b79181.jpg",
+        "background_color": "36c45a"
+      }
+    },
+    {
+      "id": 9205,
+      "platform": "web",
+      "screens_count": 4,
+      "refero_url": "https://refero.design/flows/9205",
+      "name": "Sign in and access student home",
+      "description": "Happy path: A visitor arrives on the Preply homepage, chooses to sign in, authenticates via social provider or email/password, and is redirected to the student home/dashboard where their lesson balance, learning modules and subscription options are displayed. Entry points: homepage header Log in button or any login link. Exit point: authenticated student home (dashboard). Assumptions: desktop view, user starts logged out, user has an existing Preply account or social account to authenticate, network connection is available.",
+      "problem": "User task (user perspective): Sign in to their Preply account quickly and access their personal learning dashboard so they can view their lesson balance, schedule lessons, continue learning content, and manage subscriptions. They expect simple authentication options (social sign-in or email/password), feedback for the sign-in action, and immediate access to account summary after success.\n\nInterface task (system perspective): Present clear authentication choices, collect credentials securely, validate input, maintain session state (remember me), and on successful authentication load personalized student data (lesson balance, learning modules, subscriptions, awards). The UI should guide the user to the next step (scheduling lessons) and surface account-level CTAs.\n\nResult at end:\n- User-perceived outcome: The user is signed in and sees their dashboard with a visible lesson balance, a primary CTA to schedule lessons, quick links to learning content, and subscription recommendations.\n- System-level outcome: The app authenticates the user, establishes a session, fetches and renders user-specific data (balance, learning items, subscription state, awards), and routes the user to the student home screen.",
+      "steps": [
+        "Homepage — Tutor discovery",
+        "Log in — authentication options",
+        "Log in — credentials entered",
+        "Student home — account summary"
+      ],
+      "site": {
+        "id": 799,
+        "domain": "preply.com",
+        "description": "Learn with the best online language tutors on app & web",
+        "name": "Preply",
+        "background_url": "https://images.refero.design/backgrounds/preply.com/8d299473-97dd-4116-bad3-e9f5acd99e75.jpg",
+        "refero_url": "https://refero.design/websites/799",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/preply.com/c03e6504-07d7-4ee5-a57e-606f9d87d732.jpg",
+        "background_color": "6aadf0"
+      }
+    }
+  ]
+}

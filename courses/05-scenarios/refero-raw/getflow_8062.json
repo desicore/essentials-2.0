@@ -1,0 +1,138 @@
+{
+  "id": 8062,
+  "platform": "web",
+  "refero_url": "https://refero.design/flows/8062",
+  "name": "Template color tuning",
+  "screens_count": 4,
+  "description": "Happy path: A user reviews AI-suggested vertical cover templates, opens the in-canvas Color control, and iterates through preset color palettes until they choose a final color scheme. Entry point: AI assistant panel with suggested templates visible (left). Exit point: Finalized preview on the canvas with chosen color palette and option to continue in the full editor (button: \"Use Canva Editor\"). Assumptions: user is in a signed-in design session with an AI assistant panel active; the canvas is editable and supports preset color palettes.",
+  "problem": "User task (user perspective): The user wants to pick and refine a vertical cover design for a \"Tokyo Travel Vlog\"—specifically adjusting the overall color scheme of a chosen template so the cover matches their aesthetic. They expect immediate visual feedback when switching palettes, and an easy way to continue editing in the full editor when satisfied.\nSystem task (interface perspective): The UI provides AI-suggested templates in a left-side panel, a central canvas preview, and a Color control that surfaces a horizontal set of preset palette thumbnails. When the user selects a palette the system updates the canvas colors in real time. The system also offers a shortcut to open the full editor for more granular changes.\nResult at the end:\n- User-perceived outcome: The user sees the selected template updated to the chosen color scheme and can proceed to the full editor or stop after confirmation.\n- System-level outcome: The design object on the canvas receives the applied palette settings (background/frames/text accents update) and remains available to open in the full editor via the \"Use Canva Editor\" control.",
+  "site": {
+    "id": 94,
+    "domain": "canva.com",
+    "description": "Visual Suite for Everyone",
+    "name": "Canva",
+    "background_url": "https://images.refero.design/backgrounds/canva.com/9a60dd30-3e21-4b44-84f4-81ef06b169ce.jpg",
+    "refero_url": "https://refero.design/websites/94",
+    "categories": [
+      "Collaboration Tools",
+      "Design & Media Editing"
+    ],
+    "favicon_url": "https://images.refero.design/favicon/canva.com/fc31bac3-9257-40b9-aa05-3347deab4134.jpg",
+    "background_color": "24bcbc"
+  },
+  "steps": [
+    {
+      "name": "Template preview selection",
+      "screen_id": "37c8faf7-0f55-4ce4-9d07-575f847cf9cf",
+      "refero_url": "https://refero.design/pages/37c8faf7-0f55-4ce4-9d07-575f847cf9cf",
+      "thumbnail_url": "https://images.refero.design/screenshots/canva.com/desktop/e4600d1b-71ca-45b5-bd6a-51d3c7a6f9b9_thumb.jpg",
+      "goal": "Review AI-suggested vertical cover templates and confirm which template to refine.",
+      "action": "User scans the left AI assistant panel and selects a suggested template (the highlighted thumbnail shows the current selection).",
+      "system_response": "The canvas displays the chosen vertical template preview with its default color scheme. The AI panel remains available with additional suggestions and an input area to ask questions.",
+      "ux_patterns": [
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Illustration",
+        "Gradient"
+      ],
+      "fonts": [
+        "Canva Sans",
+        ""
+      ],
+      "content": {
+        "description": "The screen displays an online graphic design editor interface, likely Canva, used for creating visual content. The left sidebar is vertical and contains navigation icons with labels for Create, Home, Projects, Templates, Brand, Canva AI, and More, along with a small circular user avatar at the bottom. The left panel includes a prompt area where users can type or voice input to interact with Canva AI, with a plus (+) button and microphone icon. Above this input area, there is a design title \"Tokyo Travel Vlog Cover Design\" and a text description in small black font providing AI feedback or suggestions about improving the vibrancy of the title. Below the text, there are three design thumbnail previews aligned horizontally with subtle drop shadows. Each thumbnail shows different cover designs featuring neon or vibrant typography and images. The right side of the screen shows a canvas preview area with a vertical rectangular design for \"Tokyo Night Adventures\" dated October 27, 2025, with a nighttime city photo in blue and neon pink colors. Above the canvas preview, there are undo and redo icons in gray, a small 'Color' button, and in the top right corner is a 'Use Canva Editor' button. The background is predominantly white with subtle shadows and rounded corners on UI elements. Typography uses sans-serif fonts with various sizes and weights for headings, body text, and buttons. The interface uses a modern, clean style with minimalistic icons and soft shadows. Colors include white (#FFFFFF) backgrounds, black (#000000) text for body, neon pink (#FF007F) for titles, cyan (#00FFFF) for backgrounds and highlights, and gray (#888888) for icons and secondary text. The layout is split vertically: left sidebar (about 15% width), left panel content (about 25% width), large canvas preview on the right (about 60% width). The left panel scroll area and bottom input area are spaced with padding. The interface supports text input, voice input, and interaction with design thumbnails and canvas editing tools. Overall, the screen communicates a digital design tool environment focused on template editing and AI-powered suggestions while maintaining clarity and ease of use.",
+        "layout": "The screen layout is a three-column vertical split within a single window. The first column, the sidebar on the far left, is narrow occupying about 15% of the width, containing vertical icons with labels arranged in a single column aligned vertically, spaced evenly from top to bottom with consistent padding. The second column to the right is wider, about 25% width, containing the title text at top, AI suggestion text below, a horizontal scrollable row of 3 design thumbnails aligned with slight spacing, and below that a fixed bottom input area with a text field and microphone/plus buttons arranged horizontally with padding and margin. The third and largest column occupies about 60% width on the right side, presenting a centered canvas preview area with the design image vertically aligned in the center on a white background. Above the canvas are horizontally aligned small undo, redo icons on the left and a 'Color' button near center, and a 'Use Canva Editor' button on the top right corner. The overall layout uses generous white space with soft shadows and rounded corners for panel separation. The columns are distinct but visually balanced for content focus. Padding, margins, and alignment maintain clarity and easy navigation.",
+        "functions": "Users can interact with the text input or voice microphone in the left panel to ask the AI for design improvements or suggestions. They can browse design thumbnail previews by scrolling horizontally and select a template to preview or edit. The main canvas area on the right displays the currently selected design for detailed editing or inspection. Users can undo or redo changes by clicking the respective icons above the canvas. The 'Color' button allows users to change the color scheme of selected design elements. The 'Use Canva Editor' button likely transitions the user to a more advanced or full editor interface. The sidebar provides navigation for creating new projects, accessing templates, branding elements, or other resources. Overall, the interface allows users to create, customize, and refine visual content such as vlogs or social media covers with AI assistance, template navigation, and interactive editing tools, facilitating an efficient creative workflow."
+      }
+    },
+    {
+      "name": "Open Color control",
+      "screen_id": "c38a1200-28fc-4b85-ab32-ae7bb0acb059",
+      "refero_url": "https://refero.design/pages/c38a1200-28fc-4b85-ab32-ae7bb0acb059",
+      "thumbnail_url": "https://images.refero.design/screenshots/canva.com/desktop/85640f6c-26d9-4e51-a67d-9260a5c0fc8a_thumb.jpg",
+      "goal": "Access preset color palettes to change the template's look quickly.",
+      "action": "User clicks the 'Color' control above the canvas, which opens a floating horizontal palette selector.",
+      "system_response": "A floating palette overlay appears above the canvas, showing several color-swatches / preset palettes. The canvas remains visible behind the overlay for context.",
+      "ui_elements": [
+        "Cards & Tiles",
+        "Color Picker",
+        "Popover"
+      ],
+      "fonts": [
+        "Canva Sans",
+        ""
+      ],
+      "content": {
+        "description": "The screen showcases a digital design editing interface focused on creating a travel vlog cover. The layout is divided into two main vertical sections. The left panel is narrower and contains vertical navigation on the far left with icons and labels including Create, Home, Projects, Templates, Brand, Canva AI, and More. Below these is a circular user avatar with the initial 'L'. This side bar uses a white background with dark icons and purple accent on the active or hovered element. Adjacent to the sidebar is a chat or interactive AI assistant panel with a curved border, white background and subtle shadow. This panel includes a heading 'Tokyo Travel Vlog Cover Design', followed by editable text area containing placeholder text in black and light purple highlight. Below are preview thumbnail images of cover design variations with distinct bright color schemes including neons, on a dark background. At the bottom is a user text input box with microphone and plus icons, all within a rounded rectangle with subtle shadow. The right main panel shows the active cover design preview – a vertically oriented travel poster styled cover with deep navy blue background, vibrant cyan border, neon pink text and a high contrast photo of a night street scene in Tokyo. Above the image area, a color palette dropdown is shown with three swatches representing color themes. Top right corner overlays contain a 'Use Canva Editor' button and a close (X) button. The interface uses a clean sans-serif typeface with appropriate line spacing for readability. Buttons and icons have subtle hover states. The overall style is modern and minimalistic with emphasis on content preview and user interaction. The color palette in the design preview uses #000038 for dark blue background, #00ffff bright cyan for border and footer, and #ff1493 neon pink for text highlights. UI backgrounds in the interface are mostly white (#ffffff) with shadows for depth, and purple (#9c27b0) for accent in left panel buttons and highlights.",
+        "layout": "The layout is a horizontal split into two primary vertical columns. The left column, approximately 30% width, contains a vertical sidebar navigation panel with stacked icons and labels on the far left, followed by a chat/AI assistant panel to the right occupying the remaining left column width. This left panel includes a top header, text editing field, and a horizontal carousel of thumbnails below it, with the input section fixed at the bottom. The right column occupies about 70% width of the screen, presenting a centered, large design preview area with some overlay controls positioned near the top edges. The preview image is vertically oriented, centrally aligned, with a color selector dropdown above it. The entire layout uses generous white space and shadowing to separate sections, with rounded corners and spaced padding within each component. The main content areas appear stacked vertically within each column but are grouped distinctly: navigation, conversation/thumbnails, input left; preview and controls right. This split-column layout balances navigation and interaction on the left with a large visual preview on the right.",
+        "functions": "Users can perform multiple tasks on this screen. They can view and edit the text description of their travel vlog cover design in the text area. Users can browse through alternative design template thumbnails by scrolling or clicking the arrow icons to preview different styles. The color palette dropdown allows selection between predefined color themes which dynamically update the preview cover. Users can ask questions or give commands to the AI assistance panel via text input or microphone to get design help or suggestions. The preview area provides a large view of the current design with the ability to toggle color options for immediate feedback. Users can start creating new designs via the left sidebar navigation or switch between Projects or Templates. The 'Use Canva Editor' button presumably launches a more detailed editing interface. The combined workflow supports design creation, customization, and AI-assisted enhancement of visual content for social media or marketing purposes. The interface provides a clear separation of control panels, preview, and navigation for efficient editing and project management."
+      }
+    },
+    {
+      "name": "Apply alternate palette (iteration)",
+      "screen_id": "6f3d502f-c361-4d57-bdd9-e7ed838fcc17",
+      "refero_url": "https://refero.design/pages/6f3d502f-c361-4d57-bdd9-e7ed838fcc17",
+      "thumbnail_url": "https://images.refero.design/screenshots/canva.com/desktop/74e9b996-1384-4516-bd97-95e48e6ca380_thumb.jpg",
+      "goal": "Try a different palette to evaluate how the template responds.",
+      "action": "User clicks a second preset palette in the floating selector.",
+      "system_response": "The canvas updates immediately to reflect the selected palette (frame/background/text colors change). The floating palette remains open allowing further changes.",
+      "fonts": [
+        "Canva Sans",
+        ""
+      ],
+      "content": {
+        "description": "The screen showcases a two-panel interface with a left sidebar for navigation and a main workspace on the right. The left sidebar is vertical, pale lavender (#F3F0FF) background, containing icons for Create (purple circular plus button), Home, Projects, Templates, Brand, Canva AI, and More. It also shows a user avatar as a circular icon at the bottom. Left of this is a narrow menu with a back arrow at top and a header reading 'Tokyo Travel Vlog Cover Design'. Beneath is a text area with light purple text highlights and black paragraph text describing boosting title vibrancy. Below that are three small preview thumbnails arranged horizontally with white borders, slightly elevated on hover or selection. A user input field labeled 'Ask me anything' with a plus sign and microphone icon for interaction sits beneath the previews, enclosed in a rounded rectangle with a subtle shadow, and additional AI disclosure text appears below in faint purple. The main right panel, occupying most of the screen width, shows a large design mockup of a travel vlog-cover style poster on a white background. The design includes a vertical rectangular image of a neon-lit Tokyo street nighttime scene framed by a dark maroon (#240019) border. Above the image is the word 'Adventures' in bold blue (#4033FF) typography, with a date label in a small red rectangle. Above the canvas are icons for undo, redo, cloud save, and a 'Use Canva Editor' button in a discreet top-right corner. A floating color selection menu with two palette options appears near the top center of the right panel, showing colorful vertical stripes and a plain white swatch with a subtle shadow overlay. The overall style is a modern, clean UI with a balanced minimalistic approach. The typography uses sans serif fonts with varying weights - headers are bold and medium size (approximately 18-22px), body text is regular weight at around 14-16px, left-aligned with good line spacing (~1.5). Colors include purples, blues, whites, and accents of red for highlighting. Rounded corners and slight shadows accent UI elements. The layout uses consistent padding and vertical stacking, with the sidebar in a single column, and the main content area divided into a large canvas section with floating tool overlays. Buttons and input fields have subtle hover effects and are sized for comfortable clicking and typing. No animations or transitions are indicated in the screenshot.",
+        "layout": "The layout is a split two-column screen with a fixed-width vertical sidebar on the left and a flexible content area on the right. The left column is narrow, with a vertical stack of navigation icons spaced evenly with generous padding and a consistent vertical rhythm. Below the navigation icons, the user avatar is anchored at the bottom. The left content below the header has a top header bar with a back arrow and title, followed by a vertically stacked textual description area with paragraph spacing and embedded highlighted text segments. A horizontal thumbnail scroller resides beneath, framed with small margins, showing multiple small rectangular previews aligned horizontally with consistent spacing and some margin on sides. Below that is an input area with an embedded microphone and plus icon, rounded rectangle with padding. The right main column occupies approximately 70-75% of the width, containing a large white background workspace with centered vertical layout. At top is a row of four icons aligned to the right for undo, redo, cloud save, and editor button with spacing. The main design canvas is vertically centered below with a card-like visual featuring a dark maroon border and a vertical image inside, topped with a large title text and a red date badge. A floating color palette selection panel hovers near the top center of the right content area with two color swatch options arranged horizontally within a card with subtle shadow. The overall grid relies on two columns and nested vertical groups with consistent padding and margin for clarity and balance.",
+        "functions": "Users can read project descriptions and instructions regarding design improvements and adjustments. Users can navigate between different project templates or design previews via horizontally scrollable thumbnails, facilitating quick comparisons and selection. The 'Ask me anything' input field allows users to interact with an AI assistant by typing or speaking queries related to design assistance, receiving feedback or suggestions. Users can switch between different design color palettes via a floating color picker panel to change the style of the design mockup instantly. Toolbar icons at the top right allow users to undo or redo actions and save progress to the cloud, ensuring a controlled and continuous editing workflow. There is a back navigation option to return to previous screens, keeping navigation simple. Overall, the screen functions as an interface for collaborative design creation and editing, blending AI assistance with manual adjustments, enabling users to customize visual content efficiently and creatively with immediate visual feedback on changes."
+      }
+    },
+    {
+      "name": "Apply final palette and decide next step",
+      "screen_id": "e9026291-bbd2-41ad-86d2-3e8eb3d50c81",
+      "refero_url": "https://refero.design/pages/e9026291-bbd2-41ad-86d2-3e8eb3d50c81",
+      "thumbnail_url": "https://images.refero.design/screenshots/canva.com/desktop/07eb6e97-a1df-4a53-afa9-2c1aa3e0e9af_thumb.jpg",
+      "goal": "Settle on a final color scheme and optionally continue to detailed editing.",
+      "action": "User selects the preferred preset palette; then can either leave the result or click 'Use Canva Editor' to open the full editor for more edits.",
+      "system_response": "The canvas shows the final chosen color scheme. \"Use Canva Editor\" is available in the top-right for transitioning to the full editor; the AI assistant and template thumbnails remain visible on the left for further suggestions.",
+      "ux_patterns": [
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Illustration",
+        "Gradient"
+      ],
+      "fonts": [
+        "Canva Sans",
+        ""
+      ],
+      "content": {
+        "description": "The screen displays a digital design interface split vertically into two main sections. The left section is narrower and includes a labeled heading \"Tokyo Travel Vlog Cover Design\" followed by a small editable text area with placeholder text \"Make the title more vibrant and eye-catching.\" Below that is a block of description or instructions in a smaller font. Underneath, there is a horizontal scrollable row containing three thumbnails of poster designs featuring dark, neon-lit urban scenes with text overlays such as \"Explore Tokyo Now\". Beneath them is an input area labeled \"Ask me anything\" with a plus button to the left and a microphone icon and send arrow button to the right. There is also a note about AI accuracy and a link to terms and feedback.\n\nThe right section is larger and displays the selected poster design named \"Tokyo Night Adventures\". It has a dark maroon background with bold blue uppercase text at the top, the date \"October 27, 2025\" in a red badge below, followed by a central photo of a rainy neon-lit Tokyo street at night. At the bottom is a line prompting to visit \"WWW.REALLYGREATSITE.COM\" in smaller blue text. Above the poster area are three minimalist icons for undo, redo, and save, with a \"Use Canva Editor\" button in the top right corner. The entire interface uses a clean, modern sans-serif font with consistent spacing and alignment. The interface background is mainly off-white and shades of purple for text input areas. The purple (#7636d0) is used prominently on the left panel for icons and highlights. The layout uses subtle dividing lines and spacing to separate sections. Buttons and icons have minimalistic rounded corners and a flat design. The overall style is modern, clean, and slightly playful with vibrant color contrasts between the poster and UI. The left sidebar uses icons vertically aligned with labels, the main content area uses horizontal thumbnails and a chat-style input, and the right panel focuses on poster preview with minimal controls.",
+        "layout": "The layout is a split vertical panel arrangement with a left sidebar for navigation/listing and a main right workspace for content preview. The left panel is subdivided top to bottom: a header area with the design title and instruction text, a horizontal scrollable thumbnail gallery with three poster previews, and a chat input area at the bottom. The right panel features a central poster preview occupying about 60-70% of the width, top-aligned with a small control bar above it containing undo, redo, save icons, plus a button in the top right corner. The left sidebar is about one-third of the screen width with vertical navigation icons spaced evenly along the left edge. The horizontal thumbnail gallery is placed about halfway down the left panel and uses a carousel style with three equally spaced images. The chat input area beneath spans full panel width with padding around icons and a rounded corner textbox. There is consistent padding around each section on both panels for clear separation. The visual hierarchy is formed by the large poster preview dominating the right side, balanced by interactive elements on the left side. Keywords describing layout: split panel, vertical sidebar, horizontal carousel, thumbnail gallery, chat input footer, centered preview, top control bar.",
+        "functions": "Users can view and select different poster design thumbnails from the horizontal scrollable list, preview the selected design in a large preview area, and read/edit descriptive instructions or notes about the design. They can enter text queries or commands into the input field labeled \"Ask me anything\" either via typing or microphone input to interact with the AI assistant for design suggestions or edits. Users can navigate between poster templates, request changes via the chat input, preview resulting updates in real time, and save or undo actions using the top icons. The interface supports browsing, editing text prompts, and generating artistic poster covers tailored to travel vlogging themes. The overall goal is to enable users to create, customize, and refine vibrant travel cover posters efficiently using a combination of AI-driven text input and visual template selection with live preview to finalize design aesthetic and layout."
+      }
+    }
+  ],
+  "related_queries": [
+    "Canva color theme switching",
+    "social story template color swap",
+    "AI generated cover design editor",
+    "instagram story cover template editing",
+    "thumbnail color palette selection",
+    "change color scheme template editor",
+    "choose preset color palette templates",
+    "edit vertical story layout colors",
+    "AI assistant template suggestions",
+    "cycle design color variations"
+  ]
+}

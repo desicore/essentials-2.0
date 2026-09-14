@@ -1,0 +1,73 @@
+{
+  "pagination": {
+    "count": 2,
+    "page": 1,
+    "next_page": null,
+    "total_count": 2,
+    "total_pages": 1
+  },
+  "records": [
+    {
+      "id": 5039,
+      "platform": "web",
+      "screens_count": 3,
+      "refero_url": "https://refero.design/flows/5039",
+      "name": "Asset Library Selection",
+      "description": "Happy path: A designer working in a design editor opens the left Assets panel to browse component libraries, uses the library filter menu to change which libraries are visible, and then updates the asset list layout. Entry point: user is in the design editor with a document open and the left Assets panel available. Exit point: Assets panel shows the selected libraries (and an updated layout) while the canvas remains unchanged (the 'About' artboard visible). Assumptions: user is signed in and has at least one shared library available; the design/editing mode is active and both left (Assets) and right (Properties) panels are visible.",
+      "problem": "User task (user perspective): The user wants to find and surface components from one or more shared design libraries so they can reuse or insert those components into the document. They expect to: (1) open the Assets panel, (2) see a list of available libraries, (3) enable or disable specific libraries or choose 'all libraries', and (4) change how assets are displayed (grid/list) to make browsing easier.\n\nInterface/system perspective: The UI provides an Assets panel that lists installed/shared libraries, thumbnails of kits, a search field, and a compact dropdown for library selection and view options. The system exposes checkboxes (or toggles) to include/exclude libraries and controls to change asset layout. When the user toggles items, the assets list is re-rendered to reflect only the selected libraries and layout choice.\n\nResult at end:\n- User-perceived outcome: The Assets panel displays components from the chosen libraries in the selected layout, making it easy to drag components into the canvas.\n- System-level outcome: The assets rendering layer is filtered by the selected libraries and layout setting; assets are available for insertion; the canvas and right-hand properties remain unchanged.",
+      "steps": [
+        "Open Assets panel",
+        "Open library filter menu",
+        "Toggle libraries / update layout"
+      ],
+      "site": {
+        "id": 206,
+        "domain": "figma.com",
+        "description": "The Collaborative Interface Design Tool",
+        "name": "Figma ",
+        "background_url": "https://images.refero.design/backgrounds/figma.com/d7090ac7-cd09-48ec-9ea4-c0f9acf820fe.jpg",
+        "refero_url": "https://refero.design/websites/206",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/figma.com/0b4d9da2-dab3-48a0-b315-cd78a61ef0ca.jpg",
+        "background_color": "8383ec"
+      }
+    },
+    {
+      "id": 5040,
+      "platform": "web",
+      "screens_count": 7,
+      "refero_url": "https://refero.design/flows/5040",
+      "name": "Insert and configure review card component",
+      "description": "Happy path: a designer uses the left Assets panel to find a 'Review Card' component from a shared design system, previews its Details modal, selects a variable mode, inserts an instance onto the About layout on the canvas, and positions it using mouse drag and the right-side inspector. Entry point: design file is open with the canvas visible and the Assets panel expanded. Exit point: a Review Card component instance is added to the canvas and positioned inside the layout. Assumptions: user is signed in, has the design system library enabled, and is editing a desktop layout on the canvas.",
+      "problem": "User goal: add a testimonial / review component to an existing About layout and configure its appearance variant. From the user's perspective they want to quickly find a reusable Review Card, preview available options, pick the correct visual mode (token/variant), insert the instance, and place it in the layout with precise alignment. From the interface perspective the editor exposes an Assets panel (library/categories), a Details modal for inspecting component variants and variable modes, an Insert action, and an inspector for coordinates and spacing. Result: user-perceived outcome — the Review Card appears in the layout at the desired location and visual mode. System-level outcome — an instance of the design system component is added to the canvas, linked to the source library, and its properties (position, chosen variable mode) are recorded in the file.",
+      "steps": [
+        "Open Assets library",
+        "Browse component categories",
+        "Open Cards thumbnails",
+        "Inspect component Details",
+        "Choose variable mode",
+        "Insert component instance",
+        "Position and finalize placement"
+      ],
+      "site": {
+        "id": 206,
+        "domain": "figma.com",
+        "description": "The Collaborative Interface Design Tool",
+        "name": "Figma ",
+        "background_url": "https://images.refero.design/backgrounds/figma.com/d7090ac7-cd09-48ec-9ea4-c0f9acf820fe.jpg",
+        "refero_url": "https://refero.design/websites/206",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/figma.com/0b4d9da2-dab3-48a0-b315-cd78a61ef0ca.jpg",
+        "background_color": "8383ec"
+      }
+    }
+  ]
+}

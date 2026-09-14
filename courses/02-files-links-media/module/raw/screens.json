@@ -1,0 +1,782 @@
+{
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/gumroad.com/desktop/0c5658a6-d9c8-464f-a8d7-8ea992052da3_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/gumroad.com/desktop/0c5658a6-d9c8-464f-a8d7-8ea992052da3_preview.jpg",
+      "colors": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          164,
+          165,
+          164
+        ],
+        [
+          42,
+          183,
+          43
+        ],
+        [
+          250,
+          250,
+          250
+        ],
+        [
+          250,
+          147,
+          232
+        ]
+      ],
+      "uuid": "0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b",
+      "page_url": "https://gumroad.com/products/afsiku/edit/content",
+      "hex_colors": [
+        "0x040404",
+        "0xA4A5A4",
+        "0x2AB72B",
+        "0xFAFAFA",
+        "0xFA93E8"
+      ],
+      "site": {
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [],
+      "fonts": [
+        "Google Sans",
+        "Lucida Grande",
+        "Favorit"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b",
+      "content": {
+        "description": "The screens depict an online course content editing interface with a left sidebar navigation and a main content area. The left sidebar features a vertical menu with icons and text labels for navigation items: Home, Products, Collaborators, Checkout, Emails, Workflows, Sales, Analytics, Payouts, Discover, and Library. The sidebar background is black (#000000) with pink highlights (#ff57c1) for active or hovered items, and white text (#ffffff) for labels. The selected menu item 'Products' is highlighted in pink with a slight glow effect. The top header area has a white background (#f7f9f9) with subtle borders and contains the course title 'Web Design Course №1', with navigation tabs below it labeled Product, Content (active), Receipt, and Share. The active tab 'Content' is styled as an outlined pill shape with black text (#000000), while others are plain text. To the far right of the header are two buttons: 'Save changes' (black background #000000, white text #ffffff) and 'Publish and continue' (pink background #ff57c1, white text), both rectangular with rounded corners and clear text labels. Below the tab navigation is a rich text toolbar with styling controls (bold, italic, underline, strikethrough), blockquote, link, download, insert dropdown, and add Page button. These are displayed as black icons on white background with some subtle spacing. The main content area includes a left column with a rating widget for users to give star ratings (0-5 stars outline), disabled text areas for text review and video review, and a disabled 'Post review' button in gray. Below are two collapsible or labeled controls: 'Receipt' and 'Library', grayed out with arrow icons. A small section includes the course title again with an author byline 'By Liam' featuring a user avatar icon. The right content column has a bulleted checklist titled 'You will learn:' with green check-mark icons and text describing the course sections like 'Textframe technique to plan the LP', grid layout, header options, embedded videos, and color decoration. The checklist uses black text (#000000), bold for header, and standard grey for normal text. A bold underlined link or call to action: 'LET'S START!' is shown at the bottom. The second screen is a minimal footer or client panel with a black left sidebar containing 'Settings', 'Help', and user drop-down labeled 'Liam' with a downward caret. The overall style is modern and clean with a black-pink-white color palette. Typography uses sans-serif fonts with distinct sizes: headings about 16-18px bold, body text about 14px regular, line spacing about 1.4. The layout is a 2-column grid with left sidebar (1 column) and main content area (larger column). UI elements include buttons, tabs, rating stars, text fields (disabled), icons, and checklists. The visual style leans minimalistic with high contrast colors and clearly separated functional areas for an efficient content editing experience.",
+        "layout": "The primary layout is a two-column structure: a fixed vertical navigation sidebar (single column) on the left occupying about 1/5th of the width, and a main content area to the right occupying the remaining width. The sidebar contains a vertical stack of navigation menu items with aligned icons and text, spaced evenly with consistent margin and padding. The main area features a top header containing the course title aligned left and action buttons aligned right, with a row of horizontal tabs below for navigation between Product, Content, Receipt, and Share sections. Beneath the tabs is a horizontal toolbar with formatting and insertion controls spanning the width of the content area. The content beneath is split into two vertical columns: the left column holds the rating review input and course metadata boxes arranged vertically with small spacing; the right column shows a checklist with bullet points aligned vertically. The second screen shows a reduced layout with a left vertical bar containing only three menu items spaced vertically and minimal right content area. The layout uses grid and flexbox properties with clear separation between functional blocks, consistent spacing (padding of approximately 16px around elements), and alignment for text and icons. Keywords to describe layout include: vertical sidebar, two-column grid, top header, tab navigation, horizontal toolbar, vertical checklist, fixed-width sidebar, flexible content area, spaced elements, and multi-section panel.",
+        "functions": "Users can navigate through different sections of the online course management platform using the left sidebar menu, selecting options such as Products, Collaborators, and Analytics. Within the selected 'Products' section and specifically the 'Content' tab, they can edit the course content by interacting with the toolbar to format text, insert links, or add new pages. The rating widget allows users or reviewers to evaluate the course with a star-based rating system, although in the screenshot the input fields and post button are disabled. The checklist on the right informs users about key learning topics, providing an overview of course goals. 'Save changes' and 'Publish and continue' buttons allow users to save their draft edits or publish the course content respectively. The interface supports tasks like reviewing course material, editing text, managing course receipts or libraries (though disabled here), and submitting feedback. The second screen's panel allows adjustment of personal settings, seeking help, and managing the active user account via the dropdown. Overall, this interface supports content creation, editing, and publishing workflows for online course management, enabling instructors or administrators to efficiently organize, review, and update e-learning materials."
+      },
+      "flows": [
+        {
+          "id": 9238,
+          "name": "Publishing digital product",
+          "step": 10,
+          "total_steps": 14
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/gumroad.com/desktop/97f93b6d-9424-4a99-b962-15abdc366417_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/gumroad.com/desktop/97f93b6d-9424-4a99-b962-15abdc366417_preview.jpg",
+      "colors": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          165,
+          165,
+          165
+        ],
+        [
+          250,
+          250,
+          250
+        ],
+        [
+          250,
+          147,
+          232
+        ],
+        [
+          87,
+          88,
+          88
+        ]
+      ],
+      "uuid": "11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "page_url": "https://gumroad.com/products/afsiku/edit/content",
+      "hex_colors": [
+        "0x040404",
+        "0xA5A5A5",
+        "0xFAFAFA",
+        "0xFA93E8",
+        "0x575858"
+      ],
+      "site": {
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [],
+      "fonts": [
+        "Google Sans",
+        "Lucida Grande",
+        "Favorit"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "content": {
+        "description": "The first screen shows a content management interface for a \"Web Design Course Nº1\" hosted on a platform called Gumroad. The overall style is clean and minimalistic with a soft cream background (#f7f6f0) and black text (#000000). The page uses a left sidebar that is black (#000000) with white (#ffffff) menu text. The sidebar menu includes icons and menu items like Home, Products, Collaborators, Checkout, Emails, Workflows, Sales, Analytics, Payouts, Discover, and Library with magenta (#e43af3) highlight on the Products tab. At the top right, there are two rectangular buttons: a black \"Save changes\" button with white text and a pink \"Publish and continue\" button (#f15aff) with white text. The header area features the course title in bold black text and four tabs for Product, Content (selected with outline), Receipt, and Share. Below the tabs is a toolbar with text formatting tools including dropdown for Title, bold, italic, underline, strikethrough, quote, link, and insert dropdown, plus a '+ Page' button, with undo/redo icons on the right side. The main content area on the left includes a boxed rating and review section with a 5-star rating outline, disabled text fields for review text and video review, and a disabled gray \"Post review\" button. Below it, two collapsible panels labeled \"Receipt\" and \"Library\" are disabled. At the bottom left is a boxed section with course title and an avatar (black circle with white silhouette) labeled \"By Liam\". On the right side of the content area is a plain text link \"Download the course.\" in black underlined text. The second screen is a footer or bottom section with a dark panel containing settings icon and name, help icon and name, and a dropdown user menu for Liam with a caret icon. The layout is fixed width with left sidebar and main content on the first screen, and bottom dark bar on second. The typography uses a clean sans-serif font, relatively small sizes for menus and labels (approximately 14px), and larger bold for titles (approx. 18-22px). The interface uses subtle dividing lines and plenty of white space for clarity and ease of navigation. Buttons have distinct background colors and are rectangular with slight rounding. Disabled inputs are light gray with lower contrast text. The layout is vertical left sidebar navigation, top content tabs and toolbar, main content in columns with review and metadata on left, actions and links on right.",
+        "layout": "The screen layout includes a two-column structure on the first image: a fixed vertical left sidebar column approximately 220px wide, containing navigation items aligned vertically with consistent spacing and icons. The remainder of the width is used by the main content area. Inside the main content area, top navigation tabs (Product, Content, Receipt, Share) are horizontally arranged at the top. Underneath is a wide horizontal toolbar with multiple control groups distributed evenly, aligned left for editing tools and right for undo/redo. The left main content column within the content area is approximately 300px wide and vertically stacked with several rectangular boxed sections: star rating with review inputs, two collapsible sections (Receipt and Library), and a course information box at the bottom. The right main content area in the same horizontal row is mostly white space with a single underline link placed top-left aligned. The second image uses a horizontal bottom bar occupying full width with three key elements spaced from left to right: a settings button, help button, and a user menu with dropdown arrow. The sidebar features grouped navigation items which are visually separated by subtle dividers and different background in selected tab. The page uses clean horizontal lines to separate sections within columns and blocks, maintaining neat alignment and consistent padding.\n\nKeywords to describe layout: vertical sidebar, two-column, horizontal tabs, toolbar strip, vertical stacking, rectangular sections, bottom bar, grouped navigation, padded containers, left aligment.",
+        "functions": "Users can navigate through different sections of the platform using the left sidebar menu such as Products, Collaborators, Checkout, and more. Within this screen, users specifically focus on editing the content for the Web Design Course Nº1. Users can format the course content using the rich text toolbar with options for styling text, inserting links, and adding new pages. They can also engage with the course review features by rating the course with stars and submitting written or video reviews using enabled input fields and buttons (although currently disabled). Users can access related meta-information or workflow steps via expandable 'Receipt' and 'Library' sections. There is a clear call to action with the \"Download the course.\" link for users or customers. On the top right, users can save their changes or publish the content, enabling workflow progression. The bottom bar or footer area provides quick access to settings, help resources, and user account options for managing personal settings or logging out. Overall, the interface allows course creators or managers to edit, review, and publish course content efficiently within a structured platform environment, facilitating course content management as part of a larger product lifecycle management."
+      },
+      "flows": [
+        {
+          "id": 9238,
+          "name": "Publishing digital product",
+          "step": 9,
+          "total_steps": 14
+        },
+        {
+          "id": 9239,
+          "name": "Inserting link",
+          "step": 4,
+          "total_steps": 4
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/squarespace.com/desktop/41c61c81-638a-4b70-bd39-61f54dc4c876_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/squarespace.com/desktop/59cb6a51-f6b6-48f5-adde-e20881b8e968_preview.jpg",
+      "colors": [
+        [
+          55,
+          54,
+          51
+        ],
+        [
+          148,
+          148,
+          148
+        ],
+        [
+          125,
+          92,
+          76
+        ],
+        [
+          248,
+          248,
+          248
+        ],
+        [
+          180,
+          179,
+          179
+        ]
+      ],
+      "uuid": "4e5677b4-94fd-47fc-b2a7-e0ba320debcf",
+      "page_url": "https://plum-orb-m8c9.squarespace.com/config/pages/65e07afe3cb4717a9ee68986",
+      "hex_colors": [
+        "0x373633",
+        "0x949494",
+        "0x7D5C4C",
+        "0xF8F8F8",
+        "0xB4B3B3"
+      ],
+      "site": {
+        "domain": "squarespace.com",
+        "description": "Create a Website in Minutes ",
+        "name": "Squarespace"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dialog & Modal Window",
+        "Sidebar & Drawer"
+      ],
+      "page_types": [
+        "Settings"
+      ],
+      "fonts": [
+        "Google Sans",
+        "Clarkson"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/4e5677b4-94fd-47fc-b2a7-e0ba320debcf",
+      "content": {
+        "description": "This screen is an 'Edit lesson' modal window overlaying a blurred background of a course webpage. The modal is centered with a white background and is divided into two main sections. The left section is a narrow vertical sidebar with text options: a title 'Edit lesson' at the top, followed by three clickable text links for navigation: 'General', 'Video' (underlined indicating selection), and 'Status'. These links appear in black text with minimal spacing. The sidebar also has two action buttons at the top: 'SAVE' and 'CANCEL' in uppercase, subtle font, possibly grey or black. Under 'Status', the word 'Published' is displayed in grey text. The right section occupies the majority of the modal space and is titled 'Video' in bold black text. Below is a toggle switch labeled 'Show lesson video' that is turned on (green accent). Next, there is an outlined rectangular dropzone area with a plus icon and the text 'Add a Video 3 hours max' centered inside, indicating where users can upload or add a video. Beneath the dropzone is a video storage progress bar with a thin horizontal bar showing usage and on the right side the text '29 MIN LEFT' in grey. Below that is a disabled toggle switch labeled 'Custom featured image' in light grey, indicating it cannot be interacted with at this time. The font throughout is clean and sans-serif, with a professional and minimalistic style. The layout uses consistent left and right padding with elements spaced evenly vertically. The background behind the modal is blurred and dimmed, emphasizing focus on the modal content. The color palette consists mostly of white (#FFFFFF), black (#000000), greys for secondary text (#666666 or similar), and a green accent (#34C759 or similar) for active toggles.",
+        "layout": "The screen features a centered modal overlay divided into two vertical columns. The left column is a narrow vertical sidebar containing the title, navigation tabs (General, Video, Status), and status text, aligned vertically with consistent spacing. The right column is a larger content panel with a vertical stack layout, beginning with a heading, followed by a toggle switch horizontally aligned, then a rectangular video dropzone area centered with padded margins. Below the dropzone is a horizontal progress bar with an accompanying usage label aligned right. The bottom area includes a disabled toggle switch with muted styling. The modal has symmetrical padding around content and a clean division between columns. Elements are left-aligned inside each column for textual content, with icons and interactive controls placed intuitively. The overall layout uses negative space to create clarity and focus, with no complex grid but a simple columnar structure. The background behind the modal is blurred and dimmed to emphasize foreground focus.",
+        "functions": "Users can perform lesson editing tasks focused on video content in this interface. They can toggle the 'Show lesson video' switch on or off to control video visibility. They can upload a video by clicking or dragging files into the 'Add a Video' box which accepts up to 3 hours of content, supported by the visual dropzone that guides file addition. The video storage progress bar provides feedback on how much upload/storage time remains, helping manage storage limits. The 'Custom featured image' toggle can be viewed but is disabled, signaling that users cannot currently set a featured image for the video. Navigation tabs on the left (General, Video, Status) allow switching between lesson settings, with this screen focusing on video. The 'SAVE' and 'CANCEL' buttons provide ways to commit or discard changes, providing control over editing workflow. Overall, the screen is designed to enable content creators or course managers to efficiently manage video lessons, controlling visibility, uploading content, monitoring storage, and navigating between lesson configuration areas. It supports a streamlined editing experience with clear controls and feedback, helping users maintain lesson content effectively within the course platform."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/3bd5b765-12e2-4cd9-bdbc-5e2ed41858f8_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/teachable.com/desktop/3bd5b765-12e2-4cd9-bdbc-5e2ed41858f8_preview.jpg",
+      "colors": [
+        [
+          124,
+          124,
+          124
+        ],
+        [
+          233,
+          250,
+          55
+        ],
+        [
+          21,
+          21,
+          21
+        ],
+        [
+          157,
+          157,
+          157
+        ],
+        [
+          252,
+          252,
+          251
+        ]
+      ],
+      "uuid": "4f0eb823-2f76-4e92-b3dd-cb4446effbb1",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/create/courses/step-4",
+      "hex_colors": [
+        "0x7C7C7C",
+        "0xE9FA37",
+        "0x151515",
+        "0x9D9D9D",
+        "0xFCFCFB"
+      ],
+      "site": {
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable"
+      },
+      "ux_patterns": [
+        "Select",
+        "Add & Create",
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Step Indicator"
+      ],
+      "page_types": [],
+      "fonts": [
+        null,
+        null,
+        "Google Sans",
+        "San Francisco"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/4f0eb823-2f76-4e92-b3dd-cb4446effbb1",
+      "content": {
+        "description": "The screen is a clean and minimal interface for outlining a course curriculum. The background is plain white (#FFFFFF) with simple black text. At the top center, a header reads 'Outline your course' in a serif or clean sans-serif font, large and bold, with a smaller subtitle below it: 'Choose a method below to create your course curriculum.' The text is centered and spaced comfortably. Below, three selectable method blocks are displayed vertically in separate rectangular boxes with subtle grey (#E0E0E0) borders and white backgrounds. The first option, 'Generate with AI,' includes a descriptive paragraph inside a multi-line text input box below it, containing sample course description text in black (#000000). This option is visually highlighted as selected with a small dark checkmark icon in a circle at the top right corner of the box. The second and third options, 'Start from scratch' and 'Bulk upload,' appear as simple selectable boxes with smaller descriptions beneath their titles in lighter grey text. The bottom of the screen includes navigation: on the left side a small 'Back' text button with an arrow, and on the bottom right a prominent bright yellow (#FFF100) rectangular 'Finish' button with black text. The layout uses a single column, center aligned, with ample white space and a clean, modern style emphasizing simplicity and clarity. The font style is clean, likely a system or web safe sans-serif, with regular weight for instructions and bold for main titles. Text inputs and buttons have subtle shadows or borders, with no heavy decoration. No animations are visible in the screenshot. The overall visual hierarchy guides the user through selecting an outline creation method and optionally entering course description text, then finishing or going back.",
+        "layout": "The layout is a single central column with vertical stacking of elements. At the top is a two-line centered heading and subtitle. Below are three selection boxes stacked vertically: the first includes a larger text input area, the second and third are smaller rectangular buttons with subtitles. There is a subtle divide between these boxes through grey borders and spacing. The bottom area contains a horizontal navigation bar with a left-aligned 'Back' text and arrow, and a right-aligned 'Finish' button in bright yellow. Padding is generous around text and between elements, promoting clarity. The layout is symmetrical and center-aligned, with no sidebars or additional columns. The design is minimalist with focus on vertical flow and clear interaction points.",
+        "functions": "This interface allows users to create an outline for their course curriculum by choosing one of three methods: generating the outline with AI by describing the course, starting from scratch to manually create the outline, or bulk uploading files to generate the outline. The first method includes a multi-line text field for the user to enter the course description, which the AI will use to generate a tailored curriculum. The user can select an option by clicking on the respective box, with visual feedback (checkmark) indicating the current choice. After entering or selecting the method, users can navigate back to the previous step with the 'Back' button or finalize the process by clicking the bright 'Finish' button. The UI supports clear decision-making, text input, and streamlined navigation to complete the course outline creation workflow efficiently."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 10,
+          "total_steps": 34
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/cakeequity.com/desktop/0a8c8c3e-0a83-4d68-9cdc-5e083e848d50_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/cakeequity.com/desktop/0a8c8c3e-0a83-4d68-9cdc-5e083e848d50_preview.jpg",
+      "colors": [
+        [
+          75,
+          37,
+          246
+        ],
+        [
+          251,
+          251,
+          251
+        ],
+        [
+          26,
+          25,
+          28
+        ],
+        [
+          151,
+          153,
+          163
+        ],
+        [
+          95,
+          95,
+          106
+        ]
+      ],
+      "uuid": "71fab656-7401-4838-b001-024e2534f560",
+      "page_url": "https://app.cakeequity.com/documents/files",
+      "hex_colors": [
+        "0x4B25F6",
+        "0xFBFBFB",
+        "0x1A191C",
+        "0x9799A3",
+        "0x5F5F6A"
+      ],
+      "site": {
+        "domain": "cakeequity.com",
+        "description": "The intuitive equity platform for fast-growing startups",
+        "name": "Cake Equity "
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Action Sheet"
+      ],
+      "page_types": [],
+      "fonts": [
+        "Inter",
+        "Intercom",
+        null
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/71fab656-7401-4838-b001-024e2534f560",
+      "content": {
+        "description": "The screen presents a web-based file and document management interface with a clean, modern design. The background is predominantly white (#FFFFFF), providing a clean workspace. The left sidebar navigation uses a light shade with subtle purple highlights. The sidebar features a vertical list of menu items in black or dark gray text (#000000 or #333333), with icons and labels such as Dashboard, People, Ownership, Incentive plans, Tools, Communication, Documents (with subsections All documents, Templates, Pending signatures), and Company. The currently selected submenu item (All documents) is highlighted with a pale purple background (#E6E6FA) and a left vertical accent line in a stronger purple (#7D5FFF). The top bar is narrow with a white background and contains controls from left to right: The Cake logo in black, a dropdown selection labeled \"Refero\" with a green circular icon next to it, a progress bar labeled \"Let's get started\", which is a white rounded rectangle with a green progress fill (approximately 66%), a Help link (likely in gray or black), Notification bell icon, Invite co-pilots link, a purple ",
+        "layout": "The layout is a two-column grid structure with a fixed left sidebar spanning about 20% of the page width, containing vertical navigation with grouped menu items. The main content area to the right takes up about 80% horizontal space. Inside the main content area, the top portion features a horizontal action toolbar with Upload button (left aligned), New folder link next to it, and a search field aligned right. Below it is a content grid displaying twelve folder cards arranged in a 3 rows by 4 columns uniform grid. Each folder card is a rounded rectangle with an icon representing a folder and text with the folder name and either 'Empty' or number of documents. The folders also show a small locked padlock icon in the bottom right corner of the folder icon in some items, presumably indicating restricted access or sharing settings.",
+        "functions": "Users can perform file management tasks in this screen. At the lowest level, users can interact with folders displayed in a grid arrangement: click to open, select, or trigger context menus (such as Share or Duplicate). There is an Upload button in bright purple (#7D5FFF presumably) allowing users to upload new files. The New folder link allows creating new folders. The search field in the upper right corner lets users filter or search for specific files or folders. The left sidebar navigation enables switching among document-related sections and other management areas in the platform. In medium-level tasks, users can browse their document folders, organize documents into folders, manage sharing permissions (indicated by lock icons on folders), duplicate folders, and perform searches. At a broad level, this interface facilitates the broader goal of managing, organizing, and sharing company or team documents efficiently within a platform, supporting collaboration, accessibility, and document categorization. The layout and visual cues such as icons, color highlights, and orderly folder cards contribute to ease of use and clarity."
+      },
+      "flows": [
+        {
+          "id": 6152,
+          "name": "Sharing access to folder with shareholder",
+          "step": 2,
+          "total_steps": 5
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/cakeequity.com/desktop/592d9877-8a71-4d74-b21b-670a04371ea0_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/cakeequity.com/desktop/592d9877-8a71-4d74-b21b-670a04371ea0_preview.jpg",
+      "colors": [
+        [
+          75,
+          37,
+          246
+        ],
+        [
+          251,
+          251,
+          251
+        ],
+        [
+          26,
+          25,
+          28
+        ],
+        [
+          151,
+          153,
+          163
+        ],
+        [
+          221,
+          197,
+          62
+        ]
+      ],
+      "uuid": "8614ec8e-e4a0-46c6-9eeb-81171c9cb116",
+      "page_url": "https://app.cakeequity.com/documents/files",
+      "hex_colors": [
+        "0x4B25F6",
+        "0xFBFBFB",
+        "0x1A191C",
+        "0x9799A3",
+        "0xDDC53E"
+      ],
+      "site": {
+        "domain": "cakeequity.com",
+        "description": "The intuitive equity platform for fast-growing startups",
+        "name": "Cake Equity "
+      },
+      "ux_patterns": [
+        "Files"
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Switch & Toggle",
+        "Navigation Bar",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Avatar"
+      ],
+      "page_types": [
+        "Content Management Page"
+      ],
+      "fonts": [
+        "Inter",
+        "Intercom",
+        null
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/8614ec8e-e4a0-46c6-9eeb-81171c9cb116",
+      "content": {
+        "description": "The screen displays a document management interface within a corporate or enterprise application called Cake Platform. The layout features a vertical sidebar navigation on the left with menu items such as Dashboard, People, Ownership, Incentive plans, Tools, Communication, Documents (expanded), and Company. The Documents section is expanded, showing sub-items including All documents (highlighted in light purple background for selection), Templates, and Pending signatures. The sidebar background is white with dark gray text, and padding provides clear separation. On the top header bar, from left to right, the Cake logo is on the far left, followed by a dropdown for 'Refero', then a progress bar labeled \"Let's get started 66%\" with a green progress indicator on a light background. To the right are help, notifications icons, an invite button labeled \"Invite co-pilots,\" a purple \"Upgrade\" call-to-action button with rounded corners, and two pill-shaped buttons labeled \"Company\" and \"Portal\" in light gray backgrounds. The top-right corner contains a circular avatar with initials LR in yellow background. The main content area title reads \"All files\" in large black text. Below it is an Upload button in a blue rounded rectangle with a cloud upload icon and text \"Upload.\" Next to it is a plain black text link labeled \"New folder.\" To the right is a search field with a magnifying glass icon and placeholder \"Search\" with rounded edges and a subtle border. A grid layout follows, consisting of two rows and six columns with a total of 12 folder tiles. Each folder tile is a rectangular card with light gray background and subtle border radius and shadow, containing a folder icon at top, the folder name below in bold black text and a small gray or black subtitle describing content such as \"Empty\" or \"1 Document.\" Most folders have a small lock icon overlay on the folder icon, signifying restricted or private access. The page uses a clean, minimalist design style with a soft color palette including white (#FFFFFF), light gray backgrounds (#F7F7F8 approx.), black text (#000000), blue (#4A62E5) for primary buttons, and purple (#8B4AFF) for upgrade. Typography uses a modern sans-serif font, likely 15-17px size for body text with heavier weight for folder titles. Spacing is generous with balanced margins and padding around elements. No animations are visible in the screenshot. Overall, the screen style is professional, clear, and functional with a focus on easy file access and management within a corporate platform.",
+        "layout": "The layout is a three-part vertical and horizontal structure. The left side vertical column is a navigation sidebar of approximately 20% width with grouped menu items consisting of text and icon sets arranged in a vertical list with spacing and subtle separation. The top area is a horizontal header bar spanning full width with multiple segments: left-aligned logo and dropdown, center progress bar with label, and right-aligned action buttons and user avatar arranged horizontally with spacing. The main content area occupies approximately 70-75% of the screen to the right of the sidebar and below the top bar. Within this content, a header row includes the screen title \"All files\" aligned left, next to action buttons on the right side including Upload, New folder, and Search bar aligned in a row with spacing. Below, a grid layout presents folder cards arranged in two rows and six columns with consistent gutter spacing horizontally and vertically. Cards have uniform size and padding with subtle shadows and border radius. The overall layout ensures clear hierarchical navigation and content grouping, balanced spacing, and alignment to provide a professional, user-friendly interface.",
+        "functions": "Users can navigate their document folders via the left sidebar, choosing categories under Documents or other sections. The Upload button allows selecting and uploading new files to the platform, while New folder lets users organize files by creating new folders. Folder tiles provide a visual summary of folder contents, with locked icons indicating restricted folders requiring permissions. The search bar enables users to find specific files or folders quickly by keyword. The interface also allows switching the company or context via dropdown. Top bar functions like Help, Notifications, and Invitations support collaborative workflows. Overall, users can manage, organize, search, and upload organizational documents securely within this screen, facilitating efficient document repository management for their company or team."
+      },
+      "flows": [
+        {
+          "id": 6152,
+          "name": "Sharing access to folder with shareholder",
+          "step": 1,
+          "total_steps": 5
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/d6b39d1b-9677-483c-8591-402f363b3f72_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/teachable.com/desktop/d6b39d1b-9677-483c-8591-402f363b3f72_preview.jpg",
+      "colors": [
+        [
+          35,
+          35,
+          34
+        ],
+        [
+          149,
+          149,
+          149
+        ],
+        [
+          231,
+          247,
+          58
+        ],
+        [
+          251,
+          251,
+          251
+        ],
+        [
+          103,
+          103,
+          102
+        ]
+      ],
+      "uuid": "a68d25c8-7cda-41fb-aa23-67308245866e",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/courses/2932672/curriculum/lessons/64501257",
+      "hex_colors": [
+        "0x232322",
+        "0x959595",
+        "0xE7F73A",
+        "0xFBFBFB",
+        "0x676766"
+      ],
+      "site": {
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable"
+      },
+      "ux_patterns": [
+        "Edit"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Switch & Toggle",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [
+        "Content Management Page"
+      ],
+      "fonts": [
+        null,
+        null,
+        "San Francisco"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/a68d25c8-7cda-41fb-aa23-67308245866e",
+      "content": {
+        "description": "The screen displays a course curriculum management interface for an educational platform named 'Liam's School'. The overall style is clean, minimalist, and professional, with a clear typographic hierarchy. The layout has a dark gray sidebar on the left (#2E2E2E) and a white content area (#FFFFFF) on the right. The sidebar includes multiple menu items in light gray (#B0B0B0) text, with the active item highlighted with a yellow border (#FFD600) and text color. The main content area uses a serif font for headings (likely Georgia or Times New Roman) with font size around 20-24px for the heading 'Curriculum', and standard sans-serif font for body text at about 14-16px with comfortable line spacing. Black text (#000000) is used for high contrast on white background. The top portion has breadcrumb navigation in small font, with links separated by vertical bars. Below is the main content titled 'Understanding A1 to B1 CEFR Levels', featuring an editable text block on the left containing paragraphs and bullet lists describing lesson content concepts. The text block has subtle borders and minimal padding. To the right is an outline panel labeled 'Outline Edit', showing sections like 'Introduction' and 'Building Foundations' as separate lines with collapsible or editable links, all in black text on white background. Buttons including 'Publish' and 'Preview' are rectangular with black text on white background or bright yellow backgrounds (#FFD600) with black text, using a slightly rounded rectangular shape. The bottom area includes toggle switches for 'Student comments' and 'Public preview', styled as grey toggles with icons indicating on/off states. The 'Delete lesson' option is shown in red text with a trash icon. Small icons such as download arrows appear next to resource files, which are displayed as links with underlined text. The layout is mostly single column in the main content with a right sidebar for the outline. Elements are spaced with consistent padding of approximately 16-24px and the interface uses subtle lines or dividers to separate content sections. The design has no visible animations but presumably supports dynamic editing with states for editing and publishing. Overall, the interface is user focused, clean, and supports course curriculum editing workflows.",
+        "layout": "The screen layout is divided into three main areas. On the far left is a vertical sidebar navigation panel approximately 20% width, with a dark background and vertical menu items arranged in a single column. The main content area occupies roughly 65-70% width in the center column, containing the lesson title heading at top, followed by editable text sections in a vertical layout. Below the main text is a section for lesson summary, a highlighted 'Add content' button, and lesson setting toggles vertically stacked. On the right side, about 10-15% width, is a narrow vertical outline panel aligned top to bottom, showing the course outline with clickable text links, with vertical stacking of outline items grouped under labeled headings like 'Introduction' and 'Building Foundations'. The layout uses margins and padding consistently, with significant white space around elements for clarity. The layout is a fixed left main content panel with right supplementary panel structure, following a typical admin dashboard pattern. The height fits the viewport, with likely scroll support in the central documentation area and outline sidebar. The arrangement prioritizes main content and editing workflow, with persistent navigation and outline for context. The design keywords reflect modern educational dashboard: column layout, vertical sidebar, fixed navigation, outline sidebar, hierarchical content, padding, white space, multi-panel, responsive spacing.",
+        "functions": "Users can navigate through the course curriculum management system using the sidebar on the left to access 'Setup guide', 'Curriculum', 'Design templates', and more. On this screen, users can view and edit the lesson titled 'Understanding A1 to B1 CEFR Levels'. They can read the editable text block that describes the lesson content and key concepts, and use an 'Edit' button to modify this text. Users can add new content sections with an 'Add content' button. The right sidebar outlines the course structure, allowing users to see and edit sections of the curriculum such as 'Introduction' and 'Building Foundations'. The user can publish changes with a 'Publish' button and preview the lesson with the 'Preview' button. Toggles allow enabling or disabling student comments and public preview options, giving control over lesson visibility and interaction. Users can also delete the lesson using a prominently placed option. Resource files linked within the text can be downloaded by clicking on the corresponding download links. This screen supports the workflow of curriculum creation, editing, organizing, reviewing, publishing, and managing educational content efficiently, helping instructors or curriculum managers to build and maintain course lessons easily with a clear visual structure and controls."
+      },
+      "flows": [
+        {
+          "id": 9574,
+          "name": "Uploading file",
+          "step": 5,
+          "total_steps": 5
+        },
+        {
+          "id": 9575,
+          "name": "Adding video source",
+          "step": 1,
+          "total_steps": 4
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/gumroad.com/desktop/4a109560-5ac5-4742-9aa5-b00d312b89ed_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/gumroad.com/desktop/4a109560-5ac5-4742-9aa5-b00d312b89ed_preview.jpg",
+      "colors": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          246,
+          246,
+          246
+        ],
+        [
+          140,
+          140,
+          139
+        ],
+        [
+          244,
+          149,
+          226
+        ],
+        [
+          87,
+          89,
+          90
+        ]
+      ],
+      "uuid": "dcb0fe52-b9ca-45ce-86ef-60bb453067a5",
+      "page_url": "https://gumroad.com/products/afsiku/edit/receipt",
+      "hex_colors": [
+        "0x040404",
+        "0xF6F6F6",
+        "0x8C8C8B",
+        "0xF495E2",
+        "0x57595A"
+      ],
+      "site": {
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Currency"
+      ],
+      "page_types": [],
+      "fonts": [
+        "Google Sans",
+        "Lucida Grande",
+        "Favorit"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/dcb0fe52-b9ca-45ce-86ef-60bb453067a5",
+      "content": {
+        "description": "This screen is a receipt customization interface for a digital product titled \"Web Design Course Nº1\" on Gumroad. The layout uses a soft beige background (#f7f5f0 approximately) with black text for high contrast. The left side features a vertical black sidebar with navigation items in white text, and the active item \"Products\" is highlighted with a pink icon and text, signifying selection. The sidebar includes sections such as Home, Products, Collaborators, Checkout, Emails, Workflows, Sales, Analytics, Payouts, Discover, Library, Settings, Help, and a user menu for Liam. The top right corner has two buttons: a black \"Save changes\" button and a bright pink \"Publish and continue\" button, both with white text and rounded corners, sized to stand out as primary actions. \n\nThe main content area is divided into two columns. The left column contains input fields: a single-line text input labeled \"Button text\" with placeholder text \"View content\" and a multi-line text area labeled \"Custom message\" with placeholder text encouraging users to add additional info to the receipt. The input fields have subtle gray borders and light backgrounds for clarity and usability. Below each input is concise helper text in small gray font providing guidance.\n\nThe right column is a receipt preview panel framed with a light gray border. It displays the order details in a structured vertical layout: order ID, order date (Jan 7, 2026), and total price ($2) aligned in a small info section. Below this is a product thumbnail image on the left, with product title (truncated with ellipsis), seller's name with an avatar icon, and a black rectangular \"View content\" button centered below, consistent with the button text input. Further down, a labeled price box and a payment info section with disclaimers about charges and currency details are presented in a smaller font. The bottom shows the seller's address and a Gumroad branding footer.\n\nTypography uses a clean sans-serif font, consistent sizes (~14-16px for body, ~12px for helper text), with normal font weight except for headings or labels which are medium weight. Spacing is generous with 16-24px padding around input fields and container edges, and consistent vertical margins between elements. The layout uses a 2-column grid with the sidebar occupying about 20% width, main content 60%, and the preview panel 20%, separated by subtle lines or background differences. Overall style is minimalistic, functional, and professional, emphasizing usability and content clarity. There are no visible animations.",
+        "layout": "The screen layout uses a three-part horizontal division. The leftmost is a fixed vertical black sidebar with navigation icons and text arranged in a single column, spanning the full height. The main area is split into two adjacent columns: the left content panel and the right preview panel. The left content panel contains vertically stacked input form elements with labels and helper text, arranged in a single vertical column with consistent spacing. The right preview panel is a narrow vertical area with boxed sections stacked vertically, including order details, product info (image and text aligned horizontally), a button, product price, payment info text block, address, and branding. Padding and margins separate these blocks and align text left with some centered elements (like buttons).\n\nThe entire content area is spaced with neat margins and negative space to prevent clutter. The top bar includes two distinct buttons aligned right, separated by margin, visually balanced.\n\nThis layout can be described as a fixed sidebar plus a two-column content grid where the left column is the form area and the right column is the live preview, aligned horizontally. Sections within columns stack vertically with padding and borders for separation.",
+        "functions": "Users can customize the text on the download button visible on receipts and product pages by entering their preferred button label in the \"Button text\" input field. They can also add any extra personalized message or information they want to appear on the receipt using the multi-line \"Custom message\" text area. The interface provides real-time visual feedback with a preview panel on the right showing how the receipt will look with the changes, including order details, product info, and the button label. \n\nTo save their changes, users can click the black \"Save changes\" button, or choose to publish and continue editing via the pink \"Publish and continue\" button, facilitating the workflow from customization to live update. The sidebar allows navigating between various related sections like Products, Checkout, Emails, and Sales, thus integrating receipt customization within a broader product management context.\n\nThe overall purpose of the screen is to empower product creators on Gumroad to tailor the customer receipt experience to their brand and communication style efficiently, enhancing the purchase process transparency and customer engagement by ensuring receipts contain clear, relevant, and personalized content."
+      },
+      "flows": [
+        {
+          "id": 9238,
+          "name": "Publishing digital product",
+          "step": 11,
+          "total_steps": 14
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/skillshare.com/desktop/08e20753-246b-45e7-8c5d-985d9f1e825d_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/skillshare.com/desktop/6fb4d090-c516-46cb-a588-43b5ed7a47c6_preview.jpg",
+      "colors": [
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          8,
+          4,
+          4
+        ],
+        [
+          8,
+          4,
+          4
+        ],
+        [
+          8,
+          4,
+          4
+        ],
+        [
+          8,
+          4,
+          4
+        ]
+      ],
+      "uuid": "dcbe696e-9e2f-4c40-8b1f-f3bc2815a1ff",
+      "page_url": "https://www.skillshare.com/en/lists/saved-classes?via=header",
+      "hex_colors": [
+        "0x040404",
+        "0x080404",
+        "0x080404",
+        "0x080404",
+        "0x080404"
+      ],
+      "site": {
+        "domain": "skillshare.com",
+        "description": "Online Classes for Creatives",
+        "name": "Skillshare"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "List",
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Checkbox & Radio",
+        "Progress Bar",
+        "Navigation Bar",
+        "Search Field",
+        "Footer",
+        "Icon",
+        "Thumbnail",
+        "Avatar"
+      ],
+      "page_types": [
+        "Profile & Account"
+      ],
+      "fonts": [
+        "",
+        "GT Walsheim Pro"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/dcbe696e-9e2f-4c40-8b1f-f3bc2815a1ff",
+      "content": {
+        "description": "The screenshots depict a clean and structured online learning platform's 'My Classes' section, designed for users to view, filter, and manage their saved or enrolled courses. The overall style is modern and minimalistic, focusing on usability and clarity. The color palette includes a dark navy blue (#0D1F3C) used predominantly for the header and footer backgrounds, contrasted with white (#FFFFFF) for the main content background, ensuring good readability. Accent colors include green (#23CC7E) used for active states such as underlining the selected tab and for links. The typography uses a modern sans-serif font with bold weight for headings like 'My Classes' (approximately 24px), medium weight for course titles (around 16-18px), and regular weight for details and smaller text, all left-aligned with consistent line spacing that enhances readability. The header features the Skillshare logo on the left with navigation links ('Browse', 'Learning Paths') and a prominent search bar in the center for searching classes, skills, or teachers. On the right side of the header, there are links for 'Live Sessions', 'My Classes' (highlighted in green), a notification bell icon, and a user profile avatar icon. Below the header, the content area is divided into a title 'My Classes' with a tab navigation bar containing 'All Saved Classes', 'My Learning Paths', 'My Lists', and 'Watch History'. The active tab 'All Saved Classes' is underlined in green. Filters are provided horizontally including checkboxes for 'Class Length' (<15 min, 15–30 min, 30–60 min, >60 min) and 'Status' (Not yet started, In progress, Completed), plus a horizontal skills dropdown and tags area with items such as 'Creative', 'Marketing', 'Business', 'Animation', and 'Motion Graphics'. Below the filters is a vertical list of class cards. Each card displays a small rectangular thumbnail image with a play icon overlay on the left, next to course info including the title in bold, instructor name, class duration, and number of students enrolled. On the far right of each card is a vertical ellipsis icon indicating more options. Some class thumbnails have colored progress bars at their bottom edges. The footer is a dark navy blue bar divided into four columns: Company, Community, Teaching, and Mobile. These contain links to various informational pages and app download badges for Apple App Store and Google Play Store. Social media icons and language selector are aligned to the right in the footer. The layout is responsive and spaced with generous padding, maintaining a multi-column grid in footer and well-aligned rows in the class list, enhancing scan-ability and user interaction. No animations are visible in the static images provided.",
+        "layout": "The page layout has a fixed horizontal header at the top with a dark navy background, spanning full width. The header contains three main sections horizontally aligned: left (logo and main navigation), center (search bar), right (user actions and profile). Below the header, the main content area uses a vertical columnar layout with a prominent heading at top left. Directly below is a horizontal tab bar with four clickable tabs arranged in a single row with equal spacing, the active one underlined with a colored border. Under the tabs, filters are placed horizontally in two groups aligned left and spaced evenly: class length checkboxes and status checkboxes. Beneath these checkboxes is a skill selection area with a dropdown menu and several skill filter pills arranged horizontally, wrapping if needed. The main class list is arranged as a vertical list with each entry displayed as a horizontal card spanning nearly the full width. Each card has a left-aligned thumbnail image, center-aligned textual information in multiple lines, and a right-aligned icon menu. Cards include progress bars below the thumbnail in some cases. The footer is divided into four vertical columns with headings and link lists, aligned horizontally across the footer area, which is full-width and colored dark navy. Social icons and language selector are aligned right at the bottom. The layout uses generous padding and spacing for clarity and visual balance, with logical grouping and alignment to facilitate scanning and interaction.",
+        "functions": "Users can browse their saved or enrolled classes, filter them by duration, status, and skills to find relevant or desired courses quickly. The filter checkboxes and skill tags provide easy ways to refine the course list visually, with clear labels and active states for selected filters. Users can navigate between tabs to see different collections such as learning paths, lists, or watch history. Each course card supports viewing key info at a glance—title, instructor, duration, enrollment. The play icon on thumbnails suggests users can click to watch or preview the course. The vertical ellipsis on each card indicates additional actions (e.g., remove, save for later, or share), supporting class management. The search bar in the header allows users to find other classes, skills, or teachers globally. The global navigation guides users to main platform areas. The footer provides supplementary navigation to company info, community features, teaching resources, and mobile app downloads. The interface facilitates task workflow from discovering, filtering, managing, and accessing educational content to personalized account management. Overall, the page supports efficient course tracking and learning progress, helping users organize and engage in their educational activities."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/7ad529ec-8c27-46c0-87a1-1aaace099169_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/teachable.com/desktop/7ad529ec-8c27-46c0-87a1-1aaace099169_preview.jpg",
+      "colors": [
+        [
+          34,
+          38,
+          37
+        ],
+        [
+          148,
+          98,
+          80
+        ],
+        [
+          156,
+          150,
+          154
+        ],
+        [
+          216,
+          222,
+          68
+        ],
+        [
+          64,
+          233,
+          186
+        ]
+      ],
+      "uuid": "e1fdbe5d-2cd0-4823-9d59-81018b1a206b",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/home?page=createproduct",
+      "hex_colors": [
+        "0x222625",
+        "0x946250",
+        "0x9C969A",
+        "0xD8DE44",
+        "0x40E9BA"
+      ],
+      "site": {
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Photo",
+        "Icon",
+        "Product Image"
+      ],
+      "page_types": [
+        "Home Page"
+      ],
+      "fonts": [
+        null,
+        null,
+        "San Francisco"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/e1fdbe5d-2cd0-4823-9d59-81018b1a206b",
+      "content": {
+        "description": "The screen features a clean, minimalist dashboard style interface with a left sidebar navigation area and a main content area on the right. The sidebar uses a dark background (#1E1E1E or similar) with white text and icons in a vertical column. It is divided into sections separated by subtle lines or spacing. The top area displays 'Liam's School' as a heading in white. Below are navigation items with icons and labels: Home, Users, Site, Sales, Emails, App Hub, Settings. Then a PRODUCTS section has items: Courses, Coaching, Digital Downloads, Community, Memberships, Bundles, Plan, all in white text with matching icons. The main content area has a white background (#FFFFFF) and black text (#000000). At the top right, there is a notification bell icon with a red badge showing count 0, and a 'View Your School' button with border and text in black on white background. The header says 'Welcome, Liam!' in bold font. Below is a section titled 'Create your course outline' in a large serif font, with a smaller subheading explaining usage. Input fields with placeholders: 'Give it a name' (Course title) and a large multiline text area with placeholder for course description are placed below in a vertical stack. Both fields have subtle grey borders (#CCCCCC) and rounded corners. A bright yellow button (#E4FF00) labeled 'Generate your outline' is below the inputs, with black bold text, rectangular shape and subtle rounding. Under this, a section titled 'Other ways to get started' uses a smaller bold serif font. Below are three rectangular cards arranged horizontally featuring additional resource links and images, each with a label and brief description. The left card contains bullet points (Design files, Ebooks, Email templates, Newsletters, How to guides, Spreadsheets, Podcasts, Recipes) on a pastel pink background (#FBEFFF). Next to it are two cards with screenshots and images showcasing platform features or tutorials. In the second image, there are three feature explanation boxes arranged horizontally with white backgrounds, each containing a bold heading with an icon, descriptive text below, and a rectangular button below: 'Create a digital download', 'Create a community', 'Create a coaching service'. Below is a 'Tips' section with three cards horizontally aligned, each with a title in bold, an icon, descriptive text, and a button (Enroll here, Hire an expert, Download guide). The overall typography is a clean serif for headings with sizes about 24-28 px for main titles, and a clean sans-serif for body text at roughly 14-16 px. The interface spacing is generous with consistent vertical rhythm and left alignment for text areas, with padding around inputs and cards. The style is functional, modern, and uncluttered with focus on usability and clarity.",
+        "layout": "The layout uses a two-column structure: a fixed vertical left sidebar occupying about 20% width with navigation elements stacked vertically, and a main content column occupying about 80% width to the right with multiple stacked sections. Within the main content area, the topmost header is aligned left with a welcoming message and a top-right aligned button and notification icon. Below, the course outline creation section is a vertical form with labeled input fields arranged in single columns, followed by a horizontally laid out group of three cards in a row under 'Other ways to get started'. Further down, there's a full-width block split equally into three horizontally aligned boxes for digital download, community, and coaching with buttons below. At the bottom is a tips section with three equal-width cards in one horizontal row. Ample padding and margins separate each section vertically, and content is aligned mostly left and center globally. The use of grid or flexbox style horizontal rows for the resource cards and tips cards is evident. The left sidebar uses vertical stacking with icons and text aligned left. The design emphasizes clarity, simplicity, and user focus through balanced spacing and clear visual hierarchy.",
+        "functions": "Users can enter the course title and a detailed course description in provided input fields to create a personalized course outline. The input fields support text entry with placeholders guiding what to enter. Upon filling these, users can click the prominent 'Generate your outline' button to trigger AI-powered creation of curriculum, lesson content, and sales page outlines, thereby automating course creation workflows. Additionally, users can explore other ways to get started by interacting with resource cards offering files, guides, ebooks, templates, and podcasts, helping to inspire or aid course building. In the second section, users can create a digital download, build a community, or start a coaching service by clicking the respective action buttons. The tips section invites users to enroll in a sales mini course, hire experts to assist with course marketing, or download guides with digital product ideas, providing educational support. Overall, this interface facilitates comprehensive course management and creation, supporting beginners and creators to set up, plan, and grow their educational products effectively by combining direct input collection, AI generation, actionable resources, and expert guidance options."
+      },
+      "flows": [
+        {
+          "id": 9547,
+          "name": "Verifying account email",
+          "step": 3,
+          "total_steps": 3
+        },
+        {
+          "id": 9640,
+          "name": "Signing up & onboarding",
+          "step": 13,
+          "total_steps": 13
+        }
+      ]
+    }
+  ]
+}

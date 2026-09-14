@@ -1,0 +1,476 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 1000,
+    "total_pages": 100
+  },
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/3bd5b765-12e2-4cd9-bdbc-5e2ed41858f8_thumb.jpg",
+      "hex_colors": [
+        "0x7C7C7C",
+        "0xE9FA37",
+        "0x151515",
+        "0x9D9D9D",
+        "0xFCFCFB"
+      ],
+      "uuid": "4f0eb823-2f76-4e92-b3dd-cb4446effbb1",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/create/courses/step-4",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Select",
+        "Add & Create",
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Step Indicator"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/4f0eb823-2f76-4e92-b3dd-cb4446effbb1",
+      "content": {
+        "description": "The screen is a clean and minimal interface for outlining a course curriculum. The background is plain white (#FFFFFF) with simple black text. At the top center, a header reads 'Outline your course' in a serif or clean sans-serif font, large and bold, with a smaller subtitle below it: 'Choose a method below to create your course curriculum.' The text is centered and spaced comfortably. Below, three..."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 10,
+          "total_steps": 34
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/6c16465c-7d74-4d93-a6b2-8d464f413faa_thumb.jpg",
+      "hex_colors": [
+        "0x101614",
+        "0x894B3A",
+        "0x49D5AF",
+        "0xCBCDCC",
+        "0xC8B654"
+      ],
+      "uuid": "51773335-d479-4861-97ab-6ecab1f67600",
+      "page_url": "https://u.teachable.com/l/products?sortKey=recommended&sortDirection=asc&page=1&ref=land-book.com",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Tutorial & Education"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Search Field",
+        "Footer",
+        "Photo",
+        "Icon",
+        "Product Image"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/51773335-d479-4861-97ab-6ecab1f67600",
+      "content": {
+        "description": "The screen is a product discovery page for an educational platform named 'Teachable'. The layout uses a primarily white background with black text, and accents in bright yellow (#FFFF33) for the logo and some buttons at the top. The top navigation bar features the brand name 'teachable' in a bright yellow, aligned left, with navigation links ('Browse products', 'Sign up', and a 'Log in' button styl..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/15be0190-e120-4da7-b2da-a167c4be770c_thumb.jpg",
+      "hex_colors": [
+        "0xE5FB3F",
+        "0x232323",
+        "0x747474",
+        "0xFBFBFB",
+        "0x949494"
+      ],
+      "uuid": "183ed2da-808f-45d8-88ba-3d18e2611411",
+      "page_url": "https://support.teachable.com/en/articles/11682396-get-started-with-your-school",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Article & Text"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Breadcrumb",
+        "Navigation Bar",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Footer",
+        "Gradient"
+      ],
+      "page_types": [
+        "Support & Help"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/183ed2da-808f-45d8-88ba-3d18e2611411",
+      "content": {
+        "description": "The set of screens presents a comprehensive, multi-step tutorial guide for setting up an online school on the Teachable platform. The overall style is minimalistic and content-focused, using a clean white background (#FFFFFF) for the body with black text (#000000) ensuring high readability. The brand logo 'teachable' is placed prominently on a bright yellow background (#E7FF2F) that spans full widt..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/30cec3e8-d0f0-4f93-b4d9-703a7cc52651_thumb.jpg",
+      "hex_colors": [
+        "0x040404",
+        "0xE2F938",
+        "0x9B9B9B",
+        "0x585B5A",
+        "0xF4F4F4"
+      ],
+      "uuid": "b068d11e-8644-431c-904e-a78daeb13f2f",
+      "page_url": "https://www.teachable.com/events?ref=land-book.com",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Event"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/b068d11e-8644-431c-904e-a78daeb13f2f",
+      "content": {
+        "description": "The webpage presents a professional, clean layout focused on displaying events related to Teachable. The top consists of a black navigation bar with the logo on the left in yellow (#FFF55E), and right-aligned menu options: 'Products', 'Resources', 'Pricing', 'Creator login' (underlined text), a black 'Contact sales' button border in white with white text, and a bright yellow 'Start for free' button..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/ddc994d3-ea9f-41ae-b2a3-2dcd07bd3b6b_thumb.jpg",
+      "hex_colors": [
+        "0xE9FA37",
+        "0x7C7C7C",
+        "0x121211",
+        "0x9B9B9B",
+        "0xFCFCFB"
+      ],
+      "uuid": "5f33c727-7dc2-479d-9000-e2728360224d",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/create/courses/step-1",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Step Indicator"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/5f33c727-7dc2-479d-9000-e2728360224d",
+      "content": {
+        "description": "The screen appears as a clean, minimalistic course setup form focused on gathering course information from users. The background is plain white (#FFFFFF) with all content centered horizontally and placed in the upper-middle portion of the layout. At the top, a small label shows \"1/5\" indicating a multi-step process, left-aligned and simple black text. On the top right corner, there is a small 'X' b..."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 3,
+          "total_steps": 34
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/80f6246e-9908-4ef8-8d5e-c90b210f94fb_thumb.jpg",
+      "hex_colors": [
+        "0x171717",
+        "0xFCFCFC",
+        "0x747474",
+        "0xA2A2A2",
+        "0x848484"
+      ],
+      "uuid": "f0e211ea-d620-4379-858b-657136e58564",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/create/courses/step-1",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Step Indicator"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/f0e211ea-d620-4379-858b-657136e58564",
+      "content": {
+        "description": "The screen is a minimalistic form interface for inputting course information, with a clear white background (#FFFFFF) covering the entire viewport. At the top center, there is a concise heading 'Tell us about your course' in a medium serif or sans-serif font, approximately 20-24px in size, black or dark gray (#000000 or #333333), followed by a smaller subtitle in a lighter gray (#666666) font about..."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 2,
+          "total_steps": 34
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/a391ea44-93d0-44cf-8808-8466b645a908_thumb.jpg",
+      "hex_colors": [
+        "0x224672",
+        "0x060607",
+        "0xE3FB36",
+        "0xFBFBFB",
+        "0xAF2825"
+      ],
+      "uuid": "c095a0c5-85b2-4522-8f5e-6966c9ceacad",
+      "page_url": "https://sso.teachable.com/secure/teachable_accounts/sign_up?trial_plan_id=builder-usd-monthly&ref=land-book.com",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Button",
+        "Checkbox & Radio",
+        "Text Field",
+        "Step Indicator",
+        "Icon"
+      ],
+      "page_types": [
+        "Sign Up"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/c095a0c5-85b2-4522-8f5e-6966c9ceacad",
+      "content": {
+        "description": "The screen is a clean and minimal sign-up interface with a white background and a navy blue header bar at the top featuring the Teachable logo in white. Below the header, there's a horizontal step progress bar with three steps: 'Create an account' (highlighted in yellow and marked as step 1), 'Start your trial' (greyed as step 2), and 'Start creating' (greyed as step 3). The main content includes a..."
+      },
+      "flows": [
+        {
+          "id": 9640,
+          "name": "Signing up & onboarding",
+          "step": 2,
+          "total_steps": 13
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/fable.co/desktop/0955627e-6a1f-4c74-8336-de3c144993ff_thumb.jpg",
+      "hex_colors": [
+        "0x044B34",
+        "0xE5D9DD",
+        "0x141314",
+        "0x6E6B6D",
+        "0x35936F"
+      ],
+      "uuid": "46dc5157-f364-4af2-9a5e-f8f66357e20c",
+      "page_url": "https://fable.co/community-guidelines",
+      "site": {
+        "id": 463,
+        "domain": "fable.co",
+        "description": "Share the joy of reading with online book clubs",
+        "name": "Fable",
+        "background_url": "https://images.refero.design/backgrounds/fable.co/996f5a92-1f50-4e2c-967e-4eb460de13eb.jpg",
+        "refero_url": "https://refero.design/websites/463",
+        "categories": [
+          "Social Networking",
+          "Books",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/fable.co/42cec605-2062-4a86-abb9-72cb9c009f6e.jpg",
+        "background_color": "39c67f"
+      },
+      "ux_patterns": [
+        "Email Subscription",
+        "Article & Text"
+      ],
+      "ui_elements": [
+        "Button",
+        "Tabs",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Avatar"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/46dc5157-f364-4af2-9a5e-f8f66357e20c",
+      "content": {
+        "description": "This design is a Community Guidelines page for Fable Reading Clubs presented in a clean, professional style. The main header section uses a dark green background (#114433) with a large, elegant serif font for the main title 'Fable Community Guidelines' in soft pink (#D9B2B2) color, centered horizontally and vertically within a large rounded rectangle. Below the title is a smaller subtitle in white ..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/sketch.com/desktop/729e2024-e30d-4a61-b906-c13e9b4a1a8d_thumb.jpg",
+      "hex_colors": [
+        "0xF89B35",
+        "0x3FBBB9",
+        "0xF75D2A",
+        "0x17171B",
+        "0x92A196"
+      ],
+      "uuid": "2e432268-a091-4fa9-8074-f698ad7f1783",
+      "page_url": "https://www.sketch.com/workspace/760b535c-0c13-4f6a-9ad7-5c63c1f4b2d2/libraries",
+      "site": {
+        "id": 39,
+        "domain": "sketch.com",
+        "description": "Design, collaborate, prototype and handoff",
+        "name": "Sketch",
+        "background_url": "https://images.refero.design/backgrounds/sketch.com/2e68c68b-9a3f-4044-85af-50dab05720d1.jpg",
+        "refero_url": "https://refero.design/websites/39",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/sketch.com/c61e59d8-a6b1-45b8-a04b-a6b063254991.jpg",
+        "background_color": "e79479"
+      },
+      "ux_patterns": [
+        "Empty State"
+      ],
+      "ui_elements": [
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Illustration"
+      ],
+      "page_types": [
+        "Content Management Page",
+        "Discover"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/2e432268-a091-4fa9-8074-f698ad7f1783",
+      "content": {
+        "description": "The screen is a workspace interface focused on 'Libraries' with a clean, minimal design and a light color palette. The background is white (#FFFFFF) for the main content area with a light beige (#F9F6F1) or very light gray background for the entire app container. Typography uses a clear, sans-serif font in dark gray (#1A1A1A) for primary text and medium gray (#5A5A5A) for secondary text. The left s..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/cefaef65-99e0-4a78-a75f-a1a58361c0a1_thumb.jpg",
+      "hex_colors": [
+        "0x212424",
+        "0xE3F43A",
+        "0x989594",
+        "0x955E4C",
+        "0x3FE8B9"
+      ],
+      "uuid": "755d46c4-58fd-4221-bdef-702d8a8ae50f",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/home?page=createproduct",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Confirmation",
+        "Article & Text"
+      ],
+      "ui_elements": [
+        "Button",
+        "Popover"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/755d46c4-58fd-4221-bdef-702d8a8ae50f",
+      "content": {
+        "description": "The screen shows a modern web interface for creating a course outline using AI tools. On the left side is a vertical navigation sidebar with a dark background (#1E1E1E or similar) and white text in a sans-serif font. The sidebar includes sections with icons and text: Home, Users, Site, Sales, Emails, App Hub, Settings, then a PRODUCTS heading specifically listing Courses, Coaching, Digital Download..."
+      },
+      "flows": [
+        {
+          "id": 9640,
+          "name": "Signing up & onboarding",
+          "step": 12,
+          "total_steps": 13
+        }
+      ]
+    }
+  ]
+}

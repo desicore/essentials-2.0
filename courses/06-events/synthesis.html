@@ -1,0 +1,86 @@
+<section class="synthesis" aria-labelledby="synthesis-title">
+<style>
+.synthesis{margin:28px 0 8px;padding:24px 26px;border:1px solid var(--border);border-radius:10px;background:var(--surface)}
+.synthesis h2{font-size:22px;margin:0 0 6px;max-width:none}
+.synthesis h3{font-size:16px;margin:26px 0 8px;letter-spacing:.01em}
+.synthesis p,.synthesis li{max-width:950px;line-height:1.5}
+.synthesis ol,.synthesis ul{padding-left:22px;margin:8px 0}
+.synthesis li{margin:6px 0}
+.synthesis code{font-size:12px;color:var(--muted);white-space:nowrap}
+.synthesis .lead{color:var(--muted);margin-top:0}
+.synthesis table{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0 4px}
+.synthesis th,.synthesis td{border:1px solid var(--border);padding:6px 8px;text-align:left;vertical-align:top}
+.synthesis th{background:var(--bg);font-weight:600;white-space:nowrap}
+.synthesis td:first-child{white-space:nowrap;font-weight:600}
+.synthesis .y{color:#1f7a3a;font-weight:700}.synthesis .p{color:#a66a00;font-weight:700}.synthesis .n{color:var(--muted)}
+.synthesis .legend{font-size:12px;color:var(--muted);margin:4px 0 0}
+.synthesis .tablewrap{overflow-x:auto}
+</style>
+<h2 id="synthesis-title">Synthesis</h2>
+<p class="lead">Read this first. Sections Q1–Q6 below hold the evidence cards; every product and reference id named here is in the report. Ids are shortened to their first block (for example <code>refero:12719</code>, <code>mobbin:1680974d</code>).</p>
+
+<h3>Top examples</h3>
+<ol>
+  <li><strong>Understory</strong> (Refero, <code>refero:12719</code>) — "+ Event" starts by picking an existing Experience, and the session form arrives pre-filled with capacity, location, rooms and guides. The closest thing to "schedule a scenario" in the whole set.</li>
+  <li><strong>Kajabi</strong> (Mobbin, <code>mobbin:1680974d</code>, <code>mobbin:c497ddd0</code>) — sessions scheduled inline under a coaching product, with a separate global Events calendar that has no product link (<code>mobbin:64f56885</code>). Shows both surfaces in one product.</li>
+  <li><strong>Luma</strong> (Refero, <code>refero:1848</code>) — turns a single event into a multi-session series: cadence, number of weeks, weekday chips, or a hand-written session list. The best model for a course whose sessions do not repeat identically.</li>
+  <li><strong>Acuity Scheduling</strong> (Refero, <code>refero:9868</code>) — reopening a class shows "this class conflicts … uses resource Room #5" and still lets it save. The only explicit room-conflict message found.</li>
+  <li><strong>Lyssna</strong> (Mobbin, <code>mobbin:8a3407fe</code>) — host marks a session Completed or No-show, with automatic completion after five days. Attendance with a fallback.</li>
+  <li><strong>Partiful</strong> (Refero, <code>refero:10204</code>) — RSVP with a plus-one where the spot counter decrements per person (20/20 → 18/20). The most literal seat accounting.</li>
+  <li><strong>Microsoft Teams</strong> (Refero, <code>refero:9746</code>) — from an empty events state through the whole create form: time zone first, start/end with computed duration, all-day toggle.</li>
+  <li><strong>Amie / Motion</strong> (Mobbin, <code>mobbin:1c7e609d</code>, <code>mobbin:1eb73c81</code>) — the two-option "this event / all events" dialog, the only edit-scope pattern in the set.</li>
+</ol>
+
+<h3>Pattern comparison</h3>
+<div class="tablewrap">
+<table>
+<thead><tr><th>Product</th><th>Q1 Creation surface</th><th>Q2 Content / group link</th><th>Q3 Recurrence &amp; scope</th><th>Q4 Conflicts</th><th>Q5 Capacity &amp; attendance</th><th>Q6 Time zone &amp; duration</th></tr></thead>
+<tbody>
+<tr><td>Kajabi</td><td><span class="y">✓</span> inline under product, plus global Events</td><td><span class="p">partial</span> session belongs to product</td><td><span class="p">partial</span> repeat on global event only</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="y">✓</span> zone + presets</td></tr>
+<tr><td>Luma</td><td><span class="y">✓</span> global, calendar picked at creation</td><td><span class="p">partial</span> event → individual invitees</td><td><span class="y">✓</span> series from single event</td><td><span class="n">✗</span></td><td><span class="y">✓</span> cap + approval, no waitlist</td><td><span class="n">✗</span></td></tr>
+<tr><td>Understory</td><td><span class="n">✗</span> global calendar</td><td><span class="y">✓</span> pick Experience first</td><td><span class="y">✓</span> repeat rule at creation</td><td><span class="p">partial</span> resources with quantity, no warning</td><td><span class="y">✓</span> capacity + no-limit</td><td><span class="n">✗</span></td></tr>
+<tr><td>Acuity Scheduling</td><td><span class="y">✓</span> type catalog → offer instance</td><td><span class="n">✗</span></td><td><span class="p">partial</span> reschedule one, no scope</td><td><span class="y">✓</span> room conflict, soft, on edit</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td></tr>
+<tr><td>Circle</td><td><span class="p">partial</span> events global despite course spaces</td><td><span class="n">✗</span></td><td><span class="p">partial</span> repeat + end date</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td></tr>
+<tr><td>Amie</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="y">✓</span> repeat rule + this/all</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td></tr>
+<tr><td>Motion</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="y">✓</span> this/all dialog</td><td><span class="p">partial</span> availability-based slots</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td></tr>
+<tr><td>Zoom</td><td><span class="n">✗</span> no course concept</td><td><span class="n">✗</span></td><td><span class="p">partial</span> rule at creation only</td><td><span class="p">partial</span> conflict at join time</td><td><span class="n">✗</span></td><td><span class="y">✓</span> zone + free hr/min</td></tr>
+<tr><td>Microsoft Teams</td><td><span class="n">✗</span> no course concept</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="y">✓</span> zone first, start/end, computed duration</td></tr>
+<tr><td>Eventbrite</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="y">✓</span> capacity per ticket tier + total</td><td><span class="n">✗</span></td></tr>
+<tr><td>Partiful</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="y">✓</span> RSVP + plus-one, spots decrement</td><td><span class="n">✗</span></td></tr>
+<tr><td>Lyssna</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="y">✓</span> host marks completed / no-show, auto after 5 days</td><td><span class="n">✗</span></td></tr>
+<tr><td>Clockwise</td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="n">✗</span></td><td><span class="y">✓</span> person conflict, soft</td><td><span class="n">✗</span></td><td><span class="y">✓</span> zone + fixed duration</td></tr>
+</tbody>
+</table>
+</div>
+<p class="legend">✓ observed in this collection · partial: analogy or incomplete evidence · ✗ not demonstrated in this collection (not a claim the product lacks it).</p>
+
+<h3>What the best apps do differently</h3>
+<ol>
+  <li><strong>They start the event from the thing that runs, not from a blank date.</strong> Understory picks the Experience first and pre-fills the form (<code>refero:12719</code>); Workable opens the event from the candidate record (<code>mobbin:da2ca788</code>); Acuity defines the class type once and offers instances later (<code>refero:9859</code>). Everyone else starts with a title field.</li>
+  <li><strong>They keep inline and global surfaces both, but only one of them knows the course.</strong> Kajabi's product sessions are inline (<code>mobbin:1680974d</code>) while its Events calendar is a marketing tool with no product link (<code>mobbin:64f56885</code>); Luma's calendar picker applies the tag at creation (<code>refero:1843</code>). Circle shows the failure mode: course spaces exist but the event form lives under a global tab (<code>mobbin:b360aa69</code>).</li>
+  <li><strong>They treat a series as a list of sessions, not a rule.</strong> Luma builds the series from an existing event and lets you either generate by cadence or write the sessions out (<code>refero:1848</code>). Rule-only products (Zoom <code>mobbin:b85c076b</code>, Understory <code>refero:12705</code>) give no way to see or edit the resulting dates.</li>
+  <li><strong>Conflicts are warnings, and they arrive late.</strong> Acuity (<code>refero:9868</code>), Fresha (<code>mobbin:ac5e971e</code>) and Clockwise (<code>mobbin:671e0870</code>) all warn and still allow save; 7shifts batches the check at publish (<code>mobbin:8796902e</code>). Nobody shows live per-resource availability inside the form, and nobody covers equipment.</li>
+  <li><strong>Attendance has a fallback.</strong> Lyssna auto-completes unmarked sessions after five days (<code>mobbin:8a3407fe</code>), Posh gives the host a one-tap check-in (<code>mobbin:4022cce6</code>). Capacity products (Understory <code>refero:12706</code>, Eventbrite <code>mobbin:c0b0ead0</code>) never show what happens when it is full: no waitlist in the set.</li>
+  <li><strong>Time zone is a first-class field, duration is a preset.</strong> Teams puts the zone above the dates (<code>refero:9746</code>); Kajabi, SavvyCal and Clockwise pair a zone dropdown with duration chips (<code>mobbin:5de887fe</code>, <code>mobbin:9a8fc4f4</code>, <code>mobbin:1fe20459</code>). Homerun's start-plus-duration with a read-only zone label (<code>refero:7186</code>) is the simpler fit for a single physical site.</li>
+</ol>
+
+<h3>Best practices top companies converge on</h3>
+<ul>
+  <li>Create the event inside the course; mirror it into the global calendar as a filtered view with the course as tag. Never a second, unlinked calendar.</li>
+  <li>Open the form from the scenario (or from the group): pre-fill title, duration, rooms and equipment from the scenario definition.</li>
+  <li>Attendees are an object (a learner group), not a list of names; individuals are added on top.</li>
+  <li>Offer a repeat rule for convenience, but always render the resulting session list so dates can be edited one by one; when a series edit happens, ask "this session / all sessions".</li>
+  <li>Warn on room, facilitator and equipment conflicts; do not block. Show the warning while the form is open, not after save.</li>
+  <li>Capacity is a number with a "no limit" option; attendance is marked by the facilitator with an automatic resolution after a grace period.</li>
+  <li>One institutional time zone shown as a label; duration defaults from the scenario and is editable as presets.</li>
+</ul>
+
+<h3>Open questions for Essentials 2.0</h3>
+<ul>
+  <li><strong>Session ≠ recurrence.</strong> A course typically runs the same scenario for several groups in rotation, and different scenarios on the same day. Is the unit "one event with several slots" (Luma's session list) or "one event per group per slot"? This decides how modules 04 and 05 hang off the event.</li>
+  <li><strong>Where does the link show from the other side?</strong> No reference shows a content or group page listing its events. The scenario page (05) and the learner group page (04) both need a "Sessions" section that this module has to specify.</li>
+  <li><strong>Resource model before conflict UI.</strong> Rooms, manikins and facilitators need to be bookable objects with quantities (Understory's model) before any warning can be drawn. Is that owned by the course module or by an institution-level settings area?</li>
+  <li><strong>Assigned vs. sign-up.</strong> All the sign-up patterns here are self-service. If groups are attached, sign-up is unnecessary; if slots are open, a waitlist is needed and no reference shows one. Which of the two does the Learner Portal (07) expose?</li>
+  <li><strong>Canvas and calendar hand-off.</strong> Once events exist, module 10 has to push them to learners and to Canvas. Which fields are source of truth here (room, facilitator, capacity) and which can be edited on the Canvas side?</li>
+</ul>
+</section>

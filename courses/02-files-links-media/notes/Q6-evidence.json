@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mobbin:b3585969-4b16-4802-aea2-feaf40d75f33",
+    "take": "Coursera exposes a dedicated learner Resources branch beside Course Material modules; this suggests adjacent structures rather than demonstrated mirroring.",
+    "observed": "The left navigation shows Course Material with Modules 1–4 and a separate Resources list. The selected glossary page contains an external link and a DOCX attachment.",
+    "limits": "Learner side only; no matching instructor editor or same-course authoring hierarchy is retained.",
+    "counter_example_candidate": true
+  },
+  {
+    "id": "mobbin:d167e236-9aec-4856-8c79-27389df500a2",
+    "take": "Coursera keeps media, attachments, and sequential navigation inside one mobile lesson shell.",
+    "observed": "A video sits above Transcript, Notes, Summary, and Attachments tabs, with Previous and Next controls.",
+    "limits": "Shows learner consumption and sequence, not instructor/learner parity.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:bc678aba-07f0-4bbd-b48d-b4c5da47de0b",
+    "take": "Skillshare ties project resources to lesson progression by references, while placing downloads in a separate learner tab.",
+    "observed": "Projects & Resources contains project instructions that cite lesson numbers and three downloadable resource cards.",
+    "limits": "No instructor view is paired; the screen cannot prove that authoring structure is mirrored.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:ce6bd4c3-a5bf-4936-9052-271f2415fe4b",
+    "take": "Skillshare presents an ordered learner lesson list beside the player, distinct from its resource-tab organization.",
+    "observed": "Ten numbered lessons with durations appear alongside the class video; Projects & Resources is a separate top-level tab.",
+    "limits": "Learner side only and no same-course instructor capture.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:41f8b1f4-ec5f-4703-aeed-9b318eb0d5c0",
+    "take": "This Podia capture is instructor-side evidence of resources embedded in a section, not learner-side evidence for mirroring.",
+    "observed": "Done and Publish controls, editable course copy, linked resources, and a Section deleted toast are visible.",
+    "limits": "Authoring-side Q2 evidence; no learner-side counterpart is retained.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2",
+    "take": "Podia authors add a file as a lesson item inside the course section alongside links and coaching entries.",
+    "observed": "The three-step flow opens New lesson > Add files, shows upload progress on a PDF row, then leaves the completed file in the section.",
+    "limits": "Authoring side only; it qualifies the Q6 Podia claim but does not establish parity.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "refero:a68d25c8-7cda-41fb-aa23-67308245866e",
+    "take": "This Teachable capture is an instructor curriculum editor, not evidence of a learner-facing mirrored structure.",
+    "observed": "Admin navigation, drag handles, Publish and Edit controls, and a Preview button surround lesson text and an Introduction.docx resource; the outline groups lessons into named sections.",
+    "limits": "Misclassified for Q6; Preview is available but its learner result is not shown.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8",
+    "take": "Teachable gives instructors an ordered section-and-lesson curriculum with item-level publication state.",
+    "observed": "Named sections contain ordered lessons with content summaries, Published or Publish states, drag handles, and section-level Drip controls.",
+    "limits": "Instructor side only; there is no same-course learner capture for comparison.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:41a7198a-cb8b-4e01-8082-f4b6ddf7f73b",
+    "take": "Teachable inserts PDF material inside the lesson editing context.",
+    "observed": "An Add PDF dialog offers local and cloud sources plus a link option over the lesson editor.",
+    "limits": "Authoring evidence only; it does not show where the PDF appears to learners.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4",
+    "take": "SuperHi groups learner materials by content type, separating downloads from a numbered video list.",
+    "observed": "The page has a Links + downloads card followed by a Videos section with lesson numbers and thumbnails.",
+    "limits": "Learner-side course-adjacent evidence only; no instructor comparison is retained.",
+    "counter_example_candidate": false
+  }
+]

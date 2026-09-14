@@ -1,0 +1,196 @@
+{
+  "module": "04-learner-groups",
+  "title": "Manage learner groups and bulk enrollment",
+  "intro": "Mobbin evidence for course rosters and bulk enrollment analogues.",
+  "questions": [
+    {
+      "id": "Q3",
+      "title": "Roster view: status, role, group origin, exceptions visible",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Bulk paths (CSV, code/link, integration) alongside manual add",
+      "answer": ""
+    }
+  ],
+  "references": [
+    {
+      "id": "mobbin:3e4b87ce-37eb-41e8-af41-026d197eeccc",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Community roster and member management screen",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3e4b87ce-37eb-41e8-af41-026d197eeccc",
+      "images": [
+        "https://mobbin.com/api/mcp/short/EwIXTCH7"
+      ],
+      "question": "Q3",
+      "take": "Circle\u2019s Members table shows role, joined date, paywall and last activity with add/export controls. It does not show group origin or individual enrollment exceptions.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3b608ec9-63a0-4e82-b915-4535ea70a9ac",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Student roster view",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3b608ec9-63a0-4e82-b915-4535ea70a9ac",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1B9BcgHG"
+      ],
+      "question": "Q3",
+      "take": "The Students table filters by Enrolled In Specific Course(s) and exposes bulk actions, email opt-out and account/activity metadata. It is course-filtered; group origin and exceptions are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ff1c2564-7b26-4aa7-ac0d-39e9236ed4ec",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Class member list",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ff1c2564-7b26-4aa7-ac0d-39e9236ed4ec",
+      "images": [
+        "https://mobbin.com/api/mcp/short/2gIdfjvp"
+      ],
+      "question": "Q3",
+      "take": "An education-adjacent class screen makes the learner list itself the primary management object.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:0655a94a-197a-4a2b-baaf-a963499cd0d6",
+      "source": "mobbin",
+      "app": "Productboard",
+      "title": "Team member management screen",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/0655a94a-197a-4a2b-baaf-a963499cd0d6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/npGNMbHR"
+      ],
+      "question": "Q3",
+      "take": "A team-management analogue supports scanning membership records as a dedicated administrative view.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:464a297d-2355-443d-8123-d61f80c4a72c",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Exporting students",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/464a297d-2355-443d-8123-d61f80c4a72c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1qmcUIvB",
+        "https://mobbin.com/api/mcp/short/30HA5CWH",
+        "https://mobbin.com/api/mcp/short/6br2peI5"
+      ],
+      "question": "Q4",
+      "take": "Circle\u2019s three-step flow explicitly covers exporting students, showing a structured bulk-data path adjacent to roster management.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:61127de5-672c-4250-984a-73e1c0684ce1",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Adding students",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/61127de5-672c-4250-984a-73e1c0684ce1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/nBUSlr14",
+        "https://mobbin.com/api/mcp/short/koSYPFyg",
+        "https://mobbin.com/api/mcp/short/Jh4hWI4a",
+        "https://mobbin.com/api/mcp/short/tqQrbRSh",
+        "https://mobbin.com/api/mcp/short/PaVKcJMM",
+        "https://mobbin.com/api/mcp/short/3fcs2MQO",
+        "https://mobbin.com/api/mcp/short/IS3GwQLf",
+        "https://mobbin.com/api/mcp/short/VU2b1SSJ"
+      ],
+      "question": "Q4",
+      "take": "Students \u2192 Add Students \u2192 manually enter learners \u2192 choose a course/product and payment/access basis \u2192 Import \u2192 success feedback. Import CSV is a sibling tab, but its mapping and execution are not captured.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:07103cd7-8353-4578-88fb-3c767153613d",
+      "source": "mobbin",
+      "app": "Fireflies",
+      "title": "Team membership flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/07103cd7-8353-4578-88fb-3c767153613d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WqGVUPDQ",
+        "https://mobbin.com/api/mcp/short/yqs3z4Pa",
+        "https://mobbin.com/api/mcp/short/BWpupiX0",
+        "https://mobbin.com/api/mcp/short/NCxF0Cq8"
+      ],
+      "question": "Q4",
+      "take": "Fireflies\u2019 team flow is a relevant analogue for managing a group of people through a dedicated team entry point.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:eb1701f1-73e1-45e2-a31f-80df30333517",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Course dashboard with member context",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/eb1701f1-73e1-45e2-a31f-80df30333517",
+      "images": [
+        "https://mobbin.com/api/mcp/short/MRHwRsgD",
+        "https://mobbin.com/api/mcp/short/xwvOX1U8",
+        "https://mobbin.com/api/mcp/short/sG8and4b",
+        "https://mobbin.com/api/mcp/short/MEWrFkEg",
+        "https://mobbin.com/api/mcp/short/XxK5jSYq",
+        "https://mobbin.com/api/mcp/short/RAJ0paF2"
+      ],
+      "question": "Q3",
+      "take": "The course dashboard shows student progress, last activity and start date; later previews visit comments. Course status Open is not a learner enrollment status. Roles, group origin and exceptions are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:0e3d16c1-c125-418d-91e0-2a18b696bcaa",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course learner management surface",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/0e3d16c1-c125-418d-91e0-2a18b696bcaa",
+      "images": [
+        "https://mobbin.com/api/mcp/short/03UCXJRQ"
+      ],
+      "question": "Q4",
+      "take": "Teachable is a direct education analogue surfaced for selecting or managing course learners from the course side.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:7fccd8eb-8b47-4eba-9b29-c061ef84f911",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Space member access screen",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/7fccd8eb-8b47-4eba-9b29-c061ef84f911",
+      "images": [
+        "https://mobbin.com/api/mcp/short/BRbxQ6NJ"
+      ],
+      "question": "Q4",
+      "take": "During course-space creation, select a Space group and optionally Add members from this space group. Existing-group inheritance is visible; later membership propagation is not established.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

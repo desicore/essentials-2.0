@@ -1,0 +1,397 @@
+{
+  "module": "04-learner-groups",
+  "title": "Adding Learner Groups to Courses",
+  "intro": "Research for Essentials 2.0 · Semester → Courses → Adding Learner Groups. The retained screens and flow previews compare existing-group inheritance, enrollment review, rosters, bulk entry, limits and notification intent. Course evidence is distinguished from project, event and booking analogues. No retained example establishes live LMS cohort synchronization.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Group-as-unit enrolment (attach a group, membership stays synced) vs. copy-at-enrol",
+      "answer": "Separate selecting a group from keeping its membership synchronized. Circle [mobbin:7fccd8eb-8b47-4eba-9b29-c061ef84f911] shows existing-group member inheritance during course-space creation; Asana [mobbin:bb93bc5a-69d4-4f3e-8f70-fa48fb9b6b53] accepts teams in project-template access. Neither establishes later propagation. Basecamp [mobbin:03d638de-71a2-4fdd-a4a9-19fb51e82492] explicitly describes snapshot behavior: later group changes do not update previous assignments or mentions. For Essentials, make the chosen membership rule explicit; synchronization is a product decision requiring further validation."
+    },
+    {
+      "id": "Q2",
+      "title": "Preview of impact before confirming (member count, conflicts, already enrolled)",
+      "answer": "Put the affected count beside the action. Deel [mobbin:e490327d-01e5-42c3-a4c7-c27925e5d6c1] shows 96/96 selected and a whole-team warning; Gusto [mobbin:9fb5633a-b981-4130-ac7f-bddf895856ae] reviews the learner count, completion date, reminders and per-person/total cost, with Edit links; GitBook [mobbin:bb97eec3-4564-4fab-a695-555b70cf9245] embeds the count in Add 1 member. These support count-based review, but none demonstrates duplicate resolution, already-enrolled learners, or the net-new enrollment delta. Those remain requirements to validate for overlapping semester groups."
+    },
+    {
+      "id": "Q3",
+      "title": "Roster view: status, role, group origin, exceptions visible",
+      "answer": "Treat role, enrollment status, activity and group origin as different information. Circle [mobbin:3e4b87ce-37eb-41e8-af41-026d197eeccc] exposes role and activity, while Circle [mobbin:eb1701f1-73e1-45e2-a31f-80df30333517] emphasizes progress and start dates. Teachable [mobbin:3b608ec9-63a0-4e82-b915-4535ea70a9ac] offers course-filtered students and bulk operations. None shows group-origin labels or per-learner sync exceptions. Essentials still needs a decision on how a roster explains why each learner has access."
+    },
+    {
+      "id": "Q4",
+      "title": "Bulk paths (CSV, code/link, integration) alongside manual add",
+      "answer": "Keep alternate entry paths next to the manual action. Teachable [mobbin:61127de5-672c-4250-984a-73e1c0684ce1] shows manual enrollment and an Import CSV tab, with the manual path selecting a course and ending in success feedback. Partiful [refero:d19d15c3-daac-4d6e-834f-a128a511a7ba] supplies a secondary CSV-template and recipient-review analogy. Circle [mobbin:e50417f0-d6e6-4ad2-8fdc-bf7b11ff4b79] also exposes CSV and link paths for member invitations. These are visible entry points; no retained flow proves LMS integration, CSV conflict handling or continuing roster sync."
+    },
+    {
+      "id": "Q5",
+      "title": "Capacity / waitlist / enrolment window handling",
+      "answer": "Distinguish course limits from a full-state recovery path. Podia [mobbin:ac312350-012f-49d9-9f95-25365859a6c3] shows course start-date and sign-up-limit settings; Luma [refero:4f821362-5e07-4f2a-9a8d-a63a3330ccdb] pairs event capacity with an optional waitlist; Fresha [mobbin:13c4d86b-b5dd-446d-8451-66c17cf96e32] demonstrates collecting preferences to join a booking waitlist. The event/booking patterns are analogues. Deel [mobbin:eac0772e-c47f-4a3d-973c-f6a7352fe5a1] adds immediate/scheduled assignment and an optional deadline; Gusto [mobbin:65695f4f-db86-4ab3-b40c-e2966edd2a79] adds completion reminders and permits overdue completion. These are assignment/completion dates, not enrollment cutoffs. No reference resolves a group larger than the remaining course capacity, partial group admission, enrollment closing dates or waitlist promotion."
+    },
+    {
+      "id": "Q6",
+      "title": "Notifications to learners on enrolment (seam with 07/09 — note only)",
+      "answer": "Expose notification intent at enrollment confirmation. Circle [mobbin:e50417f0-d6e6-4ad2-8fdc-bf7b11ff4b79] separates Send invites from Add without notification. Gusto [mobbin:b1497c40-cdea-4b8a-8e73-6cd70a8fcb2f] explains future course emails and learner next steps before purchase; it is a disclosure, not proof of sending. Cloudflare [mobbin:2e1d62a3-dcef-49da-b7f0-83211a076b8a] is a counter-example where a restricted skip-email option causes the invitation to fail. These screens show controls and failure feedback, not actual email delivery. Keep the course-side choice and outcome here; learner-facing access and message content remain in modules 07/09."
+    }
+  ],
+  "references": [
+    {
+      "id": "mobbin:bb93bc5a-69d4-4f3e-8f70-fa48fb9b6b53",
+      "source": "mobbin",
+      "app": "Asana",
+      "title": "Select people or teams for a project template",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/bb93bc5a-69d4-4f3e-8f70-fa48fb9b6b53",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wDijgVB9"
+      ],
+      "question": "Q1",
+      "take": "The project-template member field accepts people or teams and says private teams are added only when the project creator is a member. No existing team is selected in the captured screen; completed attachment and ongoing sync are not demonstrated.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:03d638de-71a2-4fdd-a4a9-19fb51e82492",
+      "source": "mobbin",
+      "app": "Basecamp",
+      "title": "Group membership policy — snapshot behavior",
+      "kind": "screen",
+      "url": "https://mobbin.com/flows/03d638de-71a2-4fdd-a4a9-19fb51e82492",
+      "images": [
+        "https://mobbin.com/api/mcp/short/pnq0PVHZ"
+      ],
+      "question": "Q1",
+      "take": "Policy excerpt from a work-management flow: choosing a group expands its current members; later membership changes do not update previous assignments or mentions. This is explicit snapshot behavior, not live course-group sync.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:7fccd8eb-8b47-4eba-9b29-c061ef84f911",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Inherit members from a course space group",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/7fccd8eb-8b47-4eba-9b29-c061ef84f911",
+      "images": [
+        "https://mobbin.com/api/mcp/short/BRbxQ6NJ"
+      ],
+      "question": "Q1",
+      "take": "During course-space creation, select a Space group and optionally Add members from this space group. Existing-group inheritance is visible; later membership propagation is not established.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e490327d-01e5-42c3-a4c7-c27925e5d6c1",
+      "source": "mobbin",
+      "app": "Deel",
+      "title": "Review workers before assigning a course",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/e490327d-01e5-42c3-a4c7-c27925e5d6c1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/K8Te5pTO"
+      ],
+      "question": "Q2",
+      "take": "Assign workers to course shows Selected 96 of 96 items, worker metadata, a whole-team warning and Continue into Schedule Assignment. Duplicate learners and net-new enrollment counts are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:d3cc6573-05f4-4736-b9be-e419e60c7b56",
+      "source": "mobbin",
+      "app": "Deel",
+      "title": "Review eligible workers before selection",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/d3cc6573-05f4-4736-b9be-e419e60c7b56",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WX6E91XO"
+      ],
+      "question": "Q2",
+      "take": "Assign workers to course shows Total 96 items, worker metadata and group/status/type filters, with Continue disabled before selection. A whole-team access warning notes that missing workers may need Engage access updated. This is not a selected-learner count or duplicate-conflict screen.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:bb97eec3-4564-4fab-a695-555b70cf9245",
+      "source": "mobbin",
+      "app": "GitBook",
+      "title": "Make the selected count explicit before adding",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/bb97eec3-4564-4fab-a695-555b70cf9245",
+      "images": [
+        "https://mobbin.com/api/mcp/short/fgiJIr6c"
+      ],
+      "question": "Q2",
+      "take": "A searchable, role-filtered member picker shows 1 selected and Add 1 member. This is a team-access analogy for a count-bearing enrollment confirmation.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:dfee87b3-81d9-4a2f-accc-256ba91e474d",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Review training count, dates and reminders",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/dfee87b3-81d9-4a2f-accc-256ba91e474d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/74Gvoztb"
+      ],
+      "question": "Q2",
+      "take": "Before purchase, Review shows course name, number of team members, completion due date and reminder timing, with Edit links. This is a pre-commit review, not proof of completed enrollment or notification delivery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9fb5633a-b981-4130-ac7f-bddf895856ae",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Review a training assignment before purchase",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9fb5633a-b981-4130-ac7f-bddf895856ae",
+      "images": [
+        "https://mobbin.com/api/mcp/short/4pxqDmT2",
+        "https://mobbin.com/api/mcp/short/qEX0sE3B",
+        "https://mobbin.com/api/mcp/short/kxuAiPC8",
+        "https://mobbin.com/api/mcp/short/s0Ry7Aiu"
+      ],
+      "question": "Q2",
+      "take": "Select a member → set due date and optional seven-day email reminder → review course, count, date and reminders with Edit links → inspect per-person and total cost plus post-purchase email disclosure. The captured flow stops before purchase; it does not prove enrollment or email delivery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3e4b87ce-37eb-41e8-af41-026d197eeccc",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Member roles and activity in a roster",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3e4b87ce-37eb-41e8-af41-026d197eeccc",
+      "images": [
+        "https://mobbin.com/api/mcp/short/EwIXTCH7"
+      ],
+      "question": "Q3",
+      "take": "Circle’s Members table shows role, joined date, paywall and last activity with add/export controls. It does not show group origin or individual enrollment exceptions.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:eb1701f1-73e1-45e2-a31f-80df30333517",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Course student progress beside activity",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/eb1701f1-73e1-45e2-a31f-80df30333517",
+      "images": [
+        "https://mobbin.com/api/mcp/short/MRHwRsgD",
+        "https://mobbin.com/api/mcp/short/xwvOX1U8",
+        "https://mobbin.com/api/mcp/short/sG8and4b",
+        "https://mobbin.com/api/mcp/short/MEWrFkEg",
+        "https://mobbin.com/api/mcp/short/XxK5jSYq",
+        "https://mobbin.com/api/mcp/short/RAJ0paF2"
+      ],
+      "question": "Q3",
+      "take": "The course dashboard shows student progress, last activity and start date; later previews visit comments. Course status Open is not a learner enrollment status. Roles, group origin and exceptions are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3b608ec9-63a0-4e82-b915-4535ea70a9ac",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Filter students by course enrollment",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3b608ec9-63a0-4e82-b915-4535ea70a9ac",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1B9BcgHG"
+      ],
+      "question": "Q3",
+      "take": "The Students table filters by Enrolled In Specific Course(s) and exposes bulk actions, email opt-out and account/activity metadata. It is course-filtered; group origin and exceptions are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:d19d15c3-daac-4d6e-834f-a128a511a7ba",
+      "source": "refero",
+      "app": "Partiful",
+      "title": "CSV invite preparation with a review area",
+      "kind": "screen",
+      "url": "https://refero.design/pages/d19d15c3-daac-4d6e-834f-a128a511a7ba",
+      "images": [
+        "https://images.refero.design/screenshots/partiful.com/desktop/661081f1-0107-49cc-9025-b88327fef7a3_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "Event-invitation analogy: Add Manually/Bulk Add, CSV template and Name/Email headers, recipient review, a message and Send emails share one modal. This does not prove course enrollment or delivery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:61127de5-672c-4250-984a-73e1c0684ce1",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Manual enrollment beside CSV import",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/61127de5-672c-4250-984a-73e1c0684ce1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/nBUSlr14",
+        "https://mobbin.com/api/mcp/short/koSYPFyg",
+        "https://mobbin.com/api/mcp/short/Jh4hWI4a",
+        "https://mobbin.com/api/mcp/short/tqQrbRSh",
+        "https://mobbin.com/api/mcp/short/PaVKcJMM",
+        "https://mobbin.com/api/mcp/short/3fcs2MQO",
+        "https://mobbin.com/api/mcp/short/IS3GwQLf",
+        "https://mobbin.com/api/mcp/short/VU2b1SSJ"
+      ],
+      "question": "Q4",
+      "take": "Students → Add Students → manually enter learners → choose a course/product and payment/access basis → Import → success feedback. Import CSV is a sibling tab, but its mapping and execution are not captured.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:eac0772e-c47f-4a3d-973c-f6a7352fe5a1",
+      "source": "mobbin",
+      "app": "Deel",
+      "title": "Schedule assignment and optional completion deadline",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/eac0772e-c47f-4a3d-973c-f6a7352fe5a1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/b2ui1ZSE"
+      ],
+      "question": "Q5",
+      "take": "After selecting workers, choose immediate or scheduled assignment, optionally set a deadline, then Assign (96). This is assignment timing and a completion deadline, not a demonstrated enrollment-open or closing window.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:13c4d86b-b5dd-446d-8451-66c17cf96e32",
+      "source": "mobbin",
+      "app": "Fresha",
+      "title": "Collect preferences when joining a booking waitlist",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/13c4d86b-b5dd-446d-8451-66c17cf96e32",
+      "images": [
+        "https://mobbin.com/api/mcp/short/yF0zjhl1",
+        "https://mobbin.com/api/mcp/short/fNsMUOA5",
+        "https://mobbin.com/api/mcp/short/WdYhU1lr",
+        "https://mobbin.com/api/mcp/short/a0o5X7lp",
+        "https://mobbin.com/api/mcp/short/8xcHlsSh",
+        "https://mobbin.com/api/mcp/short/B1YBkdTz",
+        "https://mobbin.com/api/mcp/short/OUbRPHyS",
+        "https://mobbin.com/api/mcp/short/011xNvNN"
+      ],
+      "question": "Q5",
+      "take": "Booking analogy: a full date leads to date/time preferences, a first-visit question, payment/notes review and Join the waitlist. It does not establish course-level capacity, queue priority or automatic promotion.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:65695f4f-db86-4ab3-b40c-e2966edd2a79",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Set completion dates and automatic reminders",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/65695f4f-db86-4ab3-b40c-e2966edd2a79",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sBJO1HGj"
+      ],
+      "question": "Q5",
+      "take": "Training assignment separates participant selection, dates/reminders and review. The settings include a completion due date, reminders near the deadline, a seven-day reminder toggle and email preview; overdue completion remains possible. A due date is not an enrollment cutoff.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4f821362-5e07-4f2a-9a8d-a63a3330ccdb",
+      "source": "refero",
+      "app": "Luma",
+      "title": "Pair event capacity with a waitlist policy",
+      "kind": "screen",
+      "url": "https://refero.design/pages/4f821362-5e07-4f2a-9a8d-a63a3330ccdb",
+      "images": [
+        "https://images.refero.design/screenshots/lu.ma/desktop/591c4fb6-35ac-440c-9248-ce260385d0f6_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "Event-registration analogy: Max Capacity states registration closes at the limit and exposes an Over-Capacity Waitlist toggle. Group admission and promotion rules are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ac312350-012f-49d9-9f95-25365859a6c3",
+      "source": "mobbin",
+      "app": "Podia",
+      "title": "Set course start date and sign-up limit",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ac312350-012f-49d9-9f95-25365859a6c3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DLqKAus5"
+      ],
+      "question": "Q5",
+      "take": "Course Availability groups Start date and Sign-up limit under Limits, with no-limit and limited-sign-up options. Enrollment closing dates and over-capacity group attachment are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e50417f0-d6e6-4ad2-8fdc-bf7b11ff4b79",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Choose invitation email or silent addition",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/e50417f0-d6e6-4ad2-8fdc-bf7b11ff4b79",
+      "images": [
+        "https://mobbin.com/api/mcp/short/a9YxsroN"
+      ],
+      "question": "Q6",
+      "take": "The member-invite screen offers manual/CSV/link entry and an explicit Send invites versus Add without notification choice. It demonstrates notification intent, not email delivery or course enrollment completion.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2e1d62a3-dcef-49da-b7f0-83211a076b8a",
+      "source": "mobbin",
+      "app": "Cloudflare",
+      "title": "A notification exception blocks an invitation",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2e1d62a3-dcef-49da-b7f0-83211a076b8a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/j1zH10jr"
+      ],
+      "question": "Q6",
+      "take": "Workspace-invite counterexample: selecting Skip confirmation email produces an Enterprise-only error and an invitation failure. The screen makes the failed action visible; it does not demonstrate a course enrollment outcome.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:b1497c40-cdea-4b8a-8e73-6cd70a8fcb2f",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Explain enrollment emails before purchase",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/b1497c40-cdea-4b8a-8e73-6cd70a8fcb2f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/fFKO7ujr"
+      ],
+      "question": "Q6",
+      "take": "The pre-purchase What happens next section states that Gusto will email course information and a link, learners complete the course in Gusto, and the admin tracks progress. This describes future behavior, not an email already sent or received.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

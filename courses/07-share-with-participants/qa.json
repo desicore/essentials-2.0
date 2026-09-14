@@ -1,0 +1,21 @@
+{
+  "headings": [
+    "Publish model (single toggle vs. per-item visibility vs. scheduled release)",
+    "Access grant paths (enrolled groups / link / code / email) and how permission levels are expressed",
+    "\"Preview as learner\" availability and fidelity",
+    "Learner course home: what is above the fold (next session, progress, materials, announcements)",
+    "Feedback to instructor that sharing worked (who has opened, pending invites)",
+    "Cross-device (web vs. mobile portal) parity"
+  ],
+  "cards": 28,
+  "images": 56,
+  "broken": [],
+  "externalImages": 0,
+  "synthesis": true,
+  "overflow": false,
+  "lightbox": true,
+  "searchWorks": true,
+  "mobileOverflow": false,
+  "errors": [],
+  "bytes": 3148834
+}

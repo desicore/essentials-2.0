@@ -1,0 +1,32 @@
+[
+  {
+    "app": "MasterClass",
+    "reference_id": "mobbin:eeaba88c-51dc-44b0-8c15-cf8775b9c361",
+    "status": "✓",
+    "evidence": "Desktop learner outline shows numbered sections and an expanded activity with sequence, thumbnail, title, description, and 5-minute duration."
+  },
+  {
+    "app": "MasterClass",
+    "reference_id": "mobbin:72dcf33e-58e8-486f-a178-583a2d411f67",
+    "status": "✓",
+    "evidence": "Mobile curriculum shows numbered sections and expanded activity cards with sequence, thumbnail, title, and a 4-minute estimate where supplied."
+  },
+  {
+    "app": "Mindvalley",
+    "reference_id": "mobbin:99d3f73c-a804-4e4d-9b11-132afbe8ab1c",
+    "status": "✓",
+    "evidence": "Program detail shows 29 lessons and 11h 34m; its Lessons view shows per-item minutes, and a resource card shows type plus 5-minute duration. Automatic source-to-outline copying is not shown."
+  },
+  {
+    "app": "Teachable",
+    "reference_id": "refero:screen-755d46c4",
+    "status": "✗",
+    "evidence": "Outline creation asks for course title and student-facing description and offers AI generation, but no curriculum item metadata or transfer is visible."
+  },
+  {
+    "app": "Udemy",
+    "reference_id": "mobbin:987d1aea-1d31-4f63-ae58-5989ee6837c7",
+    "status": "✓",
+    "evidence": "Learner lecture outline keeps section, lesson number, media type, title, remaining duration, and download affordance together."
+  }
+]

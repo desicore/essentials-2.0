@@ -1,0 +1,6 @@
+[
+  {"app":"Canva","reference_id":"refero:flow-8062-q3","status":"partial","evidence":"AI request, three generated choices, selected design, Color control, and Use Canva Editor handoff suggest choose-then-edit template-copy semantics; no source link, propagation, or overrides shown. Candidate counterexample."},
+  {"app":"Ditto","reference_id":"mobbin:9d28e0e2-ba12-4eb5-9a77-c3227f36b647","status":"partial","evidence":"Select text → Library → Attach to existing component → select exact-match hero-title → Attach → linked label and confirmation toast. Propagation and overrides unverified."},
+  {"app":"Figma","reference_id":"refero:flow-5040","status":"✓","evidence":"Browse library → Cards → Review Card details → Insert instance → choose variable mode → place card; selected instance visibly names Review Card and Simple Design System source. Propagation and override survival unverified."},
+  {"app":"Notion","reference_id":"mobbin:b8778e0e-13d3-49a6-9f01-3680ea66249b","status":"partial","evidence":"Advanced blocks visibly offers Synced block as an insertion choice; created block, source identity, edits, propagation, and overrides are not shown."}
+]

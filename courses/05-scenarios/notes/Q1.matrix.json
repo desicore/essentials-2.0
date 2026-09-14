@@ -1,0 +1,14 @@
+[
+  {"app":"Circle","reference_id":"","status":"✗","evidence":"No final Q1 reference."},
+  {"app":"Teachable","reference_id":"refero:flow-9573","status":"✗","evidence":"Shows an empty course list and a guided create-course wizard, not reusable-library browsing or scenario preview/add."},
+  {"app":"Kajabi","reference_id":"","status":"✗","evidence":"No final Q1 reference."},
+  {"app":"Podia","reference_id":"","status":"✗","evidence":"No final Q1 reference."},
+  {"app":"Figma","reference_id":"refero:flow-5039; refero:screen-2e0d5f12","status":"✓","evidence":"Assets search, per-library toggles and view controls lead to placement; Details provides preview, provenance, modes, and Insert instance."},
+  {"app":"Notion","reference_id":"","status":"✗","evidence":"No final Q1 reference."},
+  {"app":"Ditto","reference_id":"","status":"✗","evidence":"No final Q1 reference."},
+  {"app":"Canva","reference_id":"refero:flow-8062","status":"partial","evidence":"Suggested templates remain visible beside a live customizable preview and Use Canva Editor, but search/filter and course-add are absent."},
+  {"app":"MasterClass","reference_id":"mobbin:666b7eaa-84c1-4d32-a152-9b6ae3ae9eb9","status":"partial","evidence":"Library shows search, category chips, Filters/Clear filters, and categorized lesson rows; it is learner discovery with no author add action."},
+  {"app":"Udemy","reference_id":"","status":"✗","evidence":"No final Q1 reference."},
+  {"app":"Mindvalley","reference_id":"","status":"✗","evidence":"No final Q1 reference."},
+  {"app":"PandaDoc","reference_id":"","status":"✗","evidence":"No final Q1 reference."}
+]

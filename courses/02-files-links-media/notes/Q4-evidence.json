@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mobbin:f91726c7-28d7-4144-8957-35666b76edf4",
+    "take": "Coursera embeds video playback and study tools inside the desktop lesson shell.",
+    "observed": "The course sequence remains at left while the player exposes autoplay, quality, speed, subtitles, and fullscreen; Transcript, Notes, and Downloads sit below.",
+    "limits": "Shows video playback, not an opened attachment or inline document preview.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:13ee755a-ce6f-4088-8b0e-b10c53cd2ed6",
+    "take": "Coursera keeps mobile video and supporting lesson tabs in one sequential view.",
+    "observed": "Video remains above Transcript, Notes, Summary, and Attachments; Previous and Next controls stay visible. Notes is selected and displays timestamped video snippets.",
+    "limits": "The Attachments tab is visible but unopened, so attachment preview behavior is unknown.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:2adb72d9-f443-4e78-a576-3c919a9c2509",
+    "take": "Kajabi composes lesson media, outline, completion, copy, and a downloadable file on one learner page.",
+    "observed": "Large visual media appears beside a User Testing lesson outline; a PDF_File.pdf link sits in a Downloads card alongside the lesson body.",
+    "limits": "No playback controls or opened PDF are visible, so inline video playback and file preview cannot be confirmed.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:15e380f4-c72f-4706-b9d0-240ed6ba5ded",
+    "take": "Skillshare keeps video playback and lesson download status inline, but sends learners to another course tab for files.",
+    "observed": "The mobile player shows playback controls, a lesson list, and Downloading status; text says course files and resources are in the Projects tab.",
+    "limits": "The destination tab and any file preview are not shown.",
+    "counter_example_candidate": true
+  },
+  {
+    "id": "mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601",
+    "take": "Dropbox Dash uses progressive disclosure from item list to quick look to a contextual side-pane preview.",
+    "observed": "The flow begins in a Stack, reveals a floating image quick look, then opens a larger right-side preview while the Stack remains visible; Open can launch the source.",
+    "limits": "Generic file-workspace analogue, not a course or learner experience; only an image is demonstrated.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "refero:4e5677b4-94fd-47fc-b2a7-e0ba320debcf",
+    "take": "Squarespace configures lesson video in an instructor modal; it does not demonstrate preview or playback.",
+    "observed": "Edit lesson has General, Video, and Status sections; Video shows a Show lesson video toggle, empty Add a Video area, storage allowance, and Save/Cancel.",
+    "limits": "Authoring state only. Best fit is Q1 for adding media, with Q5 as a secondary visibility reference.",
+    "counter_example_candidate": false
+  }
+]

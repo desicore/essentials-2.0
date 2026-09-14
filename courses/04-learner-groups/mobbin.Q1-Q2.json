@@ -1,0 +1,194 @@
+{
+  "references": [
+    {
+      "id": "mobbin:0e3d16c1-c125-418d-91e0-2a18b696bcaa",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Add students and enroll them into a course",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/0e3d16c1-c125-418d-91e0-2a18b696bcaa",
+      "images": [
+        "https://mobbin.com/api/mcp/short/p7SZe23l"
+      ],
+      "question": "Q1",
+      "take": "A single add-students step supports manual entry or CSV import and previews the target course before enrollment.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a9834b56-5fda-406a-accc-7d4ddf1b9868",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Select team members before course invitation",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a9834b56-5fda-406a-accc-7d4ddf1b9868",
+      "images": [
+        "https://mobbin.com/api/mcp/short/cdMe0OZE"
+      ],
+      "question": "Q2",
+      "take": "A selected-count table with search, filters, and a Continue step makes the invite impact explicit before dates and reminders.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e490327d-01e5-42c3-a4c7-c27925e5d6c1",
+      "source": "mobbin",
+      "app": "Deel",
+      "title": "Assign filtered workers to a course",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/e490327d-01e5-42c3-a4c7-c27925e5d6c1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/K8Te5pTO"
+      ],
+      "question": "Q2",
+      "take": "Assign workers to course shows Selected 96 of 96 items, worker metadata, a whole-team warning and Continue into Schedule Assignment. Duplicate learners and net-new enrollment counts are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:09f791a4-1954-4035-bbdc-38daff566e6f",
+      "source": "mobbin",
+      "app": "Asana",
+      "title": "Add people or teams to a project",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/09f791a4-1954-4035-bbdc-38daff566e6f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/A7X56hLj"
+      ],
+      "question": "Q1",
+      "take": "The project-member picker accepts either people or teams and shows existing access, making group attachment a first-class path.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:bb97eec3-4564-4fab-a695-555b70cf9245",
+      "source": "mobbin",
+      "app": "GitBook",
+      "title": "Select members from a searchable roster",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/bb97eec3-4564-4fab-a695-555b70cf9245",
+      "images": [
+        "https://mobbin.com/api/mcp/short/fgiJIr6c"
+      ],
+      "question": "Q2",
+      "take": "A searchable, role-filtered member picker shows 1 selected and Add 1 member. This is a team-access analogy for a count-bearing enrollment confirmation.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:03d638de-71a2-4fdd-a4a9-19fb51e82492",
+      "source": "mobbin",
+      "app": "Basecamp",
+      "title": "Add a group with automatic membership expansion",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/03d638de-71a2-4fdd-a4a9-19fb51e82492",
+      "images": [
+        "https://mobbin.com/api/mcp/short/C2lAXJKB",
+        "https://mobbin.com/api/mcp/short/pnq0PVHZ",
+        "https://mobbin.com/api/mcp/short/QpfoBacV"
+      ],
+      "question": "Q1",
+      "take": "Policy excerpt from a work-management flow: choosing a group expands its current members; later membership changes do not update previous assignments or mentions. This is explicit snapshot behavior, not live course-group sync.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:898ffefa-af8f-45f2-a3b5-e42dcef375ad",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Course classroom groups tab",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/898ffefa-af8f-45f2-a3b5-e42dcef375ad",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ScTIgqzD",
+        "https://mobbin.com/api/mcp/short/70utbAJi",
+        "https://mobbin.com/api/mcp/short/BXA7i5uH",
+        "https://mobbin.com/api/mcp/short/5lEO1BDz",
+        "https://mobbin.com/api/mcp/short/DbTCoxY1",
+        "https://mobbin.com/api/mcp/short/PX8HQpMQ"
+      ],
+      "question": "Q1",
+      "take": "A classroom-scoped Groups tab keeps learner groups alongside Students and returns to a visible group card after the action, preserving course context.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:07103cd7-8353-4578-88fb-3c767153613d",
+      "source": "mobbin",
+      "app": "Fireflies",
+      "title": "User groups roster with member count",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/07103cd7-8353-4578-88fb-3c767153613d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/JKMQl1JV",
+        "https://mobbin.com/api/mcp/short/89ry7ZtP",
+        "https://mobbin.com/api/mcp/short/zcAEmXnD"
+      ],
+      "question": "Q2",
+      "take": "The group roster ends with a named group and visible member avatars plus count, giving an immediate impact check after selection.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:93308d91-4265-4564-8f88-55767a43decd",
+      "source": "mobbin",
+      "app": "Quizlet",
+      "title": "Teacher class detail with member tab",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/93308d91-4265-4564-8f88-55767a43decd",
+      "images": [
+        "https://mobbin.com/api/mcp/short/AC8FSxZp",
+        "https://mobbin.com/api/mcp/short/OUbUIAkQ",
+        "https://mobbin.com/api/mcp/short/yYm4KSWs",
+        "https://mobbin.com/api/mcp/short/snT2RElQ"
+      ],
+      "question": "Q2",
+      "take": "A teacher-facing class detail flow keeps class content and membership in adjacent tabs, making the roster a course-level destination.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:f8dde66b-8a78-42a9-963b-77ed81e386c0",
+      "source": "mobbin",
+      "app": "Quizlet",
+      "title": "Class member visibility gated by joining",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f8dde66b-8a78-42a9-963b-77ed81e386c0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ZK2LMNOc",
+        "https://mobbin.com/api/mcp/short/6NKgEhn1",
+        "https://mobbin.com/api/mcp/short/9xWQovuK"
+      ],
+      "question": "Q2",
+      "take": "The class detail exposes a Members tab but gates its roster until the learner joins, a counter-example for transparent pre-enrollment review.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:f5282384-b96e-4069-a5c3-5ed062ef8c63",
+      "source": "mobbin",
+      "app": "Discord",
+      "title": "Group roster with capacity and roles",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/f5282384-b96e-4069-a5c3-5ed062ef8c63",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Ns0VFHw6"
+      ],
+      "question": "Q2",
+      "take": "The group view surfaces current membership as 3/10 and labels each member, combining capacity and role context in the roster itself.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

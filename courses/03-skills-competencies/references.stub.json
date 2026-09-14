@@ -1,0 +1,38 @@
+{
+  "module": "03-skills-competencies",
+  "title": "Set skills and competencies to measure",
+  "intro": "Research for Essentials 2.0: Semester → Courses → skills and competencies. Compare how instructors select course competencies, define measurement, and connect activities to learner evidence. Scenarios (05), events (06), reports (08) and the Canvas hand-off are neighbouring modules.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Framework model (central taxonomy vs. free tags vs. both)",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "Selection UX (tree / search / suggestions) and scale when there are hundreds of items",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "Levels / rubric definition (numeric, descriptive, checklist)",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Traceability: competency → activity → evidence → score",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "Learner-facing visualisation of mastery",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "Reuse of the same competency set across courses and semesters",
+      "answer": ""
+    }
+  ],
+  "references": []
+}

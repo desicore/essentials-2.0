@@ -1,0 +1,13 @@
+{
+  "references": [
+    {
+      "id":"refero:e51e1e0c-a4ea-4090-80de-b2453c8eda77","source":"refero","app":"Figma","title":"Share board with invite and permissions","kind":"screen","url":"https://refero.design/pages/e51e1e0c-a4ea-4090-80de-b2453c8eda77","images":["https://images.refero.design/screenshots/figma.com/desktop/ddec373a-5bc0-4094-b1a3-d67350160a47_preview.jpg"],"question":"Q2","take":"Share modal visibly combines email/name invite, per-person can edit/can view permission, invited-only vs team access, current avatars, and embed/publish actions; strong adjacent evidence for granular course access grants.","counter_example":false,"selected":false,"crop":""
+    },
+    {
+      "id":"refero:9ec0386f-182d-4acc-bfdb-0ef34c046fc9","source":"refero","app":"Teachable","title":"Course setup with curriculum preview","kind":"screen","url":"https://refero.design/pages/9ec0386f-182d-4acc-bfdb-0ef34c046fc9","images":["https://images.refero.design/screenshots/teachable.com/desktop/98ce6682-c529-42b8-862d-c453fdc01f00_preview.jpg"],"question":"Q3","take":"Course setup screen visibly presents Curriculum Preview, Preview curriculum, Edit curriculum, published status, and draft/published lesson indicators; useful preview availability evidence, though learner fidelity is not shown.","counter_example":false,"selected":false,"crop":""
+    },
+    {
+      "id":"refero:d107d09b-4a1f-417d-a874-4e76dfa35e12","source":"refero","app":"Skillshare","title":"Class page with learner discussion","kind":"screen","url":"https://refero.design/pages/d107d09b-4a1f-417d-a874-4e76dfa35e12","images":["https://images.refero.design/screenshots/skillshare.com/desktop/62d50a68-f89e-4b3e-9007-6fd1ab5edc5a_preview.jpg"],"question":"Q4","take":"Class page visibly combines course title/summary, creator identity, Follow, engagement counts, comments, and navigation to My Classes; adjacent evidence for learner context and social updates, not direct progress or announcements.","counter_example":false,"selected":false,"crop":""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "reason": "Retain course publishers, course homes, learner previews and focused access analogies; cut tangential learning apps and unrelated invite products. Exclude imageless flows before merge.",
+  "dropped": [
+    {
+      "id": "mobbin:176965ed-84bd-427a-93ca-4d2b95f1660c",
+      "app": "Babbel"
+    },
+    {
+      "id": "mobbin:b94cf547-03e8-44e7-8508-5bee01102ba9",
+      "app": "Brilliant"
+    },
+    {
+      "id": "mobbin:f7c1b917-38c1-4e53-96a2-110990ac8fb8",
+      "app": "Codecademy"
+    },
+    {
+      "id": "mobbin:15f84fb7-e67c-4483-b5d5-c5650540b051",
+      "app": "Quizlet"
+    },
+    {
+      "id": "mobbin:eaa37d84-6ac3-44d2-a888-35e0198919db",
+      "app": "Skillshare"
+    },
+    {
+      "id": "mobbin:9983e648-b489-4172-9274-14fab481c361",
+      "app": "Cloaked"
+    },
+    {
+      "id": "mobbin:1e60590c-4e37-4d86-9e81-21784ba5c0c9",
+      "app": "Juicebox"
+    },
+    {
+      "id": "mobbin:25a18f7c-828b-4770-b348-bd545f693458",
+      "app": "Upwork"
+    },
+    {
+      "id": "mobbin:9d2d3577-07a1-45db-acf1-42dc269d0216",
+      "app": "Speak"
+    }
+  ],
+  "retained_count": 28
+}

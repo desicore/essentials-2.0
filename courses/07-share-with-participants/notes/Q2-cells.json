@@ -1,0 +1,45 @@
+[
+  {
+    "app": "Figma",
+    "status": "\u2713",
+    "text": "Email invite/copy link plus Anyone access, View/Edit, password protection, copy/save/export toggle.",
+    "ids": [
+      "mobbin:b227715d-bc5d-4655-9133-921c156f6837",
+      "mobbin:ffaf7085-3f32-450d-938b-812274011f53"
+    ]
+  },
+  {
+    "app": "Notion",
+    "status": "\u2713",
+    "text": "Typed email/Guest suggestion, Member role, invite message, Send invite.",
+    "ids": [
+      "mobbin:44650693-5283-421a-b978-d4cf1a8de987",
+      "mobbin:9f7bcb4e-d95c-423d-b298-f40d338e310e"
+    ]
+  },
+  {
+    "app": "Circle",
+    "status": "\u2713",
+    "text": "Invite members with admin/moderator toggles and selected-space access picker; Q1 flow adds Open/Private/Secret gates.",
+    "ids": [
+      "mobbin:e801d8ae-1e7e-45e3-9035-0452816271e5",
+      "mobbin:ec16c800-3b82-4f66-8b88-76840a7590dc"
+    ]
+  },
+  {
+    "app": "Podia",
+    "status": "\u2713",
+    "text": "Invite by email, optional tags and explicit 30-day trial warning.",
+    "ids": [
+      "mobbin:157502c1-8bd1-4fd3-aae9-97358b725cad"
+    ]
+  },
+  {
+    "app": "Gumroad",
+    "status": "partial",
+    "text": "Creator content editor with Share tab and Collaborators navigation; learner access grant unshown.",
+    "ids": [
+      "refero:11b3c0a4-eb09-4d98-9a1a-742439189540"
+    ]
+  }
+]

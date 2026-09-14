@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url));
+const report=path.resolve(dir,'../03-skills-competencies.html');
+const data=JSON.parse(fs.readFileSync(path.join(dir,'references.json'),'utf8'));
+const synthesis=fs.readFileSync(path.join(dir,'synthesis.html'),'utf8');
+let html=fs.readFileSync(report,'utf8');
+if(html.includes('id="synthesis"'))throw Error('Rebuild report before inserting synthesis');
+let index=0;
+html=html.replace(/<article class="card"/g,()=>`<article id="${data.references[index++].id}" class="card"`);
+if(index!==data.references.length)throw Error('Card count mismatch');
+html=html.replace('</header>','</header>\n'+synthesis);
+html=html.replace('</style>',`\n.synthesis{margin:28px 0;padding:24px;background:var(--surface);border:1px solid var(--border);border-radius:8px}.synthesis h3{margin-top:28px}.synthesis h3:first-child{margin-top:0}.synthesis p,.synthesis li{max-width:1100px}.synthesis li{margin:9px 0}.synthesis .ref{font-size:11px;overflow-wrap:anywhere}.comparison-scroll{overflow-x:auto;margin:16px 0}.comparison-scroll table{border-collapse:collapse;min-width:1050px;width:100%;font-size:12px}.comparison-scroll th,.comparison-scroll td{border:1px solid var(--border);padding:10px;vertical-align:top;text-align:left}.comparison-scroll th{background:var(--subtle)}.comparison-scroll td:first-child{font-weight:600}.synthesis .scope{padding:12px 16px;border-left:3px solid var(--border);background:var(--bg)}@media(max-width:520px){.synthesis{padding:16px}}\n</style>`);
+fs.writeFileSync(report,html);
+console.log(`Synthesis inserted; ${index} reference anchors; ${(fs.statSync(report).size/1024/1024).toFixed(2)} MiB`);

@@ -1,0 +1,550 @@
+{
+  "module": "02-files-links-media",
+  "title": "Files, links, media",
+  "intro": "Research for Essentials 2.0: Semester \u2192 Courses \u2192 Files, links, media. How instructors collect, organise, reuse and control course materials, and how learners consume them. Sending and distribution belong to sub-module 09; recording production and reports belong to 08.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Upload + link + embed handled in one place vs. separate features",
+      "answer": "Use one contextual entry point, then make material type and source explicit. Podia groups files and embeds under New lesson; Teachable uses an Add content palette followed by a PDF-specific chooser for device, cloud and URL sources. A shared launcher does not require one undifferentiated uploader. Dropbox Dash illustrates a reusable picker for chat sources, not course attachments. [mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2] [mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6] [mobbin:26e60a25-e5dd-4eff-aa2c-4ea33f1f9a2f]"
+    },
+    {
+      "id": "Q2",
+      "title": "Organisation model (flat list / folders / sections tied to course structure)",
+      "answer": "Course structure and storage structure solve different tasks. Kajabi nests lessons inside modules and offers submodules; Teachable presents ordered sections with lesson-level content summaries. Skillshare uses a flat lesson list plus a resource tab, while SuperHi separates downloads from videos. Gumroad is the counter-example: a freeform document rather than visible module rows. For Essentials, test a short course-section structure before adding an independent folder tree. [mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea] [mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8] [mobbin:ce6bd4c3-a5bf-4936-9052-271f2415fe4b] [mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4] [refero:0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b]"
+    },
+    {
+      "id": "Q3",
+      "title": "Reuse across courses (central library vs. per-course silo)",
+      "answer": "Canva demonstrates library-to-course reuse: choose a design from Projects, then Copy to course or Move it. Dropbox supplies a central repository analogue; Podia and Teachable demonstrate course-scoped addition. None establishes a live asset shared across multiple courses, edit propagation or pinned versions. A course-scoped upload is not proof of a silo. Essentials needs explicit copy/reference semantics and where-used information. [mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411] [mobbin:389bb479-d3e5-4301-a2fa-af842ae2ee4b] [mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2] [mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6]"
+    },
+    {
+      "id": "Q4",
+      "title": "Preview and inline playback without leaving the course",
+      "answer": "Keep the lesson or library context visible during consumption. Coursera demonstrates inline video with study tools and sequence navigation; Dropbox Dash demonstrates quick look followed by a side preview pane. Teachable shows PDF rendering in the instructor editor, which does not establish learner-side document preview. Skillshare keeps video inline but directs course-file access to another tab. [mobbin:f91726c7-28d7-4144-8957-35666b76edf4] [mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601] [mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6] [mobbin:15e380f4-c72f-4706-b9d0-240ed6ba5ded]"
+    },
+    {
+      "id": "Q5",
+      "title": "Visibility controls (draft / scheduled / per-group) and how they are surfaced",
+      "answer": "Publication, timed release and audience scope should be treated as separate questions. Teachable combines per-lesson Publish with section-level drip; Squarespace exposes Draft/Published/Scheduled and persistent status labels. Kajabi shows a simpler binary state. Podia is a counter-example to persistent status feedback: the Hidden label disappears when an item becomes visible. Per-group visibility is not demonstrated in these captures. [mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605] [mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b] [mobbin:8f6d425a-cfdc-4b2a-a100-6ec7b5e4fcd4] [mobbin:79259c68-06d8-411f-b63f-4d026338d2fe]"
+    },
+    {
+      "id": "Q6",
+      "title": "Learner-side view mirrors instructor-side structure",
+      "answer": "No retained pair proves that a learner view mirrors its instructor editor. Coursera supplies a distinct Resources branch beside course modules; Skillshare ties project downloads to lessons through references in a separate tab; Udemy shows learner downloads. Teachable supplies the authoring half only, with sectioned lessons and an attached document. Treat structural parity and a learner-preview check as Essentials requirements to validate, rather than a proven cross-product convention. [mobbin:b3585969-4b16-4802-aea2-feaf40d75f33] [mobbin:bc678aba-07f0-4bbd-b48d-b4c5da47de0b] [mobbin:b9a7ca6e-c921-4ca5-9579-c18e634a7612] [refero:a68d25c8-7cda-41fb-aa23-67308245866e]"
+    }
+  ],
+  "references": [
+    {
+      "id": "mobbin:26e60a25-e5dd-4eff-aa2c-4ea33f1f9a2f",
+      "source": "mobbin",
+      "app": "Dropbox Dash",
+      "title": "Add sources to Dash chat \u2014 picker analogue",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/26e60a25-e5dd-4eff-aa2c-4ea33f1f9a2f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/kvJoF3vn"
+      ],
+      "question": "Q1",
+      "take": "Dropbox Dash combines search/paste-link, existing-source selection, and Upload in one Add sources modal for chat context.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "source": "refero",
+      "app": "Gumroad",
+      "title": "Digital-product content canvas and insertion tools",
+      "kind": "screen",
+      "url": "https://refero.design/pages/11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "images": [
+        "https://images.refero.design/screenshots/gumroad.com/desktop/97f93b6d-9424-4a99-b962-15abdc366417_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Gumroad's digital-product Content canvas places rich-text/link tools, a closed Insert menu, and page creation together.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2",
+      "source": "mobbin",
+      "app": "Podia",
+      "title": "Adding a file flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/30a1432c-f8fd-4f5f-a026-53b0744635b2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wIOtLOiY",
+        "https://mobbin.com/api/mcp/short/r6AvtdA9",
+        "https://mobbin.com/api/mcp/short/RJDIrrUX"
+      ],
+      "question": "Q1",
+      "take": "Podia groups text, embed, quiz, coaching, and file lesson types under one New lesson menu in the course outline.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4e5677b4-94fd-47fc-b2a7-e0ba320debcf",
+      "source": "refero",
+      "app": "Squarespace",
+      "title": "Instructor video configuration and empty upload slot",
+      "kind": "screen",
+      "url": "https://refero.design/pages/4e5677b4-94fd-47fc-b2a7-e0ba320debcf",
+      "images": [
+        "https://images.refero.design/screenshots/squarespace.com/desktop/41c61c81-638a-4b70-bd39-61f54dc4c876_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Squarespace configures lesson video in an instructor modal; it does not demonstrate preview or playback.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:41a7198a-cb8b-4e01-8082-f4b6ddf7f73b",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course editor file upload area",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/41a7198a-cb8b-4e01-8082-f4b6ddf7f73b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/t3ijvCJM"
+      ],
+      "question": "Q1",
+      "take": "Teachable's Add PDF dialog consolidates local upload, several cloud providers, and URL input inside lesson editing.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:38f8a761-116d-45ce-ad0c-b2d5f89c7e98",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Digital-product setup: file upload or URL redirect",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/38f8a761-116d-45ce-ad0c-b2d5f89c7e98",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1M9kNu9S"
+      ],
+      "question": "Q1",
+      "take": "A nominal Teachable digital-product setup frame places File upload and Redirect to URL together, but is not visibly course-lesson authoring.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Adding a PDF flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fc5a2e31-b68a-4560-adbd-64534e99d8c6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LAPiKU6b",
+        "https://mobbin.com/api/mcp/short/wPB4nucG",
+        "https://mobbin.com/api/mcp/short/eX06Lzvf",
+        "https://mobbin.com/api/mcp/short/bYL6sVuq",
+        "https://mobbin.com/api/mcp/short/ZW0UyEDt",
+        "https://mobbin.com/api/mcp/short/OHorpgoz",
+        "https://mobbin.com/api/mcp/short/x2EuPiII"
+      ],
+      "question": "Q1",
+      "take": "Teachable separates content types in one Add content palette, then unifies device, cloud, and URL sources within the PDF Viewer dialog. The captured strip includes alternative source branches, not one required linear sequence.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:d167e236-9aec-4856-8c79-27389df500a2",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Mobile course lesson media surface",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/d167e236-9aec-4856-8c79-27389df500a2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/nNNOElC0"
+      ],
+      "question": "Q2",
+      "take": "Coursera organizes media and supporting views inside a sequential lesson shell.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b",
+      "source": "refero",
+      "app": "Gumroad",
+      "title": "A course as one freeform content document",
+      "kind": "screen",
+      "url": "https://refero.design/pages/0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b",
+      "images": [
+        "https://images.refero.design/screenshots/gumroad.com/desktop/0c5658a6-d9c8-464f-a8d7-8ea992052da3_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Gumroad can organize course content as one freeform document rather than folders, modules, or lesson rows.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Adding a course module flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/969eff25-d44e-41ee-94ea-498d216ae8ea",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DSglVpsU",
+        "https://mobbin.com/api/mcp/short/GgG1ylUD",
+        "https://mobbin.com/api/mcp/short/44ELOxIT",
+        "https://mobbin.com/api/mcp/short/vPihWP2b",
+        "https://mobbin.com/api/mcp/short/15NnbUJM",
+        "https://mobbin.com/api/mcp/short/PwUoJiS1"
+      ],
+      "question": "Q2",
+      "take": "Kajabi organizes course content as modules with optional submodules and nested learning items.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:41f8b1f4-ec5f-4703-aeed-9b318eb0d5c0",
+      "source": "mobbin",
+      "app": "Podia",
+      "title": "Instructor module copy with mixed linked resources",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/41f8b1f4-ec5f-4703-aeed-9b318eb0d5c0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/NxaHL8L0"
+      ],
+      "question": "Q2",
+      "take": "Podia embeds mixed links and files directly within a module-based instructor editing surface.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ce6bd4c3-a5bf-4936-9052-271f2415fe4b",
+      "source": "mobbin",
+      "app": "Skillshare",
+      "title": "Flat learner lesson list and separate resource tab",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ce6bd4c3-a5bf-4936-9052-271f2415fe4b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/YnMdEUaa"
+      ],
+      "question": "Q2",
+      "take": "Skillshare presents learners with a flat ordered lesson sequence and separates resources into another tab.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4",
+      "source": "mobbin",
+      "app": "SuperHi",
+      "title": "Learner links/downloads grouped separately from videos",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/f6e3fe92-3143-4fac-a11c-f3b178b9c6f4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/EgBhQ6MZ"
+      ],
+      "question": "Q2",
+      "take": "SuperHi groups learner materials by content type, separating downloads from numbered videos.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course curriculum with ordered lessons",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/f9d666fe-a496-450a-acb2-e9314ac4b4b8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/R1oIHl02"
+      ],
+      "question": "Q2",
+      "take": "Teachable uses named course sections containing ordered lesson rows with per-item content summaries.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411",
+      "source": "mobbin",
+      "app": "Canva",
+      "title": "Choose an existing project design: copy to course or move",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/bf1ec8aa-8666-4c94-acf3-5bb1db523411",
+      "images": [
+        "https://mobbin.com/api/mcp/short/qiEe4FFn",
+        "https://mobbin.com/api/mcp/short/Rd4uOvat",
+        "https://mobbin.com/api/mcp/short/F0PqYcfw",
+        "https://mobbin.com/api/mcp/short/O5EeoRpC",
+        "https://mobbin.com/api/mcp/short/LcB3GHid",
+        "https://mobbin.com/api/mcp/short/t9LX5zJy"
+      ],
+      "question": "Q3",
+      "take": "Canva lets an instructor choose an existing design from the central Projects hierarchy and explicitly copy it into or move it into the current course.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:389bb479-d3e5-4301-a2fa-af842ae2ee4b",
+      "source": "mobbin",
+      "app": "Dropbox",
+      "title": "All-files library with shared folders",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/389bb479-d3e5-4301-a2fa-af842ae2ee4b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KPpAZtL5"
+      ],
+      "question": "Q3",
+      "take": "Dropbox demonstrates a persistent central All files area that mixes shared, team, and other folders, but not reuse within courses.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:f91726c7-28d7-4144-8957-35666b76edf4",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Inline course video with playback controls",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/f91726c7-28d7-4144-8957-35666b76edf4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/AcDRHUQw"
+      ],
+      "question": "Q4",
+      "take": "Coursera embeds video playback and study tools inside the desktop lesson shell.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:13ee755a-ce6f-4088-8b0e-b10c53cd2ed6",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Mobile lesson with attachment tab",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/13ee755a-ce6f-4088-8b0e-b10c53cd2ed6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ZiOMsADh"
+      ],
+      "question": "Q4",
+      "take": "Coursera keeps mobile video and supporting lesson tabs in one sequential view.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601",
+      "source": "mobbin",
+      "app": "Dropbox Dash",
+      "title": "View file flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c899f04f-d0e2-4cfb-adfb-49a7cf92b601",
+      "images": [
+        "https://mobbin.com/api/mcp/short/t3tzJDyO",
+        "https://mobbin.com/api/mcp/short/yqm2MkRY",
+        "https://mobbin.com/api/mcp/short/QNQGPi0l"
+      ],
+      "question": "Q4",
+      "take": "Dropbox Dash uses progressive disclosure from item list to quick look to a contextual side-pane preview.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2adb72d9-f443-4e78-a576-3c919a9c2509",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Lesson video with downloads panel",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2adb72d9-f443-4e78-a576-3c919a9c2509",
+      "images": [
+        "https://mobbin.com/api/mcp/short/NlzyFdAm"
+      ],
+      "question": "Q4",
+      "take": "Kajabi composes lesson media, outline, completion, copy, and a downloadable file on one learner page.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:15e380f4-c72f-4706-b9d0-240ed6ba5ded",
+      "source": "mobbin",
+      "app": "Skillshare",
+      "title": "Mobile course player with course files note",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/15e380f4-c72f-4706-b9d0-240ed6ba5ded",
+      "images": [
+        "https://mobbin.com/api/mcp/short/HIRxKJRk"
+      ],
+      "question": "Q4",
+      "take": "Skillshare keeps video playback and lesson download status inline, but sends learners to another course tab for files.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:8f6d425a-cfdc-4b2a-a100-6ec7b5e4fcd4",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Course content visibility screen",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/8f6d425a-cfdc-4b2a-a100-6ec7b5e4fcd4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/EvsVqovW"
+      ],
+      "question": "Q5",
+      "take": "Kajabi makes a lesson's binary Draft/Published state prominent beside its details.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:79259c68-06d8-411f-b63f-4d026338d2fe",
+      "source": "mobbin",
+      "app": "Podia",
+      "title": "Updating visibility",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/79259c68-06d8-411f-b63f-4d026338d2fe",
+      "images": [
+        "https://mobbin.com/api/mcp/short/CprV7FiU",
+        "https://mobbin.com/api/mcp/short/cRcflO6W",
+        "https://mobbin.com/api/mcp/short/fAwgmlUZ"
+      ],
+      "question": "Q5",
+      "take": "Podia changes a lesson from Hidden to visible through its row overflow menu, but does not leave a positive visible-state label.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b",
+      "source": "mobbin",
+      "app": "Squarespace",
+      "title": "Setting status for lesson",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/816b6484-5d04-4ef2-8a8b-2691f365fb1b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TZN6mb8A",
+        "https://mobbin.com/api/mcp/short/Uu80g4uu",
+        "https://mobbin.com/api/mcp/short/fLPW640K",
+        "https://mobbin.com/api/mcp/short/h4Y9CNQI",
+        "https://mobbin.com/api/mcp/short/vXxiyu9Q"
+      ],
+      "question": "Q5",
+      "take": "Squarespace surfaces lesson state in the course outline and supports Draft, Published, or Scheduled with an inline date/time picker.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:6f84d500-27bc-4a9c-9bf9-04e5f525e5f3",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course material status screen",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/6f84d500-27bc-4a9c-9bf9-04e5f525e5f3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/PCakVqvz"
+      ],
+      "question": "Q5",
+      "take": "Teachable's curriculum screen pairs per-lesson Publish buttons with a section-level drip panel offering days-after-enrollment or specific-date release.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Adding a drip",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6739ae23-f32d-4706-9e4b-a07c9a056605",
+      "images": [
+        "https://mobbin.com/api/mcp/short/UUYmyY9u",
+        "https://mobbin.com/api/mcp/short/Wh9nqvGZ",
+        "https://mobbin.com/api/mcp/short/8f4cgry6",
+        "https://mobbin.com/api/mcp/short/qlGEEkdJ",
+        "https://mobbin.com/api/mcp/short/pHJoccTY",
+        "https://mobbin.com/api/mcp/short/NliKCn3z"
+      ],
+      "question": "Q5",
+      "take": "Teachable applies enrollment-relative drip at section level while keeping lesson publication as a separate row action.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:b3585969-4b16-4802-aea2-feaf40d75f33",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Learner Resources branch with link and document attachment",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/b3585969-4b16-4802-aea2-feaf40d75f33",
+      "images": [
+        "https://mobbin.com/api/mcp/short/w2xbgOhI"
+      ],
+      "question": "Q6",
+      "take": "Coursera exposes a dedicated learner Resources branch beside Course Material modules; this suggests adjacent structures rather than demonstrated mirroring.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:bc678aba-07f0-4bbd-b48d-b4c5da47de0b",
+      "source": "mobbin",
+      "app": "Skillshare",
+      "title": "Learner course resource view",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/bc678aba-07f0-4bbd-b48d-b4c5da47de0b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/PXd4wKrK"
+      ],
+      "question": "Q6",
+      "take": "Skillshare ties project resources to lesson progression by references, while placing downloads in a separate learner tab.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:a68d25c8-7cda-41fb-aa23-67308245866e",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Instructor sections and attached document \u2014 learner pair missing",
+      "kind": "screen",
+      "url": "https://refero.design/pages/a68d25c8-7cda-41fb-aa23-67308245866e",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/d6b39d1b-9677-483c-8591-402f363b3f72_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "Teachable\u2019s instructor editor groups lessons into named sections and shows a DOCX resource beneath lesson text; a learner counterpart is not captured.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:b9a7ca6e-c921-4ca5-9579-c18e634a7612",
+      "source": "mobbin",
+      "app": "Udemy",
+      "title": "Learner player Downloads tab",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/b9a7ca6e-c921-4ca5-9579-c18e634a7612",
+      "images": [
+        "https://mobbin.com/api/mcp/short/CRyd5YfP"
+      ],
+      "question": "Q6",
+      "take": "Udemy shows learner access to lesson downloads, not how an instructor adds upload, link, or embed material.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

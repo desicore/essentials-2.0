@@ -1,0 +1,333 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 34,
+    "total_pages": 4
+  },
+  "records": [
+    {
+      "id": 8062,
+      "platform": "web",
+      "screens_count": 4,
+      "refero_url": "https://refero.design/flows/8062",
+      "name": "Template color tuning",
+      "description": "Happy path: A user reviews AI-suggested vertical cover templates, opens the in-canvas Color control, and iterates through preset color palettes until they choose a final color scheme. Entry point: AI assistant panel with suggested templates visible (left). Exit point: Finalized preview on the canvas with chosen color palette and option to continue in the full editor (button: \"Use Canva Editor\"). Assumptions: user is in a signed-in design session with an AI assistant panel active; the canvas is editable and supports preset color palettes.",
+      "problem": "User task (user perspective): The user wants to pick and refine a vertical cover design for a \"Tokyo Travel Vlog\"—specifically adjusting the overall color scheme of a chosen template so the cover matches their aesthetic. They expect immediate visual feedback when switching palettes, and an easy way to continue editing in the full editor when satisfied.\nSystem task (interface perspective): The UI provides AI-suggested templates in a left-side panel, a central canvas preview, and a Color control that surfaces a horizontal set of preset palette thumbnails. When the user selects a palette the system updates the canvas colors in real time. The system also offers a shortcut to open the full editor for more granular changes.\nResult at the end:\n- User-perceived outcome: The user sees the selected template updated to the chosen color scheme and can proceed to the full editor or stop after confirmation.\n- System-level outcome: The design object on the canvas receives the applied palette settings (background/frames/text accents update) and remains available to open in the full editor via the \"Use Canva Editor\" control.",
+      "steps": [
+        "Template preview selection",
+        "Open Color control",
+        "Apply alternate palette (iteration)",
+        "Apply final palette and decide next step"
+      ],
+      "site": {
+        "id": 94,
+        "domain": "canva.com",
+        "description": "Visual Suite for Everyone",
+        "name": "Canva",
+        "background_url": "https://images.refero.design/backgrounds/canva.com/9a60dd30-3e21-4b44-84f4-81ef06b169ce.jpg",
+        "refero_url": "https://refero.design/websites/94",
+        "categories": [
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/canva.com/fc31bac3-9257-40b9-aa05-3347deab4134.jpg",
+        "background_color": "24bcbc"
+      }
+    },
+    {
+      "id": 7554,
+      "platform": "web",
+      "screens_count": 4,
+      "refero_url": "https://refero.design/flows/7554",
+      "name": "Start a bespoke textile sample",
+      "description": "Happy-path summary: An anonymous (not-logged-in) desktop user arrives on the BYBORRE homepage, clicks the primary call-to-action to create a custom textile sample, is required to authenticate via a modal login, and after successful authentication is routed into the BYBORRE Create area where they can choose a curated template or start from a blank canvas. Entry point: homepage hero CTA (“Create a custom sample” / “Explore Textiles”). Exit point: template selection screen inside BYBORRE Create (user is ready to open the textile editor). Assumptions: user is on a desktop browser, is not logged in at entry, has or can create credentials, and the system requires authentication before accessing the textile creation tool.",
+      "problem": "User task (user perspective): I want to create a bespoke textile sample. I expect to be able to start from a blank canvas or from one of the provided templates, but I understand I must sign in before I can proceed. I expect the system to prompt me to log in if necessary and then take me directly to the template/creation area. Interface/system perspective: The interface exposes a prominent CTA on the homepage to initiate textile configuration. If the user is unauthenticated, the system blocks entry and opens a modal login form. On successful login, the system navigates the user to the BYBORRE Create landing with a grid of templates and an option to start from a blank canvas. End result: User-perceived outcome — the user reaches the Create templates list and can begin a design (either by selecting a template or starting blank). System-level outcome — the system enforces authentication, then grants access to the textile creation environment and presents template options for the user’s next action.",
+      "steps": [
+        "Homepage — discover and start",
+        "Login modal — prompt",
+        "Login modal — submit credentials",
+        "BYBORRE Create — template selection"
+      ],
+      "site": {
+        "id": 455,
+        "domain": "byborre.com",
+        "description": "Create a textile from scratch",
+        "name": "BYBORRE®",
+        "background_url": "https://images.refero.design/backgrounds/byborre.com/ee3e90dc-cc86-4de2-b8d5-a66b3e971183.jpg",
+        "refero_url": "https://refero.design/websites/455",
+        "categories": [
+          "Home & Decor"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/byborre.com/c2c05e93-a1bf-41a9-8cb8-1c24277ba928.jpg",
+        "background_color": "d3a417"
+      }
+    },
+    {
+      "id": 4492,
+      "platform": "web",
+      "screens_count": 3,
+      "refero_url": "https://refero.design/flows/4492",
+      "name": "Create meeting notes from template",
+      "description": "Happy path: A logged-in user, inside a workspace (Office #1) on a desktop, opens the Pages area, uses the Templates picker and applies a 'Meeting notes' template to the current document. Entry point: Pages tab with an empty 'Page 1' document. Exit point: the canvas is populated with meeting notes content (title, participants/mentions, agenda, action items with checkboxes) ready for review and editing. Assumptions: user is authenticated and has edit permissions in the workspace; device is a desktop browser (layout shows left navigation and wide canvas).",
+      "problem": "User task: quickly create structured meeting notes using a prebuilt template so they can capture agenda items, participants, and action items without starting from scratch.\n\nFrom the user's perspective: they expect to find and apply a template quickly from the Pages area, see the template content injected into the document, and then be able to edit text, check action items, and interact with mentions.\n\nFrom the interface/system perspective: the UI exposes a Templates control from the Pages canvas. Selecting that control opens a modal listing available templates. Choosing a template instantiates the template into the current document (rendering headings, bullets, checkboxes and mention links). The canvas updates to show the populated content and the document remains visible in the workspace navigation.\n\nResult at the end:\n- User-perceived outcome: The document now contains a filled meeting notes structure (title, linked date, participants/mentions, agenda bullets, actionable checklist) and is editable.\n- System-level outcome: The selected template is instantiated into the workspace document so its content is rendered as editable text and interactive elements (checkboxes, mention links) tied to the current document.",
+      "steps": [
+        "Pages list and empty canvas",
+        "Templates modal",
+        "Populated meeting notes document"
+      ],
+      "site": {
+        "id": 602,
+        "domain": "helloivy.co",
+        "description": "The Project Management Tool for Creative Teams",
+        "name": "Hello Ivy",
+        "background_url": "https://images.refero.design/backgrounds/helloivy.co/c73769c0-ce22-4750-9a4e-d07092027481.jpg",
+        "refero_url": "https://refero.design/websites/602",
+        "categories": [
+          "Productivity",
+          "Project Management",
+          "Collaboration Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/helloivy.co/d93919e8-45a8-46bb-8cd4-0d449f52d37e.jpg",
+        "background_color": "c2c2c2"
+      }
+    },
+    {
+      "id": 4743,
+      "platform": "web",
+      "screens_count": 9,
+      "refero_url": "https://refero.design/flows/4743",
+      "name": "Template-based map creation",
+      "description": "Happy-path: A logged-in user opens their account panel on the map canvas, chooses \"Make a map\", selects \"Create from template\", browses template categories, previews the \"Roadtrip Planner\" template, clicks \"Copy Map\", watches a short copying progress modal, and then lands on the newly created map which is added to their list. Entry: user is signed in and on the main map canvas. Exit: a new map (copy of the Roadtrip Planner template) appears in the user's left-hand list and on the map canvas.",
+      "problem": "User goal: Quickly create a new, pre-populated map (a roadtrip itinerary) without building it from scratch. The user expects to browse templates, preview content, copy the template, and immediately see the copied places and route on the map. Interface perspective: The UI provides an entry point in the user panel (Make a map), a creation menu (including 'Create from template'), a templates browser with categories, a template preview with a prominent 'Copy Map' action, and a short progress modal while places are duplicated. Result: User-perceived outcome — a ready-to-edit map titled/instanced from the chosen template with places and route visible; system-level outcome — a new map object is created in the user's account, template place records are duplicated into the new map, and the new map is listed in the user's map library.",
+      "steps": [
+        "Account panel / Home",
+        "Creation menu",
+        "Templates landing (Communities)",
+        "Popular templates list",
+        "Template preview (Roadtrip Planner)",
+        "Template contents list",
+        "Copy progress modal",
+        "Copied map on canvas",
+        "New map listed in account"
+      ],
+      "site": {
+        "id": 615,
+        "domain": "pampam.city",
+        "description": "AI Map Maker for Custom Interactive Maps",
+        "name": "PamPam",
+        "background_url": "https://images.refero.design/backgrounds/pampam.city/57c2fdec-4168-433f-8190-c8fa4efd1273.jpg",
+        "refero_url": "https://refero.design/websites/615",
+        "categories": [
+          "AI Tool",
+          "Map & Navigation"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/pampam.city/76cff321-cedd-4324-b3c6-a5ac9989ad70.jpg",
+        "background_color": ""
+      }
+    },
+    {
+      "id": 1771,
+      "platform": "web",
+      "screens_count": 5,
+      "refero_url": "https://refero.design/flows/1771",
+      "name": "Report Template from Templates Panel",
+      "description": "Happy-path flow for a logged-in desktop user to flag (report) a template from the Templates panel while working in a whiteboard/canvas. Entry: user is in an open whiteboard with the Templates sidebar visible. Exit: user receives an on-screen acknowledgement that the report was submitted. Assumptions: user is signed in and has access to the Templates library; user is on a desktop/laptop browser (wide layout, visible sidebar). The flow is driven by UI interactions on a template card (ellipsis/context menu) leading to a multi-step report modal (reason selection, optional comment) and a final acknowledgement modal.",
+      "problem": "User task (user perspective): The user wants to flag a template they believe is inappropriate or incorrectly labeled. They expect to find a way to report the template from the template listing or the canvas, choose a reason, optionally provide comments, and receive confirmation that their report was received. Interface/system perspective: The UI exposes a contextual menu on the template card with a Report action. Selecting Report launches a modal that asks the user to choose a reason (one of several radio options) and proceed to a comment screen. After submitting comments, the system accepts the report and shows a confirmation dialog. Resulting outcomes: - User-perceived outcome: The user sees a 'Thank You' acknowledgement confirming the report was submitted. - System-level outcome: The report is submitted to the product/content review pipeline (confirmation text indicates a content review team will review the report).",
+      "steps": [
+        "Templates Sidebar - Whiteboard",
+        "Template Selected / Context Menu",
+        "Report - Select Reason",
+        "Report - Add Comments",
+        "Report Acknowledgement"
+      ],
+      "site": {
+        "id": 94,
+        "domain": "canva.com",
+        "description": "Visual Suite for Everyone",
+        "name": "Canva",
+        "background_url": "https://images.refero.design/backgrounds/canva.com/9a60dd30-3e21-4b44-84f4-81ef06b169ce.jpg",
+        "refero_url": "https://refero.design/websites/94",
+        "categories": [
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/canva.com/fc31bac3-9257-40b9-aa05-3347deab4134.jpg",
+        "background_color": "24bcbc"
+      }
+    },
+    {
+      "id": 7935,
+      "platform": "web",
+      "screens_count": 11,
+      "refero_url": "https://refero.design/flows/7935",
+      "name": "Email sign-up to dashboard",
+      "description": "Happy path: an unauthenticated desktop user visits Canva's marketing homepage, opens the sign-in/sign-up modal, chooses to continue with email, provides an email address, fills a display name, verifies ownership via a one-time code, and lands in the logged-in Canva dashboard (templates/search home). Entry point: marketing homepage. Exit point: authenticated Canva dashboard. Assumptions: user is on a desktop browser, not signed in, has access to the email entered, and can receive the verification code.",
+      "problem": "User goal: create a new Canva account (or sign in) quickly and securely so they can access templates and design features. From the user's perspective they expect a short, guided flow: choose sign-in method, provide email, name, verify ownership, and then arrive at their design workspace. From the interface perspective the UI surfaces an authentication modal over the homepage, progressively reveals more sign-in options, validates inputs (email/name), triggers an email-based verification flow (one-time code) and then transitions to the authenticated dashboard. Final result: user-perceived outcome — a new account is created and the user lands in the Canva dashboard. System-level outcome (visible in UI) — a verification code is sent to the provided email, the UI accepts the code and then proceeds to the logged-in experience (session established and user directed to templates/search hub).",
+      "steps": [
+        "Marketing homepage",
+        "Authentication modal (primary choices)",
+        "Provider list (expanded)",
+        "Enter email",
+        "Email populated",
+        "Create account — name entry",
+        "Name validation error",
+        "Name accepted",
+        "Enter verification code",
+        "Code confirmed",
+        "Authenticated dashboard (templates/search hub)"
+      ],
+      "site": {
+        "id": 94,
+        "domain": "canva.com",
+        "description": "Visual Suite for Everyone",
+        "name": "Canva",
+        "background_url": "https://images.refero.design/backgrounds/canva.com/9a60dd30-3e21-4b44-84f4-81ef06b169ce.jpg",
+        "refero_url": "https://refero.design/websites/94",
+        "categories": [
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/canva.com/fc31bac3-9257-40b9-aa05-3347deab4134.jpg",
+        "background_color": "24bcbc"
+      }
+    },
+    {
+      "id": 3754,
+      "platform": "web",
+      "screens_count": 54,
+      "refero_url": "https://refero.design/flows/3754",
+      "name": "Create social media promo",
+      "description": "Happy-path: A logged-in user creates a new social-media/post design from the home dashboard, opens the Create Design modal, chooses a social media template, edits the canvas (uploads an image, places a badge, adds and styles text), uses the layers panel to arrange/group elements, saves the design with a name, and returns to the dashboard where the new design appears as a thumbnail. Entry point = user home/dashboard. Exit point = dashboard with saved design. Assumptions: user is authenticated, has upload permission, and works on desktop with a full editor interface.",
+      "problem": "User task (user perspective): Create a promotional social-media/post graphic and save it in their files. They expect a quick way to choose a suitable canvas size, add background imagery, place promotional badges and copy, adjust visual properties (color, opacity, font size), and save the final artwork for later use or download.\nSystem perspective (UI/enforcement): The UI provides a Create Design modal with template categories and sizes, a central canvas editor with a left toolbar (tools, libraries, images), a right properties panel (Edit, Layers, Pages), contextual object controls (bounding box, right-click menu), and a libraries panel for uploaded images. The system enforces canvas dimensions chosen from the template, updates document title when user saves, and persists the design as a thumbnail in the user's files.\nResult: User-perceived outcome = a finished promotional image with composed assets and styled text saved under the chosen name. System-level outcome = a new design asset created and stored in the user's file list, with layered object metadata (positions, groups, styles) available in the editor.",
+      "steps": [
+        "Dashboard / Home",
+        "Create Design modal (empty custom sizes)",
+        "Select Social Media category",
+        "Blank canvas opened",
+        "Document title modal appears",
+        "Enter title",
+        "Refine title",
+        "Title saved / top bar updated",
+        "Open image insertion options",
+        "Libraries / Uploads panel",
+        "Place image and badge on canvas",
+        "Context menu for object",
+        "Overall composition preview",
+        "Edit text content",
+        "Open color picker for text",
+        "Adjust text size and opacity",
+        "Open Layers panel",
+        "Select & group elements",
+        "Rename group / final alignment",
+        "Return to dashboard with saved thumbnail"
+      ],
+      "site": {
+        "id": 583,
+        "domain": "glorify.com",
+        "description": "Online Graphic Design Tool for E-com Business Owners",
+        "name": "Glorify",
+        "background_url": "https://images.refero.design/backgrounds/glorify.com/63a1c562-fe7c-40da-aa35-547c2958dbea.jpg",
+        "refero_url": "https://refero.design/websites/583",
+        "categories": [
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/glorify.com/9d075a4d-fc41-4229-8b8d-15efbbbdf631.jpg",
+        "background_color": "e79479"
+      }
+    },
+    {
+      "id": 11703,
+      "platform": "web",
+      "screens_count": 4,
+      "refero_url": "https://refero.design/flows/11703",
+      "name": "Invoice Style Customization",
+      "description": "A logged-in user is editing an invoice template on a desktop layout. The main canvas shows the invoice content while a right-side Customize panel controls style settings such as preset, layout, font, page background, colors, header cover, and logo size. The user opens the font selector, chooses a font from the list, and returns to the Customize panel where the selected font is applied. The flow begins on the invoice editor and ends with the updated template state visible and ready to save or continue editing.",
+      "problem": "The user wants to personalize the invoice’s visual style, specifically the typography, so the document matches the desired brand look. From the user’s perspective, they expect to browse available fonts, select one, and immediately see the invoice update. From the interface perspective, the template editor exposes a customization drawer with font selection and other styling controls, and the canvas reflects the chosen style live. At the end, the user has a customized invoice template with the new font applied, and the system preserves the updated design state for further editing or saving.",
+      "steps": [
+        "Customize Panel Open",
+        "Font Picker Selection",
+        "Font Applied Preview",
+        "Updated Template Settings"
+      ],
+      "site": {
+        "id": 883,
+        "domain": "runey.app",
+        "description": "Invoices, Projects & Clients in One Place",
+        "name": "Runey ",
+        "background_url": "https://images.refero.design/backgrounds/runey.app/a31066dd-90db-476e-a4f5-51c8e6264e13.jpg",
+        "refero_url": "https://refero.design/websites/883",
+        "categories": [
+          "Business",
+          "Productivity",
+          "Project Management"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/runey.app/662d5da1-d546-40d7-85b7-3dd7d95863f8.jpg",
+        "background_color": "85b43f"
+      }
+    },
+    {
+      "id": 4988,
+      "platform": "web",
+      "screens_count": 5,
+      "refero_url": "https://refero.design/flows/4988",
+      "name": "Presentation editor onboarding",
+      "description": "Happy path: A user opens a new presentation document (single title slide visible) on a desktop browser while signed in. The system runs an inline guided tour made of small, anchored tooltip modals that walk the user through five key features: choosing templates, switching to bird's-eye (overview) view, choosing tools, toggling editor modes, and entering presenter mode. The user advances the tour by clicking Next on each tooltip and finishes with Done. Entry point: new/empty presentation document with the editor canvas visible. Exit point: final tooltip dismissed and focus returns to the main editor canvas. Assumptions: user is on a desktop browser, has a document open (new/untitled), and the editor shows the left slide strip, central canvas, bottom tool bar and right-side properties panel.",
+      "problem": "User goal (user perspective): Quickly get oriented with the editor and learn where to find templates, how to switch views, which content tools are available, how to switch modes, and how to present. They expect a short, step-by-step walkthrough that highlights each area of the interface and then returns them to the editable slide.\n\nSystem goal (interface perspective): Provide an inline guided tour composed of sequential tooltip modals anchored over the canvas and UI. Each tooltip explains a single capability and provides navigation controls (Next / Close / Done). The UI must keep the editor visible behind the tooltips so users can relate instructions to the interface.\n\nResult at the end:\n- User-perceived outcome: The user understands where to find templates, how to view slides in overview, which tools to use, how to switch editor modes, and how to start presentation mode; onboarding tooltips are dismissed so they can begin editing.\n- System-level outcome: The guided tour sequence ends (modals closed) and control returns to the main editor canvas with the same slide visible and the bottom toolbar and right-hand properties panel accessible.",
+      "steps": [
+        "Template chooser tooltip",
+        "Bird's-eye view tooltip",
+        "Tool selection tooltip",
+        "Mode switch tooltip",
+        "Presenter mode final tip"
+      ],
+      "site": {
+        "id": 206,
+        "domain": "figma.com",
+        "description": "The Collaborative Interface Design Tool",
+        "name": "Figma ",
+        "background_url": "https://images.refero.design/backgrounds/figma.com/d7090ac7-cd09-48ec-9ea4-c0f9acf820fe.jpg",
+        "refero_url": "https://refero.design/websites/206",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/figma.com/0b4d9da2-dab3-48a0-b315-cd78a61ef0ca.jpg",
+        "background_color": "8383ec"
+      }
+    },
+    {
+      "id": 5000,
+      "platform": "web",
+      "screens_count": 5,
+      "refero_url": "https://refero.design/flows/5000",
+      "name": "Slide Tone Adjustment",
+      "description": "Happy-path: A user edits a presentation slide on desktop, opens an in-editor 'Adjust tone' control to change the visual tone of the selected slide element, interacts with a tone-grid (dragging a dot), previews the change, and confirms. Entry point: user has a presentation open and a slide selected. Exit point: the slide and the template's selection colours / template style are updated to reflect the chosen tone. Assumptions: user is signed in on a desktop browser, has edit privileges for the presentation, and is working in a WYSIWYG slide editor with left thumbnail list, central canvas, and right properties pane.",
+      "problem": "User task: Change the overall visual tone / color emphasis of a slide to better match a presentation theme (e.g., warmer/cooler, more formal/creative). From the user's perspective they expect an easy way to open a tone control, adjust a single control (drag/choose), see a live preview, and apply the change to the current slide (and possibly update the template palette). From the interface perspective the editor exposes a selectable element on the slide, opens a modal control (‘Adjust tone’) with a 2D tone grid and presets, provides live preview while the user drags, displays status feedback during processing, and then commits the new tone to both the canvas and the template style/palette once confirmed. Result at end: user-perceived outcome — slide visuals (colors/contrast/emphasis) change to the selected tone and the editor confirms success. System-level outcome — the editor updates the slide rendering and writes the new tone into the template style/selection colours settings shown in the right panel.",
+      "steps": [
+        "Select slide and text box",
+        "Open Adjust Tone control",
+        "Interact with tone grid (preview)",
+        "Confirm or retry tone change",
+        "Template style and palette updated"
+      ],
+      "site": {
+        "id": 206,
+        "domain": "figma.com",
+        "description": "The Collaborative Interface Design Tool",
+        "name": "Figma ",
+        "background_url": "https://images.refero.design/backgrounds/figma.com/d7090ac7-cd09-48ec-9ea4-c0f9acf820fe.jpg",
+        "refero_url": "https://refero.design/websites/206",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/figma.com/0b4d9da2-dab3-48a0-b315-cd78a61ef0ca.jpg",
+        "background_color": "8383ec"
+      }
+    }
+  ]
+}

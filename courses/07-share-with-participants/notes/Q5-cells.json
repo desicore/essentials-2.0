@@ -1,0 +1,27 @@
+[
+  {
+    "app": "Podia",
+    "status": "partial",
+    "text": "Course published banner, audience rows, and Customer invited toast; Pending is visible but delivery/acceptance/opened are unresolved. Audience progress is post-access evidence, not invite-open telemetry.",
+    "ids": [
+      "mobbin:6462b667-d688-4634-a413-c914bdc3b20a",
+      "mobbin:94f6be70-d9b2-4363-8091-62d20f8d1f9e"
+    ]
+  },
+  {
+    "app": "Slack",
+    "status": "partial",
+    "text": "Requests/Pending/Accepted tabs and bounced, resent, revoked row states; opened is not shown.",
+    "ids": [
+      "mobbin:2fe9271e-36ed-4333-b809-6078dc790098"
+    ]
+  },
+  {
+    "app": "Canva",
+    "status": "\u2713",
+    "text": "Course-ready confirmation, team notified, Classwork and Copy link.",
+    "ids": [
+      "mobbin:a906866c-f694-41fd-b437-b086430c1585"
+    ]
+  }
+]

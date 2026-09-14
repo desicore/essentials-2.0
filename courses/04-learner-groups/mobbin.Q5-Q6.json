@@ -1,0 +1,173 @@
+{
+  "references": [
+    {
+      "id": "mobbin:ac312350-012f-49d9-9f95-25365859a6c3",
+      "source": "mobbin",
+      "app": "Podia",
+      "title": "Course availability and sign-up limit settings",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ac312350-012f-49d9-9f95-25365859a6c3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DLqKAus5"
+      ],
+      "question": "Q5",
+      "take": "Course Availability groups Start date and Sign-up limit under Limits, with no-limit and limited-sign-up options. Enrollment closing dates and over-capacity group attachment are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a9834b56-5fda-406a-accc-7d4ddf1b9868",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Select team members for course enrollment",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a9834b56-5fda-406a-accc-7d4ddf1b9868",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WF1aU5ia"
+      ],
+      "question": "Q5",
+      "take": "A staged enrollment flow selects recipients before dates and reminders, a team invitation analogy that supports capacity-aware review before sending.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:6a88635a-0413-4666-b830-e74fbfa3bcfc",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Enroll a learner in a course",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/6a88635a-0413-4666-b830-e74fbfa3bcfc",
+      "images": [
+        "https://mobbin.com/api/mcp/short/thIqAvKx"
+      ],
+      "question": "Q5",
+      "take": "An enrollment administration page pairs a course selector with an explicit Enroll action, showing a simple manual path that could sit beside capacity rules.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e50417f0-d6e6-4ad2-8fdc-bf7b11ff4b79",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Invite members by email, CSV, or link with notification choice",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/e50417f0-d6e6-4ad2-8fdc-bf7b11ff4b79",
+      "images": [
+        "https://mobbin.com/api/mcp/short/a9YxsroN"
+      ],
+      "question": "Q6",
+      "take": "The member-invite screen offers manual/CSV/link entry and an explicit Send invites versus Add without notification choice. It demonstrates notification intent, not email delivery or course enrollment completion.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a2019073-36ec-45bd-b226-d04f6fa7d609",
+      "source": "mobbin",
+      "app": "Featurebase",
+      "title": "Invite users with optional email notification",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a2019073-36ec-45bd-b226-d04f6fa7d609",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FBl1gSuS"
+      ],
+      "question": "Q6",
+      "take": "An invite modal makes notification opt-in explicit and pairs it with a copy-link path, giving admins control over the learner communication seam.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2e1d62a3-dcef-49da-b7f0-83211a076b8a",
+      "source": "mobbin",
+      "app": "Cloudflare",
+      "title": "Invite members with confirmation-email exception",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2e1d62a3-dcef-49da-b7f0-83211a076b8a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/j1zH10jr"
+      ],
+      "question": "Q6",
+      "take": "Workspace-invite counterexample: selecting Skip confirmation email produces an Enterprise-only error and an invitation failure. The screen makes the failed action visible; it does not demonstrate a course enrollment outcome.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:13c4d86b-b5dd-446d-8451-66c17cf96e32",
+      "source": "mobbin",
+      "app": "Fresha",
+      "title": "Join a full booking waitlist with preferred dates and confirmation",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/13c4d86b-b5dd-446d-8451-66c17cf96e32",
+      "images": [
+        "https://mobbin.com/api/mcp/short/yF0zjhl1",
+        "https://mobbin.com/api/mcp/short/fNsMUOA5",
+        "https://mobbin.com/api/mcp/short/WdYhU1lr",
+        "https://mobbin.com/api/mcp/short/a0o5X7lp",
+        "https://mobbin.com/api/mcp/short/8xcHlsSh",
+        "https://mobbin.com/api/mcp/short/B1YBkdTz",
+        "https://mobbin.com/api/mcp/short/OUbRPHyS",
+        "https://mobbin.com/api/mcp/short/011xNvNN"
+      ],
+      "question": "Q5",
+      "take": "Booking analogy: a full date leads to date/time preferences, a first-visit question, payment/notes review and Join the waitlist. It does not establish course-level capacity, queue priority or automatic promotion.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:87033d09-924f-4073-8a38-c2adfc2b271f",
+      "source": "mobbin",
+      "app": "Square",
+      "title": "Admin waitlist with automated availability notifications",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/87033d09-924f-4073-8a38-c2adfc2b271f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/XLKt4nl1",
+        "https://mobbin.com/api/mcp/short/ylRC6Vte",
+        "https://mobbin.com/api/mcp/short/vEtp1i0y"
+      ],
+      "question": "Q6",
+      "take": "The admin waitlist view explains automatic notifications and shows requests in a table with client and availability preferences, a useful notification and exception analogy.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9ed7eb7a-41ca-4528-a891-9ffb44f60dcf",
+      "source": "mobbin",
+      "app": "Fresha",
+      "title": "Full schedule offers waitlist link",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/9ed7eb7a-41ca-4528-a891-9ffb44f60dcf",
+      "images": [
+        "https://mobbin.com/api/mcp/short/cuPlQdI1"
+      ],
+      "question": "Q5",
+      "take": "A full schedule keeps alternative times visible and places a Join the waitlist link directly below them, preserving forward progress when capacity is exhausted.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:5999c70c-4a03-4145-b344-aeb0d24e45ba",
+      "source": "mobbin",
+      "app": "Meetup",
+      "title": "Event page with zero spots and Join Waitlist",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5999c70c-4a03-4145-b344-aeb0d24e45ba",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ntGgHdjA"
+      ],
+      "question": "Q5",
+      "take": "The event CTA combines a zero-spots indicator with Join Waitlist, making capacity state and the next action legible in one place.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

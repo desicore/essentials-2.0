@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2",
+    "take": "Podia groups text, embed, quiz, coaching, and file lesson types under one New lesson menu in the course outline.",
+    "observed": "Open New lesson; choose Add files; an uploading PDF row appears in the section and then resolves to a completed file with size.",
+    "limits": "Three sampled frames do not show the file chooser, link entry, learner result, or every actual click.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6",
+    "take": "Teachable separates content types in one Add content palette, then unifies device, cloud, and URL sources within the PDF Viewer dialog.",
+    "observed": "Open Add content; choose PDF Viewer; choose local/cloud/URL source; the sampled alternatives enter a URL or select a hosted PDF and upload; the PDF then renders inline in the lesson.",
+    "limits": "Seven sampled frames appear to cover alternative source branches, not one required linear flow; no learner view is shown.",
+    "counter_example_candidate": true
+  },
+  {
+    "id": "mobbin:41a7198a-cb8b-4e01-8082-f4b6ddf7f73b",
+    "take": "Teachable's Add PDF dialog consolidates local upload, several cloud providers, and URL input inside lesson editing.",
+    "observed": "The modal allows selecting or dragging a PDF, shows provider icons including Google Drive, Dropbox, and OneDrive, and includes a link-source icon; copy says a student download link can be included.",
+    "limits": "Single frame; it does not show opening, completion, embeds beyond PDF, or learner presentation.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:38f8a761-116d-45ce-ad0c-b2d5f89c7e98",
+    "take": "A nominal Teachable digital-product setup frame places File upload and Redirect to URL together, but is not visibly course-lesson authoring.",
+    "observed": "Step 4/7, Add your content, offers radio choices File upload and Redirect to URL; File upload is selected with an Upload button and accepted file types.",
+    "limits": "Single frame with no visible product branding; no embed choice, completed action, course structure, or learner result. Qualify or relocate outside course-authoring evidence.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:26e60a25-e5dd-4eff-aa2c-4ea33f1f9a2f",
+    "take": "Dropbox Dash combines search/paste-link, existing-source selection, and Upload in one Add sources modal for chat context.",
+    "observed": "The modal shows Search or paste a file link, one existing PDF source, Upload, and Done over a Dash chat.",
+    "limits": "Single frame; this is source selection for Dash chat, not a course attachment chooser, and no completed action is shown.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "refero:11b3c0a4-eb09-4d98-9a1a-742439189540",
+    "take": "Gumroad's digital-product Content canvas places rich-text/link tools, a closed Insert menu, and page creation together.",
+    "observed": "The Web Design Course content tab shows a formatting toolbar with link controls, Insert, and + Page above an existing linked phrase.",
+    "limits": "Single frame; the closed Insert menu does not establish upload or embed options, and Gumroad is a digital-product analogue rather than course-specific evidence.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:b9a7ca6e-c921-4ca5-9579-c18e634a7612",
+    "take": "Udemy shows learner access to lesson downloads, not how an instructor adds upload, link, or embed material.",
+    "observed": "A mobile learner player has Lectures, Downloads, and More tabs; Downloads lists video lessons with download icons.",
+    "limits": "Single learner-side frame with no authoring controls. Relocate to Q6 or exclude from Q1.",
+    "counter_example_candidate": false
+  }
+]
