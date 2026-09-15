@@ -1,0 +1,11 @@
+=== SCREENS: Zoom Loom recording privacy sharing permissions expiration (total 1000)
+S 80bba01b-86bc-44f6-9e42-5331ce49cd4f | Loom | ux: FAQ,Testimonials | The series of screens depict a clean, modern product landing page for a free screen recording software named Loom. The overall style is minimalist and
+S 0a9fc7f8-87f1-4726-b9f0-2173a20fee8d | Loom | ux: Error | This screen is a sign-in page for a service called Loom. The background is solid white (#FFFFFF). The layout centers content vertically and horizontal
+S 5f5c4226-9e3e-45b9-97a1-918edba2e786 | Loom | ux:  | This screen is a clean and minimalist sign-in interface for Loom. The background is pure white (#FFFFFF) with central alignment. At the top left corne
+S 1d97431a-469e-46df-a25b-3ccbb31d09b5 | Loom | ux:  | The screen is a clean and minimal sign-in page for Loom. The background is solid white (#FFFFFF). At the top left corner, the Loom logo is present in 
+S 67a972bd-310a-44ed-9ae7-106603c3617d | Loom | ux:  | The screen features a clean and minimalist login interface primarily white with black and blue highlights. The brand logo is placed top-left, small si
+S 524f00a9-610f-4a25-97e4-c1de41649215 | Loom | ux:  | The screen is a login interface titled "Sign in to Loom" centered near the top of the content area. The background is solid white (#FFFFFF) providing 
+S a9c9e898-f763-4878-a7a2-6946c4b50782 | Loom | ux:  | This is a modern login screen for a platform named Loom, consisting of two vertically stacked screenshots that together form one complete interface. T
+S ca59f9f2-ff53-4426-8d02-af9ea3e09dd9 | Dopper | ux: Email Subscription,Article & Text | The screenshots depict a Privacy Policy page of a website with a professional, clean, and text-heavy layout. The page uses a beige background (#f5f0dd
+S 23a9b728-1397-45bd-938c-e7e9addf24d3 | Hello Klean  | ux: Article & Text | This is a multi-section Privacy Policy page for the Hello Klean website, designed with a minimalist and clean style emphasizing readability. The backg
+S 00769d1d-2f2f-431d-ad86-02ff1f9314e3 | Revolut | ux:  | The series of screens present a Privacy settings interface for a user, organized into several topical sections: Marketing, Promotions, Messages, Payme

@@ -1,0 +1,21 @@
+=== FLOWS: find a meeting recording set viewing permissions and share (total 197)
+F#13432 | Programa | Meeting Recording and Summary | 7 steps | A logged-in project user opens the Meetings section, creates a new meeting, starts and ends an in-product recording, and waits while the system proces
+   steps: Meetings Empty State > New Meeting Setup > Active Recording > End Recording > Transcript Processing > Summary Generation > Completed Meeting Overview
+F#13433 | Programa | Meeting Summary Feedback | 4 steps | A logged-in user is viewing an existing meeting summary in the Meetings section. They open the summary feedback dialog, enter an optional comment, and
+   steps: Meeting Summary > Feedback Dialog > Feedback Ready to Send > Submission Confirmation
+F#4237 | Reclaim AI  | Cancel scheduled meeting | 4 steps | Happy path: User views a booking confirmation that shows a rescheduled meeting and details (time, location, attendees). From this screen the user choo
+   steps: Booking confirmation (rescheduled) > Cancel confirmation modal (empty message) > Cancel confirmation modal (message filled) > Booking cancelled confirmation
+F#6268 | Missive | Create and apply label | 6 steps | Happy-path: A logged-in user viewing a conversation opens the label controls, chooses to create a new label, fills in details (location, name, descrip
+   steps: Conversation view > Open label menu > Open create-label modal > Populate label details > Choose color and icon > Create label and apply
+F#3680 | Maze | Interview session supervision | 35 steps | Happy-path summary: A recruiter selects a scheduled interview from the Recruitment dashboard, grants camera/microphone permissions in a pre-join dialo
+   steps: Recruitment dashboard > Session selection highlighted > Permissions prompt > Pre-join camera preview > Joining meeting > In-meeting controls visible > Network status show
+F#4117 | Reclaim AI  | Create and Configure Smart Meeting | 12 steps | Happy path: A logged-in user opens the Smart Meetings section, clicks to create a new Smart Meeting, fills in meeting details (name, category, color),
+   steps: Smart Meetings - Landing > Edit — Meeting Details (initial) > Pick Category > Pick Color > Attendees — Add/Validate > Attendee Calendar Status > Add Conferencing and Loca
+F#3370 | SavvyCal | Meeting Poll Setup and Scheduling | 12 steps | Happy path for creating a group meeting poll, collecting votes and converting the chosen option into a calendar event. Entry: user lands on the Meetin
+   steps: Meeting Polls - Empty State > Poll Editor - Initial > Select Time Slot > Choose Meeting Duration > Select Location Type > Add Attendees and Details > Publish Poll > Copy 
+F#9723 | Microsoft Teams | Meeting pre-join background selection | 3 steps | Happy path: User arrives at the Microsoft Teams pre-join (lobby) screen, verifies/selects audio and camera, opens Background settings, chooses a virtu
+   steps: Pre-join settings > Open background settings > Select and preview background
+F#6995 | Voicenotes | Join and record meeting | 8 steps | Happy path: A signed-in user on a desktop browser starts on the Voicenotes dashboard, opens the record control, chooses "Join meeting as a bot", paste
+   steps: Dashboard / Ready to record > Open recording options > Join meeting modal > Paste meeting link > Recording in progress > Recording saved / processing started > Recording 
+F#8628 | ElevenLabs | Voice Remixing — Create & Save Remix | 25 steps | Happy-path: A logged-in user on desktop opens the Voice Remixing (alpha) workspace from the dashboard, selects an existing reference voice, writes a t
+   steps: Workspace entry > Initial remix editor > Open reference voice selector > Search voice results > Reference voice selected > Open prompt strength info > Set prompt strength

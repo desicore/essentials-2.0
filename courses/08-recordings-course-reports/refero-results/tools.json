@@ -1,0 +1,281 @@
+{
+  "tools": [
+    {
+      "name": "refero_search_screens",
+      "description": "### Description\n\nSearch real UI screens in Refero using semantic search.\n\nWorks best with the `refero-design` skill. Installation: https://refero.design/mcp.\n\nScreens are best for concrete interface decisions: page structure, component choices,\ncontent hierarchy, copy, states, and product-specific patterns. Use them when you need\nto see how real products solve a specific UI problem.\n\nFor pure visual direction, brand feel, typography, color, or design-system inspiration,\nuse `refero_search_styles` first. Then use screens to ground the actual product UI.\n\n### When to use\n\n- Need reference screens for a specific screen type, page type, component, or UI pattern.\n- Need examples of how company X solves a concrete interface problem.\n- Need layout/content decisions for pricing, dashboards, settings, auth, forms, modals, empty states, tables, onboarding screens, etc.\n- Need copy, information hierarchy, UI elements, states, or product-screen details.\n- Need to triangulate several approaches to the same screen or component.\n\n### When NOT to use\n\n- Need overall visual identity, aesthetic direction, palette, typography system, or art direction -> use `refero_search_styles`.\n- Need a complete multi-step journey -> use `refero_search_flows`.\n- Found one strong screen and want more like it -> use `refero_get_similar_screens`.\n- Need raw image content for visual inspection -> use `refero_get_screen_image`.\n\n### Search guidance\n\nSearch by what is literally on the screen:\n- screen type: \"pricing page\", \"settings\", \"dashboard\", \"empty state\"\n- component/pattern: \"pricing toggle\", \"feature comparison table\", \"delete account modal\"\n- state: \"error state\", \"loading skeleton\", \"empty inbox\"\n- company/product: \"Stripe checkout\", \"Notion settings\", \"Linear changelog\"\n- on-screen text: \"No credit card required\", \"Cancel subscription\"\n\nPrefer concrete UI terminology over broad aesthetic words. If the main query is aesthetic\n(\"premium\", \"minimalist\", \"editorial\", \"dark\"), search styles first.\n\n### Query examples\n\nSimple:\n- pricing page\n- forgot password\n- skeleton loading\n- data table with filters\n- drag and drop file upload\n- headspace pricing\n\nComplex:\n- pricing page with annual monthly toggle and feature comparison\n- iOS paywall modal with annual monthly toggle\n- onboarding welcome screen with illustration and progress indicator\n- 2FA setup with QR code and recovery codes\n- error state for email input with inline validation message\n- product analytics dashboard with activity heatmap and filters\n\n### Parameter Descriptions\n\n| Parameter | Type | Required | Description |\n|-----------|------|----------|-------------|\n| `query` | string | Yes | Semantic search query, minimum 2 characters. Supports company names, screen types, UI elements, patterns, states, and on-screen text. |\n| `platform` | enum | Yes | Platform filter. `ios` for mobile app patterns, `web` for web app/site patterns. |\n| `page` | number | No | Pagination from 1 to 30. Default: 1. Use later pages to explore beyond obvious results. |\n| `response_format` | enum | No | Response format: `json` or `md`. Default: `md`. |",
+      "inputSchema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string",
+            "enum": [
+              "ios",
+              "web"
+            ]
+          },
+          "page": {
+            "type": "number"
+          },
+          "response_format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "md"
+            ]
+          }
+        },
+        "required": [
+          "query",
+          "platform"
+        ],
+        "type": "object"
+      },
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true,
+        "title": "refero_search_screens"
+      }
+    },
+    {
+      "name": "refero_get_similar_screens",
+      "description": "### Description\n\nGet visually and functionally similar screens for a given screen UUID.\nReturns preview records for related screenshots, including identifiers, reference metadata,\ndescriptions when available, and app/site information.\nIdeal for expanding a single good find into a broader set of comparable examples.\n\n### When to use\n\n- Found one good screen and want more like it\n- Need to compare different approaches to the same pattern\n- Want to see how other products solve the same problem\n- Building a mood board or reference set around a specific screen\n\n### When NOT to use\n\n- Don't know which screen you need → first use `refero_search_screens`\n- Need a complete flow → use `refero_search_flows`\n- Need the raw image of a screen → use `refero_get_screen_image`\n\n### Parameter Descriptions\n\n| Parameter  | Type   | Required | Description                                                   |\n|------------|--------|----------|---------------------------------------------------------------|\n| `screen_id`| string | Yes      | Screen UUID to find similar screens for. Obtained from `refero_search_screens`. |\n| `limit`    | number | No       | Number of similar screens to return. Range: 1-20. Default: 10. |\n| `response_format` | enum | No | Response format: `json` or `md`. Default: `md`. |",
+      "inputSchema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "properties": {
+          "screen_id": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "number"
+          },
+          "response_format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "md"
+            ]
+          }
+        },
+        "required": [
+          "screen_id"
+        ],
+        "type": "object"
+      },
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true,
+        "title": "refero_get_similar_screens"
+      }
+    },
+    {
+      "name": "refero_get_screen_image",
+      "description": "### Description\n\nGet image content for a screen UUID as an MCP image response.\nReturns a thumbnail by default or the full screenshot when requested.\n\n### When to use\n\n- Need to visually analyze a specific screen\n- Want image data that the model can inspect directly, not just metadata or URLs\n- Performing visual UI/UX analysis on a reference screen\n\n### When NOT to use\n\n- Don't know which screen you need → first use `refero_search_screens`\n- Need similar screens → use `refero_get_similar_screens`\n\n### Parameter Descriptions\n\n| Parameter | Type | Required | Description |\n|-----------|------|----------|-------------|\n| `screen_id` | string | Yes | Screen UUID to fetch image for. Obtained from `refero_search_screens`. |\n| `image_size` | enum | No | Image size: `thumbnail` or `full`. Default: `thumbnail`. |",
+      "inputSchema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "properties": {
+          "screen_id": {
+            "type": "string"
+          },
+          "image_size": {
+            "type": "string",
+            "enum": [
+              "thumbnail",
+              "full"
+            ]
+          }
+        },
+        "required": [
+          "screen_id"
+        ],
+        "type": "object"
+      },
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true,
+        "title": "refero_get_screen_image"
+      }
+    },
+    {
+      "name": "refero_get_screen",
+      "description": "### Description\n\nGet full details of one or more screens by their UUIDs.\nReturns screens with full metadata, descriptions, and app/site info.\nIdeal for retrieving specific screens when user provided screenshot UUIDs.\n\n### When to use\n\n- Have screenshot UUIDs and want full metadata (site/app, patterns, elements, etc.)\n- User provided screenshot UUIDs\n- Need to display or analyze a set of known screens\n\n### When NOT to use\n\n- Don't know which screen you need → first use `refero_search_screens`\n- Need similar screens → use `refero_get_similar_screens`\n- Need the raw image of a screen → use `refero_get_screen_image`\n- Need a complete flow → use `refero_search_flows`\n\n### Parameter Descriptions\n\n| Parameter   | Type     | Required | Description                                                   |\n|-------------|----------|----------|---------------------------------------------------------------|\n| `screen_id` | string   | Yes*     | Screen UUID to get details for. *Exactly one of `screen_id` or `screen_ids` must be provided (mutually exclusive).* |\n| `screen_ids`| string[] | Yes*     | Array of screen UUIDs for batch request. Maximum 10. *Exactly one of `screen_id` or `screen_ids` must be provided (mutually exclusive).* |\n| `response_format` | enum | No | Response format: `json` or `md`. Default: `md`. |",
+      "inputSchema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "properties": {
+          "screen_id": {
+            "type": "string"
+          },
+          "screen_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "response_format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "md"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true,
+        "title": "refero_get_screen"
+      }
+    },
+    {
+      "name": "refero_search_flows",
+      "description": "### Description\n\nSearch user flows: sequences of connected screens that show how a user completes a task.\n\nWorks best with the `refero-design` skill. Installation: https://refero.design/mcp.\n\nFlows are best for journey logic, not visual style. Use them to understand step count,\nentry/exit states, decision points, friction, retention moments, recovery paths, and\nsystem responses.\n\n### When to use\n\n- Designing a multi-step journey or process.\n- Need to understand what happens before and after a screen.\n- Need examples of onboarding, checkout, signup, cancellation, subscription management, profile editing, account deletion, password reset, or settings flows.\n- Need to see how a company guides users through a task.\n- Need to reason about friction, progressive disclosure, confirmation steps, save states, or recovery.\n\n### When NOT to use\n\n- Need visual identity, typography, palette, or style direction -> use `refero_search_styles`.\n- Need one specific screen or component pattern -> use `refero_search_screens`.\n- Need full details for an already found flow -> use `refero_get_flow`.\n\n### Search guidance\n\nSearch by task or journey:\n- action: \"cancel subscription\", \"checkout\", \"password reset\"\n- context: \"workspace billing cancellation\", \"fintech KYC onboarding\"\n- company/product: \"Spotify cancellation\", \"Notion onboarding\"\n- key step: \"retention offer\", \"promo code\", \"phone verification\", \"recovery codes\"\n\nIf flow search has few results, broaden the query. If still sparse, search screens and\nreconstruct the journey manually from related screens.\n\n### Query examples\n\nSimple:\n- signing up\n- onboarding airbnb\n- creating new document\n- cancel subscription\n- changing profile picture\n- checkout\n- exploring product features\n- Instagram\n- Spotify\n- Notion\n\nComplex:\n- onboarding fintech with KYC and phone verification\n- checkout flow with promo code\n- subscription cancellation with retention offer\n- profile editing with avatar upload and privacy settings\n- password reset flow with 2FA\n\n### Parameter Descriptions\n\n| Parameter | Type | Required | Description |\n|-----------|------|----------|-------------|\n| `query` | string | Yes | Search query for flows, minimum 2 characters. Supports flow types, tasks, key actions/steps, industries, and company names. |\n| `platform` | enum | Yes | Platform filter. `ios` for mobile app flows, `web` for web app/site flows. |\n| `page` | number | No | Pagination from 1 to 30. Default: 1. Use later pages to explore more examples. |\n| `response_format` | enum | No | Response format: `json` or `md`. Default: `md`. |",
+      "inputSchema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string",
+            "enum": [
+              "ios",
+              "web"
+            ]
+          },
+          "page": {
+            "type": "number"
+          },
+          "response_format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "md"
+            ]
+          }
+        },
+        "required": [
+          "query",
+          "platform"
+        ],
+        "type": "object"
+      },
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true,
+        "title": "refero_search_flows"
+      }
+    },
+    {
+      "name": "refero_get_flow",
+      "description": "### Description\n\nGet full details for one or more user flows by ID.\nIncludes: all screens with descriptions, goal/action/system_response for each step,\nuser problem description, related search queries.\nIdeal for understanding complete user journeys.\n\n### When to use\n\n- Need all flow screens with details (after search_flows)\n- Studying a specific user journey end-to-end\n- Need to understand the logic of transitions between screens\n- Designing a similar flow for your product\n\n### When NOT to use\n\n- Don't know which flow you need → first use `refero_search_flows`\n- Need similar screens → use `refero_get_similar_screens`\n\n### Parameter Descriptions\n\n| Parameter | Type | Required | Description |\n|-----------|------|----------|-------------|\n| `flow_id` | number | Yes* | Numeric flow ID to get details for. Obtained from `refero_search_flows`. *Exactly one of `flow_id` or `flow_ids` must be provided (mutually exclusive).* |\n| `flow_ids` | number[] | Yes* | Array of numeric flow IDs for batch request. Maximum 10. *Exactly one of `flow_id` or `flow_ids` must be provided (mutually exclusive).* |\n| `response_format` | enum | No | Response format: `json` or `md`. Default: `md`. |",
+      "inputSchema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "properties": {
+          "flow_id": {
+            "type": "number"
+          },
+          "flow_ids": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "response_format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "md"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true,
+        "title": "refero_get_flow"
+      }
+    },
+    {
+      "name": "refero_search_styles",
+      "description": "### Description\n\nSearch Refero's curated design styles using semantic search.\n\nWorks best with the `refero-design` skill. Installation: https://refero.design/mcp.\n\nStyles are the best starting point for visual direction. They teach the agent taste:\ntypography, palette, layout/composition, section rhythm, spacing, elevation, surfaces,\nimagery, component feel, visual hierarchy, and the overall design language of strong web\nproducts.\n\nA style is a semantic design reference extracted from a real web marketing/product page.\nSearch results return preview-level references: style UUID, title, source URL, preview\nimage URL, platform, and a rich natural-language description of the visual language.\nUse `refero_get_style` to retrieve the full reference before making design decisions.\n\nCurrent coverage: styles focus on web marketing/product pages such as landing pages,\npricing pages, product marketing sites, editorial brand sites, and SaaS websites.\nThey do not currently cover in-app product screens, dashboards, authentication screens,\nor iOS/mobile app screens as style systems. Even when designing product UI, use styles\nto establish the visual language, then use screens/flows for product-specific patterns.\n\nUse the style UUIDs from results with `refero_get_style` to retrieve full style content:\ntokens, typography, layout guidance, spacing/elevation, surfaces, components, imagery\nguidance, implementation notes, and do/don't rules.\nStyles may describe image strategy, illustration systems, product screenshot treatment,\ngraphics, and other media roles. Preserve those roles when designing: use a real,\ngenerated, stock, screenshot, or code-native asset when feasible; use an intentional\nplaceholder with aspect ratio and art direction when the needed asset is unavailable.\n\n### When to use\n\n- Starting any design task that has a visual component.\n- Need a look and feel, visual identity, brand direction, art direction, or \"make it beautiful\".\n- Need typography, color, layout, section structure, spacing, elevation, surface, card, button, imagery, or component inspiration.\n- Need to improve a generic UI by grounding it in strong real-world design taste.\n- Need to explore several possible directions before committing to a design system.\n- Need inspiration for a product UI, even though the style references are marketing pages.\n\n### When NOT to use\n\n- Need exact in-app behavior, form states, dashboard layouts, auth screens, settings screens, or component logic -> use `refero_search_screens`.\n- Need a multi-step journey, before/after sequence, friction analysis, or completion logic -> use `refero_search_flows`.\n- Need to inspect an exact screenshot image -> use `refero_get_screen_image` after finding a screen.\n\n### Style research method\n\nDo not copy a single style directly. Search several directions, retrieve multiple strong\nstyles, then synthesize a unique direction for the user's product.\n\nRecommended loop:\n1. Search 3-5 different visual angles.\n2. Include at least one broad aesthetic query, one domain/category query, and one \"best brand\" or known-product query.\n3. Open 3-4 strong styles with `refero_get_style`; full styles average 10-15k chars each, so avoid larger batches.\n4. Compare what each style does well.\n5. Choose one primary style foundation, preserve its signature traits, and borrow only 1-2 specific details from other styles.\n6. Create a reference lock before implementation: primary direction, traits to preserve,\n   borrowed details, source token/component role rules, explicit rejects, and token commitments.\n\nDo not average references into a safe middle. If one style is dark, one is acid, and one\nis serif, the answer is not warm cream + muted orange + polite serif. Strong references\nshould stay strong or be rejected; they should not be softened into generic AI taste.\nDo not change token meanings: if a source says a color is CTA-only, code-only, decorative,\nor for a specific component state, use it only for that role or omit it.\nDo not default to decorative headline word swaps: one word or short phrase set in a\ndifferent display/serif/script/italic style or accent color unless the primary style and\ncontent role explicitly justify that treatment.\n\nLook for:\n- north star / overall visual thesis\n- typography system and type personality\n- color palette and accent discipline\n- spacing density and rhythm\n- layout system, section rhythm, and composition patterns\n- card/button/surface treatments\n- elevation and depth rules\n- component examples and implementation/code notes when present\n- imagery, graphics, illustration, or product screenshot treatment\n- media asset strategy: real/generated/stock/code-native asset, product screenshot, or placeholder\n- do/don't rules and constraints\n- one memorable visual move worth adapting\n\nAvoid:\n- cloning another brand's exact style\n- using only one style as the whole design system\n- averaging several strong styles into a generic middle\n- repurposing source tokens outside their stated role\n- faking complex imagery with weak CSS, text, or generic decorative boxes\n- searching only generic terms like \"modern\" or \"minimalist\"\n- assuming styles contain app dashboards or iOS screens\n\n### Query examples\n\nSimple:\n- high contrast social commerce\n- minimalist marketplace feed layout\n- soft cloud abstract hero\n- muted vintage color palette\n- spacious enterprise software layout\n- clean SaaS hero illustration\n- fashion magazine inspired design\n\nBetter, multi-angle:\n- editorial monochrome SaaS landing page\n- warm trustworthy healthcare product marketing\n- premium fintech website with restrained typography\n- playful creator tool landing page with vivid accents\n- developer tool website with product screenshots\n- luxury ecommerce editorial product page\n- productivity SaaS with airy spacing\n- data infrastructure website dark technical style\n\nKnown-product or brand-led:\n- Linear changelog dark developer tool\n- Attio editorial SaaS typography\n- Ghost high contrast publishing platform\n- Perplexity calm search interface\n- shadcn monochrome design system\n\n### Parameter Descriptions\n\n| Parameter | Type | Required | Description |\n|-----------|------|----------|-------------|\n| `query` | string | Yes | Semantic query for visual style, minimum 2 characters. Include aesthetic, domain, audience, or brand direction. |\n| `page` | number | No | Pagination from 1 to 30. Default: 1. Use later pages to explore less obvious directions. |\n| `response_format` | enum | No | Response format: `json` or `md`. Default: `md`. |",
+      "inputSchema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "page": {
+            "type": "number"
+          },
+          "response_format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "md"
+            ]
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true,
+        "title": "refero_search_styles"
+      }
+    },
+    {
+      "name": "refero_get_style",
+      "description": "### Description\n\nRetrieve full design style references for one or more style UUIDs.\n\nUse after `refero_search_styles` to turn promising style previews into actionable design\nmaterial. Full styles may include colors, typography, type scale, spacing, radius,\nshadows, elevation, surfaces, components, layout/composition, section rhythm, imagery,\ndo/don't rules, north star, implementation notes, code snippets, and agent prompt guidance.\nImagery can be a core part of the style: photography, product screenshots, illustration,\neditorial graphics, diagrams, textures, or atmospheric media.\n\nExpected result: a semantic style reference for a real web marketing/product page. It is\nnot a screenshot and not a component library; it is design guidance the agent can apply\nas tokens, rules, and implementation notes. Depending on the client, the result may be\nshown as structured content or markdown-like reference text.\n\nSize warning: full styles are large, averaging 10-15k chars per style. Recommended max\nbatch: 3-4 style IDs per call. For broader research, retrieve styles in multiple\nbatches and keep only the useful details in your synthesis.\n\n### When to use\n\n- You found promising styles and need full tokens/rules before designing.\n- You need concrete color, typography, layout, spacing, elevation, component, and surface guidance.\n- You want to compare multiple style systems and synthesize a custom direction.\n- You need implementation-ready style notes for HTML/CSS, Figma, or product UI.\n\n### When NOT to use\n\n- You have not searched styles yet -> use `refero_search_styles`.\n- You need exact app-screen behavior or component states -> use `refero_search_screens` / `refero_get_screen`.\n- You need journey logic -> use `refero_search_flows` / `refero_get_flow`.\n\n### How to use the returned styles\n\nDo not copy a style wholesale. Treat each style as a reference ingredient.\n\nRecommended synthesis:\n1. Pick one primary style as the foundation for overall mood and density.\n2. Borrow 1-2 specific details from other styles, such as button treatment, type contrast,\n   product screenshot framing, accent discipline, or surface hierarchy.\n3. Create a reference lock: preserve the primary style's signature traits, list borrowed\n   details, preserve source token/component roles, reject generic averages, and commit to\n   concrete tokens before implementation.\n4. Translate the style to the user's product context, audience, brand constraints, and task.\n5. Produce a new visual direction with explicit tokens and rules.\n\nDo not average references into a safe middle. A dark, acid, sharp, or saturated reference\nshould not become a warm cream canvas with muted earth-tone accents unless that exact\ndirection is supported by the primary style and user context.\nLikewise, do not default to decorative headline word swaps: one word or short phrase set\nin a different display/serif/script/italic style or accent color unless the primary style\nand content role explicitly justify that treatment.\n\nDo not change token meanings. If a source defines a color as CTA-only, code-only,\ndecorative-only, or tied to a specific component state, keep that role or skip the token.\n\nPreserve media roles too. If the style depends on specific imagery or graphics, use a\nreal asset, generated/stock asset, product screenshot, or appropriate code-native\nprimitive when available. If the needed asset is unavailable, keep a stable placeholder\nwith aspect ratio and art direction instead of faking complex imagery with weak CSS,\ntext, or decorative boxes.\n\nExtract:\n- visual thesis / north star\n- color roles, not just hex values\n- typography roles and hierarchy\n- spacing density and rhythm\n- layout system, section rhythm, and composition patterns\n- surfaces, cards, borders, shadows, elevation, and radius\n- component treatments and code/implementation notes when present\n- imagery, graphics, illustration, or product screenshot treatment\n- media asset strategy and placeholder requirements when assets are unavailable\n- do/don't constraints\n- signature detail to adapt\n\n### Parameter Descriptions\n\n| Parameter | Type | Required | Description |\n|-----------|------|----------|-------------|\n| `style_id` | string | Yes* | Style UUID from `refero_search_styles`. *Exactly one of `style_id` or `style_ids` must be provided (mutually exclusive).* |\n| `style_ids` | string[] | Yes* | Array of style UUIDs for batch request. Maximum 10; full styles average 10-15k chars each, so the recommended batch is 3-4. *Exactly one of `style_id` or `style_ids` must be provided (mutually exclusive).* |\n| `response_format` | enum | No | Response format: `json` or `md`. Default: `md`. |",
+      "inputSchema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "properties": {
+          "style_id": {
+            "type": "string"
+          },
+          "style_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "response_format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "md"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true,
+        "title": "refero_get_style"
+      }
+    }
+  ]
+}

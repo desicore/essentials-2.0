@@ -1,0 +1,21 @@
+=== FLOWS: Mixpanel Amplitude compare cohorts analytics export report (total 195)
+F#9855 | Acuity Scheduling  | Client Import/Export | 7 steps | Happy-path: A signed-in user on a desktop workspace imports client records from a CSV and then views the updated client list. Entry point is the Clien
+   steps: Import/Export Landing > Choose CSV File > CSV Selected > Preview Client Import (Mapping Required) > Preview Confirmed (Column Labels Applied) > Import Success Banner > Cl
+F#1538 | Airtable | Concepts Overview — Browse & Create | 2 steps | Logged-in desktop user lands in the Creative Asset Development workspace on the Concepts / Overview screen. The interface shows a left navigation (sec
+   steps: Concepts Overview — initial > Overview with feedback banner
+F#9564 | n8n | Account deletion (permanent) flow | 4 steps | Happy path: A logged-in user navigates to Manage > Workspace, scrolls to the Danger zone and clicks Delete account. A modal appears asking for confirm
+   steps: Manage > Workspace (Danger zone) > Confirm account deletion (first modal) > Export prompt / final confirmation > Sign‑in screen with success toast
+F#816 | Aboard | Employee report creation | 5 steps | Happy-path: A signed-in user navigates to the Analytics > Reports section, adds a new employee report via the Employees panel, names the report in a m
+   steps: Reports listing — Employees panel > New employee report modal (empty) > New employee report modal (filled) > Report editor — table view > Reports listing — new report vis
+F#9703 | Mapbox | Feedback filtering and date selection | 8 steps | Happy-path: a signed-in user opens the Feedback Explorer (Explore tab), uses the top-row controls to narrow the list of feedback by status, category, 
+   steps: Open Feedback Explorer > Open status selector > Select statuses > Apply category filter > Open start-date picker > Select date range > Empty-state shown > Remove/adjust d
+F#10457 | Manus | AI-driven Analytics Dashboard Builder | 22 steps | Happy-path: A logged-in user on desktop uses Manus (an AI-assisted product-builder) to create, inspect, edit, and publish an analytics dashboard. Entr
+   steps: Start new task > Choose website template > Confirm dashboard selection > Write detailed brief > Submit prompt > Scaffold initialization > Generated preview and task list 
+F#11739 | GoFundMe | Report Profile | 5 steps | This happy path starts on a GoFundMe profile page that is marked private, with a visible Follow button and a discover-suggestions panel below. The use
+   steps: Private Profile > Action Menu > Report Details > Issue Selection > Submission Confirmation
+F#1540 | Airtable | AI-guided base generator | 15 steps | Happy-path: A signed-in user with access to an empty Airtable workspace uses the Cobuilder (AI) flow to generate a new base. Entry point: Empty worksp
+   steps: Empty workspace > Start method chooser > Cobuilder: initial prompt > Select use-case tags > Company details modal open > Fill company details > Open color picker > Color 
+F#5226 | TravelPerk  | Export reporting data | 4 steps | Happy path: a signed-in user on the Reporting overview opens the Download report modal to export raw data. The modal lets the user choose a date range
+   steps: Reporting overview > Download report — initial column selection > Download report — customize columns > Download report — start generation
+F#10845 | MonoDesk  | Manage Completed Tasks | 3 steps | Happy path: A signed-in user opens the Completed Tasks view, scans or searches the list, selects multiple completed tasks using row checkboxes, and pe
+   steps: View Completed Tasks > Select Multiple Tasks > Perform Bulk Action and Refresh List

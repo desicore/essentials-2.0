@@ -1,0 +1,38 @@
+{
+  "module": "08-recordings-course-reports",
+  "title": "Access Recordings / Course Reports \u2192 Learner portal",
+  "intro": "Research for Essentials 2.0: Semester \u2192 Courses \u2192 recordings and course reports \u2192 Learner Portal. Two connected tasks: manage sensitive session recordings, and understand course and learner outcomes. Evidence covers captured product interfaces; gaps are explicitly distinguished from absent product capabilities.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Recording organisation (by event / by learner / by scenario) and search",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "Access control on recordings (learner sees own only, group, time-limited)",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "Playback enrichments (chapters, transcript, annotations, timestamps) \u2014 link to Elevate's AI video annotation / chapterization",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Report structure: overview \u2192 per-learner drill-down \u2192 export",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "Metrics shown by default (completion, attendance, score, mastery) and comparability across cohorts",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "Learner-side results view: same data, simplified",
+      "answer": ""
+    }
+  ],
+  "references": []
+}

@@ -1,0 +1,237 @@
+{
+  "references": [
+    {
+      "id": "refero:1429d347-5ed3-4ac6-b9d1-f906e69c23e9",
+      "source": "refero",
+      "app": "Vimeo",
+      "title": "Video content library",
+      "kind": "screen",
+      "url": "https://refero.design/pages/1429d347-5ed3-4ac6-b9d1-f906e69c23e9",
+      "images": [
+        "https://images.refero.design/screenshots/vimeo.com/desktop/401689ce-29ed-449a-850b-b658196b15c6_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Vimeo’s captured content library combines persistent navigation, search, cards, and pagination for browsing a large video collection.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:be4decc5-73a3-4f88-adc9-7bafc805c606",
+      "source": "refero",
+      "app": "Vimeo",
+      "title": "Video platform dashboard",
+      "kind": "screen",
+      "url": "https://refero.design/pages/be4decc5-73a3-4f88-adc9-7bafc805c606",
+      "images": [
+        "https://images.refero.design/screenshots/vimeo.com/desktop/c978a339-7b98-47c0-90ee-91ae52e293e6_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "A second Vimeo capture shows library browsing organized around a clear content area with search and card based media discovery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:2ffee53c-1948-45bf-9485-1b57ef99632f",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Students management dashboard",
+      "kind": "screen",
+      "url": "https://refero.design/pages/2ffee53c-1948-45bf-9485-1b57ef99632f",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/f6edb416-f450-4810-b873-e14a2d6e7de4_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Teachable’s students view exposes a dedicated roster context with dropdown and action sheet controls for learner management.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:05b1ac38-615f-4bd9-97ef-7d19fbac8575",
+      "source": "refero",
+      "app": "ElevenLabs",
+      "title": "Transcript and timestamp comments editor",
+      "kind": "screen",
+      "url": "https://refero.design/pages/05b1ac38-615f-4bd9-97ef-7d19fbac8575",
+      "images": [
+        "https://images.refero.design/screenshots/elevenlabs.io/desktop/2a399531-f316-4bd9-b7dc-8dbd152f0dab_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "The captured editor places synchronized text, playback, timeline, and comments together so annotations can be tied to media moments.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:2c7281ee-2f0a-4667-ab56-fddcd1aeb7cc",
+      "source": "refero",
+      "app": "ElevenLabs",
+      "title": "Speech transcription and playback",
+      "kind": "screen",
+      "url": "https://refero.design/pages/2c7281ee-2f0a-4667-ab56-fddcd1aeb7cc",
+      "images": [
+        "https://images.refero.design/screenshots/elevenlabs.io/desktop/_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "The search result describes a transcription interface centered on synchronized speech and playback, useful as evidence for transcript enriched review.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:1af9df42-74ad-4c9c-af09-6abed26c80a0",
+      "source": "refero",
+      "app": "Attio",
+      "title": "Analytics report dashboard",
+      "kind": "screen",
+      "url": "https://refero.design/pages/1af9df42-74ad-4c9c-af09-6abed26c80a0",
+      "images": [
+        "https://images.refero.design/screenshots/attio.com/desktop/9d52c465-226d-4ac4-a0d5-8523b24f0aa8_thumb_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "Attio’s report capture shows an analytics dashboard where report content is directly inspected and edited in context.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:ca73bf7d-b644-4b08-9961-643b70fed7e0",
+      "source": "refero",
+      "app": "Dub",
+      "title": "Filterable analytics dashboard",
+      "kind": "screen",
+      "url": "https://refero.design/pages/ca73bf7d-b644-4b08-9961-643b70fed7e0",
+      "images": [
+        "https://images.refero.design/screenshots/dub.com/desktop/_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "The search result explicitly tags filter and sorting controls in an analytics dashboard, supporting cohort and date comparison patterns.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:fb6de8d1-eec4-44ec-9a0c-5243aa683b90",
+      "source": "refero",
+      "app": "Google Classroom",
+      "title": "Assignments and grading product view",
+      "kind": "screen",
+      "url": "https://refero.design/pages/fb6de8d1-eec4-44ec-9a0c-5243aa683b90",
+      "images": [
+        "https://images.refero.design/screenshots/google.com/desktop/264df831-43eb-4e0a-8bd0-7dba908f9d3e_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "Google Classroom’s assignments capture grounds education reporting around assignment work and grading context.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:71341bdd-e8e6-403b-9ca0-75111a59fb00",
+      "source": "refero",
+      "app": "Duolingo",
+      "title": "Learner account and progress area",
+      "kind": "screen",
+      "url": "https://refero.design/pages/71341bdd-e8e6-403b-9ca0-75111a59fb00",
+      "images": [
+        "https://images.refero.design/screenshots/duolingo.com/desktop/_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "The search result describes a learner-facing Duolingo account area with a minimal app-like layout for personal learning status.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:f8efafb5-ed2b-42f2-afe1-c1e1d40cabbd",
+      "source": "refero",
+      "app": "Apollo GraphQL",
+      "title": "Certification landing view",
+      "kind": "screen",
+      "url": "https://refero.design/pages/f8efafb5-ed2b-42f2-afe1-c1e1d40cabbd",
+      "images": [
+        "https://images.refero.design/screenshots/apollographql.com/desktop/_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "The captured certification page visibly centers an educational credential outcome, a useful learner-side completion reference.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9808",
+      "source": "refero",
+      "app": "Flask.do",
+      "title": "Add audio comment to video timestamp",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9808",
+      "images": [
+        "https://images.refero.design/screenshots/flask.do/desktop/3522c271-50a8-4724-b2c1-48a59621d83d_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/6895951a-ee09-4f22-8683-73b434bd54af_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/b90913a1-990a-4510-9e6c-6026142e5f96_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "The flow runs from a video with comments and timeline to recording, processing, and a timestamp associated audio comment with optional text.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:5226",
+      "source": "refero",
+      "app": "TravelPerk",
+      "title": "Export reporting data",
+      "kind": "flow",
+      "url": "https://refero.design/flows/5226",
+      "images": [
+        "https://images.refero.design/screenshots/travelperk.com/desktop/5b61cb6f-a47b-4270-9a1b-0e10ad315f3d_thumb.jpg",
+        "https://images.refero.design/screenshots/travelperk.com/desktop/cdc2ea2a-a5c4-4c42-90bc-2d23f29b9bd7_thumb.jpg",
+        "https://images.refero.design/screenshots/travelperk.com/desktop/e61ac789-3972-432f-bd99-20c5a83f8544_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "The reporting flow opens Download report, selects date basis and filters, customizes columns, then generates Excel or CSV output.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:816",
+      "source": "refero",
+      "app": "Aboard",
+      "title": "Create employee report",
+      "kind": "flow",
+      "url": "https://refero.design/flows/816",
+      "images": [
+        "https://images.refero.design/screenshots/aboardhr.com/desktop/21c90ea3-dfcd-4713-89f3-d31b7f8a7b7b_thumb.jpg",
+        "https://images.refero.design/screenshots/aboardhr.com/desktop/2c399a35-c0c3-4dad-8d94-7fa75028dc08_thumb.jpg",
+        "https://images.refero.design/screenshots/aboardhr.com/desktop/738a1793-ab60-4a48-9dea-7fbc5a008021_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "The flow moves from Analytics > Reports to naming a report, inspecting its populated table, and returning to a reports list with the new report.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9615",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Issue student certificate",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9615",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/fadf95f9-f6b5-410a-b8c0-9ebdb6d9d940_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/0d169918-1bdf-4e41-b317-891f295bce62_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/3ce58fc1-5ee3-454b-83c3-2ee035c64617_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "The instructor flow drills into one student’s enrollments, opens row actions, selects a certificate, confirms issuance, and sees the Certificates table updated.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

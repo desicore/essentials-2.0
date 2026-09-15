@@ -1,0 +1,3 @@
+=== FLOWS: open recording transcript and add timestamp comment (total 1)
+F#9808 | Flask.do | Add audio comment to video timestamp | 7 steps | Happy path: A reviewer watches a video and adds an audio comment tied to the video's current timestamp. Entry point: reviewer has a video open with th
+   steps: Video with comments visible > Open recording/device options > Select voice recording mode > Start recording > Upload / processing state > Add optional text/note to audio 

@@ -1,0 +1,11 @@
+=== SCREENS: course analytics dashboard attendance completion scores per learner (total 1000)
+S 1af9df42-74ad-4c9c-af09-6abed26c80a0 | Attio | ux:  | The screen displays a data analytics dashboard focusing on report generation and visualization. The overall style is clean and professional with a whi
+S a90d4c23-a44d-4142-9cca-c22c24334ca3 | Zendesk | ux: Stats | This screen displays a professional dashboard interface centered around a Benchmark Survey related to customer service metrics. The layout comprises a
+S 130e0d49-19bb-49c4-a2e7-d07f45312a87 | Intercom | ux: Select,Product Features,Trial & Freemium | The screen presents a subscription plan comparison interface with a clear focus on an Advanced trial plan. The top area includes a bold heading in bla
+S 09b1f788-90fa-4b49-a53b-8c396377a96a | Intercom | ux: Select,Product Features,Trial & Freemium | The screen is a modal window overlaying the main interface, featuring a subscription pricing comparison for different plans under an advanced trial. T
+S 89809bfb-f961-4acd-8204-f1fcf0b576e2 | ShareWillow | ux: Empty State,Members | The screen features a clean, professional dashboard interface with a two-part layout: a vertical sidebar on the left and the main content area on the 
+S ca73bf7d-b644-4b08-9961-643b70fed7e0 | Dub | ux: Filter & Sorting,Date & Time,Calendar | The screen is a web-based analytics dashboard with a clean, minimalistic style focusing on data visualization and user interaction. The primary colors
+S a28ee4fa-ebcc-48db-924b-6784f8bedeb7 | Monday | ux: Testimonials,Video Player | The series of screens represents a professional marketing landing page for a business analytics and dashboard platform. The overall style is clean and
+S 261cbc2a-2723-4d8b-9e24-cae4fd1faa83 | Attio | ux:  | The screen is a reporting dashboard focused on displaying the number of companies by their primary location country. The overall style is clean and pr
+S bd6b3146-f630-4826-87a9-41a9fbefba0f | Zendesk | ux:  | The screen exhibits a professional report interface designated for customer experience (CX) analysis. The layout is split into two main vertical secti
+S ec0d69b0-af83-441c-ba1d-ec38d27ab995 | Duolingo | ux:  | The screen is a clean, minimalist Duolingo settings/courses interface with a very light neutral background and strong use of whitespace. The overall v

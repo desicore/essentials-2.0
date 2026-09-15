@@ -1,0 +1,21 @@
+=== FLOWS: instructor opens course report filters by student and exports (total 191)
+F#9855 | Acuity Scheduling  | Client Import/Export | 7 steps | Happy-path: A signed-in user on a desktop workspace imports client records from a CSV and then views the updated client list. Entry point is the Clien
+   steps: Import/Export Landing > Choose CSV File > CSV Selected > Preview Client Import (Mapping Required) > Preview Confirmed (Column Labels Applied) > Import Success Banner > Cl
+F#9547 |  Teachable | School setup and course creation | 3 steps | Happy path summary: An authenticated school owner/admin views an empty Students list, is prompted (or redirected) to authorize access to their account
+   steps: Students — Empty state > Authorize account access > Create course outline onboarding
+F#9640 |  Teachable | Instructor onboarding and trial activation | 13 steps | Happy path: A new instructor discovers Teachable, clicks to get started, creates an account (name/email/password), enters billing to start a 7-day Bui
+   steps: Marketing landing > Create an account - blank form > Create an account - filled form > Start trial - billing & plan selection > Billing validation errors > Provisioning /
+F#11830 | Duolingo | Remove Language Course | 3 steps | Happy path for removing a language course from a logged-in Duolingo account. Entry point is the Courses settings section, where the user sees enrolled
+   steps: Courses List > Removal Confirmation > Updated Courses State
+F#9613 |  Teachable | Add and enroll student | 5 steps | Happy path: An administrator (logged in) opens the Students section, clicks Add Students, fills in one or more student records manually, optionally en
+   steps: Students list overview > Add Students modal (manual mode) > Populate fields and enable enrollment > Import feedback > Updated students list
+F#2080 | ShareWillow | Bulk CSV import for People | 4 steps | Happy-path: A signed-in user opens the People section, launches the Bulk Import modal, selects a CSV (using a provided sample template), confirms the 
+   steps: People list (initial) > Bulk Import modal (no file) > Bulk Import modal (file selected) > People list (after import)
+F#4562 | The Leap  | Bulk contact import | 6 steps | Happy-path: A merchant on the Contacts screen opens the Import contacts modal, uploads a CSV (Email, Name), starts the import, and the UI shows upload
+   steps: Contacts list (entry) > Import modal - instructions > File selected > Uploading > Import queued - confirmation > Final contacts list and quota update
+F#9573 |  Teachable | Create and publish course | 34 steps | Happy-path: Instructor creates a new course from the Courses list, steps through a 5-step guided wizard (title/description, thumbnail, pricing, pricin
+   steps: Courses list (start) > Wizard — Title & Description > Wizard — Continue enabled > Wizard — Add thumbnail > Upload modal — select file > Thumbnail preview > Wizard — Prici
+F#9614 |  Teachable | Student tagging (select & add tag) | 6 steps | Admin (logged-in instructor/manager) views the Students list, selects one or more students, opens the Bulk Actions menu, chooses "Add Tag to User(s)",
+   steps: Students list (default) > Select student(s) > Open Bulk Actions > Add Tag modal appears > Enter tag and confirm > Success confirmation and return to list
+F#9615 |  Teachable | Student Certificate Issuance | 6 steps | Happy path: an administrator/instructor navigates to a single student's Enrollments section, locates the course row, opens the row actions and chooses
+   steps: View Enrollments > Open Course Actions > Launch Issue Certificate Modal > Select Certificate > Confirm Issuance > View Issued Certificate

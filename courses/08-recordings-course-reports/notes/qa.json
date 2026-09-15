@@ -1,0 +1,37 @@
+{
+  "h2": [
+    "Recording organisation (by event / by learner / by scenario) and search",
+    "Access control on recordings (learner sees own only, group, time-limited)",
+    "Playback enrichments (chapters, transcript, annotations, timestamps) — link to Elevate's AI video annotation / chapterization",
+    "Report structure: overview → per-learner drill-down → export",
+    "Metrics shown by default (completion, attendance, score, mastery) and comparability across cohorts",
+    "Learner-side results view: same data, simplified"
+  ],
+  "cards": 37,
+  "images": 60,
+  "broken": [],
+  "external": [],
+  "synthesis": true,
+  "comparisonRows": 10,
+  "overflow": false,
+  "lightbox": true,
+  "search": true,
+  "reset": true,
+  "mobileOverflow": false,
+  "errors": [],
+  "bytes": 3712422,
+  "products": [
+    "Loom",
+    "Vimeo",
+    "Zoom",
+    "Grain",
+    "Circle",
+    "Kajabi",
+    "SchoolAI",
+    "Uxcel",
+    "Mixpanel",
+    "Coursera"
+  ],
+  "counterExamples": 3,
+  "selected": 0
+}
