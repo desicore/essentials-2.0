@@ -1,0 +1,23 @@
+{
+  "source": "mobbin",
+  "queries": [
+    "file upload area with drag and drop inside a course editor",
+    "attach existing file from library or add external link modal",
+    "course materials page with uploaded files links and videos organised in sections",
+    "instructor uploads files and adds links to a course module",
+    "reusing a file from a shared content library in a new course"
+  ],
+  "retained_ids": [
+    "mobbin:41a7198a-cb8b-4e01-8082-f4b6ddf7f73b",
+    "mobbin:26e60a25-e5dd-4eff-aa2c-4ea33f1f9a2f",
+    "mobbin:38f8a761-116d-45ce-ad0c-b2d5f89c7e98",
+    "mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4",
+    "mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8",
+    "mobbin:ce6bd4c3-a5bf-4936-9052-271f2415fe4b",
+    "mobbin:b9a7ca6e-c921-4ca5-9579-c18e634a7612",
+    "mobbin:d167e236-9aec-4856-8c79-27389df500a2",
+    "mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2",
+    "mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6",
+    "mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea"
+  ]
+}

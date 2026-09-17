@@ -1,0 +1,22 @@
+{
+  "h2": [
+    "Group-as-unit enrolment (attach a group, membership stays synced) vs. copy-at-enrol",
+    "Preview of impact before confirming (member count, conflicts, already enrolled)",
+    "Roster view: status, role, group origin, exceptions visible",
+    "Bulk paths (CSV, code/link, integration) alongside manual add",
+    "Capacity / waitlist / enrolment window handling",
+    "Notifications to learners on enrolment (seam with 07/09 — note only)"
+  ],
+  "cards": 21,
+  "images": 43,
+  "broken": [],
+  "externalImages": 0,
+  "synthesis": true,
+  "badAnchors": [],
+  "overflow": false,
+  "lightbox": true,
+  "search": true,
+  "mobileOverflow": false,
+  "errors": [],
+  "bytes": 1990442
+}

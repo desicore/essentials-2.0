@@ -1,0 +1,57 @@
+{
+  "question": "Q4",
+  "verdicts": [
+    {
+      "app": "Udemy",
+      "status": "yes",
+      "text": "Section objective is embedded above nested curriculum content; no explicit assessment or competency mapping.",
+      "refs": ["mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47"]
+    },
+    {
+      "app": "Asana",
+      "status": "yes",
+      "text": "Analogue: explicit goal-to-project attach flow with downstream progress roll-up.",
+      "refs": [
+        "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948",
+        "mobbin:497f13ae-8101-487c-9bc2-477b6effce96",
+        "mobbin:2435925c-c007-4f9d-a529-32bdc976aa68"
+      ]
+    },
+    {
+      "app": "Linear",
+      "status": "unknown",
+      "text": "Marketing hero mentions planning, but no initiative or downstream relation is visible.",
+      "refs": ["refero:957512a1-de88-42af-9586-1a9e3b1a1a0c"]
+    }
+  ],
+  "reject": [
+    {
+      "id": "refero:957512a1-de88-42af-9586-1a9e3b1a1a0c",
+      "reason": "No initiative-to-project or other objective-to-work relationship is visible."
+    },
+    {
+      "id": "mobbin:497f13ae-8101-487c-9bc2-477b6effce96",
+      "reason": "Standalone goal dashboard does not visibly identify connected supporting work."
+    },
+    {
+      "id": "mobbin:2435925c-c007-4f9d-a529-32bdc976aa68",
+      "reason": "Standalone goal detail says no sub-goals are connected and does not show a linked project."
+    }
+  ],
+  "takeCorrections": [
+    {
+      "id": "mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47",
+      "take": "Udemy attaches a learning objective to a curriculum section containing nested lecture/content controls; it does not prove objective mapping to an individual lesson, assessment, or competency."
+    },
+    {
+      "id": "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948",
+      "take": "Asana's sampled previews show a goal-to-project connection from empty state, through project search, to a connected row with progress roll-up; this is a cross-domain analogue."
+    }
+  ],
+  "counterCandidates": [
+    {
+      "id": "refero:957512a1-de88-42af-9586-1a9e3b1a1a0c",
+      "reason": "Broad planning language without an observable relationship control or linked entity."
+    }
+  ]
+}

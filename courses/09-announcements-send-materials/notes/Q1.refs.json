@@ -1,0 +1,151 @@
+{
+  "question": "Q1",
+  "title": "Composer: audience targeting (course / group / individual), attachment of course materials, scheduling",
+  "references": [
+    {
+      "id": "mobbin:25c42c82-898e-423e-83aa-24f51379f3b9",
+      "source": "mobbin",
+      "app": "Basecamp",
+      "title": "Message scheduling with date/time and audience notification options",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/25c42c82-898e-423e-83aa-24f51379f3b9",
+      "take": "Schedule post interface with date/time pickers and options for who should see the message and notification preferences.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A25c42c82-898e-423e-83aa-24f51379f3b9/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:53e9bdad-e9b2-43f9-9018-b50c458aed37",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Scheduling a post with file attachments flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/53e9bdad-e9b2-43f9-9018-b50c458aed37",
+      "take": "Multi-step flow for creating and scheduling a post with upload and attachment capabilities, targeting students.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A53e9bdad-e9b2-43f9-9018-b50c458aed37/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A53e9bdad-e9b2-43f9-9018-b50c458aed37/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A53e9bdad-e9b2-43f9-9018-b50c458aed37/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A53e9bdad-e9b2-43f9-9018-b50c458aed37/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A53e9bdad-e9b2-43f9-9018-b50c458aed37/4.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A53e9bdad-e9b2-43f9-9018-b50c458aed37/5.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A53e9bdad-e9b2-43f9-9018-b50c458aed37/6.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A53e9bdad-e9b2-43f9-9018-b50c458aed37/7.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:fcc604e7-819a-421f-8448-430d4e2f2fda",
+      "source": "mobbin",
+      "app": "Confluence",
+      "title": "Creating an announcement flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fcc604e7-819a-421f-8448-430d4e2f2fda",
+      "take": "Full announcement creation flow including content composition, banner styling, audience targeting, and publishing.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afcc604e7-819a-421f-8448-430d4e2f2fda/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afcc604e7-819a-421f-8448-430d4e2f2fda/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afcc604e7-819a-421f-8448-430d4e2f2fda/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afcc604e7-819a-421f-8448-430d4e2f2fda/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afcc604e7-819a-421f-8448-430d4e2f2fda/4.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afcc604e7-819a-421f-8448-430d4e2f2fda/5.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afcc604e7-819a-421f-8448-430d4e2f2fda/6.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afcc604e7-819a-421f-8448-430d4e2f2fda/7.jpg"
+      ]
+    },
+    {
+      "id": "refero:19605564-a5ad-4b12-867b-678a4e2e6f13",
+      "source": "refero",
+      "app": "Google Classroom",
+      "title": "Stream composer: \"Announce to class\" box with All students picker",
+      "kind": "screen",
+      "url": "https://refero.design/pages/19605564-a5ad-4b12-867b-678a4e2e6f13",
+      "take": "The class Stream page pairs a lightweight \"Announce something to your class\" text box with a \"For / All students\" audience dropdown directly above it, showing that audience targeting can live as one control next to the compose field instead of a separate step.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A19605564-a5ad-4b12-867b-678a4e2e6f13/0.jpg"
+      ]
+    },
+    {
+      "id": "refero:863",
+      "source": "refero",
+      "app": "LinkedIn",
+      "title": "LinkedIn: compose a post, then open a date/time scheduling dialog",
+      "kind": "flow",
+      "url": "https://refero.design/flows/863",
+      "take": "LinkedIn's composer exposes a scheduling entry point in the compose toolbar that opens a dedicated date-and-time picker before the post is queued, showing how scheduling can be an optional side-dialog off the main composer rather than a separate screen or mode.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A863/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A863/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A863/2.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:fd356e91-8285-4f2c-a807-3cb7c80a5981",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Scheduling a message flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fd356e91-8285-4f2c-a807-3cb7c80a5981",
+      "take": "Multi-step message scheduling flow showing date picker, time selection, and channel target.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afd356e91-8285-4f2c-a807-3cb7c80a5981/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afd356e91-8285-4f2c-a807-3cb7c80a5981/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afd356e91-8285-4f2c-a807-3cb7c80a5981/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afd356e91-8285-4f2c-a807-3cb7c80a5981/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afd356e91-8285-4f2c-a807-3cb7c80a5981/4.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afd356e91-8285-4f2c-a807-3cb7c80a5981/5.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afd356e91-8285-4f2c-a807-3cb7c80a5981/6.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Afd356e91-8285-4f2c-a807-3cb7c80a5981/7.jpg"
+      ]
+    },
+    {
+      "id": "refero:9617",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Teachable: compose and send a broadcast email to a recipient group",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9617",
+      "take": "Teachable's Compose flow (built to compose \"a new announcement or message to users\") has the course admin write a subject/body, pick a recipient group, confirm in a modal, and land on a success acknowledgement — showing that a minimal 4-screen composer-plus-confirm pattern is enough for an announcement tool inside an education product.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A9617/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A9617/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A9617/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A9617/3.jpg"
+      ]
+    },
+    {
+      "id": "refero:4564",
+      "source": "refero",
+      "app": "The Leap",
+      "title": "The Leap: broadcast composer with template, editor, and recipient segments",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4564",
+      "take": "The Leap's broadcast flow chains a template chooser into a rich-text editor with a dedicated recipients dropdown for picking one or more contact segments, then forces a review-and-confirm modal before send and finishes on a sent-state screen with immediate analytics — a model for pairing audience targeting with an explicit confirm step in a course composer.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A4564/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A4564/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A4564/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A4564/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A4564/4.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A4564/5.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A4564/6.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A4564/7.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:16eb85ed-35c2-40ca-a1d5-feef221e7e3d",
+      "source": "mobbin",
+      "app": "Whop",
+      "title": "Scheduling an announcement flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/16eb85ed-35c2-40ca-a1d5-feef221e7e3d",
+      "take": "End-to-end flow showing announcement creation with publishing and scheduling as two distinct actions.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A16eb85ed-35c2-40ca-a1d5-feef221e7e3d/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A16eb85ed-35c2-40ca-a1d5-feef221e7e3d/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A16eb85ed-35c2-40ca-a1d5-feef221e7e3d/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A16eb85ed-35c2-40ca-a1d5-feef221e7e3d/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A16eb85ed-35c2-40ca-a1d5-feef221e7e3d/4.jpg"
+      ]
+    }
+  ]
+}

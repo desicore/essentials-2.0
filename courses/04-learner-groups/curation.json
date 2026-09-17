@@ -1,0 +1,145 @@
+{
+  "retained": 21,
+  "products": 12,
+  "dropped": [
+    {
+      "id": "mobbin:ff1c2564-7b26-4aa7-ac0d-39e9236ed4ec",
+      "app": "ClassDojo",
+      "question": "Q3",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:0655a94a-197a-4a2b-baaf-a963499cd0d6",
+      "app": "Productboard",
+      "question": "Q3",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:464a297d-2355-443d-8123-d61f80c4a72c",
+      "app": "Circle",
+      "question": "Q4",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:07103cd7-8353-4578-88fb-3c767153613d",
+      "app": "Fireflies",
+      "question": "Q2",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:0e3d16c1-c125-418d-91e0-2a18b696bcaa",
+      "app": "Teachable",
+      "question": "Q1",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:a9834b56-5fda-406a-accc-7d4ddf1b9868",
+      "app": "Gusto",
+      "question": "Q5",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:09f791a4-1954-4035-bbdc-38daff566e6f",
+      "app": "Asana",
+      "question": "Q1",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:898ffefa-af8f-45f2-a3b5-e42dcef375ad",
+      "app": "ClassDojo",
+      "question": "Q1",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:93308d91-4265-4564-8f88-55767a43decd",
+      "app": "Quizlet",
+      "question": "Q2",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:f8dde66b-8a78-42a9-963b-77ed81e386c0",
+      "app": "Quizlet",
+      "question": "Q2",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:f5282384-b96e-4069-a5c3-5ed062ef8c63",
+      "app": "Discord",
+      "question": "Q2",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:6a88635a-0413-4666-b830-e74fbfa3bcfc",
+      "app": "Teachable",
+      "question": "Q5",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:a2019073-36ec-45bd-b226-d04f6fa7d609",
+      "app": "Featurebase",
+      "question": "Q6",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:87033d09-924f-4073-8a38-c2adfc2b271f",
+      "app": "Square",
+      "question": "Q6",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:9ed7eb7a-41ca-4528-a891-9ffb44f60dcf",
+      "app": "Fresha",
+      "question": "Q5",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:5999c70c-4a03-4145-b344-aeb0d24e45ba",
+      "app": "Meetup",
+      "question": "Q5",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "mobbin:a1406eb9-2579-4a6f-a16c-84e7f37ba4a2",
+      "app": "Asana",
+      "question": "Q6",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "refero:15a1b600-261c-4889-9438-cad957236183",
+      "app": "Teachable",
+      "question": "Q4",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "refero:35697ad5-2976-4ede-acf9-7bec3360f48f",
+      "app": "Teachable",
+      "question": "Q1",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "refero:bfec5414-633e-4a7f-b53d-d6eb7563c1f7",
+      "app": "Teachable",
+      "question": "Q3",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "refero:69e79aed-e795-47bb-be76-5025a8f8d88a",
+      "app": "Linear",
+      "question": "Q2",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "refero:6e7c436d-ec26-4227-b23b-a3977f6544a1",
+      "app": "Slack",
+      "question": "Q6",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    },
+    {
+      "id": "refero:da334082-7e3b-4aac-b0c6-71c5cc894f09",
+      "app": "1Password",
+      "question": "Q2",
+      "reason": "Out of course-side scope, redundant, weaker than retained evidence, or removed by source deduplication."
+    }
+  ],
+  "rationale": "Prioritized screenshot-backed course-side patterns and a 12-product comparison over padding the 30\u201350 target."
+}

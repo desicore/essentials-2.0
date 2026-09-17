@@ -1,0 +1,572 @@
+{
+  "module": "06-events",
+  "references": [
+    {
+      "id": "refero:1843",
+      "source": "refero",
+      "app": "Luma",
+      "title": "Creating an event and picking/creating the owning calendar (course tag equivalent)",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1843",
+      "images": [
+        "https://images.refero.design/screenshots/lu.ma/desktop/ee8cace5-07f8-4820-a962-8f88786ddb0c_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/cce9c33e-83e8-4d8a-8896-c17f76f33671_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/2b1ba7ab-9222-4def-84d3-6f26ea2d91a6_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/aa88c927-be7f-4d71-adbc-1bff5a11e63f_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/01b0f72d-dd2f-4234-9fb7-062306c7bd9b_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/f2363b35-2902-44fd-9d94-117683e779e8_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/eacab711-171d-4953-96a2-ce29fba36ef9_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/5c894509-1ae9-4134-bafd-0d0c918b70c6_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Luma requires choosing or creating a \"calendar\" (the container/tag) as part of event creation, showing a global-calendar-with-tag pattern rather than an inline-in-course surface.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:5222",
+      "source": "refero",
+      "app": "TravelPerk",
+      "title": "Creating a team event from a global Events area, then viewing its detail overview",
+      "kind": "flow",
+      "url": "https://refero.design/flows/5222",
+      "images": [
+        "https://images.refero.design/screenshots/travelperk.com/desktop/f20400ad-aaf6-44cb-b69d-27ee3c8b0807_thumb.jpg",
+        "https://images.refero.design/screenshots/travelperk.com/desktop/c6d04461-9f12-479d-a18c-9eb85c7f4339_thumb.jpg",
+        "https://images.refero.design/screenshots/travelperk.com/desktop/8820613e-1b6e-4e67-ada9-673889044a34_thumb.jpg",
+        "https://images.refero.design/screenshots/travelperk.com/desktop/e08e3a67-6d59-4695-a140-7c4f4208b574_thumb.jpg",
+        "https://images.refero.design/screenshots/travelperk.com/desktop/16c67542-5d88-44b6-9264-480c2829013a_thumb.jpg",
+        "https://images.refero.design/screenshots/travelperk.com/desktop/5e470b0a-9f31-4470-aaef-b3fbffbb95c5_thumb.jpg",
+        "https://images.refero.design/screenshots/travelperk.com/desktop/cfd4ebdf-e711-4975-92e7-541008ffc1a3_thumb.jpg",
+        "https://images.refero.design/screenshots/travelperk.com/desktop/f754b27b-e4b0-4c3e-a851-ea661bcebf53_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "TravelPerk events are created from a dedicated global Events area and then reviewed on a detail overview page, separate from any specific project/course context.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9859",
+      "source": "refero",
+      "app": "Acuity Scheduling",
+      "title": "Defining an appointment type globally, then offering/scheduling it onto the calendar",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9859",
+      "images": [
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/823ef5fb-426d-4614-8fed-14ebdb79a386_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/735592c7-0ab7-42a9-80d1-28da45745a97_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/86fa7f47-12db-412a-a5da-c5d913cc3c8b_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/c68fbe14-768d-416f-9095-5eff3a17dc04_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/8f720de3-71de-492c-aede-bafd4d5ce0a8_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/e5b7d2a4-2b57-48ba-9407-42ecd21dd8b9_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/7e8c0675-8a52-47a4-a90c-f7bfdb7537c3_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/c7412f8d-563b-4cf9-8d6e-4fbe9673ca1e_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Acuity separates defining the reusable class/appointment type (global catalog) from the act of scheduling an instance onto the calendar, a two-step global-catalog pattern.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:12719",
+      "source": "refero",
+      "app": "Understory",
+      "title": "Creating a calendar event by selecting an existing \"Experience\" and adding a resource",
+      "kind": "flow",
+      "url": "https://refero.design/flows/12719",
+      "images": [
+        "https://images.refero.design/screenshots/understory.io/desktop/c3ac6cc7-598d-44c3-81ef-8b80ee06030e_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/690609dd-6b74-4d31-8d98-dc308511e1fd_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/a92cb0c2-2373-4445-8dc4-295ef52d7818_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/9d375e35-925d-4558-87b3-05ef87353e8e_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/855f9397-0a41-4c47-a8b3-1507b3d3ff2f_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/a308d06b-c184-423d-9a7c-d568bcd26f85_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/164911d1-f3c1-4b1b-a575-69dfec2a449f_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/2c3dc248-a866-4c21-8fb7-77c212fe0c02_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "The event creation flow requires selecting an existing Experience (content) to link the event to before adding capacity and resources, showing an explicit content-to-event link step.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9226",
+      "source": "refero",
+      "app": "Preply",
+      "title": "Rescheduling a lesson from the student's lesson list, tied to a specific lesson/tutor",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9226",
+      "images": [
+        "https://images.refero.design/screenshots/preply.com/desktop/e5fd2d66-3bbe-4ee1-bf62-2706fa252e7f_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/fa8714c0-cf01-43e1-bd8c-1b8ee72e7654_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/194f3fd6-0efa-4033-bf82-9e2d1a0bf379_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/17211362-aed8-4055-bd6a-251bb72952e5_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/6075ffa4-0edf-4028-a9b0-c2fca6249b99_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/de5fdf98-ac49-4319-b5a8-b324341edc25_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/5212a829-449d-4191-8254-9dcd39f6319b_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/04dd3ae9-2bf5-4829-8e8e-2429a95b0464_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "The lesson session is always surfaced from within the specific lesson/tutor relationship, showing the event as inherently linked to one learning context rather than a separate calendar object.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9868",
+      "source": "refero",
+      "app": "Acuity Scheduling",
+      "title": "Opening an event and seeing a conflict warning that another event is blocking the same resource/time",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9868",
+      "images": [
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/9c815cb5-ce7e-48e0-be4d-56013fe737e9_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/2c14541b-a07a-4b7f-953a-2d4f663d47a6_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/c639e553-3834-46f8-ba25-dad88839c0cf_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/45ad2e97-10be-4433-aff2-29b456619d43_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/4eaf8f58-0e3c-478a-b953-b2f6b4030cb0_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "The event detail panel shows an explicit conflict warning naming the blocked resource (a room) and time when opening a class that overlaps another booking, directly surfacing a resource conflict at the point of viewing/editing.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:6310",
+      "source": "refero",
+      "app": "time2book",
+      "title": "Creating a class and configuring weekly recurrence with specific weekday selection",
+      "kind": "flow",
+      "url": "https://refero.design/flows/6310",
+      "images": [
+        "https://images.refero.design/screenshots/time2book.me/desktop/04fe952a-edbe-4306-91c9-f36c69160f26_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/a9534a71-bcf5-495c-9944-576d9cb2783d_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/14484bc4-c064-42e9-8c7a-82e1dcc37045_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/712dab8e-7797-469b-a9d1-b92964f28821_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/c6b5a0ff-7fbb-44c5-b6d4-a0795a62cfe4_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/105dceef-091b-425b-b4b0-dd97693257b7_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/dce4da7a-57b0-4e14-93fd-8a8b534364b1_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/d8c10b5d-9dff-45a1-9903-256932e6620c_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Recurrence is configured as a distinct sub-step (Open Repeat Options > Choose Weekly Recurrence > Confirm Weekday Selection) after the base class details are set.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:12705",
+      "source": "refero",
+      "app": "Understory",
+      "title": "Setting a custom recurrence rule and end date when adding a date/location to an experience",
+      "kind": "flow",
+      "url": "https://refero.design/flows/12705",
+      "images": [
+        "https://images.refero.design/screenshots/understory.io/desktop/14a1937a-b2a3-4c44-9a05-a8a9a62c467c_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/229bd63f-3e4e-40fa-8fee-a52a42808707_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/0e59c998-1354-4c6b-9478-8199073708dd_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/db964d7a-0a13-4fe9-bc97-f071b882a62f_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/a4b63dc4-37e9-4544-9b56-040d0dd235b2_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/4ddb0e84-51e2-47b2-bd59-a7378ca74dae_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/d28a6b48-c862-4b7c-a4fc-f568d2c644cd_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Custom recurrence is its own dialog with an explicit end-date picker, separate from the base date/location entry, letting the end condition be set independently of the start.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9721",
+      "source": "refero",
+      "app": "Microsoft Teams",
+      "title": "Scheduling a meeting with attendees, date/time, and a recurrence rule via a modal",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9721",
+      "images": [
+        "https://images.refero.design/screenshots/live.com/desktop/7f36dcaf-6fad-47ea-bfea-b15469d379d7_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/53826bca-6927-409e-81a5-292d39bfff3c_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/e6cf8d97-429f-4fd5-b9a1-1afdf5a51e7e_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/4214d47e-adb1-4f90-beff-6bec3613e3ce_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/51fcce29-c552-4361-a357-ede3c058bc73_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/103149a6-5481-4efd-a8d9-addc40dbb67d_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/a0e330fa-447c-449a-ac11-69cde869ffab_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/e82eae7e-0237-46e0-af43-4086b0bea0e6_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Recurrence is set through a dedicated control that opens a modal for rules and end date, embedded in the same form as attendees and date/time rather than a separate screen.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:1848",
+      "source": "refero",
+      "app": "Luma",
+      "title": "Converting a single event into a multi-session series and adjusting the cadence",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1848",
+      "images": [
+        "https://images.refero.design/screenshots/lu.ma/desktop/eacab711-171d-4953-96a2-ce29fba36ef9_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/e3954d63-f01f-4396-96c3-94710186dab6_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/7b6520a6-1aed-4558-8415-a120e97b3341_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/eb35d3e5-bbdc-48b3-9e74-64a78b0014f6_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/969b42e9-b7ad-488a-b876-e3b344df3bc1_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/ff4f2826-26b8-4fb5-b626-9681fff371eb_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/7849aea1-a9b8-4205-996e-230159f12860_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Luma treats a multi-session event as a conversion step from a single event, with its own modal for adding sessions manually or configuring a recurring cadence.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9872",
+      "source": "refero",
+      "app": "Acuity Scheduling",
+      "title": "Rescheduling one appointment instance from the weekly calendar (single-instance edit)",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9872",
+      "images": [
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/d16b5335-6c0f-4e33-a69e-0fd11558fb4d_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/f2cd3758-cfb4-49cc-8a17-185af24c2216_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/80ddc28e-8602-431b-99d9-76a512a24cea_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/6b88fdfe-1986-41a8-a229-f51f2b242b30_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/c4a5ef34-a67a-4021-9032-0a3d83fbda53_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/6f1b9933-ac49-4421-954e-60a77cc7d99c_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "This flow only reschedules a single appointment instance with no this/following/all series choice presented, illustrating the simpler single-instance edit pattern.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:12709",
+      "source": "refero",
+      "app": "Understory",
+      "title": "Setting up a resource type with follow-up duration and quantity for booking",
+      "kind": "flow",
+      "url": "https://refero.design/flows/12709",
+      "images": [
+        "https://images.refero.design/screenshots/understory.io/desktop/a3718038-ce96-4cfc-86bb-a74900d2db89_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/9ca7cb58-169f-4802-863c-a865b7b21e23_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/10d6747c-4ff2-4636-bec9-936d85baa275_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/f09281b8-8e31-4800-b8cf-74d0d16b0bc0_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/e8af9da1-f99a-4cf1-ad83-38fcf9bd25e5_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/4b7007ba-14f0-4774-9f20-f7ac9ceb1adb_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/c21788b1-a533-402f-ae89-2dc93acff1bf_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/b5440945-9e4f-4c08-ad2a-0a60ddaeb4cc_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "Resources are modeled as their own type with a defined quantity, which is the mechanism by which the system could prevent double-booking, though no live conflict warning is shown at creation.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4117",
+      "source": "refero",
+      "app": "Reclaim AI",
+      "title": "Adding attendees to a Smart Meeting and viewing each attendee's calendar status",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4117",
+      "images": [
+        "https://images.refero.design/screenshots/reclaim.ai/desktop/718ecd13-285a-4454-bf7f-a14b5f6d6145_thumb.jpg",
+        "https://images.refero.design/screenshots/reclaim.ai/desktop/ea888e87-feee-48d8-931d-7e5800829ccd_thumb.jpg",
+        "https://images.refero.design/screenshots/reclaim.ai/desktop/58c0391f-a02a-4316-8871-6347807c78c8_thumb.jpg",
+        "https://images.refero.design/screenshots/reclaim.ai/desktop/f6f494cf-1b7c-44b9-90fc-08a0f9690c49_thumb.jpg",
+        "https://images.refero.design/screenshots/reclaim.ai/desktop/686c4848-8ecb-4b0e-a288-c38735fab7d4_thumb.jpg",
+        "https://images.refero.design/screenshots/reclaim.ai/desktop/d329ca60-01a2-43b4-8699-673a9a8d9e3d_thumb.jpg",
+        "https://images.refero.design/screenshots/reclaim.ai/desktop/a20f82e4-e841-4260-a6ee-bf39fa7b39b2_thumb.jpg",
+        "https://images.refero.design/screenshots/reclaim.ai/desktop/7be0743f-b79c-426c-b1a6-0d75e90e39eb_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "The attendee list shows each person's calendar status (availability) inline during creation, a conflict signal surfaced before the meeting is saved.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:12706",
+      "source": "refero",
+      "app": "Understory",
+      "title": "Editing the capacity of a date/location block for an experience",
+      "kind": "flow",
+      "url": "https://refero.design/flows/12706",
+      "images": [
+        "https://images.refero.design/screenshots/understory.io/desktop/d28a6b48-c862-4b7c-a4fc-f568d2c644cd_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/1551befe-060b-41b0-999a-5e2ca99fdab0_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/7db5499d-8050-4934-90bf-54545c3bc200_thumb.jpg",
+        "https://images.refero.design/screenshots/understory.io/desktop/22a270ec-8a7e-4c7d-b19c-8ae38c5a8560_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "Capacity is edited as its own discrete step directly on the date/location block, independent from other event fields.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:10204",
+      "source": "refero",
+      "app": "Partiful",
+      "title": "RSVPing to an event and adding a plus-one from the event details screen",
+      "kind": "flow",
+      "url": "https://refero.design/flows/10204",
+      "images": [
+        "https://images.refero.design/screenshots/partiful.com/desktop/ce736eec-0544-4954-9e49-92a9b39f67c2_thumb.jpg",
+        "https://images.refero.design/screenshots/partiful.com/desktop/5ad44f87-7b49-4a70-811a-201fdaf6989d_thumb.jpg",
+        "https://images.refero.design/screenshots/partiful.com/desktop/a4d398d6-edb6-4195-bc8b-0dbd61a4e63f_thumb.jpg",
+        "https://images.refero.design/screenshots/partiful.com/desktop/10ddb836-e290-44c8-bbcf-846f2248e3b9_thumb.jpg",
+        "https://images.refero.design/screenshots/partiful.com/desktop/50cf64b1-4205-43ce-9217-6670ea4edbbf_thumb.jpg",
+        "https://images.refero.design/screenshots/partiful.com/desktop/dd9ab56b-122f-44d9-b800-61ed6c6a1256_thumb.jpg",
+        "https://images.refero.design/screenshots/partiful.com/desktop/1a3876a2-4004-4756-81f2-14c1c73923aa_thumb.jpg",
+        "https://images.refero.design/screenshots/partiful.com/desktop/a9187741-cbf5-4fa1-89d0-d45608c69945_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "Sign-up is modeled as an RSVP action with an explicit plus-one addition, showing attendance capacity being tracked per invitee rather than a generic ticket count.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:3371",
+      "source": "refero",
+      "app": "SavvyCal",
+      "title": "Reviewing a scheduled event and inviting an additional guest",
+      "kind": "flow",
+      "url": "https://refero.design/flows/3371",
+      "images": [
+        "https://images.refero.design/screenshots/savvycal.com/desktop/f005a83f-3918-4ad4-849f-53d04e732d9b_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/981a23db-fbcd-4626-a9b6-4aeceb54c899_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/d5c2ab2b-c568-449a-8e68-e60c9002d86f_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/a714f344-deb3-4f6b-8ad0-8e1cef6f010d_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/2c6e951f-2578-451c-b986-bd76ceb0a345_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "Attendees can be added to an already-scheduled event after the fact via an \"Invite a guest\" modal, showing sign-up/attendance as an ongoing editable list rather than fixed at creation.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:7186",
+      "source": "refero",
+      "app": "Homerun",
+      "title": "Scheduling an interview: picking a template, date, start time, duration, and location",
+      "kind": "flow",
+      "url": "https://refero.design/flows/7186",
+      "images": [
+        "https://images.refero.design/screenshots/homerun.co/desktop/6c0db08e-9b97-4cce-a805-50f052e11fe5_thumb.jpg",
+        "https://images.refero.design/screenshots/homerun.co/desktop/4edacd76-466c-448e-8c63-10eedeef06a3_thumb.jpg",
+        "https://images.refero.design/screenshots/homerun.co/desktop/2d387951-2b96-43e8-8c25-5b18b72b6da8_thumb.jpg",
+        "https://images.refero.design/screenshots/homerun.co/desktop/2e9dcf0b-c2ab-4351-9e06-1f1ecb107b44_thumb.jpg",
+        "https://images.refero.design/screenshots/homerun.co/desktop/ae2bb683-177b-4e6f-b6d0-6833f4bd405b_thumb.jpg",
+        "https://images.refero.design/screenshots/homerun.co/desktop/e5925ff0-7869-4d3d-9941-b5a39b60ac43_thumb.jpg",
+        "https://images.refero.design/screenshots/homerun.co/desktop/73771f58-e92d-41db-be55-61eec8de852e_thumb.jpg",
+        "https://images.refero.design/screenshots/homerun.co/desktop/f80fd2e4-6815-467f-9c42-fbef6c0e89b3_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "Duration is set as its own explicit control separate from start time, after which end time is presumably derived, rather than requiring the user to pick an end time directly.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9746",
+      "source": "refero",
+      "app": "Microsoft Teams",
+      "title": "Creating a community event from an empty events state through the full new-event form",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9746",
+      "images": [
+        "https://images.refero.design/screenshots/live.com/desktop/d22f7642-1682-4450-b71a-63110446c0cd_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/d22f7642-1682-4450-b71a-63110446c0cd_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/230c9659-473c-4065-b163-6d01099cdf81_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/230c9659-473c-4065-b163-6d01099cdf81_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/b6375c49-79dd-4135-bd8e-26fe7b26ebef_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/b6375c49-79dd-4135-bd8e-26fe7b26ebef_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/a19f116d-7a83-49c4-a264-90c0e3992260_thumb.jpg",
+        "https://images.refero.design/screenshots/live.com/desktop/a19f116d-7a83-49c4-a264-90c0e3992260_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "The new-event form surfaces start date/time controls with default values pre-filled, reducing the time-entry burden inside a long creation flow.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:3492",
+      "source": "refero",
+      "app": "Cal",
+      "title": "Rescheduling a booking by picking a new date and time slot from availability",
+      "kind": "flow",
+      "url": "https://refero.design/flows/3492",
+      "images": [
+        "https://images.refero.design/screenshots/cal.com/desktop/803348a9-7a2e-4cb5-b1e7-5abfeb15c6f0_thumb.jpg",
+        "https://images.refero.design/screenshots/cal.com/desktop/1106c366-946c-457e-9bde-3fd500937b83_thumb.jpg",
+        "https://images.refero.design/screenshots/cal.com/desktop/0486e29f-5cdf-4c42-9860-d9a7f327010a_thumb.jpg",
+        "https://images.refero.design/screenshots/cal.com/desktop/dfbcff86-e763-4d16-905f-867a34b20d69_thumb.jpg",
+        "https://images.refero.design/screenshots/cal.com/desktop/a55b223a-b454-4df7-98ac-cd12433b531d_thumb.jpg",
+        "https://images.refero.design/screenshots/cal.com/desktop/3a0e38dd-ac86-4768-ac3d-3e981c3eba29_thumb.jpg",
+        "https://images.refero.design/screenshots/cal.com/desktop/ffe5ff68-d130-4a4c-a693-03064f24960f_thumb.jpg",
+        "https://images.refero.design/screenshots/cal.com/desktop/8bc0e519-8fb8-430a-825a-ac437cdc79a8_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "Time slots are generated from a week/day availability grid tied to the organizer's working hours, implying time zone conversion happens behind the slot grid rather than via a manual selector.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:df769788-29a1-4768-94e1-cd5d7ca0e2f9",
+      "source": "refero",
+      "app": "Calendly",
+      "title": "Scheduled events dashboard listing all events with a global Create button",
+      "kind": "screen",
+      "url": "https://refero.design/pages/df769788-29a1-4768-94e1-cd5d7ca0e2f9",
+      "images": [
+        "https://images.refero.design/screenshots/calendly.com/desktop/1f65041b-7e2a-4fcf-96bf-b32727077056_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Calendly lists all scheduled events in one global dashboard with a single Create action, rather than event creation living inside a specific course/project context.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:c1012b72-e463-47a1-ae55-2a61e5bf1451",
+      "source": "refero",
+      "app": "Acuity Scheduling",
+      "title": "Scheduling setup screen with sidebar navigation separate from any course/class content area",
+      "kind": "screen",
+      "url": "https://refero.design/pages/c1012b72-e463-47a1-ae55-2a61e5bf1451",
+      "images": [
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/4bdc47a7-59f8-48b4-9867-0071e4e70722_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Acuity's scheduling setup lives in its own dedicated sidebar section, structurally separated from any single class/content area.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:20c8ba7c-4cf4-4afe-ac52-cf3f62712cf2",
+      "source": "refero",
+      "app": "Google Classroom",
+      "title": "Online classroom dashboard showing a course with its associated stream/content",
+      "kind": "screen",
+      "url": "https://refero.design/pages/20c8ba7c-4cf4-4afe-ac52-cf3f62712cf2",
+      "images": [
+        "https://images.refero.design/screenshots/google.com/desktop/23e89daf-2d83-4729-8f7b-fa59549f72c1_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Google Classroom anchors all activity, including scheduled work, inside a single course dashboard, showing content and class membership tightly coupled to one course.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:f2ebd16a-b856-4b54-abe1-3adcd8f4bd0c",
+      "source": "refero",
+      "app": "Luma",
+      "title": "Public event page combining event details with descriptive content in one view",
+      "kind": "screen",
+      "url": "https://refero.design/pages/f2ebd16a-b856-4b54-abe1-3adcd8f4bd0c",
+      "images": [
+        "https://images.refero.design/screenshots/lu.ma/desktop/cdb1d744-2780-4ea5-9a5d-4e2dc8462af3_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "The event page merges the event's logistics with its descriptive/linked content into a single public-facing view, an example of a fully bidirectional event-content link.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:335bcf72-a662-4f55-9721-84117891f55e",
+      "source": "refero",
+      "app": "Acuity Scheduling",
+      "title": "New Type of Class form for defining a class/appointment type before scheduling it",
+      "kind": "screen",
+      "url": "https://refero.design/pages/335bcf72-a662-4f55-9721-84117891f55e",
+      "images": [
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/735592c7-0ab7-42a9-80d1-28da45745a97_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "The class-type form is where capacity and other constraints are defined, but no room/facilitator/equipment conflict field or warning appears on this creation form.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:023aed7b-e219-4ddc-8374-63091cfda3f7",
+      "source": "refero",
+      "app": "Understory",
+      "title": "Centered modal for creating/editing an event/session with no resource-conflict field shown",
+      "kind": "screen",
+      "url": "https://refero.design/pages/023aed7b-e219-4ddc-8374-63091cfda3f7",
+      "images": [
+        "https://images.refero.design/screenshots/understory.io/desktop/023aed7b-e219-4ddc-8374-63091cfda3f7_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "This creation modal exposes standard event fields but no visible resource or conflict-check field, illustrating how conflict surfacing is often absent from the base creation form.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:ac852836-7888-46c4-9db9-cd40e0b117e3",
+      "source": "refero",
+      "app": "time2book",
+      "title": "Schedule management interface for a studio showing classes across a calendar grid",
+      "kind": "screen",
+      "url": "https://refero.design/pages/ac852836-7888-46c4-9db9-cd40e0b117e3",
+      "images": [
+        "https://images.refero.design/screenshots/time2book.me/desktop/33514abd-aeca-48c1-9b4e-911eb0cf870c_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "The studio schedule view lists classes on a calendar grid, the surface from which capacity and attendance for each class instance would be managed.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:6509f1bf-b86b-4fa9-b311-e7877f057df4",
+      "source": "refero",
+      "app": "Calendly",
+      "title": "New one-off meeting form with date/time fields in a modal",
+      "kind": "screen",
+      "url": "https://refero.design/pages/6509f1bf-b86b-4fa9-b311-e7877f057df4",
+      "images": [
+        "https://images.refero.design/screenshots/calendly.com/desktop/5aa943c6-e481-492b-a1b2-64fe2d652159_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "The one-off meeting form keeps date and time entry compact in a single modal, without a visibly separate time zone selector on this step.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:41e81b79-a016-4ac1-ad64-c714dd3e403c",
+      "source": "refero",
+      "app": "Microsoft Teams",
+      "title": "Event creation interface with dedicated date/time form fields",
+      "kind": "screen",
+      "url": "https://refero.design/pages/41e81b79-a016-4ac1-ad64-c714dd3e403c",
+      "images": [
+        "https://images.refero.design/screenshots/live.com/desktop/15cd9890-b1fa-4b84-87e7-bf50759b29df_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "Date and time inputs are laid out as clearly separated form fields within the event creation interface, a baseline pattern for time entry.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 1000,
+    "total_pages": 100
+  },
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/miro.com/desktop/53c52bfc-2d97-4529-8182-c468bcab95bd_thumb.jpg",
+      "hex_colors": [
+        "0xF9F4EE",
+        "0x201F20",
+        "0xE0CD3B",
+        "0x3951DB",
+        "0xAAA98E"
+      ],
+      "uuid": "380e93c3-f85c-40a2-86a5-45d57e7fcf3b",
+      "page_url": "https://miro.com/templates/",
+      "site": {
+        "id": 80,
+        "domain": "miro.com",
+        "description": "The Innovation Workspace",
+        "name": "Miro",
+        "background_url": "https://images.refero.design/backgrounds/miro.com/d387eb29-fefd-4f8f-8bc0-4f81a05dd5b8.jpg",
+        "refero_url": "https://refero.design/websites/80",
+        "categories": [
+          "Business",
+          "Productivity",
+          "Collaboration Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/miro.com/1ad46a02-ab56-4425-a85b-9582d54a13d1.jpg",
+        "background_color": "d3a417"
+      },
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Search Field",
+        "Footer",
+        "Icon",
+        "Product Image"
+      ],
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/380e93c3-f85c-40a2-86a5-45d57e7fcf3b",
+      "content": {
+        "description": "The screen is a web page titled 'Templates Library' designed to showcase a variety of ready-made templates for team collaboration and productivity. The page background is a light cream color (#FAF7F0 approx.). The header section includes a simple navigation bar with a small yellow and black Miro logo on the left, followed by text menu items such as 'What is Miro', 'Solutions', 'Resources', 'Enterpr..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/asana.com/desktop/4a58da63-57f2-4432-99a8-09f7b3b663e7_thumb.jpg",
+      "hex_colors": [
+        "0xDF676B",
+        "0x5F9E82",
+        "0xF0EEEF",
+        "0x8E8D9E",
+        "0x161618"
+      ],
+      "uuid": "2f9ca733-05a6-4742-9fb3-fedf27d8bff5",
+      "page_url": "https://asana.com/templates",
+      "site": {
+        "id": 69,
+        "domain": "asana.com",
+        "description": "Manage your team's work, projects, & tasks online",
+        "name": "Asana",
+        "background_url": "https://images.refero.design/backgrounds/asana.com/61eac9b6-8561-4e82-87c1-3d32f34cad57.jpg",
+        "refero_url": "https://refero.design/websites/69",
+        "categories": [
+          "Business",
+          "Productivity",
+          "Project Management",
+          "Collaboration Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/asana.com/b29c9dd3-0fe8-4afe-8a56-faced2fcf181.jpg",
+        "background_color": "e88d8d"
+      },
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Page Control & Pagination",
+        "Navigation Bar",
+        "Sidebar & Drawer",
+        "Footer",
+        "Icon",
+        "Logo Wall",
+        "Product Image"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/2f9ca733-05a6-4742-9fb3-fedf27d8bff5",
+      "content": {
+        "description": "This is a clean, professional web page designed to showcase a comprehensive template library for project and business management. The page uses a predominantly white and light gray color palette (#FFFFFF for backgrounds, light gray #F7F7F7 for section backgrounds) with black (#000000) and dark gray text for maximum readability. The typography is modern and sans-serif, with a large, bold heading \"Te..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/clearful.com/desktop/d9830145-1083-410c-a44f-753116ae62e0_thumb.jpg",
+      "hex_colors": [
+        "0x2C43F9",
+        "0x333333",
+        "0xF8F8F8",
+        "0xAFB0B3",
+        "0x6A7AF9"
+      ],
+      "uuid": "53fe57f7-4f3d-417b-9133-ff264227711a",
+      "page_url": "https://app.clearful.com/#/library/journal-templates/new",
+      "site": {
+        "id": 542,
+        "domain": "clearful.com",
+        "description": "The Best Journal and Diary App for Personal Growth",
+        "name": "Clearful",
+        "background_url": "https://images.refero.design/backgrounds/clearful.com/bec226cd-3f32-41d9-9928-50ee7f641669.jpg",
+        "refero_url": "https://refero.design/websites/542",
+        "categories": [
+          "Health & Wellness"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/clearful.com/4f278ce7-d350-4fb1-858a-b6703dd079c6.jpg",
+        "background_color": "81a0fe"
+      },
+      "ux_patterns": [
+        "Article & Text",
+        "Text Editing",
+        "Add & Create",
+        "Templates"
+      ],
+      "ui_elements": [
+        "List",
+        "Button",
+        "Floating Button",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Toolbar",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/53fe57f7-4f3d-417b-9133-ff264227711a",
+      "content": {
+        "description": "The screen presents a clean, minimalist interface for creating a template within an application. The layout is divided into two main vertical sections: a left sidebar and a main content area on the right. The left sidebar has a white background (#FFFFFF) and contains navigation items arranged vertically with subtle gray text (#4A4A4A) and icons. The sidebar includes a \"BETA\" badge at the top left, ..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/linear.app/desktop/08b9d6db-886b-44e5-9a6e-5ce56d8052ea_thumb.jpg",
+      "hex_colors": [
+        "0x595959",
+        "0xA1A1A1",
+        "0x7C7C7C",
+        "0xF4F4F4",
+        "0x848484"
+      ],
+      "uuid": "0bf0c0ae-1343-40be-88d1-f481ce3765fe",
+      "page_url": "https://linear.app/refero-design/settings/issue-templates",
+      "site": {
+        "id": 26,
+        "domain": "linear.app",
+        "description": "Plan and build products",
+        "name": "Linear",
+        "background_url": "https://images.refero.design/backgrounds/linear.app/a75103fa-ecbc-4b2c-a617-ff353794df22.jpg",
+        "refero_url": "https://refero.design/websites/26",
+        "categories": [
+          "Business",
+          "Productivity",
+          "Project Management",
+          "Collaboration Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/linear.app/8e3d7b39-f7e8-4915-84cc-6eea6511835e.jpg",
+        "background_color": "81a0fe"
+      },
+      "ux_patterns": [
+        "Empty State",
+        "Templates"
+      ],
+      "ui_elements": [
+        "List",
+        "Button",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [
+        "Settings"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/0bf0c0ae-1343-40be-88d1-f481ce3765fe",
+      "content": {
+        "description": "The screen displays an 'Issue templates' management interface within a workspace or project management tool. The layout features a left sidebar with navigation links grouped under categories such as Preferences, Issues, Projects, and Features, each with relevant sub-items. The main content area is a centered panel with a white background and subtle shadow, containing the page title 'Issue templates..."
+      },
+      "flows": [
+        {
+          "id": 6698,
+          "name": "Creating new issue template",
+          "step": 1,
+          "total_steps": 4
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/ballparkhq.com/desktop/183a04bb-0dab-470c-b380-d1d2eb59f863_thumb.jpg",
+      "hex_colors": [
+        "0x0C1015",
+        "0xFBFBFB",
+        "0x2D4B70",
+        "0x989CA3",
+        "0x61666D"
+      ],
+      "uuid": "920907f9-8ca3-4e70-8e10-dfabbdf303dd",
+      "page_url": "https://ballparkhq.com/templates",
+      "site": {
+        "id": 563,
+        "domain": "ballparkhq.com",
+        "description": "Product research so simple, you'll never skip it again",
+        "name": "Ballpark",
+        "background_url": "https://images.refero.design/backgrounds/ballparkhq.com/7c68a27a-0bd0-4277-b29e-8ae1b3e4c171.jpg",
+        "refero_url": "https://refero.design/websites/563",
+        "categories": [
+          "Business",
+          "Productivity",
+          "Communication Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/ballparkhq.com/a61259ab-67d5-46b2-888e-4f2ac6cbc1e2.jpg",
+        "background_color": "e79479"
+      },
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Footer",
+        "Icon",
+        "Product Image"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/920907f9-8ca3-4e70-8e10-dfabbdf303dd",
+      "content": {
+        "description": "The screen displays a web page for a 'Templates library' featuring a large, bold title 'Templates library' centered at the top. Below the title is a subtitle guiding users to start research with various test templates related to usability, surveys, prototypes, branding, etc. The background is a very light grey with subtle dotted texture for slight depth. The main navigation bar sits near the top be..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/cycle.app/desktop/c000eecc-431b-4e46-a0bf-1c56831d6b93_thumb.jpg",
+      "hex_colors": [
+        "0x14141B",
+        "0x97989A",
+        "0xF3F7FB",
+        "0x747474",
+        "0x2D45E1"
+      ],
+      "uuid": "d3e6105c-591d-4ae7-a59c-b59f6b3b8009",
+      "page_url": "https://www.cycle.app/integrations/notion",
+      "site": {
+        "id": 504,
+        "domain": "cycle.app",
+        "description": "Your feedback hub, on autopilot",
+        "name": "Cycle",
+        "background_url": "https://images.refero.design/backgrounds/cycle.app/f239db22-2f4f-4438-a796-325526f7d169.jpg",
+        "refero_url": "https://refero.design/websites/504",
+        "categories": [
+          "Business",
+          "Productivity"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/cycle.app/35c43180-d5f2-4b21-9889-72b8e91ddea8.jpg",
+        "background_color": "81a0fe"
+      },
+      "ux_patterns": [
+        "Suggestion & Similar Items"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Floating Button",
+        "Dropdown",
+        "Badge",
+        "Breadcrumb",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Hero Image",
+        "Gradient",
+        "Product Image"
+      ],
+      "page_types": [
+        "Integration Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/d3e6105c-591d-4ae7-a59c-b59f6b3b8009",
+      "content": {
+        "description": "The screens present a detailed integration and product feature overview, focusing on a collaboration tool named 'Notion' within a product called Cycle. The style is clean, professional, and minimalistic, using a mostly white background with light blue (#f0f4ff) section backgrounds to distinctly separate content areas. Text colors are primarily black (#000000) for headings and dark gray (#333333) fo..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/linear.app/desktop/169a6955-1666-4a83-9612-cfc7192afd50_thumb.jpg",
+      "hex_colors": [
+        "0x5A5A5A",
+        "0xA1A1A1",
+        "0x7C7C7C",
+        "0x848484",
+        "0xF4F4F4"
+      ],
+      "uuid": "41ec115b-4969-45ae-a8f3-07206439a0de",
+      "page_url": "https://linear.app/refero-design/settings/issue-templates",
+      "site": {
+        "id": 26,
+        "domain": "linear.app",
+        "description": "Plan and build products",
+        "name": "Linear",
+        "background_url": "https://images.refero.design/backgrounds/linear.app/a75103fa-ecbc-4b2c-a617-ff353794df22.jpg",
+        "refero_url": "https://refero.design/websites/26",
+        "categories": [
+          "Business",
+          "Productivity",
+          "Project Management",
+          "Collaboration Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/linear.app/8e3d7b39-f7e8-4915-84cc-6eea6511835e.jpg",
+        "background_color": "81a0fe"
+      },
+      "ux_patterns": [
+        "Templates",
+        "Drag & Drop"
+      ],
+      "ui_elements": [
+        "List",
+        "Button",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [
+        "Settings"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/41ec115b-4969-45ae-a8f3-07206439a0de",
+      "content": {
+        "description": "The screen is a clean, minimalistic interface for managing issue templates within a workspace or project management tool. The layout features a left vertical sidebar navigation panel with multiple sections including Preferences, Profile, Notifications, Security & Access, Connected Accounts, Issues, Projects, and Features. Each section contains relevant sub-items such as Labels, Templates, SLAs, Sta..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/glorify.com/desktop/afe207e9-88b7-40e5-b95d-10a836fe4db4_thumb.jpg",
+      "hex_colors": [
+        "0x1B1817",
+        "0x8B47A0",
+        "0x553DCB",
+        "0x9BAAA6",
+        "0x523974"
+      ],
+      "uuid": "1cdaf004-6aa8-459f-80e5-a826ef357b46",
+      "page_url": "https://glorify.com/submit-template",
+      "site": {
+        "id": 583,
+        "domain": "glorify.com",
+        "description": "Online Graphic Design Tool for E-com Business Owners",
+        "name": "Glorify",
+        "background_url": "https://images.refero.design/backgrounds/glorify.com/63a1c562-fe7c-40da-aa35-547c2958dbea.jpg",
+        "refero_url": "https://refero.design/websites/583",
+        "categories": [
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/glorify.com/9d075a4d-fc41-4229-8b8d-15efbbbdf631.jpg",
+        "background_color": "e79479"
+      },
+      "ux_patterns": [
+        "Article & Text",
+        "Video Player"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Thumbnail",
+        "Gradient",
+        "Product Image"
+      ],
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/1cdaf004-6aa8-459f-80e5-a826ef357b46",
+      "content": {
+        "description": "The screens present a 'Submit your template' informational and submission page for a design tool platform named Glorify. The layout features a structured, clean, professional look with a warm off-white (#FEF8EE) background and a black (#000000) heading text for high contrast. The typography uses a bold, large headline font for main headings (approximately 36-48px) with a strong weight, and a smalle..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/raster.app/desktop/3ae5b03d-9a7a-449f-8ba6-c323ed65a07b_thumb.jpg",
+      "hex_colors": [
+        "0xE0E0E0",
+        "0x636363",
+        "0xF92E64",
+        "0x1A1B1B",
+        "0xACACAC"
+      ],
+      "uuid": "50973872-29a4-4dc7-a2b9-61d9f4db882c",
+      "page_url": "https://raster.app/yzn2ael41zlte5/library/settings",
+      "site": {
+        "id": 447,
+        "domain": "raster.app",
+        "description": "Digital asset manager for modern teams",
+        "name": "Raster",
+        "background_url": "https://images.refero.design/backgrounds/raster.app/16466b2c-ce2c-41f1-a4e2-3b661d5b5bba.jpg",
+        "refero_url": "https://refero.design/websites/447",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+        "background_color": "fe2c65"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/50973872-29a4-4dc7-a2b9-61d9f4db882c",
+      "content": {
+        "description": "The screen shows a modal dialog titled \"New Library\" centered on the page with a semi-transparent overlay dimming the background. The modal is a white rounded rectangle with a close (X) button on the top right corner. Inside the modal, there's a heading \"New Library\" in bold, followed by a short descriptive paragraph explaining what a library is and instructing the user to create one for grouping p..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/relume.io/desktop/fb37b33e-fdf8-42b9-aa22-0f54a952ff96_thumb.jpg",
+      "hex_colors": [
+        "0x171616",
+        "0xF3ECEC",
+        "0x5B50F6",
+        "0x6A6766",
+        "0xD35870"
+      ],
+      "uuid": "ce45562b-01d4-4311-a381-46e97f9a3470",
+      "page_url": "https://www.relume.io/saved-components",
+      "site": {
+        "id": 442,
+        "domain": "relume.io",
+        "description": "Websites designed & built faster with AI",
+        "name": "Relume",
+        "background_url": "https://images.refero.design/backgrounds/relume.io/5bbb9f6c-5b3b-4a4e-97be-ed9f697cf14d.jpg",
+        "refero_url": "https://refero.design/websites/442",
+        "categories": [
+          "AI Tool",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/relume.io/7253da19-d1a9-4911-8eb4-2eaa9d12f779.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [
+        "Wish List & Bookmark"
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Product Image"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/ce45562b-01d4-4311-a381-46e97f9a3470",
+      "content": {
+        "description": "The screen displays a component browsing interface for a design or development library platform. The overall style is minimalistic and neutral with a light beige background (#f6f2f0) that provides a soft contrast to text and UI elements. The layout is horizontally split with a fixed left vertical sidebar and a main content area on the right.\n\nThe left sidebar uses a slightly darker beige background..."
+      }
+    }
+  ]
+}

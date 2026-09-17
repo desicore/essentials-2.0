@@ -1,0 +1,493 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 705,
+    "total_pages": 71
+  },
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/promova.com/desktop/7c4aadad-2deb-4481-9872-62e3afb2ab05_thumb.jpg",
+      "hex_colors": [
+        "0x1B40AD",
+        "0x050506",
+        "0x1894F2",
+        "0xF0B850",
+        "0xFBDCDC"
+      ],
+      "uuid": "7f0ad76f-68db-404a-9ac8-ba4f69012e62",
+      "page_url": "https://promova.com/levels/intermediate-english",
+      "site": {
+        "id": 385,
+        "domain": "promova.com",
+        "description": "Promova helps you learn languages with ease!",
+        "name": " Promova",
+        "background_url": "https://images.refero.design/backgrounds/promova.com/ec4a71a8-0bc5-450f-b86c-2933c9ac408f.jpg",
+        "refero_url": "https://refero.design/websites/385",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/promova.com/c715f806-4dad-4de2-84d2-8961d4e4ccfd.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [
+        "FAQ",
+        "Testimonials"
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "Button",
+        "Page Control & Pagination",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Icon",
+        "Illustration",
+        "Hero Image"
+      ],
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/7f0ad76f-68db-404a-9ac8-ba4f69012e62",
+      "content": {
+        "description": "The screens present a detailed landing page for an intermediate (B1 level) English course titled 'B1 Lessons - Intermediate English Course'. The overall style is modern and clean, with a predominantly white background and pastel accent colors (light pink #FFE4E6, light purple #F4F3FF, light blue #DFF6FF, beige #FAF0E6) used in various content sections to separate content visually. Typography uses a..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/apollographql.com/desktop/8a5be574-2fa9-4324-9f25-96e9def5f1df_thumb.jpg",
+      "hex_colors": [],
+      "uuid": "d1602df2-8979-4aeb-877c-8072c5fe6db8",
+      "page_url": "https://www.apollographql.com/tutorials/lift-off-part1",
+      "site": {
+        "id": 79,
+        "domain": "apollographql.com",
+        "description": "The supergraph: a new layer in your stack",
+        "name": "Apollo GraphQL",
+        "background_url": "https://images.refero.design/backgrounds/apollographql.com/67e7fdee-39dc-450b-8fbd-f0fb1f8cdbea.jpg",
+        "refero_url": "https://refero.design/websites/79",
+        "categories": [
+          "Development Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/apollographql.com/7f9953cf-c53e-452c-a825-0c1fdf032e1b.jpg",
+        "background_color": "c2c2c2"
+      },
+      "ux_patterns": [
+        "Tutorial & Education"
+      ],
+      "ui_elements": [
+        "Button",
+        "Footer",
+        "Photo",
+        "Icon",
+        "Illustration",
+        "Hero Image"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/d1602df2-8979-4aeb-877c-8072c5fe6db8",
+      "content": {
+        "description": "The screen is an online course landing page for \"Lift-off I: Basics\". The top includes the logo on the left (a stylized A inside a circle with 'ODYSSEY / LIFT-OFF I: BASICS' next to it) and on the right side there are \"Log in\" and \"Sign up\" buttons with the Sign up button in a prominent purple color (#4B3FF4 approximate) with white text. Below is a large banner area with a subtle line-art illustrat..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/brilliant.org/desktop/b74fb292-6069-45ef-bb39-4baff691bc81_thumb.jpg",
+      "hex_colors": [
+        "0x202020",
+        "0x949594",
+        "0xEABC37",
+        "0xFBFBFB",
+        "0xA0593D"
+      ],
+      "uuid": "e3048d0f-c2c8-4c79-ba93-d4501d06a504",
+      "page_url": "https://brilliant.org/courses/visual-exploration/?from_llp=data-analysis",
+      "site": {
+        "id": 221,
+        "domain": "brilliant.org",
+        "description": "Learn by doing",
+        "name": "Brilliant",
+        "background_url": "https://images.refero.design/backgrounds/brilliant.org/125eaf46-2edc-4f7b-aa1f-6eb09fb5ef12.jpg",
+        "refero_url": "https://refero.design/websites/221",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/brilliant.org/4c115bf8-4d4b-4d96-b3fd-252f55b79181.jpg",
+        "background_color": "36c45a"
+      },
+      "ux_patterns": [
+        "Tutorial & Education"
+      ],
+      "ui_elements": [
+        "Button",
+        "Step Indicator",
+        "Navigation Bar",
+        "Icon",
+        "Illustration",
+        "Animation"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/e3048d0f-c2c8-4c79-ba93-d4501d06a504",
+      "content": {
+        "description": "This set of screens presents an educational course interface titled \"Exploring Data Visually,\" designed for progressive learning in data analysis and visualization. The overall style is clean, modern, and minimalist, with a white background (#FFFFFF) and subtle use of orange (#FCA156) and gray (#A0A0A0 to #4D4D4D) tones for visual hierarchy and emphasis. The typography uses a clear sans-serif font ..."
+      },
+      "flows": [
+        {
+          "id": 4356,
+          "name": "Taking quiz on data visualization",
+          "step": 1,
+          "total_steps": 25
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/apollographql.com/desktop/e979e0fa-9d68-457b-83ec-2e376c767ae2_thumb.jpg",
+      "hex_colors": [
+        "0x1C2443",
+        "0x503EA5",
+        "0xA099D8",
+        "0xF3F4FB",
+        "0xF0B844"
+      ],
+      "uuid": "513f63d2-a0d2-47ad-a8b0-43b24b55ce65",
+      "page_url": "https://www.apollographql.com/tutorials/lift-off-part2",
+      "site": {
+        "id": 79,
+        "domain": "apollographql.com",
+        "description": "The supergraph: a new layer in your stack",
+        "name": "Apollo GraphQL",
+        "background_url": "https://images.refero.design/backgrounds/apollographql.com/67e7fdee-39dc-450b-8fbd-f0fb1f8cdbea.jpg",
+        "refero_url": "https://refero.design/websites/79",
+        "categories": [
+          "Development Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/apollographql.com/7f9953cf-c53e-452c-a825-0c1fdf032e1b.jpg",
+        "background_color": "c2c2c2"
+      },
+      "ux_patterns": [
+        "Article & Text",
+        "Tutorial & Education"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Navigation Bar",
+        "Sidebar & Drawer",
+        "Footer",
+        "Icon",
+        "Illustration",
+        "Thumbnail",
+        "Avatar"
+      ],
+      "page_types": [
+        "Discover"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/513f63d2-a0d2-47ad-a8b0-43b24b55ce65",
+      "content": {
+        "description": "This screen is a detailed tutorial or course page for a technical subject on GraphQL resolvers. The overall style is modern and clean with a light background (#F5F7FA) and dark text (#1F2937) for readability. The header area features the Apollo Odyssey logo on the left with a minimalistic black font and the word \"Odyssey\" in purple (#6B46C1). There is a top navigation with links \"Tutorials\" and \"Ce..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/7fc28226-6814-4eea-bed9-8c44d229a833_thumb.jpg",
+      "hex_colors": [
+        "0x232323",
+        "0x939493",
+        "0xE7F73A",
+        "0xFBFBFB",
+        "0x686866"
+      ],
+      "uuid": "0ff3370a-6b90-4268-9548-6d5e5ec3fb1e",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/courses/2932672/curriculum/lessons/64501257",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Edit",
+        "Video Player"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Switch & Toggle",
+        "Notifications & Toast",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [
+        "Content Management Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/0ff3370a-6b90-4268-9548-6d5e5ec3fb1e",
+      "content": {
+        "description": "The interface is a multi-section dashboard for managing an online course curriculum focused on English proficiency levels. The layout features a vertical navigation sidebar on the left with a dark gray background (#333333) and white text labels. The sidebar includes icons for Home, Setup Guide, Curriculum, Design Templates, Certificates, Information, Pricing, Sales Pages, Embed, Coupons, Upsell Fun..."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 14,
+          "total_steps": 34
+        },
+        {
+          "id": 9576,
+          "name": "Creating quiz with AI",
+          "step": 8,
+          "total_steps": 8
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/5c573e1b-40f5-431f-a325-495b6c14931c_thumb.jpg",
+      "hex_colors": [
+        "0x242424",
+        "0x939393",
+        "0x768CB7",
+        "0xD6E760",
+        "0x696B67"
+      ],
+      "uuid": "ae0ddd1c-f6cf-445f-8767-5fe03e14be6c",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/courses/2932672/comments?tab=recent-comments&page=1",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Comments"
+      ],
+      "ui_elements": [
+        "Button",
+        "Checkbox & Radio",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [
+        "Content Management Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/ae0ddd1c-f6cf-445f-8767-5fe03e14be6c",
+      "content": {
+        "description": "The screen features a clean, minimalistic design with a sidebar on the left and main content area on the right. The sidebar has a dark background (#2E2E2E approx.) with white text (#FFFFFF) in a vertical list format for navigation. The selected item \"Setup guide\" is highlighted with a bright yellow outline (#FFDD00) and text, indicating an active state. The sidebar uses a simple sans-serif font, me..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/duolingo.com/desktop/1a132358-c01e-4498-aff3-284a85e55d4a_thumb.jpg",
+      "hex_colors": [
+        "0x54CA06",
+        "0x15405A",
+        "0x309DDA",
+        "0xA1A8A9",
+        "0xC8CD23"
+      ],
+      "uuid": "1a132358-c01e-4498-aff3-284a85e55d4a",
+      "page_url": "https://www.duolingo.com/learn",
+      "site": {
+        "id": 147,
+        "domain": "duolingo.com",
+        "description": "The world's most popular way to learn",
+        "name": "Duolingo",
+        "background_url": "https://images.refero.design/backgrounds/duolingo.com/b02e2cb9-908b-4a71-9b14-1e52e47e505f.jpg",
+        "refero_url": "https://refero.design/websites/147",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/duolingo.com/b3c7e139-ccf0-44ba-a781-d505dc6004ed.jpg",
+        "background_color": "76ce00"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Progress Bar",
+        "Navigation Bar",
+        "Sidebar & Drawer",
+        "Footer",
+        "Icon",
+        "Illustration"
+      ],
+      "page_types": [
+        "Home Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/1a132358-c01e-4498-aff3-284a85e55d4a",
+      "content": {
+        "description": "The screens show a Duolingo-style language learning path with a very clean, airy, highly gamified interface. The overall aesthetic is playful, friendly, and minimal, with a white background (#FFFFFF) dominating almost the entire canvas and bright accent colors used sparingly to signal progress, active lessons, and promotional actions. The design uses a soft, rounded visual language: rounded rectang..."
+      },
+      "flows": [
+        {
+          "id": 11811,
+          "name": "Taking basic words quiz",
+          "step": 20,
+          "total_steps": 34
+        },
+        {
+          "id": 11813,
+          "name": "Subscribing to Super",
+          "step": 1,
+          "total_steps": 12
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/mural.co/desktop/50c79f7c-c744-403b-9b31-f68ddabe8355_thumb.jpg",
+      "hex_colors": [
+        "0x424241",
+        "0xEB4D50",
+        "0x96969B",
+        "0xF3FBFB",
+        "0xE79596"
+      ],
+      "uuid": "6edb01be-42c4-4918-ba93-f43b4647e327",
+      "page_url": "https://learning.mural.co/courses/getting-started",
+      "site": {
+        "id": 327,
+        "domain": "mural.co",
+        "description": "Collaborative intelligence company",
+        "name": "Mural",
+        "background_url": "https://images.refero.design/backgrounds/mural.co/c85c7d9d-00e3-4e18-a59e-9fbacb1b1bd5.jpg",
+        "refero_url": "https://refero.design/websites/327",
+        "categories": [
+          "Project Management",
+          "Collaboration Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/mural.co/22962141-e745-4b6b-8b49-ea77f11ba569.jpg",
+        "background_color": "d3a417"
+      },
+      "ux_patterns": [
+        "Video Player",
+        "Tutorial & Education"
+      ],
+      "ui_elements": [
+        "Button",
+        "Tabs",
+        "Navigation Bar",
+        "Sidebar & Drawer",
+        "Footer"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/6edb01be-42c4-4918-ba93-f43b4647e327",
+      "content": {
+        "description": "The screens depict an online learning interface focused on a course about visual collaboration. The overall style is clean, modern, and minimalistic with ample white space, using a mainly light gray (#f5f8fb) background with black (#000000) for primary text and muted gray (#6e7174) for secondary text. The accent color is a bright red (#ff4136) used for buttons, highlights, and active states.\n\nThe l..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/duolingo.com/desktop/940b2f47-08f0-4706-ac0d-b9ffb16a1b7a_thumb.jpg",
+      "hex_colors": [
+        "0xD4B62D",
+        "0x54CA06",
+        "0xA3AAAA",
+        "0xFBFBFB",
+        "0x37ADE7"
+      ],
+      "uuid": "940b2f47-08f0-4706-ac0d-b9ffb16a1b7a",
+      "page_url": "https://www.duolingo.com/learn",
+      "site": {
+        "id": 147,
+        "domain": "duolingo.com",
+        "description": "The world's most popular way to learn",
+        "name": "Duolingo",
+        "background_url": "https://images.refero.design/backgrounds/duolingo.com/b02e2cb9-908b-4a71-9b14-1e52e47e505f.jpg",
+        "refero_url": "https://refero.design/websites/147",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/duolingo.com/b3c7e139-ccf0-44ba-a781-d505dc6004ed.jpg",
+        "background_color": "76ce00"
+      },
+      "ux_patterns": [
+        "User Menu"
+      ],
+      "ui_elements": [
+        "Icon",
+        "Popover"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/940b2f47-08f0-4706-ac0d-b9ffb16a1b7a",
+      "content": {
+        "description": "The screen is a Duolingo-style language learning home/dashboard with a highly gamified course-map layout. The overall visual style is playful, friendly, and minimal, using bright accent colors against a mostly white background. The interface is split into three functional zones: a narrow left navigation rail, a large central course path, and a right-side stats panel.\n\nColor palette: the dominant br..."
+      },
+      "flows": [
+        {
+          "id": 11809,
+          "name": "Logging in",
+          "step": 5,
+          "total_steps": 5
+        },
+        {
+          "id": 11826,
+          "name": "Editing ???",
+          "step": 1,
+          "total_steps": 11
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/promova.com/desktop/d5ecd75e-b3e7-4dd1-a0b3-2c6f588a0369_thumb.jpg",
+      "hex_colors": [
+        "0xBBECFB",
+        "0xC22929",
+        "0x060709",
+        "0xC4BCEB",
+        "0xC29F48"
+      ],
+      "uuid": "507bd71f-523a-4978-b238-22a0fa2afad6",
+      "page_url": "https://promova.com/course/appEg4nJkCeG0dOGk",
+      "site": {
+        "id": 385,
+        "domain": "promova.com",
+        "description": "Promova helps you learn languages with ease!",
+        "name": " Promova",
+        "background_url": "https://images.refero.design/backgrounds/promova.com/ec4a71a8-0bc5-450f-b86c-2933c9ac408f.jpg",
+        "refero_url": "https://refero.design/websites/385",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/promova.com/c715f806-4dad-4de2-84d2-8961d4e4ccfd.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [
+        "Tutorial & Education"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Icon",
+        "Illustration"
+      ],
+      "page_types": [
+        "Discover"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/507bd71f-523a-4978-b238-22a0fa2afad6",
+      "content": {
+        "description": "The screen primarily features a minimalist, clean design with a white background (#FFFFFF). At the top left, there is the 'promova' logo in bold black text (approximate HEX #000000). Next to the logo, the top navigation bar contains three items horizontally aligned: 'Course' with a book icon, 'My Tutor' with a user icon, and 'Tests' with a question mark icon. These elements are small and subtle, in..."
+      },
+      "flows": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "question": "Q6",
+  "title": "Learner-side reception (feed, notification, email) and consistency with the portal",
+  "references": [
+    {
+      "id": "mobbin:c1b1c3ad-57ca-4bcc-85fd-3d9e4c062498",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Community course feed with announcements",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/c1b1c3ad-57ca-4bcc-85fd-3d9e4c062498",
+      "take": "Pinned announcement post in course feed showing instructor-to-learner announcement delivery with comments and engagement.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ac1b1c3ad-57ca-4bcc-85fd-3d9e4c062498/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:3edf67a5-b266-45b6-a3a3-69f19d809fa9",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Course announcements feed with pinned posts",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3edf67a5-b266-45b6-a3a3-69f19d809fa9",
+      "take": "Teacher-posted course announcement visible to families showing rich text, imagery, likes, and comments for learner reception.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A3edf67a5-b266-45b6-a3a3-69f19d809fa9/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:36db9592-bedb-47b6-a4ee-78fe6f0fd84c",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Course discussion and activity feed (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/36db9592-bedb-47b6-a4ee-78fe6f0fd84c",
+      "take": "Mobile learner view of course updates including discussion topics and shared resources in chronological activity feed.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A36db9592-bedb-47b6-a4ee-78fe6f0fd84c/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:88ad5199-f31a-4a5b-aadb-3bc0f5536b36",
+      "source": "mobbin",
+      "app": "Microsoft Teams",
+      "title": "Course channel announcements and posts",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/88ad5199-f31a-4a5b-aadb-3bc0f5536b36",
+      "take": "Team channel announcement post with metadata showing how learners receive course updates with reply and engagement options.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A88ad5199-f31a-4a5b-aadb-3bc0f5536b36/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:8e65f9c9-5b08-4303-8a56-ef403676143e",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Activity and announcements inbox (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/8e65f9c9-5b08-4303-8a56-ef403676143e",
+      "take": "Mobile notification and activity inbox showing how learners receive course announcements and mentions in centralized notification interface.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A8e65f9c9-5b08-4303-8a56-ef403676143e/0.jpg"
+      ]
+    },
+    {
+      "id": "refero:471b8f0c-f9ef-4977-99b8-e5c9fbd9c019",
+      "source": "refero",
+      "app": "Spotify",
+      "title": "Spotify notification settings: per-category Email/Push toggles",
+      "kind": "screen",
+      "url": "https://refero.design/pages/471b8f0c-f9ef-4977-99b8-e5c9fbd9c019",
+      "take": "Spotify's Notification settings list content categories (Music, Podcasts, Audiobooks, Concerts, Livestreams), each with its own Email and Push checkboxes, modeling how a learner-facing portal could let people set per-category channel preferences for course communications.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/refero%3A471b8f0c-f9ef-4977-99b8-e5c9fbd9c019/0.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:5a524cf6-b472-4274-b55e-ce307003923b",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course announcements notification and inbox",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5a524cf6-b472-4274-b55e-ce307003923b",
+      "take": "Dedicated announcements interface showing learners how they receive course notifications and shared materials in one organized view.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A5a524cf6-b472-4274-b55e-ce307003923b/0.jpg"
+      ]
+    }
+  ]
+}

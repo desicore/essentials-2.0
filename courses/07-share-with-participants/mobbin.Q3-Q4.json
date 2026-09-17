@@ -1,0 +1,97 @@
+{
+  "references": [
+    {
+      "id": "mobbin:56f720b3-daec-4967-9fc4-60a7f8501c55",
+      "source": "mobbin",
+      "app": "SchoolAI",
+      "title": "AI classroom learner view (preview analogy)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/56f720b3-daec-4967-9fc4-60a7f8501c55",
+      "images": ["https://mobbin.com/api/mcp/short/KxhWjTUk"],
+      "question": "Q3",
+      "take": "Captured SchoolAI editor visibly includes a dark panel labeled ‘Previewing as a student,’ with generated student content and Restart preview, direct evidence of preview availability and a reversible learner-view check.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2510f8c8-90c0-41ab-9f61-3c1a1f4993b9",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Community space home (learner home analogy)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2510f8c8-90c0-41ab-9f61-3c1a1f4993b9",
+      "images": ["https://mobbin.com/api/mcp/short/WRNXCILe"],
+      "question": "Q4",
+      "take": "Captured community home is an adjacent course-home analogy: orient the learner with a clear space title and content entry points above the fold; course progress and next session were not observed.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+    ,{
+      "id": "mobbin:afde5712-b2c0-4fc1-be7b-4ac42446d642",
+      "source": "mobbin", "app": "Circle", "title": "Course community home with content feed", "kind": "screen",
+      "url": "https://mobbin.com/screens/afde5712-b2c0-4fc1-be7b-4ac42446d642", "images": ["https://mobbin.com/api/mcp/short/A0Iktgci"], "question": "Q4",
+      "take": "Captured home puts the community/course identity and latest content in the first view; use this as an adjacent learner-home pattern, with progress and next session needing explicit slots.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:c04c0023-2365-4741-9dc9-4592f491c7ea",
+      "source": "mobbin", "app": "Teachable", "title": "Learner course dashboard", "kind": "screen",
+      "url": "https://mobbin.com/screens/c04c0023-2365-4741-9dc9-4592f491c7ea", "images": ["https://mobbin.com/api/mcp/short/Ycz5amir"], "question": "Q4",
+      "take": "Captured Teachable learner dashboard is direct evidence for a course home: keep the current course context and the next learning action visible above the fold; confirm exact progress/material modules visually before implementation.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:18683325-d982-4756-b06e-4ed52c933b06",
+      "source": "mobbin", "app": "Coursera", "title": "Learner course home", "kind": "screen",
+      "url": "https://mobbin.com/screens/18683325-d982-4756-b06e-4ed52c933b06", "images": ["https://mobbin.com/api/mcp/short/7N4VdV4r"], "question": "Q4",
+      "take": "Captured Coursera learner view provides direct course-home evidence; prioritize a resume/next lesson action and visible course structure, while announcements are not observed in this screenshot.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:b94cf547-03e8-44e7-8508-5bee01102ba9",
+      "source": "mobbin", "app": "Brilliant", "title": "Learning dashboard with progress", "kind": "screen",
+      "url": "https://mobbin.com/screens/b94cf547-03e8-44e7-8508-5bee01102ba9", "images": ["https://mobbin.com/api/mcp/short/Eyg6fTZM"], "question": "Q4",
+      "take": "Captured learning dashboard is adjacent evidence for making progress salient above the fold; it does not establish shared-course announcements or instructor materials.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:f7c1b917-38c1-4e53-96a2-110990ac8fb8",
+      "source": "mobbin", "app": "Codecademy", "title": "Learner course progress home", "kind": "screen",
+      "url": "https://mobbin.com/screens/f7c1b917-38c1-4e53-96a2-110990ac8fb8", "images": ["https://mobbin.com/api/mcp/short/lir7oVxA"], "question": "Q4",
+      "take": "Captured Codecademy course view supports a compact progress plus next-step hierarchy for learner home; announcements were not observed.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:15f84fb7-e67c-4483-b5d5-c5650540b051",
+      "source": "mobbin", "app": "Quizlet", "title": "Mobile learner study home", "kind": "screen",
+      "url": "https://mobbin.com/screens/15f84fb7-e67c-4483-b5d5-c5650540b051", "images": ["https://mobbin.com/api/mcp/short/fmtJeUd1"], "question": "Q4",
+      "take": "Captured mobile learning home is direct device evidence for a prominent resume action and lightweight progress cue; shared announcements are not observed.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:176965ed-84bd-427a-93ca-4d2b95f1660c",
+      "source": "mobbin", "app": "Babbel", "title": "Mobile course progress home", "kind": "screen",
+      "url": "https://mobbin.com/screens/176965ed-84bd-427a-93ca-4d2b95f1660c", "images": ["https://mobbin.com/api/mcp/short/kvFPuvAC"], "question": "Q4",
+      "take": "Captured mobile course home keeps the next lesson and progress close together, a useful above-fold pattern; no instructor materials or announcements observed.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:eaa37d84-6ac3-44d2-a888-35e0198919db",
+      "source": "mobbin", "app": "Skillshare", "title": "Mobile learner class view", "kind": "screen",
+      "url": "https://mobbin.com/screens/eaa37d84-6ac3-44d2-a888-35e0198919db", "images": ["https://mobbin.com/api/mcp/short/UmZeGuL6"], "question": "Q4",
+      "take": "Captured mobile class view is adjacent evidence for course identity plus a clear continue path; treat it as analogy because shared cohort announcements are not shown.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:5c96453b-0c58-434f-94ba-c6d68a8f5bd5",
+      "source": "mobbin", "app": "Canva", "title": "View as learner flow", "kind": "flow",
+      "url": "https://mobbin.com/flows/5c96453b-0c58-434f-94ba-c6d68a8f5bd5", "images": ["https://mobbin.com/api/mcp/short/9Uud2gch", "https://mobbin.com/api/mcp/short/8jpYOkzx"], "question": "Q3",
+      "take": "Captured two-step flow explicitly names View as learner and shows the resulting learner-facing state, strong evidence for a low-friction preview entry and fidelity check.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:02f1cfb0-ef6b-4f9f-8218-bfe24c660981",
+      "source": "mobbin", "app": "Circle", "title": "Preview lesson flow", "kind": "flow",
+      "url": "https://mobbin.com/flows/02f1cfb0-ef6b-4f9f-8218-bfe24c660981", "images": ["https://mobbin.com/api/mcp/short/D4bx4YAx", "https://mobbin.com/api/mcp/short/7uI1T9wO", "https://mobbin.com/api/mcp/short/zUqwqVbi", "https://mobbin.com/api/mcp/short/qA04wl4A", "https://mobbin.com/api/mcp/short/lgk4bCSZ", "https://mobbin.com/api/mcp/short/tYbSTdks"], "question": "Q3",
+      "take": "Captured six-step lesson preview flow shows preview can preserve real lesson navigation and content context; use as evidence for fidelity, with learner role labeling kept visible.", "counter_example": false, "selected": false, "crop": ""
+    },
+    {
+      "id": "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c",
+      "source": "mobbin", "app": "Teachable", "title": "Curriculum preview flow", "kind": "flow",
+      "url": "https://mobbin.com/flows/e6757446-af84-43d5-bed0-da79c9a3826c", "images": ["https://mobbin.com/api/mcp/short/NCJSNnpl", "https://mobbin.com/api/mcp/short/Q2S7MhBR", "https://mobbin.com/api/mcp/short/OezD43Wz"], "question": "Q3", "take": "Captured three-step curriculum preview flow supports checking section order and lesson availability before sharing; it does not by itself prove a separate learner-role toggle.", "counter_example": false, "selected": false, "crop": ""
+    }
+  ]
+}

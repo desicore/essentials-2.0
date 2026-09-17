@@ -1,0 +1,237 @@
+{
+  "id": 5040,
+  "platform": "web",
+  "refero_url": "https://refero.design/flows/5040",
+  "name": "Insert and configure review card component",
+  "screens_count": 7,
+  "description": "Happy path: a designer uses the left Assets panel to find a 'Review Card' component from a shared design system, previews its Details modal, selects a variable mode, inserts an instance onto the About layout on the canvas, and positions it using mouse drag and the right-side inspector. Entry point: design file is open with the canvas visible and the Assets panel expanded. Exit point: a Review Card component instance is added to the canvas and positioned inside the layout. Assumptions: user is signed in, has the design system library enabled, and is editing a desktop layout on the canvas.",
+  "problem": "User goal: add a testimonial / review component to an existing About layout and configure its appearance variant. From the user's perspective they want to quickly find a reusable Review Card, preview available options, pick the correct visual mode (token/variant), insert the instance, and place it in the layout with precise alignment. From the interface perspective the editor exposes an Assets panel (library/categories), a Details modal for inspecting component variants and variable modes, an Insert action, and an inspector for coordinates and spacing. Result: user-perceived outcome — the Review Card appears in the layout at the desired location and visual mode. System-level outcome — an instance of the design system component is added to the canvas, linked to the source library, and its properties (position, chosen variable mode) are recorded in the file.",
+  "site": {
+    "id": 206,
+    "domain": "figma.com",
+    "description": "The Collaborative Interface Design Tool",
+    "name": "Figma ",
+    "background_url": "https://images.refero.design/backgrounds/figma.com/d7090ac7-cd09-48ec-9ea4-c0f9acf820fe.jpg",
+    "refero_url": "https://refero.design/websites/206",
+    "categories": [
+      "Productivity",
+      "Collaboration Tools",
+      "Design & Media Editing"
+    ],
+    "favicon_url": "https://images.refero.design/favicon/figma.com/0b4d9da2-dab3-48a0-b315-cd78a61ef0ca.jpg",
+    "background_color": "8383ec"
+  },
+  "steps": [
+    {
+      "name": "Open Assets library",
+      "screen_id": "e4ae2e5d-23ca-45c0-bc83-cf37481a8d22",
+      "refero_url": "https://refero.design/pages/e4ae2e5d-23ca-45c0-bc83-cf37481a8d22",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/519a268d-a921-43d0-97b2-522c630556bc_thumb.jpg",
+      "goal": "Locate a component from a shared design system",
+      "action": "Open the left Assets panel (libraries list visible) while the About layout is shown on the canvas",
+      "system_response": "Assets panel shows installed/available libraries and top-level thumbnails (design kits, systems). Canvas remains in view.",
+      "ux_patterns": [
+        "Design Editing",
+        "Templates"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "fonts": [
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen is a clean, minimalistic portfolio or 'About Me' page design for a digital artist or designer. The overall style is modern and professional with a soft, neutral color palette featuring primarily white background (#FFFFFF) and brown tones for text accents and buttons (#6B4F3F approx.). The layout is spacious with ample white space for readability and visual balance. Typography uses a sans-serif font with a clear hierarchy: the page title 'About' is bold and large, body text describing the artist is regular weight and smaller, and the form labels are minimal and aligned left. On the right side of the content area is a professional portrait photo of the artist, framed in a square with earth-tone background matching the brown theme. Below the about text, a 'Contact me' form is presented with input fields for first name, last name, email, and a large message textarea. The input fields have light borders and clear placeholders. The submit button is a filled rectangle in the same brown color as the text accent, with white text center-aligned. The navigation bar at the top includes links like 'News/GHT', 'Blog', 'Shop', and a brown button for additional call to action. The layout uses a two-column structure with the left side containing textual content and form, the right side for the portrait image. The page includes subtle UI icons at the bottom possibly for editing or interaction in the design tool environment. The background is solid white with no gradients or textures. The style conveys a professional yet approachable feel suitable for a creative professional's portfolio page.",
+        "layout": "The layout is a clean two-column grid. On the left column, mostly textual content and form fields are vertically arranged with generous padding. The 'About' heading appears at the top, followed by descriptive text. Below that, a contact form includes a row of two small input fields side-by-side (for 'First name' and 'Last name'), stacked vertically with an email input and a large message textarea. The submit button is below the form fields, full width of the form area. The right column contains a large square professional portrait photograph, aligned vertically center relative to the textual column. At the top right is a navigation bar. The left sidebar panel appears to be part of a design tool with additional navigation or asset selection, but it is separate from the main content area. Consistent margins and spacing maintain clarity and balance throughout the screen.",
+        "functions": "Users can read about the artist's background and professional summary presented in a clear text block. They can enter their personal information (first name, last name, email) and a message into the contact form fields. The input fields provide placeholders and labels to guide user input. The 'Submit' button allows users to send their message to the artist, facilitating communication or inquiries. The navigation bar at the top offers links to other related content pages, such as a blog or shop, enhancing website navigation. Overall, the screen enables visitors to learn about the digital artist and easily contact them via a straightforward form submission interface, supporting client interaction and professional lead generation."
+      }
+    },
+    {
+      "name": "Browse component categories",
+      "screen_id": "e60b45ac-883b-4e41-aa60-3d7f039472cf",
+      "refero_url": "https://refero.design/pages/e60b45ac-883b-4e41-aa60-3d7f039472cf",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/3688527b-050d-4301-8646-9b1f2247c5b3_thumb.jpg",
+      "goal": "Find the Cards category inside the chosen design system",
+      "action": "Expand the Simple Design System entry and scroll the categories list (Buttons, Cards, Forms, etc.)",
+      "system_response": "Category list reveals component groups; thumbnails for each group appear under Cards when selected.",
+      "ux_patterns": [
+        "Design Editing",
+        "Templates"
+      ],
+      "ui_elements": [
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail"
+      ],
+      "fonts": [
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen depicts a clean, minimalist artist portfolio or personal about page with a neutral and warm color palette. The background is a very light grey or off-white (approximate HEX #F5F5F5). The layout is divided mainly into two sections: a left section with textual content and form fields, and a right section featuring a portrait photograph of the artist against a muted brown background (approximate HEX #6B4F3F). The 'About' section header uses a bold, modern sans-serif font in black or dark grey (approximate HEX #000000), sized prominently to denote section importance, likely around 24-28px with regular line height and left alignment. The descriptive paragraph below is in a smaller sans-serif font, medium weight, dark grey, with normal line spacing for readability. Beneath is a 'Contact me' subheading, stylized slightly smaller than 'About' but bold and in the same font family. Below this is a simple contact form with labeled text input fields: 'First name', 'Last name', 'Email address', and a large multiline text area labeled 'Your message' with placeholder text in light grey (approximate HEX #9E9E9E). Input fields are rectangular with subtle borders or underlines, in neutral tones, spaced evenly with ample padding for clarity. The 'Submit' button is a rounded rectangle with the warm brown fill color (#6B4F3F) matching the portrait background, white text, sized to span nearly full width under the form fields. The overall alignment is left for text and form inputs, with the photograph aligned to the right side inside a softly rounded rectangle. The entire layout is framed in a subtle card or container with generous white space around elements to create an airy, balanced composition. The style is professional, approachable, and modern, with a clean UI and functional forms, encouraging user engagement through a clear contact interface. No animations are visible; interactions likely include standard button hover states with color or shadow changes.",
+        "layout": "The layout is a two-column structure with a clear vertical division. The left column occupies about 2/3 of the width and contains textual content and form inputs arranged vertically with generous white space. It starts with the main heading 'About' near the top followed by a paragraph of text describing the artist, then a subheading 'Contact me' and a vertical form with four input fields stacked followed by a full-width submit button below. The right column, roughly 1/3 width, houses a portrait image framed within a softly rounded rectangle with consistent margin from top and sides, aligned vertically center relative to the height of the left content. The entire page uses left alignment for text and forms, with consistent horizontal padding on both sides, and ample margin between columns. The overall grid is simple with a single row and two columns, clear spatial hierarchy, and balance between text and visual elements, allowing intuitive scanning and interaction.",
+        "functions": "Users can read about the artist, including their background and approach, gaining insight into their work and styles. They can enter their personal information into the contact form, specifically their first and last names, email address, and a message or inquiry. Visual cues such as field labels and placeholder text guide users on where and what to type. After filling in the form, users can submit their message through the 'Submit' button, which is visually prominent to invite interaction. This screen supports the broader task of enabling potential clients, collaborators, or fans to initiate contact, request information, or provide feedback. The screen effectively combines informational and interactive elements to create a streamlined pipeline from introduction to communication, facilitating clear, efficient user engagement with the artist or designer."
+      }
+    },
+    {
+      "name": "Open Cards thumbnails",
+      "screen_id": "655d2413-a68f-40da-82d0-635ece737505",
+      "refero_url": "https://refero.design/pages/655d2413-a68f-40da-82d0-635ece737505",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/0c3d6694-f61e-4665-a854-6195d69c60cf_thumb.jpg",
+      "goal": "Preview available card components thumbnails to pick a review/testimonial card",
+      "action": "Click the Cards category to show card thumbnails and previews in the Assets panel",
+      "system_response": "Card component thumbnails are displayed in the left panel; canvas header remains selected but components are available for interaction.",
+      "ux_patterns": [
+        "Design Editing",
+        "Templates"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail"
+      ],
+      "fonts": [
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen features a modern personal portfolio webpage layout focusing on an artist's profile. The background is primarily white (#FFFFFF) to keep the design clean and minimalist. On the left side, there is a vertical sidebar containing an asset library panel with thumbnails of design cards and assets. At the top left, the title 'Untitled' is displayed with a small drop-down arrow and a 'Free' label indicating draft status, styled with a simple sans-serif font in black (#000000) or dark gray. The main content area occupies the center and right side of the page. At the top center is a narrow horizontal strip with a thin blue border (#0066FF) housing navigation links: 'Newscraft', 'Blog', 'Shop', and a brown button labeled 'Button' (#7A5B40). The main heading 'About' is bold, using a large sans-serif font (approximately 24-28px), colored in black, left aligned. Below is a paragraph describing the artist Dylan Marks, in regular weight sans-serif font about 14-16px, line height 1.5, left aligned, black or dark gray text (#333333). To the right of the paragraph is a portrait photo of the artist in a brown rounded rectangular frame (#7A5B40), sized roughly 200x200 pixels with rounded corners. Underneath the text content is a 'Contact me' form with labeled fields for 'First name', 'Last name', 'Email address', and 'Your message'. Each form field is a white rectangular text field with subtle gray borders (#CCCCCC), neat spacing, and placeholders in lighter gray. The 'Submit' button below the form is styled with the same brown color (#7A5B40) as the frame and top button, rectangular with slightly rounded corners, with white text, and no visible hover state in this image. The entire page uses consistent horizontal padding and spacing to maintain clarity and hierarchy. The rightmost sidebar presents page details with controls for design, prototype toggle, zoom at 46%, and additional styling and export options. The typography throughout is clean and modern sans-serif, ensuring readability and professional appeal. The overall style prioritizes simplicity and focus on content with warm brown accents for visual interest. There are no noticeable animations in this static screenshot.",
+        "layout": "The layout employs a three-column structure. On the far left is a narrow vertical sidebar (approx. 20% width) containing an assets panel with thumbnails arranged vertically and text labels. The middle column (approx. 60%) holds the core content including the 'About' header, descriptive paragraph aligned to the left, and a contact form stacked vertically below the intro text. The right column (approx. 20%) shows a slim settings or page info panel with toggles and controls. Within the main content area, the top section features a horizontal navigation bar spanning the width with items spaced out horizontally and contained by a faint rectangular border. The artist’s portrait appears as a floating rectangular card aligned to the top right side within the second column. The contact form inputs are stacked vertically with labels aligned left and uniform spacing and padding, topped by the 'Contact me' heading. The Submit button sits beneath the input fields, horizontally spanning the form’s width with consistent padding. The overall alignment is left-heavy with generous white space on the right and between columns, giving a clean and organized feel. Vertical and horizontal padding is consistent, maintaining balanced margins and spacing around text and form fields. Keywords include: three-column layout, vertical sidebar, horizontal top bar, left-aligned text, right-aligned image, vertical form stack, spacious padding.",
+        "functions": "Users can interact with the main content by reading the artist's biography and viewing the portrait image that visually introduces the designer. The contact form allows users to enter their personal details: first name, last name, email address, and a message in a multiline text area. The form fields are clearly labeled and provide placeholders as visual cues for the expected input. After filling in the details, users can submit their inquiry or message by clicking the 'Submit' button, which sends the input data presumably to the site owner for communication purposes. The top navigation helps users jump to different sections or external pages like 'Blog' or 'Shop', enhancing navigation. The brown button on top likely triggers additional actions or navigation. The screen supports browsing and selecting design assets from a sidebar library for editing or prototyping purposes (this might be part of a design tool interface). Overall, the purpose is to provide visitors with information about the multidisciplinary artist and offer a simple way to contact them, promoting engagement and potential collaboration or inquiries. The clean layout and clear form design facilitate ease of use and accessibility, encouraging users to reach out without confusion or distraction."
+      }
+    },
+    {
+      "name": "Inspect component Details",
+      "screen_id": "30cf275a-1e0e-4f43-a21f-24a836152acf",
+      "refero_url": "https://refero.design/pages/30cf275a-1e0e-4f43-a21f-24a836152acf",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/904a8723-3d6a-4027-b85b-4efd3b3cb706_thumb.jpg",
+      "goal": "See a larger preview and configuration options for the Review Card",
+      "action": "Click the Review Card thumbnail to open the Details modal",
+      "system_response": "A Details modal appears showing a full preview of the component, metadata, and an Insert Instance (or similar) CTA.",
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Popover"
+      ],
+      "fonts": [
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen displays a user interface designed for managing and inserting review cards within a digital design system. The background is primarily white (#FFFFFF). The main interface elements include a modal window titled 'Details' which overlays the main page. This modal has a white background (#FFFFFF) with subtle shadow to highlight it as an overlay. At the top of the modal are five outlined star icons for rating, each star likely black or dark gray (#000000 or #333333). Below is the bold heading 'Review title' in a larger font size (approximately 16-18 px, bold weight), followed by body text labeled 'Review body' in a smaller regular font size (approximately 14 px), aligned left. Beneath the review body is a small circular avatar image representing the reviewer, next to text placeholders 'Reviewer name' and 'Date' in a smaller font size and lighter color (likely #666666 or similar), arranged horizontally. The modal's footer area shows 'Review Card' label and a blue rectangular button labeled 'Insert Instance' with white text, sized to accommodate comfortably readable text, with softly rounded corners (radius approx 4-6 px). The button's color is a bright blue (#0A84FF or similar). Within the modal are additional UI controls for selecting modes: a label 'Variable modes' with a dropdown set to 'Auto (SDS Light)', styled as a standard dropdown with white background and subtle border (#CCCCCC). The text and interface elements outside the modal are blurred or dimmed, but visible are profile picture of a young man in brown background, settinngs/UI controls aligned right side, and a list of asset thumbnails aligned left side. The overall style is minimalistic, clean, consistent with modern design systems, using neutral colors (white background, dark text #000000, gray for secondary text). Typography likely uses a sans-serif font such as Inter or Roboto, with good line spacing and left-aligned text. No animations are visible. The layout is organized with a central modal overlay and supporting asset panel on left and properties panel on right. The modal and panels have distinct white backgrounds separated by subtle shadows and spacing.",
+        "layout": "The layout includes three main vertical segments visible in the screenshot: a left sidebar with a vertical list of assets thumbnails arranged in a single column; a central main area showing a blurred underlying design page with a modal overlay centered horizontally and vertically; and a right-side narrow panel with settings or property controls. The modal uses a compact vertical stack structure with elements aligned left: star rating row, review title, review body text, reviewer info row with avatar and text, and action button at the bottom. The spacing is balanced with padding of about 16-20 pixels inside the modal, consistent margins between elements, and the modal box is sized moderately (approx 350-400 px width) with white background and subtle shadows. The left assets panel uses a grid or list with two columns of thumbnails. The right panel is narrow, structured with grouped controls stacked vertically. The overall layout is responsive and uses white space generously for clarity and ease of use.",
+        "functions": "Users can view a detailed preview of a review card component within a design system. They can read the review title and body text, see associated reviewer information including avatar, name, and date, and rate using the star icons. The 'Insert Instance' button allows users to add this review card component into their design project or library. Dropdown and mode selectors support customizing the component variant or style before insertion. This interface facilitates managing, previewing, and deploying reusable UI review components efficiently. It supports small tasks of reading and selecting component versions, and broader workflows related to assembling composite design pages with standardized review cards. Overall, the screen aids designers in efficiently incorporating consistent review and testimonial elements into their product designs and prototypes. It ensures clarity by presenting a clean modal layout with distinct call-to-action (insert), concise content display, and adjustable component modes for easy customization."
+      }
+    },
+    {
+      "name": "Choose variable mode",
+      "screen_id": "2e0d5f12-305f-4ba5-a23d-89cde11a2aa8",
+      "refero_url": "https://refero.design/pages/2e0d5f12-305f-4ba5-a23d-89cde11a2aa8",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/d3da2d64-0791-4edc-9c8a-7e626fed161b_thumb.jpg",
+      "goal": "Pick the variable/variant mode (color theme) for the component instance",
+      "action": "Open the Variable modes dropdown inside the Details modal and inspect options (Auto (SDS Light), SDS Light, SDS Dark)",
+      "system_response": "Dropdown shows available variable mode options; selection will determine component tokens/appearance when inserted.",
+      "ui_elements": [
+        "Dropdown",
+        "Dropdown Menu"
+      ],
+      "fonts": [
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen represents a design tool interface showing a design system's review card component popup over a blurred web page mockup. The popup window is centered and white with a subtle gray border and slight drop shadow, providing contrast from the blurred background behind. The popup's top area has a star rating system with five outline stars horizontally, an information icon 'i' next to the heading 'Details' at the top left, and a close 'x' button at the top right. Below is large bold text 'Review title' followed by smaller regular text 'Review body'. Underneath is a thumbnail avatar of a reviewer followed by the text 'Reviewer name' and a 'Date', all arranged horizontally. Beneath that is a bold label 'Review Card' and a small attribution 'Figma · 6 months ago'. A prominent horizontal bright blue button labeled 'Insert Instance' spans the popup's width. Below that is a small label 'Variable modes' and a dropdown menu with black background and white text listing color choices: 'Auto (SDS Light)', 'SDS Light', and 'SDS Dark', with a checkmark on 'Auto'. The background web page behind is blurred but shows a centered layout with a portrait photo on the right, a heading, paragraphs of text, a form with input fields and a brown 'Submit' button. The overall style is clean, minimal with a neutral white and light gray background for popups and subtle shadows. The typography uses a modern sans-serif font, with clear hierarchy: bold for headings, normal weight for body, medium for buttons, and small for captions. The color palette mainly includes white background, black text (#000000), and a blue (#276EF1) primary action button. The popup uses standard UI spacing and alignment: consistent padding around elements, left aligned texts, and horizontally grouped elements with balanced margins. The dropdown uses dark mode styling with high contrast. The interface reflects a modern design system tool with clarity and ease of insertion for components, supporting design workflow.",
+        "layout": "The layout is a multi-layer interface: the main background contains a web page mockup centered with textual content on the left and a profile image on the right, arranged in a two-column structure. Overlaid is a modal popup containing the review card details, structured vertically. The popup uses full width with distinct sections stacked top to bottom including the header with a star rating and title area, reviewer information row, a button row, and a dropdown selection at the bottom. The assets panel is visible on the left side behind the popup, arranged vertically showcasing thumbnail cards. On the right is the design tool sidebar with properties and export controls, aligned vertically. The entire interface uses a fixed container width with balanced margins and padding to separate panels. Key layout keywords include modal popup, vertical stacking, horizontal grouping, two-column background grid, left sidebar panel, right sidebar panel, overlay layer, centered alignment, and consistent padding.",
+        "functions": "Users can interact with this interface by exploring a design system library and previewing components such as review cards. Specifically, they can view details of a selected component including its content structure (star rating, title, body text, reviewer info), and appearance modes (light/dark). The 'Insert Instance' button enables users to add the chosen review card component into their current design file or project. Users can also change the variable or color modes of the component through a dropdown menu, which dynamically updates the component's style. At a medium level, users browse and select components from the assets panel on the left, then open the detailed preview to inspect usage and modes, and insert components into their designs. Broadly, this interface supports the efficient reuse of standardized UI elements within a design environment, streamlining component management, maintaining visual consistency, and speeding up the design creation process."
+      }
+    },
+    {
+      "name": "Insert component instance",
+      "screen_id": "642e1d7f-fdc3-415f-a9db-d302a9456dd4",
+      "refero_url": "https://refero.design/pages/642e1d7f-fdc3-415f-a9db-d302a9456dd4",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/c719e139-d2c3-4441-9e2c-bd4af5581553_thumb.jpg",
+      "goal": "Add the selected Review Card to the canvas",
+      "action": "Click Insert Instance (or equivalent) in the Details modal; the component instance appears on the canvas and becomes selected",
+      "system_response": "Details modal closes (or remains) and the Review Card instance is added to the canvas near the content. The instance is highlighted/selected and the right-side inspector shows its properties.",
+      "page_types": [
+        "Sign Up",
+        "Verification",
+        "Guided Tour",
+        "Product Page & Landing"
+      ],
+      "ux_patterns": [
+        "FAQ",
+        "Upload & Download",
+        "Design Editing",
+        "Add & Create",
+        "Templates"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Step Indicator",
+        "Navigation Bar",
+        "Sidebar & Drawer",
+        "Icon",
+        "Product Image",
+        "Popover"
+      ],
+      "fonts": [
+        "Inter"
+      ]
+    },
+    {
+      "name": "Position and finalize placement",
+      "screen_id": "0d28cb33-adc2-4d35-bdad-9f01acbfdc63",
+      "refero_url": "https://refero.design/pages/0d28cb33-adc2-4d35-bdad-9f01acbfdc63",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/caff715e-04f1-4460-bfc7-fb8048c44fcd_thumb.jpg",
+      "goal": "Move the component to the final spot and adjust placement values",
+      "action": "Drag the inserted Review Card to the desired location (bottom-right of the content) and/or tweak X/Y values in the inspector",
+      "system_response": "Component is positioned at the final coordinates; inspector updates show new position and size. The design file now contains the component instance configured with the chosen variable mode and placement.",
+      "ux_patterns": [
+        "Design Editing"
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Sidebar & Drawer",
+        "Toolbar",
+        "Icon",
+        "Avatar",
+        "Product Image",
+        "Tree View",
+        "Side Sheet"
+      ],
+      "fonts": [
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen is a web design editor interface showing a design draft of a creative professional's profile or about page. The background is a light off-white (#F8F8F8 approx). The page content area is centered with a clean minimal style and a professional sans-serif font in black (#000000) and dark gray (#4A4A4A). The heading \"About\" is prominent in a large bold font (approx 32px, weight 700), left aligned with a block of descriptive text beneath it in a smaller, regular weight font (approx 16px, weight 400, line height ~24px). On the right side of the text is a rectangular photo of a man with dark skin tone and black glasses. The photo has rounded corners (approx 12px radius) and a brownish background (#8B6F5E). Below the about text is a \"Contact me\" form with labeled input fields for First name, Last name, Email address, and a multiline field for \"Your message\". The form fields have a thin gray border (#CCCCCC), internal padding, and are sized uniformly. Below the form is a wide rectangular \"Submit\" button in a warm brown color (#7C5C4D) with white text, centered horizontally. On the right side of the form and photo area is a review card component with a 5-star rating (some stars filled), heading \"Review title\", reviewer name, and subtle border and shadow. The UI is a layered editing environment with sidebars on left featuring assets and properties, top bar with menu, and floating toolbar with editing tools. The layout is spacious with consistent vertical and horizontal padding of approximately 24px between sections. The font family appears clean and modern, possibly system or Google Sans, with clear hierarchy using font weights and sizes. The entire interface uses neutral and warm tones in the palette for professional creative branding. The design environment side panels use light gray (#F0F0F0) backgrounds with black or dark gray text and icons, providing a subtle contrast. The right sidebar displays configurable properties for selected elements, using toggles, inputs, and dropdowns styled minimally. There is moderate use of shadows to separate panels and active elements, adding depth.",
+        "layout": "The layout comprises a main central content area divided into two primary columns: the left column for text content and the contact form (about 2/3 width), and the right column for the profile photo and review card (about 1/3 width). Vertical stacking is evident in the left column with the 'About' heading at the top, followed by descriptive text, then the contact form fields stacked vertically with uniform spacing. The right column stacks the profile photo on top and the review card aligned underneath or near it. There are side panels on the far left (assets panel with a vertical list) and far right (properties and settings panel with form controls) visible as fixed narrow columns. The center workspace is a large canvas area with grid alignment guiding element placement, using padding (~24px) around and between elements for visual separation. A floating toolbar with icons is placed near the bottom of the content area for quick access to editing functions. Text fields and buttons have consistent width aligned with the left column’s boundaries. The alignment is primarily left-aligned for textual content, center or right for photo and review. Ample white space ensures the design doesn't feel cluttered. The layout structure can be summarized as a three-column system with primary content in the middle column, flanked by asset and properties sidebars.",
+        "functions": "Users can interact with the editor interface to create, select, and modify design elements on the page. They can add or edit text blocks such as headings, paragraphs describing the artist, and form labels. Users input text in form fields for contact purposes, allowing end-users to send messages to the artist. They can upload or replace the profile photo using the asset sidebar. The reviewer card presents a visual summary of feedback with star ratings, title, and author. Users can adjust properties like position, size, and style of elements to customize the page layout. They can submit contact form data via the \"Submit\" button, initiating communication with the artist. Medium-level tasks include building a complete About page showcasing biography, photo, contact details, and testimonials. The broader goal is to create a professional portfolio site focused on introducing a multidisciplinary digital artist and enabling visitors to reach out through a contact form. The editor ensures clarity and ease of use through clean layout, consistent typography, and intuitive controls, aiding users in assembling a compelling and user-friendly web profile."
+      }
+    }
+  ],
+  "related_queries": [
+    "insert design system component",
+    "drag component from library",
+    "add review card component",
+    "open assets library panels",
+    "preview component details modal",
+    "select component variable mode",
+    "place component on canvas",
+    "position component using inspector",
+    "use card component variants",
+    "browse cards category thumbnails"
+  ]
+}

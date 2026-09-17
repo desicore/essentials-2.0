@@ -1,0 +1,324 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 230,
+    "total_pages": 23
+  },
+  "records": [
+    {
+      "id": 13643,
+      "platform": "web",
+      "screens_count": 4,
+      "refero_url": "https://refero.design/flows/13643",
+      "name": "Back-in-Stock Alert",
+      "description": "A shopper views a sold-out clothing product and requests a back-in-stock notification. From the product detail screen, they select the notify option, enter or confirm an email address in the stock-alert modal, and submit the request. The interface then displays a subscription confirmation message. The flow assumes the shopper is on the product detail screen and does not require an authenticated account.",
+      "problem": "From the user’s perspective, the shopper wants to be notified if the selected tracksuit jacket becomes available because the product is currently sold out. They expect to provide an email address and receive clear confirmation that the alert request was accepted. From the interface perspective, the product detail view communicates the item’s unavailable state and provides a “Notify Me” action. A stock-alert modal collects an email address, presents consent language and links to the Privacy Policy and Terms, and allows the shopper to accept the subscription. After submission, the system replaces the form with a confirmation state. The user-perceived outcome is reassurance that they subscribed successfully; the system-level outcome is that the submitted email is registered for the product’s back-in-stock communication, as indicated by the confirmation screen.",
+      "steps": [
+        "Sold-Out Product Detail",
+        "Stock Alert Form",
+        "Email Confirmed",
+        "Subscription Confirmation"
+      ],
+      "site": {
+        "id": 316,
+        "domain": "nothing.tech",
+        "description": "Making Nothing into something",
+        "name": "Nothing",
+        "background_url": "https://images.refero.design/backgrounds/nothing.tech/2c00dbdd-75a1-4743-ab3c-8dc735ea87a6.jpg",
+        "refero_url": "https://refero.design/websites/316",
+        "categories": [
+          "Electronic & Devices",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/nothing.tech/0884133c-453c-46a2-8de9-6d0aaaa26089.jpg",
+        "background_color": "ebd33d"
+      }
+    },
+    {
+      "id": 11139,
+      "platform": "web",
+      "screens_count": 7,
+      "refero_url": "https://refero.design/flows/11139",
+      "name": "Membership cancellation and retention path",
+      "description": "Happy-path desktop flow for a logged-in user with an active monthly Medium membership who navigates to account settings to cancel their membership. Entry: Settings > Membership and payment. Exit: either the user accepts a retention offer and keeps the membership (returns to home feed) or (not shown) proceeds to subscription cancellation. The UI guides the user through (1) a cancel confirmation, (2) an exit survey, (3) a retention offer, and (4) a post-offer confirmation/return to feed. Assumes user is signed in, using a desktop browser, and has an active monthly membership with a saved payment method.",
+      "problem": "User goal (from user's perspective): Stop the active monthly membership and avoid future billing. The user expects clear confirmation before cancellation, an opportunity to provide feedback, and possibly an offer to keep the subscription.\nInterface/system perspective: The UI should prevent accidental cancellation by presenting a confirmation screen, collect exit feedback via a short survey, attempt retention with a targeted offer, and only finalize cancellation after explicit confirmation. The system returns one of two user-perceived outcomes: (A) user accepts the retention offer and retains membership (screen shows benefits and returns to home feed), or (B) user completes the cancellation (not fully shown). System-level outcome: membership state is either left active (if offer accepted) or queued/terminated after explicit cancellation; billing and membership status should be updated accordingly and reflected in account settings.",
+      "steps": [
+        "Membership & Payment (Settings)",
+        "Cancel Confirmation",
+        "Exit Survey (initial)",
+        "Exit Survey (reason selected)",
+        "Retention Offer",
+        "Retention Confirmation (Thanks for staying)",
+        "Home Feed (Post-acceptance)"
+      ],
+      "site": {
+        "id": 301,
+        "domain": "medium.com",
+        "description": "Read and write stories",
+        "name": "Medium",
+        "background_url": "https://images.refero.design/backgrounds/medium.com/1b18899e-f089-4987-b32c-8ca353dc3967.jpg",
+        "refero_url": "https://refero.design/websites/301",
+        "categories": [
+          "Social Networking"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/medium.com/cad8162e-f0f3-4a49-850b-7eb51f4aebeb.jpg",
+        "background_color": "a2adcd"
+      }
+    },
+    {
+      "id": 11140,
+      "platform": "web",
+      "screens_count": 7,
+      "refero_url": "https://refero.design/flows/11140",
+      "name": "Membership cancellation and retention",
+      "description": "Happy path: A logged-in user with an active Medium membership navigates to Settings > Membership and payment, initiates membership cancellation, completes a short exit survey, is shown a retention offer, and — after declining the offer — receives a cancellation confirmation and returns to the main feed where a banner indicates the membership will expire at the end of the billing cycle. Entry point: user account Settings (Membership tab). Exit point: main feed with expiry banner (membership state changed to \"canceled, active until end of billing cycle\"). Assumptions: user is logged in, has an active paid membership, and can access billing/payment details in Settings.",
+      "problem": "User task: Cancel an active Medium membership.\n- From the user's perspective: they want to stop future membership payments and lose member-only benefits; they expect a clear confirmation flow that explains consequences, may be asked for feedback, may be presented with a retention offer, and wants a clear final state (cancellation confirmed and information about how long benefits continue).\n- From the interface/system perspective: the UI must let the user initiate cancellation from membership settings, ensure they understand the consequences (loss of member benefits), collect optional feedback (reason + likelihood to return), attempt retention with a promotional offer, and then finalize cancellation while clearly communicating the effective date and options to reactivate.\nResult at end:\n- User-perceived outcome: A page confirms their membership has been cancelled and explains that benefits continue until the end of the current billing cycle; the user is returned to the feed and sees a banner indicating membership expiry and a link to reactivate.\n- System-level outcome: The account is marked to stop future recurring charges, membership status is set to cancelled but remains active until the billing-cycle end date; UI shows contextual banners and links for reactivation and settings.",
+      "steps": [
+        "Membership settings",
+        "Cancel confirmation landing",
+        "Exit survey (initial)",
+        "Exit survey (selection)",
+        "Retention offer",
+        "Cancellation confirmation",
+        "Main feed with expiry banner"
+      ],
+      "site": {
+        "id": 301,
+        "domain": "medium.com",
+        "description": "Read and write stories",
+        "name": "Medium",
+        "background_url": "https://images.refero.design/backgrounds/medium.com/1b18899e-f089-4987-b32c-8ca353dc3967.jpg",
+        "refero_url": "https://refero.design/websites/301",
+        "categories": [
+          "Social Networking"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/medium.com/cad8162e-f0f3-4a49-850b-7eb51f4aebeb.jpg",
+        "background_color": "a2adcd"
+      }
+    },
+    {
+      "id": 1820,
+      "platform": "web",
+      "screens_count": 3,
+      "refero_url": "https://refero.design/flows/1820",
+      "name": "Publish Artifact",
+      "description": "Happy path: a logged-in user with an editable artifact opens the editor and clicks the Publish control. A \"Publish Artifact\" modal appears explaining visibility and policy guidance. The user confirms by clicking \"Publish & Copy Link.\" The system publishes the artifact, copies a shareable link to the clipboard, and displays a published confirmation dialog with the link and an Unpublish option. Entry point: artifact editor with Publish button visible. Exit point: published artifact state with shareable link copied and a confirmation dialog shown. Assumptions: user is the artifact author or has permission to publish, is using a desktop browser, and the artifact is ready to be published.",
+      "problem": "User task: make the current artifact publicly accessible and obtain a shareable link. From the user's perspective the goal is to confirm the public visibility, acknowledge any policy warnings, and get a link copied to their clipboard for sharing. Decisions/expectations: user expects an explicit confirmation step, clarity about what becomes public vs what remains private (e.g., chat remains private), and immediate copy-to-clipboard feedback. From the interface/system perspective: the UI must present a modal that communicates visibility and policy constraints, provide a primary action to publish and copy the link, create and expose a stable shareable URL, update the artifact's publish state, and offer a way to unpublish. End result: user-perceived outcome — a confirmation dialog shows the artifact is published and a link has been copied; the user can close the dialog or choose to unpublish. System-level outcome — artifact's state is marked published, a public link is generated and made retrievable, and an Unpublish action is made available (with notice about restrictions on re-publishing).",
+      "steps": [
+        "Editor with Publish control",
+        "Publish Artifact modal",
+        "Published confirmation dialog"
+      ],
+      "site": {
+        "id": 506,
+        "domain": "claude.ai",
+        "description": "Talk with Claude, an AI assistant from Anthropic",
+        "name": "Claude",
+        "background_url": "https://images.refero.design/backgrounds/claude.ai/30f39ad9-89cc-4ee0-806f-53bb7fa83da0.jpg",
+        "refero_url": "https://refero.design/websites/506",
+        "categories": [
+          "AI Tool",
+          "Productivity"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/claude.ai/a792437f-ba0d-4005-80bb-837d1808ca4f.jpg",
+        "background_color": "d7c1a3"
+      }
+    },
+    {
+      "id": 9398,
+      "platform": "web",
+      "screens_count": 6,
+      "refero_url": "https://refero.design/flows/9398",
+      "name": "Add RSS Feed and Open Source",
+      "description": "Happy-path for adding an external RSS feed to the user's inbox and viewing its articles. Entry: User is on the inbox list screen (logged in on desktop). Exit: User is taken to the newly added source's content view (source shown as followed/subscribed and its recent posts displayed). Assumes the user is authenticated, on a desktop viewport, and has permission to manage their source subscriptions.",
+      "problem": "User goal: Add an external RSS feed (by URL) to their reading inbox so new articles from that source appear in their feed. From the user's perspective they expect an easy way to enter a feed URL, see the detected feed, and then be taken to or start receiving that source's articles. From the interface/system perspective the UI must: provide a discoverable entry point for adding sources, accept an RSS URL input, validate or resolve the URL to one or more feed matches, present detected feed(s) for confirmation, and then subscribe/add the feed to the user's library and present the feed's content. Result: User-perceived outcome — the new source appears as a subscribed source and its articles are visible in their inbox view. System-level outcome — the subscription is saved to the user's sources, the feed is recorded in the library, and the system begins fetching and surfacing articles from that feed into the user's inbox.",
+      "steps": [
+        "Inbox Overview",
+        "Source Command / Add Modal",
+        "RSS URL Input",
+        "URL Entry Completed",
+        "Feed Match Results",
+        "Source Content View"
+      ],
+      "site": {
+        "id": 752,
+        "domain": "getmatter.com",
+        "description": "It’s the ultimate reading client for the open web",
+        "name": "Matter",
+        "background_url": "https://images.refero.design/backgrounds/getmatter.com/4536243c-d9b8-48c9-a943-7a6d7592adc0.jpg",
+        "refero_url": "https://refero.design/websites/752",
+        "categories": [
+          "Magazines & Newspapers",
+          "News"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/getmatter.com/6d8f50d6-64f0-441f-a4a3-52fe90cbd713.jpg",
+        "background_color": ""
+      }
+    },
+    {
+      "id": 10666,
+      "platform": "web",
+      "screens_count": 4,
+      "refero_url": "https://refero.design/flows/10666",
+      "name": "Report Thread Post",
+      "description": "Happy path: A signed-in user views a thread, opens the post’s contextual menu (three-dot menu), selects Report, picks a reason from the Report modal, and receives a confirmation dialog. Entry point: thread view with posts. Exit point: confirmation dialog dismissed and user returned to the thread. Assumptions: user is logged in, using a desktop/large viewport, and has permission to interact with posts (open menus, report). The interface uses anchored menus and full-screen modals to guide the report action and provide feedback.",
+      "problem": "User task (user perspective): The user wants to report a specific post in a thread because they find it objectionable or want it reviewed. They must decide which reason best matches the issue, expect the report to be anonymous, and expect immediate acknowledgement that the report was submitted.\n\nInterface task (system perspective): The UI must let the user open a contextual menu for the post, present a clear Report entry, display a list of report reasons (with a safety notice), and show a confirmation after selection. The interface enforces a choice of reason before showing success feedback and uses modal overlays to prevent other actions while reporting.\n\nResult at end:\n- User-perceived outcome: The user sees a thank-you confirmation indicating their feedback was received and the report was anonymous. They return to the thread after dismissing the modal.\n- System-level outcome: The UI submits the selected report reason to the reporting pipeline (visual evidence: confirmation modal). The screenshots do not show moderation actions or post removal, only acknowledgement of the submitted report.",
+      "steps": [
+        "Open thread / view post",
+        "Open contextual menu",
+        "Choose report reason",
+        "Report confirmation"
+      ],
+      "site": {
+        "id": 479,
+        "domain": "threads.com",
+        "description": "Join Threads to share ideas, ask questions, post random thoughts, find your people and more",
+        "name": "Threads",
+        "background_url": "https://images.refero.design/backgrounds/threads.com/7b408eec-673a-4f3c-8685-b207b94a603d.jpg",
+        "refero_url": "https://refero.design/websites/479",
+        "categories": [
+          "Social Networking",
+          "Entertainment"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/threads.com/ab472725-512d-444b-808c-df54ae5b70bd.jpg",
+        "background_color": ""
+      }
+    },
+    {
+      "id": 8265,
+      "platform": "web",
+      "screens_count": 12,
+      "refero_url": "https://refero.design/flows/8265",
+      "name": "Create and configure gift registry",
+      "description": "Happy-path: A user starts at the IKEA Gift Registry landing, clicks Create a registry, accepts a preliminary notice, and steps through a multi-step creation wizard: select occasion, pick a date, add title/description/image, indicate how they heard about the service, and finish. After completion the user sees a confirmation / ‘add gifts’ area with recommended products and a registry landing (header summary, share/invite controls) where they can view and manage items. Entry point: Gift Registry landing. Exit point: Registry detail/dashboard where products can be added or removed. Assumptions: all visible steps occur without an intervening sign-in screen in these screenshots (no credential entry shown).",
+      "problem": "User task: Create a new gift registry and prepare it for others to view and add gifts.\n- From the user's perspective: They want a simple guided experience to name the registry, pick an occasion and date, personalize it (title, description, image), provide optional feedback about how they found the service, and then begin adding items. They expect clear progress, validation of required info (e.g., date), and a confirmation showing the created registry with ways to share and add gifts.\n- From the interface/system perspective: The UI presents a linear multi-step wizard with a progress indicator, choice buttons for occasion, a calendar/date input, text fields for title/description, an image upload/change control, and a short survey checkbox list. Each action enables navigation to the next step. On completion the system displays a registry landing with metadata (date, days to go, counts) and a product area where the user can add items. The final result: \n  - User-perceived outcome: A named registry exists with event metadata, editable content, share/invite controls and an interface to add/manage gift items. Recommended products are shown to help add items.\n  - System-level outcome (visible): The UI transitions from wizard to registry detail/dashboard; new registry content (title, description, image, date, tracking counts) is displayed and product tiles provide add/remove controls indicating registry membership.",
+      "steps": [
+        "Registry landing / start",
+        "Pre-start notice modal",
+        "Select occasion",
+        "Occasion confirmation (visual feedback)",
+        "Pick event date (calendar)",
+        "Date validation and continue",
+        "Customize registry (title, description, image)",
+        "How did you hear (optional survey)",
+        "Completion — add your first gifts",
+        "Registry landing (header & controls)",
+        "Registry items area (add/manage gifts)",
+        "Final registry view and inspiration"
+      ],
+      "site": {
+        "id": 220,
+        "domain": "ikea.com",
+        "description": "Affordable Furniture and Home Inspiration",
+        "name": "IKEA",
+        "background_url": "https://images.refero.design/backgrounds/ikea.com/886c6a51-388b-4fcd-accc-c1ca8b4e4cf7.jpg",
+        "refero_url": "https://refero.design/websites/220",
+        "categories": [
+          "Home & Decor",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/ikea.com/de7ff553-8d76-45b8-83a9-6620cfb7fdb2.jpg",
+        "background_color": "007cc3"
+      }
+    },
+    {
+      "id": 9385,
+      "platform": "web",
+      "screens_count": 5,
+      "refero_url": "https://refero.design/flows/9385",
+      "name": "Report article issue",
+      "description": "Happy path: A reader viewing a long-form article opens the inline actions menu, chooses “Report an issue”, fills out a short text description and optionally attaches a photo, then submits the report. Entry: reader is on a desktop-width article view with the left-side vertical action rail visible. Exit: the modal closes and a transient confirmation toast appears. Assumptions: user has the action rail visible and permission to use the actions (the “Report an issue” item is present). This is a desktop browser layout (wide viewport).",
+      "problem": "User task: From the reader’s perspective the goal is to quickly notify the content team about a problem with the article (typo, broken image, incorrect content, etc.), optionally including a screenshot/photo, and get confirmation that the report was sent. The user expects an easy-to-find action, a short form to describe the issue, optional file attachment, and a clear success message.\n\nInterface/system perspective: The UI exposes report functionality inside an inline actions menu attached to the article view. Selecting the report option opens a centered modal containing a text area, an attachment control and a Submit button; the modal includes a short note indicating the destination channel (Slack). On submit, the system validates/accepts the input, sends the payload to the backend (and onward to the named Slack channel), closes the modal, and surfaces a transient confirmation toast. \n\nResult: User-perceived outcome — user sees a confirmation toast (“Feedback submitted”) and returns to the article. System-level outcome — report payload (text + optional attachment metadata/filename) is dispatched to the configured bug-reporting endpoint (UI indicates Slack channel destination).",
+      "steps": [
+        "Article reading view",
+        "Open report modal",
+        "Compose report",
+        "Submit report",
+        "Confirmation toast"
+      ],
+      "site": {
+        "id": 752,
+        "domain": "getmatter.com",
+        "description": "It’s the ultimate reading client for the open web",
+        "name": "Matter",
+        "background_url": "https://images.refero.design/backgrounds/getmatter.com/4536243c-d9b8-48c9-a943-7a6d7592adc0.jpg",
+        "refero_url": "https://refero.design/websites/752",
+        "categories": [
+          "Magazines & Newspapers",
+          "News"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/getmatter.com/6d8f50d6-64f0-441f-a4a3-52fe90cbd713.jpg",
+        "background_color": ""
+      }
+    },
+    {
+      "id": 10661,
+      "platform": "web",
+      "screens_count": 4,
+      "refero_url": "https://refero.design/flows/10661",
+      "name": "Manage profile notifications",
+      "description": "Happy path: A logged-in user viewing a public profile (The New York Times) opens that profile's notification options, selects notification types (Threads and Replies), and receives immediate confirmation. Entry point: profile header / feed with an activity/notifications control. Exit point: confirmation toast displayed and modal dismissed, user returned to profile feed. Assumptions: user is signed in with permission to change per-profile notification preferences; interface is desktop or large-screen web layout (left nav, centered content).",
+      "problem": "User task (user perspective): The user wants to start receiving activity notifications from a specific account (choose which kinds of activity: Threads and/or Replies). They decide which notification types to enable and expect immediate feedback that their choice was saved.\n\nInterface/system task: The UI exposes a compact modal with discrete notification options for the profile and allows toggling them on or off. When the user selects options the UI updates the selection state (visual checkmarks) and shows a non-blocking confirmation (toast). The system should persist the chosen preferences and surface a 'Manage' affordance for deeper settings.\n\nResult at end:\n- User-perceived outcome: The user sees both options checked and a toast message saying \"Notification settings updated\" with a 'Manage' action, indicating success.\n- System-level outcome: The profile's notification preferences are updated (persisted) for the current user and the notification subsystem will use those preferences to deliver future activity alerts.",
+      "steps": [
+        "Profile feed (notification control available)",
+        "Notification options modal (initial state)",
+        "Select notification types",
+        "Confirmation and return to feed"
+      ],
+      "site": {
+        "id": 479,
+        "domain": "threads.com",
+        "description": "Join Threads to share ideas, ask questions, post random thoughts, find your people and more",
+        "name": "Threads",
+        "background_url": "https://images.refero.design/backgrounds/threads.com/7b408eec-673a-4f3c-8685-b207b94a603d.jpg",
+        "refero_url": "https://refero.design/websites/479",
+        "categories": [
+          "Social Networking",
+          "Entertainment"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/threads.com/ab472725-512d-444b-808c-df54ae5b70bd.jpg",
+        "background_color": ""
+      }
+    },
+    {
+      "id": 1252,
+      "platform": "web",
+      "screens_count": 13,
+      "refero_url": "https://refero.design/flows/1252",
+      "name": "Sign-In and Account Access",
+      "description": "Happy path: An anonymous desktop user lands on the brand homepage and opens the authentication modal to sign in or create an account. The modal offers Continue with Apple, Email, or Phone. The user attempts phone sign-in, receives a 'no account found' message, switches to email, signs in with email + password (and is offered password reset after a failed attempt), and then reaches their account/profile page where subscription and billing fields are presented. Entry point: homepage (not signed in). Exit point: signed-in account/profile screen. Assumptions: desktop browser, modal overlay for auth, standard server-side validation for phone/email/password, country-code selection available.",
+      "problem": "User task (user perspective): Authenticate to an existing account (or create one) so they can access personalized content, subscription options, and billing settings. The user expects clear options to sign in (Apple, email, phone), immediate validation/error feedback, and a path to reset a password if needed. Interface/system perspective: Provide a modal-based authentication dialog that supports 3 credential paths (Apple, phone, email), client-side input controls (country code selector, formatted phone input, email input, password field), server-side checks that return clear error messages (no account, invalid password), and a password-reset workflow that triggers an email. Final result: user-perceived outcome — either they sign in and land on their account profile or they are guided to reset credentials; system-level outcome — authentication attempt is validated (success creates an authenticated session and returns account payload used to populate profile; failures return specific error states and offer next actions like sign-up or reset).",
+      "steps": [
+        "Homepage hero",
+        "Auth modal — method selection",
+        "Phone entry — initial",
+        "Phone entry — country selected",
+        "Phone entry — number filled",
+        "Phone sign-in — no account error",
+        "Email entry — initial",
+        "Email entry — email typed",
+        "Password entry",
+        "Invalid password — error",
+        "Reset password prompt",
+        "Profile / Account page",
+        "Signed-in persistent state"
+      ],
+      "site": {
+        "id": 331,
+        "domain": "o-p-e-n.com",
+        "description": "Guided Meditation. Mindfulness. Breathwork",
+        "name": "Open",
+        "background_url": "https://images.refero.design/backgrounds/o-p-e-n.com/88bffc4f-5294-430f-af0f-5b088a1e3247.jpg",
+        "refero_url": "https://refero.design/websites/331",
+        "categories": [
+          "Health & Wellness",
+          "Fitness"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/o-p-e-n.com/30c04776-95f1-4755-9e49-61d65141a710.jpg",
+        "background_color": "d3a417"
+      }
+    }
+  ]
+}

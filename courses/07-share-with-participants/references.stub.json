@@ -1,0 +1,38 @@
+{
+  "module": "07-share-with-participants",
+  "title": "Share courses with participants \u2192 Learner Portal",
+  "intro": "Semester \u2192 Courses \u2192 Share with participants \u2192 Learner Portal. Evidence for moving a course from setup to learner access, and making the first visit useful. Group assignment belongs to 04; reports to 08; announcements and material delivery to 09. Screens are research captures, not verification of current product capabilities.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Publish model (single toggle vs. per-item visibility vs. scheduled release)",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "Access grant paths (enrolled groups / link / code / email) and how permission levels are expressed",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "\"Preview as learner\" availability and fidelity",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Learner course home: what is above the fold (next session, progress, materials, announcements)",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "Feedback to instructor that sharing worked (who has opened, pending invites)",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "Cross-device (web vs. mobile portal) parity",
+      "answer": ""
+    }
+  ],
+  "references": []
+}

@@ -1,0 +1,20 @@
+// Run after the shared embedded report builder. Adds synthesis and stable citation targets.
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url));
+const report=path.join(dir,'../02-files-links-media.html');
+const data=JSON.parse(await fs.readFile(path.join(dir,'references.json'),'utf8'));
+const synthesis=await fs.readFile(path.join(dir,'synthesis.html'),'utf8');
+const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let html=await fs.readFile(report,'utf8');
+if(html.includes('id="synthesis"'))throw new Error('Already finalized; rebuild before rerunning.');
+const ordered=data.questions.flatMap(q=>data.references.filter(r=>r.question===q.id));let index=0;
+html=html.replace(/<article class="card"/g,()=>`<article id="${esc(ordered[index++].id)}" class="card"`);
+index=0;
+html=html.replace(/(<article id="[^"]+" class="card"[\s\S]*?<h3>[\s\S]*?<\/h3>)/g,match=>`${match}<p class="reference-id">${esc(ordered[index++].id)}</p>`);
+if(index!==data.references.length)throw new Error('Card/reference count mismatch');
+html=html.replace('</header>',`</header>\n${synthesis}`);
+html=html.replace('</style>',`.synthesis{margin:28px 0;padding:24px;border:1px solid var(--border);border-radius:8px;background:var(--surface)}.synthesis h3{margin-top:28px}.synthesis h3:first-child{margin-top:0}.synthesis p,.synthesis li{max-width:1100px}.synthesis li+li{margin-top:10px}.comparison-scroll{max-width:100%;overflow-x:auto}.synthesis table{border-collapse:collapse;font-size:13px;min-width:980px;width:100%}.synthesis th,.synthesis td{padding:12px;vertical-align:top;text-align:left;border:1px solid var(--border)}.synthesis th{background:var(--subtle)}.synthesis td a{display:block;font-size:11px;margin-top:5px;overflow-wrap:anywhere}.reference-id{font:10px/1.4 ui-monospace,monospace;color:var(--muted);overflow-wrap:anywhere}.card:target{outline:3px solid var(--focus);outline-offset:4px}@media(max-width:520px){.synthesis{padding:16px}}\n</style>`);
+await fs.writeFile(report,html);
+console.log(`Finalized ${report}: ${index} citation targets`);

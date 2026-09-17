@@ -1,0 +1,9 @@
+{
+  "id": "mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411",
+  "take": "Canva lets an instructor choose an existing design from the central Projects hierarchy and explicitly copy it into or move it into the current course.",
+  "observed": "From the course, open Add new; choose Choose design; browse Your projects and open a project; select a design; choose Copy to course or Move. The final frame shows the selected presentations as ordered course activities with Resource type and access indicators.",
+  "limits": "Six sampled frames do not show whether a copied activity remains linked to the source, whether later edits propagate, whether the same design is attached to multiple courses, or how replacement and deletion work.",
+  "recommended_question": "Q3",
+  "secondary_relevance": "Q2: the final course view demonstrates an ordered activity list, but the flow's distinctive evidence is library-to-course reuse and explicit copy-versus-move semantics.",
+  "counter_example_candidate": false
+}

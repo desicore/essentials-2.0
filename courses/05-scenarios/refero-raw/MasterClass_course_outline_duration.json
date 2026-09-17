@@ -1,0 +1,465 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 623,
+    "total_pages": 63
+  },
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/masterclass.com/desktop/949bdb34-ad25-4401-b367-147f4b7c5616_thumb.jpg",
+      "hex_colors": [
+        "0x575C64",
+        "0xA29E9D",
+        "0x5A94B0",
+        "0x3E699A",
+        "0xE4E4E5"
+      ],
+      "uuid": "75721406-e435-4853-b334-8dca447af0d9",
+      "page_url": "https://www.masterclass.com/library-search",
+      "site": {
+        "id": 133,
+        "domain": "masterclass.com",
+        "description": "Online Classes",
+        "name": "MasterClass",
+        "background_url": "https://images.refero.design/backgrounds/masterclass.com/6e8b4377-b561-4915-af5a-12b829c36401.jpg",
+        "refero_url": "https://refero.design/websites/133",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/masterclass.com/f182876e-3983-409a-b9ed-ba0a30907996.jpg",
+        "background_color": "e88d8d"
+      },
+      "ux_patterns": [
+        "Empty State",
+        "Searching"
+      ],
+      "ui_elements": [
+        "Navigation Bar",
+        "Search Field",
+        "Photo",
+        "Popover"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/75721406-e435-4853-b334-8dca447af0d9",
+      "content": {
+        "description": "This dark-themed interface consists of three distinct horizontal sections. The top section features a black background with a left-aligned logo in pink and white reading 'MasterClass'. To the right is a search bar with the query 'buddism' entered and an overlay message stating 'No results found for \"buddism\"' in white text on a dark translucent background. Further right are navigation links 'My Pro..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/3bd5b765-12e2-4cd9-bdbc-5e2ed41858f8_thumb.jpg",
+      "hex_colors": [
+        "0x7C7C7C",
+        "0xE9FA37",
+        "0x151515",
+        "0x9D9D9D",
+        "0xFCFCFB"
+      ],
+      "uuid": "4f0eb823-2f76-4e92-b3dd-cb4446effbb1",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/create/courses/step-4",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Select",
+        "Add & Create",
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Step Indicator"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/4f0eb823-2f76-4e92-b3dd-cb4446effbb1",
+      "content": {
+        "description": "The screen is a clean and minimal interface for outlining a course curriculum. The background is plain white (#FFFFFF) with simple black text. At the top center, a header reads 'Outline your course' in a serif or clean sans-serif font, large and bold, with a smaller subtitle below it: 'Choose a method below to create your course curriculum.' The text is centered and spaced comfortably. Below, three..."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 10,
+          "total_steps": 34
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/ddc994d3-ea9f-41ae-b2a3-2dcd07bd3b6b_thumb.jpg",
+      "hex_colors": [
+        "0xE9FA37",
+        "0x7C7C7C",
+        "0x121211",
+        "0x9B9B9B",
+        "0xFCFCFB"
+      ],
+      "uuid": "5f33c727-7dc2-479d-9000-e2728360224d",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/create/courses/step-1",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Step Indicator"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/5f33c727-7dc2-479d-9000-e2728360224d",
+      "content": {
+        "description": "The screen appears as a clean, minimalistic course setup form focused on gathering course information from users. The background is plain white (#FFFFFF) with all content centered horizontally and placed in the upper-middle portion of the layout. At the top, a small label shows \"1/5\" indicating a multi-step process, left-aligned and simple black text. On the top right corner, there is a small 'X' b..."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 3,
+          "total_steps": 34
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/80f6246e-9908-4ef8-8d5e-c90b210f94fb_thumb.jpg",
+      "hex_colors": [
+        "0x171717",
+        "0xFCFCFC",
+        "0x747474",
+        "0xA2A2A2",
+        "0x848484"
+      ],
+      "uuid": "f0e211ea-d620-4379-858b-657136e58564",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/create/courses/step-1",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Step Indicator"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/f0e211ea-d620-4379-858b-657136e58564",
+      "content": {
+        "description": "The screen is a minimalistic form interface for inputting course information, with a clear white background (#FFFFFF) covering the entire viewport. At the top center, there is a concise heading 'Tell us about your course' in a medium serif or sans-serif font, approximately 20-24px in size, black or dark gray (#000000 or #333333), followed by a smaller subtitle in a lighter gray (#666666) font about..."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 2,
+          "total_steps": 34
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/masterclass.com/desktop/bd667504-a4d6-4de3-81a2-9a0076b52087_thumb.jpg",
+      "hex_colors": [
+        "0xD8D3CF",
+        "0xEB3D5F",
+        "0x575557",
+        "0x9B8B81",
+        "0x3D6299"
+      ],
+      "uuid": "21d27cef-bc0d-491e-b4a5-ccd538ee3635",
+      "page_url": "https://learn.masterclass.com/comingsoon#page-block-nf03s5ioq6m",
+      "site": {
+        "id": 133,
+        "domain": "masterclass.com",
+        "description": "Online Classes",
+        "name": "MasterClass",
+        "background_url": "https://images.refero.design/backgrounds/masterclass.com/6e8b4377-b561-4915-af5a-12b829c36401.jpg",
+        "refero_url": "https://refero.design/websites/133",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/masterclass.com/f182876e-3983-409a-b9ed-ba0a30907996.jpg",
+        "background_color": "e88d8d"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Footer",
+        "Photo",
+        "Icon"
+      ],
+      "page_types": [
+        "Discover"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/21d27cef-bc0d-491e-b4a5-ccd538ee3635",
+      "content": {
+        "description": "The screen features a dark theme webpage for MasterClass, primarily showcasing the upcoming and available celebrity instructors and their courses. The design employs a solid black background (#000000) with white (#FFFFFF) and vibrant pinkish-red (#E5095F) accent colors for important texts and buttons. The typography is bold and modern; the header 'COMING SOON ON MASTERCLASS' uses large, uppercase, ..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/duolingo.com/desktop/71341bdd-e8e6-403b-9ca0-75111a59fb00_thumb.jpg",
+      "hex_colors": [
+        "0x1FB1F0",
+        "0xFBFBFB",
+        "0xD59738",
+        "0x4D4D4D",
+        "0x8B7E93"
+      ],
+      "uuid": "71341bdd-e8e6-403b-9ca0-75111a59fb00",
+      "page_url": "https://www.duolingo.com/settings/courses",
+      "site": {
+        "id": 147,
+        "domain": "duolingo.com",
+        "description": "The world's most popular way to learn",
+        "name": "Duolingo",
+        "background_url": "https://images.refero.design/backgrounds/duolingo.com/b02e2cb9-908b-4a71-9b14-1e52e47e505f.jpg",
+        "refero_url": "https://refero.design/websites/147",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/duolingo.com/b3c7e139-ccf0-44ba-a781-d505dc6004ed.jpg",
+        "background_color": "76ce00"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Button",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [
+        "Settings"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/71341bdd-e8e6-403b-9ca0-75111a59fb00",
+      "content": {
+        "description": "The screen shows a Duolingo desktop settings/account area with a very minimal, bright, app-like layout. The overall style is clean, playful, and lightweight, using Duolingo’s familiar brand palette with a dominant white background (#FBFBFB) and a thin cyan/blue top accent line or header accent (#1FB1F0). The interface has a left vertical sidebar separated by a faint light-gray divider line. The sid..."
+      },
+      "flows": [
+        {
+          "id": 11830,
+          "name": "Deleting course",
+          "step": 3,
+          "total_steps": 3
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/trip.com/desktop/a60fa19e-6f8e-4f9a-91cd-dba10f6737ba_thumb.jpg",
+      "hex_colors": [
+        "0x32343B",
+        "0x7C7C7C",
+        "0xFBFBFB",
+        "0x816B6E",
+        "0xCCCFD3"
+      ],
+      "uuid": "a60fa19e-6f8e-4f9a-91cd-dba10f6737ba",
+      "page_url": "https://bh.trip.com/hotels/detail/?cityEnName=Hong+Kong&cityId=58&hotelId=425090&checkIn=2026-07-05&checkOut=2026-07-07&adult=1&children=0&crn=1&ages=&curr=USD&barcurr=USD&hoteluniquekey=H4sIAAAAAAAA_-P6x8zFJsGoYWMQJfWZmaNj4YMeViFGAwsWx1kzgWBppYPn9cUFtly_exwCeGYwNv2UXMHIuJHxTeAOudbVUQ47GJkOMDKdYLRdwHTvgdQpFlaOJTwSLJdY2pijq5WyUyuVrEx0lEoyS3JSlayUglOLyjKTUxWSMxKL0lOVdJRSUouTgeJAVmJufmleCZBtaKRnaAAUKEms8ExRsjLXUUpOzEkuzUksSQ2pLACaYqajlFnsXFKUWRCUmptZUpIKVJWWmFOcChIPSi0GyiSDBZX8gMYUQQUy8_Mg2g1QxMISc0pTIS4AWuiWCrXDuFYH0_Ue-SWpOQqOycn5ubn5KYkg7QohiRXYvWGsZ2aE8IWp4YB4w7A29hELU3TsJxaGXywMTawMXawMk1hZOV5kSbDsYmXzcDT2j3KRUjQ0MDAwMjU1Mtc1SLQ0TjYws9Q1sTQxNzDWNTIzNTI1NNDomH173ytjIz0FRi3B-BBPJw8jy8y8IoPCspSMknwDxlOMIgaWBsYmBpYmRoYWRkYGRgbGRmYmHkxBbJZuLq7GFlE2XMwe3i6Ch-eV_cje9Npeijk02EXxyEa9vMWK0g5aIDlDmFwgAxh8sI882m9YrguUT2JNzdN18sjYJlrA2MXILcDowRjBWMHYwMi4ipFhAyPjDsb_MMD4ihFkNAA3_EMr1QIAAA&detailFilters=75%7CTAG_495%7E75%7E495*23%7C10%7E23%7E10*16%7C4%7E16%7E4*15%7CRange%7E15%7E60%7C90*80%7C0%7C1%7E80%7E0*29%7C1%7E29%7E1%7C1&hotelType=normal&display=exavg&isCT=true&locale=en-BH",
+      "site": {
+        "id": 899,
+        "domain": "trip.com",
+        "description": "Travel Deals and Promotions",
+        "name": "Trip",
+        "background_url": "https://images.refero.design/backgrounds/trip.com/719345b7-42d6-4cbb-8ee4-6cec57b902ab.jpg",
+        "refero_url": "https://refero.design/websites/899",
+        "categories": [
+          "Travel & Booking"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/trip.com/a6ebd3ae-be1d-4629-9b90-f312a469cabe.jpg",
+        "background_color": "6aadf0"
+      },
+      "ux_patterns": [
+        "Location & Address"
+      ],
+      "ui_elements": [
+        "Button",
+        "Tabs",
+        "Side Sheet"
+      ],
+      "page_types": [
+        "Product Details"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/a60fa19e-6f8e-4f9a-91cd-dba10f6737ba",
+      "content": {
+        "description": "The screen shows a hotel/accommodation detail interface with a large white modal/overlay panel opened over a dimmed page. The underlying page is visible on the left at reduced opacity and contains the property detail navigation with tabs such as Overview, Rooms, Guest Reviews, Services & Amenities, Policies, and Location; the Location tab appears active, indicated by a dark underline. The overlay i..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/glorify.com/desktop/af8a6b6b-a62c-4139-8249-afc330e0d08b_thumb.jpg",
+      "hex_colors": [
+        "0xF4F4F5",
+        "0x445CEB",
+        "0x131313",
+        "0x5EB6C3",
+        "0x6A6968"
+      ],
+      "uuid": "a333bf26-91c9-44a1-96dc-5a50c9d3cca3",
+      "page_url": "https://glorify.com/webinars/office-hours-webinar-unlock-the-power-of-glorify-(ep-4)",
+      "site": {
+        "id": 583,
+        "domain": "glorify.com",
+        "description": "Online Graphic Design Tool for E-com Business Owners",
+        "name": "Glorify",
+        "background_url": "https://images.refero.design/backgrounds/glorify.com/63a1c562-fe7c-40da-aa35-547c2958dbea.jpg",
+        "refero_url": "https://refero.design/websites/583",
+        "categories": [
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/glorify.com/9d075a4d-fc41-4229-8b8d-15efbbbdf631.jpg",
+        "background_color": "e79479"
+      },
+      "ux_patterns": [
+        "Event",
+        "Article & Text"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Product Image"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/a333bf26-91c9-44a1-96dc-5a50c9d3cca3",
+      "content": {
+        "description": "The screens depict a webinar landing page for 'Office Hours Webinar: Master AI Image Creation – Leonardo Walkthrough! (Ep-4).' The page uses a primarily blue and white color scheme (#3a55f0 for blue backgrounds and buttons, white for text and backgrounds). The typography includes bold and large sans-serif fonts for headings (approx. 40px, weight 700), and smaller sans-serif fonts (approx. 16px, wei..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/98ce6682-c529-42b8-862d-c453fdc01f00_thumb.jpg",
+      "hex_colors": [
+        "0x242424",
+        "0x919294",
+        "0xFBFBFB",
+        "0x5D633F",
+        "0xC8CDD3"
+      ],
+      "uuid": "9ec0386f-182d-4acc-bfdb-0ef34c046fc9",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/courses/2932672/setup",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "List",
+        "Button",
+        "Dropdown",
+        "Sidebar & Drawer",
+        "Photo",
+        "Icon"
+      ],
+      "page_types": [
+        "Content Management Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/9ec0386f-182d-4acc-bfdb-0ef34c046fc9",
+      "content": {
+        "description": "The screen displays a course setup guide interface for an online course platform titled \"Level Up: Fast-Track Your English from A1 to B1.\" The layout is divided into two main vertical sections beneath the header breadcrumb navigation. The left vertical navigation sidebar occupies about one-quarter of the width, featuring a dark gray background (#2D2E31) with bright lime green (#A3BE00) highlight fo..."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 19,
+          "total_steps": 34
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/cefaef65-99e0-4a78-a75f-a1a58361c0a1_thumb.jpg",
+      "hex_colors": [
+        "0x212424",
+        "0xE3F43A",
+        "0x989594",
+        "0x955E4C",
+        "0x3FE8B9"
+      ],
+      "uuid": "755d46c4-58fd-4221-bdef-702d8a8ae50f",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/home?page=createproduct",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Confirmation",
+        "Article & Text"
+      ],
+      "ui_elements": [
+        "Button",
+        "Popover"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/755d46c4-58fd-4221-bdef-702d8a8ae50f",
+      "content": {
+        "description": "The screen shows a modern web interface for creating a course outline using AI tools. On the left side is a vertical navigation sidebar with a dark background (#1E1E1E or similar) and white text in a sans-serif font. The sidebar includes sections with icons and text: Home, Users, Site, Sales, Emails, App Hub, Settings, then a PRODUCTS heading specifically listing Courses, Coaching, Digital Download..."
+      },
+      "flows": [
+        {
+          "id": 9640,
+          "name": "Signing up & onboarding",
+          "step": 12,
+          "total_steps": 13
+        }
+      ]
+    }
+  ]
+}

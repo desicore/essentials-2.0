@@ -1,0 +1,14 @@
+{
+  "module": "09-announcements-send-materials",
+  "title": "Announcements / Send learning materials or send to Canvas → Shareable link",
+  "intro": "Internal board for the Essentials 2.0 solution concept (Semester → Courses → Announcements / send materials → Shareable link). Not about UI: each reference shows how another product lets someone running a course communicate from inside it: announce to everyone or a group, send selected files or links ahead of a session, choose the channel (portal feed, email, shareable link, Canvas LMS), schedule it, and see who received or opened it. One section per question; every card says what we would take from it. Counter-examples are flagged. Raw material from Mobbin and Refero, to be cut down in the converge pass before anything is shown outside the team.",
+  "questions": [
+    { "id": "Q1", "title": "Composer: audience targeting (course / group / individual), attachment of course materials, scheduling", "answer": "" },
+    { "id": "Q2", "title": "Channel choice (in-app feed, email, push, link, external LMS) and whether it is one composer or many features", "answer": "" },
+    { "id": "Q3", "title": "Shareable link controls (expiry, access level, revoke, tracking)", "answer": "" },
+    { "id": "Q4", "title": "Delivery feedback (sent / delivered / seen, reminders)", "answer": "" },
+    { "id": "Q5", "title": "External LMS hand-off UX (auth, mapping to course, what is sent, confirmation)", "answer": "" },
+    { "id": "Q6", "title": "Learner-side reception (feed, notification, email) and consistency with the portal", "answer": "" }
+  ],
+  "references": []
+}

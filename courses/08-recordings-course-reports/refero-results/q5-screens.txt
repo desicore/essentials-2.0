@@ -1,0 +1,11 @@
+=== SCREENS: gradebook table students assignments scores mastery Canvas Moodle (total 1000)
+S fb6de8d1-eec4-44ec-9a0c-5243aa683b90 | Google Classroom | ux: Testimonials,Video Player | This webpage is a landing page for 'Assignments' under Google Workspace for Education, designed with a clean and minimalist professional style. The ba
+S 34770124-230d-4cb4-86ef-ee46667f7440 | Google Classroom | ux:  | This screen is a "Class settings" interface primarily focused on grading configuration for an educational platform. The background is plain white with
+S 0c2900df-5a09-41e5-af5f-9824d0b0c8d9 | Google Classroom | ux:  | The screen displays a 'Class settings' interface focused on grading configurations. The background is plain white (#FFFFFF), with the content centered
+S 1664d929-d98c-4131-b267-49468384b5d9 | Boords | ux: Comments | The screen shows an animation project storyboard focused interface. The top area has a warm beige-yellow banner with a message about a free version an
+S 7cda60c0-ee85-428d-86fa-2563ee96fbe1 | Boords | ux: Edit | The screen shows a web interface designed for editing and managing animation storyboards or video scripts. The top section contains a narrow horizonta
+S edad1771-0d43-40b1-b7de-dff3e5a7eca5 | Boords | ux:  | The provided screen is an interface for managing a storyboard in a video or animation project. The layout features a multi-column grid with headers: F
+S de37edc2-6e63-402e-8ff5-4062ba9e54a1 | Boords | ux:  | The screenshot displays a storyboard editing interface for an animation or video project. The overall style is professional and clean with a light col
+S 2ffee53c-1948-45bf-9485-1b57ef99632f |  Teachable | ux:  | The screen is a student management dashboard for an education platform named "Liam's School." It features a left vertical navigation bar on a dark bac
+S 30da41bf-7fab-47ff-a64b-629a90309e33 | Duolingo | ux: Tutorial & Education | This screen is a clean, minimal educational dashboard for a language proficiency test platform, styled in a bright, friendly, modern flat illustration
+S a79022a6-87bc-426e-ac08-8cd4d9884a46 | Boords | ux: Product Features | The screen presents a project management interface for a storyboard or animation planning tool with a tabular layout. The central portion features a s

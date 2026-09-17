@@ -1,0 +1,522 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 1000,
+    "total_pages": 100
+  },
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/gumroad.com/desktop/a106cd50-ed3d-4547-a90c-b67125fc965c_thumb.jpg",
+      "hex_colors": [
+        "0x040404",
+        "0xA2A2A2",
+        "0xFAFAFA",
+        "0xFA93E8",
+        "0x575858"
+      ],
+      "uuid": "dc901c73-cff1-419a-93a0-216f828ebc4f",
+      "page_url": "https://gumroad.com/products/afsiku/edit/content",
+      "site": {
+        "id": 296,
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad",
+        "background_url": "https://images.refero.design/backgrounds/gumroad.com/c480775e-e221-491f-84c8-6cd8eae3684e.jpg",
+        "refero_url": "https://refero.design/websites/296",
+        "categories": [
+          "Business",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/gumroad.com/4b57e0a6-9290-4a1c-bfb6-057b7e136e92.jpg",
+        "background_color": "ffc906"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/dc901c73-cff1-419a-93a0-216f828ebc4f",
+      "content": {
+        "description": "The screen shows a clean, minimalistic user interface for managing and editing digital product content, specifically for a web design course. The layout includes a left vertical navigation sidebar with two distinct sections separated by a horizontal line. The upper section features menu items with icons and text labels such as Home, Products, Collaborators, Checkout, Emails, Workflows, Sales, Analy..."
+      },
+      "flows": [
+        {
+          "id": 9238,
+          "name": "Publishing digital product",
+          "step": 6,
+          "total_steps": 14
+        },
+        {
+          "id": 9239,
+          "name": "Inserting link",
+          "step": 1,
+          "total_steps": 4
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/gumroad.com/desktop/97f93b6d-9424-4a99-b962-15abdc366417_thumb.jpg",
+      "hex_colors": [
+        "0x040404",
+        "0xA5A5A5",
+        "0xFAFAFA",
+        "0xFA93E8",
+        "0x575858"
+      ],
+      "uuid": "11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "page_url": "https://gumroad.com/products/afsiku/edit/content",
+      "site": {
+        "id": 296,
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad",
+        "background_url": "https://images.refero.design/backgrounds/gumroad.com/c480775e-e221-491f-84c8-6cd8eae3684e.jpg",
+        "refero_url": "https://refero.design/websites/296",
+        "categories": [
+          "Business",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/gumroad.com/4b57e0a6-9290-4a1c-bfb6-057b7e136e92.jpg",
+        "background_color": "ffc906"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "content": {
+        "description": "The first screen shows a content management interface for a \"Web Design Course Nº1\" hosted on a platform called Gumroad. The overall style is clean and minimalistic with a soft cream background (#f7f6f0) and black text (#000000). The page uses a left sidebar that is black (#000000) with white (#ffffff) menu text. The sidebar menu includes icons and menu items like Home, Products, Collaborators, Che..."
+      },
+      "flows": [
+        {
+          "id": 9238,
+          "name": "Publishing digital product",
+          "step": 9,
+          "total_steps": 14
+        },
+        {
+          "id": 9239,
+          "name": "Inserting link",
+          "step": 4,
+          "total_steps": 4
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/promova.com/desktop/7c4aadad-2deb-4481-9872-62e3afb2ab05_thumb.jpg",
+      "hex_colors": [
+        "0x1B40AD",
+        "0x050506",
+        "0x1894F2",
+        "0xF0B850",
+        "0xFBDCDC"
+      ],
+      "uuid": "7f0ad76f-68db-404a-9ac8-ba4f69012e62",
+      "page_url": "https://promova.com/levels/intermediate-english",
+      "site": {
+        "id": 385,
+        "domain": "promova.com",
+        "description": "Promova helps you learn languages with ease!",
+        "name": " Promova",
+        "background_url": "https://images.refero.design/backgrounds/promova.com/ec4a71a8-0bc5-450f-b86c-2933c9ac408f.jpg",
+        "refero_url": "https://refero.design/websites/385",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/promova.com/c715f806-4dad-4de2-84d2-8961d4e4ccfd.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [
+        "FAQ",
+        "Testimonials"
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "Button",
+        "Page Control & Pagination",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Icon",
+        "Illustration",
+        "Hero Image"
+      ],
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/7f0ad76f-68db-404a-9ac8-ba4f69012e62",
+      "content": {
+        "description": "The screens present a detailed landing page for an intermediate (B1 level) English course titled 'B1 Lessons - Intermediate English Course'. The overall style is modern and clean, with a predominantly white background and pastel accent colors (light pink #FFE4E6, light purple #F4F3FF, light blue #DFF6FF, beige #FAF0E6) used in various content sections to separate content visually. Typography uses a..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/promova.com/desktop/957bf21f-182a-4623-bf40-0607693076f6_thumb.jpg",
+      "hex_colors": [
+        "0x040405",
+        "0xECECEC",
+        "0xB162E5",
+        "0xBCCBFB",
+        "0xC67CEF"
+      ],
+      "uuid": "7c75b644-e5f6-4706-99d2-a37924b177a1",
+      "page_url": "https://promova.com/course/appEg4nJkCeG0dOGk/326",
+      "site": {
+        "id": 385,
+        "domain": "promova.com",
+        "description": "Promova helps you learn languages with ease!",
+        "name": " Promova",
+        "background_url": "https://images.refero.design/backgrounds/promova.com/ec4a71a8-0bc5-450f-b86c-2933c9ac408f.jpg",
+        "refero_url": "https://refero.design/websites/385",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/promova.com/c715f806-4dad-4de2-84d2-8961d4e4ccfd.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [
+        "Success"
+      ],
+      "ui_elements": [
+        "Button",
+        "3d Illustration"
+      ],
+      "page_types": [
+        "Quiz & Poll"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/7c75b644-e5f6-4706-99d2-a37924b177a1",
+      "content": {
+        "description": "The screen shows a centered success confirmation card with a light purple (#C1C6FF approximately) rounded rectangle background. Inside this card, near the top center, the bold headline text \"Lesson complete!\" is displayed in black, large, sans-serif font with strong weight and center alignment. Below the headline is a prominent circular icon with a purple (#A277E6) gradient or solid background and ..."
+      },
+      "flows": []
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/brilliant.org/desktop/f1ef14d1-959e-4291-9dd0-1d3784965071_thumb.jpg",
+      "hex_colors": [
+        "0xF69D47",
+        "0x2ECB5B",
+        "0x040404",
+        "0xFBFBFB",
+        "0x9CA09C"
+      ],
+      "uuid": "783ef1c3-30ff-4f13-80d0-e75bb6dcd134",
+      "page_url": "https://brilliant.org/courses/visual-exploration/intro/edv-newch-8/up-next/?from_llp=data-analysis",
+      "site": {
+        "id": 221,
+        "domain": "brilliant.org",
+        "description": "Learn by doing",
+        "name": "Brilliant",
+        "background_url": "https://images.refero.design/backgrounds/brilliant.org/125eaf46-2edc-4f7b-aa1f-6eb09fb5ef12.jpg",
+        "refero_url": "https://refero.design/websites/221",
+        "categories": [
+          "Education"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/brilliant.org/4c115bf8-4d4b-4d96-b3fd-252f55b79181.jpg",
+        "background_color": "36c45a"
+      },
+      "ux_patterns": [
+        "Success"
+      ],
+      "ui_elements": [
+        "Button",
+        "Icon",
+        "Illustration",
+        "Animation"
+      ],
+      "page_types": [
+        "Quiz & Poll"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/783ef1c3-30ff-4f13-80d0-e75bb6dcd134",
+      "content": {
+        "description": "This screen displays a minimalistic success confirmation message for the completion of a lesson. The background is solid white (#FFFFFF), creating a clean and open space. Centered vertically and horizontally at the top is a small colorful illustrative icon composed of a green diamond shape above an orange square with a checkmark symbol, softly glowing and casting subtle shadows for depth. Beneath t..."
+      },
+      "flows": [
+        {
+          "id": 4356,
+          "name": "Taking quiz on data visualization",
+          "step": 5,
+          "total_steps": 25
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/nudea.com/desktop/12c3f136-0a2f-48c8-9c6b-eb1673ce3c37_thumb.jpg",
+      "hex_colors": [
+        "0xA14D2E",
+        "0x373530",
+        "0xFBFBF3",
+        "0x9B9D9B",
+        "0x94856C"
+      ],
+      "uuid": "2f4544d5-3448-446e-9937-9ff9e67c6499",
+      "page_url": "https://www.nudea.com/pages/get-fitted",
+      "site": {
+        "id": 732,
+        "domain": "nudea.com",
+        "description": "A thoughtful curation of underwear and sleepwear crafted from natural and recycled materials",
+        "name": "Nudea",
+        "background_url": "https://images.refero.design/backgrounds/nudea.com/9ef1d141-352e-497f-84d2-8503801ebb44.jpg",
+        "refero_url": "https://refero.design/websites/732",
+        "categories": [
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/nudea.com/0abb0d3b-964d-411d-8bd8-5ed1217a8c88.jpg",
+        "background_color": "d3a417"
+      },
+      "ux_patterns": [
+        "Booking"
+      ],
+      "ui_elements": [
+        "Media Gallery",
+        "Carousel",
+        "Button",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/2f4544d5-3448-446e-9937-9ff9e67c6499",
+      "content": {
+        "description": "This screen is a virtual fitting room page designed for scheduling a bra fitting appointment and accessing related fit tools. The color palette features soft beige and cream backgrounds (#F7F3ED approximate) with black (#000000) text for high contrast and readability. The brand logo 'NUDEA' appears at the top center with minimalistic sans-serif typography in black. The navigation bar below includes..."
+      },
+      "flows": [
+        {
+          "id": 7662,
+          "name": "Booking online fitting session",
+          "step": 4,
+          "total_steps": 6
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/gumroad.com/desktop/cf815cd2-9b5f-4f92-a95b-4eb4b05d69b1_thumb.jpg",
+      "hex_colors": [
+        "0x040404",
+        "0xF6F6F6",
+        "0x8C8C8C",
+        "0xF694E4",
+        "0x575959"
+      ],
+      "uuid": "73192320-9470-4ff8-8b58-50de7dcbf522",
+      "page_url": "https://gumroad.com/products/afsiku/edit/receipt",
+      "site": {
+        "id": 296,
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad",
+        "background_url": "https://images.refero.design/backgrounds/gumroad.com/c480775e-e221-491f-84c8-6cd8eae3684e.jpg",
+        "refero_url": "https://refero.design/websites/296",
+        "categories": [
+          "Business",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/gumroad.com/4b57e0a6-9290-4a1c-bfb6-057b7e136e92.jpg",
+        "background_color": "ffc906"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Currency"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/73192320-9470-4ff8-8b58-50de7dcbf522",
+      "content": {
+        "description": "This screen is a product receipt customization interface for a digital product named \"Web Design Course №1.\" The overall style is clean and minimalistic with a black, white, and light beige color palette. The background uses a very light beige (#F7F6F3), with a black sidebar (#000000) on the left. The text is primarily dark gray (#1A1A1A) with some elements in lighter gray for secondary text. The l..."
+      },
+      "flows": [
+        {
+          "id": 9238,
+          "name": "Publishing digital product",
+          "step": 12,
+          "total_steps": 14
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/gumroad.com/desktop/99eb1369-d58a-49eb-babd-f2e98b67bb42_thumb.jpg",
+      "hex_colors": [
+        "0x040404",
+        "0xF7F7F7",
+        "0x8F8F8F",
+        "0x5A5B5A",
+        "0xC0C0C0"
+      ],
+      "uuid": "561f01b8-fc8f-4c06-aee6-ed8fbee13cad",
+      "page_url": "https://gumroad.com/products/afsiku/edit",
+      "site": {
+        "id": 296,
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad",
+        "background_url": "https://images.refero.design/backgrounds/gumroad.com/c480775e-e221-491f-84c8-6cd8eae3684e.jpg",
+        "refero_url": "https://refero.design/websites/296",
+        "categories": [
+          "Business",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/gumroad.com/4b57e0a6-9290-4a1c-bfb6-057b7e136e92.jpg",
+        "background_color": "ffc906"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Switch & Toggle",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Photo",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/561f01b8-fc8f-4c06-aee6-ed8fbee13cad",
+      "content": {
+        "description": "This interface is a multi-section form page for setting up and managing a digital course product called \"Web Design Course Nº1\". The layout is divided into a left vertical navigation sidebar and a main content area with multiple horizontal content sections stacked vertically. The left sidebar is black with white icons and purple highlight on active menu items, listing navigation links including Hom..."
+      },
+      "flows": [
+        {
+          "id": 9238,
+          "name": "Publishing digital product",
+          "step": 5,
+          "total_steps": 14
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/gumroad.com/desktop/5148750c-0cb8-4423-ad16-ea8939ccbbb7_thumb.jpg",
+      "hex_colors": [
+        "0x040404",
+        "0xF6F6F6",
+        "0x8B8B8B",
+        "0x595958",
+        "0xC0C0BF"
+      ],
+      "uuid": "4becfd41-f23b-49c4-9c65-1039f71432ce",
+      "page_url": "https://gumroad.com/products/afsiku/edit",
+      "site": {
+        "id": 296,
+        "domain": "gumroad.com",
+        "description": "Earn your first dollar online with Gumroad",
+        "name": "Gumroad",
+        "background_url": "https://images.refero.design/backgrounds/gumroad.com/c480775e-e221-491f-84c8-6cd8eae3684e.jpg",
+        "refero_url": "https://refero.design/websites/296",
+        "categories": [
+          "Business",
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/gumroad.com/4b57e0a6-9290-4a1c-bfb6-057b7e136e92.jpg",
+        "background_color": "ffc906"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Switch & Toggle",
+        "Text Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/4becfd41-f23b-49c4-9c65-1039f71432ce",
+      "content": {
+        "description": "The interface is a product management screen for creating and editing a digital product titled 'Web Design Course №1'. The layout is split vertically: the left side features a dark vertical sidebar with navigation options (Home, Products, Collaborators, Checkout, Emails, Workflows, Sales, Analytics, Payouts, Discover, Library, Settings, Help, and user account). The main workspace to the right uses ..."
+      },
+      "flows": [
+        {
+          "id": 9238,
+          "name": "Publishing digital product",
+          "step": 4,
+          "total_steps": 14
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/teachable.com/desktop/80f6246e-9908-4ef8-8d5e-c90b210f94fb_thumb.jpg",
+      "hex_colors": [
+        "0x171717",
+        "0xFCFCFC",
+        "0x747474",
+        "0xA2A2A2",
+        "0x848484"
+      ],
+      "uuid": "f0e211ea-d620-4379-858b-657136e58564",
+      "page_url": "https://liam-s-school68.teachable.com/admin-app/create/courses/step-1",
+      "site": {
+        "id": 358,
+        "domain": "teachable.com",
+        "description": "Sell Courses, Coaching and Digital Downloads",
+        "name": " Teachable",
+        "background_url": "https://images.refero.design/backgrounds/teachable.com/473739f0-2b13-43c2-b04f-1712447a70da.jpg",
+        "refero_url": "https://refero.design/websites/358",
+        "categories": [
+          "Business"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/teachable.com/f65f24e1-cab0-414a-beaa-d41406e9fe4f.jpg",
+        "background_color": "2f73c1"
+      },
+      "ux_patterns": [
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Step Indicator"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/f0e211ea-d620-4379-858b-657136e58564",
+      "content": {
+        "description": "The screen is a minimalistic form interface for inputting course information, with a clear white background (#FFFFFF) covering the entire viewport. At the top center, there is a concise heading 'Tell us about your course' in a medium serif or sans-serif font, approximately 20-24px in size, black or dark gray (#000000 or #333333), followed by a smaller subtitle in a lighter gray (#666666) font about..."
+      },
+      "flows": [
+        {
+          "id": 9573,
+          "name": "Creating cource",
+          "step": 2,
+          "total_steps": 34
+        }
+      ]
+    }
+  ]
+}

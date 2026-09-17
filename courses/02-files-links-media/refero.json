@@ -1,0 +1,279 @@
+{
+  "module": "02-files-links-media",
+  "title": "Files, links, media",
+  "intro": "Research for Essentials 2.0: Semester → Courses → Files, links, media.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Upload + link + embed handled in one place vs. separate features",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "Organisation model (flat list / folders / sections tied to course structure)",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "Reuse across courses (central library vs. per-course silo)",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Preview and inline playback without leaving the course",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "Visibility controls (draft / scheduled / per-group) and how they are surfaced",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "Learner-side view mirrors instructor-side structure",
+      "answer": ""
+    }
+  ],
+  "references": [
+    {
+      "id": "refero:0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b",
+      "source": "refero",
+      "app": "Gumroad",
+      "title": "The screens depict an online course content editing interface with a left sidebar navigation and a main content area",
+      "kind": "screen",
+      "url": "https://refero.design/pages/0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b",
+      "images": [
+        "https://images.refero.design/screenshots/gumroad.com/desktop/0c5658a6-d9c8-464f-a8d7-8ea992052da3_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Gumroad sidebar and content area expose a sectioned product structure.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "source": "refero",
+      "app": "Gumroad",
+      "title": "The first screen shows a content management interface for a \"Web Design Course Nº1\" hosted on a platform called Gumroad",
+      "kind": "screen",
+      "url": "https://refero.design/pages/11b3c0a4-eb09-4d98-9a1a-742439189540",
+      "images": [
+        "https://images.refero.design/screenshots/gumroad.com/desktop/97f93b6d-9424-4a99-b962-15abdc366417_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Gumroad content editor keeps course content and insertion controls together.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4e5677b4-94fd-47fc-b2a7-e0ba320debcf",
+      "source": "refero",
+      "app": "Squarespace",
+      "title": "This screen is an 'Edit lesson' modal window overlaying a blurred background of a course webpage",
+      "kind": "screen",
+      "url": "https://refero.design/pages/4e5677b4-94fd-47fc-b2a7-e0ba320debcf",
+      "images": [
+        "https://images.refero.design/screenshots/squarespace.com/desktop/41c61c81-638a-4b70-bd39-61f54dc4c876_thumb.jpg"
+      ],
+      "question": "Q4",
+      "take": "Squarespace lesson editing reference supports rich lesson content in place.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4f0eb823-2f76-4e92-b3dd-cb4446effbb1",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "The screen is a clean and minimal interface for outlining a course curriculum",
+      "kind": "screen",
+      "url": "https://refero.design/pages/4f0eb823-2f76-4e92-b3dd-cb4446effbb1",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/3bd5b765-12e2-4cd9-bdbc-5e2ed41858f8_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Teachable curriculum outline shows course structure as the organizing context.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:71fab656-7401-4838-b001-024e2534f560",
+      "source": "refero",
+      "app": "Cake Equity",
+      "title": "The screen presents a web-based file and document management interface with a clean, modern design",
+      "kind": "screen",
+      "url": "https://refero.design/pages/71fab656-7401-4838-b001-024e2534f560",
+      "images": [
+        "https://images.refero.design/screenshots/cakeequity.com/desktop/0a8c8c3e-0a83-4d68-9cdc-5e083e848d50_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Cake file management presents reusable documents independently from a single course.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:8614ec8e-e4a0-46c6-9eeb-81171c9cb116",
+      "source": "refero",
+      "app": "Cake Equity",
+      "title": "The screen displays a document management interface within a corporate or enterprise application called Cake Platform",
+      "kind": "screen",
+      "url": "https://refero.design/pages/8614ec8e-e4a0-46c6-9eeb-81171c9cb116",
+      "images": [
+        "https://images.refero.design/screenshots/cakeequity.com/desktop/592d9877-8a71-4d74-b21b-670a04371ea0_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Cake document management uses a central files surface with list organization.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:a68d25c8-7cda-41fb-aa23-67308245866e",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "The screen displays a course curriculum management interface for an educational platform named 'Liam's School'",
+      "kind": "screen",
+      "url": "https://refero.design/pages/a68d25c8-7cda-41fb-aa23-67308245866e",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/d6b39d1b-9677-483c-8591-402f363b3f72_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "Teachable learner facing curriculum reference keeps lesson resources in course context.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:dcb0fe52-b9ca-45ce-86ef-60bb453067a5",
+      "source": "refero",
+      "app": "Gumroad",
+      "title": "This screen is a receipt customization interface for a digital product titled \"Web Design Course Nº1\" on Gumroad",
+      "kind": "screen",
+      "url": "https://refero.design/pages/dcb0fe52-b9ca-45ce-86ef-60bb453067a5",
+      "images": [
+        "https://images.refero.design/screenshots/gumroad.com/desktop/4a109560-5ac5-4742-9aa5-b00d312b89ed_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "Gumroad product management reference shows publishing configuration in the editor.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:dcbe696e-9e2f-4c40-8b1f-f3bc2815a1ff",
+      "source": "refero",
+      "app": "Skillshare",
+      "title": "The screenshots depict a clean and structured online learning platform's 'My Classes' section, designed for users to view, filter, and manage their saved or enrolled courses",
+      "kind": "screen",
+      "url": "https://refero.design/pages/dcbe696e-9e2f-4c40-8b1f-f3bc2815a1ff",
+      "images": [
+        "https://images.refero.design/screenshots/skillshare.com/desktop/08e20753-246b-45e7-8c5d-985d9f1e825d_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "Skillshare learner library emphasizes class based consumption and return access.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:e1fdbe5d-2cd0-4823-9d59-81018b1a206b",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "The screen features a clean, minimalist dashboard style interface with a left sidebar navigation area and a main content area on the right",
+      "kind": "screen",
+      "url": "https://refero.design/pages/e1fdbe5d-2cd0-4823-9d59-81018b1a206b",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/7ad529ec-8c27-46c0-87a1-1aaace099169_thumb.jpg"
+      ],
+      "question": "Q5",
+      "take": "Teachable admin dashboard reference surfaces course management state centrally.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:flow9574-44abfeaa-8226-458d-809e-3b44da80311c",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Open lesson in curriculum editor",
+      "kind": "screen",
+      "url": "https://refero.design/pages/44abfeaa-8226-458d-809e-3b44da80311c",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/c2d2c3e3-5e51-4463-8a01-1786c9220d9e_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Review the lesson and prepare to add new content (resource) to it.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:flow9574-6e7d40f7-0553-4f44-9e53-dd73b0c45538",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Open content picker",
+      "kind": "screen",
+      "url": "https://refero.design/pages/6e7d40f7-0553-4f44-9e53-dd73b0c45538",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/02868304-3eb4-46c9-89ca-99d5d2427f00_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Select the appropriate content type (Resource) to attach a downloadable file to the lesson.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:flow9574-4c265aa2-6394-4750-8fc4-277d98731b42",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Open Add resource modal",
+      "kind": "screen",
+      "url": "https://refero.design/pages/4c265aa2-6394-4750-8fc4-277d98731b42",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/63c3c3f3-67cf-4196-a7e2-7986c1ca2b1c_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Provide a file to upload — via drag & drop, file browser, or import from link/Dropbox/Google Drive.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:flow9574-d8cd1c81-f0a6-435b-9679-701e8fc80079",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Confirm file selection",
+      "kind": "screen",
+      "url": "https://refero.design/pages/d8cd1c81-f0a6-435b-9679-701e8fc80079",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/609de55e-16a0-4563-b10e-196cf5b9a8d3_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Verify the selected file and start the upload.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:flow9574-a68d25c8-7cda-41fb-aa23-67308245866e",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Resource added to lesson",
+      "kind": "screen",
+      "url": "https://refero.design/pages/a68d25c8-7cda-41fb-aa23-67308245866e",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/d6b39d1b-9677-483c-8591-402f363b3f72_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Confirm the resource is attached to the lesson and visible to students (download link visible).",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

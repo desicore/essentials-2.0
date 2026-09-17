@@ -1,0 +1,654 @@
+{
+  "module": "08-recordings-course-reports",
+  "title": "Access Recordings / Course Reports → Learner portal",
+  "intro": "Research for Essentials 2.0: Semester → Courses → recordings and course reports → Learner Portal. Two connected tasks: manage sensitive session recordings, and understand course and learner outcomes. Evidence covers captured product interfaces; gaps are explicitly distinguished from absent product capabilities.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Recording organisation (by event / by learner / by scenario) and search",
+      "answer": "Loom combines broad library search, folders and metadata-rich recording cards; Vimeo emphasizes recent videos and a persistent search field. Zoom contributes the strongest event-level grouping: several recording files sit under one named meeting. For Essentials, combine this session bundle with searchable event, learner and scenario metadata. That three-axis organization is a proposal, not an observed capability in these captures. Evidence: Loom [mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4], Vimeo [refero:1429d347-5ed3-4ac6-b9d1-f906e69c23e9], Zoom [mobbin:179edc0d-797b-47fa-9999-7a3998407b80]."
+    },
+    {
+      "id": "Q2",
+      "title": "Access control on recordings (learner sees own only, group, time-limited)",
+      "answer": "Vimeo separates link privacy from named collaborator roles. Zoom exposes audience settings, a passcode and an optional expiration checkbox, shown unchecked; its sampled flow reaches an updated state. Loom's captured 'Anyone with the link' state is a counter-example for sensitive debrief footage, not proof of its universal default. Essentials should make the recording audience explicit and reviewable. Automatic learner-own-only binding and course-group rules remain unproven in this evidence. Vimeo [mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8], Zoom [mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001], Loom [mobbin:cf7c8043-a315-4bc5-a889-d3683430232c]."
+    },
+    {
+      "id": "Q3",
+      "title": "Playback enrichments (chapters, transcript, annotations, timestamps) — link to Elevate's AI video annotation / chapterization",
+      "answer": "Grain connects selected transcript text to a timestamped comment and reply composer; Loom exposes editable AI summary and chapter structure. Vimeo's 'No speech detected' state shows the need for a fallback when a transcript is unavailable. Apply these patterns to Elevate's AI video annotation / chapterization: editable scenario phases, shared timecodes for comments and chapters, and clear AI provenance. Seeking behavior, AI accuracy and competency scoring are not established by the captures. Grain [mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7], Loom [mobbin:9c7d6717-30ad-411d-96a1-465961438578], Vimeo [mobbin:bd482934-e96c-4560-967f-2509d3c341d8]."
+    },
+    {
+      "id": "Q4",
+      "title": "Report structure: overview → per-learner drill-down → export",
+      "answer": "The complete reporting journey is assembled from complementary evidence: Circle shows course summaries, a student table and sampled export; Kajabi shows a learner/course/module/lesson detail hierarchy; SchoolAI places class outcomes and learner insights beside CSV download. No single captured flow proves overview → learner detail → export end to end. Essentials should preserve course and filter context through each level, with export scoped to the displayed report; that scope preservation is a recommendation. Circle [mobbin:464a297d-2355-443d-8123-d61f80c4a72c], Kajabi [mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f], SchoolAI [mobbin:82be552c-140b-4a19-95bb-037c320ca775]."
+    },
+    {
+      "id": "Q5",
+      "title": "Metrics shown by default (completion, attendance, score, mastery) and comparability across cohorts",
+      "answer": "Completion and mastery are distinct in the sample: Circle reports average course completion, Kajabi lesson completion, and SchoolAI explicitly labels outcome/mastery measures (Q4 references). Mixpanel makes metric definitions, date ranges, filters and cohort breakdowns visible, but its retention and event counts measure behavior rather than learning. Coursera's Grades screen provides assessment scores (Q6). Borrow comparison controls while keeping attendance, completion, score and mastery separate; attendance defaults and a common cross-cohort assessment basis are evidence gaps. Circle [mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee], SchoolAI [mobbin:00828d09-252c-4d02-92a1-58966ebbe19d], Mixpanel [mobbin:d7008305-0f24-4a04-8714-75d16b5284ff], Coursera [mobbin:35b8baea-dca0-422b-83ee-01dd411da127]."
+    },
+    {
+      "id": "Q6",
+      "title": "Learner-side results view: same data, simplified",
+      "answer": "Coursera separates a compact personal progress summary from assessment detail: the Grades view shows overall pass/grade and per-assessment status, due date, weight and grade; mobile emphasizes completion and next work. Essentials can use this personal projection for released results and recordings, with a path back to the relevant simulation moment. These captures do not show learner recording access or establish a shared instructor/learner data model. Learner-side coverage is one product, so cross-product convergence is not claimed here. Coursera [mobbin:93beef1d-a7ba-4f6c-9efb-4d13aee3eb76; mobbin:35b8baea-dca0-422b-83ee-01dd411da127]."
+    }
+  ],
+  "references": [
+    {
+      "id": "mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom recording library",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/9e8909a2-43b5-4007-b72d-05475a8c0af4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LcCEGlrk"
+      ],
+      "question": "Q1",
+      "take": "Loom's recording library provides a searchable, thumbnail-led index for locating captured sessions.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:98d765b9-0124-499b-8132-7afa776d4fc3",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom recordings index",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/98d765b9-0124-499b-8132-7afa776d4fc3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rVN7EcjL"
+      ],
+      "question": "Q1",
+      "take": "A compact recordings index makes recency and visual recognition useful for course-session retrieval.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:027d0e0e-19fe-478f-a917-0ed1fc871244",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom video list",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/027d0e0e-19fe-478f-a917-0ed1fc871244",
+      "images": [
+        "https://mobbin.com/api/mcp/short/zlOwTAcx"
+      ],
+      "question": "Q1",
+      "take": "The list view supports scanning many recordings as a collection rather than forcing one-video-at-a-time access.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:d9ee7199-4790-424b-9175-3a5367d4d48f",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom iOS recording detail",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/d9ee7199-4790-424b-9175-3a5367d4d48f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/NIfvQBdw"
+      ],
+      "question": "Q1",
+      "take": "The mobile detail view provides a compact route from a recording item to playback or sharing actions.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:1429d347-5ed3-4ac6-b9d1-f906e69c23e9",
+      "source": "refero",
+      "app": "Vimeo",
+      "title": "Video content library",
+      "kind": "screen",
+      "url": "https://refero.design/pages/1429d347-5ed3-4ac6-b9d1-f906e69c23e9",
+      "images": [
+        "https://images.refero.design/screenshots/vimeo.com/desktop/401689ce-29ed-449a-850b-b658196b15c6_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Vimeo’s captured content library combines persistent navigation, search, cards, and pagination for browsing a large video collection.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:be4decc5-73a3-4f88-adc9-7bafc805c606",
+      "source": "refero",
+      "app": "Vimeo",
+      "title": "Video platform dashboard",
+      "kind": "screen",
+      "url": "https://refero.design/pages/be4decc5-73a3-4f88-adc9-7bafc805c606",
+      "images": [
+        "https://images.refero.design/screenshots/vimeo.com/desktop/c978a339-7b98-47c0-90ee-91ae52e293e6_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "A second Vimeo capture shows library browsing organized around a clear content area with search and card based media discovery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:179edc0d-797b-47fa-9999-7a3998407b80",
+      "source": "mobbin",
+      "app": "Zoom",
+      "title": "Sharing a recording",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/179edc0d-797b-47fa-9999-7a3998407b80",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TY18kmME",
+        "https://mobbin.com/api/mcp/short/5nzl3VGR",
+        "https://mobbin.com/api/mcp/short/rDiMD63c",
+        "https://mobbin.com/api/mcp/short/GCMYZRlB",
+        "https://mobbin.com/api/mcp/short/1w8WZrze",
+        "https://mobbin.com/api/mcp/short/RRo2Hi3w",
+        "https://mobbin.com/api/mcp/short/F6m5bM1N",
+        "https://mobbin.com/api/mcp/short/pfXAzRGh"
+      ],
+      "question": "Q1",
+      "take": "The full eight preview sequence samples locating a recording, opening its share surface, choosing access, and completing distribution.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:cf7c8043-a315-4bc5-a889-d3683430232c",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom sharing controls",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/cf7c8043-a315-4bc5-a889-d3683430232c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/JP9fHvFl"
+      ],
+      "question": "Q2",
+      "take": "The captured Loom share dialog permits named/workspace recipients while the visible link state is 'Anyone with the link can view'; this broad state warrants deliberate review for sensitive debriefs.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e4d79f0a-e2a6-43d2-ae67-8f6019b38173",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Vimeo privacy settings",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/e4d79f0a-e2a6-43d2-ae67-8f6019b38173",
+      "images": [
+        "https://mobbin.com/api/mcp/short/17ZkN6HB"
+      ],
+      "question": "Q2",
+      "take": "Vimeo exposes recording privacy controls at the point where an instructor decides who can view a video.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Vimeo sharing options",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5262ab95-d5ee-4376-ba68-5e780dcad8a8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sTPreEO8"
+      ],
+      "question": "Q2",
+      "take": "A separate sharing options view supports deliberate distribution decisions for sensitive course footage.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:156982f6-11ba-4c17-abd1-b48fc207a2e7",
+      "source": "mobbin",
+      "app": "Zoom",
+      "title": "Zoom recording access",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/156982f6-11ba-4c17-abd1-b48fc207a2e7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/yLfz0uD1"
+      ],
+      "question": "Q2",
+      "take": "Zoom provides an access management surface for restricting recordings to intended participants.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:fe592646-cdd0-4bea-85cb-c69add94608f",
+      "source": "mobbin",
+      "app": "Zoom",
+      "title": "Zoom recording permissions",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/fe592646-cdd0-4bea-85cb-c69add94608f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/njdyw4Xr"
+      ],
+      "question": "Q2",
+      "take": "Zoom's permissions screen can serve as a reference for learner-only or group-scoped recording access.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001",
+      "source": "mobbin",
+      "app": "Zoom",
+      "title": "Updating share settings",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001",
+      "images": [
+        "https://mobbin.com/api/mcp/short/n32EpqTR",
+        "https://mobbin.com/api/mcp/short/LzKSu7zH",
+        "https://mobbin.com/api/mcp/short/P5OK1mUI",
+        "https://mobbin.com/api/mcp/short/6ZoSST5t"
+      ],
+      "question": "Q2",
+      "take": "Sampled Zoom share/settings states show audience, passcode and an unchecked expiration option, followed by an update confirmation; learner-own-only and course-group binding are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7",
+      "source": "mobbin",
+      "app": "Grain",
+      "title": "Adding a comment",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/62d0f6ef-1c16-452c-8766-b3133d5bc0c7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KP8DhfRQ",
+        "https://mobbin.com/api/mcp/short/xrVHMiWs",
+        "https://mobbin.com/api/mcp/short/8I0S2K7t",
+        "https://mobbin.com/api/mcp/short/9qqux6xm",
+        "https://mobbin.com/api/mcp/short/PozgnYye"
+      ],
+      "question": "Q3",
+      "take": "Five ordered captured states connect transcript text to a timestamped comment and a reply composer; intermediate clicks and playback seeking are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:208932bc-b2f9-4671-ac57-67868cf2d47e",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom video player",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/208932bc-b2f9-4671-ac57-67868cf2d47e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5r9d7WDQ"
+      ],
+      "question": "Q3",
+      "take": "Loom playback references pair the video surface with transcript and collaboration context for time-based review.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2e68b8da-81a8-4e1d-bdb8-48dec8f6e49b",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Playback with timestamped transcript and comment entry point",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2e68b8da-81a8-4e1d-bdb8-48dec8f6e49b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/m6H3nJVU"
+      ],
+      "question": "Q3",
+      "take": "Loom shows a timestamped transcript, search/copy controls and a Comment action beside playback; comment submission and transcript-click seeking are not captured.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9c7d6717-30ad-411d-96a1-465961438578",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom transcript context",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/9c7d6717-30ad-411d-96a1-465961438578",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sNoMpHUy"
+      ],
+      "question": "Q3",
+      "take": "Loom exposes editable summary and timestamped chapters alongside an AI-generated-content indicator; generation and save transitions are not captured.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a0e413d9-735c-4c11-9717-3de66d3eb960",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Vimeo video player",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a0e413d9-735c-4c11-9717-3de66d3eb960",
+      "images": [
+        "https://mobbin.com/api/mcp/short/emIsHqq8"
+      ],
+      "question": "Q3",
+      "take": "Vimeo playback reference shows a focused player page suitable for chapter and transcript adjacency.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:de9410ce-93f4-435c-b9c5-b15fde660ba3",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Vimeo playback detail",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/de9410ce-93f4-435c-b9c5-b15fde660ba3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TjrV3sQX"
+      ],
+      "question": "Q3",
+      "take": "Vimeo’s detail view is a useful reference for keeping metadata and playback controls near the video.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:bd482934-e96c-4560-967f-2509d3c341d8",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Vimeo comments context",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/bd482934-e96c-4560-967f-2509d3c341d8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hUjw0agQ"
+      ],
+      "question": "Q3",
+      "take": "Vimeo's transcript panel reports 'No speech detected', illustrating the need for a useful recording-review fallback when speech enrichment is unavailable.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Circle course analytics",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3a9baed1-2367-4a3b-9c61-6f0c792fb0ee",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Xfl7vPUp"
+      ],
+      "question": "Q4",
+      "take": "Circle analytics uses a course-level overview as the entry point to learner performance reporting.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:464a297d-2355-443d-8123-d61f80c4a72c",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Exporting students",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/464a297d-2355-443d-8123-d61f80c4a72c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/RArWBhnR",
+        "https://mobbin.com/api/mcp/short/GMOXvFGS",
+        "https://mobbin.com/api/mcp/short/ugpGWzdU"
+      ],
+      "question": "Q4",
+      "take": "Sampled Circle states show a course student table, export menu and email-delivery confirmation; intervening navigation and export selection are not captured.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Learner detail: course, module and lesson completion",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/1227af09-4d68-457a-a7ea-a5596e2c3e4f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FFsrPU2c"
+      ],
+      "question": "Q4",
+      "take": "Kajabi places overall progress, last activity, module progress and lesson completion beneath a course/learner breadcrumb; the entry transition and export are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:00828d09-252c-4d02-92a1-58966ebbe19d",
+      "source": "mobbin",
+      "app": "SchoolAI",
+      "title": "SchoolAI report overview",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/00828d09-252c-4d02-92a1-58966ebbe19d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Rq5TBjY9"
+      ],
+      "question": "Q4",
+      "take": "SchoolAI offers a direct education reporting reference with overview information suited to instructor review.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:82be552c-140b-4a19-95bb-037c320ca775",
+      "source": "mobbin",
+      "app": "SchoolAI",
+      "title": "Downloading a report",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/82be552c-140b-4a19-95bb-037c320ca775",
+      "images": [
+        "https://mobbin.com/api/mcp/short/eTkspxME",
+        "https://mobbin.com/api/mcp/short/WIUxYSVC",
+        "https://mobbin.com/api/mcp/short/6U6aSt9e"
+      ],
+      "question": "Q4",
+      "take": "Sampled SchoolAI report states show generated learner/session insights, Download CSV and a success toast; the resulting CSV and a learner-detail transition are not captured.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:87f9d574-30e4-4053-80c3-4d4cc189ca69",
+      "source": "mobbin",
+      "app": "Uxcel",
+      "title": "Uxcel learner analytics",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/87f9d574-30e4-4053-80c3-4d4cc189ca69",
+      "images": [
+        "https://mobbin.com/api/mcp/short/NDXNS09c"
+      ],
+      "question": "Q4",
+      "take": "Uxcel demonstrates a learner-oriented analytics view that can inform drill-down structure.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:d8d5048b-159e-433d-a488-5a551f422bdf",
+      "source": "mobbin",
+      "app": "Mixpanel",
+      "title": "Mixpanel analytics dashboard",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/d8d5048b-159e-433d-a488-5a551f422bdf",
+      "images": [
+        "https://mobbin.com/api/mcp/short/dJndIPmP"
+      ],
+      "question": "Q5",
+      "take": "An analytics overview makes the measured event and time context visible before comparing performance; this supports separating outcome measures from engagement proxies.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:d7008305-0f24-4a04-8714-75d16b5284ff",
+      "source": "mobbin",
+      "app": "Mixpanel",
+      "title": "Mixpanel report segmentation",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/d7008305-0f24-4a04-8714-75d16b5284ff",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7ywFtjbH"
+      ],
+      "question": "Q5",
+      "take": "Mixpanel exposes named behavior metrics, date range, filters and cohort breakdowns; comparable engagement does not establish comparable learning outcomes.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:be374c47-a37d-4dd2-994f-d3ee89aed0e9",
+      "source": "mobbin",
+      "app": "Mixpanel",
+      "title": "Mixpanel retention comparison",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/be374c47-a37d-4dd2-994f-d3ee89aed0e9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/iRWFNp81"
+      ],
+      "question": "Q5",
+      "take": "A cohort chart supports side by side trend reading; retention is an engagement proxy and should be paired with completion, attendance, score, or mastery evidence.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:7b9ad250-9a11-47ad-87e0-9dab40727c2e",
+      "source": "mobbin",
+      "app": "Mixpanel",
+      "title": "View retained users",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7b9ad250-9a11-47ad-87e0-9dab40727c2e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/YSIYJVN5",
+        "https://mobbin.com/api/mcp/short/CSBUfVU8",
+        "https://mobbin.com/api/mcp/short/Ri6N5hvW"
+      ],
+      "question": "Q5",
+      "take": "The ordered flow moves from an overview into retained-user detail, showing a useful path from cohort signal to learner-level inspection.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a8a15261-d74d-4f56-bf69-f19849059c12",
+      "source": "mobbin",
+      "app": "Mixpanel",
+      "title": "Exporting events",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/a8a15261-d74d-4f56-bf69-f19849059c12",
+      "images": [
+        "https://mobbin.com/api/mcp/short/iXnIrCew",
+        "https://mobbin.com/api/mcp/short/wCEGv5ZI",
+        "https://mobbin.com/api/mcp/short/Qo7VmFpH",
+        "https://mobbin.com/api/mcp/short/7jCj3RxS"
+      ],
+      "question": "Q5",
+      "take": "The export flow provides a concrete handoff for further cohort analysis, useful when reports need to be shared or audited.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:93beef1d-a7ba-4f6c-9efb-4d13aee3eb76",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Coursera learner course view",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/93beef1d-a7ba-4f6c-9efb-4d13aee3eb76",
+      "images": [
+        "https://mobbin.com/api/mcp/short/tGkWu7jT"
+      ],
+      "question": "Q6",
+      "take": "The learner course view foregrounds progress through course content, giving a simplified personal projection of course status.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:15cacd44-7839-4c9f-9623-1db6833c291d",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Coursera completed work",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/15cacd44-7839-4c9f-9623-1db6833c291d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/k9M1UWn1"
+      ],
+      "question": "Q6",
+      "take": "Completed items are presented as a learner-facing status list, an outcome-oriented summary that avoids exposing instructor cohort complexity.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:b7931f44-6fa5-4920-b892-c9bd340e496a",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Course overview and upcoming graded work (planning context)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/b7931f44-6fa5-4920-b892-c9bd340e496a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/CXNsxqxG"
+      ],
+      "question": "Q6",
+      "take": "Coursera's course overview presents workload, objectives, deadlines and upcoming graded assignments; this is planning context rather than an assessment result.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:35b8baea-dca0-422b-83ee-01dd411da127",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Learner Grades: overall pass and weighted assessment results",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/35b8baea-dca0-422b-83ee-01dd411da127",
+      "images": [
+        "https://mobbin.com/api/mcp/short/pJvTbngr"
+      ],
+      "question": "Q6",
+      "take": "Coursera's learner Grades view shows overall pass/grade plus assessment status, due date, weight and grade; it does not show competency mastery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:40087b17-c119-400c-8c7a-d84d50969b19",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Coursera iOS progress",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/40087b17-c119-400c-8c7a-d84d50969b19",
+      "images": [
+        "https://mobbin.com/api/mcp/short/aaXBuD4G"
+      ],
+      "question": "Q6",
+      "take": "The iOS learner view confirms that progress and course status can remain the primary mobile hierarchy.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:cbdaad40-84eb-4881-9262-74ecb2b4ffe5",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Coursera iOS result detail",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/cbdaad40-84eb-4881-9262-74ecb2b4ffe5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Qr12cJv6"
+      ],
+      "question": "Q6",
+      "take": "A compact mobile result detail keeps learner feedback accessible without replicating the instructor report surface.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

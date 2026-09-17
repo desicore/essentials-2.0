@@ -1,0 +1,1115 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: Essentials 2.0 · Design research · User Manager
+    - heading "User Manager — narrowed inspiration shortlist" [level=1] [ref=e5]
+    - paragraph [ref=e6]:
+      - text: Companion to
+      - code [ref=e7]: user-manager-map-index.md
+      - text: . That file lists
+      - emphasis [ref=e8]: everything
+      - text: "that touches each of Gabor's six User Manager nodes. This file is the cut: the references that best match each node, plus the counter-examples worth keeping on the \"don't build this\" wall."
+    - paragraph [ref=e9]:
+      - text: "Result: 169 refs → 41 keeps + 10 counter-examples. Per-node reasoning and every dropped ref with a reason lives in"
+      - code [ref=e10]: .context/user-manager-shortlist/node-*.md
+      - text: .
+    - paragraph [ref=e11]:
+      - text: "Reports:"
+      - link "R1 — Access, roles & sharing" [ref=e12] [cursor=pointer]:
+        - /url: tmp/report-hotlink.html
+      - text: (137 refs) ·
+      - link "R2 — University identity, directory sync & user import" [ref=e13] [cursor=pointer]:
+        - /url: university-identity/report.html
+      - text: (32 refs)
+    - table [ref=e14]:
+      - rowgroup [ref=e15]:
+        - row [ref=e16]:
+          - columnheader "Node" [ref=e17]
+          - columnheader "Keeps" [ref=e18]
+          - columnheader "Counters" [ref=e19]
+          - columnheader "Strongest single reference" [ref=e20]
+      - rowgroup [ref=e21]:
+        - row [ref=e22]:
+          - cell [ref=e23]:
+            - link "import learners from Canvas?" [ref=e24] [cursor=pointer]:
+              - /url: "#canvas-import"
+          - cell "4" [ref=e25]
+          - cell "0" [ref=e26]
+          - cell [ref=e27]:
+            - text: R2 Q6 ·
+            - strong [ref=e28]: Canvas
+            - text: — Retrieve a course roster through LTI NRPS
+        - row [ref=e29]:
+          - cell [ref=e30]:
+            - link "Add/Remove/Edit learner groups" [ref=e31] [cursor=pointer]:
+              - /url: "#learner-groups"
+          - cell "6" [ref=e32]
+          - cell "2" [ref=e33]
+          - cell [ref=e34]:
+            - text: R1 Q3 ·
+            - strong [ref=e35]: Front
+            - text: — Creating a teammate group
+        - row [ref=e36]:
+          - cell [ref=e37]:
+            - link "Add/Remove/Edit users" [ref=e38] [cursor=pointer]:
+              - /url: "#users-crud"
+          - cell "7" [ref=e39]
+          - cell "2" [ref=e40]
+          - cell [ref=e41]:
+            - text: R2 Q4 ·
+            - strong [ref=e42]: Loom
+            - text: — Deactivate access while explaining content consequences
+        - row [ref=e43]:
+          - cell [ref=e44]:
+            - link "Give permissions and access" [ref=e45] [cursor=pointer]:
+              - /url: "#permissions-access"
+          - cell "9" [ref=e46]
+          - cell "3" [ref=e47]
+          - cell [ref=e48]:
+            - text: R1 Q2 ·
+            - strong [ref=e49]: Basecamp
+            - text: — What can Jane Doe access?
+        - row [ref=e50]:
+          - cell [ref=e51]:
+            - link "Batch upload (AI?)" [ref=e52] [cursor=pointer]:
+              - /url: "#batch-upload"
+          - cell "7" [ref=e53]
+          - cell "1" [ref=e54]
+          - cell [ref=e55]:
+            - text: R1 Q3 ·
+            - strong [ref=e56]: Customer.io
+            - text: — Mapping fields
+        - row [ref=e57]:
+          - cell [ref=e58]:
+            - link "SSO" [ref=e59] [cursor=pointer]:
+              - /url: "#sso"
+          - cell "8" [ref=e60]
+          - cell "2" [ref=e61]
+          - cell [ref=e62]:
+            - text: R2 Q1 ·
+            - strong [ref=e63]: Okta
+            - text: — Select AD users and groups before import
+  - navigation "Node sections" [ref=e64]:
+    - list [ref=e65]:
+      - listitem [ref=e66]:
+        - link "1. import learners from Canvas?" [ref=e67] [cursor=pointer]:
+          - /url: "#canvas-import"
+      - listitem [ref=e68]:
+        - link "2. Add/Remove/Edit learner groups" [ref=e69] [cursor=pointer]:
+          - /url: "#learner-groups"
+      - listitem [ref=e70]:
+        - link "3. Add/Remove/Edit users" [ref=e71] [cursor=pointer]:
+          - /url: "#users-crud"
+      - listitem [ref=e72]:
+        - link "4. Give permissions and access" [ref=e73] [cursor=pointer]:
+          - /url: "#permissions-access"
+      - listitem [ref=e74]:
+        - link "5. Batch upload (AI?)" [ref=e75] [cursor=pointer]:
+          - /url: "#batch-upload"
+      - listitem [ref=e76]:
+        - link "6. SSO" [ref=e77] [cursor=pointer]:
+          - /url: "#sso"
+  - generic [ref=e79]:
+    - text: Search cards
+    - searchbox "Search cards" [active] [ref=e80]
+  - status [ref=e81]: 51 of 51 cards shown
+  - region [ref=e82]:
+    - generic [ref=e83]:
+      - heading "1. import learners from Canvas?" [level=2] [ref=e84]
+      - generic [ref=e85]:
+        - generic [ref=e86]: 4 keeps
+        - generic [ref=e87]: 0 counters
+    - paragraph [ref=e88]: All documentation, no product screens except Vimeo. Kept the refs that answer "pull learners from Canvas without creating duplicate users".
+    - generic [ref=e89]:
+      - article [ref=e90]:
+        - generic [ref=e91]: Documentation only — no screen
+        - generic [ref=e94]:
+          - paragraph [ref=e95]:
+            - generic [ref=e96]: R2
+            - text: · Q6
+          - paragraph [ref=e97]:
+            - strong [ref=e98]: Canvas
+          - heading "Retrieve a course roster through LTI NRPS" [level=4] [ref=e99]
+          - paragraph [ref=e100]: the live-roster mechanism; pulls the whole course population and matches to existing accounts instead of importing a snapshot.
+        - generic [ref=e101]:
+          - link "Source ↗" [ref=e102] [cursor=pointer]:
+            - /url: https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.provisioning
+          - link "Open in R2 report" [ref=e103] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e104]:
+        - generic [ref=e105]: Documentation only — no screen
+        - generic [ref=e108]:
+          - paragraph [ref=e109]:
+            - generic [ref=e110]: R2
+            - text: · Q6
+          - paragraph [ref=e111]:
+            - strong [ref=e112]: Canvas
+          - heading "Respect roster identifier and privacy boundaries" [level=4] [ref=e113]
+          - paragraph [ref=e114]: "names the duplicate-user trap: an LTI user id is not the directory id, so identifiers must be previewed before matching."
+        - generic [ref=e115]:
+          - link "Source ↗" [ref=e116] [cursor=pointer]:
+            - /url: https://developerdocs.instructure.com/services/canvas/resources/names_and_role
+          - link "Open in R2 report" [ref=e117] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e118]:
+        - generic [ref=e119]: Documentation only — no screen
+        - generic [ref=e122]:
+          - paragraph [ref=e123]:
+            - generic [ref=e124]: R2
+            - text: · Q5
+          - paragraph [ref=e125]:
+            - strong [ref=e126]: Canvas
+          - heading "Join user identifiers to separate enrollment data" [level=4] [ref=e127]
+          - paragraph [ref=e128]: the CSV path to the same problem; Users and Enrollments files must be joined, not assumed to create accounts.
+        - generic [ref=e129]:
+          - link "Source ↗" [ref=e130] [cursor=pointer]:
+            - /url: https://community.instructure.com/en/kb/articles/387054-canvas-default-account-reports
+          - link "Open in R2 report" [ref=e131] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e132]:
+        - figure [ref=e134]:
+          - 'button "Open full-size: Vimeo — Event registrants list with ''Sync from email list'' and ''Upload CSV''" [ref=e135]':
+            - img "Vimeo — Event registrants list with 'Sync from email list' and 'Upload CSV'" [ref=e136]
+        - generic [ref=e137]:
+          - paragraph [ref=e138]:
+            - generic [ref=e139]: R1
+            - text: · Q3
+          - paragraph [ref=e140]:
+            - strong [ref=e141]: Vimeo
+          - heading "Event registrants list with 'Sync from email list' and 'Upload CSV'" [level=4] [ref=e142]
+          - paragraph [ref=e143]: the one real screen; continuous sync and one-shot upload as distinct verbs in the same roster header.
+        - generic [ref=e144]:
+          - link "Source ↗" [ref=e145] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/733cc632-9935-41a9-9536-86e792611638
+          - link "Open in R1 report" [ref=e146] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - generic [ref=e148]:
+      - paragraph [ref=e149]: Close calls dropped
+      - paragraph [ref=e150]: Canvas course-departure vs suspension (enrollment states, belongs to the users node if anywhere), Canvas Provisioning CSV export (mechanics only), Canvas roles-on-enrollments (better used as an argument in the permissions node).
+  - region [ref=e151]:
+    - generic [ref=e152]:
+      - heading "2. Add/Remove/Edit learner groups" [level=2] [ref=e153]
+      - generic [ref=e154]:
+        - generic [ref=e155]: 6 keeps
+        - generic [ref=e156]: 2 counters
+    - paragraph [ref=e157]: "Still the thinnest node. Two distinct jobs: groups a sim tech builds by hand, and groups the university's IdP owns."
+    - heading "Hand-built groups" [level=3] [ref=e158]
+    - generic [ref=e159]:
+      - article [ref=e160]:
+        - figure [ref=e162]:
+          - 'button "Open full-size: Front — Creating a teammate group" [ref=e163]':
+            - img "Front — Creating a teammate group" [ref=e164]
+        - generic [ref=e165]:
+          - paragraph [ref=e166]:
+            - generic [ref=e167]: R1
+            - text: · Q3
+          - paragraph [ref=e168]:
+            - strong [ref=e169]: Front
+          - heading "Creating a teammate group" [level=4] [ref=e170]
+          - paragraph [ref=e171]:
+            - text: checkbox picker of existing people
+            - emphasis [ref=e172]: and
+            - text: CSV import on one screen; small groups by hand, big cohorts by file. Best single reference.
+        - generic [ref=e173]:
+          - link "Source ↗" [ref=e174] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/4337ee88-c5cd-431d-ab23-cf3cfaa34354
+          - link "Open in R1 report" [ref=e175] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e176]:
+        - figure [ref=e178]:
+          - 'button "Open full-size: Google Workspace — Manage members" [ref=e179]':
+            - img "Google Workspace — Manage members" [ref=e180]
+        - generic [ref=e181]:
+          - paragraph [ref=e182]:
+            - generic [ref=e183]: R1
+            - text: · Q3
+          - paragraph [ref=e184]:
+            - strong [ref=e185]: Google Workspace
+          - heading "Manage members" [level=4] [ref=e186]
+          - paragraph [ref=e187]: Add / Bulk upload / Download side by side, plus direct vs nested members.
+        - generic [ref=e188]:
+          - link "Source ↗" [ref=e189] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/47c6268d-6177-487e-9420-837030e1b1c3
+          - link "Open in R1 report" [ref=e190] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e191]:
+        - figure [ref=e193]:
+          - 'button "Open full-size: Calendly — Admin center: Groups" [ref=e194]':
+            - 'img "Calendly — Admin center: Groups" [ref=e195]'
+        - generic [ref=e196]:
+          - paragraph [ref=e197]:
+            - generic [ref=e198]: R1
+            - text: · Q3
+          - paragraph [ref=e199]:
+            - strong [ref=e200]: Calendly
+          - 'heading "Admin center: Groups" [level=4] [ref=e201]'
+          - paragraph [ref=e202]: groups by department/location with named group admins; the only delegated-admin reference.
+        - generic [ref=e203]:
+          - link "Source ↗" [ref=e204] [cursor=pointer]:
+            - /url: https://refero.design/pages/c38bf684-80b3-475b-bfc1-400bc9fc5113
+          - link "Open in R1 report" [ref=e205] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e206]:
+        - figure [ref=e208]:
+          - 'button "Open full-size: Canva — Manage team members" [ref=e209]':
+            - img "Canva — Manage team members" [ref=e210]
+        - generic [ref=e211]:
+          - paragraph [ref=e212]:
+            - generic [ref=e213]: R1
+            - text: · Q3
+          - paragraph [ref=e214]:
+            - strong [ref=e215]: Canva
+          - heading "Manage team members" [level=4] [ref=e216]
+          - paragraph [ref=e217]: multi-select in the roster → "Add to group"; groups built from the member list, no separate builder.
+        - generic [ref=e218]:
+          - link "Source ↗" [ref=e219] [cursor=pointer]:
+            - /url: https://refero.design/flows/8084
+          - link "Open in R1 report" [ref=e220] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - heading "IdP-owned groups" [level=3] [ref=e221]
+    - generic [ref=e222]:
+      - article [ref=e223]:
+        - figure [ref=e225]:
+          - 'button "Open full-size: Okta — Show directory status and system-managed groups" [ref=e226]':
+            - img "Okta — Show directory status and system-managed groups" [ref=e227]
+        - generic [ref=e228]:
+          - paragraph [ref=e229]:
+            - generic [ref=e230]: R2
+            - text: · Q3
+          - paragraph [ref=e231]:
+            - strong [ref=e232]: Okta
+          - heading "Show directory status and system-managed groups" [level=4] [ref=e233]
+          - paragraph [ref=e234]: Group source filter (system / directory / local) makes it visible who owns membership.
+        - generic [ref=e235]:
+          - link "Source ↗" [ref=e236] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f
+          - link "Open in R2 report" [ref=e237] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e238]:
+        - figure [ref=e240]:
+          - 'button "Open full-size: Atlassian — Review access changes before replacing conflicting groups" [ref=e241]':
+            - img "Atlassian — Review access changes before replacing conflicting groups" [ref=e242]
+        - generic [ref=e243]:
+          - paragraph [ref=e244]:
+            - generic [ref=e245]: R2
+            - text: · Q3
+          - paragraph [ref=e246]:
+            - strong [ref=e247]: Atlassian
+          - heading "Review access changes before replacing conflicting groups" [level=4] [ref=e248]
+          - paragraph [ref=e249]: "the migration screen for a university that already has local groups: shows membership and access deltas before you choose which to sync."
+        - generic [ref=e250]:
+          - link "Source ↗" [ref=e251] [cursor=pointer]:
+            - /url: https://support.atlassian.com/provisioning-users/docs/resolve-group-conflicts-when-syncing-users/
+          - link "Open in R2 report" [ref=e252] [cursor=pointer]:
+            - /url: university-identity/report.html
+    - generic [ref=e253]:
+      - paragraph [ref=e254]: Don't build this
+      - heading "Counter-examples" [level=3] [ref=e255]
+    - generic [ref=e256]:
+      - article [ref=e257]:
+        - figure [ref=e259]:
+          - 'button "Open full-size: Confluence — Hub permissions (per-user grid)" [ref=e260]':
+            - img "Confluence — Hub permissions (per-user grid)" [ref=e261]
+        - generic [ref=e262]:
+          - paragraph [ref=e263]:
+            - generic [ref=e264]: R1
+            - text: · Q2
+            - generic [ref=e265]: Counter-example
+          - paragraph [ref=e266]:
+            - strong [ref=e267]: Confluence
+          - heading "Hub permissions (per-user grid)" [level=4] [ref=e268]
+          - paragraph [ref=e269]: Hub permissions per-user grid (15 checkbox columns)
+        - generic [ref=e270]:
+          - link "Source ↗" [ref=e271] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/91a83cd9-614a-4cbf-aebf-d79b6725e3de
+          - link "Open in R1 report" [ref=e272] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e273]:
+        - figure [ref=e275]:
+          - 'button "Open full-size: StackAI — Roles permission matrix" [ref=e276]':
+            - img "StackAI — Roles permission matrix" [ref=e277]
+        - generic [ref=e278]:
+          - paragraph [ref=e279]:
+            - generic [ref=e280]: R1
+            - text: · Q2
+            - generic [ref=e281]: Counter-example
+          - paragraph [ref=e282]:
+            - strong [ref=e283]: StackAI
+          - heading "Roles permission matrix" [level=4] [ref=e284]
+          - paragraph [ref=e285]: Roles permission matrix
+        - generic [ref=e286]:
+          - link "Source ↗" [ref=e287] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/4a80b0e2-e462-407e-8842-d0fd15510391
+          - link "Open in R1 report" [ref=e288] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - generic [ref=e289]:
+      - generic [ref=e290]:
+        - paragraph [ref=e291]: Still uncovered
+        - paragraph [ref=e292]: renaming / merging groups, archiving a group and what happens to its shared content, late joiners getting retroactive access. This is the Q7 gap; it cannot be narrowed to, only researched.
+      - generic [ref=e293]:
+        - paragraph [ref=e294]: Close calls dropped
+        - paragraph [ref=e295]:
+          - text: Fireflies Team (User Groups), Notion Creating a group, Hex, Aboard — all show a group as a
+          - emphasis [ref=e296]: sharing target
+          - text: ", which the permissions node already covers."
+  - region [ref=e297]:
+    - generic [ref=e298]:
+      - heading "3. Add/Remove/Edit users" [level=2] [ref=e299]
+      - generic [ref=e300]:
+        - generic [ref=e301]: 7 keeps
+        - generic [ref=e302]: 2 counters
+    - heading "Add" [level=3] [ref=e303]
+    - generic [ref=e304]:
+      - article [ref=e305]:
+        - figure [ref=e307]:
+          - 'button "Open full-size: Atlassian — Create accounts at first SAML sign-in" [ref=e308]':
+            - img "Atlassian — Create accounts at first SAML sign-in" [ref=e309]
+        - generic [ref=e310]:
+          - paragraph [ref=e311]:
+            - generic [ref=e312]: R2
+            - text: · Q2
+          - paragraph [ref=e313]:
+            - strong [ref=e314]: Atlassian
+          - heading "Create accounts at first SAML sign-in" [level=4] [ref=e315]
+          - paragraph [ref=e316]: JIT provisioning plus verified-domain claiming; the default add path for university learners.
+        - generic [ref=e317]:
+          - link "Source ↗" [ref=e318] [cursor=pointer]:
+            - /url: https://support.atlassian.com/atlassian-cloud/kb/what-is-just-in-time-provisioning-and-how-to-set-it-up/
+          - link "Open in R2 report" [ref=e319] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e320]:
+        - figure [ref=e322]:
+          - 'button "Open full-size: GitHub — Inspect and repair a linked SAML identity" [ref=e323]':
+            - img "GitHub — Inspect and repair a linked SAML identity" [ref=e324]
+        - generic [ref=e325]:
+          - paragraph [ref=e326]:
+            - generic [ref=e327]: R2
+            - text: · Q2
+          - paragraph [ref=e328]:
+            - strong [ref=e329]: GitHub
+          - heading "Inspect and repair a linked SAML identity" [level=4] [ref=e330]
+          - paragraph [ref=e331]: admin revokes a wrong identity link so the person retries; the fix for first-login failures currently repaired by hand.
+        - generic [ref=e332]:
+          - link "Source ↗" [ref=e333] [cursor=pointer]:
+            - /url: https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/viewing-and-managing-a-members-saml-access-to-your-organization
+          - link "Open in R2 report" [ref=e334] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e335]:
+        - figure [ref=e337]:
+          - 'button "Open full-size: Slite — Accepting an invitation" [ref=e338]':
+            - img "Slite — Accepting an invitation" [ref=e339]
+        - generic [ref=e340]:
+          - paragraph [ref=e341]:
+            - generic [ref=e342]: R1
+            - text: · Q1
+          - paragraph [ref=e343]:
+            - strong [ref=e344]: Slite
+          - heading "Accepting an invitation" [level=4] [ref=e345]
+          - paragraph [ref=e346]: join link, import from contacts, or typed emails as three parallel ways in.
+        - generic [ref=e347]:
+          - link "Source ↗" [ref=e348] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/702f32f7-4e64-4d3b-9cb8-e3b3f4892c7c
+          - link "Open in R1 report" [ref=e349] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - heading "Edit" [level=3] [ref=e350]
+    - generic [ref=e351]:
+      - article [ref=e352]:
+        - figure [ref=e354]:
+          - 'button "Open full-size: Expensify — Editing member role" [ref=e355]':
+            - img "Expensify — Editing member role" [ref=e356]
+        - generic [ref=e357]:
+          - paragraph [ref=e358]:
+            - generic [ref=e359]: R1
+            - text: · Q4
+          - paragraph [ref=e360]:
+            - strong [ref=e361]: Expensify
+          - heading "Editing member role" [level=4] [ref=e362]
+          - paragraph [ref=e363]: role as an inline segmented control on the row.
+        - generic [ref=e364]:
+          - link "Source ↗" [ref=e365] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/dc476b26-8776-496c-8ab3-4ffe267aeea3
+          - link "Open in R1 report" [ref=e366] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e367]:
+        - figure [ref=e369]:
+          - 'button "Open full-size: Twist — Downgrading a member" [ref=e370]':
+            - img "Twist — Downgrading a member" [ref=e371]
+        - generic [ref=e372]:
+          - paragraph [ref=e373]:
+            - generic [ref=e374]: R1
+            - text: · Q4
+          - paragraph [ref=e375]:
+            - strong [ref=e376]: Twist
+          - heading "Downgrading a member" [level=4] [ref=e377]
+          - paragraph [ref=e378]: the confirmation explains what the person loses.
+        - generic [ref=e379]:
+          - link "Source ↗" [ref=e380] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/c8b198c5-09da-45fc-b1a2-15f21edda5c1
+          - link "Open in R1 report" [ref=e381] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - heading "Remove / deactivate" [level=3] [ref=e382]
+    - generic [ref=e383]:
+      - article [ref=e384]:
+        - figure [ref=e386]:
+          - 'button "Open full-size: Loom — Deactivate access while explaining content consequences" [ref=e387]':
+            - img "Loom — Deactivate access while explaining content consequences" [ref=e388]
+        - generic [ref=e389]:
+          - paragraph [ref=e390]:
+            - generic [ref=e391]: R2
+            - text: · Q4
+          - paragraph [ref=e392]:
+            - strong [ref=e393]: Loom
+          - heading "Deactivate access while explaining content consequences" [level=4] [ref=e394]
+          - paragraph [ref=e395]: spells out lost access, content that stays reachable, and ownership transfer. Best deactivation reference in either round.
+        - generic [ref=e396]:
+          - link "Source ↗" [ref=e397] [cursor=pointer]:
+            - /url: https://refero.design/flows/1250
+          - link "Open in R2 report" [ref=e398] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e399]:
+        - figure [ref=e401]:
+          - 'button "Open full-size: Microsoft Entra — Separate disabling, deletion, and return" [ref=e402]':
+            - img "Microsoft Entra — Separate disabling, deletion, and return" [ref=e403]
+        - generic [ref=e404]:
+          - paragraph [ref=e405]:
+            - generic [ref=e406]: R2
+            - text: · Q4
+          - paragraph [ref=e407]:
+            - strong [ref=e408]: Microsoft Entra
+          - heading "Separate disabling, deletion, and return" [level=4] [ref=e409]
+          - paragraph [ref=e410]: disable on scope exit vs delete; restoring reactivates.
+        - generic [ref=e411]:
+          - link "Source ↗" [ref=e412] [cursor=pointer]:
+            - /url: https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works
+          - link "Open in R2 report" [ref=e413] [cursor=pointer]:
+            - /url: university-identity/report.html
+    - generic [ref=e414]:
+      - paragraph [ref=e415]: Don't build this
+      - heading "Counter-examples" [level=3] [ref=e416]
+    - generic [ref=e417]:
+      - article [ref=e418]:
+        - figure [ref=e420]:
+          - 'button "Open full-size: Dovetail — Accepting invite" [ref=e421]':
+            - img "Dovetail — Accepting invite" [ref=e422]
+        - generic [ref=e423]:
+          - paragraph [ref=e424]:
+            - generic [ref=e425]: R1
+            - text: · Q1
+            - generic [ref=e426]: Counter-example
+          - paragraph [ref=e427]:
+            - strong [ref=e428]: Dovetail
+          - heading "Accepting invite" [level=4] [ref=e429]
+          - paragraph [ref=e430]: Accepting invite (full name + 12-char password before entry)
+        - generic [ref=e431]:
+          - link "Source ↗" [ref=e432] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/d89d0f52-1133-4d81-a6d7-5d344002997d
+          - link "Open in R1 report" [ref=e433] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e434]:
+        - figure [ref=e436]:
+          - 'button "Open full-size: Retool — Permission groups (apps x resources x users)" [ref=e437]':
+            - img "Retool — Permission groups (apps x resources x users)" [ref=e438]
+        - generic [ref=e439]:
+          - paragraph [ref=e440]:
+            - generic [ref=e441]: R1
+            - text: · Q4
+            - generic [ref=e442]: Counter-example
+          - paragraph [ref=e443]:
+            - strong [ref=e444]: Retool
+          - heading "Permission groups (apps x resources x users)" [level=4] [ref=e445]
+          - paragraph [ref=e446]: Permission groups
+        - generic [ref=e447]:
+          - link "Source ↗" [ref=e448] [cursor=pointer]:
+            - /url: https://refero.design/pages/310b8314-6883-42f6-b181-b6e47513d720
+          - link "Open in R1 report" [ref=e449] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - generic [ref=e451]:
+      - paragraph [ref=e452]: Close calls dropped
+      - paragraph [ref=e453]: Jitter magic-link invite and Mural visitor (no institutional identity), Ballpark inline row edit (same pattern as Expensify), Atlassian stop-sync vs resync (troubleshooting, not CRUD).
+  - region [ref=e454]:
+    - generic [ref=e455]:
+      - heading "4. Give permissions and access" [level=2] [ref=e456]
+      - generic [ref=e457]:
+        - generic [ref=e458]: 9 keeps
+        - generic [ref=e459]: 3 counters
+    - paragraph [ref=e460]: Deepest node, so this was mostly cutting. Sonnet reviewed all 68 candidates.
+    - heading "Minimal role set (the 8 → 3 argument)" [level=3] [ref=e461]
+    - generic [ref=e462]:
+      - article [ref=e463]:
+        - figure [ref=e465]:
+          - 'button "Open full-size: Gamma — Changing a member role" [ref=e466]':
+            - img "Gamma — Changing a member role" [ref=e467]
+        - generic [ref=e468]:
+          - paragraph [ref=e469]:
+            - generic [ref=e470]: R1
+            - text: · Q4
+          - paragraph [ref=e471]:
+            - strong [ref=e472]: Gamma
+          - heading "Changing a member role" [level=4] [ref=e473]
+          - paragraph [ref=e474]: "the floor: two roles, one-line descriptions, one-click change."
+        - generic [ref=e475]:
+          - link "Source ↗" [ref=e476] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/7f0ede33-3db2-426e-870c-99f42747c5d1
+          - link "Open in R1 report" [ref=e477] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e478]:
+        - figure [ref=e480]:
+          - 'button "Open full-size: Slack — Inviting people (guest)" [ref=e481]':
+            - img "Slack — Inviting people (guest)" [ref=e482]
+        - generic [ref=e483]:
+          - paragraph [ref=e484]:
+            - generic [ref=e485]: R1
+            - text: · Q4
+          - paragraph [ref=e486]:
+            - strong [ref=e487]: Slack
+          - heading "Inviting people (guest)" [level=4] [ref=e488]
+          - paragraph [ref=e489]:
+            - text: guest role reveals required channels
+            - emphasis [ref=e490]: and
+            - text: "an expiry on one screen: role, content scope and time scope together."
+          - paragraph [ref=e491]:
+            - generic [ref=e492]: Not in original index
+        - generic [ref=e493]:
+          - link "Source ↗" [ref=e494] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/342f1e42-56cb-4715-b02b-0085978ef87c
+          - link "Open in R1 report" [ref=e495] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e496]:
+        - figure [ref=e498]:
+          - 'button "Open full-size: Zendesk — Team member roles and access" [ref=e499]':
+            - img "Zendesk — Team member roles and access" [ref=e500]
+        - generic [ref=e501]:
+          - paragraph [ref=e502]:
+            - generic [ref=e503]: R1
+            - text: · Q4
+          - paragraph [ref=e504]:
+            - strong [ref=e505]: Zendesk
+          - heading "Team member roles and access" [level=4] [ref=e506]
+          - paragraph [ref=e507]: one role plus toggles on the person, no matrix.
+        - generic [ref=e508]:
+          - link "Source ↗" [ref=e509] [cursor=pointer]:
+            - /url: https://refero.design/flows/1398
+          - link "Open in R1 report" [ref=e510] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - heading "Content-scoped sharing (the vault)" [level=3] [ref=e511]
+    - generic [ref=e512]:
+      - article [ref=e513]:
+        - figure [ref=e515]:
+          - 'button "Open full-size: Coda — Updating sharing permissions" [ref=e516]':
+            - img "Coda — Updating sharing permissions" [ref=e517]
+        - generic [ref=e518]:
+          - paragraph [ref=e519]:
+            - generic [ref=e520]: R1
+            - text: · Q4
+          - paragraph [ref=e521]:
+            - strong [ref=e522]: Coda
+          - heading "Updating sharing permissions" [level=4] [ref=e523]
+          - paragraph [ref=e524]: link / workspace / inherited-from-folder (greyed) / named people, each with its own level. The JSON tags this Q4, not Q2 as the index said.
+        - generic [ref=e525]:
+          - link "Source ↗" [ref=e526] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/d9c973e5-bd71-44c2-8322-6b383e50a263
+          - link "Open in R1 report" [ref=e527] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e528]:
+        - figure [ref=e530]:
+          - 'button "Open full-size: ElevenLabs — Sharing a project" [ref=e531]':
+            - img "ElevenLabs — Sharing a project" [ref=e532]
+        - generic [ref=e533]:
+          - paragraph [ref=e534]:
+            - generic [ref=e535]: R1
+            - text: · Q2
+          - paragraph [ref=e536]:
+            - strong [ref=e537]: ElevenLabs
+          - heading "Sharing a project" [level=4] [ref=e538]
+          - paragraph [ref=e539]: Collaborators vs Readers over three independently levelled audiences.
+        - generic [ref=e540]:
+          - link "Source ↗" [ref=e541] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/4c27548d-9b5a-46f9-953a-53c9aadcf6d0
+          - link "Open in R1 report" [ref=e542] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - heading "\"Who can see what\" inverse view" [level=3] [ref=e543]
+    - article [ref=e545]:
+      - figure [ref=e547]:
+        - 'button "Open full-size: Basecamp — What can Jane Doe access?" [ref=e548]':
+          - img "Basecamp — What can Jane Doe access?" [ref=e549]
+      - generic [ref=e550]:
+        - paragraph [ref=e551]:
+          - generic [ref=e552]: R1
+          - text: · Q2
+        - paragraph [ref=e553]:
+          - strong [ref=e554]: Basecamp
+        - heading "What can Jane Doe access?" [level=4] [ref=e555]
+        - paragraph [ref=e556]: person-side checklist with plain-English consequences; the direct answer to Galen's lab-manager complaint.
+      - generic [ref=e557]:
+        - link "Source ↗" [ref=e558] [cursor=pointer]:
+          - /url: https://mobbin.com/screens/3ce07a85-4805-4f28-a882-56303dc5324d
+        - link "Open in R1 report" [ref=e559] [cursor=pointer]:
+          - /url: tmp/report-hotlink.html
+    - heading "Time-boxed access (release and closing dates)" [level=3] [ref=e560]
+    - generic [ref=e561]:
+      - article [ref=e562]:
+        - figure [ref=e564]:
+          - 'button "Open full-size: Frame.io — Scheduling an expiration date" [ref=e565]':
+            - img "Frame.io — Scheduling an expiration date" [ref=e566]
+        - generic [ref=e567]:
+          - paragraph [ref=e568]:
+            - generic [ref=e569]: R1
+            - text: · Q5
+          - paragraph [ref=e570]:
+            - strong [ref=e571]: Frame.io
+          - heading "Scheduling an expiration date" [level=4] [ref=e572]
+          - paragraph [ref=e573]: video share panel with presets plus exact date/time; the closing-date mechanic.
+        - generic [ref=e574]:
+          - link "Source ↗" [ref=e575] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/c537e383-521f-4785-8478-0ba54a3e6f74
+          - link "Open in R1 report" [ref=e576] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e577]:
+        - figure [ref=e579]:
+          - 'button "Open full-size: Squarespace — Updating content status" [ref=e580]':
+            - img "Squarespace — Updating content status" [ref=e581]
+        - generic [ref=e582]:
+          - paragraph [ref=e583]:
+            - generic [ref=e584]: R1
+            - text: · Q5
+          - paragraph [ref=e585]:
+            - strong [ref=e586]: Squarespace
+          - heading "Updating content status" [level=4] [ref=e587]
+          - paragraph [ref=e588]: Draft / Published / Scheduled with a date, bulk-settable; the release-date half.
+          - paragraph [ref=e589]:
+            - generic [ref=e590]: Not in original index
+        - generic [ref=e591]:
+          - link "Source ↗" [ref=e592] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/7c78bf7a-2d77-4f83-840e-44db0912039c
+          - link "Open in R1 report" [ref=e593] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e594]:
+        - figure [ref=e596]:
+          - 'button "Open full-size: Hashnode — Invite link creation" [ref=e597]':
+            - img "Hashnode — Invite link creation" [ref=e598]
+        - generic [ref=e599]:
+          - paragraph [ref=e600]:
+            - generic [ref=e601]: R1
+            - text: · Q5
+          - paragraph [ref=e602]:
+            - strong [ref=e603]: Hashnode
+          - heading "Invite link creation" [level=4] [ref=e604]
+          - paragraph [ref=e605]: role + usage limit + expiry on one link.
+        - generic [ref=e606]:
+          - link "Source ↗" [ref=e607] [cursor=pointer]:
+            - /url: https://refero.design/flows/3937
+          - link "Open in R1 report" [ref=e608] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - generic [ref=e609]:
+      - paragraph [ref=e610]: Don't build this
+      - heading "Counter-examples" [level=3] [ref=e611]
+    - generic [ref=e612]:
+      - article [ref=e613]:
+        - figure [ref=e615]:
+          - 'button "Open full-size: StackAI — Roles permission matrix" [ref=e616]':
+            - img "StackAI — Roles permission matrix" [ref=e617]
+        - generic [ref=e618]:
+          - paragraph [ref=e619]:
+            - generic [ref=e620]: R1
+            - text: · Q2
+            - generic [ref=e621]: Counter-example
+          - paragraph [ref=e622]:
+            - strong [ref=e623]: StackAI
+          - heading "Roles permission matrix" [level=4] [ref=e624]
+          - paragraph [ref=e625]: Roles permission matrix (its take names the "8-global-roles trap")
+        - generic [ref=e626]:
+          - link "Source ↗" [ref=e627] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/4a80b0e2-e462-407e-8842-d0fd15510391
+          - link "Open in R1 report" [ref=e628] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e629]:
+        - figure [ref=e631]:
+          - 'button "Open full-size: Retool — Permission groups (apps x resources x users)" [ref=e632]':
+            - img "Retool — Permission groups (apps x resources x users)" [ref=e633]
+        - generic [ref=e634]:
+          - paragraph [ref=e635]:
+            - generic [ref=e636]: R1
+            - text: · Q4
+            - generic [ref=e637]: Counter-example
+          - paragraph [ref=e638]:
+            - strong [ref=e639]: Retool
+          - heading "Permission groups (apps x resources x users)" [level=4] [ref=e640]
+          - paragraph [ref=e641]: Permission groups (apps × resources × users)
+        - generic [ref=e642]:
+          - link "Source ↗" [ref=e643] [cursor=pointer]:
+            - /url: https://refero.design/pages/310b8314-6883-42f6-b181-b6e47513d720
+          - link "Open in R1 report" [ref=e644] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e645]:
+        - figure [ref=e647]:
+          - 'button "Open full-size: Fresha — Team permissions matrix (Basic / Low / Med / High / Owner)" [ref=e648]':
+            - img "Fresha — Team permissions matrix (Basic / Low / Med / High / Owner)" [ref=e649]
+        - generic [ref=e650]:
+          - paragraph [ref=e651]:
+            - generic [ref=e652]: R1
+            - text: · Q4
+            - generic [ref=e653]: Counter-example
+          - paragraph [ref=e654]:
+            - strong [ref=e655]: Fresha
+          - heading "Team permissions matrix (Basic / Low / Med / High / Owner)" [level=4] [ref=e656]
+          - paragraph [ref=e657]: Basic/Low/Med/High tiers that carry no meaning
+        - generic [ref=e658]:
+          - link "Source ↗" [ref=e659] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/ec88a366-1d9e-437c-9d14-e3a6275010cd
+          - link "Open in R1 report" [ref=e660] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - generic [ref=e662]:
+      - paragraph [ref=e663]: Close calls dropped
+      - paragraph [ref=e664]: Stripe role-at-invite (Gamma shows the same idea more simply), GitHub "previous role plus X" (docs-only, use as copywriting reference), Sketch and Figma sharing (ElevenLabs and Coda cover the pattern), Craft / 1Password / Shuttle expiry (Frame.io is the video-specific one), Asana request access (recovery path, keep in mind for later).
+  - region [ref=e665]:
+    - generic [ref=e666]:
+      - heading "5. Batch upload (AI?)" [level=2] [ref=e667]
+      - generic [ref=e668]:
+        - generic [ref=e669]: 7 keeps
+        - generic [ref=e670]: 1 counters
+    - heading "Small batch (a sim tech adding 4–10)" [level=3] [ref=e671]
+    - generic [ref=e672]:
+      - article [ref=e673]:
+        - figure [ref=e675]:
+          - 'button "Open full-size: Miro — Invite to team: paste multiple emails" [ref=e676]':
+            - 'img "Miro — Invite to team: paste multiple emails" [ref=e677]'
+        - generic [ref=e678]:
+          - paragraph [ref=e679]:
+            - generic [ref=e680]: R1
+            - text: · Q3
+          - paragraph [ref=e681]:
+            - strong [ref=e682]: Miro
+          - 'heading "Invite to team: paste multiple emails" [level=4] [ref=e683]'
+          - paragraph [ref=e684]: one paste box handles 1 or 100; rows appear immediately.
+        - generic [ref=e685]:
+          - link "Source ↗" [ref=e686] [cursor=pointer]:
+            - /url: https://refero.design/pages/6c361e65-4f9d-4e4f-81dd-93f36f6955a3
+          - link "Open in R1 report" [ref=e687] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e688]:
+        - figure [ref=e690]:
+          - 'button "Open full-size: Linear — Inviting team members" [ref=e691]':
+            - img "Linear — Inviting team members" [ref=e692]
+        - generic [ref=e693]:
+          - paragraph [ref=e694]:
+            - generic [ref=e695]: R1
+            - text: · Q3
+          - paragraph [ref=e696]:
+            - strong [ref=e697]: Linear
+          - heading "Inviting team members" [level=4] [ref=e698]
+          - paragraph [ref=e699]: paste emails plus "Add to team" in the same dialog; roster exists before anyone accepts.
+        - generic [ref=e700]:
+          - link "Source ↗" [ref=e701] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/44413772-2ae1-4a33-85e7-df96010438b9
+          - link "Open in R1 report" [ref=e702] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - heading "CSV import with mapping and review" [level=3] [ref=e703]
+    - generic [ref=e704]:
+      - article [ref=e705]:
+        - figure [ref=e707]:
+          - 'button "Open full-size: Customer.io — Mapping fields" [ref=e708]':
+            - img "Customer.io — Mapping fields" [ref=e709]
+        - generic [ref=e710]:
+          - paragraph [ref=e711]:
+            - generic [ref=e712]: R1
+            - text: · Q3
+          - paragraph [ref=e713]:
+            - strong [ref=e714]: Customer.io
+          - heading "Mapping fields" [level=4] [ref=e715]
+          - paragraph [ref=e716]: Upload / Map / Review; the review counts new vs existing and can drop the batch into a segment. Answers "update, don't duplicate".
+        - generic [ref=e717]:
+          - link "Source ↗" [ref=e718] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/246ac8d9-3fc6-42e1-a04c-aede744f7879
+          - link "Open in R1 report" [ref=e719] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e720]:
+        - figure [ref=e722]:
+          - 'button "Open full-size: Ghost — Importing members" [ref=e723]':
+            - img "Ghost — Importing members" [ref=e724]
+        - generic [ref=e725]:
+          - paragraph [ref=e726]:
+            - generic [ref=e727]: R1
+            - text: · Q3
+          - paragraph [ref=e728]:
+            - strong [ref=e729]: Ghost
+          - heading "Importing members" [level=4] [ref=e730]
+          - paragraph [ref=e731]: column map with sample data, upsert on email, auto-labels the batch "Import <date>".
+        - generic [ref=e732]:
+          - link "Source ↗" [ref=e733] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/b1cd6357-2ef6-4ba2-80e7-5256dc32bf7c
+          - link "Open in R1 report" [ref=e734] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e735]:
+        - figure [ref=e737]:
+          - 'button "Open full-size: Rox — Map columns with sample data and validation review" [ref=e738]':
+            - img "Rox — Map columns with sample data and validation review" [ref=e739]
+        - generic [ref=e740]:
+          - paragraph [ref=e741]:
+            - generic [ref=e742]: R2
+            - text: · Q5
+          - paragraph [ref=e743]:
+            - strong [ref=e744]: Rox
+          - heading "Map columns with sample data and validation review" [level=4] [ref=e745]
+          - paragraph [ref=e746]: sample values beside each destination field, valid/invalid counts before commit.
+        - generic [ref=e747]:
+          - link "Source ↗" [ref=e748] [cursor=pointer]:
+            - /url: https://refero.design/flows/10795
+          - link "Open in R2 report" [ref=e749] [cursor=pointer]:
+            - /url: university-identity/report.html
+    - heading "Safety net for large or repeated imports" [level=3] [ref=e750]
+    - generic [ref=e751]:
+      - article [ref=e752]:
+        - figure [ref=e754]:
+          - 'button "Open full-size: Intercom — Repeat-import matching and an all-error result" [ref=e755]':
+            - img "Intercom — Repeat-import matching and an all-error result" [ref=e756]
+        - generic [ref=e757]:
+          - paragraph [ref=e758]:
+            - generic [ref=e759]: R2
+            - text: · Q5
+          - paragraph [ref=e760]:
+            - strong [ref=e761]: Intercom
+          - heading "Repeat-import matching and an all-error result" [level=4] [ref=e762]
+          - paragraph [ref=e763]: states the matching rule up front; reports created / updated / failed honestly, even when everything failed.
+        - generic [ref=e764]:
+          - link "Source ↗" [ref=e765] [cursor=pointer]:
+            - /url: https://refero.design/flows/671
+          - link "Open in R2 report" [ref=e766] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e767]:
+        - generic [ref=e768]: Documentation only — no screen
+        - generic [ref=e771]:
+          - paragraph [ref=e772]:
+            - generic [ref=e773]: R2
+            - text: · Q4
+          - paragraph [ref=e774]:
+            - strong [ref=e775]: Microsoft Entra
+          - heading "Quarantine unexpected mass removals" [level=4] [ref=e776]
+          - paragraph [ref=e777]: deletion threshold pauses the run for inspection. The guard against a bad file mass-deleting learners.
+          - paragraph [ref=e778]:
+            - generic [ref=e779]: Docs only
+        - generic [ref=e780]:
+          - link "Source ↗" [ref=e781] [cursor=pointer]:
+            - /url: https://learn.microsoft.com/en-us/entra/identity/app-provisioning/accidental-deletions
+          - link "Open in R2 report" [ref=e782] [cursor=pointer]:
+            - /url: university-identity/report.html
+    - generic [ref=e783]:
+      - paragraph [ref=e784]: Don't build this
+      - heading "Counter-examples" [level=3] [ref=e785]
+    - article [ref=e787]:
+      - figure [ref=e789]:
+        - 'button "Open full-size: Deel — Uploading a CSV (bulk edit of workers)" [ref=e790]':
+          - img "Deel — Uploading a CSV (bulk edit of workers)" [ref=e791]
+      - generic [ref=e792]:
+        - paragraph [ref=e793]:
+          - generic [ref=e794]: R1
+          - text: · Q3
+          - generic [ref=e795]: Counter-example
+        - paragraph [ref=e796]:
+          - strong [ref=e797]: Deel
+        - heading "Uploading a CSV (bulk edit of workers)" [level=4] [ref=e798]
+        - paragraph [ref=e799]: Uploading a CSV, 4-stage full-screen wizard
+      - generic [ref=e800]:
+        - link "Source ↗" [ref=e801] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/f9e90f25-5d36-4474-86a5-d61fbc08051b
+        - link "Open in R1 report" [ref=e802] [cursor=pointer]:
+          - /url: tmp/report-hotlink.html
+    - generic [ref=e803]:
+      - generic [ref=e804]:
+        - paragraph [ref=e805]: AI
+        - paragraph [ref=e806]: no evidence in either round. The only "auto" anything is Cake Equity's rule-based column auto-map. If the AI question matters, it is a new research question, not a narrowing.
+      - generic [ref=e807]:
+        - paragraph [ref=e808]: Close calls dropped
+        - paragraph [ref=e809]: Grammarly "Import list" nudge (worth remembering for the discoverability problem, but it is one button), Intercom / Circle / Resend / Acuity / Cake Equity CSV imports (same pattern as Customer.io and Ghost), Google GCDS simulate-first (Entra quarantine covers the safety idea with a clearer screen).
+  - region [ref=e810]:
+    - generic [ref=e811]:
+      - heading "6. SSO" [level=2] [ref=e812]
+      - generic [ref=e813]:
+        - generic [ref=e814]: 8 keeps
+        - generic [ref=e815]: 2 counters
+    - heading "IT setup and scoping" [level=3] [ref=e816]
+    - generic [ref=e817]:
+      - article [ref=e818]:
+        - generic [ref=e819]: Documentation only — no screen
+        - generic [ref=e822]:
+          - paragraph [ref=e823]:
+            - generic [ref=e824]: R2
+            - text: · Q1
+          - paragraph [ref=e825]:
+            - strong [ref=e826]: Okta
+          - heading "Select Active Directory users and groups before import" [level=4] [ref=e827]
+          - paragraph [ref=e828]: separate user-OU and group-OU selection, matching rules, and a warning that changing filters can deactivate people. The core LDAP/AD reference.
+          - paragraph [ref=e829]:
+            - generic [ref=e830]: Docs only
+        - generic [ref=e831]:
+          - link "Source ↗" [ref=e832] [cursor=pointer]:
+            - /url: https://help.okta.com/oie/en-us/content/topics/directory/ad-agent-configure-import.htm
+          - link "Open in R2 report" [ref=e833] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e834]:
+        - figure [ref=e836]:
+          - 'button "Open full-size: GitHub — Test SAML before saving an enforced sign-in policy" [ref=e837]':
+            - img "GitHub — Test SAML before saving an enforced sign-in policy" [ref=e838]
+        - generic [ref=e839]:
+          - paragraph [ref=e840]:
+            - generic [ref=e841]: R2
+            - text: · Q1
+          - paragraph [ref=e842]:
+            - strong [ref=e843]: GitHub
+          - heading "Test SAML before saving an enforced sign-in policy" [level=4] [ref=e844]
+          - paragraph [ref=e845]: Save stays disabled until the test passes. Stops the months-long lockout failure mode.
+        - generic [ref=e846]:
+          - link "Source ↗" [ref=e847] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/ced1a847-5c4e-49bd-92b4-dcec2b5a8916
+          - link "Open in R2 report" [ref=e848] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e849]:
+        - figure [ref=e851]:
+          - 'button "Open full-size: Homerun — Team login policy: none / 2FA or SSO / SSO" [ref=e852]':
+            - 'img "Homerun — Team login policy: none / 2FA or SSO / SSO" [ref=e853]'
+        - generic [ref=e854]:
+          - paragraph [ref=e855]:
+            - generic [ref=e856]: R1
+            - text: · Q1
+          - paragraph [ref=e857]:
+            - strong [ref=e858]: Homerun
+          - 'heading "Team login policy: none / 2FA or SSO / SSO" [level=4] [ref=e859]'
+          - paragraph [ref=e860]: three radios with consequence text before enforcement.
+        - generic [ref=e861]:
+          - link "Source ↗" [ref=e862] [cursor=pointer]:
+            - /url: https://refero.design/pages/f690f4ed-6af6-4a63-8496-ad6e23925486
+          - link "Open in R1 report" [ref=e863] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - heading "Learner sign-in and failure states" [level=3] [ref=e864]
+    - generic [ref=e865]:
+      - article [ref=e866]:
+        - figure [ref=e868]:
+          - 'button "Open full-size: Riverside — SSO email discovery with an explicit failure" [ref=e869]':
+            - img "Riverside — SSO email discovery with an explicit failure" [ref=e870]
+        - generic [ref=e871]:
+          - paragraph [ref=e872]:
+            - generic [ref=e873]: R2
+            - text: · Q2
+          - paragraph [ref=e874]:
+            - strong [ref=e875]: Riverside
+          - heading "SSO email discovery with an explicit failure" [level=4] [ref=e876]
+          - paragraph [ref=e877]: "\"this email is not recognised for SSO\" with a supported next step."
+        - generic [ref=e878]:
+          - link "Source ↗" [ref=e879] [cursor=pointer]:
+            - /url: https://refero.design/flows/4649
+          - link "Open in R2 report" [ref=e880] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e881]:
+        - figure [ref=e883]:
+          - 'button "Open full-size: incident.io — Keep SAML failure and recovery routes visible" [ref=e884]':
+            - img "incident.io — Keep SAML failure and recovery routes visible" [ref=e885]
+        - generic [ref=e886]:
+          - paragraph [ref=e887]:
+            - generic [ref=e888]: R2
+            - text: · Q2
+          - paragraph [ref=e889]:
+            - strong [ref=e890]: incident.io
+          - heading "Keep SAML failure and recovery routes visible" [level=4] [ref=e891]
+          - paragraph [ref=e892]: retry and contact-admin paths stay on screen after a failed sign-in.
+        - generic [ref=e893]:
+          - link "Source ↗" [ref=e894] [cursor=pointer]:
+            - /url: https://mobbin.com/flows/93a5db68-6f50-4b51-90fd-0b5ae39257a5
+          - link "Open in R2 report" [ref=e895] [cursor=pointer]:
+            - /url: university-identity/report.html
+      - article [ref=e896]:
+        - figure [ref=e898]:
+          - 'button "Open full-size: Atlassian — Create accounts at first SAML sign-in" [ref=e899]':
+            - img "Atlassian — Create accounts at first SAML sign-in" [ref=e900]
+        - generic [ref=e901]:
+          - paragraph [ref=e902]:
+            - generic [ref=e903]: R2
+            - text: · Q2
+          - paragraph [ref=e904]:
+            - strong [ref=e905]: Atlassian
+          - heading "Create accounts at first SAML sign-in" [level=4] [ref=e906]
+          - paragraph [ref=e907]: shared with the users node; JIT as an explicit policy.
+        - generic [ref=e908]:
+          - link "Source ↗" [ref=e909] [cursor=pointer]:
+            - /url: https://support.atlassian.com/atlassian-cloud/kb/what-is-just-in-time-provisioning-and-how-to-set-it-up/
+          - link "Open in R2 report" [ref=e910] [cursor=pointer]:
+            - /url: university-identity/report.html
+    - heading "Account recovery for lockouts" [level=3] [ref=e911]
+    - generic [ref=e912]:
+      - article [ref=e913]:
+        - figure [ref=e915]:
+          - 'button "Open full-size: Microsoft Copilot — Incorrect password - send a code instead" [ref=e916]':
+            - img "Microsoft Copilot — Incorrect password - send a code instead" [ref=e917]
+        - generic [ref=e918]:
+          - paragraph [ref=e919]:
+            - generic [ref=e920]: R1
+            - text: · Q6
+          - paragraph [ref=e921]:
+            - strong [ref=e922]: Microsoft Copilot
+          - heading "Incorrect password - send a code instead" [level=4] [ref=e923]
+          - paragraph [ref=e924]: inline code fallback on a wrong password.
+        - generic [ref=e925]:
+          - link "Source ↗" [ref=e926] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/1f44597f-d45a-400f-ba0c-f3a914bfc6b3
+          - link "Open in R1 report" [ref=e927] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e928]:
+        - figure [ref=e930]:
+          - 'button "Open full-size: Surfshark — Too many login attempts - login with code" [ref=e931]':
+            - img "Surfshark — Too many login attempts - login with code" [ref=e932]
+        - generic [ref=e933]:
+          - paragraph [ref=e934]:
+            - generic [ref=e935]: R1
+            - text: · Q6
+          - paragraph [ref=e936]:
+            - strong [ref=e937]: Surfshark
+          - heading "Too many login attempts - login with code" [level=4] [ref=e938]
+          - paragraph [ref=e939]: code as the way out of a rate limit instead of a hard lockout.
+        - generic [ref=e940]:
+          - link "Source ↗" [ref=e941] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/a216f75b-1823-4834-820d-c15b5a3e1685
+          - link "Open in R1 report" [ref=e942] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - generic [ref=e943]:
+      - paragraph [ref=e944]: Don't build this
+      - heading "Counter-examples" [level=3] [ref=e945]
+    - generic [ref=e946]:
+      - article [ref=e947]:
+        - figure [ref=e949]:
+          - 'button "Open full-size: Skiff — Recover your account with recovery key" [ref=e950]':
+            - img "Skiff — Recover your account with recovery key" [ref=e951]
+        - generic [ref=e952]:
+          - paragraph [ref=e953]:
+            - generic [ref=e954]: R1
+            - text: · Q6
+            - generic [ref=e955]: Counter-example
+          - paragraph [ref=e956]:
+            - strong [ref=e957]: Skiff
+          - heading "Recover your account with recovery key" [level=4] [ref=e958]
+          - paragraph [ref=e959]: "Recover with recovery key (its take: \"the hidden recovery dependency that produces six-month lockouts\")"
+        - generic [ref=e960]:
+          - link "Source ↗" [ref=e961] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/c3eb55db-308d-478a-8c34-beca03d2797f
+          - link "Open in R1 report" [ref=e962] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+      - article [ref=e963]:
+        - figure [ref=e965]:
+          - 'button "Open full-size: Sentry — Recover Account - link invalid or expired" [ref=e966]':
+            - img "Sentry — Recover Account - link invalid or expired" [ref=e967]
+        - generic [ref=e968]:
+          - paragraph [ref=e969]:
+            - generic [ref=e970]: R1
+            - text: · Q6
+            - generic [ref=e971]: Counter-example
+          - paragraph [ref=e972]:
+            - strong [ref=e973]: Sentry
+          - heading "Recover Account - link invalid or expired" [level=4] [ref=e974]
+          - paragraph [ref=e975]: Recover account, link invalid or expired
+        - generic [ref=e976]:
+          - link "Source ↗" [ref=e977] [cursor=pointer]:
+            - /url: https://mobbin.com/screens/0dbee83b-078f-4234-ac44-939735152a23
+          - link "Open in R1 report" [ref=e978] [cursor=pointer]:
+            - /url: tmp/report-hotlink.html
+    - generic [ref=e980]:
+      - paragraph [ref=e981]: Close calls dropped
+      - paragraph [ref=e982]: Calendly SSO / provisioning / domain-control tabs (clean IA, but it is an information-architecture reference rather than a flow; pull it back if you design the settings page), Zendesk named SAML connection and Remote SAML guide (form-level detail, GitHub's test-before-save is the stronger lesson), WorkOS attribute toggles, Entra provisioning diagnostics, Epidemic Sound / Maze / Workable sign-in variants, OpenAI and Miro recovery (not counter-examples despite the index saying so; the JSON flags them false).
+  - region [ref=e983]:
+    - heading "Next step" [level=2] [ref=e984]
+    - paragraph

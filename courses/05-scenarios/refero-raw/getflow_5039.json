@@ -1,0 +1,102 @@
+{
+  "id": 5039,
+  "platform": "web",
+  "refero_url": "https://refero.design/flows/5039",
+  "name": "Asset Library Selection",
+  "screens_count": 3,
+  "description": "Happy path: A designer working in a design editor opens the left Assets panel to browse component libraries, uses the library filter menu to change which libraries are visible, and then updates the asset list layout. Entry point: user is in the design editor with a document open and the left Assets panel available. Exit point: Assets panel shows the selected libraries (and an updated layout) while the canvas remains unchanged (the 'About' artboard visible). Assumptions: user is signed in and has at least one shared library available; the design/editing mode is active and both left (Assets) and right (Properties) panels are visible.",
+  "problem": "User task (user perspective): The user wants to find and surface components from one or more shared design libraries so they can reuse or insert those components into the document. They expect to: (1) open the Assets panel, (2) see a list of available libraries, (3) enable or disable specific libraries or choose 'all libraries', and (4) change how assets are displayed (grid/list) to make browsing easier.\n\nInterface/system perspective: The UI provides an Assets panel that lists installed/shared libraries, thumbnails of kits, a search field, and a compact dropdown for library selection and view options. The system exposes checkboxes (or toggles) to include/exclude libraries and controls to change asset layout. When the user toggles items, the assets list is re-rendered to reflect only the selected libraries and layout choice.\n\nResult at end:\n- User-perceived outcome: The Assets panel displays components from the chosen libraries in the selected layout, making it easy to drag components into the canvas.\n- System-level outcome: The assets rendering layer is filtered by the selected libraries and layout setting; assets are available for insertion; the canvas and right-hand properties remain unchanged.",
+  "site": {
+    "id": 206,
+    "domain": "figma.com",
+    "description": "The Collaborative Interface Design Tool",
+    "name": "Figma ",
+    "background_url": "https://images.refero.design/backgrounds/figma.com/d7090ac7-cd09-48ec-9ea4-c0f9acf820fe.jpg",
+    "refero_url": "https://refero.design/websites/206",
+    "categories": [
+      "Productivity",
+      "Collaboration Tools",
+      "Design & Media Editing"
+    ],
+    "favicon_url": "https://images.refero.design/favicon/figma.com/0b4d9da2-dab3-48a0-b315-cd78a61ef0ca.jpg",
+    "background_color": "8383ec"
+  },
+  "steps": [
+    {
+      "name": "Open Assets panel",
+      "screen_id": "e4ae2e5d-23ca-45c0-bc83-cf37481a8d22",
+      "refero_url": "https://refero.design/pages/e4ae2e5d-23ca-45c0-bc83-cf37481a8d22",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/519a268d-a921-43d0-97b2-522c630556bc_thumb.jpg",
+      "goal": "Access the project's component libraries and asset thumbnails to locate reusable components.",
+      "action": "Click the 'Assets' tab in the left sidebar (or open the left panel) to reveal available libraries, search input, and kit thumbnails.",
+      "system_response": "The left Assets panel displays a scrollable list of available libraries and kits (e.g., iOS 18, Material 3, Simple Design System), thumbnails for each kit, and a search field. The main canvas (About artboard) stays visible in the center and the right properties panel remains unchanged.",
+      "ux_patterns": [
+        "Design Editing",
+        "Templates"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "fonts": [
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen is a clean, minimalistic portfolio or 'About Me' page design for a digital artist or designer. The overall style is modern and professional with a soft, neutral color palette featuring primarily white background (#FFFFFF) and brown tones for text accents and buttons (#6B4F3F approx.). The layout is spacious with ample white space for readability and visual balance. Typography uses a sans-serif font with a clear hierarchy: the page title 'About' is bold and large, body text describing the artist is regular weight and smaller, and the form labels are minimal and aligned left. On the right side of the content area is a professional portrait photo of the artist, framed in a square with earth-tone background matching the brown theme. Below the about text, a 'Contact me' form is presented with input fields for first name, last name, email, and a large message textarea. The input fields have light borders and clear placeholders. The submit button is a filled rectangle in the same brown color as the text accent, with white text center-aligned. The navigation bar at the top includes links like 'News/GHT', 'Blog', 'Shop', and a brown button for additional call to action. The layout uses a two-column structure with the left side containing textual content and form, the right side for the portrait image. The page includes subtle UI icons at the bottom possibly for editing or interaction in the design tool environment. The background is solid white with no gradients or textures. The style conveys a professional yet approachable feel suitable for a creative professional's portfolio page.",
+        "layout": "The layout is a clean two-column grid. On the left column, mostly textual content and form fields are vertically arranged with generous padding. The 'About' heading appears at the top, followed by descriptive text. Below that, a contact form includes a row of two small input fields side-by-side (for 'First name' and 'Last name'), stacked vertically with an email input and a large message textarea. The submit button is below the form fields, full width of the form area. The right column contains a large square professional portrait photograph, aligned vertically center relative to the textual column. At the top right is a navigation bar. The left sidebar panel appears to be part of a design tool with additional navigation or asset selection, but it is separate from the main content area. Consistent margins and spacing maintain clarity and balance throughout the screen.",
+        "functions": "Users can read about the artist's background and professional summary presented in a clear text block. They can enter their personal information (first name, last name, email) and a message into the contact form fields. The input fields provide placeholders and labels to guide user input. The 'Submit' button allows users to send their message to the artist, facilitating communication or inquiries. The navigation bar at the top offers links to other related content pages, such as a blog or shop, enhancing website navigation. Overall, the screen enables visitors to learn about the digital artist and easily contact them via a straightforward form submission interface, supporting client interaction and professional lead generation."
+      }
+    },
+    {
+      "name": "Open library filter menu",
+      "screen_id": "7437a2c4-1704-48aa-aaea-b56cf0b37c4f",
+      "refero_url": "https://refero.design/pages/7437a2c4-1704-48aa-aaea-b56cf0b37c4f",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/45c48362-9098-4759-841f-dc10bd4498ea_thumb.jpg",
+      "goal": "View and select which libraries are included in the Assets list.",
+      "action": "Click the library dropdown/menu control (near the top of the Assets panel) to open the libraries selection overlay.",
+      "system_response": "A small overlay appears listing all available libraries with checkboxes (or similar controls) and layout options (e.g., Grid / List). One item (All libraries) is shown selected. The overlay floats over the Asset list without altering the canvas.",
+      "ux_patterns": [
+        "Edit"
+      ],
+      "ui_elements": [
+        "Icon",
+        "Popover"
+      ],
+      "fonts": [
+        "Inter"
+      ],
+      "content": {
+        "description": "The screen shows a clean, modern portfolio About page for a multidisciplinary artist named Lohan Marks. The design uses a minimalist style with a white background (#FFFFFF) and a primarily brown accent color (#7B5E4F) used for the submit button and navigation button on the top right. The typography uses a serif or modern sans-serif font for headings and a lighter sans-serif for body text in black or dark gray for good contrast. The layout is a two-column structure: the left column contains text content including a main heading 'About' and a paragraph description of the artist, a 'Contact me' subsection with a contact form that includes labeled text input fields for 'First name', 'Last name', 'Email address' and a textarea for 'Your message'. Below the message field is a brown rectangular submit button with white text labeled 'Submit'. The right column features a portrait photo of the artist with square edges. The top navigation bar includes a simple menu with 'About' in the center, navigation links 'NewsGHT', 'Blog', 'Shop', and a brown button presumably for call to action on the right side. The entire interface has ample white space, a calm and professional color palette dominated by white and browns, and clean alignment with padding on all sides. UI elements such as input fields have subtle borders in light gray (#CCCCCC) and the button has rounded corners. The interface does not show animations but is clearly designed for ease of use and clarity. The layout includes consistent alignment and spacing so the page content is well organized and easy to scan.",
+        "layout": "The layout is a two-column grid with the left column wider, containing text content and a form, and the right column narrower, showcasing a portrait image. The spacing between columns is generous, providing balance and whitespace. Above the columns is a horizontal navigation bar spanning the page width with left, center, and right aligned groups: left aligned is 'NewsGHT' brand text, center aligned is the page title 'About,' right aligned are navigation links 'Blog,' 'Shop,' and a prominent brown button. The contact form itself consists of stacked vertical form fields labeled and spaced evenly, followed by a full-width submit button. Padding surrounds all content to ensure no elements are flush against edges. The design hierarchy is clearly established with larger headings and smaller body text, aligned left in the left column. The portrait image on the right is rectangular with consistent margin spacing from the content block. The overall layout is clean, symmetrical, and easy to scan.",
+        "functions": "Users can read about the artist Lohan Marks, learning a brief biography and understanding the artist's multidisciplinary background. Users can enter their contact details via the input fields for first name, last name, email address, and a message textarea, to send an inquiry or message to the artist. The form likely provides visual cues such as labels and placeholders to guide users on what information to enter. Upon filling out the form, users can submit their message by clicking the brown 'Submit' button. This action presumably sends their message to the artist or relevant party. On a broader level, this page serves as an About and Contact page, enabling users to learn about the artist and reach out through a straightforward contact form, supporting connection and professional communication. Navigation links allow users to switch between other sections such as News, Blog, and Shop, enhancing site exploration and user engagement."
+      }
+    },
+    {
+      "name": "Toggle libraries / update layout",
+      "screen_id": "f077c830-5656-477f-89fd-4a29c270bd13",
+      "refero_url": "https://refero.design/pages/f077c830-5656-477f-89fd-4a29c270bd13",
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/59a02c01-137f-47cd-acd5-fb72053de039_thumb.jpg",
+      "goal": "Enable or disable specific libraries and change how assets are displayed for easier browsing.",
+      "action": "Select or deselect library checkboxes or change layout (Grid/List) from the overlay. Close the overlay when done.",
+      "system_response": "The Assets panel re-renders to show only components from the selected libraries and applies the chosen layout (thumbnails change size/arrangement). The canvas (About artboard) remains visible and editable; assets are now available in the filtered view for drag-and-drop into the design.",
+      "fonts": [
+        "Inter"
+      ]
+    }
+  ],
+  "related_queries": [
+    "browse design system components",
+    "select shared component libraries",
+    "open assets and libraries",
+    "toggle library visibility list",
+    "filter component libraries view",
+    "switch component list layout",
+    "insert component from library",
+    "manage shared libraries list",
+    "view library thumbnails grid",
+    "show available component kits"
+  ]
+}

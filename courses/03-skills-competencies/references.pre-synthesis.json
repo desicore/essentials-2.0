@@ -1,0 +1,554 @@
+{
+  "module": "03-skills-competencies",
+  "title": "Set skills and competencies to measure",
+  "intro": "Research for Essentials 2.0: Semester → Courses → skills and competencies. Compare how instructors select course competencies, define measurement, and connect activities to learner evidence. Scenarios (05), events (06), reports (08) and the Canvas hand-off are neighbouring modules.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Framework model (central taxonomy vs. free tags vs. both)",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "Selection UX (tree / search / suggestions) and scale when there are hundreds of items",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "Levels / rubric definition (numeric, descriptive, checklist)",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Traceability: competency → activity → evidence → score",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "Learner-facing visualisation of mastery",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "Reuse of the same competency set across courses and semesters",
+      "answer": ""
+    }
+  ],
+  "references": [
+    {
+      "id": "mobbin:2d300077-7580-47c6-875a-369da8b0a065",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Course skill or topic selection",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2d300077-7580-47c6-875a-369da8b0a065",
+      "images": [
+        "https://mobbin.com/api/mcp/short/qUY4Pbrs"
+      ],
+      "question": "Q1",
+      "take": "Coursera is a priority education analogue: course topics are presented as selectable structured concepts, supporting taxonomy backed discovery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:554289af-aead-4298-a222-73a19c1c1487",
+      "source": "refero",
+      "app": "Handshake",
+      "title": "Search and save skills in a skills modal",
+      "kind": "screen",
+      "url": "https://refero.design/pages/554289af-aead-4298-a222-73a19c1c1487",
+      "images": [
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/d616c757-031f-4c01-be8e-7041656d61b5_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "A central Skills modal uses a constrained search field, helper guidance, and an explicit Save action; this is a direct taxonomy-style selection analogue, though it does not show course ownership.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "refero:b8e17eec-d089-4cd1-9663-63c8b65f85ac",
+      "source": "refero",
+      "app": "Handshake",
+      "title": "Review selected skills as removable chips",
+      "kind": "screen",
+      "url": "https://refero.design/pages/b8e17eec-d089-4cd1-9663-63c8b65f85ac",
+      "images": [
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/b425d5f6-85c4-491e-abe8-0f78f7767ba8_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Handshake shows a searchable skills field followed by many removable chips and an explicit Save; this is direct taxonomy-selection evidence for reviewing a larger chosen set, though it is profile-based.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "refero:3345cd32-03fa-4571-9153-6ce930088570",
+      "source": "refero",
+      "app": "Brilliant",
+      "title": "Choose a learning domain from a guided list",
+      "kind": "screen",
+      "url": "https://refero.design/pages/3345cd32-03fa-4571-9153-6ce930088570",
+      "images": [
+        "https://images.refero.design/screenshots/brilliant.org/desktop/5ba2c365-8641-4cdd-9bf5-336cc18f1d4b_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Brilliant presents a focused, mutually selectable domain list with one selected state and a Continue step; it is a learner-side taxonomy analogue rather than an admin competency picker.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e102067a-a1a6-400a-81c4-626f7fbb066c",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Class activity chooser",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/e102067a-a1a6-400a-81c4-626f7fbb066c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WmLvu7Nd"
+      ],
+      "question": "Q2",
+      "take": "An education adjacent chooser demonstrates contextual selection of reusable items from a course-facing workflow.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c3b8347d-6ee8-4087-8d92-7902f37a53d3",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Skill selection in a learning path",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/c3b8347d-6ee8-4087-8d92-7902f37a53d3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sWsirRDm"
+      ],
+      "question": "Q2",
+      "take": "Codecademy is an adjacent learning analogue where a focused skill choice narrows a large catalog before a learner commits.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:8761",
+      "source": "refero",
+      "app": "Handshake",
+      "title": "Add skills with suggestions and chips",
+      "kind": "flow",
+      "url": "https://refero.design/flows/8761",
+      "images": [
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/30909784-a728-404d-ad27-7e1f9b756027_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/95190a28-b029-4c0e-a165-f9a007ed12a3_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/d616c757-031f-4c01-be8e-7041656d61b5_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/27331d71-95ad-4ddf-84a9-463575497ee5_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/b425d5f6-85c4-491e-abe8-0f78f7767ba8_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/2e177d68-15d2-4c63-9280-1edec1fa9907_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "The flow progressively narrows selection from an empty skills input to suggestions, then visible chips and a saved profile; it demonstrates scalable search-and-confirm interaction, as an adjacent HR analogue.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:78d51bc7-6260-4cde-a913-6fc1ccf11a26",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Editing a curriculum",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/78d51bc7-6260-4cde-a913-6fc1ccf11a26",
+      "images": [
+        "https://mobbin.com/api/mcp/short/YrdqdyO7",
+        "https://mobbin.com/api/mcp/short/aMr1uaNY",
+        "https://mobbin.com/api/mcp/short/LFstaJAd",
+        "https://mobbin.com/api/mcp/short/g9q3I4QO",
+        "https://mobbin.com/api/mcp/short/AQH1ncyq"
+      ],
+      "question": "Q2",
+      "take": "Teachable’s curriculum editing flow is an adjacent course-management pattern for progressively organizing reusable course units.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:d5c43b15-4d4b-4c10-9eaf-33d1e9533e44",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Skill proficiency matrix analogue",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/d5c43b15-4d4b-4c10-9eaf-33d1e9533e44",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lNwIBQLN"
+      ],
+      "question": "Q3",
+      "take": "An education product analogue suggests grouping skills with visible progress or proficiency states rather than only raw scores.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:239a7ddc-e5ed-4209-87dd-f329502b2271",
+      "source": "refero",
+      "app": "Google Classroom",
+      "title": "Create a rubric with criteria and scoring levels",
+      "kind": "screen",
+      "url": "https://refero.design/pages/239a7ddc-e5ed-4209-87dd-f329502b2271",
+      "images": [
+        "https://images.refero.design/screenshots/google.com/desktop/bb92f314-08f0-46de-bc81-c5291a27a954_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Google Classroom exposes Use scoring, point values, criterion and level descriptions, plus Add a criterion and Save; this is direct LMS evidence for numeric plus descriptive rubric definition.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "refero:fd8e5fc8-d22d-4b80-ad7d-83c457db08ef",
+      "source": "refero",
+      "app": "Google Classroom",
+      "title": "Edit rubric levels and add criteria",
+      "kind": "screen",
+      "url": "https://refero.design/pages/fd8e5fc8-d22d-4b80-ad7d-83c457db08ef",
+      "images": [
+        "https://images.refero.design/screenshots/google.com/desktop/1cbc3f55-66c0-4e11-ae9d-8c66ba336e63_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "A second Google Classroom rubric state makes level editing concrete: required criterion fields, point value, level title and description, plus controls to add levels or criteria before Save.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9d4ec3e3-b07c-44ea-bc93-6d661226d178",
+      "source": "mobbin",
+      "app": "Visible",
+      "title": "Criteria with numeric score and descriptive anchor",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/9d4ec3e3-b07c-44ea-bc93-6d661226d178",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ugpAZ6W1"
+      ],
+      "question": "Q3",
+      "take": "A descriptive sentence beside each selected number shows how numeric levels can retain human-readable performance anchors.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:67096453-158a-4b59-8633-21fcb4684817",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Review worksheet evidence and approve",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/67096453-158a-4b59-8633-21fcb4684817",
+      "images": [
+        "https://mobbin.com/api/mcp/short/W3V9gu5S",
+        "https://mobbin.com/api/mcp/short/OFuIeIWq"
+      ],
+      "question": "Q4",
+      "take": "A teacher opens a submitted worksheet, sees the learner response and comment, then approves or returns it, making evidence review explicit before completion.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:4a76a2f1-e45c-4d90-a3aa-a30debcc9f44",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Complete assessment and receive result",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4a76a2f1-e45c-4d90-a3aa-a30debcc9f44",
+      "images": [
+        "https://mobbin.com/api/mcp/short/K730AE1K",
+        "https://mobbin.com/api/mcp/short/7ypfXnEi",
+        "https://mobbin.com/api/mcp/short/Nzukda1Y",
+        "https://mobbin.com/api/mcp/short/hCOQM0RI",
+        "https://mobbin.com/api/mcp/short/pIwdTv1q",
+        "https://mobbin.com/api/mcp/short/JejbZKWQ",
+        "https://mobbin.com/api/mcp/short/N9UXEEFr"
+      ],
+      "question": "Q4",
+      "take": "A learner assessment journey connects answering items to a final result, a useful analogue for emitting competency scores from activity evidence.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:047e252c-3bf3-4c33-b3b2-c5dd6065d1d4",
+      "source": "mobbin",
+      "app": "Duolingo",
+      "title": "Course progress path",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/047e252c-3bf3-4c33-b3b2-c5dd6065d1d4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/xrzkT0Hq",
+        "https://mobbin.com/api/mcp/short/fDedsO7F",
+        "https://mobbin.com/api/mcp/short/c0KjYQ57"
+      ],
+      "question": "Q4",
+      "take": "A compact course path connects individual practice steps to an overall progression state, adjacent evidence for longitudinal competency traceability.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:66a38bfc-fc8d-4574-85d6-ae37dfe339cd",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Create assessment with automatic grading",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/66a38bfc-fc8d-4574-85d6-ae37dfe339cd",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FeZwYuGL",
+        "https://mobbin.com/api/mcp/short/k44skRPJ",
+        "https://mobbin.com/api/mcp/short/GCzW3M2I",
+        "https://mobbin.com/api/mcp/short/ndVS8a4m",
+        "https://mobbin.com/api/mcp/short/vCNGSVBs"
+      ],
+      "question": "Q4",
+      "take": "The flow moves from assessment creation to questions and automatic grading, showing how an activity can own evidence capture and score computation.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:60c5af0c-ed0a-4f93-8c44-ca67daf3762a",
+      "source": "mobbin",
+      "app": "Uxcel",
+      "title": "Skill graph impact",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/60c5af0c-ed0a-4f93-8c44-ca67daf3762a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TZXcEyW5",
+        "https://mobbin.com/api/mcp/short/QediaKZR",
+        "https://mobbin.com/api/mcp/short/4xjv7Zue",
+        "https://mobbin.com/api/mcp/short/XjLQwHf1"
+      ],
+      "question": "Q4",
+      "take": "A skill graph impact journey is a strong adjacent pattern for showing how an assessment result changes a learner's competency state.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:34856cb4-4cb0-4248-ab60-d1d4bf64b665",
+      "source": "mobbin",
+      "app": "Brilliant",
+      "title": "Skill tree mastery overview",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/34856cb4-4cb0-4248-ab60-d1d4bf64b665",
+      "images": [
+        "https://mobbin.com/api/mcp/short/8AglkM6B"
+      ],
+      "question": "Q5",
+      "take": "Brilliant presents learning as a navigable skill path, making mastery legible through progress across connected topics.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:45ede6ec-1ebd-498f-9a48-2636087f1be4",
+      "source": "mobbin",
+      "app": "Brilliant",
+      "title": "Topic progression detail",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/45ede6ec-1ebd-498f-9a48-2636087f1be4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/s5BIcxFw"
+      ],
+      "question": "Q5",
+      "take": "A topic-level progress view lets learners inspect where they stand within a broader competency journey.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ec3fe703-fe07-489e-92a5-45eb5b3d4720",
+      "source": "mobbin",
+      "app": "Brilliant",
+      "title": "Mobile skill path",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ec3fe703-fe07-489e-92a5-45eb5b3d4720",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wKykdbCB"
+      ],
+      "question": "Q5",
+      "take": "Brilliant’s mobile skill path expresses mastery as a sequence of topic nodes, with the active concept emphasized over the full curriculum.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:41d3d178-1703-47b1-820d-b5c5348118a6",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Learning progress dashboard",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/41d3d178-1703-47b1-820d-b5c5348118a6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/0X2I5p8u"
+      ],
+      "question": "Q5",
+      "take": "Codecademy is an adjacent analogue for showing learner progress across a structured skills curriculum.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:042b8064-f255-4149-9649-a2bbc057dea5",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Skill tracking flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/042b8064-f255-4149-9649-a2bbc057dea5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WPziUsgL",
+        "https://mobbin.com/api/mcp/short/IYbnZOKJ",
+        "https://mobbin.com/api/mcp/short/uSmmN5l8",
+        "https://mobbin.com/api/mcp/short/KNsW3jOu",
+        "https://mobbin.com/api/mcp/short/VOxsRmu0"
+      ],
+      "question": "Q5",
+      "take": "Codecademy’s multi-screen skill-tracking flow links progress review to deeper skill detail, a useful learner-facing mastery pattern.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:063b737c-c4d3-4788-b91d-b137f93ebb9c",
+      "source": "mobbin",
+      "app": "Duolingo",
+      "title": "Course path with progress states",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/063b737c-c4d3-4788-b91d-b137f93ebb9c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Y1rdroUT"
+      ],
+      "question": "Q5",
+      "take": "Duolingo uses a sequential path with visible completion states so learners can locate current level and next practice target.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:bf1baa63-a593-4155-aeb9-f027ec53355f",
+      "source": "mobbin",
+      "app": "Duolingo",
+      "title": "Skill path checkpoint state",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/bf1baa63-a593-4155-aeb9-f027ec53355f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/cJ5oLZ8l"
+      ],
+      "question": "Q5",
+      "take": "Checkpointed units communicate incremental attainment and a clear next action without requiring a dense analytics dashboard.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:21f4097f-290b-438c-8f84-85f616578231",
+      "source": "mobbin",
+      "app": "Duolingo",
+      "title": "Mobile learning path mastery",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/21f4097f-290b-438c-8f84-85f616578231",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rGkdJTHW"
+      ],
+      "question": "Q5",
+      "take": "The mobile path keeps current progress, locked or completed nodes, and the next lesson visible in one compact learner view.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c8fcc4c3-061d-4280-90d5-4600ac48bf53",
+      "source": "mobbin",
+      "app": "Uxcel",
+      "title": "Skills progress overview",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/c8fcc4c3-061d-4280-90d5-4600ac48bf53",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rrc6X0ZQ"
+      ],
+      "question": "Q5",
+      "take": "Uxcel provides an adjacent skills-learning reference where progress can be scanned across multiple competencies.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:789ccbbc-7dc2-4d9d-90d4-ffa26776db65",
+      "source": "mobbin",
+      "app": "Duolingo",
+      "title": "Courses switching flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/789ccbbc-7dc2-4d9d-90d4-ffa26776db65",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lggifQXA",
+        "https://mobbin.com/api/mcp/short/ot3W4B3s"
+      ],
+      "question": "Q6",
+      "take": "Duolingo’s course switcher flow shows a learner carrying one progress context while choosing among multiple courses, an adjacent reuse and continuity pattern.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4518",
+      "source": "refero",
+      "app": "Hello Ivy",
+      "title": "Save a document as a reusable template",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4518",
+      "images": [
+        "https://images.refero.design/screenshots/helloivy.co/desktop/ee25f285-68b0-445d-ac64-add9528a7dc0_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/2d32362b-e6e4-4fdf-a327-ed9e02011016_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/6f963f73-8a01-450a-b979-46d9b25e001b_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/915d20dd-fe43-4ce1-8c62-a5283b25a015_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/fe84fa72-35be-4bba-b6f7-6acbe22693c6_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/7580c209-55b9-42e4-85b3-a0f1d68e6a50_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "Hello Ivy makes reuse explicit: page options expose Save as template, a preview-and-controls modal captures template details, and a confirmation toast closes the loop; this is a direct reusable-set analogue.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:5ce0dd31-4106-4884-ab40-431b863377f9",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course template reuse control",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5ce0dd31-4106-4884-ab40-431b863377f9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TK08AeJM"
+      ],
+      "question": "Q6",
+      "take": "Teachable is an adjacent course-management analogue for carrying a structured course setup forward as a reusable template.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:8b96d9a4-1e83-4a5b-8bb4-4f41591bbc07",
+      "source": "mobbin",
+      "app": "Uxcel",
+      "title": "Reusable learning track setup",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/8b96d9a4-1e83-4a5b-8bb4-4f41591bbc07",
+      "images": [
+        "https://mobbin.com/api/mcp/short/oJiAlYWB"
+      ],
+      "question": "Q6",
+      "take": "Uxcel offers an adjacent skills platform pattern for packaging learning structure so it can be applied consistently across cohorts.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

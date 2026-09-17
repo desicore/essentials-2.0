@@ -1,0 +1,660 @@
+{
+  "module": "06-events",
+  "references": [
+    {
+      "id": "mobbin:a22e116a-063a-460c-bbf0-a097bf484c8b",
+      "source": "mobbin",
+      "app": "Time2book",
+      "title": "Schedule page with add-to-schedule form showing service and timing options",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a22e116a-063a-460c-bbf0-a097bf484c8b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/YOixy1SL"
+      ],
+      "question": "Q1",
+      "take": "Shows event creation form triggered from schedule view with date, time, and service selection inline.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:1680974d-4690-4922-86a4-d8b2c206755b",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Sessions tab with list of scheduled sessions and reschedule functionality",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/1680974d-4690-4922-86a4-d8b2c206755b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/b5Voluqp"
+      ],
+      "question": "Q1",
+      "take": "Sessions listed inline within course detail view, each with reschedule action; shows inline session management.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:db93ea49-d9f9-4b32-9758-0e6cadbb3ed7",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Course lessons tab showing sections with add section button and lesson list",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/db93ea49-d9f9-4b32-9758-0e6cadbb3ed7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/piOKREsx"
+      ],
+      "question": "Q1",
+      "take": "Inline course content structure with Add section action visible; demonstrates course context for scheduling.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2491d855-da01-47af-bb7e-aff0504f2f93",
+      "source": "mobbin",
+      "app": "Lyssna",
+      "title": "Upcoming sessions list showing scheduled events with attendee and recording details",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2491d855-da01-47af-bb7e-aff0504f2f93",
+      "images": [
+        "https://mobbin.com/api/mcp/short/86P8VRX0"
+      ],
+      "question": "Q1",
+      "take": "Lists upcoming sessions inline within event context, each showing date, time, host and attendee info.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a4a97f56-2713-4b64-af75-fe0a9c5509e8",
+      "source": "mobbin",
+      "app": "Riverside",
+      "title": "Event creation modal with date, time, audience selector and invite options",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a4a97f56-2713-4b64-af75-fe0a9c5509e8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/XohsZWUI"
+      ],
+      "question": "Q1",
+      "take": "Inline event creation modal with course/project context, includes audience roles (Guest, Producer) selector.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:5094f489-8907-46ac-87e4-b43f44c6f5b7",
+      "source": "mobbin",
+      "app": "Preply",
+      "title": "My lessons view with Schedule lesson button and upcoming lessons list",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5094f489-8907-46ac-87e4-b43f44c6f5b7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/qBa7XCBU"
+      ],
+      "question": "Q1",
+      "take": "Inline lesson scheduling within course/instructor context; Schedule lesson CTA creates events within course.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a00bad49-98ac-40d1-b52f-8ab62e33628e",
+      "source": "mobbin",
+      "app": "Whop",
+      "title": "Calendar bookings interface with day/time grid and add booking ability",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a00bad49-98ac-40d1-b52f-8ab62e33628e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/14mkbOtu"
+      ],
+      "question": "Q1",
+      "take": "Global calendar view with add-on each day; shows calendar-based event surface with course tagging visible.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:b360aa69-e3f5-4404-af95-8021ce320f4b",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Create event form with date/time, repeats, and end date configuration",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/b360aa69-e3f5-4404-af95-8021ce320f4b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ioCoVaiM"
+      ],
+      "question": "Q1",
+      "take": "Full event creation form showing date, time, repeats dropdown, end date, and location selection inline in course.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:30fee836-a300-491a-b003-1aa65414322c",
+      "source": "mobbin",
+      "app": "Microsoft Teams",
+      "title": "New meeting form with attendees, date/time, recurrence, and description",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/30fee836-a300-491a-b003-1aa65414322c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1wBZd2Vm"
+      ],
+      "question": "Q1",
+      "take": "Meeting creation form with participant management, date/time pickers, monthly recurrence, and note field.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:7b97add8-89e0-4485-91be-f2dc7278ec92",
+      "source": "mobbin",
+      "app": "Proton",
+      "title": "Event creation modal with attendees, date/time, location, and recurrence toggle",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/7b97add8-89e0-4485-91be-f2dc7278ec92",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lKYb8J9J"
+      ],
+      "question": "Q1",
+      "take": "Focused event form showing date/time range, participant list, location search, and recurrence options.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e0b5266d-41ba-42a3-a6ed-d6cd9c7d490e",
+      "source": "mobbin",
+      "app": "Eventbrite",
+      "title": "Event type selector with date/time, location, and single vs recurring event choice",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/e0b5266d-41ba-42a3-a6ed-d6cd9c7d490e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/nutxCUli"
+      ],
+      "question": "Q1",
+      "take": "Event form highlighting single vs recurring choice upfront, with date/time inputs and location map.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:64f56885-93b8-4556-9e69-743262c30997",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Create event form with title, when field, timezone, and repeat configuration",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/64f56885-93b8-4556-9e69-743262c30997",
+      "images": [
+        "https://mobbin.com/api/mcp/short/PUs76wfV"
+      ],
+      "question": "Q1",
+      "take": "Event form with title, datetime, timezone, and recurrence interval selector; clean course event creation.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:715206de-65c8-4872-af45-d8db52eb1e01",
+      "source": "mobbin",
+      "app": "Zoom",
+      "title": "New repeating schedule form with duration, video conferencing type, and location",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/715206de-65c8-4872-af45-d8db52eb1e01",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wlo4zmpC"
+      ],
+      "question": "Q1",
+      "take": "Repeating schedule form showing duration, video conferencing setup, schedule link, and location field.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:06a96cad-cd59-4538-b234-c770ed5906a6",
+      "source": "mobbin",
+      "app": "Confluence",
+      "title": "Create event modal with event type, dates, reminders, and repeat settings",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/06a96cad-cd59-4538-b234-c770ed5906a6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/jr0hZnFb"
+      ],
+      "question": "Q1",
+      "take": "Event modal showing type selector, date/time fields, all-day toggle, weekly repeat dropdown with advanced options.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Publishing a section - course content management with publish state",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/uI7JjrZh",
+        "https://mobbin.com/api/mcp/short/foQLKlpI",
+        "https://mobbin.com/api/mcp/short/vUxZ2MgJ"
+      ],
+      "question": "Q1",
+      "take": "Flow shows content organization within course with inline publish controls; demonstrates section-based course structure.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:f92f2d5a-2102-4cc3-8a62-aeb6c88c1ade",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Creating a course space (scheduled) - 14-step flow with date selection and group assignment",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f92f2d5a-2102-4cc3-8a62-aeb6c88c1ade",
+      "images": [
+        "https://mobbin.com/api/mcp/short/U0TQzhIQ",
+        "https://mobbin.com/api/mcp/short/VAvIoqTk",
+        "https://mobbin.com/api/mcp/short/RNvxQXtG",
+        "https://mobbin.com/api/mcp/short/pppbFnPi",
+        "https://mobbin.com/api/mcp/short/qK1cWbml",
+        "https://mobbin.com/api/mcp/short/YDyPhPaR",
+        "https://mobbin.com/api/mcp/short/oLvwBHZI",
+        "https://mobbin.com/api/mcp/short/aMrb7ozG"
+      ],
+      "question": "Q1",
+      "take": "Full scheduled course creation showing date/group selection within course setup; demonstrates inline event scheduling with group context.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c497ddd0-6c10-4284-b085-d9d624400ad6",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Scheduling a coaching session - 8-step flow with calendar and availability setup",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c497ddd0-6c10-4284-b085-d9d624400ad6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/quF0md6N",
+        "https://mobbin.com/api/mcp/short/g7LOCKCO",
+        "https://mobbin.com/api/mcp/short/nHMQhuBc",
+        "https://mobbin.com/api/mcp/short/EvS9md7v",
+        "https://mobbin.com/api/mcp/short/VzJfsuVC",
+        "https://mobbin.com/api/mcp/short/nk6McSeP",
+        "https://mobbin.com/api/mcp/short/vzS90h0a",
+        "https://mobbin.com/api/mcp/short/F611tL25"
+      ],
+      "question": "Q1",
+      "take": "Complete session scheduling flow from course coaching context with calendar, availability setup, and time slot selection.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:787e8052-f653-4151-9df7-924b5726d087",
+      "source": "mobbin",
+      "app": "Luma",
+      "title": "Event invite stats showing attendee list with acceptance status and invitations",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/787e8052-f653-4151-9df7-924b5726d087",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hHrk4Rih"
+      ],
+      "question": "Q2",
+      "take": "Invite stats panel showing all attendees with acceptance status; demonstrates two-way visibility of event-attendee relationship.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3c2ac842-7d3d-46c7-b950-58c5466fad45",
+      "source": "mobbin",
+      "app": "Time2book",
+      "title": "Booking details side panel with service, location, date, and client information",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3c2ac842-7d3d-46c7-b950-58c5466fad45",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DHgY5qTM"
+      ],
+      "question": "Q2",
+      "take": "Booking panel showing linked service, location, date/time, and attendees/clients list inline.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:1caacacf-3691-435b-8ac4-5f6a1f0e8b42",
+      "source": "mobbin",
+      "app": "Rise",
+      "title": "Event details with participant list and bidirectional event-participant linkage visible",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/1caacacf-3691-435b-8ac4-5f6a1f0e8b42",
+      "images": [
+        "https://mobbin.com/api/mcp/short/viBEBr6Q"
+      ],
+      "question": "Q2",
+      "take": "Event details panel with participant avatars and names; shows event-to-person links within event context.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:da2ca788-e66b-44ba-8008-7659ccc746a3",
+      "source": "mobbin",
+      "app": "Workable",
+      "title": "Interview event creation with linked candidate profile and role information",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/da2ca788-e66b-44ba-8008-7659ccc746a3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/q6875Zju"
+      ],
+      "question": "Q2",
+      "take": "Event (interview) with linked candidate and role visible; shows bidirectional link (candidate has event, event has candidate).",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:79f7dc74-3511-48f8-bd05-2b2596d0b08d",
+      "source": "mobbin",
+      "app": "Clockwise",
+      "title": "Flexible meeting side panel with attendees, description, and meeting settings",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/79f7dc74-3511-48f8-bd05-2b2596d0b08d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/19L8FIsb"
+      ],
+      "question": "Q2",
+      "take": "Meeting details showing attendee list with 2+ participants and flexible meeting options visible in side panel.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:0135db7d-6118-4df0-b8eb-645026ef853f",
+      "source": "mobbin",
+      "app": "HubSpot",
+      "title": "Event details with linked attendees, associated campaign, and lists sections",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/0135db7d-6118-4df0-b8eb-645026ef853f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/vZXEPWFZ"
+      ],
+      "question": "Q2",
+      "take": "Event panel showing attendees, associated campaign link, and lists; demonstrates rich linked content around event.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:4788b995-4218-4049-a47f-9c0a38193da8",
+      "source": "mobbin",
+      "app": "Lightfield",
+      "title": "Meeting details showing participants list and meeting metadata in side panel",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/4788b995-4218-4049-a47f-9c0a38193da8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/waFMVFam"
+      ],
+      "question": "Q2",
+      "take": "Meeting details panel showing participant emails and details; demonstrates event-participant relationship.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:f143273e-b1c7-4b6b-a605-3dfb81d472f0",
+      "source": "mobbin",
+      "app": "Hootsuite",
+      "title": "Scheduled post details showing linked LinkedIn profile and post content",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/f143273e-b1c7-4b6b-a605-3dfb81d472f0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rb0MsZyI"
+      ],
+      "question": "Q2",
+      "take": "Scheduled event panel showing linked content (LinkedIn post), scheduled time, and linked entity (profile).",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:db66e97a-c08e-48fa-9665-8b4fe611eadc",
+      "source": "mobbin",
+      "app": "Whop",
+      "title": "Creating a course - 13-step flow with lesson and content creation",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/db66e97a-c08e-48fa-9665-8b4fe611eadc",
+      "images": [
+        "https://mobbin.com/api/mcp/short/87tQMesz",
+        "https://mobbin.com/api/mcp/short/95lLmOTm",
+        "https://mobbin.com/api/mcp/short/yv4dFFrz",
+        "https://mobbin.com/api/mcp/short/w6KxSlXz",
+        "https://mobbin.com/api/mcp/short/VxVSJ76Z",
+        "https://mobbin.com/api/mcp/short/ETQim984",
+        "https://mobbin.com/api/mcp/short/er2PE9GP",
+        "https://mobbin.com/api/mcp/short/pDwfgQR2"
+      ],
+      "question": "Q2",
+      "take": "Course creation flow showing lesson creation, content attachment, and course structure; demonstrates content-event linkage.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:8d05e3a8-10fd-44b4-82c2-acf6285474ae",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Creating an event - 14-step flow with schedule, description, and event details",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8d05e3a8-10fd-44b4-82c2-acf6285474ae",
+      "images": [
+        "https://mobbin.com/api/mcp/short/AGEDbFfx",
+        "https://mobbin.com/api/mcp/short/gDGvUhKF",
+        "https://mobbin.com/api/mcp/short/6E2XKIoJ",
+        "https://mobbin.com/api/mcp/short/Fjm2hjh1",
+        "https://mobbin.com/api/mcp/short/BMnli7Aa",
+        "https://mobbin.com/api/mcp/short/luZKNRYP",
+        "https://mobbin.com/api/mcp/short/AWFcFAsn",
+        "https://mobbin.com/api/mcp/short/D18gEIlg"
+      ],
+      "question": "Q2",
+      "take": "Event creation with detailed description, schedule settings, and content organization; shows event details capture.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:1a9103b0-d862-4caf-948d-4d828f151ccb",
+      "source": "mobbin",
+      "app": "Preply",
+      "title": "Lesson time selection screen with lesson duration and timezone-based scheduling",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/1a9103b0-d862-4caf-948d-4d828f151ccb",
+      "images": [
+        "https://mobbin.com/api/mcp/short/0tKDIr8D"
+      ],
+      "question": "Q2",
+      "take": "Lesson time picker showing duration, calendar, and timezone-aware time slots inline with lesson details.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:399ec1b5-4c98-4b27-b3d8-eae1ecc148ce",
+      "source": "mobbin",
+      "app": "Peloton",
+      "title": "Schedule view with live classes showing instructor names, duration, and class type filters",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/399ec1b5-4c98-4b27-b3d8-eae1ecc148ce",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LtQg9mfL"
+      ],
+      "question": "Q2",
+      "take": "Live class list showing instructor, class type (HIIT, Walking), and time; demonstrates filtering by class type (cohort/category).",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:92592571-9e49-418b-9107-5c76dec5bfff",
+      "source": "mobbin",
+      "app": "Open",
+      "title": "Class filter panel with type selector (Tone, Restore, Meditate) and teacher/instructor list",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/92592571-9e49-418b-9107-5c76dec5bfff",
+      "images": [
+        "https://mobbin.com/api/mcp/short/xAaxJoGy"
+      ],
+      "question": "Q2",
+      "take": "Class filtering interface with class type and multiple instructors visible; shows cohort/group selection within event discovery.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:eea350ea-ff82-45c8-8b0b-6c088c8e058f",
+      "source": "mobbin",
+      "app": "Equinox+",
+      "title": "Class details with instructor name, duration, and on-demand class listing",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/eea350ea-ff82-45c8-8b0b-6c088c8e058f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1YwpodRD"
+      ],
+      "question": "Q2",
+      "take": "On-demand class showing linked instructor and duration; demonstrates class-to-instructor relationship visibility.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:970d2e88-2b54-488d-b1d9-655f06b5f4af",
+      "source": "mobbin",
+      "app": "MasterClass",
+      "title": "Lesson display showing lesson title linked to course/coach and lesson progression",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/970d2e88-2b54-488d-b1d9-655f06b5f4af",
+      "images": [
+        "https://mobbin.com/api/mcp/short/OWL3wp88"
+      ],
+      "question": "Q2",
+      "take": "Course lesson showing linked instructor (Coach K), linked course content, and lesson resources; two-way visibility of lesson-course relationship.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:02427d88-0254-4726-b3ff-b8c2ad39beed",
+      "source": "mobbin",
+      "app": "Formula 1®",
+      "title": "Schedule view with sessions listed by date and Add to Calendar button",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/02427d88-0254-4726-b3ff-b8c2ad39beed",
+      "images": [
+        "https://mobbin.com/api/mcp/short/P0ikkMym"
+      ],
+      "question": "Q1",
+      "take": "Sessions schedule with Add to Calendar CTA; shows multiple events listed inline with calendar add option.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:80b08c96-c384-47f2-adeb-f8c244457c16",
+      "source": "mobbin",
+      "app": "Future Pro",
+      "title": "Edit schedule view with Add Workout buttons for each day of the week",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/80b08c96-c384-47f2-adeb-f8c244457c16",
+      "images": [
+        "https://mobbin.com/api/mcp/short/chhjXtp8"
+      ],
+      "question": "Q1",
+      "take": "Weekly schedule with inline Add Workout/Activity buttons for each day; shows event creation inline within schedule view.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:f636ee5c-a359-44a0-b2b0-61230c65fc1f",
+      "source": "mobbin",
+      "app": "Runna",
+      "title": "Training calendar with date picker and Add button to add sessions to specific days",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/f636ee5c-a359-44a0-b2b0-61230c65fc1f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/J5uA5cSm"
+      ],
+      "question": "Q1",
+      "take": "Training schedule with + Add buttons for each day; demonstrates inline session/workout creation within weekly view.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ed12dd5d-72a1-439d-b76b-d21e39938136",
+      "source": "mobbin",
+      "app": "Apple Fitness",
+      "title": "Weekly schedule view with Add Activity buttons and existing workouts listed",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ed12dd5d-72a1-439d-b76b-d21e39938136",
+      "images": [
+        "https://mobbin.com/api/mcp/short/4m14Wo8L"
+      ],
+      "question": "Q1",
+      "take": "Weekly fitness schedule with inline Add Activity CTAs for each day; shows calendar-based event creation.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c26a7a90-de7a-4ded-a465-61b40c294844",
+      "image_url": "https://mobbin.com/api/mcp/short/K41lwVvq",
+      "mobbin_url": "https://mobbin.com/screens/c26a7a90-de7a-4ded-a465-61b40c294844",
+      "app": "Waking Up",
+      "title": "Sessions tab showing course lessons with video durations and instructor",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/c26a7a90-de7a-4ded-a465-61b40c294844",
+      "images": [
+        "https://mobbin.com/api/mcp/short/K41lwVvq"
+      ],
+      "question": "Q1",
+      "take": "Course sessions/lessons tab showing instructor and video metadata inline; demonstrates session listing within course context.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:5416376b-61bf-4a1e-8d9a-182c52faaece",
+      "source": "mobbin",
+      "app": "Microsoft Teams",
+      "title": "Calendar view showing meetings by date with Join button for quick access",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5416376b-61bf-4a1e-8d9a-182c52faaece",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ZQJmevSh"
+      ],
+      "question": "Q1",
+      "take": "Calendar-based meeting schedule showing events inline with quick Join action; demonstrates scheduled sessions visibility.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:045c215d-6e08-432c-9bb6-3ddd4495fc69",
+      "source": "mobbin",
+      "app": "Udemy",
+      "title": "Curriculum view showing sections and lectures with course structure",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/045c215d-6e08-432c-9bb6-3ddd4495fc69",
+      "images": [
+        "https://mobbin.com/api/mcp/short/4OqUWrv6"
+      ],
+      "question": "Q1",
+      "take": "Course curriculum displaying hierarchical structure of sections and lectures inline; shows course content organization.",
+      "counter_example": false,
+      "selected": true,
+      "crop": ""
+    }
+  ]
+}

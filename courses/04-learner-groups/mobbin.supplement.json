@@ -1,0 +1,135 @@
+{
+  "references": [
+    {
+      "id": "mobbin:d3cc6573-05f4-4736-b9be-e419e60c7b56",
+      "source": "mobbin",
+      "app": "Deel",
+      "title": "Assign workers to course with filtered roster",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/d3cc6573-05f4-4736-b9be-e419e60c7b56",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WX6E91XO"
+      ],
+      "question": "Q2",
+      "take": "Assign workers to course shows Total 96 items, worker metadata and group/status/type filters, with Continue disabled before selection. A whole-team access warning notes that missing workers may need Engage access updated. This is not a selected-learner count or duplicate-conflict screen.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:eac0772e-c47f-4a3d-973c-f6a7352fe5a1",
+      "source": "mobbin",
+      "app": "Deel",
+      "title": "Schedule course assignment and deadline",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/eac0772e-c47f-4a3d-973c-f6a7352fe5a1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/b2ui1ZSE"
+      ],
+      "question": "Q5",
+      "take": "After selecting workers, choose immediate or scheduled assignment, optionally set a deadline, then Assign (96). This is assignment timing and a completion deadline, not a demonstrated enrollment-open or closing window.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:65695f4f-db86-4ab3-b40c-e2966edd2a79",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Set course due date and reminders",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/65695f4f-db86-4ab3-b40c-e2966edd2a79",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sBJO1HGj"
+      ],
+      "question": "Q5",
+      "take": "Training assignment separates participant selection, dates/reminders and review. The settings include a completion due date, reminders near the deadline, a seven-day reminder toggle and email preview; overdue completion remains possible. A due date is not an enrollment cutoff.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:dfee87b3-81d9-4a2f-accc-256ba91e474d",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Review course enrollment impact",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/dfee87b3-81d9-4a2f-accc-256ba91e474d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/74Gvoztb"
+      ],
+      "question": "Q2",
+      "take": "Before purchase, Review shows course name, number of team members, completion due date and reminder timing, with Edit links. This is a pre-commit review, not proof of completed enrollment or notification delivery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:b1497c40-cdea-4b8a-8e73-6cd70a8fcb2f",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Enrollment notification and next steps",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/b1497c40-cdea-4b8a-8e73-6cd70a8fcb2f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/fFKO7ujr"
+      ],
+      "question": "Q6",
+      "take": "The pre-purchase What happens next section states that Gusto will email course information and a link, learners complete the course in Gusto, and the admin tracks progress. This describes future behavior, not an email already sent or received.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:bb93bc5a-69d4-4f3e-8f70-fa48fb9b6b53",
+      "source": "mobbin",
+      "app": "Asana",
+      "title": "Add existing people or teams to project",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/bb93bc5a-69d4-4f3e-8f70-fa48fb9b6b53",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wDijgVB9"
+      ],
+      "question": "Q1",
+      "take": "The project-template member field accepts people or teams and says private teams are added only when the project creator is a member. No existing team is selected in the captured screen; completed attachment and ongoing sync are not demonstrated.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a1406eb9-2579-4a6f-a16c-84e7f37ba4a2",
+      "source": "mobbin",
+      "app": "Asana",
+      "title": "Project invite notification toggle",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a1406eb9-2579-4a6f-a16c-84e7f37ba4a2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Bued6Wcq"
+      ],
+      "question": "Q6",
+      "take": "Project sharing pairs invitation with a Notify when tasks are added checkbox and exposes member access settings.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9fb5633a-b981-4130-ac7f-bddf895856ae",
+      "source": "mobbin",
+      "app": "Gusto",
+      "title": "Enroll a team member through review",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9fb5633a-b981-4130-ac7f-bddf895856ae",
+      "images": [
+        "https://mobbin.com/api/mcp/short/4pxqDmT2",
+        "https://mobbin.com/api/mcp/short/qEX0sE3B",
+        "https://mobbin.com/api/mcp/short/kxuAiPC8",
+        "https://mobbin.com/api/mcp/short/s0Ry7Aiu"
+      ],
+      "question": "Q2",
+      "take": "Select a member \u2192 set due date and optional seven-day email reminder \u2192 review course, count, date and reminders with Edit links \u2192 inspect per-person and total cost plus post-purchase email disclosure. The captured flow stops before purchase; it does not prove enrollment or email delivery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

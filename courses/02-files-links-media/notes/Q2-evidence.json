@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea",
+    "take": "Kajabi organizes course content as modules with optional submodules and nested learning items.",
+    "observed": "The outline contains module rows and lessons. Add content offers Module, Submodule, Lesson, Quiz, and Upload multiple videos. The flow selects Module, fills title, description and image, creates it, and shows the new module at the outline bottom.",
+    "limits": "Instructor view only; the six frames do not show learner rendering or manual reordering.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8",
+    "take": "Teachable uses named course sections containing ordered lesson rows with per-item content summaries.",
+    "observed": "Introduction and Foundations sections contain draggable lessons; rows list material types and counts plus publication state, while sections expose Drip and Quick actions.",
+    "limits": "Instructor curriculum only; deeper nesting and learner presentation are not shown.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:41f8b1f4-ec5f-4703-aeed-9b318eb0d5c0",
+    "take": "Podia embeds mixed links and files directly within a module-based instructor editing surface.",
+    "observed": "Module 2 has explanatory text followed by a link, a booking link, and a file; Done and Publish controls and a deletion toast identify the authoring context.",
+    "limits": "A scroll-position detail view, so the complete hierarchy and navigation model are not visible.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:ce6bd4c3-a5bf-4936-9052-271f2415fe4b",
+    "take": "Skillshare presents learners with a flat ordered lesson sequence and separates resources into another tab.",
+    "observed": "Ten numbered lessons with durations appear beside the player; Projects & Resources is a top-level tab.",
+    "limits": "Learner side only; the instructor model and any hidden grouping are not shown.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4",
+    "take": "SuperHi groups learner materials by content type, separating downloads from numbered videos.",
+    "observed": "A Links + downloads section with Chapter resources sits above a Videos section whose items carry lesson numbers.",
+    "limits": "Only one learner page is shown; instructor organization and larger-course behavior are unknown.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "mobbin:d167e236-9aec-4856-8c79-27389df500a2",
+    "take": "Coursera organizes media and supporting views inside a sequential lesson shell.",
+    "observed": "The screen labels the item Lecture 1, offers Transcript, Notes, Summary, and Attachments tabs, and provides Previous and Next navigation.",
+    "limits": "A single mobile lesson does not reveal the course-level section or folder hierarchy.",
+    "counter_example_candidate": false
+  },
+  {
+    "id": "refero:0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b",
+    "take": "Gumroad can organize course content as one freeform document rather than folders, modules, or lesson rows.",
+    "observed": "Content is the selected product tab. The main area is a rich-text page with formatting, link, file, insert, and page controls; Receipt is visible but inactive.",
+    "limits": "One editing screen; it does not establish whether additional pages or products can create a larger hierarchy.",
+    "counter_example_candidate": true
+  }
+]

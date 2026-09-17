@@ -1,0 +1,21 @@
+{
+  "h2": [
+    "Library browse UX: search, filters (tags, competency, duration), preview before adding",
+    "Multi-select and batch add vs. one at a time",
+    "Instance vs. reference semantics (edits to master propagate? per-course overrides?)",
+    "Sequencing after add (drag reorder, grouping into sections, prerequisites between items)",
+    "Metadata carried along (competencies, duration, equipment) and shown in the outline",
+    "Empty / first-run state and suggestions"
+  ],
+  "cards": 30,
+  "images": 86,
+  "broken": [],
+  "externalImages": 0,
+  "synthesis": true,
+  "overflow": false,
+  "searchWorks": true,
+  "lightboxWorks": true,
+  "mobileOverflow": false,
+  "errors": [],
+  "bytes": 4288431
+}

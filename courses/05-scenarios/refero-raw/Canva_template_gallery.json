@@ -1,0 +1,545 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 792,
+    "total_pages": 80
+  },
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/lovable.dev/desktop/b087e2fc-5eae-44e5-8145-44ddb9b33944_thumb.jpg",
+      "hex_colors": [
+        "0xF831A0",
+        "0x434240",
+        "0xEE8EEF",
+        "0x9B96CA",
+        "0x5690F8"
+      ],
+      "uuid": "b087e2fc-5eae-44e5-8145-44ddb9b33944",
+      "page_url": "https://lovable.dev/dashboard/templates",
+      "site": {
+        "id": 905,
+        "domain": "lovable.dev",
+        "description": "Vibe Code Apps & Websites with AI, Fast",
+        "name": "Lovable",
+        "background_url": "https://images.refero.design/backgrounds/lovable.dev/0e8207c5-408e-4948-a1fa-acd23516f6bb.jpg",
+        "refero_url": "https://refero.design/websites/905",
+        "categories": [
+          "AI Tool",
+          "Development Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/lovable.dev/a114b905-0a65-4052-ae0b-54f64964f7bf.jpg",
+        "background_color": "ff528e"
+      },
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Media Gallery",
+        "List",
+        "Button",
+        "Floating Button",
+        "Page Control & Pagination",
+        "Dialog & Modal Window",
+        "Sidebar & Drawer",
+        "Toolbar",
+        "Thumbnail",
+        "Gradient",
+        "Popover"
+      ],
+      "page_types": [
+        "Catalog Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/b087e2fc-5eae-44e5-8145-44ddb9b33944",
+      "content": {
+        "description": "The screen shows a clean, modern template browsing interface centered around a large modal preview for a presentation template. The overall style is premium, minimal, and editorial, with strong emphasis on large imagery, rounded corners, soft shadows, and generous white space. The design uses a light neutral base with subtle off-white background, overlaid by a centered white modal card with a dark ..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/getmocha.com/desktop/be276fc7-b390-4e27-a2ad-84d28714f99c_thumb.jpg",
+      "hex_colors": [
+        "0x303E50",
+        "0x9AA0A8",
+        "0x988B66",
+        "0x836F60",
+        "0x577090"
+      ],
+      "uuid": "be276fc7-b390-4e27-a2ad-84d28714f99c",
+      "page_url": "https://getmocha.com/apps/019dd996-7b6a-7ed9-8172-4cc2b8243317",
+      "site": {
+        "id": 882,
+        "domain": "getmocha.com",
+        "description": "AI-Powered No‑Code App Builder for Entrepreneurs",
+        "name": "Mocha",
+        "background_url": "https://images.refero.design/backgrounds/getmocha.com/06c72be9-4aa6-4a74-9dae-7ca752ea59d4.jpg",
+        "refero_url": "https://refero.design/websites/882",
+        "categories": [
+          "AI Tool",
+          "Development Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/getmocha.com/e03de331-c3a9-464e-b61e-3622b9a919e1.jpg",
+        "background_color": "58c035"
+      },
+      "ux_patterns": [
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "List",
+        "Icon",
+        "Dropdown Menu",
+        "Popover"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/be276fc7-b390-4e27-a2ad-84d28714f99c",
+      "content": {
+        "description": "High-level summary: A desktop editor / content-management interface showing a curated photo gallery preview. The UI is a two-column workspace: a narrow left inspector / assets column and a wide central canvas that contains the gallery header (title + subtitle) and a two-column image card grid. A global top navigation/tool bar runs edge-to-edge above both columns with section tabs and a prominent Pu..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/synthesia.io/desktop/b2b56d74-3f9f-4079-bb03-1ae895f42a7f_thumb.jpg",
+      "hex_colors": [
+        "0x43433E",
+        "0x818281",
+        "0x8D624A",
+        "0xA0866B",
+        "0xF8F8F8"
+      ],
+      "uuid": "b2b56d74-3f9f-4079-bb03-1ae895f42a7f",
+      "page_url": "https://app.synthesia.io/#/videos?template-picker-view=AssistedCreation",
+      "site": {
+        "id": 943,
+        "domain": "synthesia.io",
+        "description": "Video Communication Platform",
+        "name": "Synthesia.io",
+        "background_url": "https://images.refero.design/backgrounds/synthesia.io/893d3d6f-5fb9-4971-b739-1bb66d23b6e0.jpg",
+        "refero_url": "https://refero.design/websites/943",
+        "categories": [
+          "AI Tool"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/synthesia.io/86e5b11e-bebc-4069-8d62-48f332b147aa.jpg",
+        "background_color": "81a0fe"
+      },
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Photo",
+        "Popover"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/b2b56d74-3f9f-4079-bb03-1ae895f42a7f",
+      "content": {
+        "description": "The screen shows a modern template-selection and content-preview interface with a light, minimal aesthetic. The overall style is clean, editorial, and slightly premium, combining soft white surfaces, pale gray panels, and a few saturated accent buttons. The main workspace is a large white canvas with rounded corners and subtle shadows, overlaid by a left-side template browser panel. The panel uses ..."
+      },
+      "flows": [
+        {
+          "id": 13726,
+          "name": "Replacing video scene",
+          "step": 3,
+          "total_steps": 6
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/clipchamp.com/desktop/08f7e391-98a7-46c6-b9b4-21a2e5003f74_thumb.jpg",
+      "hex_colors": [
+        "0x21D6CC",
+        "0xDCD914",
+        "0xEF9DEB",
+        "0xF45BDE",
+        "0x352871"
+      ],
+      "uuid": "08f7e391-98a7-46c6-b9b4-21a2e5003f74",
+      "page_url": "https://app.clipchamp.com/consumer/editor?driveId=5efcbc8b66f844cd&folderId=5EFCBC8B66F844CD%21s78f3003f361549ee989305edb598111d&itemId=5EFCBC8B66F844CD%21s8e25b957a7ab4731af1e9420b2fcc989",
+      "site": {
+        "id": 858,
+        "domain": "clipchamp.com",
+        "description": "Online video editor by Microsoft ",
+        "name": "Clipchamp",
+        "background_url": "https://images.refero.design/backgrounds/clipchamp.com/e032baff-0b84-4c26-a5bb-019ec703e254.jpg",
+        "refero_url": "https://refero.design/websites/858",
+        "categories": [
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/clipchamp.com/17733c94-1640-4ae7-86cb-460972016337.jpg",
+        "background_color": "b199fa"
+      },
+      "ux_patterns": [
+        "Video Player",
+        "Media Editing",
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Media Gallery",
+        "Button",
+        "Dropdown",
+        "Checkbox & Radio",
+        "Navigation Bar",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Avatar",
+        "Side Sheet"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/08f7e391-98a7-46c6-b9b4-21a2e5003f74",
+      "content": {
+        "description": "High-level overview\n- Workspace: A desktop web-based video/story editor with a 2-column layout: a left vertical media/sidebar column and a large central editor column. The central column contains a top toolbar + canvas (vertical 9:16 preview) and a bottom multi-track timeline. The overall visual style is modern, flat, with strong purple brand accents and high-contrast controls.\n\nColors\n- Main backg..."
+      },
+      "flows": [
+        {
+          "id": 10881,
+          "name": "Creating clip by template",
+          "step": 6,
+          "total_steps": 7
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/canva.com/desktop/a321a502-2f0a-46c1-929c-57f956aa307c_thumb.jpg",
+      "hex_colors": [
+        "0x303926",
+        "0x8F634C",
+        "0x555ADE",
+        "0xB38F65",
+        "0xC5A88F"
+      ],
+      "uuid": "a0540b55-4fe1-4f3f-a9e8-3baee2784d93",
+      "page_url": "https://www.canva.com/canva-for-nonprofits/resources/",
+      "site": {
+        "id": 94,
+        "domain": "canva.com",
+        "description": "Visual Suite for Everyone",
+        "name": "Canva",
+        "background_url": "https://images.refero.design/backgrounds/canva.com/9a60dd30-3e21-4b44-84f4-81ef06b169ce.jpg",
+        "refero_url": "https://refero.design/websites/94",
+        "categories": [
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/canva.com/fc31bac3-9257-40b9-aa05-3347deab4134.jpg",
+        "background_color": "24bcbc"
+      },
+      "ux_patterns": [
+        "FAQ"
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Carousel",
+        "List",
+        "Button",
+        "Tabs",
+        "Page Control & Pagination",
+        "Navigation Bar",
+        "Footer",
+        "Photo",
+        "Hero Image",
+        "Product Image"
+      ],
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/a0540b55-4fe1-4f3f-a9e8-3baee2784d93",
+      "content": {
+        "description": "This is a multi-section nonprofit resources webpage from Canva, designed to provide nonprofit organizations with various templates, toolkits, and educational materials. The layout is clean and modern with a predominantly white background (#FFFFFF) and accents of purple (#6F42C1) and blue (#3B4CCA). The header includes a light navigation bar with the Canva logo on the left in a blue-purple gradient ..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/lovable.dev/desktop/de8dc426-d504-4c4e-9cad-8203134fb0f2_thumb.jpg",
+      "hex_colors": [
+        "0xFB3F89",
+        "0x6A90FA",
+        "0x97A9F8",
+        "0xEA8DE8",
+        "0xEE72CF"
+      ],
+      "uuid": "de8dc426-d504-4c4e-9cad-8203134fb0f2",
+      "page_url": "https://lovable.dev/dashboard",
+      "site": {
+        "id": 905,
+        "domain": "lovable.dev",
+        "description": "Vibe Code Apps & Websites with AI, Fast",
+        "name": "Lovable",
+        "background_url": "https://images.refero.design/backgrounds/lovable.dev/0e8207c5-408e-4948-a1fa-acd23516f6bb.jpg",
+        "refero_url": "https://refero.design/websites/905",
+        "categories": [
+          "AI Tool",
+          "Development Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/lovable.dev/a114b905-0a65-4052-ae0b-54f64964f7bf.jpg",
+        "background_color": "ff528e"
+      },
+      "ux_patterns": [
+        "Shortcuts",
+        "Audio & Video Recorder",
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "List",
+        "Button",
+        "Dropdown",
+        "Sidebar & Drawer",
+        "Icon",
+        "Hero Image",
+        "Avatar",
+        "Gradient"
+      ],
+      "page_types": [
+        "Dashboard",
+        "Home Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/de8dc426-d504-4c4e-9cad-8203134fb0f2",
+      "content": {
+        "description": "The screen is a modern creative workspace/dashboard with a strong soft-gradient aesthetic. The overall visual style is airy, playful, and premium, combining a warm off-white base with vivid blurred gradient lighting in cyan, blue, violet, pink, and magenta. The background feels like a large atmospheric gradient wash rather than a flat color, with a bright cream-white top area transitioning into sat..."
+      },
+      "flows": [
+        {
+          "id": 12303,
+          "name": "Recording voice for transcribing",
+          "step": 3,
+          "total_steps": 6
+        },
+        {
+          "id": 12307,
+          "name": "Asking AI to create landing page",
+          "step": 3,
+          "total_steps": 20
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/lovable.dev/desktop/b827e6f0-1d30-4025-80a9-08f3a0daae8a_thumb.jpg",
+      "hex_colors": [
+        "0xFA377F",
+        "0x6A90FB",
+        "0x98ADF6",
+        "0x201E1F",
+        "0xEE90EA"
+      ],
+      "uuid": "b827e6f0-1d30-4025-80a9-08f3a0daae8a",
+      "page_url": "https://lovable.dev/dashboard",
+      "site": {
+        "id": 905,
+        "domain": "lovable.dev",
+        "description": "Vibe Code Apps & Websites with AI, Fast",
+        "name": "Lovable",
+        "background_url": "https://images.refero.design/backgrounds/lovable.dev/0e8207c5-408e-4948-a1fa-acd23516f6bb.jpg",
+        "refero_url": "https://refero.design/websites/905",
+        "categories": [
+          "AI Tool",
+          "Development Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/lovable.dev/a114b905-0a65-4052-ae0b-54f64964f7bf.jpg",
+        "background_color": "ff528e"
+      },
+      "ux_patterns": [
+        "Select",
+        "Shortcuts",
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "List",
+        "Icon",
+        "Dropdown Menu",
+        "Popover"
+      ],
+      "page_types": [
+        "Dashboard",
+        "Home Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/b827e6f0-1d30-4025-80a9-08f3a0daae8a",
+      "content": {
+        "description": "The screen shows a polished AI-assisted design workspace with a light, airy left navigation rail and a large central canvas dominated by a soft multicolor gradient background. The overall aesthetic is modern, playful, and premium, combining minimal UI structure with vibrant neon gradients and rounded, card-based components. The palette blends off-white and warm cream backgrounds with strong accent ..."
+      },
+      "flows": [
+        {
+          "id": 12307,
+          "name": "Asking AI to create landing page",
+          "step": 14,
+          "total_steps": 20
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/lovable.dev/desktop/7a9287ba-8552-4c79-b28e-7747ae8f3411_thumb.jpg",
+      "hex_colors": [
+        "0x5B84F8",
+        "0xFA3981",
+        "0x97ABF7",
+        "0xEC8EE8",
+        "0x1C1C1B"
+      ],
+      "uuid": "7a9287ba-8552-4c79-b28e-7747ae8f3411",
+      "page_url": "https://lovable.dev/dashboard",
+      "site": {
+        "id": 905,
+        "domain": "lovable.dev",
+        "description": "Vibe Code Apps & Websites with AI, Fast",
+        "name": "Lovable",
+        "background_url": "https://images.refero.design/backgrounds/lovable.dev/0e8207c5-408e-4948-a1fa-acd23516f6bb.jpg",
+        "refero_url": "https://refero.design/websites/905",
+        "categories": [
+          "AI Tool",
+          "Development Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/lovable.dev/a114b905-0a65-4052-ae0b-54f64964f7bf.jpg",
+        "background_color": "ff528e"
+      },
+      "ux_patterns": [
+        "Searching",
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "List",
+        "Search Field",
+        "Icon",
+        "Dropdown Menu",
+        "Popover"
+      ],
+      "page_types": [
+        "Dashboard",
+        "Home Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/7a9287ba-8552-4c79-b28e-7747ae8f3411",
+      "content": {
+        "description": "The screen shows a modern productivity/dashboard-style workspace with a strong AI-assisted content creation focus. The overall style is minimal, polished, and premium, with a soft off-white base combined with vibrant gradient lighting across the main canvas. The visual identity is defined by large blurred gradient washes in blue, pink, purple, and red, creating a dreamy atmospheric background while..."
+      },
+      "flows": [
+        {
+          "id": 12304,
+          "name": "Searching for items",
+          "step": 3,
+          "total_steps": 3
+        },
+        {
+          "id": 12305,
+          "name": "Attaching images to AI chat",
+          "step": 3,
+          "total_steps": 6
+        },
+        {
+          "id": 12307,
+          "name": "Asking AI to create landing page",
+          "step": 8,
+          "total_steps": 20
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/byborre.com/desktop/d9b57055-4cb5-490a-8e88-15fe0590e9ba_thumb.jpg",
+      "hex_colors": [
+        "0x3D4C5E",
+        "0xB0998F",
+        "0x9A6163",
+        "0xE29755",
+        "0xF3F3EC"
+      ],
+      "uuid": "8d118a32-acc0-42ff-926d-a97dbfbaa6e6",
+      "page_url": "https://create.byborre.com/?page=1",
+      "site": {
+        "id": 455,
+        "domain": "byborre.com",
+        "description": "Create a textile from scratch",
+        "name": "BYBORRE®",
+        "background_url": "https://images.refero.design/backgrounds/byborre.com/ee3e90dc-cc86-4de2-b8d5-a66b3e971183.jpg",
+        "refero_url": "https://refero.design/websites/455",
+        "categories": [
+          "Home & Decor"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/byborre.com/c2c05e93-a1bf-41a9-8cb8-1c24277ba928.jpg",
+        "background_color": "d3a417"
+      },
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Badge",
+        "Navigation Bar",
+        "Icon",
+        "Thumbnail"
+      ],
+      "page_types": [
+        "Content Management Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/8d118a32-acc0-42ff-926d-a97dbfbaa6e6",
+      "content": {
+        "description": "The screen is a textile design selection interface titled \"Welcome to BYBORRE Create™\". It invites users to create bespoke textiles by starting from a blank canvas or choosing from curated pattern templates. The background is a soft beige (#f6f1e9) solid color that provides a neutral tone. At the top left, the brand logo \"BYBORRE\" is black, with navigation links: \"Textile Room\" and \"Design your tex..."
+      },
+      "flows": [
+        {
+          "id": 7545,
+          "name": "Signing up",
+          "step": 9,
+          "total_steps": 8
+        },
+        {
+          "id": 7546,
+          "name": "Creating new custom textile sample",
+          "step": 1,
+          "total_steps": 35
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/canva.com/desktop/9d689166-0245-4c1b-8d37-503ada9ee869_thumb.jpg",
+      "hex_colors": [
+        "0x0F1126",
+        "0x9B335C",
+        "0x2EC7D0",
+        "0x2D4279",
+        "0x2B64B2"
+      ],
+      "uuid": "b474238b-4ec1-4c94-a063-3d9d5d544d52",
+      "page_url": "https://www.canva.com/ai/thread/9f32b722-4e2e-4b08-b123-f7584472b00d",
+      "site": {
+        "id": 94,
+        "domain": "canva.com",
+        "description": "Visual Suite for Everyone",
+        "name": "Canva",
+        "background_url": "https://images.refero.design/backgrounds/canva.com/9a60dd30-3e21-4b44-84f4-81ef06b169ce.jpg",
+        "refero_url": "https://refero.design/websites/94",
+        "categories": [
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/canva.com/fc31bac3-9257-40b9-aa05-3347deab4134.jpg",
+        "background_color": "24bcbc"
+      },
+      "ux_patterns": [
+        "Feedback & Survey"
+      ],
+      "ui_elements": [
+        "Tooltip"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/b474238b-4ec1-4c94-a063-3d9d5d544d52",
+      "content": {
+        "description": "This interface features a clean, modern design with a predominantly light purple and white color palette. The background is a smooth gradient transitioning from a very light purple to white. A vertical left sidebar with a lavender background hosts navigation icons and labels, including hamburger menu, Create (purple round button with plus), Home, Projects, Templates, Brand, Canva AI (colorful circu..."
+      },
+      "flows": [
+        {
+          "id": 8058,
+          "name": "Submitting feedback on AI response",
+          "step": 2,
+          "total_steps": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 448,
+    "total_pages": 45
+  },
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/d3da2d64-0791-4edc-9c8a-7e626fed161b_thumb.jpg",
+      "hex_colors": [
+        "0x2B2324",
+        "0x8D6953",
+        "0x0E9AF9",
+        "0x9C9B9B",
+        "0xFAFAFA"
+      ],
+      "uuid": "2e0d5f12-305f-4ba5-a23d-89cde11a2aa8",
+      "page_url": "https://www.figma.com/design/oq8FIP5Uul8bhQD235lcmM/Untitled?node-id=0-1&p=f&t=3hZOF4X8g9pOJDML-0",
+      "site": {
+        "id": 206,
+        "domain": "figma.com",
+        "description": "The Collaborative Interface Design Tool",
+        "name": "Figma ",
+        "background_url": "https://images.refero.design/backgrounds/figma.com/d7090ac7-cd09-48ec-9ea4-c0f9acf820fe.jpg",
+        "refero_url": "https://refero.design/websites/206",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/figma.com/0b4d9da2-dab3-48a0-b315-cd78a61ef0ca.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Dropdown",
+        "Dropdown Menu"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/2e0d5f12-305f-4ba5-a23d-89cde11a2aa8",
+      "content": {
+        "description": "The screen represents a design tool interface showing a design system's review card component popup over a blurred web page mockup. The popup window is centered and white with a subtle gray border and slight drop shadow, providing contrast from the blurred background behind. The popup's top area has a star rating system with five outline stars horizontally, an information icon 'i' next to the headi..."
+      },
+      "flows": [
+        {
+          "id": 5040,
+          "name": "Inserting review card into page",
+          "step": 5,
+          "total_steps": 7
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/aecbf0c3-31ca-4059-907f-0d285aae3b28_thumb.jpg",
+      "hex_colors": [
+        "0x636464",
+        "0x050505",
+        "0xFBFCFB",
+        "0xD2517A",
+        "0x9199A2"
+      ],
+      "uuid": "8798819d-292d-4753-879a-4bb4e7e68bb5",
+      "page_url": "https://www.figma.com/login#",
+      "site": {
+        "id": 206,
+        "domain": "figma.com",
+        "description": "The Collaborative Interface Design Tool",
+        "name": "Figma ",
+        "background_url": "https://images.refero.design/backgrounds/figma.com/d7090ac7-cd09-48ec-9ea4-c0f9acf820fe.jpg",
+        "refero_url": "https://refero.design/websites/206",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/figma.com/0b4d9da2-dab3-48a0-b315-cd78a61ef0ca.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Button",
+        "Text Field"
+      ],
+      "page_types": [
+        "Log In"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/8798819d-292d-4753-879a-4bb4e7e68bb5",
+      "content": {
+        "description": "The screen is a minimalist single login interface for Figma using SAML SSO. It has a plain white background with the Figma logo placed in the upper left corner. Centered vertically and horizontally is a block with text and form elements. The header text \"Log in to Figma with SAML SSO\" is centered and uses a simple sans-serif font in black, sized large enough to be clearly visible. Below is an input..."
+      },
+      "flows": []
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/relume.io/desktop/9595c209-afc0-40cd-a1cc-830f2fc34cae_thumb.jpg",
+      "hex_colors": [
+        "0x252525",
+        "0xFBFBFB",
+        "0xB4B4B4",
+        "0xE3E3DE",
+        "0x848484"
+      ],
+      "uuid": "93138aa0-f7f4-4cfc-b1b8-fed83359162e",
+      "page_url": "https://www.relume.io/components?elements=buttons%7Cmodal&layout=text-align-left%7C1-column",
+      "site": {
+        "id": 442,
+        "domain": "relume.io",
+        "description": "Websites designed & built faster with AI",
+        "name": "Relume",
+        "background_url": "https://images.refero.design/backgrounds/relume.io/5bbb9f6c-5b3b-4a4e-97be-ed9f697cf14d.jpg",
+        "refero_url": "https://refero.design/websites/442",
+        "categories": [
+          "AI Tool",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/relume.io/7253da19-d1a9-4911-8eb4-2eaa9d12f779.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [
+        "Templates"
+      ],
+      "ui_elements": [
+        "Button",
+        "Icon",
+        "Product Image",
+        "Side Sheet"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/93138aa0-f7f4-4cfc-b1b8-fed83359162e",
+      "content": {
+        "description": "The screen displays a modal filter popup in the center of the interface with two filter categories labeled 'Filter One' and 'Filter Two'. Each filter category contains multiple checkbox options. 'Filter One' includes options labeled 'Option One' through 'Option Five' with checkboxes to select, and an inline 'Clear' link to reset selections in that category. Similarly, 'Filter Two' has checkboxes wi..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/figma.com/desktop/83277799-49da-4a3e-aa39-23bbeaba9016_thumb.jpg",
+      "hex_colors": [
+        "0x040404",
+        "0xFBFCFB",
+        "0xD2517A",
+        "0x2FB5BB",
+        "0x9199A0"
+      ],
+      "uuid": "89eda468-9ccd-4076-af8b-1d843ab6477c",
+      "page_url": "https://www.figma.com/login#",
+      "site": {
+        "id": 206,
+        "domain": "figma.com",
+        "description": "The Collaborative Interface Design Tool",
+        "name": "Figma ",
+        "background_url": "https://images.refero.design/backgrounds/figma.com/d7090ac7-cd09-48ec-9ea4-c0f9acf820fe.jpg",
+        "refero_url": "https://refero.design/websites/206",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/figma.com/0b4d9da2-dab3-48a0-b315-cd78a61ef0ca.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Button",
+        "Text Field"
+      ],
+      "page_types": [
+        "Log In"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/89eda468-9ccd-4076-af8b-1d843ab6477c",
+      "content": {
+        "description": "The screen shows a clean and minimalistic login interface for Figma with SAML SSO. The layout is centered with a white background. At the top-left corner, there is a colorful, multi-circle Figma logo. The main section includes a heading 'Log in to Figma with SAML SSO' in black, centered text. Below the heading is an email input field with a light gray background and placeholder text in uppercase bl..."
+      },
+      "flows": []
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/understory.io/desktop/d4d5bcb0-a016-402a-86d2-65a1b82783c6_thumb.jpg",
+      "hex_colors": [
+        "0x7A7B7A",
+        "0xFBFBFB",
+        "0x0D130F",
+        "0x646F46",
+        "0x5C5C5C"
+      ],
+      "uuid": "d4d5bcb0-a016-402a-86d2-65a1b82783c6",
+      "page_url": "https://backoffice.understory.io/home",
+      "site": {
+        "id": 921,
+        "domain": "understory.io",
+        "description": "Powering Experience Makers",
+        "name": "Understory ",
+        "background_url": "https://images.refero.design/backgrounds/understory.io/3c4578b3-f9fc-4a6e-89e4-4d027a822da3.jpg",
+        "refero_url": "https://refero.design/websites/921",
+        "categories": [
+          "Business",
+          "Scheduling Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/understory.io/d6fb681b-7bd4-4d17-a59d-9ae4a1910aea.jpg",
+        "background_color": "f0fb56"
+      },
+      "ux_patterns": [
+        "Empty State",
+        "Searching"
+      ],
+      "ui_elements": [
+        "Dialog & Modal Window",
+        "Search Field",
+        "Popover"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/d4d5bcb0-a016-402a-86d2-65a1b82783c6",
+      "content": {
+        "description": "The screen shows a desktop admin/dashboard interface with a centered search modal overlaying and dimming the underlying home dashboard. The overall visual style is minimal, neutral, and contemporary, with soft shadows, rounded corners, and a restrained palette. The base background is a warm light gray overlay covering the whole page; the modal itself is a large white rounded rectangle with a subtle..."
+      },
+      "flows": [
+        {
+          "id": 12729,
+          "name": "Searching through workspace",
+          "step": 3,
+          "total_steps": 4
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/understory.io/desktop/0e25d01a-ed6a-4846-b6a8-c4882f13783b_thumb.jpg",
+      "hex_colors": [
+        "0x7A7B7A",
+        "0xFBFBFB",
+        "0x0D130F",
+        "0x626D47",
+        "0x5C5C5C"
+      ],
+      "uuid": "0e25d01a-ed6a-4846-b6a8-c4882f13783b",
+      "page_url": "https://backoffice.understory.io/home",
+      "site": {
+        "id": 921,
+        "domain": "understory.io",
+        "description": "Powering Experience Makers",
+        "name": "Understory ",
+        "background_url": "https://images.refero.design/backgrounds/understory.io/3c4578b3-f9fc-4a6e-89e4-4d027a822da3.jpg",
+        "refero_url": "https://refero.design/websites/921",
+        "categories": [
+          "Business",
+          "Scheduling Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/understory.io/d6fb681b-7bd4-4d17-a59d-9ae4a1910aea.jpg",
+        "background_color": "f0fb56"
+      },
+      "ux_patterns": [
+        "Searching"
+      ],
+      "ui_elements": [
+        "Dialog & Modal Window",
+        "Search Field",
+        "Popover"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/0e25d01a-ed6a-4846-b6a8-c4882f13783b",
+      "content": {
+        "description": "The screen shows a desktop admin/dashboard interface with a centered modal overlay opened on top of a dimmed home dashboard. The overall visual style is minimal, clean, and modern, with soft shadows, rounded corners, muted neutrals, and a restrained olive accent. The background page is blurred/dimmed with a semi-transparent charcoal-gray overlay (approx. rgba(0,0,0,0.45) to rgba(0,0,0,0.55)), reduc..."
+      },
+      "flows": [
+        {
+          "id": 12729,
+          "name": "Searching through workspace",
+          "step": 2,
+          "total_steps": 4
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/aesop.com/desktop/ed62fb03-4532-4116-928f-871d6d6d0f22_thumb.jpg",
+      "hex_colors": [
+        "0xFBFBF3",
+        "0x77776F",
+        "0x333332",
+        "0xA8A8A1",
+        "0xBDBCB3"
+      ],
+      "uuid": "9621e424-7da8-4038-927e-5a3719d84b19",
+      "page_url": "https://www.aesop.com/fr/en/checkout/",
+      "site": {
+        "id": 621,
+        "domain": "aesop.com",
+        "description": "Formulations for Skin, Hair & Body",
+        "name": "Aesop ",
+        "background_url": "https://images.refero.design/backgrounds/aesop.com/834f82e6-6c36-446b-9ea8-3091fd88abbe.jpg",
+        "refero_url": "https://refero.design/websites/621",
+        "categories": [
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/aesop.com/c14c8766-3f3e-41dd-acd9-bf89917c073b.jpg",
+        "background_color": "696969"
+      },
+      "ux_patterns": [
+        "Edit"
+      ],
+      "ui_elements": [
+        "List",
+        "Checkbox & Radio",
+        "Dialog & Modal Window",
+        "Popover"
+      ],
+      "page_types": [
+        "Checkout"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/9621e424-7da8-4038-927e-5a3719d84b19",
+      "content": {
+        "description": "The screen shows a centered modal dialog on a blurred background. The modal has a light cream (#f9f7ec) solid background with black text and a subtle shadow for elevation. At the top left, there is a heading with the text \"Complimentary samples\" in a simple sans-serif font, approximately 16px, normal weight, left aligned. In the top right corner, a small black 'X' icon functions as the close button..."
+      },
+      "flows": [
+        {
+          "id": 5144,
+          "name": "Checking out",
+          "step": 6,
+          "total_steps": 18
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/relume.io/desktop/f35392df-8a78-4340-83d8-a91ad42467c7_thumb.jpg",
+      "hex_colors": [
+        "0xBCBCBC",
+        "0xF3ECEC",
+        "0x161515",
+        "0x5B50F6",
+        "0x696867"
+      ],
+      "uuid": "54aec1ea-695b-42b3-badd-08c3e6f583aa",
+      "page_url": "https://www.relume.io/components?elements=buttons%7Cmodal&layout=text-align-left%7C1-column",
+      "site": {
+        "id": 442,
+        "domain": "relume.io",
+        "description": "Websites designed & built faster with AI",
+        "name": "Relume",
+        "background_url": "https://images.refero.design/backgrounds/relume.io/5bbb9f6c-5b3b-4a4e-97be-ed9f697cf14d.jpg",
+        "refero_url": "https://refero.design/websites/442",
+        "categories": [
+          "AI Tool",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/relume.io/7253da19-d1a9-4911-8eb4-2eaa9d12f779.jpg",
+        "background_color": "8383ec"
+      },
+      "ux_patterns": [
+        "Filter & Sorting",
+        "Templates"
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon",
+        "Product Image"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/54aec1ea-695b-42b3-badd-08c3e6f583aa",
+      "content": {
+        "description": "The screen shows a user interface for browsing and managing UI components in a design system or component library platform. The overall style is clean, modern, and minimalistic with a light beige background (#f5f2f0 or similar). Typography uses a sans-serif font, medium weight, size approx 14-16px for body text and 16-18px for headings, left aligned with ample spacing for readability. The top left ..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/aesop.com/desktop/6a2e4632-4068-4277-9161-58c6ee4f99b5_thumb.jpg",
+      "hex_colors": [
+        "0xFBFBF3",
+        "0x77776F",
+        "0x333332",
+        "0xA8A8A1",
+        "0xBDBCB3"
+      ],
+      "uuid": "af322534-1ccd-46b4-a3ab-be64ac4394d9",
+      "page_url": "https://www.aesop.com/fr/en/checkout/",
+      "site": {
+        "id": 621,
+        "domain": "aesop.com",
+        "description": "Formulations for Skin, Hair & Body",
+        "name": "Aesop ",
+        "background_url": "https://images.refero.design/backgrounds/aesop.com/834f82e6-6c36-446b-9ea8-3091fd88abbe.jpg",
+        "refero_url": "https://refero.design/websites/621",
+        "categories": [
+          "Marketplace"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/aesop.com/c14c8766-3f3e-41dd-acd9-bf89917c073b.jpg",
+        "background_color": "696969"
+      },
+      "ux_patterns": [
+        "Edit"
+      ],
+      "ui_elements": [
+        "List",
+        "Checkbox & Radio",
+        "Dialog & Modal Window",
+        "Popover"
+      ],
+      "page_types": [
+        "Checkout"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/af322534-1ccd-46b4-a3ab-be64ac4394d9",
+      "content": {
+        "description": "The screen displays a centered modal window with a light cream background (#F9F6EC or similar) over a darkened, blurred page backdrop. The modal is rectangular, approximately 380px wide and vertically sized to contain three radio button options and a button. The heading text at the top reads \"Complimentary samples\" in a sans-serif font, medium weight, black or dark gray color, sized around 18-20px,..."
+      },
+      "flows": [
+        {
+          "id": 5144,
+          "name": "Checking out",
+          "step": 5,
+          "total_steps": 18
+        }
+      ]
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/getmocha.com/desktop/27b95e45-74e4-4a33-89b5-919c6cee4487_thumb.jpg",
+      "hex_colors": [
+        "0x5C6571",
+        "0x95949A",
+        "0x988B67",
+        "0x84705E",
+        "0xD3AEA6"
+      ],
+      "uuid": "27b95e45-74e4-4a33-89b5-919c6cee4487",
+      "page_url": "https://getmocha.com/apps/019dd996-7b6a-7ed9-8172-4cc2b8243317",
+      "site": {
+        "id": 882,
+        "domain": "getmocha.com",
+        "description": "AI-Powered No‑Code App Builder for Entrepreneurs",
+        "name": "Mocha",
+        "background_url": "https://images.refero.design/backgrounds/getmocha.com/06c72be9-4aa6-4a74-9dae-7ca752ea59d4.jpg",
+        "refero_url": "https://refero.design/websites/882",
+        "categories": [
+          "AI Tool",
+          "Development Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/getmocha.com/e03de331-c3a9-464e-b61e-3622b9a919e1.jpg",
+        "background_color": "58c035"
+      },
+      "ux_patterns": [
+        "Timeline & History",
+        "AI Assistant"
+      ],
+      "ui_elements": [
+        "Accordion & Collapse",
+        "Cards & Tiles",
+        "Media Gallery",
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Text Field",
+        "Navigation Bar",
+        "Sidebar & Drawer",
+        "Icon",
+        "Thumbnail",
+        "Code Snippet"
+      ],
+      "page_types": [
+        "Content Management Page"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/27b95e45-74e4-4a33-89b5-919c6cee4487",
+      "content": {
+        "description": "Overall style: A clean, minimal content-management / editor interface with a neutral, slightly warm color palette. The visual language is modern, low-contrast, and utilitarian: lots of white space, subtle dividers, rounded image thumbnails, and small system icons. Use a geometric sans font (Inter / system-ui / Helvetica Neue) with clear hierarchy: large bold page title, smaller muted subtitle, medi..."
+      }
+    }
+  ]
+}

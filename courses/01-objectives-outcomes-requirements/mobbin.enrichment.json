@@ -1,0 +1,6 @@
+{
+  "references": [
+    {"id":"mobbin:4b041654-20d2-49dd-8779-2f45211103f7","source":"mobbin","app":"Udemy","title":"Requirements or prerequisites authoring","kind":"screen","url":"https://mobbin.com/screens/4b041654-20d2-49dd-8779-2f45211103f7","images":["https://mobbin.com/api/mcp/short/x8QGKpPI"],"question":"Q3","take":"Udemy’s Intended learners step visibly asks authors what requirements or prerequisites learners should have before taking the course, with a dedicated response area.","counter_example":false,"selected":false,"crop":""},
+    {"id":"mobbin:3476c06a-c7b3-49ac-bc99-6875a0563ec6","source":"mobbin","app":"Udemy","title":"Intended learners guidance","kind":"screen","url":"https://mobbin.com/screens/3476c06a-c7b3-49ac-bc99-6875a0563ec6","images":["https://mobbin.com/api/mcp/short/75QVQtMM"],"question":"Q5","take":"Udemy’s Intended learners step states that at least four learning objectives or outcomes are required, shows per-field character counts, and provides a prerequisite example placeholder: “No programming experience needed. You will learn everything you need to know.”","counter_example":false,"selected":false,"crop":""}
+  ]
+}

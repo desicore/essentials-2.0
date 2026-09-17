@@ -1,0 +1,269 @@
+{
+  "kept": 59,
+  "dropped": [
+    {
+      "id": "refero:c1012b72-e463-47a1-ae55-2a61e5bf1451",
+      "app": "Acuity Scheduling",
+      "question": "Q1",
+      "title": "Scheduling setup screen with sidebar navigation separate from any course/class content area"
+    },
+    {
+      "id": "mobbin:ed12dd5d-72a1-439d-b76b-d21e39938136",
+      "app": "Apple Fitness",
+      "question": "Q1",
+      "title": "Weekly schedule view with Add Activity buttons and existing workouts listed"
+    },
+    {
+      "id": "mobbin:db93ea49-d9f9-4b32-9758-0e6cadbb3ed7",
+      "app": "Circle",
+      "question": "Q1",
+      "title": "Course lessons tab showing sections with add section button and lesson list"
+    },
+    {
+      "id": "mobbin:06a96cad-cd59-4538-b234-c770ed5906a6",
+      "app": "Confluence",
+      "question": "Q1",
+      "title": "Create event modal with event type, dates, reminders, and repeat settings"
+    },
+    {
+      "id": "mobbin:e0b5266d-41ba-42a3-a6ed-d6cd9c7d490e",
+      "app": "Eventbrite",
+      "question": "Q1",
+      "title": "Event type selector with date/time, location, and single vs recurring event choice"
+    },
+    {
+      "id": "mobbin:02427d88-0254-4726-b3ff-b8c2ad39beed",
+      "app": "Formula 1®",
+      "question": "Q1",
+      "title": "Schedule view with sessions listed by date and Add to Calendar button"
+    },
+    {
+      "id": "mobbin:80b08c96-c384-47f2-adeb-f8c244457c16",
+      "app": "Future Pro",
+      "question": "Q1",
+      "title": "Edit schedule view with Add Workout buttons for each day of the week"
+    },
+    {
+      "id": "mobbin:2491d855-da01-47af-bb7e-aff0504f2f93",
+      "app": "Lyssna",
+      "question": "Q1",
+      "title": "Upcoming sessions list showing scheduled events with attendee and recording details"
+    },
+    {
+      "id": "mobbin:5416376b-61bf-4a1e-8d9a-182c52faaece",
+      "app": "Microsoft Teams",
+      "question": "Q1",
+      "title": "Calendar view showing meetings by date with Join button for quick access"
+    },
+    {
+      "id": "mobbin:7b97add8-89e0-4485-91be-f2dc7278ec92",
+      "app": "Proton",
+      "question": "Q1",
+      "title": "Event creation modal with attendees, date/time, location, and recurrence toggle"
+    },
+    {
+      "id": "mobbin:a4a97f56-2713-4b64-af75-fe0a9c5509e8",
+      "app": "Riverside",
+      "question": "Q1",
+      "title": "Event creation modal with date, time, audience selector and invite options"
+    },
+    {
+      "id": "mobbin:f636ee5c-a359-44a0-b2b0-61230c65fc1f",
+      "app": "Runna",
+      "question": "Q1",
+      "title": "Training calendar with date picker and Add button to add sessions to specific days"
+    },
+    {
+      "id": "mobbin:757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "app": "Teachable",
+      "question": "Q1",
+      "title": "Publishing a section - course content management with publish state"
+    },
+    {
+      "id": "mobbin:a22e116a-063a-460c-bbf0-a097bf484c8b",
+      "app": "Time2book",
+      "question": "Q1",
+      "title": "Schedule page with add-to-schedule form showing service and timing options"
+    },
+    {
+      "id": "mobbin:045c215d-6e08-432c-9bb6-3ddd4495fc69",
+      "app": "Udemy",
+      "question": "Q1",
+      "title": "Curriculum view showing sections and lectures with course structure"
+    },
+    {
+      "id": "mobbin:c26a7a90-de7a-4ded-a465-61b40c294844",
+      "app": "Waking Up",
+      "question": "Q1",
+      "title": "Sessions tab showing course lessons with video durations and instructor"
+    },
+    {
+      "id": "mobbin:a00bad49-98ac-40d1-b52f-8ab62e33628e",
+      "app": "Whop",
+      "question": "Q1",
+      "title": "Calendar bookings interface with day/time grid and add booking ability"
+    },
+    {
+      "id": "mobbin:79f7dc74-3511-48f8-bd05-2b2596d0b08d",
+      "app": "Clockwise",
+      "question": "Q2",
+      "title": "Flexible meeting side panel with attendees, description, and meeting settings"
+    },
+    {
+      "id": "mobbin:eea350ea-ff82-45c8-8b0b-6c088c8e058f",
+      "app": "Equinox+",
+      "question": "Q2",
+      "title": "Class details with instructor name, duration, and on-demand class listing"
+    },
+    {
+      "id": "mobbin:f143273e-b1c7-4b6b-a605-3dfb81d472f0",
+      "app": "Hootsuite",
+      "question": "Q2",
+      "title": "Scheduled post details showing linked LinkedIn profile and post content"
+    },
+    {
+      "id": "mobbin:4788b995-4218-4049-a47f-9c0a38193da8",
+      "app": "Lightfield",
+      "question": "Q2",
+      "title": "Meeting details showing participants list and meeting metadata in side panel"
+    },
+    {
+      "id": "mobbin:970d2e88-2b54-488d-b1d9-655f06b5f4af",
+      "app": "MasterClass",
+      "question": "Q2",
+      "title": "Lesson display showing lesson title linked to course/coach and lesson progression"
+    },
+    {
+      "id": "mobbin:92592571-9e49-418b-9107-5c76dec5bfff",
+      "app": "Open",
+      "question": "Q2",
+      "title": "Class filter panel with type selector (Tone, Restore, Meditate) and teacher/instructor list"
+    },
+    {
+      "id": "mobbin:3c2ac842-7d3d-46c7-b950-58c5466fad45",
+      "app": "Time2book",
+      "question": "Q2",
+      "title": "Booking details side panel with service, location, date, and client information"
+    },
+    {
+      "id": "mobbin:8d05e3a8-10fd-44b4-82c2-acf6285474ae",
+      "app": "Vimeo",
+      "question": "Q2",
+      "title": "Creating an event - 14-step flow with schedule, description, and event details"
+    },
+    {
+      "id": "mobbin:db66e97a-c08e-48fa-9665-8b4fe611eadc",
+      "app": "Whop",
+      "question": "Q2",
+      "title": "Creating a course - 13-step flow with lesson and content creation"
+    },
+    {
+      "id": "mobbin:d40a32c1-9f73-433a-95df-9251906b262b",
+      "app": "Confluence",
+      "question": "Q3",
+      "title": "Weekly event creation with repeat on multiple days and end date configuration"
+    },
+    {
+      "id": "mobbin:57b4fabe-1140-4dca-bdd3-eac72c999761",
+      "app": "Skiff",
+      "question": "Q3",
+      "title": "Customize recurring event dialog with repeat rules, weekday selection, and end date options"
+    },
+    {
+      "id": "mobbin:c91a1352-18d5-48bc-8511-f33114905fe5",
+      "app": "Skiff",
+      "question": "Q3",
+      "title": "Customize recurring event with scope selection for this event or all in series"
+    },
+    {
+      "id": "refero:335bcf72-a662-4f55-9721-84117891f55e",
+      "app": "Acuity Scheduling",
+      "question": "Q4",
+      "title": "New Type of Class form for defining a class/appointment type before scheduling it"
+    },
+    {
+      "id": "mobbin:33e2950f-e537-41c3-b7a1-e373c040b835",
+      "app": "Apollo",
+      "question": "Q4",
+      "title": "Flow: Booking a meeting with date/time availability display and confirmation"
+    },
+    {
+      "id": "mobbin:964e2ca5-51e6-4245-9dea-d8fe41226b50",
+      "app": "Calendly",
+      "question": "Q4",
+      "title": "Flow: Booking a calendar event with availability display and time slot selection"
+    },
+    {
+      "id": "mobbin:1e66447d-bf3b-440f-ba9d-03bc0a55cb7e",
+      "app": "Motion",
+      "question": "Q4",
+      "title": "Flow: Booking a meeting with availability settings and conflict-free scheduling"
+    },
+    {
+      "id": "mobbin:cd94d184-9ae4-43cf-b4ee-c3eb85f4ba77",
+      "app": "Cal.com",
+      "question": "Q5",
+      "title": "Event booking with time zone, duration, and availability settings"
+    },
+    {
+      "id": "mobbin:99d395c6-cf5b-4789-8aaa-aa3d6b8f6319",
+      "app": "Eventbrite",
+      "question": "Q5",
+      "title": "Event ticket pricing and capacity display (iOS)"
+    },
+    {
+      "id": "mobbin:1929a1ec-78c9-465d-995d-552bd9b92f9b",
+      "app": "Preply",
+      "question": "Q5",
+      "title": "Class schedule with time zone and availability grid"
+    },
+    {
+      "id": "refero:ac852836-7888-46c4-9db9-cd40e0b117e3",
+      "app": "time2book",
+      "question": "Q5",
+      "title": "Schedule management interface for a studio showing classes across a calendar grid"
+    },
+    {
+      "id": "mobbin:f675192c-908d-4f15-b19c-5cd86b3b9990",
+      "app": "Zoom",
+      "question": "Q5",
+      "title": "Mentoring session scheduling with availability and role settings"
+    },
+    {
+      "id": "mobbin:37590a83-31a5-4ad7-b640-d995d34cbe1d",
+      "app": "Apollo",
+      "question": "Q6",
+      "title": "Meeting availability settings with time zone"
+    },
+    {
+      "id": "refero:6509f1bf-b86b-4fa9-b311-e7877f057df4",
+      "app": "Calendly",
+      "question": "Q6",
+      "title": "New one-off meeting form with date/time fields in a modal"
+    },
+    {
+      "id": "mobbin:b9ec6cfd-1080-40c7-89cf-469724cb95cb",
+      "app": "Jobber",
+      "question": "Q6",
+      "title": "Arrival window and scheduling settings (iOS)"
+    },
+    {
+      "id": "refero:41e81b79-a016-4ac1-ad64-c714dd3e403c",
+      "app": "Microsoft Teams",
+      "question": "Q6",
+      "title": "Event creation interface with dedicated date/time form fields"
+    },
+    {
+      "id": "mobbin:93fa14b4-02a2-4421-8b94-05a9dc56d34c",
+      "app": "Todoist",
+      "question": "Q6",
+      "title": "Task scheduling with time and time zone (iOS)"
+    },
+    {
+      "id": "mobbin:2e1feb4d-ac08-429b-8858-4e28c18258c8",
+      "app": "Zoom",
+      "question": "Q6",
+      "title": "Scheduling a meeting with attendees, time zone and duration"
+    }
+  ]
+}

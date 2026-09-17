@@ -1,0 +1,239 @@
+{
+  "references": [
+    {
+      "id": "mobbin:208932bc-b2f9-4671-ac57-67868cf2d47e",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom video player",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/208932bc-b2f9-4671-ac57-67868cf2d47e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5r9d7WDQ"
+      ],
+      "question": "Q3",
+      "take": "Loom playback references pair the video surface with transcript and collaboration context for time-based review.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a0e413d9-735c-4c11-9717-3de66d3eb960",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Vimeo video player",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a0e413d9-735c-4c11-9717-3de66d3eb960",
+      "images": [
+        "https://mobbin.com/api/mcp/short/emIsHqq8"
+      ],
+      "question": "Q3",
+      "take": "Vimeo playback reference shows a focused player page suitable for chapter and transcript adjacency.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:2e68b8da-81a8-4e1d-bdb8-48dec8f6e49b",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom playback collaboration",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2e68b8da-81a8-4e1d-bdb8-48dec8f6e49b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/m6H3nJVU"
+      ],
+      "question": "Q3",
+      "take": "Loom provides a second playback state emphasizing comments or contextual review around the recording.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:de9410ce-93f4-435c-b9c5-b15fde660ba3",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Vimeo playback detail",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/de9410ce-93f4-435c-b9c5-b15fde660ba3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TjrV3sQX"
+      ],
+      "question": "Q3",
+      "take": "Vimeo’s detail view is a useful reference for keeping metadata and playback controls near the video.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9c7d6717-30ad-411d-96a1-465961438578",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Loom transcript context",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/9c7d6717-30ad-411d-96a1-465961438578",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sNoMpHUy"
+      ],
+      "question": "Q3",
+      "take": "Loom transcript-oriented state suggests timestamped text can sit alongside the player for scan and return navigation.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:bd482934-e96c-4560-967f-2509d3c341d8",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Vimeo comments context",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/bd482934-e96c-4560-967f-2509d3c341d8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hUjw0agQ"
+      ],
+      "question": "Q3",
+      "take": "Vimeo’s collaboration state is relevant for comments anchored to playback review.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Circle course analytics",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3a9baed1-2367-4a3b-9c61-6f0c792fb0ee",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Xfl7vPUp"
+      ],
+      "question": "Q4",
+      "take": "Circle analytics uses a course-level overview as the entry point to learner performance reporting.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Kajabi course report",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/1227af09-4d68-457a-a7ea-a5596e2c3e4f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FFsrPU2c"
+      ],
+      "question": "Q4",
+      "take": "Kajabi provides an education-specific reporting precedent for course progress and learner outcomes.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:87f9d574-30e4-4053-80c3-4d4cc189ca69",
+      "source": "mobbin",
+      "app": "Uxcel",
+      "title": "Uxcel learner analytics",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/87f9d574-30e4-4053-80c3-4d4cc189ca69",
+      "images": [
+        "https://mobbin.com/api/mcp/short/NDXNS09c"
+      ],
+      "question": "Q4",
+      "take": "Uxcel demonstrates a learner-oriented analytics view that can inform drill-down structure.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:00828d09-252c-4d02-92a1-58966ebbe19d",
+      "source": "mobbin",
+      "app": "SchoolAI",
+      "title": "SchoolAI report overview",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/00828d09-252c-4d02-92a1-58966ebbe19d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Rq5TBjY9"
+      ],
+      "question": "Q4",
+      "take": "SchoolAI offers a direct education reporting reference with overview information suited to instructor review.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:38ec1cce-bb99-46f2-af15-8ce76fb75d46",
+      "source": "mobbin",
+      "app": "Fireflies",
+      "title": "Adding a comment",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/38ec1cce-bb99-46f2-af15-8ce76fb75d46",
+      "images": [
+        "https://mobbin.com/api/mcp/short/nxjYXqk5",
+        "https://mobbin.com/api/mcp/short/yMPbo1Rz",
+        "https://mobbin.com/api/mcp/short/a2qIU3Cz",
+        "https://mobbin.com/api/mcp/short/OLtIwD3O"
+      ],
+      "question": "Q3",
+      "take": "Fireflies’ ordered comment flow demonstrates a review journey that starts from a recording and ends with contextual discussion.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7",
+      "source": "mobbin",
+      "app": "Grain",
+      "title": "Adding a comment",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/62d0f6ef-1c16-452c-8766-b3133d5bc0c7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KP8DhfRQ",
+        "https://mobbin.com/api/mcp/short/xrVHMiWs",
+        "https://mobbin.com/api/mcp/short/8I0S2K7t",
+        "https://mobbin.com/api/mcp/short/9qqux6xm",
+        "https://mobbin.com/api/mcp/short/PozgnYye"
+      ],
+      "question": "Q3",
+      "take": "Grain’s five-step comment flow is a direct precedent for timestamped recording collaboration.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:82be552c-140b-4a19-95bb-037c320ca775",
+      "source": "mobbin",
+      "app": "SchoolAI",
+      "title": "Downloading a report",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/82be552c-140b-4a19-95bb-037c320ca775",
+      "images": [
+        "https://mobbin.com/api/mcp/short/eTkspxME",
+        "https://mobbin.com/api/mcp/short/WIUxYSVC",
+        "https://mobbin.com/api/mcp/short/6U6aSt9e"
+      ],
+      "question": "Q4",
+      "take": "SchoolAI’s ordered report download flow shows export as an explicit endpoint after report review.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:464a297d-2355-443d-8123-d61f80c4a72c",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Exporting students",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/464a297d-2355-443d-8123-d61f80c4a72c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/RArWBhnR",
+        "https://mobbin.com/api/mcp/short/GMOXvFGS",
+        "https://mobbin.com/api/mcp/short/ugpGWzdU"
+      ],
+      "question": "Q4",
+      "take": "Circle’s export flow provides a concrete learner-data export precedent adjacent to course reporting.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Initial curation: exclude adjacent sales, travel, developer and transcription products to preserve course relevance and 12-product ceiling. Per-source files retain fetch evidence. Merge header restored from stub because installed shared script has a hardcoded legacy header. Final merge may be rerun when Q3/Q4 supplementary searches finish.
+Excluded products: Aboard, Apollo GraphQL, Attio, Dub, Duolingo, ElevenLabs, Flask.do, TravelPerk
+Final pre-analysis merge: 40 references, 12 products, 65 images; removed Fireflies to cap breadth while retaining Grain timestamp-comment flow. All final asset fetches succeeded. Shared builder requires --assets assets/manifest.json rather than directory.
+
+Post-analysis curation: removed both Teachable references (roster/certificate administration, not recording permissions or learner result views) and Google Classroom marketing page. Retained Coursera planning screen with corrected title/take. Final 37 references, 10 products. Q2/Q5/Q6 notes preserve audit trail for excluded sources.

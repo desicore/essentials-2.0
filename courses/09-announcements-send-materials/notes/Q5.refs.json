@@ -1,0 +1,101 @@
+{
+  "question": "Q5",
+  "title": "External LMS hand-off UX (auth, mapping to course, what is sent, confirmation)",
+  "references": [
+    {
+      "id": "mobbin:d73f14de-928b-46cb-8011-e5959e5b672d",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Publishing a lesson to course community",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d73f14de-928b-46cb-8011-e5959e5b672d",
+      "take": "Community course platform showing instructor workflow for publishing lesson content with confirmation of distribution.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ad73f14de-928b-46cb-8011-e5959e5b672d/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ad73f14de-928b-46cb-8011-e5959e5b672d/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ad73f14de-928b-46cb-8011-e5959e5b672d/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ad73f14de-928b-46cb-8011-e5959e5b672d/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ad73f14de-928b-46cb-8011-e5959e5b672d/4.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ad73f14de-928b-46cb-8011-e5959e5b672d/5.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ad73f14de-928b-46cb-8011-e5959e5b672d/6.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:7897406d-dd60-4afa-94ad-65a9468c1d64",
+      "source": "mobbin",
+      "app": "Cofounder",
+      "title": "OAuth-based app connection workflow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7897406d-dd60-4afa-94ad-65a9468c1d64",
+      "take": "Authorization and connection flow for third-party integrations with account linking and permission mapping.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A7897406d-dd60-4afa-94ad-65a9468c1d64/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A7897406d-dd60-4afa-94ad-65a9468c1d64/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A7897406d-dd60-4afa-94ad-65a9468c1d64/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A7897406d-dd60-4afa-94ad-65a9468c1d64/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A7897406d-dd60-4afa-94ad-65a9468c1d64/4.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:e9079303-b68b-4a54-98b0-0ba587e8ba7d",
+      "source": "mobbin",
+      "app": "Craft",
+      "title": "Connecting and integrating third-party services",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e9079303-b68b-4a54-98b0-0ba587e8ba7d",
+      "take": "Pattern for connecting external integrations with auth confirmation and destination selection.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae9079303-b68b-4a54-98b0-0ba587e8ba7d/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae9079303-b68b-4a54-98b0-0ba587e8ba7d/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3Ae9079303-b68b-4a54-98b0-0ba587e8ba7d/2.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:9aa981d2-b178-4843-b8dd-0685815ecd62",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Publishing course content to members",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9aa981d2-b178-4843-b8dd-0685815ecd62",
+      "take": "Online course platform showing instructor publishing content with clear confirmation of what is being sent to learners.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A9aa981d2-b178-4843-b8dd-0685815ecd62/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A9aa981d2-b178-4843-b8dd-0685815ecd62/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A9aa981d2-b178-4843-b8dd-0685815ecd62/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A9aa981d2-b178-4843-b8dd-0685815ecd62/3.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:3135010e-a999-439d-8ebd-50e7f4a58dcc",
+      "source": "mobbin",
+      "app": "SchoolAI",
+      "title": "Adding content to Google Classroom",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3135010e-a999-439d-8ebd-50e7f4a58dcc",
+      "take": "Full integration flow showing content creator selecting a course in Google Classroom, confirming permissions, and syncing materials to an external LMS.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A3135010e-a999-439d-8ebd-50e7f4a58dcc/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A3135010e-a999-439d-8ebd-50e7f4a58dcc/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A3135010e-a999-439d-8ebd-50e7f4a58dcc/2.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A3135010e-a999-439d-8ebd-50e7f4a58dcc/3.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A3135010e-a999-439d-8ebd-50e7f4a58dcc/4.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A3135010e-a999-439d-8ebd-50e7f4a58dcc/5.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A3135010e-a999-439d-8ebd-50e7f4a58dcc/6.jpg"
+      ]
+    },
+    {
+      "id": "mobbin:757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Publishing a course section",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "take": "Instructor publishes course section through a confirmation workflow showing what content is sent.",
+      "local_images": [
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A757f57cb-e9e7-4355-a542-db3033f23dc0/0.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A757f57cb-e9e7-4355-a542-db3033f23dc0/1.jpg",
+        "/Users/danielbrassnyo/conductor/workspaces/essentials-2.0/monrovia/courses/09-announcements-send-materials/assets/mobbin%3A757f57cb-e9e7-4355-a542-db3033f23dc0/2.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "module": "09-announcements-send-materials",
+  "references": [
+    {
+      "id": "mobbin:3135010e-a999-439d-8ebd-50e7f4a58dcc",
+      "source": "mobbin",
+      "app": "SchoolAI",
+      "title": "Adding content to Google Classroom",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3135010e-a999-439d-8ebd-50e7f4a58dcc",
+      "images": [
+        "https://mobbin.com/api/mcp/short/xVzMz5CV",
+        "https://mobbin.com/api/mcp/short/Ryl7GilN",
+        "https://mobbin.com/api/mcp/short/fdOzaAYV",
+        "https://mobbin.com/api/mcp/short/xxotlvrE",
+        "https://mobbin.com/api/mcp/short/zogvA3Fr",
+        "https://mobbin.com/api/mcp/short/ed5gW9KU",
+        "https://mobbin.com/api/mcp/short/yFf2JnER"
+      ],
+      "question": "Q5",
+      "take": "Full integration flow showing content creator selecting a course in Google Classroom, confirming permissions, and syncing materials to an external LMS.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Publishing a course section",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/757f57cb-e9e7-4355-a542-db3033f23dc0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/6OFoQWL4",
+        "https://mobbin.com/api/mcp/short/2IrcuI5i",
+        "https://mobbin.com/api/mcp/short/ooSKUfPY"
+      ],
+      "question": "Q5",
+      "take": "Instructor publishes course section through a confirmation workflow showing what content is sent.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:d73f14de-928b-46cb-8011-e5959e5b672d",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Publishing a lesson to course community",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d73f14de-928b-46cb-8011-e5959e5b672d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/iQSvSlAu",
+        "https://mobbin.com/api/mcp/short/QRMZyU5X",
+        "https://mobbin.com/api/mcp/short/3ByQzR7d",
+        "https://mobbin.com/api/mcp/short/ffoJ1Fpi",
+        "https://mobbin.com/api/mcp/short/OBdvV0bB",
+        "https://mobbin.com/api/mcp/short/K1PJeGmf",
+        "https://mobbin.com/api/mcp/short/VrTeKg78"
+      ],
+      "question": "Q5",
+      "take": "Community course platform showing instructor workflow for publishing lesson content with confirmation of distribution.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9aa981d2-b178-4843-b8dd-0685815ecd62",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Publishing course content to members",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9aa981d2-b178-4843-b8dd-0685815ecd62",
+      "images": [
+        "https://mobbin.com/api/mcp/short/qfAYqOgK",
+        "https://mobbin.com/api/mcp/short/u0JKsSW6",
+        "https://mobbin.com/api/mcp/short/hNbb1phL",
+        "https://mobbin.com/api/mcp/short/VcQDiivi"
+      ],
+      "question": "Q5",
+      "take": "Online course platform showing instructor publishing content with clear confirmation of what is being sent to learners.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e9079303-b68b-4a54-98b0-0ba587e8ba7d",
+      "source": "mobbin",
+      "app": "Craft",
+      "title": "Connecting and integrating third-party services",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e9079303-b68b-4a54-98b0-0ba587e8ba7d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/SoStEg7d",
+        "https://mobbin.com/api/mcp/short/fCYXXEZ0",
+        "https://mobbin.com/api/mcp/short/EQgFYMPG"
+      ],
+      "question": "Q5",
+      "take": "Pattern for connecting external integrations with auth confirmation and destination selection.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:7897406d-dd60-4afa-94ad-65a9468c1d64",
+      "source": "mobbin",
+      "app": "Cofounder",
+      "title": "OAuth-based app connection workflow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7897406d-dd60-4afa-94ad-65a9468c1d64",
+      "images": [
+        "https://mobbin.com/api/mcp/short/HekPS5LX",
+        "https://mobbin.com/api/mcp/short/ZYHZl6hS",
+        "https://mobbin.com/api/mcp/short/tQiw6Dfy",
+        "https://mobbin.com/api/mcp/short/Ir0S8vWI",
+        "https://mobbin.com/api/mcp/short/B3DanRFT"
+      ],
+      "question": "Q5",
+      "take": "Authorization and connection flow for third-party integrations with account linking and permission mapping.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3edf67a5-b266-45b6-a3a3-69f19d809fa9",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Course announcements feed with pinned posts",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3edf67a5-b266-45b6-a3a3-69f19d809fa9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Fue2LeVb"
+      ],
+      "question": "Q6",
+      "take": "Teacher-posted course announcement visible to families showing rich text, imagery, likes, and comments for learner reception.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:88ad5199-f31a-4a5b-aadb-3bc0f5536b36",
+      "source": "mobbin",
+      "app": "Microsoft Teams",
+      "title": "Course channel announcements and posts",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/88ad5199-f31a-4a5b-aadb-3bc0f5536b36",
+      "images": [
+        "https://mobbin.com/api/mcp/short/mnAwFp76"
+      ],
+      "question": "Q6",
+      "take": "Team channel announcement post with metadata showing how learners receive course updates with reply and engagement options.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c1b1c3ad-57ca-4bcc-85fd-3d9e4c062498",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Community course feed with announcements",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/c1b1c3ad-57ca-4bcc-85fd-3d9e4c062498",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ZwmRIYTG"
+      ],
+      "question": "Q6",
+      "take": "Pinned announcement post in course feed showing instructor-to-learner announcement delivery with comments and engagement.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:5a524cf6-b472-4274-b55e-ce307003923b",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Course announcements notification and inbox",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5a524cf6-b472-4274-b55e-ce307003923b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/dSbmGTY3"
+      ],
+      "question": "Q6",
+      "take": "Dedicated announcements interface showing learners how they receive course notifications and shared materials in one organized view.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:36db9592-bedb-47b6-a4ee-78fe6f0fd84c",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Course discussion and activity feed (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/36db9592-bedb-47b6-a4ee-78fe6f0fd84c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KiwLiO4V"
+      ],
+      "question": "Q6",
+      "take": "Mobile learner view of course updates including discussion topics and shared resources in chronological activity feed.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:8e65f9c9-5b08-4303-8a56-ef403676143e",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Activity and announcements inbox (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/8e65f9c9-5b08-4303-8a56-ef403676143e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Q8E2EDuz"
+      ],
+      "question": "Q6",
+      "take": "Mobile notification and activity inbox showing how learners receive course announcements and mentions in centralized notification interface.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:4f233213-fc0d-4f08-8d4d-528ea9d2f581",
+      "source": "mobbin",
+      "app": "Future Pro",
+      "title": "Event notifications and updates (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/4f233213-fc0d-4f08-8d4d-528ea9d2f581",
+      "images": [
+        "https://mobbin.com/api/mcp/short/cw0V8tBs"
+      ],
+      "question": "Q6",
+      "take": "Mobile timeline of class and event announcements showing learners how updates and reminders are delivered.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9a7ee8cf-a2cd-419e-959e-a66ab6c41e7b",
+      "source": "mobbin",
+      "app": "Preply",
+      "title": "Lesson and course messages (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/9a7ee8cf-a2cd-419e-959e-a66ab6c41e7b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/NPSoqGU6"
+      ],
+      "question": "Q6",
+      "take": "Mobile messages interface showing learner receiving lesson updates and course materials from instructor with shared files.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

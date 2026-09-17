@@ -1,0 +1,21 @@
+=== FLOWS: learner opens course progress reviews quiz results certificate (total 188)
+F#9577 |  Teachable | Create and activate course certificate | 6 steps | Happy path: An instructor/admin who manages a course creates a certificate, selects a template, customizes content in an inline editor, and activates 
+   steps: Certificates landing — empty state > Template selection — modal (initial) > Template selection — choose template > Certificate editor — edit content and preview > Activat
+F#11808 | Duolingo | Language Learning Onboarding | 42 steps | A new visitor starts on Duolingo’s marketing landing screen and selects Get Started. They choose a language, review introductory messages, answer onbo
+   steps: Duolingo Landing > Language Selection > Onboarding Introduction > Onboarding Welcome > Onboarding Transition > Discovery Source > Discovery Source Confirmed > Learning Mo
+F#12231 | Care | Caregiver Review Submission | 5 steps | Happy path for leaving a review for a caregiver on Care.com. The user starts on a caregiver profile, opens the review form, selects an overall star ra
+   steps: Caregiver Profile > Start Review > Write Review > Review Ready to Submit > Submission Confirmed
+F#9205 | Preply | Sign in and access student home | 4 steps | Happy path: A visitor arrives on the Preply homepage, chooses to sign in, authenticates via social provider or email/password, and is redirected to th
+   steps: Homepage — Tutor discovery > Log in — authentication options > Log in — credentials entered > Student home — account summary
+F#11828 | Duolingo | Fill-in-the-Blanks Practice | 9 steps | The user starts on the Duolingo English Test Practice dashboard and opens the Fill in the Blanks exercise. They complete timed text-based questions by
+   steps: Practice Dashboard > Read Question > Complete First Answer > Review Incorrect Feedback > Read Next Question > Complete Second Answer > Review Partial Feedback > Practice 
+F#9640 |  Teachable | Instructor onboarding and trial activation | 13 steps | Happy path: A new instructor discovers Teachable, clicks to get started, creates an account (name/email/password), enters billing to start a 7-day Bui
+   steps: Marketing landing > Create an account - blank form > Create an account - filled form > Start trial - billing & plan selection > Billing validation errors > Provisioning /
+F#11827 | Duolingo | Practice Word Question | 8 steps | Happy-path practice sequence in the Duolingo English Test practice area. The user starts on the Practice dashboard, launches a practice test, waits th
+   steps: Practice Dashboard > Loading State > Word Decision Question > Incorrect Feedback > Next Question > Correct Feedback > Practice Complete > Practice Dashboard Return
+F#9547 |  Teachable | School setup and course creation | 3 steps | Happy path summary: An authenticated school owner/admin views an empty Students list, is prompted (or redirected) to authorize access to their account
+   steps: Students — Empty state > Authorize account access > Create course outline onboarding
+F#9573 |  Teachable | Create and publish course | 34 steps | Happy-path: Instructor creates a new course from the Courses list, steps through a 5-step guided wizard (title/description, thumbnail, pricing, pricin
+   steps: Courses list (start) > Wizard — Title & Description > Wizard — Continue enabled > Wizard — Add thumbnail > Upload modal — select file > Thumbnail preview > Wizard — Prici
+F#12697 | Understory  | Create and Publish Experience | 42 steps | An authenticated company user starts from the Experiences section, creates a new experience, adds a hero image and descriptive content, optionally add
+   steps: Experiences Dashboard > Describe Experience > Image Upload Validation > Hero Image Added > Experience Description > Information Type Selection > What's Included Dialog > 

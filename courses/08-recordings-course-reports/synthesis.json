@@ -1,0 +1,336 @@
+{
+  "top": [
+    {
+      "text": "Loom · Mobbin — search, folders and recording metadata make this the strongest library reference.",
+      "refs": [
+        "mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4"
+      ]
+    },
+    {
+      "text": "Zoom · Mobbin — the richest sampled permission-edit sequence, including an expiration option.",
+      "refs": [
+        "mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001"
+      ]
+    },
+    {
+      "text": "Vimeo · Mobbin — separates named collaborators and roles from link privacy.",
+      "refs": [
+        "mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8"
+      ]
+    },
+    {
+      "text": "Grain · Mobbin — the clearest transcript-to-timestamped-comment sequence.",
+      "refs": [
+        "mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7"
+      ]
+    },
+    {
+      "text": "Loom · Mobbin — editable AI chapters connect directly to Elevate’s chapterization work.",
+      "refs": [
+        "mobbin:9c7d6717-30ad-411d-96a1-465961438578"
+      ]
+    },
+    {
+      "text": "SchoolAI · Mobbin — outcomes and learner insights reach a CSV-download success state.",
+      "refs": [
+        "mobbin:82be552c-140b-4a19-95bb-037c320ca775"
+      ]
+    },
+    {
+      "text": "Kajabi · Mobbin — a clear course-to-learner-to-lesson progress hierarchy.",
+      "refs": [
+        "mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f"
+      ]
+    },
+    {
+      "text": "Coursera · Mobbin — learner assessment results expose both the overall grade and its components.",
+      "refs": [
+        "mobbin:35b8baea-dca0-422b-83ee-01dd411da127"
+      ]
+    }
+  ],
+  "legend": "✓ = direct captured evidence for a meaningful part of the question; partial = adjacent evidence or an incomplete journey; ✗ = not evidenced in this report, not a claim that the product lacks it. Ratings use all retained captures, including cross-section evidence. Q1–Q3 cover recordings; Q4–Q6 cover reporting. None of the Q2 captures proves automatic learner-own-only access.",
+  "comparison": [
+    {
+      "app": "Loom",
+      "cells": [
+        "✓ library + search",
+        "✓ named/link scope",
+        "✓ transcript + AI chapters",
+        "✗ not captured",
+        "partial activity signals",
+        "✗ not captured"
+      ],
+      "refs": [
+        "mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4",
+        "mobbin:cf7c8043-a315-4bc5-a889-d3683430232c",
+        "mobbin:9c7d6717-30ad-411d-96a1-465961438578"
+      ]
+    },
+    {
+      "app": "Vimeo",
+      "cells": [
+        "✓ recency + search",
+        "✓ privacy + roles",
+        "✓ comments; empty transcript",
+        "✗ not captured",
+        "✗ not captured",
+        "✗ not captured"
+      ],
+      "refs": [
+        "refero:1429d347-5ed3-4ac6-b9d1-f906e69c23e9",
+        "mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8",
+        "mobbin:bd482934-e96c-4560-967f-2509d3c341d8"
+      ]
+    },
+    {
+      "app": "Zoom",
+      "cells": [
+        "partial meeting bundle",
+        "✓ audience + expiry option",
+        "partial transcript file",
+        "✗ not captured",
+        "✗ not captured",
+        "✗ not captured"
+      ],
+      "refs": [
+        "mobbin:179edc0d-797b-47fa-9999-7a3998407b80",
+        "mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001"
+      ]
+    },
+    {
+      "app": "Grain",
+      "cells": [
+        "partial recording detail",
+        "✗ not captured",
+        "✓ timestamp discussion",
+        "✗ not captured",
+        "partial tab labels only",
+        "✗ not captured"
+      ],
+      "refs": [
+        "mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7"
+      ]
+    },
+    {
+      "app": "Circle",
+      "cells": [
+        "✗ not captured",
+        "✗ not captured",
+        "✗ not captured",
+        "partial overview + export",
+        "✓ completion / students",
+        "✗ not captured"
+      ],
+      "refs": [
+        "mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee",
+        "mobbin:464a297d-2355-443d-8123-d61f80c4a72c"
+      ]
+    },
+    {
+      "app": "Kajabi",
+      "cells": [
+        "✗ not captured",
+        "✗ not captured",
+        "✗ not captured",
+        "partial learner detail",
+        "✓ lesson completion",
+        "✗ instructor detail only"
+      ],
+      "refs": [
+        "mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f"
+      ]
+    },
+    {
+      "app": "SchoolAI",
+      "cells": [
+        "✗ not captured",
+        "✗ not captured",
+        "✗ not captured",
+        "partial overview + CSV",
+        "✓ outcomes / mastery",
+        "✗ instructor report only"
+      ],
+      "refs": [
+        "mobbin:00828d09-252c-4d02-92a1-58966ebbe19d",
+        "mobbin:82be552c-140b-4a19-95bb-037c320ca775"
+      ]
+    },
+    {
+      "app": "Uxcel",
+      "cells": [
+        "✗ not captured",
+        "✗ not captured",
+        "✗ not captured",
+        "partial report entry",
+        "✓ unit completion",
+        "✗ not captured"
+      ],
+      "refs": [
+        "mobbin:87f9d574-30e4-4053-80c3-4d4cc189ca69"
+      ]
+    },
+    {
+      "app": "Mixpanel",
+      "cells": [
+        "✗ not captured",
+        "✗ not captured",
+        "✗ not captured",
+        "partial user drill / export",
+        "partial behavioral cohorts",
+        "✗ not captured"
+      ],
+      "refs": [
+        "mobbin:d7008305-0f24-4a04-8714-75d16b5284ff",
+        "mobbin:be374c47-a37d-4dd2-994f-d3ee89aed0e9"
+      ]
+    },
+    {
+      "app": "Coursera",
+      "cells": [
+        "✗ not captured",
+        "✗ not captured",
+        "✗ not captured",
+        "partial personal grade detail",
+        "✓ assessment + completion",
+        "✓ personal results"
+      ],
+      "refs": [
+        "mobbin:93beef1d-a7ba-4f6c-9efb-4d13aee3eb76",
+        "mobbin:35b8baea-dca0-422b-83ee-01dd411da127"
+      ]
+    }
+  ],
+  "differences": [
+    {
+      "text": "Loom and Zoom solve different retrieval needs: Loom supports finding items across a library, while Zoom keeps several recording artifacts attached to one meeting. Essentials needs both course-wide search and an event bundle.",
+      "refs": [
+        "mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4",
+        "mobbin:179edc0d-797b-47fa-9999-7a3998407b80"
+      ]
+    },
+    {
+      "text": "Vimeo distinguishes privacy from collaborator rights; Zoom adds optional time limits and passcode controls. This is richer than treating “share” as only copying a link.",
+      "refs": [
+        "mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8",
+        "mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001"
+      ]
+    },
+    {
+      "text": "Grain ties discussion to transcript timecodes; Loom makes AI chapter structure editable. Together they support reviewing a precise simulation moment and correcting generated navigation.",
+      "refs": [
+        "mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7",
+        "mobbin:9c7d6717-30ad-411d-96a1-465961438578"
+      ]
+    },
+    {
+      "text": "Circle emphasizes course completion, Kajabi reveals the lesson-level detail beneath a learner’s percentage, and SchoolAI explicitly surfaces outcomes/mastery. These measures answer different instructor questions and should retain their labels.",
+      "refs": [
+        "mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee",
+        "mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f",
+        "mobbin:00828d09-252c-4d02-92a1-58966ebbe19d"
+      ]
+    },
+    {
+      "text": "Mixpanel makes cohort comparisons legible through visible definitions and filters; Coursera makes a learner’s assessment grade legible through weights and component results. Neither should be collapsed into a single undifferentiated “progress” metric.",
+      "refs": [
+        "mobbin:d7008305-0f24-4a04-8714-75d16b5284ff",
+        "mobbin:35b8baea-dca0-422b-83ee-01dd411da127"
+      ]
+    },
+    {
+      "text": "SchoolAI’s captured download ends with a success toast; Circle’s export confirms email delivery. The report interface should state where the output will arrive, rather than leaving instructors to search for it.",
+      "refs": [
+        "mobbin:82be552c-140b-4a19-95bb-037c320ca775",
+        "mobbin:464a297d-2355-443d-8123-d61f80c4a72c"
+      ]
+    }
+  ],
+  "practices": [
+    {
+      "text": "Use a searchable recording library and keep the session’s related files together; add event, learner and scenario facets as an Essentials-specific extension.",
+      "refs": [
+        "mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4",
+        "refero:1429d347-5ed3-4ac6-b9d1-f906e69c23e9",
+        "mobbin:179edc0d-797b-47fa-9999-7a3998407b80"
+      ]
+    },
+    {
+      "text": "Show the effective audience beside sharing actions. For sensitive debriefs, adopt explicit named/group scope and optional expiry; validate the learner-own-only policy separately.",
+      "refs": [
+        "mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8",
+        "mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001",
+        "mobbin:cf7c8043-a315-4bc5-a889-d3683430232c"
+      ]
+    },
+    {
+      "text": "Keep timecoded transcript, chapters and discussion close to playback. Allow corrections to AI structure and provide a no-transcript state that preserves video review.",
+      "refs": [
+        "mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7",
+        "mobbin:9c7d6717-30ad-411d-96a1-465961438578",
+        "mobbin:bd482934-e96c-4560-967f-2509d3c341d8"
+      ]
+    },
+    {
+      "text": "Provide course overview, learner detail and export in a consistent reporting context. The complete path is a synthesis from complementary examples, not a single observed journey.",
+      "refs": [
+        "mobbin:464a297d-2355-443d-8123-d61f80c4a72c",
+        "mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f",
+        "mobbin:82be552c-140b-4a19-95bb-037c320ca775"
+      ]
+    },
+    {
+      "text": "Label completion, assessed score, mastery and engagement separately; preserve metric definitions and comparison filters. Do not use video views or retained users as a mastery score.",
+      "refs": [
+        "mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee",
+        "mobbin:00828d09-252c-4d02-92a1-58966ebbe19d",
+        "mobbin:d7008305-0f24-4a04-8714-75d16b5284ff",
+        "mobbin:35b8baea-dca0-422b-83ee-01dd411da127"
+      ]
+    },
+    {
+      "text": "Give learners a compact progress view with a route to assessment detail. This recommendation is supported by Coursera alone; broader learner-portal convergence remains unverified.",
+      "refs": [
+        "mobbin:93beef1d-a7ba-4f6c-9efb-4d13aee3eb76",
+        "mobbin:35b8baea-dca0-422b-83ee-01dd411da127"
+      ]
+    }
+  ],
+  "open": [
+    {
+      "text": "Recording ownership: when several learners share a simulation, does “own recording” mean the whole event, a participant-specific clip, or an instructor-approved release? Zoom’s meeting bundle and Vimeo’s named access do not settle that mapping.",
+      "refs": [
+        "mobbin:179edc0d-797b-47fa-9999-7a3998407b80",
+        "mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8"
+      ]
+    },
+    {
+      "text": "Release and expiry: should feedback, transcript, comments and downloads inherit the video audience, and what happens at semester end? Zoom exposes these settings, but the captures do not establish their dependencies.",
+      "refs": [
+        "mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001"
+      ]
+    },
+    {
+      "text": "AI annotations: who approves chapter labels and timecoded feedback before learners see them, and how should these link to the competencies defined in module 03? Loom and Grain establish editable/navigation patterns, not assessment validity.",
+      "refs": [
+        "mobbin:9c7d6717-30ad-411d-96a1-465961438578",
+        "mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7"
+      ]
+    },
+    {
+      "text": "Comparability: how will attendance be sourced, retries handled, and scenario/rubric versions normalized across cohorts? SchoolAI labels mastery and Mixpanel exposes comparison controls; neither capture defines Elevate’s assessment rules.",
+      "refs": [
+        "mobbin:00828d09-252c-4d02-92a1-58966ebbe19d",
+        "mobbin:d7008305-0f24-4a04-8714-75d16b5284ff"
+      ]
+    },
+    {
+      "text": "Learner Portal and Canvas hand-off: which released grade, recording link and competency result is authoritative, when is it synchronized, and how are regraded results reconciled? Coursera’s personal grades and SchoolAI’s export show useful endpoints but no Canvas integration. Delivery belongs to module 09.",
+      "refs": [
+        "mobbin:35b8baea-dca0-422b-83ee-01dd411da127",
+        "mobbin:82be552c-140b-4a19-95bb-037c320ca775"
+      ]
+    }
+  ],
+  "limitations": "Evidence scope: 37 curated references across 10 products from Mobbin and Refero; seven sampled flows, with no more than eight previews each. Source captures are historical interface evidence, not a current feature audit. Numbered flow images are retained preview order and may omit intervening actions. Web and iOS searches were run; irrelevant results were excluded. Canvas/Moodle gradebook, attendance defaults, automatic learner-own-only recording access and Canvas integration remain unverified. Counter-example badges flag a risky captured state, an enrichment failure state or an unsuitable metric transfer—not an overall product ranking. All references remain unselected for the later converge pass."
+}

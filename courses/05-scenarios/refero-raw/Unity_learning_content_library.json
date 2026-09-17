@@ -1,0 +1,450 @@
+{
+  "pagination": {
+    "count": 10,
+    "page": 1,
+    "next_page": 2,
+    "total_count": 898,
+    "total_pages": 90
+  },
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/rive.app/desktop/2cee5c67-4c61-4f91-a221-2ce4049f8243_thumb.jpg",
+      "hex_colors": [
+        "0xEEF2F2",
+        "0xCF267F",
+        "0x141414",
+        "0x9B929B",
+        "0x49C2C7"
+      ],
+      "uuid": "4b03d3f6-8a0c-4b8b-bf99-b7eb44989ba6",
+      "page_url": "https://rive.app/runtimes",
+      "site": {
+        "id": 219,
+        "domain": "rive.app",
+        "description": "Build interactive motion graphics that run anywhere",
+        "name": "Rive",
+        "background_url": "https://images.refero.design/backgrounds/rive.app/ecd23b77-6e64-4f75-a0ec-eaed85f46ef6.jpg",
+        "refero_url": "https://refero.design/websites/219",
+        "categories": [
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/rive.app/bdc07834-44de-48eb-bdd6-e7af3dded234.jpg",
+        "background_color": ""
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Dropdown",
+        "Text Field",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "Illustration",
+        "3d Illustration",
+        "Gradient",
+        "Animation"
+      ],
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/4b03d3f6-8a0c-4b8b-bf99-b7eb44989ba6",
+      "content": {
+        "description": "The screen is a dark-themed landing page for \"Rive Runtimes,\" showcasing open-source libraries for graphics control across various platforms like Web, iOS, macOS, Android, Flutter, React, C++, Unity, Unreal, and more. The background uses a very dark gradient or nearly black shade combined with subtle purple lighting effects behind icons to create depth. The header has a black background with white ..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/raster.app/desktop/54a814ef-16c7-4072-90fa-13c47847fa38_thumb.jpg",
+      "hex_colors": [
+        "0xFB2E65",
+        "0x141415",
+        "0xBEB9BC",
+        "0x625D5E",
+        "0x848487"
+      ],
+      "uuid": "9a70b751-6f58-4ef2-aad8-59b59c4aa191",
+      "page_url": "https://raster.app/yzn2ael41zlte5/library/settings",
+      "site": {
+        "id": 447,
+        "domain": "raster.app",
+        "description": "Digital asset manager for modern teams",
+        "name": "Raster",
+        "background_url": "https://images.refero.design/backgrounds/raster.app/16466b2c-ce2c-41f1-a4e2-3b661d5b5bba.jpg",
+        "refero_url": "https://refero.design/websites/447",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+        "background_color": "fe2c65"
+      },
+      "ux_patterns": [
+        "Dark Mode",
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/9a70b751-6f58-4ef2-aad8-59b59c4aa191",
+      "content": {
+        "description": "This screen shows a dark-themed interface for managing photo libraries, specifically focusing on creating a new library via a modal popup overlay. The overall style is modern and minimalistic with a dark color palette (#121212 background, white text). The screen background is dimmed and blurred to draw focus to the central modal. The modal is a centered dark rectangle with slightly lighter backgrou..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/raster.app/desktop/e2ce54fa-ce15-4b6d-9a6b-4f7cfcf31a5e_thumb.jpg",
+      "hex_colors": [
+        "0x141416",
+        "0x626262",
+        "0xBFBEC1",
+        "0x0C0C0C",
+        "0x405036"
+      ],
+      "uuid": "ab581a68-1165-48a5-b62e-7ca6653013bf",
+      "page_url": "https://raster.app/yzn2ael41zlte5/library/settings",
+      "site": {
+        "id": 447,
+        "domain": "raster.app",
+        "description": "Digital asset manager for modern teams",
+        "name": "Raster",
+        "background_url": "https://images.refero.design/backgrounds/raster.app/16466b2c-ce2c-41f1-a4e2-3b661d5b5bba.jpg",
+        "refero_url": "https://refero.design/websites/447",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+        "background_color": "fe2c65"
+      },
+      "ux_patterns": [
+        "Empty State",
+        "Dark Mode",
+        "Searching"
+      ],
+      "ui_elements": [
+        "Dialog & Modal Window",
+        "Search Field",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/ab581a68-1165-48a5-b62e-7ca6653013bf",
+      "content": {
+        "description": "This screen showcases a dark mode interface for a 'Library Settings' page within an application. The background is a nearly black shade (approximately #121214 or similar) providing a dark theme. On the left side, there's a vertical sidebar with navigation elements labeled: 'Personal' with a small dot icon, followed by 'Home,' 'Settings,' 'New Library,' then a section labeled 'Library' with sub-item..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/raster.app/desktop/c63fdaf6-d71d-4b0b-9d15-5ccf49068c2d_thumb.jpg",
+      "hex_colors": [
+        "0xC78958",
+        "0x131315",
+        "0x625858",
+        "0x2B2B34",
+        "0x3A3737"
+      ],
+      "uuid": "488b8c6b-fd4d-4931-8cef-4d5e8dda9b86",
+      "page_url": "https://raster.app/yzn2ael41zlte5/library/settings",
+      "site": {
+        "id": 447,
+        "domain": "raster.app",
+        "description": "Digital asset manager for modern teams",
+        "name": "Raster",
+        "background_url": "https://images.refero.design/backgrounds/raster.app/16466b2c-ce2c-41f1-a4e2-3b661d5b5bba.jpg",
+        "refero_url": "https://refero.design/websites/447",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+        "background_color": "fe2c65"
+      },
+      "ux_patterns": [
+        "Dark Mode",
+        "Searching"
+      ],
+      "ui_elements": [
+        "Tags & Chips",
+        "Dialog & Modal Window",
+        "Search Field",
+        "Thumbnail"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/488b8c6b-fd4d-4931-8cef-4d5e8dda9b86",
+      "content": {
+        "description": "The screen displays a dark-themed user interface for Library Settings within a larger application. On the left side, there is a vertical sidebar navigation panel using a dark purple-black background with faintly lighter text labels. The sidebar includes sections: Personal (with a colored icon), Home, Settings, New Library, Library (expanded with sub-options All images, Tags, and Settings highlighte..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/raster.app/desktop/f0671a9f-6b70-4950-a9d9-204cc0a4b544_thumb.jpg",
+      "hex_colors": [
+        "0x636363",
+        "0xE1E1E1",
+        "0x171817",
+        "0x562029",
+        "0xACACAD"
+      ],
+      "uuid": "7078b3aa-5130-4303-bbcb-8f01a796a6b5",
+      "page_url": "https://raster.app/yzn2ael41zlte5/library/settings",
+      "site": {
+        "id": 447,
+        "domain": "raster.app",
+        "description": "Digital asset manager for modern teams",
+        "name": "Raster",
+        "background_url": "https://images.refero.design/backgrounds/raster.app/16466b2c-ce2c-41f1-a4e2-3b661d5b5bba.jpg",
+        "refero_url": "https://refero.design/websites/447",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+        "background_color": "fe2c65"
+      },
+      "ux_patterns": [
+        "Empty State",
+        "Searching"
+      ],
+      "ui_elements": [
+        "Dialog & Modal Window",
+        "Search Field",
+        "Icon"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/7078b3aa-5130-4303-bbcb-8f01a796a6b5",
+      "content": {
+        "description": "This screen depicts a modal window overlay on top of a semi-transparent background that dims the main interface. The modal is centered both vertically and horizontally, with a light gray rectangular background (#E0E0E0) and slightly rounded corners. At the top left inside the modal, there is a simple text label 'ridge' indicating the search query. Centered below the label is a small icon representi..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/raster.app/desktop/76239a18-093e-4395-8cd6-dea0645780d6_thumb.jpg",
+      "hex_colors": [
+        "0xBFB3AD",
+        "0x625958",
+        "0x131315",
+        "0x35A9B4",
+        "0x2B2B34"
+      ],
+      "uuid": "47a78605-97ac-4411-9627-c8241d94fbf0",
+      "page_url": "https://raster.app/yzn2ael41zlte5/library/settings",
+      "site": {
+        "id": 447,
+        "domain": "raster.app",
+        "description": "Digital asset manager for modern teams",
+        "name": "Raster",
+        "background_url": "https://images.refero.design/backgrounds/raster.app/16466b2c-ce2c-41f1-a4e2-3b661d5b5bba.jpg",
+        "refero_url": "https://refero.design/websites/447",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+        "background_color": "fe2c65"
+      },
+      "ux_patterns": [
+        "Dark Mode",
+        "Searching"
+      ],
+      "ui_elements": [
+        "Cards & Tiles",
+        "List",
+        "Tags & Chips",
+        "Dialog & Modal Window",
+        "Search Field",
+        "Icon",
+        "Thumbnail"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/47a78605-97ac-4411-9627-c8241d94fbf0",
+      "content": {
+        "description": "The screen showcases a dark-themed user interface for managing a media library, particularly focused on 'Library Settings.' The background is a solid dark color (almost black, roughly #121212) which provides high contrast. On the left side, there's a vertical sidebar navigation panel with menu items such as Personal, Home, Settings, New Library, and under Library: All Images, Tags, Trash, Settings ..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/jetbrains.com/desktop/dfef369a-9ec8-41e0-9075-25a68b5891ce_thumb.jpg",
+      "hex_colors": [],
+      "uuid": "f77af5d5-0dc0-4230-bbc1-6857cac7d3bc",
+      "page_url": "https://www.jetbrains.com/riderflow/",
+      "site": {
+        "id": 28,
+        "domain": "jetbrains.com",
+        "description": "Essential tools for software developers and teams",
+        "name": "JetBrains",
+        "background_url": "https://images.refero.design/backgrounds/jetbrains.com/2a4f3380-7738-412b-973d-61a0c8b58748.jpg",
+        "refero_url": "https://refero.design/websites/28",
+        "categories": [
+          "Development Tools"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/jetbrains.com/6ad8ddce-d1de-449a-956a-9dbd10f78e2e.jpg",
+        "background_color": "81a0fe"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Cards & Tiles",
+        "Button",
+        "Navigation Bar",
+        "Footer",
+        "Icon",
+        "3d Illustration",
+        "Hero Image",
+        "Product Image"
+      ],
+      "page_types": [
+        "Product Page & Landing"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/f77af5d5-0dc0-4230-bbc1-6857cac7d3bc",
+      "content": {
+        "description": "The screens present a professional product landing page for RiderFlow, a Unity plugin from JetBrains. The design style is modern and clean with a dark theme hero section transitioning to light backgrounds for content and FAQ sections, followed by a dark themed footer. The primary colors include black (#000000) for the header and footer background, dark gray (#1A1A1A) for the top nav bar, mid-gray b..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/raster.app/desktop/bc9164cf-c195-458c-bf78-249f990c9b70_thumb.jpg",
+      "hex_colors": [
+        "0x24242B",
+        "0xC9C9CA",
+        "0x6E6C70",
+        "0x474547",
+        "0x2C2B33"
+      ],
+      "uuid": "e74e5352-ea85-42be-b906-6a223e18c853",
+      "page_url": "https://raster.app/yzn2ael41zlte5/library/settings",
+      "site": {
+        "id": 447,
+        "domain": "raster.app",
+        "description": "Digital asset manager for modern teams",
+        "name": "Raster",
+        "background_url": "https://images.refero.design/backgrounds/raster.app/16466b2c-ce2c-41f1-a4e2-3b661d5b5bba.jpg",
+        "refero_url": "https://refero.design/websites/447",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+        "background_color": "fe2c65"
+      },
+      "ux_patterns": [
+        "Dark Mode"
+      ],
+      "ui_elements": [
+        "List",
+        "Dropdown",
+        "Text Field",
+        "Badge",
+        "Sidebar & Drawer",
+        "Icon",
+        "Avatar"
+      ],
+      "page_types": [
+        "Settings"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/e74e5352-ea85-42be-b906-6a223e18c853",
+      "content": {
+        "description": "The screen is a dark mode interface titled \"Library Settings,\" designed for managing a digital media or content library. It features a vertical sidebar on the left occupying about one fifth of the screen width. The sidebar has a dark background (#1E1E1E) with lighter gray text (#CCCCCC). The sidebar includes sections: 'Personal' at the top with items: Home, Settings, New Library; then 'Libraries' w..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/raster.app/desktop/913ac09f-2c99-4de1-827e-77f7dacacbe6_thumb.jpg",
+      "hex_colors": [
+        "0x37383E",
+        "0x0C79C0",
+        "0x7F5023",
+        "0x974E72",
+        "0xAFDEDB"
+      ],
+      "uuid": "167c5cc1-7f8e-4976-adf6-05aa9e9f7df8",
+      "page_url": "https://raster.app/welcome",
+      "site": {
+        "id": 447,
+        "domain": "raster.app",
+        "description": "Digital asset manager for modern teams",
+        "name": "Raster",
+        "background_url": "https://images.refero.design/backgrounds/raster.app/16466b2c-ce2c-41f1-a4e2-3b661d5b5bba.jpg",
+        "refero_url": "https://refero.design/websites/447",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+        "background_color": "fe2c65"
+      },
+      "ux_patterns": [
+        "Dark Mode",
+        "Add & Create"
+      ],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Text Field",
+        "Dialog & Modal Window",
+        "Icon",
+        "Hero Image",
+        "Gradient"
+      ],
+      "page_types": [
+        "Account Setup"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/167c5cc1-7f8e-4976-adf6-05aa9e9f7df8",
+      "content": {
+        "description": "The screen features a central modal overlay form on a vibrant, multicolor blurred gradient background that includes soft hues of orange, pink, green, and blue. The overlay is a rectangular card with a dark translucent background. At the top left corner, a small text link or button labeled \"Select...\" has a grid icon next to it. The form's heading reads \"Create a library\" in white text, followed by ..."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/raster.app/desktop/49c5eea9-e597-4f60-a9bf-eb06e3c4c0ae_thumb.jpg",
+      "hex_colors": [
+        "0xDFDFDF",
+        "0x636363",
+        "0x141416",
+        "0xE69448",
+        "0x551F20"
+      ],
+      "uuid": "fca86b44-8d2d-430e-bb76-4004becdbbfd",
+      "page_url": "https://raster.app/yzn2ael41zlte5/library/settings",
+      "site": {
+        "id": 447,
+        "domain": "raster.app",
+        "description": "Digital asset manager for modern teams",
+        "name": "Raster",
+        "background_url": "https://images.refero.design/backgrounds/raster.app/16466b2c-ce2c-41f1-a4e2-3b661d5b5bba.jpg",
+        "refero_url": "https://refero.design/websites/447",
+        "categories": [
+          "Productivity",
+          "Collaboration Tools",
+          "Design & Media Editing"
+        ],
+        "favicon_url": "https://images.refero.design/favicon/raster.app/fa156efc-560e-40d0-973c-f891761e47b0.jpg",
+        "background_color": "fe2c65"
+      },
+      "ux_patterns": [
+        "Searching"
+      ],
+      "ui_elements": [
+        "Tags & Chips",
+        "Dialog & Modal Window",
+        "Search Field",
+        "Thumbnail"
+      ],
+      "page_types": [],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/fca86b44-8d2d-430e-bb76-4004becdbbfd",
+      "content": {
+        "description": "The screen shows a modal overlay centered on a blurred background interface titled 'Library Settings'. The modal is a rectangular white box with rounded corners placed in the center of the screen, featuring a search input field at the top with typed text 'plas'. Immediately below the search input is a results section labeled 'Photos' displaying a horizontal card that includes a small photo thumbnai..."
+      }
+    }
+  ]
+}
