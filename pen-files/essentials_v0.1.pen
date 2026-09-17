@@ -3,12 +3,123 @@
   "children": [
     {
       "type": "rectangle",
-      "id": "AoJTu",
-      "x": -30,
-      "y": -260,
-      "fill": "#CCCCCC",
-      "width": 180,
-      "height": 194
+      "id": "eirzd",
+      "x": -2301,
+      "y": -1378,
+      "name": "ls-essentials-user-manager",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "ls-essentials-user-manager.png",
+        "mode": "fill"
+      },
+      "width": 1440,
+      "height": 940
+    },
+    {
+      "type": "rectangle",
+      "id": "w1FcC",
+      "x": 579,
+      "y": -1378,
+      "name": "ls-essentials-user-manager--new-user",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "ls-essentials-user-manager--new-user.png",
+        "mode": "fill"
+      },
+      "width": 1440,
+      "height": 940
+    },
+    {
+      "type": "rectangle",
+      "id": "n0cLWf",
+      "x": 2019,
+      "y": -1378,
+      "name": "ls-essentials-user-manager--create-group",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "ls-essentials-user-manager--create-group.png",
+        "mode": "fill"
+      },
+      "width": 1440,
+      "height": 940
+    },
+    {
+      "type": "rectangle",
+      "id": "o6EJo1",
+      "x": -861,
+      "y": -1378,
+      "name": "ls-essentials-user-manager--profile",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "ls-essentials-user-manager--profile.png",
+        "mode": "fill"
+      },
+      "width": 1440,
+      "height": 940
+    },
+    {
+      "type": "rectangle",
+      "id": "sVWw6",
+      "x": 3459,
+      "y": -1378,
+      "name": "ls-essentials-user-manager--batch-create-1",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "ls-essentials-user-manager--batch-create-1.png",
+        "mode": "fill"
+      },
+      "width": 1440,
+      "height": 940
+    },
+    {
+      "type": "rectangle",
+      "id": "K7NDMi",
+      "x": 4899,
+      "y": -1378,
+      "name": "ls-essentials-user-manager--batch-create-2",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "ls-essentials-user-manager--batch-create-2.png",
+        "mode": "fill"
+      },
+      "width": 1440,
+      "height": 940
+    },
+    {
+      "type": "rectangle",
+      "id": "J7BB7Y",
+      "x": 6339,
+      "y": -1378,
+      "name": "ls-essentials-user-manager--batch-create-3",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "ls-essentials-user-manager--batch-create-3.png",
+        "mode": "fill"
+      },
+      "width": 1440,
+      "height": 940
+    },
+    {
+      "type": "rectangle",
+      "id": "Nxxpq",
+      "x": 7779,
+      "y": -1378,
+      "name": "ls-essentials-user-manager--batch-create-4",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "ls-essentials-user-manager--batch-create-4.png",
+        "mode": "fill"
+      },
+      "width": 1440,
+      "height": 940
     }
   ],
   "fileToken": "8ba8fe70-2064-4ffa-afc8-bff3752963e9"
