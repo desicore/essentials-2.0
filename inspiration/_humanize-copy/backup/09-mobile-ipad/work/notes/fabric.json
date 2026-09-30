@@ -1,0 +1,71 @@
+{
+  "product": "fabric",
+  "flows": {
+    "mobbin:3c069b65-da04-47ec-a852-5165ac63562b": {
+      "summary": "User picks Voice note, records with a live transcript overlay and large Stop control, pauses through Saving…, then reviews Transcript and Summary tabs before the note appears on Home.",
+      "steps": [
+        "Create sheet — pick Voice note",
+        "Home — recent Untitled voice note card",
+        "Record — empty My notes + Stop @ 00:00:00",
+        "Record — live transcript overlay + Stop @ 00:00:30",
+        "Paused — Saving voice note… toast + Summary spinner",
+        "Paused My notes — iPhone Microphone + Resume",
+        "Transcript tab — text block + scrubber 00:00",
+        "Transcript — scrubber at 00:42",
+        "Summary tab — bulleted AI summary + Resume",
+        "Home — voice note card with transcript preview"
+      ],
+      "steal": [
+        "Large white Stop / Resume on the floating bar (steps 3–5) — big-target record control for one-hand use.",
+        "Live transcript overlay while still on My notes (step 4) — confirm capture without leaving the note.",
+        "My notes / Transcript / Summary tabs (steps 5–9) — separate freeform notes from STT and skim summary.",
+        "iPhone Microphone source pill (steps 5–8) — explicit audio-input label (not a processing-locale label)."
+      ],
+      "avoid": [
+        "No on-device vs cloud transcription indicator and no per-line timestamps on Transcript (steps 6–7) — only scrubber time; weak for GDPR-sensitive or moment-linked faculty notes."
+      ],
+      "fit": "Mobile wins for dictating a note at the bedside of a live session; extends Baseline voice-notes, but Essentials needs on-device STT labeling and timestamp anchors Otter-style — Fabric does not show those.",
+      "jobs": ["voice-notes"],
+      "counter_example": false
+    },
+    "mobbin:c10feffc-9e32-4467-914a-72668daa0395": {
+      "summary": "From a paused video the user opens draw tools, marks a person with a freehand circle, saves the drawing, then sees it as a timestamped Drawing entry in Comments.",
+      "steps": [
+        "Video player — pencil / comment / hide / settings",
+        "Draw mode — tool rail + Cancel / Save drawing",
+        "Draw mode — pen selected",
+        "Markup — blue circle on subject + Save drawing",
+        "Saved — drawing on frame + avatar on scrubber + Comments 1",
+        "Comments — Drawing · 00:00:00 badge + Timestamp chip on compose"
+      ],
+      "steal": [
+        "Cancel vs Save drawing decision on the frame (steps 2–4) — discard without leaving the player.",
+        "Hide-annotations eye toggle beside pencil (steps 1, 5) — clean playback vs markup view.",
+        "Drawing · 00:00:00 type+time badge in the comment list (step 6) — annotation kind visible at a glance.",
+        "Timestamp chip on the compose field (step 6) — next text reply stays anchored to the same moment."
+      ],
+      "avoid": [
+        "Vertical tool rail icons stay relatively small on the frame (steps 2–4) — risky for gloved faculty; enlarge primary pen/save."
+      ],
+      "fit": "Mobile is strong for private frame markup during debrief walk-around; extends Baseline debrief-annotations — keep big-screen control on web/SRV, phone/tablet for personal draws.",
+      "jobs": ["debrief-annotations"],
+      "counter_example": false
+    },
+    "mobbin:65f315e4-072d-473a-8c75-05053aba29d3": {
+      "summary": "In a note with two unchecked items the user taps the second checkbox and it becomes a filled check with strikethrough text before Save.",
+      "steps": [
+        "Note — two unchecked checklist rows + Save",
+        "Note — second item checked + strikethrough + Save"
+      ],
+      "steal": [
+        "Checked state = filled box + strikethrough text (step 2) — redundant completion cue at a glance."
+      ],
+      "avoid": [
+        "Standard small checkbox hit targets (steps 1–2) — fail gloved/one-hand live-event checklist use."
+      ],
+      "fit": "Does not beat desktop for live sim rubrics; weak counter to Baseline checklist — keep big toggles / partial credit / auto-timestamp elsewhere.",
+      "jobs": ["checklist"],
+      "counter_example": true
+    }
+  }
+}

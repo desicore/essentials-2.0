@@ -1,0 +1,51 @@
+{
+  "product": "journal",
+  "flows": {
+    "mobbin:a01989c0-b8a9-46af-9dea-dec74d6f7bed": {
+      "summary": "From the lock screen, the user monitors an in-progress audio recording Live Activity (waveform and elapsed time) and ends it with a single stop or done control, without unlocking.",
+      "steps": [
+        "Lock-screen Live Activity: waveform, 0:19, stop square",
+        "Lock-screen Live Activity: waveform, 0:22, checkmark done"
+      ],
+      "steal": [
+        "Recording status is glanceable without unlocking: a live waveform and elapsed timer on the lock screen (both screens).",
+        "A single primary end-recording control on the Live Activity (stop square then checkmark) has no secondary chrome (screens 1 to 2).",
+        "The control stays large beside the waveform so one-handed stop works while pocketed or gloved (screen 1)."
+      ],
+      "avoid": [
+        "There is no pause on the Live Activity (both screens), only stop or done. A pocket tap can discard mid-thought with no resume."
+      ],
+      "fit": "Mobile and iPad app: only a phone can control recording from the lock screen. This is worth borrowing for the planned remote start and stop, with the recording status shown on the lock screen. Faculty can glance at it while they move between rooms. It does not replace the desktop or the SRV.",
+      "jobs": [
+        "recording-control"
+      ],
+      "counter_example": false
+    },
+    "mobbin:8d896cd3-c8c4-4b58-b852-317e91eece4b": {
+      "summary": "From a journal entry the user opens an audio recorder panel, starts, pauses and resumes with waveform and timer, then finishes with Done. They land back on the entry with an attached audio player. No on-screen transcript appears.",
+      "steps": [
+        "Entry editor with waveform record icon",
+        "Bottom panel: Start Audio Recording and red record at 0:00",
+        "Full recorder idle: empty waveform; Done disabled",
+        "Recording: scrolling waveform; pause; Done dimmed",
+        "Paused: RESUME, enabled Done, scrub and play of take",
+        "Entry with audio card above body text"
+      ],
+      "steal": [
+        "Record starts as a bottom panel over the note so context stays visible (screen 2).",
+        "When paused, Done is enabled and you can scrub or play the take before committing (screen 5).",
+        "Done stays disabled until pause or stop so you cannot finalize mid-record (screens 3 to 4).",
+        "A finished take collapses to a compact player card on the note (screen 6)."
+      ],
+      "avoid": [
+        "A quote or transcript icon appears on the recorder and card (screens 3 to 6) but no transcript screen is shown. Do not imply speech-to-text from these screens alone."
+      ],
+      "fit": "Mobile and iPad app: phone-side dictate-and-attach for baseline timestamped voice notes while walking the room. Extends TouchPro with pause and scrub-before-save. This is not room audio and video start or stop.",
+      "jobs": [
+        "voice-notes",
+        "recording-control"
+      ],
+      "counter_example": false
+    }
+  }
+}

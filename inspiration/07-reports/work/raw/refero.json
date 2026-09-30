@@ -1,0 +1,100 @@
+{
+  "references": [
+    {
+      "id": "refero:3364",
+      "source": "refero",
+      "app": "SavvyCal",
+      "title": "Create and configure scheduling link",
+      "kind": "flow",
+      "url": "https://refero.design/flows/3364",
+      "images": ["https://images.refero.design/screenshots/savvycal.com/desktop/613a4876-76b6-4f59-b538-5e38396121ce_thumb.jpg"],
+      "platform": "web",
+      "jobs": ["scheduled-reports"],
+      "take": "Scheduling link configuration editor enables timezone selection, branding, booking form customization, and activation workflow."
+    },
+    {
+      "id": "refero:7899",
+      "source": "refero",
+      "app": "Cofounder",
+      "title": "Daily Meeting Summary",
+      "kind": "flow",
+      "url": "https://refero.design/flows/7899",
+      "images": ["https://images.refero.design/screenshots/cofounder.co/desktop/37a07772-16cf-4716-838c-fa3d3830d191_thumb.jpg"],
+      "platform": "web",
+      "jobs": ["scheduled-reports"],
+      "take": "Scheduled automation setup from template picker to flow editor creates recurring email summaries of calendar meetings with test and enable controls."
+    },
+    {
+      "id": "refero:7900",
+      "source": "refero",
+      "app": "Cofounder",
+      "title": "Daily Meeting Summary Test",
+      "kind": "flow",
+      "url": "https://refero.design/flows/7900",
+      "images": ["https://images.refero.design/screenshots/cofounder.co/desktop/e3955524-74b5-448e-8f30-343997d75424_thumb.jpg"],
+      "platform": "web",
+      "jobs": ["scheduled-reports"],
+      "take": "Manual test run for scheduled automation with history timeline showing integration progress, reasoning steps, and run initialization states."
+    },
+    {
+      "id": "refero:4564",
+      "source": "refero",
+      "app": "The Leap",
+      "title": "Create and send email broadcast",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4564",
+      "images": ["https://images.refero.design/screenshots/theleap.co/desktop/ca5b7106-f6e3-4283-b8e7-f5a0fb1258da_thumb.jpg"],
+      "platform": "web",
+      "jobs": ["sharing"],
+      "take": "Email broadcast creation with template selection, recipient segmentation, send confirmation modal, and immediate post-send analytics display."
+    },
+    {
+      "id": "refero:13063",
+      "source": "refero",
+      "app": "Dropbox",
+      "title": "Member Activity Report Generation",
+      "kind": "flow",
+      "url": "https://refero.design/flows/13063",
+      "images": ["https://images.refero.design/screenshots/dropbox.com/desktop/5e6ff4e4-04f7-42ea-8790-4d7f92760895_thumb.jpg"],
+      "platform": "web",
+      "jobs": ["scheduled-reports"],
+      "take": "Admin activity report generation with optional filters and confirmation dialog showing report is queued for delivery to admin."
+    },
+    {
+      "id": "refero:13064",
+      "source": "refero",
+      "app": "Dropbox",
+      "title": "Activity Log Filtering",
+      "kind": "flow",
+      "url": "https://refero.design/flows/13064",
+      "images": ["https://images.refero.design/screenshots/dropbox.com/desktop/9bba8efc-11b1-43ee-ae3d-503a747f693d_thumb.jpg"],
+      "platform": "web",
+      "jobs": ["comparison"],
+      "take": "Audit activity log with person-based filter picker for narrowing event list to specific user's activities across time."
+    },
+    {
+      "id": "refero:3402",
+      "source": "refero",
+      "app": "Dub",
+      "title": "Analytics segment exploration",
+      "kind": "flow",
+      "url": "https://refero.design/flows/3402",
+      "images": ["https://images.refero.design/screenshots/dub.co/desktop/c72dc094-be2d-4a20-9987-82e21d67da76_thumb.jpg"],
+      "platform": "web",
+      "jobs": ["comparison", "kpis"],
+      "take": "Filter and pivot analytics by segment (tag, time range, country, device) with visible filter chips and updated KPI cards showing narrowed results."
+    },
+    {
+      "id": "refero:9855",
+      "source": "refero",
+      "app": "Acuity Scheduling",
+      "title": "Client Import/Export",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9855",
+      "images": ["https://images.refero.design/screenshots/acuityscheduling.com/desktop/80d87910-775e-4096-9945-2e81b3212a94_thumb.jpg"],
+      "platform": "web",
+      "jobs": ["sharing"],
+      "take": "CSV import for batch client upload with column mapping preview, import confirmation, and success banner showing added records in client list."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "product": "uniqlo",
+  "flows": {
+    "mobbin:6583d026-d49c-48e6-8f2c-b0ce5c034e5e": {
+      "summary": "From an in-app Membership screen (barcode/ID visible) the user opens a multi-section Online Shopping Service Survey, fills required ratings and multi-selects, reviews answers, submits, and sees a thank-you—no QR and no login prompt on the form itself.",
+      "steps": [
+        "Membership — survey entry under account",
+        "Survey — Required overall satisfaction",
+        "Survey — sections 3–4 dropdowns + comment",
+        "Survey — multi-select reasons + rating",
+        "Review — Submit / Back to Entry Form",
+        "Thank-you confirmation"
+      ],
+      "steal": [
+        "Required * badge on the first section so mandatory rubric items are obvious on phone (step 2).",
+        "Numbered sections (1. Overall Satisfaction, 2. Reason…, 3. Navigation…, 4. Overall) instead of a progress bar for long phone forms (steps 2–4).",
+        "Review screen with Submit plus Back to Entry Form so answers are confirmed before commit (step 5).",
+        "Minimal thank-you confirmation with no extra CTA noise after submit (step 6)."
+      ],
+      "avoid": [
+        "Starting the phone form from a logged-in Membership hub with barcode/ID (step 1) — Essentials' post-session QR path should open the checklist without requiring an app account home."
+      ],
+      "fit": "Phone-side multi-section checklist fill + review + confirmation matches the learner/faculty form after a session; entry via Membership (not QR) and no QR in-flow means it is checklist UX, not the TV-QR distribution path.",
+      "jobs": [
+        "checklist",
+        "checklist-qr"
+      ],
+      "counter_example": false
+    }
+  }
+}

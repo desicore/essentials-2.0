@@ -1,0 +1,27 @@
+{
+  "product": "descript",
+  "flows": {
+    "mobbin:71f5995e-099a-4f4a-ac23-6e4d884cf1f2": {
+      "summary": "In a transcript-synced editor, the user opens Underlord Repurpose, configures Create clips (count, duration, layout, optional topic), and reaches a Captions style picker before Submit/Publish — human sets criteria before AI generates clips.",
+      "steps": [
+        "Underlord: Create clips / Find highlights menu",
+        "Viral bait toast for auto clip picking",
+        "Create clips: count 5, duration 30s",
+        "Create clips: duration 15s + layout carousel",
+        "Captions style grid over Create clips"
+      ],
+      "steal": [
+        "Create clips params: Number of clips, Clip duration, layout templates, optional Topic prompt before Submit (Create clips steps)",
+        "Repurpose menu also offers Create highlight reel and Find highlights beside Create clips (Underlord menu)",
+        "Word-aligned transcript + timeline so clip bounds are editable as text after generation (all steps)",
+        "Human configures then Submit — generation is not silent auto-publish (Create clips / Captions)"
+      ],
+      "avoid": [
+        "'Viral bait' / social-layout framing for clip picking — wrong tone for clinical debrief highlights; keep clinical topic criteria instead"
+      ],
+      "fit": "Best reference for Baseline ai-clips with human criteria before share; adapt Topic + count/duration into SRV phone review, drop viral layouts; Automatic multicam in Look Good hints camera-views but is not walked here.",
+      "jobs": ["ai-clips", "rewatch"],
+      "counter_example": false
+    }
+  }
+}

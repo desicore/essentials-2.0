@@ -1,0 +1,33 @@
+{
+  "product": "fresha",
+  "flows": {
+    "mobbin:4359c189-557b-424c-af85-3b1a7b5740bd": {
+      "summary": "From empty Products the user starts 'Add new product', fills name, barcode, brand, measure, descriptions, photo, category, Pricing and Inventory (stock code / SKU), saves, and lands on Product list.",
+      "steps": [
+        "Products empty with Start now",
+        "Add product form empty",
+        "Name with barcode warning",
+        "Brand and measure amount",
+        "Fill short and long descriptions",
+        "Photo uploading",
+        "Main photo assigned",
+        "Category still unset",
+        "Category added message",
+        "Pricing and retail switches",
+        "Supply price and SKU",
+        "Product list after create"
+      ],
+      "steal": [
+        "Before any products exist, one pitch offers 'Start now', import many at once, and low stock reminders together (screen 1).",
+        "Barcode validation warns without blocking save (screens 3–9).",
+        "A measure list paired with Amount (ml 100) fits volume consumables (screens 4–5).",
+        "An 'Enable retail sales' switch can hide sell and commission fields when the item is stock-only (screen 10)."
+      ],
+      "avoid": [
+        "Team member commission plus markup and tax on create are salon POS fields, not sim equipment (screens 10–11)."
+      ],
+      "fit": "Inventory: extends basic items with barcode plus unit and amount for consumables and later scan check-out; clash if we ship full retail pricing on create. Splitting Catalog from Inventory (Stocktakes / Stock orders / Suppliers) is a useful structure hint.",
+      "counter_example": false
+    }
+  }
+}

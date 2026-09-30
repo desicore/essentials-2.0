@@ -1,0 +1,44 @@
+{
+  "product": "slack",
+  "flows": {
+    "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7": {
+      "summary": "In a live huddle, the user opens More options, turns on push-to-talk, then uses a large hold-to-speak control that replaces ordinary mute.",
+      "steps": [
+        "More options — Turn on push-to-talk",
+        "PTT idle — muted mic overlay + dismiss X",
+        "Hold-to-talk ready — large green mic button",
+        "Hold-to-talk engaged — mic button with ripple"
+      ],
+      "steal": [
+        "Explicit mode switch 'Turn on push-to-talk' during an active session (step 1) — PTT is a mode, not a permanent mute replacement.",
+        "Idle overlay: struck mic + 'Push-to-talk' label + X to exit mode (step 2) — clear waiting-to-speak state.",
+        "Oversized hold target at the bottom (steps 3–4) — speak without hunting a tiny toolbar icon.",
+        "Ripple/press feedback on the mic button (step 4) — confirms the channel is open while held."
+      ],
+      "avoid": [
+        "Burying PTT under More → option for faculty who talk into rooms constantly (step 1) — primary room/simulator talk should stay one tap away."
+      ],
+      "fit": "Pattern for the live intercom / voice-of-manikin control beside SRV (not Transcript): hold-to-talk mode with idle vs open states during an active session."
+    },
+    "mobbin:5a85acae-251f-4a89-8b61-20b3dc15a020": {
+      "summary": "From Workflow templates, the user sets a scheduled standup that starts at a fixed time, is blocked until a recipient is chosen, then saves a previewed message step.",
+      "steps": [
+        "Templates — pick scheduled date & time standup",
+        "Canvas — Starts 8:00am + Needs attention (no recipient)",
+        "Send a message modal — missing channel, Save disabled",
+        "Send a message modal — channel selected + preview",
+        "Canvas — message step complete + updated toast"
+      ],
+      "steal": [
+        "Templates labeled by trigger type ('Scheduled date & time') (step 1) — operators pick how it starts, not a blank builder.",
+        "'Needs attention' + pink step until recipient is set; Save stays disabled (steps 2–3) — cannot publish an untargeted announce.",
+        "Linear Start → Then steps with Edit on each block (steps 2, 5) — reschedule or retarget mid-setup without rebuilding.",
+        "Inline message preview before Publish (steps 4–5) — see exact wording that will hit the room."
+      ],
+      "avoid": [
+        "General-purpose multi-step Workflow Builder for a one-shot scheduled room cue (steps 1–5) — overkill vs a simple schedule + target + message form."
+      ],
+      "fit": "Informs scheduled auto-announce (and by analogy ~5am self-test / auto-record) outside SRV: time trigger, required target, preview — not Annotation/Data Entry tabs."
+    }
+  }
+}

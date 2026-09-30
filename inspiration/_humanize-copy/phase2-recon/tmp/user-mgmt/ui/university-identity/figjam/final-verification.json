@@ -1,0 +1,55 @@
+{
+  "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+  "pageId": "5:422",
+  "verifiedAt": "2026-09-08T16:16:02.606369+00:00",
+  "complete": true,
+  "references": 32,
+  "boardImages": 62,
+  "reportImages": 69,
+  "sourceLinks": 32,
+  "sections": [
+    {
+      "question": "Q1",
+      "nodeId": "100:413"
+    },
+    {
+      "question": "Q2",
+      "nodeId": "105:418"
+    },
+    {
+      "question": "Q3",
+      "nodeId": "105:422"
+    },
+    {
+      "question": "Q4",
+      "nodeId": "105:426"
+    },
+    {
+      "question": "Q5",
+      "nodeId": "105:430"
+    },
+    {
+      "question": "Q6",
+      "nodeId": "105:434"
+    }
+  ],
+  "overviewNodeId": "105:438",
+  "page1BaselineUnchanged": true,
+  "structuralIssues": [],
+  "layoutIssues": [],
+  "visualPassed": true,
+  "verificationReceipts": [
+    "figjam/receipts/Q1-Q2-reconcile-wrapper.json",
+    "figjam/receipts/Q3-Q4-reconcile-wrapper.json",
+    "figjam/receipts/Q5-Q6-reconcile-wrapper.json",
+    "figjam/receipts/Q5-readability-fix-wrapper.json",
+    "figjam/receipts/final-audit-wrapper.json",
+    "figjam/receipts/page1-final-wrapper.json"
+  ],
+  "limitations": [
+    "Documentation excerpts are labelled and retained in full; Q6 intentionally has documentation evidence without product screenshots.",
+    "Image heights and caption baselines vary to preserve original aspect ratios.",
+    "Fine screenshot UI requires zoom or the full-size local report. Rox final state is upload accepted/processing, not completed import.",
+    "Final overview covers all sections; detailed screenshots were inspected per pair. Page1 preservation audit compares all eight top-level nodes and twelve sampled children to the preflight, supplemented by Page2-only mutation guards."
+  ]
+}

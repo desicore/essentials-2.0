@@ -1,0 +1,47 @@
+{
+  "product": "skiff",
+  "flows": {
+    "mobbin:278b5778-83b4-4ad3-a5ea-296d26fa2abb": {
+      "summary": "From empty week calendar, open New event sidebar, fill title/date/time (30-min default, live grid preview), adjust duration, and keep Save available beside optional participants/location/Repeats.",
+      "steps": [
+        "Empty week · + New event",
+        "Sidebar draft · Untitled · Save disabled",
+        "Title set · live grid preview",
+        "Date picker · mini calendar",
+        "Date moved · Repeats toggle off",
+        "Start-time menu · 15-min steps",
+        "Range 5:30–6:00 · full fields",
+        "Range extended 5:30–7:30 · Save"
+      ],
+      "steal": [
+        "Steps 1–2: Save stays disabled until a title exists; default slot is 30 minutes with live untitled/titled block on the week grid.",
+        "Steps 2–7: Sidebar create keeps the week grid visible — draft block updates as date/time change (manual conflict scan).",
+        "Steps 1 & 5–6: Core fields (title, date, start→end) first; All day / Repeats / participants / location / description / color stay optional on the same panel."
+      ],
+      "avoid": [
+        "No automated conflict or availability check while adding participants — only visual overlap on an empty grid."
+      ],
+      "fit": "Good cheap full-form-beside-calendar for simple sessions (scenario title, room as location, faculty/learners as participants); Repeats toggle is the series entry, not flexi rostering.",
+      "counter_example": false
+    },
+    "refero:1928": {
+      "summary": "Open a recurring Marketing All-Hands, choose Yes/No/Maybe, confirm scope Only this event vs All events, and see Maybe highlighted with a striped event block.",
+      "steps": [
+        "Week calendar · existing events",
+        "Event detail · Yes / No / Maybe",
+        "RSVP modal · this vs all events",
+        "Maybe selected · striped block"
+      ],
+      "steal": [
+        "Step 1: Inline Yes / No / Maybe on the event sidebar for the invitee (organizer labeled).",
+        "Step 3: After RSVP, striped fill on the selected occurrence distinguishes response state on the grid."
+      ],
+      "avoid": [
+        "Step 2 'Only this event' / 'All events' scope dialog duplicates Amie/Motion series-scope already covered elsewhere — don’t treat as a new pattern."
+      ],
+      "fit": "Learner/faculty invitee RSVP for session series; reuse Yes/No/Maybe + visual response state, borrow series-scope from prior course research not this capture.",
+      "jobs": ["simple-events", "outlook-sync"],
+      "counter_example": false
+    }
+  }
+}

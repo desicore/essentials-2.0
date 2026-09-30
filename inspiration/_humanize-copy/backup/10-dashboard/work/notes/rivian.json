@@ -1,0 +1,27 @@
+{
+  "product": "rivian",
+  "flows": {
+    "mobbin:7b9d5db3-24d8-49ae-827e-218db2b446dc": {
+      "summary": "User sees a vehicle home dominated by battery %, uses Lock/Unlock or Climate/Energy shortcuts, scrolls a 2×2 status-widget grid, then opens a vehicle menu where Updates is the highlighted action item.",
+      "steps": [
+        "Home — battery % dominant + Lock/Unlock",
+        "Home scrolled — Climate + Energy tiles",
+        "Vehicle menu — Updates highlighted",
+        "Widget grid — Climate / Energy / Gear Guard / Location",
+        "Vehicle menu — Updates (repeat)",
+        "Vehicle menu — Drivers and keys + secondary links"
+      ],
+      "steal": [
+        "Step 1: One status dominates (large battery %) — single primary glance metric, not a KPI strip.",
+        "Step 1: Single primary action pair is Lock/Unlock under the asset; secondary module tiles (Climate/Energy) sit below.",
+        "Step 4: Each widget shows status line + one-tap circular action (fan, charge, camera, map).",
+        "Step 3/5: Updates card uses color to surface a pending action above otherwise muted menu rows."
+      ],
+      "avoid": [
+        "Equal-weight colorful 2×2 widget grid (step 4) can become clutter if every module tile fights for attention — conflicts with product-owner show little, but precisely."
+      ],
+      "fit": "Dominant health % + one primary action is the dashboard system-health / center-overview pattern (All systems OK vs N rooms failing); Lock/Unlock maps to start/stop Recording readiness, Climate/Energy-style tiles hand off to Scheduling or Reports, Updates-style alerts stay dashboard-only action items.",
+      "jobs": ["system-health", "center-overview", "widgets", "action-items"]
+    }
+  }
+}

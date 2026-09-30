@@ -1,0 +1,44 @@
+{
+  "product": "deel",
+  "flows": {
+    "mobbin:ee3075cd-af6e-4a12-b483-b0045f9f0b41": {
+      "summary": "From the hiring Benefits step, admin opens Equipment, adds a device (type, model, serial, condition, notes) when inventory is empty, and ends with the laptop assigned and status Pending shipping.",
+      "steps": [
+        "Equipment card on Benefits",
+        "Choose device type",
+        "Empty inventory — Add New",
+        "Start add-device form",
+        "Enter model, serial, condition",
+        "Assigned — pending shipping"
+      ],
+      "steal": [
+        "Empty assign list (step 3): 'There are no devices to be assigned from your inventory' with Add New as the only path forward.",
+        "Device form (step 5): required Model + Serial/Unique ID with char limits; optional Condition; Notes helper 'These notes are shared with your worker.'",
+        "Post-assign state (step 6): item card shows type/model/serial plus Status = Pending shipping and note that shipping is marked later from device overview.",
+        "Assign flow gated Continue (step 3) stays disabled until a device is selected."
+      ],
+      "avoid": [
+        "Embedding full item creation inside an unrelated multi-step hire wizard — inventory create/assign should be reachable from Assets itself, not only during onboarding."
+      ],
+      "fit": "Extends Essentials items + check-out-manual: typed assets with serial/condition and assign-to-person, plus an explicit logistics status for 'out for delivery' between storage and borrower.",
+      "jobs": ["items", "check-out-manual"]
+    },
+    "mobbin:58cd5280-42c1-4bea-8d20-635fcbf3b882": {
+      "summary": "Assets list with location-status overview opens a ThinkPad quick-view: Tracking (In storage, intake date, no service) then Asset details (IDs, condition, purchase/EOL).",
+      "steps": [
+        "Assets list + location overview",
+        "Quick view — Tracking tab",
+        "Quick view — Asset details"
+      ],
+      "steal": [
+        "Location overview bar (step 1): With worker / In transit / In storage / Write off counts across total inventory.",
+        "List actions (step 1): Bulk import + Add asset; filters for Worker, storage locations, Category; Quick view per row.",
+        "Tracking tab (step 2): Location badge In storage, named storage site, Storage intake date; empty service state offers send to storage / assign / retire.",
+        "Asset details (step 3): Asset ID + Serial with copy; Condition; Purchase date; End of life date (even when Not specified)."
+      ],
+      "avoid": [],
+      "fit": "Strong items pattern for Essentials asset registry: status distribution, quick drawer with tracking vs identity, lifecycle dates — lighter than Enterprise Inventory Manager counting but richer than a flat list.",
+      "jobs": ["items"]
+    }
+  }
+}

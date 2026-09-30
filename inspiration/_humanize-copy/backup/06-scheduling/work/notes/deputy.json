@@ -1,0 +1,70 @@
+{
+  "product": "deputy",
+  "flows": {
+    "mobbin:3ca22a69-3cb8-4993-9cbd-f07f63757800": {
+      "summary": "From a Week-by-Area grid, the manager opens Auto, chooses Auto-build shift structure, sets lengths/requirements/start times, runs Build shifts through a progress modal, and lands on a grid with EMPTY/OPEN slots plus a warning on one shift.",
+      "steps": [
+        "Week by Area — filled grid + Open + footer status",
+        "Auto menu — regular hours / build structure / fill empty",
+        "Auto Build modal — lengths, prior schedules, start times",
+        "Auto Build — Initializing progress + trivia",
+        "Result grid — EMPTY/OPEN cards + warning triangle"
+      ],
+      "steal": [
+        "Auto menu splits three jobs: regular hours, build structure, fill empty (step 2) — cheap adoption without one opaque AI button.",
+        "Auto Build params: ordered shift lengths, requirements from previous schedules, start-at-:00 constraint (step 3).",
+        "Footer status counts empty/published/open/warnings while generation runs (steps 1, 4–5).",
+        "Post-build EMPTY cards vs OPEN badge vs red warning triangle on a cell (step 5)."
+      ],
+      "avoid": [
+        "Trivia/fact filler during Auto Build progress (step 4) — wastes coordinator attention; use schedule preview instead."
+      ],
+      "fit": "Maps to flexi auto-generate N sessions from prior demand: keep structure-then-fill + EMPTY/OPEN/warning states; extend LearningSpace flexi, not full AI labor planning.",
+      "jobs": ["flexi-custom", "simple-events"],
+      "counter_example": false
+    },
+    "mobbin:6a3f27e2-9c1c-4dbd-a527-d26366020606": {
+      "summary": "Manager starts from an empty Week-by-Area resource grid with people sidebar and per-cell +, drafts unpublished grey shifts, then publishes them to green cards with an Open shift and zero warnings.",
+      "steps": [
+        "Empty Week by Area — Areas rows + cell + + Auto/Copy",
+        "Draft grid — grey unpublished cards + Publish 12 shifts",
+        "Published grid — green cards + OPEN badge + legend"
+      ],
+      "steal": [
+        "Week by Area: rows = role/area, columns = days, every empty cell has + (steps 1–3).",
+        "People sidebar shows Open shifts + per-person hours/cost (steps 1–3).",
+        "Explicit draft→Publish: grey unpublished then green published (steps 2–3).",
+        "Footer legend: empty/unpublished/published/open/warnings/leave/unavailable (steps 1–3)."
+      ],
+      "avoid": [],
+      "fit": "Closest resource-by-room pattern for Essentials: Areas ≈ rooms/stations; keep draft/publish + open slots; drop labor-cost if unused.",
+      "jobs": ["new-scheduling", "flexi-custom", "simple-events"],
+      "counter_example": false
+    },
+    "mobbin:33ce7034-4170-4403-be14-e3b58184ae59": {
+      "summary": "Employee opens Me calendar then Schedule, selects their shift, chooses Can't work → Swap shift, picks a teammate's shift with a message, sends the request, and sees toast plus SWAP/OPEN badges on the grid.",
+      "steps": [
+        "Me calendar — week days + Available Shifts",
+        "Week by Area — published + OPEN Admin slot",
+        "Shift popover — Sam Lee details + Can't work",
+        "Can't work menu — Offer shift / Swap shift",
+        "Swap modal — search teammates, checkbox, Send (0)",
+        "Swap modal — Alex selected + message + Send (1)",
+        "Grid + toast — Shift swap request sent",
+        "Grid — SWAP and OPEN badges on cards"
+      ],
+      "steal": [
+        "Can't work splits Offer vs Swap (step 4) — claim pool vs peer trade.",
+        "Swap modal: your shift summary, teammate search, selectable peer shifts, default message, Send count (steps 5–6).",
+        "Grid badges LOCKED / OPEN / SWAP after request (steps 7–8).",
+        "Me calendar shows who is Scheduled this day via avatars (step 1)."
+      ],
+      "avoid": [
+        "Allowing Admin↔Manager swap without eligibility gate (steps 5–6) — in sim, faculty/learner roles must stay constrained."
+      ],
+      "fit": "Pattern for learner/faculty self-serve swap with coordinator visibility via SWAP badge; pair with approval before calendar commits.",
+      "jobs": ["flexi-custom"],
+      "counter_example": false
+    }
+  }
+}

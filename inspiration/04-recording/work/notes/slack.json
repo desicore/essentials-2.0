@@ -1,0 +1,44 @@
+{
+  "product": "slack",
+  "flows": {
+    "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7": {
+      "summary": "In a live huddle, the user turns on push-to-talk from 'More options' and then talks by holding down a large button instead of using the normal mute.",
+      "steps": [
+        "'More options' menu: turn on push-to-talk",
+        "Push-to-talk on, microphone muted, X to exit",
+        "Large green microphone button, ready to hold",
+        "Button held down; rings show it is live"
+      ],
+      "steal": [
+        "Push-to-talk is a mode you switch on during a session (screen 1), not a permanent replacement for mute.",
+        "While push-to-talk is on, a crossed-out microphone, a 'Push-to-talk' label and an X to exit make it clear you are not live yet (screen 2).",
+        "A large button at the bottom of the screen lets the user talk without looking for a tiny icon (screens 3 to 4).",
+        "Rings pulse around the microphone button while it is held, so the user knows the channel is open (screen 4)."
+      ],
+      "avoid": [
+        "Push-to-talk is hidden under 'More' (screen 1), but faculty who talk into rooms need room or simulator audio one tap away."
+      ],
+      "fit": "Recording: a model for talking into the room or as the voice of the manikin from beside the SRV, with a hold-to-talk button that clearly shows when you are live."
+    },
+    "mobbin:5a85acae-251f-4a89-8b61-20b3dc15a020": {
+      "summary": "From Slack's workflow templates, the user sets up a daily standup message at a fixed time, can't publish until a recipient is chosen, and saves the message after previewing it.",
+      "steps": [
+        "Templates, including 'Scheduled date & time'",
+        "Workflow starts 8:00am; one step 'Needs attention'",
+        "Message step, 'Save' not yet available",
+        "Message step with channel and preview",
+        "Workflow with the message step completed"
+      ],
+      "steal": [
+        "Templates are grouped by what starts them, such as 'Scheduled date & time' (screen 1), so operators pick a trigger instead of starting from scratch.",
+        "A step with no recipient is marked pink with 'Needs attention' and can't be saved (screens 2 to 3), so an announcement with no target can't go out.",
+        "Both the trigger and each following step have an 'Edit' link (screens 2 and 5), so the user can change the time or target without starting over.",
+        "A preview before 'Publish' shows the exact wording that will be played in the room (screens 4 to 5)."
+      ],
+      "avoid": [
+        "A general workflow builder with many steps is too much for a single scheduled room message, compared with a simple form for time, target and message."
+      ],
+      "fit": "Recording: useful for scheduled announcements, the 5 am self-test and automatic recording outside the SRV. Each needs a time, a required target and a preview."
+    }
+  }
+}

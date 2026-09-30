@@ -1,0 +1,55 @@
+{
+  "product": "toggl-track",
+  "flows": {
+    "mobbin:b9954846-af25-412f-856b-74fb74503c04": {
+      "summary": "From the timer list, user switches to Pomodoro, names/tags a focus session, starts through notification prompts, runs (including full-screen), reaches near-end, then hits the break phase and confirms skipping it.",
+      "steps": [
+        "List view + quick-start play",
+        "Pomodoro ready 25:00 Focus",
+        "Focus modal: name + project/tags",
+        "Focus modal: project chip saved",
+        "Named session ready / Start session",
+        "Running + Allow notifications dialog",
+        "System notification permission",
+        "Focus running 24:46 Stop",
+        "Full-screen glanceable timer",
+        "Focus near end 00:02",
+        "Break ready Start / Skip",
+        "Skip-break confirmation"
+      ],
+      "steal": [
+        "Ready: session label + project/person chip sit above a huge dial; full-width Start session; expand control for room-visible full-screen.",
+        "Running: Stop (pause clock) vs underlined End focus session (finish cycle)—two distinct end intents.",
+        "Full-screen: oversized digits + Stop / Exit full-screen for across-the-room readability.",
+        "Break: color/state flip (green Break / Relax!) and confirm modal before Skip this break."
+      ],
+      "avoid": [
+        "Back-to-back in-app then system notification permission dialogs mid-run interrupt the live session—gate permissions before start."
+      ],
+      "fit": "Mobile (or propped tablet) beats SRV for in-room phase timers customers buy separately today; full-screen + phase colors replace dedicated digital timers—Pomodoro work/break labels would map to sim phases, not focus/break slang.",
+      "jobs": ["timer"],
+      "counter_example": false
+    },
+    "mobbin:110e340a-c8ad-43c7-b46e-1b58981b067f": {
+      "summary": "From an empty timer list with a start tooltip, the list fills with today’s entries and restart plays, then suggestions plus activity, then multi-day history with favorites and a sticky start bar.",
+      "steps": [
+        "Empty list + Start the timer tip",
+        "Today entries + per-row restart",
+        "Suggestions + Your Activity",
+        "Multi-day history + favorites start bar"
+      ],
+      "steal": [
+        "Empty: illustration + tooltip pinned to the thumb-zone play button teaches first start.",
+        "List: each past entry has a one-tap play to restart the same named timer.",
+        "Suggestions: hideable quick-restart cards above activity for frequent phases.",
+        "Sticky bottom: “I’m working on…” + large play stays available while scrolling history."
+      ],
+      "avoid": [
+        "List alone does not show an active running state or room-visible countdown—pair with a dedicated running/fullscreen surface for live sim phases."
+      ],
+      "fit": "Mobile helps faculty/tech juggle multiple named phase timers on the floor (extends separate digital timers); restart-from-history is the win over desktop for repeating scenario phases.",
+      "jobs": ["timer"],
+      "counter_example": false
+    }
+  }
+}

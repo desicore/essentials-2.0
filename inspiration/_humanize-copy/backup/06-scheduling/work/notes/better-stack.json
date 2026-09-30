@@ -1,0 +1,28 @@
+{
+  "product": "better-stack",
+  "flows": {
+    "mobbin:fa27d48b-3a4d-4764-b661-6e6ec0137535": {
+      "summary": "From empty Who's on-call with drag hint, admin opens Configure rotations, schedules people via a people+time modal with Override other on-calls, sees the event on the month calendar, then configures Pre-fill rotations (roster, length, start) for two years.",
+      "steps": [
+        "Empty Who's on-call — nobody on-call + drag hint",
+        "Configure rotations — month calendar + draggable people",
+        "Schedule on-call modal — one member + Override",
+        "Schedule on-call modal — two members + Override",
+        "Month calendar — saved multi-person block",
+        "Pre-fill rotations — roster, length Day, start, 2 years"
+      ],
+      "steal": [
+        "Empty-state instruction: drag team members into schedule (step 1).",
+        "Simple create: simultaneous members + start/end + Override other on-calls (steps 3–4).",
+        "People list with color + drag handles beside month/week calendar (steps 2, 5).",
+        "Pre-fill: ordered roster, rotation length unit, start datetime, next two years, Remove all future (step 6)."
+      ],
+      "avoid": [
+        "Blind Override other on-calls without showing who is displaced (steps 3–4) — sim rooms need explicit conflict resolution."
+      ],
+      "fit": "Cheapest rotation pre-fill for N sessions from a roster; map members→learners/faculty, length→session block; keep Override as opt-in conflict policy only.",
+      "jobs": ["flexi-custom", "simple-events", "new-scheduling"],
+      "counter_example": false
+    }
+  }
+}

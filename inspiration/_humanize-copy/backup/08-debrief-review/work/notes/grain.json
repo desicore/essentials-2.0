@@ -1,0 +1,66 @@
+{
+  "product": "grain",
+  "flows": {
+    "mobbin:2523ca18-b9ac-4576-8555-a20d27016d3e": {
+      "summary": "From My Meetings list, open a recording and review AI Summary then Chapters with timestamped bullets beside video and a speaker talk-time timeline.",
+      "steps": [
+        "My Meetings list + auto-record banner",
+        "Summary tab + tip: click timed AI notes",
+        "Summary + video + speaker timeline",
+        "Chapters tab with timed bullets"
+      ],
+      "steal": [
+        "Step 2: Onboarding tip 'Skip to the important parts' teaches that AI Outcomes with timestamps jump video + transcript.",
+        "Step 2–3: Outcomes and Action Items each carry clickable times linking claim → evidence moment.",
+        "Step 3: Speaker timeline under video shows % talk time + colored bars, with empty Comments/Clips rows ready for markers.",
+        "Step 4: Chapters list nests timed bullets under each chapter; chapter name overlays the video scrubber."
+      ],
+      "avoid": [
+        "AI Summary/Chapters are live with Share/Ask AI immediately — no faculty edit/approve gate before learners see them (Baseline wants human review)."
+      ],
+      "fit": "Extends SRV right-panel Annotation/Transcript with AI Purpose·Chapters·Outcomes·Action Items; speaker timeline complements chapter markers; clashes with Baseline if AI notes auto-show on the debrief big screen.",
+      "jobs": ["ai-debrief", "rewatch"],
+      "counter_example": false
+    },
+    "mobbin:47438eb0-03cb-427d-a962-dd32fd19c268": {
+      "summary": "Open a meeting review, switch Summary → searchable speaker-labelled Transcript synced to video, then use a focused player with 10s skips and 1x speed.",
+      "steps": [
+        "Summary + video + speaker timeline",
+        "Transcript search + speaker labels",
+        "Focused player: chapter label + speed"
+      ],
+      "steal": [
+        "Step 2: Search transcript with hit highlight ('Grain') while speaker colors match the timeline bars.",
+        "Step 2: Transcript tab sits peer to Summary/Chapters — same panel, one click to verify AI claims against dialogue.",
+        "Step 3: Minimal player keeps chapter chip, 10s ±, and explicit 1x speed without chrome competing with the room display."
+      ],
+      "avoid": [],
+      "fit": "Maps cleanly onto SRV left video + right Transcript/Annotation tabs and chaptered timeline; focused player is a candidate big-screen-only mode while phone holds notes.",
+      "counter_example": false
+    },
+    "mobbin:6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9": {
+      "summary": "On Coaching Scorecard for a multi-person recording, pick/add a scorecard for one speaker, answer Y/N and 1–5 items with N/A and notes, submit, then see results under video with Send to Sam.",
+      "steps": [
+        "Scorecard rubric + avg score under video",
+        "Scorecard picker: Add / Manage",
+        "New Scorecard: speaker, type, visibility",
+        "Score form empty — Submit disabled",
+        "Y/N + scale answered — Submit on",
+        "Per-question Add note expanded",
+        "Note filled — ready to Submit",
+        "Submitted Experience scorecard under video"
+      ],
+      "steal": [
+        "Step 1: Rubric rows with 1–5 color chips + large avg badge beside multi-tile video — grade while rewatching.",
+        "Step 3: New Scorecard gates Speaker, Scorecard template, and Viewable-by before scoring starts.",
+        "Step 4→5: Submit stays disabled until required answers; N/A on each item.",
+        "Step 1/8: Persistent 'Send to Sam' shares the finished review to one named learner."
+      ],
+      "avoid": [
+        "Scores one speaker at a time — no whole-team grade with per-person overrides in one pass (Baseline dominant group-grading mode)."
+      ],
+      "fit": "Extends SRV Data Entry with rubric under video and named share-out; useful for individual overrides inside a team session, but needs a group-first shell Essentials plans as default.",
+      "counter_example": false
+    }
+  }
+}

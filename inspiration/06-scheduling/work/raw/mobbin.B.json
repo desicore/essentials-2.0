@@ -1,0 +1,297 @@
+{
+  "references": [
+    {
+      "id": "mobbin:6a3f27e2-9c1c-4dbd-a527-d26366020606",
+      "source": "mobbin",
+      "app": "Deputy",
+      "title": "Schedule",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6a3f27e2-9c1c-4dbd-a527-d26366020606",
+      "images": [
+        "https://mobbin.com/api/mcp/short/eVqy8DhB",
+        "https://mobbin.com/api/mcp/short/A4cOr6ap",
+        "https://mobbin.com/api/mcp/short/kGjZhldo"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Weekly staff schedule view with team members in rows, multi-day column layout, drag-to-assign shifts with color coding."
+    },
+    {
+      "id": "mobbin:9b6a37a7-8bbf-4883-a999-463f46cfbc8e",
+      "source": "mobbin",
+      "app": "7shifts",
+      "title": "Schedules",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9b6a37a7-8bbf-4883-a999-463f46cfbc8e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ialtzfGG",
+        "https://mobbin.com/api/mcp/short/ffw9JLsw",
+        "https://mobbin.com/api/mcp/short/uCcDUiVY",
+        "https://mobbin.com/api/mcp/short/uNADNf8b",
+        "https://mobbin.com/api/mcp/short/41rtcs0j"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Schedules by department and role with conflict/overtime/warning indicators; dashboard shows Open Shifts, Cook, Diner, Finance, Cashier, Floor House, Server sections."
+    },
+    {
+      "id": "mobbin:3ca22a69-3cb8-4993-9cbd-f07f63757800",
+      "source": "mobbin",
+      "app": "Deputy",
+      "title": "Adding shifts with AI",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3ca22a69-3cb8-4993-9cbd-f07f63757800",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Tenyp9ot",
+        "https://mobbin.com/api/mcp/short/SlwkcZ10",
+        "https://mobbin.com/api/mcp/short/D0h8oAnZ",
+        "https://mobbin.com/api/mcp/short/zYeOwxUw",
+        "https://mobbin.com/api/mcp/short/OTMsiRMc"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "AI-powered shift auto-generation dialog: set shift lengths, requirements (based on prior schedules), start times; auto-build generates and displays shifts in calendar."
+    },
+    {
+      "id": "mobbin:33ce7034-4170-4403-be14-e3b58184ae59",
+      "source": "mobbin",
+      "app": "Deputy",
+      "title": "Requesting a shift swap",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/33ce7034-4170-4403-be14-e3b58184ae59",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sDk55Itc",
+        "https://mobbin.com/api/mcp/short/hy5TKKoH",
+        "https://mobbin.com/api/mcp/short/6rrSHxBY",
+        "https://mobbin.com/api/mcp/short/hT4589lw",
+        "https://mobbin.com/api/mcp/short/Q5QywtYx",
+        "https://mobbin.com/api/mcp/short/SPErjc8c",
+        "https://mobbin.com/api/mcp/short/5LRHKgqm",
+        "https://mobbin.com/api/mcp/short/8I1tVgYB"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Employee initiates shift swap via calendar, searches team members, proposes alternative slot, manager reviews and approves in schedule view."
+    },
+    {
+      "id": "mobbin:430a972f-05fe-4a55-909c-0ca1fa08a181",
+      "source": "mobbin",
+      "app": "7shifts",
+      "title": "Shift pool",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/430a972f-05fe-4a55-909c-0ca1fa08a181",
+      "images": [
+        "https://mobbin.com/api/mcp/short/4gOvjG4S",
+        "https://mobbin.com/api/mcp/short/hGFTadNu",
+        "https://mobbin.com/api/mcp/short/99ZXr9yn",
+        "https://mobbin.com/api/mcp/short/fIgYLG1U"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Shift pool dashboard shows pending shift pool requests and up-for-grabs open shifts with offering employee, time, location, department, role."
+    },
+    {
+      "id": "mobbin:5a0a692f-7910-4315-929a-d0a123d4f3c3",
+      "source": "mobbin",
+      "app": "Deputy",
+      "title": "Claiming a shift",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5a0a692f-7910-4315-929a-d0a123d4f3c3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ytgEyVJq",
+        "https://mobbin.com/api/mcp/short/bg4WpB5r",
+        "https://mobbin.com/api/mcp/short/wd55Wfnr",
+        "https://mobbin.com/api/mcp/short/LrpqlMLU"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Employee views available shifts in modal, selects one, and claims it; schedule updates and success notification."
+    },
+    {
+      "id": "mobbin:5b627af5-e4b7-47ec-8d86-154da7cdb67d",
+      "source": "mobbin",
+      "app": "7shifts",
+      "title": "Creating an open shift",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5b627af5-e4b7-47ec-8d86-154da7cdb67d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/iD227yeL",
+        "https://mobbin.com/api/mcp/short/WuWsZyOp",
+        "https://mobbin.com/api/mcp/short/QtfWkfGx",
+        "https://mobbin.com/api/mcp/short/gpNeai5y",
+        "https://mobbin.com/api/mcp/short/Lk3zzcrR",
+        "https://mobbin.com/api/mcp/short/jI6Jo4Oi"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Manager creates open shift with details (role, date, time, location), configurable to offer to all locations or specific role, with optional notes."
+    },
+    {
+      "id": "mobbin:23bf0af9-943c-4ed2-ad8f-6203131d5560",
+      "source": "mobbin",
+      "app": "Cal.com",
+      "title": "Booking an event",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/23bf0af9-943c-4ed2-ad8f-6203131d5560",
+      "images": [
+        "https://mobbin.com/api/mcp/short/0RLTIXqm",
+        "https://mobbin.com/api/mcp/short/S4Gsqrq6",
+        "https://mobbin.com/api/mcp/short/jRFgMsv7",
+        "https://mobbin.com/api/mcp/short/DHD3VWX5",
+        "https://mobbin.com/api/mcp/short/YQaYerlt",
+        "https://mobbin.com/api/mcp/short/eyfdXhFr",
+        "https://mobbin.com/api/mcp/short/Xz86vAjm",
+        "https://mobbin.com/api/mcp/short/PVgQdqIR",
+        "https://mobbin.com/api/mcp/short/JwKnfqWJ"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Group event booking: guest selects date/time slot from multi-day calendar with capacity/location selection, enters details, confirms and receives email."
+    },
+    {
+      "id": "mobbin:fe70dff7-65a4-47f6-8cbd-211f7ca82639",
+      "source": "mobbin",
+      "app": "Amie",
+      "title": "Booking a slot",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fe70dff7-65a4-47f6-8cbd-211f7ca82639",
+      "images": [
+        "https://mobbin.com/api/mcp/short/P8yfgUay",
+        "https://mobbin.com/api/mcp/short/6G4DSQd4",
+        "https://mobbin.com/api/mcp/short/ew2OFRqK",
+        "https://mobbin.com/api/mcp/short/nzXQIBYm",
+        "https://mobbin.com/api/mcp/short/lDBMFpG4"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Event booking with location-aware slot selection, date navigation, time slot ranges displayed, user details collection, and confirmation."
+    },
+    {
+      "id": "mobbin:58c88fe6-2777-4b0f-8011-c816bff6dbd8",
+      "source": "mobbin",
+      "app": "Calendly",
+      "title": "Creating an event (group)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/58c88fe6-2777-4b0f-8011-c816bff6dbd8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/BKiOxWbc",
+        "https://mobbin.com/api/mcp/short/Z19yfHvM",
+        "https://mobbin.com/api/mcp/short/dE1pnsL8",
+        "https://mobbin.com/api/mcp/short/XB01JYIY",
+        "https://mobbin.com/api/mcp/short/4VibMPzi",
+        "https://mobbin.com/api/mcp/short/ULU3tsWO",
+        "https://mobbin.com/api/mcp/short/xHu8dZUN",
+        "https://mobbin.com/api/mcp/short/FmNE3CQ6",
+        "https://mobbin.com/api/mcp/short/lifJfFOS",
+        "https://mobbin.com/api/mcp/short/zfTIiMAe",
+        "https://mobbin.com/api/mcp/short/lG57LJU2",
+        "https://mobbin.com/api/mcp/short/KAlxPmOH"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Group event creation: set event type, duration, date/times, locations, availability per slot, max attendees, and publish to shareable link."
+    },
+    {
+      "id": "mobbin:40bd9265-6569-49af-a402-77cd8de347ca",
+      "source": "mobbin",
+      "app": "Cal.com",
+      "title": "Creating a team event",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/40bd9265-6569-49af-a402-77cd8de347ca",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ADwLFadM",
+        "https://mobbin.com/api/mcp/short/H6IVFbJs",
+        "https://mobbin.com/api/mcp/short/NfJ8LzuY",
+        "https://mobbin.com/api/mcp/short/ea3VpFTT",
+        "https://mobbin.com/api/mcp/short/KbfoAJyf",
+        "https://mobbin.com/api/mcp/short/iuvbUWaz",
+        "https://mobbin.com/api/mcp/short/Na2L8BsT"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Team event setup: event type selection, duration, scheduling preferences (availability, max group size for slots), invite integration."
+    },
+    {
+      "id": "mobbin:8751b64c-7f92-4fc8-af48-92927e6b2cf6",
+      "source": "mobbin",
+      "app": "Calendly",
+      "title": "Booking a voted time slot",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8751b64c-7f92-4fc8-af48-92927e6b2cf6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5AyovSDU",
+        "https://mobbin.com/api/mcp/short/ksXivHjj",
+        "https://mobbin.com/api/mcp/short/vbEp5hFt",
+        "https://mobbin.com/api/mcp/short/P0UuPalS",
+        "https://mobbin.com/api/mcp/short/SQoagmvk"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Meeting poll booking: guest votes on time options, selects final slot, and confirms; integrates with calendar (Google Meet, etc.)."
+    },
+    {
+      "id": "mobbin:5c1d65f9-65f5-48a9-b250-d04ba6f1a7a8",
+      "source": "mobbin",
+      "app": "Calendly",
+      "title": "Creating an event (round robin)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5c1d65f9-65f5-48a9-b250-d04ba6f1a7a8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/bpROfNcO",
+        "https://mobbin.com/api/mcp/short/wTOxS9ym",
+        "https://mobbin.com/api/mcp/short/rptUynm2",
+        "https://mobbin.com/api/mcp/short/m0dQgQ8G",
+        "https://mobbin.com/api/mcp/short/WmzSQh3V",
+        "https://mobbin.com/api/mcp/short/NJnGQz00",
+        "https://mobbin.com/api/mcp/short/hLimwh0U",
+        "https://mobbin.com/api/mcp/short/BXZcXq9p",
+        "https://mobbin.com/api/mcp/short/WKBhJNT0",
+        "https://mobbin.com/api/mcp/short/ExjTWXHN",
+        "https://mobbin.com/api/mcp/short/VvyEwgtP",
+        "https://mobbin.com/api/mcp/short/ZjGJTCPR"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Round-robin event creation: choose event type (Round Robin), configure to rotate hosts among team members, set duration and availability."
+    },
+    {
+      "id": "mobbin:41ac123b-0f7c-4d55-9acd-c721974fe839",
+      "source": "mobbin",
+      "app": "Cal.com",
+      "title": "Creating a team",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/41ac123b-0f7c-4d55-9acd-c721974fe839",
+      "images": [
+        "https://mobbin.com/api/mcp/short/6QZtG3EH",
+        "https://mobbin.com/api/mcp/short/HwsX07kU",
+        "https://mobbin.com/api/mcp/short/zzLtlu9f",
+        "https://mobbin.com/api/mcp/short/3uLuIgJN",
+        "https://mobbin.com/api/mcp/short/a2rQ7Fdf",
+        "https://mobbin.com/api/mcp/short/NVuuMPGL",
+        "https://mobbin.com/api/mcp/short/44urSwps"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "Team setup: create team name, add team members by email with role assignment (collective/round-robin/fixed), manage availability."
+    },
+    {
+      "id": "mobbin:fa27d48b-3a4d-4764-b661-6e6ec0137535",
+      "source": "mobbin",
+      "app": "Better Stack",
+      "title": "Scheduling on-call",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fa27d48b-3a4d-4764-b661-6e6ec0137535",
+      "images": [
+        "https://mobbin.com/api/mcp/short/BtyXx4Ta",
+        "https://mobbin.com/api/mcp/short/1QeXwsAu",
+        "https://mobbin.com/api/mcp/short/HC7LiqE9",
+        "https://mobbin.com/api/mcp/short/V1xEx24n",
+        "https://mobbin.com/api/mcp/short/xPXvBjf3",
+        "https://mobbin.com/api/mcp/short/U4DoVXdy"
+      ],
+      "platform": "web",
+      "jobs": ["flexi-custom"],
+      "take": "On-call rotation scheduler: configure primary rotations by team members, set pre-fill schedule options, drag team members into rotation calendar."
+    }
+  ]
+}

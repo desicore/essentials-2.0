@@ -1,0 +1,23 @@
+{
+  "product": "tesla",
+  "flows": {
+    "mobbin:d3ffcd9d-2646-4c40-aa25-7fc37e0fb925": {
+      "summary": "From Security & Drivers with Sentry Mode on, the user opens View live camera and lands on a Live Camera screen with one feed, a vehicle diagram of camera positions, Honk/Flash, and a record control.",
+      "steps": [
+        "Security & Drivers — Sentry on + View live camera",
+        "Live Camera — feed + vehicle camera map"
+      ],
+      "steal": [
+        "Armed prerequisite: Sentry Mode toggle ON before View live camera (step 1) — live view gated on recording/monitor state.",
+        "Floor-plan style camera map: position dots + FOV wedges around the subject (step 2) — pick a camera by place, not by cryptic device name.",
+        "Single live preview above the map (step 2) — switch cameras without leaving the monitoring screen.",
+        "Grid control beside the map (step 2) — shortcut toward multi-angle layout from the same picker."
+      ],
+      "avoid": [
+        "Honk / Flash vehicle actions on the camera screen (step 2) — wrong metaphor for sim rooms; keep space for PTZ/presets or room/simulator announce instead."
+      ],
+      "fit": "Informs Center Overview / simplified camera picker outside full SRV rebuild: room diagram with camera dots to switch the live feed (not continuous PTZ steering; no face ID).",
+      "jobs": ["camera-control"]
+    }
+  }
+}

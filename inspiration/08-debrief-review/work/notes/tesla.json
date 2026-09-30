@@ -1,0 +1,22 @@
+{
+  "product": "tesla",
+  "flows": {
+    "mobbin:cc3eb338-5efa-4102-9440-b4764ee90620": {
+      "summary": "From Security and Drivers, the user opens Dashcam Viewer and browses saved clips filtered by All, Sentry or Dashcam, grouped by date with time and trigger type.",
+      "steps": [
+        "Security menu, then Dashcam Viewer",
+        "Dashcam Clips list (All / Sentry / Dashcam)"
+      ],
+      "steal": [
+        "Segmented All / Sentry / Dashcam filters separate recording trigger types before opening a clip (screen 2).",
+        "Date headers plus thumbnail, time and type label (for example Sentry) make a long clip library easy to scan (screen 2).",
+        "A single named entry 'Dashcam Viewer · View saved clips' keeps rewatch findable inside a dense settings list (screen 1)."
+      ],
+      "avoid": [
+        "The flow stops at the library, with no playback, markers or multi-camera chooser, so it is thin for SRV or debrief review itself."
+      ],
+      "fit": "Debrief and review: useful for a session or clip library before opening the SRV. It does not show camera-angle switching or in-player rewatch controls.",
+      "counter_example": false
+    }
+  }
+}

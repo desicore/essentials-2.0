@@ -1,0 +1,30 @@
+{
+  "product": "dropbox",
+  "flows": {
+    "mobbin:8fee942f-3bba-4b19-949e-9011dfee633f": {
+      "summary": "User opens Share, drills into link settings, turns on expiration + password + disable-downloads, saves, and returns to the share sheet with restrictions acknowledged.",
+      "steps": [
+        "Share file sheet + invitee",
+        "Link-for-editing settings (all off)",
+        "Turn expiration on",
+        "Pick expiry date on calendar",
+        "Expiry date set 12/31/2024",
+        "Require password + Set password field",
+        "Password entered (masked)",
+        "Disable downloads on + scope banner",
+        "Share sheet · Settings saved · Restrictions apply"
+      ],
+      "steal": [
+        "Steps 1–2: separate tabs for 'Link for editing' vs 'Link for viewing' so download/view policy is not conflated with edit rights.",
+        "Steps 2–7: stacked toggles — Expiration (date), Require password, Disable downloads — each off by default until needed.",
+        "Step 7: yellow scope warning 'This applies only within Dropbox' when disable-downloads is on — honest limit disclosure.",
+        "Step 8: after save, share sheet shows 'Restrictions apply · Modify' under Copy link plus a 'Settings saved' toast."
+      ],
+      "avoid": [
+        "Nine screens of nearly identical settings UI for one config job — Essentials should keep expiry/password/download on one compact panel, not a long toggle walkthrough."
+      ],
+      "fit": "Directly extends Baseline expiring learner share links: password + disable-downloads + post-save 'restrictions apply' cue; still needs an explicit download consent step for identifiable sim video.",
+      "counter_example": false
+    }
+  }
+}

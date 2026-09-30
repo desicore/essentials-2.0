@@ -1,0 +1,100 @@
+{
+  "references": [
+    {
+      "id": "mobbin:cc3eb338-5efa-4102-9440-b4764ee90620",
+      "source": "mobbin",
+      "app": "Tesla",
+      "title": "Dashcam clips",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/cc3eb338-5efa-4102-9440-b4764ee90620",
+      "images": [
+        "https://mobbin.com/api/mcp/short/urUfPsCG",
+        "https://mobbin.com/api/mcp/short/CX43t1ER"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-views", "rewatch"],
+      "take": "Tabs for multi-camera selection (Sentry/Dashcam) with chronological clip list showing timestamps and camera sources."
+    },
+    {
+      "id": "mobbin:366fb350-af85-425d-9383-b9db246ea330",
+      "source": "mobbin",
+      "app": "GoPro Quik",
+      "title": "Media",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/366fb350-af85-425d-9383-b9db246ea330",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5dtHhVik",
+        "https://mobbin.com/api/mcp/short/6fMl42Qe",
+        "https://mobbin.com/api/mcp/short/CCvKrH7B",
+        "https://mobbin.com/api/mcp/short/UIUxmVmF"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-views", "rewatch"],
+      "take": "Browsing media by source (App/Cloud/Phone tabs), selecting clips, timeline scrubbing with frame-level scrub handles visible."
+    },
+    {
+      "id": "mobbin:e5e0201e-bd28-4bc4-920f-20da4f6ccbff",
+      "source": "mobbin",
+      "app": "Locket",
+      "title": "Switching to grid view",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e5e0201e-bd28-4bc4-920f-20da4f6ccbff",
+      "images": [
+        "https://mobbin.com/api/mcp/short/pPX6kmZn",
+        "https://mobbin.com/api/mcp/short/C6E0nB8S"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-views"],
+      "take": "Switching from single view to a 2×2 multi-camera grid layout with tappable camera tiles."
+    },
+    {
+      "id": "mobbin:337a0dfd-6591-4af6-97b3-397dcc6eac6f",
+      "source": "mobbin",
+      "app": "Google Maps",
+      "title": "360 view",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/337a0dfd-6591-4af6-97b3-397dcc6eac6f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hLnNnAo2",
+        "https://mobbin.com/api/mcp/short/B7xYKUvg",
+        "https://mobbin.com/api/mcp/short/Tga1QUms",
+        "https://mobbin.com/api/mcp/short/j5mza4xX",
+        "https://mobbin.com/api/mcp/short/mvNGat5t",
+        "https://mobbin.com/api/mcp/short/QlE2RAfo"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-views"],
+      "take": "Immersive 360 street-view experience with drag-to-rotate; tappable POI indicators; directional control UI (< arrow)."
+    },
+    {
+      "id": "mobbin:2e6cbe6d-0aa1-44dc-aefb-8c8fb1c1c65c",
+      "source": "mobbin",
+      "app": "Apple Maps",
+      "title": "360 view",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/2e6cbe6d-0aa1-44dc-aefb-8c8fb1c1c65c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/XEd5Co1M",
+        "https://mobbin.com/api/mcp/short/pmOXAF8B"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-views"],
+      "take": "Aerial 360 immersive view with compass/orientation indicator (↗), drag interaction, and Done button to exit."
+    },
+    {
+      "id": "mobbin:7f182913-8d7d-4483-ac22-3ef0275de47b",
+      "source": "mobbin",
+      "app": "DAZN",
+      "title": "Video option",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7f182913-8d7d-4483-ac22-3ef0275de47b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/8V1VKdFo",
+        "https://mobbin.com/api/mcp/short/3BgiSpbx"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-views"],
+      "take": "Multi-camera feed selection during live sports playback; tap to switch between available camera perspectives."
+    }
+  ]
+}

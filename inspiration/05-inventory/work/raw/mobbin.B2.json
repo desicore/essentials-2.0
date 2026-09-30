@@ -1,0 +1,119 @@
+{
+  "references": [
+    {
+      "id": "mobbin:89f70bf3-677a-4bdc-9490-97d1a83468cc",
+      "source": "mobbin",
+      "app": "Shopify",
+      "title": "Inventory scanner",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/89f70bf3-677a-4bdc-9490-97d1a83468cc",
+      "platform": "ios",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hiXsJlCd",
+        "https://mobbin.com/api/mcp/short/Xqx9IMdx"
+      ],
+      "jobs": ["check-out-auto"],
+      "take": "Inventory list with scan barcode action triggered from products view, showing camera viewfinder interface to capture and process item SKU."
+    },
+    {
+      "id": "mobbin:8e92fa17-8c07-42d8-aab2-961f50adc1c2",
+      "source": "mobbin",
+      "app": "Microsoft Copilot",
+      "title": "Scanning QR and barcode",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8e92fa17-8c07-42d8-aab2-961f50adc1c2",
+      "platform": "ios",
+      "images": [
+        "https://mobbin.com/api/mcp/short/OIfd1TY5",
+        "https://mobbin.com/api/mcp/short/h72uVMz8",
+        "https://mobbin.com/api/mcp/short/mGtkZuar"
+      ],
+      "jobs": ["check-out-auto"],
+      "take": "Full barcode/QR scan flow: aim instruction → camera viewfinder → barcode detected with link found result → search integration showing product details from scanned code."
+    },
+    {
+      "id": "mobbin:12393b33-b078-4193-b3fd-8853983cabd0",
+      "source": "mobbin",
+      "app": "7-Eleven",
+      "title": "Adding to cart (barcode scan)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/12393b33-b078-4193-b3fd-8853983cabd0",
+      "platform": "ios",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7i5OAm2i",
+        "https://mobbin.com/api/mcp/short/0ZOKoMBx",
+        "https://mobbin.com/api/mcp/short/GNm3ZvnS",
+        "https://mobbin.com/api/mcp/short/KpYCE30u"
+      ],
+      "jobs": ["check-out-auto"],
+      "take": "Mobile checkout with barcode scan triggering camera viewfinder, pause scanning state, item added to cart confirmation, and final basket summary with total."
+    },
+    {
+      "id": "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c",
+      "source": "mobbin",
+      "app": "Luma",
+      "title": "Checking in a guest (scan QR code)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/024a7f32-0ecc-4767-9123-0fb0830f256c",
+      "platform": "ios",
+      "images": [
+        "https://mobbin.com/api/mcp/short/qUJW80Pt",
+        "https://mobbin.com/api/mcp/short/2j8eHZ7k",
+        "https://mobbin.com/api/mcp/short/6pMYjQo4"
+      ],
+      "jobs": ["check-out-auto"],
+      "take": "Event check-in: scan screen with camera viewfinder → detected guest profile card → check in button confirmation with success toast notification."
+    },
+    {
+      "id": "mobbin:74bc6276-56b0-44b9-9a2b-cd8ed27f650f",
+      "source": "mobbin",
+      "app": "Luma",
+      "title": "Checking in a guest",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/74bc6276-56b0-44b9-9a2b-cd8ed27f650f",
+      "platform": "ios",
+      "images": [
+        "https://mobbin.com/api/mcp/short/bb313dWj",
+        "https://mobbin.com/api/mcp/short/XBGUxrrM",
+        "https://mobbin.com/api/mcp/short/43reRglS",
+        "https://mobbin.com/api/mcp/short/cOnzJKSs",
+        "https://mobbin.com/api/mcp/short/4tgOeSIA",
+        "https://mobbin.com/api/mcp/short/09OjGeMP"
+      ],
+      "jobs": ["check-out-auto"],
+      "take": "Extended check-in flow: event details screen → check-in guests button → QR scan camera viewfinder → guest detection card with actions → check-in success feedback → guest list view."
+    },
+    {
+      "id": "mobbin:287ca57a-2e55-40c7-b78f-18a5ef70225c",
+      "source": "mobbin",
+      "app": "Meetup",
+      "title": "Scan a ticket",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/287ca57a-2e55-40c7-b78f-18a5ef70225c",
+      "platform": "ios",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Nqf84iJ4",
+        "https://mobbin.com/api/mcp/short/3Gciegho",
+        "https://mobbin.com/api/mcp/short/0n5N06sO"
+      ],
+      "jobs": ["check-out-auto"],
+      "take": "Event attendance scanning: event details page → scan attendees section with camera call-to-action → QR code scan viewfinder interface."
+    },
+    {
+      "id": "mobbin:35ffcb75-44f4-42d9-9e60-3d11019462f2",
+      "source": "mobbin",
+      "app": "alias",
+      "title": "Scanning a barcode",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/35ffcb75-44f4-42d9-9e60-3d11019462f2",
+      "platform": "ios",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ycW7KRyf",
+        "https://mobbin.com/api/mcp/short/5LRpkJuh",
+        "https://mobbin.com/api/mcp/short/3ZbYf4pH"
+      ],
+      "jobs": ["check-out-auto"],
+      "take": "Inventory/retail barcode scan: category browse → scan barcode camera interface → product detected with pricing and sell action shown."
+    }
+  ]
+}

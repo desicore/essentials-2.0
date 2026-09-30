@@ -1,0 +1,56 @@
+{
+  "product": "square",
+  "flows": {
+    "mobbin:c0741e77-ac72-4f67-9b29-7a673ae0b0a3": {
+      "summary": "lands on a sparse Home with a required billing setup banner. They scan Key Metrics with vs-prior-day trend slots, then scroll to Customers, Payment Types, Items, and an online-store preview button.",
+      "steps": [
+        "Empty Home with bill-clients setup (required Start) and Key Metrics at $0 or N/A",
+        "Home with sales filled, setup in progress, and Key Metrics values",
+        "Scrolled view: Customers, Payment Types bar, Items, and Preview site button"
+      ],
+      "steal": [
+        "The Key Metrics row shows Net and Gross Sales, Transactions, Avg Net Sale, and Returns (screens 1-2). Each has a vs Prior weekday trend label, and N/A when there is no history.",
+        "A required setup step unlocks the next locked step (screen 1), as a guided path rather than a wall of optional cards.",
+        "Location and Date filters sit above the home so one scope drives all home numbers (screens 1-3).",
+        "Reports sits in the Tools sidebar for click-through from summary headline numbers to full Reports (screens 1-3)."
+      ],
+      "avoid": [
+        "A long Tools sidebar with Edit (screens 1-3) puts many peers next to Home. Essentials should keep module nav short per role, not a merchant toolkit list."
+      ],
+      "fit": "Dashboard: best sparse headline-number and first-run banner model for the home itself. Trend labels and the Reports sidebar hand off into Reports. The setup checklist maps to center first-run for rooms, cameras, and users, not billing.",
+      "jobs": [
+        "kpis",
+        "first-run",
+        "navigation"
+      ],
+      "counter_example": false
+    },
+    "mobbin:066793dc-d7b2-44ca-ab1b-7e67da3dbe78": {
+      "summary": "works a six-step setup grid on Home. Then a fuller Performance home shows banking balances, a sales chart versus prior year, a dense metric list with green deltas, and location, customer, category, and item tables.",
+      "steps": [
+        "Home with 0 of 6 setup cards and Performance header versus Prior year",
+        "Setup grid plus Banking $30 and $0 empty cards",
+        "Performance with Net Sales $1, Transactions chart spike, and versus Prior year",
+        "Dense sales list of nine metrics plus Locations and Customers",
+        "Locations, Customers, Category sales, and Item sales tables"
+      ],
+      "steal": [
+        "Every headline-number row shows value plus a green up arrow or No change versus Prior Monday or Prior year (screens 3-5).",
+        "A Locations table with Net Sales, Orders, Average, and a vs-prior column is a compact multi-site overview analogous to rooms on the dashboard (screens 4-5).",
+        "A sidebar Complete your setup percent plus a Demo card you can close shows progress and optional snooze (screens 1-2).",
+        "Header quick actions Take payment, Send invoice, and Add item sit beside Home as role-relevant shortcuts (screens 3-5)."
+      ],
+      "avoid": [
+        "The fuller home piles nine sales metrics plus banking promo cards and a near-empty line chart (screens 3-5), which tips into clutter versus the lean Key Metrics home. The product owner's show little, precisely rule prefers the sparse variant."
+      ],
+      "fit": "Dashboard: extends headline numbers and multi-location overview toward Reports click-through. Prefer Square's lean home over this fuller layout, which clashes with Essentials' anti-clutter rule.",
+      "jobs": [
+        "kpis",
+        "first-run",
+        "navigation",
+        "center-overview"
+      ],
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "references": [
+    {
+      "id": "mobbin:3a434286-acb0-434d-b912-68dbd7cc7a16",
+      "source": "mobbin",
+      "app": "Fibery",
+      "title": "Adding a rule",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3a434286-acb0-434d-b912-68dbd7cc7a16",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DQdH35WH",
+        "https://mobbin.com/api/mcp/short/iyQIdoJs",
+        "https://mobbin.com/api/mcp/short/9uBJSvps",
+        "https://mobbin.com/api/mcp/short/aQKVMszb",
+        "https://mobbin.com/api/mcp/short/ljL2j0hS",
+        "https://mobbin.com/api/mcp/short/MW9cOT4L",
+        "https://mobbin.com/api/mcp/short/jB0b019h",
+        "https://mobbin.com/api/mcp/short/wUR2wuKW",
+        "https://mobbin.com/api/mcp/short/wvxCVWvh",
+        "https://mobbin.com/api/mcp/short/SpekGnVz"
+      ],
+      "platform": "web",
+      "jobs": [
+        "automation"
+      ],
+      "take": "When-then rule builder with conditions (trigger on problem created) and actions (notify users), saved and enabled."
+    },
+    {
+      "id": "mobbin:f693c13b-9f45-4762-a988-c8e65b456e3c",
+      "source": "mobbin",
+      "app": "Cal.com",
+      "title": "Creating a workflow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f693c13b-9f45-4762-a988-c8e65b456e3c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/21yo589M",
+        "https://mobbin.com/api/mcp/short/ezBXy30q",
+        "https://mobbin.com/api/mcp/short/RfWQPwSg",
+        "https://mobbin.com/api/mcp/short/UfxNTYNW",
+        "https://mobbin.com/api/mcp/short/meRn2oFk",
+        "https://mobbin.com/api/mcp/short/bOtAOiBn",
+        "https://mobbin.com/api/mcp/short/7y9dmBPR",
+        "https://mobbin.com/api/mcp/short/81zihUo3",
+        "https://mobbin.com/api/mcp/short/1qcCDX42",
+        "https://mobbin.com/api/mcp/short/Rygqvq5I",
+        "https://mobbin.com/api/mcp/short/J7xjsp2q",
+        "https://mobbin.com/api/mcp/short/aTtuSj5B"
+      ],
+      "platform": "web",
+      "jobs": [
+        "automation"
+      ],
+      "take": "Event type workflow: define trigger (before event starts), select event types to apply to, and set action (send email reminder with template)."
+    },
+    {
+      "id": "mobbin:36d2c1e1-60fa-49f5-af4c-419966039677",
+      "source": "mobbin",
+      "app": "Grain",
+      "title": "Updating meeting settings",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/36d2c1e1-60fa-49f5-af4c-419966039677",
+      "images": [
+        "https://mobbin.com/api/mcp/short/HdhdoTJE",
+        "https://mobbin.com/api/mcp/short/xTgUlaA1",
+        "https://mobbin.com/api/mcp/short/Bg55EAEc",
+        "https://mobbin.com/api/mcp/short/nGjkqALE",
+        "https://mobbin.com/api/mcp/short/nEESZFvr",
+        "https://mobbin.com/api/mcp/short/h6Bi1FKu",
+        "https://mobbin.com/api/mcp/short/Zc78iU7F"
+      ],
+      "platform": "web",
+      "jobs": [
+        "automation"
+      ],
+      "take": "Workspace defaults for auto-recording meetings and meeting recap emails, toggled on per meeting type."
+    },
+    {
+      "id": "mobbin:c1b0f4b3-b5f4-4511-a208-de2609a21b21",
+      "source": "mobbin",
+      "app": "Asana",
+      "title": "Creating a template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c1b0f4b3-b5f4-4511-a208-de2609a21b21",
+      "images": [
+        "https://mobbin.com/api/mcp/short/aG9LZI8u",
+        "https://mobbin.com/api/mcp/short/VowgvzAy",
+        "https://mobbin.com/api/mcp/short/IZHmtNaB",
+        "https://mobbin.com/api/mcp/short/qPZoVTFd",
+        "https://mobbin.com/api/mcp/short/duthYoNM",
+        "https://mobbin.com/api/mcp/short/Z1EhPStM",
+        "https://mobbin.com/api/mcp/short/l8QbZvmY",
+        "https://mobbin.com/api/mcp/short/fYJfSKz7",
+        "https://mobbin.com/api/mcp/short/M6qdZa3Q",
+        "https://mobbin.com/api/mcp/short/98tMjpab"
+      ],
+      "platform": "web",
+      "jobs": [
+        "automation"
+      ],
+      "take": "Task template with defaults: assignee, due date (relative), dependencies, work duration; saved so each new task auto-applies them."
+    },
+    {
+      "id": "mobbin:1c1807d4-eed9-4a19-a248-c5413983925b",
+      "source": "mobbin",
+      "app": "Twenty",
+      "title": "Creating a workflow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/1c1807d4-eed9-4a19-a248-c5413983925b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/3kfomieM",
+        "https://mobbin.com/api/mcp/short/2WpqUtRx",
+        "https://mobbin.com/api/mcp/short/wNk5QtWf",
+        "https://mobbin.com/api/mcp/short/pz9t7RLi",
+        "https://mobbin.com/api/mcp/short/vTXN0dsp",
+        "https://mobbin.com/api/mcp/short/iio2s5Fr",
+        "https://mobbin.com/api/mcp/short/SNQ5M0Jh"
+      ],
+      "platform": "web",
+      "jobs": [
+        "automation"
+      ],
+      "take": "Workflow on a database trigger type (Record is created) wired to record type and named, saved as reusable template."
+    },
+    {
+      "id": "mobbin:e17ac016-5f41-4926-bdbc-525e0a847c60",
+      "source": "mobbin",
+      "app": "ClickUp",
+      "title": "Creating an automation",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e17ac016-5f41-4926-bdbc-525e0a847c60",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hoaGYc9t",
+        "https://mobbin.com/api/mcp/short/5DrwAiTW",
+        "https://mobbin.com/api/mcp/short/rwP0ZKdd",
+        "https://mobbin.com/api/mcp/short/168NX09L",
+        "https://mobbin.com/api/mcp/short/a0CHft4e",
+        "https://mobbin.com/api/mcp/short/5oxO1z72",
+        "https://mobbin.com/api/mcp/short/FIG8q1vP",
+        "https://mobbin.com/api/mcp/short/BxeAF8Mk",
+        "https://mobbin.com/api/mcp/short/DTfC7eQu",
+        "https://mobbin.com/api/mcp/short/wrDxl6qd"
+      ],
+      "platform": "web",
+      "jobs": [
+        "automation"
+      ],
+      "take": "Task automation: when task created, then change assignees and task type; created, saved, and toggled active at project level."
+    },
+    {
+      "id": "mobbin:e8221aaa-d89b-4c3f-9b1d-31d36619b2e4",
+      "source": "mobbin",
+      "app": "Jira",
+      "title": "Adding a trigger rule",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e8221aaa-d89b-4c3f-9b1d-31d36619b2e4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/zh2XchA3",
+        "https://mobbin.com/api/mcp/short/lDB1UN7S",
+        "https://mobbin.com/api/mcp/short/4YD06FQh",
+        "https://mobbin.com/api/mcp/short/efgZf7Ow"
+      ],
+      "platform": "web",
+      "jobs": [
+        "automation"
+      ],
+      "take": "Automation rule: when a field value (status) changes, apply conditions and actions at the space/project level."
+    }
+  ]
+}

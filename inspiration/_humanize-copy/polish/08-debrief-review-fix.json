@@ -1,0 +1,20 @@
+{
+  "module": "08-debrief-review",
+  "flows": {
+    "grain 2523ca18": { "summary": "From the meetings list, the user opens a recording and reviews the AI summary, then the chapters. Time-linked bullets sit next to the video, above a timeline of who spoke when." },
+    "grain 6b6443d7": { "summary": "In a coaching review, the user picks a scorecard for one speaker and answers yes/no and 1 to 5 items with notes. After submitting, the results appear under the video with 'Send to Sam'." },
+    "fireflies 0384c559": { "summary": "From the clips panel, the user drags across a range to make a soundbite while the transcript highlights it. They then name the clip, pick a playlist and who can access it, and tap Done." },
+    "google-tv 3f1ac467": { "summary": "From a movie page on the phone, the user taps 'Watch on TV' while connected to the living-room TV. The phone then works as a remote with a touch pad, volume and a progress bar." },
+    "descript 71f5995e": { "summary": "In an editor where the transcript and video stay in step, the user opens Underlord's 'Repurpose' tools. They set up 'Create clips' (number, length, layout, optional topic) and reach caption styles before Submit." },
+    "classdojo 8e7b5ca8": { "fit": "Debrief and review: a pattern for a team report after the debrief. It has a whole-team total, a list per learner and a dated log, next to the SRV's Annotation and Data Entry." },
+    "google-maps 337a0dfd": {
+      "summary": "From a place page, the user enters the 360° street view and moves with arrows on the ground. A split screen adds a map whose marker shows which way they face, and older dates and recent photos are one tap away.",
+      "steal": [
+        "The 360° view splits with a flat map whose marker points the way you face (screens 4 to 5). That could become a room layout next to 360° playback.",
+        "Arrows on the ground move between capture points without leaving the 360° view (screens 2 to 3).",
+        "'See more dates' and 'Latest photos' switch to another capture date or to still photos of the same place without leaving 360° (screens 3 and 6).",
+        "There are two ways in: a Street View marker on the map and an Immersive View card among the photos (screen 1)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "module": "09-mobile-ipad",
+  "title": "Mobile and iPad app: ideas from other products",
+  "intro": "This page shows phone and iPad examples from other products for running a live simulation without a desktop, grouped by product. They cover recording control, checklists, timers, learner tagging, dictated notes, intercom, the sim tech's room check, and private debrief notes. The focus is how the device behaves: live status, lock screen, one-hand use, large controls, and iPad layouts. Desktop and the session video review screen (SRV) are in 04-recording. The QR phone remote is in 08-debrief-review. Sources are the design reference libraries Mobbin and Refero. All flows shown are from Mobbin. Refero was searched, but its image server refused the downloads, so no Refero flow made the report. Researched on 30 September 2026.",
+  "baseline": "Today TouchPro is LearningSpace's only tablet client, and there is no phone app. The solution concept of 10 September 2026 proposes a QR-scan checklist and remote start and stop for recording. It also proposes private debrief notes, a sim-tech setup checklist, and a timer (customers buy separate digital timers today). It further proposes learner tagging, timestamped speech-to-text notes, and the phone as an intercom microphone. Constraints: a web page is preferred for the debrief page. Phones may be banned in graded exams. Tablets must not be required. No biometrics tied to names may go to the cloud. Leadership wants to see which jobs truly benefit from mobile before committing to a first version (MVP).",
+  "targets": {
+    "products": [
+      8,
+      12
+    ],
+    "flows": [
+      18,
+      25
+    ]
+  },
+  "jobs": [
+    {
+      "id": "recording-control",
+      "title": "Recording control",
+      "description": "Remote start and stop, a clear recording indicator, which room or camera, confirmation, and lock-screen or home-screen controls."
+    },
+    {
+      "id": "checklist",
+      "title": "Checklist interface",
+      "description": "Fill a checklist or rubric fast during a live event: large switches, partial credit, comments, automatic timestamps, offline use, then submit and review."
+    },
+    {
+      "id": "timer",
+      "title": "Timer",
+      "description": "Session and phase timers, several at once, readable across the room, alerts, and lock-screen or always-on display."
+    },
+    {
+      "id": "learner-tagging",
+      "title": "Learner tagging",
+      "description": "Pick who is in the session or who did what: roster labels, quick add, QR or badge scan, and attach a tag to a moment."
+    },
+    {
+      "id": "voice-notes",
+      "title": "Speech-to-text note taking",
+      "description": "Dictate a note timed to the recording, edit the transcript, and show whether transcription ran on the device or in the cloud."
+    },
+    {
+      "id": "intercom",
+      "title": "Intercom device",
+      "description": "Hold-to-talk to a room or device, pick a target, and show muted versus live clearly."
+    },
+    {
+      "id": "equipment-check",
+      "title": "Equipment check",
+      "description": "Tech's pre-session setup checklist per room: scan the room QR, tick items, flag missing or broken gear, and hand off."
+    },
+    {
+      "id": "debrief-annotations",
+      "title": "Debriefing tool: annotations",
+      "description": "Private timed notes and bookmarks during playback, and control of the big screen from the device."
+    }
+  ],
+  "products": [
+    {
+      "id": "gopro-quik",
+      "name": "GoPro Quik",
+      "analog": "adjacent",
+      "why": "GoPro Quik makes the phone a camera remote. It shows storage and battery before you start, turns the record button into stop, and puts a one-thumb 'HiLight' bookmark button beside stop.",
+      "flows": [
+        "mobbin:55941e7a-9532-47b7-bbe1-b5f8b7bca5b3"
+      ]
+    },
+    {
+      "id": "luma",
+      "name": "Luma",
+      "analog": "adjacent",
+      "why": "Luma handles QR check-in at the door. You confirm the person on a panel that slides up, get a short success message while the scanner stays open, and can undo a wrong check-in.",
+      "flows": [
+        "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c",
+        "mobbin:26b0f3ea-2156-43d2-b580-f4774fbb7fc7"
+      ]
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter AI",
+      "analog": "direct",
+      "why": "In Otter AI, every paragraph and every comment shows a speaker and a time. Playback stays above the keyboard while you correct the transcript.",
+      "flows": [
+        "mobbin:6915b30a-9982-4888-a599-f263dc314e5d",
+        "mobbin:7c04e7a5-ee31-4531-9e1a-fc413f10c950"
+      ]
+    },
+    {
+      "id": "toggl-track",
+      "name": "Toggl Track",
+      "analog": "adjacent",
+      "why": "Toggl Track has named phase timers with large full-screen digits. Stop pauses the clock and End session finishes it, and any past timer restarts with one tap.",
+      "flows": [
+        "mobbin:b9954846-af25-412f-856b-74fb74503c04",
+        "mobbin:110e340a-c8ad-43c7-b46e-1b58981b067f"
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "Forest",
+      "analog": "adjacent",
+      "why": "Forest is the clearest case for a phone timer. Remaining time and phase show on the lock screen and in the Dynamic Island, with one stop control, without opening the app.",
+      "flows": [
+        "mobbin:51398a50-ab88-4cb6-8d7d-08e18e411c49",
+        "mobbin:3ff1275c-8826-4b99-b53c-abb5a3c45ef6"
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "analog": "adjacent",
+      "why": "Slack makes push-to-talk a mode you switch on. It uses a large button you hold to speak and shows muted status in two places.",
+      "flows": [
+        "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7"
+      ]
+    },
+    {
+      "id": "amazon-alexa",
+      "name": "Amazon Alexa",
+      "analog": "adjacent",
+      "why": "Alexa separates a live two-way 'Drop In' from a one-way 'Announce', and Drop In has to be allowed explicitly. Most tools merge these two kinds of intercom.",
+      "flows": [
+        "mobbin:8faed082-5416-4324-b104-7056f0993931"
+      ]
+    },
+    {
+      "id": "google-tv",
+      "name": "Google TV",
+      "analog": "adjacent",
+      "why": "Google TV drives a big screen from the phone. A bar at the bottom names the connected screen and has 30-second skip buttons. Its five-step Wi-Fi pairing is an example of what not to do compared with pairing by QR code.",
+      "flows": [
+        "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6",
+        "mobbin:f4a1c6f0-b7ae-427b-a896-b4f3c2535f41"
+      ]
+    },
+    {
+      "id": "lifesum",
+      "name": "Lifesum",
+      "analog": "wildcard",
+      "why": "Lifesum fills in a scored assessment one item at a time, with full-width answer rows, a slider for graded answers and a score breakdown at the end. It also shows how slow 41 items are.",
+      "flows": [
+        "mobbin:376a68ad-85c8-4071-a09d-bbfe73ce7cf0"
+      ]
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "analog": "adjacent",
+      "why": "Zoom admits people from a waiting-room message, shows a participant count on the toolbar, and says clearly that it is connecting to audio before you can be heard. It shows no recording control.",
+      "flows": [
+        "mobbin:07782c2f-36d1-44fb-b1a5-d9771b478ef2"
+      ]
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "analog": "adjacent",
+      "why": "Fabric saves drawings on a video frame as timed comments, and has a large Stop/Resume voice note with transcript tabs, but no sign of whether transcription ran on the device. Its tiny checkbox list is an example of what not to do.",
+      "flows": [
+        "mobbin:c10feffc-9e32-4467-914a-72668daa0395",
+        "mobbin:3c069b65-da04-47ec-a852-5165ac63562b",
+        "mobbin:65f315e4-072d-473a-8c75-05053aba29d3"
+      ]
+    },
+    {
+      "id": "journal",
+      "name": "Journal",
+      "analog": "adjacent",
+      "why": "Journal shows recording status on the lock screen with a waveform, a timer and one stop control, but no pause. In the app, 'Done' stays disabled until you pause.",
+      "flows": [
+        "mobbin:a01989c0-b8a9-46af-9dea-dec74d6f7bed",
+        "mobbin:8d896cd3-c8c4-4b58-b852-317e91eece4b"
+      ]
+    },
+    {
+      "id": "american-airlines",
+      "name": "American Airlines",
+      "analog": "wildcard",
+      "why": "American Airlines gathers readiness for one event in one place, with tasks that open at set times (what you can do now and what not yet). It has no pass, fail or flag statuses.",
+      "flows": [
+        "mobbin:23ce165d-078b-4adc-935a-83c4a40cbfb1"
+      ]
+    },
+    {
+      "id": "yuka",
+      "name": "Yuka",
+      "analog": "wildcard",
+      "why": "Yuka lets you report a problem with an item you just scanned. You pick a category and attach a required photo ('Send' stays disabled without it), then get a thank-you with a response time.",
+      "flows": [
+        "mobbin:78ae405b-2c59-46f6-94bc-933c189d235d"
+      ]
+    }
+  ],
+  "synthesis": {
+    "patterns": [
+      {
+        "title": "One unmistakable record status, and bookmark with the same thumb",
+        "body": "GoPro Quik shows remaining storage and battery before you start. It turns the record button into a stop square, keeps a red dot and elapsed time visible, and puts a 'HiLight' button next to stop with a full-screen 'tagged' confirmation. That pairs recording control with a one-tap timed marker, which is what faculty need while walking the room. Journal keeps the recording status alive on the lock screen. Neither shows which room or camera is being controlled, which Essentials must add.",
+        "flows": [
+          "mobbin:55941e7a-9532-47b7-bbe1-b5f8b7bca5b3",
+          "mobbin:a01989c0-b8a9-46af-9dea-dec74d6f7bed"
+        ]
+      },
+      {
+        "title": "The timer lives outside the app, but only in an installed phone app",
+        "body": "Forest puts remaining time, the phase name and a single stop control on the lock screen and in the Dynamic Island (the status area at the top of newer iPhones). Toggl offers full-screen digits for reading across the room. This is the strongest evidence in the module that a job benefits from a phone rather than the SRV. It also only works in an installed phone app (a native app), so a web page or a phone-banned exam gets none of it. A large in-app full-screen timer is the fallback that must work everywhere.",
+        "flows": [
+          "mobbin:51398a50-ab88-4cb6-8d7d-08e18e411c49",
+          "mobbin:3ff1275c-8826-4b99-b53c-abb5a3c45ef6",
+          "mobbin:b9954846-af25-412f-856b-74fb74503c04"
+        ]
+      },
+      {
+        "title": "Named phases, pause is not end, restart from history",
+        "body": "Toggl separates Stop (pause the clock) from End session (finish the cycle). It flips colour and label when the phase changes, and asks before skipping a phase. Its timer list lets you restart any named timer with one tap. Simulation phases (briefing, scenario, debrief) repeat every session. Restarting from history beats configuring a new countdown each time.",
+        "flows": [
+          "mobbin:b9954846-af25-412f-856b-74fb74503c04",
+          "mobbin:110e340a-c8ad-43c7-b46e-1b58981b067f"
+        ]
+      },
+      {
+        "title": "Confirm the person, then stay ready for the next one",
+        "body": "Luma shows a confirmation panel (name, status, ticket) before checking someone in. It then returns straight to the scanner with a success message and offers Undo. Zoom admits people from a waiting-room message and keeps a participant count on the toolbar. Both treat who is in the session as a fast, reversible stream at the door, not a form with a list of people. That matches tagging learners on a phone.",
+        "flows": [
+          "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c",
+          "mobbin:26b0f3ea-2156-43d2-b580-f4774fbb7fc7",
+          "mobbin:07782c2f-36d1-44fb-b1a5-d9771b478ef2"
+        ]
+      },
+      {
+        "title": "Every note carries its time label",
+        "body": "Otter pins a time label to each comment and a speaker-plus-time stamp to each transcript paragraph. Fabric saves frame drawings as 'Drawing · 00:00:00' entries and keeps a time label on the reply field. Fabric's voice note diverges: its transcript has no per-line timestamps, so text cannot be traced back to a moment. None of the flows shows an on-device versus cloud transcription indicator.",
+        "flows": [
+          "mobbin:6915b30a-9982-4888-a599-f263dc314e5d",
+          "mobbin:7c04e7a5-ee31-4531-9e1a-fc413f10c950",
+          "mobbin:c10feffc-9e32-4467-914a-72668daa0395",
+          "mobbin:3c069b65-da04-47ec-a852-5165ac63562b"
+        ]
+      },
+      {
+        "title": "Talking into a room is a mode, with live and muted always visible",
+        "body": "Slack makes push-to-talk (PTT) an explicit mode with a large hold button. It shows muted status on both your picture and the control. Alexa separates a live 'Drop In' from a one-way 'Announce' behind an opt-in. Zoom shows 'connecting to audio' before you can be heard. For a phone that talks into a live sim room, the risk is an open mic. Hold-to-talk plus a persistent live or muted status is the default to copy.",
+        "flows": [
+          "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7",
+          "mobbin:8faed082-5416-4324-b104-7056f0993931",
+          "mobbin:07782c2f-36d1-44fb-b1a5-d9771b478ef2"
+        ]
+      },
+      {
+        "title": "Name the screen you are driving; pairing must be one step",
+        "body": "Google TV's remote keeps a docked bar naming the connected screen and offers 30-second skip buttons. That suits jumping between debrief moments. Getting there takes five steps of Wi-Fi or Bluetooth discovery, which fails a faculty member in a debrief room. Keep the named-screen bar and simple playback buttons, but pair by QR as 08-debrief-review proposes.",
+        "flows": [
+          "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6",
+          "mobbin:f4a1c6f0-b7ae-427b-a896-b4f3c2535f41"
+        ]
+      },
+      {
+        "title": "One big item at a time beats a checkbox list",
+        "body": "Lifesum fills a scored assessment one item per screen, with answer rows as wide as the screen. It keeps Next disabled until an answer is picked, uses a slider for graded answers, and ends with a score breakdown. Fabric's standard small checkboxes fail gloved, one-handed use. American Airlines groups readiness into one place with time-limited tasks but has no pass/fail statuses. The live checklist needs Lifesum's large answer rows and review step without its 41-item length.",
+        "flows": [
+          "mobbin:376a68ad-85c8-4071-a09d-bbfe73ce7cf0",
+          "mobbin:65f315e4-072d-473a-8c75-05053aba29d3",
+          "mobbin:23ce165d-078b-4adc-935a-83c4a40cbfb1"
+        ]
+      }
+    ],
+    "open_questions": [
+      "No iPad flows. Mobbin's search has no iPad filter and every shortlisted flow is a phone layout. The only tablet layout found, Superlist, is a generic list with a detail pane. The tablet-versus-phone question from stakeholders is not answered here. It needs a manual pass through Mobbin's iPad catalogue or an audit of TouchPro.",
+      "The strongest mobile wins (lock-screen timer, recording status on the lock screen (Live Activity), background push-to-talk) only work in an installed app. A web-first debrief page and phone bans in graded exams mean they cannot be the core of the MVP. Which jobs justify a native app, and does each have a web or tablet fallback?",
+      "Equipment check has no end-to-end reference. Nothing shows scanning a room QR, ticking items pass/fail, flagging a broken item and handing off. The flow has to be assembled from Luma's scan-and-confirm, Lifesum's large-target items, American Airlines' readiness place and Yuka's per-item problem report with a required photo.",
+      "No flow shows an on-device versus cloud transcription indicator. EU data-protection rules (GDPR) make that a requirement for speech-to-text notes. This has to be designed without a reference.",
+      "Live rubrics: Lifesum shows that 41 one-at-a-time items are too slow for a live scenario. How long are real objective structured clinical examination (OSCE) checklists? Do they need sections, a grid on tablet, or partial scoring after the session?",
+      "Learner tagging is covered for who is present (Luma, Zoom) but not for who did what. Only GoPro's HiLight shows tagging a moment, with no person attached. Refero was searched but its image server blocked the downloads, so no Refero flows could be included."
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "product": "woolworths",
+  "flows": {
+    "mobbin:f6612862-77f9-4b6c-9ed5-4416ad9e8c42": {
+      "summary": "From In-store home, user starts Scan&Go, scans into a running tally, reviews My Items, is redirected to pay at a physical checkout with a pending QR, and finishes on a dated receipt.",
+      "steps": [
+        "Home — Scan&Go entry",
+        "Scan&Go Check In start",
+        "Empty scanner session",
+        "Live camera scan",
+        "My Items — one scanned",
+        "Adding Rewards overlay",
+        "Pay at physical checkout",
+        "Payment Pending QR",
+        "Scan&Go receipt"
+      ],
+      "steal": [
+        "Session chrome (steps 3–4): live $total | N Items tally; Scan an item primary; keypad/manual barcode fallback beside dismiss.",
+        "After scan (step 5): My Items list with Continue to Payment vs Scan next item vs Use my lists — keep scanning or finalize.",
+        "Exception handoff (steps 7–8): Information banner forces Pay at Scan&Go Checkout; Payment Pending shows kiosk QR plus I've scanned my code.",
+        "Closure (step 9): receipt with itemized list, store/POS/transaction ids, timestamp — audit trail after auto checkout."
+      ],
+      "avoid": [
+        "Retail payment/rewards steps (Adding Rewards, Visa checkout) — Essentials needs session/room assignment, not purchase."
+      ],
+      "fit": "Strong check-out-auto analog for barcode check-out of kits/consumables during a scenario: scan loop, running count, optional list attach, then physical confirm via QR and a durable usage receipt.",
+      "jobs": ["check-out-auto"]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "product": "american-airlines",
+  "flows": {
+    "mobbin:23ce165d-078b-4adc-935a-83c4a40cbfb1": {
+      "summary": "A traveler opens a trip overview, enters Get ready to fly, then scrolls a Ready to Fly set of time-limited prep tasks and know-before-you-go items.",
+      "steps": [
+        "Trip overview with route and empty gate or seat",
+        "Panel inviting Get ready to fly",
+        "Ready to Fly with countdown and check-in cards",
+        "Ready to Fly with TSA, Wi-Fi and REAL ID cards"
+      ],
+      "steal": [
+        "A single Ready to Fly place keyed to one event or trip (screens 3 to 4) keeps pre-session readiness in one place.",
+        "Cards show time remaining or not-yet-available wording (screen 3), so you see what cannot be done yet versus what to do now.",
+        "Missing-data placeholders (--) on the trip card (screen 1) make incomplete setup fields easy to spot.",
+        "An entry panel from the trip (screen 2) nudges into the checklist without hunting menus."
+      ],
+      "avoid": [
+        "Informational cards without tick, flag or broken statuses (screens 3 to 4) leave sim-tech equipment check without clear pass or fail."
+      ],
+      "fit": "Mobile and iPad app: a mobile readiness place fits walking the floor before a session better than desktop. Extend baseline equipment check and checklist with time-limited tasks, but add real tick and flag handoff that American Airlines lacks.",
+      "jobs": [
+        "equipment-check",
+        "checklist"
+      ],
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "product": "charma",
+  "flows": {
+    "mobbin:e7700240-0fb3-4a8b-aa81-7a640b1aa2c1": {
+      "summary": "User picks strength/improvement tags (custom allowed, improvement capped at 2), waits for FeedbackAI (~30s skeleton), then chooses one of three AI drafts to insert and edit.",
+      "steps": [
+        "Strengths + Opportunities tags — custom + select up to 2",
+        "Tags + Examples fields for selected traits",
+        "FeedbackAI loading — up to 30s + skeleton bars",
+        "Choose suggestion — 3 AI drafts, Generate new",
+        "Suggestion list — drafts include custom-tag phrasing",
+        "Suggestion selected — green check, ready for Next"
+      ],
+      "steal": [
+        "Tag inputs with 'select up to 2' on opportunities (steps 1–2) — constrains AI prompt before generation.",
+        "Loading copy 'up to 30 seconds' + skeleton bars (step 3) — sets AI latency expectation.",
+        "Choose among 3 suggestions + Generate new (steps 4–6) — human picks tone before edit.",
+        "GPT-3 disclosure under the card (steps 3–6) — AI provenance on formative text."
+      ],
+      "avoid": [
+        "AI drafts echo whimsical custom tags ('good potato') into the narrative (steps 5–6) — sanitize/ground clinical competency language."
+      ],
+      "fit": "AI formative draft for faculty after competency tags — extends Responses/Skill Development; not accreditation assembly."
+    },
+    "mobbin:560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1": {
+      "summary": "From 360 Open Reviews, user starts an anonymous peer review, selects adjectives per competency, generates FeedbackAI narrative, reviews the multi-section draft, submits, then sees progress (1 of 2) on the dashboard.",
+      "steps": [
+        "360 Open Reviews — Give Peer Review + progress bar",
+        "Anonymous Reviews — How it works + Let's do this",
+        "Questionnaire — adjective chips + Generate Feedback",
+        "Tags selected (helpful, team player)",
+        "AI narrative filled in rich-text editor",
+        "More competency sections collapsed — Saved draft",
+        "Review & Submit — tags + narratives per competency",
+        "Review & Submit footer — Back + Submit",
+        "Success modal — Nice work + Shared successfully",
+        "Dashboard — 1 of 2 reviews submitted progress"
+      ],
+      "steal": [
+        "How-it-works: adjectives → FeedbackAI, then AI summarizes peers anonymously (step 2) — privacy + AI role stated upfront.",
+        "Generate Feedback from selected adjectives, then edit with 'sprinkle in specific examples' (steps 3–5).",
+        "Review & Submit aggregates competency tags + narratives before Submit (steps 7–8).",
+        "Initiator progress '1 of 2 reviews submitted' bar after send (steps 1, 10)."
+      ],
+      "avoid": [
+        "Emoji/GIF toolbar on evaluation narrative (steps 5–6) — too casual for clinical summative reports."
+      ],
+      "fit": "Peer/faculty formative AI write-up over competency chips; anonymity aggregate maps to multi-rater skill reports, not utilisation KPIs."
+    },
+    "mobbin:f2d6fb5a-36ee-4c5c-9612-55be9bbd3f28": {
+      "summary": "User selects an AI suggestion, edits the feedback text, submits, then lands on Feedback & Kudos where the entry shows 'Jon hasn't seen this yet' with Edit/Delete.",
+      "steps": [
+        "Choose AI suggestion — one selected",
+        "Edit and send — editable draft + Submit Feedback",
+        "1:1 Feedback & Kudos — unseen feedback card",
+        "Feed — unseen status + Edit/Delete/Comment"
+      ],
+      "steal": [
+        "Edit-after-select before Submit (steps 1–2) — AI draft never auto-sends.",
+        "'hasn't seen this yet' status on the shared card (steps 3–4) — delivery state for formative notes.",
+        "Edit/Delete retained while unseen (steps 3–4) — revoke before learner opens."
+      ],
+      "avoid": [],
+      "fit": "Post-AI faculty note with held visibility — useful for formative learner reports before dean PDF sharing."
+    }
+  }
+}

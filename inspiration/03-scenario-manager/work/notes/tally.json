@@ -1,0 +1,50 @@
+{
+  "product": "tally",
+  "flows": {
+    "mobbin:908fac0b-b720-4eb8-b992-5ed2da827e6b": {
+      "summary": "From an empty forms page, the author creates a form in a builder that works like a document. They add fields (text, required marks, logic, a grid, a rating) and keep it in Draft, ready to publish.",
+      "steps": [
+        "Empty forms home with Create form",
+        "Untitled draft: scratch versus template",
+        "Named draft with doc first-time tips",
+        "Blank work area: type / to insert",
+        "Fields with When/Then rule under a field",
+        "Multi-type blocks (checkbox, upload, date, NPS)",
+        "Matrix, star rating, Stripe payment",
+        "Signature, ranking, Next page break"
+      ],
+      "steal": [
+        "A Draft label with Preview and Publish stays in the header until publishing, so it is clear the checklist is not live yet (screens 1-8).",
+        "A When/Then rule under a field hides or disables later questions without a separate rules page (screen 5).",
+        "The blank page offers 'Start from scratch' or 'Use a template' (screens 2-3).",
+        "Asterisks on block titles mark required items, which rubric items need (screens 5-8)."
+      ],
+      "avoid": [
+        "Payment, wallet and Stripe blocks in the middle of a checklist are noise for sim evaluation forms (screens 7-8)."
+      ],
+      "fit": "Scenario manager: extend Essentials checklist editing beyond the cut-down Case Manager, with one long page plus draft and publish instead of only tabbed SCE fields. It does not replace the Equipment tabs.",
+      "counter_example": false
+    },
+    "mobbin:c7ec1d19-4938-4a20-87ea-dc9b92e82380": {
+      "summary": "After deleting an account, the person writes a reason in one open text box without logging in, submits, and sees a thank-you from the makers.",
+      "steps": [
+        "Account deleted: empty feedback prompt",
+        "Typed exit reason and Submit",
+        "Thank you confirmation"
+      ],
+      "steal": [
+        "Neither the form nor the thank-you page shows any account controls, so people can answer anonymously without logging in (screens 1-3).",
+        "A thank-you page with no further button is a clean end after a checklist is submitted (screen 3)."
+      ],
+      "avoid": [
+        "Tying the feedback to a finished account deletion is the wrong trigger for room or session feedback (screen 1)."
+      ],
+      "fit": "Scenario manager: borrow only the anonymous, no-login form and the thank-you page for the room-TV checklist opened by QR. It does not show a QR code and is not a session evaluation.",
+      "jobs": [
+        "checklist",
+        "checklist-qr"
+      ],
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "product": "attio",
+  "flows": {
+    "mobbin:2c5ec636-6d46-416e-b798-ae09d51881c3": {
+      "summary": "From a Companies list, user uploads invitees.csv, maps columns, reviews values, previews create-vs-update counts for Companies and People, confirms, and completes an import that can create or update records.",
+      "steps": [
+        "Companies list — Import CSV menu",
+        "Upload file — empty dropzone",
+        "File accepted — columns/rows counts",
+        "Map columns — attribute pickers + sample preview",
+        "Map columns — fields assigned",
+        "Review values — grouped raw→mapped",
+        "Preview — Companies create/update summary",
+        "Preview — People create/update summary",
+        "Confirm Start import dialog",
+        "Import queued — created/updated/failed counters",
+        "Import completed — per-entity results",
+        "People list after import"
+      ],
+      "steal": [
+        "4-step stepper with dedicated Review values before Preview (steps 1–4).",
+        "Preview banner '+ N will be created' / 'N will be updated' with row-level + icons (steps 6–7) — makes merge vs create explicit before commit.",
+        "Multi-object tabs (Companies / People) from one CSV (steps 6–7, 10).",
+        "Upload step shows columns found / rows found before mapping (step 2)."
+      ],
+      "avoid": [
+        "Mapping Last Name→Domains in the demo path creates avoidable type errors; keep mapping defaults conservative for Essentials field types."
+      ],
+      "fit": "Strong template for Excel master-file → events: column map, value review, create/update preview, then bulk write — extend with session matching key (e.g. room+datetime or external ID).",
+      "counter_example": false
+    },
+    "mobbin:535a7828-5915-47a2-b782-c6bfd708adc0": {
+      "summary": "On Review values, user fixes Invalid domain errors and missing Categories inline (edit, add value, map to existing, or bulk-create select options) before continuing to Preview.",
+      "steps": [
+        "Review values — Name auto-mapped",
+        "Domains — Invalid domain needs review",
+        "Inline edit domain value",
+        "Add domain via dropdown",
+        "Domain remap with suggestions",
+        "Categories — missing select options CTA",
+        "Add value for Department row",
+        "Search existing Categories to map",
+        "Remap R&D → Market Research",
+        "Remaining category mismatches",
+        "Continue resolving Categories"
+      ],
+      "steal": [
+        "Orange dots on columns that still need review (all steps) — triage without a downloadable error report.",
+        "'Needs review N' grouped unique values with row counts (steps 1–5).",
+        "Inline fix: type valid value, + Add domain/value, or pick existing option; skip/ignore per value (steps 2–8).",
+        "'+ Create N missing select options' bulk action for enum fields (steps 5–6)."
+      ],
+      "avoid": [],
+      "fit": "Best pattern for sim-center Excel imports where rooms/groups/scenarios as select fields often introduce new option values — resolve inline before creating sessions.",
+      "counter_example": false
+    }
+  }
+}

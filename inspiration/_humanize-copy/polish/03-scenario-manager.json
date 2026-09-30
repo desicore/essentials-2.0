@@ -1,0 +1,209 @@
+{
+  "module": "03-scenario-manager",
+  "flows": {
+    "clickup 9e0d5df7": {
+      "avoid": ["A public sharing switch that creates an outside link is too open for clinical scenarios, which are the center's own work."],
+      "fit": "Scenario manager: add 'save as template' with access set per template (private, chosen people, or the whole organization). That is simpler than today's unclear SCE permissions."
+    },
+    "clickup 456a85db": {
+      "steal": [
+        "Each checklist row has its own assignee, so tasks can be split between roles such as the sim tech and faculty.",
+        "The section header shows progress ('Checklists 0/N') and a filter for the items assigned to you ('N for me').",
+        "'Use Template' sits beside 'Add checklist', so a set of items can be reused on other tasks.",
+        "'+ New checklist item' adds a row without leaving the task."
+      ],
+      "avoid": ["There is no scoring, no required flag and no rubric weighting, which is too thin for learner evaluation checklists."],
+      "fit": "Scenario manager: extend the cut-down Case Manager checklist with assignees and reusable templates. Essentials evaluations would still need scoring and a set time for filling them in, and this does not cover QR without login."
+    },
+    "clickup e17ac016": {
+      "steal": [
+        "The When/Then blocks are summed up in one plain sentence under the work area.",
+        "A warning appears right away when an action will be skipped because the assignee lacks access.",
+        "The assignee picker includes roles that fill themselves in, such as 'Task creator', 'Triggered by' and 'Watchers'.",
+        "After a rule is created, the Manage tab shows how many rules are active or inactive, with an on/off switch for each."
+      ],
+      "avoid": ["Full libraries of integrations and rule catalogs across many categories are heavier than the few defaults a scenario needs (auto-record, prep email, announcements)."],
+      "fit": "Scenario manager: turn today's auto-record, email and announcement settings on scheduling templates into a clear When/Then panel of defaults per scenario. Keep the presets few; this is not a general automation product."
+    },
+    "heidi 4b33f07a": {
+      "steal": [
+        "Three cards set access: Team (can use, not edit), Community, and Only me.",
+        "The Team option says plainly that team members can use the template but not edit it.",
+        "Choosing Community shows an 'In review' label on the list after saving, because the community is moderated.",
+        "A 'Highlight your contribution' switch decides whether your name is shown publicly."
+      ],
+      "avoid": ["Publishing to a public community of all product users is wrong for Essentials, which needs sharing by organization and role, not a global template marketplace."],
+      "fit": "Scenario manager: the best nearby model for simpler sharing per scenario (private, team can use only, or a moderated organization library) instead of today's unclear SCE access."
+    },
+    "heidi 5e3fe2a1": {
+      "steal": [
+        "'Duplicate' is in each row's menu, so you can copy a template without opening the editor.",
+        "The new row is renamed automatically with '(Copy)' at the end.",
+        "A short message confirms 'Template duplicated'.",
+        "The Visibility column ('Just me', 'Community In review') stays in view while you duplicate."
+      ],
+      "fit": "Scenario manager: add a one-click duplicate from the library, so faculty can start from an existing scenario instead of a blank form or a Word import."
+    },
+    "cal-com f693c13b": {
+      "steal": [
+        "A multiple-choice list asks 'Which event type will this apply to?', next to 'Apply to all, including future event types' (screens 3-7).",
+        "The rule reads top to bottom: when it runs (before the start, plus an offset), then 'Do this' action cards (screens 3-8).",
+        "Placeholders such as {EVENT_NAME} and {ATTENDEE} fill in the email subject and text (screens 8, 10).",
+        "The list card shows what triggers the workflow and says 'Active on N event type' (screen 12)."
+      ],
+      "avoid": ["Across 12 screens it only offers reminders by email or text message, with none of the auto-record or announcement actions Essentials needs per phase."],
+      "fit": "Scenario manager: the best match for automation per scenario. A reusable When/Do rule set is attached to chosen event types, like SCE templates, and covers today's prep-email and auto-record defaults."
+    },
+    "shopify 5421": {
+      "steal": [
+        "The Products area has 'Search', 'Browse' and 'Add custom item' in one row, so catalog items and free text sit together.",
+        "The product picker shows how many of each variant are available, keeps 'Add' disabled until something is chosen, and counts selections out of 500.",
+        "An unsaved draft offers 'Discard' or 'Save'; once saved, 'Duplicate' and 'Share' sit at the top of the draft.",
+        "A Notes box sits to the right of the items, so setup notes stay next to the equipment list."
+      ],
+      "avoid": ["Payment, invoice and 'Mark as paid' controls belong to selling and clash with a sim equipment list."],
+      "fit": "Scenario manager: the best model to replace the free-text Equipment & Supplies field with items linked to inventory, quantities and notes. Check-out stays in Inventory, and the draft stage extends SCE editing."
+    },
+    "arcade 9b7b370a": {
+      "summary": "From the library, the user picks how to create a demo, fills in a step, sets preview options, then reviews engagement and where viewers drop off at each step.",
+      "steal": [
+        "The start screen groups the recording options ('Chrome Extension', 'Desktop App') under a Popular label, next to uploading or turning a video into a demo (screen 2).",
+        "An empty step offers two sets of sources: add from your computer, the library or another demo, or capture with the extension, desktop app or Figma (screen 3).",
+        "Edit, Preview and Insights tabs keep editing, the learner's view and completion data in one project (screens 4-8).",
+        "A chart shows how many viewers carry on or drop off at each step ('From Step N: conversion / drop-off %') (screen 8)."
+      ],
+      "avoid": ["Sample data and an Upgrade banner at the end of editing are a warning: completion data for the pre-brief should not sit behind a paywall (screens 6-8)."],
+      "fit": "Scenario manager: grow today's Briefing tab video into the planned interactive orientation and pre-brief maker, with an outline and clickable spots. The preview switches map to what learners see before a session. Do not copy Arcade's sales-demo insights and buttons wholesale."
+    },
+    "arcade 644ef98c": {
+      "summary": "On a demo step, the user edits the text of a clickable callout, generates a voiceover from that text, then reviews the voiceover timeline with 'Edit voiceover'.",
+      "steps": { "1": "Clickable spot settings: text and 'Generate voiceover'", "2": "Voiceover timeline under the work area" },
+      "steal": [
+        "The written callout text is the only source for 'Generate voiceover', so one script drives both the caption and the audio (screen 1).",
+        "Clickable spots come in three styles (Hotspot, Area, Callout) and can be set to 'Open by default' (screen 1).",
+        "Each clickable spot can jump to another step, chosen from a list (screen 1).",
+        "After generating, a voiceover timeline at the bottom shows the sound wave, the length and 'Edit voiceover' (screen 2)."
+      ],
+      "fit": "Scenario manager: supports the new interactive orientation maker with narration per step. It is also a pattern for scripts (a written cue, then optional audio) without a Maestro-style stage editor."
+    },
+    "pitch 593": {
+      "steal": [
+        "Before any templates exist, the screen explains why they help and offers 'Create' twice, at the top and in the middle (screen 1).",
+        "The new-template pop-up asks for a name first, then offers 'Build branded' or 'Customize from gallery' (screens 2-3).",
+        "Previews of each slide type (chart, sample, text) update live while you set brand colours and upload a font (screens 4-7).",
+        "A 'You are editing a template' banner stays visible, 'Publish this template?' offers Keep draft or Publish, and library cards then show a Draft label (screens 8-10)."
+      ],
+      "avoid": ["A full presentation style builder (fonts, chart styles, slide layouts) is too much for the deliberately basic SCE editor, which should not become a Maestro-style tool."],
+      "fit": "Scenario manager: a strong pattern for scenarios in an organization library: start blank or from the gallery, keep drafts apart from published versions, and share on publish. It extends today's SCE editor without turning it into a slide product."
+    },
+    "pitch f0c62f24": {
+      "steal": [
+        "Notes for each slide sit in a side panel while the slide stays visible (screens 2-3).",
+        "The empty panel shows 'Add speaker notes…' until something is written (screen 2).",
+        "After the panel closes, a dot on the notes icon shows that notes exist (screen 4)."
+      ],
+      "fit": "Scenario manager: a light pattern for SP or faculty scripts and cues in each scenario phase. It extends Briefing without a branching Maestro editor, and notes that only the presenter sees map to cue cards per role."
+    },
+    "tally 908fac0b": {
+      "summary": "From an empty forms page, the author creates a form in a builder that works like a document, adds fields (text, required marks, logic, a grid, a rating), and keeps it in Draft with Publish ready.",
+      "steal": [
+        "A Draft label with Preview and Publish stays in the header until publishing, so it is clear the checklist is not live yet (screens 1-8).",
+        "A When/Then rule under a field hides or disables later questions without a separate rules page (screen 5).",
+        "The blank page offers 'Start from scratch' or 'Use a template' (screens 2-3).",
+        "Asterisks on block titles mark required items, which rubric items need (screens 5-8)."
+      ],
+      "avoid": ["Payment, wallet and Stripe blocks in the middle of a checklist are noise for sim evaluation forms (screens 7-8)."],
+      "fit": "Scenario manager: extend Essentials checklist editing beyond the cut-down Case Manager, with one long page plus draft and publish instead of only tabbed SCE fields. It does not replace the Equipment tabs."
+    },
+    "tally c7ec1d19": {
+      "summary": "After deleting an account, the person writes a reason in one open text box without logging in, submits, and sees a thank-you from the makers.",
+      "steal": [
+        "Neither the form nor the thank-you page shows any account controls, so people can answer anonymously without logging in (screens 1-3).",
+        "A thank-you page with no further button is a clean end after a checklist is submitted (screen 3)."
+      ],
+      "avoid": ["Tying the feedback to a finished account deletion is the wrong trigger for room or session feedback (screen 1)."],
+      "fit": "Scenario manager: borrow only the anonymous, no-login form and the thank-you page for the room-TV checklist opened by QR. It does not show a QR code and is not a session evaluation."
+    },
+    "typeform f8d34d78": {
+      "steal": [
+        "One Share area puts 'Copy link' next to email, QR code and phone-preview options, so the TV QR code and the link are shared from one place (screen 2).",
+        "A 'Get the QR code' pop-up shows a large code and 'Download QR Code', for printing or showing on a room screen (screen 3).",
+        "A side menu offers 'Share the link', 'Embed in an email' and 'Embed in a web page', so the form reaches people in other ways without being rebuilt (screen 2).",
+        "Each question has a Required switch while the author edits, before publishing (screen 1)."
+      ],
+      "avoid": ["Social sharing buttons and Canva thumbnails are marketing extras; sim-room checklists need practical ways out (TV, QR code, link) (screen 2)."],
+      "fit": "Scenario manager: the author side of a checklist opened by QR: create a link and a QR code to show in the room. A public link works for named or anonymous answers without login."
+    },
+    "resend 8914ef26": {
+      "steal": [
+        "The empty list offers to create a new template or import one, with 'Create' in two places.",
+        "A Draft label stays beside the title until the template is published.",
+        "The 'Publish New Version' pop-up shows '✓ No warnings' and asks you to slide to publish.",
+        "A blank page offers 'Pick a template', 'Upload HTML' and typed / commands to add content."
+      ],
+      "avoid": ["The extra slide-to-publish step should be kept for going live, not for every routine save of a scenario."],
+      "fit": "Scenario manager: add clear draft and published versions, with a check before publishing. It supports replacing Word and paper with a basic editor, not a Maestro rebuild."
+    },
+    "resend 62ac5b2e": {
+      "steal": [
+        "Version history opens as a side panel over the editor, so you do not leave the page.",
+        "The confirmation explains that restoring creates a new version and keeps the current content in the history.",
+        "Each history entry shows how long ago it was saved and who saved it.",
+        "After restoring, the template stays in Draft, so it still has to be published to go live."
+      ],
+      "fit": "Scenario manager: fills a known gap, because the SCE editor cannot restore old versions clearly. Restoring without losing anything protects faculty work, unlike today's checklists, which lose data when the window closes."
+    },
+    "teachable 98032d4a": {
+      "steal": [
+        "Each lesson row shows whether it has content ('Empty' or '1 Text & Images') next to Publish or Published (screen 1).",
+        "The 'Add content' panel groups content blocks and teaching tools, with Quiz next to the media blocks (screen 2).",
+        "Each block opens in its own editor with Cancel and Save, instead of being edited on the long lesson page (screens 3-4).",
+        "A saved block is labelled TEXT & IMAGES with Edit and a drag handle, and the outline on the side marks the current lesson (screen 5)."
+      ],
+      "avoid": ["Marketing tools (Upsell, Referrals) in the same 'Add content' list as teaching blocks should stay out of scenario building (screen 2)."],
+      "fit": "Scenario manager: grow Briefing from a single video into orientation and pre-brief material built from blocks. The outline and draft-to-publish steps mirror the SCE structure without replacing the tabbed Details, Objectives, Patient and Equipment form."
+    },
+    "teachable 8c62da99": {
+      "steal": [
+        "A banner explains that grades will not be recorded on this plan, so it is clear answers are collected without scores (screens 3-4).",
+        "Each answer has a checkbox to mark it correct, allowing one or several correct answers, plus 'Add answer' (screens 3-4).",
+        "A finished question collapses and shows a check on the correct answer, while the next question stays open for editing (screen 6).",
+        "Each question can have an image, with alt text and a Replace option (screen 8)."
+      ],
+      "avoid": ["Questions can only be added one at a time with '+ New question' and cannot be reused across quizzes, which is weak for faculty checklists that need shared item banks across scenarios (screens 6-8)."],
+      "fit": "Scenario manager: this supports checklists and knowledge checks for learners and faculty more than pre-brief videos. Quiz grading should stay lighter than the Enterprise Case Manager. Reusing items across scenarios is missing and needed."
+    },
+    "google-ai-studio 4f2fdd14": {
+      "summary": "In a multi-speaker playground, the user writes a dialogue with general style instructions, alternating lines for Speaker 1 and Speaker 2, and a name and voice for each speaker.",
+      "steal": [
+        "General style instructions stay separate from each speaker's lines.",
+        "Each line has a colour-coded speaker label, and '+ Add dialog' adds the next line.",
+        "A settings panel on the right renames a role once and picks its voice, and every line updates.",
+        "A plain-text view next to the script builder can serve as a printable cue card."
+      ],
+      "avoid": ["The text-to-speech voice settings and the Run button that generates audio are not needed, because Essentials needs cue cards for people (SP, operator), not synthetic speech."],
+      "fit": "Scenario manager: a deliberately basic script builder per role for SP and sim-operator lines, in line with the plan not to build a Maestro editor or a stage machine."
+    },
+    "instacart 94df2baf": {
+      "steal": [
+        "The empty Lists page has 'Create' in two places (the header and a link on the page), so it is never hidden.",
+        "The add-items pop-up has 'Current list' and 'Buy it again' tabs, and an empty 'Buy it again' tab offers to browse categories.",
+        "Search shows popular items with pictures before you type, and you tick several before tapping Done.",
+        "The list header has lock and share options, and the description under the title works like setup notes."
+      ],
+      "avoid": ["Having to choose a cover photo before adding items is an extra step a tech's prep list does not need."],
+      "fit": "Scenario manager: move today's free-text Equipment & Supplies toward picking from a catalog into a named list with notes. Stock and check-out stay in Inventory, as planned."
+    },
+    "luma 024a7f32": {
+      "summary": "An event host opens the check-in scanner, points the camera at a guest's QR code, confirms the guest's details, and checks them in.",
+      "steal": [
+        "Clear wording ('Point the camera at a ticket QR code') tells the host exactly what to scan (screens 1, 3).",
+        "A panel shows the guest's name, email and status before 'Check In' is tapped (screen 2).",
+        "A short 'Guest checked in' message appears while the scanner stays open, which keeps a queue moving (screen 3).",
+        "A switch between List and Scan, plus search, gives a way out when scanning fails (screens 1, 3)."
+      ],
+      "avoid": ["Using a host who scans guest tickets as the model for room-TV feedback gets it backwards, because the wrong person holds the code."],
+      "fit": "Scenario manager: the opposite of the Essentials QR checklist, where a learner's phone reads a QR code on the TV without login. It is only loosely relevant to staff checking attendance at the door."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 0.27417600000000003,
+  "result": {
+    "batch": 0,
+    "exit_code": 0,
+    "sanitized_upload_log": "{\"referenceId\":\"refero:91dab9ae-9676-49b6-8b26-01dde539cb0e\",\"index\":0,\"nodeId\":\"100:423\",\"status\":\"uploaded\",\"httpStatus\":200}\nAll URLs posted once; temporary URL file removed. Inspect actual screenshots before marking visual verification.\n",
+    "capabilities_persisted": false
+  }
+}

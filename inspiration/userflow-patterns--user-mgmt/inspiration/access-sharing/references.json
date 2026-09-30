@@ -1,36 +1,36 @@
 {
   "module": "access-sharing",
-  "title": "Access, roles & sharing",
-  "intro": "Internal board for the Essentials 2.0 solution concept. Not about UI: each reference shows how another product solves an access, role or sharing problem our customers actually have (learners without logins, faculty that cannot be scoped to their own students, rosters living in Canvas, eight global roles nobody needs, recordings that should open and close on dates). One section per question; every card says what we would take from it. Counter-examples are flagged. Raw material from Mobbin and Refero, to be cut down before anything is shown outside the team.",
+  "title": "Access, roles and sharing: ideas from other products",
+  "intro": "This is an internal board for the Essentials 2.0 solution concept. It is about how products solve problems, not how their screens look. Each example shows how another product solves an access, role or sharing problem our customers actually have. That includes learners without logins, faculty who can only see their own students, and class lists that live in Canvas. It also covers eight global roles nobody needs, and recordings that should open and close on dates. There is one section per question. Every card says what we would take from the example. Examples of what not to copy are flagged. These are examples we gathered from the design reference libraries Mobbin and Refero, and we will cut them down before anything is shown outside the team.",
   "questions": [
     {
       "id": "Q1",
-      "title": "How do products let people in without creating accounts up front (magic link, guest, identity from SSO or LMS)?",
+      "title": "How do products let people in without creating accounts first (email sign-in link, guest access, or identity from single sign-on (SSO) or a learning management system (LMS))?",
       "answer": ""
     },
     {
       "id": "Q2",
-      "title": "How is access scoped by content (share a course or recording with a person or group) instead of by global role?",
+      "title": "How is access limited by content (share a course or recording with a person or group) instead of by a global role?",
       "answer": ""
     },
     {
       "id": "Q3",
-      "title": "How do products handle bulk rosters: CSV or LMS import, sync, cohorts that churn until week one?",
+      "title": "How do products handle bulk class lists: CSV or LMS import, sync, and groups that keep changing until week one?",
       "answer": ""
     },
     {
       "id": "Q4",
-      "title": "What is the minimal role set that still has an escape hatch (owner/admin/member/guest plus per-item overrides)?",
+      "title": "What is the smallest set of roles that still has a way to make an exception (owner, admin, member, guest, plus per-item overrides)?",
       "answer": ""
     },
     {
       "id": "Q5",
-      "title": "How is access time-boxed (release date, expiry, semester end, view-only links, revoke)?",
+      "title": "How is access open only for a set period (release date, expiry, semester end, view-only links, revoke)?",
       "answer": ""
     },
     {
       "id": "Q6",
-      "title": "How do products remove login friction and account-recovery dependency?",
+      "title": "How do products cut the extra steps at login and the dependence on account recovery?",
       "answer": ""
     }
   ],
@@ -39,14 +39,14 @@
       "id": "mobbin:6e4462ee-35ac-4263-8fd9-7ca9b00b6e00",
       "source": "mobbin",
       "app": "Better Stack",
-      "title": "Welcome back (magic link primary)",
+      "title": "Welcome back with magic link first",
       "kind": "screen",
       "url": "https://mobbin.com/screens/6e4462ee-35ac-4263-8fd9-7ca9b00b6e00",
       "images": [
         "https://mobbin.com/api/mcp/short/JWkOt4A4"
       ],
       "question": "Q1",
-      "take": "Magic link is the primary CTA, password is a secondary text link, SSO is a separate block: a clear hierarchy that makes passwords the exception.",
+      "take": "Better Stack puts the magic link (a sign-in link sent by email) as the main button, makes password a secondary text link, and keeps SSO in a separate block. Passwords become the exception.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -55,14 +55,14 @@
       "id": "refero:84515928-46c1-49f2-aaa5-2516f368b142",
       "source": "refero",
       "app": "Calendly",
-      "title": "Admin login settings: SSO, provisioning, domain control",
+      "title": "Admin login settings in one page",
       "kind": "screen",
       "url": "https://refero.design/pages/84515928-46c1-49f2-aaa5-2516f368b142",
       "images": [
         "https://images.refero.design/screenshots/calendly.com/desktop/b5c3075f-4241-4fb1-b43a-a56cf1c273bf_preview.jpg"
       ],
       "question": "Q1",
-      "take": "Single \"Login\" admin page with tabs for SSO, user provisioning and domain control — identity settings in one place.",
+      "take": "Calendly puts SSO, user provisioning and domain control on a single Login admin page with tabs. Identity settings sit in one place.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -71,7 +71,7 @@
       "id": "refero:9266",
       "source": "refero",
       "app": "Chargetrip",
-      "title": "Passwordless login to Analytics",
+      "title": "Email-only passwordless login",
       "kind": "flow",
       "url": "https://refero.design/flows/9266",
       "images": [
@@ -85,7 +85,7 @@
         "https://images.refero.design/screenshots/chargetrip.io/desktop/6ca1724f-a5a8-4833-a0da-250b61a91458_preview.jpg"
       ],
       "question": "Q1",
-      "take": "Email-only sign-in that doubles as sign-up; \"check your email\" step offers mail-client shortcuts and an explicit \"Logging in…\" state.",
+      "take": "Chargetrip signs people into Analytics with email alone, and the same form also creates the account. The 'check your email' step offers mail-client shortcuts and says 'Logging in...'.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -94,7 +94,7 @@
       "id": "mobbin:c333ff8e-e76b-44a7-ba91-3f29d4dfbd7f",
       "source": "mobbin",
       "app": "Coda",
-      "title": "Sharing a doc",
+      "title": "Share a doc before signup",
       "kind": "flow",
       "url": "https://mobbin.com/flows/c333ff8e-e76b-44a7-ba91-3f29d4dfbd7f",
       "images": [
@@ -108,7 +108,7 @@
         "https://mobbin.com/api/mcp/short/rCJc3wxm"
       ],
       "question": "Q1",
-      "take": "An email can be granted 'Can edit' before the person exists; a 'Hasn't signed up' badge holds the seat until they arrive. Pattern for attaching a learner to a recording pre-account.",
+      "take": "Coda can grant an email 'Can edit' before the person has an account, and shows a 'Hasn't signed up' badge until they arrive. That is how you attach a learner to a recording before they have a login.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -117,7 +117,7 @@
       "id": "refero:12506",
       "source": "refero",
       "app": "Cushion",
-      "title": "Email Login to Inbox",
+      "title": "Six-step magic-link login",
       "kind": "flow",
       "url": "https://refero.design/flows/12506",
       "images": [
@@ -129,7 +129,7 @@
         "https://images.refero.design/screenshots/cushion.so/desktop/a5ed365b-c15a-44f6-a273-d45f954afec8_preview.jpg"
       ],
       "question": "Q1",
-      "take": "Six-step magic-link login with distinct \"sending link\" and \"link sent\" states — the minimum viable passwordless loop.",
+      "take": "Cushion runs a six-step magic-link login with separate 'sending link' and 'link sent' screens. That is the smallest passwordless loop we found.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -138,7 +138,7 @@
       "id": "mobbin:d89d0f52-1133-4d81-a6d7-5d344002997d",
       "source": "mobbin",
       "app": "Dovetail",
-      "title": "Accepting invite",
+      "title": "Accept invite still forces password",
       "kind": "flow",
       "url": "https://mobbin.com/flows/d89d0f52-1133-4d81-a6d7-5d344002997d",
       "images": [
@@ -149,7 +149,7 @@
         "https://mobbin.com/api/mcp/short/bgWbpSvq"
       ],
       "question": "Q1",
-      "take": "COUNTER-EXAMPLE: 'Accept invite to view' still forces full name plus a 12-char password with 5 complexity rules, for a viewer-only invite. This is the friction that produces lockouts.",
+      "take": "What not to copy: 'Accept invite to view' still forces a full name plus a 12-character password with five complexity rules, for a viewer-only invite. Those extra steps are what produce lockouts.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -158,7 +158,7 @@
       "id": "refero:4274",
       "source": "refero",
       "app": "Enode",
-      "title": "Developer account sign-up and magic-link login",
+      "title": "One email for signup and magic link",
       "kind": "flow",
       "url": "https://refero.design/flows/4274",
       "images": [
@@ -171,7 +171,7 @@
         "https://images.refero.design/screenshots/enode.com/desktop/246b5fda-2dab-4321-9091-f9a7cd60a347_preview.jpg"
       ],
       "question": "Q1",
-      "take": "One email form serves both sign-up and log-in via magic link; in-app \"Verify your log-in\" confirmation before landing in the dashboard.",
+      "take": "Enode uses one email form for both sign-up and log-in via magic link, then shows an in-app 'Verify your log-in' confirmation before the dashboard.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -180,7 +180,7 @@
       "id": "refero:9798",
       "source": "refero",
       "app": "Flask.do",
-      "title": "Email Magic-Link Onboarding",
+      "title": "Magic-link onboarding from marketing",
       "kind": "flow",
       "url": "https://refero.design/flows/9798",
       "images": [
@@ -192,7 +192,7 @@
         "https://images.refero.design/screenshots/flask.do/desktop/83ea2bce-e338-43be-8e01-0c8cae340e40_preview.jpg"
       ],
       "question": "Q1",
-      "take": "Marketing CTA → auth-method card → email → link sent → empty team workspace; nothing asked beyond an email.",
+      "take": "Flask.do moves from a marketing button to an auth-method card, then email, then 'link sent', then an empty team workspace. It asks for nothing beyond an email.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -201,14 +201,14 @@
       "id": "refero:f690f4ed-6af6-4a63-8496-ad6e23925486",
       "source": "refero",
       "app": "Homerun",
-      "title": "Team login policy: none / 2FA or SSO / SSO",
+      "title": "Three-radio team login policy",
       "kind": "screen",
       "url": "https://refero.design/pages/f690f4ed-6af6-4a63-8496-ad6e23925486",
       "images": [
         "https://images.refero.design/screenshots/homerun.co/desktop/f05829c5-427b-4523-bd79-b5f2fd5952bd_preview.jpg"
       ],
       "question": "Q1",
-      "take": "Three-radio login policy (none / 2FA or SSO / SSO only) with consequence text — org-level enforcement in one control.",
+      "take": "Homerun offers three login policies (none, two-step sign-in or SSO, SSO only), each with consequence text. One control enforces the rule for the whole organisation.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -217,7 +217,7 @@
       "id": "mobbin:8b1fb34d-22d6-4a29-82fd-f64126c44756",
       "source": "mobbin",
       "app": "Jitter",
-      "title": "Accepting an invite",
+      "title": "Invite lands via temporary magic link",
       "kind": "flow",
       "url": "https://mobbin.com/flows/8b1fb34d-22d6-4a29-82fd-f64126c44756",
       "images": [
@@ -237,7 +237,7 @@
         "https://mobbin.com/api/mcp/short/PpnoTfrb"
       ],
       "question": "Q1",
-      "take": "Invite email is already known, so 'Log in' sends a temporary magic link and drops the invitee straight into the team; no password is ever set up.",
+      "take": "Jitter already knows the invite email, so 'Log in' sends a temporary magic link and drops the invitee straight into the team. No password is ever set up.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -246,7 +246,7 @@
       "id": "mobbin:604b9ac0-21c7-4b7a-893d-8d90fccbbc0c",
       "source": "mobbin",
       "app": "Linear",
-      "title": "Logging in",
+      "title": "Login with Google, magic link and SSO",
       "kind": "flow",
       "url": "https://mobbin.com/flows/604b9ac0-21c7-4b7a-893d-8d90fccbbc0c",
       "images": [
@@ -256,7 +256,7 @@
         "https://mobbin.com/api/mcp/short/ui3W16NS"
       ],
       "question": "Q1",
-      "take": "One login screen offers Google, email magic link, SAML SSO and passkey as peers; the 'check your email' step has an 'enter code manually' fallback for when links don't open.",
+      "take": "Linear's login screen offers Google, email magic link, a common single sign-on standard (SAML), and passkey as peers. The 'check your email' step has an 'enter code manually' fallback when links do not open.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -265,14 +265,14 @@
       "id": "mobbin:51b2de1d-b70d-4819-93e0-98404fd8a661",
       "source": "mobbin",
       "app": "Miro",
-      "title": "Sign in to Miro",
+      "title": "Magic link as recovery path",
       "kind": "screen",
       "url": "https://mobbin.com/screens/51b2de1d-b70d-4819-93e0-98404fd8a661",
       "images": [
         "https://mobbin.com/api/mcp/short/UnmYb4xV"
       ],
       "question": "Q1",
-      "take": "'Trouble signing in? Request a magic sign-in link' as the recovery path next to reset-password, and 'sign in to a private organization' for SSO tenants; answers the months-long lockout problem.",
+      "take": "Miro puts 'Trouble signing in? Request a magic sign-in link' next to reset-password, and 'sign in to a private organization' for SSO tenants. That answers the months-long lockout problem.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -288,7 +288,7 @@
         "https://mobbin.com/api/mcp/short/ZlMPGhjv"
       ],
       "question": "Q1",
-      "take": "Visitor mode: a shared board asks only for a display name and lets the person in; the closest analogue to attaching a learner to a recording without an account.",
+      "take": "Mural's visitor mode asks only for a display name on a shared board and lets the person in. That is the closest match to attaching a learner to a recording without an account.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -297,7 +297,7 @@
       "id": "refero:9042",
       "source": "refero",
       "app": "Parallel",
-      "title": "Passwordless sign-in & Organization Setup",
+      "title": "Work email magic link into org setup",
       "kind": "flow",
       "url": "https://refero.design/flows/9042",
       "images": [
@@ -315,7 +315,7 @@
         "https://images.refero.design/screenshots/parallel.ai/desktop/ae5abf5a-8e8e-4e8b-a2f7-091590dbbb2b_preview.jpg"
       ],
       "question": "Q1",
-      "take": "\"Sign in with work email\" magic link lands straight in org creation — identity first, workspace second, no password anywhere.",
+      "take": "Parallel's 'Sign in with work email' magic link lands straight in org creation. Identity comes first, the workspace second, and there is no password anywhere.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -324,14 +324,14 @@
       "id": "mobbin:d5ddd8a9-9fce-4085-a198-a2a118fdc522",
       "source": "mobbin",
       "app": "Pitch",
-      "title": "Continue with email (sign in or create)",
+      "title": "One entry for sign in or create",
       "kind": "screen",
       "url": "https://mobbin.com/screens/d5ddd8a9-9fce-4085-a198-a2a118fdc522",
       "images": [
         "https://mobbin.com/api/mcp/short/Qa424khW"
       ],
       "question": "Q1",
-      "take": "'We'll sign you in or create an account if you don't have one yet': one entry point collapses login and signup so the invitee never has to know which they need.",
+      "take": "Pitch says 'We'll sign you in or create an account if you don't have one yet'. One entry point collapses login and signup so the invitee never has to know which they need.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -340,7 +340,7 @@
       "id": "mobbin:ce779e11-e45f-4a02-b2c2-128c4ba402ae",
       "source": "mobbin",
       "app": "Plain",
-      "title": "Logging in",
+      "title": "Email first, then SSO and org picker",
       "kind": "flow",
       "url": "https://mobbin.com/flows/ce779e11-e45f-4a02-b2c2-128c4ba402ae",
       "images": [
@@ -350,7 +350,7 @@
         "https://mobbin.com/api/mcp/short/cScWIU61"
       ],
       "question": "Q1",
-      "take": "Email first, then 'Continue with SSO', then a 'Select an organization' picker: identity comes from the org's IdP and the user just chooses which tenant to enter.",
+      "take": "Plain asks for email first, then 'Continue with SSO', then a 'Select an organization' picker. Identity comes from the org's sign-in system, the identity provider (IdP), and the user just chooses which tenant to enter.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -359,7 +359,7 @@
       "id": "mobbin:cf0f6a92-7a09-4693-93ac-b842cc44ed8d",
       "source": "mobbin",
       "app": "Qatalog",
-      "title": "Logging In",
+      "title": "Magic-link login end to end",
       "kind": "flow",
       "url": "https://mobbin.com/flows/cf0f6a92-7a09-4693-93ac-b842cc44ed8d",
       "images": [
@@ -372,7 +372,7 @@
         "https://mobbin.com/api/mcp/short/ODGg2pBz"
       ],
       "question": "Q1",
-      "take": "Magic-link login end to end, including the email itself: link expires in 20 min, single use, plus a copyable URL for signing in on a different device.",
+      "take": "Qatalog runs magic-link login end to end, including the email itself. The link expires in 20 minutes, is single use, and includes a copyable URL for signing in on a different device.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -381,7 +381,7 @@
       "id": "mobbin:4976cb81-97fd-4bbf-8b43-478e0111c588",
       "source": "mobbin",
       "app": "Retool",
-      "title": "Accepting an invite",
+      "title": "Invite acceptance is plain signup",
       "kind": "flow",
       "url": "https://mobbin.com/flows/4976cb81-97fd-4bbf-8b43-478e0111c588",
       "images": [
@@ -390,7 +390,7 @@
         "https://mobbin.com/api/mcp/short/JOKhAhfl"
       ],
       "question": "Q1",
-      "take": "COUNTER-EXAMPLE: invite acceptance is a plain signup form (name + password) with the email pre-filled; the invite context buys nothing beyond the headline.",
+      "take": "What not to copy: invite acceptance is a plain signup form (name plus password) with the email pre-filled. The invite context buys nothing beyond the headline.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -399,14 +399,14 @@
       "id": "refero:1e20e343-27e6-4908-8d42-069070aaad89",
       "source": "refero",
       "app": "Slab",
-      "title": "SSO authentication settings (admin)",
+      "title": "SSO settings for admins only",
       "kind": "screen",
       "url": "https://refero.design/pages/1e20e343-27e6-4908-8d42-069070aaad89",
       "images": [
         "https://images.refero.design/screenshots/slab.com/desktop/83037381-0f4e-4f7a-9f16-1062cf9b4ffb_preview.jpg"
       ],
       "question": "Q1",
-      "take": "Org SSO settings page: \"no providers yet\" empty state with one \"Manage integrations\" CTA — SSO as an admin toggle, invisible to end users.",
+      "take": "Slab's org SSO settings page shows 'no providers yet' with one 'Manage integrations' button. SSO is an admin toggle and stays invisible to end users.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -415,14 +415,14 @@
       "id": "mobbin:fae47345-f723-4a56-9944-85d93cde8693",
       "source": "mobbin",
       "app": "Slite",
-      "title": "Sign into workspace",
+      "title": "Domain auto-join plus magic link",
       "kind": "screen",
       "url": "https://mobbin.com/screens/fae47345-f723-4a56-9944-85d93cde8693",
       "images": [
         "https://mobbin.com/api/mcp/short/L4YcqjVp"
       ],
       "question": "Q1",
-      "take": "Domain auto-join ('if you have an @school.edu address you can join this organization') plus a 'Send magic link' vs 'Type password' choice on the same email field.",
+      "take": "Slite offers domain auto-join ('if you have an @school.edu address you can join this organization') plus a 'Send magic link' versus 'Type password' choice on the same email field.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -431,7 +431,7 @@
       "id": "mobbin:702f32f7-4e64-4d3b-9cb8-e3b3f4892c7c",
       "source": "mobbin",
       "app": "Slite",
-      "title": "Accepting an invitation",
+      "title": "Three ways to accept an invitation",
       "kind": "flow",
       "url": "https://mobbin.com/flows/702f32f7-4e64-4d3b-9cb8-e3b3f4892c7c",
       "images": [
@@ -445,7 +445,7 @@
         "https://mobbin.com/api/mcp/short/zJGIDPAl"
       ],
       "question": "Q1",
-      "take": "Three parallel ways in: a shareable join link ('anyone with this link can join'), import from Google/Slack contacts (roster source), or typed emails. Roster-import is the Canvas analogue.",
+      "take": "Slite offers three ways in: a shareable join link ('anyone with this link can join'), import from Google or Slack contacts (a class-list source), or typed emails. The contact import is the Canvas-like pattern.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -454,14 +454,14 @@
       "id": "mobbin:4ae22652-6542-404e-ae2a-c523f6f99d30",
       "source": "mobbin",
       "app": "Aboard",
-      "title": "Set access (document)",
+      "title": "Set document access by attributes",
       "kind": "screen",
       "url": "https://mobbin.com/screens/4ae22652-6542-404e-ae2a-c523f6f99d30",
       "images": [
         "https://mobbin.com/api/mcp/short/wabaDMND"
       ],
       "question": "Q2",
-      "take": "Attribute-scoped access on a document: Workplace x Department x Role dropdowns instead of naming people; maps to site x program x cohort for a sim center.",
+      "take": "Aboard limits access on a document with Workplace, Department and Role dropdowns instead of naming people. That maps to site, program and cohort for a sim center.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -470,7 +470,7 @@
       "id": "mobbin:6bb3bd42-be91-4b5b-ad2b-62526eab5718",
       "source": "mobbin",
       "app": "Asana",
-      "title": "Sharing a project",
+      "title": "Project access settings and member roles",
       "kind": "flow",
       "url": "https://mobbin.com/flows/6bb3bd42-be91-4b5b-ad2b-62526eab5718",
       "images": [
@@ -479,7 +479,7 @@
         "https://mobbin.com/api/mcp/short/BCSQtUqG"
       ],
       "question": "Q2",
-      "take": "Project-level 'Access settings' switch (My workspace vs Private to members) sits above a member list where each row carries its own role (Project admin / Editor / Viewer).",
+      "take": "Asana puts a project-level 'Access settings' switch (My workspace versus Private to members) above a member list where each row has its own role (Project admin, Editor or Viewer).",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -488,14 +488,14 @@
       "id": "mobbin:92f8660a-4efb-48aa-a61f-35d3d45e3997",
       "source": "mobbin",
       "app": "Asana",
-      "title": "Request access to project",
+      "title": "Request access from project admins",
       "kind": "screen",
       "url": "https://mobbin.com/screens/92f8660a-4efb-48aa-a61f-35d3d45e3997",
       "images": [
         "https://mobbin.com/api/mcp/short/EzRTrz9c"
       ],
       "question": "Q2",
-      "take": "Denied state that routes to the project's admins (not a global admin) with an optional message for the approver; scoped access needs a scoped request path.",
+      "take": "When access is denied, Asana routes the request to the project's admins (not a global admin), with an optional message for the approver. Access limited to a project needs a request path limited the same way.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -504,14 +504,14 @@
       "id": "mobbin:3ce07a85-4805-4f28-a882-56303dc5324d",
       "source": "mobbin",
       "app": "Basecamp",
-      "title": "What can Jane Doe access?",
+      "title": "What one person can access",
       "kind": "screen",
       "url": "https://mobbin.com/screens/3ce07a85-4805-4f28-a882-56303dc5324d",
       "images": [
         "https://mobbin.com/api/mcp/short/BzoJQI5c"
       ],
       "question": "Q2",
-      "take": "Person-centric inverse of the share dialog: a checklist of projects one person may see, with a plain-English 'what happens next'. Direct answer to 'faculty sees only their own students'.",
+      "take": "Basecamp flips the share dialog: a checklist of projects one person may see, with a plain-English 'what happens next'. That is a direct answer to 'faculty sees only their own students'.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -520,7 +520,7 @@
       "id": "refero:199",
       "source": "refero",
       "app": "Bezi",
-      "title": "Share modal controls",
+      "title": "Share dialog with link and roles",
       "kind": "flow",
       "url": "https://refero.design/flows/199",
       "images": [
@@ -531,7 +531,7 @@
         "https://images.refero.design/screenshots/bezi.com/desktop/ca51d955-e5e5-4ffb-9a6d-84091be1f98c_thumb.jpg"
       ],
       "question": "Q2",
-      "take": "One share modal combines link-access dropdown, collaborator invite, and per-collaborator role change/remove.",
+      "take": "Bezi combines link-access choice, collaborator invite, and per-collaborator role change or remove in one share dialog.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -540,7 +540,7 @@
       "id": "refero:6152",
       "source": "refero",
       "app": "Cake Equity",
-      "title": "Folder sharing management",
+      "title": "Share folder to person or group",
       "kind": "flow",
       "url": "https://refero.design/flows/6152",
       "images": [
@@ -551,7 +551,7 @@
         "https://images.refero.design/screenshots/cakeequity.com/desktop/4e8199b9-469d-4e54-a1e2-d447ef86d1ec_preview.jpg"
       ],
       "question": "Q2",
-      "take": "Share a document folder to a specific shareholder or group from the folder context menu — you pick a person/group, not a global role.",
+      "take": "Cake Equity lets you share a document folder to a specific shareholder or group from the folder context menu. You pick a person or group, not a global role.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -560,7 +560,7 @@
       "id": "refero:10880",
       "source": "refero",
       "app": "Clipchamp",
-      "title": "Project sharing & link invite",
+      "title": "Video project share and link invite",
       "kind": "flow",
       "url": "https://refero.design/flows/10880",
       "images": [
@@ -576,7 +576,7 @@
         "https://images.refero.design/screenshots/clipchamp.com/desktop/83173c76-7082-4b88-98f9-d8d8a05ddfcb_preview.jpg"
       ],
       "question": "Q2",
-      "take": "Video-project share menu: send link to recipients (autosuggest) plus separate link settings; includes share error and retry states.",
+      "take": "Clipchamp's video-project share menu sends a link to recipients (with autosuggest) plus separate link settings. It includes share error and retry screens.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -585,14 +585,14 @@
       "id": "mobbin:91a83cd9-614a-4cbf-aebf-d79b6725e3de",
       "source": "mobbin",
       "app": "Confluence",
-      "title": "Hub permissions (per-user grid)",
+      "title": "Per-user permission grid per space",
       "kind": "screen",
       "url": "https://mobbin.com/screens/91a83cd9-614a-4cbf-aebf-d79b6725e3de",
       "images": [
         "https://mobbin.com/api/mcp/short/gRRen6ld"
       ],
       "question": "Q2",
-      "take": "COUNTER-EXAMPLE: per-user grid of 15 checkbox columns (view, delete own, add, archive, export...) with Users/Groups/Guests tabs; granular but unreadable, and per space rather than per content.",
+      "take": "What not to copy: Confluence shows a per-user grid of 15 checkbox columns (view, delete own, add, archive, export and more) with Users, Groups and Guests tabs. It is detailed but hard to read, and it applies per space rather than per content.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -601,7 +601,7 @@
       "id": "refero:13031",
       "source": "refero",
       "app": "Dropbox",
-      "title": "Folder access management",
+      "title": "Folder manage-access dialog",
       "kind": "flow",
       "url": "https://refero.design/flows/13031",
       "images": [
@@ -611,7 +611,7 @@
         "https://images.refero.design/screenshots/dropbox.com/desktop/bba9dd7b-6a2a-48bd-8e76-b9452f1c8a8c_preview.jpg"
       ],
       "question": "Q2",
-      "take": "Folder \"Manage access\" dialog with a per-collaborator permission selector and inline confirmation of the change.",
+      "take": "Dropbox's folder 'Manage access' dialog has a per-collaborator permission selector and confirms the change on the same screen.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -620,7 +620,7 @@
       "id": "mobbin:4c27548d-9b5a-46f9-953a-53c9aadcf6d0",
       "source": "mobbin",
       "app": "ElevenLabs",
-      "title": "Sharing a project",
+      "title": "Collaborators versus readers tabs",
       "kind": "flow",
       "url": "https://mobbin.com/flows/4c27548d-9b5a-46f9-953a-53c9aadcf6d0",
       "images": [
@@ -634,7 +634,7 @@
         "https://mobbin.com/api/mcp/short/wgnQdMQW"
       ],
       "question": "Q2",
-      "take": "Splits the audience into Collaborators vs Readers tabs, then stacks three scopes with their own level: named people, Workspace Access, Public Access.",
+      "take": "ElevenLabs splits the audience into Collaborators versus Readers tabs, then stacks three audiences with their own level: named people, Workspace Access and Public Access.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -643,7 +643,7 @@
       "id": "refero:5007",
       "source": "refero",
       "app": "Figma",
-      "title": "Manage sharing and invite collaborator",
+      "title": "Per-file share overrides team default",
       "kind": "flow",
       "url": "https://refero.design/flows/5007",
       "images": [
@@ -657,7 +657,7 @@
         "https://images.refero.design/screenshots/figma.com/desktop/3d9a7ef0-a748-4cff-992c-402c607f59a6_preview.jpg"
       ],
       "question": "Q2",
-      "take": "Per-file share settings switch link access to \"Only invited people\", then invite by email — item-level scope overrides team default.",
+      "take": "Figma's per-file share settings switch link access to 'Only invited people', then invite by email. Item-level access overrides the team default.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -666,7 +666,7 @@
       "id": "mobbin:07103cd7-8353-4578-88fb-3c767153613d",
       "source": "mobbin",
       "app": "Fireflies",
-      "title": "Team (User Groups)",
+      "title": "User groups for sharing meetings",
       "kind": "flow",
       "url": "https://mobbin.com/flows/07103cd7-8353-4578-88fb-3c767153613d",
       "images": [
@@ -676,7 +676,7 @@
         "https://mobbin.com/api/mcp/short/lXmIm7QS"
       ],
       "question": "Q2",
-      "take": "Recording tool that sells user groups explicitly as 'easily share meetings with a particular group': groups exist to receive recordings, not to hold a global role.",
+      "take": "Fireflies sells user groups as 'easily share meetings with a particular group'. Groups exist to receive recordings, not to hold a global role.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -685,14 +685,14 @@
       "id": "mobbin:211e56e7-4da4-416c-8860-aeacfa13ae00",
       "source": "mobbin",
       "app": "GitHub",
-      "title": "Repository roles",
+      "title": "Five repository roles plus custom roles",
       "kind": "screen",
       "url": "https://mobbin.com/screens/211e56e7-4da4-416c-8860-aeacfa13ae00",
       "images": [
         "https://mobbin.com/api/mcp/short/0cxTL4wz"
       ],
       "question": "Q2",
-      "take": "Five pre-defined roles, each described in one sentence as 'previous role plus X', applied per repository via teams; custom roles are an escape hatch, not the default.",
+      "take": "GitHub offers five pre-defined roles, each described in one sentence as 'previous role plus X', applied per repository via teams. Custom roles are a way to make an exception, not the default.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -701,7 +701,7 @@
       "id": "refero:4401",
       "source": "refero",
       "app": "Hello Ivy",
-      "title": "Invite client to workspace",
+      "title": "Invite client with visible access",
       "kind": "flow",
       "url": "https://refero.design/flows/4401",
       "images": [
@@ -712,7 +712,7 @@
         "https://images.refero.design/screenshots/helloivy.co/desktop/34f93408-d964-4666-87dc-68217aa95229_preview.jpg"
       ],
       "question": "Q2",
-      "take": "External-client invite modal lets you adjust what the client can see before sending; pending invite shown in the client list.",
+      "take": "Hello Ivy's external-client invite lets you adjust what the client can see before sending. A pending invite shows in the client list.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -721,7 +721,7 @@
       "id": "mobbin:a4536527-870f-4b44-962d-30d902f5d920",
       "source": "mobbin",
       "app": "Hex",
-      "title": "Sharing a project",
+      "title": "Share project with re-share lock",
       "kind": "flow",
       "url": "https://mobbin.com/flows/a4536527-870f-4b44-962d-30d902f5d920",
       "images": [
@@ -736,7 +736,7 @@
         "https://mobbin.com/api/mcp/short/Ilmehtqc"
       ],
       "question": "Q2",
-      "take": "One input for 'users, groups, or collections'; the whole-workspace row is a toggle with its own level; and a 'prevent Can-edit users from re-sharing' checkbox stops privilege leaking.",
+      "take": "Hex uses one input for 'users, groups, or collections'. The whole-workspace row is a toggle with its own level, and a 'prevent Can-edit users from re-sharing' checkbox stops privilege leaking.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -745,14 +745,14 @@
       "id": "refero:c2570ea4-33ea-40e8-9608-72632aff9370",
       "source": "refero",
       "app": "Maze",
-      "title": "Share reel: team-only vs anyone with link",
+      "title": "Team-only versus anyone with link",
       "kind": "screen",
       "url": "https://refero.design/pages/c2570ea4-33ea-40e8-9608-72632aff9370",
       "images": [
         "https://images.refero.design/screenshots/maze.co/desktop/820f7b06-9f55-4549-a8d6-d95d873b92ec_preview.jpg"
       ],
       "question": "Q2",
-      "take": "Two radios — \"Only members in your team\" vs \"Anyone with the link\" — the minimal audience choice for sharing a recording.",
+      "take": "Maze offers two radios for sharing a reel: 'Only members in your team' versus 'Anyone with the link'. That is the smallest audience choice for sharing a recording.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -761,7 +761,7 @@
       "id": "mobbin:ce64d3f8-b527-4b9f-a350-770b20cd1027",
       "source": "mobbin",
       "app": "Notion",
-      "title": "Creating a group",
+      "title": "Groups as sharing targets",
       "kind": "flow",
       "url": "https://mobbin.com/flows/ce64d3f8-b527-4b9f-a350-770b20cd1027",
       "images": [
@@ -775,7 +775,7 @@
         "https://mobbin.com/api/mcp/short/lhwyehAv"
       ],
       "question": "Q2",
-      "take": "People table with Teamspaces / Groups / Role as separate columns, and a Groups tab that shows how many teamspaces each group unlocks; groups are a sharing target, role stays minimal.",
+      "take": "Notion's people table has Teamspaces, Groups and Role as separate columns, and a Groups tab that shows how many teamspaces each group unlocks. Groups are a sharing target; role stays small.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -784,7 +784,7 @@
       "id": "mobbin:1fb17c11-dd5b-4d8c-928f-6b1b64c444fc",
       "source": "mobbin",
       "app": "Sketch",
-      "title": "Share a document",
+      "title": "Share dialog by audience tab",
       "kind": "flow",
       "url": "https://mobbin.com/flows/1fb17c11-dd5b-4d8c-928f-6b1b64c444fc",
       "images": [
@@ -794,7 +794,7 @@
         "https://mobbin.com/api/mcp/short/SfMAuxgj"
       ],
       "question": "Q2",
-      "take": "Share dialog is organised by audience tab: Workspace Members (Restricted) / Guests / Everyone (No Access). Being in the workspace does not mean seeing the document.",
+      "take": "Sketch organises the share dialog by audience tab: Workspace Members (Restricted), Guests, and Everyone (No Access). Being in the workspace does not mean seeing the document.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -803,14 +803,14 @@
       "id": "refero:0108bda4-75dc-4653-936f-52d180b0cdea",
       "source": "refero",
       "app": "Skiff",
-      "title": "Share document: invite with role + public link toggle",
+      "title": "Invite with role and public link",
       "kind": "screen",
       "url": "https://refero.design/pages/0108bda4-75dc-4653-936f-52d180b0cdea",
       "images": [
         "https://images.refero.design/screenshots/skiff.com/desktop/c0745ba7-de92-4127-8f4d-c5985a9a3468_preview.jpg"
       ],
       "question": "Q2",
-      "take": "Doc-level modal: invite by email with role, list of guests vs team members, and a public-link toggle — all scoped to one document.",
+      "take": "Skiff's document dialog invites by email with a role, lists guests versus team members, and offers a public-link toggle. All of it applies to one document.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -819,14 +819,14 @@
       "id": "mobbin:4a80b0e2-e462-407e-8842-d0fd15510391",
       "source": "mobbin",
       "app": "StackAI",
-      "title": "Roles permission matrix",
+      "title": "Global capability by role matrix",
       "kind": "screen",
       "url": "https://mobbin.com/screens/4a80b0e2-e462-407e-8842-d0fd15510391",
       "images": [
         "https://mobbin.com/api/mcp/short/Q1N3rPxX"
       ],
       "question": "Q2",
-      "take": "COUNTER-EXAMPLE: global capability x role checkbox matrix (dozens of rows, 'Add Role' button). This is the 8-global-roles trap: it can never express 'only my students' videos'.",
+      "take": "What not to copy: StackAI shows a global capability-by-role checkbox matrix (dozens of rows, 'Add Role' button). This is the eight-global-roles trap: it can never express 'only my students' videos'.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -835,7 +835,7 @@
       "id": "refero:13746",
       "source": "refero",
       "app": "Synthesia.io",
-      "title": "Invite External Collaborator",
+      "title": "Guest invited to a single project",
       "kind": "flow",
       "url": "https://refero.design/flows/13746",
       "images": [
@@ -847,7 +847,7 @@
         "https://images.refero.design/screenshots/synthesia.io/desktop/1210fb90-d723-4246-a21e-529df13a0a8c_preview.jpg"
       ],
       "question": "Q2",
-      "take": "Guest invited to a single project: a \"Review external access\" step warns what they will see, then a permission level is chosen.",
+      "take": "Synthesia invites a guest to a single project. A 'Review external access' step warns what they will see, then a permission level is chosen.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -856,7 +856,7 @@
       "id": "refero:9583",
       "source": "refero",
       "app": "Teachable",
-      "title": "Community Access Management",
+      "title": "Community access by membership tier",
       "kind": "flow",
       "url": "https://refero.design/flows/9583",
       "images": [
@@ -866,7 +866,7 @@
         "https://images.refero.design/screenshots/teachable.com/desktop/42482f6b-6931-4fcb-9e2e-988c1f48babb_preview.jpg"
       ],
       "question": "Q2",
-      "take": "Gate a content area by audience: pick which membership tiers can access the community in a modal — edtech cohort-based scoping.",
+      "take": "Teachable limits a content area by audience: pick which membership tiers can access the community. That is cohort-based limiting for edtech.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -875,14 +875,14 @@
       "id": "mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8",
       "source": "mobbin",
       "app": "Vimeo",
-      "title": "Share Video project",
+      "title": "Share video with collaborators and viewers",
       "kind": "screen",
       "url": "https://mobbin.com/screens/5262ab95-d5ee-4376-ba68-5e780dcad8a8",
       "images": [
         "https://mobbin.com/api/mcp/short/BdZzzmWZ"
       ],
       "question": "Q2",
-      "take": "Video-specific share: 'All admins - Can manage' as an implicit row, owner, named person with Can comment, and a separate Link privacy control; Collaborators vs Viewers counted in the comments panel.",
+      "take": "Vimeo's video share shows 'All admins - Can manage' as an implicit row, the owner, a named person with Can comment, and a separate Link privacy control. Collaborators versus Viewers are counted in the comments panel.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -891,7 +891,7 @@
       "id": "refero:9855",
       "source": "refero",
       "app": "Acuity Scheduling",
-      "title": "Client Import/Export",
+      "title": "CSV import with column mapping",
       "kind": "flow",
       "url": "https://refero.design/flows/9855",
       "images": [
@@ -904,7 +904,7 @@
         "https://images.refero.design/screenshots/acuityscheduling.com/desktop/388467af-243a-4c87-a516-20541e855048_preview.jpg"
       ],
       "question": "Q3",
-      "take": "CSV import with a \"mapping required\" preview state and column labels applied before a success banner on the client list.",
+      "take": "Acuity Scheduling's CSV import shows a 'mapping required' preview and applies column labels before a success banner on the client list.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -913,7 +913,7 @@
       "id": "refero:6126",
       "source": "refero",
       "app": "Cake Equity",
-      "title": "Bulk Stakeholder Import",
+      "title": "Bulk stakeholder import with validation",
       "kind": "flow",
       "url": "https://refero.design/flows/6126",
       "images": [
@@ -928,7 +928,7 @@
         "https://images.refero.design/screenshots/cakeequity.com/desktop/57185543-feaa-45c0-ac38-866777a05692_preview.jpg"
       ],
       "question": "Q3",
-      "take": "Auto-maps columns on upload, then validates on import attempt with row-level errors before committing.",
+      "take": "Cake Equity auto-maps columns on upload, then validates on import with row-level errors before committing.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -937,14 +937,14 @@
       "id": "refero:c38bf684-80b3-475b-bfc1-400bc9fc5113",
       "source": "refero",
       "app": "Calendly",
-      "title": "Admin center: Groups",
+      "title": "Admin groups by department",
       "kind": "screen",
       "url": "https://refero.design/pages/c38bf684-80b3-475b-bfc1-400bc9fc5113",
       "images": [
         "https://images.refero.design/screenshots/calendly.com/desktop/09d9a4eb-667f-4ef3-9492-937a6bac4220_preview.jpg"
       ],
       "question": "Q3",
-      "take": "Admin \"Groups\" area organizes members by department/location with group admins — cohort structure with delegated admin.",
+      "take": "Calendly's admin Groups area organises members by department or location with group admins. That is cohort structure with delegated admin.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -953,7 +953,7 @@
       "id": "refero:8084",
       "source": "refero",
       "app": "Canva",
-      "title": "Manage team members",
+      "title": "Add selected people to a group",
       "kind": "flow",
       "url": "https://refero.design/flows/8084",
       "images": [
@@ -963,7 +963,7 @@
         "https://images.refero.design/screenshots/canva.com/desktop/aaa8e26b-d89f-4201-84d0-f594beb5912e_preview.jpg"
       ],
       "question": "Q3",
-      "take": "Multi-select people in the roster → \"Add to group\" overlay — groups/cohorts built from the existing member list.",
+      "take": "Canva lets you multi-select people in the member list and choose 'Add to group'. Groups and cohorts are built from people who are already there.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -972,14 +972,14 @@
       "id": "refero:8d70fdbc-4b2b-4049-a902-bccb0a1eaf20",
       "source": "refero",
       "app": "Canva",
-      "title": "SSO & provisioning: domain verification",
+      "title": "SSO and provisioning beside domain check",
       "kind": "screen",
       "url": "https://refero.design/pages/8d70fdbc-4b2b-4049-a902-bccb0a1eaf20",
       "images": [
         "https://images.refero.design/screenshots/canva.com/desktop/8f522481-5104-403d-9bfb-24defdbcad55_preview.jpg"
       ],
       "question": "Q3",
-      "take": "\"SSO & provisioning\" settings with domain-verification tab — directory sync is set up next to SSO, not as a separate product.",
+      "take": "Canva's 'SSO & provisioning' settings include a domain-verification tab. Directory sync (automatic copying of people and groups from another system) sits next to SSO, not as a separate product.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -988,7 +988,7 @@
       "id": "mobbin:34a0e809-69b1-4d32-9687-449918865efd",
       "source": "mobbin",
       "app": "Circle",
-      "title": "Importing members",
+      "title": "Invite with manual or CSV import",
       "kind": "flow",
       "url": "https://mobbin.com/flows/34a0e809-69b1-4d32-9687-449918865efd",
       "images": [
@@ -1000,7 +1000,7 @@
         "https://mobbin.com/api/mcp/short/LI2KXhx3"
       ],
       "question": "Q3",
-      "take": "'Enter manually | Import CSV' is a toggle inside the same Invite wizard (not a buried settings page), with a template CSV link and tag assignment for the whole batch; answers the 'batch upload existed but nobody found it' problem.",
+      "take": "Circle puts 'Enter manually | Import CSV' as a toggle inside the Invite flow, with a template CSV link and tag assignment for the batch. That answers the 'batch upload existed but nobody found it' problem.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1009,7 +1009,7 @@
       "id": "mobbin:aaa47dba-39f8-4997-ae31-4a6c6624265e",
       "source": "mobbin",
       "app": "Circle",
-      "title": "Importing member from CSV",
+      "title": "Bulk CSV import with logs",
       "kind": "flow",
       "url": "https://mobbin.com/flows/aaa47dba-39f8-4997-ae31-4a6c6624265e",
       "images": [
@@ -1022,7 +1022,7 @@
         "https://mobbin.com/api/mcp/short/N8sZ4RyF"
       ],
       "question": "Q3",
-      "take": "Bulk import page shows the invite email preview and defaults before upload, then a 'Bulk logs' table (Pending -> Completed 2/2, input + output CSV) so a tech can verify what actually landed.",
+      "take": "Circle's bulk import shows the invite email preview before upload, then a 'Bulk logs' table (Pending to Completed, input plus output CSV) so a tech can verify what landed.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1031,7 +1031,7 @@
       "id": "mobbin:246ac8d9-3fc6-42e1-a04c-aede744f7879",
       "source": "mobbin",
       "app": "Customer.io",
-      "title": "Mapping fields",
+      "title": "Upload, map fields, review cohort",
       "kind": "flow",
       "url": "https://mobbin.com/flows/246ac8d9-3fc6-42e1-a04c-aede744f7879",
       "images": [
@@ -1041,7 +1041,7 @@
         "https://mobbin.com/api/mcp/short/9gUpW0s4"
       ],
       "question": "Q3",
-      "take": "3-step Upload / Map fields / Review; the review screen counts new vs existing people, warnings and errors, and offers 'add these people to a new or existing segment' — i.e. import creates the cohort in one go.",
+      "take": "Customer.io runs a three-step Upload, Map fields, Review flow. The review screen counts new versus existing people, warnings and errors, and offers 'add these people to a new or existing segment', so import creates the cohort in one go.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1050,7 +1050,7 @@
       "id": "mobbin:f9e90f25-5d36-4474-86a5-d61fbc08051b",
       "source": "mobbin",
       "app": "Deel",
-      "title": "Uploading a CSV (bulk edit of workers)",
+      "title": "Four-stage CSV bulk edit flow",
       "kind": "flow",
       "url": "https://mobbin.com/flows/f9e90f25-5d36-4474-86a5-d61fbc08051b",
       "images": [
@@ -1068,7 +1068,7 @@
         "https://mobbin.com/api/mcp/short/sjLSE6hV"
       ],
       "question": "Q3",
-      "take": "COUNTER-EXAMPLE: download-edit-upload-validate-choose-review, a 4-stage wizard in a full-screen takeover; right for 300 payroll records, far too heavy for a sim tech adding a 4-10 learner group.",
+      "take": "What not to copy: Deel's download-edit-upload-validate-choose-review flow is a four-stage full-screen process. It fits 300 payroll records, and is far too heavy for a sim tech adding a group of 4 to 10 learners.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -1077,14 +1077,14 @@
       "id": "refero:c3e50548-7421-4c7d-a721-3611243d25f0",
       "source": "refero",
       "app": "Dropbox",
-      "title": "Admin console: Members list with status filter",
+      "title": "Members list with status and groups",
       "kind": "screen",
       "url": "https://refero.design/pages/c3e50548-7421-4c7d-a721-3611243d25f0",
       "images": [
         "https://images.refero.design/screenshots/dropbox.com/desktop/c3e50548-7421-4c7d-a721-3611243d25f0_preview.jpg"
       ],
       "question": "Q3",
-      "take": "Admin members table with status filter (invited/active) and Groups as a sibling nav item — roster + cohorts in one console.",
+      "take": "Dropbox's admin members table has a status filter (invited or active) and Groups as a sibling nav item. The class list and cohorts live in one console.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1093,7 +1093,7 @@
       "id": "mobbin:4337ee88-c5cd-431d-ab23-cf3cfaa34354",
       "source": "mobbin",
       "app": "Front",
-      "title": "Creating a teammate group",
+      "title": "Create group by picker or CSV",
       "kind": "flow",
       "url": "https://mobbin.com/flows/4337ee88-c5cd-431d-ab23-cf3cfaa34354",
       "images": [
@@ -1106,7 +1106,7 @@
         "https://mobbin.com/api/mcp/short/yro5QQsv"
       ],
       "question": "Q3",
-      "take": "Create-group form offers both a checkbox picker of existing people AND 'Download CSV template / Import CSV' inline — small groups by hand, big cohorts by file, same screen.",
+      "take": "Front's create-group form offers both a checkbox picker of existing people and 'Download CSV template / Import CSV' on the same screen. Small groups by hand, big cohorts by file.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1115,7 +1115,7 @@
       "id": "mobbin:b1cd6357-2ef6-4ba2-80e7-5256dc32bf7c",
       "source": "mobbin",
       "app": "Ghost",
-      "title": "Importing members",
+      "title": "CSV import with column mapping table",
       "kind": "flow",
       "url": "https://mobbin.com/flows/b1cd6357-2ef6-4ba2-80e7-5256dc32bf7c",
       "images": [
@@ -1131,7 +1131,7 @@
         "https://mobbin.com/api/mcp/short/Kwo62qTz"
       ],
       "question": "Q3",
-      "take": "CSV import as column-mapping table (field / sample data / import as), upserts on matching email, and auto-labels the batch 'Import <date>' so the cohort is findable afterwards.",
+      "take": "Ghost's CSV import uses a column-mapping table (field, sample data, import as), updates existing people on matching email, and auto-labels the batch 'Import <date>' so the cohort is findable afterwards.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1140,7 +1140,7 @@
       "id": "mobbin:47c6268d-6177-487e-9420-837030e1b1c3",
       "source": "mobbin",
       "app": "Google Workspace",
-      "title": "Manage members",
+      "title": "Add, bulk upload and download members",
       "kind": "flow",
       "url": "https://mobbin.com/flows/47c6268d-6177-487e-9420-837030e1b1c3",
       "images": [
@@ -1149,7 +1149,7 @@
         "https://mobbin.com/api/mcp/short/OZd8o1G6"
       ],
       "question": "Q3",
-      "take": "Group page puts Add members / Bulk upload members / Download members side by side, and separates direct vs indirect (nested) members — a model for cohorts that contain sub-groups.",
+      "take": "Google Workspace puts Add members, Bulk upload members and Download members side by side on the group page, and separates direct versus indirect (nested) members. That is a model for cohorts that contain sub-groups.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1158,14 +1158,14 @@
       "id": "mobbin:a31922e1-44e3-4be6-a0b3-5dee4d8005bc",
       "source": "mobbin",
       "app": "Grammarly",
-      "title": "Invite members dialog (link, email, 'Import list' nudge)",
+      "title": "Invite dialog with import nudge",
       "kind": "screen",
       "url": "https://mobbin.com/screens/a31922e1-44e3-4be6-a0b3-5dee4d8005bc",
       "images": [
         "https://mobbin.com/api/mcp/short/PbNwETbG"
       ],
       "question": "Q3",
-      "take": "Invite dialog surfaces bulk import as a one-line nudge under the email box ('Want to add emails in bulk? Import list') plus a domain-restricted join link — discoverability of bulk without a separate feature.",
+      "take": "Grammarly's invite dialog puts bulk import as a one-line nudge under the email box ('Want to add emails in bulk? Import list') plus a domain-restricted join link. Bulk stays discoverable without a separate feature.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1174,7 +1174,7 @@
       "id": "refero:671",
       "source": "refero",
       "app": "Intercom",
-      "title": "CSV User Import",
+      "title": "CSV user import with report",
       "kind": "flow",
       "url": "https://refero.design/flows/671",
       "images": [
@@ -1193,7 +1193,7 @@
         "https://images.refero.design/screenshots/intercom.com/desktop/65867693-c5ca-46f9-8a4e-5d5dd3829c0e_thumb.jpg"
       ],
       "question": "Q3",
-      "take": "Import wizard maps each CSV column to a user attribute, then ends with a post-import report of created/updated/failed rows.",
+      "take": "Intercom's import flow maps each CSV column to a user attribute, then ends with a post-import report of created, updated and failed rows.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1202,7 +1202,7 @@
       "id": "mobbin:44413772-2ae1-4a33-85e7-df96010438b9",
       "source": "mobbin",
       "app": "Linear",
-      "title": "Inviting team members",
+      "title": "Paste emails and add to team",
       "kind": "flow",
       "url": "https://mobbin.com/flows/44413772-2ae1-4a33-85e7-df96010438b9",
       "images": [
@@ -1213,7 +1213,7 @@
         "https://mobbin.com/api/mcp/short/R0r0H7rl"
       ],
       "question": "Q3",
-      "take": "Paste comma-separated emails + optional 'Add to team' in one dialog; invitees appear immediately in the members table with '(Invited)' status and their team chip, so the roster exists before anyone accepts.",
+      "take": "Linear lets you paste comma-separated emails plus an optional 'Add to team' in one dialog. Invitees appear at once in the members table with '(Invited)' status and their team, so the class list exists before anyone accepts.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1222,14 +1222,14 @@
       "id": "refero:6c361e65-4f9d-4e4f-81dd-93f36f6955a3",
       "source": "refero",
       "app": "Miro",
-      "title": "Invite to team: paste multiple emails",
+      "title": "Paste multiple emails to invite",
       "kind": "screen",
       "url": "https://refero.design/pages/6c361e65-4f9d-4e4f-81dd-93f36f6955a3",
       "images": [
         "https://images.refero.design/screenshots/miro.com/desktop/06bb10d1-bbaf-401c-a79c-29fec0012322_preview.jpg"
       ],
       "question": "Q3",
-      "take": "Multiline paste box for bulk emails with an \"add individually\" fallback — one field handles 1 or 100 invites.",
+      "take": "Miro's invite uses a multiline paste box for bulk emails with an 'add individually' fallback. One field handles 1 or 100 invites.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1238,7 +1238,7 @@
       "id": "refero:10626",
       "source": "refero",
       "app": "Resend",
-      "title": "Import contacts from CSV",
+      "title": "Canonical CSV import flow",
       "kind": "flow",
       "url": "https://refero.design/flows/10626",
       "images": [
@@ -1253,7 +1253,7 @@
         "https://images.refero.design/screenshots/resend.com/desktop/95848562-2641-4eaa-8830-ae5e0411cef3_preview.jpg"
       ],
       "question": "Q3",
-      "take": "Canonical CSV import: upload → map columns (auto then manual) → review parsed rows → importing indicator → list.",
+      "take": "Resend shows the standard CSV import: upload, map columns (auto then manual), review parsed rows, an importing indicator, then the list.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1262,14 +1262,14 @@
       "id": "mobbin:1c57f1f3-5e23-49b2-ad6a-c4cba92bd9c4",
       "source": "mobbin",
       "app": "Slite",
-      "title": "Invite teammates (link, Google/Slack contacts, emails)",
+      "title": "Join link, contacts or typed emails",
       "kind": "screen",
       "url": "https://mobbin.com/screens/1c57f1f3-5e23-49b2-ad6a-c4cba92bd9c4",
       "images": [
         "https://mobbin.com/api/mcp/short/pPpk4yM7"
       ],
       "question": "Q3",
-      "take": "Three entry paths stacked on one card: join link, pull from Google/Slack contacts, or type emails — a join link/code is the cheapest answer to a cohort that churns until week one (learners self-enrol).",
+      "take": "Slite stacks three entry paths on one card: join link, pull from Google or Slack contacts, or type emails. A join link or code is the cheapest answer when a cohort keeps changing until week one (learners enrol themselves).",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1278,7 +1278,7 @@
       "id": "refero:9613",
       "source": "refero",
       "app": "Teachable",
-      "title": "Add and enroll student",
+      "title": "Add student and enroll in one step",
       "kind": "flow",
       "url": "https://refero.design/flows/9613",
       "images": [
@@ -1289,7 +1289,7 @@
         "https://images.refero.design/screenshots/teachable.com/desktop/9f6a955e-4c1a-4472-9111-005e7956e89e_preview.jpg"
       ],
       "question": "Q3",
-      "take": "Add students manually with an \"enroll in course\" toggle in the same modal, then import feedback and an updated roster.",
+      "take": "Teachable adds students manually with an 'enroll in course' toggle in the same dialog, then shows import feedback and an updated class list.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1298,7 +1298,7 @@
       "id": "refero:380",
       "source": "refero",
       "app": "Uber Eats",
-      "title": "Invite people to meal plan",
+      "title": "Invite with email or CSV upload",
       "kind": "flow",
       "url": "https://refero.design/flows/380",
       "images": [
@@ -1314,7 +1314,7 @@
         "https://images.refero.design/screenshots/ubereats.com/desktop/ad39efe7-00b2-4045-8d92-7eee41dd2591_thumb.jpg"
       ],
       "question": "Q3",
-      "take": "Same invite modal supports manual emails or CSV upload; shows format error and an \"imported 0 of 5\" review list to fix rows.",
+      "take": "Uber Eats uses the same invite dialog for manual emails or CSV upload. It shows a format error and an 'imported 0 of 5' review list so you can fix rows.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1323,14 +1323,14 @@
       "id": "mobbin:733cc632-9935-41a9-9536-86e792611638",
       "source": "mobbin",
       "app": "Vimeo",
-      "title": "Event registrants list with 'Sync from email list' and 'Upload CSV'",
+      "title": "Sync from email list or upload CSV",
       "kind": "screen",
       "url": "https://mobbin.com/screens/733cc632-9935-41a9-9536-86e792611638",
       "images": [
         "https://mobbin.com/api/mcp/short/w66TfdlX"
       ],
       "question": "Q3",
-      "take": "Roster header offers 'Sync from email list' next to 'Upload CSV' with an in-page progress toast; sync (continuous, from a source of truth) and upload (one-off) are distinct verbs, matching SIS/Canvas vs spreadsheet.",
+      "take": "Vimeo's registrants header offers 'Sync from email list' next to 'Upload CSV' with in-page progress. Sync (continuous, from a source of truth) and upload (one-off) are distinct verbs, matching a student information system (SIS) or Canvas versus a spreadsheet.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1339,7 +1339,7 @@
       "id": "refero:2634",
       "source": "refero",
       "app": "Ballpark",
-      "title": "Manage team member permission",
+      "title": "Change member permission in the row",
       "kind": "flow",
       "url": "https://refero.design/flows/2634",
       "images": [
@@ -1348,7 +1348,7 @@
         "https://images.refero.design/screenshots/ballparkhq.com/desktop/c64bc7a3-3d87-4e4a-a431-63135fd957aa_preview.jpg"
       ],
       "question": "Q4",
-      "take": "Change a member's permission from the row via a selector and confirm inline — no edit page.",
+      "take": "Ballpark lets you change a member's permission from the row with a selector and confirm inline. There is no separate edit page.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1357,7 +1357,7 @@
       "id": "refero:2622",
       "source": "refero",
       "app": "Ballpark",
-      "title": "Workspace Guest Invitation",
+      "title": "Separate Guests area for externals",
       "kind": "flow",
       "url": "https://refero.design/flows/2622",
       "images": [
@@ -1367,7 +1367,7 @@
         "https://images.refero.design/screenshots/ballparkhq.com/desktop/63bf33cd-ed02-4e29-8d64-8120cf2e6328_preview.jpg"
       ],
       "question": "Q4",
-      "take": "Separate \"Guests\" area for external people with a restricted role — guest as a first-class, clearly bounded role.",
+      "take": "Ballpark keeps a separate 'Guests' area for external people with a restricted role. Guest access is a clear, bounded role of its own.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1376,7 +1376,7 @@
       "id": "mobbin:d9c973e5-bd71-44c2-8322-6b383e50a263",
       "source": "mobbin",
       "app": "Coda",
-      "title": "Updating sharing permissions",
+      "title": "Share dialog with stacked audiences",
       "kind": "flow",
       "url": "https://mobbin.com/flows/d9c973e5-bd71-44c2-8322-6b383e50a263",
       "images": [
@@ -1385,7 +1385,7 @@
         "https://mobbin.com/api/mcp/short/n7Wvwmfz"
       ],
       "question": "Q4",
-      "take": "Share dialog stacks audience rows — anyone with link / anyone in workspace / inherited from folder (greyed) / named people — each with Can view / comment / edit / No access; inherited rows are shown but locked.",
+      "take": "Coda's share dialog stacks audience rows for anyone with the link, anyone in the workspace, inherited from folder (greyed out), and named people. Each row has Can view, comment, edit, or No access, and inherited rows stay locked.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1394,7 +1394,7 @@
       "id": "refero:1940",
       "source": "refero",
       "app": "Column",
-      "title": "Invite Users from Platform Settings",
+      "title": "Invite with role help explainer",
       "kind": "flow",
       "url": "https://refero.design/flows/1940",
       "images": [
@@ -1406,7 +1406,7 @@
         "https://images.refero.design/screenshots/column.com/desktop/987dbe03-5036-4383-95c6-9befbd75779d_thumb.jpg"
       ],
       "question": "Q4",
-      "take": "Role dropdown plus a \"Roles help\" explainer inside the invite modal; pending invites list updates in place.",
+      "take": "Column puts a role dropdown and a 'Roles help' explainer inside the invite dialog. The pending invites list updates in place.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1415,7 +1415,7 @@
       "id": "refero:2131",
       "source": "refero",
       "app": "Descript",
-      "title": "Project Access Management",
+      "title": "Per-project roles override workspace",
       "kind": "flow",
       "url": "https://refero.design/flows/2131",
       "images": [
@@ -1427,7 +1427,7 @@
         "https://images.refero.design/screenshots/descript.com/desktop/998e4e63-f407-4a5d-b849-45d4f4381589_preview.jpg"
       ],
       "question": "Q4",
-      "take": "Per-project collaborator roles override the workspace role — the per-item escape hatch next to a small global role set.",
+      "take": "Descript lets per-project collaborator roles override the workspace role. That is a way to make an exception on one item next to a small global role set.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1436,7 +1436,7 @@
       "id": "mobbin:dc476b26-8776-496c-8ab3-4ffe267aeea3",
       "source": "mobbin",
       "app": "Expensify",
-      "title": "Editing member role",
+      "title": "Three roles with inline descriptions",
       "kind": "flow",
       "url": "https://mobbin.com/flows/dc476b26-8776-496c-8ab3-4ffe267aeea3",
       "images": [
@@ -1447,7 +1447,7 @@
         "https://mobbin.com/api/mcp/short/vdixpsje"
       ],
       "question": "Q4",
-      "take": "Three roles (Employee / Auditor / Admin) as a segmented control with the selected role's description underneath; members table also has 'Import from spreadsheet' and a join link right in the header.",
+      "take": "Expensify offers three roles (Employee, Auditor, Admin) as a segmented control, with the selected role's description underneath. The members table also has 'Import from spreadsheet' and a join link in the header.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1456,14 +1456,14 @@
       "id": "mobbin:ec88a366-1d9e-437c-9d14-e3a6275010cd",
       "source": "mobbin",
       "app": "Fresha",
-      "title": "Team permissions matrix (Basic / Low / Med / High / Owner)",
+      "title": "Vague permission level names",
       "kind": "screen",
       "url": "https://mobbin.com/screens/ec88a366-1d9e-437c-9d14-e3a6275010cd",
       "images": [
         "https://mobbin.com/api/mcp/short/zf98D4qF"
       ],
       "question": "Q4",
-      "take": "COUNTER-EXAMPLE: permission levels named Basic/Low/Med/High carry no meaning — the admin must read the whole grid to know what 'Med' does; role names should describe a job, not a rank.",
+      "take": "What not to copy: permission levels named Basic, Low, Med and High carry no meaning. The admin must read the whole grid to know what 'Med' does. Role names should describe a job, not a rank.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -1472,7 +1472,7 @@
       "id": "mobbin:7f0ede33-3db2-426e-870c-99f42747c5d1",
       "source": "mobbin",
       "app": "Gamma",
-      "title": "Changing a member role",
+      "title": "Two roles Admin and Member",
       "kind": "flow",
       "url": "https://mobbin.com/flows/7f0ede33-3db2-426e-870c-99f42747c5d1",
       "images": [
@@ -1481,7 +1481,7 @@
         "https://mobbin.com/api/mcp/short/4WvH1TUP"
       ],
       "question": "Q4",
-      "take": "The floor: exactly two roles (Admin / Member), each with a one-line description in the dropdown, 'Remove from workspace' as the third option; role changes are a single click with a toast, no confirm.",
+      "take": "Gamma keeps exactly two roles (Admin and Member), each with a one-line description in the dropdown, plus 'Remove from workspace' as the third option. Role changes are a single click with no confirm step.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1490,14 +1490,14 @@
       "id": "mobbin:727068f2-16d1-4bc4-ae63-e3de1cc1160c",
       "source": "mobbin",
       "app": "GitBook",
-      "title": "Share space with 'Inherited' org access and explicit per-person role",
+      "title": "Inherited org access plus per-person",
       "kind": "screen",
       "url": "https://mobbin.com/screens/727068f2-16d1-4bc4-ae63-e3de1cc1160c",
       "images": [
         "https://mobbin.com/api/mcp/short/ne3ELtS2"
       ],
       "question": "Q4",
-      "take": "Labels the org-wide row as 'Inherited' with member count while a named person has an explicit 'Administrator' override, plus a toggle to mint a guest link with its own role — three layers, one small panel.",
+      "take": "GitBook labels the org-wide row as 'Inherited' with a member count, while a named person can have an explicit 'Administrator' override. A toggle can also mint a guest link with its own role. Three layers sit in one small panel.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1506,7 +1506,7 @@
       "id": "mobbin:82917d93-5b95-4339-863b-0f652695dddc",
       "source": "mobbin",
       "app": "Height",
-      "title": "Changing a role",
+      "title": "Convert member to guest inline",
       "kind": "flow",
       "url": "https://mobbin.com/flows/82917d93-5b95-4339-863b-0f652695dddc",
       "images": [
@@ -1516,7 +1516,7 @@
         "https://mobbin.com/api/mcp/short/p7QuJA1g"
       ],
       "question": "Q4",
-      "take": "Users page is split into Invited / Guests / Members sections; a role cell offers 'Convert to guest' / 'Convert to admin' / 'Remove' with a lightweight inline confirm — guest is a conversion, not a separate account type.",
+      "take": "Height splits the Users page into Invited, Guests and Members sections. A role cell offers 'Convert to guest', 'Convert to admin' or 'Remove' with a light inline confirm. Guest is a conversion, not a separate account type.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1525,7 +1525,7 @@
       "id": "mobbin:dd458c76-9c8e-4edb-802b-0f06a16ef0b9",
       "source": "mobbin",
       "app": "Notion",
-      "title": "Inviting a guest",
+      "title": "Guest badge on share panel",
       "kind": "flow",
       "url": "https://mobbin.com/flows/dd458c76-9c8e-4edb-802b-0f06a16ef0b9",
       "images": [
@@ -1542,7 +1542,7 @@
         "https://mobbin.com/api/mcp/short/D6sM409Q"
       ],
       "question": "Q4",
-      "take": "Per-item escape hatch on top of workspace roles: Share panel lists people (with 'Guest' badge), the teamspace, and 'General access: Everyone at <workspace>', each with its own Full access / Can edit / Can comment level.",
+      "take": "Notion adds a per-item way to make an exception on top of workspace roles. The Share panel lists people (with a 'Guest' badge), the teamspace, and 'General access: Everyone at <workspace>', each with its own Full access, Can edit or Can comment level.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1551,14 +1551,14 @@
       "id": "mobbin:7e43776a-22eb-433a-b8a8-66c09235280a",
       "source": "mobbin",
       "app": "Obvious",
-      "title": "Invite member with Guest / Member / Admin / Owner dropdown",
+      "title": "Four-role ladder at invite time",
       "kind": "screen",
       "url": "https://mobbin.com/screens/7e43776a-22eb-433a-b8a8-66c09235280a",
       "images": [
         "https://mobbin.com/api/mcp/short/d4FzihNE"
       ],
       "question": "Q4",
-      "take": "The canonical 4-role ladder with descriptions inline at invite time: Guest 'only projects they're invited to', Member 'create and access projects', Admin 'manage members and settings', Owner 'billing and transfer'.",
+      "take": "Obvious shows the four-role ladder with descriptions inline at invite time. Guest is 'only projects they're invited to', Member can 'create and access projects', Admin can 'manage members and settings', and Owner handles 'billing and transfer'.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1567,7 +1567,7 @@
       "id": "refero:974",
       "source": "refero",
       "app": "Pinterest",
-      "title": "Add and assign employee permissions",
+      "title": "Eight-step permission checklist",
       "kind": "flow",
       "url": "https://refero.design/flows/974",
       "images": [
@@ -1581,7 +1581,7 @@
         "https://images.refero.design/screenshots/pinterest.com/desktop/ace2cd34-55ea-4dc8-9f1a-4264f8b3ff45_thumb.jpg"
       ],
       "question": "Q4",
-      "take": "COUNTER: role choice, then per-business, then per-permission checklist — 8 steps to add one employee; matrix explosion.",
+      "take": "What not to copy: Pinterest asks for a role choice, then per-business, then a per-permission checklist. That is eight steps to add one employee, and the matrix keeps growing.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -1590,7 +1590,7 @@
       "id": "mobbin:d66be551-092d-415b-a3a6-1d4eb272b88e",
       "source": "mobbin",
       "app": "Remote",
-      "title": "Adding a new role",
+      "title": "Role cards with View Edit columns",
       "kind": "flow",
       "url": "https://mobbin.com/flows/d66be551-092d-415b-a3a6-1d4eb272b88e",
       "images": [
@@ -1606,7 +1606,7 @@
         "https://mobbin.com/api/mcp/short/Zcat0oig"
       ],
       "question": "Q4",
-      "take": "Roles as cards with plain-language descriptions and head counts, plus a dashed 'Add new role' card as the escape hatch; custom role permissions are grouped by AREA with just View / Edit columns, not per-action toggles.",
+      "take": "Remote shows roles as cards with plain-language descriptions and head counts, plus a dashed 'Add new role' card as a way to make an exception. Custom role permissions are grouped by AREA with just View and Edit columns, not per-action toggles.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1615,7 +1615,7 @@
       "id": "refero:3904",
       "source": "refero",
       "app": "Replo",
-      "title": "Invite Members",
+      "title": "Invite with role descriptions panel",
       "kind": "flow",
       "url": "https://refero.design/flows/3904",
       "images": [
@@ -1626,7 +1626,7 @@
         "https://images.refero.design/screenshots/replo.app/desktop/ac0bfd42-c1b3-4a2d-a43f-cd3d94d3f582_preview.jpg"
       ],
       "question": "Q4",
-      "take": "Invite modal with an expandable \"view role descriptions\" panel so people pick the right role without leaving the flow.",
+      "take": "Replo's invite dialog has an expandable 'view role descriptions' panel so people pick the right role without leaving the flow.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1635,14 +1635,14 @@
       "id": "refero:310b8314-6883-42f6-b181-b6e47513d720",
       "source": "refero",
       "app": "Retool",
-      "title": "Permission groups (apps x resources x users)",
+      "title": "Three-dimensional permission groups",
       "kind": "screen",
       "url": "https://refero.design/pages/310b8314-6883-42f6-b181-b6e47513d720",
       "images": [
         "https://images.refero.design/screenshots/retool.com/desktop/45499563-7ad3-4a72-a5ec-a8470798ab41_preview.jpg"
       ],
       "question": "Q4",
-      "take": "COUNTER: \"Permission groups\" each tracking apps × resources × users — admin must reason about a 3-D matrix to answer \"who can see X\".",
+      "take": "What not to copy: Retool's 'Permission groups' each track apps, resources and users. An admin must reason about a three-dimensional matrix to answer who can see something.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -1651,7 +1651,7 @@
       "id": "mobbin:342f1e42-56cb-4715-b02b-0085978ef87c",
       "source": "mobbin",
       "app": "Slack",
-      "title": "Inviting people (guest)",
+      "title": "Guest invite with channels and expiry",
       "kind": "flow",
       "url": "https://mobbin.com/flows/342f1e42-56cb-4715-b02b-0085978ef87c",
       "images": [
@@ -1667,7 +1667,7 @@
         "https://mobbin.com/api/mcp/short/794plJ9y"
       ],
       "question": "Q4",
-      "take": "Switching 'Invite as' to Guest progressively reveals required channels + an expiration date; a guest is scoped to content and time — the pattern for simulated patients or visiting faculty without a dedicated global role.",
+      "take": "When Slack switches 'Invite as' to Guest, it progressively reveals required channels and an expiration date. A guest is limited to content and open only for a set period. That fits simulated patients or visiting faculty without a dedicated global role.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1676,7 +1676,7 @@
       "id": "mobbin:fa26aaaf-aa62-48a7-8b13-b39bbb12e3d4",
       "source": "mobbin",
       "app": "StackAI",
-      "title": "Adding a role",
+      "title": "Roles by permissions checkbox matrix",
       "kind": "flow",
       "url": "https://mobbin.com/flows/fa26aaaf-aa62-48a7-8b13-b39bbb12e3d4",
       "images": [
@@ -1687,7 +1687,7 @@
         "https://mobbin.com/api/mcp/short/1RID5QMa"
       ],
       "question": "Q4",
-      "take": "COUNTER-EXAMPLE: roles x permissions checkbox matrix that gains a column per role and a row per action; adding 'Contributor' means auditing ~30 cells. This is what 8 global roles turns into.",
+      "take": "What not to copy: StackAI uses a roles-by-permissions checkbox matrix that gains a column per role and a row per action. Adding 'Contributor' means checking about 30 cells. This is what eight global roles turns into.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -1696,7 +1696,7 @@
       "id": "refero:73",
       "source": "refero",
       "app": "Stripe",
-      "title": "Team Member Invitation and Role Assignment",
+      "title": "Role chosen at invite time",
       "kind": "flow",
       "url": "https://refero.design/flows/73",
       "images": [
@@ -1705,7 +1705,7 @@
         "https://images.refero.design/screenshots/stripe.com/desktop/4d1bb1a1-c885-4b7d-b3d5-4926026b6818_thumb.jpg"
       ],
       "question": "Q4",
-      "take": "Role chosen at invite time from a short fixed list with one-line descriptions — no separate role-admin step.",
+      "take": "Stripe chooses the role at invite time from a short fixed list with one-line descriptions. There is no separate role-admin step.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1714,14 +1714,14 @@
       "id": "refero:b2b65fe2-6a0c-43be-8f46-5e5fdfc041f8",
       "source": "refero",
       "app": "Synthesia.io",
-      "title": "Workspace members: Members / Guests tabs",
+      "title": "Members and Guests as tabs",
       "kind": "screen",
       "url": "https://refero.design/pages/b2b65fe2-6a0c-43be-8f46-5e5fdfc041f8",
       "images": [
         "https://images.refero.design/screenshots/synthesia.io/desktop/b2b65fe2-6a0c-43be-8f46-5e5fdfc041f8_preview.jpg"
       ],
       "question": "Q4",
-      "take": "Members vs Guests tabs; each row shows role and license — guest is a tab, not a role-matrix column.",
+      "take": "Synthesia.io splits workspace people into Members and Guests tabs. Each row shows role and license. Guest is a tab, not a column in a role matrix.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1730,14 +1730,14 @@
       "id": "refero:6239ee2f-4ac8-444e-9397-14063164d97a",
       "source": "refero",
       "app": "Teachable",
-      "title": "User Roles with View permissions",
+      "title": "Fixed roles with View permissions",
       "kind": "screen",
       "url": "https://refero.design/pages/6239ee2f-4ac8-444e-9397-14063164d97a",
       "images": [
         "https://images.refero.design/screenshots/teachable.com/desktop/8f4695b8-c088-4602-9cfe-54795ab7e77a_preview.jpg"
       ],
       "question": "Q4",
-      "take": "Fixed role list (Primary Owner / Owner / Author / Affiliate) with a \"View permissions\" expander — small set, fully transparent.",
+      "take": "Teachable uses a fixed role list (Primary Owner, Owner, Author, Affiliate) with a 'View permissions' expander. The set is small and fully transparent.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1746,7 +1746,7 @@
       "id": "mobbin:c8b198c5-09da-45fc-b1a2-15f21edda5c1",
       "source": "mobbin",
       "app": "Twist",
-      "title": "Downgrading a member",
+      "title": "Downgrade member to guest confirm",
       "kind": "flow",
       "url": "https://mobbin.com/flows/c8b198c5-09da-45fc-b1a2-15f21edda5c1",
       "images": [
@@ -1757,7 +1757,7 @@
         "https://mobbin.com/api/mcp/short/zcIEOmMD"
       ],
       "question": "Q4",
-      "take": "Member -> Guest downgrade opens a confirm that spells out the consequences ('can only access channels they've been invited to, can't invite members') with an explicit 'Yes, I'm absolutely sure' checkbox.",
+      "take": "Twist opens a confirm when you downgrade Member to Guest. It spells out the consequences ('can only access channels they've been invited to, can't invite members') and asks for an explicit 'Yes, I'm absolutely sure' checkbox.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1766,7 +1766,7 @@
       "id": "refero:1398",
       "source": "refero",
       "app": "Zendesk",
-      "title": "Team member roles and access",
+      "title": "Per-member roles and access page",
       "kind": "flow",
       "url": "https://refero.design/flows/1398",
       "images": [
@@ -1774,7 +1774,7 @@
         "https://images.refero.design/screenshots/zendesk.com/desktop/229ea3a4-5330-4967-809a-7fd1a6674f96_thumb.jpg"
       ],
       "question": "Q4",
-      "take": "Per-member \"roles and access\" page: one role plus product-level access toggles — the escape hatch lives on the person, not in a matrix.",
+      "take": "Zendesk gives each member a 'roles and access' page: one role plus product-level access toggles. The way to make an exception lives on the person, not in a matrix.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1783,7 +1783,7 @@
       "id": "refero:5943",
       "source": "refero",
       "app": "[untitled]",
-      "title": "Track share and invite link",
+      "title": "Track share and invite link controls",
       "kind": "flow",
       "url": "https://refero.design/flows/5943",
       "images": [
@@ -1798,7 +1798,7 @@
         "https://images.refero.design/screenshots/untitled.stream/desktop/e403f367-7cab-49f0-a21a-e695a038ecc4_preview.jpg"
       ],
       "question": "Q5",
-      "take": "Track sharing: invite-only vs public, allow downloads, password-protect — media-specific link controls in one panel.",
+      "take": "This untitled media product puts invite-only versus public, allow downloads, and password-protect in one panel. Link controls for media sit together.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1807,7 +1807,7 @@
       "id": "refero:5945",
       "source": "refero",
       "app": "[untitled]",
-      "title": "Manage track share link",
+      "title": "Reset share link to revoke",
       "kind": "flow",
       "url": "https://refero.design/flows/5945",
       "images": [
@@ -1816,7 +1816,7 @@
         "https://images.refero.design/screenshots/untitled.stream/desktop/84535e85-d81e-4357-a2ba-b7794b80836c_preview.jpg"
       ],
       "question": "Q5",
-      "take": "Reset share link with a confirmation dialog — old link dies, new one issued; the simplest revoke pattern.",
+      "take": "This untitled product resets the share link with a confirmation dialog. The old link dies and a new one is issued. That is the simplest revoke pattern.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1825,14 +1825,14 @@
       "id": "refero:48b360db-7456-4ade-a6b3-195f5dd0edce",
       "source": "refero",
       "app": "1Password",
-      "title": "Share item link: expires after + available to",
+      "title": "Link expires after and available to",
       "kind": "screen",
       "url": "https://refero.design/pages/48b360db-7456-4ade-a6b3-195f5dd0edce",
       "images": [
         "https://images.refero.design/screenshots/1password.com/desktop/fcefc493-32b7-48d4-84da-3df53f8ef4d7_preview.jpg"
       ],
       "question": "Q5",
-      "take": "\"Link expires after\" + \"Available to\" (anyone / specific emails) — two dropdowns cover expiry and audience for a shared item.",
+      "take": "1Password covers expiry and audience with two dropdowns: 'Link expires after' and 'Available to' (anyone or specific emails).",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1841,14 +1841,14 @@
       "id": "mobbin:203c352a-2f0c-4813-8c35-b0c7e920f3dc",
       "source": "mobbin",
       "app": "Adobe Express",
-      "title": "View-only link panel",
+      "title": "View-only link with LIVE badge",
       "kind": "screen",
       "url": "https://mobbin.com/screens/203c352a-2f0c-4813-8c35-b0c7e920f3dc",
       "images": [
         "https://mobbin.com/api/mcp/short/JHIFNFDG"
       ],
       "question": "Q5",
-      "take": "View-only link explicitly framed as 'allows anyone to see the file, no sign-in required', with a LIVE badge, preview of what recipients will see, password toggle and Delete link / Update link.",
+      "take": "Adobe Express frames a view-only link as 'allows anyone to see the file, no sign-in required'. It shows a LIVE badge, a preview of what recipients will see, a password toggle, and Delete link or Update link.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1857,14 +1857,14 @@
       "id": "mobbin:ef5bd6fd-7a18-417c-abfe-693fbc386bbe",
       "source": "mobbin",
       "app": "Air",
-      "title": "Share link to board - settings",
+      "title": "Board link name email and expiry",
       "kind": "screen",
       "url": "https://mobbin.com/screens/ef5bd6fd-7a18-417c-abfe-693fbc386bbe",
       "images": [
         "https://mobbin.com/api/mcp/short/9t8cAJEt"
       ],
       "question": "Q5",
-      "take": "Security tier for media links: 'Require name and email to view' (lightweight identification without an account), passcode, expiration date - each an independent toggle.",
+      "take": "Air's board share settings include 'Require name and email to view' (light identification without an account), passcode, and expiration date. Each is an independent toggle.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1873,7 +1873,7 @@
       "id": "refero:1642",
       "source": "refero",
       "app": "Airtable",
-      "title": "Share Base Public Link",
+      "title": "Public link on its own tab",
       "kind": "flow",
       "url": "https://refero.design/flows/1642",
       "images": [
@@ -1881,7 +1881,7 @@
         "https://images.refero.design/screenshots/airtable.com/desktop/647233eb-eac3-4a23-848e-26d4d7e944de_thumb.jpg"
       ],
       "question": "Q5",
-      "take": "Public link lives on its own \"Share publicly\" tab, configured separately from collaborator invites.",
+      "take": "Airtable keeps the public link on its own 'Share publicly' tab, configured separately from collaborator invites.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1890,7 +1890,7 @@
       "id": "refero:8055",
       "source": "refero",
       "app": "Canva",
-      "title": "Share link and set permission",
+      "title": "Switch to link and set permission",
       "kind": "flow",
       "url": "https://refero.design/flows/8055",
       "images": [
@@ -1901,7 +1901,7 @@
         "https://images.refero.design/screenshots/canva.com/desktop/8f14cccc-22b6-462a-a755-fed4229a7cf0_preview.jpg"
       ],
       "question": "Q5",
-      "take": "Switch from restricted to link-based access and choose the link's permission level in the same step, then copy.",
+      "take": "Canva lets you switch from restricted to link-based access and choose the link's permission level in the same step, then copy.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1910,7 +1910,7 @@
       "id": "mobbin:e817e679-b2cb-4843-ad1a-c713822962ed",
       "source": "mobbin",
       "app": "Cloaked",
-      "title": "Generating a share link",
+      "title": "Overkill checklist with countdown",
       "kind": "flow",
       "url": "https://mobbin.com/flows/e817e679-b2cb-4843-ad1a-c713822962ed",
       "images": [
@@ -1925,7 +1925,7 @@
         "https://mobbin.com/api/mcp/short/Xeu7zEMj"
       ],
       "question": "Q5",
-      "take": "COUNTER-EXAMPLE (with one keeper): per-field permission checklist and 1-hour default expiry are overkill for training content, but the live '59 mins' countdown ring on the published-link screen is a good way to make a time-box visible.",
+      "take": "What not to copy: Cloaked's per-field permission checklist and 1-hour default expiry are overkill for training content. Keep the live '59 mins' countdown ring on the published-link screen, which makes the open-only-for-a-set-period window visible.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -1934,7 +1934,7 @@
       "id": "mobbin:37ced04e-41cd-4f69-ad40-354c97a7939f",
       "source": "mobbin",
       "app": "Craft",
-      "title": "Adding expiration date",
+      "title": "Publish link with expiration stack",
       "kind": "flow",
       "url": "https://mobbin.com/flows/37ced04e-41cd-4f69-ad40-354c97a7939f",
       "images": [
@@ -1944,7 +1944,7 @@
         "https://mobbin.com/api/mcp/short/pX9URujl"
       ],
       "question": "Q5",
-      "take": "Publish-to-web popover lists Password / Email access / Expiration as one stack of settings with 'Never' defaults; calendar offers 'Expire on Thu, Apr 30' vs 'Never expires'; a single Unpublish button revokes, and a viewer count shows who actually used the link.",
+      "take": "Craft's publish-to-web panel lists Password, Email access and Expiration as one stack of settings with 'Never' defaults. The calendar offers 'Expire on Thu, Apr 30' versus 'Never expires'. A single Unpublish button revokes, and a viewer count shows who used the link.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1953,7 +1953,7 @@
       "id": "mobbin:8fee942f-3bba-4b19-949e-9011dfee633f",
       "source": "mobbin",
       "app": "Dropbox",
-      "title": "Editing share settings",
+      "title": "Edit and view links with expiry",
       "kind": "flow",
       "url": "https://mobbin.com/flows/8fee942f-3bba-4b19-949e-9011dfee633f",
       "images": [
@@ -1968,7 +1968,7 @@
         "https://mobbin.com/api/mcp/short/Gmdedx5y"
       ],
       "question": "Q5",
-      "take": "Separate 'Link for editing' vs 'Link for viewing' tabs, each with its own expiration toggle+date, password and download controls; 'Restrictions apply - Modify' surfaces the constraint next to Copy link; 'Unshare file' as the revoke-all action.",
+      "take": "Dropbox separates 'Link for editing' and 'Link for viewing' tabs, each with its own expiration toggle and date, password and download controls. 'Restrictions apply - Modify' shows the constraint next to Copy link. 'Unshare file' is the revoke-all action.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1977,14 +1977,14 @@
       "id": "mobbin:60223950-c0c0-4405-a615-8dfce2b2414c",
       "source": "mobbin",
       "app": "Figma",
-      "title": "Share settings",
+      "title": "Link settings as three questions",
       "kind": "screen",
       "url": "https://mobbin.com/screens/60223950-c0c0-4405-a615-8dfce2b2414c",
       "images": [
         "https://mobbin.com/api/mcp/short/vMQHYL1D"
       ],
       "question": "Q5",
-      "take": "Link settings decomposed into three questions - Who can access / What can they do (View vs Edit) / Additional security - and a note that link settings do not override people already invited directly.",
+      "take": "Figma breaks link settings into three questions: Who can access, What can they do (View vs Edit), and Additional security. A note says link settings do not override people already invited directly.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -1993,7 +1993,7 @@
       "id": "refero:7298",
       "source": "refero",
       "app": "Fourthwall",
-      "title": "Create and schedule post",
+      "title": "Schedule membership post publish",
       "kind": "flow",
       "url": "https://refero.design/flows/7298",
       "images": [
@@ -2006,7 +2006,7 @@
         "https://images.refero.design/screenshots/fourthwall.com/desktop/84b8072a-fcdc-4e06-a211-4e423a1c9348_preview.jpg"
       ],
       "question": "Q5",
-      "take": "Schedule a membership post's publication date/time from the post editor — scheduled publish for gated content.",
+      "take": "Fourthwall lets you schedule a membership post's publication date and time from the post editor. That is scheduled publish for limited-access content.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2015,7 +2015,7 @@
       "id": "mobbin:c537e383-521f-4785-8478-0ba54a3e6f74",
       "source": "mobbin",
       "app": "Frame.io",
-      "title": "Scheduling an expiration date",
+      "title": "Video share expiry presets",
       "kind": "flow",
       "url": "https://mobbin.com/flows/c537e383-521f-4785-8478-0ba54a3e6f74",
       "images": [
@@ -2025,7 +2025,7 @@
         "https://mobbin.com/api/mcp/short/j1IegS7L"
       ],
       "question": "Q5",
-      "take": "Video share panel: expiry with quick presets (24h / 1 week / 2 weeks) plus exact date+time, passphrase toggle, and the resulting expiry shown inline as 'Dec 31 at 11:59pm' with Edit.",
+      "take": "Frame.io's video share panel offers expiry with quick presets (24h, 1 week, 2 weeks) plus an exact date and time. It also has a passphrase toggle, and shows the resulting expiry inline as 'Dec 31 at 11:59pm' with Edit.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2034,7 +2034,7 @@
       "id": "mobbin:e6d1e365-7d54-4072-a020-a771954eb82b",
       "source": "mobbin",
       "app": "Ghost",
-      "title": "Scheduling a post",
+      "title": "Schedule post with plain confirmation",
       "kind": "flow",
       "url": "https://mobbin.com/flows/e6d1e365-7d54-4072-a020-a771954eb82b",
       "images": [
@@ -2046,7 +2046,7 @@
         "https://mobbin.com/api/mcp/short/nCMYE1rn"
       ],
       "question": "Q5",
-      "take": "Publish step as a plain-language sentence ('Set it live now' vs 'Schedule for later' + date/time), then a confirmation 'Your post will be published on October 25th at 01:42' with a one-click 'Unschedule and revert to draft' undo.",
+      "take": "Ghost's publish step is a plain-language sentence ('Set it live now' versus 'Schedule for later' plus date and time). A confirmation says 'Your post will be published on October 25th at 01:42', with a one-click 'Unschedule and revert to draft' undo.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2055,7 +2055,7 @@
       "id": "refero:3937",
       "source": "refero",
       "app": "Hashnode",
-      "title": "Invite link creation",
+      "title": "Invite link with role limit expiry",
       "kind": "flow",
       "url": "https://refero.design/flows/3937",
       "images": [
@@ -2067,7 +2067,7 @@
         "https://images.refero.design/screenshots/hashnode.com/desktop/17e204ef-a438-41db-9e99-6455d4f02061_preview.jpg"
       ],
       "question": "Q5",
-      "take": "Admin-created invite link carries a role, a usage limit and an expiry date — cohort self-enrolment with a built-in shelf life.",
+      "take": "Hashnode's admin-created invite link carries a role, a usage limit and an expiry date. That is cohort self-enrolment with a built-in shelf life.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2076,14 +2076,14 @@
       "id": "mobbin:881da13f-4c63-4ac3-87a5-8505fe5246f5",
       "source": "mobbin",
       "app": "Microsoft Loop",
-      "title": "Sharing settings - share the link with",
+      "title": "Anyone or chosen people with expiry",
       "kind": "screen",
       "url": "https://mobbin.com/screens/881da13f-4c63-4ac3-87a5-8505fe5246f5",
       "images": [
         "https://mobbin.com/api/mcp/short/JMEHETYN"
       ],
       "question": "Q5",
-      "take": "The OneDrive/SharePoint model the customer asked for: audience radio (Anyone / People you choose / People with existing access), then Can edit level, expiry date field, 'Require verification' and 'Set password' in one compact sheet.",
+      "take": "Microsoft Loop follows the OneDrive and SharePoint model customers asked for. You pick the audience (Anyone, People you choose, or People with existing access), then Can edit level, expiry date, 'Require verification' and 'Set password' in one compact sheet.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2092,7 +2092,7 @@
       "id": "refero:10849",
       "source": "refero",
       "app": "MonoDesk",
-      "title": "Shareable Link Creation",
+      "title": "Configure protections before link",
       "kind": "flow",
       "url": "https://refero.design/flows/10849",
       "images": [
@@ -2104,7 +2104,7 @@
         "https://images.refero.design/screenshots/monodesk.com/desktop/baa5bcee-e2a0-4f32-9ba0-94b9c690b781_preview.jpg"
       ],
       "question": "Q5",
-      "take": "\"Configure protections\" step before the link is generated — expiry/password set up-front, not as an afterthought.",
+      "take": "MonoDesk has a 'Configure protections' step before the link is generated. Expiry and password are set up front, not as an afterthought.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2113,7 +2113,7 @@
       "id": "mobbin:95afd3b8-6651-4a40-bce4-661c5471cd92",
       "source": "mobbin",
       "app": "Mural",
-      "title": "Updating link access",
+      "title": "Visitor link for people without accounts",
       "kind": "flow",
       "url": "https://mobbin.com/flows/95afd3b8-6651-4a40-bce4-661c5471cd92",
       "images": [
@@ -2128,7 +2128,7 @@
         "https://mobbin.com/api/mcp/short/CaTXyHgO"
       ],
       "question": "Q5",
-      "take": "'Visitor link access' is a distinct tier for people WITHOUT an account (anonymous learners): its own view/no-access level, optional password, expiration date shown as 'Expires Feb 28, 2025, 10:50 AM GMT-7', and 'Reset visitor link' to revoke by rotating the URL without touching workspace members.",
+      "take": "Mural's 'Visitor link access' is a distinct tier for people without an account (anonymous learners). It has its own view or no-access level, optional password, and expiration shown as 'Expires Feb 28, 2025, 10:50 AM GMT-7'. 'Reset visitor link' revokes by rotating the URL without touching workspace members.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2137,7 +2137,7 @@
       "id": "mobbin:a24df14a-3212-48f5-9918-a14768c31f3e",
       "source": "mobbin",
       "app": "NordVPN",
-      "title": "Sharing a file (NordLocker)",
+      "title": "Security that burdens the sharer",
       "kind": "flow",
       "url": "https://mobbin.com/flows/a24df14a-3212-48f5-9918-a14768c31f3e",
       "images": [
@@ -2149,7 +2149,7 @@
         "https://mobbin.com/api/mcp/short/8OvGZnwW"
       ],
       "question": "Q5",
-      "take": "COUNTER-EXAMPLE: terms checkbox before generating a link, a separate security code the sender must transmit out-of-band, fixed expiry you cannot change, link frozen to one file version - security that pushes work onto the sharer.",
+      "take": "What not to copy: NordLocker asks for a terms checkbox before generating a link, and a separate security code the sender must pass on outside the product. Expiry is fixed and you cannot change it, and the link is frozen to one file version. That security pushes work onto the sharer.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -2158,14 +2158,14 @@
       "id": "mobbin:ef4fcd7f-0f50-47de-9df4-b67bf14bda2d",
       "source": "mobbin",
       "app": "Proton",
-      "title": "Proton Drive public link settings",
+      "title": "Stop sharing erases the link",
       "kind": "screen",
       "url": "https://mobbin.com/screens/ef4fcd7f-0f50-47de-9df4-b67bf14bda2d",
       "images": [
         "https://mobbin.com/api/mcp/short/jCrxxMn8"
       ],
       "question": "Q5",
-      "take": "Revocation written as a consequence, not a verb: 'Stop sharing - erase this link and remove everyone with access', sitting under expiration date and link password toggles.",
+      "take": "Proton Drive writes revocation as a consequence, not a verb: 'Stop sharing - erase this link and remove everyone with access'. It sits under expiration date and link password toggles.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2174,14 +2174,14 @@
       "id": "refero:6cfcb277-992e-4939-ab18-0c0bc5b1abbc",
       "source": "refero",
       "app": "Shuttle",
-      "title": "Edit shared link: permission + expires after",
+      "title": "Edit link permission and expires after",
       "kind": "screen",
       "url": "https://refero.design/pages/6cfcb277-992e-4939-ab18-0c0bc5b1abbc",
       "images": [
         "https://images.refero.design/screenshots/shuttle.zip/desktop/4b8c23cb-e6ae-41be-bc6d-c5b83d51b141_preview.jpg"
       ],
       "question": "Q5",
-      "take": "Edit an existing per-recipient link: permission dropdown + \"Expires after\" — expiry remains editable after the link is created.",
+      "take": "Shuttle lets you edit an existing per-recipient link with a permission dropdown and 'Expires after'. Expiry stays editable after the link is created.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2190,7 +2190,7 @@
       "id": "mobbin:7c78bf7a-2d77-4f83-840e-44db0912039c",
       "source": "mobbin",
       "app": "Squarespace",
-      "title": "Updating content status",
+      "title": "Lesson status Draft Published Scheduled",
       "kind": "flow",
       "url": "https://mobbin.com/flows/7c78bf7a-2d77-4f83-840e-44db0912039c",
       "images": [
@@ -2201,7 +2201,7 @@
         "https://mobbin.com/api/mcp/short/YMLCrqYU"
       ],
       "question": "Q5",
-      "take": "Course lessons carry a Draft / Published / Scheduled / Public preview status badge with a date; multi-select lessons and 'Set status for 2 selected' in bulk - the closest analogue to faculty releasing recordings on a date.",
+      "take": "Squarespace course lessons carry a Draft, Published, Scheduled or Public preview status badge with a date. You can multi-select lessons and 'Set status for 2 selected' in bulk. That is the closest match to faculty releasing recordings on a date.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2210,14 +2210,14 @@
       "id": "refero:db4c0373-9281-4997-a6c6-cd69411f9239",
       "source": "refero",
       "app": "Canva",
-      "title": "Login & security: password, passkeys, sign out all",
+      "title": "Password passkeys and sign out all",
       "kind": "screen",
       "url": "https://refero.design/pages/db4c0373-9281-4997-a6c6-cd69411f9239",
       "images": [
         "https://images.refero.design/screenshots/canva.com/desktop/3306f40e-068d-488e-9da6-3e268f9283e7_preview.jpg"
       ],
       "question": "Q6",
-      "take": "Login & security page manages password and passkeys side by side, plus \"sign out of all devices\".",
+      "take": "Canva's Login and security page manages password and passkeys side by side, plus 'sign out of all devices'.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2226,7 +2226,7 @@
       "id": "mobbin:4af91f6c-3dc2-4181-b1e9-9bc8341d21a4",
       "source": "mobbin",
       "app": "Copy.ai",
-      "title": "Logging in (email code, 'Last used' badge)",
+      "title": "Last used badge on sign-in method",
       "kind": "flow",
       "url": "https://mobbin.com/flows/4af91f6c-3dc2-4181-b1e9-9bc8341d21a4",
       "images": [
@@ -2237,7 +2237,7 @@
         "https://mobbin.com/api/mcp/short/MEF2qTYG"
       ],
       "question": "Q6",
-      "take": "A 'Last used' badge on the sign-in method you picked last time (email vs Google vs Microsoft) - removes the 'which account did I use?' guess that causes duplicate accounts and lockouts.",
+      "take": "Copy.ai puts a 'Last used' badge on the sign-in method you picked last time (email versus Google versus Microsoft). That removes the 'which account did I use?' guess that causes duplicate accounts and lockouts.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2246,7 +2246,7 @@
       "id": "refero:5063",
       "source": "refero",
       "app": "Epidemic Sound",
-      "title": "SSO email check and error handling",
+      "title": "SSO email check with clear error",
       "kind": "flow",
       "url": "https://refero.design/flows/5063",
       "images": [
@@ -2256,7 +2256,7 @@
         "https://images.refero.design/screenshots/epidemicsound.com/desktop/768fb217-2899-4a3d-8524-1614e8d20a66_preview.jpg"
       ],
       "question": "Q6",
-      "take": "Enter email → system checks for SSO config → clear error when the domain has no SSO — email-first routing.",
+      "take": "Epidemic Sound asks for email first, checks for SSO config, and shows a clear error when the domain has no SSO. That is email-first routing.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2265,14 +2265,14 @@
       "id": "refero:1e530b09-3726-4367-b2c4-108f5e7e034c",
       "source": "refero",
       "app": "Family",
-      "title": "Account recovery: recovery codes",
+      "title": "Managed inventory of recovery codes",
       "kind": "screen",
       "url": "https://refero.design/pages/1e530b09-3726-4367-b2c4-108f5e7e034c",
       "images": [
         "https://images.refero.design/screenshots/family.co/desktop/0d980685-7555-4bbb-9645-07695eee770d_preview.jpg"
       ],
       "question": "Q6",
-      "take": "Account recovery page lists masked recovery codes with remove and \"+ New recovery code\" — recovery as a managed inventory.",
+      "take": "Family's account recovery page lists masked recovery codes with remove and '+ New recovery code'. Recovery is a managed inventory.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2281,7 +2281,7 @@
       "id": "mobbin:0d4547cd-f4c3-47c9-b6b0-df7643691c8a",
       "source": "mobbin",
       "app": "Hashnode",
-      "title": "Logging in (magic link)",
+      "title": "Email sign-in with back to options",
       "kind": "flow",
       "url": "https://mobbin.com/flows/0d4547cd-f4c3-47c9-b6b0-df7643691c8a",
       "images": [
@@ -2291,7 +2291,7 @@
         "https://mobbin.com/api/mcp/short/uzLl6kfO"
       ],
       "question": "Q6",
-      "take": "'Sign in with email' as one of several login options; confirmation screen with 'Go to inbox' and an always-visible 'Back to login options' escape so a user never gets stuck on a method.",
+      "take": "Hashnode offers 'Sign in with email' among several login options. The confirmation screen has 'Go to inbox' and an always-visible 'Back to login options' way out, so a user never gets stuck on one method.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2300,7 +2300,7 @@
       "id": "refero:10263",
       "source": "refero",
       "app": "HBO Max",
-      "title": "Sign-in to Content Home",
+      "title": "Password or one-time code choice",
       "kind": "flow",
       "url": "https://refero.design/flows/10263",
       "images": [
@@ -2314,7 +2314,7 @@
         "https://images.refero.design/screenshots/hbomax.com/desktop/1cc724ac-c320-4c72-b724-17e6ab2c3f3f_preview.jpg"
       ],
       "question": "Q6",
-      "take": "After email, choose \"password or one-time code\" — lets users skip password recall without a reset.",
+      "take": "After email, HBO Max lets you choose password or one-time code. Users can skip remembering a password without a reset.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2339,7 +2339,7 @@
         "https://images.refero.design/screenshots/ikea.com/desktop/1550671b-0077-4090-bfb3-ad49a6901dde_preview.jpg"
       ],
       "question": "Q6",
-      "take": "Password reset via one-time code typed inline, no link to click — fewer context switches.",
+      "take": "IKEA resets the password via a one-time code typed inline, with no link to click. That means fewer context switches.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2348,7 +2348,7 @@
       "id": "mobbin:5040dbbc-e748-4547-8368-57eb1cc40bea",
       "source": "mobbin",
       "app": "Lemni",
-      "title": "Logging In (email or Google, no password)",
+      "title": "Google or email with no password",
       "kind": "flow",
       "url": "https://mobbin.com/flows/5040dbbc-e748-4547-8368-57eb1cc40bea",
       "images": [
@@ -2358,7 +2358,7 @@
         "https://mobbin.com/api/mcp/short/NNT4sdjs"
       ],
       "question": "Q6",
-      "take": "Minimal 'plug and play' entry: one Google button and one email field - there is no password to forget, no sign-up vs sign-in split, and 'Check your inbox' offers only Resend.",
+      "take": "Lemni's entry is one Google button and one email field. There is no password to forget, no sign-up versus sign-in split, and 'Check your inbox' offers only Resend.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2367,14 +2367,14 @@
       "id": "mobbin:0b4d22eb-6b6e-4798-8228-c8d33d7c2825",
       "source": "mobbin",
       "app": "Link",
-      "title": "Post-login prompt - add passkey",
+      "title": "Offer passkey right after login",
       "kind": "screen",
       "url": "https://mobbin.com/screens/0b4d22eb-6b6e-4798-8228-c8d33d7c2825",
       "images": [
         "https://mobbin.com/api/mcp/short/nHq2Yvba"
       ],
       "question": "Q6",
-      "take": "'Log in faster next time' banner shown right after a successful login - the moment to offer a passkey - with a dismiss X, never a blocking step.",
+      "take": "Link shows a 'Log in faster next time' banner right after a successful login, the moment to offer a passkey, with a dismiss control. It is never a blocking step.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2383,7 +2383,7 @@
       "id": "mobbin:f2b258bf-038b-47db-9640-3d9a1c522896",
       "source": "mobbin",
       "app": "Loops",
-      "title": "Logging in (magic link)",
+      "title": "Work email magic link with inbox buttons",
       "kind": "flow",
       "url": "https://mobbin.com/flows/f2b258bf-038b-47db-9640-3d9a1c522896",
       "images": [
@@ -2393,7 +2393,7 @@
         "https://mobbin.com/api/mcp/short/B2bcKSsG"
       ],
       "question": "Q6",
-      "take": "Work-email-only sign in, no password field exists; after sending the link it offers 'Open your email client: Gmail / Outlook / Superhuman' buttons to close the loop in one click.",
+      "take": "Loops signs in with work email only and has no password field. After sending the sign-in link it offers 'Open your email client: Gmail / Outlook / Superhuman' buttons to finish in one click.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2402,7 +2402,7 @@
       "id": "refero:3604",
       "source": "refero",
       "app": "Maze",
-      "title": "SSO sign-in with team identifier",
+      "title": "SSO with team identifier and error",
       "kind": "flow",
       "url": "https://refero.design/flows/3604",
       "images": [
@@ -2412,7 +2412,7 @@
         "https://images.refero.design/screenshots/maze.co/desktop/dfd267be-51aa-4f88-940d-f407a412f704_preview.jpg"
       ],
       "question": "Q6",
-      "take": "SSO entry via team identifier with an explicit SSO-initiation error state.",
+      "take": "Maze starts SSO with a team identifier and shows an explicit error when SSO initiation fails.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2421,7 +2421,7 @@
       "id": "refero:11027",
       "source": "refero",
       "app": "Mercury",
-      "title": "Sign-in to Business Dashboard",
+      "title": "Passkey enrol after password and two-step",
       "kind": "flow",
       "url": "https://refero.design/flows/11027",
       "images": [
@@ -2434,7 +2434,7 @@
         "https://images.refero.design/screenshots/mercury.com/desktop/cd553d96-edff-4120-bb74-8230a7c4f490_preview.jpg"
       ],
       "question": "Q6",
-      "take": "After password + 2FA, prompt passkey enrolment so the next login is one step.",
+      "take": "After password and two-step sign-in, multi-factor authentication (MFA), Mercury prompts passkey enrolment so the next login is one step.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2443,14 +2443,14 @@
       "id": "mobbin:1f44597f-d45a-400f-ba0c-f3a914bfc6b3",
       "source": "mobbin",
       "app": "Microsoft Copilot",
-      "title": "Incorrect password - send a code instead",
+      "title": "Wrong password offers send a code",
       "kind": "screen",
       "url": "https://mobbin.com/screens/1f44597f-d45a-400f-ba0c-f3a914bfc6b3",
       "images": [
         "https://mobbin.com/api/mcp/short/SG2p0r0R"
       ],
       "question": "Q6",
-      "take": "Microsoft account (the institution's own IdP): wrong password shows 'Send a code to <email>' inline under Next - relevant because hospital/university users already live in this pattern.",
+      "take": "On a Microsoft account (the institution's own IdP), a wrong password shows 'Send a code to <email>' inline under Next. Hospital and university users already live in this pattern.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2459,7 +2459,7 @@
       "id": "refero:374",
       "source": "refero",
       "app": "Miro",
-      "title": "Password recovery and reset",
+      "title": "Full password recovery loop",
       "kind": "flow",
       "url": "https://refero.design/flows/374",
       "images": [
@@ -2475,7 +2475,7 @@
         "https://images.refero.design/screenshots/miro.com/desktop/8326345e-55e1-460c-901c-b4ca27b9f143_thumb.jpg"
       ],
       "question": "Q6",
-      "take": "Complete recovery loop: error → enter email → loading → \"instructions sent\" → set new password → back in.",
+      "take": "Miro runs a complete recovery loop: error, then enter email, then loading, then 'instructions sent', then set new password, then back in.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2484,7 +2484,7 @@
       "id": "refero:9556",
       "source": "refero",
       "app": "n8n",
-      "title": "Two-factor authentication setup",
+      "title": "MFA setup with recovery codes",
       "kind": "flow",
       "url": "https://refero.design/flows/9556",
       "images": [
@@ -2496,7 +2496,7 @@
         "https://images.refero.design/screenshots/n8n.cloud/desktop/725f73dc-ec10-4d06-8f34-eed967e54ab7_preview.jpg"
       ],
       "question": "Q6",
-      "take": "2FA setup shows recovery codes and requires acknowledgement before finishing — recovery set up when access is set up.",
+      "take": "n8n's MFA setup shows recovery codes and requires acknowledgement before finishing. Recovery is set up when access is set up.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2505,7 +2505,7 @@
       "id": "mobbin:27e34b0c-b913-4169-81e6-003c4bc0a8a4",
       "source": "mobbin",
       "app": "OpenAI Platform",
-      "title": "Resetting password (with one-time code escape hatch)",
+      "title": "One-time code beside wrong password",
       "kind": "flow",
       "url": "https://mobbin.com/flows/27e34b0c-b913-4169-81e6-003c4bc0a8a4",
       "images": [
@@ -2518,7 +2518,7 @@
         "https://mobbin.com/api/mcp/short/KoXod65B"
       ],
       "question": "Q6",
-      "take": "On 'Incorrect email address or password' the same screen offers 'Log in with a one-time code' as an OR path, and the reset itself is a 6-digit emailed code rather than a link.",
+      "take": "On 'Incorrect email address or password', OpenAI Platform offers 'Log in with a one-time code' as another path on the same screen. The reset itself is a 6-digit emailed code rather than a link.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2527,7 +2527,7 @@
       "id": "mobbin:5199e8ad-f2ba-4be7-8de8-f31b848a4baf",
       "source": "mobbin",
       "app": "Paramount+",
-      "title": "Resetting password",
+      "title": "Vague verify error forces reset",
       "kind": "flow",
       "url": "https://mobbin.com/flows/5199e8ad-f2ba-4be7-8de8-f31b848a4baf",
       "images": [
@@ -2540,7 +2540,7 @@
         "https://mobbin.com/api/mcp/short/NXYFbR8I"
       ],
       "question": "Q6",
-      "take": "COUNTER-EXAMPLE: vague 'Unable to verify your account' error, only exit is Forgot password -> emailed reset link -> new password -> log in again; the whole session depends on the recovery email working.",
+      "take": "What not to copy: Paramount+ shows a vague 'Unable to verify your account' error. The only exit is Forgot password, then an emailed reset link, then a new password, then log in again. The whole session depends on the recovery email working.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -2549,7 +2549,7 @@
       "id": "refero:1268",
       "source": "refero",
       "app": "Patreon",
-      "title": "Email Code Sign-In",
+      "title": "Email code instead of reset link",
       "kind": "flow",
       "url": "https://refero.design/flows/1268",
       "images": [
@@ -2560,7 +2560,7 @@
         "https://images.refero.design/screenshots/patreon.com/desktop/99f96872-6708-450c-bb01-d52279f7785d_thumb.jpg"
       ],
       "question": "Q6",
-      "take": "On password mismatch, offer an email code instead of a reset link; handles invalid code and retry.",
+      "take": "On password mismatch, Patreon offers an email code instead of a reset link. It also handles an invalid code and retry.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2569,14 +2569,14 @@
       "id": "mobbin:0dbee83b-078f-4234-ac44-939735152a23",
       "source": "mobbin",
       "app": "Sentry",
-      "title": "Recover Account - link invalid or expired",
+      "title": "Expired recovery link dead end",
       "kind": "screen",
       "url": "https://mobbin.com/screens/0dbee83b-078f-4234-ac44-939735152a23",
       "images": [
         "https://mobbin.com/api/mcp/short/Vrc7gXLg"
       ],
       "question": "Q6",
-      "take": "COUNTER-EXAMPLE of the expired-link dead end: 'link you followed is invalid, or it has expired' with only a text 'try again' - shows why magic links need a code fallback and a visible expiry.",
+      "take": "What not to copy: Sentry's expired-link dead end says 'link you followed is invalid, or it has expired' with only a text 'try again'. That is why sign-in links sent by email need a code fallback and a visible expiry.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -2585,14 +2585,14 @@
       "id": "mobbin:62891be0-2750-41e1-87ed-e25aeee34474",
       "source": "mobbin",
       "app": "Shopify",
-      "title": "Security settings - passkey recommended, secondary email",
+      "title": "Passkeys recommended plus secondary email",
       "kind": "screen",
       "url": "https://mobbin.com/screens/62891be0-2750-41e1-87ed-e25aeee34474",
       "images": [
         "https://mobbin.com/api/mcp/short/depaImnV"
       ],
       "question": "Q6",
-      "take": "Security page ranks Passkeys 'Recommended' above Password, explains 'takes under a minute', and adds 'Secondary email - used to restore access' so recovery does not depend on one institutional mailbox.",
+      "take": "Shopify's Security page ranks Passkeys 'Recommended' above Password and explains it 'takes under a minute'. It also adds 'Secondary email - used to restore access' so recovery does not depend on one institutional mailbox.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2601,14 +2601,14 @@
       "id": "mobbin:c3eb55db-308d-478a-8c34-beca03d2797f",
       "source": "mobbin",
       "app": "Skiff",
-      "title": "Recover your account with recovery key",
+      "title": "Recovery key stuck on signup device",
       "kind": "screen",
       "url": "https://mobbin.com/screens/c3eb55db-308d-478a-8c34-beca03d2797f",
       "images": [
         "https://mobbin.com/api/mcp/short/e4zzhg5R"
       ],
       "question": "Q6",
-      "take": "COUNTER-EXAMPLE: recovery depends on a key PDF saved on 'the device you used to sign up' - exactly the hidden recovery dependency that produces six-month lockouts; failure message gives no alternative.",
+      "take": "What not to copy: Skiff recovery depends on a key PDF saved on 'the device you used to sign up'. That hidden recovery dependency is what produces six-month lockouts, and the failure message gives no alternative.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -2617,14 +2617,14 @@
       "id": "mobbin:a216f75b-1823-4834-820d-c15b5a3e1685",
       "source": "mobbin",
       "app": "Surfshark",
-      "title": "Too many login attempts - login with code",
+      "title": "Rate limit offers login with code",
       "kind": "screen",
       "url": "https://mobbin.com/screens/a216f75b-1823-4834-820d-c15b5a3e1685",
       "images": [
         "https://mobbin.com/api/mcp/short/Zv3LvYo2"
       ],
       "question": "Q6",
-      "take": "Rate-limit dialog offers 'Login with code' as the primary way out instead of a hard lockout - the direct antidote to months-long password lockouts.",
+      "take": "Surfshark's rate-limit dialog offers 'Login with code' as the main way out instead of a hard lockout. That is the direct antidote to months-long password lockouts.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2633,7 +2633,7 @@
       "id": "mobbin:98bc9296-6ce0-4ba7-af3d-949c0b26f4bb",
       "source": "mobbin",
       "app": "Turo",
-      "title": "Logging in with passcode",
+      "title": "Forgot password becomes passcode login",
       "kind": "flow",
       "url": "https://mobbin.com/flows/98bc9296-6ce0-4ba7-af3d-949c0b26f4bb",
       "images": [
@@ -2645,7 +2645,7 @@
         "https://mobbin.com/api/mcp/short/wbApnqS8"
       ],
       "question": "Q6",
-      "take": "The 'forgot password' link is rewritten as 'Forgot password? Log in with passcode' - the recovery path IS a login path (emailed code), so a forgotten password never blocks the session or requires a reset.",
+      "take": "Turo rewrites 'forgot password' as 'Forgot password? Log in with passcode'. The recovery path is a login path (emailed code), so a forgotten password never blocks the session or requires a reset.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2654,14 +2654,14 @@
       "id": "mobbin:5a6023f7-ca17-45ef-b4b2-3226bb64001b",
       "source": "mobbin",
       "app": "Uber",
-      "title": "Create a passkey",
+      "title": "Passkey explained with recovery phone",
       "kind": "screen",
       "url": "https://mobbin.com/screens/5a6023f7-ca17-45ef-b4b2-3226bb64001b",
       "images": [
         "https://mobbin.com/api/mcp/short/caIUC42U"
       ],
       "question": "Q6",
-      "take": "Passkey modal explains in plain words what you will log in with (Face ID / Touch ID / Passcode); Security page also lists Recovery phone as a backup channel and current login activity.",
+      "take": "Uber's passkey dialog explains in plain words what you will log in with (Face ID, Touch ID or Passcode). The Security page also lists Recovery phone as a backup channel and current login activity.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2670,7 +2670,7 @@
       "id": "mobbin:e0050c78-501b-4c37-9666-642daac988f1",
       "source": "mobbin",
       "app": "v0",
-      "title": "Logging in (6-digit email code)",
+      "title": "Six-digit email code login",
       "kind": "flow",
       "url": "https://mobbin.com/flows/e0050c78-501b-4c37-9666-642daac988f1",
       "images": [
@@ -2684,7 +2684,7 @@
         "https://mobbin.com/api/mcp/short/Ce8MLkoq"
       ],
       "question": "Q6",
-      "take": "One-time code instead of a link (works when the email client is on another device); 'Use a different email' and a yellow nudge 'still waiting on your code? try signing up instead' handle the no-account case without a dead end.",
+      "take": "v0 uses a one-time code instead of a link, which works when the email client is on another device. 'Use a different email' and a yellow nudge 'still waiting on your code? try signing up instead' handle the no-account case without a dead end.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -2693,14 +2693,14 @@
       "id": "mobbin:22df81ad-1966-4cf1-80dd-d83877570b5b",
       "source": "mobbin",
       "app": "Workable",
-      "title": "Sign in with Google / Microsoft / LinkedIn / SSO / instant link",
+      "title": "Institutional paths plus instant email link",
       "kind": "screen",
       "url": "https://mobbin.com/screens/22df81ad-1966-4cf1-80dd-d83877570b5b",
       "images": [
         "https://mobbin.com/api/mcp/short/XmSQLYnY"
       ],
       "question": "Q6",
-      "take": "One screen offers every institutional path - Google, Microsoft, SSO - AND 'Email me a link to sign in instantly' as a peer of the password button, so a locked-out user has three ways in without support.",
+      "take": "Workable's one screen offers every institutional path (Google, Microsoft, SSO) and 'Email me a link to sign in instantly' as a peer of the password button. A locked-out user has three ways in without support.",
       "counter_example": false,
       "selected": false,
       "crop": ""

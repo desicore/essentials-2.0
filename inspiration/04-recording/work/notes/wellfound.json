@@ -1,0 +1,26 @@
+{
+  "product": "wellfound",
+  "flows": {
+    "mobbin:08aa493c-6111-43eb-a393-4f09e8b5fb3d": {
+      "summary": "A recruiter opens a candidate overview, adds a Project scorecard with free-text notes and Strong Yes to Strong No, then sees 'Scorecard Submitted' with the saved Strong Yes card.",
+      "steps": [
+        "Interviews empty: Add interviewer",
+        "Scorecards empty: Add scorecard",
+        "Scorecard form: notes and 4 ratings",
+        "Form: Add Project scorecard",
+        "Scorecard with notes and Strong Yes to No",
+        "Submitted message and Strong Yes card"
+      ],
+      "steal": [
+        "An empty Scorecards screen offers 'Add scorecard for [name]' (screen 2).",
+        "A footer rating strip shows Strong Yes, Yes, No and Strong No in color (screen 3).",
+        "'View all previous scorecards' sits above the form (screen 3).",
+        "A success banner 'Scorecard Submitted!' then a list card shows reviewer, Strong Yes and the note (screen 6)."
+      ],
+      "avoid": [
+        "A free-text-only scorecard with no checklist criteria fits SRV grading worse than an Abbott-style checklist with timestamps."
+      ],
+      "fit": "Recording: extends SRV Data Entry with a right-rail scorecard, a final four-step scale and confirmation, but lacks evidence timestamps and rubric rows."
+    }
+  }
+}

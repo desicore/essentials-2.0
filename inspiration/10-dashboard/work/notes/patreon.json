@@ -1,0 +1,29 @@
+{
+  "product": "patreon",
+  "flows": {
+    "mobbin:63dda702-ffb9-4b29-a69e-a58be8bf9ad9": {
+      "summary": "Creator opens their management home, switches account via the sidebar identity menu, and lands on a Member discovery home with a much smaller sidebar.",
+      "steps": [
+        "Creator home overview",
+        "Role or account switcher open",
+        "Member discovery home"
+      ],
+      "steal": [
+        "The current role is always visible in the sidebar footer ('Alex' / 'Creator'), and opening the menu lists alternate identities with a checkmark on the active one.",
+        "The creator sidebar exposes management modules plus a persistent Create control, while the member sidebar collapses to Home, Explore, Community, Notifications, and Settings with no Create.",
+        "A sparse Overview headline number ('Membership: 4 total') has a 'Go to Insights' click-through and a Latest activity strip (screen 1).",
+        "The member home replaces management widgets with search, topic labels, and discovery carousels in the same product shell (screen 3)."
+      ],
+      "avoid": [
+        "A large profile or edit banner dominates the first view before the Overview headline number, which clashes with Essentials' show little, but precisely home rule."
+      ],
+      "fit": "Dashboard: maps to role-home for admin or faculty versus learner. The switcher stays on the dashboard. Creator-side Insights and Create hand off to Reports and Scenario manager or Scheduling. The member home is the lightweight learner page, not a second admin dashboard.",
+      "jobs": [
+        "role-home",
+        "navigation",
+        "kpis"
+      ],
+      "counter_example": false
+    }
+  }
+}

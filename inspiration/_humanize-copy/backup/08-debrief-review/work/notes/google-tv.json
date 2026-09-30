@@ -1,0 +1,23 @@
+{
+  "product": "google-tv",
+  "flows": {
+    "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6": {
+      "summary": "From a movie detail on the phone, tap Watch on TV while already linked to Living Room TV, then use a full phone remote with trackpad, volume, and playback scrubber.",
+      "steps": [
+        "Watch on TV + connected mini-bar",
+        "Phone remote: trackpad + scrubber"
+      ],
+      "steal": [
+        "Step 1: Persistent bottom bar shows title + green Living Room TV connection while browsing — control stays available without leaving content.",
+        "Step 1: Watch on TV as the primary CTA makes the phone→big-screen handoff explicit.",
+        "Step 2: Dedicated remote surface with Connected header, swipe-to-navigate trackpad, ±30s skips, and a scrubber for precise jumps.",
+        "Step 2: Playback chrome lives only on the phone — implies the TV shows video-only, matching Baseline privacy goals."
+      ],
+      "avoid": [
+        "Native-app remote with D-pad/Assistant chrome — Baseline prefers a simple web page on phone/tablet for non-technical faculty."
+      ],
+      "fit": "Closest adjacent pattern to Baseline second-screen: phone owns transport and navigation; big screen is implied video-only. Weak on annotations/notes; strong on device pairing status.",
+      "counter_example": false
+    }
+  }
+}

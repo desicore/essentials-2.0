@@ -1,0 +1,11 @@
+Reconcile and verify the FIRST TWO COMPLETED question sections only. Existing authorized claude.ai Figma, file tN2AM7RZD2InF1LYnN0zcn Page2 5:422. All29 image bytes were uploaded successfully through supported upload_assets/raw POST, but auto-placement is unreliable. The tested supported fix is direct assignment of the exact upload-returned imageHash to existing targets. Do not create or upload any images.
+
+Read mandatory local figma-use/SKILL.md and figma-use-figjam/SKILL.md under /Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/. Read and execute IN ORDER, sequentially, each request exactly using code/fileKey/description/skillNames:
+1. /Users/danielbrassnyo/Documents/dev-projects/elevate/essentials-2.0/inspiration/university-identity/figjam/generated-compact/05-reconcile-uploaded-hashes.request.json
+2. /Users/danielbrassnyo/Documents/dev-projects/elevate/essentials-2.0/inspiration/university-identity/figjam/generated-compact/06-verify-uploaded-images.request.json
+
+Never insert a pre-assignment getImageByHash guard: it returns null for unreferenced uploaded blobs, but the tested direct fill works and persists. Preserve Page1. Stop on errors and retain completed results; no blind retries.
+
+After separate readback passes29 target hashes, get_screenshot of Q1section100:413 and Q2section105:418 for layout. Also get_screenshot image106:556 (Entra on-demand success documentation illustration) and107:524 (final product flow screen) at readable scale. Inspect actual screenshot contents for real pixels, proportions, labels and overlap; other foursections are still empty intentionally. No other writes.
+
+Return ONLY JSON: {reconcile:{fileKey,pageId,createdNodeIds:[],mutatedNodeIds:ALL_FROM_OPERATION_1,issues},readback:EXACT_OPERATION_2_RETURN,visual:{sectionNodeIds,closeupNodeIds,actualObservedContent,passed,limitations}}. Keep all nodeIDs and readbackimagehashes. Global completion is not claimed yet; this verifies29images/14references only. No extra research.

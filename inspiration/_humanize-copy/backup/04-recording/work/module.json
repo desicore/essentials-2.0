@@ -1,0 +1,270 @@
+{
+  "module": "04-recording",
+  "title": "Recording — flow inspiration",
+  "intro": "Product-first flow gallery for the Recording module of Essentials 2.0: starting and stopping recordings (manual and automatic), device self-tests, multi-room overview, PTZ/360 camera control, room and simulator announcements, participant check-in and tagging, live faculty notes and AI markers, and grading during or right after a session. Library, sharing and playback of finished recordings are covered in courses/08; post-session debrief in 08-debrief-review; the phone remote in 09-mobile-ipad. Sources: Mobbin and Refero. Researched 30 September 2026.",
+  "baseline": "The current LearningSpace session video review screen (SRV) will be reused, not rebuilt: video on the left, a right panel with Annotation, Data Entry, Layout and Transcript tabs, and a timeline split into colour-coded chapter segments with manual and AI annotation markers above it. Planned around it: a mixer panel with automated guardrails, a one-button or scheduled (~5 am) per-room device self-test reporting \"system health OK\", a Center Overview for multi-room, simplified PTZ, separate announcement targets for room and simulator audio, auto-record by voice, button, on-air light or schedule (reschedulable mid-event), and a QR at the end of a recording that opens the debrief on the faculty's phone. Known pains: recording is often skipped or started manually (the real fix is check-in), and audio failed at 4 of 6 visited centers. No face recognition or camera ID is allowed (GDPR).",
+  "targets": {
+    "products": [
+      8,
+      12
+    ],
+    "flows": [
+      18,
+      25
+    ]
+  },
+  "jobs": [
+    {
+      "id": "start-stop",
+      "title": "Start/stop manual or automatic recording",
+      "description": "One-click record; countdown; recording-state indicator; auto-start by schedule/trigger; stop/confirm; what happens after stop (processing, share)"
+    },
+    {
+      "id": "device-check",
+      "title": "Automatic device check",
+      "description": "Pre-flight camera/mic/speaker test; scheduled self-test; \"system health OK\" status; guided fix when something fails"
+    },
+    {
+      "id": "multi-room",
+      "title": "Multi-room management",
+      "description": "Overview wall of many live feeds/rooms with status; drill into one; bulk actions"
+    },
+    {
+      "id": "camera-control",
+      "title": "New PTZ interface + 360 camera",
+      "description": "Pan/tilt/zoom controls, presets, click-to-point, 360° dewarp/view switching"
+    },
+    {
+      "id": "announcements",
+      "title": "Send manual/automatic announcements to room or simulator",
+      "description": "Push-to-talk / intercom, pre-recorded or scheduled messages, target selection (room vs. device)"
+    },
+    {
+      "id": "participant-tagging",
+      "title": "Tag participants ad hoc / QR check-in / automatic learner tagging",
+      "description": "Who's in this session: check-in by QR/code/badge, quick-add attendees, correct mistakes after the fact"
+    },
+    {
+      "id": "live-notes",
+      "title": "Add faculty notes / automatic annotations",
+      "description": "Timestamped notes or markers during a live recording; quick-tag buttons; AI-generated markers appearing on the timeline"
+    },
+    {
+      "id": "grading",
+      "title": "Manual / AI grading (summative & formative)",
+      "description": "Score against a checklist/rubric while or after watching; AI-suggested scores with evidence timestamps; formative vs. summative modes"
+    }
+  ],
+  "products": [
+    {
+      "id": "riverside",
+      "name": "Riverside",
+      "analog": "direct",
+      "why": "The whole control-room arc in one product: a test-recording option next to Start, a countdown, REC with live upload %, and one-tap Mark Clip with a running count. Its generic invite error is the module's counter-example.",
+      "flows": [
+        "mobbin:7a5685e7-9d0d-44c5-afe1-4cdc3eef545d",
+        "mobbin:98d1b7e8-cff5-47a9-84e7-278eb2650ae0",
+        "mobbin:97d3f401-44c3-430b-ac7e-11e365f63072"
+      ]
+    },
+    {
+      "id": "grain",
+      "name": "Grain",
+      "analog": "direct",
+      "why": "The only product that makes auto-record a scoped choice (all meetings vs. next only) and grades one speaker at a time under the video, including AI-filled criteria with evidence timestamps.",
+      "flows": [
+        "mobbin:d7ecf80a-5cb1-4429-ab2f-b2c40a50f743",
+        "mobbin:6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9",
+        "mobbin:9bc50bc4-4eab-47a8-845f-aeb3a21b4d00"
+      ]
+    },
+    {
+      "id": "veed",
+      "name": "VEED",
+      "analog": "direct",
+      "why": "The cleanest recording state machine (cancelable countdown, pause/retake/stop, post-stop upload) plus an explicit muted-mic warning that warns without blocking.",
+      "flows": [
+        "mobbin:79f64251-2c1a-4751-9926-1ab5aa922993",
+        "mobbin:e774e41f-3fa0-4fe8-90a9-a784b933676b"
+      ]
+    },
+    {
+      "id": "luma",
+      "name": "Luma",
+      "analog": "adjacent",
+      "why": "Check-in as the primary session action: QR scan with a confirm sheet, immediate Undo, a List|Scan toggle, present/absent counts and a 'checked in by' audit line.",
+      "flows": [
+        "mobbin:74bc6276-56b0-44b9-9a2b-cd8ed27f650f",
+        "mobbin:cd3469d9-df14-4fa5-8003-021c7055af7e"
+      ]
+    },
+    {
+      "id": "preply",
+      "name": "Preply",
+      "analog": "adjacent",
+      "why": "A guided device self-test that ends in a verdict: a 5-second AV sample, a Yes/No self-confirm with a fix path, and a checkmarked health hub.",
+      "flows": [
+        "mobbin:272048bd-060c-49bf-b4ad-e37b5d2a45a1"
+      ]
+    },
+    {
+      "id": "amazon-alexa",
+      "name": "Amazon Alexa",
+      "analog": "adjacent",
+      "why": "Room-grouped device health with an inline 'unresponsive' state, and an announcement composer (text, voice, preset sounds) kept separate from live Drop In, with delivery confirmation.",
+      "flows": [
+        "mobbin:7db28eda-b3e6-4948-ae78-198c4bc7d466",
+        "mobbin:4a2af2e6-86bb-4af2-a8cf-dc106008e299"
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "analog": "adjacent",
+      "why": "Both announcement modes: push-to-talk as an explicit mode with an oversized hold target, and a scheduled message that cannot be published until a recipient is set.",
+      "flows": [
+        "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7",
+        "mobbin:5a85acae-251f-4a89-8b61-20b3dc15a020"
+      ]
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies",
+      "analog": "adjacent",
+      "why": "AI notes and a live transcript that fill in during the recording, a 'Catch me up' assist for faculty who looked away, and select-to-bookmark that pins a single star on the timeline.",
+      "flows": [
+        "mobbin:2b3f4914-5fd3-49bc-8f83-32b7fcab62d3",
+        "mobbin:f1e15c44-a1fc-4eee-8644-7320cbca554b"
+      ]
+    },
+    {
+      "id": "google-home",
+      "name": "Google Home",
+      "analog": "wildcard",
+      "why": "Devices sectioned by room with a distinct offline-with-warning tile: the closest status-wall model for a Center Overview, though without video.",
+      "flows": [
+        "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4"
+      ]
+    },
+    {
+      "id": "partiful",
+      "name": "Partiful",
+      "analog": "adjacent",
+      "why": "Reversing a check-in gets its own confirm sheet with a safe cancel, so a wrong participant tag is undone deliberately, not by a stray tap.",
+      "flows": [
+        "mobbin:c89738be-2928-4ed1-94ac-f730f042656c"
+      ]
+    },
+    {
+      "id": "wellfound",
+      "name": "Wellfound",
+      "analog": "adjacent",
+      "why": "A summative scorecard with a four-step scale, a toggle for previous scorecards and a submitted state; useful mainly as the contrast to Grain's criterion-level rubric.",
+      "flows": [
+        "mobbin:08aa493c-6111-43eb-a393-4f09e8b5fb3d"
+      ]
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "analog": "wildcard",
+      "why": "Picks a camera by its position on a diagram of the subject (dots with field-of-view wedges) and gates live view behind an armed mode: a spatial camera picker for rooms.",
+      "flows": [
+        "mobbin:d3ffcd9d-2646-4c40-aa25-7fc37e0fb925"
+      ]
+    },
+    {
+      "id": "halide",
+      "name": "Halide Mark III",
+      "analog": "wildcard",
+      "why": "Discrete, labeled zoom stops instead of a continuous slider: a zoom-only model for simplified PTZ.",
+      "flows": [
+        "mobbin:d9108d06-2686-4dcb-b1da-6847d7e5a655"
+      ]
+    }
+  ],
+  "synthesis": {
+    "patterns": [
+      {
+        "title": "Device health ends in a verdict and a fix, not a meter",
+        "body": "Preply turns the device check into a 5-second sample, a Yes/No self-confirm and a checkmarked hub, with 'we'll help you fix it' on No; Riverside puts 'Run test recording' beside Start. VEED names the exact problem in place ('Your microphone is muted. Unmute') without blocking Record. Riverside's own 'An error occurred, please try again later' shows the opposite: no failed action, cause or retry. For the per-room self-test and the mixer guardrails, every state should say what failed and offer the one next step.",
+        "flows": [
+          "mobbin:272048bd-060c-49bf-b4ad-e37b5d2a45a1",
+          "mobbin:7a5685e7-9d0d-44c5-afe1-4cdc3eef545d",
+          "mobbin:e774e41f-3fa0-4fe8-90a9-a784b933676b",
+          "mobbin:97d3f401-44c3-430b-ac7e-11e365f63072"
+        ]
+      },
+      {
+        "title": "Arm, count down, then make REC impossible to miss",
+        "body": "Riverside and VEED both insert a visible 'Starting…' countdown between the click and REC; VEED lets you click anywhere to cancel, and both keep Stop separate from leaving. After stop, both show upload/processing progress immediately instead of a silent handoff. Fireflies carries the LIVE state outside the player as a global banner with Stop, which is what a control room watching several rooms needs.",
+        "flows": [
+          "mobbin:79f64251-2c1a-4751-9926-1ab5aa922993",
+          "mobbin:7a5685e7-9d0d-44c5-afe1-4cdc3eef545d",
+          "mobbin:2b3f4914-5fd3-49bc-8f83-32b7fcab62d3"
+        ]
+      },
+      {
+        "title": "Automatic recording is a scope decision, and scheduled actions need a target",
+        "body": "Grain doesn't just toggle auto-record: it asks 'All meetings' vs 'Next meeting only' and confirms with a toast, so a one-off override doesn't change the default. Slack's scheduled workflow is blocked ('Needs attention') until a recipient is chosen and keeps every step editable. Essentials' auto-record by schedule, reschedulable mid-event, maps to this pair: a room default, a next-session override, and no automation without an explicit room target.",
+        "flows": [
+          "mobbin:d7ecf80a-5cb1-4429-ab2f-b2c40a50f743",
+          "mobbin:5a85acae-251f-4a89-8b61-20b3dc15a020"
+        ]
+      },
+      {
+        "title": "One-tap markers that count themselves",
+        "body": "Riverside's Mark Clip is a single button on the live control bar; a toast shows the absolute timestamp and the label becomes 'Mark Clip (3)'. Fireflies lets faculty select transcript text to pin one star on the timeline, and fills AI notes live with a 'Catch me up (last 1 min)' assist. These feed the SRV's existing marker row, and the count badge and single-star pin address the known overlapping-marker problem.",
+        "flows": [
+          "mobbin:98d1b7e8-cff5-47a9-84e7-278eb2650ae0",
+          "mobbin:f1e15c44-a1fc-4eee-8644-7320cbca554b",
+          "mobbin:2b3f4914-5fd3-49bc-8f83-32b7fcab62d3"
+        ]
+      },
+      {
+        "title": "Grade one learner, beside the video, with evidence",
+        "body": "Grain scopes a scorecard to one speaker before scoring, keeps it as a tab under the player, allows N/A plus a note per item and disables Submit until answered; the AI variant fills criteria with a rationale and a clickable evidence timestamp and admits when the call doesn't match. Wellfound diverges: a free-text note plus a Strong Yes–Strong No scale, no criteria, no timestamps. The SRV Data Entry/Abbott checklist sits closer to Grain, but Grain's modal covers the video while grading, which the SRV should avoid.",
+        "flows": [
+          "mobbin:6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9",
+          "mobbin:9bc50bc4-4eab-47a8-845f-aeb3a21b4d00",
+          "mobbin:08aa493c-6111-43eb-a393-4f09e8b5fb3d"
+        ]
+      },
+      {
+        "title": "Check-in is the tagging, and undo is deliberate",
+        "body": "Luma makes 'Check In Guests' the main session action: scan, confirm the person on a sheet, then Undo right on the success state; the list shows Going/Checked In counts, relative arrival time and 'Checked In · By Sam Lee'. Partiful gives the reverse action its own 'Uncheck them?' confirm with a Nevermind escape. This is the no-biometrics route to knowing who is in the room, and it's the fix the baseline names for skipped recordings.",
+        "flows": [
+          "mobbin:74bc6276-56b0-44b9-9a2b-cd8ed27f650f",
+          "mobbin:cd3469d9-df14-4fa5-8003-021c7055af7e",
+          "mobbin:c89738be-2928-4ed1-94ac-f730f042656c"
+        ]
+      },
+      {
+        "title": "Talking live and broadcasting are different controls",
+        "body": "Alexa separates Announce (one-way: type, voice or preset sound, then 'Announced to all supported devices') from Drop In (live intercom). Slack makes push-to-talk an explicit mode during a session, with an idle state and a large hold target that shows when the channel is open. Neither lets you pick a target speaker, which is the gap for room vs. simulator audio.",
+        "flows": [
+          "mobbin:4a2af2e6-86bb-4af2-a8cf-dc106008e299",
+          "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7"
+        ]
+      },
+      {
+        "title": "Place and room beat device names",
+        "body": "Alexa and Google Home both group devices under room headers and show failure inline ('Device is unresponsive', an offline tile with a warning triangle) without drilling in. Tesla picks cameras from dots with field-of-view wedges on a diagram of the subject; Halide reduces zoom to three labeled stops. Together they suggest a Center Overview by room and a camera picker by position, but none of them shows a live multi-feed wall or real pan/tilt.",
+        "flows": [
+          "mobbin:7db28eda-b3e6-4948-ae78-198c4bc7d466",
+          "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4",
+          "mobbin:d3ffcd9d-2646-4c40-aa25-7fc37e0fb925",
+          "mobbin:d9108d06-2686-4dcb-b1da-6847d7e5a655"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Multi-room gap: no product in the gallery shows a live wall of many video feeds with per-room status. Security/NVR apps (UniFi Protect, Verkada, Ring, Arlo, Wyze) returned no usable flows on Mobbin or Refero; Alexa and Google Home show status by room without video. The Center Overview needs vendor-demo research or first-principles design.",
+      "PTZ and 360 gap: no flow shows pan/tilt, saved position presets, click-to-point or 360° dewarp. Tesla's camera map and Halide's zoom stops are the closest evidence. Is 'simplified PTZ' enough as pick a camera by position, a few zoom stops and a handful of presets? That should be tested with sim techs.",
+      "Silent failure: no flow shows recording 'on' while nothing is captured. The gallery has only the good version (VEED's muted-mic banner, Preply's self-test) and a generic-error counter-example (Riverside, on an invite, not on the recording itself). With audio failing at 4 of 6 centers, the in-session 'no audio detected' guardrail and the mixer panel have no direct reference here.",
+      "Announcement targeting: Alexa announces to 'all supported devices' and Slack's push-to-talk addresses the whole huddle. No product shows choosing room/control-room vs. simulator (voice-of-the-manikin) output before speaking, which Essentials requires.",
+      "Check-in as the recording trigger is a hypothesis: Grain ties auto-record to calendar meetings and Luma ties check-in to events, but no product links the two. Learners may not carry phones or tickets in a sim room, so Luma's List|Scan fallback (roster tap, badge) matters as much as QR.",
+      "Grading: Grain's AI scorecard infers criteria from sales-call patterns, and Wellfound has no criteria at all. Sim rubrics are faculty-owned checklists, AI evidence must respect the on-device speech-to-text and GDPR constraints, and no product shows a formative vs. summative mode switch."
+    ]
+  }
+}

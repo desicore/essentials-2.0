@@ -1,0 +1,50 @@
+{
+  "product": "shopify",
+  "flows": {
+    "mobbin:b7d28210-31a2-48c6-92fc-604379301745": {
+      "summary": "A new merchant lands on Home, inspects empty Alerts and the account menu, advances the setup guide, then reaches a live Home with a few KPIs, “Things to do next,” and a dismissible completed guide.",
+      "steps": [
+        "Home setup guide 0/11, trial toast",
+        "Alerts popover empty state",
+        "Store/account menu open",
+        "Setup guide advances to 1/11",
+        "KPI strip + Things to do + sales guide",
+        "Orders-to-fulfill card + dual progress guides",
+        "Setup guide Done with Dismiss + discovery"
+      ],
+      "steal": [
+        "Step 0: Accordion setup guide with N/M progress bar and one expanded task that owns primary + secondary CTAs (Add product / Import).",
+        "Step 1: Alerts empty copy (“Alerts about your store…”) with mark-all-read affordance visible even when empty.",
+        "Step 5: Precise ops card (“2 orders to fulfill”) above longer guides — one countable next action, not a widget wall.",
+        "Step 6: Explicit “Dismiss guide” once marked Done, then “All caught up” divider before discovery cards."
+      ],
+      "avoid": [
+        "Steps 5–6 stack promotional cards (Shopify Magic, Discover more) under the guide — clashes with “show little, but precisely.”"
+      ],
+      "fit": "Replaces today’s weak tile home with a center first-run checklist (rooms/cameras/users) that lives on the dashboard, hands off into Inventory/User management/Scenario manager for each task, and surfaces countable ops (pending grading, recordings to share) before any Reports KPIs.",
+      "jobs": ["first-run", "navigation", "action-items", "kpis"]
+    },
+    "mobbin:2513bddc-2b15-4e3e-8ba3-39b637ccc85a": {
+      "summary": "From Home setup guide the merchant opens Add product, inserts a sample product, marks the checklist step done, and watches the right-rail guide advance while staying on the product editor.",
+      "steps": [
+        "Home setup guide 1/11, Add first product expanded",
+        "Add product form with persistent setup rail",
+        "Sample product saved, success banner",
+        "Mark-as-done on checklist item",
+        "Guide 2/11, next digital-products task",
+        "Guide 3/11, online-store sharing details"
+      ],
+      "steal": [
+        "Steps 1–5: Setup guide stays as a right rail while the user does the real work in the module — not a blocking wizard.",
+        "Step 1: “Add a sample product” shortcut to unblock first-run without full data entry.",
+        "Step 3: Green “Sample product added” banner with Preview + dismiss.",
+        "Step 3–4: Manual “Mark as done” when auto-detect is incomplete."
+      ],
+      "avoid": [
+        "Tagged action-items, but screens show setup-checklist progress only — no inbox dismiss/snooze/done on operational tasks."
+      ],
+      "fit": "Extends dashboard first-run by keeping the checklist visible while the admin completes the task inside Inventory / Scenario manager / User management; not a substitute for the action-items inbox.",
+      "jobs": ["first-run", "navigation"]
+    }
+  }
+}

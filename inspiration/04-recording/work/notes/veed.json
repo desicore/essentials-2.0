@@ -1,0 +1,43 @@
+{
+  "product": "veed",
+  "flows": {
+    "mobbin:79f64251-2c1a-4751-9926-1ab5aa922993": {
+      "summary": "The user gets a studio ready, starts 'Record', sees a cancelable countdown, records with timer, pause, retake and stop, then opens an editor with upload progress and 'Add to project'.",
+      "steps": [
+        "Ready to record with 'Record'",
+        "Countdown: click anywhere to cancel",
+        "Recording with timer, Retake, Pause, Stop",
+        "Paused with Scenes tip and 'Resume'",
+        "Paused with 'Resume' as main action",
+        "After stop: editor uploading %",
+        "After stop: 'Add to project' ready"
+      ],
+      "steal": [
+        "A countdown shows 'Click anywhere to cancel' and 'Starting' before 'REC' begins (screen 2).",
+        "During recording, a timer sits with 'Retake', 'Pause' and 'Stop' as equal actions (screen 3).",
+        "When paused, the main action becomes red 'Resume' while 'Retake' and 'Stop' stay available (screen 5).",
+        "After stop, a review player appears with 'Uploading %' then 'Add to project' or 'Delete' (screens 6-7)."
+      ],
+      "avoid": [
+        "A Scenes upsell dialog on pause distracts from 'Resume' and 'Stop' for operators who only need recording controls."
+      ],
+      "fit": "Recording: maps to control-room start-stop outside the SRV with countdown, pause, retake and processing after stop. The SRV stays the review place once the file exists."
+    },
+    "mobbin:e774e41f-3fa0-4fe8-90a9-a784b933676b": {
+      "summary": "On the ready-to-record screen the user opens the mic menu, chooses 'Mute Microphone', then sees 'Your microphone is muted. Unmute' and a red 'Unmute' control before 'Record'.",
+      "steps": [
+        "Ready to record with 'Record'",
+        "Mic menu with 'Mute Microphone' in red",
+        "Muted warning with 'Unmute' highlighted",
+        "Muted toolbar still allows 'Record'"
+      ],
+      "steal": [
+        "A warning above the stage says 'Your microphone is muted. Unmute' and can be closed (screen 3).",
+        "Toolbar 'Unmute' turns red with a slash while 'Record' stays available, so the warning does not block recording (screen 3).",
+        "The mic menu lists devices and a red 'Mute Microphone' action as an explicit choice (screen 2)."
+      ],
+      "avoid": [],
+      "fit": "Recording: an explicit muted-mic warning before recording outside the SRV addresses audio failing at centers, without changing Transcript or Annotation tabs."
+    }
+  }
+}

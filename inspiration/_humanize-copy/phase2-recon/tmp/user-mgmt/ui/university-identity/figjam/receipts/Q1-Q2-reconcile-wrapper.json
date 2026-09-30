@@ -1,0 +1,512 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 1.195138,
+  "result": {
+    "reconcile": {
+      "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+      "pageId": "5:422",
+      "createdNodeIds": [],
+      "mutatedNodeIds": [
+        "100:423",
+        "106:424",
+        "106:436",
+        "106:441",
+        "106:446",
+        "106:451",
+        "106:463",
+        "106:468",
+        "106:473",
+        "106:478",
+        "106:483",
+        "106:488",
+        "106:500",
+        "106:505",
+        "106:510",
+        "106:515",
+        "106:551",
+        "106:556",
+        "107:482",
+        "107:487",
+        "107:492",
+        "107:497",
+        "107:509",
+        "107:514",
+        "107:519",
+        "107:524",
+        "107:544",
+        "107:549",
+        "107:561"
+      ],
+      "issues": []
+    },
+    "readback": {
+      "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+      "pageId": "5:422",
+      "createdNodeIds": [],
+      "mutatedNodeIds": [],
+      "images": [
+        {
+          "referenceId": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+          "index": 0,
+          "nodeId": "100:423",
+          "imageHash": "ad30546d76a88165564171a353af89280591ade5",
+          "expectedImageHash": "ad30546d76a88165564171a353af89280591ade5",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 204,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+          "index": 0,
+          "nodeId": "106:424",
+          "imageHash": "e251b54281d5aeb7a62f286d9c34ea8156e08e4c",
+          "expectedImageHash": "e251b54281d5aeb7a62f286d9c34ea8156e08e4c",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 158,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "index": 0,
+          "nodeId": "106:436",
+          "imageHash": "956213ddeff3835b666ba679fde5767240e5e498",
+          "expectedImageHash": "956213ddeff3835b666ba679fde5767240e5e498",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "index": 1,
+          "nodeId": "106:441",
+          "imageHash": "5fad85dca147eba65a45e1b2f3b7b978ea874868",
+          "expectedImageHash": "5fad85dca147eba65a45e1b2f3b7b978ea874868",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "index": 2,
+          "nodeId": "106:446",
+          "imageHash": "1c50578272cbcab42cba279b541e422aaa0626e3",
+          "expectedImageHash": "1c50578272cbcab42cba279b541e422aaa0626e3",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "index": 3,
+          "nodeId": "106:451",
+          "imageHash": "16cde2c8becb40372797fbad900babf4db2dbc72",
+          "expectedImageHash": "16cde2c8becb40372797fbad900babf4db2dbc72",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 0,
+          "nodeId": "106:463",
+          "imageHash": "a8d82a95df6e8b32548eaa718c30769158c040ee",
+          "expectedImageHash": "a8d82a95df6e8b32548eaa718c30769158c040ee",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 1,
+          "nodeId": "106:468",
+          "imageHash": "5b242742b12156c4804ba232c8c5fb5737d5d920",
+          "expectedImageHash": "5b242742b12156c4804ba232c8c5fb5737d5d920",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 2,
+          "nodeId": "106:473",
+          "imageHash": "9c5a2e498dac5836d48adf51db51eda695a36551",
+          "expectedImageHash": "9c5a2e498dac5836d48adf51db51eda695a36551",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 3,
+          "nodeId": "106:478",
+          "imageHash": "a70dc712cda9151f95ebc3e55d68b3f2fb48f14e",
+          "expectedImageHash": "a70dc712cda9151f95ebc3e55d68b3f2fb48f14e",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 4,
+          "nodeId": "106:483",
+          "imageHash": "e799a6c533d824f7bea51dace9bd02761748d2f8",
+          "expectedImageHash": "e799a6c533d824f7bea51dace9bd02761748d2f8",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "index": 5,
+          "nodeId": "106:488",
+          "imageHash": "b088e1c68e3703a607555880d6570911ebda15af",
+          "expectedImageHash": "b088e1c68e3703a607555880d6570911ebda15af",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 191,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "index": 0,
+          "nodeId": "106:500",
+          "imageHash": "8505e7d4a977064d64af180ce07a26776bfff606",
+          "expectedImageHash": "8505e7d4a977064d64af180ce07a26776bfff606",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "index": 1,
+          "nodeId": "106:505",
+          "imageHash": "6275efd3987aceb9e19dd25efc18be0358537418",
+          "expectedImageHash": "6275efd3987aceb9e19dd25efc18be0358537418",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "index": 2,
+          "nodeId": "106:510",
+          "imageHash": "f9378a7afbebf799f3a63656c1a3e4f21badfeac",
+          "expectedImageHash": "f9378a7afbebf799f3a63656c1a3e4f21badfeac",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "index": 3,
+          "nodeId": "106:515",
+          "imageHash": "b4389209be4c984c11c8dd088b57f20ed60efef2",
+          "expectedImageHash": "b4389209be4c984c11c8dd088b57f20ed60efef2",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:entra-on-demand",
+          "index": 0,
+          "nodeId": "106:551",
+          "imageHash": "48b046139c17bcbe23ae6fed6d2ab9ab09f62e88",
+          "expectedImageHash": "48b046139c17bcbe23ae6fed6d2ab9ab09f62e88",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 149,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:entra-on-demand",
+          "index": 1,
+          "nodeId": "106:556",
+          "imageHash": "cb29bdcf6b72a4481ecaf324943941deb71bc868",
+          "expectedImageHash": "cb29bdcf6b72a4481ecaf324943941deb71bc868",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 149,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "refero:4649",
+          "index": 1,
+          "nodeId": "107:482",
+          "imageHash": "06788bcb1b6e369afc7e79975afe19b96e7f3bc4",
+          "expectedImageHash": "06788bcb1b6e369afc7e79975afe19b96e7f3bc4",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 157,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "refero:4649",
+          "index": 2,
+          "nodeId": "107:487",
+          "imageHash": "14eac58ff4562cf71c93f2d2206f58458366c6fe",
+          "expectedImageHash": "14eac58ff4562cf71c93f2d2206f58458366c6fe",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 157,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "refero:4649",
+          "index": 3,
+          "nodeId": "107:492",
+          "imageHash": "2c211cb99a0efbc34db2e6cfb54b766c3442b1f6",
+          "expectedImageHash": "2c211cb99a0efbc34db2e6cfb54b766c3442b1f6",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 157,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "refero:4649",
+          "index": 4,
+          "nodeId": "107:497",
+          "imageHash": "541d35dae6a8c2ec7a9b417152cc16d2d6260f1a",
+          "expectedImageHash": "541d35dae6a8c2ec7a9b417152cc16d2d6260f1a",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 157,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "index": 0,
+          "nodeId": "107:509",
+          "imageHash": "d5561b45b7b90df427f06dd6ae348f9705c1f941",
+          "expectedImageHash": "d5561b45b7b90df427f06dd6ae348f9705c1f941",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "index": 1,
+          "nodeId": "107:514",
+          "imageHash": "7e75949189a3aa67b1187f9efc5e09cb5aead96e",
+          "expectedImageHash": "7e75949189a3aa67b1187f9efc5e09cb5aead96e",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "index": 2,
+          "nodeId": "107:519",
+          "imageHash": "b6cca6577d2ef5f2657be3d8a3af436797c8cc15",
+          "expectedImageHash": "b6cca6577d2ef5f2657be3d8a3af436797c8cc15",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "index": 3,
+          "nodeId": "107:524",
+          "imageHash": "aa5add917c42f584625844b903b9db53b57a58d2",
+          "expectedImageHash": "aa5add917c42f584625844b903b9db53b57a58d2",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:atlassian-jit",
+          "index": 0,
+          "nodeId": "107:544",
+          "imageHash": "fa8047e2f59a7012ed76afeb01b58facd4f5afa0",
+          "expectedImageHash": "fa8047e2f59a7012ed76afeb01b58facd4f5afa0",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 78,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:atlassian-jit",
+          "index": 1,
+          "nodeId": "107:549",
+          "imageHash": "eb8e14d34d866e09219313be55cfa6c3fbcea2ad",
+          "expectedImageHash": "eb8e14d34d866e09219313be55cfa6c3fbcea2ad",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 155,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:github-linking",
+          "index": 0,
+          "nodeId": "107:561",
+          "imageHash": "3494945864873f5d0aa6d12a11610552c6e218de",
+          "expectedImageHash": "3494945864873f5d0aa6d12a11610552c6e218de",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 393,
+          "residentVerified": true
+        }
+      ],
+      "references": [
+        {
+          "id": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:entra-ldap",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:okta-ad-scope",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:google-simulation",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:entra-on-demand",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "refero:4649",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:entra-matching",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:atlassian-jit",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:github-linking",
+          "hasAnnotation": true,
+          "hasSource": true
+        }
+      ],
+      "issues": [],
+      "residentCheck": {
+        "uniqueHashes": 29,
+        "positiveDimensions": 29,
+        "errors": []
+      },
+      "structuralPassed": true,
+      "visualVerificationRequired": true
+    },
+    "visual": {
+      "sectionNodeIds": [
+        "100:413",
+        "105:418"
+      ],
+      "closeupNodeIds": [
+        "106:556",
+        "107:524"
+      ],
+      "actualObservedContent": {
+        "100:413": "Q1 section renders 'Q1 — How does university IT connect and scope institutional identity?' with synthesis + open-questions paragraphs, then 9 reference rows. Each row = blue sticky (left), grey actor/evidence/limitation text column, title + source-type line, image strip, step captions, provenance line. Real pixels visible in all image slots: Zendesk SAML config page (single light UI screenshot), Calendly provisioning screen, 4 Okta-like light admin screenshots (Remote row), 6 GitHub screenshots incl. an illustration-style onboarding graphic and dark banner in the last frame, 4 WorkOS directory-attribute screens (3rd frame is a dark/dimmed modal-overlay screenshot, visibly darker than siblings but genuine content, not a placeholder), and 2 Microsoft Entra light admin screenshots in the final entra-on-demand row. Three documentation rows (Entra LDAP, Okta AD scope, Google Cloud Directory Sync) are text-only with explicit 'Documentation evidence — no product screenshot.' and carry no image frames, matching their absence from the 29-image manifest. Captions sit below each image with clear vertical gaps; no image/text overlap and no image/image overlap observed. Thumbnails within a row are uniform width and aligned on a common baseline.",
+        "105:418": "Q2 section renders 'Q2 — How do existing university users arrive and link to the right account?' with synthesis + open questions, then 5 reference rows. Riverside row: 4 dark-themed refero screens (marketing/login page, SSO work-email entry, email entered, 'SSO email not recognized' error) with caption noting 4 of 5 steps selected. incident.io row: 4 dark screens (login options + SAML email entry, email entered, 'SAML login failed; retry or administrator guidance', then a light application-home dashboard). Entra matching row: text-only documentation, no image. Atlassian JIT row: 2 light Atlassian documentation illustrations of differing heights (78px-tall wide banner and a taller 155px panel) sitting side by side, top-aligned, captions below each, no overlap. GitHub row: single tall portrait screenshot of the @octocat people-summary sidebar with an orange-outlined 'SAML identity linked' row clearly legible. All image slots contain real rendered pixels; no grey/empty placeholders, no clipped captions.",
+        "106:556": "Rendered at native 280x149. Microsoft Entra admin-center UI: dark-blue top nav bar; left pane titled like 'Provision on demand' containing a radio/selection control and a stacked list of expandable steps each with a green success check icon; right pane is a two-column results table ('Modified attributes' / source-and-target rows) with a small user avatar row; two action buttons (one filled blue, one outlined) bottom-left. Content is consistent with the labelled 'successful on-demand provisioning of a user' documentation illustration. Image fills the frame edge to edge with correct proportions — no letterboxing, no stretching, no cropping of the UI chrome.",
+        "107:524": "Rendered at native 280x190. incident.io dark-theme 'Home' dashboard: dark left sidebar with ~10 nav items and workspace header; main area headed 'Home' with a dark 'Declare incident' button top-right; 'Active incidents' board with columns labelled Investigating (red-dot card, 'Reports of app-page crash', with an 'Investigating' pill), Monitoring ('Elevated page-splitting errors available' card), and empty columns Triage and Fixing; below, an 'Active escalations' panel showing an empty state 'No active escalations'. Bottom strip shows the incident.io wordmark on the left and 'curated by Mobbin' on the right. This is the post-authentication product home screen, matching its 'Step 4 of 4 · Application home' caption. Fills frame edge to edge, correct proportions, no overlap."
+      },
+      "passed": true,
+      "limitations": [
+        "get_screenshot does not upscale: 106:556 and 107:524 returned at their native node size (280x149 and 280x190), so requested 'readable scale' was not achievable — small body text, table cell values and exact button labels inside those two illustrations are not legible; identification of their content is from layout, colour and iconography, not from reading their text.",
+        "For 106:556 the per-step green check marks are visible but the specific success wording could not be read, so 'success' semantics are inferred from the visible green check icons and populated results table rather than confirmed textually.",
+        "Section screenshots 100:413 (786x1400 from 2456x4439) and 105:418 (1075x1400 from 2300x3020) were downscaled ~3x and ~2x, so within-thumbnail detail is coarse; overlap, alignment, proportion and presence/absence of pixels are reliable at this scale, but fine intra-image artefacts (banding, slight edge crop of a few pixels) could be missed.",
+        "The 3rd WorkOS thumbnail (106:515 row, mobbin:b7696e33) appears markedly darker/flatter than its siblings. At the available resolution this reads as a genuine dimmed-modal source screenshot rather than a failed fill, and its hash matches and resident check passed, but this was not confirmed by a dedicated closeup (no closeup was requested for it).",
+        "Visual check covers only Q1 (100:413) and Q2 (105:418); the four remaining sections were intentionally not inspected and remain empty.",
+        "Structural verification is limited to the 29 manifest images and 14 references; this does not constitute global board completion."
+      ],
+      "countCorrection": {
+        "Q1": 9,
+        "Q2": 5,
+        "total": 14,
+        "basis": "Exact returned referenceRecords and native inspection. Initial visual prose incorrectly said ten Q1 rows; corrected to nine."
+      }
+    }
+  }
+}

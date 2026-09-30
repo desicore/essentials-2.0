@@ -1,0 +1,36 @@
+{
+  "product": "whereby",
+  "flows": {
+    "mobbin:9649cfdc-dbbd-4c86-8a2d-9cdd25395064": {
+      "summary": "User lands on Get started (plan minutes remaining), then opens Insights → Rooms to search rooms and see last active, participant minutes, and session counts.",
+      "steps": [
+        "Get started — Free plan 2000 participant minutes + create room CTAs",
+        "Insights Rooms — searchable table: name, Last active, PM used, Sessions"
+      ],
+      "steal": [
+        "Sidebar/plan chip shows remaining participant minutes as always-visible utilisation budget (steps 0–1).",
+        "Rooms list KPIs: Last active + PM used + Sessions per room (step 1).",
+        "Inline definition via PM tooltip affordance on column header (step 1)."
+      ],
+      "avoid": [
+        "Flow opens on onboarding Welcome before Insights (step 0) — don’t bury utilisation behind a get-started hub."
+      ],
+      "fit": "Direct analog for sim-room utilisation: room list → minutes/sessions; extends Essentials toward calendar-generated room-hour KPIs."
+    },
+    "mobbin:df187e39-3913-4484-8e5e-6af9a2f548c7": {
+      "summary": "User opens Insights Rooms, reveals PM = Participant Minutes tooltip, then drills into Room details with overview cards and per-session PM log.",
+      "steps": [
+        "Insights Rooms list — room row with PM used / Sessions",
+        "PM tooltip — Participant Minutes = sum of participant time",
+        "Room details — Sessions / Unique participants / PM used + session table"
+      ],
+      "steal": [
+        "Explicit PM definition tooltip before/while reading the metric (step 1).",
+        "Room details: three overview KPIs then session rows with Duration, Participants, PM used (step 2).",
+        "Back to Rooms breadcrumb + copyable room name (step 2)."
+      ],
+      "avoid": [],
+      "fit": "Best first-cut pattern for room utilisation drill-down: list → defined minute unit → session ledger; no report builder."
+    }
+  }
+}

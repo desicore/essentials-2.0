@@ -1,0 +1,8 @@
+{
+  "imgs": 103,
+  "brokenNonData": 0,
+  "dataComplete": 0,
+  "jobChips": [],
+  "hasSearch": true,
+  "cov": "Coverage: jobs × products\n\nEach ● is one flow; click to jump. Red job = no flow yet.\n\nProduct\tAutomatic weekly/monthly reports\n5 flows\n\tCompare performance by learner / group / semester / course / faculty\n5 flows\n\tAI evaluation (formative / summative)\n5 flows\n\tAggregate simulation / resource data (KPIs)\n5 flows\n\tEasy sharing of reports\n5 flows\n\nMix"
+}

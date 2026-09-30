@@ -1,0 +1,267 @@
+{
+  "module": "10-dashboard",
+  "title": "Dashboard: ideas from other products",
+  "intro": "This page looks at how other products build the first screen after login. That home must answer, for each role, what is happening, what needs me, and whether everything is working, then get people into the right module in one click. It covers role-based homes, today's agenda, center and room overview, system health, a few precise headline numbers and action items. It also covers customizable widgets (small boxes people can add to their home), module navigation, and the first-run setup guide. The full live room wall sits in Recording, the calendar in Scheduling, and full reports in Reports. Sources: the design reference libraries Mobbin and Refero, researched on 30 September 2026. All flows shown are from Mobbin, because Refero's image server refused every screenshot.",
+  "baseline": "Today's LearningSpace Essentials dashboard is a set of module tiles (Recording, Video Review, Reports, Scenario management, Calendar) plus a Center Overview of rooms and their calendar activity. The team itself calls it weak. The LearningSpace Enterprise facelift (mid-2026) was an accessibility and visual cleanup. It was redrawn, not rewritten: modules in their own row, a raised Upcoming tab, a Your Activities tab, buttons instead of links, and layouts that work on iPad and phone. A role-specific widget layer was deferred to phase 2. Essentials 2.0 aims for a central dashboard. It should combine learner feedback, faculty grading and reports, a system-health status fed by the automatic per-room device check, and a fast multi-room center overview. The rule is that a good dashboard shows little, but precisely. Whether to build it new or facelift the existing one is still open.",
+  "targets": {
+    "products": [
+      8,
+      12
+    ],
+    "flows": [
+      18,
+      25
+    ]
+  },
+  "jobs": [
+    {
+      "id": "role-home",
+      "title": "Role-based home",
+      "description": "Different first screens per role (admin versus faculty versus tech versus learner), switching roles or views, and what is hidden versus shown per role."
+    },
+    {
+      "id": "today",
+      "title": "Today and upcoming",
+      "description": "Today's agenda (sessions by time and room), what is up next, countdowns, and jumping straight into the session action (start recording, open checklist, open debrief)."
+    },
+    {
+      "id": "center-overview",
+      "title": "Center overview and room status",
+      "description": "A compact multi-room status on the home (free, in use, recording, or problem), with a way to open one room. The full live wall belongs to Recording."
+    },
+    {
+      "id": "system-health",
+      "title": "System health at a glance",
+      "description": "An all-systems-OK view versus warning versus failing, the last self-test result, what is broken, and the guided path to fix it or who to call."
+    },
+    {
+      "id": "kpis",
+      "title": "A few precise headline numbers",
+      "description": "A handful of metrics (utilisation, sessions run, recordings, learner contact hours), trend versus last period, and a click-through to the full report."
+    },
+    {
+      "id": "action-items",
+      "title": "Action items and notifications",
+      "description": "What needs me: pending grading, checklists to review, recordings to share, setup tasks, and approvals. Inbox versus cards, with dismiss, snooze, and done."
+    },
+    {
+      "id": "widgets",
+      "title": "Customizable widgets",
+      "description": "Add, remove, reorder, and resize widgets, a widget library, defaults per role, and reset to default. Also includes clutter examples to avoid."
+    },
+    {
+      "id": "navigation",
+      "title": "Module navigation and quick actions",
+      "description": "How the home exposes modules (tiles versus sidebar versus a search box that runs commands (command palette)), global search, quick-create ('new session', 'new scenario'), and recents or favourites."
+    },
+    {
+      "id": "first-run",
+      "title": "Empty screen and setup guide",
+      "description": "A brand-new center: setup checklist (rooms, cameras, users, first course), progress, sample data, and 'what's new' announcements for existing users."
+    }
+  ],
+  "products": [
+    {
+      "id": "fresha",
+      "name": "Fresha",
+      "analog": "direct",
+      "why": "Fresha is the closest match to a sim coordinator's day. Its home shows two sales headline numbers and a 7-day trend above today's next appointments (time, status, staff). It also has a day grid with one column per staff member and a line marking the current time, which could work with one column per room. Its agenda rows show status only, with no Start action.",
+      "flows": [
+        "mobbin:3c0845a8-624f-4a47-ad80-e57ab4bb1531",
+        "mobbin:7df9c1e2-cfd5-4c9f-84eb-718683ff8ed3"
+      ]
+    },
+    {
+      "id": "better-stack",
+      "name": "Better Stack",
+      "analog": "adjacent",
+      "why": "Better Stack shows the failing case properly. The home leads with an Ongoing incident and a sidebar count, then Escalate (naming who was paged), Acknowledge (recording who owns it), and Resolve with a timeline. It shows no 'all OK' summary at all.",
+      "flows": [
+        "mobbin:fc2ba92b-4783-43da-92c7-8acf4f16a080",
+        "mobbin:ed948f6a-ac7b-4742-add9-fafc58fda138"
+      ]
+    },
+    {
+      "id": "google-home",
+      "name": "Google Home",
+      "analog": "wildcard",
+      "why": "Google Home groups devices under room headers and shows Offline on the tile itself, so a problem room is visible without opening it. Its fix path is a generic help list plus Contact us, which is the weak version to improve on.",
+      "flows": [
+        "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4",
+        "mobbin:b173bbc8-5ec9-487b-9837-c0b19fc34805"
+      ]
+    },
+    {
+      "id": "patreon",
+      "name": "Patreon",
+      "analog": "adjacent",
+      "why": "Patreon is the clearest role variant. The identity switcher keeps the current role in the sidebar footer. Switching rebuilds the home and cuts the sidebar from ten management modules with Create to five discovery items without it. The creator home keeps one headline number with a Go to Insights link.",
+      "flows": [
+        "mobbin:63dda702-ffb9-4b29-a69e-a58be8bf9ad9"
+      ]
+    },
+    {
+      "id": "aboard",
+      "name": "Aboard",
+      "analog": "adjacent",
+      "why": "Aboard shows an admin home (quick-create buttons, an approvals box with '1 unhandled') and an employee home (first-time setup banner, personal task and profile labels) in one product. The switch is a one-way link with no role label on the far side.",
+      "flows": [
+        "mobbin:6ec8698e-d2a3-4d6f-a711-3e4025e51a71"
+      ]
+    },
+    {
+      "id": "square",
+      "name": "Square",
+      "analog": "adjacent",
+      "why": "Square shows both sides of 'little but precise'. A lean Key Metrics row compares each number with the previous period (N/A when there is no history), for one location or date range. A fuller Performance home tips into clutter.",
+      "flows": [
+        "mobbin:c0741e77-ac72-4f67-9b29-7a673ae0b0a3",
+        "mobbin:066793dc-d7b2-44ca-ab1b-7e67da3dbe78"
+      ]
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "analog": "adjacent",
+      "why": "Shopify makes the setup guide the home (N of M, one expanded task with its own main button). The guide stays as a side panel while you do the task in the module, offers sample data, and leaves with Dismiss guide and 'All caught up'.",
+      "flows": [
+        "mobbin:b7d28210-31a2-48c6-92fc-604379301745",
+        "mobbin:2513bddc-2b15-4e3e-8ba3-39b637ccc85a"
+      ]
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "analog": "adjacent",
+      "why": "Linear makes inbox actions explicit. Done, Snooze, Mark all as read, and Delete all are separate. The badge counts unread only, and snoozed items stay visible after the unread count hits zero.",
+      "flows": [
+        "mobbin:2ee08fdf-b415-43f3-8a8b-6d36107b5c6f",
+        "mobbin:d1d517cc-d7ac-4789-aba4-fff323093036"
+      ]
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "analog": "adjacent",
+      "why": "Notion uses a calm fixed home instead of tiles. It shows recents, Upcoming events grouped by day above My tasks with checkboxes, honest empty sections, and a sidebar with Home, Search, Inbox and New. First-run is a live checklist page, not a pop-up tour.",
+      "flows": [
+        "mobbin:cb1f904a-8674-4b22-8793-bd431804a75b",
+        "mobbin:0a0113c1-6c8a-4764-a2b7-938abaceef53",
+        "mobbin:2abedcd0-4648-4c73-be51-6dd1763ed125"
+      ]
+    },
+    {
+      "id": "rivian",
+      "name": "Rivian",
+      "analog": "wildcard",
+      "why": "Rivian's home is dominated by one status (battery %) with one main action pair under it (Lock/Unlock). Smaller status widgets sit below with one-tap actions, and a coloured Updates card is the only action item.",
+      "flows": [
+        "mobbin:7b9d5db3-24d8-49ae-827e-218db2b446dc"
+      ]
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "analog": "adjacent",
+      "why": "Jira shows the full widget machinery leadership asks for. That includes a library of 31 gadgets (Jira's name for widgets), per-dashboard viewers and editors, and per-gadget controls. Its useful part is an admin-set Default dashboard that 'affects all users', plus layout presets and an Assigned to Me card.",
+      "flows": [
+        "mobbin:58df3be1-dd99-487a-83db-b759ced6120e",
+        "mobbin:e8c931f2-dc00-4c3f-9b4f-50b11564ab9e"
+      ]
+    },
+    {
+      "id": "google-analytics",
+      "name": "Google Analytics",
+      "analog": "adjacent",
+      "why": "Google Analytics is what not to copy. Its home is equal-weight headline-number tabs, realtime and suggested-metric cards, each with its own controls, and no single answer about where to look first or what 'OK' means.",
+      "flows": [
+        "mobbin:2fb6db4b-a04d-4ffe-b7a5-6ebb219da761"
+      ]
+    }
+  ],
+  "synthesis": {
+    "patterns": [
+      {
+        "title": "Health is shown on the list; the fix has an owner",
+        "body": "Google Home puts Offline on the room's device tile, so a problem is visible without opening it. Better Stack goes further: the home leads with the Ongoing incident and a sidebar count. Escalate names who was paged, Acknowledge records an owner, and Resolve closes it with a timeline. Google Home's fix path is only a help-article list plus Contact us. For Essentials, a failed room self-test should appear on the room in the overview. It becomes an owned item for the sim tech, who acknowledges, resolves, or escalates, then hands off to Recording for the device check.",
+        "flows": [
+          "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4",
+          "mobbin:fc2ba92b-4783-43da-92c7-8acf4f16a080",
+          "mobbin:b173bbc8-5ec9-487b-9837-c0b19fc34805"
+        ]
+      },
+      {
+        "title": "One dominant status, one main action",
+        "body": "Rivian's home is dominated by one number with one action pair under it, and everything else is smaller. Google Analytics is the opposite: many equal cards, each with its own controls, and no single answer. The dashboard's first line should be one verdict ('All rooms ready' or '2 rooms need attention') with one action, not a row of equally weighted widgets.",
+        "flows": [
+          "mobbin:7b9d5db3-24d8-49ae-827e-218db2b446dc",
+          "mobbin:2fb6db4b-a04d-4ffe-b7a5-6ebb219da761"
+        ]
+      },
+      {
+        "title": "A few headline numbers compared with the previous period; the detail lives in Reports",
+        "body": "Square's lean home shows five metrics under one location or date scope, with Reports in the sidebar. Each metric has a 'vs prior weekday' label that says N/A when there is no history. Fresha pairs two sales numbers with a 7-day trend. Patreon keeps one headline number with 'Go to Insights'. Square's own fuller home (nine metrics, banking promos, a near-empty chart) shows where it tips over. Three or four center headline numbers, each with the change since the last period and a link to Reports, is the most the evidence supports.",
+        "flows": [
+          "mobbin:c0741e77-ac72-4f67-9b29-7a673ae0b0a3",
+          "mobbin:3c0845a8-624f-4a47-ad80-e57ab4bb1531",
+          "mobbin:63dda702-ffb9-4b29-a69e-a58be8bf9ad9",
+          "mobbin:066793dc-d7b2-44ca-ab1b-7e67da3dbe78"
+        ]
+      },
+      {
+        "title": "Role homes are different jobs, and the current role is always named",
+        "body": "Patreon's switch rebuilds the whole home. The creator sidebar has management modules and Create. The member sidebar has five discovery items and no Create. The active role stays in the sidebar footer with a checkmark in the switcher. Aboard's admin home carries quick-create and approvals while the employee home carries personal first-time setup. Its switch is a one-way link with no role label afterwards. Coordinator, faculty, and learner homes should differ in content, not just hide menu items, and always show which role you are in.",
+        "flows": [
+          "mobbin:63dda702-ffb9-4b29-a69e-a58be8bf9ad9",
+          "mobbin:6ec8698e-d2a3-4d6f-a711-3e4025e51a71"
+        ]
+      },
+      {
+        "title": "Today is a short list by time, above the tasks",
+        "body": "Fresha lists today's next appointments with time, status (Booked/Started), staff, and duration. Notion groups Upcoming by day above My tasks, so the agenda and the to-dos share one scroll without a full calendar. Fresha's day grid has one column per staff member and a line marking the current time, which maps to one column per room. Neither puts the item's action on the row: Fresha shows status only, so 'Start recording' or 'Open debrief' on the agenda item has no reference here.",
+        "flows": [
+          "mobbin:3c0845a8-624f-4a47-ad80-e57ab4bb1531",
+          "mobbin:cb1f904a-8674-4b22-8793-bd431804a75b",
+          "mobbin:7df9c1e2-cfd5-4c9f-84eb-718683ff8ed3"
+        ]
+      },
+      {
+        "title": "Action items: done, snooze, and read are different, and the count is precise",
+        "body": "Linear separates Done, Snooze, Mark all as read, and Delete all, counts unread only, and keeps snoozed items listed after the unread count reaches zero. Shopify and Aboard show countable work as one card ('2 orders to fulfill', '1 unhandled' time-off request) rather than a feed. Pending grading, recordings to share, and checklists to review fit this model, and each item opens Debrief, Recording, or Courses directly.",
+        "flows": [
+          "mobbin:2ee08fdf-b415-43f3-8a8b-6d36107b5c6f",
+          "mobbin:d1d517cc-d7ac-4789-aba4-fff323093036",
+          "mobbin:b7d28210-31a2-48c6-92fc-604379301745",
+          "mobbin:6ec8698e-d2a3-4d6f-a711-3e4025e51a71"
+        ]
+      },
+      {
+        "title": "The setup guide lives on the home, follows you into the module, then leaves",
+        "body": "Shopify's guide is the home for a new store (N of M, one expanded task with its own button). It stays as a panel on the right while you do the task in the product editor, offers a sample product, and leaves via Dismiss guide and 'All caught up'. Fresha keeps setup progress in the header instead of taking the page. Better Stack shows the cost of not leaving: its checklist takes half the home while an incident is ongoing. A new center's checklist (rooms, cameras, users, first course) should hand off into Inventory, User management, and Courses, then get out of the way.",
+        "flows": [
+          "mobbin:b7d28210-31a2-48c6-92fc-604379301745",
+          "mobbin:2513bddc-2b15-4e3e-8ba3-39b637ccc85a",
+          "mobbin:7df9c1e2-cfd5-4c9f-84eb-718683ff8ed3",
+          "mobbin:ed948f6a-ac7b-4742-add9-fafc58fda138"
+        ]
+      },
+      {
+        "title": "Admin-set defaults beat end-user widget building",
+        "body": "Jira's most useful piece is the Default dashboard that 'affects all users', with five layout presets. Its 31-gadget library, per-dashboard viewers and editors, and per-gadget controls are too much for non-technical faculty. Google Home keeps customisation to Reorder and Edit on Favourites. For the phase-2 widget layer, this points to per-role defaults set by the coordinator plus light show/hide or reorder, not a library.",
+        "flows": [
+          "mobbin:58df3be1-dd99-487a-83db-b759ced6120e",
+          "mobbin:e8c931f2-dc00-4c3f-9b4f-50b11564ab9e",
+          "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4"
+        ]
+      }
+    ],
+    "open_questions": [
+      "No product puts the item's action on the today row. Fresha's agenda shows status only. So 'Start recording', 'Open checklist', or 'Open debrief' from the session row has to be designed without a reference. The same goes for linking the two signals: what does the today row show when that session's room has failed its self-test?",
+      "Multi-room overview is still a gap. The nearest evidence is Google Home's room-grouped device tiles, Fresha's staff columns, and Square's locations table. No flow shows a free / in use / recording / problem strip for rooms. Security and room-booking apps (UniFi, Verkada, Robin, Skedda) returned nothing usable again. Refero was unusable because its image server blocked every screenshot.",
+      "What does 'all OK' look like? Better Stack shows health only through the presence of incidents. Rivian shows one metric. Should the dashboard show a green verdict with the last self-test time, or nothing until something fails? And who owns a failing room: is there a sim tech on duty to acknowledge it, as in Better Stack?",
+      "Role switching versus a merged home. Patreon switches identities. Aboard jumps one way to an employee portal. In a sim center one person is often both coordinator and faculty. Is that a switcher, or one home with both sets of sections? And does the learner need a dashboard at all, or only Patreon's member-style lightweight page with their own recordings and feedback?",
+      "Build new versus facelift. The sections with the strongest evidence (a today list fed by Scheduling, health on the rooms, an inbox with done/snooze, a first-run guide) are data-driven and new. The existing module tiles map to a short sidebar (Patreon, Notion). Can the LearningSpace Enterprise facelift shell host these sections, or is the tile row itself what has to go?",
+      "Multi-campus is only a pointer. Square's location filter and Google Home's home switcher switch one scope at a time and say nothing about access across separate LearningSpace instances."
+    ]
+  }
+}

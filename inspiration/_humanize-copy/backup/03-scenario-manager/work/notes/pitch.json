@@ -1,0 +1,48 @@
+{
+  "product": "pitch",
+  "flows": {
+    "refero:593": {
+      "summary": "In Manage library → Templates (empty), the user names a new template, chooses Build a branded template, sets colors/fonts with live previews, edits the template canvas under a draft banner, confirms Publish vs Keep draft, then sees Draft cards back in the library.",
+      "steps": [
+        "Templates library empty state",
+        "New template modal — name + two paths",
+        "New template modal — name №1 filled",
+        "Branded template — colors/fonts + Choose slides",
+        "Accent color picker open",
+        "Accent color adjusted",
+        "Headline font dropdown + Upload font",
+        "Template editor — You are editing a template",
+        "Publish this template? Keep draft / Publish",
+        "Library grid — Draft badges"
+      ],
+      "steal": [
+        "Empty state value prop + dual CTA (+ New template header and center) before any templates exist (step 1).",
+        "Name-first modal with Build branded vs Customize from gallery (steps 2–3).",
+        "Live slide-type previews (chart / sample / text) while setting brand colors and Upload font (steps 4–7).",
+        "Persistent 'You are editing a template' banner + Publish this template? Keep draft vs Publish for workspace members (steps 8–9); Draft badge on library cards (step 10)."
+      ],
+      "avoid": [
+        "Full presentation style-builder depth (fonts, chart styles, slide chrome) as the path to a scenario template — clashes with deliberately basic SCE editor (no Maestro-style surface)."
+      ],
+      "fit": "Strong crud pattern for org-library scenarios: blank vs gallery, draft/published, share-on-publish; extend today's SCE without becoming a branded slide product.",
+      "counter_example": false
+    },
+    "mobbin:f0c62f24-6d13-42f6-acb6-f36d7c2a856e": {
+      "summary": "On a selected slide the user opens the Speaker notes side panel, types notes tied to that slide, then closes the panel (notes icon retains a presence indicator).",
+      "steps": [
+        "Slide editor — Research Team selected",
+        "Speaker notes panel — empty placeholder",
+        "Speaker notes panel — text entered",
+        "Panel closed — notes icon with dot"
+      ],
+      "steal": [
+        "Per-slide notes in a side panel while the canvas stays visible (steps 2–3).",
+        "Placeholder Add speaker notes… until content exists (step 2).",
+        "Notes icon badge/dot after close so presence is visible without keeping the panel open (step 4)."
+      ],
+      "avoid": [],
+      "fit": "Lightweight scripts/cue pattern for SP or faculty notes per scenario phase — extends Briefing without a branching Maestro editor; presenter-only notes map to role-specific cue cards.",
+      "counter_example": false
+    }
+  }
+}

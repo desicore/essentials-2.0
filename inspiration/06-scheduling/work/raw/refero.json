@@ -1,0 +1,363 @@
+{
+  "references": [
+    {
+      "id": "refero:9855",
+      "source": "refero",
+      "app": "Acuity Scheduling",
+      "title": "Client Import/Export",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9855",
+      "images": [
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/80d87910-775e-4096-9945-2e81b3212a94_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/ee147665-cadc-418c-b19f-722f87f357e2_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/7fa84e54-d33e-4171-bc52-6f964bb9310b_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/24d74854-b2af-45d3-983e-582d8f6569d4_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/435fcfa5-1a8c-4ebc-8871-64f35411cefb_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/2f510a32-d021-4120-a0de-382d6fedc833_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/388467af-243a-4c87-a516-20541e855048_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "excel-import"
+      ],
+      "take": "CSV import with column mapping, preview, and confirmation before bulk creating records."
+    },
+    {
+      "id": "refero:671",
+      "source": "refero",
+      "app": "Intercom",
+      "title": "CSV User Import",
+      "kind": "flow",
+      "url": "https://refero.design/flows/671",
+      "images": [
+        "https://images.refero.design/screenshots/intercom.com/desktop/638e3125-aac1-4239-bff8-cee3b95bf70b_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/8568eaf3-cef8-4484-a748-1bebf5c41cdf_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/ceecb45c-ce62-4edf-9835-d035b07c6ac2_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/a931fb85-8443-4b02-9c72-7c3915ddb575_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/fb8f81f4-356d-4e9b-a1ee-21783ccf9204_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/c927c903-527b-417e-bb3d-a91ac9e5d98e_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/65867693-c5ca-46f9-8a4e-5d5dd3829c0e_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "excel-import"
+      ],
+      "take": "CSV upload with guided column mapping, optional tags, and result summary showing created/updated counts and errors."
+    },
+    {
+      "id": "refero:9540",
+      "source": "refero",
+      "app": "n8n",
+      "title": "Create and manage data tables",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9540",
+      "images": [
+        "https://images.refero.design/screenshots/n8n.cloud/desktop/bf8e89a2-c454-4aa4-b036-7b9e2e1f5f3b_thumb.jpg",
+        "https://images.refero.design/screenshots/n8n.cloud/desktop/08d48f4d-8fd7-4520-b9f6-28378305d179_thumb.jpg",
+        "https://images.refero.design/screenshots/n8n.cloud/desktop/5425246e-4cce-48ee-84eb-e27f33735e3a_thumb.jpg",
+        "https://images.refero.design/screenshots/n8n.cloud/desktop/7bdb4afa-416e-4013-96b9-bd29c6bfd525_thumb.jpg",
+        "https://images.refero.design/screenshots/n8n.cloud/desktop/53774cdf-20fc-420d-8887-27fdafef7caa_thumb.jpg",
+        "https://images.refero.design/screenshots/n8n.cloud/desktop/fd48f072-50d0-42ab-801e-c9a586795e32_thumb.jpg",
+        "https://images.refero.design/screenshots/n8n.cloud/desktop/2939c28c-6908-405c-a027-9a807e92e82a_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "excel-import"
+      ],
+      "take": "CSV to table conversion with column mapping, preview, and filtering/editing interface for managing imported data."
+    },
+    {
+      "id": "refero:2080",
+      "source": "refero",
+      "app": "ShareWillow",
+      "title": "Bulk CSV import for People",
+      "kind": "flow",
+      "url": "https://refero.design/flows/2080",
+      "images": [
+        "https://images.refero.design/screenshots/sharewillow.com/desktop/f0eaec3c-e07c-4eb5-92a9-05217bc3dbc3_thumb.jpg",
+        "https://images.refero.design/screenshots/sharewillow.com/desktop/039cf61c-13b8-4ce3-aabd-a56b6046fa15_thumb.jpg",
+        "https://images.refero.design/screenshots/sharewillow.com/desktop/6d125598-1b9a-4c63-8ae8-3ccd43aa6cb0_thumb.jpg",
+        "https://images.refero.design/screenshots/sharewillow.com/desktop/5b95c544-3b09-4402-bf88-80f2dfde03bf_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "excel-import"
+      ],
+      "take": "CSV bulk import with sample template download, file selection, and success confirmation with roster update."
+    },
+    {
+      "id": "refero:9863",
+      "source": "refero",
+      "app": "Acuity Scheduling",
+      "title": "Google Calendar Integration Setup",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9863",
+      "images": [
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/b0175d78-d1ce-446f-8c38-59591e6983a5_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/8c2074bb-5081-437c-bca2-9930c708c2f5_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/19ed8d2b-c882-4f05-ac2f-3bc74b3df1b9_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "outlook-sync"
+      ],
+      "take": "OAuth connection to Google Calendar, calendar selection, reminder/visibility configuration, and sync confirmation."
+    },
+    {
+      "id": "refero:6310",
+      "source": "refero",
+      "app": "time2book",
+      "title": "Create and Publish Class",
+      "kind": "flow",
+      "url": "https://refero.design/flows/6310",
+      "images": [
+        "https://images.refero.design/screenshots/time2book.me/desktop/04fe952a-edbe-4306-91c9-f36c69160f26_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/a9534a71-bcf5-495c-9944-576d9cb2783d_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/14484bc4-c064-42e9-8c7a-82e1dcc37045_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/712dab8e-7797-469b-a9d1-b92964f28821_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/c6b5a0ff-7fbb-44c5-b6d4-a0795a62cfe4_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/105dceef-091b-425b-b4b0-dd97693257b7_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/d8c10b5d-9dff-45a1-9903-256932e6620c_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/b41a85b6-0959-4371-b5fb-e26d01195de6_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "simple-events",
+        "flexi-custom"
+      ],
+      "take": "Create and publish recurring class series with service selection, date/time, and weekly repeat pattern configuration."
+    },
+    {
+      "id": "refero:6311",
+      "source": "refero",
+      "app": "time2book",
+      "title": "Class cancellation from schedule",
+      "kind": "flow",
+      "url": "https://refero.design/flows/6311",
+      "images": [
+        "https://images.refero.design/screenshots/time2book.me/desktop/ac75d744-6952-4a38-b23a-46e7ac3064df_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/d0ef9fce-f694-47ce-ad25-ed749d6e8f80_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/07f4665d-320e-4314-a47f-24b84f06aaeb_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/9fbc6e4c-c670-4b08-9af1-aeef18542978_thumb.jpg",
+        "https://images.refero.design/screenshots/time2book.me/desktop/0e60586c-7dea-4195-8697-b600e2413b09_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "simple-events"
+      ],
+      "take": "Cancel single class occurrence or entire series with confirmation modal and immediate visual feedback on schedule update."
+    },
+    {
+      "id": "refero:11590",
+      "source": "refero",
+      "app": "Sunsama",
+      "title": "Create Weekly Task Recurrence",
+      "kind": "flow",
+      "url": "https://refero.design/flows/11590",
+      "images": [
+        "https://images.refero.design/screenshots/sunsama.com/desktop/907971f1-c0d8-4f7b-bbb5-7ff512e1d333_thumb.jpg",
+        "https://images.refero.design/screenshots/sunsama.com/desktop/06f1dcb0-ef2a-4af8-aede-8bf303269771_thumb.jpg",
+        "https://images.refero.design/screenshots/sunsama.com/desktop/3f941284-5e30-40d7-a924-7ef55ef792b7_thumb.jpg",
+        "https://images.refero.design/screenshots/sunsama.com/desktop/f7670bf4-59df-4652-acbb-2f8f67986494_thumb.jpg",
+        "https://images.refero.design/screenshots/sunsama.com/desktop/a227011d-c865-44ea-b161-0c94d42ac275_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "simple-events"
+      ],
+      "take": "Configure weekly recurring task with day/time selection and pattern confirmation."
+    },
+    {
+      "id": "refero:9972",
+      "source": "refero",
+      "app": "GlossGenius",
+      "title": "Create multi-service appointment",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9972",
+      "images": [
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/d026d1a8-90a9-4a08-841a-957b62b88c74_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/7922b44e-018c-4bbb-bb6d-2baa6a9ed0f1_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/595f4191-a1df-449f-a84f-1427535d8acd_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/7baaaa09-5740-472e-ae7d-30770468d018_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/5ae7fc05-5745-4403-baa4-250861b3fba3_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/f69894c7-af38-480b-ae41-d1cd10ad6cd5_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/52a43372-5825-4d5b-af76-d2c761ff7a5f_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/25f94904-263e-4466-ac20-aa1f0ea0dbf2_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/e19fc623-64f5-49fa-b321-88057ca930be_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/b8b47b1b-2be8-45c5-91e6-c5896fd8696f_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "simple-events",
+        "flexi-custom"
+      ],
+      "take": "Desktop booking from week calendar with client/provider selection, multi-service addition, duration calculation, and confirmation."
+    },
+    {
+      "id": "refero:9975",
+      "source": "refero",
+      "app": "GlossGenius",
+      "title": "Cancel unconfirmed appointment",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9975",
+      "images": [
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/cff5f624-c156-40b6-8ae6-8febdb6d413d_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/ca100d69-11b2-4c20-9739-def7418e933c_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/bb80cdfb-ba28-402f-98a7-77430b7e14ad_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/22fa5b05-cd66-417d-8fb8-9e7b33cbfb2b_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/24da19ad-b394-49ae-803e-a49df188ad06_thumb.jpg",
+        "https://images.refero.design/screenshots/glossgenius.com/desktop/982934ae-ffc2-4592-b89d-5a0bfd164300_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "simple-events"
+      ],
+      "take": "Cancel appointment from week calendar with action menu, confirmation modal, and success toast with optional client notification."
+    },
+    {
+      "id": "refero:1570",
+      "source": "refero",
+      "app": "Airtable",
+      "title": "Adjust Calendar Timescale",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1570",
+      "images": [
+        "https://images.refero.design/screenshots/airtable.com/desktop/6f5c2d27-a797-4ade-83a6-96218966a537_thumb.jpg",
+        "https://images.refero.design/screenshots/airtable.com/desktop/340b2e84-8ea9-4096-8161-5d62d55c9547_thumb.jpg",
+        "https://images.refero.design/screenshots/airtable.com/desktop/bc4abad3-af57-4df5-aa47-a4d90c13a93c_thumb.jpg",
+        "https://images.refero.design/screenshots/airtable.com/desktop/1a6a440f-dda5-4762-a926-44ca3071bf9b_thumb.jpg",
+        "https://images.refero.design/screenshots/airtable.com/desktop/d73a351a-fac8-473c-b8da-26f689e3c8e6_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "new-scheduling"
+      ],
+      "take": "Calendar timescale control with month-to-custom-range conversion and numeric week input with preview update."
+    },
+    {
+      "id": "refero:1928",
+      "source": "refero",
+      "app": "Skiff",
+      "title": "Recurring Event RSVP",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1928",
+      "images": [
+        "https://images.refero.design/screenshots/skiff.com/desktop/07302cab-546b-4dd8-9518-128e6de44b21_thumb.jpg",
+        "https://images.refero.design/screenshots/skiff.com/desktop/3395f03c-ae5d-4549-88e7-1549b3d29ad9_thumb.jpg",
+        "https://images.refero.design/screenshots/skiff.com/desktop/e52be385-3eea-43a0-a043-6ef5a52b69a3_thumb.jpg",
+        "https://images.refero.design/screenshots/skiff.com/desktop/b4f5dca1-d7cd-4bf8-9df2-d6ff5548210d_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "simple-events",
+        "outlook-sync"
+      ],
+      "take": "RSVP to recurring event with modal confirmation for single vs. series scope and updated event state display."
+    },
+    {
+      "id": "refero:1929",
+      "source": "refero",
+      "app": "Skiff",
+      "title": "Edit and delete calendar event",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1929",
+      "images": [
+        "https://images.refero.design/screenshots/skiff.com/desktop/07302cab-546b-4dd8-9518-128e6de44b21_thumb.jpg",
+        "https://images.refero.design/screenshots/skiff.com/desktop/7c29034b-c9e2-4cd3-89a2-4cff9fbca75c_thumb.jpg",
+        "https://images.refero.design/screenshots/skiff.com/desktop/29b7076f-760b-459b-8d1a-9f28bd2f6df9_thumb.jpg",
+        "https://images.refero.design/screenshots/skiff.com/desktop/c7d087f9-d23b-49f1-ad38-33bdfe99d249_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "simple-events"
+      ],
+      "take": "Edit and delete calendar event from week view with side panel management and overflow menu actions."
+    },
+    {
+      "id": "refero:1840",
+      "source": "refero",
+      "app": "Luma",
+      "title": "Sign up, verify phone, complete profile",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1840",
+      "images": [
+        "https://images.refero.design/screenshots/lu.ma/desktop/ecec31ae-2222-4a8c-a38b-a6db63b0738a_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/1d25d23d-419d-4ff8-99f5-c919254bbc44_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/0c9e7db3-ca3a-4b00-b891-d9680eaa291e_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/e1512912-712b-4306-b344-ae56b089507a_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/4495b812-e8df-4943-b9c4-9afed52f8707_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/61409d9e-c794-4e3f-b9ef-e6476948488e_thumb.jpg",
+        "https://images.refero.design/screenshots/lu.ma/desktop/9587bc29-f3ed-487e-a024-1ed5f00169a4_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "outlook-sync"
+      ],
+      "take": "Onboarding with sign-up, phone OTP verification with error handling, and profile completion before event dashboard access."
+    },
+    {
+      "id": "refero:3346",
+      "source": "refero",
+      "app": "SavvyCal",
+      "title": "New account setup and guided onboarding",
+      "kind": "flow",
+      "url": "https://refero.design/flows/3346",
+      "images": [
+        "https://images.refero.design/screenshots/savvycal.com/desktop/82d133de-30aa-4592-a6fe-8fb85cfcdf13_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/cd1a5269-eaed-4b39-a9e9-f8cd7a8e9378_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/274434bc-05be-4c2e-a1c5-757a6e944c2d_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/13e1b675-8399-4fe6-a881-1856e13fc51c_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/408a64b3-376c-4604-9eac-ba8db03a6296_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/d1ca045b-e7f8-4820-a962-8f88786ddb0c_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "outlook-sync",
+        "new-scheduling"
+      ],
+      "take": "Guided multi-step onboarding covering account setup, timezone, usage type, role/goal, calendar/conferencing connections, and working hours."
+    },
+    {
+      "id": "refero:3364",
+      "source": "refero",
+      "app": "SavvyCal",
+      "title": "Create and configure scheduling link",
+      "kind": "flow",
+      "url": "https://refero.design/flows/3364",
+      "images": [
+        "https://images.refero.design/screenshots/savvycal.com/desktop/613a4876-76b6-4f59-b538-5e38396121ce_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/c010283d-0ab9-4ce0-bef3-bf5615fd7ae5_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/952d653b-e2ee-4827-bcd2-b9689cba344b_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/53fdf4df-4ea7-4f58-b5ad-5f25918af781_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/ea468711-3530-4408-9ac3-2dcb09eead12_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "new-scheduling",
+        "simple-events"
+      ],
+      "take": "Scheduling link editor with metadata, timezone, availability settings, booking form, branding, and activation workflow."
+    },
+    {
+      "id": "refero:3371",
+      "source": "refero",
+      "app": "SavvyCal",
+      "title": "Manage scheduled meeting attendees",
+      "kind": "flow",
+      "url": "https://refero.design/flows/3371",
+      "images": [
+        "https://images.refero.design/screenshots/savvycal.com/desktop/f005a83f-3918-4ad4-849f-53d04e732d9b_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/981a23db-fbcd-4626-a9b6-4aeceb54c899_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/d5c2ab2b-c568-449a-8e68-e60c9002d86f_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/a714f344-deb3-4f6b-8ad0-8e1cef6f010d_thumb.jpg",
+        "https://images.refero.design/screenshots/savvycal.com/desktop/2c6e951f-2578-451c-b986-bd76ceb0a345_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "flexi-custom",
+        "outlook-sync"
+      ],
+      "take": "Add external guests to scheduled meeting with name/email modal and attendee list confirmation."
+    }
+  ]
+}

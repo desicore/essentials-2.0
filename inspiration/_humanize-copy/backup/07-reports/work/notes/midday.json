@@ -1,0 +1,25 @@
+{
+  "product": "midday",
+  "flows": {
+    "mobbin:ed6229f6-fa6d-413b-a6da-2edf7bb734ad": {
+      "summary": "User views KPI cards with Current/Previous/Average, opens Revenue ⋮ → Share, creates an expiring public snapshot link, then copies/opens or shares to X/LinkedIn.",
+      "steps": [
+        "Dashboard — Revenue + Burn + Expenses cards; Customize; 3 months",
+        "Same cards with updated totals; card ⋮ affordance visible",
+        "Revenue ⋮ menu — Share",
+        "Share metric modal — snapshot copy + Expires date + Create link",
+        "Link created — URL + open/copy + Expires date + Open in X / LinkedIn"
+      ],
+      "steal": [
+        "Per-metric Share from card ⋮, not whole-app export (step 2).",
+        "Explicit “chart is a snapshot in time” + Expires date before Create link (step 3).",
+        "After create: copy/open URL + visible expiry (step 4).",
+        "Current vs Previous vs Average legend on the shared metric card (steps 0–1)."
+      ],
+      "avoid": [
+        "Social Open in X / LinkedIn on the share modal (step 4) — irrelevant for dean/faculty digests."
+      ],
+      "fit": "Best for time-boxed public dean digest links: per-KPI snapshot URL with expiry; lighter than live filterable shared dashboards."
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{"references": [
+  {
+    "id": "mobbin:65f315e4-072d-473a-8c75-05053aba29d3",
+    "source": "mobbin",
+    "app": "Fabric",
+    "title": "Marking a checklist as done",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/65f315e4-072d-473a-8c75-05053aba29d3",
+    "images": ["https://mobbin.com/api/mcp/short/5jE8RblC", "https://mobbin.com/api/mcp/short/32kBK8km"],
+    "platform": "ios",
+    "jobs": ["checklist"],
+    "take": "Tap to mark a checkbox complete in a note-taking app; visual feedback shows checked state."
+  },
+  {
+    "id": "mobbin:506c72c2-0f03-4813-a628-21e7f3961492",
+    "source": "mobbin",
+    "app": "ClickUp",
+    "title": "Completing a checklist",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/506c72c2-0f03-4813-a628-21e7f3961492",
+    "images": ["https://mobbin.com/api/mcp/short/60bGnPwe", "https://mobbin.com/api/mcp/short/LTCdrLp6"],
+    "platform": "ios",
+    "jobs": ["checklist"],
+    "take": "Tap item to complete a checklist; shows a section header and completion state toggle."
+  },
+  {
+    "id": "mobbin:f5f8b2ea-e859-4a68-ae92-f2f4fd2c41e9",
+    "source": "mobbin",
+    "app": "Citizen",
+    "title": "Uploading a photo",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/f5f8b2ea-e859-4a68-ae92-f2f4fd2c41e9",
+    "images": ["https://mobbin.com/api/mcp/short/NNwnp8wc", "https://mobbin.com/api/mcp/short/B2YK3Ko8", "https://mobbin.com/api/mcp/short/0eCCt4jj", "https://mobbin.com/api/mcp/short/m4QDukka"],
+    "platform": "ios",
+    "jobs": ["checklist"],
+    "take": "Capture photo from camera, select it, and confirm upload for incident/checklist evidence."
+  },
+  {
+    "id": "mobbin:db5350c6-4b50-4b9c-8d98-a334b009db85",
+    "source": "mobbin",
+    "app": "Jomo",
+    "title": "QR pass",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/db5350c6-4b50-4b9c-8d98-a334b009db85",
+    "images": ["https://mobbin.com/api/mcp/short/cLpBrKkq", "https://mobbin.com/api/mcp/short/Uqz1zOhR"],
+    "platform": "ios",
+    "jobs": ["equipment-check"],
+    "take": "Scan or display QR code in a modal; shows 'Scan to unlock' button and exportable pass."
+  },
+  {
+    "id": "mobbin:8e92fa17-8c07-42d8-aab2-961f50adc1c2",
+    "source": "mobbin",
+    "app": "Microsoft Copilot",
+    "title": "Scanning QR and barcode",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/8e92fa17-8c07-42d8-aab2-961f50adc1c2",
+    "images": ["https://mobbin.com/api/mcp/short/76hvXlRk", "https://mobbin.com/api/mcp/short/4Rb9lhY8", "https://mobbin.com/api/mcp/short/6ey221k8"],
+    "platform": "ios",
+    "jobs": ["equipment-check"],
+    "take": "Activate camera with 'Aim at barcode or QR code' overlay, detect code, and resolve to link."
+  },
+  {
+    "id": "mobbin:45d647b3-4be4-443e-876c-2d20ee32cdc3",
+    "source": "mobbin",
+    "app": "Wanderlog",
+    "title": "Adding a checklist",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/45d647b3-4be4-443e-876c-2d20ee32cdc3",
+    "images": ["https://mobbin.com/api/mcp/short/HHVZXzT0", "https://mobbin.com/api/mcp/short/1AX4kbao", "https://mobbin.com/api/mcp/short/PdrbrETz", "https://mobbin.com/api/mcp/short/86lX1Ft4", "https://mobbin.com/api/mcp/short/wldfO8PO", "https://mobbin.com/api/mcp/short/ABjRhpWP", "https://mobbin.com/api/mcp/short/PBpYWw3A", "https://mobbin.com/api/mcp/short/I7kmtM8D"],
+    "platform": "ios",
+    "jobs": ["checklist"],
+    "take": "Add a checklist from templates, expand categories (Essentials, Accessories, Preparation) with checkbox items, tick items off."
+  },
+  {
+    "id": "mobbin:092922b5-f511-429b-adbd-9eece212ce9e",
+    "source": "mobbin",
+    "app": "American Airlines",
+    "title": "Add a special assistance",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/092922b5-f511-429b-adbd-9eece212ce9e",
+    "images": ["https://mobbin.com/api/mcp/short/2CQJi1R5", "https://mobbin.com/api/mcp/short/k3RrARjx", "https://mobbin.com/api/mcp/short/7D0ulCUB", "https://mobbin.com/api/mcp/short/5z0Cawhe"],
+    "platform": "ios",
+    "jobs": ["checklist"],
+    "take": "Multi-select checklist for special assistance: radio buttons and checkboxes (mobility, accessibility needs) with form context."
+  },
+  {
+    "id": "mobbin:23ce165d-078b-4adc-935a-83c4a40cbfb1",
+    "source": "mobbin",
+    "app": "American Airlines",
+    "title": "Ready to fly",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/23ce165d-078b-4adc-935a-83c4a40cbfb1",
+    "images": ["https://mobbin.com/api/mcp/short/reMYarZ6", "https://mobbin.com/api/mcp/short/7saxTKN7", "https://mobbin.com/api/mcp/short/pUHX8vpx", "https://mobbin.com/api/mcp/short/3h7RKMJ9"],
+    "platform": "ios",
+    "jobs": ["checklist"],
+    "take": "Pre-flight readiness checklist with timeline, task cards (boarding pass, bags, TSA, ID), and instructions."
+  },
+  {
+    "id": "mobbin:33e73fe9-15d0-4776-b284-5c8508bb05ad",
+    "source": "mobbin",
+    "app": "monday.com",
+    "title": "Adding a checkbox",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/33e73fe9-15d0-4776-b284-5c8508bb05ad",
+    "images": ["https://mobbin.com/api/mcp/short/UFuVGBNb", "https://mobbin.com/api/mcp/short/INCylJY3"],
+    "platform": "ios",
+    "jobs": ["checklist"],
+    "take": "Toggle checkbox in task item detail view; shows checked and unchecked states."
+  }
+]}

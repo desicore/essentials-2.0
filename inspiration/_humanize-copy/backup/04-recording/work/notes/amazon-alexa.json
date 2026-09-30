@@ -1,0 +1,44 @@
+{
+  "product": "amazon-alexa",
+  "flows": {
+    "mobbin:7db28eda-b3e6-4948-ae78-198c4bc7d466": {
+      "summary": "From Home favorites, the user opens Devices, scans room Groups and a device list, and sees health states ranging from unresponsive to Online/On-Off.",
+      "steps": [
+        "Home — Activity + Favorites status tiles",
+        "Devices — room Groups + Device is unresponsive",
+        "Devices — Off pills + Echo Online",
+        "Devices — On pills + Echo Online"
+      ],
+      "steal": [
+        "Groups carousel by room (Bedroom) above the flat device list (step 2) — jump by place before scanning endpoints.",
+        "Failure state: red dot + 'Device is unresponsive' under the device name (step 2) — health problem is visible without opening the device.",
+        "Binary On/Off pill on controllable endpoints vs Offline/Online text on always-on devices (steps 3–4) — status shape matches device type.",
+        "Map-pin affordance with 'Set up map view…' tip (step 2) — floor-plan glance as an alternate overview."
+      ],
+      "avoid": [
+        "Dashed 'Shop' / Suggested Favorite category cards (steps 1–2) — clutter the health overview with commerce empty-states."
+      ],
+      "fit": "Informs Center Overview / scheduled self-test outside SRV: room-grouped device list with unresponsive vs Online/On-Off — not the Annotation/Transcript right panel."
+    },
+    "mobbin:4a2af2e6-86bb-4af2-a8cf-dc106008e299": {
+      "summary": "From Communication, the user opens Announce, composes via text, voice, or sound presets, sends, and gets a confirmation that the message reached all supported devices.",
+      "steps": [
+        "Communication — Announce entry among Drop In / Call",
+        "Announcement — type or mic + preset chips (Keyboard)",
+        "Announcement — Sounds library with play buttons",
+        "Announcement — typed message + Next arrow",
+        "Success — Announced to all devices + New Announcement"
+      ],
+      "steal": [
+        "Announce vs Drop In as separate top actions (step 1) — one-way broadcast vs live intercom are not the same control.",
+        "Keyboard / Sounds / Popular mode tabs under one compose surface (steps 2–3) — type, voice, or cue without leaving the sheet.",
+        "One-tap preset chips + Add Sounds list with preview play (steps 2–3) — stock cues for common room prompts.",
+        "Post-send confirmation 'Announced to all supported devices' plus New Announcement shortcut (step 5) — prove delivery, then repeat."
+      ],
+      "avoid": [
+        "Implicit 'all supported devices' broadcast with no room vs device picker on these screens (step 5) — Essentials needs explicit room vs simulator (manikin) targets."
+      ],
+      "fit": "Shapes the intercom / announcement panel outside SRV: compose (type/voice/preset) then confirm delivery; add separate room vs simulator targets before send."
+    }
+  }
+}

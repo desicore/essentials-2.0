@@ -1,0 +1,79 @@
+{
+  "product": "clickup",
+  "flows": {
+    "mobbin:9e0d5df7-8fea-4a21-9032-7a84de9d100f": {
+      "summary": "From an open Doc, the user opens the Templates sidebar, chooses Save as Template, fills name/description/tags and Share-with radios, saves, and lands on a success toast with Open in Template Center.",
+      "steps": [
+        "Doc editor: Project Overview open",
+        "Templates sidebar: Save as Template",
+        "Save modal: empty name (validation)",
+        "Name filled: Project Overview Template",
+        "Description field opened",
+        "Description filled",
+        "Tags field empty",
+        "Tag suggestion dropdown",
+        "Tag applied; Share with All members",
+        "Toast: Template created → Template Center"
+      ],
+      "steal": [
+        "Save modal: Share with radios — All members / Only me / Select people / Admins only / Everyone (incl. guests) plus Public sharing off by default.",
+        "Footer shortcut: Update an existing Template vs Save as new in the same modal.",
+        "Required name: Save Template disabled until named; red border on empty field.",
+        "Success toast names the template and links Open in Template Center."
+      ],
+      "avoid": [
+        "Public sharing toggle that creates an external link — too open for clinical scenario IP."
+      ],
+      "fit": "Extends SCE authoring with save-as-template + per-template access (private / people / org) for simpler sharing than today's opaque SCE permissions.",
+      "jobs": ["crud", "access"],
+      "counter_example": false
+    },
+    "mobbin:456a85db-8ced-4de2-b541-c685bca7ec0c": {
+      "summary": "On a task detail, the user creates a checklist, adds items with per-item assignees, sees progress 0/N and a Use Template option, alongside assigned comments and attachments.",
+      "steps": [
+        "Task detail: Create checklist link",
+        "Empty Checklists section + New checklist item",
+        "First item; Add checklist / Use Template",
+        "Item assigned (AS); Checklists 0/1",
+        "Three items assigned; Checklists 0/3"
+      ],
+      "steal": [
+        "Per-item assignee icon on checklist rows (role split: tech vs faculty).",
+        "Section header progress: Checklists 0/N plus 'N for me' filter badge.",
+        "Use Template beside Add checklist — reuse item sets across tasks.",
+        "Inline + New checklist item without leaving the parent record."
+      ],
+      "avoid": [
+        "No scoring, required flags, or rubric weights — too thin for learner evaluation checklists."
+      ],
+      "fit": "Extends the cut-down Case Manager checklist with assignees + reuse templates; still needs scoring/respondent timing for Essentials eval, and does not cover QR-no-login.",
+      "counter_example": false
+    },
+    "mobbin:e17ac016-5f41-4926-bdbc-525e0a847c60": {
+      "summary": "From a space Overview, the user opens Automations, builds a When→Then rule (task created → change assignees + task type), creates it, and manages it Active with a toggle on the Manage tab.",
+      "steps": [
+        "Space Overview: Automations button",
+        "Popover: Active 0 + Add Automation presets",
+        "Builder: When task created → Set Custom Field",
+        "Then action picker (Change assignees…)",
+        "Change assignees + access-skip warning",
+        "Assignee picker: roles + people",
+        "Assignee set; warning still shown",
+        "Second Then: Change Task Type",
+        "Description filled; Create ready",
+        "Manage: Active rule + on/off toggle"
+      ],
+      "steal": [
+        "When→Then visual blocks with natural-language summary sentence under the canvas.",
+        "Inline warning: action skipped if assignee lacks access.",
+        "Dynamic roles in assignee picker (Task creator / Triggered by / Watchers).",
+        "Manage tab: Active/Inactive counts + per-rule on/off toggle after create."
+      ],
+      "avoid": [
+        "Full Browse libraries of integrations and multi-category rule catalogs — heavier than per-scenario defaults (auto-record, prep email, announcements)."
+      ],
+      "fit": "Extends today's scheduling-template auto-record/email/announcements into an explicit When→Then defaults panel per scenario; keep presets narrow, not a general automation product.",
+      "counter_example": false
+    }
+  }
+}

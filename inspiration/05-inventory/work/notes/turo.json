@@ -1,0 +1,52 @@
+{
+  "product": "turo",
+  "flows": {
+    "mobbin:9f1a536c-16bb-424e-a558-0604130c4576": {
+      "summary": "Guest opens 'End trip' with time remaining, documents with photos, reviews host and guest sets, accepts liability on 'Finish checkout', and lands on trip-ended with a timestamp.",
+      "steps": [
+        "End trip panel with time remaining",
+        "Exterior photos intro",
+        "Add photos panel",
+        "Camera capture",
+        "Host and guest photo review",
+        "Save exterior and continue",
+        "Finish checkout with liability",
+        "Trip ended confirmation"
+      ],
+      "steal": [
+        "The pre-return screen shows a countdown ('ends in 2h 30m'), Change trip, Report damage, and End trip that needs a short inspection before checkout (screen 1).",
+        "Photo guidance shows a recommended area count, 'View all exterior areas', a why-it-matters callout, Take photos vs Upload from Photos, and Skip allowed (screens 2–3).",
+        "A shared photo log sections by party (host vs guest) with per-photo timestamps before Continue (screen 5).",
+        "'Finish checkout' requires agreeing the inspection is accurate and you are liable for unreported damage, then Submit shows Trip ended time and notifies the other party (screen 7)."
+      ],
+      "avoid": [
+        "Requiring about 15 exterior plus about 8 interior photos for every sim-equipment return. Scale documentation to high-value assets only."
+      ],
+      "fit": "Inventory: fills the undefined return and damage path for manual check-out: condition photos, evidence from both parties, liability confirm, and an explicit return time before the item is free again.",
+      "jobs": [
+        "check-out-manual"
+      ]
+    },
+    "mobbin:928e0f27-77e0-456e-b079-4914013cb117": {
+      "summary": "From Pickup and return hours, host opens 'Block availability' (empty), sets start and end date-time with calendar and time wheels, and confirms Add for a blocked window.",
+      "steps": [
+        "Pickup hours with Block entry",
+        "Empty blocked hours",
+        "Block form empty range",
+        "Pick start date",
+        "Pick start time",
+        "Pick end date and time"
+      ],
+      "steal": [
+        "When nothing is blocked, 'No hours blocked' and 'Block availability' appear, noting host unavailability is not vehicle unavailability, with 'Go to Calendar' to block the asset itself (screen 2).",
+        "The block form has Start and End date plus time, a month calendar on the form, a 30-minute time drum, and a single Add to commit (screens 3–6).",
+        "Always available and per-weekday Available hours sit beside Block availability for one-off windows (screen 1)."
+      ],
+      "avoid": [],
+      "fit": "Inventory: maps to equipment scheduling and conflict handling: block a manikin or room for maintenance or exclusive use so two scenarios cannot claim the same asset. Keep the job as check-out-manual among current ids.",
+      "jobs": [
+        "check-out-manual"
+      ]
+    }
+  }
+}

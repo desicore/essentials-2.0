@@ -1,0 +1,47 @@
+{
+  "product": "luma",
+  "flows": {
+    "mobbin:74bc6276-56b0-44b9-9a2b-cd8ed27f650f": {
+      "summary": "From the event home, the host opens 'Check In Guests', scans a QR, confirms 'Check In', sees success with 'Undo', then finds the guest on the Guest List.",
+      "steps": [
+        "Event home with 'Check In Guests'",
+        "QR scanner viewfinder",
+        "Scanned guest panel with 'Check In'",
+        "'Check In Successful' while still scanning",
+        "Success panel with 'Undo Check In'",
+        "Scanner ready for next guest",
+        "Guest List: Going and Checked In",
+        "Guest List Invited with no guests"
+      ],
+      "steal": [
+        "'Check In Guests' is the main action on the session home (screen 1), so tagging comes before any recording UI.",
+        "After a scan, a panel shows name, email, Going status and Registered time before 'Check In' (screen 3), so the wrong person is not tagged.",
+        "'Undo Check In' appears right on the success panel (screen 5), so mistakes can be fixed without leaving the scanner.",
+        "A list icon on the scanner (screens 2, 4, 6) falls back to the guest list when QR is not practical."
+      ],
+      "avoid": [
+        "An empty Invited tab with only 'No Guests' (screen 8) adds little for sim rooms, so prefer one expected-versus-present split over reply-style tabs."
+      ],
+      "fit": "Recording: QR check-in outside the SRV can label or trigger recording and feed learner names into transcript and Annotation instead of Speaker #N, without face ID."
+    },
+    "mobbin:cd3469d9-df14-4fa5-8003-021c7055af7e": {
+      "summary": "From the guest list with Going and Checked In counts, the host opens a guest card and taps 'Check In'. They see a success message and can 'Undo' with who checked them in.",
+      "steps": [
+        "Guest list with counts and List|Scan",
+        "Guest card with 'Check In'",
+        "Success message: Checked In Now",
+        "Guest card with Undo and by-whom line"
+      ],
+      "steal": [
+        "Going, Checked In and Not Checked In counts appear on the list (screen 1), so operators see room readiness at a glance.",
+        "A List | Scan switch in the bottom bar (screen 1) keeps the same roster in two input modes without leaving the screen.",
+        "Row badges show relative check-in time such as 'Now' or '19 min ago' (screens 1, 3), so who just arrived is clear.",
+        "An audit line 'Checked In · By Sam Lee' with 'Undo' (screen 4) supports multi-operator accountability and correction."
+      ],
+      "avoid": [
+        "Social bio and referrer details on the guest card (screens 2, 4) are noise for faculty, so keep identity and roster status only."
+      ],
+      "fit": "Recording: a per-room roster with List|Scan check-in replaces ad-hoc name entry, and the Checked In set becomes the participant list on the recording."
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "product": "deputy",
+  "flows": {
+    "mobbin:3ca22a69-3cb8-4993-9cbd-f07f63757800": {
+      "summary": "From a Week-by-Area grid, the manager opens Auto, builds shift structure, runs Build shifts, and lands on EMPTY/OPEN slots with one warning.",
+      "steps": [
+        "Week by Area grid with Open and footer",
+        "Auto menu: hours, structure, fill empty",
+        "Auto Build: lengths, prior schedules, times",
+        "Auto Build progress with trivia text",
+        "Result grid: EMPTY, OPEN, warning"
+      ],
+      "steal": [
+        "The Auto menu splits three jobs: regular hours, build structure, and fill empty (screen 2), so adoption does not need one opaque AI button.",
+        "Auto Build asks for ordered shift lengths, requirements from previous schedules, and a start-at-:00 constraint (screen 3).",
+        "A footer status counts empty, published, open and warnings while generation runs (screens 1, 4 to 5).",
+        "After the build, EMPTY cards, an OPEN label and a red warning triangle mark cells that still need work (screen 5)."
+      ],
+      "avoid": [
+        "Trivia during Auto Build progress (screen 4) wastes coordinator attention; a schedule preview would serve better."
+      ],
+      "fit": "Scheduling: maps to flexi auto-generate of N sessions from prior demand. Keep structure-then-fill plus EMPTY, OPEN and warning labels; extend LearningSpace flexi, not full AI labour planning.",
+      "jobs": [
+        "flexi-custom",
+        "simple-events"
+      ],
+      "counter_example": false
+    },
+    "mobbin:6a3f27e2-9c1c-4dbd-a527-d26366020606": {
+      "summary": "From an empty Week-by-Area grid with a people sidebar and per-cell plus, the manager drafts grey shifts, then publishes them to green cards with an Open shift.",
+      "steps": [
+        "Empty Week by Area with cell plus",
+        "Draft grid: grey shifts, Publish 12",
+        "Published green cards, OPEN, legend"
+      ],
+      "steal": [
+        "Week by Area puts roles or areas on rows and days on columns, and every empty cell has a plus (screens 1 to 3).",
+        "A people sidebar shows Open shifts and each person's hours and cost (screens 1 to 3).",
+        "Draft to Publish is explicit: grey unpublished cards become green published ones (screens 2 to 3).",
+        "A footer legend explains empty, unpublished, published, open, warnings, leave and unavailable (screens 1 to 3)."
+      ],
+      "avoid": [],
+      "fit": "Scheduling: closest room-by-room pattern for Essentials. Areas map to rooms or stations; keep draft/publish and open slots; drop labour-cost if unused.",
+      "jobs": [
+        "new-scheduling",
+        "flexi-custom",
+        "simple-events"
+      ],
+      "counter_example": false
+    },
+    "mobbin:33ce7034-4170-4403-be14-e3b58184ae59": {
+      "summary": "An employee opens Schedule, picks Can't work then Swap shift, selects a teammate's shift with a message, sends it, and sees SWAP/OPEN labels on the grid.",
+      "steps": [
+        "Me calendar with Available Shifts",
+        "Week by Area with OPEN Admin slot",
+        "Shift details for Sam Lee, Can't work",
+        "Can't work: Offer shift or Swap shift",
+        "Swap form: search teammates, Send (0)",
+        "Alex selected with message, Send (1)",
+        "Pop-up: Shift swap request sent",
+        "Grid shows SWAP and OPEN labels"
+      ],
+      "steal": [
+        "Can't work splits Offer versus Swap (screen 4), so staff can open a claim pool or trade with a peer.",
+        "The Swap form shows your shift summary, teammate search, selectable peer shifts, a default message and a Send count (screens 5 to 6).",
+        "After the request, the grid shows LOCKED, OPEN and SWAP labels (screens 7 to 8).",
+        "Me calendar shows who is Scheduled that day with avatars (screen 1)."
+      ],
+      "avoid": [
+        "Allowing Admin and Manager to swap without an eligibility check (screens 5 to 6) would break faculty and learner role limits in sim."
+      ],
+      "fit": "Scheduling: a pattern for learner or faculty self-serve swap with coordinator visibility via a SWAP label; pair with approval before the calendar commits.",
+      "jobs": [
+        "flexi-custom"
+      ],
+      "counter_example": false
+    }
+  }
+}

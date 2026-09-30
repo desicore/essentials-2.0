@@ -1,0 +1,58 @@
+{
+  "imgs": 103,
+  "ok": 103,
+  "bad": 0,
+  "inputs": [
+    {
+      "type": "search",
+      "ph": "Product, flow, idea…",
+      "id": "q"
+    },
+    {
+      "type": "checkbox",
+      "ph": "",
+      "id": "flows-only"
+    },
+    {
+      "type": "checkbox",
+      "ph": "",
+      "id": "starred"
+    },
+    {
+      "type": "checkbox",
+      "ph": "",
+      "id": ""
+    },
+    {
+      "type": "checkbox",
+      "ph": "",
+      "id": ""
+    },
+    {
+      "type": "checkbox",
+      "ph": "",
+      "id": ""
+    },
+    {
+      "type": "checkbox",
+      "ph": "",
+      "id": ""
+    },
+    {
+      "type": "checkbox",
+      "ph": "",
+      "id": ""
+    }
+  ],
+  "toggles": [
+    "<input id=\"flows-only\" type=\"checkbox\">",
+    "<input id=\"starred\" type=\"checkbox\">",
+    "<input type=\"checkbox\" name=\"job\" value=\"scheduled-reports\">",
+    "<input type=\"checkbox\" name=\"job\" value=\"comparison\">",
+    "<input type=\"checkbox\" name=\"job\" value=\"ai-evaluation\">",
+    "<input type=\"checkbox\" name=\"job\" value=\"kpis\">",
+    "<input type=\"checkbox\" name=\"job\" value=\"sharing\">"
+  ],
+  "covClass": "matrix",
+  "covText": "Product\tAutomatic weekly/monthly reports\n5 flows\n\tCompare performance by learner / group / semester / course / faculty\n5 flows\n\tAI evaluation (formative / summative)\n5 flows\n\tAggregate simulation / resource data (KPIs)\n5 flows\n\tEasy sharing of reports\n5 flows\n\nMixpanel\nAdjacent\n\t●\t●●\t\t\t\nAmplitude\nAdjacent\n\t●\t\t\t\t\nLater\nAdjacent\n\t●●\t\t\t\t●\n15Five\nDirect analog\n\t\t●●\t\t\t\nCharma\nDirect analog\n\t\t\t●●●\t\t\nFir"
+}

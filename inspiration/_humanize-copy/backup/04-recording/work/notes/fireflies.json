@@ -1,0 +1,37 @@
+{
+  "product": "fireflies",
+  "flows": {
+    "mobbin:2b3f4914-5fd3-49bc-8f83-32b7fcab62d3": {
+      "summary": "From Home, the user opens Live Notes on a LIVE recording banner, sees AI Notes still writing plus AskFred shortcuts, then works a live Transcript with REC indicator, assist buttons, and AskFred Q&A.",
+      "steps": [
+        "Home \u2014 LIVE banner + Live Notes CTA + Stop",
+        "AI Notes empty \u2014 writing\u2026 + AskFred Catch me up",
+        "Live Assist \u2014 REC, transcript, Suggested Questions / Catch up"
+      ],
+      "steal": [
+        "Global LIVE banner with session title, start time, Live Notes CTA, and Stop (step 1) \u2014 recording state visible outside the player.",
+        "AI Notes empty state: 'writing notes\u2026 points will appear here automatically' (step 2) \u2014 sets expectation while STT waits.",
+        "Catch me up (Last 1 min) + Suggest Questions / Summarize so far / Action items as primary assists (steps 2\u20133) \u2014 faculty re-entry without scrubbing.",
+        "Live transcript with speaker initials, clickable timestamps, Scroll to bottom (step 3) \u2014 SRV Transcript during recording, not only after."
+      ],
+      "avoid": [
+        "Deal-centric AskFred prompts ('Ask anything across your deal') (steps 2\u20133) \u2014 wrong domain framing for clinical sim; keep assists clinical/scenario-scoped."
+      ],
+      "fit": "Would add a live Annotation/Transcript mode to SRV (and a Center Overview LIVE strip) with AI markers filling during the session and Catch-me-up for faculty who stepped away."
+    },
+    "mobbin:f1e15c44-a1fc-4eee-8644-7320cbca554b": {
+      "summary": "In post-meeting review, the user selects a transcript span (highlighted), bookmarks it so a star appears on the timeline, with AI summary/notes linking to the same timestamps.",
+      "steps": [
+        "Review \u2014 AI summary/notes + transcript (selection highlight)",
+        "Bookmarked span \u2014 pink highlight + star on timeline"
+      ],
+      "steal": [
+        "Select-in-transcript to bookmark (step 1\u21922) \u2014 annotation from Transcript tab text, not only from the marker track.",
+        "Star marker on the progress bar aligned to the bookmarked moment (step 2) \u2014 one clear pin, reduces marker collision risk.",
+        "AI Notes bullets with blue jump timestamps (steps 1\u20132) \u2014 summary \u2194 seek like SRV chapters."
+      ],
+      "avoid": [],
+      "fit": "Would extend SRV Transcript: select text \u2192 pin a single timeline star (and Annotation entry) instead of stacking more overlapping speech-bubble markers."
+    }
+  }
+}

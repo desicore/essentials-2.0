@@ -1,0 +1,31 @@
+{
+  "product": "deputy",
+  "flows": {
+    "mobbin:1e4db417-5727-4669-950b-cfb4f457df53": {
+      "summary": "User moves from home Dashboard into Analytics hub, dismisses Welcome, configures Schedule adherence (team member + tolerance), loads variance table, then browses Shift audit, Attendance & absence, Geolocation map, and Diversity & turnover.",
+      "steps": [
+        "Home Dashboard — setup carousel + Needs Attention empty",
+        "Analytics hub — category tiles + Shift Pulse 4/5 + classic Pay Comparison",
+        "Welcome to Analytics — Analyze / View details / schedule-or-export value props",
+        "Schedule adherence — filters + empty “Select value on control to load data”",
+        "Team Member picker open with per-person counts",
+        "Adherence table — Shift vs Timesheet hours/cost; red Hour Difference",
+        "Shift audit — notice-time histogram + detail table",
+        "Attendance & absence — No shows / Late / Early KPI % + weekly lines",
+        "Geolocation map — clock in/out map + last refreshed timestamp",
+        "Diversity & turnover — gender/age/tenure pies + people filters"
+      ],
+      "steal": [
+        "Welcome copy: download spreadsheet, print PDF, or schedule a report to people who need it (step 2) — scheduled digests.",
+        "Tolerance (15 min) control before loading adherence (steps 3–5).",
+        "Shift vs Timesheet side-by-side with red Hour/Cost Difference (step 5).",
+        "Shift Pulse on hub: 4/5 average + sparkline + recent comment (step 1) — formative score + narrative."
+      ],
+      "avoid": [
+        "Sigma-powered “+ Create report” / Make a copy BI catalog (steps 2–9) — clashes with Baseline “no deep report builders in first cut.”"
+      ],
+      "fit": "Steal scheduled delivery + adherence/utilisation comparisons + formative pulse; do not port the embedded BI report library.",
+      "jobs": ["kpis", "comparison", "scheduled-reports"]
+    }
+  }
+}

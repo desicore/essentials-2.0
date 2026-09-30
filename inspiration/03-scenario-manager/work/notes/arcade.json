@@ -1,0 +1,49 @@
+{
+  "product": "arcade",
+  "flows": {
+    "mobbin:9b7b370a-b591-4494-b083-228f11e6f061": {
+      "summary": "From the library, the user picks how to create a demo, fills in a step, sets preview options, then reviews engagement and where viewers drop off at each step.",
+      "steps": [
+        "My Library grid with Create",
+        "How would you like to get started?",
+        "Empty editor: Add from / Capture with",
+        "Step work area with design and details",
+        "Preview: layout, logo, main button, feature switches",
+        "Insights: sample metrics and step funnel",
+        "Insights: main-button clicks hint",
+        "Insights: step drop-off hint"
+      ],
+      "steal": [
+        "The start screen groups the recording options ('Chrome Extension', 'Desktop App') under a Popular label, next to uploading or turning a video into a demo (screen 2).",
+        "An empty step offers two sets of sources: add from your computer, the library or another demo, or capture with the extension, desktop app or Figma (screen 3).",
+        "Edit, Preview and Insights tabs keep editing, the learner's view and completion data in one project (screens 4-8).",
+        "A chart shows how many viewers carry on or drop off at each step ('From Step N: conversion / drop-off %') (screen 8)."
+      ],
+      "avoid": [
+        "Sample data and an Upgrade banner at the end of editing are a warning: completion data for the pre-brief should not sit behind a paywall (screens 6-8)."
+      ],
+      "fit": "Scenario manager: grow today's Briefing tab video into the planned interactive orientation and pre-brief maker, with an outline and clickable spots. The preview switches map to what learners see before a session. Do not copy Arcade's sales-demo insights and buttons wholesale.",
+      "counter_example": false
+    },
+    "mobbin:644ef98c-516f-47e4-97e5-ee9ce4635793": {
+      "summary": "On a demo step, the user edits the text of a clickable callout, generates a voiceover from that text, then reviews the voiceover timeline with 'Edit voiceover'.",
+      "steps": [
+        "Clickable spot settings: text and 'Generate voiceover'",
+        "Voiceover timeline under the work area"
+      ],
+      "steal": [
+        "The written callout text is the only source for 'Generate voiceover', so one script drives both the caption and the audio (screen 1).",
+        "Clickable spots come in three styles (Hotspot, Area, Callout) and can be set to 'Open by default' (screen 1).",
+        "Each clickable spot can jump to another step, chosen from a list (screen 1).",
+        "After generating, a voiceover timeline at the bottom shows the sound wave, the length and 'Edit voiceover' (screen 2)."
+      ],
+      "avoid": [],
+      "fit": "Scenario manager: supports the new interactive orientation maker with narration per step. It is also a pattern for scripts (a written cue, then optional audio) without a Maestro-style stage editor.",
+      "jobs": [
+        "orientation",
+        "scripts"
+      ],
+      "counter_example": false
+    }
+  }
+}

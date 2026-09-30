@@ -1,0 +1,110 @@
+{ "references": [
+  {
+    "id": "mobbin:4359c189-557b-424c-af85-3b1a7b5740bd",
+    "source": "mobbin",
+    "app": "Fresha",
+    "title": "Adding a product",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/4359c189-557b-424c-af85-3b1a7b5740bd",
+    "images": ["https://mobbin.com/api/mcp/short/1BBIAG5g", "https://mobbin.com/api/mcp/short/1ZLseVIn", "https://mobbin.com/api/mcp/short/yThAL3tm", "https://mobbin.com/api/mcp/short/VNhMSe6F", "https://mobbin.com/api/mcp/short/NpSnZBOQ", "https://mobbin.com/api/mcp/short/PyMUroF5", "https://mobbin.com/api/mcp/short/LV6kstaK", "https://mobbin.com/api/mcp/short/IRaCJit6", "https://mobbin.com/api/mcp/short/sHhRPqfn", "https://mobbin.com/api/mcp/short/1opCM30T", "https://mobbin.com/api/mcp/short/3HbPFUBn", "https://mobbin.com/api/mcp/short/C0WnBwEc"],
+    "platform": "web",
+    "jobs": ["items"],
+    "take": "18-step flow shows adding product with photos, barcode, brand, pricing, stock quantity with low-stock threshold, and reorder notification setup."
+  },
+  {
+    "id": "mobbin:bd125cb4-4946-44ee-a252-1e51eddab5ba",
+    "source": "mobbin",
+    "app": "Square",
+    "title": "Creating an item (manually)",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/bd125cb4-4946-44ee-a252-1e51eddab5ba",
+    "images": ["https://mobbin.com/api/mcp/short/OM1R8DIR", "https://mobbin.com/api/mcp/short/usIFrVNB", "https://mobbin.com/api/mcp/short/JsxLJ0aM", "https://mobbin.com/api/mcp/short/YtqSHl04", "https://mobbin.com/api/mcp/short/WXjBtqWH", "https://mobbin.com/api/mcp/short/hKcTqzOv", "https://mobbin.com/api/mcp/short/EsMF98c8", "https://mobbin.com/api/mcp/short/eR6YVPqR", "https://mobbin.com/api/mcp/short/by1wRrSm", "https://mobbin.com/api/mcp/short/s59lfxCR", "https://mobbin.com/api/mcp/short/HVhDVCdd", "https://mobbin.com/api/mcp/short/IAqNa9pk"],
+    "platform": "web",
+    "jobs": ["items", "low-stock"],
+    "take": "23-step flow: create item with category, price, photo, location, initial stock, SKU, variations, modifiers, and low-stock alert setup."
+  },
+  {
+    "id": "mobbin:537f92f7-8100-49aa-9e74-ebd568abbb70",
+    "source": "mobbin",
+    "app": "Airtable",
+    "title": "Adding a product",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/537f92f7-8100-49aa-9e74-ebd568abbb70",
+    "images": ["https://mobbin.com/api/mcp/short/9pNoIMpe", "https://mobbin.com/api/mcp/short/4RvQw71a", "https://mobbin.com/api/mcp/short/POdB5cSy", "https://mobbin.com/api/mcp/short/iPy1caiB", "https://mobbin.com/api/mcp/short/M8AXM9iS", "https://mobbin.com/api/mcp/short/iSKVbjXy", "https://mobbin.com/api/mcp/short/m1VmBVYi", "https://mobbin.com/api/mcp/short/fjhxRGbN"],
+    "platform": "web",
+    "jobs": ["items"],
+    "take": "9-step flow shows adding product record with multiple fields, photo attachments, and structured data entry in spreadsheet-style interface."
+  },
+  {
+    "id": "mobbin:addf5027-28db-4b51-a6f7-24577166a06f",
+    "source": "mobbin",
+    "app": "Square",
+    "title": "Importing items",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/addf5027-28db-4b51-a6f7-24577166a06f",
+    "images": ["https://mobbin.com/api/mcp/short/KKGe7jb4", "https://mobbin.com/api/mcp/short/1L72bmLk", "https://mobbin.com/api/mcp/short/Ac1FgQqQ", "https://mobbin.com/api/mcp/short/WVbH9aIX", "https://mobbin.com/api/mcp/short/ytlE4CC0", "https://mobbin.com/api/mcp/short/ENn8JVau", "https://mobbin.com/api/mcp/short/ji1HKsbH", "https://mobbin.com/api/mcp/short/rhM4jAOV", "https://mobbin.com/api/mcp/short/cR1dTe33", "https://mobbin.com/api/mcp/short/PMLsLUA2", "https://mobbin.com/api/mcp/short/5AAgxBlw", "https://mobbin.com/api/mcp/short/flyDRCLW"],
+    "platform": "web",
+    "jobs": ["items"],
+    "take": "12-step flow: bulk import via file upload, review imported items with columns (name, category, SKU, variation, unit), field mapping, and completion confirmation."
+  },
+  {
+    "id": "mobbin:e71975c4-268e-4da8-873b-098e3281df92",
+    "source": "mobbin",
+    "app": "Shopify",
+    "title": "Importing products",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/e71975c4-268e-4da8-873b-098e3281df92",
+    "images": ["https://mobbin.com/api/mcp/short/DECCsqHe", "https://mobbin.com/api/mcp/short/mUTAejDh", "https://mobbin.com/api/mcp/short/gDor3Xye", "https://mobbin.com/api/mcp/short/VPyTo13t", "https://mobbin.com/api/mcp/short/zKcd0XVU", "https://mobbin.com/api/mcp/short/2szVXCoY", "https://mobbin.com/api/mcp/short/d5tO4WG0", "https://mobbin.com/api/mcp/short/zJs2r2QN"],
+    "platform": "web",
+    "jobs": ["items"],
+    "take": "8-step flow: import products from CSV showing preview with field mapping, error handling (duplicate headers), and imported product list with status & inventory."
+  },
+  {
+    "id": "mobbin:33decfd4-a722-43ff-bce0-90bab6fff9a5",
+    "source": "mobbin",
+    "app": "Squarespace",
+    "title": "Import products",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/33decfd4-a722-43ff-bce0-90bab6fff9a5",
+    "images": ["https://mobbin.com/api/mcp/short/NkhxsfVi", "https://mobbin.com/api/mcp/short/xrVkI2se", "https://mobbin.com/api/mcp/short/Q4IJlXWp", "https://mobbin.com/api/mcp/short/QvH5OEAp", "https://mobbin.com/api/mcp/short/EhOzlvOd"],
+    "platform": "web",
+    "jobs": ["items"],
+    "take": "5-step flow: CSV import with file selection, column mapping interface, and import confirmation."
+  },
+  {
+    "id": "mobbin:981b5fb6-e739-4767-ac84-ddb20d08539d",
+    "source": "mobbin",
+    "app": "Square",
+    "title": "Updating low stock alert",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/981b5fb6-e739-4767-ac84-ddb20d08539d",
+    "images": ["https://mobbin.com/api/mcp/short/y2m4xo6j", "https://mobbin.com/api/mcp/short/tQJn0DDE", "https://mobbin.com/api/mcp/short/G1HAbfQ8", "https://mobbin.com/api/mcp/short/xNYMUcMR"],
+    "platform": "web",
+    "jobs": ["low-stock"],
+    "take": "4-step flow: edit item, open low-stock alert dialog to set alert amount and location, update and confirm with success message."
+  },
+  {
+    "id": "mobbin:7e0b9cbf-bcb8-467d-9fd3-fec28e531746",
+    "source": "mobbin",
+    "app": "Klaviyo",
+    "title": "Updating minimum inventory",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/7e0b9cbf-bcb8-467d-9fd3-fec28e531746",
+    "images": ["https://mobbin.com/api/mcp/short/kOcRwLqs", "https://mobbin.com/api/mcp/short/Vk9XusFm", "https://mobbin.com/api/mcp/short/MrkoomLg", "https://mobbin.com/api/mcp/short/DnyAfg3l"],
+    "platform": "web",
+    "jobs": ["low-stock"],
+    "take": "4-step flow: navigate to back-in-stock settings, set minimum inventory threshold (100 units), choose notification strategy (all subscribers at once or grouped), and save."
+  },
+  {
+    "id": "mobbin:10a6f5b0-7c96-4b28-9bc4-c0d4a870c86d",
+    "source": "mobbin",
+    "app": "Square",
+    "title": "Editing an item status",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/10a6f5b0-7c96-4b28-9bc4-c0d4a870c86d",
+    "images": ["https://mobbin.com/api/mcp/short/7sUEKOkW", "https://mobbin.com/api/mcp/short/swXwnSXD", "https://mobbin.com/api/mcp/short/e1ODPuqB", "https://mobbin.com/api/mcp/short/iHlDizsb", "https://mobbin.com/api/mcp/short/fJ1TQRLp"],
+    "platform": "web",
+    "jobs": ["low-stock"],
+    "take": "5-step flow: item preferences page shows low-inventory indicator toggle, out-of-stock indicator, and stock settings edit button for thresholds & visibility."
+  }
+] }

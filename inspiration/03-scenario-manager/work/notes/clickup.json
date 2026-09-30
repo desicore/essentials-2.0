@@ -1,0 +1,82 @@
+{
+  "product": "clickup",
+  "flows": {
+    "mobbin:9e0d5df7-8fea-4a21-9032-7a84de9d100f": {
+      "summary": "From an open Doc, the user opens Templates, chooses 'Save as Template', fills in the details, saves, and sees a success message with a link to Template Center.",
+      "steps": [
+        "Doc editor with Project Overview open",
+        "Templates side panel with 'Save as Template'",
+        "Save pop-up with empty name (validation)",
+        "Name filled: 'Project Overview Template'",
+        "Description field opened",
+        "Description filled",
+        "Tags field empty",
+        "Tag suggestion list",
+        "Tag applied; Share with 'All members'",
+        "Short message: template created; link to Template Center"
+      ],
+      "steal": [
+        "The save pop-up has 'Share with' choices: 'All members', 'Only me', 'Select people', 'Admins only', and 'Everyone (incl. guests)', with public sharing off by default.",
+        "The footer offers 'Update an existing Template' or 'Save as new' in the same pop-up.",
+        "'Save Template' stays disabled until the template is named, and the empty field gets a red border.",
+        "The success message names the template and links 'Open in Template Center'."
+      ],
+      "avoid": [
+        "A public sharing switch that creates an outside link is too open for clinical scenarios, which are the center's own work."
+      ],
+      "fit": "Scenario manager: add 'save as template' with access set per template (private, chosen people, or the whole organization). That is simpler than today's unclear SCE permissions.",
+      "jobs": [
+        "crud",
+        "access"
+      ],
+      "counter_example": false
+    },
+    "mobbin:456a85db-8ced-4de2-b541-c685bca7ec0c": {
+      "summary": "On a task detail, the user creates a checklist, adds items with per-item assignees, sees progress 0/N and a 'Use Template' option, alongside assigned comments and attachments.",
+      "steps": [
+        "Task detail with 'Create checklist' link",
+        "Empty Checklists section and 'New checklist item'",
+        "First item; 'Add checklist' / 'Use Template'",
+        "Item assigned (AS); Checklists 0/1",
+        "Three items assigned; Checklists 0/3"
+      ],
+      "steal": [
+        "Each checklist row has its own assignee, so tasks can be split between roles such as the sim tech and faculty.",
+        "The section header shows progress ('Checklists 0/N') and a filter for the items assigned to you ('N for me').",
+        "'Use Template' sits beside 'Add checklist', so a set of items can be reused on other tasks.",
+        "'+ New checklist item' adds a row without leaving the task."
+      ],
+      "avoid": [
+        "There is no scoring, no required flag and no rubric weighting, which is too thin for learner evaluation checklists."
+      ],
+      "fit": "Scenario manager: extend the cut-down Case Manager checklist with assignees and reusable templates. Essentials evaluations would still need scoring and a set time for filling them in, and this does not cover QR without login.",
+      "counter_example": false
+    },
+    "mobbin:e17ac016-5f41-4926-bdbc-525e0a847c60": {
+      "summary": "From a space Overview, the user opens Automations, builds a When/Then rule, creates it, and manages it with an on/off switch.",
+      "steps": [
+        "Space Overview with Automations button",
+        "Small menu: Active 0 and Add Automation presets",
+        "Builder: When task created, then Set Custom Field",
+        "Then action picker ('Change assignees…')",
+        "Change assignees with access-skip warning",
+        "Assignee picker: roles and people",
+        "Assignee set; warning still shown",
+        "Second Then: Change Task Type",
+        "Description filled; Create ready",
+        "Manage: Active rule with on/off switch"
+      ],
+      "steal": [
+        "The When/Then blocks are summed up in one plain sentence under the work area.",
+        "A warning appears right away when an action will be skipped because the assignee lacks access.",
+        "The assignee picker includes roles that fill themselves in, such as 'Task creator', 'Triggered by' and 'Watchers'.",
+        "After a rule is created, the Manage tab shows how many rules are active or inactive, with an on/off switch for each."
+      ],
+      "avoid": [
+        "Full libraries of integrations and rule catalogs across many categories are heavier than the few defaults a scenario needs (auto-record, prep email, announcements)."
+      ],
+      "fit": "Scenario manager: turn today's auto-record, email and announcement settings on scheduling templates into a clear When/Then panel of defaults per scenario. Keep the presets few; this is not a general automation product.",
+      "counter_example": false
+    }
+  }
+}

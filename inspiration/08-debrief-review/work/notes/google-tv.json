@@ -1,0 +1,23 @@
+{
+  "product": "google-tv",
+  "flows": {
+    "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6": {
+      "summary": "From a movie page on the phone, the user taps 'Watch on TV' while connected to the living-room TV. The phone then works as a remote with a touch pad, volume and a progress bar.",
+      "steps": [
+        "Watch on TV and connected mini-bar",
+        "Phone remote: trackpad and progress bar"
+      ],
+      "steal": [
+        "A bar at the bottom shows the title and a green 'Living Room TV' connection while you browse, so control stays one tap away (screen 1).",
+        "'Watch on TV' is the main button, which makes handing playback from the phone to the big screen explicit (screen 1).",
+        "A dedicated remote screen shows 'Connected' at the top, a swipe pad, 30-second skips and a progress bar for precise jumps (screen 2).",
+        "Playback controls are only on the phone, so the TV shows only the video, which matches the privacy goal (screen 2)."
+      ],
+      "avoid": [
+        "An installed-app remote with arrow pad and Assistant buttons is heavier than needed. The baseline prefers a simple web page on a phone or tablet for faculty who are not technical."
+      ],
+      "fit": "Debrief and review: the closest pattern from another field for a second screen. The phone controls playback, and the big screen appears to show video only. It is weak on annotations but strong on showing the connection.",
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "product": "forest",
+  "flows": {
+    "mobbin:51398a50-ab88-4cb6-8d7d-08e18e411c49": {
+      "summary": "Lock-screen Live Activity shows a Rest countdown with dismiss, then a Study countdown with progress bar, then a completed-focus summary with restart and today’s total.",
+      "steps": [
+        "Lock screen Live Activity: Rest + X",
+        "Lock screen Live Activity: Study + progress",
+        "Lock screen done: duration + restart"
+      ],
+      "steal": [
+        "Rest: large remaining time + phase label + one X control without unlocking.",
+        "Study: same chrome adds a thin progress bar under the phase label.",
+        "Done: outcome copy, start–end clock range, restart glyph, and daily total on the lock screen."
+      ],
+      "avoid": [
+        "Depends on native Live Activities—clashes with preferred web debrief/client and phone-ban exams; treat as native-only pattern, not the primary MVP surface."
+      ],
+      "fit": "Mobile uniquely surfaces phase time on the lock screen (desktop/SRV cannot); strong argument that timer job benefits from phone—extend room timers with always-visible remaining time for faculty holding devices between tasks.",
+      "jobs": ["timer"],
+      "counter_example": false
+    },
+    "mobbin:3ff1275c-8826-4b99-b53c-abb5a3c45ef6": {
+      "summary": "Dynamic Island shows a compact sprout + countdown while the app is backgrounded, then expands to countdown, Rest phase label, and an X stop control.",
+      "steps": [
+        "Compact Island: sprout + countdown",
+        "Expanded Island: Rest + X stop"
+      ],
+      "steal": [
+        "Compact: persistent remaining time in the system chrome while elsewhere in the OS.",
+        "Expanded: phase label under time plus single X to end without opening the app."
+      ],
+      "avoid": [
+        "iPhone Dynamic Island only—useless on generic tablets/web and during phone-banned summative exams; do not require it."
+      ],
+      "fit": "Shows why mobile (not SRV) can keep a session timer glanceable during other work; for Essentials prefer lock-screen/widget-like always-on timer where OS allows, with a large in-app fallback for web/tablet.",
+      "jobs": ["timer"],
+      "counter_example": false
+    }
+  }
+}

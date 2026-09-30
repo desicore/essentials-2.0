@@ -1,0 +1,63 @@
+{
+  "product": "notion",
+  "flows": {
+    "mobbin:0a0113c1-6c8a-4764-a2b7-938abaceef53": {
+      "summary": "User works through Getting Started checklists, opens Home, and lands on a Welcome home / personalised home with recents, My tasks, empty Suggested/Trending, templates and Learn cards.",
+      "steps": [
+        "Getting Started basics checklist page",
+        "Team Getting Started invite/teamspaces checklist",
+        "Home tooltip on sidebar Home item",
+        "Welcome home: recents + My tasks + Suggested",
+        "Home empty Suggested/Trending states",
+        "Home with Learn education cards",
+        "Personalised greeting + tasks with statuses",
+        "Home with Featured templates + Learn"
+      ],
+      "steal": [
+        "Steps 0–1: First-run as a live checklist page in the workspace (invite teammates, add teamspaces) rather than a modal-only tour.",
+        "Steps 3–7: Recently visited cards as jump-back into work already started.",
+        "Steps 4–5: Explicit empty copy for Suggested/Trending (“Pages relevant to you will show up here”) instead of blank panels.",
+        "Steps 6–7: My tasks row with due date, status pill (In progress / Not started), and source tag — scannable “what needs me.”"
+      ],
+      "avoid": [
+        "No widget add/remove/reorder UI appears — tagging widgets overstates customisation; the home is a fixed stack of sections."
+      ],
+      "fit": "Dashboard-only home pattern: recents + My tasks replace tile sprawl; tasks hand off to Debrief/Courses for grading and to Scheduling for due sessions; Featured templates/Learn map to first-run for a new center, not a Reports KPI wall.",
+      "jobs": ["first-run", "navigation", "action-items"]
+    },
+    "mobbin:cb1f904a-8674-4b22-8793-bd431804a75b": {
+      "summary": "From a Welcome checklist the user reaches Home with ask/search, Upcoming events for today/tomorrow, and a My tasks list where one task is checked complete.",
+      "steps": [
+        "Welcome to Notion interactive checklist",
+        "Home: ask bar, recents, Upcoming events, My tasks",
+        "Home focused on Upcoming events + tasks (one done)"
+      ],
+      "steal": [
+        "Step 1: Upcoming events grouped by day (“Today July 11”, next day) above the task list — agenda without a full calendar module.",
+        "Step 2: Checkbox complete state on My tasks (Landing page checked) with due dates and project tag kept visible.",
+        "Step 1: Home combines recents + agenda + tasks in one scroll; New task sits on the list itself."
+      ],
+      "avoid": [],
+      "fit": "Dashboard Today strip fed by Scheduling (sessions by time/room) with task checkboxes for faculty action items that open Debrief or Courses; lives on the dashboard, not a separate calendar page.",
+      "jobs": ["today", "navigation", "action-items", "first-run"]
+    },
+    "mobbin:2abedcd0-4648-4c73-be51-6dd1763ed125": {
+      "summary": "Private workspace shows Welcome checklist and full sidebar (Recents, Agents, Teamspaces, Notion Apps), then a trial unlock modal over the same page, then the page alone again.",
+      "steps": [
+        "Welcome checklist + full sidebar modules",
+        "Trial unlock modal over Welcome page",
+        "Welcome checklist after modal dismissed"
+      ],
+      "steal": [
+        "Step 0: Sidebar exposes Home/Search/Inbox, Recents, companion apps (Mail/Calendar), My Tasks, and New page/chat — module nav + quick-create in one rail.",
+        "Step 0: Trial “30 days left” badge in the nav for time-boxed setup urgency.",
+        "Step 1: Overlay trial checklist with locked reward step — optional layer on top of the in-page guide."
+      ],
+      "avoid": [
+        "Step 1 gamified “unlock a rare accessory” trial modal is noise for a clinical ops dashboard."
+      ],
+      "fit": "Sidebar pattern for Essentials module navigation (Recording, Scheduling, Reports, etc.) plus dashboard-only Welcome checklist; companion-app links resemble handoffs to Calendar/Scheduling rather than widgets.",
+      "jobs": ["navigation", "first-run"]
+    }
+  }
+}

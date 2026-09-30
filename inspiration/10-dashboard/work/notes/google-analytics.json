@@ -1,0 +1,27 @@
+{
+  "product": "google-analytics",
+  "flows": {
+    "mobbin:2fb6db4b-a04d-4ffe-b7a5-6ebb219da761": {
+      "summary": "opens Analytics Home and faces a dense stack of headline-number tabs, a realtime card, and recently accessed tiles. Suggested metric widgets with per-card controls sit above an empty Insights area.",
+      "steps": [
+        "Home with Active users tabs, realtime, recently accessed, and suggested cards",
+        "Home with a chart tip (unsampled / data source) over the same dense stack",
+        "Suggested widgets row with empty Insights and recommendations"
+      ],
+      "steal": [
+        "Recently accessed report tiles with relative time are a recents shortcut into Reports without new widgets (screens 1-2).",
+        "An empty Insights illustration when nothing to recommend withholds extra chrome until there is a finding (screen 3)."
+      ],
+      "avoid": [
+        "Many equal-weight cards (headline-number tabs, realtime, suggestions, each with its own dropdowns and links) and no single primary answer (screens 1-3) raise scan time. The user cannot tell where to look first or what 'OK' means."
+      ],
+      "fit": "Dashboard: clutter example to avoid. Do not build an Essentials dashboard like this. It conflicts with show little, precisely. Headline numbers and deep charts belong in Reports, not as competing hero widgets on the home.",
+      "jobs": [
+        "widgets",
+        "kpis",
+        "navigation"
+      ],
+      "counter_example": true
+    }
+  }
+}

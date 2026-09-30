@@ -1,0 +1,185 @@
+{
+  "references": [
+    {
+      "id": "mobbin:1e4db417-5727-4669-950b-cfb4f457df53",
+      "source": "mobbin",
+      "app": "Deputy",
+      "title": "Analytics",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/1e4db417-5727-4669-950b-cfb4f457df53",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "take": "Dashboard showing timesheet hours, shift audit, diversity & turnover analytics across team members with temporal trends.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5Dr4wosx",
+        "https://mobbin.com/api/mcp/short/25ejnOZp",
+        "https://mobbin.com/api/mcp/short/nHKeyjoW",
+        "https://mobbin.com/api/mcp/short/u6KesAwS",
+        "https://mobbin.com/api/mcp/short/FsxOtq82",
+        "https://mobbin.com/api/mcp/short/WsMLdKmC",
+        "https://mobbin.com/api/mcp/short/qqXsZpPJ",
+        "https://mobbin.com/api/mcp/short/mjVZE4PF",
+        "https://mobbin.com/api/mcp/short/74vYN1tM",
+        "https://mobbin.com/api/mcp/short/SDoeuVKB"
+      ]
+    },
+    {
+      "id": "mobbin:9649cfdc-dbbd-4c86-8a2d-9cdd25395064",
+      "source": "mobbin",
+      "app": "Whereby",
+      "title": "Insights",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9649cfdc-dbbd-4c86-8a2d-9cdd25395064",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "take": "Room insights dashboard displaying participant minutes usage, last active, and sessions per room.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ctURilL3",
+        "https://mobbin.com/api/mcp/short/UjvwpZ2w"
+      ]
+    },
+    {
+      "id": "mobbin:df187e39-3913-4484-8e5e-6af9a2f548c7",
+      "source": "mobbin",
+      "app": "Whereby",
+      "title": "Room detail",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/df187e39-3913-4484-8e5e-6af9a2f548c7",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "take": "Room details showing overview metrics: sessions, unique participants, and participant minutes used per session.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FB93eUBP",
+        "https://mobbin.com/api/mcp/short/1PqaPJAr",
+        "https://mobbin.com/api/mcp/short/okHk5rbA"
+      ]
+    },
+    {
+      "id": "mobbin:aa5da6b8-f37f-485c-9aea-ffa69cc0ed55",
+      "source": "mobbin",
+      "app": "Cal.com",
+      "title": "View bookings insight",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/aa5da6b8-f37f-485c-9aea-ffa69cc0ed55",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "take": "Booking analytics dashboard with events created/completed/rescheduled, average ratings, no-show metrics, and event trends over time.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/0JS6Yn11",
+        "https://mobbin.com/api/mcp/short/bcAuzZwR",
+        "https://mobbin.com/api/mcp/short/XDcmAYWS",
+        "https://mobbin.com/api/mcp/short/GjONgCpF",
+        "https://mobbin.com/api/mcp/short/K0EXL0rb",
+        "https://mobbin.com/api/mcp/short/I52zC7UJ"
+      ]
+    },
+    {
+      "id": "mobbin:05c5ddb1-4211-48c3-88f4-f434ccefae18",
+      "source": "mobbin",
+      "app": "Cal.com",
+      "title": "Insight",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/05c5ddb1-4211-48c3-88f4-f434ccefae18",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "take": "Event insights showing booking forms, workflow configurations, event types, and routed-per-period analytics.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Q1ar44zR",
+        "https://mobbin.com/api/mcp/short/rDhww3Ct",
+        "https://mobbin.com/api/mcp/short/92pxZmhK",
+        "https://mobbin.com/api/mcp/short/NbMKFF6p"
+      ]
+    },
+    {
+      "id": "mobbin:ff3d88ad-6b47-453f-9f8f-5f333707e2bf",
+      "source": "mobbin",
+      "app": "Cal.com",
+      "title": "View routing insight",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/ff3d88ad-6b47-453f-9f8f-5f333707e2bf",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "take": "Routing analytics showing failed bookings by field, volunteer role form responses, and routed-per-period user assignment.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GflHWMak",
+        "https://mobbin.com/api/mcp/short/75CrL9xZ",
+        "https://mobbin.com/api/mcp/short/d6ggNidc",
+        "https://mobbin.com/api/mcp/short/O8Kpqbm6"
+      ]
+    },
+    {
+      "id": "mobbin:c96f68a8-c962-45d1-9ce3-64b81dcacca6",
+      "source": "mobbin",
+      "app": "Stripe",
+      "title": "Billing overview",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c96f68a8-c962-45d1-9ce3-64b81dcacca6",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "take": "Billing dashboard with revenue, subscribers, churn rate, and benchmarking metrics over time with MRR trends.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/mX6OlmnQ",
+        "https://mobbin.com/api/mcp/short/EiNMvsAe",
+        "https://mobbin.com/api/mcp/short/Gq7qcEOb",
+        "https://mobbin.com/api/mcp/short/Z9v5r2Kc",
+        "https://mobbin.com/api/mcp/short/O5zVietZ",
+        "https://mobbin.com/api/mcp/short/qK2YxJvt"
+      ]
+    },
+    {
+      "id": "mobbin:29a0bba1-f256-494d-9756-77cb7bb2ef4f",
+      "source": "mobbin",
+      "app": "Stripe",
+      "title": "Reporting overview",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/29a0bba1-f256-494d-9756-77cb7bb2ef4f",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "take": "Revenue reporting with gross volume breakdown by month and quarter, tracking cashflow across regions.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/CNozxI3w",
+        "https://mobbin.com/api/mcp/short/4boS2Csq",
+        "https://mobbin.com/api/mcp/short/rID60gvk",
+        "https://mobbin.com/api/mcp/short/sU3a5ZaA"
+      ]
+    },
+    {
+      "id": "mobbin:e5928985-722f-4764-a648-9524ec4dcff1",
+      "source": "mobbin",
+      "app": "Stripe",
+      "title": "Editing overview",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e5928985-722f-4764-a648-9524ec4dcff1",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "take": "Payment overview with payment status metrics, failed payments, new customers, invoicing, and subscriptions summary.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Shm6AFWd",
+        "https://mobbin.com/api/mcp/short/chP2X5pq",
+        "https://mobbin.com/api/mcp/short/Nqpk1gjp",
+        "https://mobbin.com/api/mcp/short/k8kgyBxV",
+        "https://mobbin.com/api/mcp/short/vWbV0beq",
+        "https://mobbin.com/api/mcp/short/UKtbkIlb",
+        "https://mobbin.com/api/mcp/short/jhMcNu64"
+      ]
+    }
+  ]
+}

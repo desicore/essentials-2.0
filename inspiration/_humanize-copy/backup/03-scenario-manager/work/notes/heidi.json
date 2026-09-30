@@ -1,0 +1,42 @@
+{
+  "product": "heidi",
+  "flows": {
+    "mobbin:5e3fe2a1-1087-4372-94f7-927aa2a82e8d": {
+      "summary": "From My Templates library, the user opens a row's overflow menu, chooses Duplicate, and sees a new '(Copy)' row plus a Template duplicated toast.",
+      "steps": [
+        "My Templates library table",
+        "Row menu: Duplicate / Edit visibility…",
+        "Copy row + Template duplicated toast"
+      ],
+      "steal": [
+        "Duplicate from row overflow without opening the editor.",
+        "Auto-rename with (Copy) suffix on the new library row.",
+        "Toast confirmation: Template duplicated.",
+        "Visibility column (Just me / Community In review) visible while duplicating."
+      ],
+      "avoid": [],
+      "fit": "Extends SCE CRUD with one-click duplicate-from-library (create from existing) instead of only blank or Word import.",
+      "counter_example": false
+    },
+    "mobbin:4b33f07a-4b03-4b2f-aea9-b6d64bb521e5": {
+      "summary": "From the library row menu, the user opens Edit visibility, picks Team / Community / Only me (with Community attribution toggle), saves, and sees Community In review plus a success toast.",
+      "steps": [
+        "Library: Edit visibility in row menu",
+        "Visibility modal: Community + highlight on",
+        "Community selected; highlight contribution off",
+        "Saved: Community In review + success toast"
+      ],
+      "steal": [
+        "Three-tier access cards: Team (use, not edit) / Community / Only me.",
+        "Team copy states use-without-edit explicitly.",
+        "Community path shows In review badge on the list after save (moderation).",
+        "Highlight your contribution toggle for public attribution."
+      ],
+      "avoid": [
+        "Publishing to a public Community of all product users — Essentials needs org/role sharing, not a global template marketplace."
+      ],
+      "fit": "Best adjacent model for simpler per-scenario sharing (private vs team use-only vs moderated org library) replacing opaque SCE access.",
+      "counter_example": false
+    }
+  }
+}

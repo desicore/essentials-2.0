@@ -1,0 +1,35 @@
+{
+  "product": "instacart",
+  "flows": {
+    "mobbin:94df2baf-9653-4a11-ba8d-5131225a4ea4": {
+      "summary": "From an empty Lists page, the user names a list with a description, picks items from the catalog, and saves the list.",
+      "steps": [
+        "Empty saved-lists page",
+        "Create-list pop-up (blank fields)",
+        "Fill title and description",
+        "Select cover photo",
+        "Cover grid confirm then Next",
+        "Add-items pop-up (Buy it again empty)",
+        "Search pop-up with popular searches",
+        "Catalog search results (eggs)",
+        "Select item in results grid",
+        "Named list detail with Edit items"
+      ],
+      "steal": [
+        "The empty Lists page has 'Create' in two places (the header and a link on the page), so it is never hidden.",
+        "The add-items pop-up has 'Current list' and 'Buy it again' tabs, and an empty 'Buy it again' tab offers to browse categories.",
+        "Search shows popular items with pictures before you type, and you tick several before tapping Done.",
+        "The list header has lock and share options, and the description under the title works like setup notes."
+      ],
+      "avoid": [
+        "Having to choose a cover photo before adding items is an extra step a tech's prep list does not need."
+      ],
+      "fit": "Scenario manager: move today's free-text Equipment & Supplies toward picking from a catalog into a named list with notes. Stock and check-out stay in Inventory, as planned.",
+      "jobs": [
+        "equipment",
+        "access"
+      ],
+      "counter_example": false
+    }
+  }
+}

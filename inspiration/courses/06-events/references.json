@@ -1,37 +1,37 @@
 {
   "module": "06-events",
-  "title": "Adding events to courses",
-  "intro": "Semester → Courses → Events. Research into how instructors create and edit scheduled events inside a course (simulation sessions, live classes, labs, exam slots): date and time, room and equipment, which scenarios run, which learner groups attend, facilitators, capacity and recurrence. The calendar overview and communicating dates to learners is sub-module 10; scenarios (05) and learner groups (04) are neighbouring concerns.",
+  "title": "Events in courses: ideas from other products",
+  "intro": "This page gathers ideas for the Events step inside Courses in Essentials 2.0. It shows how instructors create and edit scheduled events inside a course, such as simulation sessions, live classes, labs and exam slots. It covers date and time, room and equipment, which scenarios run, which learner groups attend, facilitators, capacity and recurrence. The calendar overview and telling learners about dates sit in sub-module 10; scenarios (05) and learner groups (04) are neighbouring topics. Examples come from the design reference libraries Mobbin and Refero.",
   "questions": [
     {
       "id": "Q1",
-      "title": "Event creation surface: inline in course vs. global calendar with course tag",
-      "answer": "Two surfaces coexist, and the strongest evidence shows them side by side in one product. Kajabi schedules sessions inline under a coaching product (mobbin:1680974d, flow mobbin:c497ddd0) and, separately, runs a Marketing → Events calendar with no product link at all (mobbin:64f56885). Luma is the global-with-tag model: the create form starts with \"Create under [calendar]\", so the container is chosen at creation (refero:1843). Acuity splits the reusable class type from the act of offering an instance on a date (refero:9859). Calendly (refero:df769788) and TravelPerk (refero:5222) are global-only lists with one Create button. Circle is the cautionary case: it has course spaces, yet its create-event form sits under the global Events tab (mobbin:b360aa69), and its \"scheduled\" course space flow is lesson drip, not bookable sessions (mobbin:f92f2d5a). For an instructor building a course calendar the inline surface wins because the course is implied context; the global calendar should be a filtered view with the course as tag. No reference shows the reverse direction (a course page listing events created from a global calendar), which is exactly the seam module 10 has to close."
+      "title": "Where do instructors create events: inside the course, or on a global calendar tagged to the course?",
+      "answer": "Two places to create events show up, and Kajabi has both in one product. Kajabi schedules sessions inside a coaching product, and it also has a separate Marketing, then Events calendar with no product link. Luma is the global calendar with a tag: the create form starts with 'Create under [calendar]', so you pick the container when you create the event. Acuity defines a reusable class type first, then offers an instance on a date. Calendly and TravelPerk are global-only lists with one Create button. Circle is the cautionary case. It has course spaces, yet its create-event form sits under the global Events tab. Its 'scheduled' course space flow drips lessons rather than bookable sessions. For an instructor building a course calendar, creating inside the course wins because the course is already the context. The global calendar should be a filtered view with the course as a tag. No example shows a course page listing events that were created on a global calendar. That is the gap module 10 has to close."
     },
     {
       "id": "Q2",
-      "title": "Linking content and groups to the event (and whether that link is visible both ways)",
-      "answer": "Only Understory shows an explicit content → event step: \"+ Event\" opens \"Select the experience\", and the form is then pre-filled with capacity, location, resources, rooms and guides (refero:12719). Workable gets the same effect by opening the event from the record, so the title and context are pre-populated (mobbin:da2ca788). HubSpot is the one product that treats the group as an object: the event side panel has \"Associated campaign\" and \"Lists\" sections, though both are empty in the capture (mobbin:0135db7d). Luma (mobbin:787e8052) and Rise (mobbin:1caacacf) link the event to individual attendees, with statuses, not to a cohort. Nothing in the set shows the link from the other side (a scenario or group page listing its sessions), and nothing attaches a learner group as a unit. Preply is the counter-example: a one-to-one lesson with nothing to link (refero:9226). For Essentials the event form should start from the scenario, as Understory does, accept learner groups as objects, as HubSpot lists do, and both the scenario and the group should list their sessions, which has to be designed without a reference."
+      "title": "How do products link content and groups to the event, and can you see that link both ways?",
+      "answer": "Only Understory shows an explicit step from content to event. '+ Event' opens 'Select the experience', and the form then arrives pre-filled with capacity, location, resources, rooms and guides. Workable gets the same effect by opening the event from the record, so the title and context are already filled in. HubSpot is the one product that treats the group as an object. The event side panel has 'Associated campaign' and 'Lists' sections, though both are empty in the screenshot. Luma and Rise link the event to individual attendees with statuses, not to a cohort. Nothing in the set shows the other direction, such as a scenario or group page listing its sessions, and nothing attaches a learner group as a unit. Preply is the example of what not to copy here: a one-to-one lesson with nothing to link. For Essentials the event form should start from the scenario, as Understory does, and accept learner groups as objects, as HubSpot lists do. Both the scenario and the group should list their sessions. That reverse link has to be designed without an example."
     },
     {
       "id": "Q3",
-      "title": "Recurrence and series editing (this / following / all)",
-      "answer": "Recurrence at creation is table stakes: a repeat rule with frequency, weekdays and an end condition appears in Zoom (mobbin:b85c076b), Understory (refero:12705), Amie (mobbin:68dd9778) and Skiff, whose flow shows the customise modal and the instances rendered on the calendar (mobbin:d5d0e3c0). Edit scope is thinner than expected: Amie (mobbin:1c7e609d) and Motion (mobbin:1eb73c81) both ask \"this event / all events\", and no reference in this set offers the three-way \"this and following\". Luma is the only product that builds a series from an existing single event: \"Create multi-session event\" → add recurring sessions (cadence, number of weeks, weekday chips) or a manual session list → the event shows \"+9 sessions\" (refero:1848). Acuity is the counter-example: rescheduling one class instance shows a plain date/time panel with no scope question (refero:9872). Simulation sessions rarely repeat identically because groups rotate through scenarios, so Luma's explicit session list is a better fit than a bare repeat rule; the two-option scope dialog is still needed when a whole series moves."
+      "title": "How do products handle recurrence and editing a series (this, following, or all)?",
+      "answer": "A repeat rule at creation is common. Zoom, Understory and Amie show frequency, weekdays and an end condition. Skiff also shows a customise pop-up and the instances on the calendar. Edit scope is thinner than expected: Amie and Motion both ask 'this event' or 'all events', and no example in this set offers the three-way 'this and following'. Luma is the only product that builds a series from an existing single event. You choose 'Create multi-session event', add recurring sessions or a manual session list, and the event shows '+9 sessions'. Acuity is the example of what not to copy here: rescheduling one class instance shows a plain date and time panel with no scope question. Simulation sessions rarely repeat identically because groups rotate through scenarios, so Luma's explicit session list fits better than a bare repeat rule. The two-option scope dialog is still needed when a whole series moves."
     },
     {
       "id": "Q4",
-      "title": "Resource conflicts (room, facilitator, equipment) surfaced at creation",
-      "answer": "Every conflict message found is a soft warning shown after the fact, never a block inside the creation form. Acuity reopens a class with a yellow banner naming the resource (\"uses resource Room #5\") and still saves (refero:9868). Fresha warns that the staff member is not working at that time with Apply still enabled (mobbin:ac5e971e). Clockwise says \"I can schedule this meeting, but there is a conflict for Sam\" (mobbin:671e0870). 7shifts batches the check at publish time, counting conflicts and offering \"fix them for me\" (mobbin:8796902e). Google Workspace has a room and equipment picker with capacity but no availability feedback (mobbin:0a1650e1); SavvyCal's \"Ignore calendar conflicts\" toggle implies detection exists elsewhere (mobbin:44fd56e6); Zoom only complains at join time (mobbin:2ef394f0). Understory models resources with quantities (refero:12709) yet its session modal shows no conflict feedback at all (refero:023aed7b), the counter-example. No product shows equipment-specific conflicts. For a simulation centre, rooms, manikins and facilitators are the scarce resources, so the pattern to adopt is warn-don't-block, but moved into the form as live per-resource availability, which no reference demonstrates."
+      "title": "How do products show room, facilitator or equipment conflicts when creating an event?",
+      "answer": "Every conflict message found is a soft warning after the fact, never a block inside the creation form. Acuity reopens a class with a yellow banner naming the resource ('uses resource Room #5') and still saves. Fresha warns that the staff member is not working at that time, with Apply still enabled. Clockwise says 'I can schedule this meeting, but there is a conflict for Sam'. 7shifts batches the check at publish time, counting conflicts and offering 'fix them for me'. Google Workspace has a room and equipment picker with capacity but no availability feedback. SavvyCal's 'Ignore calendar conflicts' switch implies detection exists elsewhere. Zoom only complains at join time. Understory models resources with quantities, yet its session pop-up shows no conflict feedback at all, which is the example of what not to copy. No product shows equipment-specific conflicts. For a simulation centre, rooms, manikins and facilitators are the scarce resources. The pattern to adopt is warn and do not block, but moved into the form as live availability per resource. No example shows that."
     },
     {
       "id": "Q5",
-      "title": "Capacity, sign-up and attendance model",
-      "answer": "Three sign-up models appear. Self sign-up: Aboard's single Attend toggle (mobbin:4fa0df58) and Partiful's RSVP with plus-one, where spots decrement per person, 20/20 to 18/20 (refero:10204). Approval-gated: Luma's guest list moves people from Pending approval to Going under a cap of 1,000 (mobbin:68dc9ea7). Host-added: SavvyCal lets the organiser invite a guest after scheduling (refero:3371). Capacity is a numeric field with a \"no limit\" option in Understory (refero:12706) and per ticket tier plus an event total in Eventbrite (mobbin:c0b0ead0). Attendance is always marked by the host: Posh toggles a guest to Checked in (mobbin:4022cce6); Lyssna offers Mark as completed / No-show and auto-completes after five days (mobbin:8a3407fe). No reference shows a waitlist or attendee self check-in. In Essentials attendance is mostly assigned through the learner group, so the useful borrowings are the capacity field with a no-limit option, Posh's check-in and Lyssna's automatic resolution of unmarked sessions."
+      "title": "How do products handle capacity, sign-up and attendance?",
+      "answer": "Three sign-up models appear. Self sign-up: Aboard's single 'Attend' switch, and Partiful's RSVP with a plus-one, where spots drop per person from 20/20 to 18/20. Approval required: Luma's guest list moves people from Pending approval to Going under a cap of 1,000. Host-added: SavvyCal lets the organiser invite a guest after scheduling. Capacity is a number field with a 'no limit' option in Understory, and per ticket tier plus an event total in Eventbrite. Attendance is always marked by the host. Posh switches a guest to Checked in. Lyssna offers Mark as completed or No-show and marks sessions complete automatically after five days. No example shows a waitlist or attendee self check-in. In Essentials attendance is mostly assigned through the learner group. The useful borrowings are the capacity field with a no-limit option, Posh's check-in and Lyssna's automatic resolution of unmarked sessions."
     },
     {
       "id": "Q6",
-      "title": "Time zone and duration handling",
-      "answer": "An explicit time-zone selector is the norm. Microsoft Teams leads the form with the zone, then start and end with a computed duration and an all-day toggle (refero:9746). Cal.com shows the zone on both the availability page and the booking page (mobbin:8a0d881c, refero:3492). Kajabi (mobbin:5de887fe), SavvyCal (mobbin:9a8fc4f4) and Clockwise (mobbin:1fe20459) pair the zone with duration presets and an availability grid. Zoom is the exception on duration, taking free hours and minutes (mobbin:f6032c78). Homerun uses start plus a duration dropdown and shows the zone only as a read-only label (refero:7186), the counter-example to the explicit selector. Upwork is the only product that previews the other party's local time (\"2:16 PM GMT+8, 2h ahead\") (mobbin:55d0a62f). Simulation sessions happen in a physical centre, so one institutional zone shown as a label is enough, and duration should default from the scenario's running time (module 05), which makes Homerun's start-plus-duration model the closest fit."
+      "title": "How do products handle time zone and duration?",
+      "answer": "An explicit time-zone selector is the norm. Microsoft Teams leads the form with the zone, then start and end with a computed duration and an all-day switch. Cal.com shows the zone on both the availability page and the booking page. Kajabi, SavvyCal and Clockwise pair the zone with duration presets and an availability grid. Zoom is the exception on duration, taking free hours and minutes. Homerun uses start plus a duration dropdown and shows the zone only as a read-only label. That is the example of what not to copy for the explicit selector. Upwork is the only product that previews the other party's local time ('2:16 PM GMT+8, 2h ahead'). Simulation sessions happen in a physical centre, so one institutional zone shown as a label is enough. Duration should default from the scenario's running time in module 05, which makes Homerun's start-plus-duration model the closest fit."
     }
   ],
   "references": [
@@ -39,7 +39,7 @@
       "id": "refero:9859",
       "source": "refero",
       "app": "Acuity Scheduling",
-      "title": "Defining an appointment type globally, then offering/scheduling it onto the calendar",
+      "title": "Define class type, then schedule instance",
       "kind": "flow",
       "url": "https://refero.design/flows/9859",
       "images": [
@@ -53,7 +53,7 @@
         "https://images.refero.design/screenshots/acuityscheduling.com/desktop/c7412f8d-563b-4cf9-8d6e-4fbe9673ca1e_thumb.jpg"
       ],
       "question": "Q1",
-      "take": "Acuity separates defining the reusable class/appointment type (global catalog) from the act of scheduling an instance onto the calendar, a two-step global-catalog pattern.",
+      "take": "Acuity separates defining the reusable class or appointment type in a global catalog from scheduling an instance on the calendar.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -62,14 +62,14 @@
       "id": "refero:df769788-29a1-4768-94e1-cd5d7ca0e2f9",
       "source": "refero",
       "app": "Calendly",
-      "title": "Scheduled events dashboard listing all events with a global Create button",
+      "title": "Global events list with Create",
       "kind": "screen",
       "url": "https://refero.design/pages/df769788-29a1-4768-94e1-cd5d7ca0e2f9",
       "images": [
         "https://images.refero.design/screenshots/calendly.com/desktop/1f65041b-7e2a-4fcf-96bf-b32727077056_thumb.jpg"
       ],
       "question": "Q1",
-      "take": "Calendly lists all scheduled events in one global dashboard with a single Create action, rather than event creation living inside a specific course/project context.",
+      "take": "Calendly lists all scheduled events in one global dashboard with a single Create action. Creation does not live inside a course or project.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -78,14 +78,14 @@
       "id": "mobbin:b360aa69-e3f5-4404-af95-8021ce320f4b",
       "source": "mobbin",
       "app": "Circle",
-      "title": "Create event form with date/time, repeats, and end date configuration",
+      "title": "Create event under global Events tab",
       "kind": "screen",
       "url": "https://mobbin.com/screens/b360aa69-e3f5-4404-af95-8021ce320f4b",
       "images": [
         "https://mobbin.com/api/mcp/short/ioCoVaiM"
       ],
       "question": "Q1",
-      "take": "Circle's create-event form opens under the global Events tab, not inside a course space: date/time, repeat rule and end date, with no course field.",
+      "take": "Circle's create-event form opens under the global Events tab, not inside a course space. It has date and time, a repeat rule and an end date, with no course field.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -94,7 +94,7 @@
       "id": "mobbin:f92f2d5a-2102-4cc3-8a62-aeb6c88c1ade",
       "source": "mobbin",
       "app": "Circle",
-      "title": "Creating a course space (scheduled) - 14-step flow with date selection and group assignment",
+      "title": "Scheduled course setup with dates and groups",
       "kind": "flow",
       "url": "https://mobbin.com/flows/f92f2d5a-2102-4cc3-8a62-aeb6c88c1ade",
       "images": [
@@ -108,7 +108,7 @@
         "https://mobbin.com/api/mcp/short/aMrb7ozG"
       ],
       "question": "Q1",
-      "take": "Full scheduled course creation showing date/group selection within course setup; demonstrates inline event scheduling with group context.",
+      "take": "Circle's full scheduled course creation shows date and group selection inside course setup. It shows scheduling next to group context inside the course.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -117,14 +117,14 @@
       "id": "mobbin:1680974d-4690-4922-86a4-d8b2c206755b",
       "source": "mobbin",
       "app": "Kajabi",
-      "title": "Sessions tab with list of scheduled sessions and reschedule functionality",
+      "title": "Course sessions list with reschedule",
       "kind": "screen",
       "url": "https://mobbin.com/screens/1680974d-4690-4922-86a4-d8b2c206755b",
       "images": [
         "https://mobbin.com/api/mcp/short/b5Voluqp"
       ],
       "question": "Q1",
-      "take": "Sessions listed inline within course detail view, each with reschedule action; shows inline session management.",
+      "take": "Kajabi lists sessions inside the course detail view, each with a reschedule action.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -133,14 +133,14 @@
       "id": "mobbin:64f56885-93b8-4556-9e69-743262c30997",
       "source": "mobbin",
       "app": "Kajabi",
-      "title": "Create event form with title, when field, timezone, and repeat configuration",
+      "title": "Event form with time zone and repeat",
       "kind": "screen",
       "url": "https://mobbin.com/screens/64f56885-93b8-4556-9e69-743262c30997",
       "images": [
         "https://mobbin.com/api/mcp/short/PUs76wfV"
       ],
       "question": "Q1",
-      "take": "Event form with title, datetime, timezone, and recurrence interval selector; clean course event creation.",
+      "take": "Kajabi's event form has a title, date and time, time zone and a recurrence interval selector.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -149,7 +149,7 @@
       "id": "mobbin:c497ddd0-6c10-4284-b085-d9d624400ad6",
       "source": "mobbin",
       "app": "Kajabi",
-      "title": "Scheduling a coaching session - 8-step flow with calendar and availability setup",
+      "title": "Schedule coaching session from course",
       "kind": "flow",
       "url": "https://mobbin.com/flows/c497ddd0-6c10-4284-b085-d9d624400ad6",
       "images": [
@@ -163,7 +163,7 @@
         "https://mobbin.com/api/mcp/short/F611tL25"
       ],
       "question": "Q1",
-      "take": "Complete session scheduling flow from course coaching context with calendar, availability setup, and time slot selection.",
+      "take": "Kajabi's session scheduling flow starts from the course coaching context. It covers the calendar, availability setup and time-slot selection.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -172,7 +172,7 @@
       "id": "refero:1843",
       "source": "refero",
       "app": "Luma",
-      "title": "Creating an event and picking/creating the owning calendar (course tag equivalent)",
+      "title": "Create event and pick owning calendar",
       "kind": "flow",
       "url": "https://refero.design/flows/1843",
       "images": [
@@ -186,7 +186,7 @@
         "https://images.refero.design/screenshots/lu.ma/desktop/5c894509-1ae9-4134-bafd-0d0c918b70c6_thumb.jpg"
       ],
       "question": "Q1",
-      "take": "Luma requires choosing or creating a \"calendar\" (the container/tag) as part of event creation, showing a global-calendar-with-tag pattern rather than an inline-in-course surface.",
+      "take": "Luma requires choosing or creating a 'calendar' as the container when you create an event. That is a global calendar with a tag, not creation inside a course.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -195,14 +195,14 @@
       "id": "mobbin:5094f489-8907-46ac-87e4-b43f44c6f5b7",
       "source": "mobbin",
       "app": "Preply",
-      "title": "My lessons view with Schedule lesson button and upcoming lessons list",
+      "title": "My lessons list with 'Schedule lesson'",
       "kind": "screen",
       "url": "https://mobbin.com/screens/5094f489-8907-46ac-87e4-b43f44c6f5b7",
       "images": [
         "https://mobbin.com/api/mcp/short/qBa7XCBU"
       ],
       "question": "Q1",
-      "take": "Inline lesson scheduling within course/instructor context; Schedule lesson CTA creates events within course.",
+      "take": "Preply schedules lessons inside the instructor context. The 'Schedule lesson' button creates events there.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -211,7 +211,7 @@
       "id": "refero:5222",
       "source": "refero",
       "app": "TravelPerk",
-      "title": "Creating a team event from a global Events area, then viewing its detail overview",
+      "title": "Create team event from global Events",
       "kind": "flow",
       "url": "https://refero.design/flows/5222",
       "images": [
@@ -225,7 +225,7 @@
         "https://images.refero.design/screenshots/travelperk.com/desktop/f754b27b-e4b0-4c3e-a851-ea661bcebf53_thumb.jpg"
       ],
       "question": "Q1",
-      "take": "TravelPerk events are created from a dedicated global Events area and then reviewed on a detail overview page, separate from any specific project/course context.",
+      "take": "TravelPerk creates events from a dedicated global Events area, then shows a detail overview. That sits apart from any project or course.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -234,14 +234,14 @@
       "id": "mobbin:0135db7d-6118-4df0-b8eb-645026ef853f",
       "source": "mobbin",
       "app": "HubSpot",
-      "title": "Event details with linked attendees, associated campaign, and lists sections",
+      "title": "Event details with campaign and lists",
       "kind": "screen",
       "url": "https://mobbin.com/screens/0135db7d-6118-4df0-b8eb-645026ef853f",
       "images": [
         "https://mobbin.com/api/mcp/short/vZXEPWFZ"
       ],
       "question": "Q2",
-      "take": "Event panel showing attendees, associated campaign link, and lists; demonstrates rich linked content around event.",
+      "take": "HubSpot's event panel shows attendees, an associated campaign link and lists. It shows rich links around the event.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -250,14 +250,14 @@
       "id": "mobbin:787e8052-f653-4151-9df7-924b5726d087",
       "source": "mobbin",
       "app": "Luma",
-      "title": "Event invite stats showing attendee list with acceptance status and invitations",
+      "title": "Invite stats with acceptance status",
       "kind": "screen",
       "url": "https://mobbin.com/screens/787e8052-f653-4151-9df7-924b5726d087",
       "images": [
         "https://mobbin.com/api/mcp/short/hHrk4Rih"
       ],
       "question": "Q2",
-      "take": "Invite stats panel showing all attendees with acceptance status; demonstrates two-way visibility of event-attendee relationship.",
+      "take": "Luma's invite stats panel shows all attendees with acceptance status. The event and the people link both ways.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -266,7 +266,7 @@
       "id": "refero:9226",
       "source": "refero",
       "app": "Preply",
-      "title": "Rescheduling a lesson from the student's lesson list, tied to a specific lesson/tutor",
+      "title": "Reschedule lesson from student list",
       "kind": "flow",
       "url": "https://refero.design/flows/9226",
       "images": [
@@ -280,7 +280,7 @@
         "https://images.refero.design/screenshots/preply.com/desktop/04dd3ae9-2bf5-4829-8e8e-2429a95b0464_thumb.jpg"
       ],
       "question": "Q2",
-      "take": "One-to-one lesson reschedule (list → menu → new slot) with nothing to link: no content selection, no group.",
+      "take": "Preply reschedules a one-to-one lesson from the list to a menu to a new slot. There is no content selection and no group.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -289,14 +289,14 @@
       "id": "mobbin:1caacacf-3691-435b-8ac4-5f6a1f0e8b42",
       "source": "mobbin",
       "app": "Rise",
-      "title": "Event details with participant list and bidirectional event-participant linkage visible",
+      "title": "Event details with participant list",
       "kind": "screen",
       "url": "https://mobbin.com/screens/1caacacf-3691-435b-8ac4-5f6a1f0e8b42",
       "images": [
         "https://mobbin.com/api/mcp/short/viBEBr6Q"
       ],
       "question": "Q2",
-      "take": "Event details panel with participant avatars and names; shows event-to-person links within event context.",
+      "take": "Rise's event details panel shows participant avatars and names. People are linked from inside the event.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -305,7 +305,7 @@
       "id": "refero:12719",
       "source": "refero",
       "app": "Understory",
-      "title": "Creating a calendar event by selecting an existing \"Experience\" and adding a resource",
+      "title": "Pick Experience before adding resources",
       "kind": "flow",
       "url": "https://refero.design/flows/12719",
       "images": [
@@ -319,7 +319,7 @@
         "https://images.refero.design/screenshots/understory.io/desktop/2c3dc248-a866-4c21-8fb7-77c212fe0c02_thumb.jpg"
       ],
       "question": "Q2",
-      "take": "The event creation flow requires selecting an existing Experience (content) to link the event to before adding capacity and resources, showing an explicit content-to-event link step.",
+      "take": "Understory's event creation requires selecting an existing Experience before you add capacity and resources. Content is linked to the event in an explicit step.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -328,14 +328,14 @@
       "id": "mobbin:da2ca788-e66b-44ba-8008-7659ccc746a3",
       "source": "mobbin",
       "app": "Workable",
-      "title": "Interview event creation with linked candidate profile and role information",
+      "title": "Interview with linked candidate and role",
       "kind": "screen",
       "url": "https://mobbin.com/screens/da2ca788-e66b-44ba-8008-7659ccc746a3",
       "images": [
         "https://mobbin.com/api/mcp/short/q6875Zju"
       ],
       "question": "Q2",
-      "take": "Event (interview) with linked candidate and role visible; shows bidirectional link (candidate has event, event has candidate).",
+      "take": "Workable's interview event shows the linked candidate and role. The candidate has the event, and the event has the candidate.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -344,7 +344,7 @@
       "id": "refero:9872",
       "source": "refero",
       "app": "Acuity Scheduling",
-      "title": "Rescheduling one appointment instance from the weekly calendar (single-instance edit)",
+      "title": "Reschedule one class on weekly calendar",
       "kind": "flow",
       "url": "https://refero.design/flows/9872",
       "images": [
@@ -356,7 +356,7 @@
         "https://images.refero.design/screenshots/acuityscheduling.com/desktop/6f1b9933-ac49-4421-954e-60a77cc7d99c_thumb.jpg"
       ],
       "question": "Q3",
-      "take": "Rescheduling one class instance opens a plain date/time panel with no \"this / all\" question: single-instance editing only.",
+      "take": "Acuity reschedules one class instance with a plain date and time panel. It does not ask whether to change this event or all events.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -365,14 +365,14 @@
       "id": "mobbin:68dd9778-9f74-4201-b2f5-97a2a6d36059",
       "source": "mobbin",
       "app": "Amie",
-      "title": "Repeat dialog with weekly frequency, specific days, and end date selection",
+      "title": "Repeat dialog with days and end date",
       "kind": "screen",
       "url": "https://mobbin.com/screens/68dd9778-9f74-4201-b2f5-97a2a6d36059",
       "images": [
         "https://mobbin.com/api/mcp/short/6yVlGM96"
       ],
       "question": "Q3",
-      "take": "Repeat modal allows frequency (every 2 weeks), day selection checkboxes, and end date picker with visual end-date display.",
+      "take": "Amie's Repeat pop-up lets you set frequency, such as every 2 weeks, pick days with checkboxes, and choose an end date.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -381,14 +381,14 @@
       "id": "mobbin:1c7e609d-71a1-4cb9-b179-043d6b2f4d55",
       "source": "mobbin",
       "app": "Amie",
-      "title": "Update recurring event dialog with this event vs all events options",
+      "title": "Update series: this event or all events",
       "kind": "screen",
       "url": "https://mobbin.com/screens/1c7e609d-71a1-4cb9-b179-043d6b2f4d55",
       "images": [
         "https://mobbin.com/api/mcp/short/QV8vV8JP"
       ],
       "question": "Q3",
-      "take": "When editing recurring event, shows choice between 'This event' and 'All events' radio buttons to scope changes.",
+      "take": "When you edit a recurring event, Amie asks you to choose between 'This event' and 'All events' radio buttons.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -397,7 +397,7 @@
       "id": "refero:1848",
       "source": "refero",
       "app": "Luma",
-      "title": "Converting a single event into a multi-session series and adjusting the cadence",
+      "title": "Turn one event into multi-session series",
       "kind": "flow",
       "url": "https://refero.design/flows/1848",
       "images": [
@@ -410,7 +410,7 @@
         "https://images.refero.design/screenshots/lu.ma/desktop/7849aea1-a9b8-4205-996e-230159f12860_thumb.jpg"
       ],
       "question": "Q3",
-      "take": "Luma treats a multi-session event as a conversion step from a single event, with its own modal for adding sessions manually or configuring a recurring cadence.",
+      "take": "Luma turns a single event into a multi-session series. A pop-up lets you add sessions by hand or set a recurring cadence.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -419,14 +419,14 @@
       "id": "mobbin:1eb73c81-c835-4437-a444-d53e11c78a05",
       "source": "mobbin",
       "app": "Motion",
-      "title": "Update recurring event modal with this event vs all events scope selector",
+      "title": "Update series: this event or all events",
       "kind": "screen",
       "url": "https://mobbin.com/screens/1eb73c81-c835-4437-a444-d53e11c78a05",
       "images": [
         "https://mobbin.com/api/mcp/short/3ASAVZZy"
       ],
       "question": "Q3",
-      "take": "Modal displays 'This event' and 'All events' options (radio buttons) when updating recurring series, allowing scope control.",
+      "take": "Motion shows 'This event' and 'All events' options as radio buttons when you update a recurring series.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -435,7 +435,7 @@
       "id": "mobbin:d5d0e3c0-9ec5-4f9a-9ced-4818e9c3c14d",
       "source": "mobbin",
       "app": "Skiff",
-      "title": "Flow: Customizing a recurring event with edit scope and recurrence modification",
+      "title": "Customise recurring event on calendar",
       "kind": "flow",
       "url": "https://mobbin.com/flows/d5d0e3c0-9ec5-4f9a-9ced-4818e9c3c14d",
       "images": [
@@ -449,7 +449,7 @@
         "https://mobbin.com/api/mcp/short/aNdlrQ5B"
       ],
       "question": "Q3",
-      "take": "Repeats toggle → frequency → \"Customize recurring event\" (every / on / ends) → instances rendered on the calendar; no edit-scope dialog appears in the captured frames.",
+      "take": "Skiff turns Repeats on, sets frequency, then opens 'Customize recurring event' for every, on and ends. Instances appear on the calendar. No edit-scope dialog appears in these screenshots.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -458,7 +458,7 @@
       "id": "refero:12705",
       "source": "refero",
       "app": "Understory",
-      "title": "Setting a custom recurrence rule and end date when adding a date/location to an experience",
+      "title": "Custom recurrence rule with end date",
       "kind": "flow",
       "url": "https://refero.design/flows/12705",
       "images": [
@@ -471,7 +471,7 @@
         "https://images.refero.design/screenshots/understory.io/desktop/d28a6b48-c862-4b7c-a4fc-f568d2c644cd_thumb.jpg"
       ],
       "question": "Q3",
-      "take": "Custom recurrence is its own dialog with an explicit end-date picker, separate from the base date/location entry, letting the end condition be set independently of the start.",
+      "take": "Understory puts custom recurrence in its own dialog with an explicit end-date picker. The end condition is set apart from the base date and location.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -480,14 +480,14 @@
       "id": "mobbin:b85c076b-737e-4b49-a131-dd793cac679b",
       "source": "mobbin",
       "app": "Zoom",
-      "title": "Recurring meeting settings with frequency dropdown, weekday selection, and end date options",
+      "title": "Recurring meeting frequency and weekdays",
       "kind": "screen",
       "url": "https://mobbin.com/screens/b85c076b-737e-4b49-a131-dd793cac679b",
       "images": [
         "https://mobbin.com/api/mcp/short/aQvv77fX"
       ],
       "question": "Q3",
-      "take": "Recurring meeting setup shows repeat frequency (Weekly), occurs on weekdays (Sun-Sat checkboxes), and end date with occurrence count option.",
+      "take": "Zoom's recurring meeting setup shows repeat frequency such as Weekly, weekday checkboxes from Sun to Sat, and an end date with an occurrence count option.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -496,14 +496,14 @@
       "id": "mobbin:8796902e-18e6-4f82-98d8-2146b96be325",
       "source": "mobbin",
       "app": "7shifts",
-      "title": "Scheduling warnings dialog showing shift conflicts and employee overboking alerts",
+      "title": "Publish warnings for shift conflicts",
       "kind": "screen",
       "url": "https://mobbin.com/screens/8796902e-18e6-4f82-98d8-2146b96be325",
       "images": [
         "https://mobbin.com/api/mcp/short/9TgkMd8Y"
       ],
       "question": "Q4",
-      "take": "Warning modal displays exception counts (6 Exceptions, 0 Conflicts, 1 Overtime warning, 0 Unassigned Shifts) before publishing schedule changes.",
+      "take": "7shifts shows a warning dialog with exception counts before publishing schedule changes, including Exceptions, Conflicts, Overtime warning and Unassigned Shifts.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -512,7 +512,7 @@
       "id": "refero:9868",
       "source": "refero",
       "app": "Acuity Scheduling",
-      "title": "Opening an event and seeing a conflict warning that another event is blocking the same resource/time",
+      "title": "Conflict warning naming blocked room",
       "kind": "flow",
       "url": "https://refero.design/flows/9868",
       "images": [
@@ -523,7 +523,7 @@
         "https://images.refero.design/screenshots/acuityscheduling.com/desktop/4eaf8f58-0e3c-478a-b953-b2f6b4030cb0_thumb.jpg"
       ],
       "question": "Q4",
-      "take": "The event detail panel shows an explicit conflict warning naming the blocked resource (a room) and time when opening a class that overlaps another booking, directly surfacing a resource conflict at the point of viewing/editing.",
+      "take": "Acuity's event detail panel shows an explicit conflict warning that names the blocked room and time when you open a class that overlaps another booking.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -532,14 +532,14 @@
       "id": "mobbin:671e0870-f520-4d92-bc16-8ee9b332bb3b",
       "source": "mobbin",
       "app": "Clockwise",
-      "title": "Scheduling conflict warning showing multiple conflicting time blocks and unavailability alerts",
+      "title": "Person conflict warnings on calendar",
       "kind": "screen",
       "url": "https://mobbin.com/screens/671e0870-f520-4d92-bc16-8ee9b332bb3b",
       "images": [
         "https://mobbin.com/api/mcp/short/qGk6TVqn"
       ],
       "question": "Q4",
-      "take": "Calendar view displays conflict alerts ('I can schedule this meeting, but there is a conflict', 'Sam has conflicts that I can't fix') with visual indicators.",
+      "take": "Clockwise shows conflict alerts on the calendar, including 'I can schedule this meeting, but there is a conflict' and 'Sam has conflicts that I can't fix'.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -548,14 +548,14 @@
       "id": "mobbin:ac5e971e-8cfb-47ca-9b36-bb6ae392b53f",
       "source": "mobbin",
       "app": "Fresha",
-      "title": "Team member availability conflict warning when scheduling service",
+      "title": "Staff not working during booking slot",
       "kind": "screen",
       "url": "https://mobbin.com/screens/ac5e971e-8cfb-47ca-9b36-bb6ae392b53f",
       "images": [
         "https://mobbin.com/api/mcp/short/iqYMxmHB"
       ],
       "question": "Q4",
-      "take": "Warning alert shows 'Alex Smith is not working between 7:00am and 7:45am' when staff member is unavailable during booking slot.",
+      "take": "Fresha warns that 'Alex Smith is not working between 7:00am and 7:45am' when the staff member is unavailable for the booking slot.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -564,14 +564,14 @@
       "id": "mobbin:0a1650e1-ee88-4fa3-aff4-3ebca4f38e81",
       "source": "mobbin",
       "app": "Google Workspace",
-      "title": "Add resource dialog in event creation showing room selector with labels and capacity info",
+      "title": "Room and equipment picker with capacity",
       "kind": "screen",
       "url": "https://mobbin.com/screens/0a1650e1-ee88-4fa3-aff4-3ebca4f38e81",
       "images": [
         "https://mobbin.com/api/mcp/short/CBdCfqbS"
       ],
       "question": "Q4",
-      "take": "Resource management dialog lists available rooms/equipment (Meeting room A, TV Screen, Video conferencing, Power outlets) with capacity details.",
+      "take": "Google Workspace lists rooms and equipment such as Meeting room A, TV Screen, Video conferencing and Power outlets, with capacity details.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -580,14 +580,14 @@
       "id": "mobbin:44fd56e6-24d2-448c-aec2-34f92834c348",
       "source": "mobbin",
       "app": "SavvyCal",
-      "title": "Availability override dialog showing conflict with attendee calendar constraints",
+      "title": "Override availability despite conflicts",
       "kind": "screen",
       "url": "https://mobbin.com/screens/44fd56e6-24d2-448c-aec2-34f92834c348",
       "images": [
         "https://mobbin.com/api/mcp/short/xhP41quf"
       ],
       "question": "Q4",
-      "take": "Modal 'Override availability' displays attendee conflicts and allows forcing time despite availability constraints.",
+      "take": "SavvyCal's 'Override availability' pop-up shows attendee conflicts and lets you force the time anyway.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -596,7 +596,7 @@
       "id": "refero:12709",
       "source": "refero",
       "app": "Understory",
-      "title": "Setting up a resource type with follow-up duration and quantity for booking",
+      "title": "Resource type with quantity for booking",
       "kind": "flow",
       "url": "https://refero.design/flows/12709",
       "images": [
@@ -610,7 +610,7 @@
         "https://images.refero.design/screenshots/understory.io/desktop/b5440945-9e4f-4c08-ad2a-0a60ddaeb4cc_thumb.jpg"
       ],
       "question": "Q4",
-      "take": "Resources are modeled as their own type with a defined quantity, which is the mechanism by which the system could prevent double-booking, though no live conflict warning is shown at creation.",
+      "take": "Understory models resources as their own type with a defined quantity. That is how the system could prevent double-booking, though no live conflict warning is shown at creation.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -619,14 +619,14 @@
       "id": "refero:023aed7b-e219-4ddc-8374-63091cfda3f7",
       "source": "refero",
       "app": "Understory",
-      "title": "Centered modal for creating/editing an event/session with no resource-conflict field shown",
+      "title": "Session form without conflict feedback",
       "kind": "screen",
       "url": "https://refero.design/pages/023aed7b-e219-4ddc-8374-63091cfda3f7",
       "images": [
         "https://images.refero.design/screenshots/understory.io/desktop/023aed7b-e219-4ddc-8374-63091cfda3f7_thumb.jpg"
       ],
       "question": "Q4",
-      "take": "Create/edit session modal has a \"Resources: 1 rule\" field but no availability or conflict feedback anywhere in the form.",
+      "take": "Understory's create or edit session pop-up has a 'Resources: 1 rule' field. It shows no availability or conflict feedback in the form.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -635,14 +635,14 @@
       "id": "mobbin:2ef394f0-635f-4411-b702-d0b703e8128f",
       "source": "mobbin",
       "app": "Zoom",
-      "title": "Meeting conflict detection showing already scheduled meeting in same time slot",
+      "title": "Already in another meeting at join",
       "kind": "screen",
       "url": "https://mobbin.com/screens/2ef394f0-635f-4411-b702-d0b703e8128f",
       "images": [
         "https://mobbin.com/api/mcp/short/QYAejV8e"
       ],
       "question": "Q4",
-      "take": "Dialog alerts 'You are already in another meeting' with option to start meeting anyway or handle conflict.",
+      "take": "Zoom alerts 'You are already in another meeting' and offers to start the meeting anyway or handle the conflict.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -651,7 +651,7 @@
       "id": "mobbin:4fa0df58-06ad-4449-8141-952065d330fe",
       "source": "mobbin",
       "app": "Aboard",
-      "title": "Confirming attendance for an event",
+      "title": "Confirm attendance with Attend button",
       "kind": "flow",
       "url": "https://mobbin.com/flows/4fa0df58-06ad-4449-8141-952065d330fe",
       "images": [
@@ -659,7 +659,7 @@
         "https://mobbin.com/api/mcp/short/9l5i7vCN"
       ],
       "question": "Q5",
-      "take": "Two-step flow: event details with attendance status and 'Attend' button, then confirmed attendance state with checkmark.",
+      "take": "Aboard shows event details with attendance status and an 'Attend' button, then a confirmed attendance view with a checkmark.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -668,14 +668,14 @@
       "id": "mobbin:c0b0ead0-fe5d-4322-a478-6e0c1841c5c0",
       "source": "mobbin",
       "app": "Eventbrite",
-      "title": "Event tickets with capacity limits and availability",
+      "title": "Ticket tiers with capacity limits",
       "kind": "screen",
       "url": "https://mobbin.com/screens/c0b0ead0-fe5d-4322-a478-6e0c1841c5c0",
       "images": [
         "https://mobbin.com/api/mcp/short/r9TY23uh"
       ],
       "question": "Q5",
-      "take": "Tickets tab shows capacity (0/25 general, 0/20 student), sold status, and option to edit capacity.",
+      "take": "Eventbrite's Tickets tab shows capacity such as 0/25 general and 0/20 student, sold status, and an option to edit capacity.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -684,14 +684,14 @@
       "id": "mobbin:68dc9ea7-e6ed-41eb-a36f-0c43a2e416c3",
       "source": "mobbin",
       "app": "Luma",
-      "title": "Event page with guest list and registration status",
+      "title": "Guest list with capacity and statuses",
       "kind": "screen",
       "url": "https://mobbin.com/screens/68dc9ea7-e6ed-41eb-a36f-0c43a2e416c3",
       "images": [
         "https://mobbin.com/api/mcp/short/BJLjrttX"
       ],
       "question": "Q5",
-      "take": "Shows guest list with capacity (cap 1000), pending/invited/attended status, and role-based permissions for attendance.",
+      "take": "Luma shows a guest list with a capacity cap of 1000, pending, invited and attended statuses, and role-based permissions for attendance.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -700,7 +700,7 @@
       "id": "mobbin:8a3407fe-0c39-4e39-a9ed-07c6df5e1dc1",
       "source": "mobbin",
       "app": "Lyssna",
-      "title": "Marking session attendance as completed",
+      "title": "Mark sessions completed or no-show",
       "kind": "flow",
       "url": "https://mobbin.com/flows/8a3407fe-0c39-4e39-a9ed-07c6df5e1dc1",
       "images": [
@@ -711,7 +711,7 @@
         "https://mobbin.com/api/mcp/short/6o7udOEe"
       ],
       "question": "Q5",
-      "take": "Host workflow: sessions list with 'mark attendance' prompt, marking sessions complete/no-show, automatic 5-day auto-mark for absent sessions.",
+      "take": "Lyssna prompts the host to mark attendance, mark sessions complete or no-show, and automatically marks unmarked sessions after five days.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -720,7 +720,7 @@
       "id": "refero:10204",
       "source": "refero",
       "app": "Partiful",
-      "title": "RSVPing to an event and adding a plus-one from the event details screen",
+      "title": "RSVP with plus-one from event details",
       "kind": "flow",
       "url": "https://refero.design/flows/10204",
       "images": [
@@ -734,7 +734,7 @@
         "https://images.refero.design/screenshots/partiful.com/desktop/a9187741-cbf5-4fa1-89d0-d45608c69945_thumb.jpg"
       ],
       "question": "Q5",
-      "take": "Sign-up is modeled as an RSVP action with an explicit plus-one addition, showing attendance capacity being tracked per invitee rather than a generic ticket count.",
+      "take": "Partiful models sign-up as an RSVP with an explicit plus-one. Capacity is tracked per invitee rather than as a generic ticket count.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -752,7 +752,7 @@
         "https://mobbin.com/api/mcp/short/fFzLFwZI"
       ],
       "question": "Q5",
-      "take": "Three-step guest flow: status change to 'Set Checked In', confirmation, and guestlist with checked-in badge.",
+      "take": "Posh changes a guest's status to 'Set Checked In', shows confirmation, then lists the guest with a checked-in label.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -761,7 +761,7 @@
       "id": "refero:3371",
       "source": "refero",
       "app": "SavvyCal",
-      "title": "Reviewing a scheduled event and inviting an additional guest",
+      "title": "Invite another guest after scheduling",
       "kind": "flow",
       "url": "https://refero.design/flows/3371",
       "images": [
@@ -772,7 +772,7 @@
         "https://images.refero.design/screenshots/savvycal.com/desktop/2c6e951f-2578-451c-b986-bd76ceb0a345_thumb.jpg"
       ],
       "question": "Q5",
-      "take": "Attendees can be added to an already-scheduled event after the fact via an \"Invite a guest\" modal, showing sign-up/attendance as an ongoing editable list rather than fixed at creation.",
+      "take": "SavvyCal lets you add attendees to an already-scheduled event through an 'Invite a guest' pop-up. Attendance stays editable after creation.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -781,7 +781,7 @@
       "id": "refero:12706",
       "source": "refero",
       "app": "Understory",
-      "title": "Editing the capacity of a date/location block for an experience",
+      "title": "Edit capacity on date and location block",
       "kind": "flow",
       "url": "https://refero.design/flows/12706",
       "images": [
@@ -791,7 +791,7 @@
         "https://images.refero.design/screenshots/understory.io/desktop/22a270ec-8a7e-4c7d-b19c-8ae38c5a8560_thumb.jpg"
       ],
       "question": "Q5",
-      "take": "Capacity is edited as its own discrete step directly on the date/location block, independent from other event fields.",
+      "take": "Understory edits capacity as its own step directly on the date and location block, apart from other event fields.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -800,7 +800,7 @@
       "id": "refero:3492",
       "source": "refero",
       "app": "Cal.com",
-      "title": "Rescheduling a booking by picking a new date and time slot from availability",
+      "title": "Reschedule from availability time slots",
       "kind": "flow",
       "url": "https://refero.design/flows/3492",
       "images": [
@@ -814,7 +814,7 @@
         "https://images.refero.design/screenshots/cal.com/desktop/8bc0e519-8fb8-430a-825a-ac437cdc79a8_thumb.jpg"
       ],
       "question": "Q6",
-      "take": "Time slots are generated from a week/day availability grid tied to the organizer's working hours, implying time zone conversion happens behind the slot grid rather than via a manual selector.",
+      "take": "Cal.com generates time slots from a week and day availability grid tied to the organiser's working hours. Time zone conversion sits behind the slot grid rather than a manual selector.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -823,14 +823,14 @@
       "id": "mobbin:8a0d881c-dc4e-438d-a815-d9c37e6a11f1",
       "source": "mobbin",
       "app": "Cal.com",
-      "title": "Availability scheduling with time zone and buffer settings",
+      "title": "Availability page with time zone settings",
       "kind": "screen",
       "url": "https://mobbin.com/screens/8a0d881c-dc4e-438d-a815-d9c37e6a11f1",
       "images": [
         "https://mobbin.com/api/mcp/short/TaRXnJj9"
       ],
       "question": "Q6",
-      "take": "Availability page shows time zone (Asia/Jakarta), weekly hours (9:00-17:00), date overrides, and buffer settings.",
+      "take": "Cal.com's availability page shows the time zone Asia/Jakarta, weekly hours from 9:00 to 17:00, date overrides and buffer settings.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -839,7 +839,7 @@
       "id": "mobbin:1fe20459-c6bd-465d-a838-f19d1b7bc362",
       "source": "mobbin",
       "app": "Clockwise",
-      "title": "Booking a meeting with time zone and duration options",
+      "title": "Book meeting with zone and duration",
       "kind": "flow",
       "url": "https://mobbin.com/flows/1fe20459-c6bd-465d-a838-f19d1b7bc362",
       "images": [
@@ -849,7 +849,7 @@
         "https://mobbin.com/api/mcp/short/xBRHEasX"
       ],
       "question": "Q6",
-      "take": "Four-step booking flow: duration preset selection, date/time picker with time zone (Asia/Jakarta), confirmation, and success message.",
+      "take": "Clockwise's booking flow covers a duration preset, a date and time picker with time zone Asia/Jakarta, confirmation and a success message.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -858,7 +858,7 @@
       "id": "refero:7186",
       "source": "refero",
       "app": "Homerun",
-      "title": "Scheduling an interview: picking a template, date, start time, duration, and location",
+      "title": "Interview start time plus duration",
       "kind": "flow",
       "url": "https://refero.design/flows/7186",
       "images": [
@@ -872,7 +872,7 @@
         "https://images.refero.design/screenshots/homerun.co/desktop/f80fd2e4-6815-467f-9c42-fbef6c0e89b3_thumb.jpg"
       ],
       "question": "Q6",
-      "take": "Start time plus a duration dropdown (60 min); the time zone is only a read-only label, not a selector.",
+      "take": "Homerun uses start time plus a duration dropdown such as 60 min. The time zone is only a read-only label, not a selector.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -881,14 +881,14 @@
       "id": "mobbin:5de887fe-2eaf-474f-90b1-4c42855747d8",
       "source": "mobbin",
       "app": "Kajabi",
-      "title": "Session scheduling with time zone and duration",
+      "title": "Session form with zone and duration",
       "kind": "screen",
       "url": "https://mobbin.com/screens/5de887fe-2eaf-474f-90b1-4c42855747d8",
       "images": [
         "https://mobbin.com/api/mcp/short/OfRoCEDi"
       ],
       "question": "Q6",
-      "take": "Create session modal shows time zone picker (New York), duration indicator (30 minutes), calendar picker, and time slot selector.",
+      "take": "Kajabi's create session pop-up shows a time zone picker for New York, a 30-minute duration, a calendar picker and a time slot selector.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -897,7 +897,7 @@
       "id": "refero:9746",
       "source": "refero",
       "app": "Microsoft Teams",
-      "title": "Creating a community event from an empty events state through the full new-event form",
+      "title": "New event form from empty events list",
       "kind": "flow",
       "url": "https://refero.design/flows/9746",
       "images": [
@@ -911,7 +911,7 @@
         "https://images.refero.design/screenshots/live.com/desktop/a19f116d-7a83-49c4-a264-90c0e3992260_thumb.jpg"
       ],
       "question": "Q6",
-      "take": "The new-event form surfaces start date/time controls with default values pre-filled, reducing the time-entry burden inside a long creation flow.",
+      "take": "Microsoft Teams walks from a screen with no events yet through the full new-event form. Start date and time controls arrive with default values already filled in.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -920,14 +920,14 @@
       "id": "mobbin:9a8fc4f4-d70b-416c-9965-38c5359cfc4d",
       "source": "mobbin",
       "app": "SavvyCal",
-      "title": "Scheduling with duration presets and time zone",
+      "title": "Duration presets with time zone",
       "kind": "screen",
       "url": "https://mobbin.com/screens/9a8fc4f4-d70b-416c-9965-38c5359cfc4d",
       "images": [
         "https://mobbin.com/api/mcp/short/fQELrZ8m"
       ],
       "question": "Q6",
-      "take": "Availability form with time zone selector (US/Canada), duration options (30/15 min presets), and time grid display.",
+      "take": "SavvyCal's availability form has a time zone selector for US/Canada, duration options such as 30 and 15 min, and a time grid.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -936,7 +936,7 @@
       "id": "mobbin:55d0a62f-e866-40a5-8bc0-1025d8ebaa2e",
       "source": "mobbin",
       "app": "Upwork",
-      "title": "Scheduling a meeting across time zones",
+      "title": "Propose meeting across time zones",
       "kind": "flow",
       "url": "https://mobbin.com/flows/55d0a62f-e866-40a5-8bc0-1025d8ebaa2e",
       "images": [
@@ -947,7 +947,7 @@
         "https://mobbin.com/api/mcp/short/BR6yeeSF"
       ],
       "question": "Q6",
-      "take": "Chat flow: proposing meeting date/time picker with multiple time zone support (America/New_York), duration selection.",
+      "take": "Upwork proposes a meeting from chat with a date and time picker that supports multiple time zones such as America/New_York, plus duration selection.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -956,14 +956,14 @@
       "id": "mobbin:f6032c78-fe04-459c-95ff-d231a2a28d85",
       "source": "mobbin",
       "app": "Zoom",
-      "title": "Schedule meeting with time zone, duration, and recurring options",
+      "title": "Schedule meeting with zone and duration",
       "kind": "screen",
       "url": "https://mobbin.com/screens/f6032c78-fe04-459c-95ff-d231a2a28d85",
       "images": [
         "https://mobbin.com/api/mcp/short/2JLnMd1j"
       ],
       "question": "Q6",
-      "take": "Meeting form shows time zone selector (GMT-7:00 Pacific), duration with hour/minute inputs, and recurring meeting controls.",
+      "take": "Zoom's meeting form shows a time zone selector such as GMT-7:00 Pacific, duration with hour and minute inputs, and recurring meeting controls.",
       "counter_example": false,
       "selected": false,
       "crop": ""

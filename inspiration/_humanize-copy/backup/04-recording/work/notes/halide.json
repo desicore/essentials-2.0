@@ -1,0 +1,20 @@
+{
+  "product": "halide",
+  "flows": {
+    "mobbin:d9108d06-2686-4dcb-b1da-6847d7e5a655": {
+      "summary": "In Halide’s viewfinder the user switches discrete focal-length stops from 1x to 2x; no pan, tilt, or continuous zoom control appears.",
+      "steps": [
+        "Viewfinder — .5 / 1x / 2 stops, 1x selected",
+        "Viewfinder — 2x selected (yellow)"
+      ],
+      "steal": [
+        "Pill of labeled stops (.5, 1x, 2) instead of a continuous zoom slider (step 1x selected).",
+        "Active stop highlighted (yellow fill) so current magnification is obvious (step 2x selected)."
+      ],
+      "avoid": [
+        "Do not treat as full PTZ — screens show only discrete zoom; no pan, tilt, presets, or click-to-point."
+      ],
+      "fit": "Informs simplified zoom outside/beside SRV live view (discrete stops for faculty); does not replace a 360 dewarp or PTZ joystick — honest zoom-only model."
+    }
+  }
+}

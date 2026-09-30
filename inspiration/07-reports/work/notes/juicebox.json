@@ -1,0 +1,41 @@
+{
+  "product": "juicebox",
+  "flows": {
+    "mobbin:a6f030e2-5e59-4c27-80a3-a16e8cd88fc0": {
+      "summary": "From an analytics page, the user opens 'Export', chooses 'Share to web', sets a password and whether viewers may use filters, then gets a link to copy.",
+      "steps": [
+        "Sequences Analytics: headline boxes, funnel, weekly line, Export",
+        "Export menu: Share to web, Download, Send to email",
+        "Share your data: password field and Allow viewers to interact with filters ON",
+        "Password set; locked Set control; filter switch still on",
+        "Share link ready: explo.co/share URL, 'Copy', filter switch"
+      ],
+      "steal": [
+        "One 'Export' menu offers 'Share to web', 'Download' and 'Send to email' (screen 2).",
+        "The shared page needs a password, set before or together with the link (screens 3 to 5).",
+        "A switch, 'Allow viewers to interact with filters', decides whether viewers can use the page's filters (screens 3 to 5).",
+        "Once set up, the live link is ready to paste (screen 5)."
+      ],
+      "avoid": [
+        "The link lives on another company's site (explo.co); links for deans should sit under the Essentials domain (screen 5)."
+      ],
+      "fit": "Reports: the closest pattern to automatic digests shared by link: a report link with an optional password and control over what viewers can change."
+    },
+    "mobbin:8f313eb2-7e52-42e2-9b78-1f6f33252111": {
+      "summary": "The user opens 'Export', chooses 'Send to email', picks PDF or image, enters a recipient, and sees 'Email will be sent shortly'.",
+      "steps": [
+        "Analytics and Export menu: Share to web, Download, Send to email",
+        "Send to email: PDF selected, IMAGE option, empty email, Send disabled",
+        "Email entered; Send email enabled; PDF still selected",
+        "Confirmation: 'Email will be sent shortly' under Send email"
+      ],
+      "steal": [
+        "The user picks PDF or image before sending (screens 2 to 4).",
+        "'Send' stays disabled until an email address is entered (screen 2).",
+        "The message 'Email will be sent shortly' appears without leaving the dashboard (screen 4)."
+      ],
+      "avoid": [],
+      "fit": "Reports: sends the report to people who will not open a link. It complements scheduled weekly or monthly digests without a report builder."
+    }
+  }
+}

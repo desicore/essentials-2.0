@@ -1,0 +1,225 @@
+{
+  "references": [
+    {
+      "kind": "flow",
+      "id": "mobbin:c0741e77-ac72-4f67-9b29-7a673ae0b0a3",
+      "url": "https://mobbin.com/flows/c0741e77-ac72-4f67-9b29-7a673ae0b0a3",
+      "app": "Square",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/F1qLaN5Z",
+        "https://mobbin.com/api/mcp/short/UbOFcT4f",
+        "https://mobbin.com/api/mcp/short/Fpcuneud"
+      ],
+      "take": "Home dashboard with Key Metrics section showing a handful of values (Net Sales, Transactions, Average Net Sale, Refunds) each with trend indicators (N/A) in a clean 2-column grid layout.",
+      "title": "Lean home with key metrics"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:545a744c-9b68-4b16-b3ce-25344345c93d",
+      "url": "https://mobbin.com/flows/545a744c-9b68-4b16-b3ce-25344345c93d",
+      "app": "Stripe",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/rLmew9C3",
+        "https://mobbin.com/api/mcp/short/bH1xrsR4"
+      ],
+      "take": "Home dashboard with Today section showing Gross volume, MYR balance, and Payouts metrics; detailed overview screen shows Payments status, Gross volume and Net volume from sales with trend charts spanning time periods."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:066793dc-d7b2-44ca-ab1b-7e67da3dbe78",
+      "url": "https://mobbin.com/flows/066793dc-d7b2-44ca-ab1b-7e67da3dbe78",
+      "app": "Square",
+      "platform": "web",
+      "jobs": [
+        "kpis"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/5YYmrFBE",
+        "https://mobbin.com/api/mcp/short/SWzJFtU4",
+        "https://mobbin.com/api/mcp/short/FpFufBHU",
+        "https://mobbin.com/api/mcp/short/WG4ppQhQ",
+        "https://mobbin.com/api/mcp/short/abAXGIUa"
+      ],
+      "take": "Comprehensive home dashboard with Banking balances, Sales metrics (Net Sales, Transactions with trend line chart), Customer summary, and Category/Item Sales breakdown, showing trend indicators throughout.",
+      "title": "Setup grid to full performance home"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:0389f55e-f49a-4d60-83b8-16a78349b91c",
+      "url": "https://mobbin.com/flows/0389f55e-f49a-4d60-83b8-16a78349b91c",
+      "app": "Jira",
+      "platform": "web",
+      "jobs": [
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/pOV6B4z5",
+        "https://mobbin.com/api/mcp/short/HvDdc9Tu",
+        "https://mobbin.com/api/mcp/short/zWkRG2fQ",
+        "https://mobbin.com/api/mcp/short/0J58Zp2m"
+      ],
+      "take": "Dashboard editing flow: user updates layout by reordering columns (Issue Type, Key, Summary, Priority) in the gadget configuration panel with drag-drop reordering, showing before/after layout states."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:58df3be1-dd99-487a-83db-b759ced6120e",
+      "url": "https://mobbin.com/flows/58df3be1-dd99-487a-83db-b759ced6120e",
+      "app": "Jira",
+      "platform": "web",
+      "jobs": [
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/5hThZcwq",
+        "https://mobbin.com/api/mcp/short/Ick8idCn",
+        "https://mobbin.com/api/mcp/short/ywEE3Az2"
+      ],
+      "take": "Dashboard layout customization showing 'Change layout' button triggering a modal with multiple layout option buttons (1-column, 2-column, 3-column, 4-column, grid variations) to reorder dashboard structure.",
+      "title": "Edit the default dashboard layout"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:e8c931f2-dc00-4c3f-9b4f-50b11564ab9e",
+      "url": "https://mobbin.com/flows/e8c931f2-dc00-4c3f-9b4f-50b11564ab9e",
+      "app": "Jira",
+      "platform": "web",
+      "jobs": [
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/NQOhNRDP",
+        "https://mobbin.com/api/mcp/short/wvoNyQex",
+        "https://mobbin.com/api/mcp/short/dpRhQRYv",
+        "https://mobbin.com/api/mcp/short/Lc6EuwBb"
+      ],
+      "take": "Dashboard creation flow with full widget selection: 'Add a Gadget' sidebar showing searchable widget library (Activity Stream, Assigned to Me, Average Age Chart, etc.) with Add buttons for each widget option.",
+      "title": "Create a dashboard and add gadgets"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:70a8e24c-74b8-4277-b462-c83338cfe532",
+      "url": "https://mobbin.com/flows/70a8e24c-74b8-4277-b462-c83338cfe532",
+      "app": "Apple Fitness",
+      "platform": "ios",
+      "jobs": [
+        "kpis",
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/xMlGJxub",
+        "https://mobbin.com/api/mcp/short/iViDGzEw",
+        "https://mobbin.com/api/mcp/short/VTFi8ASS",
+        "https://mobbin.com/api/mcp/short/f5axV5dO"
+      ],
+      "take": "Fitness summary with key metrics (Sessions, Awards with Move goal), Trends section with trend indicators, and 'Edit Summary' button to customize visible metrics."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:cc07ce80-8ace-42b4-a1fe-aadc01c7d4c8",
+      "url": "https://mobbin.com/flows/cc07ce80-8ace-42b4-a1fe-aadc01c7d4c8",
+      "app": "Apple Health",
+      "platform": "ios",
+      "jobs": [
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/E44GOJpA",
+        "https://mobbin.com/api/mcp/short/6CAXVQJe"
+      ],
+      "take": "Health summary showing Pinned metrics section with option to 'Unpin from Summary' or 'Pin to Summary' via toggle switch in the options menu."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:bd212f57-46f6-4ccc-9a73-07f7f2485441",
+      "url": "https://mobbin.com/flows/bd212f57-46f6-4ccc-9a73-07f7f2485441",
+      "app": "Apple Health",
+      "platform": "ios",
+      "jobs": [
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/pJOhLKIL",
+        "https://mobbin.com/api/mcp/short/SK8XELwT",
+        "https://mobbin.com/api/mcp/short/y2ccFud4",
+        "https://mobbin.com/api/mcp/short/ImY4P7SQ",
+        "https://mobbin.com/api/mcp/short/7ogVdue9"
+      ],
+      "take": "Edit List flow showing 'Pinned' metrics (Steps, Sleep Score, Cycle Tracking, State of Mind) and 'Activity' metrics (Active Energy, Activity, etc.) with drag-handles to reorder metrics in the summary."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:941f85ec-a38b-4d54-902f-fbc4c8e9295a",
+      "url": "https://mobbin.com/flows/941f85ec-a38b-4d54-902f-fbc4c8e9295a",
+      "app": "Oura",
+      "platform": "ios",
+      "jobs": [
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/753fRddk",
+        "https://mobbin.com/api/mcp/short/cKHqfC1n",
+        "https://mobbin.com/api/mcp/short/JOz0z6jl",
+        "https://mobbin.com/api/mcp/short/nBekBqlC",
+        "https://mobbin.com/api/mcp/short/v8UC8Zpr"
+      ],
+      "take": "Shortcuts customization flow showing reorderable shortcuts list (Readiness, Sleep, Resilience, Activity, Cycle day, Heart rate) with drag-handles and toggle buttons to pin/unpin metrics."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:2fb6db4b-a04d-4ffe-b7a5-6ebb219da761",
+      "url": "https://mobbin.com/flows/2fb6db4b-a04d-4ffe-b7a5-6ebb219da761",
+      "app": "Google Analytics",
+      "platform": "web",
+      "jobs": [
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/It0VgG0D",
+        "https://mobbin.com/api/mcp/short/lLvwcTBs",
+        "https://mobbin.com/api/mcp/short/RQRFWEhj"
+      ],
+      "take": "Cluttered analytics home dashboard showing multiple metric cards (Active users, Event count, New users, Key events), trend line charts, Recently accessed reports list, and Suggested widgets section—overwhelming widget density counter-example.",
+      "title": "Analytics home with many equal cards"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:c57aa056-5794-496f-8fa8-fada2f2e7e60",
+      "url": "https://mobbin.com/flows/c57aa056-5794-496f-8fa8-fada2f2e7e60",
+      "app": "Mixpanel",
+      "platform": "web",
+      "jobs": [
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/kQtfKYZ9",
+        "https://mobbin.com/api/mcp/short/32oG8JqI",
+        "https://mobbin.com/api/mcp/short/OZv5UbAM"
+      ],
+      "take": "Cluttered board detail showing multiple visualization types: flow diagrams, bar charts, sunburst charts, tables with many columns and rows, demonstrating info-dense counter-example with dozens of data points."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:9dced244-6a2a-476f-9b85-3d305f7b2f63",
+      "url": "https://mobbin.com/flows/9dced244-6a2a-476f-9b85-3d305f7b2f63",
+      "app": "Google Analytics",
+      "platform": "web",
+      "jobs": [
+        "widgets"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/rVmOMRCP",
+        "https://mobbin.com/api/mcp/short/CB5FK4GG",
+        "https://mobbin.com/api/mcp/short/SpLZmAvt"
+      ],
+      "take": "Cluttered realtime overview with world map visualization, multiple metric cards (Active users in last 30/5 minutes), bar charts, tables, and nested data filters creating a dense information wall counter-example."
+    }
+  ]
+}

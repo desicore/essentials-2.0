@@ -1,0 +1,64 @@
+{
+  "product": "mixpanel",
+  "flows": {
+    "mobbin:157d0155-3762-4ce7-81c3-aead25729dce": {
+      "summary": "From a board’s Subscribe popover (empty Email/Slack), user opens Create a Subscription, picks Weekly + day/time/timezone, adds a recipient via search, and is ready to Subscribe.",
+      "steps": [
+        "Subscribe popover — Email/Slack empty + Create New",
+        "Create Subscription modal — cadence + timezone",
+        "Weekly selected — day/time pickers",
+        "Add subscriber — name/email autocomplete",
+        "Subscriber chip listed — Send Test available"
+      ],
+      "steal": [
+        "Subscribe lives on the board chrome next to Share (step 0) — subscribe the view you’re looking at.",
+        "Email vs Slack tabs in one modal (steps 1–4) — channel without a second flow.",
+        "Send Test beside Subscribers (steps 1–4) — verify digest before go-live.",
+        "Empty state ‘No email subscriptions found for this board’ + Create New (step 0)."
+      ],
+      "avoid": [
+        "Full day + time + timezone before any default (steps 1–2) — clashes with zero-config weekly dean digests."
+      ],
+      "fit": "Board-level subscribe → automatic weekly/monthly email for deans; extends today’s hand-pulled reports without a builder.",
+      "counter_example": false
+    },
+    "mobbin:5d067428-a757-489e-83a9-b33e2d63e6b1": {
+      "summary": "User builds an Insights query with two metrics, country filter, and nested device×cohort breakdown, then switches Manual Segments and toggles cohort visibility on chart + pivot table.",
+      "steps": [
+        "Insights — metrics A/B + device×cohort table",
+        "Manual Segments — cohort visibility checkboxes",
+        "Cohort rows toggled — chart series update",
+        "Multi-line chart + nested pivot restored"
+      ],
+      "steal": [
+        "Nested Metric → device type → cohort rows with Average + day columns (steps 0–3) — matrix comparable by segment.",
+        "Color checkboxes in the table drive chart lines (steps 1–3) — one control for both views.",
+        "Breakdown chips in the query rail (device type, cohort) (all steps) — segments named, not buried in filters."
+      ],
+      "avoid": [
+        "Full query builder (metrics + filter + breakdown) as the first cut (all steps) — Baseline favours zero-config defaults over deep builders."
+      ],
+      "fit": "Maps to Performance Matrix / Group Performance cohort compare by course·year·learner — ship as defaults, not free-form Insights.",
+      "counter_example": false
+    },
+    "mobbin:09f6e5da-eaa5-4633-9a33-231f800317f6": {
+      "summary": "From an Insights chart, user opens Compare → Time Period, picks Previous day (or other presets), then sees Past Avg columns and green/red % deltas vs the prior period.",
+      "steps": [
+        "Insights day view — breakdown table",
+        "Hour/Yesterday range on chart",
+        "Compare menu — Time Period / Segment / % Overall",
+        "Time Period presets — previous day/7d/30d/year",
+        "Compare to previous day on — Past Avg columns",
+        "Table shows colour % change vs prior period"
+      ],
+      "steal": [
+        "Compare splits Time Period vs Segment vs % Overall (steps 2–3) — period and cohort aren’t one muddled control.",
+        "Preset previous day/7d/30d/3m/year/Custom (step 3) — period-over-period without custom dates.",
+        "‘Compare to previous day’ chip + Past Avg + % deltas (steps 4–5) — narrative change at a glance."
+      ],
+      "avoid": [],
+      "fit": "Period-over-period for utilisation and faculty/learner KPIs — extends Performance Matrix without accreditation packs.",
+      "counter_example": false
+    }
+  }
+}

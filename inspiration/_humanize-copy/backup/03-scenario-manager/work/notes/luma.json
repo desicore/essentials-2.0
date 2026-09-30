@@ -1,0 +1,27 @@
+{
+  "product": "luma",
+  "flows": {
+    "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c": {
+      "summary": "Event host opens Scan to Check In, points the phone camera at a guest ticket QR, confirms the guest card (name/email/Going), taps Check In, then returns to the scanner with a Guest checked in toast.",
+      "steps": [
+        "Host scanner — point at ticket QR",
+        "Guest card modal — Check In",
+        "Success toast — resume scanning"
+      ],
+      "steal": [
+        "Explicit copy: Point the camera at a ticket QR code (steps 0, 2) — makes scanner role unambiguous.",
+        "Guest confirmation sheet before commit (step 1) — name/email/status then Check In.",
+        "Transient Guest checked in banner while scanner stays open (step 2) — queue throughput.",
+        "List vs Scan toggle + search escape hatch (steps 0, 2)."
+      ],
+      "avoid": [
+        "Host scanning guest tickets as the model for room-TV feedback QR — inverts who holds the code."
+      ],
+      "fit": "Counter to Essentials checklist-qr (learner/phone reads TV QR without login); only weak adjacent for staff verifying attendance at the door.",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "counter_example": true
+    }
+  }
+}

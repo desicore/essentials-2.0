@@ -1,0 +1,20 @@
+{
+  "product": "halide",
+  "flows": {
+    "mobbin:d9108d06-2686-4dcb-b1da-6847d7e5a655": {
+      "summary": "In Halide's viewfinder the user switches labeled zoom stops from 1x to 2x, with no pan, tilt or continuous zoom control.",
+      "steps": [
+        "Viewfinder with .5, 1x, 2 stops; 1x on",
+        "Viewfinder with 2x selected in yellow"
+      ],
+      "steal": [
+        "Labeled stops (.5, 1x, 2) replace a continuous zoom slider (screen 1).",
+        "The active stop fills yellow (screen 2), so current magnification is obvious."
+      ],
+      "avoid": [
+        "Do not treat this as full PTZ, because the screens show only labeled zoom stops with no pan, tilt, presets or click-to-point."
+      ],
+      "fit": "Recording: informs simplified zoom outside or beside SRV live view with labeled stops for faculty. It does not replace a 360 flatten or PTZ joystick."
+    }
+  }
+}

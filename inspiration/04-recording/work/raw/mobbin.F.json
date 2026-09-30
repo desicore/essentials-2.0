@@ -1,0 +1,245 @@
+{
+  "references": [
+    {
+      "id": "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Turning on push-to-talk",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7",
+      "platform": "ios",
+      "jobs": ["announcements"],
+      "take": "Hold-to-talk toggle with visual indicator; shows talking state with microphone icon active during push.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/NVQwltau",
+        "https://mobbin.com/api/mcp/short/rdAqKNag",
+        "https://mobbin.com/api/mcp/short/8nl4mHRc",
+        "https://mobbin.com/api/mcp/short/sqqQvuO6"
+      ]
+    },
+    {
+      "id": "mobbin:05c7ad30-eabf-4fd1-8b09-1a0e37acc80d",
+      "source": "mobbin",
+      "app": "Claude",
+      "title": "Switching to push to talk mode",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/05c7ad30-eabf-4fd1-8b09-1a0e37acc80d",
+      "platform": "ios",
+      "jobs": ["announcements"],
+      "take": "Settings panel shows 'Push to talk — Hold to speak, release to send' mode description; flow shows hold state and release confirmation.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/dLj8RbvG",
+        "https://mobbin.com/api/mcp/short/CT4EOLZh",
+        "https://mobbin.com/api/mcp/short/JxAuHKBs",
+        "https://mobbin.com/api/mcp/short/xdWT5kSZ"
+      ]
+    },
+    {
+      "id": "mobbin:f9b9d253-9625-41b1-aa02-bedad412dee4",
+      "source": "mobbin",
+      "app": "Claude",
+      "title": "Asking Claude (push to talk mode)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f9b9d253-9625-41b1-aa02-bedad412dee4",
+      "platform": "ios",
+      "jobs": ["announcements"],
+      "take": "Full push-to-talk interaction: shows 'Push to talk' button, recording state with waveform visualization, and talking indicator with release to send.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ymdwGehG",
+        "https://mobbin.com/api/mcp/short/PPx9UoBS",
+        "https://mobbin.com/api/mcp/short/OeIF3k8r",
+        "https://mobbin.com/api/mcp/short/W6LoJJ1S"
+      ]
+    },
+    {
+      "id": "mobbin:733511f4-a722-47e7-8ae1-8a752966204f",
+      "source": "mobbin",
+      "app": "Perplexity",
+      "title": "Asking Perplexity (push to talk)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/733511f4-a722-47e7-8ae1-8a752966204f",
+      "platform": "ios",
+      "jobs": ["announcements"],
+      "take": "Push-to-talk during active recording; shows 'Press and hold while speaking' instruction, microphone recording button, and visual feedback of active talk state.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/49I6B2wM",
+        "https://mobbin.com/api/mcp/short/loazmkoY",
+        "https://mobbin.com/api/mcp/short/9fSXzSOM",
+        "https://mobbin.com/api/mcp/short/qXMIe0aD",
+        "https://mobbin.com/api/mcp/short/dtIyWyvc"
+      ]
+    },
+    {
+      "id": "mobbin:0ec05115-d4c2-4baf-9157-2cd521526edd",
+      "source": "mobbin",
+      "app": "Sonos",
+      "title": "Switch system",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/0ec05115-d4c2-4baf-9157-2cd521526edd",
+      "platform": "ios",
+      "jobs": ["start-stop", "device-check"],
+      "take": "System selection flow; shows current active room/system, 'Groups' menu for multi-room setup, and ability to switch between systems.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/QA7wFqcv",
+        "https://mobbin.com/api/mcp/short/4klow50M"
+      ]
+    },
+    {
+      "id": "mobbin:90a9facc-5cff-49eb-9f79-335bf704a149",
+      "source": "mobbin",
+      "app": "Spotify",
+      "title": "Connecting to a device",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/90a9facc-5cff-49eb-9f79-335bf704a149",
+      "platform": "ios",
+      "jobs": ["start-stop", "device-check"],
+      "take": "Device selection and error handling; shows successful device connection UI, error state 'Don't see your device?', and troubleshooting guidance.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FWYSdHYN",
+        "https://mobbin.com/api/mcp/short/vm9mGeYw",
+        "https://mobbin.com/api/mcp/short/ZeCv7DKe",
+        "https://mobbin.com/api/mcp/short/eITODLHF",
+        "https://mobbin.com/api/mcp/short/oH5ycq5u"
+      ]
+    },
+    {
+      "id": "mobbin:365fafa5-6112-4182-bd11-42e3dd1c914a",
+      "source": "mobbin",
+      "app": "WRITER",
+      "title": "Creating a routine",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/365fafa5-6112-4182-bd11-42e3dd1c914a",
+      "platform": "web",
+      "jobs": ["announcements"],
+      "take": "Multi-step routine builder showing scheduling configuration, time-based triggers, and workflow setup for automated messages.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/vcv51NU2",
+        "https://mobbin.com/api/mcp/short/ZN1WiyBL",
+        "https://mobbin.com/api/mcp/short/euO2Ry94",
+        "https://mobbin.com/api/mcp/short/2GeYYMB7",
+        "https://mobbin.com/api/mcp/short/raWHsxUW",
+        "https://mobbin.com/api/mcp/short/SkrIa1Ml",
+        "https://mobbin.com/api/mcp/short/wnqP16bj",
+        "https://mobbin.com/api/mcp/short/hBikL7lk",
+        "https://mobbin.com/api/mcp/short/KCLlTk5I",
+        "https://mobbin.com/api/mcp/short/3FsSofJK"
+      ]
+    },
+    {
+      "id": "mobbin:5a85acae-251f-4a89-8b61-20b3dc15a020",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Creating a workflow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5a85acae-251f-4a89-8b61-20b3dc15a020",
+      "platform": "web",
+      "jobs": ["announcements"],
+      "take": "Scheduled message workflow for Slack; shows time-based triggering 'Starts Today at 8:00am', message composition, and recipient targeting.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/yODMplKf",
+        "https://mobbin.com/api/mcp/short/5ixE2CyO",
+        "https://mobbin.com/api/mcp/short/bZi7IfIB",
+        "https://mobbin.com/api/mcp/short/dQrPXU71",
+        "https://mobbin.com/api/mcp/short/2jzMhhaY"
+      ]
+    },
+    {
+      "id": "mobbin:504afb1f-fdf9-46c1-b18f-1376d558ebcd",
+      "source": "mobbin",
+      "app": "Manus",
+      "title": "Creating a new schedule",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/504afb1f-fdf9-46c1-b18f-1376d558ebcd",
+      "platform": "web",
+      "jobs": ["announcements"],
+      "take": "Schedule creation dialog showing time picker, recurrence options (e.g., 'Every day at 9:00 AM'), and confirmation feedback 'Your scheduled task has been created'.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/2RLJsmuf",
+        "https://mobbin.com/api/mcp/short/92Wa9bNR",
+        "https://mobbin.com/api/mcp/short/f26VoLsY",
+        "https://mobbin.com/api/mcp/short/ziaSV1aP"
+      ]
+    },
+    {
+      "id": "mobbin:72c7723c-960c-45c5-9158-b22949be685c",
+      "source": "mobbin",
+      "app": "Zoom",
+      "title": "Muting an audio",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/72c7723c-960c-45c5-9158-b22949be685c",
+      "platform": "web",
+      "jobs": ["start-stop", "device-check"],
+      "take": "Mute state feedback; shows 'You are muted' overlay on video feed with mute icon, microphone selection, and speaker options during recording.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/JrEPYUBA",
+        "https://mobbin.com/api/mcp/short/BZfbLkDQ",
+        "https://mobbin.com/api/mcp/short/SY0rBRRS"
+      ]
+    },
+    {
+      "id": "mobbin:e774e41f-3fa0-4fe8-90a9-a784b933676b",
+      "source": "mobbin",
+      "app": "VEED",
+      "title": "Muting a microphone",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e774e41f-3fa0-4fe8-90a9-a784b933676b",
+      "platform": "web",
+      "jobs": ["start-stop", "device-check"],
+      "take": "Explicit warning 'Your microphone is muted. Unmute' displayed as overlay during recording; shows muted icon feedback and unmute action.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5sXlWKC3",
+        "https://mobbin.com/api/mcp/short/JDKT22zU",
+        "https://mobbin.com/api/mcp/short/a9AkdOq1",
+        "https://mobbin.com/api/mcp/short/sidrhtsh"
+      ]
+    },
+    {
+      "id": "mobbin:9208cefa-15c0-4d26-9688-f7a6f357b8bd",
+      "source": "mobbin",
+      "app": "Asana",
+      "title": "Record a video",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9208cefa-15c0-4d26-9688-f7a6f357b8bd",
+      "platform": "web",
+      "jobs": ["start-stop", "device-check"],
+      "take": "Recording error state; modal shows 'No another connection' error in red while recording session with video preview.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/XUBQhLlz",
+        "https://mobbin.com/api/mcp/short/L2IgMEnM",
+        "https://mobbin.com/api/mcp/short/Ht8fopty"
+      ]
+    },
+    {
+      "id": "mobbin:bc9b1fc4-affc-4f2b-b627-d48dbf7e43f0",
+      "source": "mobbin",
+      "app": "Obvious",
+      "title": "Generate an image (upload file)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/bc9b1fc4-affc-4f2b-b627-d48dbf7e43f0",
+      "platform": "web",
+      "jobs": ["start-stop", "device-check"],
+      "take": "Upload failure with recovery: shows 'Failed to Load File' error message with 'Try Again' and 'Download Original' retry actions.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/mlzivqZ9",
+        "https://mobbin.com/api/mcp/short/JG0rB29G",
+        "https://mobbin.com/api/mcp/short/ynpZQKDS"
+      ]
+    },
+    {
+      "id": "mobbin:97d3f401-44c3-430b-ac7e-11e365f63072",
+      "source": "mobbin",
+      "app": "Riverside",
+      "title": "Update access",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/97d3f401-44c3-430b-ac7e-11e365f63072",
+      "platform": "web",
+      "jobs": ["start-stop", "device-check"],
+      "take": "Error handling during recording session: shows red banner error 'An error occurred, please try again later' with dismissal option.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/pgHwnGqV",
+        "https://mobbin.com/api/mcp/short/HsxqEqvs",
+        "https://mobbin.com/api/mcp/short/KDT3k8be"
+      ]
+    }
+  ]
+}

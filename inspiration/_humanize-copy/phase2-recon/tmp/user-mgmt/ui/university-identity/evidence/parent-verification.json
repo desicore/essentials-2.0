@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-08T15:15:50.771995+00:00",
+  "priorFilesChecked": 901,
+  "changedFiles": [],
+  "page1BoardMutations": 0,
+  "reportBrowser": "Google Chrome native UI",
+  "uiChecks": [
+    "The final report opens locally and shows 32 of 32 references.",
+    "In the initial build, searching Intercom isolated its complete 13-step flow; the final image shows 0 created, 0 updated, and 9 errors.",
+    "The final Mobbin source filter shows 5 of 32 references.",
+    "The WorkOS saved-state image opens at full size, with the complete screenshot and attribution intact.",
+    "The report is readable at a 1224-pixel viewport."
+  ],
+  "status": "passed",
+  "reportReferences": 32,
+  "reportImages": 69,
+  "reportSha256": "5012d4e8414837142b48ef90e1aa0b7e2739c4a68aaaf6831f5fb252d898ef4f",
+  "figjamTestRow": {
+    "checkedAt": "2026-09-08T15:30:05.696035+00:00",
+    "pageId": "5:422",
+    "imageNodeId": "100:423",
+    "status": "passed",
+    "method": "Native Figma screenshot at zoom-to-selection; AX source-link inspection",
+    "observed": "Real uncropped Zendesk SAML configuration screenshot renders with sidebar, all fields, Save and Cancel. Source links point to the actual Refero screen."
+  }
+}

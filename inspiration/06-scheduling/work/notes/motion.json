@@ -1,0 +1,28 @@
+{
+  "product": "motion",
+  "flows": {
+    "mobbin:afb6188a-6313-41c8-a2b6-c19e7f876c8d": {
+      "summary": "The user connects Google (or Outlook/iCloud), accepts Calendar/Email/Contacts permissions that include writing meetings, picks a main calendar and busy calendars, then sets weekly work hours.",
+      "steps": [
+        "Connect calendars: Google, Outlook, iCloud",
+        "Permissions: Calendar write, Email, Contacts",
+        "Account linked: connect another",
+        "Select main calendar (create default)",
+        "Select calendars for availability",
+        "Toggle sub-calendars (e.g. Birthdays)",
+        "Set weekly work hours"
+      ],
+      "steal": [
+        "Permission wording states write behaviours: create meetings, sync events, block times (screen 2), which makes two-way explicit.",
+        "Main calendar is the default write target when creating events (screen 4).",
+        "Calendars that belong to you for availability are separate from holiday noise (screens 5 to 6).",
+        "You can skip calendar connect and still create meetings in-app (screen 1)."
+      ],
+      "avoid": [
+        "Email and Contacts scopes on the same screen may be heavier than Essentials needs for Outlook sync."
+      ],
+      "fit": "Scheduling: best cheap pattern for Outlook/Google sync setup: provider, scopes, write-target calendar, busy calendars, work hours. Maps to conflict detection without building Motion's AI scheduler.",
+      "counter_example": false
+    }
+  }
+}

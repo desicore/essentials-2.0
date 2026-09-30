@@ -1,0 +1,24 @@
+{
+  "product": "amplitude",
+  "flows": {
+    "mobbin:a2ee58b7-b7cc-4381-819b-3dc0299734e7": {
+      "summary": "From a dashboard's 'Subscribe' button, the user sets up a recurring email or Slack delivery with a one-line schedule, a CSV file and subscribers, then edits the saved subscription.",
+      "steps": [
+        "Dashboard header with Subscribe and Share",
+        "Subscribe window: schedule sentence, CSV, add subscribers",
+        "Success message and editable subscribed row, then Done"
+      ],
+      "steal": [
+        "The schedule reads as one sentence, 'Every [day] at [time]', with a CSV attachment (screen 2).",
+        "A time zone line ('Showing times as...') sits above the schedule, so recipients on different campuses share one clock (screens 2 to 3).",
+        "After saving, a green message appears and the schedule stays editable, so you can pause or change it without starting over (screen 3).",
+        "A search box under the schedule adds subscribers, which supports digests for people who may not have an account (screens 2 to 3)."
+      ],
+      "avoid": [
+        "CSV is the only default format, but deans need a PDF or a written newsletter rather than a raw data file (screens 2 to 3)."
+      ],
+      "fit": "Reports: the closest pattern for automatic weekly or monthly digests for deans from a fixed dashboard. It is a ready-made subscription instead of packs put together by hand.",
+      "counter_example": false
+    }
+  }
+}

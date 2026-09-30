@@ -1,0 +1,52 @@
+{
+  "product": "airwallex",
+  "flows": {
+    "mobbin:f8f82b62-60bc-404c-a1c1-af41afce5b9f": {
+      "summary": "From Spend reimbursements the user opens 'Upload receipts', watches upload then AI matching, reviews vendor and amount, and chooses 'Card expense' or 'Reimbursement' (or Delete or Skip).",
+      "steps": [
+        "Spend reimbursements list with add button",
+        "Add menu shows Upload receipts",
+        "Uploading receipts with progress bar",
+        "Matching receipts with AI sparkle",
+        "Receipts ready with extracted card",
+        "Match panel: Card expense or Reimbursement"
+      ],
+      "steal": [
+        "While Uploading and Matching, the screen says you can 'upload more while they match', so a batch can keep going (screens 3–4).",
+        "A 'Matching…' sparkle on the file row makes the AI wait visible before results (screen 4).",
+        "A ready-to-review card shows vendor, date, amount, and thumbnail so you can glance-check automatic text reading from a photo or scan (OCR) before deep edit (screen 5).",
+        "The match panel offers primary and secondary destinations plus Delete and Skip for unmatched or wrong extracts (screen 6)."
+      ],
+      "avoid": [
+        "The 'Card expense' vs 'Reimbursement' fork is spend-ledger routing; inventory needs match-to-shelf, create-item, or flag-shortage, not payment buckets (screen 6)."
+      ],
+      "fit": "Inventory: maps to AI equipment analysis as upload a list, extract with AI, review, then match or route unmatched rows; receipt-to-expense becomes list-to-shelf match and shortages.",
+      "counter_example": false
+    },
+    "mobbin:30099a43-f093-441a-b868-b6a69e2da697": {
+      "summary": "From empty Bills the user opens 'Add new bill', drops an invoice, waits through 'Extracting bill details', edits lines with 'Match with PO', comments, submits, and lands on statused Bills.",
+      "steps": [
+        "Spend home with Bills and Expenses",
+        "Bills empty table with New bill",
+        "Add bill dropzone and empty form",
+        "Extracting bill details pop-up",
+        "Split view with filled header fields",
+        "Line items with Match with PO",
+        "Comments draft note before submit",
+        "Comments posted history entry",
+        "Bills list success message and statuses"
+      ],
+      "steal": [
+        "Source PDF on the left and structured form on the right lets you verify the extract while editing (screens 5–8).",
+        "The 'Extracting…' pop-up says 'up to a minute', so the AI wait is honest without freezing the form (screen 4).",
+        "'Match with PO' on each extracted line links parsed text to an existing catalog or purchase order (screens 6–7).",
+        "Draft, Pending approval, and Overdue on the table after submit show the lifecycle after an AI create (screen 9)."
+      ],
+      "avoid": [
+        "The marketing Spend home and accounting-connect promos add noise before the extract and match work (screen 1)."
+      ],
+      "fit": "Inventory: nearby pattern for AI equipment analysis: upload a scenario list, extract lines, match each to the shelf or catalog, then save a draft or flag gaps. Overdue also models late returns.",
+      "counter_example": false
+    }
+  }
+}

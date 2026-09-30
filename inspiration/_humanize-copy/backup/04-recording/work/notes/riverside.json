@@ -1,0 +1,63 @@
+{
+  "product": "riverside",
+  "flows": {
+    "mobbin:98d1b7e8-cff5-47a9-84e7-278eb2650ae0": {
+      "summary": "During an active live recording the host taps Mark Clip; a toast confirms a timestamped clip and the button badge increments the marker count.",
+      "steps": [
+        "Live REC with Mark Clip on toolbar",
+        "Toast Clip created from marker + Mark Clip (3)"
+      ],
+      "steal": [
+        "One-tap Mark Clip on the live control bar (no form) while REC and upload % stay visible (step Live REC with Mark Clip).",
+        "Toast with absolute timestamp: 00:03:59 Clip created from marker, dismissible (step Toast Clip created).",
+        "Button label gains count Mark Clip (3) so overlapping markers stay countable (step Toast Clip created).",
+        "Per-participant upload health: 720p 97% uploaded beside REC in People panel (step Live REC with Mark Clip)."
+      ],
+      "avoid": [],
+      "fit": "Extends SRV live/control capture: quick-tag markers that later land on the existing timeline marker row above chapters; count badge helps the known overlapping-marker risk."
+    },
+    "mobbin:97d3f401-44c3-430b-ac7e-11e365f63072": {
+      "summary": "Host opens Invite people (link/email + roles); a red banner says An error occurred, please try again later with no cause or recovery path.",
+      "steps": [
+        "Invite people modal over studio (audio-only banner)",
+        "Role dropdown Audience / Guest / Producer",
+        "Generic red error toast over invite modal"
+      ],
+      "steal": [
+        "Invite roles with plain-language copy: Audience vs Guest vs Producer not recorded (step Role dropdown).",
+        "Audio only: Video won't be recorded… with Switch to video recording shortcut (step Invite people modal)."
+      ],
+      "avoid": [
+        "Generic An error occurred, please try again later with no failed action, cause, or retry — unusable for non-technical faculty mid-session."
+      ],
+      "fit": "Counter-example for control-room errors outside SRV: invite/check-in failures must name the action and next step, not a dismiss-only banner over the Invite modal.",
+      "jobs": [
+        "participant-tagging"
+      ],
+      "counter_example": true
+    },
+    "mobbin:7a5685e7-9d0d-44c5-afe1-4cdc3eef545d": {
+      "summary": "Host opens a Riverside studio, chooses Start recording vs Run test recording, waits through a 3-2-1 countdown, then watches live REC with Stop, Mark Clip, and upload %.",
+      "steps": [
+        "Studio ready — Start + invite tile",
+        "Record menu — Start vs Run test recording",
+        "Countdown overlay + Starting… + Mark Clip",
+        "Live REC — Stop timer + upload %"
+      ],
+      "steal": [
+        "Record split: Start recording vs Run test recording (stopwatch) on the same red control (step Record menu).",
+        "Large numeric countdown on the video with control label Starting… before REC (step Countdown overlay).",
+        "Stop shows elapsed time (00:27) and stays separate from Leave (step Live REC).",
+        "Header REC pill plus ↑ 93% Uploading… and per-host 720p / 93% uploaded in People (step Live REC)."
+      ],
+      "avoid": [
+        "Empty Invite people tile equal to the live feed on the main stage — competes with monitoring during start."
+      ],
+      "fit": "Models control-room start/stop outside SRV (one-button Start, optional test pass, countdown, REC + upload health); Mark Clip seeds the same timeline markers SRV already shows under the video.",
+      "jobs": [
+        "start-stop",
+        "device-check"
+      ]
+    }
+  }
+}

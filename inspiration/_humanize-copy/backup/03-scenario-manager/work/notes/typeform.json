@@ -1,0 +1,24 @@
+{
+  "product": "typeform",
+  "flows": {
+    "mobbin:f8d34d78-f96d-4686-bfec-a453ee6ba89f": {
+      "summary": "Author edits a multiple-choice question with Required/multi-select toggles, opens Share to copy a public link (with URL params), then downloads a QR code from a modal\u2014no respondent login toggle shown.",
+      "steps": [
+        "Create \u2014 multiple choice + Required toggle",
+        "Share \u2014 copy link + embed options",
+        "Get the QR code \u2014 download modal"
+      ],
+      "steal": [
+        "Share hub with Copy link beside Customize, email, QR, and mobile-preview icons so TV QR and link share share one surface (step 2).",
+        "Get the QR code modal with large scannable code + Download QR Code for printing/display on a room screen (step 3).",
+        "Left rail Share the link / Embed in an email / Embed in a web page for alternate distribution without rebuilding the form (step 2).",
+        "Per-question Required toggle on the author canvas before publish (step 1)."
+      ],
+      "avoid": [
+        "Social Share in strip and Canva thumbnail design (step 2) \u2014 sim-room checklists need ops distribution (TV/QR/link), not marketing OG previews."
+      ],
+      "fit": "Maps to author-side checklist-qr: generate a link + downloadable QR for the room TV; public link with optional URL params covers identified vs anonymous without forcing a respondent login screen.",
+      "counter_example": false
+    }
+  }
+}

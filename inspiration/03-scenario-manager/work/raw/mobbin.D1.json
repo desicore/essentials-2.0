@@ -1,0 +1,298 @@
+{
+  "references": [
+    {
+      "id": "mobbin:b472f2dd-0057-4fe8-aaa2-6c2c40a91413",
+      "source": "mobbin",
+      "app": "Arcade",
+      "title": "Adding from interactive demo",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b472f2dd-0057-4fe8-aaa2-6c2c40a91413",
+      "images": [
+        "https://mobbin.com/api/mcp/short/RphcPRJ2",
+        "https://mobbin.com/api/mcp/short/UQ0ihNi2",
+        "https://mobbin.com/api/mcp/short/ApJGDcTP"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "User selects and imports an interactive demo template with pre-built hotspots and instructions."
+    },
+    {
+      "id": "mobbin:9b7b370a-b591-4494-b083-228f11e6f061",
+      "source": "mobbin",
+      "app": "Arcade",
+      "title": "Creating an interactive demo",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9b7b370a-b591-4494-b083-228f11e6f061",
+      "images": [
+        "https://mobbin.com/api/mcp/short/VyQcVNAO",
+        "https://mobbin.com/api/mcp/short/KJv6jR76",
+        "https://mobbin.com/api/mcp/short/GCzCxojc",
+        "https://mobbin.com/api/mcp/short/2OO9Q1WA",
+        "https://mobbin.com/api/mcp/short/GidaH0jL",
+        "https://mobbin.com/api/mcp/short/TyNurwXi",
+        "https://mobbin.com/api/mcp/short/Nc5VKqYP",
+        "https://mobbin.com/api/mcp/short/Cv0GglSy"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Complete demo authoring flow: import screens, add interactive elements, annotate with captions and hotspot text, preview as learner, publish with shareable link."
+    },
+    {
+      "id": "mobbin:644ef98c-516f-47e4-97e5-ee9ce4635793",
+      "source": "mobbin",
+      "app": "Arcade",
+      "title": "Generating a voiceover (hotspot)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/644ef98c-516f-47e4-97e5-ee9ce4635793",
+      "images": [
+        "https://mobbin.com/api/mcp/short/gsP71MiL",
+        "https://mobbin.com/api/mcp/short/VOEiTpng"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Faculty adds AI-generated or custom voiceover narration to demo hotspots and interactive steps."
+    },
+    {
+      "id": "mobbin:28f82c47-814d-40c8-ae0f-53a718dc689c",
+      "source": "mobbin",
+      "app": "Navattic",
+      "title": "Editing a capture",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/28f82c47-814d-40c8-ae0f-53a718dc689c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/SSEfcQwk",
+        "https://mobbin.com/api/mcp/short/SyxfevuS",
+        "https://mobbin.com/api/mcp/short/dcABWjak"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Edit auto-captured steps: refine descriptions, adjust hotspot placement, add or remove highlights, save as reusable template."
+    },
+    {
+      "id": "mobbin:ee101304-20dd-4184-8df6-ed417020ca0e",
+      "source": "mobbin",
+      "app": "Navattic",
+      "title": "Adding a new flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/ee101304-20dd-4184-8df6-ed417020ca0e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/QNMQCvFR",
+        "https://mobbin.com/api/mcp/short/uXou5Kxo",
+        "https://mobbin.com/api/mcp/short/sZfbB17d"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Start a new interactive demo flow, browse library of app templates, select capture type (web walkthrough)."
+    },
+    {
+      "id": "mobbin:01060d9d-b2ab-47ed-acd9-623de7f3c087",
+      "source": "mobbin",
+      "app": "Skype",
+      "title": "Sending a video message",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/01060d9d-b2ab-47ed-acd9-623de7f3c087",
+      "images": [
+        "https://mobbin.com/api/mcp/short/4m3n7cHw",
+        "https://mobbin.com/api/mcp/short/xtQhmnxp",
+        "https://mobbin.com/api/mcp/short/vKU5lD5G",
+        "https://mobbin.com/api/mcp/short/D05vPT2D"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Record and send a video message with camera/screen capture, visible in chat and shareable with learners."
+    },
+    {
+      "id": "mobbin:19109670-0cda-4517-aa03-58013dfdfd44",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Recording a video clip",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/19109670-0cda-4517-aa03-58013dfdfd44",
+      "images": [
+        "https://mobbin.com/api/mcp/short/fEMnERRr",
+        "https://mobbin.com/api/mcp/short/LvWsGDjP",
+        "https://mobbin.com/api/mcp/short/WnPaheq3",
+        "https://mobbin.com/api/mcp/short/0nRtSyTF",
+        "https://mobbin.com/api/mcp/short/roxjnGGd",
+        "https://mobbin.com/api/mcp/short/ZGxXe570",
+        "https://mobbin.com/api/mcp/short/1dJ87IiY"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Record video, screen share, or file upload in Slack; publish and share in channels or direct messages for learner access."
+    },
+    {
+      "id": "mobbin:387a61ba-36e9-41af-aa73-281fa1f1674d",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Sharing a video link",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/387a61ba-36e9-41af-aa73-281fa1f1674d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/yn8WWrtb",
+        "https://mobbin.com/api/mcp/short/FhxcmWp1",
+        "https://mobbin.com/api/mcp/short/bfHJjVm9",
+        "https://mobbin.com/api/mcp/short/tagaxLBG"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Upload video to Vimeo library, customize title and description, generate shareable link with access controls for learners."
+    },
+    {
+      "id": "mobbin:98032d4a-7cd9-4d93-8993-43d0df586eec",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Adding a text and image block",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/98032d4a-7cd9-4d93-8993-43d0df586eec",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ZRz9uyBY",
+        "https://mobbin.com/api/mcp/short/Wvy1KMq3",
+        "https://mobbin.com/api/mcp/short/rzcmnQ4U",
+        "https://mobbin.com/api/mcp/short/EXqpn4DD",
+        "https://mobbin.com/api/mcp/short/UMfNs9OH"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Add rich text (formatted) and image blocks to a lesson, configure with AI assistant help, preview before publishing."
+    },
+    {
+      "id": "mobbin:6503a1e8-5c59-4769-aff8-09ea66e64dcb",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Adding lesson content",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6503a1e8-5c59-4769-aff8-09ea66e64dcb",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KeZvvC99",
+        "https://mobbin.com/api/mcp/short/OtK8xSNX",
+        "https://mobbin.com/api/mcp/short/uZ8DxOVV",
+        "https://mobbin.com/api/mcp/short/lHysXs5F"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Create lesson with featured video, publish or leave as draft, view as learner sees it, manage lesson status."
+    },
+    {
+      "id": "mobbin:8c62da99-7eb3-46dd-9610-d7d932070129",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Adding a quiz",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8c62da99-7eb3-46dd-9610-d7d932070129",
+      "images": [
+        "https://mobbin.com/api/mcp/short/z9AtVejK",
+        "https://mobbin.com/api/mcp/short/D5uGiChn",
+        "https://mobbin.com/api/mcp/short/Sfth4UBV",
+        "https://mobbin.com/api/mcp/short/W3UCy2ha",
+        "https://mobbin.com/api/mcp/short/7plbJGrO",
+        "https://mobbin.com/api/mcp/short/u63jzgQn",
+        "https://mobbin.com/api/mcp/short/mag7NbFo",
+        "https://mobbin.com/api/mcp/short/kHRsm8ka"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Create quiz block with multiple questions, configure grading rules and instant answer feedback, manage compliance settings."
+    },
+    {
+      "id": "mobbin:77e2f3ca-9cca-4744-927c-da7a758ecf7d",
+      "source": "mobbin",
+      "app": "Employment Hero",
+      "title": "Adding a checklist",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/77e2f3ca-9cca-4744-927c-da7a758ecf7d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/8vzqbQOT",
+        "https://mobbin.com/api/mcp/short/i60IEsQy",
+        "https://mobbin.com/api/mcp/short/UrwAsdm8",
+        "https://mobbin.com/api/mcp/short/4OTi1vvU",
+        "https://mobbin.com/api/mcp/short/8qTUp4bu",
+        "https://mobbin.com/api/mcp/short/U4SiR2Wa",
+        "https://mobbin.com/api/mcp/short/MFjnTHBc",
+        "https://mobbin.com/api/mcp/short/DNVGzJl9"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Create onboarding checklist with task list, assign to user roles/teams, configure when checklist triggers and who receives it."
+    },
+    {
+      "id": "mobbin:4ddf1a88-5026-45d5-a401-1b69b8b2ec50",
+      "source": "mobbin",
+      "app": "Charma",
+      "title": "Starting quick start guide",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4ddf1a88-5026-45d5-a401-1b69b8b2ec50",
+      "images": [
+        "https://mobbin.com/api/mcp/short/NnJrV6hw",
+        "https://mobbin.com/api/mcp/short/aszjM0lm",
+        "https://mobbin.com/api/mcp/short/2cy4h80G",
+        "https://mobbin.com/api/mcp/short/4hHQEfpc",
+        "https://mobbin.com/api/mcp/short/oPXBpCtp"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Launch quick start guide to help learners onboard, connect calendars, add action items, discover features step-by-step."
+    },
+    {
+      "id": "mobbin:b89f3232-71f8-4f6d-a0c7-53b4408ec8a2",
+      "source": "mobbin",
+      "app": "Obvious",
+      "title": "Creating an artifact (slides)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b89f3232-71f8-4f6d-a0c7-53b4408ec8a2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/UngLBpGo",
+        "https://mobbin.com/api/mcp/short/hojOWghf",
+        "https://mobbin.com/api/mcp/short/i1LcvTfk",
+        "https://mobbin.com/api/mcp/short/R07nt3lZ",
+        "https://mobbin.com/api/mcp/short/qgjKrh0f",
+        "https://mobbin.com/api/mcp/short/Zqd0qU7f",
+        "https://mobbin.com/api/mcp/short/E8ZpzsSG",
+        "https://mobbin.com/api/mcp/short/iseLwlUV",
+        "https://mobbin.com/api/mcp/short/91hEud63",
+        "https://mobbin.com/api/mcp/short/oJxMEFuT"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Create collaborative presentation slides, add text, images, and notes, format layout and styling, collaborate and present live."
+    },
+    {
+      "id": "mobbin:2cdb7882-5907-4785-a94d-8300a8ab5b62",
+      "source": "mobbin",
+      "app": "Figma",
+      "title": "Creating a slide deck",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/2cdb7882-5907-4785-a94d-8300a8ab5b62",
+      "images": [
+        "https://mobbin.com/api/mcp/short/9WG5n1B4",
+        "https://mobbin.com/api/mcp/short/l8psm53n",
+        "https://mobbin.com/api/mcp/short/HuKRSmhz",
+        "https://mobbin.com/api/mcp/short/ahIjzQhF",
+        "https://mobbin.com/api/mcp/short/fsAGXa4a",
+        "https://mobbin.com/api/mcp/short/EZkTxHU5",
+        "https://mobbin.com/api/mcp/short/FnF5W9oO",
+        "https://mobbin.com/api/mcp/short/RaRlkR6O"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Create presentation from Figma templates, add slides, format with design assets, preview, and prepare for sharing."
+    },
+    {
+      "id": "mobbin:16ed12d5-4a57-435d-8fe0-d3b18c085885",
+      "source": "mobbin",
+      "app": "Canva",
+      "title": "Creating a presentation",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/16ed12d5-4a57-435d-8fe0-d3b18c085885",
+      "images": [
+        "https://mobbin.com/api/mcp/short/0m9pgKek",
+        "https://mobbin.com/api/mcp/short/pYLxrvkk",
+        "https://mobbin.com/api/mcp/short/ys8bBjGR",
+        "https://mobbin.com/api/mcp/short/q3iTPKvC"
+      ],
+      "platform": "web",
+      "jobs": ["orientation"],
+      "take": "Design presentation in Canva, browse templates, select slides, customize with drag-drop editing, ready to share and present."
+    }
+  ]
+}

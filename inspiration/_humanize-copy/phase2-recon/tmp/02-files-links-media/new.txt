@@ -1,0 +1,538 @@
+Files, links, media
+Essentials 2.0 · Design research · 02-files-links-media
+Files, links, media
+Research for Essentials 2.0: Semester → Courses → Files, links, media. How instructors collect, organise, reuse and control course materials, and how learners consume them. Sending and distribution belong to sub-module 09; recording production and reports belong to 08.
+Top examples
+30 references across 12 products. This is a comparison of captured patterns, not a verified feature inventory or a ranking of the market. Flow strips contain up to eight captured frames; some show alternative branches. Library analogues and missing instructor/learner pairs are labelled explicitly.
+Podia · Mobbin
+— One New lesson menu covers multiple material types and keeps upload progress in the course section.
+Podia · mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2
+Teachable · Mobbin
+— A content-type palette leads to a chooser that brings local, cloud and URL sources together; the PDF renders in the instructor lesson.
+Teachable · mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6
+Kajabi · Mobbin
+— The module creation flow makes course hierarchy an explicit authoring action.
+Kajabi · mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea
+Teachable · Mobbin
+— Section release timing remains distinct from lesson publication.
+Teachable · mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605
+Squarespace · Mobbin
+— Draft, published and scheduled states remain visible in the outline; scheduling exposes date and time.
+Squarespace · mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b
+Dropbox Dash · Mobbin
+— Quick look expands into a side pane while preserving the library context; a file-manager analogue.
+Dropbox Dash · mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601
+Coursera · Mobbin
+— The learner Resources branch makes a useful counterpoint to a single shared course tree.
+Coursera · mobbin:b3585969-4b16-4802-aea2-feaf40d75f33
+Canva · Mobbin
+— The Projects chooser names Copy to course and Move explicitly when bringing existing designs into a course.
+Canva · mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411
+Pattern comparison
+✓ = directly observed for the stated facet; partial = limited, one-sided or adjacent evidence; ✗ = a visibly different model for the stated facet. “Unverified” means the retained set cannot answer the question; it never means the product lacks the feature. In Q6, no product receives a parity checkmark.
+Product
+Q1
+Upload + link + embed handled in one place vs. separate features
+Q2
+Organisation model (flat list / folders / sections tied to course structure)
+Q3
+Reuse across courses (central library vs. per-course silo)
+Q4
+Preview and inline playback without leaving the course
+Q5
+Visibility controls (draft / scheduled / per-group) and how they are surfaced
+Q6
+Learner-side view mirrors instructor-side structure
+Teachable
+✓ Type palette + source chooser
+Teachable · mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6
+✓ Ordered sections/lessons
+Teachable · mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8
+partial Course upload; reuse unverified
+Teachable · mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6
+partial Instructor PDF preview
+Teachable · mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6
+✓ Publish + section drip
+Teachable · mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605
+partial Instructor half only
+Teachable · refero:a68d25c8-7cda-41fb-aa23-67308245866e
+Podia
+✓ One New lesson menu
+Podia · mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2
+✓ Mixed materials within sections
+Podia · mobbin:41f8b1f4-ec5f-4703-aeed-9b318eb0d5c0
+partial Course placement; reuse unverified
+Podia · mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2
+partial · Unverified
+✓ Hidden → visible; label disappears
+Podia · mobbin:79259c68-06d8-411f-b63f-4d026338d2fe
+partial · Unverified
+Kajabi
+partial Module/content entry
+Kajabi · mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea
+✓ Modules + submodule option
+Kajabi · mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea
+partial · Unverified
+partial Media + PDF link; playback unproven
+Kajabi · mobbin:2adb72d9-f443-4e78-a576-3c919a9c2509
+✓ Draft/Published card
+Kajabi · mobbin:8f6d425a-cfdc-4b2a-a100-6ec7b5e4fcd4
+partial · Unverified
+Squarespace
+partial Add Video slot
+Squarespace · refero:4e5677b4-94fd-47fc-b2a7-e0ba320debcf
+partial Lesson outline
+Squarespace · mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b
+partial · Unverified
+partial · Unverified
+✓ Draft/Published/Scheduled
+Squarespace · mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b
+partial · Unverified
+Coursera
+partial · Unverified
+partial Sequential learner lesson
+Coursera · mobbin:d167e236-9aec-4856-8c79-27389df500a2
+partial · Unverified
+✓ Inline player + study tools
+Coursera · mobbin:f91726c7-28d7-4144-8957-35666b76edf4
+partial · Unverified
+partial Learner Resources branch; no pair
+Coursera · mobbin:b3585969-4b16-4802-aea2-feaf40d75f33
+Skillshare
+partial · Unverified
+✓ Flat numbered lessons + resource tab
+Skillshare · mobbin:ce6bd4c3-a5bf-4936-9052-271f2415fe4b
+partial · Unverified
+✓ Inline video; files in another tab
+Skillshare · mobbin:15e380f4-c72f-4706-b9d0-240ed6ba5ded
+partial · Unverified
+partial Learner projects/resources; no pair
+Skillshare · mobbin:bc678aba-07f0-4bbd-b48d-b4c5da47de0b
+SuperHi
+partial · Unverified
+✓ Downloads and videos grouped by type
+SuperHi · mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4
+partial · Unverified
+partial Download/video list; preview unverified
+SuperHi · mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4
+partial · Unverified
+partial Learner grouping; no pair
+SuperHi · mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4
+Udemy
+partial · Unverified
+partial · Unverified
+partial · Unverified
+partial Mobile player/downloads
+Udemy · mobbin:b9a7ca6e-c921-4ca5-9579-c18e634a7612
+partial · Unverified
+partial Learner downloads; no pair
+Udemy · mobbin:b9a7ca6e-c921-4ca5-9579-c18e634a7612
+Dropbox
+partial · Unverified
+✓ Central shared/team folders
+Dropbox · mobbin:389bb479-d3e5-4301-a2fa-af842ae2ee4b
+partial Central library; course reuse unverified
+Dropbox · mobbin:389bb479-d3e5-4301-a2fa-af842ae2ee4b
+partial · Unverified
+partial · Unverified
+partial · Unverified
+Dropbox Dash
+partial Chat-source picker analogue
+Dropbox Dash · mobbin:26e60a25-e5dd-4eff-aa2c-4ea33f1f9a2f
+partial · Unverified
+partial Existing-source selection; course reuse unverified
+Dropbox Dash · mobbin:26e60a25-e5dd-4eff-aa2c-4ea33f1f9a2f
+✓ Quick look → preview pane
+Dropbox Dash · mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601
+partial · Unverified
+partial · Unverified
+Gumroad
+partial Rich text/link + closed Insert menu
+Gumroad · refero:11b3c0a4-eb09-4d98-9a1a-742439189540
+✗ Freeform document; no visible module rows
+Gumroad · refero:0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b
+partial · Unverified
+partial · Unverified
+partial · Unverified
+partial · Unverified
+Canva
+partial · Unverified
+✓ Ordered course activities
+Canva · mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411
+✓ Projects → Copy to course / Move; live sync unverified
+Canva · mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411
+partial · Unverified
+partial · Unverified
+partial · Unverified
+What the best apps do differently
+They put addition inside course structure, while preserving meaningful material types. Podia’s menu leads directly to a file row; Teachable’s palette distinguishes a PDF viewer from other blocks. For Essentials, a single Add material action can still branch by type.
+Podia · mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2
+Teachable · mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6
+They expose pedagogical containers rather than assuming a file tree. Kajabi makes modules explicit; Teachable adds content summaries and publication state to ordered lessons. Gumroad’s single document is a useful counter-example for very small courses.
+Kajabi · mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea
+Teachable · mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8
+Gumroad · refero:0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b
+They make release rules visible where instructors manage content. Teachable separates drip from Publish; Squarespace persists Draft/Scheduled labels. Podia’s disappearing Hidden label shows the ambiguity that persistent positive state can avoid.
+Teachable · mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605
+Squarespace · mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b
+Podia · mobbin:79259c68-06d8-411f-b63f-4d026338d2fe
+They preserve context during preview, but supporting files may still live elsewhere. Coursera surrounds video with study tools; Dropbox Dash previews inside the library; Skillshare routes course files to a separate tab. These are different compromises, not one universal layout.
+Coursera · mobbin:f91726c7-28d7-4144-8957-35666b76edf4
+Dropbox Dash · mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601
+Skillshare · mobbin:15e380f4-c72f-4706-b9d0-240ed6ba5ded
+They make the reuse operation explicit. Canva lets authors browse Projects and choose Copy to course or Move; Dropbox supplies shared/team storage without a captured course-attachment step. Essentials should name the operation and its effect, while separately deciding whether later edits propagate.
+Canva · mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411
+Dropbox · mobbin:389bb479-d3e5-4301-a2fa-af842ae2ee4b
+Best practices top companies converge on
+Actionable recommendations from the repeated patterns in this sample; not a claim of universal market consensus.
+Start Add material from the relevant course section or lesson, and keep upload progress and completion there.
+Podia · mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2
+Teachable · mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6
+Show the course sequence alongside content; let sections and modules explain placement before introducing another navigation tree.
+Teachable · mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8
+Kajabi · mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea
+Expose publication state and release timing near the item or section, with clear feedback after a change.
+Teachable · mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605
+Squarespace · mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b
+Keep playback or preview close to the current context, and make supporting resources discoverable from that context.
+Coursera · mobbin:f91726c7-28d7-4144-8957-35666b76edf4
+Dropbox Dash · mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601
+Skillshare · mobbin:bc678aba-07f0-4bbd-b48d-b4c5da47de0b
+Open questions for Essentials 2.0
+Asset semantics: Canva names copy and move, but when one PDF serves multiple courses or semesters, should Essentials use a live reference, a pinned version, or a copy? Who owns it, and how can an instructor see affected courses before replacing it? Linked-update behavior remains unresolved.
+Canva · mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411
+Dropbox · mobbin:389bb479-d3e5-4301-a2fa-af842ae2ee4b
+Teachable · mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6
+Simulation structure: should materials attach to the whole course, a section, or a scenario from sub-module 05? Which hierarchy should the Learner Portal display, and how should a learner preview validate that structure?
+Kajabi · mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea
+Teachable · mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8
+Coursera · mobbin:b3585969-4b16-4802-aea2-feaf40d75f33
+Release semantics: do dates use semester time, enrollment-relative delays, or event-relative offsets? How do draft, scheduled release and learner-group access combine? Group controls and event-relative rules were not demonstrated in the inspected visibility examples.
+Teachable · mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605
+Squarespace · mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b
+Kajabi · mobbin:8f6d425a-cfdc-4b2a-a100-6ec7b5e4fcd4
+Consumption and hand-off: which documents must preview in the Learner Portal, and which may download? When sub-module 09 sends materials to Canvas, does it send a URL or a copy, and which system controls later versions? This report leaves sending flows to 09.
+Teachable · mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6
+Coursera · mobbin:b3585969-4b16-4802-aea2-feaf40d75f33
+Dropbox Dash · mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601
+Search references
+Source
+All sources
+Mobbin
+Refero
+Selected only
+Reset filters
+Questions
+Q1
+Q2
+Q3
+Q4
+Q5
+Q6
+No references match these filters. Try another search or reset the filters.
+Enable JavaScript for filters and full-size previews. All references appear below.
+Q1
+Upload + link + embed handled in one place vs. separate features
+Use one contextual entry point, then make material type and source explicit. Podia groups files and embeds under New lesson; Teachable uses an Add content palette followed by a PDF-specific chooser for device, cloud and URL sources. A shared launcher does not require one undifferentiated uploader. Dropbox Dash illustrates a reusable picker for chat sources, not course attachments. [mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2] [mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6] [mobbin:26e60a25-e5dd-4eff-aa2c-4ea33f1f9a2f]
+7 references
+Dropbox Dash
+Mobbin
+screen
+Add sources to Dash chat — picker analogue
+mobbin:26e60a25-e5dd-4eff-aa2c-4ea33f1f9a2f
+Dropbox Dash combines search/paste-link, existing-source selection, and Upload in one Add sources modal for chat context.
+View source ↗
+Screen · Click to enlarge
+Gumroad
+Refero
+screen
+Digital-product content canvas and insertion tools
+refero:11b3c0a4-eb09-4d98-9a1a-742439189540
+Gumroad's digital-product Content canvas places rich-text/link tools, a closed Insert menu, and page creation together.
+View source ↗
+Screen · Click to enlarge
+Podia
+Mobbin
+flow
+Adding a file flow
+mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2
+Podia groups text, embed, quiz, coaching, and file lesson types under one New lesson menu in the course outline.
+View source ↗
+Step 1 of 3 · Click to enlarge
+Step 2 of 3 · Click to enlarge
+Step 3 of 3 · Click to enlarge
+Squarespace
+Refero
+screen
+Instructor video configuration and empty upload slot
+refero:4e5677b4-94fd-47fc-b2a7-e0ba320debcf
+Squarespace configures lesson video in an instructor modal; it does not demonstrate preview or playback.
+View source ↗
+Screen · Click to enlarge
+Teachable
+Mobbin
+screen
+Course editor file upload area
+mobbin:41a7198a-cb8b-4e01-8082-f4b6ddf7f73b
+Teachable's Add PDF dialog consolidates local upload, several cloud providers, and URL input inside lesson editing.
+View source ↗
+Screen · Click to enlarge
+Teachable
+Mobbin
+screen
+Digital-product setup: file upload or URL redirect
+mobbin:38f8a761-116d-45ce-ad0c-b2d5f89c7e98
+A nominal Teachable digital-product setup frame places File upload and Redirect to URL together, but is not visibly course-lesson authoring.
+View source ↗
+Screen · Click to enlarge
+Teachable
+Mobbin
+flow
+Adding a PDF flow
+mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6
+Teachable separates content types in one Add content palette, then unifies device, cloud, and URL sources within the PDF Viewer dialog. The captured strip includes alternative source branches, not one required linear sequence.
+View source ↗
+Step 1 of 7 · Click to enlarge
+Step 2 of 7 · Click to enlarge
+Step 3 of 7 · Click to enlarge
+Step 4 of 7 · Click to enlarge
+Step 5 of 7 · Click to enlarge
+Step 6 of 7 · Click to enlarge
+Step 7 of 7 · Click to enlarge
+No references yet for this question.
+Q2
+Organisation model (flat list / folders / sections tied to course structure)
+Course structure and storage structure solve different tasks. Kajabi nests lessons inside modules and offers submodules; Teachable presents ordered sections with lesson-level content summaries. Skillshare uses a flat lesson list plus a resource tab, while SuperHi separates downloads from videos. Gumroad is the counter-example: a freeform document rather than visible module rows. For Essentials, test a short course-section structure before adding an independent folder tree. [mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea] [mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8] [mobbin:ce6bd4c3-a5bf-4936-9052-271f2415fe4b] [mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4] [refero:0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b]
+7 references
+Coursera
+Mobbin
+screen
+Mobile course lesson media surface
+mobbin:d167e236-9aec-4856-8c79-27389df500a2
+Coursera organizes media and supporting views inside a sequential lesson shell.
+View source ↗
+Screen · Click to enlarge
+Gumroad
+Refero
+screen
+A course as one freeform content document
+refero:0286dd6d-2130-4b0c-b5f8-cb3cc7b78a0b
+Counter-example
+Gumroad can organize course content as one freeform document rather than folders, modules, or lesson rows.
+View source ↗
+Screen · Click to enlarge
+Kajabi
+Mobbin
+flow
+Adding a course module flow
+mobbin:969eff25-d44e-41ee-94ea-498d216ae8ea
+Kajabi organizes course content as modules with optional submodules and nested learning items.
+View source ↗
+Step 1 of 6 · Click to enlarge
+Step 2 of 6 · Click to enlarge
+Step 3 of 6 · Click to enlarge
+Step 4 of 6 · Click to enlarge
+Step 5 of 6 · Click to enlarge
+Step 6 of 6 · Click to enlarge
+Podia
+Mobbin
+screen
+Instructor module copy with mixed linked resources
+mobbin:41f8b1f4-ec5f-4703-aeed-9b318eb0d5c0
+Podia embeds mixed links and files directly within a module-based instructor editing surface.
+View source ↗
+Screen · Click to enlarge
+Skillshare
+Mobbin
+screen
+Flat learner lesson list and separate resource tab
+mobbin:ce6bd4c3-a5bf-4936-9052-271f2415fe4b
+Skillshare presents learners with a flat ordered lesson sequence and separates resources into another tab.
+View source ↗
+Screen · Click to enlarge
+SuperHi
+Mobbin
+screen
+Learner links/downloads grouped separately from videos
+mobbin:f6e3fe92-3143-4fac-a11c-f3b178b9c6f4
+SuperHi groups learner materials by content type, separating downloads from numbered videos.
+View source ↗
+Screen · Click to enlarge
+Teachable
+Mobbin
+screen
+Course curriculum with ordered lessons
+mobbin:f9d666fe-a496-450a-acb2-e9314ac4b4b8
+Teachable uses named course sections containing ordered lesson rows with per-item content summaries.
+View source ↗
+Screen · Click to enlarge
+No references yet for this question.
+Q3
+Reuse across courses (central library vs. per-course silo)
+Canva demonstrates library-to-course reuse: choose a design from Projects, then Copy to course or Move it. Dropbox supplies a central repository analogue; Podia and Teachable demonstrate course-scoped addition. None establishes a live asset shared across multiple courses, edit propagation or pinned versions. A course-scoped upload is not proof of a silo. Essentials needs explicit copy/reference semantics and where-used information. [mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411] [mobbin:389bb479-d3e5-4301-a2fa-af842ae2ee4b] [mobbin:30a1432c-f8fd-4f5f-a026-53b0744635b2] [mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6]
+2 references
+Canva
+Mobbin
+flow
+Choose an existing project design: copy to course or move
+mobbin:bf1ec8aa-8666-4c94-acf3-5bb1db523411
+Canva lets an instructor choose an existing design from the central Projects hierarchy and explicitly copy it into or move it into the current course.
+View source ↗
+Step 1 of 6 · Click to enlarge
+Step 2 of 6 · Click to enlarge
+Step 3 of 6 · Click to enlarge
+Step 4 of 6 · Click to enlarge
+Step 5 of 6 · Click to enlarge
+Step 6 of 6 · Click to enlarge
+Dropbox
+Mobbin
+screen
+All-files library with shared folders
+mobbin:389bb479-d3e5-4301-a2fa-af842ae2ee4b
+Dropbox demonstrates a persistent central All files area that mixes shared, team, and other folders, but not reuse within courses.
+View source ↗
+Screen · Click to enlarge
+No references yet for this question.
+Q4
+Preview and inline playback without leaving the course
+Keep the lesson or library context visible during consumption. Coursera demonstrates inline video with study tools and sequence navigation; Dropbox Dash demonstrates quick look followed by a side preview pane. Teachable shows PDF rendering in the instructor editor, which does not establish learner-side document preview. Skillshare keeps video inline but directs course-file access to another tab. [mobbin:f91726c7-28d7-4144-8957-35666b76edf4] [mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601] [mobbin:fc5a2e31-b68a-4560-adbd-64534e99d8c6] [mobbin:15e380f4-c72f-4706-b9d0-240ed6ba5ded]
+5 references
+Coursera
+Mobbin
+screen
+Inline course video with playback controls
+mobbin:f91726c7-28d7-4144-8957-35666b76edf4
+Coursera embeds video playback and study tools inside the desktop lesson shell.
+View source ↗
+Screen · Click to enlarge
+Coursera
+Mobbin
+screen
+Mobile lesson with attachment tab
+mobbin:13ee755a-ce6f-4088-8b0e-b10c53cd2ed6
+Coursera keeps mobile video and supporting lesson tabs in one sequential view.
+View source ↗
+Screen · Click to enlarge
+Dropbox Dash
+Mobbin
+flow
+View file flow
+mobbin:c899f04f-d0e2-4cfb-adfb-49a7cf92b601
+Dropbox Dash uses progressive disclosure from item list to quick look to a contextual side-pane preview.
+View source ↗
+Step 1 of 3 · Click to enlarge
+Step 2 of 3 · Click to enlarge
+Step 3 of 3 · Click to enlarge
+Kajabi
+Mobbin
+screen
+Lesson video with downloads panel
+mobbin:2adb72d9-f443-4e78-a576-3c919a9c2509
+Kajabi composes lesson media, outline, completion, copy, and a downloadable file on one learner page.
+View source ↗
+Screen · Click to enlarge
+Skillshare
+Mobbin
+screen
+Mobile course player with course files note
+mobbin:15e380f4-c72f-4706-b9d0-240ed6ba5ded
+Counter-example
+Skillshare keeps video playback and lesson download status inline, but sends learners to another course tab for files.
+View source ↗
+Screen · Click to enlarge
+No references yet for this question.
+Q5
+Visibility controls (draft / scheduled / per-group) and how they are surfaced
+Publication, timed release and audience scope should be treated as separate questions. Teachable combines per-lesson Publish with section-level drip; Squarespace exposes Draft/Published/Scheduled and persistent status labels. Kajabi shows a simpler binary state. Podia is a counter-example to persistent status feedback: the Hidden label disappears when an item becomes visible. Per-group visibility is not demonstrated in these captures. [mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605] [mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b] [mobbin:8f6d425a-cfdc-4b2a-a100-6ec7b5e4fcd4] [mobbin:79259c68-06d8-411f-b63f-4d026338d2fe]
+5 references
+Kajabi
+Mobbin
+screen
+Course content visibility screen
+mobbin:8f6d425a-cfdc-4b2a-a100-6ec7b5e4fcd4
+Kajabi makes a lesson's binary Draft/Published state prominent beside its details.
+View source ↗
+Screen · Click to enlarge
+Podia
+Mobbin
+flow
+Updating visibility
+mobbin:79259c68-06d8-411f-b63f-4d026338d2fe
+Counter-example
+Podia changes a lesson from Hidden to visible through its row overflow menu, but does not leave a positive visible-state label.
+View source ↗
+Step 1 of 3 · Click to enlarge
+Step 2 of 3 · Click to enlarge
+Step 3 of 3 · Click to enlarge
+Squarespace
+Mobbin
+flow
+Setting status for lesson
+mobbin:816b6484-5d04-4ef2-8a8b-2691f365fb1b
+Squarespace surfaces lesson state in the course outline and supports Draft, Published, or Scheduled with an inline date/time picker.
+View source ↗
+Step 1 of 5 · Click to enlarge
+Step 2 of 5 · Click to enlarge
+Step 3 of 5 · Click to enlarge
+Step 4 of 5 · Click to enlarge
+Step 5 of 5 · Click to enlarge
+Teachable
+Mobbin
+screen
+Course material status screen
+mobbin:6f84d500-27bc-4a9c-9bf9-04e5f525e5f3
+Teachable's curriculum screen pairs per-lesson Publish buttons with a section-level drip panel offering days-after-enrollment or specific-date release.
+View source ↗
+Screen · Click to enlarge
+Teachable
+Mobbin
+flow
+Adding a drip
+mobbin:6739ae23-f32d-4706-9e4b-a07c9a056605
+Teachable applies enrollment-relative drip at section level while keeping lesson publication as a separate row action.
+View source ↗
+Step 1 of 6 · Click to enlarge
+Step 2 of 6 · Click to enlarge
+Step 3 of 6 · Click to enlarge
+Step 4 of 6 · Click to enlarge
+Step 5 of 6 · Click to enlarge
+Step 6 of 6 · Click to enlarge
+No references yet for this question.
+Q6
+Learner-side view mirrors instructor-side structure
+No retained pair proves that a learner view mirrors its instructor editor. Coursera supplies a distinct Resources branch beside course modules; Skillshare ties project downloads to lessons through references in a separate tab; Udemy shows learner downloads. Teachable supplies the authoring half only, with sectioned lessons and an attached document. Treat structural parity and a learner-preview check as Essentials requirements to validate, rather than a proven cross-product convention. [mobbin:b3585969-4b16-4802-aea2-feaf40d75f33] [mobbin:bc678aba-07f0-4bbd-b48d-b4c5da47de0b] [mobbin:b9a7ca6e-c921-4ca5-9579-c18e634a7612] [refero:a68d25c8-7cda-41fb-aa23-67308245866e]
+4 references
+Coursera
+Mobbin
+screen
+Learner Resources branch with link and document attachment
+mobbin:b3585969-4b16-4802-aea2-feaf40d75f33
+Coursera exposes a dedicated learner Resources branch beside Course Material modules; this suggests adjacent structures rather than demonstrated mirroring.
+View source ↗
+Screen · Click to enlarge
+Skillshare
+Mobbin
+screen
+Learner course resource view
+mobbin:bc678aba-07f0-4bbd-b48d-b4c5da47de0b
+Skillshare ties project resources to lesson progression by references, while placing downloads in a separate learner tab.
+View source ↗
+Screen · Click to enlarge
+Teachable
+Refero
+screen
+Instructor sections and attached document — learner pair missing
+refero:a68d25c8-7cda-41fb-aa23-67308245866e
+Teachable’s instructor editor groups lessons into named sections and shows a DOCX resource beneath lesson text; a learner counterpart is not captured.
+View source ↗
+Screen · Click to enlarge
+Udemy
+Mobbin
+screen
+Learner player Downloads tab
+mobbin:b9a7ca6e-c921-4ca5-9579-c18e634a7612
+Udemy shows learner access to lesson downloads, not how an instructor adds upload, link, or embed material.
+View source ↗
+Screen · Click to enlarge
+No references yet for this question.
+Close

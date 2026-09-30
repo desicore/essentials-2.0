@@ -1,0 +1,25 @@
+{
+  "product": "dazn",
+  "flows": {
+    "mobbin:7f182913-8d7d-4483-ac22-3ef0275de47b": {
+      "summary": "The user watches a live event with a rewind button, browses related highlights under the player, then opens a related day with 'Watch now' and 'Share'.",
+      "steps": [
+        "LIVE player and Related highlights",
+        "Related Day sheet: Watch now / Share"
+      ],
+      "steal": [
+        "A row of related clips under the player ('Highlights from this competition') keeps highlights next to the main recording (screen 1).",
+        "A 10-second rewind on the live player lets the user go back quickly without leaving the event (screen 1).",
+        "A small panel with 'Watch now' and 'Share' lets the user jump to a related session or share it, and can be closed (screen 2)."
+      ],
+      "avoid": [
+        "This was fetched as an example of switching between cameras, but the screens only show related days and highlights; do not treat it as evidence for camera views."
+      ],
+      "fit": "Debrief and review: closer to rewatching and browsing highlights next to the main playback than to switching PTZ or 360° cameras. A cast icon hints at sending video to a TV, but no big-screen view is shown.",
+      "jobs": [
+        "rewatch"
+      ],
+      "counter_example": false
+    }
+  }
+}

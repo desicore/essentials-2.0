@@ -1,0 +1,279 @@
+{
+  "references": [
+    {
+      "id": "refero:7991",
+      "source": "refero",
+      "app": "ABY Journal",
+      "title": "Add voice recording to entry",
+      "kind": "flow",
+      "url": "https://refero.design/flows/7991",
+      "images": [
+        "https://images.refero.design/screenshots/229/mobile/343870cc-9f56-43d6-81a4-154b8348717a.jpg",
+        "https://images.refero.design/screenshots/229/mobile/unnamed-53.jpg",
+        "https://images.refero.design/screenshots/229/mobile/unnamed-54.jpg",
+        "https://images.refero.design/screenshots/229/mobile/unnamed-55.jpg",
+        "https://images.refero.design/screenshots/229/mobile/unnamed-56.jpg",
+        "https://images.refero.design/screenshots/229/mobile/unnamed-57.jpg",
+        "https://images.refero.design/screenshots/229/mobile/unnamed-58.jpg",
+        "https://images.refero.design/screenshots/229/mobile/unnamed-59.jpg",
+        "https://images.refero.design/screenshots/229/mobile/unnamed-60.jpg",
+        "https://images.refero.design/screenshots/229/mobile/unnamed-61.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["voice-notes"],
+      "take": "Faculty records voice memo with waveform, permission handling, and inline transcript playback within a journal entry—offline-capable with optional cloud transcription indicator."
+    },
+    {
+      "id": "refero:5259",
+      "source": "refero",
+      "app": "FocusPomo",
+      "title": "Start Focus Session",
+      "kind": "flow",
+      "url": "https://refero.design/flows/5259",
+      "images": [
+        "https://images.refero.design/screenshots/181/mobile/e64f6201-2491-43d3-b4eb-112e3f251cee_thumb.jpg",
+        "https://images.refero.design/screenshots/181/mobile/6b8d27a3-c816-4363-a0e8-0c60edab5d21_thumb.jpg",
+        "https://images.refero.design/screenshots/181/mobile/88dd4a9b-94c1-4ee2-a686-340abf104faf_thumb.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["timer"],
+      "take": "One-handed timer start with tag selection via bottom-sheet; big button, large time display, session state visible at a glance—suitable for gloved faculty."
+    },
+    {
+      "id": "refero:6751",
+      "source": "refero",
+      "app": "TIDE",
+      "title": "Start a Focus Session",
+      "kind": "flow",
+      "url": "https://refero.design/flows/6751",
+      "images": [
+        "https://images.refero.design/screenshots/206/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/206/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/206/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/206/mobile/unnamed-4.jpg",
+        "https://images.refero.design/screenshots/206/mobile/unnamed-5.jpg",
+        "https://images.refero.design/screenshots/206/mobile/unnamed-6.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["timer"],
+      "take": "Multi-step timer: soundscape picker, mode choice (Goal/Pomodoro), duration selection with validation, then full-screen player with countdown and pause controls."
+    },
+    {
+      "id": "refero:6072",
+      "source": "refero",
+      "app": "Canopi",
+      "title": "Create Shared Checklist",
+      "kind": "flow",
+      "url": "https://refero.design/flows/6072",
+      "images": [
+        "https://images.refero.design/screenshots/195/mobile/a9e51e9b-7998-48f9-8a80-e10ffb71402e_thumb.jpg",
+        "https://images.refero.design/screenshots/195/mobile/32307486-dfd5-4c73-bdc9-b5149a7013eb_thumb.jpg",
+        "https://images.refero.design/screenshots/195/mobile/93a60f51-58a2-4eec-a1a9-57951ba675ba_thumb.jpg",
+        "https://images.refero.design/screenshots/195/mobile/ceb6cadd-b04a-407a-9d79-75f6c4443c63_thumb.jpg",
+        "https://images.refero.design/screenshots/195/mobile/36940fa4-1e99-4098-a4f9-8b75ca3ffbc5_thumb.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["checklist"],
+      "take": "Create titled task list with checked/unchecked items, floating + button to add items, shared with collaborator avatars—offline-capable with instant toggle feedback."
+    },
+    {
+      "id": "refero:10128",
+      "source": "refero",
+      "app": "LEGO® Builder",
+      "title": "QR scanner onboarding and scan",
+      "kind": "flow",
+      "url": "https://refero.design/flows/10128",
+      "images": [
+        "https://images.refero.design/screenshots/258/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/258/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/258/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/258/mobile/unnamed-4.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["equipment-check"],
+      "take": "One-tap QR scanner entry from nav bar, camera permission prompt, live scan frame with guidance card, green check success state—quick identification of rooms/equipment."
+    },
+    {
+      "id": "refero:2453",
+      "source": "refero",
+      "app": "Dropbox",
+      "title": "Timestamped audio commenting",
+      "kind": "flow",
+      "url": "https://refero.design/flows/2453",
+      "images": [
+        "https://images.refero.design/screenshots/7/mobile/d4622fc5-4f33-4522-bd91-86f3e9ed9187_thumb.jpg",
+        "https://images.refero.design/screenshots/7/mobile/e908e69e-eaa5-47f9-9a31-6f9150016239_thumb.jpg",
+        "https://images.refero.design/screenshots/7/mobile/69503fb9-e601-4670-8ffe-2434ad39e8bb_thumb.jpg",
+        "https://images.refero.design/screenshots/7/mobile/f8f35e26-7a70-4e1b-819b-6f84e5c31f94_thumb.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["debrief-annotations"],
+      "take": "Bottom-sheet comment panel with inline timestamp (blue link), composer with @mentions, post confirmation with user avatar—tie observations to exact playback moments."
+    },
+    {
+      "id": "refero:8954",
+      "source": "refero",
+      "app": "ElevenReader",
+      "title": "Bookmark management",
+      "kind": "flow",
+      "url": "https://refero.design/flows/8954",
+      "images": [
+        "https://images.refero.design/screenshots/242/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/242/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/242/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/242/mobile/unnamed-4.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["debrief-annotations"],
+      "take": "Bottom-sheet actions for highlighted/bookmarked text: Listen from here, Edit, Delete with confirmation—timestamped annotation playback for debrief review."
+    },
+    {
+      "id": "refero:10558",
+      "source": "refero",
+      "app": "Netflix",
+      "title": "Profile settings and security",
+      "kind": "flow",
+      "url": "https://refero.design/flows/10558",
+      "images": [
+        "https://images.refero.design/screenshots/264/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/264/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/264/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/264/mobile/unnamed-4.jpg",
+        "https://images.refero.design/screenshots/264/mobile/unnamed-5.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["learner-tagging"],
+      "take": "Multi-field edit modal: avatar icon picker, text inputs with validation, multi-select toggles—set up profile identity for learner roster tagging."
+    },
+    {
+      "id": "refero:12603",
+      "source": "refero",
+      "app": "WhatsApp",
+      "title": "Invite Contacts to WhatsApp",
+      "kind": "flow",
+      "url": "https://refero.design/flows/12603",
+      "images": [
+        "https://images.refero.design/screenshots/292/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/292/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/292/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/292/mobile/unnamed-4.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["learner-tagging"],
+      "take": "Searchable contact list with invite confirmation, send SMS confirmation bottom-sheet, success toast—quick participant check-in via existing contacts."
+    },
+    {
+      "id": "refero:12606",
+      "source": "refero",
+      "app": "WhatsApp",
+      "title": "Add WhatsApp Contact",
+      "kind": "flow",
+      "url": "https://refero.design/flows/12606",
+      "images": [
+        "https://images.refero.design/screenshots/292/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/292/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/292/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/292/mobile/unnamed-4.jpg",
+        "https://images.refero.design/screenshots/292/mobile/unnamed-5.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["learner-tagging"],
+      "take": "Add menu from Contacts, QR scanner option (live frame), account found confirmation, contact added to list—QR-based learner/roster quick-add."
+    },
+    {
+      "id": "refero:2919",
+      "source": "refero",
+      "app": "X",
+      "title": "Space creation and scheduling",
+      "kind": "flow",
+      "url": "https://refero.design/flows/2919",
+      "images": [
+        "https://images.refero.design/screenshots/114/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-4.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-5.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-6.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["intercom"],
+      "take": "Composer with title, topics, Record toggle (with info modal), schedule picker (date/time), sharing confirmation with Edit/Upcoming Spaces management."
+    },
+    {
+      "id": "refero:2924",
+      "source": "refero",
+      "app": "X",
+      "title": "Message-to-Call and Back",
+      "kind": "flow",
+      "url": "https://refero.design/flows/2924",
+      "images": [
+        "https://images.refero.design/screenshots/114/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-4.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-5.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-6.jpg",
+        "https://images.refero.design/screenshots/114/mobile/unnamed-7.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["intercom"],
+      "take": "Audio call from conversation header, calling state then active audio with controls (speaker, mute, end), video switch, return to thread with call logs—push-to-talk analog."
+    },
+    {
+      "id": "refero:5628",
+      "source": "refero",
+      "app": "Riverside",
+      "title": "Create Studio and Open Workspace",
+      "kind": "flow",
+      "url": "https://refero.design/flows/5628",
+      "images": [
+        "https://images.refero.design/screenshots/187/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-4.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-5.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-6.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-7.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["recording-control"],
+      "take": "Modal to name studio, optional language/recording mode toggles, Create action, empty workspace state with call-to-action, list updates—start simulation session recording."
+    },
+    {
+      "id": "refero:5614",
+      "source": "refero",
+      "app": "Riverside",
+      "title": "Export Recording (Video / Audio)",
+      "kind": "flow",
+      "url": "https://refero.design/flows/5614",
+      "images": [
+        "https://images.refero.design/screenshots/187/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-4.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-5.jpg",
+        "https://images.refero.design/screenshots/187/mobile/unnamed-6.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["recording-control"],
+      "take": "Media preview, Video/Audio segmented toggle, format/quality dropdowns with processing options (noise, normalize), export button, confirmation toast."
+    },
+    {
+      "id": "refero:8737",
+      "source": "refero",
+      "app": "Fuse",
+      "title": "Select recipient by QR",
+      "kind": "flow",
+      "url": "https://refero.design/flows/8737",
+      "images": [
+        "https://images.refero.design/screenshots/240/mobile/unnamed-1.jpg",
+        "https://images.refero.design/screenshots/240/mobile/unnamed-2.jpg",
+        "https://images.refero.design/screenshots/240/mobile/unnamed-3.jpg",
+        "https://images.refero.design/screenshots/240/mobile/unnamed-4.jpg"
+      ],
+      "platform": "ios",
+      "jobs": ["equipment-check"],
+      "take": "QR icon in recipient input, camera permission request, live scanner overlay, address decoded and contact matched—equipment ID check-in via QR scan."
+    }
+  ]
+}

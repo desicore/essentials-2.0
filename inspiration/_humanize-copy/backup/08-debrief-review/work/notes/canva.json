@@ -1,0 +1,41 @@
+{
+  "product": "canva",
+  "flows": {
+    "mobbin:f28f8936-895b-450a-8e9b-5a83c12ba692": {
+      "summary": "Presenter starts a Live session on the big screen: QR + short code appear for audience join, then the join banner can be hidden while LIVE status stays.",
+      "steps": [
+        "Fullscreen present toolbar",
+        "Live QR banner + side panel",
+        "Hide QR; stay LIVE"
+      ],
+      "steal": [
+        "Step 2: Dual join path — large QR plus canva.live + short alphanumeric code for rooms where phones struggle to scan.",
+        "Step 2: LIVE (n) participant count next to End session so the host knows handoff succeeded.",
+        "Step 2→3: Hide/Show on the join strip clears chrome from the public display after people connect.",
+        "Step 2: Copy invitation as a non-QR fallback for remote or delayed joiners."
+      ],
+      "avoid": [
+        "Step 2 shows only the big-screen side — no phone notes/remote UI in this flow; weak evidence for private faculty annotations."
+      ],
+      "fit": "Strong pattern for Baseline QR on the debrief-room screen after recording: public display shows video + ephemeral join chrome; phone (not shown here) would hold private annotations.",
+      "counter_example": false
+    },
+    "mobbin:f2fe9686-5232-45d6-816e-8d7d99eae0dc": {
+      "summary": "From a phone presentation view, open remote-control sharing: QR plus copy-link to hand control to another device, with pause-controls.",
+      "steps": [
+        "Phone presentation preview",
+        "Remote-control QR + copy link"
+      ],
+      "steal": [
+        "Step 2: Explicit title 'Remote control this presentation' states the handoff job in one line.",
+        "Step 2: Available status + Pause controls lets the host disable the remote link without ending the session.",
+        "Step 2: Copy link beside QR covers tablet/phone scanning failures in a debrief room."
+      ],
+      "avoid": [
+        "Flow is phone-only — no paired big-screen frame; Baseline needs both sides for strong second-screen evidence."
+      ],
+      "fit": "Maps to faculty phone as private remote for the room display; prefer pairing with the web Live QR flow so both sides of the handoff are designed.",
+      "counter_example": false
+    }
+  }
+}

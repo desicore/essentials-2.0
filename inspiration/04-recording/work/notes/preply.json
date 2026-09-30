@@ -1,0 +1,27 @@
+{
+  "product": "preply",
+  "flows": {
+    "mobbin:272048bd-060c-49bf-b4ad-e37b5d2a45a1": {
+      "summary": "Before 'Enter classroom', the learner opens 'Test devices', records a short audio and video (AV) sample, answers Yes/No about seeing themselves, then returns with Camera and mic checkmarked.",
+      "steps": [
+        "Lobby: 'Test devices' and 'Enter classroom'",
+        "Device check: Camera and mic vs Network",
+        "AV test ready with 'Start test'",
+        "Device check screen again",
+        "AV test recording with say prompt",
+        "'Can you see yourself' Yes or No",
+        "Camera and mic checkmarked"
+      ],
+      "steal": [
+        "The device-check screen splits Camera and mic from Network and device, with tips on how to fix problems (screen 2).",
+        "A 5-second AV sample says it will not be saved or shared and starts with 'Start test' (screen 3).",
+        "During the sample the screen shows 'Recording in progress', 'Try saying…', and a progress bar (screen 5).",
+        "Yes/No asks 'Can you see yourself' with 'If not, we'll help you fix it' and 'New test', then Camera and mic get green checks (screens 6-7)."
+      ],
+      "avoid": [
+        "The device-check screen repeats (screens 2 and 4) with little new information, which confuses operators running a daily room self-test."
+      ],
+      "fit": "Recording: replaces the planned per-room self-test outside the SRV with a guided cam/mic sample, Yes/No confirm and checkmarked health summary before the session."
+    }
+  }
+}

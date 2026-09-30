@@ -1,0 +1,1876 @@
+{
+  "priorityITQuestions": [
+    "What is authoritative for people, sign-in, institutional affiliation, and course enrollment today?",
+    "Which non-recycled identifier survives email changes and returning-user scenarios across systems?",
+    "How can IT scope a pilot population and review exactly which fields leave each source?",
+    "Which administrators can authorize connectors, export Canvas reports and approve imports?",
+    "What should happen when sign-in succeeds but no LearningSpace entitlement or course membership exists?",
+    "How are guests, visiting faculty, alumni and temporary exceptions represented and reviewed?",
+    "Which departure events disable the account, remove one membership, or trigger historical retention decisions?",
+    "What latency, monitoring, credential-renewal ownership and support escalation are required?",
+    "Which local overrides are permitted, and how should source changes interact with them?",
+    "What institutional privacy review and agreements authorize the selected population and data fields?"
+  ],
+  "module": "university-identity",
+  "title": "University identity, directory sync & user import",
+  "intro": "Internal evidence collection for Essentials 2.0 / LearningSpace. Directory-first research into university-managed identity, provisioning and recovery, with Canvas as a complementary course-membership source and CSV/manual routes for institutional exceptions. Product screenshots are observed examples or analogies; official documentation establishes specific technical behavior. All adaptations are proposals to validate.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "How does university IT connect and scope institutional identity?",
+      "answer": "Separate the IT connection task from everyday user administration. Configuration guidance, attribute mapping, scoped groups and a dry run make the intended population and data transfer reviewable before enabling provisioning.",
+      "openQuestions": [
+        "Which identity systems and LDAP/Active Directory environments do participating universities operate?",
+        "Who owns the connection, and which groups and attributes may LearningSpace receive?",
+        "Is access assigned separately from account creation?"
+      ]
+    },
+    {
+      "id": "Q2",
+      "title": "How do existing university users arrive and link to the right account?",
+      "answer": "Treat institutional sign-in, creating a user record and linking an existing record as distinct events. Establish a durable institutional identifier and make mismatches recoverable. A successful login can still leave a person without application or course access.",
+      "openQuestions": [
+        "Which immutable identifier survives email and affiliation changes?",
+        "What evidence permits linking an existing local account? Who resolves collisions?",
+        "What separate route should guests and external faculty use?"
+      ]
+    },
+    {
+      "id": "Q3",
+      "title": "How are externally managed people, groups, and permissions represented?",
+      "answer": "Expose the source of managed fields and group membership, and explain where changes must be made. Keep course roles scoped to their course; an imported teacher role is not institutional administrator authority.",
+      "openQuestions": [
+        "Which fields and permissions can administrators override locally?",
+        "Can a person be faculty in one course and a learner in another?",
+        "How will the interface explain effective access from multiple sources?"
+      ]
+    },
+    {
+      "id": "Q4",
+      "title": "What happens when users or connections change?",
+      "answer": "Show connection health and per-record outcomes separately. A failed sync is not evidence that users departed. Guard unusually large removals and distinguish suspending access, removing membership and deleting records.",
+      "openQuestions": [
+        "What grace period and escalation route apply when provisioning fails?",
+        "What happens to recordings, history and audit trails when someone leaves?",
+        "Can returning users recover the same identity and course history?"
+      ]
+    },
+    {
+      "id": "Q5",
+      "title": "How can administrators safely import and update users in bulk?",
+      "answer": "Use the Canvas Provisioning export as a concrete data-source scenario, then separate upload, mapping, validation, preview and completion. Repeat imports need stable identifiers and explicit update rules. A file import remains a snapshot until a separate recurring process exists.",
+      "openQuestions": [
+        "Who may export from Canvas and import into LearningSpace?",
+        "Which identifiers are available, and how will rows match existing accounts?",
+        "Should valid rows proceed when other rows fail, and what downloadable error report is required?"
+      ]
+    },
+    {
+      "id": "Q6",
+      "title": "How can Canvas complement university identity without creating duplicate users?",
+      "answer": "Canvas roster mechanisms establish a feasible membership source, subject to institution configuration and authorization. Match roster identities to existing users before applying course-scoped roles and enrollment changes.",
+      "openQuestions": [
+        "Which Canvas integration and permissions are available at each institution?",
+        "How do Canvas identifiers map to the university identifier?",
+        "Who controls identity, course membership, role overrides and retained history when sources disagree?"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "source": "refero",
+      "app": "Zendesk",
+      "kind": "screen",
+      "url": "https://refero.design/pages/91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "images": [
+        "https://images.refero.design/screenshots/zendesk.com/desktop/60db8fbd-fffa-4d42-bbe5-0c6e22108058_thumb.jpg"
+      ],
+      "sourceIds": [
+        "91dab9ae-9676-49b6-8b26-01dde539cb0e"
+      ],
+      "source_ids": [
+        "91dab9ae-9676-49b6-8b26-01dde539cb0e"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/zendesk-saml.jpg"
+      ],
+      "question": "Q1",
+      "title": "Configure a named SAML connection",
+      "actor": "University IT",
+      "evidenceType": "direct pattern",
+      "take": "Explain every identity-provider value at the configuration field. Keep sign-in setup distinct from user provisioning, and add an explicit test before enabling institutional access.",
+      "observed": "The SAML form requires a recognizable configuration name, SSO URL and certificate fingerprint. Helper text identifies the assertion-consumer URL and where to obtain certificate data. Optional logout URL and IP ranges follow; Save and Cancel end the form.",
+      "adaptation": "Give university IT provider-specific instructions beside each field and a recognizable connection name. A separate test and rollout preview would reduce uncertainty before institutional sign-in changes.",
+      "limitation": "One unfilled setup screen only. No connection test, save result, provider validation, group scope or provisioning lifecycle is visible. The proposed test is an adaptation, not an observed Zendesk step.",
+      "evidence_type": "direct pattern",
+      "boardStepIndices": [
+        0
+      ],
+      "steps": [
+        {
+          "id": "91dab9ae-9676-49b6-8b26-01dde539cb0e",
+          "label": "Create SAML configuration",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/zendesk-saml.jpg",
+          "url": "https://refero.design/pages/91dab9ae-9676-49b6-8b26-01dde539cb0e"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+      "source": "refero",
+      "app": "Calendly",
+      "kind": "screen",
+      "url": "https://refero.design/pages/4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+      "images": [
+        "https://images.refero.design/screenshots/calendly.com/desktop/4ab944f3-be31-469f-9f6b-5bc394e13002_thumb.jpg"
+      ],
+      "sourceIds": [
+        "4fc8ea47-ce2b-40b1-8817-71e138851fcc"
+      ],
+      "source_ids": [
+        "4fc8ea47-ce2b-40b1-8817-71e138851fcc"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/calendly-provisioning.jpg"
+      ],
+      "question": "Q1",
+      "title": "Separate sign-in from user provisioning",
+      "actor": "University IT",
+      "evidenceType": "direct pattern",
+      "take": "Place authentication and provisioning in separate admin areas, explaining that automated account creation and removal need their own setup and support route.",
+      "observed": "Organization Login has separate Single sign-on, User provisioning and Domain control tabs. The provisioning tab explains SCIM and provisioning/deprovisioning, marks Enterprise availability and offers help-center and Contact us routes.",
+      "adaptation": "Use distinct setup states for institutional sign-in and user lifecycle. Explain capabilities and prerequisites before requesting directory access, with a support path when integration needs IT involvement.",
+      "limitation": "This is an informational enterprise entry screen, not a working connection wizard. It does not demonstrate SCIM setup, scope selection, synchronization or deactivation results.",
+      "evidence_type": "direct pattern",
+      "boardStepIndices": [
+        0
+      ],
+      "steps": [
+        {
+          "id": "4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+          "label": "User provisioning explanation and support entry",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/calendly-provisioning.jpg",
+          "url": "https://refero.design/pages/4fc8ea47-ce2b-40b1-8817-71e138851fcc"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+      "source": "mobbin",
+      "app": "Remote",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e304a20c-fb7b-467a-97de-7f725cd317c1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lGoVJXnx",
+        "https://mobbin.com/api/mcp/short/AgwqBLJg",
+        "https://mobbin.com/api/mcp/short/C7TBtZze",
+        "https://mobbin.com/api/mcp/short/Aqf6v9Yj"
+      ],
+      "localAssets": [
+        "assets/mobbin/31350159-fd49-4cd3-bc01-967f1a7bfe0e.jpg",
+        "assets/mobbin/231210d1-e819-4996-994d-e20afa4b904d.jpg",
+        "assets/mobbin/34474b95-2f25-44db-b004-df6e19041835.jpg",
+        "assets/mobbin/fba63c89-1bfb-4bc5-a3b2-78e69958d8bd.jpg"
+      ],
+      "sourceIds": [
+        "31350159-fd49-4cd3-bc01-967f1a7bfe0e",
+        "231210d1-e819-4996-994d-e20afa4b904d",
+        "34474b95-2f25-44db-b004-df6e19041835",
+        "fba63c89-1bfb-4bc5-a3b2-78e69958d8bd"
+      ],
+      "source_ids": [
+        "31350159-fd49-4cd3-bc01-967f1a7bfe0e",
+        "231210d1-e819-4996-994d-e20afa4b904d",
+        "34474b95-2f25-44db-b004-df6e19041835",
+        "fba63c89-1bfb-4bc5-a3b2-78e69958d8bd"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "question": "Q1",
+      "title": "Guide IT between the app and identity provider",
+      "actor": "university IT",
+      "take": "Number the configuration handoffs, explain which domains SSO affects, and validate certificate files at upload. Keep the setup state visible until the connection has actually succeeded.",
+      "observed": "Authentication settings opens a SAML explanation and numbered setup guide. IT copies the service-provider URL and audience into its identity provider, supplies company domain and identity-provider URL, and uploads a certificate. The final screenshot reports an unsupported certificate file type and lists accepted formats.",
+      "adaptation": "Give university IT a checklist for both systems, copy controls for app-provided values and explicit population scope. Explain invalid file formats next to the upload control before activation.",
+      "limitation": "The captured flow ends with a certificate-file error; no connection test, activation, successful sign-in, provisioning or group selection is shown. A company email domain is an observed SSO scope cue, not proof of university identity matching.",
+      "steps": [
+        {
+          "id": "31350159-fd49-4cd3-bc01-967f1a7bfe0e",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Authentication settings and Turn on SSO",
+          "localAsset": "assets/mobbin/31350159-fd49-4cd3-bc01-967f1a7bfe0e.jpg"
+        },
+        {
+          "id": "231210d1-e819-4996-994d-e20afa4b904d",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "SSO explanation and numbered setup guide",
+          "localAsset": "assets/mobbin/231210d1-e819-4996-994d-e20afa4b904d.jpg"
+        },
+        {
+          "id": "34474b95-2f25-44db-b004-df6e19041835",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "Domain, provider URL and certificate inputs",
+          "localAsset": "assets/mobbin/34474b95-2f25-44db-b004-df6e19041835.jpg"
+        },
+        {
+          "id": "fba63c89-1bfb-4bc5-a3b2-78e69958d8bd",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "Unsupported certificate file type",
+          "localAsset": "assets/mobbin/fba63c89-1bfb-4bc5-a3b2-78e69958d8bd.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    },
+    {
+      "id": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+      "source": "mobbin",
+      "app": "GitHub",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Fnjj8BTl",
+        "https://mobbin.com/api/mcp/short/LHgKzwwX",
+        "https://mobbin.com/api/mcp/short/AzYjvkjc",
+        "https://mobbin.com/api/mcp/short/aaBMdJ9Y",
+        "https://mobbin.com/api/mcp/short/OAxVHPiw",
+        "https://mobbin.com/api/mcp/short/lgX3rtdn"
+      ],
+      "localAssets": [
+        "assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg",
+        "assets/mobbin/950bd8fb-e973-4367-a68b-a6c5ef485e8f.jpg",
+        "assets/mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg",
+        "assets/mobbin/87218698-4c32-45f7-adc3-61198ccd33b0.jpg",
+        "assets/mobbin/821604af-39b9-46e2-8e20-3f8ced157142.jpg",
+        "assets/mobbin/0c726d9e-6f02-432d-b2ba-055cbc15c6a6.jpg"
+      ],
+      "sourceIds": [
+        "277cd6a1-2548-408c-ba65-3a0acf33c36e",
+        "950bd8fb-e973-4367-a68b-a6c5ef485e8f",
+        "eccd2f55-dcc7-44ce-b712-71a4c39def81",
+        "87218698-4c32-45f7-adc3-61198ccd33b0",
+        "821604af-39b9-46e2-8e20-3f8ced157142",
+        "0c726d9e-6f02-432d-b2ba-055cbc15c6a6"
+      ],
+      "source_ids": [
+        "277cd6a1-2548-408c-ba65-3a0acf33c36e",
+        "950bd8fb-e973-4367-a68b-a6c5ef485e8f",
+        "eccd2f55-dcc7-44ce-b712-71a4c39def81",
+        "87218698-4c32-45f7-adc3-61198ccd33b0",
+        "821604af-39b9-46e2-8e20-3f8ced157142",
+        "0c726d9e-6f02-432d-b2ba-055cbc15c6a6"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "question": "Q1",
+      "title": "Test SAML before saving an enforced sign-in policy",
+      "actor": "university IT",
+      "take": "Require a connection test before saving enforced SAML. Keep failure feedback close to the configuration so IT can repair setup before institutional users depend on it.",
+      "observed": "Enterprise onboarding links to Authentication security. Enabling Require SAML authentication reveals sign-on URL, issuer and public-certificate fields plus service-provider information. Save is disabled until a SAML test. The supplied certificate produces an inline X509 format error, Failed: invalid settings beside the test control and an invalid-provider-settings banner.",
+      "adaptation": "Gate institutional SSO rollout on an explicit test result and explain who will be affected. Preserve configuration context when the test fails so IT can correct it.",
+      "limitation": "The captured connection test fails and no policy is successfully saved. Enforcing SAML, directory provisioning, account linking and course access remain distinct operations; the flow does not demonstrate them succeeding.",
+      "steps": [
+        {
+          "id": "277cd6a1-2548-408c-ba65-3a0acf33c36e",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Enterprise onboarding SAML entry",
+          "localAsset": "assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg"
+        },
+        {
+          "id": "950bd8fb-e973-4367-a68b-a6c5ef485e8f",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "Authentication security settings",
+          "localAsset": "assets/mobbin/950bd8fb-e973-4367-a68b-a6c5ef485e8f.jpg"
+        },
+        {
+          "id": "eccd2f55-dcc7-44ce-b712-71a4c39def81",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "Require SAML fields and test-before-save gate",
+          "localAsset": "assets/mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg"
+        },
+        {
+          "id": "87218698-4c32-45f7-adc3-61198ccd33b0",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "Configuration values entered",
+          "localAsset": "assets/mobbin/87218698-4c32-45f7-adc3-61198ccd33b0.jpg"
+        },
+        {
+          "id": "821604af-39b9-46e2-8e20-3f8ced157142",
+          "index": 4,
+          "imageIndex": 4,
+          "label": "Invalid certificate and failed test",
+          "localAsset": "assets/mobbin/821604af-39b9-46e2-8e20-3f8ced157142.jpg"
+        },
+        {
+          "id": "0c726d9e-6f02-432d-b2ba-055cbc15c6a6",
+          "index": 5,
+          "imageIndex": 5,
+          "label": "Invalid provider settings banner",
+          "localAsset": "assets/mobbin/0c726d9e-6f02-432d-b2ba-055cbc15c6a6.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    },
+    {
+      "id": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+      "source": "mobbin",
+      "app": "WorkOS",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hftbtWHm",
+        "https://mobbin.com/api/mcp/short/bBZSRHE1",
+        "https://mobbin.com/api/mcp/short/vK9VFBLn",
+        "https://mobbin.com/api/mcp/short/mgGoCnQI"
+      ],
+      "localAssets": [
+        "assets/mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg",
+        "assets/mobbin/dc451bfe-7fdc-435e-bd9f-5e8d6301d82d.jpg",
+        "assets/mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg",
+        "assets/mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg"
+      ],
+      "sourceIds": [
+        "952b02f6-5679-4afe-8d31-04532d1e14a3",
+        "dc451bfe-7fdc-435e-bd9f-5e8d6301d82d",
+        "1ab66cfd-4a8d-47a9-a543-49eb64f35e0a",
+        "d31f7cc8-8f33-48b9-b1c1-3ee159a90f52"
+      ],
+      "source_ids": [
+        "952b02f6-5679-4afe-8d31-04532d1e14a3",
+        "dc451bfe-7fdc-435e-bd9f-5e8d6301d82d",
+        "1ab66cfd-4a8d-47a9-a543-49eb64f35e0a",
+        "d31f7cc8-8f33-48b9-b1c1-3ee159a90f52"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "question": "Q1",
+      "title": "Choose which directory attributes are synchronized",
+      "actor": "university IT",
+      "take": "Let IT enable only the directory fields LearningSpace needs. Describe each field and disclose that changes to existing users may take time to appear.",
+      "observed": "Directory Sync lists optional auto-mapped attributes with descriptions and enabled/disabled states. An edit dialog provides individual toggles and warns that changes to existing directory users may not appear immediately. After selected toggles are saved, the main table reflects the enabled attributes.",
+      "adaptation": "Preview the shared fields and default to the minimum institutional data needed. Explain optional fields and propagation timing before IT saves a change.",
+      "limitation": "This developer-admin example controls optional attributes rather than selecting directory groups. No actual user synchronization, failed update, legal permission or course-membership mapping is demonstrated.",
+      "steps": [
+        {
+          "id": "952b02f6-5679-4afe-8d31-04532d1e14a3",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Directory attribute list, all optional fields disabled",
+          "localAsset": "assets/mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg"
+        },
+        {
+          "id": "dc451bfe-7fdc-435e-bd9f-5e8d6301d82d",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "Edit dialog with propagation warning",
+          "localAsset": "assets/mobbin/dc451bfe-7fdc-435e-bd9f-5e8d6301d82d.jpg"
+        },
+        {
+          "id": "1ab66cfd-4a8d-47a9-a543-49eb64f35e0a",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "Selected attributes enabled before Save",
+          "localAsset": "assets/mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg"
+        },
+        {
+          "id": "d31f7cc8-8f33-48b9-b1c1-3ee159a90f52",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "Saved enabled/disabled states",
+          "localAsset": "assets/mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    },
+    {
+      "id": "documentation:entra-ldap",
+      "source": "documentation",
+      "app": "Microsoft Entra",
+      "title": "LDAP is a directory protocol",
+      "kind": "screen",
+      "url": "https://learn.microsoft.com/en-us/entra/architecture/auth-ldap",
+      "images": [],
+      "question": "Q1",
+      "take": "Start with the university’s identity infrastructure. LDAP describes directory communication; it does not by itself provide app access or course membership.",
+      "observed": "Microsoft describes LDAP applications connecting to directory services. Its Entra example uses Domain Services and a one-way identity synchronization architecture, with networking and directory prerequisites.",
+      "adaptation": "Ask IT which directory and sign-in services exist before offering connection mechanisms. Explain authentication, provisioning, permissions, and course membership separately.",
+      "limitation": "Architecture documentation, not a setup flow. The Microsoft topology is one example and does not establish what LearningSpace supports.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/entra-ldap.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:okta-ad-scope",
+      "source": "documentation",
+      "app": "Okta",
+      "title": "Select Active Directory users and groups before import",
+      "kind": "screen",
+      "url": "https://help.okta.com/oie/en-us/content/topics/directory/ad-agent-configure-import.htm",
+      "images": [],
+      "question": "Q1",
+      "take": "Let IT select relevant organizational units and inspect import settings before bringing institutional users into the application.",
+      "observed": "The AD integration settings separately select user and group OUs, delegated authentication, import schedule, username format, and matching rules. Documentation warns that changed filters can deactivate users or groups.",
+      "adaptation": "Show the selected population, shared attributes, and impact of scope changes before enabling a departmental rollout.",
+      "limitation": "AD-specific configuration. Okta’s LDAP feature table separately lists OU/container import filtering as unsupported; these connectors must not be treated as interchangeable.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/okta-ad-import.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:google-simulation",
+      "source": "documentation",
+      "app": "Google Cloud Directory Sync",
+      "title": "Simulate before the first live synchronization",
+      "kind": "screen",
+      "url": "https://knowledge.workspace.google.com/admin/users/gcds-best-practices",
+      "images": [],
+      "question": "Q1",
+      "take": "Offer a real simulation before first sync so IT can verify the selected population and resolve existing unmanaged accounts.",
+      "observed": "Google advises preparing LDAP data, running a simulated sync, and then running the full sync. It also recommends handling existing unmanaged accounts before synchronization and using focused search rules to exclude unwanted data.",
+      "adaptation": "Separate a read-only preview from applying changes. Ask IT to review account matches, excluded groups, and proposed removals.",
+      "limitation": "Text guidance only. A simulation does not demonstrate the institution’s authorization to transfer personal data.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/google-practices.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:entra-on-demand",
+      "source": "documentation",
+      "app": "Microsoft Entra",
+      "title": "Test one user through provisioning diagnostics",
+      "kind": "flow",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/provision-on-demand",
+      "images": [
+        "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/provision-on-demand/on-demand-provision-user.png",
+        "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/provision-on-demand/success-on-demand-provision.png"
+      ],
+      "question": "Q1",
+      "take": "Trace one user through scope, matching, and the resulting action. Label this test clearly because on-demand provisioning can change the target account.",
+      "observed": "An administrator selects a user and starts provisioning. The result explains imported attributes, scope checks, matching, and action outcomes. A connection-test step appears only on failure. Missing matching attributes have documented recovery guidance.",
+      "adaptation": "Provide a representative-user diagnostic with understandable reasons for inclusion, exclusion, matching, and failure.",
+      "limitation": "This is a live provisioning operation, not a dry run. Official illustrations show selection and success, not every failure state.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [
+        "assets/documentation/entra-on-demand-0.png",
+        "assets/documentation/entra-on-demand-1.png"
+      ],
+      "steps": [
+        {
+          "id": "entra-on-demand:1",
+          "title": "Screenshot that shows the Microsoft Entra admin center UI for provisioning a user on demand.",
+          "asset": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/provision-on-demand/on-demand-provision-user.png",
+          "local_asset": "assets/documentation/entra-on-demand-0.png",
+          "source_step_index": 0,
+          "evidence": "Official documentation illustration; not a captured live session"
+        },
+        {
+          "id": "entra-on-demand:2",
+          "title": "Screenshot that shows the successful on-demand provisioning of a user.",
+          "asset": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/provision-on-demand/success-on-demand-provision.png",
+          "local_asset": "assets/documentation/entra-on-demand-1.png",
+          "source_step_index": 1,
+          "evidence": "Official documentation illustration; not a captured live session"
+        }
+      ],
+      "asset_gap": "",
+      "source_file": "evidence/entra-on-demand.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "refero:4649",
+      "source": "refero",
+      "app": "Riverside",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4649",
+      "images": [
+        "https://images.refero.design/screenshots/riverside.fm/desktop/b103b13d-e553-4bae-814a-08ef577f6321_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/df0e1500-036d-4f73-b6eb-581524fa0ad0_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/5957e643-419f-4588-9883-ce5ef4f0016a_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/16a3db40-f30e-4fe4-b926-5de594e10cea_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/8e0bca3c-74e8-40cc-b338-7a345d6a5ab0_thumb.jpg"
+      ],
+      "sourceIds": [
+        "f6c6ace0-9aa3-4691-b8c1-54c5163b80d5",
+        "942168e6-2dfd-4a93-94d3-ee407c8e8966",
+        "2f7c207e-044f-4a8d-ae6c-2aa5da88ec07",
+        "59d24999-e4ee-4259-8723-be4aa5be3f74",
+        "3775da7a-b67a-4c79-818f-b78dcffd8005"
+      ],
+      "source_ids": [
+        "f6c6ace0-9aa3-4691-b8c1-54c5163b80d5",
+        "942168e6-2dfd-4a93-94d3-ee407c8e8966",
+        "2f7c207e-044f-4a8d-ae6c-2aa5da88ec07",
+        "59d24999-e4ee-4259-8723-be4aa5be3f74",
+        "3775da7a-b67a-4c79-818f-b78dcffd8005"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/refero-4649/0.jpg",
+        "assets/refero-4649/1.jpg",
+        "assets/refero-4649/2.jpg",
+        "assets/refero-4649/3.jpg",
+        "assets/refero-4649/4.jpg"
+      ],
+      "question": "Q2",
+      "title": "SSO email discovery with an explicit failure",
+      "actor": "Faculty / learner",
+      "evidenceType": "analogy",
+      "take": "Keep institutional sign-in recognizable and explain when an email cannot use it. Give a support route and return path without implying that authentication creates course access.",
+      "observed": "From the marketing entry, the login modal offers a separate SSO link. The user enters a work email. The final screen says the email is not recognized for SSO and directs the person to their organization administrator; Back to Log in remains available.",
+      "adaptation": "Offer a clear university sign-in route alongside a separate guest route, with institution-specific support guidance when identity discovery fails. Treat this failure differently from successful sign-in without LearningSpace access.",
+      "limitation": "No identity-provider handoff, successful authentication, account creation, linking or course-access check is shown. Guest routing is a proposed adaptation. The first screen is a long marketing page retained only for complete sequence provenance.",
+      "figjamImageIndices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "evidence_type": "analogy",
+      "boardStepIndices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "boardOmissionNote": "Selected original steps shown in order; omitted intermediate screens remain in the complete HTML report. Riverside omits the marketing entry; Intercom and Rox omit repetitive intermediate mapping/tag states.",
+      "steps": [
+        {
+          "id": "f6c6ace0-9aa3-4691-b8c1-54c5163b80d5",
+          "label": "Marketing entry (context)",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/refero-4649/0.jpg",
+          "url": "https://refero.design/pages/f6c6ace0-9aa3-4691-b8c1-54c5163b80d5"
+        },
+        {
+          "id": "942168e6-2dfd-4a93-94d3-ee407c8e8966",
+          "label": "Login options with SSO link",
+          "index": 1,
+          "imageIndex": 1,
+          "localAsset": "assets/refero-4649/1.jpg",
+          "url": "https://refero.design/pages/942168e6-2dfd-4a93-94d3-ee407c8e8966"
+        },
+        {
+          "id": "2f7c207e-044f-4a8d-ae6c-2aa5da88ec07",
+          "label": "SSO work-email entry",
+          "index": 2,
+          "imageIndex": 2,
+          "localAsset": "assets/refero-4649/2.jpg",
+          "url": "https://refero.design/pages/2f7c207e-044f-4a8d-ae6c-2aa5da88ec07"
+        },
+        {
+          "id": "59d24999-e4ee-4259-8723-be4aa5be3f74",
+          "label": "Email entered",
+          "index": 3,
+          "imageIndex": 3,
+          "localAsset": "assets/refero-4649/3.jpg",
+          "url": "https://refero.design/pages/59d24999-e4ee-4259-8723-be4aa5be3f74"
+        },
+        {
+          "id": "3775da7a-b67a-4c79-818f-b78dcffd8005",
+          "label": "SSO email not recognized; contact organization administrator",
+          "index": 4,
+          "imageIndex": 4,
+          "localAsset": "assets/refero-4649/4.jpg",
+          "url": "https://refero.design/pages/3775da7a-b67a-4c79-818f-b78dcffd8005"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+      "source": "mobbin",
+      "app": "incident.io",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/XgM8et9w",
+        "https://mobbin.com/api/mcp/short/sXgvFIuj",
+        "https://mobbin.com/api/mcp/short/cuiD0gpD",
+        "https://mobbin.com/api/mcp/short/SRghy8zZ"
+      ],
+      "localAssets": [
+        "assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg",
+        "assets/mobbin/5ceb2f48-9668-421d-b59a-70da94d82a2e.jpg",
+        "assets/mobbin/e1843d29-60fa-4786-9191-b9704e17142d.jpg",
+        "assets/mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg"
+      ],
+      "sourceIds": [
+        "d320f96d-739d-45ea-a4a7-8c8f92fcaf90",
+        "5ceb2f48-9668-421d-b59a-70da94d82a2e",
+        "e1843d29-60fa-4786-9191-b9704e17142d",
+        "95e1a260-5034-4e86-82cd-04c17cd785fa"
+      ],
+      "source_ids": [
+        "d320f96d-739d-45ea-a4a7-8c8f92fcaf90",
+        "5ceb2f48-9668-421d-b59a-70da94d82a2e",
+        "e1843d29-60fa-4786-9191-b9704e17142d",
+        "95e1a260-5034-4e86-82cd-04c17cd785fa"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "question": "Q2",
+      "title": "Keep SAML failure and recovery routes visible",
+      "actor": "faculty / learner",
+      "take": "Place a clear retry and administrator-support message beside failed institutional sign-in. A later app screen does not explain how the person authenticated or whether accounts were linked.",
+      "observed": "The login page offers Slack, Microsoft and SAML SSO. After an email is entered, an error says SAML login failed and suggests trying again or contacting the administrator. The sequence later shows the application home.",
+      "adaptation": "Distinguish institutional sign-in failure from an authenticated person lacking LearningSpace or course access. Keep the support route visible and make a separate guest route understandable.",
+      "limitation": "The intermediate successful authentication method is not captured between the SAML error and home. Do not interpret this sequence as successful SAML retry, account linking, first-login provisioning or no-application-access handling. Guest routing remains a proposal.",
+      "steps": [
+        {
+          "id": "d320f96d-739d-45ea-a4a7-8c8f92fcaf90",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Login options and SAML email entry",
+          "localAsset": "assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg"
+        },
+        {
+          "id": "5ceb2f48-9668-421d-b59a-70da94d82a2e",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "Email entered for SAML",
+          "localAsset": "assets/mobbin/5ceb2f48-9668-421d-b59a-70da94d82a2e.jpg"
+        },
+        {
+          "id": "e1843d29-60fa-4786-9191-b9704e17142d",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "SAML login failed; retry or administrator guidance",
+          "localAsset": "assets/mobbin/e1843d29-60fa-4786-9191-b9704e17142d.jpg"
+        },
+        {
+          "id": "95e1a260-5034-4e86-82cd-04c17cd785fa",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "Application home; successful authentication method not captured",
+          "localAsset": "assets/mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    },
+    {
+      "id": "documentation:entra-matching",
+      "source": "documentation",
+      "app": "Microsoft Entra",
+      "title": "Configure unique matching attributes and precedence",
+      "kind": "screen",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/customize-application-attributes#matching-users-in-the-source-and-target-systems",
+      "images": [],
+      "question": "Q2",
+      "take": "Agree on a stable identity match before creating accounts. Expose ambiguous or missing matches for review instead of assuming email is enough.",
+      "observed": "Matching attributes connect existing source and target users. Entra evaluates configured attributes in precedence order until a unique match is found. Every user needs a value for at least one matching attribute; the target must support filtering on it.",
+      "adaptation": "Record institutional identifiers separately from display email, show matching provenance, and route collisions to an administrator.",
+      "limitation": "This does not prescribe a universal identifier. Ordered matching is not a compound match across several fields; target capabilities must be verified.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/entra-matching.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:atlassian-jit",
+      "source": "documentation",
+      "app": "Atlassian",
+      "title": "Create accounts at first SAML sign-in",
+      "kind": "flow",
+      "url": "https://support.atlassian.com/atlassian-cloud/kb/what-is-just-in-time-provisioning-and-how-to-set-it-up/",
+      "images": [
+        "https://images.ctfassets.net/zsv3d0ugroxu/1xHsn_I89su7jRtxTr8Aj/8716cd9a70c679428c5fa1b20df3ad99/Screenshot_2025-01-28_at_2.43.14_PM.png",
+        "https://images.ctfassets.net/zsv3d0ugroxu/9SI-vZbeuHl7Ag0L9kDKO/8332fe8f7cac73c6525141c83cd8047d/image-2025-1-28_14-48-16.png"
+      ],
+      "question": "Q2",
+      "take": "Explain whether the account is created before login or at first sign-in. JIT needs explicit domain and policy configuration.",
+      "observed": "Atlassian documents first-login account creation through SAML SSO, verified-domain automatic claiming, linked domains, and an enforced default authentication policy. It warns that inconsistent IdP username and email settings can create mismatches or duplicates.",
+      "adaptation": "Make first-login provisioning a deliberate institutional policy and test how it behaves for an existing account.",
+      "limitation": "Official setup illustrations only; no end-user first-login completion is captured. This article is marked AI-generated by Atlassian. JIT alone does not demonstrate departures or access assignment.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [
+        "assets/documentation/atlassian-jit-0.png",
+        "assets/documentation/atlassian-jit-1.png"
+      ],
+      "steps": [
+        {
+          "id": "atlassian-jit:1",
+          "title": "Automatically claim accounts from the verified domain",
+          "asset": "https://images.ctfassets.net/zsv3d0ugroxu/1xHsn_I89su7jRtxTr8Aj/8716cd9a70c679428c5fa1b20df3ad99/Screenshot_2025-01-28_at_2.43.14_PM.png",
+          "local_asset": "assets/documentation/atlassian-jit-0.png",
+          "source_step_index": 0,
+          "evidence": "Official documentation illustration; not a captured live session"
+        },
+        {
+          "id": "atlassian-jit:2",
+          "title": "Require single sign-on in the default authentication policy",
+          "asset": "https://images.ctfassets.net/zsv3d0ugroxu/9SI-vZbeuHl7Ag0L9kDKO/8332fe8f7cac73c6525141c83cd8047d/image-2025-1-28_14-48-16.png",
+          "local_asset": "assets/documentation/atlassian-jit-1.png",
+          "source_step_index": 1,
+          "evidence": "Official documentation illustration; not a captured live session"
+        }
+      ],
+      "asset_gap": "",
+      "source_file": "evidence/atlassian-jit.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:github-linking",
+      "source": "documentation",
+      "app": "GitHub",
+      "title": "Inspect and repair a linked SAML identity",
+      "kind": "screen",
+      "url": "https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/viewing-and-managing-a-members-saml-access-to-your-organization",
+      "images": [
+        "https://docs.github.com/assets/cb-36907/mw-1440/images/help/saml/saml-identity-linked.webp"
+      ],
+      "question": "Q2",
+      "take": "Show which institutional identity is linked to an existing account, with a deliberate repair route when the wrong identity was connected.",
+      "observed": "GitHub members can link their IdP identity to an existing account. Administrators inspect the SAML identity link and can revoke an incorrect link so the member can retry. Session and credential revocation are separate actions.",
+      "adaptation": "Display link provenance and offer supervised relinking without suggesting that signing out or deleting the user is the same operation.",
+      "limitation": "The screenshot is a profile sidebar excerpt. The documented revoke-and-retry path is not visually captured end to end. GitHub’s organization model is an analogy.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [
+        "assets/documentation/github-linking-1.png"
+      ],
+      "steps": [
+        {
+          "id": "github-linking:1",
+          "title": "Screenshot of the people summary for @octocat. A link, labeled \"SAML identity linked\", is highlighted with an orange outline.",
+          "asset": "https://docs.github.com/assets/cb-36907/mw-1440/images/help/saml/saml-identity-linked.webp",
+          "local_asset": "assets/documentation/github-linking-1.png",
+          "source_step_index": 1,
+          "evidence": "Official documentation illustration; not a captured live session"
+        }
+      ],
+      "asset_gap": "",
+      "source_file": "evidence/github-linking.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+      "source": "mobbin",
+      "app": "Okta",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/OzyY7VDd",
+        "https://mobbin.com/api/mcp/short/NAEUpnqU",
+        "https://mobbin.com/api/mcp/short/UmfVz8n8",
+        "https://mobbin.com/api/mcp/short/pImW0NVr",
+        "https://mobbin.com/api/mcp/short/vIv4bcae"
+      ],
+      "localAssets": [
+        "assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg",
+        "assets/mobbin/02a533b3-ba02-4194-b5cb-5762d3d2b279.jpg",
+        "assets/mobbin/9f98944b-93c9-4dc2-85f4-11f991d0545e.jpg",
+        "assets/mobbin/cc52905e-1f42-4fe7-984a-6a86f8271bc6.jpg",
+        "assets/mobbin/2ae61b76-5411-42b1-87ec-3564bde6bd73.jpg"
+      ],
+      "sourceIds": [
+        "91368794-4b0a-44aa-8556-4865258940d3",
+        "02a533b3-ba02-4194-b5cb-5762d3d2b279",
+        "9f98944b-93c9-4dc2-85f4-11f991d0545e",
+        "cc52905e-1f42-4fe7-984a-6a86f8271bc6",
+        "2ae61b76-5411-42b1-87ec-3564bde6bd73"
+      ],
+      "source_ids": [
+        "91368794-4b0a-44aa-8556-4865258940d3",
+        "02a533b3-ba02-4194-b5cb-5762d3d2b279",
+        "9f98944b-93c9-4dc2-85f4-11f991d0545e",
+        "cc52905e-1f42-4fe7-984a-6a86f8271bc6",
+        "2ae61b76-5411-42b1-87ec-3564bde6bd73"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "question": "Q3",
+      "title": "Show directory status and system-managed groups",
+      "actor": "university IT / LearningSpace administrator",
+      "take": "Distinguish pending people from active users and label who manages a group. Keep group source, membership counts and application assignments visible without equating them with course roles.",
+      "observed": "The directory route opens People with status filtering; later rows show Pending user action alongside Active. Groups has a Group source type filter, people and applications columns, an Everyone description, and an Okta Administrators group explicitly described as managed by Okta.",
+      "adaptation": "Expose source and lifecycle status for institutional users and groups. Explain system-managed membership and local exceptions, while representing each person’s course roles separately from institution-wide administration.",
+      "limitation": "This captures directory navigation and list states, not a continuous provisioning run. No externally sourced group is selected, controlled profile edit is attempted or course permission inherited. An Okta-managed administrator group is not evidence of university group synchronization.",
+      "steps": [
+        {
+          "id": "91368794-4b0a-44aa-8556-4865258940d3",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Directory onboarding context",
+          "localAsset": "assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg"
+        },
+        {
+          "id": "02a533b3-ba02-4194-b5cb-5762d3d2b279",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "Directory navigation expanded",
+          "localAsset": "assets/mobbin/02a533b3-ba02-4194-b5cb-5762d3d2b279.jpg"
+        },
+        {
+          "id": "9f98944b-93c9-4dc2-85f4-11f991d0545e",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "People list with active status",
+          "localAsset": "assets/mobbin/9f98944b-93c9-4dc2-85f4-11f991d0545e.jpg"
+        },
+        {
+          "id": "cc52905e-1f42-4fe7-984a-6a86f8271bc6",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "People list with pending and active users",
+          "localAsset": "assets/mobbin/cc52905e-1f42-4fe7-984a-6a86f8271bc6.jpg"
+        },
+        {
+          "id": "2ae61b76-5411-42b1-87ec-3564bde6bd73",
+          "index": 4,
+          "imageIndex": 4,
+          "label": "Groups with source filter and Okta-managed administrator group",
+          "localAsset": "assets/mobbin/2ae61b76-5411-42b1-87ec-3564bde6bd73.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    },
+    {
+      "id": "documentation:atlassian-managed",
+      "source": "documentation",
+      "app": "Atlassian",
+      "title": "Separate directory ownership from application access",
+      "kind": "screen",
+      "url": "https://support.atlassian.com/provisioning-users/docs/understand-user-provisioning/",
+      "images": [],
+      "question": "Q3",
+      "take": "Mark directory-controlled fields and groups, then explain the local access granted through those groups.",
+      "observed": "Provisioned users and groups become available for granting app access. Synced groups are read-only in Atlassian and edited in the IdP. App access is granted through group assignment. External accounts have different attribute and deactivation behavior from managed accounts.",
+      "adaptation": "Show a source label and a reason beside controlled fields. Keep LearningSpace-specific access rules visible alongside inherited membership.",
+      "limitation": "Product and domain rules vary. The source has architecture diagrams, but no useful managed-profile screenshot was collected; diagram availability is not UI evidence.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/atlassian-managed.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:github-team-sync",
+      "source": "documentation",
+      "app": "GitHub",
+      "title": "External membership with local resource permissions",
+      "kind": "screen",
+      "url": "https://docs.github.com/en/enterprise-cloud@latest/organizations/organizing-members-into-teams/synchronizing-a-team-with-an-identity-provider-group",
+      "images": [],
+      "question": "Q3",
+      "take": "Keep group membership ownership separate from resource permissions: directory teams can supply people while the application controls what the team accesses.",
+      "observed": "An organization owner connects an existing team to IdP groups. Membership changes then come from the IdP, while repository access stays managed in GitHub. Team synchronization is not generally a service for provisioning new organization members.",
+      "adaptation": "Display both the membership source and local access assignments. Explain why a person in a directory group may still lack application access.",
+      "limitation": "GitHub teams are an analogy for LearningSpace groups, not course enrollments. Collected official images only show navigation, so they were omitted.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/github-team-sync.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:atlassian-group-conflicts",
+      "source": "documentation",
+      "app": "Atlassian",
+      "title": "Review access changes before replacing conflicting groups",
+      "kind": "screen",
+      "url": "https://support.atlassian.com/provisioning-users/docs/resolve-group-conflicts-when-syncing-users/",
+      "images": [
+        "https://images.ctfassets.net/zsv3d0ugroxu/2QFZFXi609obpZKkubMoVy/34b245d968f486ea09fc6810aa18f340/diagram_UserProvisioning2.png"
+      ],
+      "question": "Q3",
+      "take": "Preview added and removed members alongside the access a conflicting group grants before replacing it with the directory version.",
+      "observed": "When local and IdP groups share a name, Atlassian lists conflicts with app access and membership changes. Administrators review changes, adjust or rename IdP groups, and choose which groups to sync.",
+      "adaptation": "Make source conflicts reviewable and show the access consequences before transferring group ownership.",
+      "limitation": "The official image is an annotated table excerpt, not a complete flow. A shared group name should not be assumed to identify the same institutional population.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [
+        "assets/documentation/atlassian-group-conflicts-0.png"
+      ],
+      "steps": [
+        {
+          "id": "atlassian-group-conflicts:1",
+          "title": "A list of group names, their product access, and the changes that will happen with sync",
+          "asset": "https://images.ctfassets.net/zsv3d0ugroxu/2QFZFXi609obpZKkubMoVy/34b245d968f486ea09fc6810aa18f340/diagram_UserProvisioning2.png",
+          "local_asset": "assets/documentation/atlassian-group-conflicts-0.png",
+          "source_step_index": 0,
+          "evidence": "Official documentation illustration; not a captured live session"
+        }
+      ],
+      "asset_gap": "",
+      "source_file": "evidence/atlassian-group-conflicts.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:canvas-course-roles",
+      "source": "documentation",
+      "app": "Canvas",
+      "title": "Roles belong to course enrollments",
+      "kind": "screen",
+      "url": "https://developerdocs.instructure.com/services/canvas/resources/enrollments",
+      "images": [],
+      "question": "Q3",
+      "take": "Represent role and status per course. A teaching role in one course should not silently become institution-wide administration.",
+      "observed": "Canvas Enrollment objects include a user, course and section identifiers, role or role ID, and enrollment state. Its API can list enrollments by course, section, or user.",
+      "adaptation": "Store each person’s course relationships separately so the same institutional identity can have different roles in different courses.",
+      "limitation": "API structure establishes feasibility, not a tested UI or LearningSpace permission policy. Canvas custom roles require a validated mapping.",
+      "actor": "LearningSpace administrator",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/canvas-enrollments-api.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "refero:1250",
+      "source": "refero",
+      "app": "Loom",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1250",
+      "images": [
+        "https://images.refero.design/screenshots/loom.com/desktop/7e8f9365-004a-4d1f-91b8-bdd93fcbdf91_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/8a8c75b5-ac22-4905-8014-5858f9691fdf_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/1b27f1ac-7212-4155-aeee-8a5d88ce36f8_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/475b4052-9140-4d53-8978-b919fbefd796_thumb.jpg"
+      ],
+      "sourceIds": [
+        "326fb4bf-ab76-4648-800b-b33c14b50e03",
+        "d3838abe-bd78-4da2-bbe3-05b3ba4c050e",
+        "892e7d52-3eab-48dd-8ea4-0027b9b9c6b1",
+        "3a135916-ba1c-4122-bcf5-696e6735cfdb"
+      ],
+      "source_ids": [
+        "326fb4bf-ab76-4648-800b-b33c14b50e03",
+        "d3838abe-bd78-4da2-bbe3-05b3ba4c050e",
+        "892e7d52-3eab-48dd-8ea4-0027b9b9c6b1",
+        "3a135916-ba1c-4122-bcf5-696e6735cfdb"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/refero-1250/0.jpg",
+        "assets/refero-1250/1.jpg",
+        "assets/refero-1250/2.jpg",
+        "assets/refero-1250/3.jpg"
+      ],
+      "question": "Q4",
+      "title": "Deactivate access while explaining content consequences",
+      "actor": "LearningSpace administrator",
+      "evidenceType": "analogy",
+      "take": "Before deactivation, separate access loss from historical-content consequences. State what remains available and confirm the person has left the active list.",
+      "observed": "The Members list opens a member details panel with role, joined date, Active status and Deactivate. Confirmation explains lost workspace access, which shared content remains accessible, ownership constraints and reactivation billing. After confirmation, the active member count drops from two to one and an update toast appears.",
+      "adaptation": "Preview the effect on access, teaching history and retained learning records before a local deactivation. Keep deactivation separate from course enrollment removal and permanent deletion, and identify the system that owns the action.",
+      "limitation": "This is a local workspace action, not a directory-triggered departure. The flow does not show retained inactive rows, an actual reactivation, identity re-linking, synchronization or learning-record retention policy.",
+      "evidence_type": "analogy",
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "steps": [
+        {
+          "id": "326fb4bf-ab76-4648-800b-b33c14b50e03",
+          "label": "Active workspace members",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/refero-1250/0.jpg",
+          "url": "https://refero.design/pages/326fb4bf-ab76-4648-800b-b33c14b50e03"
+        },
+        {
+          "id": "d3838abe-bd78-4da2-bbe3-05b3ba4c050e",
+          "label": "Member details and Deactivate action",
+          "index": 1,
+          "imageIndex": 1,
+          "localAsset": "assets/refero-1250/1.jpg",
+          "url": "https://refero.design/pages/d3838abe-bd78-4da2-bbe3-05b3ba4c050e"
+        },
+        {
+          "id": "892e7d52-3eab-48dd-8ea4-0027b9b9c6b1",
+          "label": "Deactivation consequences and confirmation",
+          "index": 2,
+          "imageIndex": 2,
+          "localAsset": "assets/refero-1250/2.jpg",
+          "url": "https://refero.design/pages/892e7d52-3eab-48dd-8ea4-0027b9b9c6b1"
+        },
+        {
+          "id": "3a135916-ba1c-4122-bcf5-696e6735cfdb",
+          "label": "Active list updated",
+          "index": 3,
+          "imageIndex": 3,
+          "localAsset": "assets/refero-1250/3.jpg",
+          "url": "https://refero.design/pages/3a135916-ba1c-4122-bcf5-696e6735cfdb"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "documentation:entra-lifecycle",
+      "source": "documentation",
+      "app": "Microsoft Entra",
+      "title": "Separate disabling, deletion, and return",
+      "kind": "flow",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works",
+      "images": [
+        "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/how-provisioning-works/disable-user.png",
+        "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/how-provisioning-works/delete-user.png"
+      ],
+      "question": "Q4",
+      "take": "Disable access independently of deleting history, and define how returning users regain their account and memberships.",
+      "observed": "Entra documents target disabling when users leave scope and deletion behavior depending on target capabilities. Restoring a soft-deleted user can reactivate the target account, while some group memberships need additional reconciliation. Failed individual operations are retried; widespread failures can quarantine the job.",
+      "adaptation": "Preserve identity links and learning history through deactivation. Show account state separately from course state and verify memberships on return.",
+      "limitation": "Connector behavior varies. The screenshots show configuration of disable/delete actions, not a completed returning-user journey.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [
+        "assets/documentation/entra-lifecycle-3.png",
+        "assets/documentation/entra-lifecycle-4.png"
+      ],
+      "steps": [
+        {
+          "id": "entra-lifecycle:1",
+          "title": "Disable a user",
+          "asset": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/how-provisioning-works/disable-user.png",
+          "local_asset": "assets/documentation/entra-lifecycle-3.png",
+          "source_step_index": 3,
+          "evidence": "Official documentation illustration; not a captured live session"
+        },
+        {
+          "id": "entra-lifecycle:2",
+          "title": "Delete a user",
+          "asset": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/how-provisioning-works/delete-user.png",
+          "local_asset": "assets/documentation/entra-lifecycle-4.png",
+          "source_step_index": 4,
+          "evidence": "Official documentation illustration; not a captured live session"
+        }
+      ],
+      "asset_gap": "",
+      "source_file": "evidence/entra-lifecycle.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:entra-status",
+      "source": "documentation",
+      "app": "Microsoft Entra",
+      "title": "Show last completed synchronization and quarantine reason",
+      "kind": "screen",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/check-status-user-account-provisioning",
+      "images": [
+        "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/check-status-user-account-provisioning/provisioning-progress-bar-section.png"
+      ],
+      "question": "Q4",
+      "take": "Show the last completed sync, current progress, affected population, and failure reason so administrators can judge whether directory data is current.",
+      "observed": "The provisioning status area distinguishes current initial or incremental cycles, synchronized user/group totals, last synchronization, and quarantine reasons such as invalid credentials. Logs can be searched using source or target user identifiers.",
+      "adaptation": "Separate last attempt from last success, explain stale data, and link operational status to affected records.",
+      "limitation": "The documentation uses an older Azure-branded status screenshot. Its specific timing and counts are illustrative, not service commitments.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [
+        "assets/documentation/entra-status-0.png"
+      ],
+      "steps": [
+        {
+          "id": "entra-status:1",
+          "title": "Summary report",
+          "asset": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/media/check-status-user-account-provisioning/provisioning-progress-bar-section.png",
+          "local_asset": "assets/documentation/entra-status-0.png",
+          "source_step_index": 0,
+          "evidence": "Official documentation illustration; not a captured live session"
+        }
+      ],
+      "asset_gap": "",
+      "source_file": "evidence/entra-status.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:entra-logs",
+      "source": "documentation",
+      "app": "Microsoft Entra",
+      "title": "Export operation details for investigation",
+      "kind": "screen",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-analyze-provisioning-logs",
+      "images": [
+        "https://learn.microsoft.com/en-us/entra/identity/monitoring-health/media/howto-analyze-provisioning-logs/download.png"
+      ],
+      "question": "Q4",
+      "take": "Make failed provisioning records diagnosable and exportable so an administrator can resolve a specific identity problem with IT.",
+      "observed": "Microsoft documents provisioning-log filtering and download in CSV or JSON. Recorded information includes identity, source, target, action, status, and diagnostic details; logs support investigating individual failures.",
+      "adaptation": "Provide record-level outcomes, error explanations, and a downloadable report that can be shared through the institution’s support process.",
+      "limitation": "Log visibility requires appropriate permissions and may expose personal data. The captured image shows the download control, not every error recovery screen.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [
+        "assets/documentation/entra-logs-0.png"
+      ],
+      "steps": [
+        {
+          "id": "entra-logs:1",
+          "title": "Screenshot of the download button in the provisioning logs.",
+          "asset": "https://learn.microsoft.com/en-us/entra/identity/monitoring-health/media/howto-analyze-provisioning-logs/download.png",
+          "local_asset": "assets/documentation/entra-logs-0.png",
+          "source_step_index": 0,
+          "evidence": "Official documentation illustration; not a captured live session"
+        }
+      ],
+      "asset_gap": "",
+      "source_file": "evidence/entra-logs.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:entra-deletion-guard",
+      "source": "documentation",
+      "app": "Microsoft Entra",
+      "title": "Quarantine unexpected mass removals",
+      "kind": "screen",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/accidental-deletions",
+      "images": [],
+      "question": "Q4",
+      "take": "Pause unusually large removals and let IT inspect the cause before changes are applied.",
+      "observed": "Entra lets administrators configure a deletion threshold and notification address. Crossing the threshold quarantines provisioning. Administrators can inspect staged actions, explicitly allow deletes, or repair the source/configuration before restarting.",
+      "adaptation": "Treat a sudden reduction in the source population as a reviewable event. Keep last-known data and show why the job paused.",
+      "limitation": "The threshold also covers disables and is evaluated per cycle. This is documentation guidance; no relevant screenshot was collected.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/entra-deletion-guard.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:atlassian-sync-actions",
+      "source": "documentation",
+      "app": "Atlassian",
+      "title": "Distinguish resynchronizing from stopping account sync",
+      "kind": "screen",
+      "url": "https://support.atlassian.com/atlassian-cloud/kb/how-to-manage-account-sync-actions-in-atlassian-admin-hub/",
+      "images": [],
+      "question": "Q4",
+      "take": "Give stale data, wrong identity links, and unavailable recovery actions different explanations and next steps.",
+      "observed": "Atlassian documents targeted account sync and a separate stop-sync action. Stopping sync unlinks the account and removes SCIM group memberships while the account remains active. Multiple links disable the actions and require support. Success banners distinguish completed actions from failures.",
+      "adaptation": "Explain what a repair changes, confirm unlinking consequences, and retain the managed state until successful completion is known.",
+      "limitation": "Text-only evidence. These actions depend on account state and subscription; they do not establish a universally safe unlinking policy.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/atlassian-sync-actions.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "refero:671",
+      "source": "refero",
+      "app": "Intercom",
+      "kind": "flow",
+      "url": "https://refero.design/flows/671",
+      "images": [
+        "https://images.refero.design/screenshots/intercom.com/desktop/638e3125-aac1-4239-bff8-cee3b95bf70b_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/8568eaf3-cef8-4484-a748-1bebf5c41cdf_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/ceecb45c-ce62-4edf-9835-d035b07c6ac2_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/a931fb85-8443-4b02-9c72-7c3915ddb575_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/fb8f81f4-356d-4e9b-a1ee-21783ccf9204_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/c927c903-527b-417e-bb3d-a91ac9e5d98e_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/3cbe7cf6-0654-47bd-9e79-e5a522e6735a_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/8327c6ea-2964-4d46-981c-f735d8b8b431_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/0a339fb9-67a1-429a-b964-f09270e149ed_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/c39eac55-4690-44a4-8a40-736d3fbb125d_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/85020c8f-5dd8-4641-8510-2571df7045fb_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/fff56f66-503f-480b-af91-bbd8090226e3_thumb.jpg",
+        "https://images.refero.design/screenshots/intercom.com/desktop/65867693-c5ca-46f9-8a4e-5d5dd3829c0e_thumb.jpg"
+      ],
+      "sourceIds": [
+        "2e9768da-57ec-4142-9280-e6a630309675",
+        "3a8fd987-a4ce-48f1-bc53-0f1ff4df160e",
+        "a249ee7d-d23b-4ec0-9edd-b165edd8612b",
+        "e1773c3f-922c-40d5-a37a-4af677279e5c",
+        "d7e7ff87-f8c8-4ec0-a06c-adc044a403f8",
+        "76d74436-9e19-4608-b02c-86a9f090f698",
+        "80606ab4-2673-44e1-baf0-94f2087daea9",
+        "53a9ed54-517f-4ea4-b6d4-6fa71f21cd16",
+        "cac2fc27-f22e-49ce-9ab2-294bb713af17",
+        "2ab15aa7-193e-4d3f-8c9d-1923295ffcaf",
+        "d8626fb9-9252-44dd-b247-8eff5533e542",
+        "1cca620d-ddd0-4370-adab-2bdafbcc649e",
+        "27a17a87-0d85-475d-8636-d8660b5eacc6"
+      ],
+      "source_ids": [
+        "2e9768da-57ec-4142-9280-e6a630309675",
+        "3a8fd987-a4ce-48f1-bc53-0f1ff4df160e",
+        "a249ee7d-d23b-4ec0-9edd-b165edd8612b",
+        "e1773c3f-922c-40d5-a37a-4af677279e5c",
+        "d7e7ff87-f8c8-4ec0-a06c-adc044a403f8",
+        "76d74436-9e19-4608-b02c-86a9f090f698",
+        "80606ab4-2673-44e1-baf0-94f2087daea9",
+        "53a9ed54-517f-4ea4-b6d4-6fa71f21cd16",
+        "cac2fc27-f22e-49ce-9ab2-294bb713af17",
+        "2ab15aa7-193e-4d3f-8c9d-1923295ffcaf",
+        "d8626fb9-9252-44dd-b247-8eff5533e542",
+        "1cca620d-ddd0-4370-adab-2bdafbcc649e",
+        "27a17a87-0d85-475d-8636-d8660b5eacc6"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/refero-671/0.jpg",
+        "assets/refero-671/1.jpg",
+        "assets/refero-671/2.jpg",
+        "assets/refero-671/3.jpg",
+        "assets/refero-671/4.jpg",
+        "assets/refero-671/5.jpg",
+        "assets/refero-671/6.jpg",
+        "assets/refero-671/7.jpg",
+        "assets/refero-671/8.jpg",
+        "assets/refero-671/9.jpg",
+        "assets/refero-671/10.jpg",
+        "assets/refero-671/11.jpg",
+        "assets/refero-671/12.jpg"
+      ],
+      "question": "Q5",
+      "title": "Repeat-import matching and an all-error result",
+      "actor": "LearningSpace administrator",
+      "evidenceType": "analogy",
+      "take": "Explain how repeat imports match existing people; report created, updated and failed rows separately. A finished job can still have zero successful records.",
+      "observed": "The CSV introduction states that matching user ID or email updates an existing person; otherwise it creates one. The flow maps CSV columns, previews mapped attributes, adds import tags and runs a background import. Its final screen shows 0 users created, 0 users updated and 9 invalid-email errors with row and column details.",
+      "adaptation": "For a Canvas export or other institutional CSV, require an explicit stable-identifier matching policy, preview additions versus updates, and provide actionable per-row validation. Preserve job history so administrators can correct and repeat a snapshot import.",
+      "limitation": "All nine rows fail in the observed run; this is not partial success. Successful duplicate resolution, recovery retry and a downloaded error report are not shown. The source metadata calls this a happy path, which the actual final screen contradicts. Email matching here is an analogy, not a recommended university identity key.",
+      "deduplication": "Reuses page-1 Refero flow 671 for materially new questions: identity matching on repeat imports and recovery from an all-error result. Page 1 used the flow for bulk-user entry/discovery. The prior reference record is reused for the new question. Page-1 assets were missing; supported full images were retrieved in this research round and reused without another download during selection.",
+      "figjamImageIndices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        10,
+        11,
+        12
+      ],
+      "evidence_type": "analogy",
+      "reuseRationale": "Reuses page-1 Refero flow 671 for materially new questions: identity matching on repeat imports and recovery from an all-error result. Page 1 used the flow for bulk-user entry/discovery. The prior reference record is reused for the new question. Page-1 assets were missing; supported full images were retrieved in this research round and reused without another download during selection.",
+      "boardStepIndices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        10,
+        11,
+        12
+      ],
+      "boardOmissionNote": "Selected original steps shown in order; omitted intermediate screens remain in the complete HTML report. Riverside omits the marketing entry; Intercom and Rox omit repetitive intermediate mapping/tag states.",
+      "steps": [
+        {
+          "id": "2e9768da-57ec-4142-9280-e6a630309675",
+          "label": "Choose CSV importer",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/refero-671/0.jpg",
+          "url": "https://refero.design/pages/2e9768da-57ec-4142-9280-e6a630309675"
+        },
+        {
+          "id": "3a8fd987-a4ce-48f1-bc53-0f1ff4df160e",
+          "label": "Read update-versus-create rule and choose users",
+          "index": 1,
+          "imageIndex": 1,
+          "localAsset": "assets/refero-671/1.jpg",
+          "url": "https://refero.design/pages/3a8fd987-a4ce-48f1-bc53-0f1ff4df160e"
+        },
+        {
+          "id": "a249ee7d-d23b-4ec0-9edd-b165edd8612b",
+          "label": "CSV selected for upload",
+          "index": 2,
+          "imageIndex": 2,
+          "localAsset": "assets/refero-671/2.jpg",
+          "url": "https://refero.design/pages/a249ee7d-d23b-4ec0-9edd-b165edd8612b"
+        },
+        {
+          "id": "e1773c3f-922c-40d5-a37a-4af677279e5c",
+          "label": "Choose source email column",
+          "index": 3,
+          "imageIndex": 3,
+          "localAsset": "assets/refero-671/3.jpg",
+          "url": "https://refero.design/pages/e1773c3f-922c-40d5-a37a-4af677279e5c"
+        },
+        {
+          "id": "d7e7ff87-f8c8-4ec0-a06c-adc044a403f8",
+          "label": "Confirm column mapping",
+          "index": 4,
+          "imageIndex": 4,
+          "localAsset": "assets/refero-671/4.jpg",
+          "url": "https://refero.design/pages/d7e7ff87-f8c8-4ec0-a06c-adc044a403f8"
+        },
+        {
+          "id": "76d74436-9e19-4608-b02c-86a9f090f698",
+          "label": "Mapped identifier, email and name; optional date step",
+          "index": 5,
+          "imageIndex": 5,
+          "localAsset": "assets/refero-671/5.jpg",
+          "url": "https://refero.design/pages/76d74436-9e19-4608-b02c-86a9f090f698"
+        },
+        {
+          "id": "80606ab4-2673-44e1-baf0-94f2087daea9",
+          "label": "Review mapped data",
+          "index": 6,
+          "imageIndex": 6,
+          "localAsset": "assets/refero-671/6.jpg",
+          "url": "https://refero.design/pages/80606ab4-2673-44e1-baf0-94f2087daea9"
+        },
+        {
+          "id": "53a9ed54-517f-4ea4-b6d4-6fa71f21cd16",
+          "label": "Import tags",
+          "index": 7,
+          "imageIndex": 7,
+          "localAsset": "assets/refero-671/7.jpg",
+          "url": "https://refero.design/pages/53a9ed54-517f-4ea4-b6d4-6fa71f21cd16"
+        },
+        {
+          "id": "cac2fc27-f22e-49ce-9ab2-294bb713af17",
+          "label": "Choose tags",
+          "index": 8,
+          "imageIndex": 8,
+          "localAsset": "assets/refero-671/8.jpg",
+          "url": "https://refero.design/pages/cac2fc27-f22e-49ce-9ab2-294bb713af17"
+        },
+        {
+          "id": "2ab15aa7-193e-4d3f-8c9d-1923295ffcaf",
+          "label": "Tags selected",
+          "index": 9,
+          "imageIndex": 9,
+          "localAsset": "assets/refero-671/9.jpg",
+          "url": "https://refero.design/pages/2ab15aa7-193e-4d3f-8c9d-1923295ffcaf"
+        },
+        {
+          "id": "d8626fb9-9252-44dd-b247-8eff5533e542",
+          "label": "Tags saved; ready to import",
+          "index": 10,
+          "imageIndex": 10,
+          "localAsset": "assets/refero-671/10.jpg",
+          "url": "https://refero.design/pages/d8626fb9-9252-44dd-b247-8eff5533e542"
+        },
+        {
+          "id": "1cca620d-ddd0-4370-adab-2bdafbcc649e",
+          "label": "Import processing and history route",
+          "index": 11,
+          "imageIndex": 11,
+          "localAsset": "assets/refero-671/11.jpg",
+          "url": "https://refero.design/pages/1cca620d-ddd0-4370-adab-2bdafbcc649e"
+        },
+        {
+          "id": "27a17a87-0d85-475d-8636-d8660b5eacc6",
+          "label": "Job finished: 0 created, 0 updated, 9 invalid-email errors",
+          "index": 12,
+          "imageIndex": 12,
+          "localAsset": "assets/refero-671/12.jpg",
+          "url": "https://refero.design/pages/27a17a87-0d85-475d-8636-d8660b5eacc6"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "refero:10795",
+      "source": "refero",
+      "app": "Rox",
+      "kind": "flow",
+      "url": "https://refero.design/flows/10795",
+      "images": [
+        "https://images.refero.design/screenshots/rox.com/desktop/288031a6-ac62-411e-9b2b-63d7309c8c10_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/26624d8c-6e31-4ebd-870d-2cf0d33c397b_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/08f11f8d-c2d5-48da-8e35-906f498e626c_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/4c576b85-13ab-4d3d-9dc0-9318798534e2_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/b8286522-1340-489d-9650-1d722dd97bb2_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/995bdc50-d8a8-4d10-9da4-1118a8b04958_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/440e2cb7-7058-490b-86dc-7ab6849715d1_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/444b3c33-0a7e-48ad-9b24-f43710b0b787_thumb.jpg",
+        "https://images.refero.design/screenshots/rox.com/desktop/13882560-7516-4789-b2a9-c8fcb9391ce6_thumb.jpg"
+      ],
+      "sourceIds": [
+        "288031a6-ac62-411e-9b2b-63d7309c8c10",
+        "26624d8c-6e31-4ebd-870d-2cf0d33c397b",
+        "08f11f8d-c2d5-48da-8e35-906f498e626c",
+        "4c576b85-13ab-4d3d-9dc0-9318798534e2",
+        "b8286522-1340-489d-9650-1d722dd97bb2",
+        "995bdc50-d8a8-4d10-9da4-1118a8b04958",
+        "440e2cb7-7058-490b-86dc-7ab6849715d1",
+        "444b3c33-0a7e-48ad-9b24-f43710b0b787",
+        "13882560-7516-4789-b2a9-c8fcb9391ce6"
+      ],
+      "source_ids": [
+        "288031a6-ac62-411e-9b2b-63d7309c8c10",
+        "26624d8c-6e31-4ebd-870d-2cf0d33c397b",
+        "08f11f8d-c2d5-48da-8e35-906f498e626c",
+        "4c576b85-13ab-4d3d-9dc0-9318798534e2",
+        "b8286522-1340-489d-9650-1d722dd97bb2",
+        "995bdc50-d8a8-4d10-9da4-1118a8b04958",
+        "440e2cb7-7058-490b-86dc-7ab6849715d1",
+        "444b3c33-0a7e-48ad-9b24-f43710b0b787",
+        "13882560-7516-4789-b2a9-c8fcb9391ce6"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "selected": false,
+      "counter_example": false,
+      "localAssets": [
+        "assets/refero-10795/0.jpg",
+        "assets/refero-10795/1.jpg",
+        "assets/refero-10795/2.jpg",
+        "assets/refero-10795/3.jpg",
+        "assets/refero-10795/4.jpg",
+        "assets/refero-10795/5.jpg",
+        "assets/refero-10795/6.jpg",
+        "assets/refero-10795/7.jpg",
+        "assets/refero-10795/8.jpg"
+      ],
+      "question": "Q5",
+      "title": "Map columns with sample data and validation review",
+      "actor": "LearningSpace administrator",
+      "evidenceType": "analogy",
+      "take": "Preview sample values while mapping each column, then review valid and invalid counts before importing. Completion must distinguish accepted upload from finished processing.",
+      "observed": "Contacts offers Add via CSV. After upload, Map your columns shows source fields alongside a selected field’s sample values, an auto-map control and destination field choices. The review shows name and email each valid for 10/10 records and zero invalid columns. After Add Contacts, a toast says the file is uploaded and processing may take a few minutes.",
+      "adaptation": "Let administrators map Canvas or generic institutional exports while viewing real sample values. Show required identifiers and validation before commit, then link the processing state to a durable results page.",
+      "limitation": "This is CRM contact enrichment, not account provisioning. Mapping only names and email proves neither stable identity matching nor course access. The final screen confirms processing, not completed additions, updates or failures.",
+      "figjamImageIndices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "evidence_type": "analogy",
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "boardOmissionNote": "Selected original steps shown in order; omitted intermediate screens remain in the complete HTML report. Riverside omits the marketing entry; Intercom and Rox omit repetitive intermediate mapping/tag states.",
+      "steps": [
+        {
+          "id": "288031a6-ac62-411e-9b2b-63d7309c8c10",
+          "label": "Contacts: Add via CSV",
+          "index": 0,
+          "imageIndex": 0,
+          "localAsset": "assets/refero-10795/0.jpg",
+          "url": "https://refero.design/pages/288031a6-ac62-411e-9b2b-63d7309c8c10"
+        },
+        {
+          "id": "26624d8c-6e31-4ebd-870d-2cf0d33c397b",
+          "label": "Upload CSV and read requirements",
+          "index": 1,
+          "imageIndex": 1,
+          "localAsset": "assets/refero-10795/1.jpg",
+          "url": "https://refero.design/pages/26624d8c-6e31-4ebd-870d-2cf0d33c397b"
+        },
+        {
+          "id": "08f11f8d-c2d5-48da-8e35-906f498e626c",
+          "label": "Map source columns with sample values",
+          "index": 2,
+          "imageIndex": 2,
+          "localAsset": "assets/refero-10795/2.jpg",
+          "url": "https://refero.design/pages/08f11f8d-c2d5-48da-8e35-906f498e626c"
+        },
+        {
+          "id": "4c576b85-13ab-4d3d-9dc0-9318798534e2",
+          "label": "Choose destination field for name",
+          "index": 3,
+          "imageIndex": 3,
+          "localAsset": "assets/refero-10795/3.jpg",
+          "url": "https://refero.design/pages/4c576b85-13ab-4d3d-9dc0-9318798534e2"
+        },
+        {
+          "id": "b8286522-1340-489d-9650-1d722dd97bb2",
+          "label": "Name mapped; incomplete-mapping warning",
+          "index": 4,
+          "imageIndex": 4,
+          "localAsset": "assets/refero-10795/4.jpg",
+          "url": "https://refero.design/pages/b8286522-1340-489d-9650-1d722dd97bb2"
+        },
+        {
+          "id": "995bdc50-d8a8-4d10-9da4-1118a8b04958",
+          "label": "Choose destination field for email",
+          "index": 5,
+          "imageIndex": 5,
+          "localAsset": "assets/refero-10795/5.jpg",
+          "url": "https://refero.design/pages/995bdc50-d8a8-4d10-9da4-1118a8b04958"
+        },
+        {
+          "id": "440e2cb7-7058-490b-86dc-7ab6849715d1",
+          "label": "Both columns mapped",
+          "index": 6,
+          "imageIndex": 6,
+          "localAsset": "assets/refero-10795/6.jpg",
+          "url": "https://refero.design/pages/440e2cb7-7058-490b-86dc-7ab6849715d1"
+        },
+        {
+          "id": "444b3c33-0a7e-48ad-9b24-f43710b0b787",
+          "label": "Review mappings: 10/10 valid in both columns",
+          "index": 7,
+          "imageIndex": 7,
+          "localAsset": "assets/refero-10795/7.jpg",
+          "url": "https://refero.design/pages/444b3c33-0a7e-48ad-9b24-f43710b0b787"
+        },
+        {
+          "id": "13882560-7516-4789-b2a9-c8fcb9391ce6",
+          "label": "Upload accepted; processing toast",
+          "index": 8,
+          "imageIndex": 8,
+          "localAsset": "assets/refero-10795/8.jpg",
+          "url": "https://refero.design/pages/13882560-7516-4789-b2a9-c8fcb9391ce6"
+        }
+      ],
+      "assetProvenance": "Actual screenshot data retrieved through the supported Refero get_screen_image route with image_size=full; ordered original thumbnail URLs retained as source record metadata. JPEG local assets are used for report and board."
+    },
+    {
+      "id": "documentation:canvas-export",
+      "source": "documentation",
+      "app": "Canvas",
+      "title": "Export a selected Provisioning CSV from account reports",
+      "kind": "flow",
+      "url": "https://community.instructure.com/en/kb/articles/661600-how-do-i-view-reports-for-an-account",
+      "images": [
+        "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/GCH0S3Y79RLN/795cd72b-e879-429d-8c91-be69a64a915e.png",
+        "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/9792I7LZAITQ/3f4bc838-81ef-4b64-a1c6-be2596c295c9.png",
+        "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/DN03OG3FSO20/339947cb-629e-4782-923c-7dc8c06a13a6.png"
+      ],
+      "question": "Q5",
+      "take": "Let an authorized administrator choose Users CSV and relevant enrollment files, then preserve export provenance when importing the snapshot.",
+      "observed": "Account administrators open Settings → Reports, configure a report, choose CSV categories and optional SIS/deleted-object settings, run it, and download the finished file. A failed report displays an error code. Term selection affects courses and enrollments, not the Users CSV.",
+      "adaptation": "Guide the Canvas export choice, record snapshot time, and preview users separately from course memberships before applying a LearningSpace import.",
+      "limitation": "Official illustrations are excerpts from a general reports guide, not one captured Provisioning run. The download example depicts another report. Import validation and error recovery remain separate evidence gaps.",
+      "actor": "LearningSpace administrator",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [
+        "assets/documentation/canvas-export-2.png",
+        "assets/documentation/canvas-export-7.png",
+        "assets/documentation/canvas-export-15.png"
+      ],
+      "steps": [
+        {
+          "id": "canvas-export:1",
+          "title": "Account Settings tab with the Reports tab highlighted",
+          "asset": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/GCH0S3Y79RLN/795cd72b-e879-429d-8c91-be69a64a915e.png",
+          "local_asset": "assets/documentation/canvas-export-2.png",
+          "source_step_index": 2,
+          "evidence": "Official documentation illustration; not a captured live session"
+        },
+        {
+          "id": "canvas-export:2",
+          "title": "Report configuration with the CSV file, Created by SIS, and Include Deleted Objects checkboxes highlighted",
+          "asset": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/9792I7LZAITQ/3f4bc838-81ef-4b64-a1c6-be2596c295c9.png",
+          "local_asset": "assets/documentation/canvas-export-7.png",
+          "source_step_index": 7,
+          "evidence": "Official documentation illustration; not a captured live session"
+        },
+        {
+          "id": "canvas-export:3",
+          "title": "Reports page with the Download icon highlighted",
+          "asset": "https://us.v-cdn.net/cdn-cgi/image/quality=80,format=auto,fit=scale-down,height=2000,width=2000/6038536/uploads/migrated/DN03OG3FSO20/339947cb-629e-4782-923c-7dc8c06a13a6.png",
+          "local_asset": "assets/documentation/canvas-export-15.png",
+          "source_step_index": 15,
+          "evidence": "Official documentation illustration; not a captured live session"
+        }
+      ],
+      "asset_gap": "",
+      "source_file": "evidence/canvas-export.md",
+      "boardImageOverrides": {
+        "0": {
+          "width": 855,
+          "label": "Reports tab — official documentation excerpt"
+        },
+        "1": {
+          "width": 280
+        },
+        "2": {
+          "width": 831,
+          "label": "Outcome Export download row — official documentation excerpt"
+        }
+      },
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:canvas-export-fields",
+      "source": "documentation",
+      "app": "Canvas",
+      "title": "Join user identifiers to separate enrollment data",
+      "kind": "screen",
+      "url": "https://community.instructure.com/en/kb/articles/387054-canvas-default-account-reports",
+      "images": [],
+      "question": "Q5",
+      "take": "Users CSV can supply identifiers, names, email, and status; course access needs separately mapped enrollment records.",
+      "observed": "The Provisioning report lists user identifiers, names, email and status in Users, and user/course identifiers, roles and status in Enrollments. It exports groups and group memberships only when created through Canvas SIS integration.",
+      "adaptation": "Preview identifier mapping and additions versus updates. Validate the enrollment join separately, retain row-level errors, and explain repeat-import behavior.",
+      "limitation": "CSV files are snapshots. Field availability does not prove export permission or that every identifier matches the university directory. The selected generic CSV flows do not prove Canvas-to-LearningSpace identity matching or enrollment import.",
+      "actor": "LearningSpace administrator",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/canvas-reports.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:canvas-nrps-roster",
+      "source": "documentation",
+      "app": "Canvas",
+      "title": "Retrieve a course roster through LTI NRPS",
+      "kind": "screen",
+      "url": "https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.provisioning",
+      "images": [],
+      "question": "Q6",
+      "take": "Use Canvas as a course-membership source while matching roster entries to existing institutional accounts.",
+      "observed": "Canvas documents NRPS for LTI 1.3 tools with a developer key, membership-read scope, installed tool, course context and OAuth client credentials. It can retrieve the course population beyond people who launched the tool. It cannot write enrollments back.",
+      "adaptation": "Let administrators select relevant courses and inspect role mapping before matching roster entries to institutional users.",
+      "limitation": "Technical feasibility only. Tool availability, institution authorization and identifier correspondence need validation; a normal LTI launch alone cannot reveal later departures.",
+      "actor": "LearningSpace administrator",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/canvas-roster.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:canvas-nrps-identifiers",
+      "source": "documentation",
+      "app": "Canvas",
+      "title": "Respect roster identifier and privacy boundaries",
+      "kind": "screen",
+      "url": "https://developerdocs.instructure.com/services/canvas/resources/names_and_role",
+      "images": [],
+      "question": "Q6",
+      "take": "Preview the identifiers and personal fields Canvas will actually share, and avoid requiring email for every roster match.",
+      "observed": "NRPS membership objects contain a unique LTI user identifier and roles in the current context. Names, email and SIS identifiers depend on tool privacy settings. The documented course endpoint returns active memberships and supports role or resource-link filtering.",
+      "adaptation": "Map namespaced Canvas identifiers to established institutional identities; show unavailable optional fields and allow IT to review ambiguous matches.",
+      "limitation": "An LTI user ID is not automatically the university directory ID. API capability and privacy settings do not establish legal permission for transfer.",
+      "actor": "university IT",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/canvas-nrps.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "id": "documentation:canvas-enrollment-status",
+      "source": "documentation",
+      "app": "Canvas",
+      "title": "Course departure differs from account suspension",
+      "kind": "screen",
+      "url": "https://community.instructure.com/en/kb/articles/387055-canvas-enrollment-status-comparison",
+      "images": [],
+      "question": "Q6",
+      "take": "Reconcile course membership changes independently of institutional identity and historical work.",
+      "observed": "Canvas distinguishes active, inactive, concluded and deleted enrollments. Inactive students lose course access while instructors retain submitted work; concluded access is generally read-only subject to settings. Account suspension controls login separately and does not change enrollment status.",
+      "adaptation": "Define a course-state mapping and preserve historical work when membership ends. Require a successful complete roster retrieval before interpreting absence as departure.",
+      "limitation": "The final retrieval safeguard is a proposed LearningSpace policy. Canvas status behavior varies with course settings; text documentation does not show the recovery interface.",
+      "actor": "LearningSpace administrator",
+      "evidence_type": "documentation",
+      "access_date": "2026-09-08",
+      "counter_example": false,
+      "selected": false,
+      "localAssets": [],
+      "steps": [],
+      "asset_gap": "Text documentation only; no relevant product screenshot collected.",
+      "source_file": "evidence/canvas-enrollment-status.md",
+      "evidenceType": "documentation",
+      "accessedAt": "2026-09-08"
+    }
+  ],
+  "gaps": [
+    "Library coverage is thin for actual LDAP setup, identifier collisions, externally managed fields and sync failures. Official documentation supplies technical evidence; screenshots of analogous SaaS interactions do not establish LearningSpace behavior.",
+    "No available screenshot or API establishes institutional permission to share personal data. Validate purpose, fields, roles, retention and operational responsibilities with university IT.",
+    "Guest identity, changed institutional identifiers, person merges and effective access across multiple courses require institution-specific validation.",
+    "Board sequences may select at most eight original steps. The report retains every collected step, including end states; documented omissions are in board-plan.json."
+  ],
+  "accessedAt": "2026-09-08",
+  "destination": {
+    "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+    "pageId": "5:422"
+  }
+}

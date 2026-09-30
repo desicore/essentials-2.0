@@ -1,0 +1,27 @@
+{
+  "product": "beside",
+  "flows": {
+    "mobbin:b5d1550e-5945-48c2-97c4-e12e9ea63dc4": {
+      "summary": "User opens Settings, turns on In-Person Recorder, starts a floating background recording with live waveform, then lands on a Meeting Overview with transcript link, share targets, AI to-do empty state, and short playback.",
+      "steps": [
+        "Settings: In-Person Recorder off",
+        "Toggle In-Person Recorder on + record FAB",
+        "Floating recorder widget at 0:00",
+        "Recording in progress (timer + waveform)",
+        "Meeting Overview: tasks, share, play"
+      ],
+      "steal": [
+        "Dedicated In-Person Recorder preference toggle (Settings / Toggle on)",
+        "Persistent floating recorder (timer, waveform, stop) while navigating Settings (Floating widget / Recording in progress)",
+        "Post-session Overview with Transcript chip, Slack/Email/Invite/Notes share row, and Play + See Transcription (Meeting Overview)",
+        "To-Do List empty state: 'No actions, you're in the clear!' after AI harvest (Meeting Overview)"
+      ],
+      "avoid": [
+        "No consent/permission prompt shown when enabling or starting in-person recording — Baseline requires consent for capturing faculty/group speech"
+      ],
+      "fit": "Strong pattern for phone voice-memo fallback beside the debrief room; extends Baseline second-screen capture, but must add consent before record and attach output to the session report.",
+      "jobs": ["record-debrief", "ai-debrief", "download-share"],
+      "counter_example": false
+    }
+  }
+}

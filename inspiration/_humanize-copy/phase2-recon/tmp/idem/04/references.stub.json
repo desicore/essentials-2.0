@@ -1,0 +1,38 @@
+{
+  "module": "04-learner-groups",
+  "title": "Adding Learner Groups to Courses",
+  "intro": "Course-side enrollment in Essentials 2.0: attach existing learner groups, review the resulting roster, handle exceptions, and make enrollment consequences clear within Semester \u2192 Courses. Screens and flows are evidence; unobserved synchronization behavior is identified as a gap.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Group-as-unit enrolment (attach a group, membership stays synced) vs. copy-at-enrol",
+      "answer": ""
+    },
+    {
+      "id": "Q2",
+      "title": "Preview of impact before confirming (member count, conflicts, already enrolled)",
+      "answer": ""
+    },
+    {
+      "id": "Q3",
+      "title": "Roster view: status, role, group origin, exceptions visible",
+      "answer": ""
+    },
+    {
+      "id": "Q4",
+      "title": "Bulk paths (CSV, code/link, integration) alongside manual add",
+      "answer": ""
+    },
+    {
+      "id": "Q5",
+      "title": "Capacity / waitlist / enrolment window handling",
+      "answer": ""
+    },
+    {
+      "id": "Q6",
+      "title": "Notifications to learners on enrolment (seam with 07/09 \u2014 note only)",
+      "answer": ""
+    }
+  ],
+  "references": []
+}

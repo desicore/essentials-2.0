@@ -1,0 +1,75 @@
+{
+  "product": "notion",
+  "flows": {
+    "mobbin:0a0113c1-6c8a-4764-a2b7-938abaceef53": {
+      "summary": "User works through Getting Started checklists and opens Home. They land on a Welcome home with recents, My tasks, empty Suggested and Trending, templates, and Learn cards.",
+      "steps": [
+        "Getting Started basics checklist page",
+        "Team Getting Started invite and teamspaces checklist",
+        "Home tip on the sidebar Home item",
+        "Welcome home with recents, My tasks, and Suggested",
+        "Home with empty Suggested and Trending copy",
+        "Home with Learn education cards",
+        "Personalised greeting and tasks with statuses",
+        "Home with Featured templates and Learn"
+      ],
+      "steal": [
+        "First-run is a live checklist page in the workspace (invite teammates, add teamspaces) rather than a pop-up-only tour (screens 1-2).",
+        "Recently visited cards jump back into work already started (screens 4-8).",
+        "Empty Suggested and Trending copy ('Pages relevant to you will show up here') replaces blank panels (screens 5-6).",
+        "My tasks rows show due date, status label (In progress / Not started), and source tag as a scannable what-needs-me list (screens 7-8)."
+      ],
+      "avoid": [
+        "No widget add, remove, or reorder controls appear. Tagging this as widgets overstates customisation; the home is a fixed stack of sections."
+      ],
+      "fit": "Dashboard: recents and My tasks replace tile sprawl. Tasks hand off to Debrief or Courses for grading and to Scheduling for due sessions. Featured templates and Learn map to first-run for a new center, not a Reports wall.",
+      "jobs": [
+        "first-run",
+        "navigation",
+        "action-items"
+      ]
+    },
+    "mobbin:cb1f904a-8674-4b22-8793-bd431804a75b": {
+      "summary": "From a Welcome checklist the user reaches Home with ask or search, Upcoming events for today and tomorrow, and a My tasks list where one task is checked complete.",
+      "steps": [
+        "Welcome to Notion interactive checklist",
+        "Home with ask bar, recents, Upcoming events, and My tasks",
+        "Home focused on Upcoming events and tasks with one done"
+      ],
+      "steal": [
+        "Upcoming events are grouped by day ('Today July 11', next day) above the task list, so the agenda needs no full calendar module.",
+        "My tasks shows a checkbox complete state (Landing page checked) with due dates and project tag still visible (screen 3).",
+        "Home combines recents, agenda, and tasks in one scroll, and New task sits on the list itself (screen 2)."
+      ],
+      "avoid": [],
+      "fit": "Dashboard: Today strip fed by Scheduling (sessions by time and room) with task checkboxes for faculty action items that open Debrief or Courses. It lives on the dashboard, not a separate calendar page.",
+      "jobs": [
+        "today",
+        "navigation",
+        "action-items",
+        "first-run"
+      ]
+    },
+    "mobbin:2abedcd0-4648-4c73-be51-6dd1763ed125": {
+      "summary": "A private workspace shows a Welcome checklist and full sidebar (Recents, Agents, Teamspaces, Notion Apps), then a trial unlock pop-up over the same page, then the page alone again.",
+      "steps": [
+        "Welcome checklist with full sidebar modules",
+        "Trial unlock pop-up over the Welcome page",
+        "Welcome checklist after the pop-up is closed"
+      ],
+      "steal": [
+        "The sidebar exposes Home, Search, Inbox, Recents, companion apps (Mail/Calendar), My Tasks, and New page or chat as module nav and quick-create in one rail.",
+        "A trial '30 days left' badge in the nav adds time-boxed setup urgency (screen 1).",
+        "A trial checklist pop-up with a locked reward step is an optional layer on top of the in-page guide (screen 2)."
+      ],
+      "avoid": [
+        "A gamified 'unlock a rare accessory' trial pop-up is noise for a clinical ops dashboard (screen 2)."
+      ],
+      "fit": "Dashboard: sidebar pattern for Essentials module navigation (Recording, Scheduling, Reports, and so on) plus a dashboard-only Welcome checklist. Companion-app links resemble handoffs to Calendar or Scheduling rather than widgets.",
+      "jobs": [
+        "navigation",
+        "first-run"
+      ]
+    }
+  }
+}

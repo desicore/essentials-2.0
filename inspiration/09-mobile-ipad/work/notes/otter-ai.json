@@ -1,0 +1,53 @@
+{
+  "product": "otter-ai",
+  "flows": {
+    "mobbin:7c04e7a5-ee31-4531-9e1a-fc413f10c950": {
+      "summary": "From a timestamped transcript playback view the user enters edit mode, corrects a word inline with the keyboard while the scrubber stays available, then exits with the corrected selection visible.",
+      "steps": [
+        "Transcript: Speaker 1 at 0:26, highlight, playback bar",
+        "Edit mode: select typo MVCreally, keyboard up",
+        "Edit mode: cursor in highlighted phrase, Done in header",
+        "View mode: MVP really selected, pencil in header"
+      ],
+      "steal": [
+        "A speaker block and start timestamp on every paragraph (screen 1) ties text to audio without a separate timeline.",
+        "A floating playback bar above the keyboard while editing (screens 2 to 3) lets you scrub or skip ±5s without leaving edit.",
+        "Explicit Done versus pencil header statuses (screens 2 to 4) make enter and exit for inline transcript correction clear.",
+        "Highlighter, comment and image actions on the player (screen 1) let the same moment be marked while correcting text."
+      ],
+      "avoid": [
+        "A dense metadata header (keywords, speakers, share) above the transcript (screen 1) competes with glanceable playback for gloved faculty."
+      ],
+      "fit": "Mobile and iPad app: mobile wins for post-session transcript fix-ups beside the recording. Extends baseline timestamped speech-to-text notes and can feed private debrief moments. It is not a live-room control replacement.",
+      "jobs": [
+        "voice-notes",
+        "debrief-annotations"
+      ],
+      "counter_example": false
+    },
+    "mobbin:6915b30a-9982-4888-a599-f263dc314e5d": {
+      "summary": "From transcript playback the user opens the plus tray, chooses Comment, composes a reply anchored to a timestamp label, and sees it land in a threaded view.",
+      "steps": [
+        "Transcript with highlight, playback and pencil",
+        "Plus tray: Comment, Take photo, Add Image",
+        "Comment panel: snippet, 24:16 pin, Add Reply",
+        "Compose: typed note and send",
+        "Thread: posted reply, 24:16 label, count 1"
+      ],
+      "steal": [
+        "A timestamp pin label on the comment panel (screens 3 to 5) always shows which moment the note belongs to.",
+        "A plus tray grouping Comment with photo capture (screen 2) gives one entry for moment evidence.",
+        "A snippet of transcript above the compose field (screens 3 to 4) keeps context without leaving the thread.",
+        "A comment count next to the timestamp label after post (screen 5) shows the annotation stuck."
+      ],
+      "avoid": [
+        "Starting the add path from a small plus on the player (screen 2) is easy to miss for one-hand or gloved use. Prefer a larger Add comment target."
+      ],
+      "fit": "Mobile and iPad app: mobile beats fixed SRV for private timestamped faculty notes during playback. Maps directly to baseline debrief annotations. Prefer a web page for shared big-screen control.",
+      "jobs": [
+        "debrief-annotations"
+      ],
+      "counter_example": false
+    }
+  }
+}

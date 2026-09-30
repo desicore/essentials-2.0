@@ -1,0 +1,42 @@
+{
+  "product": "classdojo",
+  "flows": {
+    "mobbin:b83099d3-97b5-452a-ab79-cece306cc444": {
+      "summary": "Teacher opens Group A, awards a shared skill point to the whole group, and sees an on-screen confirmation with the group total updated.",
+      "steps": [
+        "Group A roster + Award group",
+        "Pick skill (+1) for group",
+        "Confirm +1 Persistence overlay"
+      ],
+      "steal": [
+        "Step 0: one primary CTA ('Award group') after showing who is in the group before any grade/point is applied.",
+        "Step 1: fixed skill/rubric chip grid (+1 Helping others, On task, Participating, Persistence, Teamwork, Working hard) applied to the group at once.",
+        "Step 2: large transient confirmation ('Group A · +1 for Persistence') plus 'Undo last' on the groups view for immediate correction."
+      ],
+      "avoid": [
+        "Step 1 left rail focuses one member (Sam) while the title says 'Give feedback to Group A' — ambiguous whether the award is group-wide or person-scoped; Essentials needs an explicit group vs override state."
+      ],
+      "fit": "Extends Baseline group-first grading: skill chips map to rubric items applied to the sim team, with Undo last as a safe rollback before locking the evaluation.",
+      "counter_example": false
+    },
+    "mobbin:8e7b5ca8-2782-41a0-a0e8-8a6b29ec8af1": {
+      "summary": "Teacher opens Options → View reports, inspects Whole-class points with a per-student sidebar and activity log, then switches to the Whole-class attendance week view.",
+      "steps": [
+        "Classroom students + Whole Class card",
+        "Options → View reports",
+        "Whole-class points report",
+        "Whole-class attendance week"
+      ],
+      "steal": [
+        "Step 2: report sidebar lists 'Whole class' first, then each learner with a % — group summary with one-click drill to person.",
+        "Step 2: Points earned vs Skills awarded toggle, Export/Print, and All-time range on the same header.",
+        "Step 2: chronological activity feed ('+1 to Amanda · Working hard · Dec 24 · Alex Smith') as an evidence-linked grade log."
+      ],
+      "avoid": [
+        "Step 3 jumps to attendance rather than deeper grade/comment detail — weak close for a 'reports detail' evaluation story."
+      ],
+      "fit": "Pattern for post-debrief team report: Whole-team rollup + per-learner sidebar and dated event log alongside (not instead of) SRV Annotation/Data Entry.",
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{ "references": [
+  {
+    "id": "refero:307",
+    "source": "refero",
+    "app": "Ozone",
+    "title": "Timestamped Commenting",
+    "kind": "flow",
+    "url": "https://refero.design/flows/307",
+    "images": [
+      "https://images.refero.design/screenshots/ozone.tech/desktop/21a4029b-1187-4532-b575-97864f0347fa_thumb.jpg",
+      "https://images.refero.design/screenshots/ozone.tech/desktop/6360f745-15e6-4bb6-9481-78325669cc6b_thumb.jpg",
+      "https://images.refero.design/screenshots/ozone.tech/desktop/4bbf0bce-e089-4ae5-8513-f054691ea96e_thumb.jpg"
+    ],
+    "platform": "web",
+    "jobs": ["ai-debrief", "record-debrief"],
+    "take": "User adds timestamped comments anchored to video playhead in Comments panel, threaded for collaboration."
+  },
+  {
+    "id": "refero:9805",
+    "source": "refero",
+    "app": "Flask.do",
+    "title": "Time-coded Video Commenting",
+    "kind": "flow",
+    "url": "https://refero.design/flows/9805",
+    "images": [
+      "https://images.refero.design/screenshots/flask.do/desktop/e901e89c-1358-46de-97e0-631770b4e027_thumb.jpg",
+      "https://images.refero.design/screenshots/flask.do/desktop/9a6454e2-5b25-46bc-b42d-d42b7e6f438d_thumb.jpg",
+      "https://images.refero.design/screenshots/flask.do/desktop/37cadfd8-e78d-49f8-8eee-a6e079f8a8fe_thumb.jpg",
+      "https://images.refero.design/screenshots/flask.do/desktop/dc5c89ce-ef88-41aa-9055-b4307dd3b790_thumb.jpg"
+    ],
+    "platform": "web",
+    "jobs": ["ai-debrief"],
+    "take": "Reviewer seeks to timestamp, adds time-anchored comment, submits, sees it in sidebar thread with timeline marker."
+  },
+  {
+    "id": "refero:1455",
+    "source": "refero",
+    "app": "Ozone",
+    "title": "Time-stamped Commenting",
+    "kind": "flow",
+    "url": "https://refero.design/flows/1455",
+    "images": [
+      "https://images.refero.design/screenshots/ozone.tech/desktop/4bbf0bce-e089-4ae5-8513-f054691ea96e_thumb.jpg",
+      "https://images.refero.design/screenshots/ozone.tech/desktop/ea6c96a7-2f33-4acf-a133-b251244a1b58_thumb.jpg",
+      "https://images.refero.design/screenshots/ozone.tech/desktop/a15badc7-b800-443a-9e06-91520eba8568_thumb.jpg",
+      "https://images.refero.design/screenshots/ozone.tech/desktop/33beb2cd-6840-4110-b3df-b232803a7cbc_thumb.jpg"
+    ],
+    "platform": "web",
+    "jobs": ["record-debrief"],
+    "take": "Editor activates comment input at playhead, composes and submits timestamped comment visible in thread."
+  },
+  {
+    "id": "refero:10869",
+    "source": "refero",
+    "app": "Clipchamp",
+    "title": "Auto cut (AI transcription review)",
+    "kind": "flow",
+    "url": "https://refero.design/flows/10869",
+    "images": [
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/1deaf687-f8c9-4f65-b192-baddd25c2bd7_thumb.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/3e2ebf4c-54d1-4cb9-96d8-babf63f2b386_thumb.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/343b11bd-dbaa-4adb-8160-adb45546cb51_thumb.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/5b26a3df-d74a-4a11-94e0-37f23a61896c_thumb.jpg",
+      "https://images.refero.design/screenshots/clipchamp.com/desktop/f949fdff-3bb0-445e-98f5-b072e07062cc_thumb.jpg"
+    ],
+    "platform": "web",
+    "jobs": ["ai-clips"],
+    "take": "User selects clip, uses AI Suggestions to transcribe audio and detect pauses/filler words, reviews suggested cuts."
+  },
+  {
+    "id": "refero:1239",
+    "source": "refero",
+    "app": "Loom",
+    "title": "Edit recording metadata and AI settings",
+    "kind": "flow",
+    "url": "https://refero.design/flows/1239",
+    "images": [
+      "https://images.refero.design/screenshots/loom.com/desktop/47b239a6-33cc-44e3-b99c-64dc71099072_thumb.jpg",
+      "https://images.refero.design/screenshots/loom.com/desktop/911b41eb-6c0a-4a47-9e23-cd880cbc5dd2_thumb.jpg",
+      "https://images.refero.design/screenshots/loom.com/desktop/b046be44-fefe-4c21-92f9-11aeab976f08_thumb.jpg",
+      "https://images.refero.design/screenshots/loom.com/desktop/bc6cd6f3-f0b8-48d4-bf1e-6d6516dfd8b6_thumb.jpg"
+    ],
+    "platform": "web",
+    "jobs": ["ai-debrief", "rewatch"],
+    "take": "User opens recorded video detail, edits title/summary inline, toggles AI editing options like filler word removal."
+  },
+  {
+    "id": "refero:5575",
+    "source": "refero",
+    "app": "TwelveLabs",
+    "title": "Create and Upload to Video Index",
+    "kind": "flow",
+    "url": "https://refero.design/flows/5575",
+    "images": [
+      "https://images.refero.design/screenshots/twelvelabs.io/desktop/bc7f330d-b2b2-4515-9c83-54455b58453c_thumb.jpg",
+      "https://images.refero.design/screenshots/twelvelabs.io/desktop/514dcf2c-6af1-44dd-b868-8ed375bbfded_thumb.jpg",
+      "https://images.refero.design/screenshots/twelvelabs.io/desktop/7eb344b9-12e7-47b1-9d90-671a21cd199e_thumb.jpg",
+      "https://images.refero.design/screenshots/twelvelabs.io/desktop/7f42d8d8-891c-45be-b223-e71969bdb1d5_thumb.jpg",
+      "https://images.refero.design/screenshots/twelvelabs.io/desktop/0b61e018-97c0-4b63-b3c9-b786b615c491_thumb.jpg"
+    ],
+    "platform": "web",
+    "jobs": ["download-share"],
+    "take": "User creates video index, selects model and options, uploads multiple videos via guided modal with validation and indexing status."
+  },
+  {
+    "id": "refero:391",
+    "source": "refero",
+    "app": "Tella",
+    "title": "Record screen with webcam and edit",
+    "kind": "flow",
+    "url": "https://refero.design/flows/391",
+    "images": [
+      "https://images.refero.design/screenshots/tella.tv/desktop/df168497-6784-4089-b4f7-178a39795c1d_thumb.jpg",
+      "https://images.refero.design/screenshots/tella.tv/desktop/dab73393-7b59-449f-b7b5-3ebb525854f1_thumb.jpg",
+      "https://images.refero.design/screenshots/tella.tv/desktop/e51576b0-c5f6-4bab-9cb6-7f0b66ac1bb3_thumb.jpg",
+      "https://images.refero.design/screenshots/tella.tv/desktop/2340505d-e9e8-48c0-85a1-ac855c5041dc_thumb.jpg",
+      "https://images.refero.design/screenshots/tella.tv/desktop/71a57285-70f5-45ff-b0b7-0800c5ddf1fa_thumb.jpg",
+      "https://images.refero.design/screenshots/tella.tv/desktop/3654a741-15d7-4863-938b-cc79cc73df95_thumb.jpg",
+      "https://images.refero.design/screenshots/tella.tv/desktop/bcea1630-3141-428f-a08c-cf6d064b490a_thumb.jpg"
+    ],
+    "platform": "web",
+    "jobs": ["record-debrief"],
+    "take": "User creates web recording from empty workspace, grants permissions, records screen with optional webcam, stops and editor loads with clip on timeline."
+  },
+  {
+    "id": "refero:1238",
+    "source": "refero",
+    "app": "Loom",
+    "title": "Recorded review with AI sidebar",
+    "kind": "flow",
+    "url": "https://refero.design/flows/1238",
+    "images": [
+      "https://images.refero.design/screenshots/loom.com/desktop/a62fa0a3-48f3-4cde-b015-01de3b7948d4_thumb.jpg",
+      "https://images.refero.design/screenshots/loom.com/desktop/8554ef31-4bab-4d05-abd4-3c437263a98f_thumb.jpg",
+      "https://images.refero.design/screenshots/loom.com/desktop/63353622-2209-4d00-8875-14536b3dd8e4_thumb.jpg",
+      "https://images.refero.design/screenshots/loom.com/desktop/47b239a6-33cc-44e3-b99c-64dc71099072_thumb.jpg"
+    ],
+    "platform": "web",
+    "jobs": ["rewatch", "ai-debrief"],
+    "take": "Recording detail page with player, auto-generated summary/chapters, comments/reactions, and resizable/collapsible AI/editing sidebar panel."
+  }
+] }

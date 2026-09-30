@@ -1,0 +1,47 @@
+{
+  "product": "luma",
+  "flows": {
+    "mobbin:74bc6276-56b0-44b9-9a2b-cd8ed27f650f": {
+      "summary": "From the event home, the host opens Check In Guests, scans a guest QR, confirms Check In, sees success with Undo, then verifies the guest on the Guest List (and an empty Invited tab).",
+      "steps": [
+        "Event home — Check In Guests",
+        "QR scanner viewfinder",
+        "Scanned guest sheet — Check In",
+        "Check In Successful toast (still on scan)",
+        "Success sheet — Undo Check In",
+        "Scanner ready for next guest",
+        "Guest List — Going / Checked In",
+        "Guest List — Invited empty state"
+      ],
+      "steal": [
+        "Primary Check In Guests action on the session/event home (step 1) — puts tagging before any recording UI.",
+        "Confirm sheet after scan: name, email, Going status, Registered time, then explicit Check In (step 3) — prevents wrong-person tagging.",
+        "Immediate Undo Check In on the success sheet (step 5) — mistake recovery without leaving the scanner loop.",
+        "List icon escape hatch on the scanner (steps 2/4/6) — QR-first with one-tap fallback to the guest list."
+      ],
+      "avoid": [
+        "Empty Invited tab with only 'No Guests' (step 8) adds little for sim rooms — prefer a single expected/present split over RSVP-style tabs."
+      ],
+      "fit": "Adds room/session QR check-in outside the SRV (who-is-here that can label/trigger recording); feeds learner names into SRV transcript/Annotation instead of Speaker #N — no face ID."
+    },
+    "mobbin:cd3469d9-df14-4fa5-8003-021c7055af7e": {
+      "summary": "From the guest list with Going / Checked In / Not Checked In counts, the host opens a guest card, taps Check In, sees a success toast and list badge, then can Undo with an audit line of who checked them in.",
+      "steps": [
+        "Guest list — Going / Checked In counts + List|Scan",
+        "Guest card — Check In",
+        "Success toast — guest Checked In Now",
+        "Guest card — Undo Check In + by-whom audit"
+      ],
+      "steal": [
+        "Going / Checked In / Not Checked In count chips (step 1) — at-a-glance room readiness for operators.",
+        "List | Scan toggle in the bottom bar (step 1) — same roster, two input modes without leaving context.",
+        "Relative check-in time ('Now', '19 min ago') on the row badge (steps 1/3) — who just arrived.",
+        "Audit line 'Checked In · By Sam Lee' with Undo (step 4) — multi-operator accountability and correction."
+      ],
+      "avoid": [
+        "Social/bio chrome and referrer metadata on the guest card (steps 2/4) — noise for faculty; keep identity + roster status only."
+      ],
+      "fit": "Replaces ad-hoc name entry before/beside SRV with a per-room roster + List|Scan check-in; Checked In set becomes the session's participant tag list on the recording."
+    }
+  }
+}

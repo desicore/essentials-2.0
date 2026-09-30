@@ -1,0 +1,26 @@
+{
+  "product": "wellfound",
+  "flows": {
+    "mobbin:08aa493c-6111-43eb-a393-4f09e8b5fb3d": {
+      "summary": "Recruiter opens a candidate overview, adds a Project scorecard with free-text notes and Strong Yes–Strong No, then sees Scorecard Submitted with the saved Strong Yes card.",
+      "steps": [
+        "Interviews empty — Add interviewer",
+        "Scorecards empty — Add scorecard CTA",
+        "Scorecard form — empty notes + 4 ratings",
+        "Scorecard form — Add Project scorecard",
+        "Scorecard — written notes + Strong Yes…Strong No",
+        "Submitted toast + Strong Yes result card"
+      ],
+      "steal": [
+        "Scorecards empty state with Add scorecard for [name] CTA (step Scorecards empty).",
+        "Footer rating strip: Strong Yes / Yes / No / Strong No color-coded (step empty notes + 4 ratings).",
+        "View all previous scorecards toggle above the form (step empty notes + 4 ratings).",
+        "Success banner Scorecard Submitted! then list card with reviewer, Strong Yes, and note body (step Submitted toast)."
+      ],
+      "avoid": [
+        "Free-text-only scorecard with no checklist criteria — Abbott-style checklist+timestamps fit SRV grading better than one essay + four hire buttons."
+      ],
+      "fit": "Extends SRV Data Entry / evaluation variant: right-rail scorecard beside subject context, discrete summative scale + confirmation; lacks evidence timestamps and rubric rows Abbott already implies."
+    }
+  }
+}

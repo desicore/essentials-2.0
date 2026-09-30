@@ -1,0 +1,52 @@
+{
+  "product": "jira",
+  "flows": {
+    "mobbin:e8c931f2-dc00-4c3f-9b4f-50b11564ab9e": {
+      "summary": "Admin opens Dashboards, creates a named private dashboard with viewers and editors, then lands on an empty two-column work area beside a searchable Add a Gadget library of 31 items.",
+      "steps": [
+        "Dashboards list with Default dashboard and Create dashboard",
+        "Create dashboard pop-up with name and description empty",
+        "Create pop-up with Asset Storage and Private viewers or editors",
+        "Empty two-column work area with Add a Gadget sidebar (31)"
+      ],
+      "steal": [
+        "Empty-column placeholders say Drag a gadget or add a new gadget, so the first paint after create is clear (screen 4).",
+        "A gadget library offers search, category counts (All, Jira, Charts, Wallboard), and Add per item (screen 4).",
+        "An edit-mode banner says changes are saved automatically and offers Done, so layout editing stays low-risk (screen 4)."
+      ],
+      "avoid": [
+        "Create-your-own dashboard, a 31-gadget library, and separate Viewers and Editors access rules (screens 1-4) are over-built for non-technical faculty (ages 40-60). Leadership asked for widgets, not a gadget operating system."
+      ],
+      "fit": "Dashboard: counterweight to the deferred role-widget layer. Steal curated defaults and empty placeholders only. Do not ship a free-form gadget library. Reports, Debrief, and Scheduling content should be fixed cards that hand off into those modules.",
+      "jobs": [
+        "widgets",
+        "first-run",
+        "role-home"
+      ],
+      "counter_example": false
+    },
+    "mobbin:58df3be1-dd99-487a-83db-b759ced6120e": {
+      "summary": "Admin configures the Default dashboard affecting all users, opens Change layout column presets, and expands to a three-column grid with an empty gadget slot.",
+      "steps": [
+        "Configure Default dashboard with Intro, Assigned to Me, Projects, and Activity",
+        "Change layout menu with five column presets",
+        "Three-column layout with empty third column placeholder"
+      ],
+      "steal": [
+        "An admin Default dashboard warning that changes affect all users supports org defaults without per-faculty gadget DIY (screens 1-3).",
+        "Change layout as five icon presets (1, 50-50, 33-66, 3-col, and so on) is a simple layout choice (screens 2-3).",
+        "An Assigned to Me list on the default home is an action-items card that can hand off into Debrief or grading (screen 1)."
+      ],
+      "avoid": [
+        "Per-gadget controls (drag, minimize, expand, refresh, and more) plus deep System admin structure (screens 1-3) is too much for faculty. Keep rearrange optional and the library tiny."
+      ],
+      "fit": "Dashboard: good model for admin-set role defaults (phase-2 widgets) with Assigned to Me handing off to Debrief and action items. Avoid exposing full layout machinery to faculty.",
+      "jobs": [
+        "widgets",
+        "role-home",
+        "action-items"
+      ],
+      "counter_example": false
+    }
+  }
+}

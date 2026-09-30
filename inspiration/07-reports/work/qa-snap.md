@@ -1,0 +1,1197 @@
+- main [ref=f1e2]:
+  - generic [ref=f1e3]:
+    - generic [ref=f1e4]: Essentials 2.0 · Flow inspiration · 07-reports
+    - heading "Reports — flow inspiration" [level=1] [ref=f1e5]
+    - paragraph [ref=f1e6]: "Center-wide and cross-course reporting for Essentials 2.0: scheduled digests for deans, cohort comparison, AI evaluation review/approve, utilisation KPIs, and easy sharing. Sources: Mobbin and Refero (web). Date: 2026-09-30. Course-level reports from inside a course are covered in courses/08-recordings-course-reports; this gallery focuses on delivery and center-level analytics."
+    - paragraph [ref=f1e7]:
+      - strong [ref=f1e8]: Baseline.
+      - text: "Today Essentials ships four reports (Responses, Group Performance, Performance Matrix, Skill Development). Skill areas depend on program-wide naming abbreviations; an activity must be assigned before data is collected, so late setup loses data. Accreditation packs are hand-assembled. Utilisation reporting is the one report every visited center wants and none can get. Direction: automatic weekly/monthly PDF or newsletter for deans (link-shared), one place for learner feedback and faculty grading comparable by course/year/learner/period, KPIs for sim/room usage and faculty hours (calendar-generated), colour/narrative scale for formative work, and AI-generated formative/summative reports. Deep report builders are out of the first cut — favour zero-config defaults."
+    - paragraph [ref=f1e9]: 12 products · 21 flows · 103 screens · 5 jobs
+  - region [ref=f1e10]:
+    - heading "What the best products converge on" [level=2] [ref=f1e11]
+    - list [ref=f1e12]:
+      - listitem [ref=f1e13]:
+        - strong [ref=f1e14]: Subscribe the view you are looking at
+        - text: Amplitude and Mixpanel attach cadence + channel (email/Slack) to the live dashboard/board, not a separate report-builder. Later adds a one-toggle Monday digest and an auto-updating public URL. Essentials should default weekly/monthly dean packs from the center dashboard with pause — not a chart editor.
+        - generic [ref=f1e15]:
+          - text: "See:"
+          - 'link "Amplitude: Subscribing to dashboard reports" [ref=f1e16] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Aa2ee58b7-b7cc-4381-819b-3dc0299734e7"
+          - text: ·
+          - 'link "Mixpanel: Subscribing a board (email)" [ref=f1e17] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A157d0155-3762-4ce7-81c3-aead25729dce"
+          - text: ·
+          - 'link "Later: Enabling an email report" [ref=f1e18] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A55855f6e-97e0-4984-9bae-f11cb21e653f"
+          - text: ·
+          - 'link "Later: Creating a performance report" [ref=f1e19] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Aa56091b1-7e85-4b1b-a790-7e7ccbea971b"
+      - listitem [ref=f1e20]:
+        - strong [ref=f1e21]: Compare with pivots, not builders
+        - text: Mixpanel separates Time Period vs Segment vs % Overall; 15Five plots Self/Manager/Peer on one competency scale and pivots the same KPIs by Manager. Both show cohort and rater alignment without inventing charts. Map to course/year/learner/faculty filters on Group Performance and Performance Matrix.
+        - generic [ref=f1e22]:
+          - text: "See:"
+          - 'link "Mixpanel: Selecting segments" [ref=f1e23] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A5d067428-a757-489e-83a9-b33e2d63e6b1"
+          - text: ·
+          - 'link "Mixpanel: Comparing insight (time periods)" [ref=f1e24] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A09f6e5da-eaa5-4633-9a33-231f800317f6"
+          - text: ·
+          - 'link "15Five: Competency assessment" [ref=f1e25] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A6795c6c2-7c7b-4ded-aea2-5d594e67afb0"
+          - text: ·
+          - 'link "15Five: Breakdown" [ref=f1e26] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2"
+      - listitem [ref=f1e27]:
+        - strong [ref=f1e28]: AI drafts never auto-send
+        - text: Charma constrains tags, shows multiple suggestions, requires edit before Submit, and surfaces “hasn’t seen this yet.” Fireflies uses section checklists with empty states; Dialpad regenerates Recap length beside transcript evidence then shares a link. Formative = narrative sections; summative stays scored elsewhere.
+        - generic [ref=f1e29]:
+          - text: "See:"
+          - 'link "Charma: Generating feedback suggestions" [ref=f1e30] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Ae7700240-0fb3-4a8b-aa81-7a640b1aa2c1"
+          - text: ·
+          - 'link "Charma: Giving a peer review" [ref=f1e31] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1"
+          - text: ·
+          - 'link "Charma: Editing and sending feedback" [ref=f1e32] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Af2d6fb5a-36ee-4c5c-9612-55be9bbd3f28"
+          - text: ·
+          - 'link "Fireflies: Customizing a summary" [ref=f1e33] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A75bb46c3-1130-4cba-b194-ba086320dcc6"
+          - text: ·
+          - 'link "Dialpad: Updating a recap with AI" [ref=f1e34] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A9589355a-7154-4414-84ca-0228270aa40e"
+      - listitem [ref=f1e35]:
+        - strong [ref=f1e36]: Utilisation as a defined unit + period delta
+        - text: Whereby’s Participant Minutes (with definition tooltip) and Cal.com’s booking KPIs with “from last period” arrows make usage legible. Cal.com’s person×week matrix and Deputy’s hours catalog extend to faculty contact hours. Prefer calendar-generated room/sim minutes over vanity engagement charts.
+        - generic [ref=f1e37]:
+          - text: "See:"
+          - 'link "Whereby: Insights" [ref=f1e38] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A9649cfdc-dbbd-4c86-8a2d-9cdd25395064"
+          - text: ·
+          - 'link "Whereby: Room detail" [ref=f1e39] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Adf187e39-3913-4484-8e5e-6af9a2f548c7"
+          - text: ·
+          - 'link "Cal.com: View bookings insight" [ref=f1e40] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Aaa5da6b8-f37f-485c-9aea-ffa69cc0ed55"
+          - text: ·
+          - 'link "Cal.com: View routing insight" [ref=f1e41] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Aff3d88ad-6b47-453f-9f8f-5f333707e2bf"
+          - text: ·
+          - 'link "Deputy: Analytics" [ref=f1e42] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A1e4db417-5727-4669-950b-cfb4f457df53"
+      - listitem [ref=f1e43]:
+        - strong [ref=f1e44]: "Dean share: link with expiry or email PDF"
+        - text: Juicebox branches Export into passworded web share, download, or email PDF/IMAGE. Midday shares a per-metric snapshot with an explicit expiry date. Later’s public report URL + view count is the newsletter endpoint. Leadership should not need an Essentials login.
+        - generic [ref=f1e45]:
+          - text: "See:"
+          - 'link "Juicebox: Sharing dashboard to web" [ref=f1e46] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Aa6f030e2-5e59-4c27-80a3-a16e8cd88fc0"
+          - text: ·
+          - 'link "Juicebox: Sending to email" [ref=f1e47] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A8f313eb2-7e52-42e2-9b78-1f6f33252111"
+          - text: ·
+          - 'link "Midday: Sharing a metric" [ref=f1e48] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Aed6229f6-fa6d-413b-a6da-2edf7bb734ad"
+          - text: ·
+          - 'link "Later: Creating a performance report" [ref=f1e49] [cursor=pointer]':
+            - /url: "#flow-mobbin_3Aa56091b1-7e85-4b1b-a790-7e7ccbea971b"
+      - listitem [ref=f1e50]:
+        - strong [ref=f1e51]: Avoid embedded report builders
+        - text: Deputy’s catalog pitches schedule digests and PDFs but also exposes a Sigma-style builder path — treat that as the contrast case. Essentials v1 should ship default templates (utilisation, group performance, AI formative) rather than a blank canvas.
+        - generic [ref=f1e52]:
+          - text: "See:"
+          - 'link "Deputy: Analytics" [ref=f1e53] [cursor=pointer]':
+            - /url: "#flow-mobbin_3A1e4db417-5727-4669-950b-cfb4f457df53"
+    - heading "Open questions for Essentials 2.0" [level=3] [ref=f1e54]
+    - list [ref=f1e55]:
+      - listitem [ref=f1e56]: Robin/Envoy true workplace utilisation never appeared in Mobbin web results — Cal.com/Whereby/Deputy are adjacent analogs; how far can booking/participant-minutes map to sim-room camera hours?
+      - listitem [ref=f1e57]: Recipient-side email/PDF newsletter layouts were thin (mostly compose/subscribe UIs). What does the dean’s inbox view need beyond a link + PDF attachment?
+      - listitem [ref=f1e58]: Course-level overview→learner drill-down already lives in courses/08 — how does center-wide comparison hand off into a course report without duplicating Kajabi/SchoolAI patterns?
+      - listitem [ref=f1e59]: Formative colour/narrative scale is implied by Fireflies sections and Charma competency tags, but no product showed a traffic-light formative score replacing points — still to invent.
+      - listitem [ref=f1e60]: Multi-campus dashboards remain an access-control rabbit hole; none of the shortlisted flows solve cross-tenant ACL.
+      - listitem [ref=f1e61]: Refero candidates were mostly 1-image stubs and were dropped — is a Refero gap-fill worth another round for digest recipient views?
+  - 'heading "Coverage: jobs × products" [level=2] [ref=f1e62]'
+  - paragraph [ref=f1e63]: Each ● is one flow; click to jump. Red job = no flow yet.
+  - table [ref=f1e65]:
+    - rowgroup [ref=f1e66]:
+      - row [ref=f1e67]:
+        - columnheader "Product" [ref=f1e68]
+        - columnheader "Automatic weekly/monthly reports 5 flows" [ref=f1e69]:
+          - text: Automatic weekly/monthly reports
+          - generic [ref=f1e70]: 5 flows
+        - columnheader "Compare performance by learner / group / semester / course / faculty 5 flows" [ref=f1e71]:
+          - text: Compare performance by learner / group / semester / course / faculty
+          - generic [ref=f1e72]: 5 flows
+        - columnheader "AI evaluation (formative / summative) 5 flows" [ref=f1e73]:
+          - text: AI evaluation (formative / summative)
+          - generic [ref=f1e74]: 5 flows
+        - columnheader "Aggregate simulation / resource data (KPIs) 5 flows" [ref=f1e75]:
+          - text: Aggregate simulation / resource data (KPIs)
+          - generic [ref=f1e76]: 5 flows
+        - columnheader "Easy sharing of reports 5 flows" [ref=f1e77]:
+          - text: Easy sharing of reports
+          - generic [ref=f1e78]: 5 flows
+    - rowgroup [ref=f1e79]:
+      - row [ref=f1e80]:
+        - rowheader "Mixpanel Adjacent" [ref=f1e81]:
+          - link "Mixpanel" [ref=f1e82] [cursor=pointer]:
+            - /url: "#product-mixpanel"
+          - generic [ref=f1e83]: Adjacent
+        - cell [ref=f1e84]:
+          - link "●" [ref=f1e85] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A157d0155-3762-4ce7-81c3-aead25729dce"
+        - cell [ref=f1e86]:
+          - link "●" [ref=f1e87] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A5d067428-a757-489e-83a9-b33e2d63e6b1"
+          - link "●" [ref=f1e88] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A09f6e5da-eaa5-4633-9a33-231f800317f6"
+        - cell [ref=f1e89]
+        - cell [ref=f1e90]
+        - cell [ref=f1e91]
+      - row [ref=f1e92]:
+        - rowheader "Amplitude Adjacent" [ref=f1e93]:
+          - link "Amplitude" [ref=f1e94] [cursor=pointer]:
+            - /url: "#product-amplitude"
+          - generic [ref=f1e95]: Adjacent
+        - cell [ref=f1e96]:
+          - link "●" [ref=f1e97] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Aa2ee58b7-b7cc-4381-819b-3dc0299734e7"
+        - cell [ref=f1e98]
+        - cell [ref=f1e99]
+        - cell [ref=f1e100]
+        - cell [ref=f1e101]
+      - row [ref=f1e102]:
+        - rowheader "Later Adjacent" [ref=f1e103]:
+          - link "Later" [ref=f1e104] [cursor=pointer]:
+            - /url: "#product-later"
+          - generic [ref=f1e105]: Adjacent
+        - cell [ref=f1e106]:
+          - link "●" [ref=f1e107] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A55855f6e-97e0-4984-9bae-f11cb21e653f"
+          - link "●" [ref=f1e108] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Aa56091b1-7e85-4b1b-a790-7e7ccbea971b"
+        - cell [ref=f1e109]
+        - cell [ref=f1e110]
+        - cell [ref=f1e111]
+        - cell [ref=f1e112]:
+          - link "●" [ref=f1e113] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Aa56091b1-7e85-4b1b-a790-7e7ccbea971b"
+      - row [ref=f1e114]:
+        - rowheader "15Five Direct analog" [ref=f1e115]:
+          - link "15Five" [ref=f1e116] [cursor=pointer]:
+            - /url: "#product-15five"
+          - generic [ref=f1e117]: Direct analog
+        - cell [ref=f1e118]
+        - cell [ref=f1e119]:
+          - link "●" [ref=f1e120] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A6795c6c2-7c7b-4ded-aea2-5d594e67afb0"
+          - link "●" [ref=f1e121] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2"
+        - cell [ref=f1e122]
+        - cell [ref=f1e123]
+        - cell [ref=f1e124]
+      - row [ref=f1e125]:
+        - rowheader "Charma Direct analog" [ref=f1e126]:
+          - link "Charma" [ref=f1e127] [cursor=pointer]:
+            - /url: "#product-charma"
+          - generic [ref=f1e128]: Direct analog
+        - cell [ref=f1e129]
+        - cell [ref=f1e130]
+        - cell [ref=f1e131]:
+          - link "●" [ref=f1e132] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Ae7700240-0fb3-4a8b-aa81-7a640b1aa2c1"
+          - link "●" [ref=f1e133] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1"
+          - link "●" [ref=f1e134] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Af2d6fb5a-36ee-4c5c-9612-55be9bbd3f28"
+        - cell [ref=f1e135]
+        - cell [ref=f1e136]
+      - row [ref=f1e137]:
+        - rowheader "Fireflies Adjacent" [ref=f1e138]:
+          - link "Fireflies" [ref=f1e139] [cursor=pointer]:
+            - /url: "#product-fireflies"
+          - generic [ref=f1e140]: Adjacent
+        - cell [ref=f1e141]
+        - cell [ref=f1e142]
+        - cell [ref=f1e143]:
+          - link "●" [ref=f1e144] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A75bb46c3-1130-4cba-b194-ba086320dcc6"
+        - cell [ref=f1e145]
+        - cell [ref=f1e146]
+      - row [ref=f1e147]:
+        - rowheader "Dialpad Adjacent" [ref=f1e148]:
+          - link "Dialpad" [ref=f1e149] [cursor=pointer]:
+            - /url: "#product-dialpad"
+          - generic [ref=f1e150]: Adjacent
+        - cell [ref=f1e151]
+        - cell [ref=f1e152]
+        - cell [ref=f1e153]:
+          - link "●" [ref=f1e154] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A9589355a-7154-4414-84ca-0228270aa40e"
+        - cell [ref=f1e155]
+        - cell [ref=f1e156]:
+          - link "●" [ref=f1e157] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A9589355a-7154-4414-84ca-0228270aa40e"
+      - row [ref=f1e158]:
+        - rowheader "Cal.com Adjacent" [ref=f1e159]:
+          - link "Cal.com" [ref=f1e160] [cursor=pointer]:
+            - /url: "#product-cal-com"
+          - generic [ref=f1e161]: Adjacent
+        - cell [ref=f1e162]
+        - cell [ref=f1e163]
+        - cell [ref=f1e164]
+        - cell [ref=f1e165]:
+          - link "●" [ref=f1e166] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Aaa5da6b8-f37f-485c-9aea-ffa69cc0ed55"
+          - link "●" [ref=f1e167] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Aff3d88ad-6b47-453f-9f8f-5f333707e2bf"
+        - cell [ref=f1e168]
+      - row [ref=f1e169]:
+        - rowheader "Whereby Adjacent" [ref=f1e170]:
+          - link "Whereby" [ref=f1e171] [cursor=pointer]:
+            - /url: "#product-whereby"
+          - generic [ref=f1e172]: Adjacent
+        - cell [ref=f1e173]
+        - cell [ref=f1e174]
+        - cell [ref=f1e175]
+        - cell [ref=f1e176]:
+          - link "●" [ref=f1e177] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A9649cfdc-dbbd-4c86-8a2d-9cdd25395064"
+          - link "●" [ref=f1e178] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Adf187e39-3913-4484-8e5e-6af9a2f548c7"
+        - cell [ref=f1e179]
+      - row [ref=f1e180]:
+        - rowheader "Deputy Adjacent" [ref=f1e181]:
+          - link "Deputy" [ref=f1e182] [cursor=pointer]:
+            - /url: "#product-deputy"
+          - generic [ref=f1e183]: Adjacent
+        - cell [ref=f1e184]:
+          - link "●" [ref=f1e185] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A1e4db417-5727-4669-950b-cfb4f457df53"
+        - cell [ref=f1e186]:
+          - link "●" [ref=f1e187] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A1e4db417-5727-4669-950b-cfb4f457df53"
+        - cell [ref=f1e188]
+        - cell [ref=f1e189]:
+          - link "●" [ref=f1e190] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A1e4db417-5727-4669-950b-cfb4f457df53"
+        - cell [ref=f1e191]
+      - row [ref=f1e192]:
+        - rowheader "Juicebox Adjacent" [ref=f1e193]:
+          - link "Juicebox" [ref=f1e194] [cursor=pointer]:
+            - /url: "#product-juicebox"
+          - generic [ref=f1e195]: Adjacent
+        - cell [ref=f1e196]
+        - cell [ref=f1e197]
+        - cell [ref=f1e198]
+        - cell [ref=f1e199]
+        - cell [ref=f1e200]:
+          - link "●" [ref=f1e201] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Aa6f030e2-5e59-4c27-80a3-a16e8cd88fc0"
+          - link "●" [ref=f1e202] [cursor=pointer]:
+            - /url: "#flow-mobbin_3A8f313eb2-7e52-42e2-9b78-1f6f33252111"
+      - row [ref=f1e203]:
+        - rowheader "Midday Adjacent" [ref=f1e204]:
+          - link "Midday" [ref=f1e205] [cursor=pointer]:
+            - /url: "#product-midday"
+          - generic [ref=f1e206]: Adjacent
+        - cell [ref=f1e207]
+        - cell [ref=f1e208]
+        - cell [ref=f1e209]
+        - cell [ref=f1e210]
+        - cell [ref=f1e211]:
+          - link "●" [ref=f1e212] [cursor=pointer]:
+            - /url: "#flow-mobbin_3Aed6229f6-fa6d-413b-a6da-2edf7bb734ad"
+  - form "Filter flows" [ref=f1e213]:
+    - generic [ref=f1e214]:
+      - generic [ref=f1e215] [cursor=pointer]:
+        - text: Search
+        - searchbox "Search" [ref=f1e216]
+      - generic [ref=f1e217] [cursor=pointer]:
+        - text: Analog
+        - combobox "Analog" [ref=f1e218]:
+          - option "All" [selected]
+          - option "Direct analog"
+          - option "Adjacent"
+          - option "Wildcard"
+      - generic [ref=f1e219] [cursor=pointer]:
+        - text: Platform
+        - combobox "Platform" [ref=f1e220]:
+          - option "All" [selected]
+          - option "Web"
+      - generic [ref=f1e221] [cursor=pointer]:
+        - text: Source
+        - combobox "Source" [ref=f1e222]:
+          - option "All" [selected]
+          - option "Mobbin"
+      - generic [ref=f1e223] [cursor=pointer]:
+        - checkbox "Multi-step flows only" [ref=f1e224]
+        - text: Multi-step flows only
+      - generic [ref=f1e225] [cursor=pointer]:
+        - checkbox "★ Shortlist only" [ref=f1e226]
+        - text: ★ Shortlist only
+      - button "Reset" [ref=f1e227] [cursor=pointer]
+      - button "Export shortlist" [ref=f1e228] [cursor=pointer]
+      - status [ref=f1e229]: 21 of 21 flows · 0 ★
+    - group "Jobs (none checked = all)" [ref=f1e230]:
+      - generic "Subscribe to a report, pick cadence/recipients/format, email digest / PDF / newsletter layout, pausing, what the recipient sees." [ref=f1e231] [cursor=pointer]:
+        - checkbox "Automatic weekly/monthly reports" [ref=f1e232]
+        - text: Automatic weekly/monthly reports
+      - generic "Pivot and segment controls, cohort comparison, period-over-period, drill from aggregate to one learner, heatmap/matrix views." [ref=f1e233] [cursor=pointer]:
+        - checkbox "Compare performance by learner / group / semester / course / faculty" [ref=f1e234]
+        - text: Compare performance by learner / group / semester / course / faculty
+      - generic "AI-drafted assessment or summary with evidence links, human review/approve/edit, confidence, formative vs. summative framing." [ref=f1e235] [cursor=pointer]:
+        - checkbox "AI evaluation (formative / summative)" [ref=f1e236]
+        - text: AI evaluation (formative / summative)
+      - generic "Utilisation dashboards (rooms, equipment, people-hours), KPI cards with trends, date-range and filter model, empty/low-data states." [ref=f1e237] [cursor=pointer]:
+        - checkbox "Aggregate simulation / resource data (KPIs)" [ref=f1e238]
+        - text: Aggregate simulation / resource data (KPIs)
+      - generic "Share link with expiry/permissions, export PDF/CSV, embed, send to dean without an account." [ref=f1e239] [cursor=pointer]:
+        - checkbox "Easy sharing of reports" [ref=f1e240]
+        - text: Easy sharing of reports
+  - generic [ref=f1e241]:
+    - generic [ref=f1e242]:
+      - heading "Mixpanel" [level=2] [ref=f1e243]
+      - generic [ref=f1e244]: Adjacent
+      - generic [ref=f1e245]: 3 flows
+    - paragraph [ref=f1e246]: Subscribe from the live board (email/Slack + cadence) plus segment matrix and period-vs-cohort Compare — delivery and comparison without a builder.
+    - article [ref=f1e247]:
+      - generic [ref=f1e248]:
+        - generic [ref=f1e249]:
+          - generic [ref=f1e250]: Web
+          - generic [ref=f1e251]: Mobbin
+          - generic [ref=f1e252]: 5 steps
+          - button "☆" [ref=f1e253] [cursor=pointer]
+        - heading "Subscribing a board (email)" [level=3] [ref=f1e254]
+        - paragraph [ref=f1e255]: From a board’s Subscribe popover (empty Email/Slack), user opens Create a Subscription, picks Weekly + day/time/timezone, adds a recipient via search, and is ready to Subscribe.
+        - generic [ref=f1e256]: Automatic weekly/monthly reports
+        - paragraph [ref=f1e258]: Steal this
+        - list [ref=f1e259]:
+          - listitem [ref=f1e260]: Subscribe lives on the board chrome next to Share (step 0) — subscribe the view you’re looking at.
+          - listitem [ref=f1e261]: Email vs Slack tabs in one modal (steps 1–4) — channel without a second flow.
+          - listitem [ref=f1e262]: Send Test beside Subscribers (steps 1–4) — verify digest before go-live.
+          - listitem [ref=f1e263]: Empty state ‘No email subscriptions found for this board’ + Create New (step 0).
+        - paragraph [ref=f1e264]: Don’t copy
+        - list [ref=f1e265]:
+          - listitem [ref=f1e266]: Full day + time + timezone before any default (steps 1–2) — clashes with zero-config weekly dean digests.
+        - paragraph [ref=f1e267]: Essentials fit Board-level subscribe → automatic weekly/monthly email for deans; extends today’s hand-pulled reports without a builder.
+        - link "View on Mobbin ↗" [ref=f1e268] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/157d0155-3762-4ce7-81c3-aead25729dce
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e269]:
+        - figure "1 Subscribe popover — Email/Slack empty + Create New" [ref=f1e270]:
+          - 'button "Open full-size: Mixpanel — Subscribing a board (email), step 1 of 5: Subscribe popover — Email/Slack empty + Create New" [ref=f1e271]':
+            - 'img "Mixpanel — Subscribing a board (email), step 1 of 5: Subscribe popover — Email/Slack empty + Create New" [ref=f1e272]'
+        - figure "2 Create Subscription modal — cadence + timezone" [ref=f1e274]:
+          - 'button "Open full-size: Mixpanel — Subscribing a board (email), step 2 of 5: Create Subscription modal — cadence + timezone" [ref=f1e275]':
+            - 'img "Mixpanel — Subscribing a board (email), step 2 of 5: Create Subscription modal — cadence + timezone" [ref=f1e276]'
+        - figure "3 Weekly selected — day/time pickers" [ref=f1e278]:
+          - 'button "Open full-size: Mixpanel — Subscribing a board (email), step 3 of 5: Weekly selected — day/time pickers" [ref=f1e279]':
+            - 'img "Mixpanel — Subscribing a board (email), step 3 of 5: Weekly selected — day/time pickers" [ref=f1e280]'
+        - figure "4 Add subscriber — name/email autocomplete" [ref=f1e282]:
+          - 'button "Open full-size: Mixpanel — Subscribing a board (email), step 4 of 5: Add subscriber — name/email autocomplete" [ref=f1e283]':
+            - 'img "Mixpanel — Subscribing a board (email), step 4 of 5: Add subscriber — name/email autocomplete" [ref=f1e284]'
+        - figure "5 Subscriber chip listed — Send Test available" [ref=f1e286]:
+          - 'button "Open full-size: Mixpanel — Subscribing a board (email), step 5 of 5: Subscriber chip listed — Send Test available" [ref=f1e287]':
+            - 'img "Mixpanel — Subscribing a board (email), step 5 of 5: Subscriber chip listed — Send Test available" [ref=f1e288]'
+    - article [ref=f1e290]:
+      - generic [ref=f1e291]:
+        - generic [ref=f1e292]:
+          - generic [ref=f1e293]: Web
+          - generic [ref=f1e294]: Mobbin
+          - generic [ref=f1e295]: 4 steps
+          - button "☆" [ref=f1e296] [cursor=pointer]
+        - heading "Selecting segments" [level=3] [ref=f1e297]
+        - paragraph [ref=f1e298]: User builds an Insights query with two metrics, country filter, and nested device×cohort breakdown, then switches Manual Segments and toggles cohort visibility on chart + pivot table.
+        - generic [ref=f1e299]: Compare performance by learner / group / semester / course / faculty
+        - paragraph [ref=f1e301]: Steal this
+        - list [ref=f1e302]:
+          - listitem [ref=f1e303]: Nested Metric → device type → cohort rows with Average + day columns (steps 0–3) — matrix comparable by segment.
+          - listitem [ref=f1e304]: Color checkboxes in the table drive chart lines (steps 1–3) — one control for both views.
+          - listitem [ref=f1e305]: Breakdown chips in the query rail (device type, cohort) (all steps) — segments named, not buried in filters.
+        - paragraph [ref=f1e306]: Don’t copy
+        - list [ref=f1e307]:
+          - listitem [ref=f1e308]: Full query builder (metrics + filter + breakdown) as the first cut (all steps) — Baseline favours zero-config defaults over deep builders.
+        - paragraph [ref=f1e309]: Essentials fit Maps to Performance Matrix / Group Performance cohort compare by course·year·learner — ship as defaults, not free-form Insights.
+        - link "View on Mobbin ↗" [ref=f1e310] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/5d067428-a757-489e-83a9-b33e2d63e6b1
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e311]:
+        - figure "1 Insights — metrics A/B + device×cohort table" [ref=f1e312]:
+          - 'button "Open full-size: Mixpanel — Selecting segments, step 1 of 4: Insights — metrics A/B + device×cohort table" [ref=f1e313]':
+            - 'img "Mixpanel — Selecting segments, step 1 of 4: Insights — metrics A/B + device×cohort table" [ref=f1e314]'
+        - figure "2 Manual Segments — cohort visibility checkboxes" [ref=f1e316]:
+          - 'button "Open full-size: Mixpanel — Selecting segments, step 2 of 4: Manual Segments — cohort visibility checkboxes" [ref=f1e317]':
+            - 'img "Mixpanel — Selecting segments, step 2 of 4: Manual Segments — cohort visibility checkboxes" [ref=f1e318]'
+        - figure "3 Cohort rows toggled — chart series update" [ref=f1e320]:
+          - 'button "Open full-size: Mixpanel — Selecting segments, step 3 of 4: Cohort rows toggled — chart series update" [ref=f1e321]':
+            - 'img "Mixpanel — Selecting segments, step 3 of 4: Cohort rows toggled — chart series update" [ref=f1e322]'
+        - figure "4 Multi-line chart + nested pivot restored" [ref=f1e324]:
+          - 'button "Open full-size: Mixpanel — Selecting segments, step 4 of 4: Multi-line chart + nested pivot restored" [ref=f1e325]':
+            - 'img "Mixpanel — Selecting segments, step 4 of 4: Multi-line chart + nested pivot restored" [ref=f1e326]'
+    - article [ref=f1e328]:
+      - generic [ref=f1e329]:
+        - generic [ref=f1e330]:
+          - generic [ref=f1e331]: Web
+          - generic [ref=f1e332]: Mobbin
+          - generic [ref=f1e333]: 6 steps
+          - button "☆" [ref=f1e334] [cursor=pointer]
+        - heading "Comparing insight (time periods)" [level=3] [ref=f1e335]
+        - paragraph [ref=f1e336]: From an Insights chart, user opens Compare → Time Period, picks Previous day (or other presets), then sees Past Avg columns and green/red % deltas vs the prior period.
+        - generic [ref=f1e337]: Compare performance by learner / group / semester / course / faculty
+        - paragraph [ref=f1e339]: Steal this
+        - list [ref=f1e340]:
+          - listitem [ref=f1e341]: Compare splits Time Period vs Segment vs % Overall (steps 2–3) — period and cohort aren’t one muddled control.
+          - listitem [ref=f1e342]: Preset previous day/7d/30d/3m/year/Custom (step 3) — period-over-period without custom dates.
+          - listitem [ref=f1e343]: ‘Compare to previous day’ chip + Past Avg + % deltas (steps 4–5) — narrative change at a glance.
+        - paragraph [ref=f1e344]: Essentials fit Period-over-period for utilisation and faculty/learner KPIs — extends Performance Matrix without accreditation packs.
+        - link "View on Mobbin ↗" [ref=f1e345] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/09f6e5da-eaa5-4633-9a33-231f800317f6
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e346]:
+        - figure "1 Insights day view — breakdown table" [ref=f1e347]:
+          - 'button "Open full-size: Mixpanel — Comparing insight (time periods), step 1 of 6: Insights day view — breakdown table" [ref=f1e348]':
+            - 'img "Mixpanel — Comparing insight (time periods), step 1 of 6: Insights day view — breakdown table" [ref=f1e349]'
+        - figure "2 Hour/Yesterday range on chart" [ref=f1e351]:
+          - 'button "Open full-size: Mixpanel — Comparing insight (time periods), step 2 of 6: Hour/Yesterday range on chart" [ref=f1e352]':
+            - 'img "Mixpanel — Comparing insight (time periods), step 2 of 6: Hour/Yesterday range on chart" [ref=f1e353]'
+        - figure "3 Compare menu — Time Period / Segment / % Overall" [ref=f1e355]:
+          - 'button "Open full-size: Mixpanel — Comparing insight (time periods), step 3 of 6: Compare menu — Time Period / Segment / % Overall" [ref=f1e356]':
+            - 'img "Mixpanel — Comparing insight (time periods), step 3 of 6: Compare menu — Time Period / Segment / % Overall" [ref=f1e357]'
+        - figure "4 Time Period presets — previous day/7d/30d/year" [ref=f1e359]:
+          - 'button "Open full-size: Mixpanel — Comparing insight (time periods), step 4 of 6: Time Period presets — previous day/7d/30d/year" [ref=f1e360]':
+            - 'img "Mixpanel — Comparing insight (time periods), step 4 of 6: Time Period presets — previous day/7d/30d/year" [ref=f1e361]'
+        - figure "5 Compare to previous day on — Past Avg columns" [ref=f1e363]:
+          - 'button "Open full-size: Mixpanel — Comparing insight (time periods), step 5 of 6: Compare to previous day on — Past Avg columns" [ref=f1e364]':
+            - 'img "Mixpanel — Comparing insight (time periods), step 5 of 6: Compare to previous day on — Past Avg columns" [ref=f1e365]'
+        - figure "6 Table shows colour % change vs prior period" [ref=f1e367]:
+          - 'button "Open full-size: Mixpanel — Comparing insight (time periods), step 6 of 6: Table shows colour % change vs prior period" [ref=f1e368]':
+            - 'img "Mixpanel — Comparing insight (time periods), step 6 of 6: Table shows colour % change vs prior period" [ref=f1e369]'
+  - generic [ref=f1e371]:
+    - generic [ref=f1e372]:
+      - heading "Amplitude" [level=2] [ref=f1e373]
+      - generic [ref=f1e374]: Adjacent
+      - generic [ref=f1e375]: 1 flow
+    - paragraph [ref=f1e376]: One-line cadence sentence (“Every [day] at [time]”) for dashboard subscribe — the clearest zero-config scheduled report.
+    - article [ref=f1e377]:
+      - generic [ref=f1e378]:
+        - generic [ref=f1e379]:
+          - generic [ref=f1e380]: Web
+          - generic [ref=f1e381]: Mobbin
+          - generic [ref=f1e382]: 3 steps
+          - button "☆" [ref=f1e383] [cursor=pointer]
+        - heading "Subscribing to dashboard reports" [level=3] [ref=f1e384]
+        - paragraph [ref=f1e385]: From a dashboard Subscribe control, user configures Email (or Slack) recurring delivery with timezone, sentence-style cadence + CSV format, adds subscribers, then sees a success banner and an editable ‘You are subscribed’ row.
+        - generic [ref=f1e386]: Automatic weekly/monthly reports
+        - paragraph [ref=f1e388]: Steal this
+        - list [ref=f1e389]:
+          - listitem [ref=f1e390]: "Sentence builder: Every [day] at [time] with [CSV] (step 1) — cadence readable as one line."
+          - listitem [ref=f1e391]: Timezone ‘Showing times as…’ above the schedule (steps 1–2) — shared clock for multi-campus recipients.
+          - listitem [ref=f1e392]: Post-save green banner + inline edit of existing schedule (step 2) — pause/change without recreating.
+          - listitem [ref=f1e393]: Add new subscriber(s) search under the schedule list (steps 1–2) — dean digests to people without accounts later.
+        - paragraph [ref=f1e394]: Don’t copy
+        - list [ref=f1e395]:
+          - listitem [ref=f1e396]: CSV-only format default (steps 1–2) — deans need PDF/newsletter narrative, not raw export.
+        - paragraph [ref=f1e397]: Essentials fit Closest pattern for automatic weekly/monthly dean digests from a fixed dashboard — zero-config subscribe over hand-assembled packs.
+        - link "View on Mobbin ↗" [ref=f1e398] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/a2ee58b7-b7cc-4381-819b-3dc0299734e7
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e399]:
+        - figure "1 Dashboard — Subscribe + Share in header" [ref=f1e400]:
+          - 'button "Open full-size: Amplitude — Subscribing to dashboard reports, step 1 of 3: Dashboard — Subscribe + Share in header" [ref=f1e401]':
+            - 'img "Amplitude — Subscribing to dashboard reports, step 1 of 3: Dashboard — Subscribe + Share in header" [ref=f1e402]'
+        - figure "2 Subscribe modal — cadence sentence + CSV + add subscribers" [ref=f1e404]:
+          - 'button "Open full-size: Amplitude — Subscribing to dashboard reports, step 2 of 3: Subscribe modal — cadence sentence + CSV + add subscribers" [ref=f1e405]':
+            - 'img "Amplitude — Subscribing to dashboard reports, step 2 of 3: Subscribe modal — cadence sentence + CSV + add subscribers" [ref=f1e406]'
+        - figure "3 Success banner — subscribed row editable + Done" [ref=f1e408]:
+          - 'button "Open full-size: Amplitude — Subscribing to dashboard reports, step 3 of 3: Success banner — subscribed row editable + Done" [ref=f1e409]':
+            - 'img "Amplitude — Subscribing to dashboard reports, step 3 of 3: Success banner — subscribed row editable + Done" [ref=f1e410]'
+  - generic [ref=f1e412]:
+    - generic [ref=f1e413]:
+      - heading "Later" [level=2] [ref=f1e414]
+      - generic [ref=f1e415]: Adjacent
+      - generic [ref=f1e416]: 2 flows
+    - paragraph [ref=f1e417]: Monday email on/off pause plus auto-updating public report URL with view count — digest pause and dean-without-account share.
+    - article [ref=f1e418]:
+      - generic [ref=f1e419]:
+        - generic [ref=f1e420]:
+          - generic [ref=f1e421]: Web
+          - generic [ref=f1e422]: Mobbin
+          - generic [ref=f1e423]: 3 steps
+          - button "☆" [ref=f1e424] [cursor=pointer]
+        - heading "Enabling an email report" [level=3] [ref=f1e425]
+        - paragraph [ref=f1e426]: In Account Settings, user scrolls to Analytics Email Report, sees fixed Monday-afternoon cadence copy and per-profile toggles, enables the report for a profile, and gets a success confirmation.
+        - generic [ref=f1e427]: Automatic weekly/monthly reports
+        - paragraph [ref=f1e429]: Steal this
+        - list [ref=f1e430]:
+          - listitem [ref=f1e431]: Fixed cadence copy ‘Emails are sent each Monday…’ (steps 1–2) — zero-config schedule, only on/off.
+          - listitem [ref=f1e432]: Per-profile toggle + Enable All / Disable All (steps 1–2) — pause without deleting preferences.
+          - listitem [ref=f1e433]: Success toast names profile + repeats send window (step 2) — confirms what will arrive.
+        - paragraph [ref=f1e434]: Don’t copy
+        - list [ref=f1e435]:
+          - listitem [ref=f1e436]: Burying the digest under Account Settings far from Analytics (step 0) — deans won’t find it; put subscribe on the report itself.
+        - paragraph [ref=f1e437]: "Essentials fit Simplest weekly dean newsletter: one default cadence + pause toggle — not a report builder."
+        - link "View on Mobbin ↗" [ref=f1e438] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/55855f6e-97e0-4984-9bae-f11cb21e653f
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e439]:
+        - figure "1 Account Settings — Analytics Email Report section" [ref=f1e440]:
+          - 'button "Open full-size: Later — Enabling an email report, step 1 of 3: Account Settings — Analytics Email Report section" [ref=f1e441]':
+            - 'img "Later — Enabling an email report, step 1 of 3: Account Settings — Analytics Email Report section" [ref=f1e442]'
+        - figure "2 Fixed Monday cadence copy + Enable All / per-profile toggles" [ref=f1e444]:
+          - 'button "Open full-size: Later — Enabling an email report, step 2 of 3: Fixed Monday cadence copy + Enable All / per-profile toggles" [ref=f1e445]':
+            - 'img "Later — Enabling an email report, step 2 of 3: Fixed Monday cadence copy + Enable All / per-profile toggles" [ref=f1e446]'
+        - figure "3 Toggle on — success toast weekly report enabled" [ref=f1e448]:
+          - 'button "Open full-size: Later — Enabling an email report, step 3 of 3: Toggle on — success toast weekly report enabled" [ref=f1e449]':
+            - 'img "Later — Enabling an email report, step 3 of 3: Toggle on — success toast weekly report enabled" [ref=f1e450]'
+    - article [ref=f1e452]:
+      - generic [ref=f1e453]:
+        - generic [ref=f1e454]:
+          - generic [ref=f1e455]: Web
+          - generic [ref=f1e456]: Mobbin
+          - generic [ref=f1e457]: 5 steps
+          - button "☆" [ref=f1e458] [cursor=pointer]
+        - heading "Creating a performance report" [level=3] [ref=f1e459]
+        - paragraph [ref=f1e460]: From Analytics Overview, user starts Performance Report, confirms create, waits through loading + unique-link toast, then manages public link, auto-update, and Enable Report, and copies the link.
+        - generic [ref=f1e461]:
+          - generic [ref=f1e462]: Easy sharing of reports
+          - generic [ref=f1e463]: Automatic weekly/monthly reports
+        - paragraph [ref=f1e464]: Steal this
+        - list [ref=f1e465]:
+          - listitem [ref=f1e466]: Public report URL + Copy Link + view count (steps 3–4) — share without an Essentials account.
+          - listitem [ref=f1e467]: Update Report Automatically every 24h toggle (step 3) — living link instead of one-shot PDF.
+          - listitem [ref=f1e468]: Enable Report master switch (steps 3–4) — pause sharing without wiping settings.
+          - listitem [ref=f1e469]: Data status legend Collected / No / Partial Data on Overview (step 0) — honest empty/partial KPI states.
+        - paragraph [ref=f1e470]: Essentials fit Link-shared dean pack + accreditation handoff without accounts; auto-refresh approximates scheduled delivery.
+        - link "View on Mobbin ↗" [ref=f1e471] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/a56091b1-7e85-4b1b-a790-7e7ccbea971b
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e472]:
+        - figure "1 Overview — Share Performance Report + Export CSV" [ref=f1e473]:
+          - 'button "Open full-size: Later — Creating a performance report, step 1 of 5: Overview — Share Performance Report + Export CSV" [ref=f1e474]':
+            - 'img "Later — Creating a performance report, step 1 of 5: Overview — Share Performance Report + Export CSV" [ref=f1e475]'
+        - figure "2 Create Performance Report confirm modal" [ref=f1e477]:
+          - 'button "Open full-size: Later — Creating a performance report, step 2 of 5: Create Performance Report confirm modal" [ref=f1e478]':
+            - 'img "Later — Creating a performance report, step 2 of 5: Create Performance Report confirm modal" [ref=f1e479]'
+        - figure "3 Loading + ‘unique link’ success toast" [ref=f1e481]:
+          - 'button "Open full-size: Later — Creating a performance report, step 3 of 5: Loading + ‘unique link’ success toast" [ref=f1e482]':
+            - 'img "Later — Creating a performance report, step 3 of 5: Loading + ‘unique link’ success toast" [ref=f1e483]'
+        - figure "4 Report settings — link, auto-update 24h, Enable" [ref=f1e485]:
+          - 'button "Open full-size: Later — Creating a performance report, step 4 of 5: Report settings — link, auto-update 24h, Enable" [ref=f1e486]':
+            - 'img "Later — Creating a performance report, step 4 of 5: Report settings — link, auto-update 24h, Enable" [ref=f1e487]'
+        - figure "5 Copy Link — clipboard success toast" [ref=f1e489]:
+          - 'button "Open full-size: Later — Creating a performance report, step 5 of 5: Copy Link — clipboard success toast" [ref=f1e490]':
+            - 'img "Later — Creating a performance report, step 5 of 5: Copy Link — clipboard success toast" [ref=f1e491]'
+  - generic [ref=f1e493]:
+    - generic [ref=f1e494]:
+      - heading "15Five" [level=2] [ref=f1e495]
+      - generic [ref=f1e496]: Direct analog
+      - generic [ref=f1e497]: 2 flows
+    - paragraph [ref=f1e498]: Self/Manager/Peer competency markers and Compare-by-Manager pivots — multi-rater alignment closest to faculty vs learner scoring.
+    - article [ref=f1e499]:
+      - generic [ref=f1e500]:
+        - generic [ref=f1e501]:
+          - generic [ref=f1e502]: Web
+          - generic [ref=f1e503]: Mobbin
+          - generic [ref=f1e504]: 5 steps
+          - button "☆" [ref=f1e505] [cursor=pointer]
+        - heading "Competency assessment" [level=3] [ref=f1e506]
+        - paragraph [ref=f1e507]: In Q4 Review My results, the user moves from Summary (review-writer status) into Competency assessment, compares Self/Manager/Peer markers on a per-competency scale, then opens competency rows that link to answer evidence.
+        - generic [ref=f1e508]: Compare performance by learner / group / semester / course / faculty
+        - paragraph [ref=f1e510]: Steal this
+        - list [ref=f1e511]:
+          - listitem [ref=f1e512]: Self / Manager / Peer color checkboxes that plot/hide markers on one competency scale (steps 3–4) — multi-rater alignment without a second report.
+          - listitem [ref=f1e513]: Top competencies + Top opportunities cards above the matrix (step 3) — strengths vs growth before the full list.
+          - listitem [ref=f1e514]: Peach callout that the graph is for alignment across raters (step 2) — teaches comparison intent.
+          - listitem [ref=f1e515]: Per-competency '1 answer' evidence link (step 5) — drill from score to narrative.
+        - paragraph [ref=f1e516]: Don’t copy
+        - list [ref=f1e517]:
+          - listitem [ref=f1e518]: Empty Manager/Peer series still show the full matrix chrome (steps 3–4) — in sim, hide unrated raters until data exists.
+        - paragraph [ref=f1e519]: "Essentials fit Extends Performance Matrix / Skill Development: multi-perspective skill comparison + evidence drill-down for learner/faculty dashboards; not a dean PDF newsletter."
+        - link "View on Mobbin ↗" [ref=f1e520] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/6795c6c2-7c7b-4ded-aea2-5d594e67afb0
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e521]:
+        - figure "1 My results Summary — profile + Review writers counts" [ref=f1e522]:
+          - 'button "Open full-size: 15Five — Competency assessment, step 1 of 5: My results Summary — profile + Review writers counts" [ref=f1e523]':
+            - 'img "15Five — Competency assessment, step 1 of 5: My results Summary — profile + Review writers counts" [ref=f1e524]'
+        - figure "2 Competency assessment — alignment callout + Top comps/opps" [ref=f1e526]:
+          - 'button "Open full-size: 15Five — Competency assessment, step 2 of 5: Competency assessment — alignment callout + Top comps/opps" [ref=f1e527]':
+            - 'img "15Five — Competency assessment, step 2 of 5: Competency assessment — alignment callout + Top comps/opps" [ref=f1e528]'
+        - figure "3 Competency results matrix — Self/Manager/Peer toggles" [ref=f1e530]:
+          - 'button "Open full-size: 15Five — Competency assessment, step 3 of 5: Competency results matrix — Self/Manager/Peer toggles" [ref=f1e531]':
+            - 'img "15Five — Competency assessment, step 3 of 5: Competency results matrix — Self/Manager/Peer toggles" [ref=f1e532]'
+        - figure "4 Matrix rows — Self markers on Lowest→high scale" [ref=f1e534]:
+          - 'button "Open full-size: 15Five — Competency assessment, step 4 of 5: Matrix rows — Self markers on Lowest→high scale" [ref=f1e535]':
+            - 'img "15Five — Competency assessment, step 4 of 5: Matrix rows — Self markers on Lowest→high scale" [ref=f1e536]'
+        - figure "5 Competency list — each row links 1 answer" [ref=f1e538]:
+          - 'button "Open full-size: 15Five — Competency assessment, step 5 of 5: Competency list — each row links 1 answer" [ref=f1e539]':
+            - 'img "15Five — Competency assessment, step 5 of 5: Competency list — each row links 1 answer" [ref=f1e540]'
+    - article [ref=f1e542]:
+      - generic [ref=f1e543]:
+        - generic [ref=f1e544]:
+          - generic [ref=f1e545]: Web
+          - generic [ref=f1e546]: Mobbin
+          - generic [ref=f1e547]: 3 steps
+          - button "☆" [ref=f1e548] [cursor=pointer]
+        - heading "Breakdown" [level=3] [ref=f1e549]
+        - paragraph [ref=f1e550]: On Outcomes Dashboard, the user leaves empty Summary KPI cards, opens Breakdown, and compares Manager rows (plus Company / No manager) across Effectiveness, Engagement, Performance, Turnover.
+        - generic [ref=f1e551]: Compare performance by learner / group / semester / course / faculty
+        - paragraph [ref=f1e553]: Steal this
+        - list [ref=f1e554]:
+          - listitem [ref=f1e555]: Compare by dropdown pivoting the same KPI columns by Manager (steps 2–3) — learner/faculty/course switch without a builder.
+          - listitem [ref=f1e556]: Company baseline row above team rows (steps 2–3) — org vs unit comparison.
+          - listitem [ref=f1e557]: Who else can see this? + Configure beside the table (step 2) — visibility next to comparison.
+        - paragraph [ref=f1e558]: Don’t copy
+        - list [ref=f1e559]:
+          - listitem [ref=f1e560]: Summary empty states are sales CTAs (Schedule survey / Configure performance) (step 1) — prefer data-missing copy for utilisation/KPI reports.
+        - paragraph [ref=f1e561]: Essentials fit Pattern for comparable faculty/course KPI tables (room/sim/faculty hours) with a pivot dimension; Summary empties clash with utilisation-first reporting.
+        - link "View on Mobbin ↗" [ref=f1e562] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e563]:
+        - figure "1 Summary — empty KPI cards + Schedule/Configure CTAs" [ref=f1e564]:
+          - 'button "Open full-size: 15Five — Breakdown, step 1 of 3: Summary — empty KPI cards + Schedule/Configure CTAs" [ref=f1e565]':
+            - 'img "15Five — Breakdown, step 1 of 3: Summary — empty KPI cards + Schedule/Configure CTAs" [ref=f1e566]'
+        - figure "2 Breakdown — Compare by Manager table" [ref=f1e568]:
+          - 'button "Open full-size: 15Five — Breakdown, step 2 of 3: Breakdown — Compare by Manager table" [ref=f1e569]':
+            - 'img "15Five — Breakdown, step 2 of 3: Breakdown — Compare by Manager table" [ref=f1e570]'
+        - figure "3 Breakdown table — Company / team / No manager rows" [ref=f1e572]:
+          - 'button "Open full-size: 15Five — Breakdown, step 3 of 3: Breakdown table — Company / team / No manager rows" [ref=f1e573]':
+            - 'img "15Five — Breakdown, step 3 of 3: Breakdown table — Company / team / No manager rows" [ref=f1e574]'
+  - generic [ref=f1e576]:
+    - generic [ref=f1e577]:
+      - heading "Charma" [level=2] [ref=f1e578]
+      - generic [ref=f1e579]: Direct analog
+      - generic [ref=f1e580]: 3 flows
+    - paragraph [ref=f1e581]: Constrained tags seed FeedbackAI; human picks/edits among drafts before send, with unseen delivery status — AI eval review loop.
+    - article [ref=f1e582]:
+      - generic [ref=f1e583]:
+        - generic [ref=f1e584]:
+          - generic [ref=f1e585]: Web
+          - generic [ref=f1e586]: Mobbin
+          - generic [ref=f1e587]: 6 steps
+          - button "☆" [ref=f1e588] [cursor=pointer]
+        - heading "Generating feedback suggestions" [level=3] [ref=f1e589]
+        - paragraph [ref=f1e590]: User picks strength/improvement tags (custom allowed, improvement capped at 2), waits for FeedbackAI (~30s skeleton), then chooses one of three AI drafts to insert and edit.
+        - generic [ref=f1e591]: AI evaluation (formative / summative)
+        - paragraph [ref=f1e593]: Steal this
+        - list [ref=f1e594]:
+          - listitem [ref=f1e595]: Tag inputs with 'select up to 2' on opportunities (steps 1–2) — constrains AI prompt before generation.
+          - listitem [ref=f1e596]: Loading copy 'up to 30 seconds' + skeleton bars (step 3) — sets AI latency expectation.
+          - listitem [ref=f1e597]: Choose among 3 suggestions + Generate new (steps 4–6) — human picks tone before edit.
+          - listitem [ref=f1e598]: GPT-3 disclosure under the card (steps 3–6) — AI provenance on formative text.
+        - paragraph [ref=f1e599]: Don’t copy
+        - list [ref=f1e600]:
+          - listitem [ref=f1e601]: AI drafts echo whimsical custom tags ('good potato') into the narrative (steps 5–6) — sanitize/ground clinical competency language.
+        - paragraph [ref=f1e602]: Essentials fit AI formative draft for faculty after competency tags — extends Responses/Skill Development; not accreditation assembly.
+        - link "View on Mobbin ↗" [ref=f1e603] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/e7700240-0fb3-4a8b-aa81-7a640b1aa2c1
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e604]:
+        - figure "1 Strengths + Opportunities tags — custom + select up to 2" [ref=f1e605]:
+          - 'button "Open full-size: Charma — Generating feedback suggestions, step 1 of 6: Strengths + Opportunities tags — custom + select up to 2" [ref=f1e606]':
+            - 'img "Charma — Generating feedback suggestions, step 1 of 6: Strengths + Opportunities tags — custom + select up to 2" [ref=f1e607]'
+        - figure "2 Tags + Examples fields for selected traits" [ref=f1e609]:
+          - 'button "Open full-size: Charma — Generating feedback suggestions, step 2 of 6: Tags + Examples fields for selected traits" [ref=f1e610]':
+            - 'img "Charma — Generating feedback suggestions, step 2 of 6: Tags + Examples fields for selected traits" [ref=f1e611]'
+        - figure "3 FeedbackAI loading — up to 30s + skeleton bars" [ref=f1e613]:
+          - 'button "Open full-size: Charma — Generating feedback suggestions, step 3 of 6: FeedbackAI loading — up to 30s + skeleton bars" [ref=f1e614]':
+            - 'img "Charma — Generating feedback suggestions, step 3 of 6: FeedbackAI loading — up to 30s + skeleton bars" [ref=f1e615]'
+        - figure "4 Choose suggestion — 3 AI drafts, Generate new" [ref=f1e617]:
+          - 'button "Open full-size: Charma — Generating feedback suggestions, step 4 of 6: Choose suggestion — 3 AI drafts, Generate new" [ref=f1e618]':
+            - 'img "Charma — Generating feedback suggestions, step 4 of 6: Choose suggestion — 3 AI drafts, Generate new" [ref=f1e619]'
+        - figure "5 Suggestion list — drafts include custom-tag phrasing" [ref=f1e621]:
+          - 'button "Open full-size: Charma — Generating feedback suggestions, step 5 of 6: Suggestion list — drafts include custom-tag phrasing" [ref=f1e622]':
+            - 'img "Charma — Generating feedback suggestions, step 5 of 6: Suggestion list — drafts include custom-tag phrasing" [ref=f1e623]'
+        - figure "6 Suggestion selected — green check, ready for Next" [ref=f1e625]:
+          - 'button "Open full-size: Charma — Generating feedback suggestions, step 6 of 6: Suggestion selected — green check, ready for Next" [ref=f1e626]':
+            - 'img "Charma — Generating feedback suggestions, step 6 of 6: Suggestion selected — green check, ready for Next" [ref=f1e627]'
+    - article [ref=f1e629]:
+      - generic [ref=f1e630]:
+        - generic [ref=f1e631]:
+          - generic [ref=f1e632]: Web
+          - generic [ref=f1e633]: Mobbin
+          - generic [ref=f1e634]: 10 steps
+          - button "☆" [ref=f1e635] [cursor=pointer]
+        - heading "Giving a peer review" [level=3] [ref=f1e636]
+        - paragraph [ref=f1e637]: From 360 Open Reviews, user starts an anonymous peer review, selects adjectives per competency, generates FeedbackAI narrative, reviews the multi-section draft, submits, then sees progress (1 of 2) on the dashboard.
+        - generic [ref=f1e638]: AI evaluation (formative / summative)
+        - paragraph [ref=f1e640]: Steal this
+        - list [ref=f1e641]:
+          - listitem [ref=f1e642]: "How-it-works: adjectives → FeedbackAI, then AI summarizes peers anonymously (step 2) — privacy + AI role stated upfront."
+          - listitem [ref=f1e643]: Generate Feedback from selected adjectives, then edit with 'sprinkle in specific examples' (steps 3–5).
+          - listitem [ref=f1e644]: Review & Submit aggregates competency tags + narratives before Submit (steps 7–8).
+          - listitem [ref=f1e645]: Initiator progress '1 of 2 reviews submitted' bar after send (steps 1, 10).
+        - paragraph [ref=f1e646]: Don’t copy
+        - list [ref=f1e647]:
+          - listitem [ref=f1e648]: Emoji/GIF toolbar on evaluation narrative (steps 5–6) — too casual for clinical summative reports.
+        - paragraph [ref=f1e649]: Essentials fit Peer/faculty formative AI write-up over competency chips; anonymity aggregate maps to multi-rater skill reports, not utilisation KPIs.
+        - link "View on Mobbin ↗" [ref=f1e650] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e651]:
+        - figure "1 360 Open Reviews — Give Peer Review + progress bar" [ref=f1e652]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 1 of 10: 360 Open Reviews — Give Peer Review + progress bar" [ref=f1e653]':
+            - 'img "Charma — Giving a peer review, step 1 of 10: 360 Open Reviews — Give Peer Review + progress bar" [ref=f1e654]'
+        - figure "2 Anonymous Reviews — How it works + Let's do this" [ref=f1e656]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 2 of 10: Anonymous Reviews — How it works + Let''s do this" [ref=f1e657]':
+            - 'img "Charma — Giving a peer review, step 2 of 10: Anonymous Reviews — How it works + Let''s do this" [ref=f1e658]'
+        - figure "3 Questionnaire — adjective chips + Generate Feedback" [ref=f1e660]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 3 of 10: Questionnaire — adjective chips + Generate Feedback" [ref=f1e661]':
+            - 'img "Charma — Giving a peer review, step 3 of 10: Questionnaire — adjective chips + Generate Feedback" [ref=f1e662]'
+        - figure "4 Tags selected (helpful, team player)" [ref=f1e664]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 4 of 10: Tags selected (helpful, team player)" [ref=f1e665]':
+            - 'img "Charma — Giving a peer review, step 4 of 10: Tags selected (helpful, team player)" [ref=f1e666]'
+        - figure "5 AI narrative filled in rich-text editor" [ref=f1e668]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 5 of 10: AI narrative filled in rich-text editor" [ref=f1e669]':
+            - 'img "Charma — Giving a peer review, step 5 of 10: AI narrative filled in rich-text editor" [ref=f1e670]'
+        - figure "6 More competency sections collapsed — Saved draft" [ref=f1e672]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 6 of 10: More competency sections collapsed — Saved draft" [ref=f1e673]':
+            - 'img "Charma — Giving a peer review, step 6 of 10: More competency sections collapsed — Saved draft" [ref=f1e674]'
+        - figure "7 Review & Submit — tags + narratives per competency" [ref=f1e676]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 7 of 10: Review & Submit — tags + narratives per competency" [ref=f1e677]':
+            - 'img "Charma — Giving a peer review, step 7 of 10: Review & Submit — tags + narratives per competency" [ref=f1e678]'
+        - figure "8 Review & Submit footer — Back + Submit" [ref=f1e680]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 8 of 10: Review & Submit footer — Back + Submit" [ref=f1e681]':
+            - 'img "Charma — Giving a peer review, step 8 of 10: Review & Submit footer — Back + Submit" [ref=f1e682]'
+        - figure "9 Success modal — Nice work + Shared successfully" [ref=f1e684]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 9 of 10: Success modal — Nice work + Shared successfully" [ref=f1e685]':
+            - 'img "Charma — Giving a peer review, step 9 of 10: Success modal — Nice work + Shared successfully" [ref=f1e686]'
+        - figure "10 Dashboard — 1 of 2 reviews submitted progress" [ref=f1e688]:
+          - 'button "Open full-size: Charma — Giving a peer review, step 10 of 10: Dashboard — 1 of 2 reviews submitted progress" [ref=f1e689]':
+            - 'img "Charma — Giving a peer review, step 10 of 10: Dashboard — 1 of 2 reviews submitted progress" [ref=f1e690]'
+    - article [ref=f1e692]:
+      - generic [ref=f1e693]:
+        - generic [ref=f1e694]:
+          - generic [ref=f1e695]: Web
+          - generic [ref=f1e696]: Mobbin
+          - generic [ref=f1e697]: 4 steps
+          - button "☆" [ref=f1e698] [cursor=pointer]
+        - heading "Editing and sending feedback" [level=3] [ref=f1e699]
+        - paragraph [ref=f1e700]: User selects an AI suggestion, edits the feedback text, submits, then lands on Feedback & Kudos where the entry shows 'Jon hasn't seen this yet' with Edit/Delete.
+        - generic [ref=f1e701]: AI evaluation (formative / summative)
+        - paragraph [ref=f1e703]: Steal this
+        - list [ref=f1e704]:
+          - listitem [ref=f1e705]: Edit-after-select before Submit (steps 1–2) — AI draft never auto-sends.
+          - listitem [ref=f1e706]: "'hasn't seen this yet' status on the shared card (steps 3–4) — delivery state for formative notes."
+          - listitem [ref=f1e707]: Edit/Delete retained while unseen (steps 3–4) — revoke before learner opens.
+        - paragraph [ref=f1e708]: Essentials fit Post-AI faculty note with held visibility — useful for formative learner reports before dean PDF sharing.
+        - link "View on Mobbin ↗" [ref=f1e709] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/f2d6fb5a-36ee-4c5c-9612-55be9bbd3f28
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e710]:
+        - figure "1 Choose AI suggestion — one selected" [ref=f1e711]:
+          - 'button "Open full-size: Charma — Editing and sending feedback, step 1 of 4: Choose AI suggestion — one selected" [ref=f1e712]':
+            - 'img "Charma — Editing and sending feedback, step 1 of 4: Choose AI suggestion — one selected" [ref=f1e713]'
+        - figure "2 Edit and send — editable draft + Submit Feedback" [ref=f1e715]:
+          - 'button "Open full-size: Charma — Editing and sending feedback, step 2 of 4: Edit and send — editable draft + Submit Feedback" [ref=f1e716]':
+            - 'img "Charma — Editing and sending feedback, step 2 of 4: Edit and send — editable draft + Submit Feedback" [ref=f1e717]'
+        - figure "3 1:1 Feedback & Kudos — unseen feedback card" [ref=f1e719]:
+          - 'button "Open full-size: Charma — Editing and sending feedback, step 3 of 4: 1:1 Feedback & Kudos — unseen feedback card" [ref=f1e720]':
+            - 'img "Charma — Editing and sending feedback, step 3 of 4: 1:1 Feedback & Kudos — unseen feedback card" [ref=f1e721]'
+        - figure "4 Feed — unseen status + Edit/Delete/Comment" [ref=f1e723]:
+          - 'button "Open full-size: Charma — Editing and sending feedback, step 4 of 4: Feed — unseen status + Edit/Delete/Comment" [ref=f1e724]':
+            - 'img "Charma — Editing and sending feedback, step 4 of 4: Feed — unseen status + Edit/Delete/Comment" [ref=f1e725]'
+  - generic [ref=f1e727]:
+    - generic [ref=f1e728]:
+      - heading "Fireflies" [level=2] [ref=f1e729]
+      - generic [ref=f1e730]: Adjacent
+      - generic [ref=f1e731]: 1 flow
+    - paragraph [ref=f1e732]: Section checklist (Outline/Blockers/…) with Save & Apply and explicit empty Blockers — formative narrative lenses, not freeform prompt.
+    - article [ref=f1e733]:
+      - generic [ref=f1e734]:
+        - generic [ref=f1e735]:
+          - generic [ref=f1e736]: Web
+          - generic [ref=f1e737]: Mobbin
+          - generic [ref=f1e738]: 5 steps
+          - button "☆" [ref=f1e739] [cursor=pointer]
+        - heading "Customizing a summary" [level=3] [ref=f1e740]
+        - paragraph [ref=f1e741]: On a meeting page, the user opens summary templates, customizes sections (Outline, Blockers, etc.), Save & Apply, waits while the summary regenerates, then reads chaptered notes with timestamp jumps and an explicit empty Blockers line.
+        - generic [ref=f1e742]: AI evaluation (formative / summative)
+        - paragraph [ref=f1e744]: Steal this
+        - list [ref=f1e745]:
+          - listitem [ref=f1e746]: Section checklist with plain-language what each AI block extracts (steps 2–3) — lightweight report shape, not a builder.
+          - listitem [ref=f1e747]: Save vs Save & Apply on the current meeting (step 3) — persist prefs and regenerate now.
+          - listitem [ref=f1e748]: Processing copy while transcript re-analyses (step 4) — honest AI wait state.
+          - listitem [ref=f1e749]: "'No blockers were explicitly discussed' empty section (step 5) — explicit absence, not silent omit."
+        - paragraph [ref=f1e750]: Don’t copy
+        - list [ref=f1e751]:
+          - listitem [ref=f1e752]: Sales/meeting templates (BANT, Standup) in the same picker (step 1) — wrong lenses for clinical sim; keep debrief/competency templates only.
+        - paragraph [ref=f1e753]: "Essentials fit AI formative/summative session report from recording: template + section toggles for debrief PDFs; pairs with SRV transcript timestamps, not Performance Matrix."
+        - link "View on Mobbin ↗" [ref=f1e754] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/75bb46c3-1130-4cba-b194-ba086320dcc6
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e755]:
+        - figure "1 AI Summary — template dropdown + Customize" [ref=f1e756]:
+          - 'button "Open full-size: Fireflies — Customizing a summary, step 1 of 5: AI Summary — template dropdown + Customize" [ref=f1e757]':
+            - 'img "Fireflies — Customizing a summary, step 1 of 5: AI Summary — template dropdown + Customize" [ref=f1e758]'
+        - figure "2 Tailored Notes modal — section list + descriptions" [ref=f1e760]:
+          - 'button "Open full-size: Fireflies — Customizing a summary, step 2 of 5: Tailored Notes modal — section list + descriptions" [ref=f1e761]':
+            - 'img "Fireflies — Customizing a summary, step 2 of 5: Tailored Notes modal — section list + descriptions" [ref=f1e762]'
+        - figure "3 Modal — Outline + Blockers checked; Save & Apply" [ref=f1e764]:
+          - 'button "Open full-size: Fireflies — Customizing a summary, step 3 of 5: Modal — Outline + Blockers checked; Save & Apply" [ref=f1e765]':
+            - 'img "Fireflies — Customizing a summary, step 3 of 5: Modal — Outline + Blockers checked; Save & Apply" [ref=f1e766]'
+        - figure "4 Summary processing — preferences saved toast" [ref=f1e768]:
+          - 'button "Open full-size: Fireflies — Customizing a summary, step 4 of 5: Summary processing — preferences saved toast" [ref=f1e769]':
+            - 'img "Fireflies — Customizing a summary, step 4 of 5: Summary processing — preferences saved toast" [ref=f1e770]'
+        - figure "5 Regenerated notes — chapters + Blockers empty state" [ref=f1e772]:
+          - 'button "Open full-size: Fireflies — Customizing a summary, step 5 of 5: Regenerated notes — chapters + Blockers empty state" [ref=f1e773]':
+            - 'img "Fireflies — Customizing a summary, step 5 of 5: Regenerated notes — chapters + Blockers empty state" [ref=f1e774]'
+  - generic [ref=f1e776]:
+    - generic [ref=f1e777]:
+      - heading "Dialpad" [level=2] [ref=f1e778]
+      - generic [ref=f1e779]: Adjacent
+      - generic [ref=f1e780]: 1 flow
+    - paragraph [ref=f1e781]: Recap length regenerates in place beside transcript/@comments, then link share — edit/approve with evidence.
+    - article [ref=f1e782]:
+      - generic [ref=f1e783]:
+        - generic [ref=f1e784]:
+          - generic [ref=f1e785]: Web
+          - generic [ref=f1e786]: Mobbin
+          - generic [ref=f1e787]: 5 steps
+          - button "☆" [ref=f1e788] [cursor=pointer]
+        - heading "Updating a recap with AI" [level=3] [ref=f1e789]
+        - paragraph [ref=f1e790]: On Call Review, the user reads an AI Recap beside video/comments, opens Choose a summary length, waits while a formatted summary generates, then gets a regenerated longer Recap with share/copy still available.
+        - generic [ref=f1e791]:
+          - generic [ref=f1e792]: AI evaluation (formative / summative)
+          - generic [ref=f1e793]: Easy sharing of reports
+        - paragraph [ref=f1e794]: Steal this
+        - list [ref=f1e795]:
+          - listitem [ref=f1e796]: Summary length menu (Short/Medium/Long/Bulleted) regenerates Recap in place (steps 3–5) — one control, no builder.
+          - listitem [ref=f1e797]: Wait copy on Recap while reformatting (step 4) — length change is async and visible.
+          - listitem [ref=f1e798]: Timestamped comments with @mention beside Recap (steps 1–2) — faculty annotate the same session report.
+          - listitem [ref=f1e799]: Copy link / Share on the call review header (steps 1, 5) — link-first sharing for stakeholders.
+        - paragraph [ref=f1e800]: Don’t copy
+        - list [ref=f1e801]:
+          - listitem [ref=f1e802]: "Empty #Moments rail with no next action (steps 1–5) — hide or explain until highlights exist."
+        - paragraph [ref=f1e803]: Essentials fit Session AI recap with length control + link share — maps to faculty/dean formative summaries, not utilisation KPI tables.
+        - link "View on Mobbin ↗" [ref=f1e804] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/9589355a-7154-4414-84ca-0228270aa40e
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e805]:
+        - figure "1 Call Review — Recap + timestamped Comments" [ref=f1e806]:
+          - 'button "Open full-size: Dialpad — Updating a recap with AI, step 1 of 5: Call Review — Recap + timestamped Comments" [ref=f1e807]':
+            - 'img "Dialpad — Updating a recap with AI, step 1 of 5: Call Review — Recap + timestamped Comments" [ref=f1e808]'
+        - figure "2 Recap tools — edit/copy/thumbs beside player" [ref=f1e810]:
+          - 'button "Open full-size: Dialpad — Updating a recap with AI, step 2 of 5: Recap tools — edit/copy/thumbs beside player" [ref=f1e811]':
+            - 'img "Dialpad — Updating a recap with AI, step 2 of 5: Recap tools — edit/copy/thumbs beside player" [ref=f1e812]'
+        - figure "3 Choose a summary length — Short/Medium/Long/Bulleted" [ref=f1e814]:
+          - 'button "Open full-size: Dialpad — Updating a recap with AI, step 3 of 5: Choose a summary length — Short/Medium/Long/Bulleted" [ref=f1e815]':
+            - 'img "Dialpad — Updating a recap with AI, step 3 of 5: Choose a summary length — Short/Medium/Long/Bulleted" [ref=f1e816]'
+        - figure "4 Recap — Please wait while formatted summary generates" [ref=f1e818]:
+          - 'button "Open full-size: Dialpad — Updating a recap with AI, step 4 of 5: Recap — Please wait while formatted summary generates" [ref=f1e819]':
+            - 'img "Dialpad — Updating a recap with AI, step 4 of 5: Recap — Please wait while formatted summary generates" [ref=f1e820]'
+        - figure "5 Regenerated Recap — longer narrative + share/link" [ref=f1e822]:
+          - 'button "Open full-size: Dialpad — Updating a recap with AI, step 5 of 5: Regenerated Recap — longer narrative + share/link" [ref=f1e823]':
+            - 'img "Dialpad — Updating a recap with AI, step 5 of 5: Regenerated Recap — longer narrative + share/link" [ref=f1e824]'
+  - generic [ref=f1e826]:
+    - generic [ref=f1e827]:
+      - heading "Cal.com" [level=2] [ref=f1e828]
+      - generic [ref=f1e829]: Adjacent
+      - generic [ref=f1e830]: 2 flows
+    - paragraph [ref=f1e831]: Booking KPIs with last-period deltas and person×week routing matrix — room/slot utilisation analog.
+    - article [ref=f1e832]:
+      - generic [ref=f1e833]:
+        - generic [ref=f1e834]:
+          - generic [ref=f1e835]: Web
+          - generic [ref=f1e836]: Mobbin
+          - generic [ref=f1e837]: 6 steps
+          - button "☆" [ref=f1e838] [cursor=pointer]
+        - heading "View bookings insight" [level=3] [ref=f1e839]
+        - paragraph [ref=f1e840]: User opens Insights → Bookings, scopes account/team + Last 7 Days, scans KPI cards and Event Trends, then scrolls to popular-events / member leaderboards and an empty Recent ratings CTA.
+        - generic [ref=f1e841]: Aggregate simulation / resource data (KPIs)
+        - paragraph [ref=f1e843]: Steal this
+        - list [ref=f1e844]:
+          - listitem [ref=f1e845]: Every KPI card shows value + colored arrow + “from last period” (steps 0–3) — comparable performance without a builder.
+          - listitem [ref=f1e846]: Multi-series Event Trends with day tooltip breaking Created/Completed/Rescheduled/Cancelled (step 3).
+          - listitem [ref=f1e847]: Member leaderboards for Most Booked / Least Booked / Most Cancelled (steps 4–5) — faculty utilisation ranking.
+          - listitem [ref=f1e848]: Recent ratings empty state with Workflows button to enable collection (step 5).
+        - paragraph [ref=f1e849]: Don’t copy
+        - list [ref=f1e850]:
+          - listitem [ref=f1e851]: Eight always-visible KPI cards with many zeros and 0% deltas (steps 0–2) — noisy for sparse sim centers; prefer fewer utilisation-first metrics.
+        - paragraph [ref=f1e852]: Essentials fit Maps to missing utilisation + calendar-generated room/faculty-hour KPIs and comparable performance; Download is light export, not dean digests-by-link.
+        - link "View on Mobbin ↗" [ref=f1e853] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/aa5da6b8-f37f-485c-9aea-ffa69cc0ed55
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e854]:
+        - figure "1 Insights Bookings — KPI grid + Event Trends (Your account)" [ref=f1e855]:
+          - 'button "Open full-size: Cal.com — View bookings insight, step 1 of 6: Insights Bookings — KPI grid + Event Trends (Your account)" [ref=f1e856]':
+            - 'img "Cal.com — View bookings insight, step 1 of 6: Insights Bookings — KPI grid + Event Trends (Your account)" [ref=f1e857]'
+        - figure "2 Account search dropdown open on Bookings insights" [ref=f1e859]:
+          - 'button "Open full-size: Cal.com — View bookings insight, step 2 of 6: Account search dropdown open on Bookings insights" [ref=f1e860]':
+            - 'img "Cal.com — View bookings insight, step 2 of 6: Account search dropdown open on Bookings insights" [ref=f1e861]'
+        - 'figure "3 Team: ASMobt scoped — Created/Cancelled spike on chart" [ref=f1e863]':
+          - 'button "Open full-size: Cal.com — View bookings insight, step 3 of 6: Team: ASMobt scoped — Created/Cancelled spike on chart" [ref=f1e864]':
+            - 'img "Cal.com — View bookings insight, step 3 of 6: Team: ASMobt scoped — Created/Cancelled spike on chart" [ref=f1e865]'
+        - figure "4 Trend tooltip — Apr 25 Created/Completed/Rescheduled/Cancelled" [ref=f1e867]:
+          - 'button "Open full-size: Cal.com — View bookings insight, step 4 of 6: Trend tooltip — Apr 25 Created/Completed/Rescheduled/Cancelled" [ref=f1e868]':
+            - 'img "Cal.com — View bookings insight, step 4 of 6: Trend tooltip — Apr 25 Created/Completed/Rescheduled/Cancelled" [ref=f1e869]'
+        - figure "5 Lower cards — Popular Events, duration chart, Most/Least Booked" [ref=f1e871]:
+          - 'button "Open full-size: Cal.com — View bookings insight, step 5 of 6: Lower cards — Popular Events, duration chart, Most/Least Booked" [ref=f1e872]':
+            - 'img "Cal.com — View bookings insight, step 5 of 6: Lower cards — Popular Events, duration chart, Most/Least Booked" [ref=f1e873]'
+        - figure "6 Most Cancelled + Recent ratings empty → Workflows CTA" [ref=f1e875]:
+          - 'button "Open full-size: Cal.com — View bookings insight, step 6 of 6: Most Cancelled + Recent ratings empty → Workflows CTA" [ref=f1e876]':
+            - 'img "Cal.com — View bookings insight, step 6 of 6: Most Cancelled + Recent ratings empty → Workflows CTA" [ref=f1e877]'
+    - article [ref=f1e879]:
+      - generic [ref=f1e880]:
+        - generic [ref=f1e881]:
+          - generic [ref=f1e882]: Web
+          - generic [ref=f1e883]: Mobbin
+          - generic [ref=f1e884]: 4 steps
+          - button "☆" [ref=f1e885] [cursor=pointer]
+        - heading "View routing insight" [level=3] [ref=f1e886]
+        - paragraph [ref=f1e887]: User opens Insights → Routing, filters team/form, reads response→booking funnel cards and response table, then pivots Routed-to-per-period day/week/month and Failed bookings by field.
+        - generic [ref=f1e888]: Aggregate simulation / resource data (KPIs)
+        - paragraph [ref=f1e890]: Steal this
+        - list [ref=f1e891]:
+          - listitem [ref=f1e892]: "Funnel KPI trio: Total Responses / Without Booking / With Booking (steps 0–1)."
+          - listitem [ref=f1e893]: "Routed to per period: day/week/month toggle + user×period matrix (step 2) — faculty-hour style load."
+          - listitem [ref=f1e894]: Failed Bookings By Field horizontal bars from form answers (step 3).
+          - listitem [ref=f1e895]: Segment/Save/Clear + Download on the report chrome (steps 0–1).
+        - paragraph [ref=f1e896]: Essentials fit Strong model for utilisation by person over weekly/monthly buckets; aligns with auto dean digests’ period grain without a deep report builder.
+        - link "View on Mobbin ↗" [ref=f1e897] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/ff3d88ad-6b47-453f-9f8f-5f333707e2bf
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e898]:
+        - figure "1 Routing insights — empty funnel cards + response table + Routed to per period" [ref=f1e899]:
+          - 'button "Open full-size: Cal.com — View routing insight, step 1 of 4: Routing insights — empty funnel cards + response table + Routed to per period" [ref=f1e900]':
+            - 'img "Cal.com — View routing insight, step 1 of 4: Routing insights — empty funnel cards + response table + Routed to per period" [ref=f1e901]'
+        - figure "2 Team + form filtered — Responses 4 / Without 3 / With 1 + Accepted row" [ref=f1e903]:
+          - 'button "Open full-size: Cal.com — View routing insight, step 2 of 4: Team + form filtered — Responses 4 / Without 3 / With 1 + Accepted row" [ref=f1e904]':
+            - 'img "Cal.com — View routing insight, step 2 of 4: Team + form filtered — Responses 4 / Without 3 / With 1 + Accepted row" [ref=f1e905]'
+        - figure "3 Routed to per period — Per day/week/month toggle + user×week matrix" [ref=f1e907]:
+          - 'button "Open full-size: Cal.com — View routing insight, step 3 of 4: Routed to per period — Per day/week/month toggle + user×week matrix" [ref=f1e908]':
+            - 'img "Cal.com — View routing insight, step 3 of 4: Routed to per period — Per day/week/month toggle + user×week matrix" [ref=f1e909]'
+        - figure "4 Failed Bookings By Field — role bar breakdown (Illustrator 3)" [ref=f1e911]:
+          - 'button "Open full-size: Cal.com — View routing insight, step 4 of 4: Failed Bookings By Field — role bar breakdown (Illustrator 3)" [ref=f1e912]':
+            - 'img "Cal.com — View routing insight, step 4 of 4: Failed Bookings By Field — role bar breakdown (Illustrator 3)" [ref=f1e913]'
+  - generic [ref=f1e915]:
+    - generic [ref=f1e916]:
+      - heading "Whereby" [level=2] [ref=f1e917]
+      - generic [ref=f1e918]: Adjacent
+      - generic [ref=f1e919]: 2 flows
+    - paragraph [ref=f1e920]: Participant-minutes list→room detail with defined unit — simulator/room contact-hour cards.
+    - article [ref=f1e921]:
+      - generic [ref=f1e922]:
+        - generic [ref=f1e923]:
+          - generic [ref=f1e924]: Web
+          - generic [ref=f1e925]: Mobbin
+          - generic [ref=f1e926]: 2 steps
+          - button "☆" [ref=f1e927] [cursor=pointer]
+        - heading "Insights" [level=3] [ref=f1e928]
+        - paragraph [ref=f1e929]: User lands on Get started (plan minutes remaining), then opens Insights → Rooms to search rooms and see last active, participant minutes, and session counts.
+        - generic [ref=f1e930]: Aggregate simulation / resource data (KPIs)
+        - paragraph [ref=f1e932]: Steal this
+        - list [ref=f1e933]:
+          - listitem [ref=f1e934]: Sidebar/plan chip shows remaining participant minutes as always-visible utilisation budget (steps 0–1).
+          - listitem [ref=f1e935]: "Rooms list KPIs: Last active + PM used + Sessions per room (step 1)."
+          - listitem [ref=f1e936]: Inline definition via PM tooltip affordance on column header (step 1).
+        - paragraph [ref=f1e937]: Don’t copy
+        - list [ref=f1e938]:
+          - listitem [ref=f1e939]: Flow opens on onboarding Welcome before Insights (step 0) — don’t bury utilisation behind a get-started hub.
+        - paragraph [ref=f1e940]: "Essentials fit Direct analog for sim-room utilisation: room list → minutes/sessions; extends Essentials toward calendar-generated room-hour KPIs."
+        - link "View on Mobbin ↗" [ref=f1e941] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/9649cfdc-dbbd-4c86-8a2d-9cdd25395064
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e942]:
+        - figure "1 Get started — Free plan 2000 participant minutes + create room CTAs" [ref=f1e943]:
+          - 'button "Open full-size: Whereby — Insights, step 1 of 2: Get started — Free plan 2000 participant minutes + create room CTAs" [ref=f1e944]':
+            - 'img "Whereby — Insights, step 1 of 2: Get started — Free plan 2000 participant minutes + create room CTAs" [ref=f1e945]'
+        - 'figure "2 Insights Rooms — searchable table: name, Last active, PM used, Sessions" [ref=f1e947]':
+          - 'button "Open full-size: Whereby — Insights, step 2 of 2: Insights Rooms — searchable table: name, Last active, PM used, Sessions" [ref=f1e948]':
+            - 'img "Whereby — Insights, step 2 of 2: Insights Rooms — searchable table: name, Last active, PM used, Sessions" [ref=f1e949]'
+    - article [ref=f1e951]:
+      - generic [ref=f1e952]:
+        - generic [ref=f1e953]:
+          - generic [ref=f1e954]: Web
+          - generic [ref=f1e955]: Mobbin
+          - generic [ref=f1e956]: 3 steps
+          - button "☆" [ref=f1e957] [cursor=pointer]
+        - heading "Room detail" [level=3] [ref=f1e958]
+        - paragraph [ref=f1e959]: User opens Insights Rooms, reveals PM = Participant Minutes tooltip, then drills into Room details with overview cards and per-session PM log.
+        - generic [ref=f1e960]: Aggregate simulation / resource data (KPIs)
+        - paragraph [ref=f1e962]: Steal this
+        - list [ref=f1e963]:
+          - listitem [ref=f1e964]: Explicit PM definition tooltip before/while reading the metric (step 1).
+          - listitem [ref=f1e965]: "Room details: three overview KPIs then session rows with Duration, Participants, PM used (step 2)."
+          - listitem [ref=f1e966]: Back to Rooms breadcrumb + copyable room name (step 2).
+        - paragraph [ref=f1e967]: "Essentials fit Best first-cut pattern for room utilisation drill-down: list → defined minute unit → session ledger; no report builder."
+        - link "View on Mobbin ↗" [ref=f1e968] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/df187e39-3913-4484-8e5e-6af9a2f548c7
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e969]:
+        - figure "1 Insights Rooms list — room row with PM used / Sessions" [ref=f1e970]:
+          - 'button "Open full-size: Whereby — Room detail, step 1 of 3: Insights Rooms list — room row with PM used / Sessions" [ref=f1e971]':
+            - 'img "Whereby — Room detail, step 1 of 3: Insights Rooms list — room row with PM used / Sessions" [ref=f1e972]'
+        - figure "2 PM tooltip — Participant Minutes = sum of participant time" [ref=f1e974]:
+          - 'button "Open full-size: Whereby — Room detail, step 2 of 3: PM tooltip — Participant Minutes = sum of participant time" [ref=f1e975]':
+            - 'img "Whereby — Room detail, step 2 of 3: PM tooltip — Participant Minutes = sum of participant time" [ref=f1e976]'
+        - figure "3 Room details — Sessions / Unique participants / PM used + session table" [ref=f1e978]:
+          - 'button "Open full-size: Whereby — Room detail, step 3 of 3: Room details — Sessions / Unique participants / PM used + session table" [ref=f1e979]':
+            - 'img "Whereby — Room detail, step 3 of 3: Room details — Sessions / Unique participants / PM used + session table" [ref=f1e980]'
+  - generic [ref=f1e982]:
+    - generic [ref=f1e983]:
+      - heading "Deputy" [level=2] [ref=f1e984]
+      - generic [ref=f1e985]: Adjacent
+      - generic [ref=f1e986]: 1 flow
+    - paragraph [ref=f1e987]: Workforce analytics catalog with schedule digests pitch; avoid its Sigma-style builder path.
+    - article [ref=f1e988]:
+      - generic [ref=f1e989]:
+        - generic [ref=f1e990]:
+          - generic [ref=f1e991]: Web
+          - generic [ref=f1e992]: Mobbin
+          - generic [ref=f1e993]: 10 steps
+          - button "☆" [ref=f1e994] [cursor=pointer]
+        - heading "Analytics" [level=3] [ref=f1e995]
+        - paragraph [ref=f1e996]: User moves from home Dashboard into Analytics hub, dismisses Welcome, configures Schedule adherence (team member + tolerance), loads variance table, then browses Shift audit, Attendance & absence, Geolocation map, and Diversity & turnover.
+        - generic [ref=f1e997]:
+          - generic [ref=f1e998]: Aggregate simulation / resource data (KPIs)
+          - generic [ref=f1e999]: Compare performance by learner / group / semester / course / faculty
+          - generic [ref=f1e1000]: Automatic weekly/monthly reports
+        - paragraph [ref=f1e1001]: Steal this
+        - list [ref=f1e1002]:
+          - listitem [ref=f1e1003]: "Welcome copy: download spreadsheet, print PDF, or schedule a report to people who need it (step 2) — scheduled digests."
+          - listitem [ref=f1e1004]: Tolerance (15 min) control before loading adherence (steps 3–5).
+          - listitem [ref=f1e1005]: Shift vs Timesheet side-by-side with red Hour/Cost Difference (step 5).
+          - listitem [ref=f1e1006]: "Shift Pulse on hub: 4/5 average + sparkline + recent comment (step 1) — formative score + narrative."
+        - paragraph [ref=f1e1007]: Don’t copy
+        - list [ref=f1e1008]:
+          - listitem [ref=f1e1009]: Sigma-powered “+ Create report” / Make a copy BI catalog (steps 2–9) — clashes with Baseline “no deep report builders in first cut.”
+        - paragraph [ref=f1e1010]: Essentials fit Steal scheduled delivery + adherence/utilisation comparisons + formative pulse; do not port the embedded BI report library.
+        - link "View on Mobbin ↗" [ref=f1e1011] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/1e4db417-5727-4669-950b-cfb4f457df53
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e1012]:
+        - figure "1 Home Dashboard — setup carousel + Needs Attention empty" [ref=f1e1013]:
+          - 'button "Open full-size: Deputy — Analytics, step 1 of 10: Home Dashboard — setup carousel + Needs Attention empty" [ref=f1e1014]':
+            - 'img "Deputy — Analytics, step 1 of 10: Home Dashboard — setup carousel + Needs Attention empty" [ref=f1e1015]'
+        - figure "2 Analytics hub — category tiles + Shift Pulse 4/5 + classic Pay Comparison" [ref=f1e1017]:
+          - 'button "Open full-size: Deputy — Analytics, step 2 of 10: Analytics hub — category tiles + Shift Pulse 4/5 + classic Pay Comparison" [ref=f1e1018]':
+            - 'img "Deputy — Analytics, step 2 of 10: Analytics hub — category tiles + Shift Pulse 4/5 + classic Pay Comparison" [ref=f1e1019]'
+        - figure "3 Welcome to Analytics — Analyze / View details / schedule-or-export value props" [ref=f1e1021]:
+          - 'button "Open full-size: Deputy — Analytics, step 3 of 10: Welcome to Analytics — Analyze / View details / schedule-or-export value props" [ref=f1e1022]':
+            - 'img "Deputy — Analytics, step 3 of 10: Welcome to Analytics — Analyze / View details / schedule-or-export value props" [ref=f1e1023]'
+        - figure "4 Schedule adherence — filters + empty “Select value on control to load data”" [ref=f1e1025]:
+          - 'button "Open full-size: Deputy — Analytics, step 4 of 10: Schedule adherence — filters + empty “Select value on control to load data”" [ref=f1e1026]':
+            - 'img "Deputy — Analytics, step 4 of 10: Schedule adherence — filters + empty “Select value on control to load data”" [ref=f1e1027]'
+        - figure "5 Team Member picker open with per-person counts" [ref=f1e1029]:
+          - 'button "Open full-size: Deputy — Analytics, step 5 of 10: Team Member picker open with per-person counts" [ref=f1e1030]':
+            - 'img "Deputy — Analytics, step 5 of 10: Team Member picker open with per-person counts" [ref=f1e1031]'
+        - figure "6 Adherence table — Shift vs Timesheet hours/cost; red Hour Difference" [ref=f1e1033]:
+          - 'button "Open full-size: Deputy — Analytics, step 6 of 10: Adherence table — Shift vs Timesheet hours/cost; red Hour Difference" [ref=f1e1034]':
+            - 'img "Deputy — Analytics, step 6 of 10: Adherence table — Shift vs Timesheet hours/cost; red Hour Difference" [ref=f1e1035]'
+        - figure "7 Shift audit — notice-time histogram + detail table" [ref=f1e1037]:
+          - 'button "Open full-size: Deputy — Analytics, step 7 of 10: Shift audit — notice-time histogram + detail table" [ref=f1e1038]':
+            - 'img "Deputy — Analytics, step 7 of 10: Shift audit — notice-time histogram + detail table" [ref=f1e1039]'
+        - figure "8 Attendance & absence — No shows / Late / Early KPI % + weekly lines" [ref=f1e1041]:
+          - 'button "Open full-size: Deputy — Analytics, step 8 of 10: Attendance & absence — No shows / Late / Early KPI % + weekly lines" [ref=f1e1042]':
+            - 'img "Deputy — Analytics, step 8 of 10: Attendance & absence — No shows / Late / Early KPI % + weekly lines" [ref=f1e1043]'
+        - figure "9 Geolocation map — clock in/out map + last refreshed timestamp" [ref=f1e1045]:
+          - 'button "Open full-size: Deputy — Analytics, step 9 of 10: Geolocation map — clock in/out map + last refreshed timestamp" [ref=f1e1046]':
+            - 'img "Deputy — Analytics, step 9 of 10: Geolocation map — clock in/out map + last refreshed timestamp" [ref=f1e1047]'
+        - figure "10 Diversity & turnover — gender/age/tenure pies + people filters" [ref=f1e1049]:
+          - 'button "Open full-size: Deputy — Analytics, step 10 of 10: Diversity & turnover — gender/age/tenure pies + people filters" [ref=f1e1050]':
+            - 'img "Deputy — Analytics, step 10 of 10: Diversity & turnover — gender/age/tenure pies + people filters" [ref=f1e1051]'
+  - generic [ref=f1e1053]:
+    - generic [ref=f1e1054]:
+      - heading "Juicebox" [level=2] [ref=f1e1055]
+      - generic [ref=f1e1056]: Adjacent
+      - generic [ref=f1e1057]: 2 flows
+    - paragraph [ref=f1e1058]: "One Export triad: share-to-web (password) / download / email PDF|IMAGE — send to dean without an account."
+    - article [ref=f1e1059]:
+      - generic [ref=f1e1060]:
+        - generic [ref=f1e1061]:
+          - generic [ref=f1e1062]: Web
+          - generic [ref=f1e1063]: Mobbin
+          - generic [ref=f1e1064]: 5 steps
+          - button "☆" [ref=f1e1065] [cursor=pointer]
+        - heading "Sharing dashboard to web" [level=3] [ref=f1e1066]
+        - paragraph [ref=f1e1067]: User views Sequences Analytics, opens Export → Share to web, sets password + filter-interact toggle, then gets a copyable share URL.
+        - generic [ref=f1e1068]: Easy sharing of reports
+        - paragraph [ref=f1e1070]: Steal this
+        - list [ref=f1e1071]:
+          - listitem [ref=f1e1072]: Single Export menu branching Share to web / Download / Send to email (step 1).
+          - listitem [ref=f1e1073]: Password required before/with link (steps 2–4).
+          - listitem [ref=f1e1074]: “Allow viewers to interact with filters” toggle on shared dashboards (steps 2–4).
+          - listitem [ref=f1e1075]: Copyable live share URL after setup (step 4).
+        - paragraph [ref=f1e1076]: Don’t copy
+        - list [ref=f1e1077]:
+          - listitem [ref=f1e1078]: Share host is third-party explo.co (step 4) — prefer first-party dean digest links under Essentials domain.
+        - paragraph [ref=f1e1079]: "Essentials fit Closest pattern to Baseline auto digests-by-link: shareable report URL with optional password and controlled interactivity."
+        - link "View on Mobbin ↗" [ref=f1e1080] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/a6f030e2-5e59-4c27-80a3-a16e8cd88fc0
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e1081]:
+        - figure "1 Sequences Analytics — KPI cards, funnel, weekly line + Export" [ref=f1e1082]:
+          - 'button "Open full-size: Juicebox — Sharing dashboard to web, step 1 of 5: Sequences Analytics — KPI cards, funnel, weekly line + Export" [ref=f1e1083]':
+            - 'img "Juicebox — Sharing dashboard to web, step 1 of 5: Sequences Analytics — KPI cards, funnel, weekly line + Export" [ref=f1e1084]'
+        - figure "2 Export menu — Share to web / Download / Send to email" [ref=f1e1086]:
+          - 'button "Open full-size: Juicebox — Sharing dashboard to web, step 2 of 5: Export menu — Share to web / Download / Send to email" [ref=f1e1087]':
+            - 'img "Juicebox — Sharing dashboard to web, step 2 of 5: Export menu — Share to web / Download / Send to email" [ref=f1e1088]'
+        - figure "3 Share your data — password field + Allow viewers to interact with filters ON" [ref=f1e1090]:
+          - 'button "Open full-size: Juicebox — Sharing dashboard to web, step 3 of 5: Share your data — password field + Allow viewers to interact with filters ON" [ref=f1e1091]':
+            - 'img "Juicebox — Sharing dashboard to web, step 3 of 5: Share your data — password field + Allow viewers to interact with filters ON" [ref=f1e1092]'
+        - figure "4 Password set — locked Set control; filter toggle still on" [ref=f1e1094]:
+          - 'button "Open full-size: Juicebox — Sharing dashboard to web, step 4 of 5: Password set — locked Set control; filter toggle still on" [ref=f1e1095]':
+            - 'img "Juicebox — Sharing dashboard to web, step 4 of 5: Password set — locked Set control; filter toggle still on" [ref=f1e1096]'
+        - figure "5 Share link ready — explo.co/share URL + Copy + filter toggle" [ref=f1e1098]:
+          - 'button "Open full-size: Juicebox — Sharing dashboard to web, step 5 of 5: Share link ready — explo.co/share URL + Copy + filter toggle" [ref=f1e1099]':
+            - 'img "Juicebox — Sharing dashboard to web, step 5 of 5: Share link ready — explo.co/share URL + Copy + filter toggle" [ref=f1e1100]'
+    - article [ref=f1e1102]:
+      - generic [ref=f1e1103]:
+        - generic [ref=f1e1104]:
+          - generic [ref=f1e1105]: Web
+          - generic [ref=f1e1106]: Mobbin
+          - generic [ref=f1e1107]: 4 steps
+          - button "☆" [ref=f1e1108] [cursor=pointer]
+        - heading "Sending to email" [level=3] [ref=f1e1109]
+        - paragraph [ref=f1e1110]: User opens Export → Send to email, picks PDF or IMAGE, enters recipient, and gets “Email will be sent shortly” confirmation.
+        - generic [ref=f1e1111]: Easy sharing of reports
+        - paragraph [ref=f1e1113]: Steal this
+        - list [ref=f1e1114]:
+          - listitem [ref=f1e1115]: Format choice PDF vs IMAGE before send (steps 1–3).
+          - listitem [ref=f1e1116]: Send stays disabled until email present (step 1).
+          - listitem [ref=f1e1117]: "Inline success: “Email will be sent shortly” without leaving the dashboard (step 3)."
+        - paragraph [ref=f1e1118]: Essentials fit Push delivery for stakeholders who won’t open a link; complements scheduled weekly/monthly digests without a report builder.
+        - link "View on Mobbin ↗" [ref=f1e1119] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/8f313eb2-7e52-42e2-9b78-1f6f33252111
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e1120]:
+        - figure "1 Analytics + Export menu — Share to web / Download / Send to email" [ref=f1e1121]:
+          - 'button "Open full-size: Juicebox — Sending to email, step 1 of 4: Analytics + Export menu — Share to web / Download / Send to email" [ref=f1e1122]':
+            - 'img "Juicebox — Sending to email, step 1 of 4: Analytics + Export menu — Share to web / Download / Send to email" [ref=f1e1123]'
+        - figure "2 Send to email — PDF selected, IMAGE option, empty email, Send disabled" [ref=f1e1125]:
+          - 'button "Open full-size: Juicebox — Sending to email, step 2 of 4: Send to email — PDF selected, IMAGE option, empty email, Send disabled" [ref=f1e1126]':
+            - 'img "Juicebox — Sending to email, step 2 of 4: Send to email — PDF selected, IMAGE option, empty email, Send disabled" [ref=f1e1127]'
+        - figure "3 Email entered — Send email enabled (PDF still selected)" [ref=f1e1129]:
+          - 'button "Open full-size: Juicebox — Sending to email, step 3 of 4: Email entered — Send email enabled (PDF still selected)" [ref=f1e1130]':
+            - 'img "Juicebox — Sending to email, step 3 of 4: Email entered — Send email enabled (PDF still selected)" [ref=f1e1131]'
+        - figure "4 Confirmation — “Email will be sent shortly” under Send email" [ref=f1e1133]:
+          - 'button "Open full-size: Juicebox — Sending to email, step 4 of 4: Confirmation — “Email will be sent shortly” under Send email" [ref=f1e1134]':
+            - 'img "Juicebox — Sending to email, step 4 of 4: Confirmation — “Email will be sent shortly” under Send email" [ref=f1e1135]'
+  - generic [ref=f1e1137]:
+    - generic [ref=f1e1138]:
+      - heading "Midday" [level=2] [ref=f1e1139]
+      - generic [ref=f1e1140]: Adjacent
+      - generic [ref=f1e1141]: 1 flow
+    - paragraph [ref=f1e1142]: Per-metric snapshot public link with explicit expiry — accreditation-safe share.
+    - article [ref=f1e1143]:
+      - generic [ref=f1e1144]:
+        - generic [ref=f1e1145]:
+          - generic [ref=f1e1146]: Web
+          - generic [ref=f1e1147]: Mobbin
+          - generic [ref=f1e1148]: 5 steps
+          - button "☆" [ref=f1e1149] [cursor=pointer]
+        - heading "Sharing a metric" [level=3] [ref=f1e1150]
+        - paragraph [ref=f1e1151]: User views KPI cards with Current/Previous/Average, opens Revenue ⋮ → Share, creates an expiring public snapshot link, then copies/opens or shares to X/LinkedIn.
+        - generic [ref=f1e1152]: Easy sharing of reports
+        - paragraph [ref=f1e1154]: Steal this
+        - list [ref=f1e1155]:
+          - listitem [ref=f1e1156]: Per-metric Share from card ⋮, not whole-app export (step 2).
+          - listitem [ref=f1e1157]: Explicit “chart is a snapshot in time” + Expires date before Create link (step 3).
+          - listitem [ref=f1e1158]: "After create: copy/open URL + visible expiry (step 4)."
+          - listitem [ref=f1e1159]: Current vs Previous vs Average legend on the shared metric card (steps 0–1).
+        - paragraph [ref=f1e1160]: Don’t copy
+        - list [ref=f1e1161]:
+          - listitem [ref=f1e1162]: Social Open in X / LinkedIn on the share modal (step 4) — irrelevant for dean/faculty digests.
+        - paragraph [ref=f1e1163]: "Essentials fit Best for time-boxed public dean digest links: per-KPI snapshot URL with expiry; lighter than live filterable shared dashboards."
+        - link "View on Mobbin ↗" [ref=f1e1164] [cursor=pointer]:
+          - /url: https://mobbin.com/flows/ed6229f6-fa6d-413b-a6da-2edf7bb734ad
+      - generic "Flow steps in order; scroll horizontally" [ref=f1e1165]:
+        - figure "1 Dashboard — Revenue + Burn + Expenses cards; Customize; 3 months" [ref=f1e1166]:
+          - 'button "Open full-size: Midday — Sharing a metric, step 1 of 5: Dashboard — Revenue + Burn + Expenses cards; Customize; 3 months" [ref=f1e1167]':
+            - 'img "Midday — Sharing a metric, step 1 of 5: Dashboard — Revenue + Burn + Expenses cards; Customize; 3 months" [ref=f1e1168]'
+        - figure "2 Same cards with updated totals; card ⋮ affordance visible" [ref=f1e1170]:
+          - 'button "Open full-size: Midday — Sharing a metric, step 2 of 5: Same cards with updated totals; card ⋮ affordance visible" [ref=f1e1171]':
+            - 'img "Midday — Sharing a metric, step 2 of 5: Same cards with updated totals; card ⋮ affordance visible" [ref=f1e1172]'
+        - figure "3 Revenue ⋮ menu — Share" [ref=f1e1174]:
+          - 'button "Open full-size: Midday — Sharing a metric, step 3 of 5: Revenue ⋮ menu — Share" [ref=f1e1175]':
+            - 'img "Midday — Sharing a metric, step 3 of 5: Revenue ⋮ menu — Share" [ref=f1e1176]'
+        - figure "4 Share metric modal — snapshot copy + Expires date + Create link" [ref=f1e1178]:
+          - 'button "Open full-size: Midday — Sharing a metric, step 4 of 5: Share metric modal — snapshot copy + Expires date + Create link" [ref=f1e1179]':
+            - 'img "Midday — Sharing a metric, step 4 of 5: Share metric modal — snapshot copy + Expires date + Create link" [ref=f1e1180]'
+        - figure "5 Link created — URL + open/copy + Expires date + Open in X / LinkedIn" [ref=f1e1182]:
+          - 'button "Open full-size: Midday — Sharing a metric, step 5 of 5: Link created — URL + open/copy + Expires date + Open in X / LinkedIn" [ref=f1e1183]':
+            - 'img "Midday — Sharing a metric, step 5 of 5: Link created — URL + open/copy + Expires date + Open in X / LinkedIn" [ref=f1e1184]'

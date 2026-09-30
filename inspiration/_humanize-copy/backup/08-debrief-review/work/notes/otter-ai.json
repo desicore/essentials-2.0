@@ -1,0 +1,53 @@
+{
+  "product": "otter-ai",
+  "flows": {
+    "mobbin:d7a0fc7c-713c-40b5-bbc4-4447ba7e6a8f": {
+      "summary": "User starts a new conversation from Home, records with live transcript and in-session markers, browses Summary/Chat/Comments tabs, then returns to Home where the finished note shows an AI summary snippet and attached image.",
+      "steps": [
+        "Home: upcoming + recording list",
+        "New note: empty transcript + record bar",
+        "Summary tab: live summary loading",
+        "Otter Chat empty + visibility notice",
+        "Comments empty + type a note",
+        "Live record: type note + highlight tool on",
+        "Session titled Product Weekly Sync",
+        "Live transcript filling with timestamps",
+        "Playback: pause + transcript scrub",
+        "Home card: AI summary + captured image",
+        "Home feed: reactions and comment counts"
+      ],
+      "steal": [
+        "Recording bar: one-tap highlight / comment / image while live (steps Live record, Session titled)",
+        "Chat empty state states 'Chat is visible to all conversation participants' (Otter Chat empty)",
+        "Summary tab shows 'Creating a live summary...' placeholders during capture (Summary tab)",
+        "Home card surfaces AI bullet + attached visual before opening the note (Home card)"
+      ],
+      "avoid": [
+        "AI summary and Share appear with no faculty approve/edit gate before others can see them — clashes with Baseline human-review-before-share for ai-debrief"
+      ],
+      "fit": "Maps to phone-as-debrief-capture + private annotation second screen; extends SRV Transcript/Annotation with live markers and AI chat, but needs an approve step before learner-visible summary.",
+      "counter_example": false
+    },
+    "mobbin:c2a5d587-f496-4eb4-bc78-509bd3c32787": {
+      "summary": "After a recording saves to Home, the user opens the conversation Summary (narrative, action items, outline), uses More for rematch/sync tools, then reviews the speaker-labelled Transcript with keyword tags, talk-time breakdown, and timestamped Outline jumps.",
+      "steps": [
+        "Home: recording saved toast + recent list",
+        "Summary: narrative + action items + chat prompts",
+        "More menu: Rematch speakers / Sync text",
+        "Transcript: keywords, speakers %, Outline jumps"
+      ],
+      "steal": [
+        "Suggested chat prompts on empty Chat ('was I mentioned?', action items, decisions) (Summary step)",
+        "More menu: Rematch speakers + Sync text to audio for fixing attribution (More menu)",
+        "Outline items deep-link with timestamps; thumbs Useful/Not Useful under summary (Transcript step)",
+        "Speakers panel with color + talk-time % next to searchable transcript (Transcript step)"
+      ],
+      "avoid": [
+        "Don't build this: AI Summary is shown with Copy Summary, Share, and Post to Slack as primary actions and no edit/approve gate before distribution"
+      ],
+      "fit": "Counter-example for Baseline ai-debrief: auto-surfaces AI summary ready to distribute without faculty review; still steal outline timestamps and Rematch speakers into an approve-first SRV phone view.",
+      "jobs": ["record-debrief", "ai-debrief", "rewatch"],
+      "counter_example": true
+    }
+  }
+}

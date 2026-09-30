@@ -1,0 +1,23 @@
+{
+  "product": "google-analytics",
+  "flows": {
+    "mobbin:2fb6db4b-a04d-4ffe-b7a5-6ebb219da761": {
+      "summary": "User opens Analytics Home and faces a dense stack of KPI tabs, realtime card, recently accessed tiles, and suggested metric widgets with per-card controls and an empty Insights area.",
+      "steps": [
+        "Home — Active users tabs + realtime + recently accessed + suggested cards",
+        "Home — chart tooltip (unsampled / data source) over same dense stack",
+        "Suggested widgets row + empty Insights & recommendations"
+      ],
+      "steal": [
+        "Recently accessed report tiles with relative time (steps 0–1) — recents shortcut into Reports without new widgets.",
+        "Empty Insights illustration when nothing to recommend (step 2) — withhold chrome until there is a finding."
+      ],
+      "avoid": [
+        "Many equal-weight cards (KPI tabs, realtime, suggestions, each with own dropdowns/links) and no single primary answer (steps 0–2) — raises scan time; user cannot tell where to look first or what 'OK' means."
+      ],
+      "fit": "Module clutter counter-example: do not build an Essentials dashboard like this—conflicts with 'show little, precisely'; KPIs and deep charts belong in Reports, not competing hero widgets on the home.",
+      "jobs": ["widgets", "kpis", "navigation"],
+      "counter_example": true
+    }
+  }
+}

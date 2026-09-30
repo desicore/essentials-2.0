@@ -1,0 +1,82 @@
+{
+  "product": "calendly",
+  "flows": {
+    "mobbin:58c88fe6-2777-4b0f-8011-c816bff6dbd8": {
+      "summary": "Admin picks Group from Create, configures a multi-invitee event type (duration, location, availability, invitee limit) in a side drawer, and creates it.",
+      "steps": [
+        "Create menu: pick Group (1 host → multiple invitees)",
+        "New Meeting drawer — Group, invitee limit 2",
+        "Name webinar; Invitee limit section expanded",
+        "Invitee limit shown as Group with 2 invitees",
+        "Set duration to 1 hr",
+        "Expand Location (Zoom / Phone / In-person)",
+        "All options location list (Meet, Teams, Webex…)",
+        "Location set to Google Meet; Create ready",
+        "Availability drawer: 60 days / 4h notice + working hours",
+        "Custom weekly hours Mon–Fri blocks",
+        "Weekly Unavailable + date-specific hours",
+        "Availability finalize with Create"
+      ],
+      "steal": [
+        "Create menu states host↔invitee cardinality up front (One-on-one / Group / Round robin / Collective) — step 0",
+        "Invitee limit on Group = capacity per generated slot (\"Group event with 2 invitees\") — steps 1–3",
+        "Quick-create drawer + \"More options\" escape hatch while list stays visible — steps 1–7",
+        "Availability: rolling horizon + minimum notice + date-specific overrides — steps 8–11"
+      ],
+      "avoid": [
+        "Long multi-screen create with near-duplicate drawer states (duration/location/limit) before Create — high click cost for a simple capacity event"
+      ],
+      "fit": "Maps to flexi-custom capacity-per-slot and simple event types (scenario + seats); extends LearningSpace filtering with group max-attendees, not Excel import.",
+      "jobs": ["flexi-custom", "simple-events"],
+      "counter_example": false
+    },
+    "mobbin:5c1d65f9-65f5-48a9-b250-d04ba6f1a7a8": {
+      "summary": "Admin creates a Round Robin event type, builds a rotating host pool, sets per-host locations and host-specific availability, then previews and saves.",
+      "steps": [
+        "Create menu: pick Round robin (rotating hosts → 1 invitee)",
+        "New Meeting Round Robin — Add co-host / Create rotating host pool",
+        "Named Round Robin; pool rotating through hosts",
+        "Rescheduling prefs: reassign via round robin vs same hosts",
+        "Pool of 3 hosts; reschedule = same hosts",
+        "Per-host location list (No location) + Set location for all",
+        "Select location dropdown per host",
+        "Alex → Google Meet; others still empty",
+        "Mix locations: Meet vs Phone with phone number",
+        "Remaining hosts get Meet / phone",
+        "Availability Varied — schedules listed per host/timezone",
+        "Booking preview calendar + Save changes"
+      ],
+      "steal": [
+        "Round Robin Pool card with \"Rotating through N hosts\" — steps 1–4",
+        "Rescheduling preference: reassign through pool vs keep original hosts — step 3",
+        "Per-host location + \"Set location for all\" when location varies by host — steps 5–9",
+        "Availability \"Set by host\" with each host's hours by timezone — step 10"
+      ],
+      "avoid": [
+        "Per-host location mandatory before Create when pool >1 — blocks save until every faculty has a room/link"
+      ],
+      "fit": "Direct pattern for faculty rotation across identical scenario sessions; keep collective/round-robin from baseline, map hosts→faculty and location→room.",
+      "jobs": ["flexi-custom"],
+      "counter_example": false
+    },
+    "mobbin:f9b02a84-c8b6-4997-aa01-1f7d9de7792e": {
+      "summary": "User opens Calendar sync, chooses Google/Outlook/Exchange/iCloud to connect, then configures which calendars are checked for conflicts vs where new events are written.",
+      "steps": [
+        "Calendar sync: accounts + Check for conflicts vs Add to calendar",
+        "Select Calendar providers; iCloud help video modal",
+        "Connect list: Google, Outlook, Exchange, iCloud",
+        "Duplicate-connect error banner; sync config after connect"
+      ],
+      "steal": [
+        "Split \"Check for conflicts\" (read many) from \"Add to calendar\" (write one) — steps 0 and 3",
+        "Provider list includes Outlook and Exchange Server explicitly — steps 1–2",
+        "Account cap shown (1/6) next to Add Calendar Account — step 0",
+        "Inline error when calendar already connected — step 3"
+      ],
+      "avoid": [],
+      "fit": "Core outlook-sync pattern for Essentials: which calendars block room/faculty time vs where session invites are written; cheap to adopt on top of existing sync.",
+      "jobs": ["outlook-sync"],
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "references": [
+    {
+      "id": "mobbin:02dc4698-9e1d-4ca2-a32e-16880c5813f3",
+      "source": "mobbin",
+      "app": "GoodNotes",
+      "title": "Commenting on a sticky note",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/02dc4698-9e1d-4ca2-a32e-16880c5813f3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/bBwF7fp3",
+        "https://mobbin.com/api/mcp/short/7TnAqqjb",
+        "https://mobbin.com/api/mcp/short/9sBijqky"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "debrief-annotations"
+      ],
+      "take": "Multi-tool annotation interface with drawing palette, comment threading, and collaborative markup on documents and notes."
+    },
+    {
+      "id": "mobbin:66642666-0e72-4265-b86f-4ac4f51debc6",
+      "source": "mobbin",
+      "app": "GoodNotes",
+      "title": "Drawing on a note",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/66642666-0e72-4265-b86f-4ac4f51debc6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/D4acJAhX",
+        "https://mobbin.com/api/mcp/short/a90OEgJy",
+        "https://mobbin.com/api/mcp/short/0ZnnYQxK"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "debrief-annotations"
+      ],
+      "take": "Full drawing toolbar with brush selection, color picker, and gesture-based shape tools for real-time annotation during playback."
+    },
+    {
+      "id": "mobbin:542aacf2-5ea9-4f80-b750-bcf965b31bc5",
+      "source": "mobbin",
+      "app": "GoodNotes",
+      "title": "Listening to a recording",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/542aacf2-5ea9-4f80-b750-bcf965b31bc5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/PtZP5l5w",
+        "https://mobbin.com/api/mcp/short/fQJMo1R4",
+        "https://mobbin.com/api/mcp/short/Us0LphxR",
+        "https://mobbin.com/api/mcp/short/k2Fqjttm"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "debrief-annotations",
+        "voice-notes"
+      ],
+      "take": "Audio playback modal with speed control (1.0x, 1.5x, 2x), transcript display, and transcription generation; AI-powered note summary."
+    },
+    {
+      "id": "mobbin:df108245-35a2-4e3a-a4b1-b5a2e5a566a5",
+      "source": "mobbin",
+      "app": "Jomo",
+      "title": "Live Activities",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/df108245-35a2-4e3a-a4b1-b5a2e5a566a5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/H2dEj8qt",
+        "https://mobbin.com/api/mcp/short/R0vOWuID"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "timer"
+      ],
+      "take": "Lock screen live activity widget showing session timer (28:08) and completion percentage with progress bar."
+    },
+    {
+      "id": "mobbin:51398a50-ab88-4cb6-8d7d-08e18e411c49",
+      "source": "mobbin",
+      "app": "Forest",
+      "title": "Live Activities",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/51398a50-ab88-4cb6-8d7d-08e18e411c49",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GTHgVTln",
+        "https://mobbin.com/api/mcp/short/RfqS22xo",
+        "https://mobbin.com/api/mcp/short/DplZ7o9T"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "timer"
+      ],
+      "take": "Lock screen timer widget with elapsed time display, status label, and prominent countdown in large font visible from glance."
+    },
+    {
+      "id": "mobbin:3ff1275c-8826-4b99-b53c-abb5a3c45ef6",
+      "source": "mobbin",
+      "app": "Forest",
+      "title": "Dynamic Island",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3ff1275c-8826-4b99-b53c-abb5a3c45ef6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/bJh5aA7p",
+        "https://mobbin.com/api/mcp/short/rXVqVNlp"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "timer"
+      ],
+      "take": "Dynamic Island persistent timer UI showing elapsed time with minimal screen footprint, accessible without app focus."
+    },
+    {
+      "id": "mobbin:6207afe6-b2f7-4339-b618-bfa2e7366839",
+      "source": "mobbin",
+      "app": "Hypelist",
+      "title": "Rating an item",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6207afe6-b2f7-4339-b618-bfa2e7366839",
+      "images": [
+        "https://mobbin.com/api/mcp/short/QbEt0xWr",
+        "https://mobbin.com/api/mcp/short/9423g7p1",
+        "https://mobbin.com/api/mcp/short/lFsHcOcf"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Five-star rating control with large interactive stars; clear visual feedback on selection and completion state."
+    },
+    {
+      "id": "mobbin:376a68ad-85c8-4071-a09d-bbfe73ce7cf0",
+      "source": "mobbin",
+      "app": "Lifesum",
+      "title": "Completing a test (life score)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/376a68ad-85c8-4071-a09d-bbfe73ce7cf0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/o9io1RSv",
+        "https://mobbin.com/api/mcp/short/PqUiPWFy",
+        "https://mobbin.com/api/mcp/short/6zfCoywR",
+        "https://mobbin.com/api/mcp/short/AF36gnLI",
+        "https://mobbin.com/api/mcp/short/jZkMSl5g",
+        "https://mobbin.com/api/mcp/short/bck7mo2R",
+        "https://mobbin.com/api/mcp/short/vMmefAdu",
+        "https://mobbin.com/api/mcp/short/R7AOWKSl",
+        "https://mobbin.com/api/mcp/short/wuwAoNgp",
+        "https://mobbin.com/api/mcp/short/1ew5CMsD",
+        "https://mobbin.com/api/mcp/short/pELPR4qG"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Multi-screen form with radio options, scrolling list items, numeric feedback on score (84/150), and visual progress summary with insights."
+    },
+    {
+      "id": "mobbin:d6e23c63-62bf-4b0b-882c-4f83e81a4179",
+      "source": "mobbin",
+      "app": "Fresha",
+      "title": "Forms",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d6e23c63-62bf-4b0b-882c-4f83e81a4179",
+      "images": [
+        "https://mobbin.com/api/mcp/short/2xBmkCeS",
+        "https://mobbin.com/api/mcp/short/6VxlcnJ9",
+        "https://mobbin.com/api/mcp/short/R6rU2c4a"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Completed form flow with success badge and signature capture display, showing end-to-end submission state."
+    },
+    {
+      "id": "mobbin:78ae405b-2c59-46f6-94bc-933c189d235d",
+      "source": "mobbin",
+      "app": "Yuka",
+      "title": "Sending feedback",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/78ae405b-2c59-46f6-94bc-933c189d235d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/9uhozlE7",
+        "https://mobbin.com/api/mcp/short/HD2F4fSb",
+        "https://mobbin.com/api/mcp/short/jNHCqqiA",
+        "https://mobbin.com/api/mcp/short/YdzGVhJk",
+        "https://mobbin.com/api/mcp/short/5RK2R4Zz",
+        "https://mobbin.com/api/mcp/short/ZTwFTKzK",
+        "https://mobbin.com/api/mcp/short/jxXWsbcW",
+        "https://mobbin.com/api/mcp/short/n1YGRBRm"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Photo attachment, text feedback, multi-step form flow with optional comment fields and issue categorization for reporting problems."
+    },
+    {
+      "id": "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c",
+      "source": "mobbin",
+      "app": "Luma",
+      "title": "Checking in a guest (scan QR code)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/024a7f32-0ecc-4767-9123-0fb0830f256c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/19uMDLwo",
+        "https://mobbin.com/api/mcp/short/PbrlWiSS",
+        "https://mobbin.com/api/mcp/short/pjBrFN8c"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "equipment-check",
+        "learner-tagging"
+      ],
+      "take": "QR scan-to-check-in flow with camera modal, guest card confirmation showing email and status, and green success toast."
+    },
+    {
+      "id": "mobbin:26b0f3ea-2156-43d2-b580-f4774fbb7fc7",
+      "source": "mobbin",
+      "app": "Luma",
+      "title": "Checking in guests",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/26b0f3ea-2156-43d2-b580-f4774fbb7fc7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/8JCb2JgW",
+        "https://mobbin.com/api/mcp/short/iCc4IUNE",
+        "https://mobbin.com/api/mcp/short/bOn4D6jJ",
+        "https://mobbin.com/api/mcp/short/Rfht1Gq1"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "learner-tagging"
+      ],
+      "take": "Event detail card with check-in button, guest detail popover showing email, status, and time, with modal action for check-in confirmation."
+    },
+    {
+      "id": "mobbin:258439a8-40a5-4574-b6f1-4bfd0327b57d",
+      "source": "mobbin",
+      "app": "Superlist",
+      "title": "List detail",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/258439a8-40a5-4574-b6f1-4bfd0327b57d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/pjGLX9Y4",
+        "https://mobbin.com/api/mcp/short/KytR8cMb",
+        "https://mobbin.com/api/mcp/short/VUXhHVgN"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "List-detail iPad layout pattern with left sidebar navigation and right-side detail pane showing task checklist with completed/incomplete items."
+    },
+    {
+      "id": "mobbin:c2178386-7230-43e2-8f63-eb95f459355b",
+      "source": "mobbin",
+      "app": "Evernote",
+      "title": "Recording an audio",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c2178386-7230-43e2-8f63-eb95f459355b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/CdwutzgI",
+        "https://mobbin.com/api/mcp/short/Sc526AxW",
+        "https://mobbin.com/api/mcp/short/MZSejm6W"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "voice-notes"
+      ],
+      "take": "Audio recording button in task list, inline audio recorder modal, and transcription button for real-time note conversion."
+    },
+    {
+      "id": "mobbin:42c5dd12-ff9d-4679-b61f-b037476ea54c",
+      "source": "mobbin",
+      "app": "stoic.",
+      "title": "Recording a voice note",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/42c5dd12-ff9d-4679-b61f-b037476ea54c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/AKkkooT5",
+        "https://mobbin.com/api/mcp/short/jkFVSomo",
+        "https://mobbin.com/api/mcp/short/QdJcIKNT",
+        "https://mobbin.com/api/mcp/short/7XLuAnqH",
+        "https://mobbin.com/api/mcp/short/nnMxIguK",
+        "https://mobbin.com/api/mcp/short/tTMLIam3"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "voice-notes"
+      ],
+      "take": "Dialog-based voice note recording with tap-to-record button, transcribe toggle, and inline waveform visualization during capture."
+    },
+    {
+      "id": "mobbin:8d896cd3-c8c4-4b58-b852-317e91eece4b",
+      "source": "mobbin",
+      "app": "Journal",
+      "title": "Recording an audio",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8d896cd3-c8c4-4b58-b852-317e91eece4b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/6wX2wUJb",
+        "https://mobbin.com/api/mcp/short/yuSSz1dg",
+        "https://mobbin.com/api/mcp/short/98SiAEoJ",
+        "https://mobbin.com/api/mcp/short/mMdP87Nd",
+        "https://mobbin.com/api/mcp/short/Gv9IpqHT",
+        "https://mobbin.com/api/mcp/short/ToANrvDF"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "voice-notes"
+      ],
+      "take": "Inline audio recording modal with waveform scrubber, playback controls (skip 10s, play, skip 15s), pause button, and timestamp display showing elapsed time."
+    }
+  ]
+}

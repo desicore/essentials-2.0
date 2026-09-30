@@ -1,0 +1,10 @@
+[
+  {"app":"Coursera","status":"✓","text":"Continue learning, progress, module and Resume visible above fold.","ids":["mobbin:18683325-d982-4756-b06e-4ed52c933b06"]},
+  {"app":"Teachable","status":"✓","text":"Course context, Start Lesson, lesson list and 0% complete visible.","ids":["mobbin:c04c0023-2365-4741-9dc9-4592f491c7ea"]},
+  {"app":"Circle","status":"partial","text":"Course/community identity and content entry points; no progress or announcements observed.","ids":["mobbin:afde5712-b2c0-4fc1-be7b-4ac42446d642"]},
+  {"app":"Quizlet","status":"partial","text":"Mobile learner home supports resume/progress hierarchy; cohort materials not observed.","ids":["mobbin:15f84fb7-e67c-4483-b5d5-c5650540b051"]},
+  {"app":"Babbel","status":"partial","text":"Mobile next lesson/progress pattern; announcements not observed.","ids":["mobbin:176965ed-84bd-427a-93ca-4d2b95f1660c"]},
+  {"app":"Codecademy","status":"partial","text":"Progress/next-step hierarchy; announcements not observed.","ids":["mobbin:f7c1b917-38c1-4e53-96a2-110990ac8fb8"]},
+  {"app":"Brilliant","status":"partial","text":"Progress dashboard analogy; course sharing context not observed.","ids":["mobbin:b94cf547-03e8-44e7-8508-5bee01102ba9"]},
+  {"app":"Skillshare","status":"partial","text":"Mobile class identity and continue path analogy; cohort announcements not shown.","ids":["mobbin:eaa37d84-6ac3-44d2-a888-35e0198919db"]}
+]

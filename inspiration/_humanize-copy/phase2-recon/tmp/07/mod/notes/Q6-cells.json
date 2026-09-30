@@ -1,0 +1,27 @@
+[
+  {
+    "app": "Coursera",
+    "status": "\u2713",
+    "text": "Matched web+iOS course homes share enrolled course, progress, goals, and next-action patterns; parity limits remain outside captured surfaces.",
+    "ids": [
+      "mobbin:f31fedca-3104-45d9-a48e-08afa231c723",
+      "mobbin:d76cce29-fa86-4e42-a549-54d3765ad5d9"
+    ]
+  },
+  {
+    "app": "Udemy",
+    "status": "partial",
+    "text": "iOS learner course home captured, but no matching web capture was returned.",
+    "ids": [
+      "mobbin:89b6481f-0676-46bb-a15b-daa62b8a10cd"
+    ]
+  },
+  {
+    "app": "Teachable",
+    "status": "partial",
+    "text": "Web learner-facing admin preview only; ordinary learner session and mobile parity unverified.",
+    "ids": [
+      "mobbin:be865fb9-7894-4e03-8262-c14a16d810e3"
+    ]
+  }
+]

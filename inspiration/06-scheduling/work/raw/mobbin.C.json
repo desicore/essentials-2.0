@@ -1,0 +1,239 @@
+{
+  "references": [
+    {
+      "id": "mobbin:535a7828-5915-47a2-b782-c6bfd708adc0",
+      "source": "mobbin",
+      "app": "Attio",
+      "title": "Resolving issues (import)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/535a7828-5915-47a2-b782-c6bfd708adc0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ixlzMuBC",
+        "https://mobbin.com/api/mcp/short/f420lNaF",
+        "https://mobbin.com/api/mcp/short/QKRSROn9",
+        "https://mobbin.com/api/mcp/short/C7yHxqCj",
+        "https://mobbin.com/api/mcp/short/u5uYUhdJ",
+        "https://mobbin.com/api/mcp/short/AeGY7xfw",
+        "https://mobbin.com/api/mcp/short/sT2fQ3RA",
+        "https://mobbin.com/api/mcp/short/LOMmGXxq",
+        "https://mobbin.com/api/mcp/short/cLkkBAiW",
+        "https://mobbin.com/api/mcp/short/G0XRciBo",
+        "https://mobbin.com/api/mcp/short/7xII0eu3"
+      ],
+      "platform": "web",
+      "jobs": [
+        "excel-import"
+      ],
+      "take": "Error resolution in CSV import: handling duplicate values, invalid domains, and category mapping."
+    },
+    {
+      "id": "mobbin:2c5ec636-6d46-416e-b798-ae09d51881c3",
+      "source": "mobbin",
+      "app": "Attio",
+      "title": "Importing a CSV",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/2c5ec636-6d46-416e-b798-ae09d51881c3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rlsLfXPK",
+        "https://mobbin.com/api/mcp/short/X1s27T36",
+        "https://mobbin.com/api/mcp/short/d9RHz5vu",
+        "https://mobbin.com/api/mcp/short/BunG4aFZ",
+        "https://mobbin.com/api/mcp/short/zUJs0MKl",
+        "https://mobbin.com/api/mcp/short/IrLmLoJl",
+        "https://mobbin.com/api/mcp/short/THtIIHmF",
+        "https://mobbin.com/api/mcp/short/scwIqL2f",
+        "https://mobbin.com/api/mcp/short/DF9D8xUZ",
+        "https://mobbin.com/api/mcp/short/rsAwxgNS",
+        "https://mobbin.com/api/mcp/short/M1qWbdhZ",
+        "https://mobbin.com/api/mcp/short/UsFIsUnx"
+      ],
+      "platform": "web",
+      "jobs": [
+        "excel-import"
+      ],
+      "take": "CSV import workflow: upload file, map columns to CRM fields, preview rows with validation, confirm and import."
+    },
+    {
+      "id": "mobbin:dce9a53c-788e-4821-bd15-08cd2b9c6529",
+      "source": "mobbin",
+      "app": "Airtable",
+      "title": "Importing data",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/dce9a53c-788e-4821-bd15-08cd2b9c6529",
+      "images": [
+        "https://mobbin.com/api/mcp/short/b4XMrRme",
+        "https://mobbin.com/api/mcp/short/99lBNCc3",
+        "https://mobbin.com/api/mcp/short/nVqAE1rf",
+        "https://mobbin.com/api/mcp/short/Z37NvStu",
+        "https://mobbin.com/api/mcp/short/RgLyXLKA",
+        "https://mobbin.com/api/mcp/short/s7OpeLJn",
+        "https://mobbin.com/api/mcp/short/2pjIJz1P",
+        "https://mobbin.com/api/mcp/short/muCX9DZZ",
+        "https://mobbin.com/api/mcp/short/CtTFN1Ir",
+        "https://mobbin.com/api/mcp/short/G8DmjqGS",
+        "https://mobbin.com/api/mcp/short/Hh4ePLru",
+        "https://mobbin.com/api/mcp/short/HKn5o3o9",
+        "https://mobbin.com/api/mcp/short/QUSAntrq"
+      ],
+      "platform": "web",
+      "jobs": [
+        "excel-import"
+      ],
+      "take": "Airtable import: upload file, select import type, choose columns to include, set field types, and create records."
+    },
+    {
+      "id": "mobbin:b0cb149f-d742-4d9e-a22f-5dfe5d15b0b1",
+      "source": "mobbin",
+      "app": "Notion",
+      "title": "Importing a CSV file",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b0cb149f-d742-4d9e-a22f-5dfe5d15b0b1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/He8N9jLi",
+        "https://mobbin.com/api/mcp/short/X5iz8C7H",
+        "https://mobbin.com/api/mcp/short/xamCMVvc",
+        "https://mobbin.com/api/mcp/short/32wsR9VE",
+        "https://mobbin.com/api/mcp/short/QtrlKuUF",
+        "https://mobbin.com/api/mcp/short/czGc1P1d"
+      ],
+      "platform": "web",
+      "jobs": [
+        "excel-import"
+      ],
+      "take": "Notion CSV import: open dialog, select and upload CSV file, map CSV headers to database fields, merge or create records."
+    },
+    {
+      "id": "mobbin:76a881cf-e903-4eaf-bb60-f7a779cd06c2",
+      "source": "mobbin",
+      "app": "HubSpot",
+      "title": "Importing a file",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/76a881cf-e903-4eaf-bb60-f7a779cd06c2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ceNqa8zd",
+        "https://mobbin.com/api/mcp/short/uIa5NFaP",
+        "https://mobbin.com/api/mcp/short/pA0bh4Vr",
+        "https://mobbin.com/api/mcp/short/8iSBh42x",
+        "https://mobbin.com/api/mcp/short/0dGxhDug",
+        "https://mobbin.com/api/mcp/short/8lB4JJM7",
+        "https://mobbin.com/api/mcp/short/CUFBKxxt",
+        "https://mobbin.com/api/mcp/short/fTJMpBGy",
+        "https://mobbin.com/api/mcp/short/2gUmE8nE",
+        "https://mobbin.com/api/mcp/short/Wx7P7ld6",
+        "https://mobbin.com/api/mcp/short/UrllXQUv",
+        "https://mobbin.com/api/mcp/short/dKUpId4O",
+        "https://mobbin.com/api/mcp/short/Iak9X9vQ",
+        "https://mobbin.com/api/mcp/short/Zf83eLZQ"
+      ],
+      "platform": "web",
+      "jobs": [
+        "excel-import"
+      ],
+      "take": "HubSpot import: select object type, upload file, map columns to properties, handle errors, review summary before completing."
+    },
+    {
+      "id": "mobbin:afb6188a-6313-41c8-a2b6-c19e7f876c8d",
+      "source": "mobbin",
+      "app": "Motion",
+      "title": "Connecting to Google Calendar",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/afb6188a-6313-41c8-a2b6-c19e7f876c8d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/YjPpP1ec",
+        "https://mobbin.com/api/mcp/short/nmAksClo",
+        "https://mobbin.com/api/mcp/short/T0zbU7QW",
+        "https://mobbin.com/api/mcp/short/SXIv3z7v",
+        "https://mobbin.com/api/mcp/short/0qRRKTnT",
+        "https://mobbin.com/api/mcp/short/0aWMJIvU",
+        "https://mobbin.com/api/mcp/short/VTU8q40p"
+      ],
+      "platform": "web",
+      "jobs": [
+        "outlook-sync"
+      ],
+      "take": "Motion calendar sync: connect Google Calendar, choose account, select primary calendar, configure work hours and availability settings."
+    },
+    {
+      "id": "mobbin:f9b02a84-c8b6-4997-aa01-1f7d9de7792e",
+      "source": "mobbin",
+      "app": "Calendly",
+      "title": "Add a calendar account",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f9b02a84-c8b6-4997-aa01-1f7d9de7792e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rhqyiCXT",
+        "https://mobbin.com/api/mcp/short/mLTvetPq",
+        "https://mobbin.com/api/mcp/short/UrIGRqN1",
+        "https://mobbin.com/api/mcp/short/VuIuIU3S"
+      ],
+      "platform": "web",
+      "jobs": [
+        "outlook-sync"
+      ],
+      "take": "Calendly calendar account: view sync settings, add calendar account button, select Google/Outlook/iCloud, configure conflict detection."
+    },
+    {
+      "id": "mobbin:a8dadc04-c2e9-4e8c-b434-873fcffc60eb",
+      "source": "mobbin",
+      "app": "Cal.com",
+      "title": "Apps",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/a8dadc04-c2e9-4e8c-b434-873fcffc60eb",
+      "images": [
+        "https://mobbin.com/api/mcp/short/mDcRPe2z",
+        "https://mobbin.com/api/mcp/short/qEWlNR30",
+        "https://mobbin.com/api/mcp/short/fG57FDhZ",
+        "https://mobbin.com/api/mcp/short/vhOcL8kf",
+        "https://mobbin.com/api/mcp/short/l54eZpVz"
+      ],
+      "platform": "web",
+      "jobs": [
+        "outlook-sync"
+      ],
+      "take": "Cal.com apps integration: manage installed calendar and conferencing apps, view connection status and app settings."
+    },
+    {
+      "id": "mobbin:70a53aec-5dfc-4ea3-a991-9911d3e7fb1d",
+      "source": "mobbin",
+      "app": "Calendly",
+      "title": "Completing setup guide",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/70a53aec-5dfc-4ea3-a991-9911d3e7fb1d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TdgvaWKw",
+        "https://mobbin.com/api/mcp/short/w6quPd7f",
+        "https://mobbin.com/api/mcp/short/ynZ96U2g",
+        "https://mobbin.com/api/mcp/short/ftBx8J9w",
+        "https://mobbin.com/api/mcp/short/2Sjr9Dcg",
+        "https://mobbin.com/api/mcp/short/3gPjQ9jo",
+        "https://mobbin.com/api/mcp/short/pEADu7HS"
+      ],
+      "platform": "web",
+      "jobs": [
+        "outlook-sync"
+      ],
+      "take": "Calendly onboarding: connect calendar, set meeting location, configure availability hours, confirm account setup completion."
+    },
+    {
+      "id": "mobbin:601c6b07-ab5a-4a8b-8dfa-7f2d39b090b3",
+      "source": "mobbin",
+      "app": "Notion",
+      "title": "Connecting to Notion Calendar",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/601c6b07-ab5a-4a8b-8dfa-7f2d39b090b3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/olfrJjQ4",
+        "https://mobbin.com/api/mcp/short/OXeOSIOt",
+        "https://mobbin.com/api/mcp/short/Aa3xGMv4",
+        "https://mobbin.com/api/mcp/short/TpRmGByV",
+        "https://mobbin.com/api/mcp/short/zOLYHdRb",
+        "https://mobbin.com/api/mcp/short/UBHFUjIi"
+      ],
+      "platform": "web",
+      "jobs": [
+        "outlook-sync"
+      ],
+      "take": "Notion calendar connection: navigate to settings, access Connections, choose email provider, authorize access to email calendar."
+    }
+  ]
+}

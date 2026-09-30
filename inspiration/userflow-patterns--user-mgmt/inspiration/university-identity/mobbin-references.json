@@ -47,7 +47,7 @@
       "question": "Q1",
       "title": "Guide IT between the app and identity provider",
       "actor": "university IT",
-      "take": "Number the configuration handoffs, explain which domains SSO affects, and validate certificate files at upload. Keep the setup state visible until the connection has actually succeeded.",
+      "take": "Number the configuration handoffs, explain which domains SSO affects, and check certificate files at upload. Keep the setup status visible until the connection has actually succeeded.",
       "observed": "Authentication settings opens a SAML explanation and numbered setup guide. IT copies the service-provider URL and audience into its identity provider, supplies company domain and identity-provider URL, and uploads a certificate. The final screenshot reports an unsupported certificate file type and lists accepted formats.",
       "adaptation": "Give university IT a checklist for both systems, copy controls for app-provided values and explicit population scope. Explain invalid file formats next to the upload control before activation.",
       "limitation": "The captured flow ends with a certificate-file error; no connection test, activation, successful sign-in, provisioning or group selection is shown. A company email domain is an observed SSO scope cue, not proof of university identity matching.",
@@ -136,12 +136,12 @@
         5
       ],
       "question": "Q1",
-      "title": "Test SAML before saving an enforced sign-in policy",
+      "title": "Test SAML before saving enforced sign-in",
       "actor": "university IT",
       "take": "Require a connection test before saving enforced SAML. Keep failure feedback close to the configuration so IT can repair setup before institutional users depend on it.",
       "observed": "Enterprise onboarding links to Authentication security. Enabling Require SAML authentication reveals sign-on URL, issuer and public-certificate fields plus service-provider information. Save is disabled until a SAML test. The supplied certificate produces an inline X509 format error, Failed: invalid settings beside the test control and an invalid-provider-settings banner.",
-      "adaptation": "Gate institutional SSO rollout on an explicit test result and explain who will be affected. Preserve configuration context when the test fails so IT can correct it.",
-      "limitation": "The captured connection test fails and no policy is successfully saved. Enforcing SAML, directory provisioning, account linking and course access remain distinct operations; the flow does not demonstrate them succeeding.",
+      "adaptation": "Block institutional SSO rollout until an explicit test result, and explain who will be affected. Keep configuration context when the test fails so IT can correct it.",
+      "limitation": "The captured connection test fails and no policy is successfully saved. Enforcing SAML, directory provisioning, account linking and course access remain distinct operations; the flow does not show them succeeding.",
       "steps": [
         {
           "id": "277cd6a1-2548-408c-ba65-3a0acf33c36e",
@@ -161,7 +161,7 @@
           "id": "eccd2f55-dcc7-44ce-b712-71a4c39def81",
           "index": 2,
           "imageIndex": 2,
-          "label": "Require SAML fields and test-before-save gate",
+          "label": "Require SAML fields and test required before save",
           "localAsset": "assets/mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg"
         },
         {
@@ -231,18 +231,18 @@
         3
       ],
       "question": "Q1",
-      "title": "Choose which directory attributes are synchronized",
+      "title": "Choose which directory fields are synced",
       "actor": "university IT",
-      "take": "Let IT enable only the directory fields LearningSpace needs. Describe each field and disclose that changes to existing users may take time to appear.",
-      "observed": "Directory Sync lists optional auto-mapped attributes with descriptions and enabled/disabled states. An edit dialog provides individual toggles and warns that changes to existing directory users may not appear immediately. After selected toggles are saved, the main table reflects the enabled attributes.",
-      "adaptation": "Preview the shared fields and default to the minimum institutional data needed. Explain optional fields and propagation timing before IT saves a change.",
-      "limitation": "This developer-admin example controls optional attributes rather than selecting directory groups. No actual user synchronization, failed update, legal permission or course-membership mapping is demonstrated.",
+      "take": "Let IT enable only the directory fields LearningSpace needs. Describe each field and say that changes to existing users may take time to appear.",
+      "observed": "Directory Sync lists optional auto-mapped fields with descriptions and enabled or disabled states. An edit dialog provides individual toggles and warns that changes to existing directory users may not appear immediately. After selected toggles are saved, the main table reflects the enabled fields.",
+      "adaptation": "Preview the shared fields and default to the minimum institutional data needed. Explain optional fields and how long changes take to appear before IT saves a change.",
+      "limitation": "This developer-admin example controls optional fields rather than selecting directory groups. No actual user sync, failed update, legal permission or course-membership mapping is shown.",
       "steps": [
         {
           "id": "952b02f6-5679-4afe-8d31-04532d1e14a3",
           "index": 0,
           "imageIndex": 0,
-          "label": "Directory attribute list, all optional fields disabled",
+          "label": "Directory field list, all optional fields disabled",
           "localAsset": "assets/mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg"
         },
         {
@@ -256,14 +256,14 @@
           "id": "1ab66cfd-4a8d-47a9-a543-49eb64f35e0a",
           "index": 2,
           "imageIndex": 2,
-          "label": "Selected attributes enabled before Save",
+          "label": "Selected fields enabled before Save",
           "localAsset": "assets/mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg"
         },
         {
           "id": "d31f7cc8-8f33-48b9-b1c1-3ee159a90f52",
           "index": 3,
           "imageIndex": 3,
-          "label": "Saved enabled/disabled states",
+          "label": "Saved enabled and disabled states",
           "localAsset": "assets/mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg"
         }
       ],
@@ -312,12 +312,12 @@
         3
       ],
       "question": "Q2",
-      "title": "Keep SAML failure and recovery routes visible",
+      "title": "Keep SAML failure and recovery visible",
       "actor": "faculty / learner",
-      "take": "Place a clear retry and administrator-support message beside failed institutional sign-in. A later app screen does not explain how the person authenticated or whether accounts were linked.",
+      "take": "Place a clear retry and administrator-support message beside failed institutional sign-in. A later app screen does not explain how the person signed in or whether accounts were linked.",
       "observed": "The login page offers Slack, Microsoft and SAML SSO. After an email is entered, an error says SAML login failed and suggests trying again or contacting the administrator. The sequence later shows the application home.",
-      "adaptation": "Distinguish institutional sign-in failure from an authenticated person lacking LearningSpace or course access. Keep the support route visible and make a separate guest route understandable.",
-      "limitation": "The intermediate successful authentication method is not captured between the SAML error and home. Do not interpret this sequence as successful SAML retry, account linking, first-login provisioning or no-application-access handling. Guest routing remains a proposal.",
+      "adaptation": "Distinguish institutional sign-in failure from an authenticated person who lacks LearningSpace or course access. Keep the support route visible and make a separate guest route understandable.",
+      "limitation": "The intermediate successful sign-in method is not captured between the SAML error and home. Do not read this sequence as successful SAML retry, account linking, first-login provisioning or no-application-access handling. Guest routing remains a proposal.",
       "steps": [
         {
           "id": "d320f96d-739d-45ea-a4a7-8c8f92fcaf90",
@@ -344,7 +344,7 @@
           "id": "95e1a260-5034-4e86-82cd-04c17cd785fa",
           "index": 3,
           "imageIndex": 3,
-          "label": "Application home; successful authentication method not captured",
+          "label": "Application home; successful sign-in method not captured",
           "localAsset": "assets/mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg"
         }
       ],
@@ -402,8 +402,8 @@
       "actor": "university IT / LearningSpace administrator",
       "take": "Distinguish pending people from active users and label who manages a group. Keep group source, membership counts and application assignments visible without equating them with course roles.",
       "observed": "The directory route opens People with status filtering; later rows show Pending user action alongside Active. Groups has a Group source type filter, people and applications columns, an Everyone description, and an Okta Administrators group explicitly described as managed by Okta.",
-      "adaptation": "Expose source and lifecycle status for institutional users and groups. Explain system-managed membership and local exceptions, while representing each person\u2019s course roles separately from institution-wide administration.",
-      "limitation": "This captures directory navigation and list states, not a continuous provisioning run. No externally sourced group is selected, controlled profile edit is attempted or course permission inherited. An Okta-managed administrator group is not evidence of university group synchronization.",
+      "adaptation": "Show source and lifecycle status for institutional users and groups. Explain system-managed membership and local exceptions, while representing each person's course roles separately from institution-wide administration.",
+      "limitation": "This captures directory navigation and list states, not a continuous provisioning run. No externally sourced group is selected, controlled profile edit is attempted or course permission inherited. An Okta-managed administrator group is not evidence of university group sync.",
       "steps": [
         {
           "id": "91368794-4b0a-44aa-8556-4865258940d3",

@@ -1,0 +1,57 @@
+{
+  "product": "otter-ai",
+  "flows": {
+    "mobbin:d7a0fc7c-713c-40b5-bbc4-4447ba7e6a8f": {
+      "summary": "The user starts from Home, records with a live transcript and markers, browses Summary, Chat and Comments, then returns to Home with an AI summary snippet and image.",
+      "steps": [
+        "Home: upcoming and recording list",
+        "New note: empty transcript and record bar",
+        "Summary tab: live summary loading",
+        "Otter Chat empty with visibility notice",
+        "Comments empty; type a note",
+        "Live record: type note and highlight tool on",
+        "Session titled Product Weekly Sync",
+        "Live transcript filling with times",
+        "Playback: pause and transcript seek",
+        "Home card: AI summary and captured image",
+        "Home feed: reactions and comment counts"
+      ],
+      "steal": [
+        "The recording bar offers one-tap highlight, comment and image while live (screens 6 to 7).",
+        "An empty Chat states 'Chat is visible to all conversation participants' so visibility is clear up front (screen 4).",
+        "The Summary tab shows 'Creating a live summary...' placeholders during capture (screen 3).",
+        "The Home card shows an AI bullet and attached visual before opening the note (screen 10)."
+      ],
+      "avoid": [
+        "AI summary and Share appear with no faculty approve or edit check before others can see them, which clashes with human-review-before-share for AI debrief."
+      ],
+      "fit": "Debrief and review: matches using the phone to capture the debrief and as a second screen for private notes. It needs an approval step before learners see a summary.",
+      "counter_example": false
+    },
+    "mobbin:c2a5d587-f496-4eb4-bc78-509bd3c32787": {
+      "summary": "After a recording saves to Home, the user opens Summary, uses More for rematch and sync tools, then reviews the speaker-labelled Transcript with keywords, talk-time and timed Outline jumps.",
+      "steps": [
+        "Home: recording saved message and recent list",
+        "Summary: narrative, action items and chat prompts",
+        "More menu: Rematch speakers / Sync text",
+        "Transcript: keywords, speakers %, Outline jumps"
+      ],
+      "steal": [
+        "Suggested chat prompts on empty Chat ('was I mentioned?', action items, decisions) help start review (screen 2).",
+        "The More menu offers Rematch speakers and Sync text to audio for fixing wrong speaker labels (screen 3).",
+        "Outline items jump by time, and thumbs Useful or Not Useful sit under the summary (screen 4).",
+        "A Speakers panel with color and talk-time percent sits next to a searchable transcript (screen 4)."
+      ],
+      "avoid": [
+        "Do not build this: the AI summary comes with Copy Summary, Share and Post to Slack as the main buttons, with no edit or approve step before it goes out."
+      ],
+      "fit": "Debrief and review: an example of what not to do for AI debrief. Still borrow the time-linked outline and 'Rematch speakers' for a phone view of the SRV where faculty approve first.",
+      "jobs": [
+        "record-debrief",
+        "ai-debrief",
+        "rewatch"
+      ],
+      "counter_example": true
+    }
+  }
+}

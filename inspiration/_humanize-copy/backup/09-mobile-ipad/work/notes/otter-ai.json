@@ -1,0 +1,48 @@
+{
+  "product": "otter-ai",
+  "flows": {
+    "mobbin:7c04e7a5-ee31-4531-9e1a-fc413f10c950": {
+      "summary": "From a timestamped transcript playback view the user enters edit mode, corrects a word inline with the keyboard while the scrubber stays available, then exits with the corrected selection visible.",
+      "steps": [
+        "Transcript — Speaker 1 @ 0:26 + highlight + playback bar",
+        "Edit mode — select typo MVCreally, keyboard up",
+        "Edit mode — cursor in highlighted phrase, Done in header",
+        "View mode — MVP really selected, pencil in header"
+      ],
+      "steal": [
+        "Speaker block + start timestamp on every paragraph (step 1) — ties text to audio without a separate timeline UI.",
+        "Floating playback bar above the keyboard while editing (steps 2–3) — scrub/±5s without leaving edit.",
+        "Explicit Done vs pencil header states (steps 2–4) — clear enter/exit for inline transcript correction.",
+        "Highlighter / comment / image actions on the player (step 1) — same moment can be marked while correcting text."
+      ],
+      "avoid": [
+        "Dense metadata header (keywords, speakers, share) above the transcript (step 1) — competes with glanceable playback for gloved faculty."
+      ],
+      "fit": "Mobile wins for post-session transcript fix-ups beside the recording; extends Baseline timestamped speech-to-text notes and can feed private debrief moments — not a live-room control replacement.",
+      "jobs": ["voice-notes", "debrief-annotations"],
+      "counter_example": false
+    },
+    "mobbin:6915b30a-9982-4888-a599-f263dc314e5d": {
+      "summary": "From transcript playback the user opens the + tray, chooses Comment, composes a reply anchored to a timestamp chip, and sees it land in a threaded view.",
+      "steps": [
+        "Transcript — highlight + playback + pencil",
+        "+ tray — Comment / Take photo / Add Image",
+        "Comment sheet — snippet + 24:16 pin chip + Add Reply",
+        "Compose — typed note + send plane",
+        "Thread — posted reply + 24:16 chip + count 1"
+      ],
+      "steal": [
+        "Timestamp pin chip on the comment sheet (steps 3–5) — always shows which moment the note belongs to.",
+        "+ tray grouping Comment with photo capture (step 2) — one entry for moment evidence.",
+        "Snippet of transcript above the compose field (steps 3–4) — context without leaving the thread.",
+        "Comment count badge next to the timestamp chip after post (step 5) — glanceable proof the annotation stuck."
+      ],
+      "avoid": [
+        "Starting the add path from a small + on the player (step 2) — easy to miss for one-hand/gloved use; prefer a larger Add comment target."
+      ],
+      "fit": "Mobile beats fixed SRV for private timestamped faculty notes during playback; maps directly to Baseline debrief-annotations (prefer web page for shared big-screen control).",
+      "jobs": ["debrief-annotations"],
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "module": "05-inventory",
+  "title": "Inventory — flow inspiration",
+  "intro": "Product-first flow gallery for the Inventory module of Essentials 2.0: tracking the equipment and consumables a simulation center needs (manikins, task trainers, monitors, IV kits, moulage), checking them in and out, low-stock alerts, and AI analysis of a scenario's equipment list. Adding the equipment list to a scenario belongs to Scenario manager; room booking belongs to Scheduling. Sources: Mobbin and Refero (Refero returned no usable flows: its one match had only 403 images), researched 2026-09-30.",
+  "baseline": "Essentials has no inventory today; LearningSpace Enterprise has an Inventory Manager dashboard module. Inventory was dropped on 2026-09-10 and brought back on 2026-09-18 as an optional paid add-on, because small centers stayed on Enterprise for it. The concept direction is light and predictive rather than counting gloves and needles: automatic check-in/out driven by scenario runs, trend and reorder notifications, equipment scheduling and a usage report. Failure cases (shortage, two scenarios needing the same item at once, returns, manual correction) are still undefined.",
+  "targets": { "products": [5, 8], "flows": [10, 16] },
+  "jobs": [
+    { "id": "items", "title": "Basic inventory items", "description": "Add/edit an item: name, category, quantity, location, photo, unit; list/grid views; bulk import" },
+    { "id": "check-out-manual", "title": "Manual check in / check out", "description": "Borrow → return flow: who, what, until when; returning partial quantities; overdue states" },
+    { "id": "check-out-auto", "title": "Automated check in / check out", "description": "Barcode/QR/NFC scan to check out or in; auto-deduct consumables when a session/scenario runs" },
+    { "id": "low-stock", "title": "Low quantity alert", "description": "Reorder thresholds, alert surfaces (badge, digest, email), reorder / purchase-request flow" },
+    { "id": "ai-equipment", "title": "AI analyses the equipment list", "description": "Paste/upload a list or scenario text → AI extracts items, matches them to inventory, flags shortages" }
+  ],
+  "products": [
+    { "id": "square", "name": "Square", "analog": "adjacent", "why": "The full retail stock cycle: a review-first CSV import with a merge-or-overwrite choice and an error report, a low-stock threshold set from the list row that feeds both a library badge and a daily email, and an item form so heavy it is the module's counter-example.",
+      "flows": ["mobbin:addf5027-28db-4b51-a6f7-24577166a06f", "mobbin:981b5fb6-e739-4767-ac84-ddb20d08539d", "mobbin:bd125cb4-4946-44ee-a252-1e51eddab5ba"] },
+    { "id": "deel", "name": "Deel", "analog": "direct", "why": "Equipment tracked by where it is rather than how many: a With worker / In transit / In storage / Write off overview, a Pending shipping state after assigning a device to a person, and a quick view that splits Tracking from Asset details.",
+      "flows": ["mobbin:58cd5280-42c1-4bea-8d20-635fcbf3b882", "mobbin:ee3075cd-af6e-4a12-b483-b0045f9f0b41"] },
+    { "id": "turo", "name": "Turo", "analog": "wildcard", "why": "Lending an expensive asset: a return with a countdown, condition photos from both parties, and a liability confirmation before the timestamped end; plus blocking the asset (not the person) for a date range.",
+      "flows": ["mobbin:9f1a536c-16bb-424e-a558-0604130c4576", "mobbin:928e0f27-77e0-456e-b079-4914013cb117"] },
+    { "id": "woolworths", "name": "Woolworths", "analog": "adjacent", "why": "Scan & Go as a session: continuous scanning into a running tally with a keypad fallback, a forced hand-off to a physical checkout, and an itemized, timestamped receipt as the audit trail.",
+      "flows": ["mobbin:f6612862-77f9-4b6c-9ed5-4416ad9e8c42"] },
+    { "id": "luma", "name": "Luma", "analog": "wildcard", "why": "The tightest scan loop: scan, confirm the identified record on a sheet, see success with Undo, and the camera stays live for the next one; a list icon is the fallback when a code won't scan.",
+      "flows": ["mobbin:74bc6276-56b0-44b9-9a2b-cd8ed27f650f"] },
+    { "id": "airwallex", "name": "Airwallex", "analog": "adjacent", "why": "AI extraction that shows its work: source document beside the parsed form, Match with PO on each extracted line, a non-blocking Matching… state, and Skip/Delete for what does not match.",
+      "flows": ["mobbin:30099a43-f093-441a-b868-b6a69e2da697", "mobbin:f8f82b62-60bc-404c-a1c1-af41afce5b9f"] },
+    { "id": "kitchen-stories", "name": "Kitchen Stories", "analog": "wildcard", "why": "A recipe becomes a shortage list: 'N out of N missing' per recipe, a servings stepper that scales quantities, and ticks for what is already in the pantry. The manual version of scenario list vs. shelf.",
+      "flows": ["mobbin:8c74a0f5-c330-413e-96c1-59a8487cdda2"] },
+    { "id": "fresha", "name": "Fresha", "analog": "adjacent", "why": "A lighter item form than Square: measure + amount for consumables (ml 100), a barcode warning that doesn't block save, and a retail toggle that hides selling fields for stock-only items.",
+      "flows": ["mobbin:4359c189-557b-424c-af85-3b1a7b5740bd"] }
+  ],
+  "synthesis": {
+    "patterns": [
+      { "title": "Pick the kind of thing, then a short form",
+        "body": "Square starts Create item with an item-type chooser, then buries the user in retail fields (channels, taxes, nutrition, two prices), which makes it the counter-example. Fresha's form is shorter and adds what consumables need: a measure with an amount, and a toggle that removes selling fields. Deel's device form asks only model and serial (required), condition and notes. For Essentials, type first (equipment vs. consumable) should decide whether the form asks for a serial and condition or for a unit and quantity.",
+        "flows": ["mobbin:bd125cb4-4946-44ee-a252-1e51eddab5ba", "mobbin:4359c189-557b-424c-af85-3b1a7b5740bd", "mobbin:ee3075cd-af6e-4a12-b483-b0045f9f0b41"] },
+      { "title": "Track where equipment is, count only consumables",
+        "body": "Deel's asset list opens on a location-status bar (With worker, In transit, In storage, Write off) instead of quantities, and an assigned device sits in Pending shipping until someone marks it delivered. Square's list shows a quantity pill ('20 available') per item. The two models fit the concept's 'light, not counting gloves' direction: status for durable equipment like manikins, quantity only for consumables.",
+        "flows": ["mobbin:58cd5280-42c1-4bea-8d20-635fcbf3b882", "mobbin:ee3075cd-af6e-4a12-b483-b0045f9f0b41", "mobbin:bd125cb4-4946-44ee-a252-1e51eddab5ba"] },
+      { "title": "Import is review-first, with an explicit merge rule and an error report",
+        "body": "Square's empty library offers Create, Import and Download template side by side. The import lands in an editable grid, asks 'Add and update existing' vs. 'Delete and overwrite', and on failure shows counts with a downloadable error report and 'Upload fixed errors'. Fresha's empty state pitches import and low-stock reminders together. This matches Scheduling's Attio finding and fits centers moving a spreadsheet off Enterprise.",
+        "flows": ["mobbin:addf5027-28db-4b51-a6f7-24577166a06f", "mobbin:4359c189-557b-424c-af85-3b1a7b5740bd"] },
+      { "title": "The threshold lives on the item; the alert names its surfaces",
+        "body": "Square sets the low-stock amount per location from the list row's overflow menu, without opening the full edit, and its copy says where the alert will appear: a low-stock mark in the library plus a daily email digest. Kitchen Stories turns shortage into a headline ('14 out of 14 items missing') before the list is opened. Neither shows the next step, a reorder or purchase request.",
+        "flows": ["mobbin:981b5fb6-e739-4767-ac84-ddb20d08539d", "mobbin:8c74a0f5-c330-413e-96c1-59a8487cdda2"] },
+      { "title": "Scan, confirm, stay in the camera",
+        "body": "Luma identifies the scanned record on a sheet and changes state only when the user taps Check In, then keeps the camera live with a success banner and Undo. Woolworths keeps a running tally and item count during the session, offers a keypad for unreadable barcodes, and ends on an itemized, timestamped receipt. Both have a manual fallback next to the viewfinder, which a sim tech with a scuffed barcode label will need.",
+        "flows": ["mobbin:74bc6276-56b0-44b9-9a2b-cd8ed27f650f", "mobbin:f6612862-77f9-4b6c-9ed5-4416ad9e8c42"] },
+      { "title": "Returns end with evidence and a timestamp",
+        "body": "Turo's return starts from a countdown hub with Report damage, walks through condition photos from both host and guest, and requires agreeing to liability before Finish checkout records the end time. Woolworths closes its scan session with a receipt, and Deel captures condition at intake. Turo asks for about 23 photos; Essentials should ask for condition evidence only on high-value items such as simulators.",
+        "flows": ["mobbin:9f1a536c-16bb-424e-a558-0604130c4576", "mobbin:f6612862-77f9-4b6c-9ed5-4416ad9e8c42", "mobbin:ee3075cd-af6e-4a12-b483-b0045f9f0b41"] },
+      { "title": "AI extraction shows the source and asks for a match per line",
+        "body": "Airwallex's bill flow puts the uploaded PDF beside the extracted form, and each parsed line item has Match with PO to link it to an existing record. Its receipt flow keeps uploading non-blocking ('upload more while they match'), shows a Matching… state, then a review card with Skip and Delete for wrong extracts. Kitchen Stories is the manual counterpart: the list is extracted from the recipe, but matching to the pantry is ticking by hand. Together they suggest: scenario list in, one row per item, matched / unmatched / short, then a human confirms.",
+        "flows": ["mobbin:30099a43-f093-441a-b868-b6a69e2da697", "mobbin:f8f82b62-60bc-404c-a1c1-af41afce5b9f", "mobbin:8c74a0f5-c330-413e-96c1-59a8487cdda2"] },
+      { "title": "Block the asset, not the person",
+        "body": "Turo's availability screen separates host hours from the vehicle calendar, with a nudge to 'block the asset itself', and blocks a start–end window in one Add. That is the only flow here that prevents two bookings claiming the same item. Kitchen Stories' servings stepper is the demand side: quantity scales with the number of people, like consumables scaling with learner count.",
+        "flows": ["mobbin:928e0f27-77e0-456e-b079-4914013cb117", "mobbin:8c74a0f5-c330-413e-96c1-59a8487cdda2"] }
+    ],
+    "open_questions": [
+      "No reorder, purchase-order or purchase-request flow is in the report. Refero had Shopify 'Create and place purchase order' (14 steps), but every image returned HTTP 403, and Mobbin returned nothing usable for Ramp/Brex purchase requests. Where does a low-stock alert hand off in a sim center (email to a purchaser, a request inside Essentials, the hospital's procurement system)?",
+      "No dedicated equipment-inventory tool (Sortly, Cheqroom, Snipe-IT, EZOfficeInventory, Asset Panda, itemit, Shelf.nu) appears on Mobbin or Refero. Deel is the closest direct analog, but its inventory is tied to hiring, so the stock and check-out models here are borrowed from retail, rentals and events. Compare against LearningSpace Enterprise's Inventory Manager before deciding what to keep.",
+      "Auto check-in/out driven by scenario runs has no direct evidence: every automatic flow here (Luma, Woolworths) is triggered by a scan. What triggers deduction in Essentials (session start, session end confirmed by the sim tech, the booking itself), and how is it corrected? Luma's Undo is the only correction shown.",
+      "Two scenarios needing the same item at the same time: only Turo's block window touches this, and it prevents rather than warns. Scheduling found conflicts are best counted and graded, not blocked. Which applies to equipment, and does it surface in the scenario, the booking or inventory?",
+      "No flow shows returning a partial quantity, an overdue state, or reconciling consumables that were used vs. returned. Kitchen Stories scales demand with a servings stepper; should consumable demand scale with learner count per session?",
+      "How much evidence should a return require? Turo's two-party photo set suits a car; for a sim center, it may apply only to high-value simulators, with consumables closed by a Woolworths-style tally."
+    ]
+  }
+}

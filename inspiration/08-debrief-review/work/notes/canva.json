@@ -1,0 +1,41 @@
+{
+  "product": "canva",
+  "flows": {
+    "mobbin:f28f8936-895b-450a-8e9b-5a83c12ba692": {
+      "summary": "The presenter starts a live session on the big screen, where a QR code and a short code let the audience join. The join banner can then be hidden while the session stays live.",
+      "steps": [
+        "Fullscreen present toolbar",
+        "Live QR banner and side panel",
+        "Hide QR; stay LIVE"
+      ],
+      "steal": [
+        "People can join through a large QR code, the canva.live address or a short code, which helps in rooms where phones struggle to scan (screen 2).",
+        "A live count of participants next to 'End session' shows the presenter that people have joined (screen 2).",
+        "Hide and Show on the join strip clear the join details from the public display once people are connected (screens 2 to 3).",
+        "'Copy invitation' gives people who join remotely or late a way in without the QR code (screen 2)."
+      ],
+      "avoid": [
+        "This flow shows only the big-screen side, with no phone notes or remote screens, so it is weak evidence for private faculty annotations."
+      ],
+      "fit": "Debrief and review: a strong pattern for the QR code on the debrief-room screen after recording. The public display shows the video and join details for a short time; the phone would hold the private annotations.",
+      "counter_example": false
+    },
+    "mobbin:f2fe9686-5232-45d6-816e-8d7d99eae0dc": {
+      "summary": "From a presentation on the phone, the user opens remote control with a QR code and a link to copy, to hand control to another device, with a pause option.",
+      "steps": [
+        "Phone presentation preview",
+        "Remote-control QR and copy link"
+      ],
+      "steal": [
+        "The title 'Remote control this presentation' says what the screen is for in one line (screen 2).",
+        "An 'Available' status and a Pause control let the presenter switch off the remote link without ending the session (screen 2).",
+        "A 'Copy link' next to the QR code covers phones or tablets that fail to scan in a debrief room (screen 2)."
+      ],
+      "avoid": [
+        "The flow shows only the phone, never the big screen it controls, so Essentials still needs both sides designed before this counts as strong second-screen evidence."
+      ],
+      "fit": "Debrief and review: maps to the faculty phone as a private remote for the room display. Pair it with the web Live QR flow so both sides are designed.",
+      "counter_example": false
+    }
+  }
+}
