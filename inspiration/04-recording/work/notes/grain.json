@@ -1,0 +1,68 @@
+{
+  "product": "grain",
+  "flows": {
+    "mobbin:d7ecf80a-5cb1-4429-ab2f-b2c40a50f743": {
+      "summary": "From the Meetings list, the user accepts a green auto-record banner, chooses 'All meetings' or 'Next meeting', sees a confirmation, and returns with the banner gone.",
+      "steps": [
+        "Meetings list with auto-record banner",
+        "Banner: 'All meetings' or 'Next meeting'",
+        "Message: 'Auto-record settings updated'",
+        "Meetings list after auto-record is on"
+      ],
+      "steal": [
+        "A green banner on the recording library offers one action and an X to close it (screen 1), so auto-record is visible without hunting settings.",
+        "The banner asks 'All meetings' or 'Next meeting only' (screen 2), so the user can set a lasting default or try one session.",
+        "A short message 'Auto-record settings updated' appears at the bottom right (screen 3) without leaving the list."
+      ],
+      "avoid": [
+        "Auto-record turns on only from the finished-meetings library (screens 1-4), but sim operators need that choice on the schedule before the session."
+      ],
+      "fit": "Recording: would sit on Center Overview or room schedule as auto-record by schedule or next session, not a bigger Record button inside the SRV."
+    },
+    "mobbin:6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9": {
+      "summary": "On Coaching playback, the coach adds a scorecard for one speaker, scores Y/N and 1-5 items with notes, submits, and sees it under the video with 'Send to Sam'.",
+      "steps": [
+        "Playback with Scorecard tab and 1-5 rubric",
+        "Scorecard menu: Add or Manage",
+        "New Scorecard: speaker, rubric, visibility",
+        "Form with Y/N and 1-5 plus N/A",
+        "Answers selected with 'Add Note' links",
+        "Note field open under engagement scale",
+        "Note filled and 'Submit' enabled",
+        "Submitted scorecard under the video"
+      ],
+      "steal": [
+        "Scorecard sits as a tab under the video (screen 1), so the coach can grade while watching.",
+        "Each criterion uses a 1-5 scale that turns red to orange to green, with an 'Avg. score' badge (screen 1).",
+        "Before scoring, the coach picks a speaker, template and who can view it (screen 3), so grading is for one learner.",
+        "Each item has N/A and 'Add Note', and 'Submit' stays off until answered (screens 4-7)."
+      ],
+      "avoid": [
+        "The new-scorecard dialog covers the video while grading (screens 3-7), so faculty cannot move through the recording; keep Data Entry beside the player."
+      ],
+      "fit": "Recording: extends SRV Data Entry into a speaker-limited Scorecard tab under the player, like Abbott, with color 1-5 and send-to-learner."
+    },
+    "mobbin:9bc50bc4-4eab-47a8-845f-aeb3a21b4d00": {
+      "summary": "From 'Scorecard Unavailable', the coach starts 'Score this call', picks a speaker, waits for generation, then reviews AI-filled 1-5 criteria with evidence notes and timestamps.",
+      "steps": [
+        "'Scorecard Unavailable' with 'Score this call'",
+        "Select speaker dialog, 'Score' off",
+        "Speaker menu: Sam or Jane Smith",
+        "Speaker chosen, 'Score' on",
+        "'Generating Scorecard' with progress",
+        "AI scorecard with avg and 1-5 rows",
+        "Expanded criterion with note and 0:49"
+      ],
+      "steal": [
+        "When AI does not match, the screen says so and still offers 'Score this call' (screen 1), so manual scoring stays available.",
+        "The coach must pick a speaker before 'Score' (screens 2-4), so one learner is graded in a multi-person recording.",
+        "'Generating Scorecard' shows a progress bar and still offers 'Score this call' (screen 5), so the user is not trapped while waiting.",
+        "An expanded criterion shows the AI rationale and a clickable evidence time (screen 7), so the score links to a moment on the timeline."
+      ],
+      "avoid": [
+        "Do not auto-apply a sales-pattern scorecard when the meeting 'does not match' (screen 1), because sim rubrics must be faculty-owned checklists, not inferred call patterns."
+      ],
+      "fit": "Recording: adds AI-suggested scores with evidence timestamps into SRV Data Entry. Manual 'Score this call' maps to a rubric not auto-matched to the scenario."
+    }
+  }
+}

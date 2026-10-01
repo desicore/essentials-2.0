@@ -13,14 +13,14 @@ function cite(ids) {
   return ids.map(id => { const r=refs.get(id); if (!r) throw Error(`Unknown reference ${id}`); return `<a class="evidence" href="#ref-${encodeURIComponent(id)}">${esc(r.app)} · ${esc(id)}</a>`; }).join('; ');
 }
 const list = entries => `<ul>${entries.map(e=>`<li>${esc(e.text)} <span class="citations">${cite(e.refs)}</span></li>`).join('')}</ul>`;
-const block = `<section id="synthesis" aria-label="Research synthesis">
-<p class="eyebrow">Research synthesis · ${data.references.length} references · ${new Set(data.references.map(r=>r.app)).size} products</p>
+const block = `<section id="synthesis" aria-label="Summary of findings">
+<p class="eyebrow">Summary of findings: ${data.references.length} examples from ${new Set(data.references.map(r=>r.app)).size} products</p>
 <p>${esc(synthesis.scope)}</p>
 <h3>Top examples</h3><ol class="top-examples">${synthesis.top.map(e=>{ const r=refs.get(e.ref); if(!r)throw Error('Missing top ref'); return `<li><strong>${esc(r.app)}</strong> <span class="badge">${esc(r.source)}</span><p>${esc(e.why)} ${cite([e.ref])}</p></li>`; }).join('')}</ol>
-<h3>Pattern comparison</h3><p class="muted">${esc(synthesis.legend)}</p>
-<div class="comparison-scroll" role="region" aria-label="Product comparison across six questions" tabindex="0"><table><thead><tr><th scope="col">Product</th>${data.questions.map(q=>`<th scope="col"><a href="#question-${Number(q.id.slice(1))-1}">${esc(q.id)}</a><br>${esc(q.title)}</th>`).join('')}</tr></thead><tbody>${synthesis.comparison.map(row=>`<tr><th scope="row">${esc(row.app)}</th>${row.cells.map(cell=>`<td>${esc(cell.text)}${cell.refs?.length?`<br><small>${cite(cell.refs)}</small>`:''}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
-<h3>What the best apps do differently</h3>${list(synthesis.differences)}
-<h3>Best practices top companies converge on</h3><p class="muted">Recommendations inferred from the cited examples; these are design proposals for Essentials 2.0.</p>${list(synthesis.practices)}
+<h3>How the products compare</h3><p class="muted">${esc(synthesis.legend)}</p>
+<div class="comparison-scroll" role="region" aria-label="How the products compare across six questions" tabindex="0"><table><thead><tr><th scope="col">Product</th>${data.questions.map(q=>`<th scope="col"><a href="#question-${Number(q.id.slice(1))-1}">${esc(q.id)}</a><br>${esc(q.title)}</th>`).join('')}</tr></thead><tbody>${synthesis.comparison.map(row=>`<tr><th scope="row">${esc(row.app)}</th>${row.cells.map(cell=>`<td>${esc(cell.text)}${cell.refs?.length?`<br><small>${cite(cell.refs)}</small>`:''}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+<h3>What the best products do differently</h3>${list(synthesis.differences)}
+<h3>What the leading products have in common</h3><p class="muted">These recommendations come from the examples cited. They are design proposals for Essentials 2.0.</p>${list(synthesis.practices)}
 <h3>Open questions for Essentials 2.0</h3>${list(synthesis.openQuestions)}
 </section>`;
 let html=await fs.readFile(report,'utf8');

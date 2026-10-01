@@ -1,0 +1,302 @@
+{
+  "references": [
+    {
+      "id": "mobbin:f9cf5888-f7d4-4d85-80c0-106c75c9d18c",
+      "source": "mobbin",
+      "app": "Shopify",
+      "title": "Completing a guide",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f9cf5888-f7d4-4d85-80c0-106c75c9d18c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wkkJw65j",
+        "https://mobbin.com/api/mcp/short/BmlYClXi",
+        "https://mobbin.com/api/mcp/short/lSA1YEhj",
+        "https://mobbin.com/api/mcp/short/9RjwhS6a"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run"
+      ],
+      "take": "Setup guide with task list (2 orders to fulfill, get 10 sales) with checkmarks marking completed items, then dismiss."
+    },
+    {
+      "id": "mobbin:b7d28210-31a2-48c6-92fc-604379301745",
+      "source": "mobbin",
+      "app": "Shopify",
+      "title": "Home",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b7d28210-31a2-48c6-92fc-604379301745",
+      "images": [
+        "https://mobbin.com/api/mcp/short/YyEVI3rZ",
+        "https://mobbin.com/api/mcp/short/0j4NqPXg",
+        "https://mobbin.com/api/mcp/short/xXHoMmE0",
+        "https://mobbin.com/api/mcp/short/0sVrBiyo",
+        "https://mobbin.com/api/mcp/short/dKNjkEMo",
+        "https://mobbin.com/api/mcp/short/H3PoLGkL",
+        "https://mobbin.com/api/mcp/short/VryKheSH"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run",
+        "widgets"
+      ],
+      "take": "New account home dashboard with 'Get ready to sell' section, multi-step setup guide with progress bar, and sample data for add products and store setup tasks."
+    },
+    {
+      "id": "mobbin:2d9479a7-7055-4792-aff9-5a2b8b90a397",
+      "source": "mobbin",
+      "app": "Intercom",
+      "title": "Getting started guide",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/2d9479a7-7055-4792-aff9-5a2b8b90a397",
+      "images": [
+        "https://mobbin.com/api/mcp/short/RgZk4MjT",
+        "https://mobbin.com/api/mcp/short/WUavBbzK",
+        "https://mobbin.com/api/mcp/short/XBuTixl9",
+        "https://mobbin.com/api/mcp/short/DDdXIB8D"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run"
+      ],
+      "take": "Help desk onboarding with 'Explore and set up' section showing available setup guides (Help Desk, Fin AI Copilot, Proactive Support) with step counts and 'Get started' buttons."
+    },
+    {
+      "id": "mobbin:2513bddc-2b15-4e3e-8ba3-39b637ccc85a",
+      "source": "mobbin",
+      "app": "Shopify",
+      "title": "Using a setup guide",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/2513bddc-2b15-4e3e-8ba3-39b637ccc85a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DkcmNG9x",
+        "https://mobbin.com/api/mcp/short/pu8mGvoE",
+        "https://mobbin.com/api/mcp/short/ACTvN7kR",
+        "https://mobbin.com/api/mcp/short/A0BVtJwL",
+        "https://mobbin.com/api/mcp/short/RvIRdJK3",
+        "https://mobbin.com/api/mcp/short/xZ4mXrKN"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run",
+        "action-items"
+      ],
+      "take": "Setup guide flow showing home dashboard with unchecked tasks (Add announcement, set up email, promote social, drive TikTok traffic), completed items (checkmarks), and a right-side checklist tracking progress."
+    },
+    {
+      "id": "mobbin:b1a92bc0-3a8b-46c3-b2e8-96143d6ee793",
+      "source": "mobbin",
+      "app": "Shopify",
+      "title": "Completing onboarding setup",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b1a92bc0-3a8b-46c3-b2e8-96143d6ee793",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ASH8VlIt",
+        "https://mobbin.com/api/mcp/short/W1PMrnRZ",
+        "https://mobbin.com/api/mcp/short/8XWs3mYH",
+        "https://mobbin.com/api/mcp/short/4BrkAGEz",
+        "https://mobbin.com/api/mcp/short/ECjscY4r"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run"
+      ],
+      "take": "Setup modal flow: 'Let's get started' with options for store type and fulfillment, progressing through store name entry to completion of onboarding steps."
+    },
+    {
+      "id": "mobbin:08c65211-bd08-4101-b2d2-6721666954c8",
+      "source": "mobbin",
+      "app": "Basedash",
+      "title": "Dashboard",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/08c65211-bd08-4101-b2d2-6721666954c8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/qs6vSCb9",
+        "https://mobbin.com/api/mcp/short/lbYevx0J",
+        "https://mobbin.com/api/mcp/short/Z9fHTHAq"
+      ],
+      "platform": "web",
+      "jobs": [
+        "widgets",
+        "first-run"
+      ],
+      "take": "Empty dashboard state with 'No dashboards' message and 'Create a dashboard to get started' CTA, then transitions to dashboard list with sample dashboards."
+    },
+    {
+      "id": "mobbin:0a0113c1-6c8a-4764-a2b7-938abaceef53",
+      "source": "mobbin",
+      "app": "Notion",
+      "title": "Home",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/0a0113c1-6c8a-4764-a2b7-938abaceef53",
+      "images": [
+        "https://mobbin.com/api/mcp/short/r64T6BFR",
+        "https://mobbin.com/api/mcp/short/op540O58",
+        "https://mobbin.com/api/mcp/short/hfEEP1q7",
+        "https://mobbin.com/api/mcp/short/c2ApQDpk",
+        "https://mobbin.com/api/mcp/short/dGjvcwDP",
+        "https://mobbin.com/api/mcp/short/C2A4Tc3u",
+        "https://mobbin.com/api/mcp/short/FXPinrpI",
+        "https://mobbin.com/api/mcp/short/cyI0woBt"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run",
+        "widgets",
+        "action-items"
+      ],
+      "take": "Getting Started guide and home dashboard showing recently visited pages, upcoming tasks with badges ('In progress', 'Not started'), and featured templates for workspace setup."
+    },
+    {
+      "id": "mobbin:dc9d3d39-c3b4-4ac1-8256-c209d3247751",
+      "source": "mobbin",
+      "app": "Tally",
+      "title": "Home",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/dc9d3d39-c3b4-4ac1-8256-c209d3247751",
+      "images": [
+        "https://mobbin.com/api/mcp/short/RSRdTfUo",
+        "https://mobbin.com/api/mcp/short/3ZKDGKUF"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run",
+        "widgets"
+      ],
+      "take": "Empty state 'No forms yet' with illustration and 'Create form' button, then transitions to home view with form list and workspace items."
+    },
+    {
+      "id": "mobbin:f6e65f98-0a2f-4374-b35c-b0da02bc87cd",
+      "source": "mobbin",
+      "app": "folk",
+      "title": "Dashboards",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f6e65f98-0a2f-4374-b35c-b0da02bc87cd",
+      "images": [
+        "https://mobbin.com/api/mcp/short/6cWE4Pz8",
+        "https://mobbin.com/api/mcp/short/e6KBBK8k",
+        "https://mobbin.com/api/mcp/short/sgAHyyiS"
+      ],
+      "platform": "web",
+      "jobs": [
+        "widgets",
+        "first-run"
+      ],
+      "take": "Empty dashboards section with 'Get insights with dashboards' CTA and 'New dashboard' button, then shows created dashboard with sample data."
+    },
+    {
+      "id": "mobbin:eaa71adf-47ce-4969-853a-ff03ec8571b2",
+      "source": "mobbin",
+      "app": "Databricks",
+      "title": "Dashboard sample gallery",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/eaa71adf-47ce-4969-853a-ff03ec8571b2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/zVh2VAIT",
+        "https://mobbin.com/api/mcp/short/p6YSkJZ4",
+        "https://mobbin.com/api/mcp/short/EMr3viAW"
+      ],
+      "platform": "web",
+      "jobs": [
+        "widgets"
+      ],
+      "take": "Welcome page with three setup options (Converse, Explore data, Build AI agent) and sample dashboards gallery showing example visualizations for import."
+    },
+    {
+      "id": "mobbin:995e42a0-b57b-4617-a404-0c9c1e2a9852",
+      "source": "mobbin",
+      "app": "VEED",
+      "title": "What's new",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/995e42a0-b57b-4617-a404-0c9c1e2a9852",
+      "images": [
+        "https://mobbin.com/api/mcp/short/E46f92DK",
+        "https://mobbin.com/api/mcp/short/5JWn8oIk",
+        "https://mobbin.com/api/mcp/short/ysECEwVm"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run",
+        "action-items"
+      ],
+      "take": "What's new modal appears on home showing feature announcements with video thumbnails and 'I'm in' call-to-action, then dismisses."
+    },
+    {
+      "id": "mobbin:137c8949-c822-40c0-92e7-6567489c0774",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "What's new",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/137c8949-c822-40c0-92e7-6567489c0774",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GhkexwpO",
+        "https://mobbin.com/api/mcp/short/hBrVSZAM",
+        "https://mobbin.com/api/mcp/short/l4WQEFPD"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run",
+        "action-items"
+      ],
+      "take": "What's new modal with announcement banner and detailed feature description with images, showing 'Try it' button to explore new features."
+    },
+    {
+      "id": "mobbin:4fbfc068-07f8-462e-afd1-6b2b68ced854",
+      "source": "mobbin",
+      "app": "Discord",
+      "title": "Whats new",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4fbfc068-07f8-462e-afd1-6b2b68ced854",
+      "images": [
+        "https://mobbin.com/api/mcp/short/X5BZdIb7",
+        "https://mobbin.com/api/mcp/short/kLwz5yDi",
+        "https://mobbin.com/api/mcp/short/smMvZTkT"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run",
+        "action-items"
+      ],
+      "take": "What's New modal with animated feature highlight and detailed description, cycling through multiple features with 'Follow us' link to dismiss and see more."
+    },
+    {
+      "id": "mobbin:010cc3ba-fd39-488e-84a9-7fe92ced8234",
+      "source": "mobbin",
+      "app": "Vanta",
+      "title": "Product updates",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/010cc3ba-fd39-488e-84a9-7fe92ced8234",
+      "images": [
+        "https://mobbin.com/api/mcp/short/iCkZoGD0",
+        "https://mobbin.com/api/mcp/short/InSIy7kD"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run",
+        "action-items"
+      ],
+      "take": "Product Updates modal on home dashboard announcing new features (numbered month/year), then modal closes to reveal home with compliance metrics."
+    },
+    {
+      "id": "mobbin:4572460f-db92-4928-b5c9-97c3e445d818",
+      "source": "mobbin",
+      "app": "Whereby",
+      "title": "What's new",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4572460f-db92-4928-b5c9-97c3e445d818",
+      "images": [
+        "https://mobbin.com/api/mcp/short/gF9ucT0j",
+        "https://mobbin.com/api/mcp/short/VTKWGBVg",
+        "https://mobbin.com/api/mcp/short/FQkqYKvf",
+        "https://mobbin.com/api/mcp/short/mSlM0zOz",
+        "https://mobbin.com/api/mcp/short/ARrbrwC6"
+      ],
+      "platform": "web",
+      "jobs": [
+        "first-run",
+        "action-items"
+      ],
+      "take": "Latest updates announcement banner showing multiple feature releases with descriptions, then cascades through modal windows with option to read release notes or view blog."
+    }
+  ]
+}

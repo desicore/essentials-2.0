@@ -1,0 +1,41 @@
+{
+  "product": "juicebox",
+  "flows": {
+    "mobbin:a6f030e2-5e59-4c27-80a3-a16e8cd88fc0": {
+      "summary": "User views Sequences Analytics, opens Export → Share to web, sets password + filter-interact toggle, then gets a copyable share URL.",
+      "steps": [
+        "Sequences Analytics — KPI cards, funnel, weekly line + Export",
+        "Export menu — Share to web / Download / Send to email",
+        "Share your data — password field + Allow viewers to interact with filters ON",
+        "Password set — locked Set control; filter toggle still on",
+        "Share link ready — explo.co/share URL + Copy + filter toggle"
+      ],
+      "steal": [
+        "Single Export menu branching Share to web / Download / Send to email (step 1).",
+        "Password required before/with link (steps 2–4).",
+        "“Allow viewers to interact with filters” toggle on shared dashboards (steps 2–4).",
+        "Copyable live share URL after setup (step 4)."
+      ],
+      "avoid": [
+        "Share host is third-party explo.co (step 4) — prefer first-party dean digest links under Essentials domain."
+      ],
+      "fit": "Closest pattern to Baseline auto digests-by-link: shareable report URL with optional password and controlled interactivity."
+    },
+    "mobbin:8f313eb2-7e52-42e2-9b78-1f6f33252111": {
+      "summary": "User opens Export → Send to email, picks PDF or IMAGE, enters recipient, and gets “Email will be sent shortly” confirmation.",
+      "steps": [
+        "Analytics + Export menu — Share to web / Download / Send to email",
+        "Send to email — PDF selected, IMAGE option, empty email, Send disabled",
+        "Email entered — Send email enabled (PDF still selected)",
+        "Confirmation — “Email will be sent shortly” under Send email"
+      ],
+      "steal": [
+        "Format choice PDF vs IMAGE before send (steps 1–3).",
+        "Send stays disabled until email present (step 1).",
+        "Inline success: “Email will be sent shortly” without leaving the dashboard (step 3)."
+      ],
+      "avoid": [],
+      "fit": "Push delivery for stakeholders who won’t open a link; complements scheduled weekly/monthly digests without a report builder."
+    }
+  }
+}

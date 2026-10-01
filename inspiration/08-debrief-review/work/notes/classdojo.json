@@ -1,0 +1,42 @@
+{
+  "product": "classdojo",
+  "flows": {
+    "mobbin:b83099d3-97b5-452a-ab79-cece306cc444": {
+      "summary": "The teacher opens Group A, awards a shared skill point to the whole group, and sees an on-screen confirmation with the group total updated.",
+      "steps": [
+        "Group A roster and Award group",
+        "Pick skill (+1) for group",
+        "Confirm +1 Persistence on screen"
+      ],
+      "steal": [
+        "The group's members are listed first, then one main 'Award group' button, before any grade is given (screen 1).",
+        "A fixed set of skill buttons (+1 Helping others, On task, Participating, Persistence, Teamwork, Working hard) applies to the whole group at once (screen 2).",
+        "A large, brief confirmation ('Group A · +1 for Persistence') and 'Undo last' let the teacher fix a wrong tap straight away (screen 3)."
+      ],
+      "avoid": [
+        "The side panel highlights one member (Sam) while the title says 'Give feedback to Group A', so it is unclear whether the award goes to the group or one person. Essentials needs an explicit choice between group grade and individual adjustment."
+      ],
+      "fit": "Debrief and review: supports grading the group first. Skill buttons map to rubric items for the sim team, with 'Undo last' before the evaluation is locked.",
+      "counter_example": false
+    },
+    "mobbin:8e7b5ca8-2782-41a0-a0e8-8a6b29ec8af1": {
+      "summary": "The teacher opens Options then View reports, inspects Whole-class points with a per-student sidebar and activity log, then switches to the Whole-class attendance week view.",
+      "steps": [
+        "Classroom students and Whole Class card",
+        "Options, then View reports",
+        "Whole-class points report",
+        "Whole-class attendance week"
+      ],
+      "steal": [
+        "The report's side list shows 'Whole class' first, then each learner with a percentage, so one click goes from the group to one person (screen 3).",
+        "Points earned, skills awarded, Export and Print, and an all-time range sit in the same header (screen 3).",
+        "A dated activity list ('+1 to Amanda · Working hard · Dec 24 · Alex Smith') works as a log of who graded what and when (screen 3)."
+      ],
+      "avoid": [
+        "The next screen jumps to attendance instead of going deeper into grades or comments, which weakens it as an example of a detailed evaluation report (screen 4)."
+      ],
+      "fit": "Debrief and review: a pattern for a team report after the debrief. It has a whole-team total, a list per learner and a dated log, next to the SRV's Annotation and Data Entry.",
+      "counter_example": false
+    }
+  }
+}

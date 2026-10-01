@@ -1,0 +1,33 @@
+{
+  "product": "cal-com",
+  "flows": {
+    "mobbin:f693c13b-9f45-4762-a988-c8e65b456e3c": {
+      "summary": "From empty Workflows, the user builds a 'Pre-call Disclaimer' workflow, attaches it to event types, adds emails, and saves it.",
+      "steps": [
+        "Workflows empty: Create and reminder template cards",
+        "New workflow for personal or team",
+        "Editor: Apply to all checkbox; 24h before; email attendees",
+        "Named 'Pre-call Disclaimer'; event type Select…",
+        "Event type multi-select open (Team Quick Chat and others)",
+        "2 event types selected in the list",
+        "Offset 60 mins; Apply to all still available",
+        "Attendee email body with {EVENT_*} variables",
+        "Add action pop-up: Send email to host",
+        "Action 3: Send email to host plus Include calendar event",
+        "Saved: short message that Pre-call Disclaimer workflow updated",
+        "List: Pre-call Disclaimer; Active on 1 event type"
+      ],
+      "steal": [
+        "A multiple-choice list asks 'Which event type will this apply to?', next to 'Apply to all, including future event types' (screens 3-7).",
+        "The rule reads top to bottom: when it runs (before the start, plus an offset), then 'Do this' action cards (screens 3-8).",
+        "Placeholders such as {EVENT_NAME} and {ATTENDEE} fill in the email subject and text (screens 8, 10).",
+        "The list card shows what triggers the workflow and says 'Active on N event type' (screen 12)."
+      ],
+      "avoid": [
+        "Across 12 screens it only offers reminders by email or text message, with none of the auto-record or announcement actions Essentials needs per phase."
+      ],
+      "fit": "Scenario manager: the best match for automation per scenario. A reusable When/Do rule set is attached to chosen event types, like SCE templates, and covers today's prep-email and auto-record defaults.",
+      "counter_example": false
+    }
+  }
+}

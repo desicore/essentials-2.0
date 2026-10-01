@@ -1,0 +1,47 @@
+{
+  "product": "clockwise",
+  "flows": {
+    "mobbin:b3200869-6502-4670-a9f3-48efa536c88f": {
+      "summary": "From week calendar, type a natural-language Schedule @ request, wait for a proposal, review hard conflicts vs inconveniences with Flexible on, Confirm, and land an Event created toast on the grid.",
+      "steps": [
+        "Week grid · Find time · Lunch/Focus",
+        "Onboarding modal · Powerful scheduling",
+        "Sidebar · Schedule @ / Get proposal",
+        "Week view · Get proposal ready",
+        "Week view · proposal chrome idle",
+        "NL draft · Schedule Sam design align",
+        "Understanding request · spinner",
+        "Proposal · hard conflict vs inconvenience",
+        "Proposal retargeted · Confirm / Share",
+        "Event created toast · Alex // Sam block"
+      ],
+      "steal": [
+        "Steps 7–8: Split conflicts — 'conflicts that I can't fix' (e.g. outside working hours) vs 'inconveniences' (e.g. 1 hour of Focus Time lost) before Confirm.",
+        "Steps 7–8: Flexible toggle on the proposal card plus Refine request… with 'Nothing will change until explicitly confirmed'.",
+        "Steps 2–6: NL Schedule @… → Get proposal / Understanding request as the create path instead of a blank full form.",
+        "Step 9: Post-confirm toast 'Event created' with View event while the block appears on the week grid."
+      ],
+      "avoid": [
+        "Heavy AI/proposal UX and personal Focus Time model — expensive vs Baseline’s simple event + Excel import; don’t require NL to create a session."
+      ],
+      "fit": "Steal graded conflict vs soft inconvenience while picking people/time; map Focus Time → protected faculty/room blocks, not the full Clockwise automation stack.",
+      "counter_example": false
+    },
+    "mobbin:82616858-3a1c-482e-8596-71abfb55ca5f": {
+      "summary": "Open Clockwise week calendar showing Day/Week toggle, Find time, current-time line, and Lunch/Focus Time blocks across Mon–Fri.",
+      "steps": [
+        "Week view · Find time · Lunch/Focus",
+        "Week view · current-time line 2:53pm"
+      ],
+      "steal": [
+        "Steps 0–1: Day/Week toggle + Find time entry beside calendar chrome.",
+        "Steps 0–1: Distinct block styles for Lunch vs Focus Time (border/weight) so protected capacity reads differently from meetings."
+      ],
+      "avoid": [
+        "Only two static week frames — no drag-to-reschedule or conflict UI shown; don’t credit drag from this capture."
+      ],
+      "fit": "Baseline calendar chrome reference (week grid, find-time CTA, protected blocks); pair with the meeting-proposal flow for conflict UX.",
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,793 @@
+{
+  "module": "09-announcements-send-materials",
+  "title": "Announcements / Send learning materials or send to Canvas → Shareable link",
+  "intro": "Internal board for the Essentials 2.0 solution concept (Semester → Courses → Announcements / send materials → Shareable link). Not about UI: each reference shows how another product lets someone running a course communicate from inside it: announce to everyone or a group, send selected files or links ahead of a session, choose the channel (portal feed, email, shareable link, Canvas LMS), schedule it, and see who received or opened it. One section per question; every card says what we would take from it. Counter-examples are flagged. Raw material from Mobbin and Refero, to be cut down in the converge pass before anything is shown outside the team.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Composer: audience targeting (course / group / individual), attachment of course materials, scheduling",
+      "answer": "Every composer in the set treats scheduling as a property of the send action, not a separate feature: Slack's send-button dropdown with presets and a custom date/time (mobbin:fd356e91), Whop's inline calendar popover (mobbin:16eb85ed), LinkedIn's clock icon (refero:863), Basecamp's 'Schedule and save' (mobbin:25c42c82). Audience targeting is rarer and coarser than the question assumes: Google Classroom puts a 'For / All students' dropdown directly above the text box (refero:19605564), Teachable offers everyone / a course / an individual (refero:9617), The Leap uses described segments (refero:4564), and Confluence only Public/Private plus a start–end window (mobbin:fcc604e7). Attachments are inline uploads (ClassDojo photo, Basecamp PDF, Whop image); nobody attaches from a course library. Only The Leap closes the loop from recipients through confirmation to open/click stats. Confluence's one-active-banner cap is the caveat: a persistent materials banner and a timely one cannot coexist."
+    },
+    {
+      "id": "Q2",
+      "title": "Channel choice (in-app feed, email, push, link, external LMS) and whether it is one composer or many features",
+      "answer": "Two models. 'One composer, many channels' puts the channel as a control on the same post: beehiiv's Post / Email / Website / Delivery tabs reconcile into a per-channel recipient summary before sending (mobbin:748e794e); Kit layers a 'Publish to web' opt-in over a default email send (mobbin:f722d4bb); Intercom folds platform (web / iOS / Android) and push into one panel (mobbin:7380bc5c). 'Implicit channel' treats the in-app post as the channel and only asks who is notified: Basecamp separates 'who should see this' from 'when I post this, notify…' (mobbin:0bc24c79), and Substack bundles email and push into a single default-on 'notify subscribers' toggle (mobbin:a7ebc4ec). Nobody in the set exposes an external LMS as a channel inside the composer; that lives in an export menu (see Q5). The useful distinction for a course is visibility versus notification: the post is the record, the channels are how people hear about it."
+    },
+    {
+      "id": "Q3",
+      "title": "Shareable link controls (expiry, access level, revoke, tracking)",
+      "answer": "Link controls converge on one panel with five questions: who can open (anyone / workspace / specific people), at what level (view / comment / edit), until when, with which password, and how to revoke. Mural shows all five, including a timezone-stamped expiry and a 'Reset visitor link' that regenerates rather than merely disables (mobbin:836e980f); Proton has expiry, password and 'Stop sharing' (mobbin:ef4fcd7f); Notion resolves relative presets ('in a week') to an absolute date inline and ends with a red Remove (mobbin:cfca14fb). Coda (mobbin:c333ff8e), Dropbox (mobbin:777c4ef0) and Sketch (mobbin:1fb17c11) focus on tiered access (workspace / guests / everyone) and per-person levels, with Copy link always in the same corner; Sketch splits public rights into download versus comment checkboxes. Only Loom shows tracking next to the share ('No views yet', refero:1242). ClickUp is the counter-example (mobbin:7f248abd): expiry defaults to Never with no presets, no access level, and the only revoke is an all-or-nothing Unpublish."
+    },
+    {
+      "id": "Q4",
+      "title": "Delivery feedback (sent / delivered / seen, reminders)",
+      "answer": "Feedback is worth having only when it is per person and has an action next to it. Navan lists each invitee with a status, lets you select the non-responders and 'Send a reminder' from the same table (mobbin:9d8af34f); Superhuman shows per-person, per-device, timestamped opens inline on the thread itself (mobbin:ba56c2de). Automation goes further: HoneyBook branches the follow-up on 'file viewed within 1 day' (mobbin:8afb0d65); Docusign lets you set the days before the first reminder and the repeat interval (mobbin:e4a526c1). Newsletter tools lead with aggregate counters (Mailchimp mobbin:6db18da5, HubSpot mobbin:5814d24c; Dub for link clicks, refero:2fe44823) and keep per-recipient detail one tab away (Outseta's Recipients tab with last-opened timestamps, mobbin:34451b74). WhatsApp's Delivered / Read is the minimum: two states, one recipient (mobbin:5580e66f). Square's Announcements list is the caution (mobbin:1c8c3422): a 'Seen by' column that shows nothing and offers no follow-up action."
+    },
+    {
+      "id": "Q5",
+      "title": "External LMS hand-off UX (auth, mapping to course, what is sent, confirmation)",
+      "answer": "The thinnest question in the set and the most important one for Essentials. Only SchoolAI shows a complete hand-off (mobbin:3135010e): an Export menu that lists Google Classroom next to Docs / PDF, a permission modal that says what will be shared, an OAuth enable step, a Class picker that maps the document to one specific class, and an 'Exported to Google Classroom!' toast. Course platforms in the set have no hand-off at all: in Kajabi, publishing inside the product is the send, so the learner-facing surface is the product's own portal (mobbin:9aa981d2). Generic connectors stop at authorization: Craft is a Connect / Disconnect toggle on a settings page (mobbin:e9079303), and Cofounder's OAuth flow with per-scope toggles never reaches a 'what was sent' or success state (mobbin:7897406d, counter-example). Nobody shows editing or re-syncing after the hand-off."
+    },
+    {
+      "id": "Q6",
+      "title": "Learner-side reception (feed, notification, email) and consistency with the portal",
+      "answer": "The consistent products give announcements a distinct type or place on the learner side. Microsoft Teams offers 'Post' versus 'Announcement' in the composer and renders announcements with a bold title and replies attached (mobbin:88ad5199); Circle routes them to an 'Announcements' space separate from the feed (mobbin:c1b1c3ad); ClassDojo keeps a teacher-only Pin so the post stays on top, with the attachment and replies inline (mobbin:3edf67a5). Unread state is aggregated centrally in Slack's Activity screen rather than only inside the source channel (mobbin:8e65f9c9), and Spotify lets the recipient choose email versus push per category, a model for learner notification preferences (refero:471b8f0c). Coursera is the counter-example (mobbin:36db9592): instructor content sits in a 'Latest'-sorted Q&A list with no pin, no unread marker and no sender role, so an announcement is indistinguishable from peer chatter."
+    }
+  ],
+  "references": [
+    {
+      "id": "mobbin:25c42c82-898e-423e-83aa-24f51379f3b9",
+      "source": "mobbin",
+      "app": "Basecamp",
+      "title": "Message scheduling with date/time and audience notification options",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/25c42c82-898e-423e-83aa-24f51379f3b9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wXjhRRoI"
+      ],
+      "question": "Q1",
+      "take": "PDF-attached message composer with a clock-icon schedule popover (date/time, 'Schedule and save'); no audience or notification controls on this screen.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:53e9bdad-e9b2-43f9-9018-b50c458aed37",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Scheduling a post with file attachments flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/53e9bdad-e9b2-43f9-9018-b50c458aed37",
+      "images": [
+        "https://mobbin.com/api/mcp/short/cGf0ngnh",
+        "https://mobbin.com/api/mcp/short/2qFapaw8",
+        "https://mobbin.com/api/mcp/short/LJQC89NN",
+        "https://mobbin.com/api/mcp/short/AjNxEsn7",
+        "https://mobbin.com/api/mcp/short/QhvUunAJ",
+        "https://mobbin.com/api/mcp/short/uzeMK407",
+        "https://mobbin.com/api/mcp/short/Fcq80IVZ",
+        "https://mobbin.com/api/mcp/short/o6uda5fq"
+      ],
+      "question": "Q1",
+      "take": "New Post modal for one class: attach a photo, optional AI writing assist, then a calendar-and-time scheduler; there is no audience selector because the class is the audience.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:fcc604e7-819a-421f-8448-430d4e2f2fda",
+      "source": "mobbin",
+      "app": "Confluence",
+      "title": "Creating an announcement flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fcc604e7-819a-421f-8448-430d4e2f2fda",
+      "images": [
+        "https://mobbin.com/api/mcp/short/MMIOC62f",
+        "https://mobbin.com/api/mcp/short/mZpWUbOh",
+        "https://mobbin.com/api/mcp/short/HTxAv64j",
+        "https://mobbin.com/api/mcp/short/dzepr4FT",
+        "https://mobbin.com/api/mcp/short/1opI00TB",
+        "https://mobbin.com/api/mcp/short/K6CnQFBt",
+        "https://mobbin.com/api/mcp/short/YgpqfTeZ",
+        "https://mobbin.com/api/mcp/short/ScNS3vFa"
+      ],
+      "question": "Q1",
+      "take": "Admin announcement-banner flow: title, banner style, Public/Private audience radio and an optional start/end date-time window with timezone; only one banner can be active at a time.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:19605564-a5ad-4b12-867b-678a4e2e6f13",
+      "source": "refero",
+      "app": "Google Classroom",
+      "title": "Stream composer: \"Announce to class\" box with All students picker",
+      "kind": "screen",
+      "url": "https://refero.design/pages/19605564-a5ad-4b12-867b-678a4e2e6f13",
+      "images": [
+        "https://images.refero.design/screenshots/google.com/desktop/40df4057-deff-425f-ad64-970147087e4d_preview.jpg"
+      ],
+      "question": "Q1",
+      "take": "The class Stream page pairs a lightweight \"Announce something to your class\" text box with a \"For / All students\" audience dropdown directly above it, showing that audience targeting can live as one control next to the compose field instead of a separate step.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:863",
+      "source": "refero",
+      "app": "LinkedIn",
+      "title": "LinkedIn: compose a post, then open a date/time scheduling dialog",
+      "kind": "flow",
+      "url": "https://refero.design/flows/863",
+      "images": [
+        "https://images.refero.design/screenshots/linkedin.com/desktop/633ce185-faba-4c79-9e3b-657ec10afb6d_thumb.jpg",
+        "https://images.refero.design/screenshots/linkedin.com/desktop/727cd278-ebb7-493c-9496-eea1a713d509_thumb.jpg",
+        "https://images.refero.design/screenshots/linkedin.com/desktop/f3f9f3c1-74d7-431b-ba68-908ac1a44392_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "LinkedIn's composer exposes a scheduling entry point in the compose toolbar that opens a dedicated date-and-time picker before the post is queued, showing how scheduling can be an optional side-dialog off the main composer rather than a separate screen or mode.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:fd356e91-8285-4f2c-a807-3cb7c80a5981",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Scheduling a message flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fd356e91-8285-4f2c-a807-3cb7c80a5981",
+      "images": [
+        "https://mobbin.com/api/mcp/short/SrespYyO",
+        "https://mobbin.com/api/mcp/short/94eMhW3r",
+        "https://mobbin.com/api/mcp/short/gBjtUBJT",
+        "https://mobbin.com/api/mcp/short/8GG4fYHz",
+        "https://mobbin.com/api/mcp/short/BGohDw3g",
+        "https://mobbin.com/api/mcp/short/meMViYUL",
+        "https://mobbin.com/api/mcp/short/PdjZCIWl",
+        "https://mobbin.com/api/mcp/short/1ApaJeKM"
+      ],
+      "question": "Q1",
+      "take": "Scheduling lives on the send button: a dropdown of presets or a custom date/time modal with timezone; channel targeting and attachments are not exercised in these steps.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:9617",
+      "source": "refero",
+      "app": "Teachable",
+      "title": "Teachable: compose and send a broadcast email to a recipient group",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9617",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/de9af544-674a-4afd-9b5f-2dabc6b10199_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/c2794d5d-b70f-48f8-81a1-1261d20691c6_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/8b50d451-1a62-40fe-a33a-1672ffddc6ed_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/43d4da29-5cae-4afd-878a-8c233a3c28ac_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Announcement email composer with a Send-to dropdown (everyone / a course / an individual) plus subject and body, a confirm modal, then a sent state; no attachment is used.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4564",
+      "source": "refero",
+      "app": "The Leap",
+      "title": "The Leap: broadcast composer with template, editor, and recipient segments",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4564",
+      "images": [
+        "https://images.refero.design/screenshots/theleap.co/desktop/ca5b7106-f6e3-4283-b8e7-f5a0fb1258da_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/68c5dd1e-4102-4bee-95cc-f3bbc916b7c2_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/6e6b3eee-07a9-4534-8169-1d3ebb7a774d_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/205acfbc-106d-4078-bbd2-41225f4fea8c_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/cc424db3-c42b-4048-998d-53e3004e75a5_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/ec64efbb-9eb3-40ad-88b0-b23300f4279d_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/79acb335-9101-44c1-bdb0-fcd0c99e90b7_thumb.jpg",
+        "https://images.refero.design/screenshots/theleap.co/desktop/59817483-8bec-4f97-8f97-7a0bbf601657_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "The Leap's broadcast flow chains a template chooser into a rich-text editor with a dedicated recipients dropdown for picking one or more contact segments, then forces a review-and-confirm modal before send and finishes on a sent-state screen with immediate analytics — a model for pairing audience targeting with an explicit confirm step in a course composer.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:16eb85ed-35c2-40ca-a1d5-feef221e7e3d",
+      "source": "mobbin",
+      "app": "Whop",
+      "title": "Scheduling an announcement flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/16eb85ed-35c2-40ca-a1d5-feef221e7e3d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/q43eHv3D",
+        "https://mobbin.com/api/mcp/short/wf9XuBtF",
+        "https://mobbin.com/api/mcp/short/XnqJVmTq",
+        "https://mobbin.com/api/mcp/short/ArjXpwuJ",
+        "https://mobbin.com/api/mcp/short/Lwvv0qWK"
+      ],
+      "question": "Q1",
+      "take": "Composer with an embedded image where an inline calendar popover switches the primary action between publish now and scheduled; no audience control.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:0bc24c79-1906-420b-8c71-4c4c9fada060",
+      "source": "mobbin",
+      "app": "Basecamp",
+      "title": "Message with notification recipient and audience control",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/0bc24c79-1906-420b-8c71-4c4c9fada060",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KYyed8b6"
+      ],
+      "question": "Q2",
+      "take": "One message-board composer that separates 'Who should see this?' (team only vs allow client) from 'When I post this, notify…' (requester / everyone I select / no one); the in-app post is the channel.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:748e794e-69b4-4b84-81e8-eb81c5e32f85",
+      "source": "mobbin",
+      "app": "beehiiv",
+      "title": "Excluded segments and delivery options",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/748e794e-69b4-4b84-81e8-eb81c5e32f85",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GpLad0uf"
+      ],
+      "question": "Q2",
+      "take": "Delivery tab of a single post object with Post / Email / Website / SEO tabs: segment exclusions, a web-access toggle and a per-channel recipient summary (Email: 6, Web: all free subscribers) before Schedule or Send.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:7380bc5c-aee1-470d-afae-832b147f9e1b",
+      "source": "mobbin",
+      "app": "Intercom",
+      "title": "Run a test with email collector and push notification options",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/7380bc5c-aee1-470d-afae-832b147f9e1b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/zFO1SFML"
+      ],
+      "question": "Q2",
+      "take": "Content tab of one message composer mixing reply type (chat vs email collector), platform (Web / iOS / Android) and a mobile push toggle in a single panel; audience routing is not on this screen.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:f722d4bb-07d8-409a-9b9b-4c12cbcfaec9",
+      "source": "mobbin",
+      "app": "Kit",
+      "title": "Send list with audience and delivery channel selection",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/f722d4bb-07d8-409a-9b9b-4c12cbcfaec9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/L8tdl9O1"
+      ],
+      "question": "Q2",
+      "take": "Single broadcast composer with an audience filter builder, a send-time field that defaults to 'Send now', and a 'Publish to web' toggle as an extra channel on top of the default email.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:a7ebc4ec-996c-4383-9eff-adb43819f10c",
+      "source": "mobbin",
+      "app": "Substack",
+      "title": "Publish with audience and delivery notification iOS",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/a7ebc4ec-996c-4383-9eff-adb43819f10c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/2G1P2FXV"
+      ],
+      "question": "Q2",
+      "take": "iOS publish modal showing audience (who can view), notification delivery toggle for email/push, and send controls.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:7f248abd-f90a-4477-a2a7-8b9aa0cbcc10",
+      "source": "mobbin",
+      "app": "ClickUp",
+      "title": "Share link with expiration settings (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/7f248abd-f90a-4477-a2a7-8b9aa0cbcc10",
+      "images": [
+        "https://mobbin.com/api/mcp/short/RXuhhZCP"
+      ],
+      "question": "Q3",
+      "take": "Public tab of the share sheet: public link, 'Expire link after: Never' with no presets, search-engine toggle, per-field visibility toggles, and Unpublish as the only, all-or-nothing revoke.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c333ff8e-e76b-44a7-ba91-3f29d4dfbd7f",
+      "source": "mobbin",
+      "app": "Coda",
+      "title": "Sharing a doc",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c333ff8e-e76b-44a7-ba91-3f29d4dfbd7f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LpfJexyO",
+        "https://mobbin.com/api/mcp/short/hrseuLFY",
+        "https://mobbin.com/api/mcp/short/4LoSdtxh",
+        "https://mobbin.com/api/mcp/short/lPrZZvKR",
+        "https://mobbin.com/api/mcp/short/ijMu7qz3",
+        "https://mobbin.com/api/mcp/short/fo0DbnTM",
+        "https://mobbin.com/api/mcp/short/hunx9rHT",
+        "https://mobbin.com/api/mcp/short/Yl5LY6vK"
+      ],
+      "question": "Q3",
+      "take": "Complete flow showing access mode selection (anyone, specific people), recipient selection, copy link action, and permission confirmation in a document sharing dialog.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:777c4ef0-4481-474a-9a3c-10637247e000",
+      "source": "mobbin",
+      "app": "Dropbox",
+      "title": "Sharing a document",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/777c4ef0-4481-474a-9a3c-10637247e000",
+      "images": [
+        "https://mobbin.com/api/mcp/short/NJQPrLaV",
+        "https://mobbin.com/api/mcp/short/0usbrspu",
+        "https://mobbin.com/api/mcp/short/ix2TVMAL",
+        "https://mobbin.com/api/mcp/short/zoYmwP2k",
+        "https://mobbin.com/api/mcp/short/4teWKzx6"
+      ],
+      "question": "Q3",
+      "take": "Share dialog with an 'Anyone with this link: can edit' dropdown, add-person-by-email with a note, and Copy link; expiration and password sit behind an unopened Settings link.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:1242",
+      "source": "refero",
+      "app": "Loom",
+      "title": "Loom: share dialog with per-person permission level and invited list",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1242",
+      "images": [
+        "https://images.refero.design/screenshots/loom.com/desktop/6a9c5ab9-5c27-449a-8645-126318afa6ce_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/8f4af9c8-1c29-4a31-bff4-aa324f2d516a_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/9c28099c-4444-472a-9181-4f0c46665d71_thumb.jpg",
+        "https://images.refero.design/screenshots/loom.com/desktop/6cbd1e97-bd92-4b03-8ac6-06094e3d2cae_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Loom's Share dialog lets the owner add a person or Space and set a permission level (e.g. Can view) before sending the invite, then confirms the person now appears in an invited/access list — a pattern for showing who currently has access to a shared item, not just generating a link.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:836e980f-286d-4092-a9dd-799a8ebb6bce",
+      "source": "mobbin",
+      "app": "Mural",
+      "title": "Link sharing access and expiration settings",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/836e980f-286d-4092-a9dd-799a8ebb6bce",
+      "images": [
+        "https://mobbin.com/api/mcp/short/H2ceYjYz"
+      ],
+      "question": "Q3",
+      "take": "Access and settings panel showing restricted/general access options, visitor link access controls, expiration date, password, and reset visitor link button.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:cfca14fb-a833-4bf6-b549-9e646bac5ec9",
+      "source": "mobbin",
+      "app": "Notion",
+      "title": "Link expiration and access controls (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/cfca14fb-a833-4bf6-b549-9e646bac5ec9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7QBL5rIp"
+      ],
+      "question": "Q3",
+      "take": "iOS link access dialog showing access level options (can edit, can comment, can view), link expiration with time presets (1 hour, 1 day, 1 week), and remove access option.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ef4fcd7f-0f50-47de-9df4-b67bf14bda2d",
+      "source": "mobbin",
+      "app": "Proton",
+      "title": "Share link settings with expiration and password",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ef4fcd7f-0f50-47de-9df4-b67bf14bda2d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/N0gMfopV"
+      ],
+      "question": "Q3",
+      "take": "Settings dialog for shared link with expiration date field, password requirement toggle, and stop sharing option to revoke access.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:1fb17c11-dd5b-4d8c-928f-6b1b64c444fc",
+      "source": "mobbin",
+      "app": "Sketch",
+      "title": "Share a document with permissions",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/1fb17c11-dd5b-4d8c-928f-6b1b64c444fc",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lMqujO04",
+        "https://mobbin.com/api/mcp/short/IMKyv4Hm",
+        "https://mobbin.com/api/mcp/short/1xBkcUx3",
+        "https://mobbin.com/api/mcp/short/lhzkbDP4"
+      ],
+      "question": "Q3",
+      "take": "Share dialog with three access tiers (Workspace members / Guests / Everyone); the public-link tier has a view-or-no-access radio plus separate Inspect-and-download and Comment checkboxes, Copy Link fixed top-right.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e4a526c1-f462-45b3-9f07-777742cc3701",
+      "source": "mobbin",
+      "app": "Docusign",
+      "title": "Turning on auto reminders with conditions",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e4a526c1-f462-45b3-9f07-777742cc3701",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LpYziXwW",
+        "https://mobbin.com/api/mcp/short/MpmQPpxW",
+        "https://mobbin.com/api/mcp/short/lV75ecsf",
+        "https://mobbin.com/api/mcp/short/ONN24bpI",
+        "https://mobbin.com/api/mcp/short/rysFpOdP",
+        "https://mobbin.com/api/mcp/short/8fCdubuH",
+        "https://mobbin.com/api/mcp/short/B2Z7lvj8",
+        "https://mobbin.com/api/mcp/short/bFpvJQrF"
+      ],
+      "question": "Q4",
+      "take": "Advanced reminder setup: expiration date, recipient privileges, auto-reminder toggle, days before first reminder, repeat interval, and custom number of days config.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:2fe44823-76a1-42a1-98d6-8ac79e5dc594",
+      "source": "refero",
+      "app": "Dub",
+      "title": "Dub link analytics: clicks/leads/sales for a tagged share link",
+      "kind": "screen",
+      "url": "https://refero.design/pages/2fe44823-76a1-42a1-98d6-8ac79e5dc594",
+      "images": [
+        "https://images.refero.design/screenshots/dub.co/desktop/c72dc094-be2d-4a20-9987-82e21d67da76_preview.jpg"
+      ],
+      "question": "Q4",
+      "take": "Dub's Analytics view shows Clicks/Leads/Sales counters plus a time-series chart for links filtered by tag, evidence that link-level delivery feedback can be a few aggregate counters and a trend line rather than a per-recipient log of who clicked.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:8afb0d65-fa9a-48b9-9652-b4ac556b4459",
+      "source": "mobbin",
+      "app": "HoneyBook",
+      "title": "Adding conditions for automated reminders",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8afb0d65-fa9a-48b9-9652-b4ac556b4459",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5fvLFi8C",
+        "https://mobbin.com/api/mcp/short/oPyrFiZl",
+        "https://mobbin.com/api/mcp/short/ZjbltswA",
+        "https://mobbin.com/api/mcp/short/5J0BnNPI"
+      ],
+      "question": "Q4",
+      "take": "Workflow showing automation setup: send email, wait for 1 day, check if file was viewed within that period, then branch to send different followup emails.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:5814d24c-84ba-4c75-9aaa-a0466693f385",
+      "source": "mobbin",
+      "app": "HubSpot",
+      "title": "Email campaign recipient engagement metrics",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5814d24c-84ba-4c75-9aaa-a0466693f385",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rg0XL7TQ"
+      ],
+      "question": "Q4",
+      "take": "Campaign Analyze tab with aggregate metrics only (Sent, Delivered rate, Open / Click / Reply rate, bounce, unsubscribe, spam); no per-recipient list or action on this screen.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:6db18da5-ec40-44da-bddb-6f6b3a4b7e61",
+      "source": "mobbin",
+      "app": "Mailchimp",
+      "title": "Email campaign report with sent, opened, clicked counts",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/6db18da5-ec40-44da-bddb-6f6b3a4b7e61",
+      "images": [
+        "https://mobbin.com/api/mcp/short/XojeA9gt"
+      ],
+      "question": "Q4",
+      "take": "Campaign analytics overview showing 3 recipients, delivered, clicked, bounced, unsubscribed counts; recipient activity tab with open/click tracking per recipient.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9d8af34f-5293-47eb-92cd-faba0c6e0dc7",
+      "source": "mobbin",
+      "app": "Navan",
+      "title": "Sending a reminder to non-responders",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9d8af34f-5293-47eb-92cd-faba0c6e0dc7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WhPq6By5",
+        "https://mobbin.com/api/mcp/short/9re0mHYE",
+        "https://mobbin.com/api/mcp/short/CmpGPcSg",
+        "https://mobbin.com/api/mcp/short/wpvvkE9k"
+      ],
+      "question": "Q4",
+      "take": "Flow showing invite creation, reminder selection from invite list, and confirmation to send reminder email to selected non-responders.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:34451b74-38ce-4557-aa8c-784d8df6d63c",
+      "source": "mobbin",
+      "app": "Outseta",
+      "title": "Newsletter performance metrics with opened/clicked tracking",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/34451b74-38ce-4557-aa8c-784d8df6d63c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KmfojY3e"
+      ],
+      "question": "Q4",
+      "take": "Recipients tab of a sent broadcast: one row per recipient with Last opened / Clicked / Unsubscribed timestamps and status sub-filters (Opened, Clicked, Bounced…) plus Export; no resend action on this screen.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:1c8c3422-f935-4762-b78c-a460c688d98a",
+      "source": "mobbin",
+      "app": "Square",
+      "title": "Announcement status - sent indicator",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/1c8c3422-f935-4762-b78c-a460c688d98a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/9nNdFwlq"
+      ],
+      "question": "Q4",
+      "take": "Announcements list with a Status column (Sent) and a separate 'Seen by' column that is empty for the row shown; the field exists without data and without a follow-up action.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ba56c2de-4b7b-45cb-9848-40895ec356f7",
+      "source": "mobbin",
+      "app": "Superhuman Mail",
+      "title": "Message read status indicators",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ba56c2de-4b7b-45cb-9848-40895ec356f7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WSxzebBl"
+      ],
+      "question": "Q4",
+      "take": "Mail interface showing team read statuses with opened/unopened indicator: June and Perry have opened, and the view shows who has opened messages.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:5580e66f-5a8e-4f01-aa52-b6b35c2964bb",
+      "source": "mobbin",
+      "app": "WhatsApp",
+      "title": "Message read and delivered status (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5580e66f-5a8e-4f01-aa52-b6b35c2964bb",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sCeV0fxf"
+      ],
+      "question": "Q4",
+      "take": "Per-message info screen with two states, Read and Delivered (timestamped); the minimum viable feedback, single recipient, no breakdown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:7897406d-dd60-4afa-94ad-65a9468c1d64",
+      "source": "mobbin",
+      "app": "Cofounder",
+      "title": "OAuth-based app connection workflow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7897406d-dd60-4afa-94ad-65a9468c1d64",
+      "images": [
+        "https://mobbin.com/api/mcp/short/HekPS5LX",
+        "https://mobbin.com/api/mcp/short/ZYHZl6hS",
+        "https://mobbin.com/api/mcp/short/tQiw6Dfy",
+        "https://mobbin.com/api/mcp/short/Ir0S8vWI",
+        "https://mobbin.com/api/mcp/short/B3DanRFT"
+      ],
+      "question": "Q5",
+      "take": "OAuth connect flow for cross-posting: destination picker, per-scope permission toggles, a 'continue sharing?' re-consent screen, then a loading state; the flow ends before showing what was sent or any success state.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e9079303-b68b-4a54-98b0-0ba587e8ba7d",
+      "source": "mobbin",
+      "app": "Craft",
+      "title": "Connecting and integrating third-party services",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e9079303-b68b-4a54-98b0-0ba587e8ba7d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/SoStEg7d",
+        "https://mobbin.com/api/mcp/short/fCYXXEZ0",
+        "https://mobbin.com/api/mcp/short/EQgFYMPG"
+      ],
+      "question": "Q5",
+      "take": "Settings-page list of integrations (Figma, GitHub, Jira, Linear) with a bare Connect / Disconnect toggle; no destination, no content, no confirmation of anything sent.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9aa981d2-b178-4843-b8dd-0685815ecd62",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Publishing course content to members",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9aa981d2-b178-4843-b8dd-0685815ecd62",
+      "images": [
+        "https://mobbin.com/api/mcp/short/qfAYqOgK",
+        "https://mobbin.com/api/mcp/short/u0JKsSW6",
+        "https://mobbin.com/api/mcp/short/hNbb1phL",
+        "https://mobbin.com/api/mcp/short/VcQDiivi"
+      ],
+      "question": "Q5",
+      "take": "Internal Draft → Published status change on a curriculum module with a 'Successfully updated module' toast: in a course platform, publishing is the send and there is no external hand-off.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3135010e-a999-439d-8ebd-50e7f4a58dcc",
+      "source": "mobbin",
+      "app": "SchoolAI",
+      "title": "Adding content to Google Classroom",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3135010e-a999-439d-8ebd-50e7f4a58dcc",
+      "images": [
+        "https://mobbin.com/api/mcp/short/xVzMz5CV",
+        "https://mobbin.com/api/mcp/short/Ryl7GilN",
+        "https://mobbin.com/api/mcp/short/fdOzaAYV",
+        "https://mobbin.com/api/mcp/short/xxotlvrE",
+        "https://mobbin.com/api/mcp/short/zogvA3Fr",
+        "https://mobbin.com/api/mcp/short/ed5gW9KU",
+        "https://mobbin.com/api/mcp/short/yFf2JnER"
+      ],
+      "question": "Q5",
+      "take": "Complete external hand-off: Export menu lists Google Classroom next to Docs / PDF, a permission modal says what will be shared, an OAuth enable step, a Class picker maps the document to one class, and a toast confirms the export.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c1b1c3ad-57ca-4bcc-85fd-3d9e4c062498",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Community course feed with announcements",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/c1b1c3ad-57ca-4bcc-85fd-3d9e4c062498",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ZwmRIYTG"
+      ],
+      "question": "Q6",
+      "take": "Sidebar with 'Announcements' as its own space separate from 'Feed' and a notification bell in the header, so admin announcements have a dedicated place instead of mixing into ordinary posts.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:3edf67a5-b266-45b6-a3a3-69f19d809fa9",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Course announcements feed with pinned posts",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/3edf67a5-b266-45b6-a3a3-69f19d809fa9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Fue2LeVb"
+      ],
+      "question": "Q6",
+      "take": "Teacher-posted course announcement visible to families showing rich text, imagery, likes, and comments for learner reception.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:36db9592-bedb-47b6-a4ee-78fe6f0fd84c",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Course discussion and activity feed (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/36db9592-bedb-47b6-a4ee-78fe6f0fd84c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KiwLiO4V"
+      ],
+      "question": "Q6",
+      "take": "Mobile discussion list sorted by Latest that mixes a bug report, a technical question and a lecture question with no pin, unread marker or sender role: an announcement dropped here would be indistinguishable from peer chatter.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:88ad5199-f31a-4a5b-aadb-3bc0f5536b36",
+      "source": "mobbin",
+      "app": "Microsoft Teams",
+      "title": "Course channel announcements and posts",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/88ad5199-f31a-4a5b-aadb-3bc0f5536b36",
+      "images": [
+        "https://mobbin.com/api/mcp/short/mnAwFp76"
+      ],
+      "question": "Q6",
+      "take": "Team channel announcement post with metadata showing how learners receive course updates with reply and engagement options.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:8e65f9c9-5b08-4303-8a56-ef403676143e",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Activity and announcements inbox (iOS)",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/8e65f9c9-5b08-4303-8a56-ef403676143e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Q8E2EDuz"
+      ],
+      "question": "Q6",
+      "take": "Mobile notification and activity inbox showing how learners receive course announcements and mentions in centralized notification interface.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:471b8f0c-f9ef-4977-99b8-e5c9fbd9c019",
+      "source": "refero",
+      "app": "Spotify",
+      "title": "Spotify notification settings: per-category Email/Push toggles",
+      "kind": "screen",
+      "url": "https://refero.design/pages/471b8f0c-f9ef-4977-99b8-e5c9fbd9c019",
+      "images": [
+        "https://images.refero.design/screenshots/spotify.com/desktop/de6e5ecc-5438-40c3-875d-ebf228152c41_preview.jpg"
+      ],
+      "question": "Q6",
+      "take": "Spotify's Notification settings list content categories (Music, Podcasts, Audiobooks, Concerts, Livestreams), each with its own Email and Push checkboxes, modeling how a learner-facing portal could let people set per-category channel preferences for course communications.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

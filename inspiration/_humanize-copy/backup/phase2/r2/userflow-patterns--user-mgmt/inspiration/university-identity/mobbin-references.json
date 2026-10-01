@@ -1,0 +1,447 @@
+{
+  "module": "university-identity",
+  "title": "University identity, directory sync & user import",
+  "references": [
+    {
+      "id": "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1",
+      "source": "mobbin",
+      "app": "Remote",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e304a20c-fb7b-467a-97de-7f725cd317c1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lGoVJXnx",
+        "https://mobbin.com/api/mcp/short/AgwqBLJg",
+        "https://mobbin.com/api/mcp/short/C7TBtZze",
+        "https://mobbin.com/api/mcp/short/Aqf6v9Yj"
+      ],
+      "localAssets": [
+        "assets/mobbin/31350159-fd49-4cd3-bc01-967f1a7bfe0e.jpg",
+        "assets/mobbin/231210d1-e819-4996-994d-e20afa4b904d.jpg",
+        "assets/mobbin/34474b95-2f25-44db-b004-df6e19041835.jpg",
+        "assets/mobbin/fba63c89-1bfb-4bc5-a3b2-78e69958d8bd.jpg"
+      ],
+      "sourceIds": [
+        "31350159-fd49-4cd3-bc01-967f1a7bfe0e",
+        "231210d1-e819-4996-994d-e20afa4b904d",
+        "34474b95-2f25-44db-b004-df6e19041835",
+        "fba63c89-1bfb-4bc5-a3b2-78e69958d8bd"
+      ],
+      "source_ids": [
+        "31350159-fd49-4cd3-bc01-967f1a7bfe0e",
+        "231210d1-e819-4996-994d-e20afa4b904d",
+        "34474b95-2f25-44db-b004-df6e19041835",
+        "fba63c89-1bfb-4bc5-a3b2-78e69958d8bd"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "question": "Q1",
+      "title": "Guide IT between the app and identity provider",
+      "actor": "university IT",
+      "take": "Number the configuration handoffs, explain which domains SSO affects, and validate certificate files at upload. Keep the setup state visible until the connection has actually succeeded.",
+      "observed": "Authentication settings opens a SAML explanation and numbered setup guide. IT copies the service-provider URL and audience into its identity provider, supplies company domain and identity-provider URL, and uploads a certificate. The final screenshot reports an unsupported certificate file type and lists accepted formats.",
+      "adaptation": "Give university IT a checklist for both systems, copy controls for app-provided values and explicit population scope. Explain invalid file formats next to the upload control before activation.",
+      "limitation": "The captured flow ends with a certificate-file error; no connection test, activation, successful sign-in, provisioning or group selection is shown. A company email domain is an observed SSO scope cue, not proof of university identity matching.",
+      "steps": [
+        {
+          "id": "31350159-fd49-4cd3-bc01-967f1a7bfe0e",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Authentication settings and Turn on SSO",
+          "localAsset": "assets/mobbin/31350159-fd49-4cd3-bc01-967f1a7bfe0e.jpg"
+        },
+        {
+          "id": "231210d1-e819-4996-994d-e20afa4b904d",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "SSO explanation and numbered setup guide",
+          "localAsset": "assets/mobbin/231210d1-e819-4996-994d-e20afa4b904d.jpg"
+        },
+        {
+          "id": "34474b95-2f25-44db-b004-df6e19041835",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "Domain, provider URL and certificate inputs",
+          "localAsset": "assets/mobbin/34474b95-2f25-44db-b004-df6e19041835.jpg"
+        },
+        {
+          "id": "fba63c89-1bfb-4bc5-a3b2-78e69958d8bd",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "Unsupported certificate file type",
+          "localAsset": "assets/mobbin/fba63c89-1bfb-4bc5-a3b2-78e69958d8bd.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    },
+    {
+      "id": "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+      "source": "mobbin",
+      "app": "GitHub",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Fnjj8BTl",
+        "https://mobbin.com/api/mcp/short/LHgKzwwX",
+        "https://mobbin.com/api/mcp/short/AzYjvkjc",
+        "https://mobbin.com/api/mcp/short/aaBMdJ9Y",
+        "https://mobbin.com/api/mcp/short/OAxVHPiw",
+        "https://mobbin.com/api/mcp/short/lgX3rtdn"
+      ],
+      "localAssets": [
+        "assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg",
+        "assets/mobbin/950bd8fb-e973-4367-a68b-a6c5ef485e8f.jpg",
+        "assets/mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg",
+        "assets/mobbin/87218698-4c32-45f7-adc3-61198ccd33b0.jpg",
+        "assets/mobbin/821604af-39b9-46e2-8e20-3f8ced157142.jpg",
+        "assets/mobbin/0c726d9e-6f02-432d-b2ba-055cbc15c6a6.jpg"
+      ],
+      "sourceIds": [
+        "277cd6a1-2548-408c-ba65-3a0acf33c36e",
+        "950bd8fb-e973-4367-a68b-a6c5ef485e8f",
+        "eccd2f55-dcc7-44ce-b712-71a4c39def81",
+        "87218698-4c32-45f7-adc3-61198ccd33b0",
+        "821604af-39b9-46e2-8e20-3f8ced157142",
+        "0c726d9e-6f02-432d-b2ba-055cbc15c6a6"
+      ],
+      "source_ids": [
+        "277cd6a1-2548-408c-ba65-3a0acf33c36e",
+        "950bd8fb-e973-4367-a68b-a6c5ef485e8f",
+        "eccd2f55-dcc7-44ce-b712-71a4c39def81",
+        "87218698-4c32-45f7-adc3-61198ccd33b0",
+        "821604af-39b9-46e2-8e20-3f8ced157142",
+        "0c726d9e-6f02-432d-b2ba-055cbc15c6a6"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "question": "Q1",
+      "title": "Test SAML before saving an enforced sign-in policy",
+      "actor": "university IT",
+      "take": "Require a connection test before saving enforced SAML. Keep failure feedback close to the configuration so IT can repair setup before institutional users depend on it.",
+      "observed": "Enterprise onboarding links to Authentication security. Enabling Require SAML authentication reveals sign-on URL, issuer and public-certificate fields plus service-provider information. Save is disabled until a SAML test. The supplied certificate produces an inline X509 format error, Failed: invalid settings beside the test control and an invalid-provider-settings banner.",
+      "adaptation": "Gate institutional SSO rollout on an explicit test result and explain who will be affected. Preserve configuration context when the test fails so IT can correct it.",
+      "limitation": "The captured connection test fails and no policy is successfully saved. Enforcing SAML, directory provisioning, account linking and course access remain distinct operations; the flow does not demonstrate them succeeding.",
+      "steps": [
+        {
+          "id": "277cd6a1-2548-408c-ba65-3a0acf33c36e",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Enterprise onboarding SAML entry",
+          "localAsset": "assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg"
+        },
+        {
+          "id": "950bd8fb-e973-4367-a68b-a6c5ef485e8f",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "Authentication security settings",
+          "localAsset": "assets/mobbin/950bd8fb-e973-4367-a68b-a6c5ef485e8f.jpg"
+        },
+        {
+          "id": "eccd2f55-dcc7-44ce-b712-71a4c39def81",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "Require SAML fields and test-before-save gate",
+          "localAsset": "assets/mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg"
+        },
+        {
+          "id": "87218698-4c32-45f7-adc3-61198ccd33b0",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "Configuration values entered",
+          "localAsset": "assets/mobbin/87218698-4c32-45f7-adc3-61198ccd33b0.jpg"
+        },
+        {
+          "id": "821604af-39b9-46e2-8e20-3f8ced157142",
+          "index": 4,
+          "imageIndex": 4,
+          "label": "Invalid certificate and failed test",
+          "localAsset": "assets/mobbin/821604af-39b9-46e2-8e20-3f8ced157142.jpg"
+        },
+        {
+          "id": "0c726d9e-6f02-432d-b2ba-055cbc15c6a6",
+          "index": 5,
+          "imageIndex": 5,
+          "label": "Invalid provider settings banner",
+          "localAsset": "assets/mobbin/0c726d9e-6f02-432d-b2ba-055cbc15c6a6.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    },
+    {
+      "id": "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+      "source": "mobbin",
+      "app": "WorkOS",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hftbtWHm",
+        "https://mobbin.com/api/mcp/short/bBZSRHE1",
+        "https://mobbin.com/api/mcp/short/vK9VFBLn",
+        "https://mobbin.com/api/mcp/short/mgGoCnQI"
+      ],
+      "localAssets": [
+        "assets/mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg",
+        "assets/mobbin/dc451bfe-7fdc-435e-bd9f-5e8d6301d82d.jpg",
+        "assets/mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg",
+        "assets/mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg"
+      ],
+      "sourceIds": [
+        "952b02f6-5679-4afe-8d31-04532d1e14a3",
+        "dc451bfe-7fdc-435e-bd9f-5e8d6301d82d",
+        "1ab66cfd-4a8d-47a9-a543-49eb64f35e0a",
+        "d31f7cc8-8f33-48b9-b1c1-3ee159a90f52"
+      ],
+      "source_ids": [
+        "952b02f6-5679-4afe-8d31-04532d1e14a3",
+        "dc451bfe-7fdc-435e-bd9f-5e8d6301d82d",
+        "1ab66cfd-4a8d-47a9-a543-49eb64f35e0a",
+        "d31f7cc8-8f33-48b9-b1c1-3ee159a90f52"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "question": "Q1",
+      "title": "Choose which directory attributes are synchronized",
+      "actor": "university IT",
+      "take": "Let IT enable only the directory fields LearningSpace needs. Describe each field and disclose that changes to existing users may take time to appear.",
+      "observed": "Directory Sync lists optional auto-mapped attributes with descriptions and enabled/disabled states. An edit dialog provides individual toggles and warns that changes to existing directory users may not appear immediately. After selected toggles are saved, the main table reflects the enabled attributes.",
+      "adaptation": "Preview the shared fields and default to the minimum institutional data needed. Explain optional fields and propagation timing before IT saves a change.",
+      "limitation": "This developer-admin example controls optional attributes rather than selecting directory groups. No actual user synchronization, failed update, legal permission or course-membership mapping is demonstrated.",
+      "steps": [
+        {
+          "id": "952b02f6-5679-4afe-8d31-04532d1e14a3",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Directory attribute list, all optional fields disabled",
+          "localAsset": "assets/mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg"
+        },
+        {
+          "id": "dc451bfe-7fdc-435e-bd9f-5e8d6301d82d",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "Edit dialog with propagation warning",
+          "localAsset": "assets/mobbin/dc451bfe-7fdc-435e-bd9f-5e8d6301d82d.jpg"
+        },
+        {
+          "id": "1ab66cfd-4a8d-47a9-a543-49eb64f35e0a",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "Selected attributes enabled before Save",
+          "localAsset": "assets/mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg"
+        },
+        {
+          "id": "d31f7cc8-8f33-48b9-b1c1-3ee159a90f52",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "Saved enabled/disabled states",
+          "localAsset": "assets/mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    },
+    {
+      "id": "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+      "source": "mobbin",
+      "app": "incident.io",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/XgM8et9w",
+        "https://mobbin.com/api/mcp/short/sXgvFIuj",
+        "https://mobbin.com/api/mcp/short/cuiD0gpD",
+        "https://mobbin.com/api/mcp/short/SRghy8zZ"
+      ],
+      "localAssets": [
+        "assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg",
+        "assets/mobbin/5ceb2f48-9668-421d-b59a-70da94d82a2e.jpg",
+        "assets/mobbin/e1843d29-60fa-4786-9191-b9704e17142d.jpg",
+        "assets/mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg"
+      ],
+      "sourceIds": [
+        "d320f96d-739d-45ea-a4a7-8c8f92fcaf90",
+        "5ceb2f48-9668-421d-b59a-70da94d82a2e",
+        "e1843d29-60fa-4786-9191-b9704e17142d",
+        "95e1a260-5034-4e86-82cd-04c17cd785fa"
+      ],
+      "source_ids": [
+        "d320f96d-739d-45ea-a4a7-8c8f92fcaf90",
+        "5ceb2f48-9668-421d-b59a-70da94d82a2e",
+        "e1843d29-60fa-4786-9191-b9704e17142d",
+        "95e1a260-5034-4e86-82cd-04c17cd785fa"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "question": "Q2",
+      "title": "Keep SAML failure and recovery routes visible",
+      "actor": "faculty / learner",
+      "take": "Place a clear retry and administrator-support message beside failed institutional sign-in. A later app screen does not explain how the person authenticated or whether accounts were linked.",
+      "observed": "The login page offers Slack, Microsoft and SAML SSO. After an email is entered, an error says SAML login failed and suggests trying again or contacting the administrator. The sequence later shows the application home.",
+      "adaptation": "Distinguish institutional sign-in failure from an authenticated person lacking LearningSpace or course access. Keep the support route visible and make a separate guest route understandable.",
+      "limitation": "The intermediate successful authentication method is not captured between the SAML error and home. Do not interpret this sequence as successful SAML retry, account linking, first-login provisioning or no-application-access handling. Guest routing remains a proposal.",
+      "steps": [
+        {
+          "id": "d320f96d-739d-45ea-a4a7-8c8f92fcaf90",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Login options and SAML email entry",
+          "localAsset": "assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg"
+        },
+        {
+          "id": "5ceb2f48-9668-421d-b59a-70da94d82a2e",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "Email entered for SAML",
+          "localAsset": "assets/mobbin/5ceb2f48-9668-421d-b59a-70da94d82a2e.jpg"
+        },
+        {
+          "id": "e1843d29-60fa-4786-9191-b9704e17142d",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "SAML login failed; retry or administrator guidance",
+          "localAsset": "assets/mobbin/e1843d29-60fa-4786-9191-b9704e17142d.jpg"
+        },
+        {
+          "id": "95e1a260-5034-4e86-82cd-04c17cd785fa",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "Application home; successful authentication method not captured",
+          "localAsset": "assets/mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    },
+    {
+      "id": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+      "source": "mobbin",
+      "app": "Okta",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/OzyY7VDd",
+        "https://mobbin.com/api/mcp/short/NAEUpnqU",
+        "https://mobbin.com/api/mcp/short/UmfVz8n8",
+        "https://mobbin.com/api/mcp/short/pImW0NVr",
+        "https://mobbin.com/api/mcp/short/vIv4bcae"
+      ],
+      "localAssets": [
+        "assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg",
+        "assets/mobbin/02a533b3-ba02-4194-b5cb-5762d3d2b279.jpg",
+        "assets/mobbin/9f98944b-93c9-4dc2-85f4-11f991d0545e.jpg",
+        "assets/mobbin/cc52905e-1f42-4fe7-984a-6a86f8271bc6.jpg",
+        "assets/mobbin/2ae61b76-5411-42b1-87ec-3564bde6bd73.jpg"
+      ],
+      "sourceIds": [
+        "91368794-4b0a-44aa-8556-4865258940d3",
+        "02a533b3-ba02-4194-b5cb-5762d3d2b279",
+        "9f98944b-93c9-4dc2-85f4-11f991d0545e",
+        "cc52905e-1f42-4fe7-984a-6a86f8271bc6",
+        "2ae61b76-5411-42b1-87ec-3564bde6bd73"
+      ],
+      "source_ids": [
+        "91368794-4b0a-44aa-8556-4865258940d3",
+        "02a533b3-ba02-4194-b5cb-5762d3d2b279",
+        "9f98944b-93c9-4dc2-85f4-11f991d0545e",
+        "cc52905e-1f42-4fe7-984a-6a86f8271bc6",
+        "2ae61b76-5411-42b1-87ec-3564bde6bd73"
+      ],
+      "accessedAt": "2026-09-08",
+      "access_date": "2026-09-08",
+      "evidenceType": "analogy",
+      "evidence_type": "analogy",
+      "counter_example": false,
+      "selected": false,
+      "boardStepIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "question": "Q3",
+      "title": "Show directory status and system-managed groups",
+      "actor": "university IT / LearningSpace administrator",
+      "take": "Distinguish pending people from active users and label who manages a group. Keep group source, membership counts and application assignments visible without equating them with course roles.",
+      "observed": "The directory route opens People with status filtering; later rows show Pending user action alongside Active. Groups has a Group source type filter, people and applications columns, an Everyone description, and an Okta Administrators group explicitly described as managed by Okta.",
+      "adaptation": "Expose source and lifecycle status for institutional users and groups. Explain system-managed membership and local exceptions, while representing each person\u2019s course roles separately from institution-wide administration.",
+      "limitation": "This captures directory navigation and list states, not a continuous provisioning run. No externally sourced group is selected, controlled profile edit is attempted or course permission inherited. An Okta-managed administrator group is not evidence of university group synchronization.",
+      "steps": [
+        {
+          "id": "91368794-4b0a-44aa-8556-4865258940d3",
+          "index": 0,
+          "imageIndex": 0,
+          "label": "Directory onboarding context",
+          "localAsset": "assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg"
+        },
+        {
+          "id": "02a533b3-ba02-4194-b5cb-5762d3d2b279",
+          "index": 1,
+          "imageIndex": 1,
+          "label": "Directory navigation expanded",
+          "localAsset": "assets/mobbin/02a533b3-ba02-4194-b5cb-5762d3d2b279.jpg"
+        },
+        {
+          "id": "9f98944b-93c9-4dc2-85f4-11f991d0545e",
+          "index": 2,
+          "imageIndex": 2,
+          "label": "People list with active status",
+          "localAsset": "assets/mobbin/9f98944b-93c9-4dc2-85f4-11f991d0545e.jpg"
+        },
+        {
+          "id": "cc52905e-1f42-4fe7-984a-6a86f8271bc6",
+          "index": 3,
+          "imageIndex": 3,
+          "label": "People list with pending and active users",
+          "localAsset": "assets/mobbin/cc52905e-1f42-4fe7-984a-6a86f8271bc6.jpg"
+        },
+        {
+          "id": "2ae61b76-5411-42b1-87ec-3564bde6bd73",
+          "index": 4,
+          "imageIndex": 4,
+          "label": "Groups with source filter and Okta-managed administrator group",
+          "localAsset": "assets/mobbin/2ae61b76-5411-42b1-87ec-3564bde6bd73.jpg"
+        }
+      ],
+      "assetProvenance": "Full uncropped screenshot images supplied by supported Mobbin MCP image_url links, retrieved promptly and converted to JPEG while retaining original proportions and visible Mobbin attribution. Delivered width is 768 pixels; no higher source resolution was exposed."
+    }
+  ]
+}

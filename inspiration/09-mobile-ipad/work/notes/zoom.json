@@ -1,0 +1,34 @@
+{
+  "product": "zoom",
+  "flows": {
+    "mobbin:07782c2f-36d1-44fb-b1a5-d9771b478ef2": {
+      "summary": "The host starts a meeting from the phone, grants mic access, admits a waiting-room participant, then runs the live session with mute and a participant count.",
+      "steps": [
+        "Meetings hub with New Meeting, Join, Schedule",
+        "Start a Meeting with Video On and PMI switches",
+        "Mic permission dialog; Join Audio; Participants 1",
+        "Live toolbar with Mute, Stop Video, Participants 1",
+        "Waiting room strip: View or Admit Dexter Lee",
+        "Participant tile showing connecting to audio",
+        "Video tile with muted mic badge on Dexter Lee",
+        "Live toolbar: Participants 2; Mute unmuted",
+        "Scrolled toolbar: Participants, Chat, Share, More"
+      ],
+      "steal": [
+        "A waiting-room message with primary Admit and secondary View (screen 5) lets you admit who enters without opening a full roster.",
+        "A Participants count on the toolbar (screens 4, 8 and 9) shows who is in the session at a glance.",
+        "Clear Mute versus muted-slash status on the toolbar and on the remote tile (screens 4, 7 and 8) models live versus muted for intercom.",
+        "A connecting-to-audio status before they can hear you (screen 6) avoids talking into a dead channel."
+      ],
+      "avoid": [
+        "Do not call this recording control. No record start or stop, red REC, or recording lock screen appears in any step."
+      ],
+      "fit": "Mobile and iPad app: the phone wins for in-room admit and mute while walking. It does not show recording control, so it does not replace SRV record. Use it for learner-tagging and intercom cues only.",
+      "jobs": [
+        "learner-tagging",
+        "intercom"
+      ],
+      "counter_example": false
+    }
+  }
+}

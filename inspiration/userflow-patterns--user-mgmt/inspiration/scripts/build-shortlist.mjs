@@ -29,10 +29,10 @@ function main() {
   function reportPath(round) { return meta.reports[round]?.path ?? '#'; }
 
   function card(ref, isCounter) {
-    const alt = `${ref.app} — ${ref.title}`;
+    const alt = `${ref.app}: ${ref.title}`;
     const searchBlob = `${ref.app} ${ref.title} ${ref.take}`.toLowerCase();
     const media = ref.imageKind === 'none'
-      ? `<div class="preview placeholder-only"><span>Documentation only — no screen</span></div>`
+      ? `<div class="preview placeholder-only"><span>Documentation only - no screen</span></div>`
       : `<figure class="preview-figure">
           <button type="button" class="preview-btn" aria-label="Open full-size: ${escapeHtml(alt)}">
             <img class="preview" src="${escapeHtml(ref.image)}" alt="${escapeHtml(alt)}" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
@@ -43,7 +43,7 @@ function main() {
     return `<article class="card${isCounter ? ' card-counter' : ''}" data-search="${escapeHtml(searchBlob)}">
       <div class="card-media">${media}</div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">${escapeHtml(ref.round)}</span> · ${escapeHtml(ref.question)}${isCounter ? ' <span class="badge counter">Counter-example</span>' : ''}</p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">${escapeHtml(ref.round)}</span> · ${escapeHtml(ref.question)}${isCounter ? ' <span class="badge counter">Example of what not to do</span>' : ''}</p>
         <p class="app-name"><strong>${escapeHtml(ref.app)}</strong></p>
         <h4 class="card-title">${escapeHtml(ref.title)}</h4>
         <p class="take">${mdInline(ref.take)}</p>
@@ -63,7 +63,7 @@ function main() {
 
   function nodeSection(node) {
     const counterBlock = node.counterExamples.length
-      ? `<div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
+      ? `<div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Examples of what not to do</h3></div>
          <div class="grid counter-grid">${node.counterExamples.map(r => card(r, true)).join('')}</div>`
       : '';
     const callouts = [];
@@ -73,7 +73,7 @@ function main() {
     return `<section id="${node.id}" class="node-section" aria-labelledby="${node.id}-heading">
       <div class="node-heading">
         <h2 id="${node.id}-heading"><span class="node-number">${node.number}.</span> ${escapeHtml(node.title)}</h2>
-        <div class="node-badges"><span class="badge">${node.keeps} keeps</span><span class="badge">${node.counters} counters</span></div>
+        <div class="node-badges"><span class="badge">${node.keeps} kept</span><span class="badge">${node.counters} examples of what not to do</span></div>
       </div>
       ${node.lead ? `<p class="lead">${mdInline(node.lead)}</p>` : ''}
       ${node.groups.map(group).join('')}
@@ -83,12 +83,12 @@ function main() {
   }
 
   const introParas = meta.intro.split(/\n\n+/).map(p => `<p class="intro">${mdInline(p)}</p>`).join('');
-  const reportsLine = `<p class="reports-line">Reports: <a href="${escapeHtml(meta.reports.R1.path)}">R1 — ${escapeHtml(meta.reports.R1.label)}</a> (${meta.reports.R1.count} refs) · <a href="${escapeHtml(meta.reports.R2.path)}">R2 — ${escapeHtml(meta.reports.R2.label)}</a> (${meta.reports.R2.count} refs)</p>`;
+  const reportsLine = `<p class="reports-line">Reports: <a href="${escapeHtml(meta.reports.R1.path)}">R1: ${escapeHtml(meta.reports.R1.label)}</a> (${meta.reports.R1.count} examples) · <a href="${escapeHtml(meta.reports.R2.path)}">R2: ${escapeHtml(meta.reports.R2.label)}</a> (${meta.reports.R2.count} examples)</p>`;
   const summaryTable = `<table class="summary">
-    <thead><tr><th>Node</th><th>Keeps</th><th>Counters</th><th>Strongest single reference</th></tr></thead>
-    <tbody>${nodes.map(n => `<tr><td><a href="#${n.id}">${escapeHtml(n.title)}</a></td><td>${n.keeps}</td><td>${n.counters}</td><td>${escapeHtml(n.strongest.round)} ${escapeHtml(n.strongest.question)} · <strong>${escapeHtml(n.strongest.app)}</strong> — ${escapeHtml(n.strongest.title)}</td></tr>`).join('')}</tbody>
+    <thead><tr><th>Part</th><th>Kept</th><th>What not to do</th><th>Strongest single example</th></tr></thead>
+    <tbody>${nodes.map(n => `<tr><td><a href="#${n.id}">${escapeHtml(n.title)}</a></td><td>${n.keeps}</td><td>${n.counters}</td><td>${escapeHtml(n.strongest.round)} ${escapeHtml(n.strongest.question)} · <strong>${escapeHtml(n.strongest.app)}</strong>: ${escapeHtml(n.strongest.title)}</td></tr>`).join('')}</tbody>
   </table>`;
-  const nav = `<nav class="node-nav" aria-label="Node sections"><ol>${nodes.map(n => `<li><a href="#${n.id}">${n.number}. ${escapeHtml(n.title)}</a></li>`).join('')}</ol></nav>`;
+  const nav = `<nav class="node-nav" aria-label="Part sections"><ol>${nodes.map(n => `<li><a href="#${n.id}">${n.number}. ${escapeHtml(n.title)}</a></li>`).join('')}</ol></nav>`;
 
   const html = `<!doctype html>
 <html lang="en">
@@ -159,12 +159,12 @@ function main() {
     ${summaryTable}
   </header>
   ${nav}
-  <div class="search-bar"><label class="field">Search cards<br><input id="search" type="search" placeholder="App, title, or take…" autocomplete="off"></label></div>
+  <div class="search-bar"><label class="field">Search cards<br><input id="search" type="search" placeholder="App, title, or note…" autocomplete="off"></label></div>
   <p id="status" role="status" aria-live="polite"></p>
   ${nodes.map(nodeSection).join('')}
   <section class="node-section" aria-labelledby="next-step-heading">
     <h2 id="next-step-heading">Next step</h2>
-    <p class="lead">${mdInline(meta.nextStep)}</p>
+    <p class="lead">${mdInline(meta.nextStep ?? data.nextStep)}</p>
   </section>
 </main>
 <dialog id="lightbox" aria-labelledby="lightbox-caption">

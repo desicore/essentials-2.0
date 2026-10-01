@@ -1,0 +1,55 @@
+{
+  "product": "7shifts",
+  "flows": {
+    "mobbin:9b6a37a7-8bbf-4883-a999-463f46cfbc8e": {
+      "summary": "A manager opens a department/role week grid with Conflicts and Overtime counters, overtime cells, Open Shifts rows, Import/Publish, and a Budget Tool footer.",
+      "steps": [
+        "Empty week: Dept, Role, Open Shifts, Import",
+        "Populated week: overtime on Leonard, Open Finance",
+        "Warnings bar: 2 Conflicts, 2 Overtime, Fix",
+        "Optimal Labor promo over the schedule",
+        "Grid: red overtime cells, TIME OFF, Budget"
+      ],
+      "steal": [
+        "Header counters for Conflicts and Overtime include a Fix warnings jump (screens 3, 5).",
+        "The hierarchy is Department, then Role, then Open Shifts row, then people (screens 1 to 2, 5).",
+        "Each row shows hours and cost plus red 'Total OT'; cells use a lightning mark and an Overtime label (screens 2, 5).",
+        "Import first schedule and Publish schedule sit in the same toolbar (screens 1, 3)."
+      ],
+      "avoid": [
+        "A point-of-sale (POS) Optimal Labor promo covering the grid mid-flow (screen 4) blocks scheduling work."
+      ],
+      "fit": "Scheduling: best conflict and overtime-on-resource-grid reference for room or faculty double-book and contact-hour warnings. The Import button aligns with the Excel master-file direction.",
+      "jobs": [
+        "new-scheduling",
+        "flexi-custom",
+        "excel-import"
+      ],
+      "counter_example": false
+    },
+    "mobbin:5b627af5-e4b7-47ec-8d86-154da7cdb67d": {
+      "summary": "From the week grid, the manager opens Open Shifts, sets role, time and notes, offers to everyone, applies to days, and sees unassigned slots on Open Shifts rows.",
+      "steps": [
+        "Week grid: Conflicts, overtime, Open Shifts",
+        "Week grid: plus on Open Shifts cells",
+        "Open Shifts panel: role, times, Offer, Apply Sat",
+        "Open Shifts panel: 11am to 7pm, notes, breaks",
+        "Open Shifts panel: Offer and notes filled",
+        "Grid after create: Open Shifts row, warnings"
+      ],
+      "steal": [
+        "A dedicated Open Shifts row per department holds unassigned capacity (screens 1 to 2, 6).",
+        "The Open Shifts form covers role, auto-calculated duration, and Offer to everyone at all locations (screens 3 to 5).",
+        "Apply to Mon to Sun day labels creates multi-day slots (screens 3 to 5).",
+        "Conflicts and overtime stay visible while creating open slots (screens 1 to 6)."
+      ],
+      "avoid": [],
+      "fit": "Scheduling: self sign-up and unassigned session slots for rotations. Create open cells then claim; cheaper than full roster auto-gen when only gaps need filling.",
+      "jobs": [
+        "flexi-custom",
+        "simple-events"
+      ],
+      "counter_example": false
+    }
+  }
+}

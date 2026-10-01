@@ -1,0 +1,46 @@
+{
+  "product": "resend",
+  "flows": {
+    "mobbin:8914ef26-a0a5-4618-a806-8d1ccba76c3f": {
+      "summary": "From an empty Templates list, the user creates a draft template in the editor, fills content, confirms Publish New Version via slide-to-publish, and returns to a library card for the new template.",
+      "steps": [
+        "Templates empty state → Create template",
+        "Blank draft editor (Draft badge)",
+        "Editor with content + variables",
+        "Publish New Version: slide to publish",
+        "Library grid with new template card"
+      ],
+      "steal": [
+        "Empty state: Create new or import; dual Create CTAs.",
+        "Persistent Draft badge beside title until Publish.",
+        "Publish New Version popover with ✓ No warnings + slide-to-publish.",
+        "Blank canvas offers Pick a template / Upload HTML / slash commands."
+      ],
+      "avoid": [
+        "Slide-to-publish friction for routine scenario saves — keep for publish/go-live only, not every edit."
+      ],
+      "fit": "Extends SCE with explicit draft→published versioning and pre-publish validation; maps to replacing Word/paper authoring with a basic editor, not Maestro.",
+      "counter_example": false
+    },
+    "mobbin:62ac5b2e-bca0-4c6c-95c5-3a11fa1336fb": {
+      "summary": "In the draft editor, the user opens View History, picks a past version from the sidebar timeline, confirms Revert version (non-destructive), and gets a Version restored successfully toast while staying in Draft.",
+      "steps": [
+        "Draft editor open",
+        "Overflow: View History / Duplicate…",
+        "Version history sidebar timeline",
+        "Prior version selected (restore affordance)",
+        "Revert version confirm (preserve current)",
+        "Version restored toast; still Draft"
+      ],
+      "steal": [
+        "Version history as a side drawer over the editor (no navigation away).",
+        "Confirm copy: creates a new version; current content preserved in history.",
+        "Relative timestamps + author avatar on each history entry.",
+        "After restore: stays Draft; Publish still required to go live."
+      ],
+      "avoid": [],
+      "fit": "Fills a baseline gap: SCE lacks clear version restore; non-destructive revert protects faculty authoring (contrast with checklist data loss when a window closes).",
+      "counter_example": false
+    }
+  }
+}

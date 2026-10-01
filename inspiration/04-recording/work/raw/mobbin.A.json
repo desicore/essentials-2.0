@@ -1,0 +1,252 @@
+{
+  "references": [
+    {
+      "id": "mobbin:7cce14cf-33f9-4024-8e73-28cde8ccb2e9",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Starting a video recording",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7cce14cf-33f9-4024-8e73-28cde8ccb2e9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hOZUKT4F",
+        "https://mobbin.com/api/mcp/short/z4kZkveL",
+        "https://mobbin.com/api/mcp/short/01QkccTr",
+        "https://mobbin.com/api/mcp/short/QMTpwxqy",
+        "https://mobbin.com/api/mcp/short/DO48KP1d",
+        "https://mobbin.com/api/mcp/short/L29H6UPr",
+        "https://mobbin.com/api/mcp/short/Sb6VAC9c",
+        "https://mobbin.com/api/mcp/short/VwQEEICX",
+        "https://mobbin.com/api/mcp/short/U4DhfAdL"
+      ],
+      "platform": "web",
+      "jobs": ["start-stop"],
+      "take": "Flow shows entering a new recording, armed state with camera/layout controls visible, recording active with timer display, and post-recording processing with share options."
+    },
+    {
+      "id": "mobbin:79f64251-2c1a-4751-9926-1ab5aa922993",
+      "source": "mobbin",
+      "app": "VEED",
+      "title": "Starting a recording",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/79f64251-2c1a-4751-9926-1ab5aa922993",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DEIefNRd",
+        "https://mobbin.com/api/mcp/short/YnAWMOpA",
+        "https://mobbin.com/api/mcp/short/ucjQt0CH",
+        "https://mobbin.com/api/mcp/short/uUZc446I",
+        "https://mobbin.com/api/mcp/short/vZSWR85g",
+        "https://mobbin.com/api/mcp/short/KSWlx8F8",
+        "https://mobbin.com/api/mcp/short/6yFnw0Qd"
+      ],
+      "platform": "web",
+      "jobs": ["start-stop"],
+      "take": "Shows record button state, countdown timer during recording with visual feedback, pause/resume options, and final recording completion with editing preview."
+    },
+    {
+      "id": "mobbin:7a5685e7-9d0d-44c5-afe1-4cdc3eef545d",
+      "source": "mobbin",
+      "app": "Riverside",
+      "title": "Recording a session",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7a5685e7-9d0d-44c5-afe1-4cdc3eef545d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/xvEMjWR7",
+        "https://mobbin.com/api/mcp/short/xE5ZR40x",
+        "https://mobbin.com/api/mcp/short/bXCUAbBU",
+        "https://mobbin.com/api/mcp/short/1i9ky69D"
+      ],
+      "platform": "web",
+      "jobs": ["start-stop"],
+      "take": "Compact flow showing recording interface with camera preview, recording controls centered, live timeline display, and upload progress indicator."
+    },
+    {
+      "id": "mobbin:c7c153dd-3e7c-47d2-8550-51fdc87308d4",
+      "source": "mobbin",
+      "app": "Loom",
+      "title": "Recording a video",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c7c153dd-3e7c-47d2-8550-51fdc87308d4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/M5o7lmi2",
+        "https://mobbin.com/api/mcp/short/DfZ1ZoUb",
+        "https://mobbin.com/api/mcp/short/i4ogUBWy",
+        "https://mobbin.com/api/mcp/short/ate9J4E4",
+        "https://mobbin.com/api/mcp/short/UBrTBrOJ",
+        "https://mobbin.com/api/mcp/short/VSkUYWgK",
+        "https://mobbin.com/api/mcp/short/S7X0wmyH"
+      ],
+      "platform": "web",
+      "jobs": ["start-stop"],
+      "take": "Shows Loom recording flow with start interface, countdown timer with visual indicator, recording in progress with camera/screen controls, and saved recording with post-processing feedback."
+    },
+    {
+      "id": "mobbin:581cfdc5-f0de-49da-9da9-e56a2b94e4d4",
+      "source": "mobbin",
+      "app": "Descript",
+      "title": "Recording a video",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/581cfdc5-f0de-49da-9da9-e56a2b94e4d4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/8RRwa8dQ",
+        "https://mobbin.com/api/mcp/short/Mxmd3Jnd",
+        "https://mobbin.com/api/mcp/short/NLdziT0I",
+        "https://mobbin.com/api/mcp/short/5A1ehoQ7",
+        "https://mobbin.com/api/mcp/short/H7wk3kSX",
+        "https://mobbin.com/api/mcp/short/mzMzbzrp",
+        "https://mobbin.com/api/mcp/short/TDM1M1qg",
+        "https://mobbin.com/api/mcp/short/zjfUy0dq",
+        "https://mobbin.com/api/mcp/short/91QjS3cA",
+        "https://mobbin.com/api/mcp/short/Ixt2BGvT",
+        "https://mobbin.com/api/mcp/short/QLChxM52",
+        "https://mobbin.com/api/mcp/short/8sCq1Jhb",
+        "https://mobbin.com/api/mcp/short/fNiHThyf"
+      ],
+      "platform": "web",
+      "jobs": ["start-stop"],
+      "take": "Multi-step recording flow in Descript: project creation, recording setup, live room with participant video, timestamp tracking, stop recording button visible, and upload completion with success states and feedback."
+    },
+    {
+      "id": "mobbin:d7ecf80a-5cb1-4429-ab2f-b2c40a50f743",
+      "source": "mobbin",
+      "app": "Grain",
+      "title": "Turning on auto record",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d7ecf80a-5cb1-4429-ab2f-b2c40a50f743",
+      "images": [
+        "https://mobbin.com/api/mcp/short/tZ2v71uA",
+        "https://mobbin.com/api/mcp/short/Ep36PqbW",
+        "https://mobbin.com/api/mcp/short/JooO3s8M",
+        "https://mobbin.com/api/mcp/short/n9hEdMwO"
+      ],
+      "platform": "web",
+      "jobs": ["start-stop"],
+      "take": "Demonstrates auto-record enable in Grain: meetings list showing record toggle option, confirmation of auto-record setting updated, and visual indicator of enabled status."
+    },
+    {
+      "id": "mobbin:98afe407-aa3e-46f6-8e2c-9e946f5430e4",
+      "source": "mobbin",
+      "app": "Grain",
+      "title": "Recording a meeting",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/98afe407-aa3e-46f6-8e2c-9e946f5430e4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/jYWqLKDi",
+        "https://mobbin.com/api/mcp/short/NzJ10wLd",
+        "https://mobbin.com/api/mcp/short/B8x76otx",
+        "https://mobbin.com/api/mcp/short/CssCSfm5",
+        "https://mobbin.com/api/mcp/short/mUQyoK8B",
+        "https://mobbin.com/api/mcp/short/RMYyKbiV",
+        "https://mobbin.com/api/mcp/short/2fw4og3v",
+        "https://mobbin.com/api/mcp/short/InLcusED"
+      ],
+      "platform": "web",
+      "jobs": ["start-stop"],
+      "take": "Grain recording flow: meetings list, calendar scheduling view, join meeting interface, multiple participant views during recording, recording controls visible throughout."
+    },
+    {
+      "id": "mobbin:36d2c1e1-60fa-49f5-af4c-419966039677",
+      "source": "mobbin",
+      "app": "Grain",
+      "title": "Updating meeting settings",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/36d2c1e1-60fa-49f5-af4c-419966039677",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GHpQaJUW",
+        "https://mobbin.com/api/mcp/short/zwb5cJW8",
+        "https://mobbin.com/api/mcp/short/o4RdU5Di",
+        "https://mobbin.com/api/mcp/short/4sUXg6ts",
+        "https://mobbin.com/api/mcp/short/nXL9v7ok",
+        "https://mobbin.com/api/mcp/short/ss380wl8",
+        "https://mobbin.com/api/mcp/short/pFSApFSq"
+      ],
+      "platform": "web",
+      "jobs": ["start-stop"],
+      "take": "Settings configuration for recording: workspace meetings section, auto record defaults toggle, language selection for meetings, recap email options, and recording duplication settings."
+    },
+    {
+      "id": "mobbin:272048bd-060c-49bf-b4ad-e37b5d2a45a1",
+      "source": "mobbin",
+      "app": "Preply",
+      "title": "Testing devices",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/272048bd-060c-49bf-b4ad-e37b5d2a45a1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DwUh5WtP",
+        "https://mobbin.com/api/mcp/short/vysjSKM7",
+        "https://mobbin.com/api/mcp/short/qSpjCtPm",
+        "https://mobbin.com/api/mcp/short/b6MnXour",
+        "https://mobbin.com/api/mcp/short/GjMefz1i",
+        "https://mobbin.com/api/mcp/short/v1JZMHeh",
+        "https://mobbin.com/api/mcp/short/vizkLjIq"
+      ],
+      "platform": "web",
+      "jobs": ["device-check"],
+      "take": "Pre-call device test flow: scheduled lesson with test devices controls shown, modal dialog titled 'Test your devices' with camera/mic and network/device sections, checkmark indicating successful test completion."
+    },
+    {
+      "id": "mobbin:802c7e5a-31c5-457b-971b-4aecbc0b1410",
+      "source": "mobbin",
+      "app": "Google Meet",
+      "title": "Source settings",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/802c7e5a-31c5-457b-971b-4aecbc0b1410",
+      "images": [
+        "https://mobbin.com/api/mcp/short/0LSpILHB",
+        "https://mobbin.com/api/mcp/short/skjWZT8x"
+      ],
+      "platform": "web",
+      "jobs": ["device-check"],
+      "take": "Google Meet source settings modal: camera dropdown (FaceTime HD), microphone dropdown, and speaker selection with test audio button (Play test sound)."
+    },
+    {
+      "id": "mobbin:0d4be42d-ec39-4c8e-b74a-9a9576635c6a",
+      "source": "mobbin",
+      "app": "Circle",
+      "title": "Changing audio & video settings",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/0d4be42d-ec39-4c8e-b74a-9a9576635c6a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/68d9g3Pa",
+        "https://mobbin.com/api/mcp/short/GzaZWGXU",
+        "https://mobbin.com/api/mcp/short/LzfgPaj5"
+      ],
+      "platform": "web",
+      "jobs": ["device-check"],
+      "take": "Pre-event device test in Circle: event page showing 'This event is being recorded', audio/video settings modal with camera/microphone dropdowns and blur/mirror toggles, background noise suppression and audio output options."
+    },
+    {
+      "id": "mobbin:b410c80d-0e95-4ab9-988c-2d7d8fb7c2a1",
+      "source": "mobbin",
+      "app": "Whereby",
+      "title": "Showing meeting diagnostics",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b410c80d-0e95-4ab9-988c-2d7d8fb7c2a1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hrRyt1Qq",
+        "https://mobbin.com/api/mcp/short/qPSnuLDE",
+        "https://mobbin.com/api/mcp/short/ueNKluBF"
+      ],
+      "platform": "web",
+      "jobs": ["device-check"],
+      "take": "Meeting diagnostics panel in Whereby: 'Your connection is good' status indicator, overview section with connection quality graph, audio transmission and video transmission metrics, CPU usage display, and performance tips."
+    },
+    {
+      "id": "mobbin:fe8fb2c5-70ec-495a-b6a2-0998a47e6f5c",
+      "source": "mobbin",
+      "app": "Google Meet",
+      "title": "Troubleshooting & help",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fe8fb2c5-70ec-495a-b6a2-0998a47e6f5c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/IgrQdo8D",
+        "https://mobbin.com/api/mcp/short/hZFtPcHF",
+        "https://mobbin.com/api/mcp/short/OQWDCOGR",
+        "https://mobbin.com/api/mcp/short/kpBJ4ZAI",
+        "https://mobbin.com/api/mcp/short/5AXlz5AM"
+      ],
+      "platform": "web",
+      "jobs": ["device-check"],
+      "take": "Troubleshooting flow triggered from help menu: animated character showing 'Recording unavailable' error message, system load diagnostic with recommendations (close unnecessary apps, try alternative network), and audio/video device status check showing no device detected."
+    }
+  ]
+}

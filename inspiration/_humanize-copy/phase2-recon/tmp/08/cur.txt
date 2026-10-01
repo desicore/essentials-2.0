@@ -1,0 +1,463 @@
+Access Recordings / Course Reports → Learner portal
+Essentials 2.0 · Design research · 08-recordings-course-reports
+Access Recordings / Course Reports → Learner portal
+Research for Essentials 2.0: Semester → Courses → recordings and course reports → Learner Portal. Two connected tasks: manage sensitive session recordings, and understand course and learner outcomes. Evidence covers captured product interfaces; gaps are explicitly distinguished from absent product capabilities.
+Top examples
+Loom · Mobbin — search, folders and recording metadata make this the strongest library reference. [Loom · mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4]
+Zoom · Mobbin — the richest sampled permission-edit sequence, including an expiration option. [Zoom · mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001]
+Vimeo · Mobbin — separates named collaborators and roles from link privacy. [Vimeo · mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8]
+Grain · Mobbin — the clearest transcript-to-timestamped-comment sequence. [Grain · mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7]
+Loom · Mobbin — editable AI chapters connect directly to Elevate’s chapterization work. [Loom · mobbin:9c7d6717-30ad-411d-96a1-465961438578]
+SchoolAI · Mobbin — outcomes and learner insights reach a CSV-download success state. [SchoolAI · mobbin:82be552c-140b-4a19-95bb-037c320ca775]
+Kajabi · Mobbin — a clear course-to-learner-to-lesson progress hierarchy. [Kajabi · mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f]
+Coursera · Mobbin — learner assessment results expose both the overall grade and its components. [Coursera · mobbin:35b8baea-dca0-422b-83ee-01dd411da127]
+Pattern comparison
+✓ = direct captured evidence for a meaningful part of the question; partial = adjacent evidence or an incomplete journey; ✗ = not evidenced in this report, not a claim that the product lacks it. Ratings use all retained captures, including cross-section evidence. Q1–Q3 cover recordings; Q4–Q6 cover reporting. None of the Q2 captures proves automatic learner-own-only access.
+Product
+Q1
+Q2
+Q3
+Q4
+Q5
+Q6
+Loom[1] [2] [3]
+✓ library + search
+✓ named/link scope
+✓ transcript + AI chapters
+✗ not captured
+partial activity signals
+✗ not captured
+Vimeo[1] [2] [3]
+✓ recency + search
+✓ privacy + roles
+✓ comments; empty transcript
+✗ not captured
+✗ not captured
+✗ not captured
+Zoom[1] [2]
+partial meeting bundle
+✓ audience + expiry option
+partial transcript file
+✗ not captured
+✗ not captured
+✗ not captured
+Grain[1]
+partial recording detail
+✗ not captured
+✓ timestamp discussion
+✗ not captured
+partial tab labels only
+✗ not captured
+Circle[1] [2]
+✗ not captured
+✗ not captured
+✗ not captured
+partial overview + export
+✓ completion / students
+✗ not captured
+Kajabi[1]
+✗ not captured
+✗ not captured
+✗ not captured
+partial learner detail
+✓ lesson completion
+✗ instructor detail only
+SchoolAI[1] [2]
+✗ not captured
+✗ not captured
+✗ not captured
+partial overview + CSV
+✓ outcomes / mastery
+✗ instructor report only
+Uxcel[1]
+✗ not captured
+✗ not captured
+✗ not captured
+partial report entry
+✓ unit completion
+✗ not captured
+Mixpanel[1] [2]
+✗ not captured
+✗ not captured
+✗ not captured
+partial user drill / export
+partial behavioral cohorts
+✗ not captured
+Coursera[1] [2]
+✗ not captured
+✗ not captured
+✗ not captured
+partial personal grade detail
+✓ assessment + completion
+✓ personal results
+What the best apps do differently
+Loom and Zoom solve different retrieval needs: Loom supports finding items across a library, while Zoom keeps several recording artifacts attached to one meeting. Essentials needs both course-wide search and an event bundle. [Loom · mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4] [Zoom · mobbin:179edc0d-797b-47fa-9999-7a3998407b80]
+Vimeo distinguishes privacy from collaborator rights; Zoom adds optional time limits and passcode controls. This is richer than treating “share” as only copying a link. [Vimeo · mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8] [Zoom · mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001]
+Grain ties discussion to transcript timecodes; Loom makes AI chapter structure editable. Together they support reviewing a precise simulation moment and correcting generated navigation. [Grain · mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7] [Loom · mobbin:9c7d6717-30ad-411d-96a1-465961438578]
+Circle emphasizes course completion, Kajabi reveals the lesson-level detail beneath a learner’s percentage, and SchoolAI explicitly surfaces outcomes/mastery. These measures answer different instructor questions and should retain their labels. [Circle · mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee] [Kajabi · mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f] [SchoolAI · mobbin:00828d09-252c-4d02-92a1-58966ebbe19d]
+Mixpanel makes cohort comparisons legible through visible definitions and filters; Coursera makes a learner’s assessment grade legible through weights and component results. Neither should be collapsed into a single undifferentiated “progress” metric. [Mixpanel · mobbin:d7008305-0f24-4a04-8714-75d16b5284ff] [Coursera · mobbin:35b8baea-dca0-422b-83ee-01dd411da127]
+SchoolAI’s captured download ends with a success toast; Circle’s export confirms email delivery. The report interface should state where the output will arrive, rather than leaving instructors to search for it. [SchoolAI · mobbin:82be552c-140b-4a19-95bb-037c320ca775] [Circle · mobbin:464a297d-2355-443d-8123-d61f80c4a72c]
+Best practices top companies converge on
+Use a searchable recording library and keep the session’s related files together; add event, learner and scenario facets as an Essentials-specific extension. [Loom · mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4] [Vimeo · refero:1429d347-5ed3-4ac6-b9d1-f906e69c23e9] [Zoom · mobbin:179edc0d-797b-47fa-9999-7a3998407b80]
+Show the effective audience beside sharing actions. For sensitive debriefs, adopt explicit named/group scope and optional expiry; validate the learner-own-only policy separately. [Vimeo · mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8] [Zoom · mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001] [Loom · mobbin:cf7c8043-a315-4bc5-a889-d3683430232c]
+Keep timecoded transcript, chapters and discussion close to playback. Allow corrections to AI structure and provide a no-transcript state that preserves video review. [Grain · mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7] [Loom · mobbin:9c7d6717-30ad-411d-96a1-465961438578] [Vimeo · mobbin:bd482934-e96c-4560-967f-2509d3c341d8]
+Provide course overview, learner detail and export in a consistent reporting context. The complete path is a synthesis from complementary examples, not a single observed journey. [Circle · mobbin:464a297d-2355-443d-8123-d61f80c4a72c] [Kajabi · mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f] [SchoolAI · mobbin:82be552c-140b-4a19-95bb-037c320ca775]
+Label completion, assessed score, mastery and engagement separately; preserve metric definitions and comparison filters. Do not use video views or retained users as a mastery score. [Circle · mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee] [SchoolAI · mobbin:00828d09-252c-4d02-92a1-58966ebbe19d] [Mixpanel · mobbin:d7008305-0f24-4a04-8714-75d16b5284ff] [Coursera · mobbin:35b8baea-dca0-422b-83ee-01dd411da127]
+Give learners a compact progress view with a route to assessment detail. This recommendation is supported by Coursera alone; broader learner-portal convergence remains unverified. [Coursera · mobbin:93beef1d-a7ba-4f6c-9efb-4d13aee3eb76] [Coursera · mobbin:35b8baea-dca0-422b-83ee-01dd411da127]
+Open questions for Essentials 2.0
+Recording ownership: when several learners share a simulation, does “own recording” mean the whole event, a participant-specific clip, or an instructor-approved release? Zoom’s meeting bundle and Vimeo’s named access do not settle that mapping. [Zoom · mobbin:179edc0d-797b-47fa-9999-7a3998407b80] [Vimeo · mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8]
+Release and expiry: should feedback, transcript, comments and downloads inherit the video audience, and what happens at semester end? Zoom exposes these settings, but the captures do not establish their dependencies. [Zoom · mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001]
+AI annotations: who approves chapter labels and timecoded feedback before learners see them, and how should these link to the competencies defined in module 03? Loom and Grain establish editable/navigation patterns, not assessment validity. [Loom · mobbin:9c7d6717-30ad-411d-96a1-465961438578] [Grain · mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7]
+Comparability: how will attendance be sourced, retries handled, and scenario/rubric versions normalized across cohorts? SchoolAI labels mastery and Mixpanel exposes comparison controls; neither capture defines Elevate’s assessment rules. [SchoolAI · mobbin:00828d09-252c-4d02-92a1-58966ebbe19d] [Mixpanel · mobbin:d7008305-0f24-4a04-8714-75d16b5284ff]
+Learner Portal and Canvas hand-off: which released grade, recording link and competency result is authoritative, when is it synchronized, and how are regraded results reconciled? Coursera’s personal grades and SchoolAI’s export show useful endpoints but no Canvas integration. Delivery belongs to module 09. [Coursera · mobbin:35b8baea-dca0-422b-83ee-01dd411da127] [SchoolAI · mobbin:82be552c-140b-4a19-95bb-037c320ca775]
+Evidence scope: 37 curated references across 10 products from Mobbin and Refero; seven sampled flows, with no more than eight previews each. Source captures are historical interface evidence, not a current feature audit. Numbered flow images are retained preview order and may omit intervening actions. Web and iOS searches were run; irrelevant results were excluded. Canvas/Moodle gradebook, attendance defaults, automatic learner-own-only recording access and Canvas integration remain unverified. Counter-example badges flag a risky captured state, an enrichment failure state or an unsuitable metric transfer—not an overall product ranking. All references remain unselected for the later converge pass.
+Search references
+SourceAll sources
+Mobbin
+Refero
+Selected only
+Reset filters
+QuestionsQ1
+Q2
+Q3
+Q4
+Q5
+Q6
+No references match these filters. Try another search or reset the filters.
+Enable JavaScript for filters and full-size previews. All references appear below.
+Part A · Recording organisation, access and playback
+Q1Recording organisation (by event / by learner / by scenario) and search
+Loom combines broad library search, folders and metadata-rich recording cards; Vimeo emphasizes recent videos and a persistent search field. Zoom contributes the strongest event-level grouping: several recording files sit under one named meeting. For Essentials, combine this session bundle with searchable event, learner and scenario metadata. That three-axis organization is a proposal, not an observed capability in these captures. Evidence: Loom [mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4], Vimeo [refero:1429d347-5ed3-4ac6-b9d1-f906e69c23e9], Zoom [mobbin:179edc0d-797b-47fa-9999-7a3998407b80].
+7 references
+mobbin:9e8909a2-43b5-4007-b72d-05475a8c0af4
+LoomMobbinscreen
+Loom recording library
+Loom's recording library provides a searchable, thumbnail-led index for locating captured sessions.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:98d765b9-0124-499b-8132-7afa776d4fc3
+LoomMobbinscreen
+Loom recordings index
+A compact recordings index makes recency and visual recognition useful for course-session retrieval.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:027d0e0e-19fe-478f-a917-0ed1fc871244
+LoomMobbinscreen
+Loom video list
+The list view supports scanning many recordings as a collection rather than forcing one-video-at-a-time access.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:d9ee7199-4790-424b-9175-3a5367d4d48f
+LoomMobbinscreen
+Loom iOS recording detail
+The mobile detail view provides a compact route from a recording item to playback or sharing actions.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+refero:1429d347-5ed3-4ac6-b9d1-f906e69c23e9
+VimeoReferoscreen
+Video content library
+Vimeo’s captured content library combines persistent navigation, search, cards, and pagination for browsing a large video collection.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+refero:be4decc5-73a3-4f88-adc9-7bafc805c606
+VimeoReferoscreen
+Video platform dashboard
+A second Vimeo capture shows library browsing organized around a clear content area with search and card based media discovery.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:179edc0d-797b-47fa-9999-7a3998407b80
+ZoomMobbinflow
+Sharing a recording
+The full eight preview sequence samples locating a recording, opening its share surface, choosing access, and completing distribution.
+View source ↗
+[IMG]
+Step 1 of 8 · Click to enlarge
+[IMG]
+Step 2 of 8 · Click to enlarge
+[IMG]
+Step 3 of 8 · Click to enlarge
+[IMG]
+Step 4 of 8 · Click to enlarge
+[IMG]
+Step 5 of 8 · Click to enlarge
+[IMG]
+Step 6 of 8 · Click to enlarge
+[IMG]
+Step 7 of 8 · Click to enlarge
+[IMG]
+Step 8 of 8 · Click to enlarge
+No references yet for this question.
+Q2Access control on recordings (learner sees own only, group, time-limited)
+Vimeo separates link privacy from named collaborator roles. Zoom exposes audience settings, a passcode and an optional expiration checkbox, shown unchecked; its sampled flow reaches an updated state. Loom's captured 'Anyone with the link' state is a counter-example for sensitive debrief footage, not proof of its universal default. Essentials should make the recording audience explicit and reviewable. Automatic learner-own-only binding and course-group rules remain unproven in this evidence. Vimeo [mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8], Zoom [mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001], Loom [mobbin:cf7c8043-a315-4bc5-a889-d3683430232c].
+6 references
+mobbin:cf7c8043-a315-4bc5-a889-d3683430232c
+LoomMobbinscreen
+Loom sharing controls
+Counter-example
+The captured Loom share dialog permits named/workspace recipients while the visible link state is 'Anyone with the link can view'; this broad state warrants deliberate review for sensitive debriefs.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:e4d79f0a-e2a6-43d2-ae67-8f6019b38173
+VimeoMobbinscreen
+Vimeo privacy settings
+Vimeo exposes recording privacy controls at the point where an instructor decides who can view a video.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:5262ab95-d5ee-4376-ba68-5e780dcad8a8
+VimeoMobbinscreen
+Vimeo sharing options
+A separate sharing options view supports deliberate distribution decisions for sensitive course footage.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:156982f6-11ba-4c17-abd1-b48fc207a2e7
+ZoomMobbinscreen
+Zoom recording access
+Zoom provides an access management surface for restricting recordings to intended participants.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:fe592646-cdd0-4bea-85cb-c69add94608f
+ZoomMobbinscreen
+Zoom recording permissions
+Zoom's permissions screen can serve as a reference for learner-only or group-scoped recording access.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:ab3d0cfe-b7ab-40a8-8aaf-b4579be5f001
+ZoomMobbinflow
+Updating share settings
+Sampled Zoom share/settings states show audience, passcode and an unchecked expiration option, followed by an update confirmation; learner-own-only and course-group binding are not shown.
+View source ↗
+[IMG]
+Step 1 of 4 · Click to enlarge
+[IMG]
+Step 2 of 4 · Click to enlarge
+[IMG]
+Step 3 of 4 · Click to enlarge
+[IMG]
+Step 4 of 4 · Click to enlarge
+No references yet for this question.
+Q3Playback enrichments (chapters, transcript, annotations, timestamps) — link to Elevate's AI video annotation / chapterization
+Grain connects selected transcript text to a timestamped comment and reply composer; Loom exposes editable AI summary and chapter structure. Vimeo's 'No speech detected' state shows the need for a fallback when a transcript is unavailable. Apply these patterns to Elevate's AI video annotation / chapterization: editable scenario phases, shared timecodes for comments and chapters, and clear AI provenance. Seeking behavior, AI accuracy and competency scoring are not established by the captures. Grain [mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7], Loom [mobbin:9c7d6717-30ad-411d-96a1-465961438578], Vimeo [mobbin:bd482934-e96c-4560-967f-2509d3c341d8].
+7 references
+mobbin:62d0f6ef-1c16-452c-8766-b3133d5bc0c7
+GrainMobbinflow
+Adding a comment
+Five ordered captured states connect transcript text to a timestamped comment and a reply composer; intermediate clicks and playback seeking are not shown.
+View source ↗
+[IMG]
+Step 1 of 5 · Click to enlarge
+[IMG]
+Step 2 of 5 · Click to enlarge
+[IMG]
+Step 3 of 5 · Click to enlarge
+[IMG]
+Step 4 of 5 · Click to enlarge
+[IMG]
+Step 5 of 5 · Click to enlarge
+mobbin:208932bc-b2f9-4671-ac57-67868cf2d47e
+LoomMobbinscreen
+Loom video player
+Loom playback references pair the video surface with transcript and collaboration context for time-based review.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:2e68b8da-81a8-4e1d-bdb8-48dec8f6e49b
+LoomMobbinscreen
+Playback with timestamped transcript and comment entry point
+Loom shows a timestamped transcript, search/copy controls and a Comment action beside playback; comment submission and transcript-click seeking are not captured.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:9c7d6717-30ad-411d-96a1-465961438578
+LoomMobbinscreen
+Loom transcript context
+Loom exposes editable summary and timestamped chapters alongside an AI-generated-content indicator; generation and save transitions are not captured.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:a0e413d9-735c-4c11-9717-3de66d3eb960
+VimeoMobbinscreen
+Vimeo video player
+Vimeo playback reference shows a focused player page suitable for chapter and transcript adjacency.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:de9410ce-93f4-435c-b9c5-b15fde660ba3
+VimeoMobbinscreen
+Vimeo playback detail
+Vimeo’s detail view is a useful reference for keeping metadata and playback controls near the video.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:bd482934-e96c-4560-967f-2509d3c341d8
+VimeoMobbinscreen
+Vimeo comments context
+Counter-example
+Vimeo's transcript panel reports 'No speech detected', illustrating the need for a useful recording-review fallback when speech enrichment is unavailable.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Part B · Course reporting and learner results
+Q4Report structure: overview → per-learner drill-down → export
+The complete reporting journey is assembled from complementary evidence: Circle shows course summaries, a student table and sampled export; Kajabi shows a learner/course/module/lesson detail hierarchy; SchoolAI places class outcomes and learner insights beside CSV download. No single captured flow proves overview → learner detail → export end to end. Essentials should preserve course and filter context through each level, with export scoped to the displayed report; that scope preservation is a recommendation. Circle [mobbin:464a297d-2355-443d-8123-d61f80c4a72c], Kajabi [mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f], SchoolAI [mobbin:82be552c-140b-4a19-95bb-037c320ca775].
+6 references
+mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee
+CircleMobbinscreen
+Circle course analytics
+Circle analytics uses a course-level overview as the entry point to learner performance reporting.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:464a297d-2355-443d-8123-d61f80c4a72c
+CircleMobbinflow
+Exporting students
+Sampled Circle states show a course student table, export menu and email-delivery confirmation; intervening navigation and export selection are not captured.
+View source ↗
+[IMG]
+Step 1 of 3 · Click to enlarge
+[IMG]
+Step 2 of 3 · Click to enlarge
+[IMG]
+Step 3 of 3 · Click to enlarge
+mobbin:1227af09-4d68-457a-a7ea-a5596e2c3e4f
+KajabiMobbinscreen
+Learner detail: course, module and lesson completion
+Kajabi places overall progress, last activity, module progress and lesson completion beneath a course/learner breadcrumb; the entry transition and export are not shown.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:00828d09-252c-4d02-92a1-58966ebbe19d
+SchoolAIMobbinscreen
+SchoolAI report overview
+SchoolAI offers a direct education reporting reference with overview information suited to instructor review.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:82be552c-140b-4a19-95bb-037c320ca775
+SchoolAIMobbinflow
+Downloading a report
+Sampled SchoolAI report states show generated learner/session insights, Download CSV and a success toast; the resulting CSV and a learner-detail transition are not captured.
+View source ↗
+[IMG]
+Step 1 of 3 · Click to enlarge
+[IMG]
+Step 2 of 3 · Click to enlarge
+[IMG]
+Step 3 of 3 · Click to enlarge
+mobbin:87f9d574-30e4-4053-80c3-4d4cc189ca69
+UxcelMobbinscreen
+Uxcel learner analytics
+Uxcel demonstrates a learner-oriented analytics view that can inform drill-down structure.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Q5Metrics shown by default (completion, attendance, score, mastery) and comparability across cohorts
+Completion and mastery are distinct in the sample: Circle reports average course completion, Kajabi lesson completion, and SchoolAI explicitly labels outcome/mastery measures (Q4 references). Mixpanel makes metric definitions, date ranges, filters and cohort breakdowns visible, but its retention and event counts measure behavior rather than learning. Coursera's Grades screen provides assessment scores (Q6). Borrow comparison controls while keeping attendance, completion, score and mastery separate; attendance defaults and a common cross-cohort assessment basis are evidence gaps. Circle [mobbin:3a9baed1-2367-4a3b-9c61-6f0c792fb0ee], SchoolAI [mobbin:00828d09-252c-4d02-92a1-58966ebbe19d], Mixpanel [mobbin:d7008305-0f24-4a04-8714-75d16b5284ff], Coursera [mobbin:35b8baea-dca0-422b-83ee-01dd411da127].
+5 references
+mobbin:d8d5048b-159e-433d-a488-5a551f422bdf
+MixpanelMobbinscreen
+Mixpanel analytics dashboard
+An analytics overview makes the measured event and time context visible before comparing performance; this supports separating outcome measures from engagement proxies.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:d7008305-0f24-4a04-8714-75d16b5284ff
+MixpanelMobbinscreen
+Mixpanel report segmentation
+Counter-example
+Mixpanel exposes named behavior metrics, date range, filters and cohort breakdowns; comparable engagement does not establish comparable learning outcomes.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:be374c47-a37d-4dd2-994f-d3ee89aed0e9
+MixpanelMobbinscreen
+Mixpanel retention comparison
+A cohort chart supports side by side trend reading; retention is an engagement proxy and should be paired with completion, attendance, score, or mastery evidence.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:7b9ad250-9a11-47ad-87e0-9dab40727c2e
+MixpanelMobbinflow
+View retained users
+The ordered flow moves from an overview into retained-user detail, showing a useful path from cohort signal to learner-level inspection.
+View source ↗
+[IMG]
+Step 1 of 3 · Click to enlarge
+[IMG]
+Step 2 of 3 · Click to enlarge
+[IMG]
+Step 3 of 3 · Click to enlarge
+mobbin:a8a15261-d74d-4f56-bf69-f19849059c12
+MixpanelMobbinflow
+Exporting events
+The export flow provides a concrete handoff for further cohort analysis, useful when reports need to be shared or audited.
+View source ↗
+[IMG]
+Step 1 of 4 · Click to enlarge
+[IMG]
+Step 2 of 4 · Click to enlarge
+[IMG]
+Step 3 of 4 · Click to enlarge
+[IMG]
+Step 4 of 4 · Click to enlarge
+No references yet for this question.
+Q6Learner-side results view: same data, simplified
+Coursera separates a compact personal progress summary from assessment detail: the Grades view shows overall pass/grade and per-assessment status, due date, weight and grade; mobile emphasizes completion and next work. Essentials can use this personal projection for released results and recordings, with a path back to the relevant simulation moment. These captures do not show learner recording access or establish a shared instructor/learner data model. Learner-side coverage is one product, so cross-product convergence is not claimed here. Coursera [mobbin:93beef1d-a7ba-4f6c-9efb-4d13aee3eb76; mobbin:35b8baea-dca0-422b-83ee-01dd411da127].
+6 references
+mobbin:93beef1d-a7ba-4f6c-9efb-4d13aee3eb76
+CourseraMobbinscreen
+Coursera learner course view
+The learner course view foregrounds progress through course content, giving a simplified personal projection of course status.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:15cacd44-7839-4c9f-9623-1db6833c291d
+CourseraMobbinscreen
+Coursera completed work
+Completed items are presented as a learner-facing status list, an outcome-oriented summary that avoids exposing instructor cohort complexity.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:b7931f44-6fa5-4920-b892-c9bd340e496a
+CourseraMobbinscreen
+Course overview and upcoming graded work (planning context)
+Coursera's course overview presents workload, objectives, deadlines and upcoming graded assignments; this is planning context rather than an assessment result.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:35b8baea-dca0-422b-83ee-01dd411da127
+CourseraMobbinscreen
+Learner Grades: overall pass and weighted assessment results
+Coursera's learner Grades view shows overall pass/grade plus assessment status, due date, weight and grade; it does not show competency mastery.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:40087b17-c119-400c-8c7a-d84d50969b19
+CourseraMobbinscreen
+Coursera iOS progress
+The iOS learner view confirms that progress and course status can remain the primary mobile hierarchy.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:cbdaad40-84eb-4881-9262-74ecb2b4ffe5
+CourseraMobbinscreen
+Coursera iOS result detail
+A compact mobile result detail keeps learner feedback accessible without replicating the instructor report surface.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Close
+[IMG]

@@ -1,0 +1,50 @@
+{
+  "product": "time2book",
+  "flows": {
+    "refero:6310": {
+      "summary": "From an empty Upcoming schedule, open Add a Class, pick a catalog service (duration/location inherited), set start + weekly days, Create, and see series cards live with capacity and a publish toast.",
+      "steps": [
+        "Empty Schedule · Upcoming/Past",
+        "Add a Class drawer · service + start",
+        "Service dropdown · catalog pick",
+        "Power Yoga · 15-min time steps",
+        "Repeat menu · weekly intervals",
+        "Weekly + Mon–Sun day chips",
+        "Live toast · Power Yoga is now live",
+        "Upcoming list · capacity 0/10"
+      ],
+      "steal": [
+        "Steps 1–3: Service/catalog pick inherits duration + location into a summary card — only start time and repeat left to set before Create.",
+        "Steps 4–5: Repeat presets (Does not repeat / Weekly / Every 2–4 weeks) then Mon–Sun day chips expand only when Weekly is on.",
+        "Steps 1 & 5: Live sentence summary ('…from 10:00 to 10:45, starting on Jul 5') confirms end time without a separate end field.",
+        "Step 6: Post-create toast 'Power Yoga is now live! Clients can now book…' marks publish, not just save."
+      ],
+      "avoid": [
+        "Agenda list only — no week/resource grid, so room/faculty double-book can’t be spotted while creating."
+      ],
+      "fit": "Cheap simple-event path: scenario-as-catalog service → default duration/room → weekly day chips for N sessions; extends Baseline simple events, not flexi cell assignment.",
+      "jobs": ["simple-events"],
+      "counter_example": false
+    },
+    "refero:6311": {
+      "summary": "Open a class from Upcoming, Cancel booking, choose this occurrence vs all future classes, then see a Canceled badge retained on the list with a success toast.",
+      "steps": [
+        "Upcoming agenda · class cards",
+        "Booking details · Cancel booking",
+        "Scope modal · this vs all future",
+        "Toast · Class cancelled + badge",
+        "Canceled card kept in Upcoming"
+      ],
+      "steal": [
+        "Step 2: Scope dialog — 'Cancel only this class' (primary red) vs 'Cancel all future classes - on at 15:00' plus copy that booked clients can rebook.",
+        "Steps 3–4: Occurrence stays on the agenda with red 'Canceled' badge (and struck time) instead of vanishing — schedule history remains visible.",
+        "Step 1: Booking details splits Clients into Attending / Cancelled tabs before the cancel action."
+      ],
+      "avoid": [
+        "No on-screen invitee notification confirmation — only organizer-side cancel; don’t assume attendee email UX from this flow."
+      ],
+      "fit": "Reuse for session-series cancel scope (one run vs rest of rotation) with cancel-in-place badge for coordinators; comparable to Amie/Motion this/all, but organizer-cancel framed.",
+      "counter_example": false
+    }
+  }
+}

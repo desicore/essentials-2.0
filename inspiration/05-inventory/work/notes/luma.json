@@ -1,0 +1,27 @@
+{
+  "product": "luma",
+  "flows": {
+    "mobbin:74bc6276-56b0-44b9-9a2b-cd8ed27f650f": {
+      "summary": "From event details the host taps 'Check In Guests', opens the QR camera, confirms the guest on a sliding panel, sees success with Undo, then scans the next guest.",
+      "steps": [
+        "Event with Check In Guests",
+        "Camera with list fallback",
+        "Guest panel identify and Check In",
+        "Success message over camera",
+        "After check-in with times and Undo",
+        "Camera ready for next scan"
+      ],
+      "steal": [
+        "Scan, identify on a panel, then an explicit 'Check In' confirms before anything changes, which maps to equipment check-out (screens 2–3).",
+        "A list icon beside the camera is the manual fallback when the code will not scan (screens 2, 6).",
+        "A green 'Check In Successful' message keeps the camera live for continuous scan (screens 4–5).",
+        "'Undo Check In' with Registered and Checked In times corrects a wrong scan or already-in case right away (screen 5)."
+      ],
+      "avoid": [
+        "This flow has no unrecognized-code or already-checked-in error panel, only the normal case plus Undo after success (screens 2–6)."
+      ],
+      "fit": "Inventory: extends automated check-out: host QR scan stands in for barcode or NFC on a kit, identify, confirm, then success; Undo covers mis-scan; list fallback covers failed scan.",
+      "counter_example": false
+    }
+  }
+}

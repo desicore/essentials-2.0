@@ -1,0 +1,233 @@
+{
+  "module": "07-reports",
+  "title": "Reports \u2014 flow inspiration",
+  "intro": "Center-wide and cross-course reporting for Essentials 2.0: scheduled digests for deans, cohort comparison, AI evaluation review/approve, utilisation KPIs, and easy sharing. Sources: Mobbin and Refero (web). Date: 2026-09-30. Course-level reports from inside a course are covered in courses/08-recordings-course-reports; this gallery focuses on delivery and center-level analytics.",
+  "baseline": "Today Essentials ships four reports (Responses, Group Performance, Performance Matrix, Skill Development). Skill areas depend on program-wide naming abbreviations; an activity must be assigned before data is collected, so late setup loses data. Accreditation packs are hand-assembled. Utilisation reporting is the one report every visited center wants and none can get. Direction: automatic weekly/monthly PDF or newsletter for deans (link-shared), one place for learner feedback and faculty grading comparable by course/year/learner/period, KPIs for sim/room usage and faculty hours (calendar-generated), colour/narrative scale for formative work, and AI-generated formative/summative reports. Deep report builders are out of the first cut \u2014 favour zero-config defaults.",
+  "targets": {
+    "products": [
+      8,
+      12
+    ],
+    "flows": [
+      15,
+      25
+    ]
+  },
+  "jobs": [
+    {
+      "id": "scheduled-reports",
+      "title": "Automatic weekly/monthly reports",
+      "description": "Subscribe to a report, pick cadence/recipients/format, email digest / PDF / newsletter layout, pausing, what the recipient sees."
+    },
+    {
+      "id": "comparison",
+      "title": "Compare performance by learner / group / semester / course / faculty",
+      "description": "Pivot and segment controls, cohort comparison, period-over-period, drill from aggregate to one learner, heatmap/matrix views."
+    },
+    {
+      "id": "ai-evaluation",
+      "title": "AI evaluation (formative / summative)",
+      "description": "AI-drafted assessment or summary with evidence links, human review/approve/edit, confidence, formative vs. summative framing."
+    },
+    {
+      "id": "kpis",
+      "title": "Aggregate simulation / resource data (KPIs)",
+      "description": "Utilisation dashboards (rooms, equipment, people-hours), KPI cards with trends, date-range and filter model, empty/low-data states."
+    },
+    {
+      "id": "sharing",
+      "title": "Easy sharing of reports",
+      "description": "Share link with expiry/permissions, export PDF/CSV, embed, send to dean without an account."
+    }
+  ],
+  "products": [
+    {
+      "id": "mixpanel",
+      "name": "Mixpanel",
+      "analog": "adjacent",
+      "why": "Subscribe from the live board (email/Slack + cadence) plus segment matrix and period-vs-cohort Compare \u2014 delivery and comparison without a builder.",
+      "flows": [
+        "mobbin:157d0155-3762-4ce7-81c3-aead25729dce",
+        "mobbin:5d067428-a757-489e-83a9-b33e2d63e6b1",
+        "mobbin:09f6e5da-eaa5-4633-9a33-231f800317f6"
+      ]
+    },
+    {
+      "id": "amplitude",
+      "name": "Amplitude",
+      "analog": "adjacent",
+      "why": "One-line cadence sentence (\u201cEvery [day] at [time]\u201d) for dashboard subscribe \u2014 the clearest zero-config scheduled report.",
+      "flows": [
+        "mobbin:a2ee58b7-b7cc-4381-819b-3dc0299734e7"
+      ]
+    },
+    {
+      "id": "later",
+      "name": "Later",
+      "analog": "adjacent",
+      "why": "Monday email on/off pause plus auto-updating public report URL with view count \u2014 digest pause and dean-without-account share.",
+      "flows": [
+        "mobbin:55855f6e-97e0-4984-9bae-f11cb21e653f",
+        "mobbin:a56091b1-7e85-4b1b-a790-7e7ccbea971b"
+      ]
+    },
+    {
+      "id": "15five",
+      "name": "15Five",
+      "analog": "direct",
+      "why": "Self/Manager/Peer competency markers and Compare-by-Manager pivots \u2014 multi-rater alignment closest to faculty vs learner scoring.",
+      "flows": [
+        "mobbin:6795c6c2-7c7b-4ded-aea2-5d594e67afb0",
+        "mobbin:37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2"
+      ]
+    },
+    {
+      "id": "charma",
+      "name": "Charma",
+      "analog": "direct",
+      "why": "Constrained tags seed FeedbackAI; human picks/edits among drafts before send, with unseen delivery status \u2014 AI eval review loop.",
+      "flows": [
+        "mobbin:e7700240-0fb3-4a8b-aa81-7a640b1aa2c1",
+        "mobbin:560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1",
+        "mobbin:f2d6fb5a-36ee-4c5c-9612-55be9bbd3f28"
+      ]
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies",
+      "analog": "adjacent",
+      "why": "Section checklist (Outline/Blockers/\u2026) with Save & Apply and explicit empty Blockers \u2014 formative narrative lenses, not freeform prompt.",
+      "flows": [
+        "mobbin:75bb46c3-1130-4cba-b194-ba086320dcc6"
+      ]
+    },
+    {
+      "id": "dialpad",
+      "name": "Dialpad",
+      "analog": "adjacent",
+      "why": "Recap length regenerates in place beside transcript/@comments, then link share \u2014 edit/approve with evidence.",
+      "flows": [
+        "mobbin:9589355a-7154-4414-84ca-0228270aa40e"
+      ]
+    },
+    {
+      "id": "cal-com",
+      "name": "Cal.com",
+      "analog": "adjacent",
+      "why": "Booking KPIs with last-period deltas and person\u00d7week routing matrix \u2014 room/slot utilisation analog.",
+      "flows": [
+        "mobbin:aa5da6b8-f37f-485c-9aea-ffa69cc0ed55",
+        "mobbin:ff3d88ad-6b47-453f-9f8f-5f333707e2bf"
+      ]
+    },
+    {
+      "id": "whereby",
+      "name": "Whereby",
+      "analog": "adjacent",
+      "why": "Participant-minutes list\u2192room detail with defined unit \u2014 simulator/room contact-hour cards.",
+      "flows": [
+        "mobbin:9649cfdc-dbbd-4c86-8a2d-9cdd25395064",
+        "mobbin:df187e39-3913-4484-8e5e-6af9a2f548c7"
+      ]
+    },
+    {
+      "id": "deputy",
+      "name": "Deputy",
+      "analog": "adjacent",
+      "why": "Workforce analytics catalog with schedule digests pitch; avoid its Sigma-style builder path.",
+      "flows": [
+        "mobbin:1e4db417-5727-4669-950b-cfb4f457df53"
+      ]
+    },
+    {
+      "id": "juicebox",
+      "name": "Juicebox",
+      "analog": "adjacent",
+      "why": "One Export triad: share-to-web (password) / download / email PDF|IMAGE \u2014 send to dean without an account.",
+      "flows": [
+        "mobbin:a6f030e2-5e59-4c27-80a3-a16e8cd88fc0",
+        "mobbin:8f313eb2-7e52-42e2-9b78-1f6f33252111"
+      ]
+    },
+    {
+      "id": "midday",
+      "name": "Midday",
+      "analog": "adjacent",
+      "why": "Per-metric snapshot public link with explicit expiry \u2014 accreditation-safe share.",
+      "flows": [
+        "mobbin:ed6229f6-fa6d-413b-a6da-2edf7bb734ad"
+      ]
+    }
+  ],
+  "synthesis": {
+    "patterns": [
+      {
+        "title": "Subscribe the view you are looking at",
+        "body": "Amplitude and Mixpanel attach cadence + channel (email/Slack) to the live dashboard/board, not a separate report-builder. Later adds a one-toggle Monday digest and an auto-updating public URL. Essentials should default weekly/monthly dean packs from the center dashboard with pause \u2014 not a chart editor.",
+        "flows": [
+          "mobbin:a2ee58b7-b7cc-4381-819b-3dc0299734e7",
+          "mobbin:157d0155-3762-4ce7-81c3-aead25729dce",
+          "mobbin:55855f6e-97e0-4984-9bae-f11cb21e653f",
+          "mobbin:a56091b1-7e85-4b1b-a790-7e7ccbea971b"
+        ]
+      },
+      {
+        "title": "Compare with pivots, not builders",
+        "body": "Mixpanel separates Time Period vs Segment vs % Overall; 15Five plots Self/Manager/Peer on one competency scale and pivots the same KPIs by Manager. Both show cohort and rater alignment without inventing charts. Map to course/year/learner/faculty filters on Group Performance and Performance Matrix.",
+        "flows": [
+          "mobbin:5d067428-a757-489e-83a9-b33e2d63e6b1",
+          "mobbin:09f6e5da-eaa5-4633-9a33-231f800317f6",
+          "mobbin:6795c6c2-7c7b-4ded-aea2-5d594e67afb0",
+          "mobbin:37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2"
+        ]
+      },
+      {
+        "title": "AI drafts never auto-send",
+        "body": "Charma constrains tags, shows multiple suggestions, requires edit before Submit, and surfaces \u201chasn\u2019t seen this yet.\u201d Fireflies uses section checklists with empty states; Dialpad regenerates Recap length beside transcript evidence then shares a link. Formative = narrative sections; summative stays scored elsewhere.",
+        "flows": [
+          "mobbin:e7700240-0fb3-4a8b-aa81-7a640b1aa2c1",
+          "mobbin:560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1",
+          "mobbin:f2d6fb5a-36ee-4c5c-9612-55be9bbd3f28",
+          "mobbin:75bb46c3-1130-4cba-b194-ba086320dcc6",
+          "mobbin:9589355a-7154-4414-84ca-0228270aa40e"
+        ]
+      },
+      {
+        "title": "Utilisation as a defined unit + period delta",
+        "body": "Whereby\u2019s Participant Minutes (with definition tooltip) and Cal.com\u2019s booking KPIs with \u201cfrom last period\u201d arrows make usage legible. Cal.com\u2019s person\u00d7week matrix and Deputy\u2019s hours catalog extend to faculty contact hours. Prefer calendar-generated room/sim minutes over vanity engagement charts.",
+        "flows": [
+          "mobbin:9649cfdc-dbbd-4c86-8a2d-9cdd25395064",
+          "mobbin:df187e39-3913-4484-8e5e-6af9a2f548c7",
+          "mobbin:aa5da6b8-f37f-485c-9aea-ffa69cc0ed55",
+          "mobbin:ff3d88ad-6b47-453f-9f8f-5f333707e2bf",
+          "mobbin:1e4db417-5727-4669-950b-cfb4f457df53"
+        ]
+      },
+      {
+        "title": "Dean share: link with expiry or email PDF",
+        "body": "Juicebox branches Export into passworded web share, download, or email PDF/IMAGE. Midday shares a per-metric snapshot with an explicit expiry date. Later\u2019s public report URL + view count is the newsletter endpoint. Leadership should not need an Essentials login.",
+        "flows": [
+          "mobbin:a6f030e2-5e59-4c27-80a3-a16e8cd88fc0",
+          "mobbin:8f313eb2-7e52-42e2-9b78-1f6f33252111",
+          "mobbin:ed6229f6-fa6d-413b-a6da-2edf7bb734ad",
+          "mobbin:a56091b1-7e85-4b1b-a790-7e7ccbea971b"
+        ]
+      },
+      {
+        "title": "Avoid embedded report builders",
+        "body": "Deputy\u2019s catalog pitches schedule digests and PDFs but also exposes a Sigma-style builder path \u2014 treat that as the contrast case. Essentials v1 should ship default templates (utilisation, group performance, AI formative) rather than a blank canvas.",
+        "flows": [
+          "mobbin:1e4db417-5727-4669-950b-cfb4f457df53"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Robin/Envoy true workplace utilisation never appeared in Mobbin web results \u2014 Cal.com/Whereby/Deputy are adjacent analogs; how far can booking/participant-minutes map to sim-room camera hours?",
+      "Recipient-side email/PDF newsletter layouts were thin (mostly compose/subscribe UIs). What does the dean\u2019s inbox view need beyond a link + PDF attachment?",
+      "Course-level overview\u2192learner drill-down already lives in courses/08 \u2014 how does center-wide comparison hand off into a course report without duplicating Kajabi/SchoolAI patterns?",
+      "Formative colour/narrative scale is implied by Fireflies sections and Charma competency tags, but no product showed a traffic-light formative score replacing points \u2014 still to invent.",
+      "Multi-campus dashboards remain an access-control rabbit hole; none of the shortlisted flows solve cross-tenant ACL.",
+      "Refero candidates were mostly 1-image stubs and were dropped \u2014 is a Refero gap-fill worth another round for digest recipient views?"
+    ]
+  }
+}

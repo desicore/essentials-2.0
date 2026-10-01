@@ -1,0 +1,216 @@
+{
+  "references": [
+    {
+      "kind": "flow",
+      "id": "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4",
+      "url": "https://mobbin.com/flows/8b62ccef-2298-47f2-8193-d740fac356e4",
+      "app": "Google Home",
+      "platform": "ios",
+      "jobs": [
+        "center-overview"
+      ],
+      "take": "Devices list shows multi-room status with offline (Light Offline) and online items; drill into device detail and troubleshooting help.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/mu4zZn4u",
+        "https://mobbin.com/api/mcp/short/exNy8nyw",
+        "https://mobbin.com/api/mcp/short/R9KQoLtc",
+        "https://mobbin.com/api/mcp/short/eKfzh2ml"
+      ],
+      "title": "Devices by room with an offline light"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:34e0af78-936f-409d-838d-2520cceb8747",
+      "url": "https://mobbin.com/flows/34e0af78-936f-409d-838d-2520cceb8747",
+      "app": "Google Home",
+      "platform": "ios",
+      "jobs": [
+        "center-overview",
+        "system-health"
+      ],
+      "take": "Device detail sheet reveals connection status, room assignment and options to unlink or troubleshoot.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/QpiDeew2",
+        "https://mobbin.com/api/mcp/short/pPnPy24z"
+      ]
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:b173bbc8-5ec9-487b-9837-c0b19fc34805",
+      "url": "https://mobbin.com/flows/b173bbc8-5ec9-487b-9837-c0b19fc34805",
+      "app": "Google Home",
+      "platform": "ios",
+      "jobs": [
+        "system-health"
+      ],
+      "take": "Help flow with searchable troubleshooting guides: Wi-Fi connection issues, device setup, and contact support escalation.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/zSDdWdsS",
+        "https://mobbin.com/api/mcp/short/Pfyh09dS",
+        "https://mobbin.com/api/mcp/short/qkzqDFyh"
+      ],
+      "title": "Device detail to help and Contact us"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:ed948f6a-ac7b-4742-add9-fafc58fda138",
+      "url": "https://mobbin.com/flows/ed948f6a-ac7b-4742-add9-fafc58fda138",
+      "app": "Better Stack",
+      "platform": "web",
+      "jobs": [
+        "system-health"
+      ],
+      "take": "Incidents dashboard shows list of ongoing incidents with status, timestamps, drill into incident detail and post-mortem discussion.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/pU1mL6bS",
+        "https://mobbin.com/api/mcp/short/hlJrLQNV",
+        "https://mobbin.com/api/mcp/short/Li0qxynx",
+        "https://mobbin.com/api/mcp/short/asxpWDwt"
+      ],
+      "title": "Incidents home with setup checklist"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:bbc08ceb-6908-450c-89bb-6e2901ac48cf",
+      "url": "https://mobbin.com/flows/bbc08ceb-6908-450c-89bb-6e2901ac48cf",
+      "app": "Better Stack",
+      "platform": "web",
+      "jobs": [
+        "system-health"
+      ],
+      "take": "Monitor details show health metrics, availability graphs, response-time breakdown by region, last-checked timestamp and incident history.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/q3JVacB0",
+        "https://mobbin.com/api/mcp/short/osuQayip",
+        "https://mobbin.com/api/mcp/short/hD6TlC6Z",
+        "https://mobbin.com/api/mcp/short/KXxsnGy1",
+        "https://mobbin.com/api/mcp/short/q98HdQxR",
+        "https://mobbin.com/api/mcp/short/6PrxTThy",
+        "https://mobbin.com/api/mcp/short/9IdsK1GT"
+      ]
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:fc2ba92b-4783-43da-92c7-8acf4f16a080",
+      "url": "https://mobbin.com/flows/fc2ba92b-4783-43da-92c7-8acf4f16a080",
+      "app": "Better Stack",
+      "platform": "web",
+      "jobs": [
+        "system-health"
+      ],
+      "take": "Mark incident resolved: show incident detail, acknowledgement action, resolution note timeline and metadata (severity, affected team, assigned owner).",
+      "images": [
+        "https://mobbin.com/api/mcp/short/3WYrQ7QU",
+        "https://mobbin.com/api/mcp/short/NDo9U6t1",
+        "https://mobbin.com/api/mcp/short/VPCTvDXT",
+        "https://mobbin.com/api/mcp/short/ZCWOXlzO"
+      ],
+      "title": "Escalate, acknowledge and resolve an incident"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:12a716d9-1a53-4d1c-9565-39899655068f",
+      "url": "https://mobbin.com/flows/12a716d9-1a53-4d1c-9565-39899655068f",
+      "app": "Wix",
+      "platform": "web",
+      "jobs": [
+        "center-overview"
+      ],
+      "take": "Booking calendar overview with date-time grid showing availability, filter by service/staff, calendar navigation, and session booking.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/CF5fItvC",
+        "https://mobbin.com/api/mcp/short/vMqpezeA",
+        "https://mobbin.com/api/mcp/short/K68dColI",
+        "https://mobbin.com/api/mcp/short/IshGN8xI",
+        "https://mobbin.com/api/mcp/short/1mqdzPpb",
+        "https://mobbin.com/api/mcp/short/0NcwCOaq",
+        "https://mobbin.com/api/mcp/short/KZGrzOR9",
+        "https://mobbin.com/api/mcp/short/nVJSNym9"
+      ]
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:df187e39-3913-4484-8e5e-6af9a2f548c7",
+      "url": "https://mobbin.com/flows/df187e39-3913-4484-8e5e-6af9a2f548c7",
+      "app": "Whereby",
+      "platform": "web",
+      "jobs": [
+        "center-overview"
+      ],
+      "take": "Room insights page shows all recorded rooms with status (last active date), usage metrics (participant minutes, sessions), detail drill-in.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/d57frZMS",
+        "https://mobbin.com/api/mcp/short/ObjMb78m",
+        "https://mobbin.com/api/mcp/short/PfnlDkY0"
+      ]
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:2a1a43e9-2f3b-4b41-870c-f6641d3194e2",
+      "url": "https://mobbin.com/flows/2a1a43e9-2f3b-4b41-870c-f6641d3194e2",
+      "app": "Google Workspace",
+      "platform": "web",
+      "jobs": [
+        "center-overview"
+      ],
+      "take": "Buildings and resources overview showing multi-building/floor/room structure with resource types and features (TV, video conferencing), add new.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/l0KI1zCq",
+        "https://mobbin.com/api/mcp/short/286AbJ40",
+        "https://mobbin.com/api/mcp/short/G7P0fU5k"
+      ]
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:7b9d5db3-24d8-49ae-827e-218db2b446dc",
+      "url": "https://mobbin.com/flows/7b9d5db3-24d8-49ae-827e-218db2b446dc",
+      "app": "Rivian",
+      "platform": "ios",
+      "jobs": [
+        "system-health",
+        "center-overview"
+      ],
+      "take": "Home screen shows vehicle battery % glance, multi-card layout (Climate, Energy, Gear Guard, Location) with status indicators and one-tap actions.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/3sVSzH94",
+        "https://mobbin.com/api/mcp/short/ALTmak5M",
+        "https://mobbin.com/api/mcp/short/QPIQjx8v",
+        "https://mobbin.com/api/mcp/short/vAnyuTtN",
+        "https://mobbin.com/api/mcp/short/GZQzc6Wm",
+        "https://mobbin.com/api/mcp/short/7ZjNvPwe"
+      ],
+      "title": "Vehicle home: one status, one action"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:38c7839a-40b1-4c22-9f11-485bafcff90b",
+      "url": "https://mobbin.com/flows/38c7839a-40b1-4c22-9f11-485bafcff90b",
+      "app": "Tesla",
+      "platform": "ios",
+      "jobs": [
+        "system-health"
+      ],
+      "take": "Battery health check shows healthy/warning state with detailed context (energy retention, age, degradation) and recommended action.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/iVERadUr",
+        "https://mobbin.com/api/mcp/short/PfqPAMBm"
+      ]
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:c04335bf-aa4f-4eb7-852b-daedf18e418c",
+      "url": "https://mobbin.com/flows/c04335bf-aa4f-4eb7-852b-daedf18e418c",
+      "app": "Tesla",
+      "platform": "ios",
+      "jobs": [
+        "system-health"
+      ],
+      "take": "Support flow with service request primary action, troubleshooting browse, manual access, and contact escalation path.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/urS9KJII",
+        "https://mobbin.com/api/mcp/short/2aVHPWXQ",
+        "https://mobbin.com/api/mcp/short/iIvBdNZs"
+      ]
+    }
+  ]
+}

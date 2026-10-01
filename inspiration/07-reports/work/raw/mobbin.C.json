@@ -1,0 +1,124 @@
+{
+  "references": [
+    {
+      "id": "mobbin:1b6e72ae-3b26-4fab-9881-e7e7f3f2ba62",
+      "source": "mobbin",
+      "app": "Amplitude",
+      "title": "Filtering by date range",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/1b6e72ae-3b26-4fab-9881-e7e7f3f2ba62",
+      "images": ["https://mobbin.com/api/mcp/short/YQol7B7B", "https://mobbin.com/api/mcp/short/xAzVHEVv", "https://mobbin.com/api/mcp/short/04TsGxQH", "https://mobbin.com/api/mcp/short/mMf7i1HH"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Date range picker with calendar interface enables filtering analytics dashboard to compare metrics across custom time periods."
+    },
+    {
+      "id": "mobbin:7d8efbe1-6d09-4f5c-85b5-008c6de662f5",
+      "source": "mobbin",
+      "app": "Charma",
+      "title": "Filtering dashboard",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7d8efbe1-6d09-4f5c-85b5-008c6de662f5",
+      "images": ["https://mobbin.com/api/mcp/short/r1Y9PvuH", "https://mobbin.com/api/mcp/short/zFwDfSGt", "https://mobbin.com/api/mcp/short/pFt8MDE8"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Dashboard with dropdown time period filters (Last 30 days, Year to date) and multiple KPI metrics with trend indicators."
+    },
+    {
+      "id": "mobbin:51ae0a88-f606-42ed-800b-ea8881ebcf75",
+      "source": "mobbin",
+      "app": "Plain",
+      "title": "Filtering insights",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/51ae0a88-f606-42ed-800b-ea8881ebcf75",
+      "images": ["https://mobbin.com/api/mcp/short/7CgXu8d8", "https://mobbin.com/api/mcp/short/XXQpCw5m", "https://mobbin.com/api/mcp/short/Y9yUaeVH", "https://mobbin.com/api/mcp/short/VBv2skWb", "https://mobbin.com/api/mcp/short/UutSkZeV", "https://mobbin.com/api/mcp/short/YSr5i2y7", "https://mobbin.com/api/mcp/short/otS2KzMW"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Insights reporting with custom date range picker, multiple KPI cards showing support metrics, and empty state handling for periods with no data."
+    },
+    {
+      "id": "mobbin:35fa9b80-e4c4-4a3a-ab55-29cb1f127278",
+      "source": "mobbin",
+      "app": "Deputy",
+      "title": "Adding a filter",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/35fa9b80-e4c4-4a3a-ab55-29cb1f127278",
+      "images": ["https://mobbin.com/api/mcp/short/TLyTFOtN", "https://mobbin.com/api/mcp/short/OsPzvp2n", "https://mobbin.com/api/mcp/short/jWfxnU2K", "https://mobbin.com/api/mcp/short/xhKSschd", "https://mobbin.com/api/mcp/short/NudwEXH4", "https://mobbin.com/api/mcp/short/Kvnuph3c"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Shift report builder with column configuration, filter add/remove controls for workforce analytics, and customizable chart/report settings."
+    },
+    {
+      "id": "mobbin:766eff87-4f98-488e-948a-c1ad0029a569",
+      "source": "mobbin",
+      "app": "Seline",
+      "title": "Filtering dashboard by date",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/766eff87-4f98-488e-948a-c1ad0029a569",
+      "images": ["https://mobbin.com/api/mcp/short/falpH4cb", "https://mobbin.com/api/mcp/short/gZqOzMqK", "https://mobbin.com/api/mcp/short/4R8jO9QV", "https://mobbin.com/api/mcp/short/fpdkSqLP", "https://mobbin.com/api/mcp/short/cYaz1sHy", "https://mobbin.com/api/mcp/short/lMApYXZb"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Analytics dashboard with KPI cards (Total Visits, Views per Visit, Bounce Rate, Visit Duration) and interactive date range filtering."
+    },
+    {
+      "id": "mobbin:103c462e-f741-4697-a9c9-157028cd9a44",
+      "source": "mobbin",
+      "app": "Threads",
+      "title": "Insights",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/103c462e-f741-4697-a9c9-157028cd9a44",
+      "images": ["https://mobbin.com/api/mcp/short/Z25jY7mh", "https://mobbin.com/api/mcp/short/AtVouoFC", "https://mobbin.com/api/mcp/short/nTSUf1ZM", "https://mobbin.com/api/mcp/short/XjzkeVTt"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Social analytics with weekly recap email summary showing engagement metrics, views, interactions, and new followers with timeframe selector."
+    },
+    {
+      "id": "mobbin:c07e126b-a055-4e4a-9b91-3338e803784e",
+      "source": "mobbin",
+      "app": "Outseta",
+      "title": "Engagement (Reports)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c07e126b-a055-4e4a-9b91-3338e803784e",
+      "images": ["https://mobbin.com/api/mcp/short/tUqfhhA9", "https://mobbin.com/api/mcp/short/HmskQ9pe", "https://mobbin.com/api/mcp/short/dNZmUgad"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Engagement reporting dashboard with KPI cards showing people created and share controls for report distribution."
+    },
+    {
+      "id": "mobbin:be9de8ce-b605-4725-a81f-bfc244373709",
+      "source": "mobbin",
+      "app": "Ferndesk",
+      "title": "Overview",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/be9de8ce-b605-4725-a81f-bfc244373709",
+      "images": ["https://mobbin.com/api/mcp/short/zneAfgUa", "https://mobbin.com/api/mcp/short/ZaTtpke3"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Help center overview report with KPI cards (Unique visitors, Article views, Searches) and daily visits bar chart."
+    },
+    {
+      "id": "mobbin:2fb6db4b-a04d-4ffe-b7a5-6ebb219da761",
+      "source": "mobbin",
+      "app": "Google Analytics",
+      "title": "Home",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/2fb6db4b-a04d-4ffe-b7a5-6ebb219da761",
+      "images": ["https://mobbin.com/api/mcp/short/d0xoqqn5", "https://mobbin.com/api/mcp/short/TTDluBbm", "https://mobbin.com/api/mcp/short/TgU6MFeo", "https://mobbin.com/api/mcp/short/NN0TdaLE", "https://mobbin.com/api/mcp/short/aDzTkzzj"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Analytics home dashboard with KPI cards, active users and event count metrics, country/device dimension breakdowns, and insights recommendations."
+    },
+    {
+      "id": "mobbin:36f1d439-80c2-4632-a2c2-fd336c4e9790",
+      "source": "mobbin",
+      "app": "n8n",
+      "title": "Insights",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/36f1d439-80c2-4632-a2c2-fd336c4e9790",
+      "images": ["https://mobbin.com/api/mcp/short/UbTywbW9", "https://mobbin.com/api/mcp/short/4op6nxHo", "https://mobbin.com/api/mcp/short/42YXLQ1Q", "https://mobbin.com/api/mcp/short/hbKXNxSk", "https://mobbin.com/api/mcp/short/D9OiISRY", "https://mobbin.com/api/mcp/short/62faAfbT", "https://mobbin.com/api/mcp/short/hpbrG3mA"],
+      "platform": "web",
+      "jobs": ["kpis"],
+      "take": "Workflow insights page with KPI cards (Prod executions, Failed executions, Failure rate, Time saved) and time-range selector for trend analysis."
+    }
+  ]
+}

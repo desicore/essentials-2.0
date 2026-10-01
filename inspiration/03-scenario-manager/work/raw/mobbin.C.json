@@ -1,0 +1,437 @@
+{
+  "references": [
+    {
+      "id": "mobbin:456a85db-8ced-4de2-b541-c685bca7ec0c",
+      "source": "mobbin",
+      "app": "ClickUp",
+      "title": "Creating checklists",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/456a85db-8ced-4de2-b541-c685bca7ec0c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/l3kuMvRa",
+        "https://mobbin.com/api/mcp/short/mZHKHMDI",
+        "https://mobbin.com/api/mcp/short/XjGN87QR",
+        "https://mobbin.com/api/mcp/short/8iHpvqem",
+        "https://mobbin.com/api/mcp/short/ZMnqtZEd"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Faculty creates checklists with items and templates within a task management project."
+    },
+    {
+      "id": "mobbin:9a30daf0-d42c-4119-8849-c668a527d68c",
+      "source": "mobbin",
+      "app": "Jobber",
+      "title": "Adding a job form",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9a30daf0-d42c-4119-8849-c668a527d68c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/l28sPmc0",
+        "https://mobbin.com/api/mcp/short/49vbyFi1",
+        "https://mobbin.com/api/mcp/short/r0505LeP",
+        "https://mobbin.com/api/mcp/short/5qRbrxFC",
+        "https://mobbin.com/api/mcp/short/qMUoFZri",
+        "https://mobbin.com/api/mcp/short/x4NL77rW",
+        "https://mobbin.com/api/mcp/short/xFQcCg1J",
+        "https://mobbin.com/api/mcp/short/9oPAKAhq",
+        "https://mobbin.com/api/mcp/short/kixYZ2s8"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Service provider builds custom forms with required questions and section headers for field jobs."
+    },
+    {
+      "id": "mobbin:908fac0b-b720-4eb8-b992-5ed2da827e6b",
+      "source": "mobbin",
+      "app": "Tally",
+      "title": "Creating a form",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/908fac0b-b720-4eb8-b992-5ed2da827e6b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/BWnwFZch",
+        "https://mobbin.com/api/mcp/short/NyjLY5m8",
+        "https://mobbin.com/api/mcp/short/PX2itdOx",
+        "https://mobbin.com/api/mcp/short/O06JJ1mq",
+        "https://mobbin.com/api/mcp/short/gpZXzJXs",
+        "https://mobbin.com/api/mcp/short/6tNY5ESJ",
+        "https://mobbin.com/api/mcp/short/zIUEEFnO",
+        "https://mobbin.com/api/mcp/short/B5jbpV7Z"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "User builds a form with text, multiple choice, and required field settings, then shares with QR code."
+    },
+    {
+      "id": "mobbin:aa3e5e62-1c1e-4740-bd23-fba061be2809",
+      "source": "mobbin",
+      "app": "Grain",
+      "title": "Creating a scorecard",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/aa3e5e62-1c1e-4740-bd23-fba061be2809",
+      "images": [
+        "https://mobbin.com/api/mcp/short/HUennTUM",
+        "https://mobbin.com/api/mcp/short/kBEbNOeT",
+        "https://mobbin.com/api/mcp/short/zs2DSz5D",
+        "https://mobbin.com/api/mcp/short/vKhyBhA6",
+        "https://mobbin.com/api/mcp/short/EIXwRJjD",
+        "https://mobbin.com/api/mcp/short/Pd0wFK4b",
+        "https://mobbin.com/api/mcp/short/PGcJInOp"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Team manager creates a meeting scorecard with description and rating-based questions."
+    },
+    {
+      "id": "mobbin:20f3097d-15ae-48d8-8406-53269c4a0b31",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Creating an assessment",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/20f3097d-15ae-48d8-8406-53269c4a0b31",
+      "images": [
+        "https://mobbin.com/api/mcp/short/avDUIyXC",
+        "https://mobbin.com/api/mcp/short/6oqVcWmJ",
+        "https://mobbin.com/api/mcp/short/bANcq8tR",
+        "https://mobbin.com/api/mcp/short/urOUnvbp",
+        "https://mobbin.com/api/mcp/short/fhZQSpy7",
+        "https://mobbin.com/api/mcp/short/Ui5FdM67"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Instructor creates an assessment with auto-grading, passing grades, and standard alignment."
+    },
+    {
+      "id": "mobbin:4b3ec2d8-3c52-4cc0-96e9-e5600a48109c",
+      "source": "mobbin",
+      "app": "Linear Mobile",
+      "title": "Adding a list (checkbox)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4b3ec2d8-3c52-4cc0-96e9-e5600a48109c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/nprSXEAu",
+        "https://mobbin.com/api/mcp/short/Lwx77SMf",
+        "https://mobbin.com/api/mcp/short/gyp6Z9wu"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Learner creates and checks off checkbox items on iOS mobile app."
+    },
+    {
+      "id": "mobbin:ac1faa2f-5571-4b33-b48b-42be8fcd8df1",
+      "source": "mobbin",
+      "app": "Fabric",
+      "title": "Adding checklists",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/ac1faa2f-5571-4b33-b48b-42be8fcd8df1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LYFC4MIw",
+        "https://mobbin.com/api/mcp/short/NGWGOy9J",
+        "https://mobbin.com/api/mcp/short/jW1PdRoL"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "User adds and populates checklist items in notes app on iOS."
+    },
+    {
+      "id": "mobbin:45d647b3-4be4-443e-876c-2d20ee32cdc3",
+      "source": "mobbin",
+      "app": "Wanderlog",
+      "title": "Adding a checklist",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/45d647b3-4be4-443e-876c-2d20ee32cdc3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TUoM4dsP",
+        "https://mobbin.com/api/mcp/short/WTngJs1S",
+        "https://mobbin.com/api/mcp/short/N2BXOGU1",
+        "https://mobbin.com/api/mcp/short/qsJQNRgd",
+        "https://mobbin.com/api/mcp/short/GLJsvukK",
+        "https://mobbin.com/api/mcp/short/5CJeeM4p",
+        "https://mobbin.com/api/mcp/short/l6fftGhQ"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Traveler selects checklist items from predefined templates and checks them off during trip."
+    },
+    {
+      "id": "mobbin:5f172c65-a838-4e1b-8def-a607fa69aa4b",
+      "source": "mobbin",
+      "app": "ClickUp",
+      "title": "Creating checklists",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5f172c65-a838-4e1b-8def-a607fa69aa4b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/02bIar5C",
+        "https://mobbin.com/api/mcp/short/5JAGexuW",
+        "https://mobbin.com/api/mcp/short/Aaknk3IS",
+        "https://mobbin.com/api/mcp/short/RCHCiCDN",
+        "https://mobbin.com/api/mcp/short/o8iGWn2G"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Team member adds and checks checklist items on mobile app within a task."
+    },
+    {
+      "id": "mobbin:f8d34d78-f96d-4686-bfec-a453ee6ba89f",
+      "source": "mobbin",
+      "app": "Typeform",
+      "title": "Share",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f8d34d78-f96d-4686-bfec-a453ee6ba89f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wvCI57GK",
+        "https://mobbin.com/api/mcp/short/BlvgXwD0",
+        "https://mobbin.com/api/mcp/short/wbbdf87p"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Author shares typeform survey via link and QR code with no login required for respondent."
+    },
+    {
+      "id": "mobbin:cd6532d6-0f41-4597-a876-c91800792ea1",
+      "source": "mobbin",
+      "app": "Flodesk",
+      "title": "Sharing a link (forms)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/cd6532d6-0f41-4597-a876-c91800792ea1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/jFfJwRrR",
+        "https://mobbin.com/api/mcp/short/Ugh2vFmT",
+        "https://mobbin.com/api/mcp/short/dNRsDhYC",
+        "https://mobbin.com/api/mcp/short/BhHDf1WD"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Author generates shareable form link and generates QR code for distribution."
+    },
+    {
+      "id": "mobbin:f696f197-ee38-495d-9e31-24dda51de0bc",
+      "source": "mobbin",
+      "app": "Airtable",
+      "title": "Publishing a form",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f696f197-ee38-495d-9e31-24dda51de0bc",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GqJPXukJ",
+        "https://mobbin.com/api/mcp/short/9M9khRL5",
+        "https://mobbin.com/api/mcp/short/FwFjYasF",
+        "https://mobbin.com/api/mcp/short/RjV3dbbZ"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Admin publishes a form with sharing permissions; allows anyone on the web to submit."
+    },
+    {
+      "id": "mobbin:92e2c97b-4413-497c-8acd-e18ef46c6488",
+      "source": "mobbin",
+      "app": "Skype",
+      "title": "Generating a QR code",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/92e2c97b-4413-497c-8acd-e18ef46c6488",
+      "images": [
+        "https://mobbin.com/api/mcp/short/dOCSEYep",
+        "https://mobbin.com/api/mcp/short/893eLvYh",
+        "https://mobbin.com/api/mcp/short/ILKSaMlL"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "User generates QR code for sharing link within app settings."
+    },
+    {
+      "id": "mobbin:d5d9f40a-96a8-4783-b095-3a6298afb881",
+      "source": "mobbin",
+      "app": "Brave Browser",
+      "title": "Searching by scan QR code",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d5d9f40a-96a8-4783-b095-3a6298afb881",
+      "images": [
+        "https://mobbin.com/api/mcp/short/n272iHXV",
+        "https://mobbin.com/api/mcp/short/wH0viJQs",
+        "https://mobbin.com/api/mcp/short/b0xRblqv",
+        "https://mobbin.com/api/mcp/short/PVDD1C2S"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Learner scans QR code with phone camera to open shared form or link."
+    },
+    {
+      "id": "mobbin:8e92fa17-8c07-42d8-aab2-961f50adc1c2",
+      "source": "mobbin",
+      "app": "Microsoft Copilot",
+      "title": "Scanning QR and barcode",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8e92fa17-8c07-42d8-aab2-961f50adc1c2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1SkVxmp7",
+        "https://mobbin.com/api/mcp/short/YJDl6GSn",
+        "https://mobbin.com/api/mcp/short/uEqpshXG"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "User opens QR scanner from app menu and scans code to open link."
+    },
+    {
+      "id": "mobbin:0574560e-23b1-4036-aa3c-9d60030bbace",
+      "source": "mobbin",
+      "app": "lululemon",
+      "title": "Scanning QR code",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/0574560e-23b1-4036-aa3c-9d60030bbace",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LdykFlOR",
+        "https://mobbin.com/api/mcp/short/jADZ6L41",
+        "https://mobbin.com/api/mcp/short/uL4MnKt0"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Customer scans QR code from iOS app to complete order lookup or product scan."
+    },
+    {
+      "id": "mobbin:a31b9287-49da-4068-8d10-26a6a4e7dcde",
+      "source": "mobbin",
+      "app": "LinkedIn",
+      "title": "Scanning a code",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/a31b9287-49da-4068-8d10-26a6a4e7dcde",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FmoklPxA",
+        "https://mobbin.com/api/mcp/short/KS2z0ocY"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Professional scans QR code from iOS to access profile or shared content."
+    },
+    {
+      "id": "mobbin:c7ec1d19-4938-4a20-87ea-dc9b92e82380",
+      "source": "mobbin",
+      "app": "Tally",
+      "title": "Giving feedback",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c7ec1d19-4938-4a20-87ea-dc9b92e82380",
+      "images": [
+        "https://mobbin.com/api/mcp/short/n4nF6ChJ",
+        "https://mobbin.com/api/mcp/short/pN0NzHNl",
+        "https://mobbin.com/api/mcp/short/IrvR80a7"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Respondent fills out anonymous feedback form and sees thank-you confirmation."
+    },
+    {
+      "id": "mobbin:906d952d-78cd-4412-a071-7344f7dbf2f8",
+      "source": "mobbin",
+      "app": "Tines",
+      "title": "Submitting a form",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/906d952d-78cd-4412-a071-7344f7dbf2f8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/89W9IYZ2",
+        "https://mobbin.com/api/mcp/short/dfOyr30Z",
+        "https://mobbin.com/api/mcp/short/dNhucwiB",
+        "https://mobbin.com/api/mcp/short/WhapaLJm",
+        "https://mobbin.com/api/mcp/short/v2GOIYPx"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "User fills form fields and sees success confirmation message on submission."
+    },
+    {
+      "id": "mobbin:77d05612-f0e9-4a11-8c0d-6b9f0d7c017c",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Giving feedback (survey)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/77d05612-f0e9-4a11-8c0d-6b9f0d7c017c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7QiFtj0J",
+        "https://mobbin.com/api/mcp/short/a37K7sgv",
+        "https://mobbin.com/api/mcp/short/ektSbGIG",
+        "https://mobbin.com/api/mcp/short/ogTYe8Pf",
+        "https://mobbin.com/api/mcp/short/K96Ndb4q",
+        "https://mobbin.com/api/mcp/short/yeFQEP7q",
+        "https://mobbin.com/api/mcp/short/Makysm7e",
+        "https://mobbin.com/api/mcp/short/4sLQVi18"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Learner completes multi-question feedback survey and receives completion message."
+    },
+    {
+      "id": "mobbin:7630318d-e997-4a85-b20d-81a1e8ca8c49",
+      "source": "mobbin",
+      "app": "Remote",
+      "title": "Sending a reply",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7630318d-e997-4a85-b20d-81a1e8ca8c49",
+      "images": [
+        "https://mobbin.com/api/mcp/short/I3env4Bj",
+        "https://mobbin.com/api/mcp/short/HKRRpD7C",
+        "https://mobbin.com/api/mcp/short/XSS7l440",
+        "https://mobbin.com/api/mcp/short/S49zya7K",
+        "https://mobbin.com/api/mcp/short/SNrCAVAb"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Employee replies to anonymous feedback message with confirmation link."
+    },
+    {
+      "id": "mobbin:1226cdfb-f8f6-4aaf-be7e-4f4980ba964b",
+      "source": "mobbin",
+      "app": "Sprig",
+      "title": "Adding a thank you card",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/1226cdfb-f8f6-4aaf-be7e-4f4980ba964b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/BYYE6KQ4",
+        "https://mobbin.com/api/mcp/short/9jIDCK7K",
+        "https://mobbin.com/api/mcp/short/FWneWE5f"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Survey author configures thank-you message and completion experience for respondents."
+    }
+  ]
+}

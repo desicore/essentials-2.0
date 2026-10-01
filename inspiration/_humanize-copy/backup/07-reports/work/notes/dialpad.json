@@ -1,0 +1,26 @@
+{
+  "product": "dialpad",
+  "flows": {
+    "mobbin:9589355a-7154-4414-84ca-0228270aa40e": {
+      "summary": "On Call Review, the user reads an AI Recap beside video/comments, opens Choose a summary length, waits while a formatted summary generates, then gets a regenerated longer Recap with share/copy still available.",
+      "steps": [
+        "Call Review — Recap + timestamped Comments",
+        "Recap tools — edit/copy/thumbs beside player",
+        "Choose a summary length — Short/Medium/Long/Bulleted",
+        "Recap — Please wait while formatted summary generates",
+        "Regenerated Recap — longer narrative + share/link"
+      ],
+      "steal": [
+        "Summary length menu (Short/Medium/Long/Bulleted) regenerates Recap in place (steps 3–5) — one control, no builder.",
+        "Wait copy on Recap while reformatting (step 4) — length change is async and visible.",
+        "Timestamped comments with @mention beside Recap (steps 1–2) — faculty annotate the same session report.",
+        "Copy link / Share on the call review header (steps 1, 5) — link-first sharing for stakeholders."
+      ],
+      "avoid": [
+        "Empty #Moments rail with no next action (steps 1–5) — hide or explain until highlights exist."
+      ],
+      "fit": "Session AI recap with length control + link share — maps to faculty/dean formative summaries, not utilisation KPI tables.",
+      "jobs": ["ai-evaluation", "sharing"]
+    }
+  }
+}

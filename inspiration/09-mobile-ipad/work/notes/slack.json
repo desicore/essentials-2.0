@@ -1,0 +1,28 @@
+{
+  "product": "slack",
+  "flows": {
+    "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7": {
+      "summary": "In an active huddle the user opens More, turns on push-to-talk, then gets a large hold-to-speak microphone control with clear muted versus live cues.",
+      "steps": [
+        "Huddle More menu: turn on push-to-talk",
+        "Muted microphone with Push-to-talk label",
+        "Large green microphone button ready",
+        "Button held down; rings show it is live"
+      ],
+      "steal": [
+        "Push-to-talk is a mode you switch on under More (screen 1), so open mic versus hold-to-talk is a decision, not assumed.",
+        "A full-width muted push-to-talk screen with an X to leave (screen 2) shows you are not live before speaking.",
+        "An oversized bottom microphone button (screens 3 to 4) lets faculty who are gloved or holding gear hold to talk with one thumb.",
+        "A mute badge on the You tile plus the bottom control (screens 2 to 4) shows live or muted in two places."
+      ],
+      "avoid": [
+        "Burying push-to-talk only under More (screen 1) is wrong for a dedicated room intercom; the mode should not require hunting in overflow."
+      ],
+      "fit": "Mobile and iPad app: the phone wins as an intercom microphone. Hold-to-talk with a large button reduces open-mic risk into a live sim room. This extends the baseline intercom, not the SRV.",
+      "jobs": [
+        "intercom"
+      ],
+      "counter_example": false
+    }
+  }
+}

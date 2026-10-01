@@ -1,0 +1,35 @@
+{
+  "flowCount": 21,
+  "flowIdsSample": [
+    "flow-mobbin_3A157d0155-3762-4ce7-81c3-aead25729dce",
+    "flow-mobbin_3A5d067428-a757-489e-83a9-b33e2d63e6b1",
+    "flow-mobbin_3A09f6e5da-eaa5-4633-9a33-231f800317f6"
+  ],
+  "afterKpisClick": [
+    "product-cal-com",
+    "product-whereby",
+    "product-deputy"
+  ],
+  "hiddenKpis": [
+    "product-mixpanel",
+    "product-amplitude",
+    "product-later",
+    "product-15five",
+    "product-charma",
+    "product-fireflies",
+    "product-dialpad",
+    "product-juicebox",
+    "product-midday"
+  ],
+  "afterSearch": [
+    "product-charma"
+  ],
+  "lightbox": {
+    "open": false,
+    "lbDisplay": null,
+    "lbClass": null,
+    "lbImgSrc": "data:image/webp;base64,UklGRprbAABXRUJQV",
+    "hasNext": true,
+    "afterNextSrc": "data:image/webp;base64,UklGRgrRAABXRUJQV"
+  }
+}

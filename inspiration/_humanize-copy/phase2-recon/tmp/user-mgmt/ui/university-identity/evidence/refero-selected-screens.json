@@ -1,0 +1,141 @@
+{
+  "records": [
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/calendly.com/desktop/4ab944f3-be31-469f-9f6b-5bc394e13002_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/calendly.com/desktop/c607fef7-ed59-409f-818a-ca326392bd09_preview.jpg",
+      "colors": [
+        [
+          19,
+          107,
+          241
+        ],
+        [
+          31,
+          31,
+          31
+        ],
+        [
+          153,
+          158,
+          166
+        ],
+        [
+          251,
+          251,
+          251
+        ],
+        [
+          112,
+          114,
+          110
+        ]
+      ],
+      "uuid": "4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+      "page_url": "https://calendly.com/app/admin/login/user_provisioning",
+      "hex_colors": [
+        "0x136BF1",
+        "0x1F1F1F",
+        "0x999EA6",
+        "0xFBFBFB",
+        "0x70726E"
+      ],
+      "site": {
+        "domain": "calendly.com",
+        "description": "Free Online Appointment Scheduling Software",
+        "name": "Calendly"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Button",
+        "Dropdown",
+        "Tabs",
+        "Sidebar & Drawer",
+        "Icon",
+        "Avatar"
+      ],
+      "page_types": [
+        "Settings"
+      ],
+      "fonts": [
+        null,
+        "Google Sans",
+        "Proxima Nova"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/4fc8ea47-ce2b-40b1-8817-71e138851fcc",
+      "content": {
+        "description": "The screen shows an admin center interface for managing organization settings, specifically focused on 'Login' under the 'User provisioning' tab. The layout includes a fixed vertical sidebar on the left with sections labeled Dashboard, People (Users, Groups), Organization settings (Login, Billing, Branding, Permissions, Security), and Templates (Managed events). The selected sidebar item 'Login' is highlighted with a subtle blue background. The main content area on the right features a clean, minimalistic and modern design on a white background with soft gradient gray on the right side. The header says \"Organization settings\" in smaller gray text, followed by a prominent, bold heading \"Login.\" Below are three tabs: Single sign-on, User provisioning (selected, indicated by blue underline), and Domain control (disabled or inactive, gray text). There is a blue badge labeled \"ENTERPRISE\" below the tabs, aligned left. The main text is black and dark gray with paragraphs detailing user provisioning features, benefits, and SCIM integration. A link styled as underlined blue text labeled \"visit our help center\" is included. There is a prominent blue rounded button labeled \"Contact us.\" Top right corner contains a white button with a blue border labeled \"Invite user\" with icon, followed by a circular user avatar and dropdown arrow. Bottom right corner has a minimal \"Chat with us\" prompt inside a rounded rectangular white button with a subtle shadow and a chat icon. The left sidebar features monochrome icons accompanying each menu label. The font is a clean, modern sans-serif (likely similar to Inter or Helvetica), with header text around 20-24px, subheader tabs about 16px, body text around 14px with 1.4 line spacing. The layout is a two-column structure, with the sidebar about 200-250px wide, full height, and the main content occupying the remaining horizontal space. The interface emphasizes usability, clarity and minimal distraction with whitespace, subtle blue accent color (#0052CC or similar) for interactive elements and focus states, and gray tones (#6B7280 for inactive text, #111827 for main text).",
+        "layout": "The layout uses a two-column structure: a vertical left sidebar navigation column and a wide main content area on the right. The sidebar is fixed-width (~220px), full height, with sections grouped by category: Dashboard, People, Organization settings, Templates. Each section contains multiple vertically stacked navigation items with small icons aligned left, followed by text labels. The currently active item ('Login') is visually highlighted with a blue background and blue text. The main content is structured with a top-level label ('Organization settings') aligned left, followed by a main heading ('Login') below, and a tab group with three tabs horizontally spaced. The selected tab is centered below the text and underlined in blue. The content below includes a small blue 'ENTERPRISE' badge left aligned, paragraphs of descriptive text with normal line spacing and font weight, an inline hyperlink, and a large blue call-to-action rounded button aligned bottom left in the text block. Top right corner contains horizontally aligned 'Invite user' button and user avatar with dropdown arrow. The bottom right corner includes a small rounded chat button. Padding is consistent: about 20px vertically and horizontally inside main content area, sidebar items with about 16px vertical spacing. The visual hierarchy is clear with appropriate font sizes and weight weights separating headings, subheadings, and body text. Layout keywords: two-column layout, vertical sidebar, tab navigation, grouped menu sections, call-to-action button, header and subheader arrangement, top-right user actions, floating chat button.",
+        "functions": "Users can navigate the admin center's organization settings, focusing on login and provisioning configurations. They can switch between tabs such as Single sign-on, User provisioning, and Domain control to view relevant information and options. On the User provisioning tab, users can read about automated secure management of user identities, SCIM integration, and its benefits. The interface provides a clear call to action via a 'Contact us' button, enabling users to reach support or sales for assistance with this enterprise feature. The sidebar allows quick access to other admin areas like Dashboard, Users, Groups, Billing, Branding, Permissions, and Security. The 'Invite user' button on the top right facilitates adding new users to the organization. Overall, the screen enables organizational administrators to learn about, configure, and manage user login provisioning securely and efficiently, with clear navigation and support options enhancing ease of use and task completion."
+      }
+    },
+    {
+      "thumbnail_url": "https://images.refero.design/screenshots/zendesk.com/desktop/60db8fbd-fffa-4d42-bbe5-0c6e22108058_thumb.jpg",
+      "preview_url": "https://images.refero.design/screenshots/zendesk.com/desktop/fc093dd5-3226-46bd-ae1a-c9b26cbb58a2_preview.jpg",
+      "colors": [
+        [
+          105,
+          113,
+          120
+        ],
+        [
+          129,
+          133,
+          138
+        ],
+        [
+          49,
+          57,
+          61
+        ],
+        [
+          157,
+          164,
+          170
+        ],
+        [
+          243,
+          251,
+          251
+        ]
+      ],
+      "uuid": "91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "page_url": "https://refero.zendesk.com/admin/account/security/sso/create-saml",
+      "hex_colors": [
+        "0x697178",
+        "0x81858A",
+        "0x31393D",
+        "0x9DA4AA",
+        "0xF3FBFB"
+      ],
+      "site": {
+        "domain": "zendesk.com",
+        "description": "Customer Service Software & Sales CRM",
+        "name": "Zendesk"
+      },
+      "ux_patterns": [],
+      "ui_elements": [
+        "Button",
+        "Text Field",
+        "Breadcrumb",
+        "Navigation Bar",
+        "Search Field",
+        "Sidebar & Drawer",
+        "Icon"
+      ],
+      "page_types": [
+        "Settings"
+      ],
+      "fonts": [
+        "San Francisco"
+      ],
+      "platform": "web",
+      "refero_url": "https://refero.design/pages/91dab9ae-9676-49b6-8b26-01dde539cb0e",
+      "content": {
+        "description": "The screen is a configuration form for creating a new SAML (Security Assertion Markup Language) setup within an admin panel. The overall style is clean and minimalist, with a mostly white background (#FFFFFF) and subtle gray (#F5F7F9) for the left sidebar background. The primary color used for interactive elements like the Save button is a medium blue (#0062FF). The left sidebar is a vertical navigation bar with categories such as Account, Billing, Security, Brand management, Appearance, Tools, and People, each category collapsible with sub-items listed below in smaller font. The sidebar text uses a dark gray (#212B36) for primary text and lighter gray for secondary text. The main content area is aligned left with a breadcrumb at the top in smaller font, using link color blue (#0062FF) for clickable elements, followed by a bold page title in black with smaller descriptive text below. Below that are labeled input fields stacked vertically with black bold labels, smaller descriptive or helper text in grey (#6B7280), and single-line text input boxes with light gray borders (#D1D5DB). The input fields included: Configuration name, SAML SSO URL, Certificate fingerprint, Remote logout URL, and IP ranges. The footer of the form includes two textual buttons: Cancel link in blue text and a rectangular Save button in blue (#0062FF) with white font. The layout uses a two-column vertical navigation on the left and a main single column form input area on the right with spacing and consistent vertical rhythm. Typography appears to be a sans-serif font such as Inter or similar, with font sizes approximately 16px for main text and 12-14px for helper texts, aligned left. There are no visible animations or interactive states shown in the screenshot. Overall, the screen conveyes a professional admin settings interface focused on form completion for security configuration purposes.",
+        "layout": "The layout is divided into two main vertical columns. The left column is a vertical navigation sidebar approximately 20%-25% of the screen width, with multiple grouped navigation sections: Account (expandable with Billing, Security, Brand management, Appearance, Tools subitems), People, and others. This sidebar uses icons, text labels, and collapsible menu items with indentation for subitems. The right column, taking about 75%-80% width, is the main content area containing the breadcrumb navigation on top (three breadcrumb links separated by >), a prominent page title and subtitle, then a vertical form structured in a single column. The form includes multiple labeled input fields stacked vertically, each label followed by helper text and then an input box. The bottom of the form features two horizontally aligned buttons aligned right: a text-based Cancel link followed by a blue Save button. There is consistent padding around content areas, with left sidebar separated by a subtle divider line. The layout emphasizes clarity and whitespace, enabling focused form completion without distractions. No visible grids or rows beyond the two-column split and vertical stacking of form elements are present.",
+        "functions": "Users can perform specific actions on this screen to configure SAML single sign-on settings. They can enter text into labeled input fields such as Configuration name, SAML SSO URL, Certificate fingerprint, Remote logout URL, and IP ranges, each supported by helper text explaining their purpose. The input fields provide visual cues with borders and placeholder text areas indicating editable regions. After filling out the form, users can either cancel the process by clicking the 'Cancel' link or save the entered configuration by clicking the blue 'Save' button. These actions provide feedback and control over the configuration process. At a medium level, users complete the entire SAML configuration form to enable integration with an identity provider for single sign-on functionality within the system. The form inputs correspond to required parameters for security protocol setup, guiding users through the necessary data points to establish SAML authentication. Broadly, the user achieves the goal of adding or editing SAML SSO configuration in the account security settings. The screen facilitates this by providing clear labels, explanatory helper text, and a structured layout to ensure the user understands each parameter's role. The dual-column layout with navigation and the form main area supports efficient workflow within the admin portal."
+      }
+    }
+  ]
+}

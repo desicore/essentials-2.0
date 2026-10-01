@@ -1,0 +1,30 @@
+{
+  "product": "yuka",
+  "flows": {
+    "mobbin:78ae405b-2c59-46f6-94bc-933c189d235d": {
+      "summary": "From Help, the user picks a recently scanned product, chooses an issue category, selects which fields are wrong, writes a note, attaches a mandatory photo (camera or library), and gets a thank-you + 48h follow-up confirmation.",
+      "steps": [
+        "Help — recent scanned products + general problem list",
+        "Product context — What's the issue? categories",
+        "Correct a product — pick incorrect fields (Next disabled)",
+        "Ingredients checked — Next enabled",
+        "Detail form — empty note + Add a photo Mandatory (Send disabled)",
+        "Note filled — Missing ingredients; photo still required",
+        "Action sheet — Take a picture / Photo library",
+        "Thank you alert — message sent, reply within 48 hours"
+      ],
+      "steal": [
+        "Recent scans as reporting shortcuts with thumb + relative time (step 1)—jump to the item you just touched.",
+        "Keep scanned-item header (photo/name/status/age) while picking issue type (steps 2, 8).",
+        "Mandatory photo badge + disabled Send until evidence attached (steps 5–7).",
+        "Camera vs library action sheet with Take a picture first (step 7); closed-loop Thank you + SLA (step 8)."
+      ],
+      "avoid": [
+        "Deep multi-step wizard (issue → field pick → note → photo) for a gloved sim-tech flag—too many screens for missing/broken on a pre-session walk."
+      ],
+      "fit": "Fits equipment-check analog: starts from a scanned item, issue categories, mandatory photo—not a room QR checklist or tick-all walkthrough; mobile beats SRV because tech is at the broken gear; extend Baseline sim-tech setup with item-level flag + evidence handoff.",
+      "jobs": ["equipment-check"],
+      "counter_example": false
+    }
+  }
+}

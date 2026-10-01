@@ -1,0 +1,250 @@
+{
+  "module": "08-debrief-review",
+  "title": "Debrief and review: ideas from other products",
+  "intro": "This page shows examples from other products for the Debrief and review module of Essentials 2.0, grouped by product. They cover rewatching recorded simulation sessions and a QR code that turns a faculty member's phone into a second screen. They also cover AI debrief summaries and clips, recording the debrief itself, group grading, and downloading or sharing recordings. Access to recordings from a course, live control during recording, and the general mobile app are covered by other modules. Sources: the design reference libraries Mobbin and Refero, researched on 30 September 2026.",
+  "baseline": "The session video review screen (SRV) from LearningSpace is reused. Video sits on the left. Right-panel tabs are Annotation, Data Entry, Layout and Transcript. A timeline split into chapters has clickable manual and AI annotation markers, plus a searchable transcript labelled by speaker. Today faculty annotations are visible to learners on the debrief-room screen, which faculty dislike. The concept: when the recording ends, the SRV shows a QR for the debrief. Faculty scan it and get a phone web page with their annotations, AI annotations, the AI summary and AI clips. The big screen shows only the video, controlled from the phone. The debrief audio is captured and turned into AI notes, with a phone voice memo as fallback.",
+  "targets": {
+    "products": [
+      8,
+      12
+    ],
+    "flows": [
+      18,
+      25
+    ]
+  },
+  "jobs": [
+    {
+      "id": "rewatch",
+      "title": "Rewatch videos",
+      "description": "Jump to moments from markers, chapters or the transcript. Change playback speed, switch angles, and resume where you left off."
+    },
+    {
+      "id": "second-screen",
+      "title": "Separate app or QR: see notes and annotations",
+      "description": "Scan a QR on the big screen. The phone becomes the private remote and notes view while the big screen shows only video."
+    },
+    {
+      "id": "ai-debrief",
+      "title": "AI-based debriefing (formative and summative)",
+      "description": "An AI summary of what happened, suggested discussion points, and moments linked to evidence. Faculty edit and approve before showing."
+    },
+    {
+      "id": "ai-clips",
+      "title": "AI-provided short clips",
+      "description": "Short highlight clips from long recordings. Faculty trim, review and publish them."
+    },
+    {
+      "id": "record-debrief",
+      "title": "Record the debriefing and attach the evaluation to reports",
+      "description": "Record the discussion itself as audio, transcribe it, and attach outcomes and grades to the session record."
+    },
+    {
+      "id": "group-grading",
+      "title": "Group grading",
+      "description": "Grade or give feedback to a whole team at once, with overrides per person and a rubric for the group."
+    },
+    {
+      "id": "download-share",
+      "title": "Download videos and share recordings easily",
+      "description": "Share a link with expiry and permissions, share with a specific learner, or download after a consent step."
+    },
+    {
+      "id": "camera-views",
+      "title": "360 camera and PTZ in review",
+      "description": "Switch camera angles or use a 360 view during playback."
+    }
+  ],
+  "products": [
+    {
+      "id": "grain",
+      "name": "Grain",
+      "analog": "direct",
+      "why": "Grain is the closest twin of the SRV. AI outcomes and action items carry times that jump the video. Transcript search stays in sync with a speaker talk-time timeline. A rubric scorecard sits under the video and is sent to one named learner. The AI summary is live with Share before anyone approves it.",
+      "flows": [
+        "mobbin:2523ca18-b9ac-4576-8555-a20d27016d3e",
+        "mobbin:47438eb0-03cb-427d-a962-dd32fd19c268",
+        "mobbin:6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9"
+      ]
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies",
+      "analog": "adjacent",
+      "why": "Fireflies is the only product that previews AI output on past meetings before the AI runs for real. It also has the clearest human-finished clip: you drag across the highlighted transcript to select a clip, then add a title and choose 'Who can access' before Done.",
+      "flows": [
+        "mobbin:cc79d322-0fc9-4e2e-ac99-94fc9bee94fb",
+        "mobbin:e91b3485-47e0-458f-a4d9-a934d59e64e6",
+        "mobbin:0384c559-2a2e-4a37-9cb8-7be772d37a27"
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "analog": "adjacent",
+      "why": "Canva is the only flow that shows the big-screen side of a QR handoff. It shows a large QR plus short code, a live participant count, and a Hide control that clears the join banner from the public display. The phone side hands out remote control by QR or link, with Pause.",
+      "flows": [
+        "mobbin:f28f8936-895b-450a-8e9b-5a83c12ba692",
+        "mobbin:f2fe9686-5232-45d6-816e-8d7d99eae0dc"
+      ]
+    },
+    {
+      "id": "google-tv",
+      "name": "Google TV",
+      "analog": "adjacent",
+      "why": "Google TV uses the phone as the full playback remote. 'Watch on TV' hands playback to the big screen, and a persistent 'Living Room TV' bar confirms the connection. The progress bar and 30-second skip buttons appear only on the phone.",
+      "flows": [
+        "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6"
+      ]
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter AI",
+      "analog": "adjacent",
+      "why": "Otter AI captures a conversation on the phone with a live transcript and one-tap highlight, comment and photo markers while recording. Its web review is this module's example of what not to do: the AI summary can be copied, shared or posted to Slack with no edit or approve step.",
+      "flows": [
+        "mobbin:d7a0fc7c-713c-40b5-bbc4-4447ba7e6a8f",
+        "mobbin:c2a5d587-f496-4eb4-bc78-509bd3c32787"
+      ]
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "analog": "adjacent",
+      "why": "Descript has a person set the rules for AI clips first: clip count, duration, layout and an optional topic before Submit. You can still change where each clip starts and ends by editing the transcript text.",
+      "flows": [
+        "mobbin:71f5995e-099a-4f4a-ac23-6e4d884cf1f2"
+      ]
+    },
+    {
+      "id": "frame-io",
+      "name": "Frame.io",
+      "analog": "direct",
+      "why": "Frame.io keeps share settings in a sidebar next to the video: expiry presets (24 hours, 1 week, 2 weeks) above a calendar, a passphrase, and a separate Downloads switch.",
+      "flows": [
+        "mobbin:c537e383-521f-4785-8478-0ba54a3e6f74"
+      ]
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "analog": "adjacent",
+      "why": "Dropbox has the most detailed link settings: separate view and edit links, expiry, password and a switch to block downloads. It warns clearly about who the link reaches, and shows 'Restrictions apply' under 'Copy link' after saving.",
+      "flows": [
+        "mobbin:8fee942f-3bba-4b19-949e-9011dfee633f"
+      ]
+    },
+    {
+      "id": "classdojo",
+      "name": "ClassDojo",
+      "analog": "wildcard",
+      "why": "ClassDojo gives feedback to the group first. Faculty award a rubric-like skill to a whole group in one tap, with a big confirmation and 'Undo'. A whole-class report then opens into each learner's dated log.",
+      "flows": [
+        "mobbin:b83099d3-97b5-452a-ab79-cece306cc444",
+        "mobbin:8e7b5ca8-2782-41a0-a0e8-8a6b29ec8af1"
+      ]
+    },
+    {
+      "id": "beside",
+      "name": "Beside",
+      "analog": "adjacent",
+      "why": "Beside has a dedicated in-person recorder with a floating control that keeps recording while you navigate. It ends in an overview with the transcript and AI to-dos, which is the model for the phone voice-memo fallback. No consent prompt is shown.",
+      "flows": [
+        "mobbin:b5d1550e-5945-48c2-97c4-e12e9ea63dc4"
+      ]
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "analog": "wildcard",
+      "why": "Google Maps is the only 360 look-around evidence found. An immersive view splits with a 2D map whose peg shows where you are facing. You can switch capture dates without leaving 360.",
+      "flows": [
+        "mobbin:337a0dfd-6591-4af6-97b3-397dcc6eac6f"
+      ]
+    },
+    {
+      "id": "dazn",
+      "name": "DAZN",
+      "analog": "adjacent",
+      "why": "DAZN has a related-highlights shelf directly under the main player, with a 10-second back button and a panel with 'Watch now' and 'Share'. It was fetched for camera switching, but the screens show none.",
+      "flows": [
+        "mobbin:7f182913-8d7d-4483-ac22-3ef0275de47b"
+      ]
+    }
+  ],
+  "synthesis": {
+    "patterns": [
+      {
+        "title": "AI claims link to the moment that proves them",
+        "body": "Grain, Fireflies and Otter all attach times to AI summary items (outcomes, action items, outline entries), and a click jumps both video and transcript. This is how 'evidence-linked moments' work in an AI debrief, and it maps onto the SRV's clickable AI annotation markers. None of the three puts an approval step between the AI text and the Share button.",
+        "flows": [
+          "mobbin:2523ca18-b9ac-4576-8555-a20d27016d3e",
+          "mobbin:e91b3485-47e0-458f-a4d9-a934d59e64e6",
+          "mobbin:c2a5d587-f496-4eb4-bc78-509bd3c32787"
+        ]
+      },
+      {
+        "title": "Human checks come before the AI runs or at publishing, not after the summary",
+        "body": "The review steps found are at the edges. Fireflies makes you preview a custom AI prompt on at least two past meetings before it runs. Descript asks for clip count, duration and topic before Submit. Fireflies soundbites need a title and an access level before Done. AI summaries themselves (Grain, Otter web) go straight to Share. Essentials needs both: faculty criteria up front and an explicit reveal before learners or the big screen see AI output.",
+        "flows": [
+          "mobbin:cc79d322-0fc9-4e2e-ac99-94fc9bee94fb",
+          "mobbin:71f5995e-099a-4f4a-ac23-6e4d884cf1f2",
+          "mobbin:0384c559-2a2e-4a37-9cb8-7be772d37a27",
+          "mobbin:c2a5d587-f496-4eb4-bc78-509bd3c32787"
+        ]
+      },
+      {
+        "title": "The big screen shows join controls briefly; control lives on the phone",
+        "body": "Canva's presenting screen shows a QR, a short code for phones that will not scan, a live participant count and a Hide control. Hide clears the banner once people have joined. Its phone flow and Google TV's put playback controls, seeking and connection status on the phone only, so the shared display stays clean. No single flow shows both sides at once. Canva's two flows together come closest.",
+        "flows": [
+          "mobbin:f28f8936-895b-450a-8e9b-5a83c12ba692",
+          "mobbin:f2fe9686-5232-45d6-816e-8d7d99eae0dc",
+          "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6"
+        ]
+      },
+      {
+        "title": "Share policy is set beside the video, with expiry presets and a separate download switch",
+        "body": "Frame.io keeps share settings in a sidebar next to playback with relative expiry presets. Dropbox splits view from edit links and confirms 'Restrictions apply' after saving. Fireflies asks who can access a clip at the moment it is created. All three treat download as its own switch, separate from viewing. None shows a consent or confirmation step before the download itself.",
+        "flows": [
+          "mobbin:c537e383-521f-4785-8478-0ba54a3e6f74",
+          "mobbin:8fee942f-3bba-4b19-949e-9011dfee633f",
+          "mobbin:0384c559-2a2e-4a37-9cb8-7be772d37a27"
+        ]
+      },
+      {
+        "title": "Group-first feedback and individual rubrics are separate products today",
+        "body": "ClassDojo awards one skill to a whole group in a single tap, confirms it with a large message and Undo, and reports whole-class first with a path into each learner. Grain scores one speaker at a time against a rubric under the video and sends the result to that person. The usual case in Essentials needs ClassDojo's group default with Grain's rubric and per-person override in the same screen. No product shows the combination.",
+        "flows": [
+          "mobbin:b83099d3-97b5-452a-ab79-cece306cc444",
+          "mobbin:8e7b5ca8-2782-41a0-a0e8-8a6b29ec8af1",
+          "mobbin:6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9"
+        ]
+      },
+      {
+        "title": "Phone capture keeps recording in the background and accepts markers while live",
+        "body": "Otter shows a live transcript with one-tap highlight, comment and photo markers during recording. Beside offers a dedicated in-person mode and a floating recorder that keeps working while you move around the app. Both end in an overview (summary, transcript, to-dos) attached to the conversation record. This is the pattern for capturing the debrief discussion on the faculty phone. Neither asks participants for consent.",
+        "flows": [
+          "mobbin:d7a0fc7c-713c-40b5-bbc4-4447ba7e6a8f",
+          "mobbin:b5d1550e-5945-48c2-97c4-e12e9ea63dc4"
+        ]
+      },
+      {
+        "title": "Speaker-aware transcripts double as a participation view",
+        "body": "Grain colours transcript speakers to match a talk-time timeline under the video. Otter shows talk-time percentages and lets you rematch speakers who were labelled wrong. In a team simulation this is formative data (who led, who stayed silent), and speaker correction matters because AI labelling in a noisy sim room will be wrong.",
+        "flows": [
+          "mobbin:47438eb0-03cb-427d-a962-dd32fd19c268",
+          "mobbin:2523ca18-b9ac-4576-8555-a20d27016d3e",
+          "mobbin:c2a5d587-f496-4eb4-bc78-509bd3c32787"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Camera views are a clear gap. No Mobbin or Refero flow shows switching between camera angles or controlling a remote-controlled camera that pans, tilts and zooms (PTZ) during playback of a recording. DAZN and Tesla were fetched for this but show a highlights shelf and a clip library. Google Maps is the only 360 evidence and it is free outdoor roaming, not a fixed room on a timeline. Multi-camera sim review needs its own prototype or research outside these sources.",
+      "No source shows the full second-screen handoff in one flow, and none shows private notes on the phone while the shared screen stays clean. Canva and Google TV only show remote control. All phone-side evidence is phone-sized, so the tablet-versus-phone conflict is not settled by this research.",
+      "What should 'faculty approve' mean with a group waiting in the debrief room? Every AI summary observed shares immediately. The checks found are at setup or clip level. Nobody has tested whether to reveal items one at a time on the big screen, or keep everything hidden until faculty release it.",
+      "Consent is missing everywhere. Beside and Otter start recording an in-person conversation without a consent prompt. Dropbox and Frame.io can disable downloads but show no confirm-before-download step. Both the recording-faculty-speech consent and the download consent need original design.",
+      "ClassDojo's group feedback is behaviour points for school children and Grain's scorecard grades one person. How a group rubric with per-person overrides is stored, reported and released to each learner is open.",
+      "No example shows how long AI clips take to make. Descript and Fireflies generate clips from recordings that already exist, and no screen shows how long generation takes. The 'clips ready immediately after the session' constraint needs a technical answer, not a gallery one."
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "product": "grain",
+  "flows": {
+    "mobbin:aa3e5e62-1c1e-4740-bd23-fba061be2809": {
+      "summary": "Admin opens Workspace Scorecards with nothing listed yet, starts Experience with a required description, adds a 1-5 rating question, and opens the type menu (1-5 versus Yes/No) with Create enabled.",
+      "steps": [
+        "Workspace Scorecards: No Scorecards and New Scorecard",
+        "Untitled Scorecard: required Description; Create disabled",
+        "Titled Experience: Description empty; Create disabled",
+        "Description 'Overall meeting experience'; still Add Question only",
+        "Empty Question block with 1-5 Rating preview",
+        "Question filled: 'Did the meeting feel productive…'",
+        "Type menu open: 1-5 Rating versus Yes / No"
+      ],
+      "steal": [
+        "A workspace-scoped library shows 'No Scorecards' before any exist (screen 1).",
+        "Create stays disabled until description and a question exist (screens 2-5).",
+        "Per-item type list limited to 1-5 Rating or Yes/No (screen 7).",
+        "A reusable workspace scorecard, not buried inside one meeting (Scorecards in the side menu)."
+      ],
+      "avoid": [
+        "Only two response types (screen 7) is too thin for clinical rubrics with multi-point competencies."
+      ],
+      "fit": "Scenario manager: extend the cut-down checklist editor as a shared workspace rubric library (checklist can live beside scenarios, not only inside SCE tabs).",
+      "counter_example": false
+    },
+    "mobbin:36d2c1e1-60fa-49f5-af4c-419966039677": {
+      "summary": "Admin edits Workspace Meetings defaults: auto-record all meetings (member-as-organizer), access/link defaults, languages, recap recipients, and notification switches, with 'Workspace updated' messages.",
+      "steps": [
+        "Defaults: Don't auto record any meetings",
+        "Auto record all meetings plus organizer checkbox; short message",
+        "Language multi-select open under access area",
+        "Languages partially selected; short message",
+        "Full defaults: access, link, languages, recap section",
+        "Recap to team domain; comment notify On; duplication On",
+        "Recap set; comment/duplication Off; short message"
+      ],
+      "steal": [
+        "Workspace auto-record default list over meeting-type categories plus an organizer-only checkbox (screens 1-2).",
+        "Admin lock icons on auto-record, access and link defaults (screens 1-5).",
+        "Meeting recap emails as a separate recipient policy (screens 6-7).",
+        "A 'Workspace updated' message after each change (screens 2, 4, 7)."
+      ],
+      "avoid": [
+        "Org-global Defaults for new workspace members (all screens) are not per-scenario-template automation like Essentials phase auto-record."
+      ],
+      "fit": "Scenario manager: nearby to SCE scheduling auto-record/announcements: steal meeting-type filters and locks, but scope is workspace-global, not per-scenario.",
+      "counter_example": false
+    }
+  }
+}

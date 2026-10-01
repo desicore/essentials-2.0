@@ -1,0 +1,29 @@
+{
+  "product": "aboard",
+  "flows": {
+    "mobbin:6ec8698e-d2a3-4d6f-a711-3e4025e51a71": {
+      "summary": "Admin opens the company home with admin quick actions and approval widgets, then lands on the employee portal home with personal first-time setup and self-service labels.",
+      "steps": [
+        "Admin home with profile menu",
+        "Employee portal home"
+      ],
+      "steal": [
+        "The profile menu shows name and role ('Sam Lee, Admin') and an explicit 'Employee portal' link to switch views without logging out (screen 1).",
+        "Admin-only quick-action buttons sit under the greeting (Add employee, Create post, New onboarding), plus an approvals widget ('1 unhandled' time-off request) (screen 1).",
+        "The employee home shows a left icon sidebar, personal labels, and a full-width 'Go to your onboarding' banner (screen 2).",
+        "Empty widget areas keep structure ('You have no assigned tasks', 'No upcoming birthdays this week') instead of collapsing the layout (screen 1)."
+      ],
+      "avoid": [
+        "The role switch is a one-way 'Employee portal' jump. The employee screen does not show the current role label or an obvious path back to Admin (screens 1-2)."
+      ],
+      "fit": "Dashboard: replaces the deferred role-specific widget layer. The admin home keeps User management and Courses quick actions and approval queues on the dashboard. The employee home hands off first-time setup and profile tasks to Courses and User management and keeps personal recording and feedback entry light.",
+      "jobs": [
+        "role-home",
+        "navigation",
+        "action-items",
+        "first-run"
+      ],
+      "counter_example": false
+    }
+  }
+}

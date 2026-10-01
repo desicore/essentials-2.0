@@ -1,0 +1,44 @@
+{
+  "product": "amazon-alexa",
+  "flows": {
+    "mobbin:7db28eda-b3e6-4948-ae78-198c4bc7d466": {
+      "summary": "From Home favorites, the user opens Devices, scans room Groups and a device list, and sees health from unresponsive to Online, On or Off.",
+      "steps": [
+        "Home with Activity and Favorites tiles",
+        "Devices: room Groups and unresponsive",
+        "Devices: Off badges and Echo Online",
+        "Devices: On badges and Echo Online"
+      ],
+      "steal": [
+        "Room Groups such as Bedroom sit above the flat device list (screen 2), so the user jumps by place before scanning endpoints.",
+        "A red dot and 'Device is unresponsive' under the device name (screen 2) show the problem without opening the device.",
+        "Controllable devices show On/Off badges while always-on devices show Offline/Online text (screens 3-4), matching how each device works.",
+        "A map-pin control with 'Set up map view…' (screen 2) offers a floor-plan glance as another overview."
+      ],
+      "avoid": [
+        "Dashed 'Shop' and Suggested Favorite cards (screens 1-2) clutter the health overview with commerce placeholders."
+      ],
+      "fit": "Recording: informs Center Overview and scheduled self-test with a room-grouped device list showing unresponsive versus Online/On/Off."
+    },
+    "mobbin:4a2af2e6-86bb-4af2-a8cf-dc106008e299": {
+      "summary": "From Communication, the user opens 'Announce', writes text, uses voice, or picks a sound preset, sends, and gets confirmation that the message reached all supported devices.",
+      "steps": [
+        "Communication: 'Announce' beside Drop In",
+        "Announcement with type, mic, presets",
+        "Sounds library with play buttons",
+        "Typed message ready to send",
+        "Success: announced to all devices"
+      ],
+      "steal": [
+        "'Announce' and 'Drop In' are separate top actions (screen 1), because one-way broadcast and live intercom are different controls.",
+        "Keyboard, Sounds and Popular tabs sit under one compose screen (screens 2-3), so the user can type, speak or pick a cue without leaving.",
+        "One-tap sound presets and an 'Add Sounds' list with preview play (screens 2-3) give stock cues for common room prompts.",
+        "After send, 'Announced to all supported devices' plus 'New Announcement' (screen 5) proves delivery and lets the user repeat."
+      ],
+      "avoid": [
+        "The flow broadcasts to 'all supported devices' with no room or device picker (screen 5), but Essentials needs explicit room versus simulator (manikin) targets."
+      ],
+      "fit": "Recording: shapes the announcement panel outside the SRV as compose then confirm delivery; Essentials should add room versus simulator targets before send."
+    }
+  }
+}

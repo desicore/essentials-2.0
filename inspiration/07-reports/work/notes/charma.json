@@ -1,0 +1,67 @@
+{
+  "product": "charma",
+  "flows": {
+    "mobbin:e7700240-0fb3-4a8b-aa81-7a640b1aa2c1": {
+      "summary": "The user picks strength and improvement tags, waits up to about 30 seconds for FeedbackAI, then chooses one of three AI drafts to edit.",
+      "steps": [
+        "Strengths and Opportunities tags: custom, select up to 2",
+        "Tags and Examples fields for selected traits",
+        "FeedbackAI loading, up to 30 seconds",
+        "Choose suggestion: 3 AI drafts, Generate new",
+        "Suggestion list: drafts include custom-tag phrasing",
+        "Suggestion selected with green check, ready for Next"
+      ],
+      "steal": [
+        "Tag fields, with a limit of two areas to improve, narrow what the AI writes about before it starts (screens 1 to 2).",
+        "The loading text says it can take up to 30 seconds and shows placeholder bars, so the wait is expected (screen 3).",
+        "The user chooses from three suggestions or asks for new ones, so a person picks the tone before editing (screens 4 to 6).",
+        "A note under the card says the text comes from GPT-3, so readers know the formative feedback is AI-written (screens 3 to 6)."
+      ],
+      "avoid": [
+        "The AI drafts repeat playful custom tags ('good potato') in the feedback; clinical wording has to be checked and tied to competencies (screens 5 to 6)."
+      ],
+      "fit": "Reports: an AI-drafted formative note for faculty, written from competency tags. It adds to Responses and Skill Development, not to accreditation packs."
+    },
+    "mobbin:560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1": {
+      "summary": "From the open 360 reviews, the user writes an anonymous peer review from chosen adjectives, lets FeedbackAI draft the text, reviews and submits it, and sees '1 of 2' progress.",
+      "steps": [
+        "360 Open Reviews: Give Peer Review and progress bar",
+        "Anonymous Reviews: How it works and Let's do this",
+        "Questionnaire: adjective labels and Generate Feedback",
+        "Tags selected (helpful, team player)",
+        "AI narrative filled in rich-text editor",
+        "More competency sections collapsed; Saved draft",
+        "Review and Submit: tags and narratives per competency",
+        "Review and Submit footer: Back and Submit",
+        "Success window: Nice work and Shared successfully",
+        "Dashboard: 1 of 2 reviews submitted progress"
+      ],
+      "steal": [
+        "A 'How it works' screen explains that chosen adjectives feed FeedbackAI and that peers stay anonymous, so privacy and the AI's role are clear before starting (screen 2).",
+        "'Generate Feedback' drafts text from the chosen adjectives, and the user is asked to 'sprinkle in specific examples' (screens 3 to 5).",
+        "A review screen gathers the tags and text for every competency before 'Submit' (screens 7 to 8).",
+        "After sending, the person who asked for reviews sees a '1 of 2 reviews submitted' progress bar (screens 1 and 10)."
+      ],
+      "avoid": [
+        "An emoji and GIF toolbar in the feedback editor is too casual for summative clinical reports (screens 5 to 6)."
+      ],
+      "fit": "Reports: an AI write-up of formative feedback from peers or faculty, based on competency labels. Pooling answers anonymously fits reports with several raters per skill, not room-use numbers."
+    },
+    "mobbin:f2d6fb5a-36ee-4c5c-9612-55be9bbd3f28": {
+      "summary": "The user picks an AI suggestion, edits it and submits, then sees the feedback marked 'Jon hasn't seen this yet', with Edit and Delete still available.",
+      "steps": [
+        "Choose AI suggestion, one selected",
+        "Edit and send: editable draft and Submit Feedback",
+        "1:1 Feedback and Kudos: unseen feedback card",
+        "Feed: unseen status with Edit, Delete, Comment"
+      ],
+      "steal": [
+        "The chosen draft opens for editing before 'Submit', so AI text is never sent automatically (screens 1 to 2).",
+        "A 'hasn't seen this yet' status on the shared feedback shows whether it has been read (screens 3 to 4).",
+        "Edit and Delete stay available until it is read, so faculty can take feedback back before the learner opens it (screens 3 to 4)."
+      ],
+      "avoid": [],
+      "fit": "Reports: a faculty note written after the AI draft, with control over when it is seen. Useful for formative learner reports before PDFs are shared with deans."
+    }
+  }
+}

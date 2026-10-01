@@ -1,0 +1,53 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 0.6276674999999998,
+  "result": {
+    "status": "failed_no_mutation",
+    "operation": {
+      "tool": "use_figma",
+      "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+      "skillNames": "figma-use,figma-use-figjam",
+      "returnedObject": null,
+      "error": "Error: Previously uploaded image hash unavailable in this file\n    at <anonymous> (PLUGIN_1_SOURCE:8:65)",
+      "figmaDebugUUID": "859c949f-168d-4eba-83c6-e7b05dd25e8e",
+      "failurePoint": "guard: figma.getImageByHash('ad30546d76a88165564171a353af89280591ade5') returned null (line 8)",
+      "atomicity": "use_figma scripts are atomic — the script did not execute past the throw; no fills, fonts, or nodes were changed"
+    },
+    "skillsRead": [
+      "/Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-use/SKILL.md",
+      "/Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-use-figjam/SKILL.md",
+      "/Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/figma-use/references/api-reference.md#images"
+    ],
+    "affectedIds": {
+      "pageId": "5:422",
+      "targetNodeId": "100:423",
+      "createdNodeIds": [],
+      "mutatedNodeIds": [],
+      "preservedUntouched": [
+        "0:1"
+      ]
+    },
+    "imageHash": "ad30546d76a88165564171a353af89280591ade5",
+    "visualAssessment": {
+      "inlineScreenshot": null,
+      "zendeskSamlFieldsObserved": null,
+      "note": "No screenshot produced — script threw before target.screenshot(); nothing to assess."
+    },
+    "persistedScreenshot": {
+      "attempted": false,
+      "reason": "get_screenshot verification was conditional on script success; per instructions execution stopped at the actual error with no blind retry."
+    },
+    "screenshotArtifactUrl": null,
+    "diagnosis": "The hash is not resident in file tN2AM7RZD2InF1LYnN0zcn. getImageByHash resolves only images already committed to this file, so the prior HTTP 200 upload response did not result in a committed asset in this file (or the hash belongs to a different file/session). Hash reuse cannot recover the fill; readback of 100:423 showing only its original solid fill is consistent with this.",
+    "nextStepRequiringYourDecision": "Recovery via hash reuse is exhausted. The only supported path is a fresh upload_assets call for fileKey tN2AM7RZD2InF1LYnN0zcn with count:1, nodeId:'100:423', scaleMode:'FIT', then POST the bytes to the returned single-use submitUrl. You instructed me not to request another upload, so I stopped and did not initiate it.",
+    "constraintsHonored": [
+      "no createImage/createImageAsync",
+      "no setPluginData/closePlugin/notify/async IIFE",
+      "single setCurrentPageAsync targeting 5:422",
+      "no outside-image fetch, no new files/pages, no other mutations",
+      "Page 1 (0:1) untouched"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "product": "fireflies",
+  "flows": {
+    "mobbin:cc79d322-0fc9-4e2e-ac99-94fc9bee94fb": {
+      "summary": "In step 1 of 2 of creating an AI app, the author writes an AI prompt, picks at least two meetings, and turns on 'Preview Notes' before moving on.",
+      "steps": [
+        "Prompt editor and empty meeting select",
+        "Open meeting checklist dropdown",
+        "Two meetings checked",
+        "Preview Notes enabled (2 selected)"
+      ],
+      "steal": [
+        "The screen puts the plain-language instructions on the left and 'select meetings to preview / refine from output' on the right (screen 1).",
+        "'Preview Notes' stays disabled until at least two meetings are chosen, which forces a trial run (screens 1 to 4).",
+        "'Preview Notes' comes before 'Next', so a person checks the output before finishing setup (screen 4)."
+      ],
+      "avoid": [
+        "The flow never shows step 2 or a share or publish screen, so it is weak evidence for approving before learners see anything. It only covers previewing during setup."
+      ],
+      "fit": "Debrief and review: faculty could set what the AI should pull out of sim recordings and preview it on past sessions before it runs on live debriefs.",
+      "counter_example": false
+    },
+    "mobbin:e91b3485-47e0-458f-a4d9-a934d59e64e6": {
+      "summary": "The user opens a meeting, reads the general summary and notes with time links, searches the speaker-labelled transcript or asks AskFred, and controls playback (speed, 10-second skips, download, Share).",
+      "steps": [
+        "Summary and Notes with timed link and transcript",
+        "Same review with transcript Find/Replace",
+        "Summary bullets, Notes heading and AskFred tab"
+      ],
+      "steal": [
+        "AI notes contain blue time links (for example 06:33) that jump from a claim to that moment in the recording (screen 1).",
+        "AskFred, a tab next to Transcript, keeps questions about the recording beside the searchable transcript (screens 1 to 3).",
+        "One bar at the bottom holds 1x speed, 10-second skips, Download and thumbs up or down on the AI output (screen 1)."
+      ],
+      "avoid": [
+        "Share is available as soon as the AI summary appears, with no edit or approve step before sharing. That goes against the human review in the baseline."
+      ],
+      "fit": "Debrief and review: the closest Fireflies match to the SRV's summary, transcript and playback. Use it for AI debrief text linked to evidence, but add a faculty approval before learners can see it.",
+      "jobs": [
+        "ai-debrief",
+        "rewatch"
+      ],
+      "counter_example": false
+    },
+    "mobbin:0384c559-2a2e-4a37-9cb8-7be772d37a27": {
+      "summary": "From the clips panel, the user drags across a range to make a soundbite while the transcript highlights it. They then name the clip, pick a playlist and who can access it, and tap Done.",
+      "steps": [
+        "Clips panel: Create or AI Soundbite",
+        "Create dialog: Drag and Select defaults",
+        "Range set with transcript range highlighted",
+        "Soundbite created: title and who can access",
+        "Add to playlist picker open"
+      ],
+      "steal": [
+        "'Create Soundbite' (by hand) and 'AI Soundbite' sit side by side (screen 1).",
+        "Dragging across the recording, with START and END fields, colours the chosen part of the transcript purple so it can be checked before creating (screens 2 to 3).",
+        "Tabs for 'Magic Soundbite' and 'Keyword Soundbite' offer other ways to make clips without leaving the window (screen 2).",
+        "After creating, the window asks for a title and 'Who can access' (Participants only) before Done, so a person finishes the clip (screen 4)."
+      ],
+      "avoid": [],
+      "fit": "Debrief and review: a strong model for human review of AI clips before publishing. Trim against the transcript, publish with permissions, and attach the clip once faculty tap Done.",
+      "jobs": [
+        "ai-clips",
+        "download-share"
+      ],
+      "counter_example": false
+    }
+  }
+}

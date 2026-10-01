@@ -1,0 +1,68 @@
+{
+  "product": "grain",
+  "flows": {
+    "mobbin:d7ecf80a-5cb1-4429-ab2f-b2c40a50f743": {
+      "summary": "From the Meetings list, the user accepts a green auto-record banner, chooses All meetings or Next meeting, sees a confirmation toast, and lands back on the list with the banner gone.",
+      "steps": [
+        "Meetings list — Turn on auto record banner",
+        "Banner CTA — All meetings vs Next meeting",
+        "Toast — Auto-record settings updated",
+        "Meetings list after auto-record enabled"
+      ],
+      "steal": [
+        "Persistent green banner on the recording library: benefit copy + one CTA, dismissible X (step 1) — surfaces zero-touch recording without hunting settings.",
+        "Decision point: All meetings vs Next meeting only (step 2) — permanent default vs one-session trial without a settings page.",
+        "Bottom-right toast 'Auto-record settings updated' (step 3) — confirms the preference change without leaving the list."
+      ],
+      "avoid": [
+        "Enabling auto-record only from the finished-meetings library (steps 1–4) — sim operators need the same choice on schedule/room overview before the session starts, not after."
+      ],
+      "fit": "Would sit outside SRV on Center Overview / room schedule as auto-record by schedule or next session (not a bigger Record button inside SRV); banner+scope choice replaces hunting mixer settings."
+    },
+    "mobbin:6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9": {
+      "summary": "On a Coaching playback with Scorecard open, the coach picks Add Scorecard, chooses speaker + rubric + visibility, answers Y/N and 1–5 items with optional notes, submits, and sees the filled scorecard under the video with Send to Sam.",
+      "steps": [
+        "Playback + Scorecard tab — color-coded 1–5 rubric",
+        "Scorecard dropdown — Add / Manage Scorecards",
+        "New Scorecard modal — speaker, rubric, visibility",
+        "Modal form — Y/N + 1–5 with N/A",
+        "Answers selected — Add Note links",
+        "Expanded note field under engagement scale",
+        "Note filled — Submit enabled",
+        "Scorecard under video — submitted Y/N + 1–5 + note"
+      ],
+      "steal": [
+        "Scorecard lives as a tab under the video beside Overview/Metrics/Comments (step 1) — grade while watching without leaving playback.",
+        "Per-criterion 1–5 with red→orange→green selection + Avg. score badge (step 1) — instant visual heat map for faculty.",
+        "New Scorecard gate: pick speaker, scorecard template, viewable-by before Score Sam (step 3) — learner-scoped grading, not session-wide.",
+        "N/A checkbox + Add Note under each item; Submit disabled until answered (steps 4–7) — skip irrelevant items and attach evidence text."
+      ],
+      "avoid": [
+        "Modal overlays the video for the whole grading pass (steps 3–7) — faculty cannot scrub the recording while answering; prefer inline Data Entry that stays beside the player."
+      ],
+      "fit": "Extends SRV Data Entry / evaluation checklist into a speaker-scoped Scorecard tab under the player (like Abbott checklist), with color 1–5 + Send-to-learner; does not replace Annotation markers."
+    },
+    "mobbin:9bc50bc4-4eab-47a8-845f-aeb3a21b4d00": {
+      "summary": "From Scorecard Unavailable, the coach starts Score this call, selects a speaker, waits through Generating Scorecard, then reviews AI-filled 1–5 criteria with expandable evidence notes and jump-to timestamps.",
+      "steps": [
+        "Scorecard Unavailable — Score this call",
+        "Select speaker modal — Score disabled",
+        "Speaker dropdown — Sam / Jane Smith",
+        "Speaker chosen — Score enabled",
+        "Generating Scorecard progress state",
+        "AI scorecard — Avg. score + color 1–5 rows",
+        "Expanded criterion — evidence note + timestamp 0:49"
+      ],
+      "steal": [
+        "Empty/mismatch state with honest copy + Score this call fallback (step 1) — AI may not match the session type; manual start stays available.",
+        "Must select speaker before Score (steps 2–4) — grades one learner in a multi-person recording.",
+        "Generating Scorecard with progress bar and parallel Score this call (step 5) — wait state without trapping the user.",
+        "Expanded criterion shows AI rationale plus clickable evidence timestamp (step 7) — score linked to moment on the timeline."
+      ],
+      "avoid": [
+        "Auto-applying a sales-pattern scorecard when the meeting 'does not match' (step 1) — sim rubrics must be faculty-owned checklists, not inferred call patterns."
+      ],
+      "fit": "Adds AI-suggested scores with evidence timestamps into SRV Data Entry/Scorecard (beside Annotation markers); empty+manual Score this call maps to rubric not auto-matched to the scenario."
+    }
+  }
+}

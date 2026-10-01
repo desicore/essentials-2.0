@@ -1,0 +1,33 @@
+{
+  "product": "cal-com",
+  "flows": {
+    "mobbin:f693c13b-9f45-4762-a988-c8e65b456e3c": {
+      "summary": "User starts from empty Workflows templates, scopes a team workflow, builds Pre-call Disclaimer with trigger Before event starts, attaches selected event types, adds attendee then host emails, saves, and sees it Active on event type(s).",
+      "steps": [
+        "Workflows empty — Create + reminder template cards",
+        "New workflow for… personal vs team",
+        "Editor — Apply to all checkbox; 24h before; email attendees",
+        "Named Pre-call Disclaimer; event type Select…",
+        "Event type multi-select open — Team Quick Chat etc.",
+        "2 event types selected in dropdown",
+        "Offset 60 mins; Apply to all still available",
+        "Attendee email body with {EVENT_*} variables",
+        "Add action modal — Send email to host",
+        "Action 3 — Send email to host + Include calendar event",
+        "Saved — toast Pre-call Disclaimer workflow updated",
+        "List — Pre-call Disclaimer; Active on 1 event type"
+      ],
+      "steal": [
+        "Which event type will this apply to? multi-select plus Apply to all, including future event types (steps 2–6).",
+        "Linear When (before start + offset) → Do this action cards (steps 2–7).",
+        "Add variable tokens in subject/body ({EVENT_NAME}, {ATTENDEE}) (steps 7, 9).",
+        "List card shows Triggers … and Active on N event type (step 11)."
+      ],
+      "avoid": [
+        "Reminder-only actions (email/SMS) across 12 steps — no auto-record/announcement actions Essentials needs per phase."
+      ],
+      "fit": "Best map for per-scenario automation: rule set on selected event types (= SCE templates) like today's prep-email / auto-record defaults, as a reusable When/Do builder.",
+      "counter_example": false
+    }
+  }
+}

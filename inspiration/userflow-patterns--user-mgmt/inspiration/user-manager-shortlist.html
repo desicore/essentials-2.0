@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>User Manager — narrowed inspiration shortlist</title>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>User Manager: narrowed shortlist of examples</title>
 <style>
   :root{color-scheme:light dark;--bg:#f6f6f6;--surface:#fff;--text:#202020;--muted:#646464;--border:#d6d6d6;--subtle:#ededed;--red:#a91c25;--red-bg:#ffeded;--focus:#2167bb;font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
   @media(prefers-color-scheme:dark){:root{--bg:#171717;--surface:#222;--text:#efefef;--muted:#b3b3b3;--border:#494949;--subtle:#303030;--red:#ff9da5;--red-bg:#431c22;--focus:#8abcff}}
@@ -61,74 +61,74 @@
 <body><main>
   <header>
     <div class="eyebrow">Essentials 2.0 · Design research · User Manager</div>
-    <h1>User Manager — narrowed inspiration shortlist</h1>
-    <p class="intro">Companion to <code>user-manager-map-index.md</code>. That file lists <em>everything</em> that touches each of Gabor&#39;s six User Manager nodes. This file is the cut: the references that best match each node, plus the counter-examples worth keeping on the &quot;don&#39;t build this&quot; wall.</p><p class="intro">Result: 169 refs → 41 keeps + 10 counter-examples. Per-node reasoning and every dropped ref with a reason lives in <code>.context/user-manager-shortlist/node-*.md</code>.</p>
-    <p class="reports-line">Reports: <a href="tmp/report-hotlink.html">R1 — Access, roles &amp; sharing</a> (137 refs) · <a href="university-identity/report.html">R2 — University identity, directory sync &amp; user import</a> (32 refs)</p>
+    <h1>User Manager: narrowed shortlist of examples</h1>
+    <p class="intro">Companion to <code>user-manager-map-index.md</code>. That file lists <em>everything</em> that touches each of Gabor&#39;s six User Manager parts. This page is the cut: the examples that best match each part, plus the examples of what not to do that belong on the &quot;don&#39;t build this&quot; wall.</p><p class="intro">We looked at 169 examples and kept 41, plus 10 examples of what not to do. The reasoning for each part, and every dropped example with a reason, lives in <code>.context/user-manager-shortlist/node-*.md</code>. Terms you will see: Learning Tools Interoperability (LTI) Names and Role Provisioning Services (NRPS) for live Canvas rosters, and a common single sign-on standard (SAML) for university sign-in.</p>
+    <p class="reports-line">Reports: <a href="tmp/report-hotlink.html">R1: Access, roles and sharing</a> (137 examples) · <a href="university-identity/report.html">R2: University sign-in, directory sync and user import</a> (32 examples)</p>
     <table class="summary">
-    <thead><tr><th>Node</th><th>Keeps</th><th>Counters</th><th>Strongest single reference</th></tr></thead>
-    <tbody><tr><td><a href="#canvas-import">import learners from Canvas?</a></td><td>4</td><td>0</td><td>R2 Q6 · <strong>Canvas</strong> — Retrieve a course roster through LTI NRPS</td></tr><tr><td><a href="#learner-groups">Add/Remove/Edit learner groups</a></td><td>6</td><td>2</td><td>R1 Q3 · <strong>Front</strong> — Creating a teammate group</td></tr><tr><td><a href="#users-crud">Add/Remove/Edit users</a></td><td>7</td><td>2</td><td>R2 Q4 · <strong>Loom</strong> — Deactivate access while explaining content consequences</td></tr><tr><td><a href="#permissions-access">Give permissions and access</a></td><td>9</td><td>3</td><td>R1 Q2 · <strong>Basecamp</strong> — What can Jane Doe access?</td></tr><tr><td><a href="#batch-upload">Batch upload (AI?)</a></td><td>7</td><td>1</td><td>R1 Q3 · <strong>Customer.io</strong> — Mapping fields</td></tr><tr><td><a href="#sso">SSO</a></td><td>8</td><td>2</td><td>R2 Q1 · <strong>Okta</strong> — Select AD users and groups before import</td></tr></tbody>
+    <thead><tr><th>Part</th><th>Kept</th><th>What not to do</th><th>Strongest single example</th></tr></thead>
+    <tbody><tr><td><a href="#canvas-import">Import learners from Canvas?</a></td><td>4</td><td>0</td><td>R2 Q6 · <strong>Canvas</strong>: Get a course roster through LTI NRPS</td></tr><tr><td><a href="#learner-groups">Add, remove and edit learner groups</a></td><td>6</td><td>2</td><td>R1 Q3 · <strong>Front</strong>: Create group by picker or CSV</td></tr><tr><td><a href="#users-crud">Add, remove and edit users</a></td><td>7</td><td>2</td><td>R2 Q4 · <strong>Loom</strong>: Deactivate access and explain content effects</td></tr><tr><td><a href="#permissions-access">Give permissions and access</a></td><td>9</td><td>3</td><td>R1 Q2 · <strong>Basecamp</strong>: What one person can access</td></tr><tr><td><a href="#batch-upload">Batch upload (and AI?)</a></td><td>7</td><td>1</td><td>R1 Q3 · <strong>Customer.io</strong>: Upload, map fields, review cohort</td></tr><tr><td><a href="#sso">Single sign-on (SSO)</a></td><td>8</td><td>2</td><td>R2 Q1 · <strong>Okta</strong>: Select Active Directory users and groups before import</td></tr></tbody>
   </table>
   </header>
-  <nav class="node-nav" aria-label="Node sections"><ol><li><a href="#canvas-import">1. import learners from Canvas?</a></li><li><a href="#learner-groups">2. Add/Remove/Edit learner groups</a></li><li><a href="#users-crud">3. Add/Remove/Edit users</a></li><li><a href="#permissions-access">4. Give permissions and access</a></li><li><a href="#batch-upload">5. Batch upload (AI?)</a></li><li><a href="#sso">6. SSO</a></li></ol></nav>
-  <div class="search-bar"><label class="field">Search cards<br><input id="search" type="search" placeholder="App, title, or take…" autocomplete="off"></label></div>
+  <nav class="node-nav" aria-label="Part sections"><ol><li><a href="#canvas-import">1. Import learners from Canvas?</a></li><li><a href="#learner-groups">2. Add, remove and edit learner groups</a></li><li><a href="#users-crud">3. Add, remove and edit users</a></li><li><a href="#permissions-access">4. Give permissions and access</a></li><li><a href="#batch-upload">5. Batch upload (and AI?)</a></li><li><a href="#sso">6. Single sign-on (SSO)</a></li></ol></nav>
+  <div class="search-bar"><label class="field">Search cards<br><input id="search" type="search" placeholder="App, title, or note…" autocomplete="off"></label></div>
   <p id="status" role="status" aria-live="polite"></p>
   <section id="canvas-import" class="node-section" aria-labelledby="canvas-import-heading">
       <div class="node-heading">
-        <h2 id="canvas-import-heading"><span class="node-number">1.</span> import learners from Canvas?</h2>
-        <div class="node-badges"><span class="badge">4 keeps</span><span class="badge">0 counters</span></div>
+        <h2 id="canvas-import-heading"><span class="node-number">1.</span> Import learners from Canvas?</h2>
+        <div class="node-badges"><span class="badge">4 kept</span><span class="badge">0 examples of what not to do</span></div>
       </div>
-      <p class="lead">All documentation, no product screens except Vimeo. Kept the refs that answer &quot;pull learners from Canvas without creating duplicate users&quot;.</p>
-      <div class="grid"><article class="card" data-search="canvas retrieve a course roster through lti nrps the live-roster mechanism; pulls the whole course population and matches to existing accounts instead of importing a snapshot.">
-      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+      <p class="lead">All the examples here are documentation; Vimeo is the only product screen. We kept the examples that answer how to pull learners from Canvas without creating duplicate users.</p>
+      <div class="grid"><article class="card" data-search="canvas get a course roster through lti nrps this is the live-roster approach: it pulls the whole course population and matches people to existing accounts instead of importing a snapshot.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only - no screen</span></div></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q6</p>
         <p class="app-name"><strong>Canvas</strong></p>
-        <h4 class="card-title">Retrieve a course roster through LTI NRPS</h4>
-        <p class="take">the live-roster mechanism; pulls the whole course population and matches to existing accounts instead of importing a snapshot.</p>
+        <h4 class="card-title">Get a course roster through LTI NRPS</h4>
+        <p class="take">This is the live-roster approach: it pulls the whole course population and matches people to existing accounts instead of importing a snapshot.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.provisioning" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="canvas respect roster identifier and privacy boundaries names the duplicate-user trap: an lti user id is not the directory id, so identifiers must be previewed before matching.">
-      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+    </article><article class="card" data-search="canvas respect roster identifiers and privacy limits roster identifiers and privacy limits matter: match on stable ids and do not create accounts from names alone.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only - no screen</span></div></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q6</p>
         <p class="app-name"><strong>Canvas</strong></p>
-        <h4 class="card-title">Respect roster identifier and privacy boundaries</h4>
-        <p class="take">names the duplicate-user trap: an LTI user id is not the directory id, so identifiers must be previewed before matching.</p>
+        <h4 class="card-title">Respect roster identifiers and privacy limits</h4>
+        <p class="take">Roster identifiers and privacy limits matter: match on stable IDs and do not create accounts from names alone.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://developerdocs.instructure.com/services/canvas/resources/names_and_role" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="canvas join user identifiers to separate enrollment data the csv path to the same problem; users and enrollments files must be joined, not assumed to create accounts.">
-      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+    </article><article class="card" data-search="canvas join user identifiers to enrollment data the csv path solves the same problem: users and enrollments files must be joined, not treated as if they create accounts on their own.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only - no screen</span></div></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q5</p>
         <p class="app-name"><strong>Canvas</strong></p>
-        <h4 class="card-title">Join user identifiers to separate enrollment data</h4>
-        <p class="take">the CSV path to the same problem; Users and Enrollments files must be joined, not assumed to create accounts.</p>
+        <h4 class="card-title">Join user identifiers to enrollment data</h4>
+        <p class="take">The CSV path solves the same problem: Users and Enrollments files must be joined, not treated as if they create accounts on their own.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://community.instructure.com/en/kb/articles/387054-canvas-default-account-reports" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="vimeo event registrants list with &#39;sync from email list&#39; and &#39;upload csv&#39; the one real screen; continuous sync and one-shot upload as distinct verbs in the same roster header.">
+    </article><article class="card" data-search="vimeo sync from email list or upload csv this is the one real product screen: continuous sync and one-shot upload sit as distinct actions in the same roster header.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Vimeo — Event registrants list with &#39;Sync from email list&#39; and &#39;Upload CSV&#39;">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/w66TfdlX" alt="Vimeo — Event registrants list with &#39;Sync from email list&#39; and &#39;Upload CSV&#39;" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Vimeo: Sync from email list or upload CSV">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/w66TfdlX" alt="Vimeo: Sync from email list or upload CSV" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
         <p class="app-name"><strong>Vimeo</strong></p>
-        <h4 class="card-title">Event registrants list with &#39;Sync from email list&#39; and &#39;Upload CSV&#39;</h4>
-        <p class="take">the one real screen; continuous sync and one-shot upload as distinct verbs in the same roster header.</p>
+        <h4 class="card-title">Sync from email list or upload CSV</h4>
+        <p class="take">This is the one real product screen: continuous sync and one-shot upload sit as distinct actions in the same roster header.</p>
         
       </div>
       <div class="card-footer">
@@ -137,89 +137,89 @@
       </div>
     </article></div>
       
-      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Canvas course-departure vs suspension (enrollment states, belongs to the users node if anywhere), Canvas Provisioning CSV export (mechanics only), Canvas roles-on-enrollments (better used as an argument in the permissions node).</p></div></div>
+      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Canvas course-departure versus suspension belongs with Add, remove and edit users if anywhere. Canvas Provisioning CSV export is mechanics only. Canvas roles-on-enrollments is better used as an argument in Give permissions and access.</p></div></div>
     </section><section id="learner-groups" class="node-section" aria-labelledby="learner-groups-heading">
       <div class="node-heading">
-        <h2 id="learner-groups-heading"><span class="node-number">2.</span> Add/Remove/Edit learner groups</h2>
-        <div class="node-badges"><span class="badge">6 keeps</span><span class="badge">2 counters</span></div>
+        <h2 id="learner-groups-heading"><span class="node-number">2.</span> Add, remove and edit learner groups</h2>
+        <div class="node-badges"><span class="badge">6 kept</span><span class="badge">2 examples of what not to do</span></div>
       </div>
-      <p class="lead">Still the thinnest node. Two distinct jobs: groups a sim tech builds by hand, and groups the university&#39;s IdP owns.</p>
-      <h3>Hand-built groups</h3><div class="grid"><article class="card" data-search="front creating a teammate group checkbox picker of existing people *and* csv import on one screen; small groups by hand, big cohorts by file. best single reference.">
+      <p class="lead">Still the thinnest part. Two distinct jobs: groups a sim tech builds by hand, and groups the university&#39;s sign-in system, the identity provider (IdP), owns.</p>
+      <h3>Hand-built groups</h3><div class="grid"><article class="card" data-search="front create group by picker or csv front lets you create a group by picking people or uploading a csv, which fits how a sim tech builds a small cohort by hand.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Front — Creating a teammate group">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/qYeezfsD" alt="Front — Creating a teammate group" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Front: Create group by picker or CSV">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/qYeezfsD" alt="Front: Create group by picker or CSV" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
         <p class="app-name"><strong>Front</strong></p>
-        <h4 class="card-title">Creating a teammate group</h4>
-        <p class="take">checkbox picker of existing people <em>and</em> CSV import on one screen; small groups by hand, big cohorts by file. Best single reference.</p>
+        <h4 class="card-title">Create group by picker or CSV</h4>
+        <p class="take">Front lets you create a group by picking people or uploading a CSV, which fits how a sim tech builds a small cohort by hand.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/4337ee88-c5cd-431d-ab23-cf3cfaa34354" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="google workspace manage members add / bulk upload / download side by side, plus direct vs nested members.">
+    </article><article class="card" data-search="google workspace add, bulk upload and download members google workspace puts add, bulk upload and download side by side on the group page, and separates direct versus nested members.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Google Workspace — Manage members">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/xRQqMVnN" alt="Google Workspace — Manage members" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Google Workspace: Add, bulk upload and download members">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/xRQqMVnN" alt="Google Workspace: Add, bulk upload and download members" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
         <p class="app-name"><strong>Google Workspace</strong></p>
-        <h4 class="card-title">Manage members</h4>
-        <p class="take">Add / Bulk upload / Download side by side, plus direct vs nested members.</p>
+        <h4 class="card-title">Add, bulk upload and download members</h4>
+        <p class="take">Google Workspace puts Add, Bulk upload and Download side by side on the group page, and separates direct versus nested members.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/47c6268d-6177-487e-9420-837030e1b1c3" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="calendly admin center: groups groups by department/location with named group admins; the only delegated-admin reference.">
+    </article><article class="card" data-search="calendly admin groups by department calendly organises groups by department or location with named group admins. this is the only delegated-admin example we kept.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Calendly — Admin center: Groups">
-            <img class="preview" src="https://images.refero.design/screenshots/calendly.com/desktop/09d9a4eb-667f-4ef3-9492-937a6bac4220_preview.jpg" alt="Calendly — Admin center: Groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Calendly: Admin groups by department">
+            <img class="preview" src="https://images.refero.design/screenshots/calendly.com/desktop/09d9a4eb-667f-4ef3-9492-937a6bac4220_preview.jpg" alt="Calendly: Admin groups by department" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
         <p class="app-name"><strong>Calendly</strong></p>
-        <h4 class="card-title">Admin center: Groups</h4>
-        <p class="take">groups by department/location with named group admins; the only delegated-admin reference.</p>
+        <h4 class="card-title">Admin groups by department</h4>
+        <p class="take">Calendly organises groups by department or location with named group admins. This is the only delegated-admin example we kept.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/pages/c38bf684-80b3-475b-bfc1-400bc9fc5113" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="canva manage team members multi-select in the roster → &quot;add to group&quot;; groups built from the member list, no separate builder.">
+    </article><article class="card" data-search="canva add selected people to a group canva lets you multi-select people in the member list and choose &#39;add to group&#39;, so groups are built from people who are already there, with no separate builder.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Canva — Manage team members">
-            <img class="preview" src="https://images.refero.design/screenshots/canva.com/desktop/dac58d87-a551-4122-94fb-120166d8a50c_preview.jpg" alt="Canva — Manage team members" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Canva: Add selected people to a group">
+            <img class="preview" src="https://images.refero.design/screenshots/canva.com/desktop/dac58d87-a551-4122-94fb-120166d8a50c_preview.jpg" alt="Canva: Add selected people to a group" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
         <p class="app-name"><strong>Canva</strong></p>
-        <h4 class="card-title">Manage team members</h4>
-        <p class="take">multi-select in the roster → &quot;Add to group&quot;; groups built from the member list, no separate builder.</p>
+        <h4 class="card-title">Add selected people to a group</h4>
+        <p class="take">Canva lets you multi-select people in the member list and choose &#39;Add to group&#39;, so groups are built from people who are already there, with no separate builder.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/flows/8084" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article></div><h3>IdP-owned groups</h3><div class="grid"><article class="card" data-search="okta show directory status and system-managed groups group source filter (system / directory / local) makes it visible who owns membership.">
+    </article></div><h3>Directory-owned groups</h3><div class="grid"><article class="card" data-search="okta show directory status and system-managed groups a group-source filter (system, directory or local) makes it visible who owns membership for idp-owned groups.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Okta — Show directory status and system-managed groups">
-            <img class="preview" src="university-identity/assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg" alt="Okta — Show directory status and system-managed groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Okta: Show directory status and system-managed groups">
+            <img class="preview" src="university-identity/assets/mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg" alt="Okta: Show directory status and system-managed groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
@@ -227,25 +227,25 @@
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q3</p>
         <p class="app-name"><strong>Okta</strong></p>
         <h4 class="card-title">Show directory status and system-managed groups</h4>
-        <p class="take">Group source filter (system / directory / local) makes it visible who owns membership.</p>
+        <p class="take">A group-source filter (system, directory or local) makes it visible who owns membership for IdP-owned groups.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="atlassian review access changes before replacing conflicting groups the migration screen for a university that already has local groups: shows membership and access deltas before you choose which to sync.">
+    </article><article class="card" data-search="atlassian review access before replacing conflicting groups atlassian&#39;s migration screen shows membership and access changes before you choose which groups to sync. that fits a university that already has local groups.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Atlassian — Review access changes before replacing conflicting groups">
-            <img class="preview" src="university-identity/assets/documentation/atlassian-group-conflicts-0.png" alt="Atlassian — Review access changes before replacing conflicting groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Atlassian: Review access before replacing conflicting groups">
+            <img class="preview" src="university-identity/assets/documentation/atlassian-group-conflicts-0.png" alt="Atlassian: Review access before replacing conflicting groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q3</p>
         <p class="app-name"><strong>Atlassian</strong></p>
-        <h4 class="card-title">Review access changes before replacing conflicting groups</h4>
-        <p class="take">the migration screen for a university that already has local groups: shows membership and access deltas before you choose which to sync.</p>
+        <h4 class="card-title">Review access before replacing conflicting groups</h4>
+        <p class="take">Atlassian&#39;s migration screen shows membership and access changes before you choose which groups to sync. That fits a university that already has local groups.</p>
         
       </div>
       <div class="card-footer">
@@ -253,37 +253,37 @@
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
     </article></div>
-      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
-         <div class="grid counter-grid"><article class="card card-counter" data-search="confluence hub permissions (per-user grid) hub permissions per-user grid (15 checkbox columns)">
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Examples of what not to do</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="confluence per-user permission grid per space what not to copy: confluence shows a per-user grid of 15 checkbox columns. it is detailed but hard to read, and it applies per space rather than per content.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Confluence — Hub permissions (per-user grid)">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/gRRen6ld" alt="Confluence — Hub permissions (per-user grid)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Confluence: Per-user permission grid per space">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/gRRen6ld" alt="Confluence: Per-user permission grid per space" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>Confluence</strong></p>
-        <h4 class="card-title">Hub permissions (per-user grid)</h4>
-        <p class="take">Hub permissions per-user grid (15 checkbox columns)</p>
+        <h4 class="card-title">Per-user permission grid per space</h4>
+        <p class="take">What not to copy: Confluence shows a per-user grid of 15 checkbox columns. It is detailed but hard to read, and it applies per space rather than per content.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/screens/91a83cd9-614a-4cbf-aebf-d79b6725e3de" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card card-counter" data-search="stackai roles permission matrix roles permission matrix">
+    </article><article class="card card-counter" data-search="stackai global capability by role matrix what not to copy: stackai shows a global capability-by-role checkbox matrix. that is the eight-global-roles trap: it can never express &#39;only my students&#39; videos&#39;.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: StackAI — Roles permission matrix">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/Q1N3rPxX" alt="StackAI — Roles permission matrix" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: StackAI: Global capability by role matrix">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/Q1N3rPxX" alt="StackAI: Global capability by role matrix" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>StackAI</strong></p>
-        <h4 class="card-title">Roles permission matrix</h4>
-        <p class="take">Roles permission matrix</p>
+        <h4 class="card-title">Global capability by role matrix</h4>
+        <p class="take">What not to copy: StackAI shows a global capability-by-role checkbox matrix. That is the eight-global-roles trap: it can never express &#39;only my students&#39; videos&#39;.</p>
         
       </div>
       <div class="card-footer">
@@ -291,17 +291,17 @@
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
     </article></div>
-      <div class="callouts"><div class="callout callout-uncovered"><p class="callout-label">Still uncovered</p><p>renaming / merging groups, archiving a group and what happens to its shared content, late joiners getting retroactive access. This is the Q7 gap; it cannot be narrowed to, only researched.</p></div><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Fireflies Team (User Groups), Notion Creating a group, Hex, Aboard — all show a group as a <em>sharing target</em>, which the permissions node already covers.</p></div></div>
+      <div class="callouts"><div class="callout callout-uncovered"><p class="callout-label">Still uncovered</p><p>Renaming or merging groups, archiving a group and what happens to its shared content, and late joiners getting access to past content. This is the Q7 gap; it cannot be narrowed here, only researched further.</p></div><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Fireflies Team (User Groups), Notion Creating a group, Hex, and Aboard all show a group as a <em>sharing target</em>, which Give permissions and access already covers.</p></div></div>
     </section><section id="users-crud" class="node-section" aria-labelledby="users-crud-heading">
       <div class="node-heading">
-        <h2 id="users-crud-heading"><span class="node-number">3.</span> Add/Remove/Edit users</h2>
-        <div class="node-badges"><span class="badge">7 keeps</span><span class="badge">2 counters</span></div>
+        <h2 id="users-crud-heading"><span class="node-number">3.</span> Add, remove and edit users</h2>
+        <div class="node-badges"><span class="badge">7 kept</span><span class="badge">2 examples of what not to do</span></div>
       </div>
       
-      <h3>Add</h3><div class="grid"><article class="card" data-search="atlassian create accounts at first saml sign-in jit provisioning plus verified-domain claiming; the default add path for university learners.">
+      <h3>Add</h3><div class="grid"><article class="card" data-search="atlassian create accounts at first saml sign-in just-in-time account creation plus verified-domain claiming is the default way to add university learners.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Atlassian — Create accounts at first SAML sign-in">
-            <img class="preview" src="university-identity/assets/documentation/atlassian-jit-0.png" alt="Atlassian — Create accounts at first SAML sign-in" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Atlassian: Create accounts at first SAML sign-in">
+            <img class="preview" src="university-identity/assets/documentation/atlassian-jit-0.png" alt="Atlassian: Create accounts at first SAML sign-in" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
@@ -309,17 +309,17 @@
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
         <p class="app-name"><strong>Atlassian</strong></p>
         <h4 class="card-title">Create accounts at first SAML sign-in</h4>
-        <p class="take">JIT provisioning plus verified-domain claiming; the default add path for university learners.</p>
+        <p class="take">Just-in-time account creation plus verified-domain claiming is the default way to add university learners.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://support.atlassian.com/atlassian-cloud/kb/what-is-just-in-time-provisioning-and-how-to-set-it-up/" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="github inspect and repair a linked saml identity admin revokes a wrong identity link so the person retries; the fix for first-login failures currently repaired by hand.">
+    </article><article class="card" data-search="github inspect and repair a linked saml identity an admin can revoke a wrong identity link so the person can retry. that is the fix for first-login failures that are currently repaired by hand.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: GitHub — Inspect and repair a linked SAML identity">
-            <img class="preview" src="university-identity/assets/documentation/github-linking-1.png" alt="GitHub — Inspect and repair a linked SAML identity" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: GitHub: Inspect and repair a linked SAML identity">
+            <img class="preview" src="university-identity/assets/documentation/github-linking-1.png" alt="GitHub: Inspect and repair a linked SAML identity" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
@@ -327,97 +327,97 @@
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
         <p class="app-name"><strong>GitHub</strong></p>
         <h4 class="card-title">Inspect and repair a linked SAML identity</h4>
-        <p class="take">admin revokes a wrong identity link so the person retries; the fix for first-login failures currently repaired by hand.</p>
+        <p class="take">An admin can revoke a wrong identity link so the person can retry. That is the fix for first-login failures that are currently repaired by hand.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/viewing-and-managing-a-members-saml-access-to-your-organization" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="slite accepting an invitation join link, import from contacts, or typed emails as three parallel ways in.">
+    </article><article class="card" data-search="slite three ways to accept an invitation slite offers three ways in side by side: a join link, import from contacts, or typed emails.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Slite — Accepting an invitation">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/FnPpgnEa" alt="Slite — Accepting an invitation" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Slite: Three ways to accept an invitation">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/FnPpgnEa" alt="Slite: Three ways to accept an invitation" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q1</p>
         <p class="app-name"><strong>Slite</strong></p>
-        <h4 class="card-title">Accepting an invitation</h4>
-        <p class="take">join link, import from contacts, or typed emails as three parallel ways in.</p>
+        <h4 class="card-title">Three ways to accept an invitation</h4>
+        <p class="take">Slite offers three ways in side by side: a join link, import from contacts, or typed emails.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/702f32f7-4e64-4d3b-9cb8-e3b3f4892c7c" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article></div><h3>Edit</h3><div class="grid"><article class="card" data-search="expensify editing member role role as an inline segmented control on the row.">
+    </article></div><h3>Edit</h3><div class="grid"><article class="card" data-search="expensify three roles with inline descriptions expensify puts the role on the row as an inline segmented control, with a short description of the selected role underneath.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Expensify — Editing member role">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/gyGxjnr2" alt="Expensify — Editing member role" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Expensify: Three roles with inline descriptions">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/gyGxjnr2" alt="Expensify: Three roles with inline descriptions" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
         <p class="app-name"><strong>Expensify</strong></p>
-        <h4 class="card-title">Editing member role</h4>
-        <p class="take">role as an inline segmented control on the row.</p>
+        <h4 class="card-title">Three roles with inline descriptions</h4>
+        <p class="take">Expensify puts the role on the row as an inline segmented control, with a short description of the selected role underneath.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/dc476b26-8776-496c-8ab3-4ffe267aeea3" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="twist downgrading a member the confirmation explains what the person loses.">
+    </article><article class="card" data-search="twist downgrade member to guest confirm twist&#39;s confirmation spells out what the person loses when you downgrade them, and asks for an explicit sure checkbox.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Twist — Downgrading a member">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/6aY5CjcC" alt="Twist — Downgrading a member" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Twist: Downgrade member to guest confirm">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/6aY5CjcC" alt="Twist: Downgrade member to guest confirm" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
         <p class="app-name"><strong>Twist</strong></p>
-        <h4 class="card-title">Downgrading a member</h4>
-        <p class="take">the confirmation explains what the person loses.</p>
+        <h4 class="card-title">Downgrade member to guest confirm</h4>
+        <p class="take">Twist&#39;s confirmation spells out what the person loses when you downgrade them, and asks for an explicit sure checkbox.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/c8b198c5-09da-45fc-b1a2-15f21edda5c1" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article></div><h3>Remove / deactivate</h3><div class="grid"><article class="card" data-search="loom deactivate access while explaining content consequences spells out lost access, content that stays reachable, and ownership transfer. best deactivation reference in either round.">
+    </article></div><h3>Remove or deactivate</h3><div class="grid"><article class="card" data-search="loom deactivate access and explain content effects before deactivation, loom spells out lost access, content that stays reachable, and ownership transfer. this is the strongest deactivation example in either report.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Loom — Deactivate access while explaining content consequences">
-            <img class="preview" src="university-identity/assets/refero-1250/0.jpg" alt="Loom — Deactivate access while explaining content consequences" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Loom: Deactivate access and explain content effects">
+            <img class="preview" src="university-identity/assets/refero-1250/0.jpg" alt="Loom: Deactivate access and explain content effects" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q4</p>
         <p class="app-name"><strong>Loom</strong></p>
-        <h4 class="card-title">Deactivate access while explaining content consequences</h4>
-        <p class="take">spells out lost access, content that stays reachable, and ownership transfer. Best deactivation reference in either round.</p>
+        <h4 class="card-title">Deactivate access and explain content effects</h4>
+        <p class="take">Before deactivation, Loom spells out lost access, content that stays reachable, and ownership transfer. This is the strongest deactivation example in either report.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/flows/1250" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="microsoft entra separate disabling, deletion, and return disable on scope exit vs delete; restoring reactivates.">
+    </article><article class="card" data-search="microsoft entra separate disabling, deletion and return disable access when someone leaves a scope, separately from deleting them. restoring them reactivates the account.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Microsoft Entra — Separate disabling, deletion, and return">
-            <img class="preview" src="university-identity/assets/documentation/entra-lifecycle-3.png" alt="Microsoft Entra — Separate disabling, deletion, and return" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Microsoft Entra: Separate disabling, deletion and return">
+            <img class="preview" src="university-identity/assets/documentation/entra-lifecycle-3.png" alt="Microsoft Entra: Separate disabling, deletion and return" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q4</p>
         <p class="app-name"><strong>Microsoft Entra</strong></p>
-        <h4 class="card-title">Separate disabling, deletion, and return</h4>
-        <p class="take">disable on scope exit vs delete; restoring reactivates.</p>
+        <h4 class="card-title">Separate disabling, deletion and return</h4>
+        <p class="take">Disable access when someone leaves a scope, separately from deleting them. Restoring them reactivates the account.</p>
         
       </div>
       <div class="card-footer">
@@ -425,37 +425,37 @@
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
     </article></div>
-      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
-         <div class="grid counter-grid"><article class="card card-counter" data-search="dovetail accepting invite accepting invite (full name + 12-char password before entry)">
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Examples of what not to do</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="dovetail accept invite still forces password what not to copy: accepting a viewer invite still forces a full name plus a 12-character password with complex rules. those extra steps are what produce lockouts.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Dovetail — Accepting invite">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/KCTd3dfH" alt="Dovetail — Accepting invite" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Dovetail: Accept invite still forces password">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/KCTd3dfH" alt="Dovetail: Accept invite still forces password" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q1 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q1 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>Dovetail</strong></p>
-        <h4 class="card-title">Accepting invite</h4>
-        <p class="take">Accepting invite (full name + 12-char password before entry)</p>
+        <h4 class="card-title">Accept invite still forces password</h4>
+        <p class="take">What not to copy: accepting a viewer invite still forces a full name plus a 12-character password with complex rules. Those extra steps are what produce lockouts.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/d89d0f52-1133-4d81-a6d7-5d344002997d" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card card-counter" data-search="retool permission groups (apps x resources x users) permission groups">
+    </article><article class="card card-counter" data-search="retool three-dimensional permission groups what not to copy: retool&#39;s permission groups track apps, resources and users together. an admin must reason about a three-dimensional matrix to answer who can see something.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Retool — Permission groups (apps x resources x users)">
-            <img class="preview" src="https://images.refero.design/screenshots/retool.com/desktop/45499563-7ad3-4a72-a5ec-a8470798ab41_preview.jpg" alt="Retool — Permission groups (apps x resources x users)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Retool: Three-dimensional permission groups">
+            <img class="preview" src="https://images.refero.design/screenshots/retool.com/desktop/45499563-7ad3-4a72-a5ec-a8470798ab41_preview.jpg" alt="Retool: Three-dimensional permission groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>Retool</strong></p>
-        <h4 class="card-title">Permission groups (apps x resources x users)</h4>
-        <p class="take">Permission groups</p>
+        <h4 class="card-title">Three-dimensional permission groups</h4>
+        <p class="take">What not to copy: Retool&#39;s permission groups track apps, resources and users together. An admin must reason about a three-dimensional matrix to answer who can see something.</p>
         
       </div>
       <div class="card-footer">
@@ -463,169 +463,169 @@
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
     </article></div>
-      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Jitter magic-link invite and Mural visitor (no institutional identity), Ballpark inline row edit (same pattern as Expensify), Atlassian stop-sync vs resync (troubleshooting, not CRUD).</p></div></div>
+      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Jitter magic-link invite and Mural visitor (no institutional identity), Ballpark inline row edit (same pattern as Expensify), and Atlassian stop-sync versus resync (troubleshooting, not day-to-day add, remove or edit).</p></div></div>
     </section><section id="permissions-access" class="node-section" aria-labelledby="permissions-access-heading">
       <div class="node-heading">
         <h2 id="permissions-access-heading"><span class="node-number">4.</span> Give permissions and access</h2>
-        <div class="node-badges"><span class="badge">9 keeps</span><span class="badge">3 counters</span></div>
+        <div class="node-badges"><span class="badge">9 kept</span><span class="badge">3 examples of what not to do</span></div>
       </div>
-      <p class="lead">Deepest node, so this was mostly cutting. Sonnet reviewed all 68 candidates.</p>
-      <h3>Minimal role set (the 8 → 3 argument)</h3><div class="grid"><article class="card" data-search="gamma changing a member role the floor: two roles, one-line descriptions, one-click change.">
+      <p class="lead">The deepest part, so this was mostly cutting. An AI model (Sonnet) reviewed all 68 candidate examples.</p>
+      <h3>Minimal role set (the 8 to 3 argument)</h3><div class="grid"><article class="card" data-search="gamma two roles admin and member gamma sets the floor: two roles, each with a one-line description, and a one-click change.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Gamma — Changing a member role">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/BGheoITV" alt="Gamma — Changing a member role" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Gamma: Two roles Admin and Member">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/BGheoITV" alt="Gamma: Two roles Admin and Member" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
         <p class="app-name"><strong>Gamma</strong></p>
-        <h4 class="card-title">Changing a member role</h4>
-        <p class="take">the floor: two roles, one-line descriptions, one-click change.</p>
+        <h4 class="card-title">Two roles Admin and Member</h4>
+        <p class="take">Gamma sets the floor: two roles, each with a one-line description, and a one-click change.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/7f0ede33-3db2-426e-870c-99f42747c5d1" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="slack inviting people (guest) guest role reveals required channels *and* an expiry on one screen: role, content scope and time scope together.">
+    </article><article class="card" data-search="slack guest invite with channels and expiry when slack sets invite as guest, it reveals required channels and an expiry on one screen: role, content scope and time scope together.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Slack — Inviting people (guest)">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/BTHyxkeY" alt="Slack — Inviting people (guest)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Slack: Guest invite with channels and expiry">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/BTHyxkeY" alt="Slack: Guest invite with channels and expiry" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
         <p class="app-name"><strong>Slack</strong></p>
-        <h4 class="card-title">Inviting people (guest)</h4>
-        <p class="take">guest role reveals required channels <em>and</em> an expiry on one screen: role, content scope and time scope together.</p>
+        <h4 class="card-title">Guest invite with channels and expiry</h4>
+        <p class="take">When Slack sets Invite as Guest, it reveals required channels and an expiry on one screen: role, content scope and time scope together.</p>
         <p class="tags"><span class="tag">Not in original index</span></p>
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/342f1e42-56cb-4715-b02b-0085978ef87c" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="zendesk team member roles and access one role plus toggles on the person, no matrix.">
+    </article><article class="card" data-search="zendesk per-member roles and access page zendesk gives each person one role plus access toggles on that person. exceptions live on the person, not in a matrix.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Zendesk — Team member roles and access">
-            <img class="preview" src="https://images.refero.design/screenshots/zendesk.com/desktop/d51d8388-22f2-42f2-951a-d5913fb70e3a_thumb.jpg" alt="Zendesk — Team member roles and access" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Zendesk: Per-member roles and access page">
+            <img class="preview" src="https://images.refero.design/screenshots/zendesk.com/desktop/d51d8388-22f2-42f2-951a-d5913fb70e3a_thumb.jpg" alt="Zendesk: Per-member roles and access page" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
         <p class="app-name"><strong>Zendesk</strong></p>
-        <h4 class="card-title">Team member roles and access</h4>
-        <p class="take">one role plus toggles on the person, no matrix.</p>
+        <h4 class="card-title">Per-member roles and access page</h4>
+        <p class="take">Zendesk gives each person one role plus access toggles on that person. Exceptions live on the person, not in a matrix.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/flows/1398" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article></div><h3>Content-scoped sharing (the vault)</h3><div class="grid"><article class="card" data-search="coda updating sharing permissions link / workspace / inherited-from-folder (greyed) / named people, each with its own level. the json tags this q4, not q2 as the index said.">
+    </article></div><h3>Sharing limited to specific content (the vault)</h3><div class="grid"><article class="card" data-search="coda share dialog with stacked audiences coda stacks link, workspace, inherited-from-folder (greyed out) and named people, each with its own access level.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Coda — Updating sharing permissions">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/qY5AoLdK" alt="Coda — Updating sharing permissions" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Coda: Share dialog with stacked audiences">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/qY5AoLdK" alt="Coda: Share dialog with stacked audiences" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4</p>
         <p class="app-name"><strong>Coda</strong></p>
-        <h4 class="card-title">Updating sharing permissions</h4>
-        <p class="take">link / workspace / inherited-from-folder (greyed) / named people, each with its own level. The JSON tags this Q4, not Q2 as the index said.</p>
+        <h4 class="card-title">Share dialog with stacked audiences</h4>
+        <p class="take">Coda stacks link, workspace, inherited-from-folder (greyed out) and named people, each with its own access level.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/d9c973e5-bd71-44c2-8322-6b383e50a263" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="elevenlabs sharing a project collaborators vs readers over three independently levelled audiences.">
+    </article><article class="card" data-search="elevenlabs collaborators versus readers tabs elevenlabs splits collaborators versus readers, then stacks three audiences with their own level.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: ElevenLabs — Sharing a project">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/UmsiA9VE" alt="ElevenLabs — Sharing a project" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: ElevenLabs: Collaborators versus readers tabs">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/UmsiA9VE" alt="ElevenLabs: Collaborators versus readers tabs" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2</p>
         <p class="app-name"><strong>ElevenLabs</strong></p>
-        <h4 class="card-title">Sharing a project</h4>
-        <p class="take">Collaborators vs Readers over three independently levelled audiences.</p>
+        <h4 class="card-title">Collaborators versus readers tabs</h4>
+        <p class="take">ElevenLabs splits Collaborators versus Readers, then stacks three audiences with their own level.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/4c27548d-9b5a-46f9-953a-53c9aadcf6d0" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article></div><h3>&quot;Who can see what&quot; inverse view</h3><div class="grid"><article class="card" data-search="basecamp what can jane doe access? person-side checklist with plain-english consequences; the direct answer to galen&#39;s lab-manager complaint.">
+    </article></div><h3>&quot;Who can see what&quot; inverse view</h3><div class="grid"><article class="card" data-search="basecamp what one person can access basecamp flips the share dialog into a checklist of what one person can see, with plain-english consequences. that answers the lab-manager complaint that faculty should see only their own students.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Basecamp — What can Jane Doe access?">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/BzoJQI5c" alt="Basecamp — What can Jane Doe access?" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Basecamp: What one person can access">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/BzoJQI5c" alt="Basecamp: What one person can access" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2</p>
         <p class="app-name"><strong>Basecamp</strong></p>
-        <h4 class="card-title">What can Jane Doe access?</h4>
-        <p class="take">person-side checklist with plain-English consequences; the direct answer to Galen&#39;s lab-manager complaint.</p>
+        <h4 class="card-title">What one person can access</h4>
+        <p class="take">Basecamp flips the share dialog into a checklist of what one person can see, with plain-English consequences. That answers the lab-manager complaint that faculty should see only their own students.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/screens/3ce07a85-4805-4f28-a882-56303dc5324d" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article></div><h3>Time-boxed access (release and closing dates)</h3><div class="grid"><article class="card" data-search="frame.io scheduling an expiration date video share panel with presets plus exact date/time; the closing-date mechanic.">
+    </article></div><h3>Time-limited access (release and closing dates)</h3><div class="grid"><article class="card" data-search="frame.io video share expiry presets frame.io&#39;s video share panel combines presets with an exact date and time. that is the closing-date mechanic for recordings.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Frame.io — Scheduling an expiration date">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/yLjZ4mKf" alt="Frame.io — Scheduling an expiration date" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Frame.io: Video share expiry presets">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/yLjZ4mKf" alt="Frame.io: Video share expiry presets" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q5</p>
         <p class="app-name"><strong>Frame.io</strong></p>
-        <h4 class="card-title">Scheduling an expiration date</h4>
-        <p class="take">video share panel with presets plus exact date/time; the closing-date mechanic.</p>
+        <h4 class="card-title">Video share expiry presets</h4>
+        <p class="take">Frame.io&#39;s video share panel combines presets with an exact date and time. That is the closing-date mechanic for recordings.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/c537e383-521f-4785-8478-0ba54a3e6f74" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="squarespace updating content status draft / published / scheduled with a date, bulk-settable; the release-date half.">
+    </article><article class="card" data-search="squarespace lesson status draft published scheduled squarespace lessons use draft, published or scheduled with a date, and you can set status in bulk. that is the release-date half of time-limited access.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Squarespace — Updating content status">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/anuQaQrF" alt="Squarespace — Updating content status" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Squarespace: Lesson status Draft Published Scheduled">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/anuQaQrF" alt="Squarespace: Lesson status Draft Published Scheduled" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q5</p>
         <p class="app-name"><strong>Squarespace</strong></p>
-        <h4 class="card-title">Updating content status</h4>
-        <p class="take">Draft / Published / Scheduled with a date, bulk-settable; the release-date half.</p>
+        <h4 class="card-title">Lesson status Draft Published Scheduled</h4>
+        <p class="take">Squarespace lessons use Draft, Published or Scheduled with a date, and you can set status in bulk. That is the release-date half of time-limited access.</p>
         <p class="tags"><span class="tag">Not in original index</span></p>
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/7c78bf7a-2d77-4f83-840e-44db0912039c" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="hashnode invite link creation role + usage limit + expiry on one link.">
+    </article><article class="card" data-search="hashnode invite link with role limit expiry hashnode&#39;s invite link carries a role, a usage limit and an expiry on one link.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Hashnode — Invite link creation">
-            <img class="preview" src="https://images.refero.design/screenshots/hashnode.com/desktop/0bc49980-21d8-4d98-935b-338595148864_preview.jpg" alt="Hashnode — Invite link creation" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Hashnode: Invite link with role limit expiry">
+            <img class="preview" src="https://images.refero.design/screenshots/hashnode.com/desktop/0bc49980-21d8-4d98-935b-338595148864_preview.jpg" alt="Hashnode: Invite link with role limit expiry" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q5</p>
         <p class="app-name"><strong>Hashnode</strong></p>
-        <h4 class="card-title">Invite link creation</h4>
-        <p class="take">role + usage limit + expiry on one link.</p>
+        <h4 class="card-title">Invite link with role limit expiry</h4>
+        <p class="take">Hashnode&#39;s invite link carries a role, a usage limit and an expiry on one link.</p>
         
       </div>
       <div class="card-footer">
@@ -633,55 +633,55 @@
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
     </article></div>
-      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
-         <div class="grid counter-grid"><article class="card card-counter" data-search="stackai roles permission matrix roles permission matrix (its take names the &quot;8-global-roles trap&quot;)">
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Examples of what not to do</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="stackai global capability by role matrix what not to copy: stackai&#39;s global capability-by-role matrix is the eight-global-roles trap. it can never express &#39;only my students&#39; videos&#39;.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: StackAI — Roles permission matrix">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/Q1N3rPxX" alt="StackAI — Roles permission matrix" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: StackAI: Global capability by role matrix">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/Q1N3rPxX" alt="StackAI: Global capability by role matrix" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q2 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>StackAI</strong></p>
-        <h4 class="card-title">Roles permission matrix</h4>
-        <p class="take">Roles permission matrix (its take names the &quot;8-global-roles trap&quot;)</p>
+        <h4 class="card-title">Global capability by role matrix</h4>
+        <p class="take">What not to copy: StackAI&#39;s global capability-by-role matrix is the eight-global-roles trap. It can never express &#39;only my students&#39; videos&#39;.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/screens/4a80b0e2-e462-407e-8842-d0fd15510391" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card card-counter" data-search="retool permission groups (apps x resources x users) permission groups (apps × resources × users)">
+    </article><article class="card card-counter" data-search="retool three-dimensional permission groups what not to copy: retool&#39;s permission groups track apps, resources and users as a three-dimensional matrix.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Retool — Permission groups (apps x resources x users)">
-            <img class="preview" src="https://images.refero.design/screenshots/retool.com/desktop/45499563-7ad3-4a72-a5ec-a8470798ab41_preview.jpg" alt="Retool — Permission groups (apps x resources x users)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Retool: Three-dimensional permission groups">
+            <img class="preview" src="https://images.refero.design/screenshots/retool.com/desktop/45499563-7ad3-4a72-a5ec-a8470798ab41_preview.jpg" alt="Retool: Three-dimensional permission groups" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>Retool</strong></p>
-        <h4 class="card-title">Permission groups (apps x resources x users)</h4>
-        <p class="take">Permission groups (apps × resources × users)</p>
+        <h4 class="card-title">Three-dimensional permission groups</h4>
+        <p class="take">What not to copy: Retool&#39;s permission groups track apps, resources and users as a three-dimensional matrix.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/pages/310b8314-6883-42f6-b181-b6e47513d720" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card card-counter" data-search="fresha team permissions matrix (basic / low / med / high / owner) basic/low/med/high tiers that carry no meaning">
+    </article><article class="card card-counter" data-search="fresha vague permission level names what not to copy: permission levels named basic, low, med and high carry no meaning. role names should describe a job, not a rank.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Fresha — Team permissions matrix (Basic / Low / Med / High / Owner)">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/zf98D4qF" alt="Fresha — Team permissions matrix (Basic / Low / Med / High / Owner)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Fresha: Vague permission level names">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/zf98D4qF" alt="Fresha: Vague permission level names" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q4 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>Fresha</strong></p>
-        <h4 class="card-title">Team permissions matrix (Basic / Low / Med / High / Owner)</h4>
-        <p class="take">Basic/Low/Med/High tiers that carry no meaning</p>
+        <h4 class="card-title">Vague permission level names</h4>
+        <p class="take">What not to copy: permission levels named Basic, Low, Med and High carry no meaning. Role names should describe a job, not a rank.</p>
         
       </div>
       <div class="card-footer">
@@ -689,128 +689,128 @@
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
     </article></div>
-      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Stripe role-at-invite (Gamma shows the same idea more simply), GitHub &quot;previous role plus X&quot; (docs-only, use as copywriting reference), Sketch and Figma sharing (ElevenLabs and Coda cover the pattern), Craft / 1Password / Shuttle expiry (Frame.io is the video-specific one), Asana request access (recovery path, keep in mind for later).</p></div></div>
+      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Stripe role-at-invite duplicates Gamma more simply. GitHub &quot;previous role plus X&quot; is docs only and useful as wording later. Sketch and Figma sharing are covered by ElevenLabs and Coda. Craft, 1Password and Shuttle expiry lose to Frame.io for video. Asana request access is a recovery path to keep in mind for later.</p></div></div>
     </section><section id="batch-upload" class="node-section" aria-labelledby="batch-upload-heading">
       <div class="node-heading">
-        <h2 id="batch-upload-heading"><span class="node-number">5.</span> Batch upload (AI?)</h2>
-        <div class="node-badges"><span class="badge">7 keeps</span><span class="badge">1 counters</span></div>
+        <h2 id="batch-upload-heading"><span class="node-number">5.</span> Batch upload (and AI?)</h2>
+        <div class="node-badges"><span class="badge">7 kept</span><span class="badge">1 examples of what not to do</span></div>
       </div>
       
-      <h3>Small batch (a sim tech adding 4–10)</h3><div class="grid"><article class="card" data-search="miro invite to team: paste multiple emails one paste box handles 1 or 100; rows appear immediately.">
+      <h3>Small batch (a sim tech adding 4 to 10)</h3><div class="grid"><article class="card" data-search="miro paste multiple emails to invite miro&#39;s invite uses one paste box that handles 1 or 100 emails; rows appear immediately.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Miro — Invite to team: paste multiple emails">
-            <img class="preview" src="https://images.refero.design/screenshots/miro.com/desktop/06bb10d1-bbaf-401c-a79c-29fec0012322_preview.jpg" alt="Miro — Invite to team: paste multiple emails" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Miro: Paste multiple emails to invite">
+            <img class="preview" src="https://images.refero.design/screenshots/miro.com/desktop/06bb10d1-bbaf-401c-a79c-29fec0012322_preview.jpg" alt="Miro: Paste multiple emails to invite" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
         <p class="app-name"><strong>Miro</strong></p>
-        <h4 class="card-title">Invite to team: paste multiple emails</h4>
-        <p class="take">one paste box handles 1 or 100; rows appear immediately.</p>
+        <h4 class="card-title">Paste multiple emails to invite</h4>
+        <p class="take">Miro&#39;s invite uses one paste box that handles 1 or 100 emails; rows appear immediately.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/pages/6c361e65-4f9d-4e4f-81dd-93f36f6955a3" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="linear inviting team members paste emails plus &quot;add to team&quot; in the same dialog; roster exists before anyone accepts.">
+    </article><article class="card" data-search="linear paste emails and add to team linear lets you paste emails and optionally add people to a team in the same dialog, so the roster exists before anyone accepts.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Linear — Inviting team members">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/vlhXY9dW" alt="Linear — Inviting team members" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Linear: Paste emails and add to team">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/vlhXY9dW" alt="Linear: Paste emails and add to team" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
         <p class="app-name"><strong>Linear</strong></p>
-        <h4 class="card-title">Inviting team members</h4>
-        <p class="take">paste emails plus &quot;Add to team&quot; in the same dialog; roster exists before anyone accepts.</p>
+        <h4 class="card-title">Paste emails and add to team</h4>
+        <p class="take">Linear lets you paste emails and optionally add people to a team in the same dialog, so the roster exists before anyone accepts.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/44413772-2ae1-4a33-85e7-df96010438b9" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article></div><h3>CSV import with mapping and review</h3><div class="grid"><article class="card" data-search="customer.io mapping fields upload / map / review; the review counts new vs existing and can drop the batch into a segment. answers &quot;update, don&#39;t duplicate&quot;.">
+    </article></div><h3>CSV import with mapping and review</h3><div class="grid"><article class="card" data-search="customer.io upload, map fields, review cohort customer.io runs upload, map and review. the review counts new versus existing people and can drop the batch into a segment, which answers update rather than duplicate.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Customer.io — Mapping fields">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/61Y3iAGy" alt="Customer.io — Mapping fields" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Customer.io: Upload, map fields, review cohort">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/61Y3iAGy" alt="Customer.io: Upload, map fields, review cohort" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
         <p class="app-name"><strong>Customer.io</strong></p>
-        <h4 class="card-title">Mapping fields</h4>
-        <p class="take">Upload / Map / Review; the review counts new vs existing and can drop the batch into a segment. Answers &quot;update, don&#39;t duplicate&quot;.</p>
+        <h4 class="card-title">Upload, map fields, review cohort</h4>
+        <p class="take">Customer.io runs Upload, Map and Review. The review counts new versus existing people and can drop the batch into a segment, which answers update rather than duplicate.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/246ac8d9-3fc6-42e1-a04c-aede744f7879" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="ghost importing members column map with sample data, upsert on email, auto-labels the batch &quot;import &lt;date&gt;&quot;.">
+    </article><article class="card" data-search="ghost csv import with column mapping table ghost maps columns with sample data, updates existing people on matching email, and auto-labels the batch &#39;import &lt;date&gt;&#39;.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Ghost — Importing members">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/oyAKpWbF" alt="Ghost — Importing members" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Ghost: CSV import with column mapping table">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/oyAKpWbF" alt="Ghost: CSV import with column mapping table" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3</p>
         <p class="app-name"><strong>Ghost</strong></p>
-        <h4 class="card-title">Importing members</h4>
-        <p class="take">column map with sample data, upsert on email, auto-labels the batch &quot;Import &lt;date&gt;&quot;.</p>
+        <h4 class="card-title">CSV import with column mapping table</h4>
+        <p class="take">Ghost maps columns with sample data, updates existing people on matching email, and auto-labels the batch &#39;Import &lt;date&gt;&#39;.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/b1cd6357-2ef6-4ba2-80e7-5256dc32bf7c" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="rox map columns with sample data and validation review sample values beside each destination field, valid/invalid counts before commit.">
+    </article><article class="card" data-search="rox map columns with sample data and review show sample values beside each destination field, then valid and invalid counts, before you commit the import.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Rox — Map columns with sample data and validation review">
-            <img class="preview" src="https://images.refero.design/screenshots/rox.com/desktop/288031a6-ac62-411e-9b2b-63d7309c8c10_thumb.jpg" alt="Rox — Map columns with sample data and validation review" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Rox: Map columns with sample data and review">
+            <img class="preview" src="https://images.refero.design/screenshots/rox.com/desktop/288031a6-ac62-411e-9b2b-63d7309c8c10_thumb.jpg" alt="Rox: Map columns with sample data and review" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q5</p>
         <p class="app-name"><strong>Rox</strong></p>
-        <h4 class="card-title">Map columns with sample data and validation review</h4>
-        <p class="take">sample values beside each destination field, valid/invalid counts before commit.</p>
+        <h4 class="card-title">Map columns with sample data and review</h4>
+        <p class="take">Show sample values beside each destination field, then valid and invalid counts, before you commit the import.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/flows/10795" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article></div><h3>Safety net for large or repeated imports</h3><div class="grid"><article class="card" data-search="intercom repeat-import matching and an all-error result states the matching rule up front; reports created / updated / failed honestly, even when everything failed.">
+    </article></div><h3>Safety net for large or repeated imports</h3><div class="grid"><article class="card" data-search="intercom repeat-import matching with an all-error result intercom states the matching rule up front and reports created, updated and failed rows honestly, even when everything failed.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Intercom — Repeat-import matching and an all-error result">
-            <img class="preview" src="https://images.refero.design/screenshots/intercom.com/desktop/638e3125-aac1-4239-bff8-cee3b95bf70b_thumb.jpg" alt="Intercom — Repeat-import matching and an all-error result" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Intercom: Repeat-import matching with an all-error result">
+            <img class="preview" src="https://images.refero.design/screenshots/intercom.com/desktop/638e3125-aac1-4239-bff8-cee3b95bf70b_thumb.jpg" alt="Intercom: Repeat-import matching with an all-error result" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q5</p>
         <p class="app-name"><strong>Intercom</strong></p>
-        <h4 class="card-title">Repeat-import matching and an all-error result</h4>
-        <p class="take">states the matching rule up front; reports created / updated / failed honestly, even when everything failed.</p>
+        <h4 class="card-title">Repeat-import matching with an all-error result</h4>
+        <p class="take">Intercom states the matching rule up front and reports created, updated and failed rows honestly, even when everything failed.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/flows/671" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="microsoft entra quarantine unexpected mass removals deletion threshold pauses the run for inspection. the guard against a bad file mass-deleting learners.">
-      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+    </article><article class="card" data-search="microsoft entra pause unexpected mass removals a deletion threshold pauses the run for inspection. that is the guard against a bad file mass-deleting learners.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only - no screen</span></div></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q4</p>
         <p class="app-name"><strong>Microsoft Entra</strong></p>
-        <h4 class="card-title">Quarantine unexpected mass removals</h4>
-        <p class="take">deletion threshold pauses the run for inspection. The guard against a bad file mass-deleting learners.</p>
+        <h4 class="card-title">Pause unexpected mass removals</h4>
+        <p class="take">A deletion threshold pauses the run for inspection. That is the guard against a bad file mass-deleting learners.</p>
         <p class="tags"><span class="tag">Docs only</span></p>
       </div>
       <div class="card-footer">
@@ -818,19 +818,19 @@
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
     </article></div>
-      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
-         <div class="grid counter-grid"><article class="card card-counter" data-search="deel uploading a csv (bulk edit of workers) uploading a csv, 4-stage full-screen wizard">
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Examples of what not to do</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="deel four-stage csv bulk edit flow what not to copy: deel&#39;s four-stage full-screen csv process fits 300 payroll records and is far too heavy for a sim tech adding a group of 4 to 10 learners.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Deel — Uploading a CSV (bulk edit of workers)">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/rDV7o1v9" alt="Deel — Uploading a CSV (bulk edit of workers)" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Deel: Four-stage CSV bulk edit flow">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/rDV7o1v9" alt="Deel: Four-stage CSV bulk edit flow" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q3 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>Deel</strong></p>
-        <h4 class="card-title">Uploading a CSV (bulk edit of workers)</h4>
-        <p class="take">Uploading a CSV, 4-stage full-screen wizard</p>
+        <h4 class="card-title">Four-stage CSV bulk edit flow</h4>
+        <p class="take">What not to copy: Deel&#39;s four-stage full-screen CSV process fits 300 payroll records and is far too heavy for a sim tech adding a group of 4 to 10 learners.</p>
         
       </div>
       <div class="card-footer">
@@ -838,102 +838,102 @@
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
     </article></div>
-      <div class="callouts"><div class="callout callout-ai"><p class="callout-label">AI</p><p>no evidence in either round. The only &quot;auto&quot; anything is Cake Equity&#39;s rule-based column auto-map. If the AI question matters, it is a new research question, not a narrowing.</p></div><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Grammarly &quot;Import list&quot; nudge (worth remembering for the discoverability problem, but it is one button), Intercom / Circle / Resend / Acuity / Cake Equity CSV imports (same pattern as Customer.io and Ghost), Google GCDS simulate-first (Entra quarantine covers the safety idea with a clearer screen).</p></div></div>
+      <div class="callouts"><div class="callout callout-ai"><p class="callout-label">AI</p><p>Neither report shows evidence of AI here. The only &quot;auto&quot; behaviour is Cake Equity&#39;s rule-based column auto-map. If the AI question matters, it is a new research question, not something this shortlist can narrow.</p></div><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Grammarly&#39;s &quot;Import list&quot; nudge is one button, worth remembering for discoverability. Intercom, Circle, Resend, Acuity and Cake Equity CSV imports match Customer.io and Ghost. Google GCDS simulate-first is covered more clearly by Entra quarantine.</p></div></div>
     </section><section id="sso" class="node-section" aria-labelledby="sso-heading">
       <div class="node-heading">
-        <h2 id="sso-heading"><span class="node-number">6.</span> SSO</h2>
-        <div class="node-badges"><span class="badge">8 keeps</span><span class="badge">2 counters</span></div>
+        <h2 id="sso-heading"><span class="node-number">6.</span> Single sign-on (SSO)</h2>
+        <div class="node-badges"><span class="badge">8 kept</span><span class="badge">2 examples of what not to do</span></div>
       </div>
       
-      <h3>IT setup and scoping</h3><div class="grid"><article class="card" data-search="okta select active directory users and groups before import separate user-ou and group-ou selection, matching rules, and a warning that changing filters can deactivate people. the core ldap/ad reference.">
-      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only — no screen</span></div></div>
+      <h3>IT setup and scoping</h3><div class="grid"><article class="card" data-search="okta select active directory users and groups before import okta separates user and group organizational-unit selection, matching rules, and a warning that changing filters can deactivate people. this is the core active directory and a standard way to query a directory (ldap) example.">
+      <div class="card-media"><div class="preview placeholder-only"><span>Documentation only - no screen</span></div></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q1</p>
         <p class="app-name"><strong>Okta</strong></p>
         <h4 class="card-title">Select Active Directory users and groups before import</h4>
-        <p class="take">separate user-OU and group-OU selection, matching rules, and a warning that changing filters can deactivate people. The core LDAP/AD reference.</p>
+        <p class="take">Okta separates user and group organizational-unit selection, matching rules, and a warning that changing filters can deactivate people. This is the core Active Directory and a standard way to query a directory (LDAP) example.</p>
         <p class="tags"><span class="tag">Docs only</span></p>
       </div>
       <div class="card-footer">
         <a href="https://help.okta.com/oie/en-us/content/topics/directory/ad-agent-configure-import.htm" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="github test saml before saving an enforced sign-in policy save stays disabled until the test passes. stops the months-long lockout failure mode.">
+    </article><article class="card" data-search="github test saml before saving enforced sign-in save stays disabled until the connection test passes. that stops the months-long lockout failure mode from a bad saml save.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: GitHub — Test SAML before saving an enforced sign-in policy">
-            <img class="preview" src="university-identity/assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg" alt="GitHub — Test SAML before saving an enforced sign-in policy" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: GitHub: Test SAML before saving enforced sign-in">
+            <img class="preview" src="university-identity/assets/mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg" alt="GitHub: Test SAML before saving enforced sign-in" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q1</p>
         <p class="app-name"><strong>GitHub</strong></p>
-        <h4 class="card-title">Test SAML before saving an enforced sign-in policy</h4>
-        <p class="take">Save stays disabled until the test passes. Stops the months-long lockout failure mode.</p>
+        <h4 class="card-title">Test SAML before saving enforced sign-in</h4>
+        <p class="take">Save stays disabled until the connection test passes. That stops the months-long lockout failure mode from a bad SAML save.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/ced1a847-5c4e-49bd-92b4-dcec2b5a8916" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="homerun team login policy: none / 2fa or sso / sso three radios with consequence text before enforcement.">
+    </article><article class="card" data-search="homerun three-radio team login policy homerun offers three login policies as radios, each with consequence text, before you enforce the rule for the whole organisation.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Homerun — Team login policy: none / 2FA or SSO / SSO">
-            <img class="preview" src="https://images.refero.design/screenshots/homerun.co/desktop/f05829c5-427b-4523-bd79-b5f2fd5952bd_preview.jpg" alt="Homerun — Team login policy: none / 2FA or SSO / SSO" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Homerun: Three-radio team login policy">
+            <img class="preview" src="https://images.refero.design/screenshots/homerun.co/desktop/f05829c5-427b-4523-bd79-b5f2fd5952bd_preview.jpg" alt="Homerun: Three-radio team login policy" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q1</p>
         <p class="app-name"><strong>Homerun</strong></p>
-        <h4 class="card-title">Team login policy: none / 2FA or SSO / SSO</h4>
-        <p class="take">three radios with consequence text before enforcement.</p>
+        <h4 class="card-title">Three-radio team login policy</h4>
+        <p class="take">Homerun offers three login policies as radios, each with consequence text, before you enforce the rule for the whole organisation.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/pages/f690f4ed-6af6-4a63-8496-ad6e23925486" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article></div><h3>Learner sign-in and failure states</h3><div class="grid"><article class="card" data-search="riverside sso email discovery with an explicit failure &quot;this email is not recognised for sso&quot; with a supported next step.">
+    </article></div><h3>Learner sign-in and failure states</h3><div class="grid"><article class="card" data-search="riverside sso email discovery with a clear failure when an email is not recognised for single sign-on, show a supported next step instead of a dead end.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Riverside — SSO email discovery with an explicit failure">
-            <img class="preview" src="university-identity/assets/refero-4649/0.jpg" alt="Riverside — SSO email discovery with an explicit failure" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Riverside: SSO email discovery with a clear failure">
+            <img class="preview" src="university-identity/assets/refero-4649/0.jpg" alt="Riverside: SSO email discovery with a clear failure" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
         <p class="app-name"><strong>Riverside</strong></p>
-        <h4 class="card-title">SSO email discovery with an explicit failure</h4>
-        <p class="take">&quot;this email is not recognised for SSO&quot; with a supported next step.</p>
+        <h4 class="card-title">SSO email discovery with a clear failure</h4>
+        <p class="take">When an email is not recognised for single sign-on, show a supported next step instead of a dead end.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://refero.design/flows/4649" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="incident.io keep saml failure and recovery routes visible retry and contact-admin paths stay on screen after a failed sign-in.">
+    </article><article class="card" data-search="incident.io keep saml failure and recovery visible after a failed sign-in, keep retry and contact-admin paths on the same screen.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: incident.io — Keep SAML failure and recovery routes visible">
-            <img class="preview" src="university-identity/assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg" alt="incident.io — Keep SAML failure and recovery routes visible" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: incident.io: Keep SAML failure and recovery visible">
+            <img class="preview" src="university-identity/assets/mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg" alt="incident.io: Keep SAML failure and recovery visible" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
         <p class="app-name"><strong>incident.io</strong></p>
-        <h4 class="card-title">Keep SAML failure and recovery routes visible</h4>
-        <p class="take">retry and contact-admin paths stay on screen after a failed sign-in.</p>
+        <h4 class="card-title">Keep SAML failure and recovery visible</h4>
+        <p class="take">After a failed sign-in, keep retry and contact-admin paths on the same screen.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/flows/93a5db68-6f50-4b51-90fd-0b5ae39257a5" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article><article class="card" data-search="atlassian create accounts at first saml sign-in shared with the users node; jit as an explicit policy.">
+    </article><article class="card" data-search="atlassian create accounts at first saml sign-in this example is shared with add, remove and edit users: treat just-in-time account creation as an explicit policy, not a hidden side effect.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Atlassian — Create accounts at first SAML sign-in">
-            <img class="preview" src="university-identity/assets/documentation/atlassian-jit-0.png" alt="Atlassian — Create accounts at first SAML sign-in" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Atlassian: Create accounts at first SAML sign-in">
+            <img class="preview" src="university-identity/assets/documentation/atlassian-jit-0.png" alt="Atlassian: Create accounts at first SAML sign-in" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
@@ -941,43 +941,43 @@
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R2</span> · Q2</p>
         <p class="app-name"><strong>Atlassian</strong></p>
         <h4 class="card-title">Create accounts at first SAML sign-in</h4>
-        <p class="take">shared with the users node; JIT as an explicit policy.</p>
+        <p class="take">This example is shared with Add, remove and edit users: treat just-in-time account creation as an explicit policy, not a hidden side effect.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://support.atlassian.com/atlassian-cloud/kb/what-is-just-in-time-provisioning-and-how-to-set-it-up/" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="university-identity/report.html">Open in R2 report</a>
       </div>
-    </article></div><h3>Account recovery for lockouts</h3><div class="grid"><article class="card" data-search="microsoft copilot incorrect password - send a code instead inline code fallback on a wrong password.">
+    </article></div><h3>Account recovery for lockouts</h3><div class="grid"><article class="card" data-search="microsoft copilot wrong password offers send a code on a wrong password, microsoft offers an inline &#39;send a code&#39; fallback. hospital and university users already live in this pattern.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Microsoft Copilot — Incorrect password - send a code instead">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/SG2p0r0R" alt="Microsoft Copilot — Incorrect password - send a code instead" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Microsoft Copilot: Wrong password offers send a code">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/SG2p0r0R" alt="Microsoft Copilot: Wrong password offers send a code" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6</p>
         <p class="app-name"><strong>Microsoft Copilot</strong></p>
-        <h4 class="card-title">Incorrect password - send a code instead</h4>
-        <p class="take">inline code fallback on a wrong password.</p>
+        <h4 class="card-title">Wrong password offers send a code</h4>
+        <p class="take">On a wrong password, Microsoft offers an inline &#39;Send a code&#39; fallback. Hospital and university users already live in this pattern.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/screens/1f44597f-d45a-400f-ba0c-f3a914bfc6b3" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card" data-search="surfshark too many login attempts - login with code code as the way out of a rate limit instead of a hard lockout.">
+    </article><article class="card" data-search="surfshark rate limit offers login with code surfshark offers a login code as the way out of a rate limit instead of a hard lockout.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Surfshark — Too many login attempts - login with code">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/Zv3LvYo2" alt="Surfshark — Too many login attempts - login with code" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Surfshark: Rate limit offers login with code">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/Zv3LvYo2" alt="Surfshark: Rate limit offers login with code" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
         <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6</p>
         <p class="app-name"><strong>Surfshark</strong></p>
-        <h4 class="card-title">Too many login attempts - login with code</h4>
-        <p class="take">code as the way out of a rate limit instead of a hard lockout.</p>
+        <h4 class="card-title">Rate limit offers login with code</h4>
+        <p class="take">Surfshark offers a login code as the way out of a rate limit instead of a hard lockout.</p>
         
       </div>
       <div class="card-footer">
@@ -985,37 +985,37 @@
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
     </article></div>
-      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Counter-examples</h3></div>
-         <div class="grid counter-grid"><article class="card card-counter" data-search="skiff recover your account with recovery key recover with recovery key (its take: &quot;the hidden recovery dependency that produces six-month lockouts&quot;)">
+      <div class="section-heading counter-heading"><p class="eyebrow">Don't build this</p><h3>Examples of what not to do</h3></div>
+         <div class="grid counter-grid"><article class="card card-counter" data-search="skiff recovery key stuck on signup device what not to copy: skiff recovery depends on a key saved on the device used to sign up. that hidden dependency is what produces six-month lockouts.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Skiff — Recover your account with recovery key">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/e4zzhg5R" alt="Skiff — Recover your account with recovery key" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Skiff: Recovery key stuck on signup device">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/e4zzhg5R" alt="Skiff: Recovery key stuck on signup device" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>Skiff</strong></p>
-        <h4 class="card-title">Recover your account with recovery key</h4>
-        <p class="take">Recover with recovery key (its take: &quot;the hidden recovery dependency that produces six-month lockouts&quot;)</p>
+        <h4 class="card-title">Recovery key stuck on signup device</h4>
+        <p class="take">What not to copy: Skiff recovery depends on a key saved on the device used to sign up. That hidden dependency is what produces six-month lockouts.</p>
         
       </div>
       <div class="card-footer">
         <a href="https://mobbin.com/screens/c3eb55db-308d-478a-8c34-beca03d2797f" target="_blank" rel="noopener noreferrer">Source ↗</a>
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
-    </article><article class="card card-counter" data-search="sentry recover account - link invalid or expired recover account, link invalid or expired">
+    </article><article class="card card-counter" data-search="sentry expired recovery link dead end what not to copy: sentry&#39;s expired recovery link is a dead end with only &#39;try again&#39; text. sign-in links sent by email need a clear next step when they expire.">
       <div class="card-media"><figure class="preview-figure">
-          <button type="button" class="preview-btn" aria-label="Open full-size: Sentry — Recover Account - link invalid or expired">
-            <img class="preview" src="https://mobbin.com/api/mcp/short/Vrc7gXLg" alt="Sentry — Recover Account - link invalid or expired" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
+          <button type="button" class="preview-btn" aria-label="Open full-size: Sentry: Expired recovery link dead end">
+            <img class="preview" src="https://mobbin.com/api/mcp/short/Vrc7gXLg" alt="Sentry: Expired recovery link dead end" loading="lazy" onerror="this.closest('figure').classList.add('img-broken')">
           </button>
           <div class="placeholder img-broken-only"><span>Image unavailable</span></div>
         </figure></div>
       <div class="card-body">
-        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6 <span class="badge counter">Counter-example</span></p>
+        <p class="eyebrow card-eyebrow"><span class="badge round-badge">R1</span> · Q6 <span class="badge counter">Example of what not to do</span></p>
         <p class="app-name"><strong>Sentry</strong></p>
-        <h4 class="card-title">Recover Account - link invalid or expired</h4>
-        <p class="take">Recover account, link invalid or expired</p>
+        <h4 class="card-title">Expired recovery link dead end</h4>
+        <p class="take">What not to copy: Sentry&#39;s expired recovery link is a dead end with only &#39;try again&#39; text. Sign-in links sent by email need a clear next step when they expire.</p>
         
       </div>
       <div class="card-footer">
@@ -1023,11 +1023,11 @@
         <a class="report-link" href="tmp/report-hotlink.html">Open in R1 report</a>
       </div>
     </article></div>
-      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Calendly SSO / provisioning / domain-control tabs (clean IA, but it is an information-architecture reference rather than a flow; pull it back if you design the settings page), Zendesk named SAML connection and Remote SAML guide (form-level detail, GitHub&#39;s test-before-save is the stronger lesson), WorkOS attribute toggles, Entra provisioning diagnostics, Epidemic Sound / Maze / Workable sign-in variants, OpenAI and Miro recovery (not counter-examples despite the index saying so; the JSON flags them false).</p></div></div>
+      <div class="callouts"><div class="callout callout-dropped"><p class="callout-label">Close calls dropped</p><p class="dropped-text">Calendly&#39;s SSO, provisioning and domain-control tabs are a clean settings layout, not a flow. Pull them back if you design the settings page. Zendesk&#39;s named SAML connection and Remote SAML guide are form-level detail; GitHub&#39;s test-before-save is the stronger lesson. We also dropped WorkOS attribute toggles, Entra provisioning diagnostics, and Epidemic Sound, Maze and Workable sign-in variants. OpenAI and Miro recovery are not examples of what not to do despite the index; the shortlist data does not mark them as examples of what not to do.</p></div></div>
     </section>
   <section class="node-section" aria-labelledby="next-step-heading">
     <h2 id="next-step-heading">Next step</h2>
-    <p class="lead"></p>
+    <p class="lead">The final selection step in <code>PLAN.md</code> is still open: nothing in either <code>references.json</code> is marked <code>selected: true</code>. This shortlist is the proposed selection. Marking these 41 kept examples and 10 examples of what not to do as shortlisted, then regenerating both reports, would produce the version for the client.</p>
   </section>
 </main>
 <dialog id="lightbox" aria-labelledby="lightbox-caption">

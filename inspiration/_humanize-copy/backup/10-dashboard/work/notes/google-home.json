@@ -1,0 +1,43 @@
+{
+  "product": "google-home",
+  "flows": {
+    "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4": {
+      "summary": "User opens the Favourites home, then the Devices list where rooms group device tiles and an Offline light is visible without drilling in; later the same list shows devices online.",
+      "steps": [
+        "Favourites home — Assistant tile + Reorder/Edit",
+        "Devices — Living room Light Offline",
+        "Devices — all online",
+        "Devices — all online (repeat)"
+      ],
+      "steal": [
+        "Step 2: Offline shows on the room tile itself (gray card + Offline label + warning triangle) — no drill-in needed to see the problem.",
+        "Step 2–3: Devices grouped under room headers (Living room) with status on the tile (On • 100% vs Offline).",
+        "Step 1: Favourites Reorder + Edit as explicit widget customization entry points.",
+        "Step 1–3: Home location switcher in the header for multi-site centers."
+      ],
+      "avoid": [
+        "Steps 3–4 are a duplicate all-online Devices capture — do not treat the repeat as a distinct state transition."
+      ],
+      "fit": "Room-grouped device tiles with Offline-on-list extend Center Overview on the dashboard and hand off problem rooms to Recording for AV/device check; Favourites Reorder/Edit is dashboard-only widgets, not a replacement for module tiles.",
+      "jobs": ["center-overview", "system-health", "widgets"]
+    },
+    "mobbin:b173bbc8-5ec9-487b-9837-c0b19fc34805": {
+      "summary": "User opens Hue Bridge device settings (room assignment + metadata), opens a Help/Feedback sheet, then lands on a searchable Help hub with articles and Contact us.",
+      "steps": [
+        "Hue Bridge settings — room + metadata",
+        "More menu — Help / Feedback / Cancel",
+        "Help hub — articles + Contact us"
+      ],
+      "steal": [
+        "Step 1: Device detail ties Name / Home / Room and shows Connected through + Device type for tech troubleshooting.",
+        "Step 3: Fix path is a help-article list (e.g. Nest camera Wi-Fi) plus Search Help — not a guided per-step wizard.",
+        "Step 3: Who to call is offered via Contact us and Ask the Help Community."
+      ],
+      "avoid": [
+        "Help is a generic article list after the fact — no problem-specific guided fix from the Offline tile itself."
+      ],
+      "fit": "Device metadata and room assignment live on the dashboard system-health strip; Contact us maps to calling sim tech / AV support, while deep camera/mic repair still hands off to Recording.",
+      "jobs": ["system-health"]
+    }
+  }
+}

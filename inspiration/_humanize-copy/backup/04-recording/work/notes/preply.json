@@ -1,0 +1,27 @@
+{
+  "product": "preply",
+  "flows": {
+    "mobbin:272048bd-060c-49bf-b4ad-e37b5d2a45a1": {
+      "summary": "Before Enter classroom, the learner opens Test devices, runs a short AV sample with a scripted prompt, confirms Yes/No on seeing themselves, then returns to a hub with Camera and mic checkmarked.",
+      "steps": [
+        "Lobby — Test devices + Enter classroom",
+        "Hub — Camera and mic vs Network",
+        "AV test — Start test CTA",
+        "Hub — Camera/mic vs Network (again)",
+        "AV test — Recording in progress + say prompt",
+        "AV test — Can you see yourself Yes/No",
+        "Hub — Camera and mic checkmarked"
+      ],
+      "steal": [
+        "Hub splits Camera and mic vs Network and device with fix-tips copy (step Hub — Camera and mic vs Network).",
+        "5-second AV sample: won't be saved or shared + Start test (step AV test — Start test CTA).",
+        "During capture: Recording in progress, Try saying…, and a progress bar (step AV test — Recording in progress).",
+        "Self-confirm Yes/No with If not, we'll help you fix it + New test; hub then shows green check on Camera and mic (steps Yes/No and Hub — checkmarked)."
+      ],
+      "avoid": [
+        "Hub screens repeat (steps 1 and 3) with little new state — recycle steps confuse operators running a daily room self-test."
+      ],
+      "fit": "Replaces the planned per-room self-test outside SRV: guided cam/mic sample + Yes/No confirm + checkmarked health summary before session; not an SRV tab change."
+    }
+  }
+}

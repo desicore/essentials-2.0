@@ -1,0 +1,215 @@
+{
+  "references": [
+    {
+      "id": "mobbin:cb1f904a-8674-4b22-8793-bd431804a75b",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/cb1f904a-8674-4b22-8793-bd431804a75b",
+      "app": "Notion",
+      "platform": "web",
+      "jobs": [
+        "today"
+      ],
+      "take": "Home dashboard shows upcoming events section with today's date, multiple tasks by time.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/CFwz0Z9Z",
+        "https://mobbin.com/api/mcp/short/syLSfzPD",
+        "https://mobbin.com/api/mcp/short/YHjfuMb0"
+      ],
+      "title": "Home with upcoming events and my tasks"
+    },
+    {
+      "id": "mobbin:f2b8fe8d-b4f1-40be-8d01-afa341acbfbb",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f2b8fe8d-b4f1-40be-8d01-afa341acbfbb",
+      "app": "Notion",
+      "platform": "web",
+      "jobs": [
+        "today"
+      ],
+      "take": "Meetings flow shows upcoming events list with today's items and sidebar navigation.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LR8DKtkC",
+        "https://mobbin.com/api/mcp/short/jVYz5UVj",
+        "https://mobbin.com/api/mcp/short/5A5GfvC2"
+      ]
+    },
+    {
+      "id": "mobbin:4208a08e-f23f-4a81-87bf-a3a24fa7f0ba",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4208a08e-f23f-4a81-87bf-a3a24fa7f0ba",
+      "app": "Linear",
+      "platform": "web",
+      "jobs": [
+        "action-items"
+      ],
+      "take": "Deleting a notification: dismiss action with visual feedback shows inbox notification removal.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7ccL15Fw",
+        "https://mobbin.com/api/mcp/short/cEtOhwWL"
+      ]
+    },
+    {
+      "id": "mobbin:2ee08fdf-b415-43f3-8a8b-6d36107b5c6f",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/2ee08fdf-b415-43f3-8a8b-6d36107b5c6f",
+      "app": "Linear",
+      "platform": "web",
+      "jobs": [
+        "action-items"
+      ],
+      "take": "Inbox flow shows full notification management from list view through selection and interaction.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/P9JXr0n5",
+        "https://mobbin.com/api/mcp/short/CO6sI0JV",
+        "https://mobbin.com/api/mcp/short/d5r3siLM",
+        "https://mobbin.com/api/mcp/short/bxkustp3"
+      ],
+      "title": "Triage the inbox: done and snooze"
+    },
+    {
+      "id": "mobbin:d1d517cc-d7ac-4789-aba4-fff323093036",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d1d517cc-d7ac-4789-aba4-fff323093036",
+      "app": "Linear",
+      "platform": "web",
+      "jobs": [
+        "action-items"
+      ],
+      "take": "Marking all notifications as read: bulk action on inbox with state change feedback.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/iddF6hIV",
+        "https://mobbin.com/api/mcp/short/X9BO8T8F",
+        "https://mobbin.com/api/mcp/short/IjHYVjdf"
+      ],
+      "title": "Mark all as read vs. delete all"
+    },
+    {
+      "id": "mobbin:42da803e-8054-411a-92cb-605d6422cf0c",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/42da803e-8054-411a-92cb-605d6422cf0c",
+      "app": "Canva",
+      "platform": "web",
+      "jobs": [
+        "action-items"
+      ],
+      "take": "Notifications panel with mark-as-read option and batch notification management.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/l2o8Liso",
+        "https://mobbin.com/api/mcp/short/9GeMMnA3",
+        "https://mobbin.com/api/mcp/short/FH776L32"
+      ]
+    },
+    {
+      "id": "mobbin:e5801df7-9504-4888-8831-709c9f5409b1",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e5801df7-9504-4888-8831-709c9f5409b1",
+      "app": "American Airlines",
+      "platform": "ios",
+      "jobs": [
+        "today",
+        "system-health"
+      ],
+      "take": "Home flow with boarding time, on-time status badge, check-in action, and flight details.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Nk1Rzpbo",
+        "https://mobbin.com/api/mcp/short/erMrQKAw",
+        "https://mobbin.com/api/mcp/short/lRpX7HAv",
+        "https://mobbin.com/api/mcp/short/aMFjIGGz",
+        "https://mobbin.com/api/mcp/short/UhTco9xi",
+        "https://mobbin.com/api/mcp/short/BYGx5jGg",
+        "https://mobbin.com/api/mcp/short/ixQHiKO9"
+      ]
+    },
+    {
+      "id": "mobbin:b4a754e1-68ca-4e92-b0dd-b9759ff9c18d",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b4a754e1-68ca-4e92-b0dd-b9759ff9c18d",
+      "app": "American Airlines",
+      "platform": "ios",
+      "jobs": [
+        "today",
+        "system-health"
+      ],
+      "take": "Widgets showing boarding time with delay badge and flight status on home screen card.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/nl81szY5",
+        "https://mobbin.com/api/mcp/short/v85HHonV"
+      ]
+    },
+    {
+      "id": "mobbin:4894ce61-e650-4247-af04-40c39a40704b",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4894ce61-e650-4247-af04-40c39a40704b",
+      "app": "Fly Delta",
+      "platform": "ios",
+      "jobs": [
+        "today"
+      ],
+      "take": "Boarding pass flow showing boarding time, gate, seat, flight details and multiple action options.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/kv0sVqIR",
+        "https://mobbin.com/api/mcp/short/ynAnVvLD",
+        "https://mobbin.com/api/mcp/short/4qBP8dg3",
+        "https://mobbin.com/api/mcp/short/mQnUGkma",
+        "https://mobbin.com/api/mcp/short/XoCFuWHE",
+        "https://mobbin.com/api/mcp/short/dGKUgkyF"
+      ]
+    },
+    {
+      "id": "mobbin:7df9c1e2-cfd5-4c9f-84eb-718683ff8ed3",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7df9c1e2-cfd5-4c9f-84eb-718683ff8ed3",
+      "app": "Fresha",
+      "platform": "web",
+      "jobs": [
+        "today"
+      ],
+      "take": "Calendar view with appointments by time slot, click to open appointment detail with client info and service.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TUwPlgtZ",
+        "https://mobbin.com/api/mcp/short/tNK8Aysp",
+        "https://mobbin.com/api/mcp/short/OAua7OXI",
+        "https://mobbin.com/api/mcp/short/uOgcMMBC"
+      ],
+      "title": "Setup drawer, day grid and a no-show"
+    },
+    {
+      "id": "mobbin:3c0845a8-624f-4a47-ad80-e57ab4bb1531",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3c0845a8-624f-4a47-ad80-e57ab4bb1531",
+      "app": "Fresha",
+      "platform": "web",
+      "jobs": [
+        "today"
+      ],
+      "take": "Home dashboard with today's next appointments section showing time, client name, and service type.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DdFLz2No",
+        "https://mobbin.com/api/mcp/short/4rYkHjtX",
+        "https://mobbin.com/api/mcp/short/prlcs0dP",
+        "https://mobbin.com/api/mcp/short/ZO4Y2bvj",
+        "https://mobbin.com/api/mcp/short/NNHhJQRD",
+        "https://mobbin.com/api/mcp/short/SqMSjyTs"
+      ],
+      "title": "Home: KPIs and today’s next appointments"
+    },
+    {
+      "id": "mobbin:5e55a2f3-5bb5-43b8-8b13-b7a15ab6f47e",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5e55a2f3-5bb5-43b8-8b13-b7a15ab6f47e",
+      "app": "Tana",
+      "platform": "web",
+      "jobs": [
+        "today"
+      ],
+      "take": "Today feed with now section showing current meeting time and option to join, plus past and future items.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/tx3riPal",
+        "https://mobbin.com/api/mcp/short/k56PSrBZ",
+        "https://mobbin.com/api/mcp/short/C3wACCYB",
+        "https://mobbin.com/api/mcp/short/H41PDKj6",
+        "https://mobbin.com/api/mcp/short/pkKQQlkk"
+      ]
+    }
+  ]
+}

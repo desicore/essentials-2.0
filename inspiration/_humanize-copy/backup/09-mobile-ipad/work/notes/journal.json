@@ -1,0 +1,46 @@
+{
+  "product": "journal",
+  "flows": {
+    "mobbin:a01989c0-b8a9-46af-9dea-dec74d6f7bed": {
+      "summary": "From the lock screen, the user monitors an in-progress audio recording Live Activity (waveform + elapsed time) and ends it with a single stop/done control—no unlock required.",
+      "steps": [
+        "Lock-screen Live Activity — waveform + 0:19 + stop square",
+        "Lock-screen Live Activity — waveform + 0:22 + checkmark done"
+      ],
+      "steal": [
+        "Glanceable recording state without unlocking: live waveform + elapsed timer on the lock screen (both steps).",
+        "Single primary end-recording control on the Live Activity (stop square → checkmark); no secondary chrome (steps 1–2).",
+        "Control stays hit-target large beside the waveform so one-handed stop works while pocketed/gloved (step 1)."
+      ],
+      "avoid": [
+        "No pause on the Live Activity (both steps)—only stop/done; pocket tap can discard mid-thought with no resume."
+      ],
+      "fit": "Mobile uniquely owns lock-screen recording control; steal for Baseline remote start/stop / Live Activity indicator—phone as glanceable REC state while faculty moves rooms (not a desktop/SRV substitute).",
+      "jobs": ["recording-control"],
+      "counter_example": false
+    },
+    "mobbin:8d896cd3-c8c4-4b58-b852-317e91eece4b": {
+      "summary": "From a journal entry the user opens an audio recorder sheet, starts/pauses/resumes with waveform + ms timer, finishes with Done, and lands back on the entry with an attached audio player card—no on-screen transcript of the recording appears.",
+      "steps": [
+        "Entry editor — media toolbar with waveform record icon",
+        "Bottom sheet — Start Audio Recording + red record @ 0:00",
+        "Full recorder idle — empty waveform, play/±15s, Done disabled",
+        "Recording — scrolling waveform, pause pill, Done dimmed",
+        "Paused — RESUME + enabled Done + scrub/play of take",
+        "Entry with audio card (play + 0:17 + quote icon) above body text"
+      ],
+      "steal": [
+        "Record starts as a bottom sheet over the note so context stays visible (step 2).",
+        "Paused state enables Done and lets you scrub/play the take before committing (step 5).",
+        "Done stays disabled until pause/stop so you cannot finalize mid-record (steps 3–4).",
+        "Finished take collapses to a compact player card on the note (step 6)."
+      ],
+      "avoid": [
+        "Quote/transcript icon appears on recorder and card (steps 3–6) but no transcript UI is shown—don't imply STT from these screens alone."
+      ],
+      "fit": "Phone-side dictate-and-attach for Baseline timestamped voice notes while walking the room; extends TouchPro with pause/scrub-before-save—not room AV start/stop.",
+      "jobs": ["voice-notes", "recording-control"],
+      "counter_example": false
+    }
+  }
+}

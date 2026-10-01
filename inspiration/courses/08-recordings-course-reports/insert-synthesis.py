@@ -12,11 +12,11 @@ def cite(ids):
 def items(xs):
  return '<ul>'+''.join('<li>'+esc(x['text'])+' '+cite(x.get('refs',[]))+'</li>' for x in xs)+'</ul>'
 block='<section id="synthesis" aria-label="Research synthesis"><h3>Top examples</h3>'+items(s['top'])
-block+='<h3>Pattern comparison</h3><p>'+esc(s['legend'])+'</p><div class="comparison"><table><thead><tr><th>Product</th>'+''.join('<th title="'+esc(q['title'])+'">'+q['id']+'</th>' for q in d['questions'])+'</tr></thead><tbody>'
+block+='<h3>How the products compare</h3><p>'+esc(s['legend'])+'</p><div class="comparison"><table><thead><tr><th>Product</th>'+''.join('<th title="'+esc(q['title'])+'">'+q['id']+'</th>' for q in d['questions'])+'</tr></thead><tbody>'
 for row in s['comparison']:
  block+='<tr><th>'+esc(row['app'])+'<br>'+' '.join(f'<a href="#{esc(i)}" title="{esc(i)}">[{n+1}]</a>' for n,i in enumerate(row.get('refs',[])))+'</th>'+''.join('<td>'+esc(cell)+'</td>' for cell in row['cells'])+'</tr>'
 block+='</tbody></table></div>'
-for key,title in [('differences','What the best apps do differently'),('practices','Best practices top companies converge on'),('open','Open questions for Essentials 2.0')]:
+for key,title in [('differences','What the best products do differently'),('practices','What the leading products have in common'),('open','Open questions for Essentials 2.0')]:
  block+='<h3>'+title+'</h3>'+items(s[key])
 block+='<p class="muted">'+esc(s['limitations'])+'</p></section>'
 h=report.read_text()
@@ -31,7 +31,7 @@ for r in ordered:
  pattern='id="'+esc(r['id'])+'" class="card"'
  start=h.index(pattern);pos=h.index('<div class="card-body">',start)+len('<div class="card-body">')
  h=h[:pos]+'<span class="reference-id">'+esc(r['id'])+'</span>'+h[pos:]
-h=h.replace('<section class="question-section" data-question="0"','<div class="subsection-label">Part A · Recording organisation, access and playback</div><section class="question-section" data-question="0"',1)
-h=h.replace('<section class="question-section" data-question="3"','<div class="subsection-label">Part B · Course reporting and learner results</div><section class="question-section" data-question="3"',1)
+h=h.replace('<section class="question-section" data-question="0"','<div class="subsection-label">Part A: organizing, sharing and playing recordings</div><section class="question-section" data-question="0"',1)
+h=h.replace('<section class="question-section" data-question="3"','<div class="subsection-label">Part B: course reporting and learner results</div><section class="question-section" data-question="3"',1)
 report.write_text(h)
 print('Synthesis inserted; six question H2s preserved.')

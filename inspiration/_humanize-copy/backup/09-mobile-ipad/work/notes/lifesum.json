@@ -1,0 +1,33 @@
+{
+  "product": "lifesum",
+  "flows": {
+    "mobbin:376a68ad-85c8-4071-a09d-bbfe73ce7cf0": {
+      "summary": "User starts a Life Score test from 0/150, answers radio and multi-select items plus a frequency slider, then reviews a scored Weekly insights breakdown with retake.",
+      "steps": [
+        "Life Score hub — 0/150 + Take the test",
+        "Food preferences — radios, NEXT disabled",
+        "Food preferences — selected + NEXT enabled",
+        "Allergies — multi-select list, NEXT disabled",
+        "Allergies — Lactose + Milk checked",
+        "Strength slider — 41/41 progress, mid value",
+        "Strength slider — value 2–3 h / week + NEXT",
+        "Weekly insights — score 84/150 gauge",
+        "Highlights — Improve this cards",
+        "Current status — OPTIMAL / GREAT groups",
+        "Lower statuses — OFF-TRACK + Retake the test"
+      ],
+      "steal": [
+        "NEXT stays disabled until a choice is made (steps 2, 4) — forces complete rubric items.",
+        "Large full-row radio / multi-check targets (steps 2–5) — one-hand, gloved-friendly scoring.",
+        "Continuous slider with live value label for graded items (steps 6–7) — partial-credit analog.",
+        "Post-submit score gauge + grouped status cards OPTIMAL→OFF-TRACK (steps 8–11) — review after fill."
+      ],
+      "avoid": [
+        "41-step wizard for live scoring (step 6 shows 41/41) — too slow during a sim; keep rubrics short or sectioned."
+      ],
+      "fit": "Mobile one-question-at-a-time beats desktop forms for faculty filling a rubric live; extends Baseline checklist with big targets and scored summary — compress length for exam constraints.",
+      "jobs": ["checklist"],
+      "counter_example": false
+    }
+  }
+}

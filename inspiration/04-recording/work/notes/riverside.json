@@ -1,0 +1,63 @@
+{
+  "product": "riverside",
+  "flows": {
+    "mobbin:98d1b7e8-cff5-47a9-84e7-278eb2650ae0": {
+      "summary": "During a live recording, the host taps 'Mark Clip' to mark a moment, a short pop-up message confirms it, and the button counts the marks so far.",
+      "steps": [
+        "Recording in progress, with a 'Mark Clip' button",
+        "Pop-up confirms the clip; button now says 'Mark Clip (3)'"
+      ],
+      "steal": [
+        "One tap on 'Mark Clip' marks a moment without a form, while the 'REC' sign and upload progress stay on screen (screen 1).",
+        "A short pop-up message gives the exact time in the recording ('00:03:59 Clip created from marker') and can be closed (screen 2).",
+        "The button counts the marks so far ('Mark Clip (3)'), so the host can keep track even when marks overlap (screen 2).",
+        "The People panel shows how much of each participant's video has uploaded ('720p 97% uploaded') next to 'REC' (screen 1)."
+      ],
+      "avoid": [],
+      "fit": "Recording: faculty could mark moments during a live session, and the marks would land in the existing marker row on the SRV timeline. The counter helps with the known problem of overlapping marks."
+    },
+    "mobbin:97d3f401-44c3-430b-ac7e-11e365f63072": {
+      "summary": "The host opens 'Invite people' with link or email and roles. A red banner says 'An error occurred, please try again later' with no cause or recovery.",
+      "steps": [
+        "'Invite people' dialog over the studio",
+        "Role menu: Audience, Guest, or Producer",
+        "Red error message over the invite dialog"
+      ],
+      "steal": [
+        "Invite roles use plain words such as Audience, Guest, and 'Producer not recorded' (screen 2).",
+        "An audio-only note says 'Video won't be recorded…' and offers 'Switch to video recording' (screen 1)."
+      ],
+      "avoid": [
+        "A generic 'An error occurred, please try again later' names no failed action, cause, or retry, so non-technical faculty cannot recover mid-session."
+      ],
+      "fit": "Recording: invite and check-in failures outside the SRV must name the action and next step, not a dismiss-only banner.",
+      "jobs": [
+        "participant-tagging"
+      ],
+      "counter_example": true
+    },
+    "mobbin:7a5685e7-9d0d-44c5-afe1-4cdc3eef545d": {
+      "summary": "The host opens a Riverside studio, chooses 'Start recording' or 'Run test recording', waits through a countdown, then sees live 'REC' with 'Stop', 'Mark Clip' and upload progress.",
+      "steps": [
+        "Studio ready with 'Start' and invite tile",
+        "Record menu: start or test recording",
+        "Countdown with 'Starting…' on video",
+        "Live 'REC' with 'Stop', timer, upload %"
+      ],
+      "steal": [
+        "The record button offers 'Start recording' or 'Run test recording' on the same red control (screen 2).",
+        "A large countdown appears on the video with 'Starting…' before 'REC' begins (screen 3).",
+        "'Stop' shows elapsed time (00:27) and stays separate from 'Leave' (screen 4).",
+        "The header shows 'REC' and upload progress, and People shows each host's upload ('720p / 93% uploaded') (screen 4)."
+      ],
+      "avoid": [
+        "An empty 'Invite people' tile sits as large as the live feed, which competes with monitoring when starting."
+      ],
+      "fit": "Recording: models control-room start and stop outside the SRV with optional test, countdown, and 'REC' plus upload progress. 'Mark Clip' feeds the SRV timeline markers.",
+      "jobs": [
+        "start-stop",
+        "device-check"
+      ]
+    }
+  }
+}

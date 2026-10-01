@@ -1,0 +1,26 @@
+{
+  "product": "slack",
+  "flows": {
+    "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7": {
+      "summary": "In an active huddle the user opens More, turns on push-to-talk, then gets a large hold-to-speak mic control with clear muted vs live affordances.",
+      "steps": [
+        "Huddle More — Turn on push-to-talk",
+        "PTT overlay — muted mic + Push-to-talk label",
+        "PTT tray — large green mic button",
+        "PTT tray — mic with active rings"
+      ],
+      "steal": [
+        "Push-to-talk as an explicit mode toggle under More (step 1) — default open mic vs hold-to-talk is a decision, not assumed.",
+        "Full-width muted PTT overlay with dismiss X (step 2) — glanceable 'you are not live' state before speaking.",
+        "Oversized bottom mic target (steps 3–4) — one-thumb hold for faculty who are gloved or holding gear.",
+        "Mute badge on the You tile plus the bottom control (steps 2–4) — dual indicators of live/muted state."
+      ],
+      "avoid": [
+        "Burying PTT only under More (step 1) — for a dedicated room intercom, the mode should not require hunting in overflow."
+      ],
+      "fit": "Mobile wins for phone-as-intercom mic: hold-to-talk with huge target replaces open-mic risk into a live sim room; extends Baseline intercom, not SRV.",
+      "jobs": ["intercom"],
+      "counter_example": false
+    }
+  }
+}

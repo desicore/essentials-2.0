@@ -1,0 +1,77 @@
+{
+  "product": "fabric",
+  "flows": {
+    "mobbin:3c069b65-da04-47ec-a852-5165ac63562b": {
+      "summary": "The user picks Voice note, records with a live transcript layer and large Stop control, pauses through Saving, then reviews Transcript and Summary tabs before the note appears on Home.",
+      "steps": [
+        "Create panel: pick Voice note",
+        "Home with recent Untitled voice note card",
+        "Record: empty My notes and Stop at 00:00:00",
+        "Record: live transcript layer and Stop at 00:00:30",
+        "Paused: Saving voice note message and Summary spinner",
+        "Paused My notes: iPhone Microphone and Resume",
+        "Transcript tab: text block and scrubber 00:00",
+        "Transcript with scrubber at 00:42",
+        "Summary tab: bulleted AI summary and Resume",
+        "Home: voice note card with transcript preview"
+      ],
+      "steal": [
+        "Large white Stop and Resume on the floating bar (screens 3 to 5) give a big-target record control for one-hand use.",
+        "A live transcript layer while still on My notes (screen 4) confirms capture without leaving the note.",
+        "My notes, Transcript and Summary tabs (screens 5 to 9) separate freeform notes from speech-to-text (STT) and a skim summary.",
+        "An iPhone Microphone source label (screens 5 to 8) names the audio input clearly."
+      ],
+      "avoid": [
+        "There is no on-device versus cloud transcription indicator and no per-line timestamps on Transcript (screens 6 to 7), only scrubber time. That is weak for GDPR-sensitive or moment-linked faculty notes."
+      ],
+      "fit": "Mobile and iPad app: mobile wins for dictating a note at the bedside of a live session. Extends baseline voice notes, but Essentials needs on-device STT labeling and timestamp anchors Otter-style. Fabric does not show those.",
+      "jobs": [
+        "voice-notes"
+      ],
+      "counter_example": false
+    },
+    "mobbin:c10feffc-9e32-4467-914a-72668daa0395": {
+      "summary": "From a paused video the user opens draw tools, marks a person with a freehand circle, saves the drawing, then sees it as a timestamped Drawing entry in Comments.",
+      "steps": [
+        "Video player: pencil, comment, hide, settings",
+        "Draw mode: tool rail plus Cancel or Save drawing",
+        "Draw mode with pen selected",
+        "Markup: blue circle on subject and Save drawing",
+        "Saved: drawing on frame, avatar on scrubber, Comments 1",
+        "Comments: Drawing · 00:00:00 badge and Timestamp on compose"
+      ],
+      "steal": [
+        "Cancel versus Save drawing on the frame (screens 2 to 4) lets you discard without leaving the player.",
+        "A hide-annotations eye switch beside the pencil (screens 1 and 5) toggles clean playback versus markup view.",
+        "A Drawing · 00:00:00 type-and-time badge in the comment list (screen 6) makes annotation kind visible at a glance.",
+        "A timestamp label on the compose field (screen 6) keeps the next text reply anchored to the same moment."
+      ],
+      "avoid": [
+        "Vertical tool rail icons stay relatively small on the frame (screens 2 to 4). That is risky for gloved faculty; enlarge primary pen and save."
+      ],
+      "fit": "Mobile and iPad app: mobile is strong for private frame markup during debrief walk-around. Extends baseline debrief annotations. Keep big-screen control on web or SRV; phone or tablet for personal draws.",
+      "jobs": [
+        "debrief-annotations"
+      ],
+      "counter_example": false
+    },
+    "mobbin:65f315e4-072d-473a-8c75-05053aba29d3": {
+      "summary": "In a note with two unchecked items the user taps the second checkbox and it becomes a filled check with strikethrough text before Save.",
+      "steps": [
+        "Note: two unchecked checklist rows and Save",
+        "Note: second item checked with strikethrough and Save"
+      ],
+      "steal": [
+        "Checked status uses a filled box plus strikethrough text (screen 2), so completion is clear at a glance."
+      ],
+      "avoid": [
+        "Standard small checkbox hit targets (screens 1 to 2) fail gloved or one-hand live-event checklist use."
+      ],
+      "fit": "Mobile and iPad app: this does not beat desktop for live sim rubrics. It is a weak counter to baseline checklist. Keep large switches, partial credit and auto-timestamp elsewhere.",
+      "jobs": [
+        "checklist"
+      ],
+      "counter_example": true
+    }
+  }
+}

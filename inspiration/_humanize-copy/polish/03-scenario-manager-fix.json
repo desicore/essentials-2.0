@@ -1,0 +1,7 @@
+{
+  "module": "03-scenario-manager",
+  "flows": {
+    "tally 908fac0b": { "summary": "From an empty forms page, the author creates a form in a builder that works like a document. They add fields (text, required marks, logic, a grid, a rating) and keep it in Draft, ready to publish." },
+    "teachable 8c62da99": { "avoid": ["Questions can only be added one at a time with '+ New question' and cannot be reused across quizzes. That is weak for faculty checklists, which need item banks shared across scenarios (screens 6-8)."] }
+  }
+}

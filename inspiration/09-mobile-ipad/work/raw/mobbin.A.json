@@ -1,0 +1,225 @@
+{
+  "references": [
+    {
+      "id": "mobbin:55941e7a-9532-47b7-bbe1-b5f8b7bca5b3",
+      "source": "mobbin",
+      "app": "GoPro Quik",
+      "title": "Recording a video",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/55941e7a-9532-47b7-bbe1-b5f8b7bca5b3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GmWQlGd9",
+        "https://mobbin.com/api/mcp/short/QP4adVh8",
+        "https://mobbin.com/api/mcp/short/UJCLQHqE",
+        "https://mobbin.com/api/mcp/short/DYyddZeq"
+      ],
+      "platform": "ios",
+      "jobs": ["recording-control"],
+      "take": "Phone remotely controls GoPro camera start/stop with live recording indicator (red circle), display of video mode and resolution, and quick access controls."
+    },
+    {
+      "id": "mobbin:1d4c9d48-5899-48c5-9fa3-a72eaaa06804",
+      "source": "mobbin",
+      "app": "Granola",
+      "title": "Live Activities",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/1d4c9d48-5899-48c5-9fa3-a72eaaa06804",
+      "images": [
+        "https://mobbin.com/api/mcp/short/jcoPjHmT"
+      ],
+      "platform": "ios",
+      "jobs": ["recording-control"],
+      "take": "Lock-screen Live Activity showing active note-taking session with elapsed time (1:26) and stop/end controls visible from lock screen."
+    },
+    {
+      "id": "mobbin:a01989c0-b8a9-46af-9dea-dec74d6f7bed",
+      "source": "mobbin",
+      "app": "Journal",
+      "title": "Live Activities",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/a01989c0-b8a9-46af-9dea-dec74d6f7bed",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7nG57BW4",
+        "https://mobbin.com/api/mcp/short/TaLd5XD2"
+      ],
+      "platform": "ios",
+      "jobs": ["recording-control"],
+      "take": "Audio recording waveform with elapsed time (0:19 to 0:22) in lock-screen Live Activity with record state indicator, pause, and checkmark buttons."
+    },
+    {
+      "id": "mobbin:07782c2f-36d1-44fb-b1a5-d9771b478ef2",
+      "source": "mobbin",
+      "app": "Zoom",
+      "title": "Starting a new meeting",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/07782c2f-36d1-44fb-b1a5-d9771b478ef2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lEYaGa3i",
+        "https://mobbin.com/api/mcp/short/WArGyqJl",
+        "https://mobbin.com/api/mcp/short/HkQWDZ65",
+        "https://mobbin.com/api/mcp/short/VxzL5CDS",
+        "https://mobbin.com/api/mcp/short/Bt5wxwaz",
+        "https://mobbin.com/api/mcp/short/npTG2hjb",
+        "https://mobbin.com/api/mcp/short/6CY0n1Gd",
+        "https://mobbin.com/api/mcp/short/b5kS7QTW",
+        "https://mobbin.com/api/mcp/short/S3DMKKpy"
+      ],
+      "platform": "ios",
+      "jobs": ["recording-control"],
+      "take": "Start meeting from phone with meeting creation, participant admission, and active session controls including mute, chat, and recording state indicator."
+    },
+    {
+      "id": "mobbin:0833f7c2-cba7-4762-a681-aec9de4d5a37",
+      "source": "mobbin",
+      "app": "Zoom",
+      "title": "Starting a new meeting (Meet & Chat tab)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/0833f7c2-cba7-4762-a681-aec9de4d5a37",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TQxQYA2i",
+        "https://mobbin.com/api/mcp/short/0IB976pA",
+        "https://mobbin.com/api/mcp/short/8FPlTwBj",
+        "https://mobbin.com/api/mcp/short/2D3Mi77m",
+        "https://mobbin.com/api/mcp/short/nkHjGlcf",
+        "https://mobbin.com/api/mcp/short/Dehp5Dbj",
+        "https://mobbin.com/api/mcp/short/DLOdDu5n",
+        "https://mobbin.com/api/mcp/short/pixwAIbh",
+        "https://mobbin.com/api/mcp/short/s6nRZmhb",
+        "https://mobbin.com/api/mcp/short/evBg6gPc"
+      ],
+      "platform": "ios",
+      "jobs": ["recording-control"],
+      "take": "Extended Zoom meeting startup showing participant controls, mute/unmute state (\"Your microphone is muted\"), safe driving mode, and in-meeting controls (mute, stop video, share content, participants, recording)."
+    },
+    {
+      "id": "mobbin:b9954846-af25-412f-856b-74fb74503c04",
+      "source": "mobbin",
+      "app": "Toggl Track",
+      "title": "Tracking time with Pomodoro technique",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b9954846-af25-412f-856b-74fb74503c04",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GoCTd7aV",
+        "https://mobbin.com/api/mcp/short/04ktZKbN",
+        "https://mobbin.com/api/mcp/short/2m7xtno0",
+        "https://mobbin.com/api/mcp/short/jbrzTS1F",
+        "https://mobbin.com/api/mcp/short/xKCiMIhc",
+        "https://mobbin.com/api/mcp/short/0rKa4EpR",
+        "https://mobbin.com/api/mcp/short/OFGnMwhr",
+        "https://mobbin.com/api/mcp/short/EDP7NcNi",
+        "https://mobbin.com/api/mcp/short/qVlOGlBE",
+        "https://mobbin.com/api/mcp/short/AdFsYsL1",
+        "https://mobbin.com/api/mcp/short/qRj5qSz9",
+        "https://mobbin.com/api/mcp/short/7aJpLEvZ"
+      ],
+      "platform": "ios",
+      "jobs": ["timer"],
+      "take": "Pomodoro timer with configurable session name, visual countdown dial, start/stop controls, pause capability, and notification request for alerts on timer completion."
+    },
+    {
+      "id": "mobbin:110e340a-c8ad-43c7-b46e-1b58981b067f",
+      "source": "mobbin",
+      "app": "Toggl Track",
+      "title": "Timer",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/110e340a-c8ad-43c7-b46e-1b58981b067f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/2AGIMTRG",
+        "https://mobbin.com/api/mcp/short/dSmCPE5W",
+        "https://mobbin.com/api/mcp/short/UB4LWKRY",
+        "https://mobbin.com/api/mcp/short/oCbPmOer"
+      ],
+      "platform": "ios",
+      "jobs": ["timer"],
+      "take": "Basic timer view with list of active timers, quick start button, and icon-based timer state (paused, running) with durations visible at a glance."
+    },
+    {
+      "id": "mobbin:49b389d9-e7bc-4410-83d8-7aa9db7a4885",
+      "source": "mobbin",
+      "app": "Toggl Track",
+      "title": "Tracking time",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/49b389d9-e7bc-4410-83d8-7aa9db7a4885",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hntZEbMF",
+        "https://mobbin.com/api/mcp/short/VzdupnPj",
+        "https://mobbin.com/api/mcp/short/3disNt0Y",
+        "https://mobbin.com/api/mcp/short/1XwOvHMN",
+        "https://mobbin.com/api/mcp/short/EHNBQ3xU",
+        "https://mobbin.com/api/mcp/short/6FOSCemx",
+        "https://mobbin.com/api/mcp/short/HVUNDjGH",
+        "https://mobbin.com/api/mcp/short/5RMAUpoc",
+        "https://mobbin.com/api/mcp/short/LS14kFrI",
+        "https://mobbin.com/api/mcp/short/6k3x32lE",
+        "https://mobbin.com/api/mcp/short/FCup6RN8",
+        "https://mobbin.com/api/mcp/short/IsH57zDw"
+      ],
+      "platform": "ios",
+      "jobs": ["timer"],
+      "take": "Full timer workflow: start tracking, assign tags/projects, configure time manually with visual dial input, optional pause/resume, and time entry management with categories."
+    },
+    {
+      "id": "mobbin:754ce9f7-9bdd-433a-b0e9-4cb8dfe47464",
+      "source": "mobbin",
+      "app": "Life Reset",
+      "title": "Live Activities (Focus timer)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/754ce9f7-9bdd-433a-b0e9-4cb8dfe47464",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WreP2OFX",
+        "https://mobbin.com/api/mcp/short/6Q55oTIL"
+      ],
+      "platform": "ios",
+      "jobs": ["timer"],
+      "take": "Lock-screen Live Activity showing focus timer with full-screen duration (14:30), timeline scrubber, pause/skip controls, and session progress visible at a glance."
+    },
+    {
+      "id": "mobbin:11cfe90d-5c37-4165-bbeb-e7605bb644f9",
+      "source": "mobbin",
+      "app": "Apple Sports",
+      "title": "Dynamic Island (Scoreboard)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/11cfe90d-5c37-4165-bbeb-e7605bb644f9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/yxhI5LgR",
+        "https://mobbin.com/api/mcp/short/bjqIdtsp",
+        "https://mobbin.com/api/mcp/short/ZUU3suya"
+      ],
+      "platform": "ios",
+      "jobs": ["timer"],
+      "take": "Dynamic Island showing live scoreboard with team logos, current score (0-0), elapsed time (19:39), and live play-by-play summary (\"Martin Dubravka takes a goal kick\") visible in compact form."
+    },
+    {
+      "id": "mobbin:88ad3567-2739-4c00-b9a1-a3f96e8ca3d6",
+      "source": "mobbin",
+      "app": "Apple Sports",
+      "title": "Home (Scoreboard)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/88ad3567-2739-4c00-b9a1-a3f96e8ca3d6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/CvFT5E9l",
+        "https://mobbin.com/api/mcp/short/QF3p9pmU",
+        "https://mobbin.com/api/mcp/short/HS6dtDE1",
+        "https://mobbin.com/api/mcp/short/rv3eFowL"
+      ],
+      "platform": "ios",
+      "jobs": ["timer"],
+      "take": "Live scoreboard list showing multiple games with team logos, scores, and clock time (2nd 5:33, Final statuses), plus upcoming fixtures with times; scrollable feed with time-prominent design."
+    },
+    {
+      "id": "mobbin:9cd4f207-5a3c-47cc-a8ce-40eef9c5ad71",
+      "source": "mobbin",
+      "app": "FotMob",
+      "title": "Dynamic Island (Live match scores)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9cd4f207-5a3c-47cc-a8ce-40eef9c5ad71",
+      "images": [
+        "https://mobbin.com/api/mcp/short/mb73SpxD",
+        "https://mobbin.com/api/mcp/short/zq9VLI0T"
+      ],
+      "platform": "ios",
+      "jobs": ["timer"],
+      "take": "Dynamic Island showing live soccer match score with team logos, current score (2-0), and elapsed time (77:56) in a compact always-visible format on any app."
+    }
+  ]
+}

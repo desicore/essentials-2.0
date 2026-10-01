@@ -1,0 +1,27 @@
+{
+  "product": "amazon-alexa",
+  "flows": {
+    "mobbin:8faed082-5416-4324-b104-7056f0993931": {
+      "summary": "From the More screen the user opens Communicate, is asked to enable Household Drop In as an intercom, then lands on Communication with separate Drop In and Announce targets.",
+      "steps": [
+        "More screen with a large Communicate tile",
+        "Enable Household Drop In: Later or Enable",
+        "Communication with Drop In and Announce"
+      ],
+      "steal": [
+        "'Drop In' and 'Announce' are separate top actions (screen 3), so live room intercom and one-way broadcast are not the same control.",
+        "An Enable prompt with 'Later' and 'Enable' asks for opt-in before the phone can drop into rooms or devices (screen 2).",
+        "The prompt promises 'See recently active devices' (screen 2), so you can see which rooms are alive before connecting.",
+        "A large Communicate tile sits among peer jobs on More (screen 1), so gloved or one-hand use is easier."
+      ],
+      "avoid": [
+        "A promo banner on the Communication screen (screen 3) competes with the Drop In and Announce targets."
+      ],
+      "fit": "Mobile and iPad app: the phone beats the SRV as an intercom into a sim room. Separate Drop In (live) versus Announce (broadcast) would extend the baseline intercom mic idea. This is not a desktop-only job.",
+      "jobs": [
+        "intercom"
+      ],
+      "counter_example": false
+    }
+  }
+}

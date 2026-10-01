@@ -1,0 +1,23 @@
+{
+  "product": "google-home",
+  "flows": {
+    "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4": {
+      "summary": "User leaves an empty Favourites tab, opens Devices, and scans room-grouped tiles that flip between Offline-with-warning and On • 100%.",
+      "steps": [
+        "Favourites empty — Reorder / Edit",
+        "Devices — Living room Light Offline + warning",
+        "Devices — Living room Light On • 100%"
+      ],
+      "steal": [
+        "Devices grouped under room headers (Living room) with Linked to you for unassigned gear (step Devices — Offline).",
+        "Offline tile: muted card, Offline text, and warning triangle (step Devices — Offline).",
+        "On state: saturated yellow tile with On • 100% (step Devices — On).",
+        "Hue Bridge card with chevron for drill-in vs direct On/Off tiles (step Devices — Offline)."
+      ],
+      "avoid": [
+        "Opening on empty Favourites with no device status — operators need the room/status wall first, not an empty pin board."
+      ],
+      "fit": "Models Center Overview outside SRV: rooms as sections, device tiles with offline warning vs on/level — not live video wall, so pair with feeds when drilling into a room."
+    }
+  }
+}

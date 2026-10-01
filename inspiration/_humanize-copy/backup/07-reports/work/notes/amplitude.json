@@ -1,0 +1,24 @@
+{
+  "product": "amplitude",
+  "flows": {
+    "mobbin:a2ee58b7-b7cc-4381-819b-3dc0299734e7": {
+      "summary": "From a dashboard Subscribe control, user configures Email (or Slack) recurring delivery with timezone, sentence-style cadence + CSV format, adds subscribers, then sees a success banner and an editable ‘You are subscribed’ row.",
+      "steps": [
+        "Dashboard — Subscribe + Share in header",
+        "Subscribe modal — cadence sentence + CSV + add subscribers",
+        "Success banner — subscribed row editable + Done"
+      ],
+      "steal": [
+        "Sentence builder: Every [day] at [time] with [CSV] (step 1) — cadence readable as one line.",
+        "Timezone ‘Showing times as…’ above the schedule (steps 1–2) — shared clock for multi-campus recipients.",
+        "Post-save green banner + inline edit of existing schedule (step 2) — pause/change without recreating.",
+        "Add new subscriber(s) search under the schedule list (steps 1–2) — dean digests to people without accounts later."
+      ],
+      "avoid": [
+        "CSV-only format default (steps 1–2) — deans need PDF/newsletter narrative, not raw export."
+      ],
+      "fit": "Closest pattern for automatic weekly/monthly dean digests from a fixed dashboard — zero-config subscribe over hand-assembled packs.",
+      "counter_example": false
+    }
+  }
+}

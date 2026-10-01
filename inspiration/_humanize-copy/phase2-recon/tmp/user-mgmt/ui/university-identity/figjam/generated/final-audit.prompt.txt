@@ -1,0 +1,11 @@
+Perform FINAL READ-ONLY audit of the existing authorized claude.ai Figma board tN2AM7RZD2InF1LYnN0zcn. No writes, uploads, configuration changes or new files/pages. Read mandatory figma-use/SKILL.md and figma-use-figjam/SKILL.md under /Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/ before every use_figma context.
+
+Execute these exact request objects, one use_figma per code/fileKey/description/skillNames, sequentially, retaining each tool result:
+/Users/danielbrassnyo/Documents/dev-projects/elevate/essentials-2.0/inspiration/university-identity/figjam/generated-compact/06-verify-uploaded-images.request.json
+/Users/danielbrassnyo/Documents/dev-projects/elevate/essentials-2.0/inspiration/university-identity/figjam/generated-compact/08-audit-layout.request.json
+
+06 checks actual hashes + resident dimensions for ALL62 images and annotations/source existence for ALL32 references. Return its exact object without reducing image/reference arrays. Page1 was separately audited in page1-final-wrapper.json before this call; do not repeat it. 08 checks Page2 layout/order/source hyperlinks; return exact compact result.
+
+After audits get_screenshot Page2 node5:422 and overview section node returned by operation08 overviewNodeId. Inspect overview synthesis and six columns for missing content, obvious collision and inconsistent colors. Prior per-pair closeups already prove real image pixels. Return visual passed ONLY if screenshots genuinely inspected; otherwise state limitation. No writes to fix discovered issues in this call; report them.
+
+Final ONLY JSON {readback:EXACT06,layout:EXACT08,visual:{pageId,sectionNodeIds,passed,observations,issues}}. Visual prose <=80words. Do not duplicate arrays in prose, never expose credentials or upload URLs.

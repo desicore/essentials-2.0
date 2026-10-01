@@ -1,0 +1,42 @@
+{
+  "product": "15five",
+  "flows": {
+    "mobbin:6795c6c2-7c7b-4ded-aea2-5d594e67afb0": {
+      "summary": "In a quarterly review, the user compares self, manager and peer ratings on one competency scale, then opens each competency to see the written answer behind it.",
+      "steps": [
+        "My results Summary: profile and Review writers counts",
+        "Competency assessment: alignment callout and Top comps/opps",
+        "Competency results matrix with Self/Manager/Peer toggles",
+        "Matrix rows: Self markers on Lowest to high scale",
+        "Competency list: each row links 1 answer"
+      ],
+      "steal": [
+        "Coloured checkboxes for Self, Manager and Peer show or hide their ratings on one competency scale, so comparing raters needs no second report (screens 3 to 4).",
+        "'Top competencies' and 'Top opportunities' boxes above the grid show strengths and areas to grow before the full list (screen 3).",
+        "A highlighted note explains that the graph shows how far raters agree, which teaches the reader how to use it (screen 2).",
+        "Each competency links to its written answer ('1 answer'), so you can go from a score to the reasoning (screen 5)."
+      ],
+      "avoid": [
+        "The full grid still shows when manager or peer ratings are missing; in sim, raters without ratings should stay hidden until there is data (screens 3 to 4)."
+      ],
+      "fit": "Reports: adds comparison from several points of view, with a path to the evidence, to Performance Matrix and Skill Development. It suits learner and faculty dashboards rather than a PDF newsletter for deans."
+    },
+    "mobbin:37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2": {
+      "summary": "On the outcomes dashboard, the user moves past empty summary boxes to 'Breakdown' and compares results by manager, with company-wide and 'No manager' rows.",
+      "steps": [
+        "Summary: empty headline boxes and Schedule/Configure buttons",
+        "Breakdown: Compare by Manager table",
+        "Breakdown table: Company, team, and No manager rows"
+      ],
+      "steal": [
+        "A 'Compare by' list regroups the same columns by manager, so switching between learner, faculty or course would need no builder (screens 2 to 3).",
+        "A company-wide row above the team rows lets you compare one unit with the whole organization (screens 2 to 3).",
+        "'Who else can see this?' and 'Configure' sit next to the table, so visibility is set where the comparison is (screen 2)."
+      ],
+      "avoid": [
+        "Empty summary screens show sales buttons ('Schedule survey', 'Configure performance'); Essentials should say plainly that data is missing (screen 1)."
+      ],
+      "fit": "Reports: a pattern for comparable tables of faculty or course numbers (room, simulator and faculty hours) that can be regrouped. The empty summary screens do not fit reporting that starts with room use."
+    }
+  }
+}

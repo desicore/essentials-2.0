@@ -1,0 +1,177 @@
+{
+  "references": [
+    {
+      "id": "mobbin:278b5778-83b4-4ad3-a5ea-296d26fa2abb",
+      "source": "mobbin",
+      "app": "Skiff",
+      "title": "Creating a new event (Calendar)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/278b5778-83b4-4ad3-a5ea-296d26fa2abb",
+      "images": [
+        "https://mobbin.com/api/mcp/short/EYtaQbVd",
+        "https://mobbin.com/api/mcp/short/RcqdqeTQ",
+        "https://mobbin.com/api/mcp/short/Meq4oNJd",
+        "https://mobbin.com/api/mcp/short/szXTj0C2",
+        "https://mobbin.com/api/mcp/short/QBsOkcUT",
+        "https://mobbin.com/api/mcp/short/gCqGON43",
+        "https://mobbin.com/api/mcp/short/vASrxN7D",
+        "https://mobbin.com/api/mcp/short/lilhD5IZ"
+      ],
+      "platform": "web",
+      "jobs": ["simple-events"],
+      "take": "Week view with event creation form, showing step-by-step entry of title, time, repeat, guests, location, and custom colors."
+    },
+    {
+      "id": "mobbin:32be4a4f-22b7-4f85-9e51-db3e905b25f0",
+      "source": "mobbin",
+      "app": "Jobber",
+      "title": "Moving a schedule",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/32be4a4f-22b7-4f85-9e51-db3e905b25f0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/vM4x9gXI",
+        "https://mobbin.com/api/mcp/short/XHG20X2U",
+        "https://mobbin.com/api/mcp/short/UKx9Jvpk"
+      ],
+      "platform": "web",
+      "jobs": ["new-scheduling"],
+      "take": "Drag-and-drop reschedule of event in a weekly calendar grid showing multiple visits/jobs, dragging within the same week."
+    },
+    {
+      "id": "mobbin:82616858-3a1c-482e-8596-71abfb55ca5f",
+      "source": "mobbin",
+      "app": "Clockwise",
+      "title": "Calendar",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/82616858-3a1c-482e-8596-71abfb55ca5f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sX5UQ9eI",
+        "https://mobbin.com/api/mcp/short/nsWzIjLD"
+      ],
+      "platform": "web",
+      "jobs": ["new-scheduling"],
+      "take": "Week view showing drag-to-reschedule of color-coded events across the calendar with visual conflict indicators."
+    },
+    {
+      "id": "mobbin:b3200869-6502-4670-a9f3-48efa536c88f",
+      "source": "mobbin",
+      "app": "Clockwise",
+      "title": "Scheduling a meeting",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b3200869-6502-4670-a9f3-48efa536c88f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5Lqv0fJp",
+        "https://mobbin.com/api/mcp/short/EN7doUEP",
+        "https://mobbin.com/api/mcp/short/SGag70P6",
+        "https://mobbin.com/api/mcp/short/8YhfDfbe",
+        "https://mobbin.com/api/mcp/short/hbX4tsgk",
+        "https://mobbin.com/api/mcp/short/xIx1DDV8",
+        "https://mobbin.com/api/mcp/short/Z6KHcZSK",
+        "https://mobbin.com/api/mcp/short/LsMGRRD9",
+        "https://mobbin.com/api/mcp/short/F0sRHHsU",
+        "https://mobbin.com/api/mcp/short/LhcDaDoA"
+      ],
+      "platform": "web",
+      "jobs": ["new-scheduling"],
+      "take": "Complete meeting creation flow with date/time selector, participant search, availability check, and real-time conflict alerts."
+    },
+    {
+      "id": "mobbin:888e7431-a6ec-497b-ba41-56980ea2a82f",
+      "source": "mobbin",
+      "app": "Calendly",
+      "title": "Filtering event types",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/888e7431-a6ec-497b-ba41-56980ea2a82f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/SuKD5IVR",
+        "https://mobbin.com/api/mcp/short/RIy85cSv",
+        "https://mobbin.com/api/mcp/short/iOxQSq8f",
+        "https://mobbin.com/api/mcp/short/VZKf9Ktu",
+        "https://mobbin.com/api/mcp/short/yiIeVzAR",
+        "https://mobbin.com/api/mcp/short/0Fuo32ce"
+      ],
+      "platform": "web",
+      "jobs": ["new-scheduling"],
+      "take": "Filtering event types with dropdown controls to show/hide by host permission; shows search and permission-based filtering."
+    },
+    {
+      "id": "mobbin:12580c8e-9eab-4d17-b9c0-52fae91bd5a5",
+      "source": "mobbin",
+      "app": "Amie",
+      "title": "Filtering calendars",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/12580c8e-9eab-4d17-b9c0-52fae91bd5a5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/gt7WWtaQ",
+        "https://mobbin.com/api/mcp/short/AlcAclDl",
+        "https://mobbin.com/api/mcp/short/HjlFcYLp",
+        "https://mobbin.com/api/mcp/short/2X8tQvos"
+      ],
+      "platform": "web",
+      "jobs": ["new-scheduling"],
+      "take": "Multi-calendar filtering showing colored calendars toggleable in a sidebar, with multiple sources (Gmail, team calendars) displayed."
+    },
+    {
+      "id": "mobbin:15d5b8d3-7685-4275-b3a1-7cc1274ae027",
+      "source": "mobbin",
+      "app": "Front",
+      "title": "Creating an event",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/15d5b8d3-7685-4275-b3a1-7cc1274ae027",
+      "images": [
+        "https://mobbin.com/api/mcp/short/XQhzT8S4",
+        "https://mobbin.com/api/mcp/short/peFgTHtK",
+        "https://mobbin.com/api/mcp/short/a7q8saPo",
+        "https://mobbin.com/api/mcp/short/k6MG2oNh",
+        "https://mobbin.com/api/mcp/short/vTSbS51V",
+        "https://mobbin.com/api/mcp/short/O92GEiIq",
+        "https://mobbin.com/api/mcp/short/FGCGkLqh",
+        "https://mobbin.com/api/mcp/short/RVUTBZo0",
+        "https://mobbin.com/api/mcp/short/XcmKC2pe",
+        "https://mobbin.com/api/mcp/short/m8Yw0IFq"
+      ],
+      "platform": "web",
+      "jobs": ["simple-events"],
+      "take": "Quick event creation by clicking an empty calendar slot with immediate full-form panel showing title, time, attendees, and location."
+    },
+    {
+      "id": "mobbin:246f4283-a3dc-4287-8d6c-1faa61ac101a",
+      "source": "mobbin",
+      "app": "Motion",
+      "title": "Updating a recurring event",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/246f4283-a3dc-4287-8d6c-1faa61ac101a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/kUMVONyb",
+        "https://mobbin.com/api/mcp/short/atfi2FE7",
+        "https://mobbin.com/api/mcp/short/75LxxDvi",
+        "https://mobbin.com/api/mcp/short/FC0nm4lN",
+        "https://mobbin.com/api/mcp/short/VW8al8Eb"
+      ],
+      "platform": "web",
+      "jobs": ["simple-events"],
+      "take": "Recurring event update dialog offering choice between modifying 'This event' or 'All events' in the series."
+    },
+    {
+      "id": "mobbin:d5d0e3c0-9ec5-4f9a-9ced-4818e9c3c14d",
+      "source": "mobbin",
+      "app": "Skiff",
+      "title": "Customizing a recurring event",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d5d0e3c0-9ec5-4f9a-9ced-4818e9c3c14d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lPJTy9Oo",
+        "https://mobbin.com/api/mcp/short/Du9BoXjq",
+        "https://mobbin.com/api/mcp/short/g8hzBYQB",
+        "https://mobbin.com/api/mcp/short/Iab32iST",
+        "https://mobbin.com/api/mcp/short/9cgij9tn",
+        "https://mobbin.com/api/mcp/short/2XDiTdRq",
+        "https://mobbin.com/api/mcp/short/e9clP5fn",
+        "https://mobbin.com/api/mcp/short/Q0jPcFct"
+      ],
+      "platform": "web",
+      "jobs": ["simple-events"],
+      "take": "Recurring event customization showing repeat frequency (weekly), day selection (checkboxes), and end date choice (never/date/count)."
+    }
+  ]
+}

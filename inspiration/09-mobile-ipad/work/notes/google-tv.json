@@ -1,0 +1,50 @@
+{
+  "product": "google-tv",
+  "flows": {
+    "mobbin:f4a1c6f0-b7ae-427b-a896-b4f3c2535f41": {
+      "summary": "From For you the user taps TV Nearby and picks Living Room TV from a Wi-Fi or Bluetooth discovery list. They confirm selection, see Turning on, then a persistent Connected bar with a remote shortcut.",
+      "steps": [
+        "For you screen with TV Nearby round button",
+        "Select a device: Living Room TV list",
+        "Select a device: Living Room TV checked",
+        "Short message: Turning on Living Room TV",
+        "Connected bar: Living Room TV and remote"
+      ],
+      "steal": [
+        "Named devices under AVAILABLE DEVICES (screen 2) show room or screen identity before control.",
+        "A green check on the selected TV (screen 3) confirms which screen before committing.",
+        "A Turning on message then Connected with the named TV (screens 4 to 5) gives power and link feedback.",
+        "A persistent Connected bar with a remote shortcut (screen 5) keeps you in context while linked to the big screen."
+      ],
+      "avoid": [
+        "Five-step same-network Wi-Fi or Bluetooth discovery (screens 1 to 5) is slow and brittle compared with a QR on the debrief display for faculty pairing."
+      ],
+      "fit": "Mobile and iPad app: this is an example of what not to do for debrief pairing. Multi-step nearby discovery does not beat a QR-linked web page on the phone. Keep named-screen and Connected chrome if pairing is QR-first.",
+      "jobs": [
+        "debrief-annotations"
+      ],
+      "counter_example": true
+    },
+    "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6": {
+      "summary": "While browsing a title with Living Room TV already connected, the user opens the full remote and gets touchpad nav plus play/pause, seek, and ±30s skips for the big screen.",
+      "steps": [
+        "Title detail with Connected bar and pause",
+        "Remote with touchpad, transport and ±30s"
+      ],
+      "steal": [
+        "A docked bar naming Living Room TV with pause while browsing (screen 1) lets you control without leaving context.",
+        "A Connected header on the remote panel (screen 2) always shows which screen is driven.",
+        "±30s skips beside the scrubber (screen 2) support coarse jumps for debrief moments without precise scrubbing.",
+        "Large mute and volume targets under the touchpad (screen 2) are one-hand, glanceable audio and video controls."
+      ],
+      "avoid": [
+        "A full swipe-to-navigate touchpad as primary (screen 2) is wrong for debrief. Debrief needs timeline and bookmarks, not TV focus navigation."
+      ],
+      "fit": "Mobile and iPad app: the phone beats desktop for faculty standing in the room driving the debrief big screen. Prefer a web remote with named screen and transport or skip after QR pair. That extends baseline private annotations and screen control.",
+      "jobs": [
+        "debrief-annotations"
+      ],
+      "counter_example": false
+    }
+  }
+}

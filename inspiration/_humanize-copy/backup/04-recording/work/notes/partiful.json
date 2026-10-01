@@ -1,0 +1,23 @@
+{
+  "product": "partiful",
+  "flows": {
+    "mobbin:c89738be-2928-4ed1-94ac-f730f042656c": {
+      "summary": "On Check In Guests, a checked-in guest's checkmark opens an Uncheck them? sheet; confirming Undo check-in returns them to a Check in button like unchecked guests.",
+      "steps": [
+        "Check In Guests — checked vs Check in",
+        "Uncheck them? — Undo check-in confirm",
+        "List after undo — both show Check in"
+      ],
+      "steal": [
+        "Row state: filled checkmark vs outlined Check in pill (step 1) — presence readable without opening a card.",
+        "Confirm sheet titled Uncheck them? with guest avatar/name before Undo check-in (step 2) — deliberate reverse of tagging.",
+        "Nevermind dismiss beside Undo (step 2) — safe cancel for accidental taps.",
+        "Search Find a guest… above the list (step 1) — scales when many learners are on the roster."
+      ],
+      "avoid": [
+        "RSVP emoji lines (Going / Maybe) as the secondary label (steps 1–3) — sim rooms need role/group, not party RSVP tone."
+      ],
+      "fit": "Adds a confirm-before-untag step for room check-in outside SRV so wrong learner tags can be reversed without rewriting Annotation/transcript speaker labels by hand."
+    }
+  }
+}

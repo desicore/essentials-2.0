@@ -1,0 +1,35 @@
+{
+  "product": "deputy",
+  "flows": {
+    "mobbin:1e4db417-5727-4669-950b-cfb4f457df53": {
+      "summary": "The user opens Analytics, sets up a schedule-adherence report for one team member with a tolerance, loads the comparison table, then browses the audit, attendance, map and turnover reports.",
+      "steps": [
+        "Home Dashboard: setup carousel and Needs Attention empty",
+        "Analytics home: category tiles, Shift Pulse 4/5, classic Pay Comparison",
+        "Welcome to Analytics: Analyze, View details, schedule-or-export pitches",
+        "Schedule adherence: filters and empty 'Select value on control to load data'",
+        "Team Member picker open with per-person counts",
+        "Adherence table: Shift vs Timesheet hours/cost; red Hour Difference",
+        "Shift audit: notice-time histogram and detail table",
+        "Attendance and absence: No shows, Late, Early percent and weekly lines",
+        "Geolocation map: clock in/out map and last refreshed time",
+        "Diversity and turnover: gender/age/tenure pies and people filters"
+      ],
+      "steal": [
+        "The welcome text offers three ways out: download a spreadsheet, print a PDF, or schedule the report to the people who need it (screen 3).",
+        "A tolerance (15 minutes) is chosen before the adherence data loads (screens 4 to 6).",
+        "Planned shifts and actual timesheets sit side by side, with differences in hours and cost shown in red (screen 6).",
+        "The Analytics home shows 'Shift Pulse' as a 4/5 average with a small trend line and a recent comment: a formative score with a narrative (screen 2)."
+      ],
+      "avoid": [
+        "The catalog of business-intelligence reports, with '+ Create report' and 'Make a copy', is built on Sigma. It goes against the plan of no deep report builders in the first version (screens 3 to 10)."
+      ],
+      "fit": "Reports: borrow the scheduled delivery, the comparisons of planned and actual use, and the formative pulse. Do not bring over the embedded report library.",
+      "jobs": [
+        "kpis",
+        "comparison",
+        "scheduled-reports"
+      ]
+    }
+  }
+}

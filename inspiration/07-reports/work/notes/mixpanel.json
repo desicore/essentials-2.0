@@ -1,0 +1,64 @@
+{
+  "product": "mixpanel",
+  "flows": {
+    "mobbin:157d0155-3762-4ce7-81c3-aead25729dce": {
+      "summary": "From a board's 'Subscribe' pop-up, the user creates a weekly subscription with a day, time, time zone and a recipient found by search.",
+      "steps": [
+        "Subscribe pop-up: Email/Slack empty, Create New",
+        "Create Subscription window: schedule and timezone",
+        "Weekly selected, with day and time pickers",
+        "Add subscriber: name and email search",
+        "Subscriber listed; Send Test available"
+      ],
+      "steal": [
+        "'Subscribe' sits on the board next to 'Share', so you subscribe to the view you are looking at (screen 1).",
+        "Email and Slack are tabs in the same window, so choosing a channel needs no separate steps (screens 2 to 5).",
+        "'Send Test' sits next to the subscriber list, so you can check the digest before it goes live (screens 2 to 5).",
+        "When there are no subscriptions, the screen says 'No email subscriptions found for this board' and offers 'Create New' (screen 1)."
+      ],
+      "avoid": [
+        "Day, time and time zone must all be set before anything is sent, with no default, which works against ready-made weekly digests for deans (screens 2 to 3)."
+      ],
+      "fit": "Reports: subscribing from the board becomes an automatic weekly or monthly email for deans. It adds to today's reports, which are pulled by hand, without a report builder.",
+      "counter_example": false
+    },
+    "mobbin:5d067428-a757-489e-83a9-b33e2d63e6b1": {
+      "summary": "The user builds an analysis with two measures, split by device type and user group, then chooses which groups show in the chart and table.",
+      "steps": [
+        "Analysis: two measures, table by device and group",
+        "Checkboxes to show or hide groups",
+        "Groups switched; chart lines update",
+        "Chart with several lines and the nested table back"
+      ],
+      "steal": [
+        "Rows nest by measure, then device type, then group, with an average and a column per day, so groups can be compared in one grid (screens 1 to 4).",
+        "Coloured checkboxes in the table also control the chart lines, so one control updates both views (screens 2 to 4).",
+        "Labels in the query panel name each split, such as device type or group, instead of hiding them in filters (screens 1 to 4)."
+      ],
+      "avoid": [
+        "A full query builder (measures, filters, splits) as the first version goes against the plan to ship ready-made defaults rather than deep builders (screens 1 to 4)."
+      ],
+      "fit": "Reports: this maps to comparing groups by course, year and learner in Performance Matrix and Group Performance. Essentials should ship it as ready-made views, not a free-form analysis tool.",
+      "counter_example": false
+    },
+    "mobbin:09f6e5da-eaa5-4633-9a33-231f800317f6": {
+      "summary": "From a chart, the user turns on a comparison with the previous period and sees 'Past Avg' columns with the change shown as green or red percentages.",
+      "steps": [
+        "Insights day view with breakdown table",
+        "Hour or Yesterday range on chart",
+        "Compare menu: Time Period, Segment, % Overall",
+        "Time Period presets: previous day, 7d, 30d, year",
+        "Compare to previous day on, with Past Avg columns",
+        "Table shows colour percent change versus prior period"
+      ],
+      "steal": [
+        "The 'Compare' menu separates 'Time Period', 'Segment' and '% Overall', so comparing periods and comparing groups are not mixed in one control (screens 3 to 4).",
+        "Presets for the previous day, 7 days, 30 days, 3 months and a year, plus a custom option, cover most comparisons without picking dates (screen 4).",
+        "A 'Compare to previous day' label, 'Past Avg' columns and percentage changes show what moved at a glance (screens 5 to 6)."
+      ],
+      "avoid": [],
+      "fit": "Reports: compare this period with the last for room use and for faculty or learner headline numbers. It extends Performance Matrix, but does not help with accreditation packs.",
+      "counter_example": false
+    }
+  }
+}

@@ -80,15 +80,15 @@ This ownership table comes from the brief and is a proposal. Supporting concept/
 
 ## Priority university IT interview questions
 
-1. What is authoritative for people, sign-in, institutional affiliation, and course enrollment today?
-2. Which non-recycled identifier survives email changes and returning-user scenarios across systems?
-3. How can IT scope a pilot population and review exactly which fields leave each source?
+1. Which system is the main record today for people, sign-in, institutional affiliation, and course enrollment?
+2. Which lasting identifier survives email changes and returning-user cases across systems?
+3. How can IT limit a pilot population and review exactly which fields leave each source?
 4. Which administrators can authorize connectors, export Canvas reports and approve imports?
-5. What should happen when sign-in succeeds but no LearningSpace entitlement or course membership exists?
+5. What should happen when sign-in succeeds but the person has no right to use LearningSpace or no course membership?
 6. How are guests, visiting faculty, alumni and temporary exceptions represented and reviewed?
-7. Which departure events disable the account, remove one membership, or trigger historical retention decisions?
-8. What latency, monitoring, credential-renewal ownership and support escalation are required?
-9. Which local overrides are permitted, and how should source changes interact with them?
+7. Which departure events disable the account, remove one membership, or start historical retention decisions?
+8. How quickly must changes arrive, and what monitoring, credential-renewal ownership and support escalation are required?
+9. Which local overrides are allowed, and how should source changes interact with them?
 10. What institutional privacy review and agreements authorize the selected population and data fields?
 
 ## Evidence boundaries

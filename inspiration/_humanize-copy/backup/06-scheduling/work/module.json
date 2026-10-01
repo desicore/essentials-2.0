@@ -1,0 +1,199 @@
+{
+  "module": "06-scheduling",
+  "title": "Scheduling — flow inspiration",
+  "intro": "Product-first flow gallery for the Essentials 2.0 center-wide scheduler: calendar views and conflict handling across rooms, faculty and simulators, the fastest path to a simple event, flexi rotations that turn one roster into many sessions, Excel master-file import, and Outlook/Google sync including invitations to learners. Adding events from inside a course is covered by courses/06-events; equipment reservation belongs to 05-inventory; room and simulator settings belong to Settings. Sources: Mobbin (web and iOS) and Refero (web). Researched 30 September 2026.",
+  "baseline": "The new LearningSpace Enterprise scheduling component will be cleaned up and reused: OSCE features are dropped, flexi scheduling and calendar filtering are kept, and the exact keep/remove list is still open. The previous build took 4–5 months, so patterns must be cheap to adopt. Direction: a simple event model, custom rotation with learner-cell assignment, Excel master-file import that generates events, and Outlook sync, under an 'import everywhere / enter once' principle so calendar data can later feed Reports (room utilisation, learner contact hours). Canvas course and learner sync via LTI exists, but learner-to-session assignment is still manual, and slots and rosters living in Excel, Outlook, Google Docs and Shifts mean every change is entered twice.",
+  "targets": {
+    "products": [
+      8,
+      12
+    ],
+    "flows": [
+      15,
+      25
+    ]
+  },
+  "jobs": [
+    {
+      "id": "new-scheduling",
+      "title": "New scheduling experience in Essentials",
+      "description": "Calendar views (day/week/resource-by-room), create/edit an event, drag to move/resize, conflict detection (room/faculty/simulator double-booked), filters"
+    },
+    {
+      "id": "simple-events",
+      "title": "Simple events",
+      "description": "The fastest path to \"this scenario, this room, this time, these people\"; quick-create vs. full form; recurring events"
+    },
+    {
+      "id": "flexi-custom",
+      "title": "Flexi or custom scheduling",
+      "description": "Rotations and group splitting: auto-generate N sessions from a roster, assign learners to slots/cells, swap people, capacity per slot, self-sign-up slots"
+    },
+    {
+      "id": "excel-import",
+      "title": "Excel to calendar",
+      "description": "Upload a spreadsheet → map columns → preview → resolve errors/duplicates → create events in bulk; re-import to update"
+    },
+    {
+      "id": "outlook-sync",
+      "title": "Outlook calendar sync",
+      "description": "Connect Outlook/Google/ICS, two-way vs. one-way, what shows where, invite emails, handling changes and cancellations"
+    }
+  ],
+  "products": [
+    {
+      "id": "deputy",
+      "name": "Deputy",
+      "analog": "direct",
+      "why": "The most complete rotation tool: Auto builds empty slots from past schedules, a by-area week grid moves from draft to published, and staff trade shifts through Offer or Swap with badges on the grid.",
+      "flows": [
+        "mobbin:3ca22a69-3cb8-4993-9cbd-f07f63757800",
+        "mobbin:6a3f27e2-9c1c-4dbd-a527-d26366020606",
+        "mobbin:33ce7034-4170-4403-be14-e3b58184ae59"
+      ]
+    },
+    {
+      "id": "calendly",
+      "name": "Calendly",
+      "analog": "adjacent",
+      "why": "Makes capacity and faculty assignment part of the event type (group seats, round-robin host pool) and splits the calendars checked for conflicts from the one new events are written to.",
+      "flows": [
+        "mobbin:58c88fe6-2777-4b0f-8011-c816bff6dbd8",
+        "mobbin:5c1d65f9-65f5-48a9-b250-d04ba6f1a7a8",
+        "mobbin:f9b02a84-c8b6-4997-aa01-1f7d9de7792e"
+      ]
+    },
+    {
+      "id": "attio",
+      "name": "Attio",
+      "analog": "adjacent",
+      "why": "The most thorough import: columns and rows found, mapping, a review step that fixes bad values inline, and a preview of how many records will be created vs. updated before anything is written.",
+      "flows": [
+        "mobbin:2c5ec636-6d46-416e-b798-ae09d51881c3",
+        "mobbin:535a7828-5915-47a2-b782-c6bfd708adc0"
+      ]
+    },
+    {
+      "id": "time2book",
+      "name": "time2book",
+      "analog": "direct",
+      "why": "A class-scheduling tool where picking a catalog service fills duration and location, weekly day chips create the series, and cancelling asks \"this class or all future\" while keeping a Canceled badge.",
+      "flows": [
+        "refero:6310",
+        "refero:6311"
+      ]
+    },
+    {
+      "id": "cal-com",
+      "name": "Cal.com",
+      "analog": "adjacent",
+      "why": "Team events choose Collective, Round Robin or Managed assignment with load balancing at creation, and the booker side shows self-sign-up ending in Add to Google/Outlook/ICS.",
+      "flows": [
+        "mobbin:40bd9265-6569-49af-a402-77cd8de347ca",
+        "mobbin:23bf0af9-943c-4ed2-ad8f-6203131d5560"
+      ]
+    },
+    {
+      "id": "7shifts",
+      "name": "7shifts",
+      "analog": "direct",
+      "why": "A department → role → person week grid with Conflicts and Overtime counters in the header, a dedicated Open Shifts row, and Import next to Publish in the same toolbar.",
+      "flows": [
+        "mobbin:9b6a37a7-8bbf-4883-a999-463f46cfbc8e",
+        "mobbin:5b627af5-e4b7-47ec-8d86-154da7cdb67d"
+      ]
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "analog": "adjacent",
+      "why": "The lightweight counterpart: CSV headers become typed properties with a live preview, and connecting a calendar happens in the sidebar where the synced events then appear.",
+      "flows": [
+        "mobbin:b0cb149f-d742-4d9e-a22f-5dfe5d15b0b1",
+        "mobbin:601c6b07-ab5a-4a8b-8dfa-7f2d39b090b3"
+      ]
+    },
+    {
+      "id": "clockwise",
+      "name": "Clockwise",
+      "analog": "adjacent",
+      "why": "The only flow that grades conflicts while proposing a time: \"conflicts I can’t fix\" vs. \"inconveniences\", with nothing changed until the user confirms.",
+      "flows": [
+        "mobbin:b3200869-6502-4670-a9f3-48efa536c88f"
+      ]
+    },
+    {
+      "id": "skiff",
+      "name": "Skiff",
+      "analog": "adjacent",
+      "why": "A full event form in a sidebar next to the week grid, drafting a live block as fields change, plus the invitee’s Yes/No/Maybe RSVP drawn onto the occurrence.",
+      "flows": [
+        "mobbin:278b5778-83b4-4ad3-a5ea-296d26fa2abb",
+        "refero:1928"
+      ]
+    },
+    {
+      "id": "motion",
+      "name": "Motion",
+      "analog": "adjacent",
+      "why": "The clearest two-way connect: permission copy names what will be written, one main calendar receives new events and other calendars only count as busy time.",
+      "flows": [
+        "mobbin:afb6188a-6313-41c8-a2b6-c19e7f876c8d"
+      ]
+    },
+    {
+      "id": "better-stack",
+      "name": "Better Stack",
+      "analog": "wildcard",
+      "why": "On-call rotation that pre-fills two years of slots from an ordered roster and a rotation length. It also shows the risk of a blind \"override\" toggle.",
+      "flows": [
+        "mobbin:fa27d48b-3a4d-4764-b661-6e6ec0137535"
+      ]
+    },
+    {
+      "id": "glossgenius",
+      "name": "GlossGenius",
+      "analog": "wildcard",
+      "why": "The shortest cell-to-booking path: click a slot, add person, provider and several services with the end time summed, a room and a buffer, and confirm with a notify option.",
+      "flows": [
+        "refero:9972"
+      ]
+    }
+  ],
+  "synthesis": {
+    "patterns": [
+      { "title": "Pick the thing that runs; the form inherits the rest",
+        "body": "time2book starts a class by picking a catalog service, which fills duration and location, so only start time and weekday chips are left before Create. GlossGenius opens a side panel from the clicked cell and sums several services into the end time, with a room on the card. Skiff keeps the week grid visible and redraws the draft block as fields change. At center level this confirms the course-side finding: a scenario (with its default duration and room) should be the first field, not a title.",
+        "flows": ["refero:6310", "refero:9972", "mobbin:278b5778-83b4-4ad3-a5ea-296d26fa2abb"] },
+      { "title": "Roster → structure → fill, as separate, reviewable steps",
+        "body": "Deputy's Auto menu splits three jobs (regular hours, build shift structure, fill empty shifts) and lands on a grid of EMPTY and OPEN cards with warnings, not on a finished roster. Better Stack pre-fills rotations from an ordered list of people and a rotation length, with \"Remove all future\" as the undo. Neither generates and assigns in one opaque step. For flexi scheduling this suggests: generate the N session cells first, then assign learner groups to them.",
+        "flows": ["mobbin:3ca22a69-3cb8-4993-9cbd-f07f63757800", "mobbin:fa27d48b-3a4d-4764-b661-6e6ec0137535"] },
+      { "title": "Draft, open and published are states you can see on the grid",
+        "body": "Deputy shows unpublished shifts grey and published ones green, with a footer legend for empty, open, warnings and unavailable. 7shifts gives each department an Open Shifts row for unassigned capacity and offers it to everyone. After a swap request, Deputy marks the cells SWAP and OPEN. A coordinator draft that only becomes visible (and triggers invitations) on Publish is the cheapest way to let a schedule be built before learners are told.",
+        "flows": ["mobbin:6a3f27e2-9c1c-4dbd-a527-d26366020606", "mobbin:5b627af5-e4b7-47ec-8d86-154da7cdb67d", "mobbin:33ce7034-4170-4403-be14-e3b58184ae59"] },
+      { "title": "Conflicts are counted and graded, not blocked",
+        "body": "7shifts keeps Conflicts and Overtime counters in the schedule header with a jump to fix them, and marks the offending cells. Clockwise separates \"conflicts I can't fix\" from \"inconveniences\" before the user confirms, and changes nothing until then. Better Stack is the counterpoint: an Override toggle silently displaces whoever was on call. Course-side research found warnings arriving after save; these show them live on the grid and in the proposal.",
+        "flows": ["mobbin:9b6a37a7-8bbf-4883-a999-463f46cfbc8e", "mobbin:b3200869-6502-4670-a9f3-48efa536c88f", "mobbin:fa27d48b-3a4d-4764-b661-6e6ec0137535"] },
+      { "title": "Capacity and faculty assignment belong to the session type",
+        "body": "Calendly's Create menu states host-to-invitee cardinality up front (one-on-one, group, round robin, collective); a Group type carries an invitee limit per slot. Its round-robin pool also asks whether a reschedule keeps the host or reassigns through the pool. Cal.com chooses Collective, Round Robin or Managed at creation, plus maximize-availability vs. load-balancing. That maps directly to 'all faculty present' vs. 'faculty rotate across the 30 runs', with group size as seats.",
+        "flows": ["mobbin:58c88fe6-2777-4b0f-8011-c816bff6dbd8", "mobbin:5c1d65f9-65f5-48a9-b250-d04ba6f1a7a8", "mobbin:40bd9265-6569-49af-a402-77cd8de347ca"] },
+      { "title": "Import is review-first: show created vs. updated before committing",
+        "body": "Attio reports columns and rows found, maps them, then has a separate Review values step where invalid or unknown values are fixed inline (including '+ Create N missing select options'), and a preview that counts records to be created vs. updated. Notion is the light version: header row to typed properties with a live preview; merging into an existing database is promised in the copy but not shown. 7shifts puts Import next to Publish on the schedule itself. For the Excel master file, new room or group names in the sheet become select options to resolve, not errors.",
+        "flows": ["mobbin:2c5ec636-6d46-416e-b798-ae09d51881c3", "mobbin:535a7828-5915-47a2-b782-c6bfd708adc0", "mobbin:b0cb149f-d742-4d9e-a22f-5dfe5d15b0b1", "mobbin:9b6a37a7-8bbf-4883-a999-463f46cfbc8e"] },
+      { "title": "Sync separates the calendar you write to from the calendars you read",
+        "body": "Calendly lists 'Check for conflicts' (many calendars) apart from 'Add to calendar' (one). Motion's permission screen names what it will write, makes one main calendar the default target for new events, and treats other calendars as busy time only. Notion puts the connect button where synced events will appear and shows them there afterwards. For Essentials: read faculty Outlook for busy time, write sessions to one calendar, and show the result inside the scheduler.",
+        "flows": ["mobbin:f9b02a84-c8b6-4997-aa01-1f7d9de7792e", "mobbin:afb6188a-6313-41c8-a2b6-c19e7f876c8d", "mobbin:601c6b07-ab5a-4a8b-8dfa-7f2d39b090b3"] },
+      { "title": "Changes keep history and ask for scope",
+        "body": "time2book cancels 'only this class' or 'all future classes' and keeps the occurrence on the list with a Canceled badge instead of deleting it. Skiff's invitee answers Yes/No/Maybe on the event and the response is drawn onto that occurrence. Cal.com ends a booking with Add to Google, Outlook, Office or ICS. None shows the invitation or cancellation email the attendee receives.",
+        "flows": ["refero:6311", "refero:1928", "mobbin:23bf0af9-943c-4ed2-ad8f-6203131d5560"] }
+    ],
+    "open_questions": [
+      "No room-by-room resource calendar was found in Mobbin or Refero (Skedda, Robin, Envoy, OpenTable and similar returned nothing usable; the one gap round returned only duplicates). Deputy's week-by-area grid and 7shifts' department/role grid are the closest. Should rows be rooms, faculty or learner groups, and does a sim center need to switch between them?",
+      "Every rotation flow here assigns staff (employees, hosts, on-call people) to cells; none assigns a group of 4–10 learners to a session or splits a roster into groups. GlossGenius and Cal.com book one person per slot. Is learner-to-cell assignment generated (Deputy's 'fill empty'), self-sign-up (7shifts open shifts, Cal.com), or dragged by the coordinator, and how do Canvas-synced rosters feed it?",
+      "Attio shows created vs. updated counts but not the matching key. For a re-imported Excel master file, what identifies a session (a row id in the sheet, room + start time, scenario + group), and what happens to sessions that were removed from the file? No flow shows deletion on re-import.",
+      "No flow shows the invitation, update or cancellation email a learner or faculty member receives, or how a change propagates to their Outlook. If Publish is the trigger for invites (Deputy, 7shifts), what happens to invites when a published session is moved?",
+      "Wildcard seeds (TeamSnap and LeagueApps round robins, SevenRooms/OpenTable table timelines, Greenhouse/GoodTime interview loops) returned no usable flows, so round-robin evidence comes from Better Stack and Calendly/Cal.com host rotation instead.",
+      "For the LearningSpace Enterprise keep/remove list: which of these does the existing flexi component already have (draft/publish states, open slots, conflict counters, collective vs. round-robin faculty)? AI/natural-language creation (Clockwise, Deputy Auto) is the most expensive to build and the least needed for a 4–5 month budget."
+    ]
+  }
+}

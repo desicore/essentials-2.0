@@ -1,0 +1,284 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 0.8137829999999999,
+  "result": {
+    "reconcile": {
+      "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+      "pageId": "5:422",
+      "createdNodeIds": [],
+      "mutatedNodeIds": [
+        "112:519",
+        "112:524",
+        "112:529",
+        "112:534",
+        "112:539",
+        "112:567",
+        "113:546",
+        "113:551",
+        "113:556",
+        "113:561",
+        "113:573",
+        "113:578",
+        "113:590",
+        "113:602"
+      ],
+      "issues": []
+    },
+    "readback": {
+      "fileKey": "tN2AM7RZD2InF1LYnN0zcn",
+      "pageId": "5:422",
+      "createdNodeIds": [],
+      "mutatedNodeIds": [],
+      "images": [
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 0,
+          "nodeId": "112:519",
+          "imageHash": "8c64b0108c2f5084496ae1989cc0bca3a05232bd",
+          "expectedImageHash": "8c64b0108c2f5084496ae1989cc0bca3a05232bd",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 1,
+          "nodeId": "112:524",
+          "imageHash": "c3937c826f655c664c3ab16f94b70bb5299adee2",
+          "expectedImageHash": "c3937c826f655c664c3ab16f94b70bb5299adee2",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 2,
+          "nodeId": "112:529",
+          "imageHash": "00ef088e8c58b18a432e0b7269e3572831f5bd28",
+          "expectedImageHash": "00ef088e8c58b18a432e0b7269e3572831f5bd28",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 3,
+          "nodeId": "112:534",
+          "imageHash": "e5c2e598feee12b5ed96f6a2380877ef8779498d",
+          "expectedImageHash": "e5c2e598feee12b5ed96f6a2380877ef8779498d",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "index": 4,
+          "nodeId": "112:539",
+          "imageHash": "6f7a394281ac441956563f61b79d0f9d8b511a21",
+          "expectedImageHash": "6f7a394281ac441956563f61b79d0f9d8b511a21",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 190,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:atlassian-group-conflicts",
+          "index": 0,
+          "nodeId": "112:567",
+          "imageHash": "06e722b5956a153eb26685cab64ab20627d43a1c",
+          "expectedImageHash": "06e722b5956a153eb26685cab64ab20627d43a1c",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 113,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "refero:1250",
+          "index": 0,
+          "nodeId": "113:546",
+          "imageHash": "814358eca60177997a960f63e7266484216a69bf",
+          "expectedImageHash": "814358eca60177997a960f63e7266484216a69bf",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 168,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "refero:1250",
+          "index": 1,
+          "nodeId": "113:551",
+          "imageHash": "ae9e43ccfc499d535bceadbe46d74909f81d7b5e",
+          "expectedImageHash": "ae9e43ccfc499d535bceadbe46d74909f81d7b5e",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 158,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "refero:1250",
+          "index": 2,
+          "nodeId": "113:556",
+          "imageHash": "5e3503cf16bb67024aec3e44e99d10b59e182736",
+          "expectedImageHash": "5e3503cf16bb67024aec3e44e99d10b59e182736",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 158,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "refero:1250",
+          "index": 3,
+          "nodeId": "113:561",
+          "imageHash": "fbbc83e70d08790609a16554f0fad386ae5ee53c",
+          "expectedImageHash": "fbbc83e70d08790609a16554f0fad386ae5ee53c",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 158,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:entra-lifecycle",
+          "index": 0,
+          "nodeId": "113:573",
+          "imageHash": "4ce834611cad8b44f74c8d42426beefd0eeba62d",
+          "expectedImageHash": "4ce834611cad8b44f74c8d42426beefd0eeba62d",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 124,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:entra-lifecycle",
+          "index": 1,
+          "nodeId": "113:578",
+          "imageHash": "daf38b177bed1623468e9c03b381f5294acd2877",
+          "expectedImageHash": "daf38b177bed1623468e9c03b381f5294acd2877",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 124,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:entra-status",
+          "index": 0,
+          "nodeId": "113:590",
+          "imageHash": "1af6533d6f7b4ad2b30c4987980dd87d32574532",
+          "expectedImageHash": "1af6533d6f7b4ad2b30c4987980dd87d32574532",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 250,
+          "residentVerified": true
+        },
+        {
+          "referenceId": "documentation:entra-logs",
+          "index": 0,
+          "nodeId": "113:602",
+          "imageHash": "616fb77d89ab3c42bd0228384f3b282aef342a0e",
+          "expectedImageHash": "616fb77d89ab3c42bd0228384f3b282aef342a0e",
+          "hasImageFill": true,
+          "hashMatches": true,
+          "width": 280,
+          "height": 90,
+          "residentVerified": true
+        }
+      ],
+      "references": [
+        {
+          "id": "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:atlassian-managed",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:github-team-sync",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:atlassian-group-conflicts",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:canvas-course-roles",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "refero:1250",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:entra-lifecycle",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:entra-status",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:entra-logs",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:entra-deletion-guard",
+          "hasAnnotation": true,
+          "hasSource": true
+        },
+        {
+          "id": "documentation:atlassian-sync-actions",
+          "hasAnnotation": true,
+          "hasSource": true
+        }
+      ],
+      "issues": [],
+      "residentCheck": {
+        "uniqueHashes": 14,
+        "positiveDimensions": 14,
+        "errors": []
+      },
+      "structuralPassed": true,
+      "visualVerificationRequired": true
+    },
+    "visual": {
+      "sectionNodeIds": [
+        "105:422",
+        "105:426"
+      ],
+      "closeupNodeIds": [
+        "112:567",
+        "113:561"
+      ],
+      "passed": true,
+      "observations": "Q3: five Okta shots render in Step 1-5 order, evenly spaced, no overlap; Atlassian conflict image letterboxed by FIT, legible. Q4: refero Steps 1-4 sequential, Step 3 dark deactivation dialog correct; Entra images render, one column tall. Closeup 112:567 shows group/product/change table with Review actions. Closeup 113:561 shows Workspace Settings members list with success toast. Labels match pixels; no text clipping or column collision.",
+      "issues": []
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "product": "later",
+  "flows": {
+    "mobbin:55855f6e-97e0-4984-9bae-f11cb21e653f": {
+      "summary": "In Account Settings, the user reads the fixed Monday schedule for the analytics email, switches it on for one profile, and sees a confirmation.",
+      "steps": [
+        "Account Settings: Analytics Email Report section at bottom",
+        "Fixed Monday PT schedule, Enable All, per-profile switch off",
+        "Switch on; success message says weekly report enabled for profile"
+      ],
+      "steal": [
+        "The schedule is fixed ('Emails are sent each Monday in the late afternoon (Pacific Time)'), so the only choice is on or off (screens 1 to 2).",
+        "A switch per profile, plus 'Enable All' and 'Disable All', pauses the email without losing the settings (screens 1 to 2).",
+        "The confirmation names the profile and repeats when the email goes out (screen 3)."
+      ],
+      "avoid": [
+        "The digest is buried in Account Settings, far from Analytics; for deans, the subscribe option belongs on the report itself (screen 1)."
+      ],
+      "fit": "Reports: the simplest weekly or monthly newsletter for deans, with one default schedule and a pause switch instead of a report builder.",
+      "counter_example": false
+    },
+    "mobbin:a56091b1-7e85-4b1b-a790-7e7ccbea971b": {
+      "summary": "From the analytics overview, the user creates a shareable performance report, waits for its unique link, sets it to update automatically, and copies the public link.",
+      "steps": [
+        "Overview: Share Performance Report button and Export CSV",
+        "Create Performance Report confirm window",
+        "Loading, then unique-link success message",
+        "Report settings: public URL, auto-update 24h, Enable, industry comparison",
+        "'Copy Link' with clipboard success message"
+      ],
+      "steal": [
+        "A public report link with 'Copy Link' and a view count lets people see the report without an Essentials account (screens 4 to 5).",
+        "'Update Report Automatically' every 24 hours keeps the link current instead of a one-off export (screen 4).",
+        "An 'Enable Report' switch turns the report off without losing its settings (screen 4).",
+        "Sharing starts from the overview, next to the headline numbers, not from the settings (screen 1)."
+      ],
+      "avoid": [],
+      "fit": "Reports: a report pack for deans or accreditation, shared by link without accounts. Automatic refresh comes close to a scheduled digest, and the industry comparison hints at benchmarks without a builder.",
+      "jobs": [
+        "sharing",
+        "scheduled-reports"
+      ],
+      "counter_example": false
+    }
+  }
+}

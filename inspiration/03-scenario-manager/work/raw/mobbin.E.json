@@ -1,0 +1,164 @@
+{
+  "references": [
+    {
+      "id": "mobbin:6583d026-d49c-48e6-8f2c-b0ce5c034e5e",
+      "source": "mobbin",
+      "app": "UNIQLO",
+      "title": "Completing an online survey",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6583d026-d49c-48e6-8f2c-b0ce5c034e5e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/SEindkrz",
+        "https://mobbin.com/api/mcp/short/8m9Xlrzy",
+        "https://mobbin.com/api/mcp/short/pOL6KzLK",
+        "https://mobbin.com/api/mcp/short/iAe7aukI",
+        "https://mobbin.com/api/mcp/short/cR1PcDlg",
+        "https://mobbin.com/api/mcp/short/9HqzkDKa"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Learner opens a survey link on phone without login, steps through multi-section form with checkboxes and dropdowns, submits, and sees thank-you confirmation."
+    },
+    {
+      "id": "mobbin:d17b88f8-0ff5-4b84-817b-864c3f2d5e0e",
+      "source": "mobbin",
+      "app": "IKEA",
+      "title": "Completing a survey",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d17b88f8-0ff5-4b84-817b-864c3f2d5e0e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LfjTPIpE",
+        "https://mobbin.com/api/mcp/short/oUWFEu1u",
+        "https://mobbin.com/api/mcp/short/UtFu1oH8",
+        "https://mobbin.com/api/mcp/short/isFjo1q6"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Respondent answers text field survey and optional feedback from phone, submits, and sees thank-you screen with confirmation icon; no account required."
+    },
+    {
+      "id": "mobbin:39eb7ac4-1bc4-49c7-bfea-d4f509391cc2",
+      "source": "mobbin",
+      "app": "Liven",
+      "title": "Rating a lesson",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/39eb7ac4-1bc4-49c7-bfea-d4f509391cc2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/P9xYD1HQ",
+        "https://mobbin.com/api/mcp/short/cDyEjJrB",
+        "https://mobbin.com/api/mcp/short/vBm0CMRG"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Learner rates a completed lesson using 5-star scale, adds text comment, and sees success confirmation; flow is triggered post-activity."
+    },
+    {
+      "id": "mobbin:fb344d9d-e1f0-49f8-b5d0-6822010f1c1b",
+      "source": "mobbin",
+      "app": "Equinox+",
+      "title": "Rating a class",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fb344d9d-e1f0-49f8-b5d0-6822010f1c1b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/8NgSoAXU",
+        "https://mobbin.com/api/mcp/short/eWU1r9yF",
+        "https://mobbin.com/api/mcp/short/jkuTlnBC",
+        "https://mobbin.com/api/mcp/short/cdW1BpdL",
+        "https://mobbin.com/api/mcp/short/Fvd77BBf"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Learner rates class, instructor, music using separate 5-star scales and a slider for exertion level; adds optional comment; submits with thank-you screen."
+    },
+    {
+      "id": "mobbin:557a9983-dc52-4e0c-93ff-2be83a2b733d",
+      "source": "mobbin",
+      "app": "Nibble",
+      "title": "Rating a lesson",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/557a9983-dc52-4e0c-93ff-2be83a2b733d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rtP5CIY7",
+        "https://mobbin.com/api/mcp/short/ShVXkpW0",
+        "https://mobbin.com/api/mcp/short/36Pkc6cL",
+        "https://mobbin.com/api/mcp/short/wiKHXe6b",
+        "https://mobbin.com/api/mcp/short/6GQdjCqj"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Learner rates lesson with 5-star scale, selects tag-based feedback (interesting, easy-to-follow), then continues; shows confirmation and next-lesson CTA."
+    },
+    {
+      "id": "mobbin:61b16870-c15f-44e8-afb5-122ab7fac3e2",
+      "source": "mobbin",
+      "app": "Employment Hero",
+      "title": "Creating a 360 review",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/61b16870-c15f-44e8-afb5-122ab7fac3e2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TXTpdjmM",
+        "https://mobbin.com/api/mcp/short/Pwofksdj",
+        "https://mobbin.com/api/mcp/short/C4QOyVt0",
+        "https://mobbin.com/api/mcp/short/PxWOXMbE",
+        "https://mobbin.com/api/mcp/short/PnSP1lg1"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Administrator creates 360 review template, sets title, description, start/due dates, and designates who completes self-review; final step shows populated template ready to send."
+    },
+    {
+      "id": "mobbin:7fa6c115-bef2-41d6-8573-ab12434f44b4",
+      "source": "mobbin",
+      "app": "Charma",
+      "title": "Setting up 360 reviews",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7fa6c115-bef2-41d6-8573-ab12434f44b4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lNA13EqI",
+        "https://mobbin.com/api/mcp/short/fH7v8voW",
+        "https://mobbin.com/api/mcp/short/Db4YV7wJ",
+        "https://mobbin.com/api/mcp/short/gZsjJ3pH",
+        "https://mobbin.com/api/mcp/short/KJkAvh2v",
+        "https://mobbin.com/api/mcp/short/XZeVY7RR",
+        "https://mobbin.com/api/mcp/short/CLM1TSI6",
+        "https://mobbin.com/api/mcp/short/qzzSUpNI",
+        "https://mobbin.com/api/mcp/short/lMAJWdkH"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Faculty kicks off 360 review by selecting reviewees and reviewers, setting peer-review due dates and final summary dates; multi-step wizard with assigned reviewers shown."
+    },
+    {
+      "id": "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c",
+      "source": "mobbin",
+      "app": "Luma",
+      "title": "Checking in a guest (scan QR code)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/024a7f32-0ecc-4767-9123-0fb0830f256c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/g9bB4MM2",
+        "https://mobbin.com/api/mcp/short/30zPcVgN",
+        "https://mobbin.com/api/mcp/short/uKhpFWTF"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Attendee scans QR code displayed in room without login, verifies identity in modal, clicks Check In, and sees success confirmation—enabling anonymous feedback from classroom TV QR."
+    }
+  ]
+}

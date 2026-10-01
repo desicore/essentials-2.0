@@ -1,0 +1,23 @@
+{
+  "product": "frame-io",
+  "flows": {
+    "mobbin:c537e383-521f-4785-8478-0ba54a3e6f74": {
+      "summary": "From the share sidebar, the user sets an expiration via presets or calendar, confirms Dec 31 11:59pm, and lands on a set expiry with Edit or clear.",
+      "steps": [
+        "Share sidebar: Expiration Not set",
+        "Expiry picker with presets and time",
+        "Select Dec 31 at 11:59pm",
+        "Expiration set with Edit or clear"
+      ],
+      "steal": [
+        "Share settings stay in a side panel next to the video, so the user sets them without leaving the review (screen 1).",
+        "Quick choices ('24 Hours', '1 Week', '2 Weeks') sit above a calendar and time picker, which suits short sharing windows after a debrief (screen 2).",
+        "The chosen expiry ('Dec 31 at 11:59pm') is then shown in one short line with Edit and an X to clear it (screens 3 to 4).",
+        "Comments, Downloads and 'Show all versions' are separate switches next to Security (passphrase and expiry) (screens 1 and 4)."
+      ],
+      "avoid": [],
+      "fit": "Debrief and review: the best match for sharing video after a debrief, with settings next to playback, quick expiry choices and a Downloads switch. Essentials still needs consent before identifiable learners can be downloaded.",
+      "counter_example": false
+    }
+  }
+}

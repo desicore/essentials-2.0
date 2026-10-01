@@ -1,0 +1,43 @@
+{
+  "product": "veed",
+  "flows": {
+    "mobbin:79f64251-2c1a-4751-9926-1ab5aa922993": {
+      "summary": "User arms a slide+cam studio, starts Record, sees a cancelable countdown, records with timer/pause/retake/stop, then lands in a post-stop editor with upload progress and Add to project.",
+      "steps": [
+        "Pre-record stage — Record CTA",
+        "Countdown 2 — click anywhere to cancel",
+        "Recording — timer Retake Pause Stop",
+        "Paused — Scenes tip + Resume",
+        "Paused — Resume primary",
+        "Post-stop editor — uploading %",
+        "Post-stop — Add to project ready"
+      ],
+      "steal": [
+        "Countdown overlay with Click anywhere to cancel and Starting status before REC (step Countdown 2).",
+        "During capture: elapsed/limit timer plus Retake, Pause, Stop as peer actions (step Recording — timer).",
+        "Paused state flips primary CTA to red Resume while Retake/Stop remain (step Paused — Resume primary).",
+        "After stop: immediate review player + Uploading % then Add to project / Delete (steps Post-stop editor / Add to project)."
+      ],
+      "avoid": [
+        "Scenes upsell modal on pause distracts from Resume/Stop for operators who only need recording-state control."
+      ],
+      "fit": "Maps to control-room start-stop outside SRV (countdown, pause/retake, post-stop processing indicator); SRV itself stays the review surface once the asset exists."
+    },
+    "mobbin:e774e41f-3fa0-4fe8-90a9-a784b933676b": {
+      "summary": "On the armed record stage the user opens mic source menu, chooses Mute Microphone, then sees a top warning Your microphone is muted. Unmute plus a red Unmute control before Record.",
+      "steps": [
+        "Armed stage — Record ready",
+        "Mic menu — Mute Microphone in red",
+        "Muted banner + Unmute highlighted",
+        "Muted toolbar state persists with Record CTA"
+      ],
+      "steal": [
+        "In-view banner: Your microphone is muted. Unmute with dismiss, above the stage (step Muted banner).",
+        "Toolbar Unmute turns red with slash while Record remains available — warning does not silently block (step Muted banner).",
+        "Mic dropdown lists devices and a red Mute Microphone action as an explicit decision (step Mic menu)."
+      ],
+      "avoid": [],
+      "fit": "Pre-session / live-control guardrail outside SRV: explicit muted-mic warning before or during arming — addresses the baseline audio-failed-at-centers pain without changing Transcript/Annotation tabs."
+    }
+  }
+}

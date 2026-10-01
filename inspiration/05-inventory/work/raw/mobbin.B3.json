@@ -1,0 +1,165 @@
+{
+  "references": [
+    {
+      "id": "mobbin:f8f82b62-60bc-404c-a1c1-af41afce5b9f",
+      "source": "mobbin",
+      "app": "Airwallex",
+      "title": "Uploading a receipt",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f8f82b62-60bc-404c-a1c1-af41afce5b9f",
+      "platform": "ios",
+      "jobs": ["ai-equipment"],
+      "take": "Receipt upload triggers AI-powered matching; user reviews extracted line items with supplier and amount, then matches to card expense or creates reimbursement.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/mHzkFPsR",
+        "https://mobbin.com/api/mcp/short/GMpqiVfo",
+        "https://mobbin.com/api/mcp/short/qcKcq5O1",
+        "https://mobbin.com/api/mcp/short/STx1p41X",
+        "https://mobbin.com/api/mcp/short/GTSSF9VY",
+        "https://mobbin.com/api/mcp/short/XNFh2W6N"
+      ]
+    },
+    {
+      "id": "mobbin:1e6a66d9-2186-4219-9aaf-4b09968fe447",
+      "source": "mobbin",
+      "app": "Lightfield",
+      "title": "Chatting with Lightfield AI (with doc)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/1e6a66d9-2186-4219-9aaf-4b09968fe447",
+      "platform": "web",
+      "jobs": ["ai-equipment"],
+      "take": "User uploads document, AI processes it, and returns structured extracted data (tasks, checklistsitems) that user can review and refine inline.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7REDnC5I",
+        "https://mobbin.com/api/mcp/short/CUB753tT",
+        "https://mobbin.com/api/mcp/short/1Po5MzHC",
+        "https://mobbin.com/api/mcp/short/NNWHPxTu",
+        "https://mobbin.com/api/mcp/short/fIBHjU0d",
+        "https://mobbin.com/api/mcp/short/DvMGxFH4",
+        "https://mobbin.com/api/mcp/short/3e5lDQGS",
+        "https://mobbin.com/api/mcp/short/45rtu1xe"
+      ]
+    },
+    {
+      "id": "mobbin:5d59a6e2-f9e9-4a6d-9103-c9bc6137ab58",
+      "source": "mobbin",
+      "app": "folk",
+      "title": "Editing data with AI",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5d59a6e2-f9e9-4a6d-9103-c9bc6137ab58",
+      "platform": "web",
+      "jobs": ["ai-equipment"],
+      "take": "AI transforms imported CSV/pasted data into structured fields; user reviews and edits extracted records in context before saving to database.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/xh0MsCoX",
+        "https://mobbin.com/api/mcp/short/5hxmlBQr",
+        "https://mobbin.com/api/mcp/short/CDMkz8pl",
+        "https://mobbin.com/api/mcp/short/Ral9eglO",
+        "https://mobbin.com/api/mcp/short/TyJZNLGW",
+        "https://mobbin.com/api/mcp/short/5H7VIRNv",
+        "https://mobbin.com/api/mcp/short/qclvNJ5X"
+      ]
+    },
+    {
+      "id": "mobbin:8c74a0f5-c330-413e-96c1-59a8487cdda2",
+      "source": "mobbin",
+      "app": "Kitchen Stories",
+      "title": "Shopping list",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8c74a0f5-c330-413e-96c1-59a8487cdda2",
+      "platform": "ios",
+      "jobs": ["ai-equipment"],
+      "take": "Recipe auto-generates shopping list with ingredient extraction; user can mark items as already-have via checkbox and cross-reference with recipes.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/eMLDVbKA",
+        "https://mobbin.com/api/mcp/short/U3R7OA0M",
+        "https://mobbin.com/api/mcp/short/G99pdOhO",
+        "https://mobbin.com/api/mcp/short/PT7h1KX1",
+        "https://mobbin.com/api/mcp/short/YSgp5626",
+        "https://mobbin.com/api/mcp/short/kv3Gi1SY"
+      ]
+    },
+    {
+      "id": "mobbin:30099a43-f093-441a-b868-b6a69e2da697",
+      "source": "mobbin",
+      "app": "Airwallex",
+      "title": "Adding a bill",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/30099a43-f093-441a-b868-b6a69e2da697",
+      "platform": "web",
+      "jobs": ["ai-equipment"],
+      "take": "Invoice upload with OCR extraction; user reviews AI-parsed vendor, amount, dates, and line items, with ability to edit each field before submission.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DGCux7Db",
+        "https://mobbin.com/api/mcp/short/L9IntkbW",
+        "https://mobbin.com/api/mcp/short/sLf1Z05I",
+        "https://mobbin.com/api/mcp/short/ThCuvAtN",
+        "https://mobbin.com/api/mcp/short/L9WhiLMh",
+        "https://mobbin.com/api/mcp/short/LSkJFhXV",
+        "https://mobbin.com/api/mcp/short/yk7uf7cU",
+        "https://mobbin.com/api/mcp/short/71PLYt73",
+        "https://mobbin.com/api/mcp/short/MoaP8b3Q"
+      ]
+    },
+    {
+      "id": "mobbin:d4334c5a-90b2-443f-8f40-4a4a5a7ead22",
+      "source": "mobbin",
+      "app": "Melio",
+      "title": "Creating a bill",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d4334c5a-90b2-443f-8f40-4a4a5a7ead22",
+      "platform": "web",
+      "jobs": ["ai-equipment"],
+      "take": "Full bill-creation flow: upload PDF, OCR extracts vendor and line items, user reviews/edits each extracted field and line-item row, then saves.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Cr0RR5eB",
+        "https://mobbin.com/api/mcp/short/AxMJKh4H",
+        "https://mobbin.com/api/mcp/short/s1HomZRi",
+        "https://mobbin.com/api/mcp/short/mmwbhDR6",
+        "https://mobbin.com/api/mcp/short/ITVkXVnz",
+        "https://mobbin.com/api/mcp/short/lsMGR9nA",
+        "https://mobbin.com/api/mcp/short/uAJCTfcg",
+        "https://mobbin.com/api/mcp/short/gl5urpbW",
+        "https://mobbin.com/api/mcp/short/BTGB5NJX"
+      ]
+    },
+    {
+      "id": "mobbin:0ddb8164-d3d3-4b6a-91a9-86d2f52e93ad",
+      "source": "mobbin",
+      "app": "Recime",
+      "title": "Groceries",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/0ddb8164-d3d3-4b6a-91a9-86d2f52e93ad",
+      "platform": "ios",
+      "jobs": ["ai-equipment"],
+      "take": "Multi-recipe shopping list aggregates all ingredients with checkbox states to track what's needed vs. already-in-pantry; grouped by category.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Y6H3Z6ft",
+        "https://mobbin.com/api/mcp/short/vu3cCEu7",
+        "https://mobbin.com/api/mcp/short/RMWPcNvZ",
+        "https://mobbin.com/api/mcp/short/QvcCMCPb",
+        "https://mobbin.com/api/mcp/short/paQwU4Tl"
+      ]
+    },
+    {
+      "id": "mobbin:8131cf84-1b89-4dde-a474-a87c42c32316",
+      "source": "mobbin",
+      "app": "Acctual",
+      "title": "Creating a bill",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8131cf84-1b89-4dde-a474-a87c42c32316",
+      "platform": "web",
+      "jobs": ["ai-equipment"],
+      "take": "Bill-creation with document upload and AI extraction; user reviews vendor contact, amount, dates before final submission in structured form.",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hPN5RAT5",
+        "https://mobbin.com/api/mcp/short/cLrgCTdV",
+        "https://mobbin.com/api/mcp/short/kKkEFXRf",
+        "https://mobbin.com/api/mcp/short/yPgmf6dW",
+        "https://mobbin.com/api/mcp/short/jmnjuML1",
+        "https://mobbin.com/api/mcp/short/LhIEJuMD",
+        "https://mobbin.com/api/mcp/short/bQnRaCnv"
+      ]
+    }
+  ]
+}

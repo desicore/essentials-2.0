@@ -1,0 +1,23 @@
+{
+  "product": "google-home",
+  "flows": {
+    "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4": {
+      "summary": "The user leaves an empty Favourites tab, opens Devices, and scans room-grouped tiles that flip between Offline with a warning and On • 100%.",
+      "steps": [
+        "Favourites empty with Reorder and Edit",
+        "Devices: Living room Light Offline with warning",
+        "Devices: Living room Light On • 100%"
+      ],
+      "steal": [
+        "Devices are grouped under room headers such as Living room, with 'Linked to you' for unassigned gear (screen 2).",
+        "An Offline tile uses a muted card, Offline text and a warning triangle (screen 2).",
+        "When on, a saturated yellow tile shows 'On • 100%' (screen 3).",
+        "A Hue Bridge card with a chevron opens for more detail, while other tiles toggle On/Off directly (screen 2)."
+      ],
+      "avoid": [
+        "Opening on empty Favourites with no device status forces operators past a blank pin board before they reach the room status wall."
+      ],
+      "fit": "Recording: models Center Overview as rooms as sections and device tiles with offline warning versus on/level, paired with feeds when opening a room."
+    }
+  }
+}

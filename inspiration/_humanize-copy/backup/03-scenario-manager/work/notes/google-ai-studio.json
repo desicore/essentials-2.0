@@ -1,0 +1,25 @@
+{
+  "product": "google-ai-studio",
+  "flows": {
+    "mobbin:4f2fdd14-7c4b-4cfb-861a-27ea49a594b5": {
+      "summary": "In Playground multi-speaker mode, the user authors a dialogue with global style instructions, alternating Speaker 1/2 line blocks, and per-speaker name/voice settings in the Run panel.",
+      "steps": [
+        "Multi-speaker playground (style + two speakers)",
+        "Script builder with + Add dialog",
+        "Speaker 1/2 name and voice settings",
+        "Edited style instructions (warm/friendly)"
+      ],
+      "steal": [
+        "Split global Style instructions from per-line speaker text.",
+        "Color-coded Speaker pills on each dialog block; + Add dialog to grow the sequence.",
+        "Right-rail Speaker settings: rename role once, pick voice \u2014 labels update across blocks.",
+        "Raw structure beside Script builder for a plain-text / printable cue-card view."
+      ],
+      "avoid": [
+        "TTS model/voice chrome and Run-to-generate audio \u2014 Essentials needs cue cards for humans (SP/operator), not synthesis."
+      ],
+      "fit": "Extends Baseline (no Maestro editor) with a deliberately basic per-role script/cue builder for SP and sim-operator lines, not a state-machine.",
+      "counter_example": false
+    }
+  }
+}

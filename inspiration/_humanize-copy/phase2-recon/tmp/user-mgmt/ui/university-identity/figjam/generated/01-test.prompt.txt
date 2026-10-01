@@ -1,0 +1,7 @@
+Execute the authorized TEST ROW only. Existing claude.ai Figma connection, file tN2AM7RZD2InF1LYnN0zcn, Page 2 5:422.
+
+Read mandatory local figma-use/SKILL.md and figma-use-figjam/SKILL.md under /Users/danielbrassnyo/.codex/plugins/cache/openai-curated-remote/figma/2.0.21/skills/. Their core rules override outdated reference snippets: top-level await/return, no closePlugin/IIFE. User explicitly requests left annotation stickies and Page1 layout, overriding generic workshop sticky/layout defaults.
+
+Discover select:mcp__claude_ai_Figma__use_figma,mcp__claude_ai_Figma__get_figjam. Get_figjam Page2 immediately before the write (includeImagesOfNodes false). If there is unexpected foreign content or duplicate owned nodes, stop and report; page was freshly confirmed empty at preflight. Read local file /Users/danielbrassnyo/Documents/dev-projects/elevate/essentials-2.0/inspiration/university-identity/figjam/generated-compact/01-test-reference.request.json and call use_figma exactly with its code/fileKey/description/skillNames. This creates one complete Zendesk reference row plus Q1 headings and image target, preserving Page1. No upload yet, no other writes.
+
+Return ONLY the exact JSON object returned by use_figma, with every createdNodeId, mutatedNodeId, sectionRecord, referenceRecord, and imageTarget intact. Do not paraphrase or omit IDs. On error return actual error instead of claiming success; no blind retry.

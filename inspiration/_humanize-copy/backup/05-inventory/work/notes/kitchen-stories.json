@@ -1,0 +1,28 @@
+{
+  "product": "kitchen-stories",
+  "flows": {
+    "mobbin:8c74a0f5-c330-413e-96c1-59a8487cdda2": {
+      "summary": "From Home the user opens an empty Shopping List, then after recipes are added reviews per-recipe “N out of N missing,” expands ingredients with a servings stepper, and ticks items on All items until some are struck through as already-have.",
+      "steps": [
+        "Home — Editor’s Choice + Shopping list tab",
+        "Shopping List — empty state",
+        "Recipes tab — 3 recipes, all missing",
+        "Recipe detail — servings stepper + unchecked ingredients",
+        "All items — consolidated unchecked list",
+        "All items — mixed checked / unchecked + Unmark all"
+      ],
+      "steal": [
+        "Per-scenario “14 out of 14 items missing” under each recipe (steps 2–3) — shortage headline before opening the list.",
+        "Recipes vs All items tabs (steps 2–5) — group by scenario or flatten for a shopping/prep run.",
+        "Servings stepper scales quantities (step 3) — learner-count or repeat-run multiplier for consumables.",
+        "Checkbox → strikethrough + Unmark all (steps 4–5) — mark already-on-shelf and reset for the next session."
+      ],
+      "avoid": [
+        "Matching is manual tick-only (steps 3–5); no auto-compare against a pantry/shelf — Baseline wants AI/shelf match, not only hand checks."
+      ],
+      "fit": "Extends Baseline ai-equipment + shortage UX: recipe = scenario equipment list; missing counts and unchecked rows = shelf gaps; checked = already have — not auto inventory deduct.",
+      "jobs": ["ai-equipment", "low-stock"],
+      "counter_example": false
+    }
+  }
+}

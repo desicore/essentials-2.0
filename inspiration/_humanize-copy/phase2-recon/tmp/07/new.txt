@@ -1,0 +1,425 @@
+Share courses with participants → Learner Portal
+Essentials 2.0 · Design research · 07-share-with-participants
+Share courses with participants → Learner Portal
+Semester → Courses → Share with participants → Learner Portal. Evidence for moving a course from setup to learner access, and making the first visit useful. Group assignment belongs to 04; reports to 08; announcements and material delivery to 09. Screens are research captures, not verification of current product capabilities.
+Top examples
+Teachable separates lesson publication from enrolment-relative release timing. Teachable · mobbin:9ef7d498… · Mobbin
+Circle makes audience visibility choices understandable at publication. Circle · mobbin:ec16c800… · Mobbin
+Podia names publication, access and discoverability separately. Podia · mobbin:94f6be70… · Mobbin
+Figma combines direct invitations, a share link and visible permissions. Figma · mobbin:b227715d… · Mobbin
+Circle labels the enrolled-member preview context. Circle · mobbin:02f1cfb0… · Mobbin
+Teachable gives a new learner an obvious Start Lesson action. Teachable · mobbin:c04c0023… · Mobbin
+Coursera foregrounds progress and Resume for a returning learner. Coursera · mobbin:18683325… · Mobbin
+Slack makes failed and pending invitations operationally manageable. Slack · mobbin:2fe9271e… · Mobbin
+Pattern comparison
+Coverage of captured evidence, not a product feature score. ✓ = directly observed for the question; partial = adjacent, incomplete or not observed; ✗ would mean an explicitly observed contrary behaviour. No absent feature is inferred from missing captures. Column titles repeat Q1–Q6 below.
+Product
+Q1 · Publish model (single toggle vs. per-item visibility vs. scheduled release)
+Q2 · Access grant paths (enrolled groups / link / code / email) and how permission levels are expressed
+Q3 · "Preview as learner" availability and fidelity
+Q4 · Learner course home: what is above the fold (next session, progress, materials, announcements)
+Q5 · Feedback to instructor that sharing worked (who has opened, pending invites)
+Q6 · Cross-device (web vs. mobile portal) parity
+Canva
+partial · not observed
+partial · not observed
+✓ · Visible View as learner entry and learner-facing result.[1]
+partial · not observed
+✓ · Course-ready confirmation, team notified, Classwork and Copy link.[1]
+partial · not observed
+Circle
+✓ · Draft mode, Open/Private/Secret access selector, mixed lesson states, Save changes.[1]
+✓ · Selected-space invitations; Open/Private/Secret audiences.[1] [2]
+✓ · Preview as enrolled member preserves lesson media/content and completion action.[1]
+partial · Course/community identity and content entry points; no progress or announcements observed.[1]
+partial · not observed
+partial · not observed
+Coursera
+partial · not observed
+partial · not observed
+partial · not observed
+✓ · Continue learning, progress, module and Resume visible above fold.[1]
+partial · not observed
+✓ · Matched web+iOS course homes share enrolled course, progress, goals, and next-action patterns; parity limits remain outside captured surfaces.[1] [2]
+Figma
+partial · not observed
+✓ · Email invite/copy link plus Anyone access, View/Edit, password protection, copy/save/export toggle.[1] [2]
+partial · not observed
+partial · not observed
+partial · not observed
+partial · not observed
+Gumroad
+partial · not observed
+partial · Creator content editor with Share tab and Collaborators navigation; learner access grant unshown.[1]
+partial · not observed
+partial · not observed
+partial · not observed
+partial · not observed
+Kajabi
+✓ · Module menu offers Draft, Publish, Drip, Lock; publish yields Published and success toast.[1]
+partial · not observed
+partial · not observed
+partial · not observed
+partial · not observed
+partial · not observed
+Notion
+partial · not observed
+✓ · Typed email/Guest suggestion, Member role, invite message, Send invite.[1] [2]
+partial · not observed
+partial · not observed
+partial · not observed
+partial · not observed
+Podia
+✓ · Published/Open/Visible confirmation, Delayed 1 day module, audience progress/start/expiry table.[1]
+✓ · Invite by email, optional tags and explicit 30-day trial warning.[1]
+partial · not observed
+partial · not observed
+partial · Course published banner, audience rows, and Customer invited toast; Pending is visible but delivery/acceptance/opened are unresolved. Audience progress is post-access evidence, not invite-open telemetry.[1] [2]
+partial · not observed
+SchoolAI
+partial · not observed
+partial · not observed
+partial · Student-mode preview of one AI activity.[1]
+partial · not observed
+partial · not observed
+partial · not observed
+Slack
+partial · not observed
+partial · not observed
+partial · not observed
+partial · not observed
+partial · Requests/Pending/Accepted tabs and bounced, resent, revoked row states; opened is not shown.[1]
+partial · not observed
+Teachable
+✓ · Per-lesson Publish plus Drip days-after-enrolment, activation toggle, student notification, and saved feedback.[1]
+partial · not observed
+partial · Curriculum Preview is visible; learner-role toggle not established.[1]
+✓ · Course context, Start Lesson, lesson list and 0% complete visible.[1]
+partial · not observed
+partial · Web learner-facing admin preview only; ordinary learner session and mobile parity unverified.[1]
+Udemy
+partial · not observed
+partial · not observed
+partial · not observed
+partial · not observed
+partial · not observed
+partial · iOS learner course home captured, but no matching web capture was returned.[1]
+What the best apps do differently
+Separate “live” from “who can see it.” Podia exposes Published/Open/Visible together; Circle describes audience scope with Open/Private/Secret. Podia · mobbin:94f6be70…; Circle · mobbin:ec16c800….
+Put release timing where content is managed. Teachable exposes enrolment-relative drip settings; Kajabi keeps Draft/Publish/Drip/Lock in the module action menu. Teachable · mobbin:9ef7d498…; Kajabi · mobbin:9aa981d2….
+Make preview identity explicit. Circle names an enrolled member; Canva offers View as learner. Teachable’s curriculum preview and SchoolAI’s activity preview illustrate narrower evidence scopes, so neither alone validates an entire cohort journey. Circle · mobbin:02f1cfb0…; Canva · mobbin:5c96453b…; Teachable · mobbin:e6757446…; SchoolAI · mobbin:56f720b3….
+Match the first action to learner state. Teachable offers Start Lesson at 0%; Coursera offers Resume with progress. The useful pattern for Essentials is a state-aware next action. Teachable · mobbin:c04c0023…; Coursera · mobbin:18683325….
+Provide recovery and participation context beyond the invite action. Slack exposes bounce, resend and revoke states; Podia shows Customer invited alongside audience progress. Neither capture proves an email or course was opened. Slack · mobbin:2fe9271e…; Podia · mobbin:6462b667….
+Preserve progress and the next action across devices. Coursera’s web and iOS captures support this narrower parity claim; Udemy’s mobile-only example cannot establish web/mobile parity. Coursera · mobbin:f31fedca…; Coursera · mobbin:d76cce29…; Udemy · mobbin:89b6481f….
+Best practices top companies converge on
+Recommendations for Essentials inferred from the captured patterns:
+Show course publication, audience access and item release as separate, readable states. Podia · mobbin:94f6be70…; Circle · mobbin:ec16c800…; Kajabi · mobbin:9aa981d2….
+Offer direct invitations and a copyable link together, with the effective permission visible before sharing. Figma · mobbin:b227715d…; Circle · mobbin:e801d8ae….
+Provide a clearly labelled learner preview close to authoring, and state what the preview simulates. Circle · mobbin:02f1cfb0…; Canva · mobbin:5c96453b….
+Lead the learner home with one useful next action and progress, then supporting course context. Teachable · mobbin:c04c0023…; Coursera · mobbin:18683325….
+Separate invite status from course participation, and give instructors recovery actions. Slack · mobbin:2fe9271e…; Podia · mobbin:6462b667….
+Open questions for Essentials 2.0
+Does publication apply to all groups already assigned in module 04, or can different cohorts receive different release dates? The course/item/audience layers need an explicit rule. Teachable · mobbin:9ef7d498…; Circle · mobbin:ec16c800….
+Should day one lead with the next simulation session, required preparation, or unfinished lessons? The captured self-paced homes support a next action but do not settle a session-based priority. Teachable · mobbin:c04c0023…; Coursera · mobbin:18683325….
+Can instructor preview impersonate a specific group and date without changing learner completion? The enrolled-member and activity previews do not prove those safeguards. Circle · mobbin:02f1cfb0…; SchoolAI · mobbin:56f720b3….
+When Canvas owns enrolment or the learner entry point, which system owns effective access, publication and revocation? Treat the access/status patterns as inputs; no Canvas capture was retained. Circle · mobbin:e801d8ae…; Podia · mobbin:94f6be70….
+What counts as sharing success: invite accepted, first authenticated course access, or preparation started? Keep these events distinct, with report access in 08 and messages/material delivery in 09. Slack · mobbin:2fe9271e…; Podia · mobbin:6462b667….
+Must the mobile portal support session joining, downloads and returning from an invite link? Matched Coursera course homes do not verify those end-to-end behaviours. Coursera · mobbin:f31fedca…; Coursera · mobbin:d76cce29….
+Evidence coverage and method
+Mobbin deep web/iOS screen and flow searches plus Refero HTTP-helper searches. Only retained, locally downloaded screenshots support the findings; ordered flows are limited to eight captured steps. Comparison cells describe this corpus, not exhaustive or current feature availability. Flow strips may be excerpts of a longer journey. No observed example proves a complete instructor-to-invite-to-first-login journey across products. The final set has 28 references across 12 products, below the 30–50 target after relevance and image checks. Canvas, Google Classroom, Moodle, Thinkific and Maven remain evidence gaps, not negative feature findings. Refero was searched but most overlapping examples were removed by the one-source-per-product/question merge rule; the retained Gumroad screen is explicitly an adjacent counter-example.
+The requested three Luna fetch threads were used. The runtime then rejected a new Sol thread with “agent thread limit reached”; Luna threads produced screenshot evidence notes and Astra synthesised them. The supplied report builder was reused without editing the previous module; this synthesis and reference anchors were added afterward. All references remain unselected for Daniel’s later converge pass.
+Search references
+SourceAll sources
+Mobbin
+Refero
+Selected only
+Reset filters
+QuestionsQ1
+Q2
+Q3
+Q4
+Q5
+Q6
+No references match these filters. Try another search or reset the filters.
+Enable JavaScript for filters and full-size previews. All references appear below.
+Q1Publish model (single toggle vs. per-item visibility vs. scheduled release)
+Publication is layered in these captures. Teachable [mobbin:9ef7d498-63b5-4d12-a94f-5779c906f717] shows lesson Publish controls and a Drip panel based on days after enrolment. Kajabi [mobbin:9aa981d2-b178-4843-b8dd-0685815ecd62] shows Draft, Publish, Drip and Lock in a module menu, followed by a Published state. Podia [mobbin:94f6be70-d9b2-4363-8091-62d20f8d1f9e] separates Published, Open and Visible and shows a delayed module. Circle [mobbin:ec16c800-3b82-4f66-8b88-76840a7590dc] explains Open, Private and Secret audiences. For Essentials, make course publication, audience scope and item release separately legible. The captures do not establish the consequences of unpublishing an active course.
+6 references
+mobbin:ec16c800-3b82-4f66-8b88-76840a7590dc
+CircleMobbinflow
+Publishing a course space
+Circle’s publishing flow exposes draft mode and Open/Private/Secret audience descriptions, then topics, thumbnail and Save changes; Open refers to community members, not the public internet.
+View source ↗
+[IMG]
+Step 1 of 7 · Click to enlarge
+[IMG]
+Step 2 of 7 · Click to enlarge
+[IMG]
+Step 3 of 7 · Click to enlarge
+[IMG]
+Step 4 of 7 · Click to enlarge
+[IMG]
+Step 5 of 7 · Click to enlarge
+[IMG]
+Step 6 of 7 · Click to enlarge
+[IMG]
+Step 7 of 7 · Click to enlarge
+mobbin:9aa981d2-b178-4843-b8dd-0685815ecd62
+KajabiMobbinflow
+Publishing course content
+Kajabi’s module menu offers Draft, Publish, Drip and Lock; choosing Publish produces a Published state and confirmation toast.
+View source ↗
+[IMG]
+Step 1 of 4 · Click to enlarge
+[IMG]
+Step 2 of 4 · Click to enlarge
+[IMG]
+Step 3 of 4 · Click to enlarge
+[IMG]
+Step 4 of 4 · Click to enlarge
+mobbin:94f6be70-d9b2-4363-8091-62d20f8d1f9e
+PodiaMobbinflow
+Publishing a course
+Podia confirms Course published, separates Published/Open/Visible, and shows a delayed module plus an audience table with progress, signup, start and expiry columns.
+View source ↗
+[IMG]
+Step 1 of 5 · Click to enlarge
+[IMG]
+Step 2 of 5 · Click to enlarge
+[IMG]
+Step 3 of 5 · Click to enlarge
+[IMG]
+Step 4 of 5 · Click to enlarge
+[IMG]
+Step 5 of 5 · Click to enlarge
+mobbin:9ef7d498-63b5-4d12-a94f-5779c906f717
+TeachableMobbinscreen
+Course publish settings
+Teachable places per-lesson Publish actions beside a Drip panel with days after enrolment, Activate drip, notification controls and saved feedback.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:d02990dd-8ca9-44d0-83b1-bb9862f2e417
+TeachableMobbinscreen
+Course visibility state
+Teachable’s curriculum combines Preview and per-lesson Publish controls with a Drip panel that visibly requires a plan upgrade.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:6f84d500-27bc-4a9c-9bf9-04e5f525e5f3
+TeachableMobbinscreen
+Course release control
+Teachable’s Drip panel exposes days after enrolment, a numeric delay, Activate drip, student notification controls and saved feedback.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Q2Access grant paths (enrolled groups / link / code / email) and how permission levels are expressed
+Grant access in the context of the course. Circle [mobbin:e801d8ae-1e7e-45e3-9035-0452816271e5] shows invitations with selected-space access and privileged-role controls. Figma [mobbin:b227715d-bc5d-4655-9133-921c156f6837] combines email invitations, copy link and visible permissions; Figma [mobbin:ffaf7085-3f32-450d-938b-812274011f53] adds Anyone access, View/Edit and password protection. Notion [mobbin:44650693-5283-421a-b978-d4cf1a8de987] names a Member role in an email invitation. These are access patterns, not a prescribed role model for learners. A password is not evidence of a classroom join-code workflow; enrolled-group inheritance and class codes remain unverified in this set. Podia [mobbin:157502c1-8bd1-4fd3-aae9-97358b725cad] makes a 30-day trial limit explicit before inviting a customer. Gumroad [refero:11b3c0a4-eb09-4d98-9a1a-742439189540] is a creator-side counter-example: Share and Collaborators navigation do not establish a learner-access workflow.
+7 references
+mobbin:e801d8ae-1e7e-45e3-9035-0452816271e5
+CircleMobbinscreen
+Community access dialog
+Circle’s Invite members screen combines selected-space access with admin/moderator permission controls and Send invites; privilege assignment is separate from choosing spaces.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:b227715d-bc5d-4655-9133-921c156f6837
+FigmaMobbinscreen
+Invite and permission dialog
+Figma combines email invitation, Copy link, existing people and can-view permissions in one dialog; this is a content-sharing analogy for course access.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:ffaf7085-3f32-450d-938b-812274011f53
+FigmaMobbinscreen
+Link sharing permission state
+Figma exposes Anyone access, View/Edit, optional password protection and a viewers-can-copy/save/export setting before Save; a password is not a classroom join code.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+refero:11b3c0a4-eb09-4d98-9a1a-742439189540
+GumroadReferoscreen
+Digital course content manager
+Counter-example
+Counter-example in scope: Gumroad’s creator content editor has a Share tab and Collaborators navigation, but this capture does not show a learner-access grant or invitation status.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:44650693-5283-421a-b978-d4cf1a8de987
+NotionMobbinscreen
+Page sharing dialog
+Notion’s Add members modal supports names or emails, an explained Member role, an invitation message and Send invite; workspace membership is an adjacent analogy, not course enrolment.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:9f7bcb4e-d95c-423d-b298-f40d338e310e
+NotionMobbinscreen
+Guest access state
+Notion shows a typed email suggestion labelled Guest alongside Member role selection, an invite message and Send invite; inspect identity and role labels together.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:157502c1-8bd1-4fd3-aae9-97358b725cad
+PodiaMobbinscreen
+Invite a customer modal
+Podia’s Invite a customer modal captures email entry, optional tags, a time-limited access warning, and explicit Don’t invite/Invite customer actions; targeted enrolment evidence, but no role selector or access code/link is visible.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Q3"Preview as learner" availability and fidelity
+Preview has different scopes. Circle [mobbin:02f1cfb0-ef6b-4f9f-8218-bfe24c660981] explicitly labels preview as an enrolled member and retains lesson content and a completion action. Canva [mobbin:5c96453b-0c58-434f-94ba-c6d68a8f5bd5] places View as learner beside the course editor. Teachable [mobbin:e6757446-af84-43d5-bed0-da79c9a3826c] exposes curriculum preview without proving the same role simulation. SchoolAI [mobbin:56f720b3-daec-4967-9fc4-60a7f8501c55] previews an AI activity as a student, which is narrower than a whole course portal. For Essentials, label the simulated learner and group; confirm separately whether release dates, prerequisites and progress writes are simulated. Those behaviours are not established by the screenshots.
+4 references
+mobbin:5c96453b-0c58-434f-94ba-c6d68a8f5bd5
+CanvaMobbinflow
+View as learner flow
+Captured two-step flow explicitly names View as learner and shows the resulting learner-facing state, strong evidence for a low-friction preview entry and fidelity check.
+View source ↗
+[IMG]
+Step 1 of 2 · Click to enlarge
+[IMG]
+Step 2 of 2 · Click to enlarge
+mobbin:02f1cfb0-ef6b-4f9f-8218-bfe24c660981
+CircleMobbinflow
+Preview lesson flow
+Captured six-step lesson preview flow shows preview can preserve real lesson navigation and content context; use as evidence for fidelity, with learner role labeling kept visible.
+View source ↗
+[IMG]
+Step 1 of 6 · Click to enlarge
+[IMG]
+Step 2 of 6 · Click to enlarge
+[IMG]
+Step 3 of 6 · Click to enlarge
+[IMG]
+Step 4 of 6 · Click to enlarge
+[IMG]
+Step 5 of 6 · Click to enlarge
+[IMG]
+Step 6 of 6 · Click to enlarge
+mobbin:56f720b3-daec-4967-9fc4-60a7f8501c55
+SchoolAIMobbinscreen
+AI classroom learner view (preview analogy)
+Counter-example
+Counter-example in scope: “Previewing as a student” and Restart preview are visible for an AI activity; this does not establish whole-course or cohort-access preview.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:e6757446-af84-43d5-bed0-da79c9a3826c
+TeachableMobbinflow
+Curriculum preview flow
+Counter-example
+Counter-example in scope: Curriculum Preview is visible in the author setup flow; the retained steps do not establish the explicit enrolled-member simulation shown by Circle.
+View source ↗
+[IMG]
+Step 1 of 3 · Click to enlarge
+[IMG]
+Step 2 of 3 · Click to enlarge
+[IMG]
+Step 3 of 3 · Click to enlarge
+No references yet for this question.
+Q4Learner course home: what is above the fold (next session, progress, materials, announcements)
+Day one needs a clear next action. Teachable [mobbin:c04c0023-2365-4741-9dc9-4592f491c7ea] shows Start Lesson, the lesson list and 0% completion. Coursera [mobbin:18683325-d982-4756-b06e-4ed52c933b06] prioritises Continue learning, progress, Resume and a weekly goal. Circle [mobbin:afde5712-b2c0-4fc1-be7b-4ac42446d642] provides community context and content entry points. For simulation education, adapt the next-action pattern to the next scheduled session and required preparation; these captures do not establish a session-first portal. Treat announcements as context from module 09 and recordings/reports as a hand-off to 08.
+4 references
+mobbin:2510f8c8-90c0-41ab-9f61-3c1a1f4993b9
+CircleMobbinscreen
+Community space home (learner home analogy)
+Captured community home is an adjacent course-home analogy: orient the learner with a clear space title and content entry points above the fold; course progress and next session were not observed.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:afde5712-b2c0-4fc1-be7b-4ac42446d642
+CircleMobbinscreen
+Course community home with content feed
+Captured home puts the community/course identity and latest content in the first view; use this as an adjacent learner-home pattern, with progress and next session needing explicit slots.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:18683325-d982-4756-b06e-4ed52c933b06
+CourseraMobbinscreen
+Learner course home
+Coursera foregrounds Continue learning, course progress, a module card, Resume and a weekly goal; session scheduling and announcements are not observed here.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:c04c0023-2365-4741-9dc9-4592f491c7ea
+TeachableMobbinscreen
+Learner course dashboard
+Teachable’s learner home shows Start Lesson, a lesson list and 0% completion, giving the new learner a clear first action.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Q5Feedback to instructor that sharing worked (who has opened, pending invites)
+Publishing, inviting, joining and learning are different events. Podia [mobbin:6462b667-d688-4634-a413-c914bdc3b20a] shows Customer invited alongside audience rows and progress; this supports an action confirmation and participation context, not email-open telemetry. Slack [mobbin:2fe9271e-36ed-4333-b809-6078dc790098] exposes Pending and Accepted tabs plus bounced, resent and revoked invitation states. Pending does not prove delivery. For Essentials, show the recipient, current access and available recovery action, then distinguish invitation status from first course access and learning progress. No retained capture demonstrates a course-open event. Canva [mobbin:a906866c-f694-41fd-b437-b086430c1585] confirms the course is ready, reports team notification and offers Classwork and Copy link; it does not enumerate learner acceptance.
+3 references
+mobbin:a906866c-f694-41fd-b437-b086430c1585
+CanvaMobbinscreen
+Course ready sharing confirmation
+Canva’s post-publish confirmation says Your course is ready, notes team notification, and offers Go to Classwork plus Copy link; strong feedback that sharing/publishing succeeded, without pending/accepted learner counts.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:6462b667-d688-4634-a413-c914bdc3b20a
+PodiaMobbinflow
+Invite customer to course
+Podia’s captured invitation flow shows Customer invited, audience rows with progress, and Customers/Pending analytics; these states do not establish email delivery, acceptance or course opening.
+View source ↗
+[IMG]
+Step 1 of 8 · Click to enlarge
+[IMG]
+Step 2 of 8 · Click to enlarge
+[IMG]
+Step 3 of 8 · Click to enlarge
+[IMG]
+Step 4 of 8 · Click to enlarge
+[IMG]
+Step 5 of 8 · Click to enlarge
+[IMG]
+Step 6 of 8 · Click to enlarge
+[IMG]
+Step 7 of 8 · Click to enlarge
+[IMG]
+Step 8 of 8 · Click to enlarge
+mobbin:2fe9271e-36ed-4333-b809-6078dc790098
+SlackMobbinscreen
+Workspace invite confirmation
+Slack’s invitation management shows Requests/Pending/Accepted/Invite Links tabs plus bounced, resent and revoked invitation states, providing recovery evidence beyond a success message.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Q6Cross-device (web vs. mobile portal) parity
+Only Coursera has a matched web/iOS course-home pair in this set: Coursera [mobbin:f31fedca-3104-45d9-a48e-08afa231c723] and Coursera [mobbin:d76cce29-fa86-4e42-a549-54d3765ad5d9]. Both expose progress and the next learning action; goals and navigation adapt to the device. The iOS Download button shows an available action, not verified offline behaviour. Udemy [mobbin:89b6481f-0676-46bb-a15b-daa62b8a10cd] is Udemy mobile context without a matched web capture; Teachable [mobbin:be865fb9-7894-4e03-8262-c14a16d810e3] is a Teachable learner-facing preview inside an admin shell, not a verified ordinary learner session; no matched mobile capture was retained. Preserve shared learner state and the next action across devices, but validate invitation entry, authentication and session joining separately.
+4 references
+mobbin:f31fedca-3104-45d9-a48e-08afa231c723
+CourseraMobbinscreen
+Course dashboard web
+Coursera’s web home shows enrolled learning, progress, Resume and a weekly goal; pair with its iOS reference to compare the core learner hierarchy.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:d76cce29-fa86-4e42-a549-54d3765ad5d9
+CourseraMobbinscreen
+Course dashboard mobile
+Coursera iOS shows module progress, Download, daily goals and Up Next; its matched web capture supports hierarchy parity, not verified offline or invite behaviour.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:be865fb9-7894-4e03-8262-c14a16d810e3
+TeachableMobbinscreen
+Course learner portal
+Teachable shows a learner-facing home inside an Edit in Admin / Preview as admin shell, with Draft lesson states, Start actions and 0% completion; this is preview context, not a verified ordinary learner session.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+mobbin:89b6481f-0676-46bb-a15b-daa62b8a10cd
+UdemyMobbinscreen
+Course dashboard mobile
+Udemy’s iOS learner course home provides mobile context; no matched web capture was retained, so cross-device parity remains unverified.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Close
+[IMG]

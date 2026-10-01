@@ -1,0 +1,44 @@
+{
+  "product": "linear",
+  "flows": {
+    "mobbin:2ee08fdf-b415-43f3-8a8b-6d36107b5c6f": {
+      "summary": "From Ask Linear welcome, the user opens an empty Inbox, then a filled Inbox (badge 7). They select an overdue item so the badge drops to 6, and review issue detail with triage icons.",
+      "steps": [
+        "Ask Linear welcome with example cards",
+        "Inbox empty: No notifications",
+        "Inbox list with 7 unread and an overdue row, detail empty",
+        "Overdue issue selected, badge 6, detail and triage icons"
+      ],
+      "steal": [
+        "A dedicated empty Inbox ('No notifications') sits separate from the welcome Ask screen (screen 2).",
+        "A sidebar count (7) matches unread dots, and the detail pane repeats '7 unread notifications' (screen 3).",
+        "Per-row checkmark versus bell-slash makes Done and Snooze distinct, and selecting an item drops the badge from 7 to 6 (screen 4).",
+        "An overdue callout (red calendar, '3d') sits above generic update reminders (screen 4)."
+      ],
+      "avoid": [],
+      "fit": "Dashboard: action-items inbox for pending grading, checklist review, and share-recording. Items open Debrief, Recording, or Courses. The badge count is the what-needs-me signal, not a headline-number chart.",
+      "jobs": [
+        "action-items",
+        "navigation"
+      ]
+    },
+    "mobbin:d1d517cc-d7ac-4789-aba4-fff323093036": {
+      "summary": "Inbox shows five unread assignment and mention rows. The user opens bulk Mark all as read or Delete all. After triage the detail says no unread while the list still shows snoozed and reminder rows.",
+      "steps": [
+        "Inbox with 5 unread; detail says 5 unread notifications",
+        "Bulk menu: Mark all as read or Delete all notifications",
+        "After triage: no unread; list keeps snoozed and reminder"
+      ],
+      "steal": [
+        "Bulk Mark all as read is separate from Delete all notifications, so clear and destroy stay distinct (screen 2).",
+        "A per-row empty circle marks individual done or dismiss beside the unread purple or blue dot (screens 1-2).",
+        "Snooze ('Snoozed for 1d') and reminder ('You asked to be reminded...') remain visible after unread is cleared. The detail flips to 'No unread notifications' while the list is not empty."
+      ],
+      "avoid": [],
+      "fit": "Dashboard: model for notifications where mark-read, dismiss, and snooze feed faculty queues that hand off to Debrief or Courses. The count tracks unread only, so snoozed items stay recoverable without inflating the badge.",
+      "jobs": [
+        "action-items"
+      ]
+    }
+  }
+}

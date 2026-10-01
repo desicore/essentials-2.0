@@ -1,0 +1,488 @@
+Set skills and competencies to measure
+Essentials 2.0 · Design research · 03-skills-competencies
+Set skills and competencies to measure
+Research for Essentials 2.0: Semester → Courses → skills and competencies. 25 curated Mobbin and Refero references across 12 products compare course-skill setup, rubrics, evidence and learner progress. Adjacent patterns and unsupported capabilities are identified explicitly; scenario/event mapping, reporting and Canvas remain neighbouring seams.
+Top examples
+Read this as a comparison of captured interfaces, not a feature audit or a ranking of all products. Direct evidence is strongest for rubric authoring, skill entry and learner progress. No retained capture proves a governed institutional framework or competency-set reuse across semesters. Searches did not surface usable direct examples from Canvas, Moodle, Docebo, 360Learning, Degreed, Lattice, Culture Amp or Workday Skills Cloud. Recommendations below are proposals for Essentials, grounded in the linked examples; they are not claims of universal industry consensus. Flow strips show retained states in source order and may omit intermediate screens; step numbers count the displayed images.
+Google Classroom · Refero — show this first for criteria, described levels and editable points in one rubric builder.
+Google Classroom · refero:239a7ddc-e5ed-4209-87dd-f329502b2271
+Handshake · Refero — the clearest captured entry → chip review → Save journey; vocabulary governance and suggestions remain unproven.
+Handshake · refero:8761
+Codecademy · Mobbin — follows a named subskill into an assessment, answer feedback and an aggregate result.
+Codecademy · mobbin:4a76a2f1-e45c-4d90-a3aa-a30debcc9f44
+Uxcel · Mobbin — separates competency score, reliability and related learning resources, with an explicit assessment-impact explanation nearby.
+Uxcel · mobbin:c8fcc4c3-061d-4280-90d5-4600ac48bf53
+·
+Uxcel · mobbin:60c5af0c-ed0a-4f93-8c44-ca67daf3762a
+ClassDojo · Mobbin — gives teachers a visible review disposition for learner evidence, distinct from competency scoring.
+ClassDojo · mobbin:67096453-158a-4b59-8633-21fcb4684817
+Hello Ivy · Refero — shows an explicit reusable-template action; use it as an adjacent reuse pattern.
+Hello Ivy · refero:4518
+Brilliant · Mobbin — makes current curriculum position and the next activity clear without requiring a dense dashboard.
+Brilliant · mobbin:34856cb4-4cb0-4248-ab60-d1d4bf64b665
+Coursera · Mobbin — a useful counter-example: course skill promises are visible, but governed competency selection is not.
+Coursera · mobbin:2d300077-7580-47c6-875a-369da8b0a065
+Pattern comparison
+✓ = directly observed support for the stated part of the question.
+partial
+= incomplete or adjacent evidence. ✗ = not observed in this retained set; it does not mean the product lacks the feature. Arrows link to the exact reference card.
+Product
+Q1
+Framework model
+Q2
+Selection / scale
+Q3
+Levels / rubric
+Q4
+Traceability
+Q5
+Learner mastery
+Q6
+Reuse
+Google Classroom
+✗ Not observed
+✗ Not observed
+✓ Criteria + described points
+↗
+↗
+✗ Not observed
+✗ Not observed
+✗ Not observed
+Handshake
+partial · model unknown
+↗
+↗
+partial · entry + chip review
+↗
+✗ Not observed
+✗ Not observed
+✗ Not observed
+✗ Not observed
+ClassDojo
+partial · Add / Import
+↗
+partial · small skill cards
+↗
+partial · skill point values
+↗
+partial · evidence + approval
+↗
+✗ Not observed
+partial · import entry only
+↗
+Coursera
+partial · course skill labels
+↗
+✗ Not observed
+✗ Not observed
+✗ Not observed
+✗ Not observed
+✗ Not observed
+Codecademy
+partial · skill decomposition
+↗
+partial · tabs + sorting
+↗
+partial · percentages, no rubric
+↗
+partial · subskill → result
+↗
+✓ Skill percentages + level
+↗
+✗ Not observed
+Visible
+✗ Not observed
+✗ Not observed
+partial · fixed descriptive anchors
+↗
+✗ Not observed
+✗ Not observed
+✗ Not observed
+Kajabi
+✗ Not observed
+✗ Not observed
+✗ Not observed
+partial · assessment setup
+↗
+✗ Not observed
+✗ Not observed
+Uxcel
+partial · named skill axes
+↗
+✗ Not observed
+✗ Not observed
+partial · declared graph impact
+↗
+✓ Score + reliability
+↗
+✗ Not observed
+Brilliant
+✗ Not observed
+partial · four-domain choice
+↗
+✗ Not observed
+✗ Not observed
+partial · curriculum path
+↗
+↗
+✗ Not observed
+Duolingo
+✗ Not observed
+✗ Not observed
+✗ Not observed
+✗ Not observed
+partial · lesson progression
+↗
+↗
+✗ Not observed
+Hello Ivy
+✗ Not observed
+✗ Not observed
+✗ Not observed
+✗ Not observed
+✗ Not observed
+partial · document template
+↗
+Teachable
+✗ Not observed
+✗ Not observed
+✗ Not observed
+✗ Not observed
+✗ Not observed
+partial · content import entry
+↗
+What the best apps do differently
+These differences distinguish the strongest captured examples; they do not establish a market-wide ranking.
+Keep the measurement definition editable.
+Google Classroom puts criterion, level, description and points together. Visible makes a numeric response readable with fixed prose, but does not let the respondent author the scale. For course setup, borrow the former’s authoring structure and the latter’s readable anchors.
+Google Classroom · refero:239a7ddc-e5ed-4209-87dd-f329502b2271
+·
+Visible · mobbin:9d4ec3e3-b07c-44ea-bc93-6d661226d178
+Carry a named skill into an assessment.
+Codecademy exposes subskills with Learn/Evaluate actions and repeats the subskill around the assessment. Coursera’s catalog skill labels stop at communicating what a course promises. The difference matters when an instructor must show what was actually measured.
+Codecademy · mobbin:d5c43b15-4d4b-4c10-9eaf-33d1e9533e44
+·
+Codecademy · mobbin:4a76a2f1-e45c-4d90-a3aa-a30debcc9f44
+·
+Coursera · mobbin:2d300077-7580-47c6-875a-369da8b0a065
+Separate evidence review from scoring.
+ClassDojo gives a teacher Approve/Return controls on a learner response; Codecademy shows answer outcomes and an aggregate score. Essentials needs both concepts, with labels that keep review status and assessed level distinct.
+ClassDojo · mobbin:67096453-158a-4b59-8633-21fcb4684817
+·
+Codecademy · mobbin:4a76a2f1-e45c-4d90-a3aa-a30debcc9f44
+Expose more than a progress path.
+Uxcel presents a score, reliability, skill dimensions and related resources. Duolingo’s captured path presents lesson position and engagement signals. A learner can use a next-step path without treating it as proof of competence.
+Uxcel · mobbin:c8fcc4c3-061d-4280-90d5-4600ac48bf53
+·
+Duolingo · mobbin:063b737c-c4d3-4788-b91d-b137f93ebb9c
+Let the chosen set remain reviewable.
+Handshake accumulates removable skill chips, then offers Save and View all. Brilliant’s four-domain choice is a bounded single-choice step. Use the first pattern when an instructor is assembling a set; reserve the second for an intentionally small decision.
+Handshake · refero:8761
+·
+Brilliant · refero:3345cd32-03fa-4571-9153-6ce930088570
+Make reuse an explicit operation.
+Hello Ivy exposes a template action, whereas Teachable’s retained curriculum screen exposes a content-import entry point. These are useful affordances, but neither proves reuse of stable, versioned competency definitions across semesters.
+Hello Ivy · refero:4518
+·
+Teachable · mobbin:5ce0dd31-4106-4884-ab40-431b863377f9
+Best practices top companies converge on
+Recurring interaction patterns in this evidence set support the following proposals; institutional competency governance itself remains unresolved.
+Provide a visible review-and-save boundary for course configuration. Handshake makes selected skills reviewable; Google Classroom provides Save for a structured rubric.
+Handshake · refero:b8e17eec-d089-4cd1-9663-63c8b65f85ac
+·
+Google Classroom · refero:239a7ddc-e5ed-4209-87dd-f329502b2271
+Pair numbers with words. Google Classroom offers level descriptions next to points; Visible pairs selected numbers with descriptive interpretations. For simulation rubrics, write observable behavior into those descriptions.
+Google Classroom · refero:239a7ddc-e5ed-4209-87dd-f329502b2271
+·
+Visible · mobbin:9d4ec3e3-b07c-44ea-bc93-6d661226d178
+Make the structure inspectable. ClassDojo groups class skills; Codecademy exposes subskills and the skill sets they build toward. Show a course’s chosen competencies and their relationships before attaching activities.
+ClassDojo · mobbin:e102067a-a1a6-400a-81c4-626f7fbb066c
+·
+Codecademy · mobbin:d5c43b15-4d4b-4c10-9eaf-33d1e9533e44
+Connect the learner’s current state to a next action. Brilliant supplies a next activity; Uxcel offers learning resources for a selected competency. Keep that action separate from the label explaining what the score means.
+Brilliant · mobbin:34856cb4-4cb0-4248-ab60-d1d4bf64b665
+·
+Uxcel · mobbin:c8fcc4c3-061d-4280-90d5-4600ac48bf53
+Give evidence and its outcome clear identities. ClassDojo names the learner activity under review; Codecademy names the subskill around its assessment. Extend this principle in Essentials with a traceable observation, assessor and rubric version.
+ClassDojo · mobbin:67096453-158a-4b59-8633-21fcb4684817
+·
+Codecademy · mobbin:4a76a2f1-e45c-4d90-a3aa-a30debcc9f44
+Open questions for Essentials 2.0
+Who owns the vocabulary?
+Handshake’s entry/chip states and Coursera’s skill labels do not reveal governance. Will Essentials distinguish institution-owned competencies from course-local skills, and who may create, rename or retire each?
+Handshake · refero:554289af-aead-4298-a222-73a19c1c1487
+·
+Coursera · mobbin:2d300077-7580-47c6-875a-369da8b0a065
+What makes a simulation rating comparable?
+Google Classroom exposes editable levels and points; Visible illustrates descriptive anchors. How should Essentials handle checklist items, critical failures, not-observed values, assessor calibration and scale changes after scoring begins?
+Google Classroom · refero:239a7ddc-e5ed-4209-87dd-f329502b2271
+·
+Visible · mobbin:9d4ec3e3-b07c-44ea-bc93-6d661226d178
+What counts as evidence?
+ClassDojo exposes a submitted response; Codecademy exposes question outcomes. At the scenario/event seam, will an assessor observation, checklist item, recording timestamp or repeated attempt support a competency score, and what can learners inspect in reports?
+ClassDojo · mobbin:67096453-158a-4b59-8633-21fcb4684817
+·
+Codecademy · mobbin:4a76a2f1-e45c-4d90-a3aa-a30debcc9f44
+What does reuse preserve?
+Hello Ivy’s template action and Teachable’s import entry do not resolve linked versus copied definitions. Should a new semester inherit a frozen rubric version or follow updates, and how will historical learner results remain interpretable?
+Hello Ivy · refero:4518
+·
+Teachable · mobbin:5ce0dd31-4106-4884-ab40-431b863377f9
+What crosses the Canvas boundary?
+The captured Google Classroom rubric and ClassDojo evidence-review examples illustrate separate data objects, not a Canvas integration. Should the hand-off include competency identifiers, rubric definitions, grades, evidence links or only a summary—and which system owns later changes?
+Google Classroom · refero:239a7ddc-e5ed-4209-87dd-f329502b2271
+·
+ClassDojo · mobbin:67096453-158a-4b59-8633-21fcb4684817
+Search references
+Source
+All sources
+Mobbin
+Refero
+Selected only
+Reset filters
+Questions
+Q1
+Q2
+Q3
+Q4
+Q5
+Q6
+No references match these filters. Try another search or reset the filters.
+Enable JavaScript for filters and full-size previews. All references appear below.
+Q1
+Framework model (central taxonomy vs. free tags vs. both)
+The retained screenshots do not resolve central taxonomy versus free tags. Handshake shows skill entry and removable chips, but their vocabulary source and ownership remain unknown (refero:554289af-aead-4298-a222-73a19c1c1487; refero:b8e17eec-d089-4cd1-9663-63c8b65f85ac). Coursera’s ‘Skills you’ll gain’ labels communicate a course promise; they do not prove instructor selection or a governed framework (mobbin:2d300077-7580-47c6-875a-369da8b0a065). For Essentials, treat ‘institutional competency’ and ‘course-local skill’ as a proposed explicit distinction, with ownership and provenance visible. Choosing that model remains a product decision, not a convergence established by these examples. ClassDojo adds an instructor-side clue: Add skill and Import from coexist, but the capture does not establish institutional governance or how the import works (mobbin:e102067a-a1a6-400a-81c4-626f7fbb066c).
+3 references
+Coursera
+Mobbin
+screen
+Course page displays ‘Skills you’ll gain’ labels
+Counter-example
+Coursera displays course skill labels and a View all skills link; this does not show instructor selection, taxonomy governance or assessed competencies.
+View source ↗
+Screen · Click to enlarge
+Handshake
+Refero
+screen
+Enter profile skills in a modal
+Handshake shows a skills text field, search icon, guidance to keep the set small, and Save/Cancel; the vocabulary source and governance are unknown.
+View source ↗
+Screen · Click to enlarge
+Handshake
+Refero
+screen
+Review removable profile-skill chips
+Handshake displays removable chips and Save/Cancel for a chosen profile-skill set; chips do not establish a central taxonomy or course ownership.
+View source ↗
+Screen · Click to enlarge
+No references yet for this question.
+Q2
+Selection UX (tree / search / suggestions) and scale when there are hundreds of items
+Handshake demonstrates text entry, accumulating removable chips, saving and reviewing a truncated set through View all; no suggestion menu is captured, so autocomplete is not established (refero:8761). ClassDojo supplies small-set instructor controls—categories, point-valued skill cards, Add skill and Import from—without exposing the import contents (mobbin:e102067a-a1a6-400a-81c4-626f7fbb066c). Codecademy contributes grouping, sorting and expansion for browsing a larger catalog, while Brilliant’s four-domain choice is deliberately small (mobbin:c3b8347d-6ee8-4087-8d92-7902f37a53d3; refero:3345cd32-03fa-4571-9153-6ce930088570). For Essentials, combine discoverable vocabulary search with a persistent chosen set and category context; this combination is a design proposal. Hierarchical selection, duplicate handling, bulk selection and behavior at hundreds of items need further validation.
+4 references
+Brilliant
+Refero
+screen
+Learner selects one of four onboarding domains
+Brilliant offers four broad domains, a selected state and Continue; this small single-choice list does not demonstrate selection across hundreds of competencies.
+View source ↗
+Screen · Click to enlarge
+ClassDojo
+Mobbin
+screen
+Teacher reviews, imports or adds class skills
+ClassDojo shows Positive/Needs work skill categories, point-valued cards, Add skill, Import from and family visibility; search, hierarchy and import contents are not shown.
+View source ↗
+Screen · Click to enlarge
+Codecademy
+Mobbin
+screen
+Browse skill progress and additional subjects
+Codecademy groups subjects and languages with tabs, sorting, XP and More available; this supports catalog scanning, but does not show selecting course competencies.
+View source ↗
+Screen · Click to enlarge
+Handshake
+Refero
+flow
+Enter and review profile skills as removable chips
+Handshake moves from skill entry to removable chips, Save and a truncated profile set with View all; no suggestion menu or taxonomy-backed matches are visible.
+View source ↗
+Step 1 of 6 · Click to enlarge
+Step 2 of 6 · Click to enlarge
+Step 3 of 6 · Click to enlarge
+Step 4 of 6 · Click to enlarge
+Step 5 of 6 · Click to enlarge
+Step 6 of 6 · Click to enlarge
+No references yet for this question.
+Q3
+Levels / rubric definition (numeric, descriptive, checklist)
+Google Classroom directly supports rubric definition: criterion and level titles, descriptions, editable points, an optional scoring toggle, ordering and Save (refero:239a7ddc-e5ed-4209-87dd-f329502b2271; refero:fd8e5fc8-d22d-4b80-ad7d-83c457db08ef). Visible demonstrates readable numeric anchors in a respondent-facing questionnaire, while Codecademy exposes subskill percentages and roll-up relationships rather than a rubric builder (mobbin:9d4ec3e3-b07c-44ea-bc93-6d661226d178; mobbin:d5c43b15-4d4b-4c10-9eaf-33d1e9533e44). For Essentials, place observable performance descriptions beside each scoring level; keep criteria and rating scales editable as one structure. Checklist behavior, assessor calibration and version history remain open requirements, not patterns established by this set.
+4 references
+Codecademy
+Mobbin
+screen
+Subskill percentages and Learn/Evaluate actions
+Codecademy shows skill sets, percentage boxes and a subskill drawer with Builds toward, Learn and Evaluate; this is decomposition and roll-up, not rubric or level authoring.
+View source ↗
+Screen · Click to enlarge
+Google Classroom
+Refero
+screen
+Define rubric criteria, levels, descriptions and points
+Google Classroom combines Use scoring, criterion title/description, level title/description/points, add-level and add-criterion controls, sorting and Save; checklist and versioning are not shown.
+View source ↗
+Screen · Click to enlarge
+Google Classroom
+Refero
+screen
+Edit point values within a criterion
+A second Google Classroom rubric state shows a 1-point value and editable level fields, complementing the 10-point state; no scored learner example is shown.
+View source ↗
+Screen · Click to enlarge
+Visible
+Mobbin
+screen
+Health-impact ratings with descriptive interpretations
+Visible pairs numeric responses with descriptive interpretations and Submit and calculate score; it illustrates readable scale anchors, not instructor-defined competencies.
+View source ↗
+Screen · Click to enlarge
+No references yet for this question.
+Q4
+Traceability: competency → activity → evidence → score
+Codecademy brackets an assessment with the same named subskill, shows answer feedback and an aggregate result; its 86% result and 85% summary leave persistence unclear (mobbin:4a76a2f1-e45c-4d90-a3aa-a30debcc9f44). Uxcel explains that an assessment contributes to a multi-skill graph and displays reliability, but hides per-question contributions (mobbin:60c5af0c-ed0a-4f93-8c44-ca67daf3762a). ClassDojo shows evidence review and approval, while Kajabi shows assessment configuration: each covers a different part of the chain (mobbin:67096453-158a-4b59-8633-21fcb4684817; mobbin:66a38bfc-fc8d-4574-85d6-ae37dfe339cd). Essentials should connect a course competency and rubric version to the scenario/event, observation or recording, assessor and resulting score. That complete lineage is a proposed requirement; none of these captures proves it end to end.
+4 references
+ClassDojo
+Mobbin
+flow
+Review learner evidence and approve or return it
+ClassDojo shows a learner worksheet response/video and comment, followed by Approve or Return as draft and an approved view; this evidences review disposition, not a competency score.
+View source ↗
+Step 1 of 2 · Click to enlarge
+Step 2 of 2 · Click to enlarge
+Codecademy
+Mobbin
+flow
+Take a subskill assessment and view aggregate result
+A named Codecademy subskill leads through answered items and correctness feedback to an 86% result; highest/most-recent scores also appear, but the shown 85% value leaves persistence unclear.
+View source ↗
+Step 1 of 7 · Click to enlarge
+Step 2 of 7 · Click to enlarge
+Step 3 of 7 · Click to enlarge
+Step 4 of 7 · Click to enlarge
+Step 5 of 7 · Click to enlarge
+Step 6 of 7 · Click to enlarge
+Step 7 of 7 · Click to enlarge
+Kajabi
+Mobbin
+flow
+Configure an assessment with an automatic-grading option
+Kajabi exposes assessment creation, an automatic-grading toggle, Edit questions and View results; captured evidence, computed scores and competency linkage are not shown.
+View source ↗
+Step 1 of 5 · Click to enlarge
+Step 2 of 5 · Click to enlarge
+Step 3 of 5 · Click to enlarge
+Step 4 of 5 · Click to enlarge
+Step 5 of 5 · Click to enlarge
+Uxcel
+Mobbin
+flow
+Assessment result and declared skill graph impact
+Uxcel connects an assessment report and attempt number to six skills, a score, reliability and timestamp; help text explains graph impact, but per-question contributions are not shown.
+View source ↗
+Step 1 of 4 · Click to enlarge
+Step 2 of 4 · Click to enlarge
+Step 3 of 4 · Click to enlarge
+Step 4 of 4 · Click to enlarge
+No references yet for this question.
+Q5
+Learner-facing visualisation of mastery
+Uxcel is the strongest diagnostic example: named competency axes, a score, reliability and related learning resources coexist (mobbin:c8fcc4c3-061d-4280-90d5-4600ac48bf53). Codecademy exposes individual skill percentages and a Beginner-to-Intermediate progression rule, while its tracking flow mainly reports XP (mobbin:41d3d178-1703-47b1-820d-b5c5348118a6; mobbin:042b8064-f255-4149-9649-a2bbc057dea5). Brilliant and Duolingo make current position and the next lesson clear, but those paths do not establish assessed mastery (mobbin:34856cb4-4cb0-4248-ab60-d1d4bf64b665; mobbin:063b737c-c4d3-4788-b91d-b137f93ebb9c). For the Learner Portal, combine an actionable next activity with separately labelled competency level and supporting evidence. Do not translate completion, streaks or XP into mastery without an explicit assessment rule.
+8 references
+Brilliant
+Mobbin
+screen
+Curriculum path and current topic
+Brilliant shows connected topics, a current level, completed/current/upcoming states and a Start action; the path communicates curriculum progression, not validated competency.
+View source ↗
+Screen · Click to enlarge
+Brilliant
+Mobbin
+screen
+Topic position and lesson counts
+Brilliant adds lesson and exercise counts to topic progression; this helps learners locate the next activity but does not expose a competency score.
+View source ↗
+Screen · Click to enlarge
+Brilliant
+Mobbin
+screen
+Mobile curriculum path with streak
+Brilliant combines topic nodes and a next action with a streak banner; sequencing and engagement are visible, while assessed mastery is not.
+View source ↗
+Screen · Click to enlarge
+Codecademy
+Mobbin
+screen
+Skill percentages and progression levels
+Codecademy groups named skills with per-skill percentages and a Beginner level, including the number of additional skills needed for Intermediate; assessment provenance is not shown.
+View source ↗
+Screen · Click to enlarge
+Codecademy
+Mobbin
+flow
+XP-based subject tracking flow
+Dashboard → Skills tracking → subject/language summary → expanded catalogue → Languages filter; XP bars and learned capabilities are visible, but rubric-based assessment is not.
+View source ↗
+Step 1 of 5 · Click to enlarge
+Step 2 of 5 · Click to enlarge
+Step 3 of 5 · Click to enlarge
+Step 4 of 5 · Click to enlarge
+Step 5 of 5 · Click to enlarge
+Duolingo
+Mobbin
+screen
+Lesson path as a mastery counter-example
+Counter-example
+Duolingo shows unit position, next lesson, XP and engagement signals; these screens do not establish a competency score, rubric level or supporting evidence.
+View source ↗
+Screen · Click to enlarge
+Duolingo
+Mobbin
+screen
+Mobile lesson-path progress
+Duolingo keeps the current lesson and upcoming nodes visible on mobile; this is a progression pattern, not evidence of assessed mastery.
+View source ↗
+Screen · Click to enlarge
+Uxcel
+Mobbin
+screen
+Competency scores, reliability and learning resources
+Uxcel shows six competency axes, a 59/100 score, 40% reliability, peer rankings and resources for a selected competency; the calculation is not shown.
+View source ↗
+Screen · Click to enlarge
+No references yet for this question.
+Q6
+Reuse of the same competency set across courses and semesters
+Hello Ivy is the only retained example with an explicit save-for-reuse journey: open page → overflow menu → Save as template → name and preview → personal/shared visibility → save confirmation (refero:4518). It does not show applying a template or propagation of later edits. Teachable exposes Import content, but the source and outcome are absent; keep it as a counter-example to claiming reusable competency templates from an import button (mobbin:5ce0dd31-4106-4884-ab40-431b863377f9). ClassDojo’s Import from entry is similarly incomplete (mobbin:e102067a-a1a6-400a-81c4-626f7fbb066c). For Essentials, propose an explicit saved competency/rubric set with ownership, preview and target-course selection. Decide snapshot versus live link, version lineage and historical-score behavior separately. Cross-course and cross-semester competency reuse is not proven by these captures.
+2 references
+Hello Ivy
+Refero
+flow
+Save a page as a named personal or shared template
+Hello Ivy shows Save as template, a name and preview, For everyone / For me only visibility and a success confirmation; applying the template, synchronization and versioning are not shown.
+View source ↗
+Step 1 of 6 · Click to enlarge
+Step 2 of 6 · Click to enlarge
+Step 3 of 6 · Click to enlarge
+Step 4 of 6 · Click to enlarge
+Step 5 of 6 · Click to enlarge
+Step 6 of 6 · Click to enlarge
+Teachable
+Mobbin
+screen
+Content import is not proof of competency-template reuse
+Counter-example
+Teachable exposes Import content beside Bulk edit in the curriculum editor; source, copied fields and result are absent, so competency or rubric reuse cannot be established.
+View source ↗
+Screen · Click to enlarge
+No references yet for this question.
+Close

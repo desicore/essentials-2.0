@@ -1,0 +1,20 @@
+{
+  "visibleAfterKpis": [],
+  "hiddenAfterKpis": [
+    "product-mixpanel",
+    "product-amplitude",
+    "product-later",
+    "product-15five",
+    "product-charma",
+    "product-fireflies",
+    "product-dialpad",
+    "product-cal-com",
+    "product-whereby",
+    "product-deputy",
+    "product-juicebox",
+    "product-midday"
+  ],
+  "afterSearch": [
+    "product-whereby"
+  ]
+}

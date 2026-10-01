@@ -1,0 +1,43 @@
+{
+  "product": "cal-com",
+  "flows": {
+    "mobbin:aa5da6b8-f37f-485c-9aea-ffa69cc0ed55": {
+      "summary": "The user opens booking insights, picks an account or team and the last 7 days, scans the headline boxes and trend chart, then the rankings of team members.",
+      "steps": [
+        "Insights Bookings: headline grid and Event Trends (Your account)",
+        "Account search list open on Bookings insights",
+        "One team selected: spike in created and cancelled",
+        "Trend hint: Apr 25 Created, Completed, Rescheduled, Cancelled",
+        "Lower boxes: Popular Events, duration chart, Most/Least Booked",
+        "Most Cancelled and empty Recent ratings leading to Workflows"
+      ],
+      "steal": [
+        "Each headline box shows a value, a coloured arrow and 'from last period', so performance can be compared without a builder (screens 1 to 4).",
+        "The trend chart shows Created, Completed, Rescheduled and Cancelled as separate lines, with a hint for each day (screen 4).",
+        "Rankings for Most Booked, Least Booked and Most Cancelled team members show use per person, as you would want for faculty (screens 5 to 6).",
+        "When there are no ratings yet, a 'Workflows' button offers to start collecting them (screen 6)."
+      ],
+      "avoid": [
+        "Eight boxes that are always shown, many with zeros and 0% change, are noisy for small sim centers; fewer numbers, led by room use, work better (screens 1 to 3)."
+      ],
+      "fit": "Reports: fills the gap for room use, with room and faculty-hour numbers from the calendar and comparable performance. Its download is a light export, not a digest sent to deans by link."
+    },
+    "mobbin:ff3d88ad-6b47-453f-9f8f-5f333707e2bf": {
+      "summary": "The user filters routing insights by team and form and reads the funnel boxes and response table. They then view bookings per person by day, week or month, and failed bookings by form answer.",
+      "steps": [
+        "Routing insights: empty funnel boxes, response table, Routed to per period",
+        "Team and form filtered: Responses 4, Without 3, With 1, Accepted row",
+        "Routed to per period: day/week/month switch and user-by-week matrix",
+        "Failed Bookings By Field: role bar breakdown (Illustrator 3)"
+      ],
+      "steal": [
+        "Three headline boxes follow the funnel: 'Total Responses', 'Without Booking' and 'With Booking' (screens 1 to 2).",
+        "A day, week or month switch and a grid of people by period show each person's load, like faculty hours (screen 3).",
+        "Horizontal bars break down failed bookings by the answers given in the form (screen 4).",
+        "Segment, Save, Clear and Download sit on the report itself (screens 1 to 2)."
+      ],
+      "avoid": [],
+      "fit": "Reports: a strong model for use per person by week or month. It matches the time periods of automatic digests for deans without a deep report builder."
+    }
+  }
+}

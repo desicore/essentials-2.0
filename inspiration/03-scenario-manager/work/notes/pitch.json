@@ -1,0 +1,48 @@
+{
+  "product": "pitch",
+  "flows": {
+    "refero:593": {
+      "summary": "From an empty Templates library, the user names a new template, sets colors and fonts, edits it, and chooses to publish or keep as draft.",
+      "steps": [
+        "Templates library with nothing listed yet",
+        "New template pop-up: name and two paths",
+        "New template pop-up: name №1 filled",
+        "Branded template: colors/fonts and Choose slides",
+        "Accent color picker open",
+        "Accent color adjusted",
+        "Headline font list and Upload font",
+        "Template editor: 'You are editing a template'",
+        "'Publish this template?' Keep draft / Publish",
+        "Library grid with Draft badges"
+      ],
+      "steal": [
+        "Before any templates exist, the screen explains why they help and offers 'Create' twice, at the top and in the middle (screen 1).",
+        "The new-template pop-up asks for a name first, then offers 'Build branded' or 'Customize from gallery' (screens 2-3).",
+        "Previews of each slide type (chart, sample, text) update live while you set brand colours and upload a font (screens 4-7).",
+        "A 'You are editing a template' banner stays visible, 'Publish this template?' offers Keep draft or Publish, and library cards then show a Draft label (screens 8-10)."
+      ],
+      "avoid": [
+        "A full presentation style builder (fonts, chart styles, slide layouts) is too much for the deliberately basic SCE editor, which should not become a Maestro-style tool."
+      ],
+      "fit": "Scenario manager: a strong pattern for scenarios in an organization library: start blank or from the gallery, keep drafts apart from published versions, and share on publish. It extends today's SCE editor without turning it into a slide product.",
+      "counter_example": false
+    },
+    "mobbin:f0c62f24-6d13-42f6-acb6-f36d7c2a856e": {
+      "summary": "On a selected slide the user opens the Speaker notes side panel, types notes tied to that slide, then closes the panel (the notes icon keeps a presence indicator).",
+      "steps": [
+        "Slide editor with Research Team selected",
+        "Speaker notes panel with empty placeholder",
+        "Speaker notes panel with text entered",
+        "Panel closed; notes icon with dot"
+      ],
+      "steal": [
+        "Notes for each slide sit in a side panel while the slide stays visible (screens 2-3).",
+        "The empty panel shows 'Add speaker notes…' until something is written (screen 2).",
+        "After the panel closes, a dot on the notes icon shows that notes exist (screen 4)."
+      ],
+      "avoid": [],
+      "fit": "Scenario manager: a light pattern for SP or faculty scripts and cues in each scenario phase. It extends Briefing without a branching Maestro editor, and notes that only the presenter sees map to cue cards per role.",
+      "counter_example": false
+    }
+  }
+}

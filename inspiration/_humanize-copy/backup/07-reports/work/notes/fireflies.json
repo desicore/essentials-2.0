@@ -1,0 +1,25 @@
+{
+  "product": "fireflies",
+  "flows": {
+    "mobbin:75bb46c3-1130-4cba-b194-ba086320dcc6": {
+      "summary": "On a meeting page, the user opens summary templates, customizes sections (Outline, Blockers, etc.), Save & Apply, waits while the summary regenerates, then reads chaptered notes with timestamp jumps and an explicit empty Blockers line.",
+      "steps": [
+        "AI Summary — template dropdown + Customize",
+        "Tailored Notes modal — section list + descriptions",
+        "Modal — Outline + Blockers checked; Save & Apply",
+        "Summary processing — preferences saved toast",
+        "Regenerated notes — chapters + Blockers empty state"
+      ],
+      "steal": [
+        "Section checklist with plain-language what each AI block extracts (steps 2–3) — lightweight report shape, not a builder.",
+        "Save vs Save & Apply on the current meeting (step 3) — persist prefs and regenerate now.",
+        "Processing copy while transcript re-analyses (step 4) — honest AI wait state.",
+        "'No blockers were explicitly discussed' empty section (step 5) — explicit absence, not silent omit."
+      ],
+      "avoid": [
+        "Sales/meeting templates (BANT, Standup) in the same picker (step 1) — wrong lenses for clinical sim; keep debrief/competency templates only."
+      ],
+      "fit": "AI formative/summative session report from recording: template + section toggles for debrief PDFs; pairs with SRV transcript timestamps, not Performance Matrix."
+    }
+  }
+}

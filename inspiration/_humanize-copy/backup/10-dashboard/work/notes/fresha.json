@@ -1,0 +1,48 @@
+{
+  "product": "fresha",
+  "flows": {
+    "mobbin:3c0845a8-624f-4a47-ad80-e57ab4bb1531": {
+      "summary": "User moves from an empty day calendar into the Home dashboard, scans sales/appointment KPIs and activity, then scrolls to today's next appointments plus this-vs-last-month service and team tables.",
+      "steps": [
+        "Day calendar empty — staff columns + 60% setup",
+        "Home — $0 sales KPI + empty upcoming + today's list",
+        "Home — sales $636 + upcoming 17 booked + cancelled activity",
+        "Sales chart tooltip on Tuesday point",
+        "Scrolled — activity + today's next + top services/team",
+        "Top services / top team this month vs last month"
+      ],
+      "steal": [
+        "Today's next appointments list with time, BOOKED/STARTED status, client, duration, staff (steps 1–5) — dashboard agenda that hands off into Scheduling.",
+        "Recent sales card: big number + appointments count/value + dual trend line Last 7 days (steps 1–3) — few precise KPIs with period trend.",
+        "Empty upcoming card copy when schedule is empty (step 1) — honest empty, not fake charts.",
+        "Header Complete Setup progress (60%→100%) stays visible on Home (steps 0–5) — first-run without owning the whole page."
+      ],
+      "avoid": [
+        "Today's rows show status only; no Start / Check-in / Open session control on the card (steps 1–5) — Essentials needs a direct jump into Recording or Debrief from the agenda item."
+      ],
+      "fit": "Replaces weak tile-only home with a compact KPI + today's agenda strip that lives on the dashboard and clicks through into Scheduling (and later Recording/Debrief); Reports owns deeper analytics behind the sidebar chart icon.",
+      "jobs": ["today", "kpis", "first-run", "navigation"],
+      "counter_example": false
+    },
+    "mobbin:7df9c1e2-cfd5-4c9f-84eb-718683ff8ed3": {
+      "summary": "From a first-run setup drawer over an empty day calendar, the user reaches a populated week view and opens a flagged No-show appointment popover.",
+      "steps": [
+        "Empty day calendar + setup drawer (team, hours, try tasks)",
+        "Multi-staff day grid empty — current-time line + 60% setup",
+        "Week view — appointment blocks + current-time line",
+        "No-show popover on flagged appointment"
+      ],
+      "steal": [
+        "Staff-as-columns day grid with red current-time line (steps 0–1) — maps to rooms-as-columns center overview on the dashboard / Scheduling.",
+        "Right-rail first-run checklist with Start / Try now per task over empty calendar (step 0).",
+        "Week blocks color/flag exceptions; No-show popover with client + service + duration (steps 2–3) — exception state without leaving the schedule."
+      ],
+      "avoid": [
+        "Full week/day calendar as the default home (steps 0–3) — Baseline already has Center Overview + Calendar; dashboard should summarize today, not duplicate Scheduling's grid."
+      ],
+      "fit": "Steals multi-column 'now' overview and No-show exception for dashboard → Scheduling handoff; setup drawer pattern lives on the dashboard for first-run, not as a second calendar module.",
+      "jobs": ["today", "first-run", "center-overview", "navigation"],
+      "counter_example": false
+    }
+  }
+}

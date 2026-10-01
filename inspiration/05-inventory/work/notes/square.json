@@ -1,0 +1,82 @@
+{
+  "product": "square",
+  "flows": {
+    "mobbin:bd125cb4-4946-44ee-a252-1e51eddab5ba": {
+      "summary": "From Square home the user opens 'Create item', picks a type, fills a dense point-of-sale (POS) form, saves, and lands on Item library with a short created message.",
+      "steps": [
+        "Home setup with Add item",
+        "Pick item type",
+        "Create item form empty",
+        "Enter internal name",
+        "Enter customer-facing name",
+        "Set price and unit",
+        "Online sale price tip",
+        "Online sale price field",
+        "Fill online sale price",
+        "Generate AI description",
+        "Description filled with taxes",
+        "Library message item created"
+      ],
+      "steal": [
+        "An item-type chooser comes first so later fields match the kind of thing, which maps to Equipment vs Consumable vs Service (screen 2).",
+        "Internal name and customer-facing name sit on one form (screens 4–5).",
+        "Status, Categories, and Locations sit in a side menu beside the main form (screens 3–11).",
+        "A list status label with quantity (for example '20 available') plus a created message (screen 12)."
+      ],
+      "avoid": [
+        "Kitchen name, menus, sales channels, taxes, nutritional accordion, and dual retail or online prices are retail POS fields that fight a light sim-center catalog."
+      ],
+      "fit": "Inventory: example of what not to do for Essentials' light inventory. Replace with a short type, then name, unit, location, and photo create. Keep type-first and location side-menu ideas only.",
+      "jobs": [
+        "items"
+      ],
+      "counter_example": true
+    },
+    "mobbin:addf5027-28db-4b51-a6f7-24577166a06f": {
+      "summary": "From an empty Item library the user uploads a CSV, reviews an editable grid, chooses add-and-update vs overwrite, hits an all-failed error with a downloadable report, then sees 'Import Successful'.",
+      "steps": [
+        "Empty library Create vs Import",
+        "Import upload dropzone",
+        "CSV file staged",
+        "Importing progress bar",
+        "Review items editable grid",
+        "Review more columns",
+        "Add-update vs overwrite",
+        "Background import progress",
+        "Review and fix errors",
+        "Import Successful message",
+        "Library after import",
+        "Library with Sold out labels"
+      ],
+      "steal": [
+        "Before any items exist, dual path: Create an item, Import items, and Download template (screen 1).",
+        "An editable review grid before commit, with row delete (screens 5–6).",
+        "An explicit merge decision: 'Add and update existing' vs 'Delete and overwrite' (screen 7).",
+        "Failure pop-up: Require review vs Imported successfully counts, plus Download error report and Upload fixed errors (screen 9)."
+      ],
+      "avoid": [
+        "A blocking full-page import that warns 'don't leave this page' (screen 4) when a later step already allows closing and continuing elsewhere (screen 8)."
+      ],
+      "fit": "Inventory: extends item first-time setup for centers migrating catalogs. Merge vs overwrite and the error-report loop help where failure cases are still undefined.",
+      "counter_example": false
+    },
+    "mobbin:981b5fb6-e739-4767-ac84-ddb20d08539d": {
+      "summary": "From Item library row actions the user opens 'Update low stock alert', sets amount and location, updates, and gets a short success message without leaving the list.",
+      "steps": [
+        "Row menu Update low stock alert",
+        "Alert pop-up amount 0",
+        "Set amount 5 and location",
+        "Message alert updated"
+      ],
+      "steal": [
+        "Low-stock settings are reachable from the list row more menu without opening full edit (screen 1).",
+        "Wording that names both places the alert appears: marked low stock in the library and a daily low stock alert email (screens 2–3).",
+        "Alert amount and Locations are set together (screen 3).",
+        "A stay-on-list success message after the threshold saves (screen 4)."
+      ],
+      "avoid": [],
+      "fit": "Inventory: extends planned reorder and trend notifications: per-item threshold plus location plus digest email maps cleanly. Skip retail-only list extras.",
+      "counter_example": false
+    }
+  }
+}

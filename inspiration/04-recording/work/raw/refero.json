@@ -1,0 +1,189 @@
+{
+  "references": [
+    {
+      "id": "refero:715",
+      "source": "refero",
+      "app": "Vimeo",
+      "title": "Create and configure live event",
+      "kind": "flow",
+      "url": "https://refero.design/flows/715",
+      "platform": "web",
+      "jobs": [
+        "start-stop"
+      ],
+      "take": "User creates live event via 3-step wizard: select setup type, choose broadcast method and features, enter scheduling and privacy details.",
+      "images": [
+        "https://images.refero.design/screenshots/vimeo.com/desktop/08d86053-9291-4054-9195-cc6fb324a81e_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/8690649f-dfff-4748-927c-1e40dc179ddf_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/6e7415a6-b155-415a-9bed-6cede9e299f5_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/2009de35-bc4d-4a04-9212-cea9e03acf3a_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/9eaa9bb1-1f2c-47e9-ac09-eab6c4e86250_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/c08ae772-353a-428d-8df5-0eb4b648aaef_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/944fddb3-398c-406a-b1a5-b209c737952a_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/1fec05f7-0a7a-4eb0-935f-11418c13554e_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/21987ecd-c921-4498-aef0-c6712b882bd6_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/36856305-4b76-48da-84f0-92f5677ecd5b_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/ec9ee47f-e7f4-43c0-bacb-b0946e14b947_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/dca6c752-6b41-4f72-9412-74a8990e242a_thumb.jpg"
+      ]
+    },
+    {
+      "id": "refero:4656",
+      "source": "refero",
+      "app": "Riverside",
+      "title": "Pre-join camera & effects setup",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4656",
+      "platform": "web",
+      "jobs": [
+        "device-check"
+      ],
+      "take": "User arrives at pre-join screen to check camera/mic/speaker devices, selects from available options, and optionally applies visual effects.",
+      "images": [
+        "https://images.refero.design/screenshots/vimeo.com/desktop/fad8c8ec-961c-4780-83bd-46f74f31aebc_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/008ae5f9-80f1-487c-b6e3-2cb27b06663b_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/086b9cf2-7384-4059-b58a-ca82bea924d6_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/d2308f3f-a5ee-4b2b-997c-9a96c57f597c_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/d1504935-8180-452c-bed1-423ae86dcb87_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/d69737da-a323-40b8-b0c7-5de86f2670b9_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/cc9e8b64-3a5e-4427-96be-49e9389339db_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/f30fcc64-2229-4710-9844-208caf7e6d8f_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/41202d0f-d510-4cda-b5fc-71c215bcb332_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/65dd129a-7451-4e11-a36e-2d53d6d1c5ee_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/f703e6b5-2c52-4147-9c13-d925ea076b5c_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/1d61bd73-7f14-42a4-8d1b-f678b7c49614_thumb.jpg"
+      ]
+    },
+    {
+      "id": "refero:9214",
+      "source": "refero",
+      "app": "Preply",
+      "title": "Pre-class device check",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9214",
+      "platform": "web",
+      "jobs": [
+        "device-check"
+      ],
+      "take": "Learner at lesson landing runs audio & video diagnostics with recording playback confirmation and device checklist overview.",
+      "images": [
+        "https://images.refero.design/screenshots/vimeo.com/desktop/b3e2176f-e19d-4cc8-b46f-e041693ee4e9_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/bf0ff4cf-d29e-4dfb-bc10-087712de75b5_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/9d5062e1-7d21-46b0-bb25-18c1c3fbe3f4_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/b80a3057-e8af-4854-8e1a-560ac0975578_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/9ce93b62-dafc-43b9-9314-bd1a45ac4360_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/6ec5735b-49ef-4767-904d-ffea34e0a156_thumb.jpg",
+        "https://images.refero.design/screenshots/vimeo.com/desktop/401689ce-29ed-449a-850b-b658196b15c6_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/acaa1416-7171-48d9-b592-d430df0c95a8_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/337b11ac-3c83-4526-8e78-bcc69ca6b037_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/57d96015-e4ce-463c-95f5-6d7048476947_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/d0e0d099-ebed-4cce-bca4-c03d362979a4_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/5976d65d-e478-424c-981f-efd5c479b3ea_thumb.jpg"
+      ]
+    },
+    {
+      "id": "refero:9213",
+      "source": "refero",
+      "app": "Preply",
+      "title": "Pre-lesson device check",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9213",
+      "platform": "web",
+      "jobs": [
+        "device-check"
+      ],
+      "take": "Learner tests camera, microphone, speakers, and network before entering lesson with visual and audio confirmation steps.",
+      "images": [
+        "https://images.refero.design/screenshots/miro.com/desktop/81ae2637-8192-436d-9c70-1e0644208d95_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/29522f93-b3e8-42f8-82a9-24dbd82169aa_thumb.jpg",
+        "https://images.refero.design/screenshots/miro.com/desktop/2a2888b0-5e28-4eff-836d-420328d71317_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/c0865a71-785f-4824-9d1c-5604eff05594_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/96b81855-66ee-4622-ad04-2c7787702f2b_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/8fe8468f-7600-48ce-b666-a62c15a32f9b_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/e4805e8c-d356-4c40-ab23-5f85c1d7e4f4_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/83ae9087-352d-4ed0-902c-89e2e0d16f12_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/744ac411-0a2c-4d27-8195-ad4e98abfb55_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/57ad52c4-7a67-4bae-9890-d83ebcbff9b3_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/60813877-bd34-4d9b-86d2-f973d8df8fdf_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/5b3795d6-effd-43a3-a211-77923cb23152_thumb.jpg"
+      ]
+    },
+    {
+      "id": "refero:4688",
+      "source": "refero",
+      "app": "Riverside",
+      "title": "Schedule recording session",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4688",
+      "platform": "web",
+      "jobs": [
+        "start-stop"
+      ],
+      "take": "User creates and schedules recording session with date/time pickers, adds participants by email, and enables live streaming.",
+      "images": [
+        "https://images.refero.design/screenshots/riverside.fm/desktop/d8afd136-788c-4065-8b36-a878510dda4f_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/f7af3789-2768-4fa3-b775-8ee5b16a668d_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/13d50540-2dcd-4a7b-b46f-17020013f321_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/6ad4be07-811f-4d40-9fcf-a4413bf2d406_thumb.jpg",
+        "https://images.refero.design/screenshots/riverside.fm/desktop/f825a39b-2c17-431f-99e0-9e6180cf2ee4_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/4262da40-f727-45e3-a70f-12fb42983f4e_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/979afa25-45d3-4557-82b0-5516597eb987_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/95c590c4-5230-41ab-8a9d-822b799df10a_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/fbfbc0b5-0c8a-4d8e-8831-35c38ae15b48_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/20289ae9-c7f2-41b7-a4e1-56723df7d7ba_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/94aede6b-a4b7-493b-a51e-f6b0122c3c38_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/bf79f2e8-1eff-4627-9ddd-ba1dadfc8f94_thumb.jpg"
+      ]
+    },
+    {
+      "id": "refero:732",
+      "source": "refero",
+      "app": "Vimeo",
+      "title": "Create Screen + Webcam Recording",
+      "kind": "flow",
+      "url": "https://refero.design/flows/732",
+      "platform": "web",
+      "jobs": [
+        "start-stop"
+      ],
+      "take": "User launches recorder, configures camera/folder, sets privacy, enables preview, and starts timed recording with countdown.",
+      "images": [
+        "https://images.refero.design/screenshots/preply.com/desktop/8bda2df1-27a6-451a-9166-fb3248ae1c06_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/d96064c0-4cd6-4b4e-964e-87b6339b6b0e_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/e001b4a6-5b98-428a-b82f-47c70d336419_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/ffd6f994-792f-4c72-9420-881fc6ed9c50_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/4262da40-f727-45e3-a70f-12fb42983f4e_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/979afa25-45d3-4557-82b0-5516597eb987_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/95c590c4-5230-41ab-8a9d-822b799df10a_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/fbfbc0b5-0c8a-4d8e-8831-35c38ae15b48_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/20289ae9-c7f2-41b7-a4e1-56723df7d7ba_thumb.jpg",
+        "https://images.refero.design/screenshots/preply.com/desktop/94aede6b-a4b7-493b-a51e-f6b0122c3c38_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/24a46f04-78d1-438a-8caf-5533df54c8b7_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/51ef1d4e-a126-499a-871f-a6080bbd23c0_thumb.jpg"
+      ]
+    },
+    {
+      "id": "refero:9807",
+      "source": "refero",
+      "app": "Flask.do",
+      "title": "In-Video Voice Commenting",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9807",
+      "platform": "web",
+      "jobs": [
+        "start-stop"
+      ],
+      "take": "User records camera-based voice comment with countdown timer, reviews recording, and chooses to keep or re-record before storing.",
+      "images": [
+        "https://images.refero.design/screenshots/flask.do/desktop/c5d469d8-de89-400e-b2e4-87c44fa8cb15_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/83dc1b73-145c-4bbc-b7bf-5331f96d04e4_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/d0818377-910c-43db-8189-65b206a0985d_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/13a85d69-af78-45a6-85e8-85ba078cdb7e_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/27d6d23a-4a49-40ac-a3bc-a2acfe54b9ea_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/fa778004-68d5-45eb-a8f0-95f14e0f1ee8_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/946756f7-b93e-4276-b605-0b7b0949b3b6_thumb.jpg",
+        "https://images.refero.design/screenshots/flask.do/desktop/3522c271-50a8-4724-b2c1-48a59621d83d_thumb.jpg"
+      ]
+    }
+  ]
+}

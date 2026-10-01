@@ -1,0 +1,50 @@
+{
+  "product": "tally",
+  "flows": {
+    "mobbin:908fac0b-b720-4eb8-b992-5ed2da827e6b": {
+      "summary": "From empty forms home, author creates a Merch Pre-Order Form in a draft doc-style builder (scratch vs template, slash blocks, required fields, inline When/Then logic, matrix/rating/signature) ending still in Draft with Publish available—no share/QR screen in these steps.",
+      "steps": [
+        "Empty forms home — Create form",
+        "Untitled draft — scratch vs template",
+        "Named draft with doc onboarding",
+        "Blank canvas — type / to insert",
+        "Fields + inline When/Then rule",
+        "Multi-type blocks (checkbox, upload, date, NPS)",
+        "Matrix, star rating, Stripe payment",
+        "Signature, ranking, Next page break"
+      ],
+      "steal": [
+        "Draft badge + Preview + Publish in header until publish (steps 1–7) — clear unpublished state for scenario checklists.",
+        "Inline When/Then under a field (step 4) — hide/disable paths without a separate rules page.",
+        "Start-from-scratch vs Use a template on the blank canvas (steps 1–2).",
+        "Required asterisks on block titles (steps 4–7) — per-item required for rubric items."
+      ],
+      "avoid": [
+        "Payment/wallet/Stripe blocks mid-checklist (steps 6–7) — noise for sim evaluation forms."
+      ],
+      "fit": "Extends Essentials checklist authoring beyond the cut-down Case Manager: one long doc page + draft/publish instead of only tabbed SCE fields; does not replace Equipment tabs.",
+      "counter_example": false
+    },
+    "mobbin:c7ec1d19-4938-4a20-87ea-dc9b92e82380": {
+      "summary": "After account deletion, respondent fills a single open text reason with no login chrome, submits, then sees a thank-you confirmation from the makers.",
+      "steps": [
+        "Account deleted — empty feedback prompt",
+        "Typed exit reason + Submit",
+        "Thank you confirmation"
+      ],
+      "steal": [
+        "No account chrome on the form or thank-you (steps 0–2) — anonymous submit without login.",
+        "Thank you page with no further CTA (step 2) — clean end state after checklist submit."
+      ],
+      "avoid": [
+        "Coupling feedback to account-deletion success (step 0) — wrong trigger for room/session feedback."
+      ],
+      "fit": "Steals only anonymous no-login + thank-you for room-TV checklist-qr; does not show QR and is not a session evaluation flow.",
+      "jobs": [
+        "checklist",
+        "checklist-qr"
+      ],
+      "counter_example": false
+    }
+  }
+}

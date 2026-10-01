@@ -1,0 +1,443 @@
+{
+  "scope": "Curated from 39 merged candidates to 27 references across 8 products. The collection is below the 30–50 reference target because unrelated marketing, graphics and setup screens were removed. Functional evidence for instructors managing course expectations. Course products are the primary evidence; Asana is a labelled interaction analogue. Screens and sampled flow previews are historical captures, not live behaviour tests. Missing evidence is not a missing product feature. Q1–Q6 below retain the full reference board; counter-examples show meaningful contrasts rather than product defects.",
+  "legend": "✓ Clear evidence for the described part of the question; partial = limited or adjacent support; ✗ = observed contradiction; ? = not established by these captures. For Q3, ✓ may describe either an explicit rule or clearly informational readiness. No ✗ is assigned merely because a feature was not captured. Asana is a cross-domain analogue.",
+  "top": [
+    {
+      "ref": "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+      "why": "The strongest direct course-outcome editor: separate required items, visible counters and an explicit public destination."
+    },
+    {
+      "ref": "mobbin:60f6d746-a953-49ba-9af9-784ff378d031",
+      "why": "Connects a progression rule to a specific lesson and explains when an assessment counts as complete."
+    },
+    {
+      "ref": "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948",
+      "why": "A three-preview connection flow makes downstream work and its progress relationship inspectable."
+    },
+    {
+      "ref": "mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47",
+      "why": "Places a section objective directly above the content it frames, without claiming competency mapping."
+    },
+    {
+      "ref": "mobbin:2d300077-7580-47c6-875a-369da8b0a065",
+      "why": "Makes the learner-facing outcome list easy to inspect before starting the course."
+    },
+    {
+      "ref": "mobbin:4753100b-9870-45a7-88f7-447b3760e712",
+      "why": "Keeps generated course structure editable and gives the instructor Apply/Discard control."
+    },
+    {
+      "ref": "refero:195b0110-a6d4-404f-81bf-be74a9af62c1",
+      "why": "Refero analogue: explains goal choices and permits uncertainty without forcing an uninformed answer."
+    }
+  ],
+  "comparison": [
+    {
+      "app": "Asana",
+      "cells": [
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "✓ Analogue: goal → project with progress",
+          "refs": [
+            "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948"
+          ]
+        },
+        {
+          "text": "partial Success prompt and explained choices (analogue)",
+          "refs": [
+            "refero:195b0110-a6d4-404f-81bf-be74a9af62c1",
+            "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948"
+          ]
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "app": "Codecademy",
+      "cells": [
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "✓ Stated completion rule; runtime untested",
+          "refs": [
+            "mobbin:6768ff06-2ec2-4e8b-8900-21500eb233a8"
+          ]
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "app": "Coursera",
+      "cells": [
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "partial Learner outcomes; author side absent",
+          "refs": [
+            "mobbin:2d300077-7580-47c6-875a-369da8b0a065",
+            "mobbin:96fd5ba3-c8bd-4fbc-b875-9b58e616c622"
+          ]
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "app": "Kajabi",
+      "cells": [
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "✓ Configured lesson/assessment lock",
+          "refs": [
+            "mobbin:60f6d746-a953-49ba-9af9-784ff378d031"
+          ]
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "partial Reviewable AI outline; no outcome critique",
+          "refs": [
+            "mobbin:deee3b15-0748-485c-9921-7be6cc0a456a",
+            "mobbin:4753100b-9870-45a7-88f7-447b3760e712"
+          ]
+        },
+        {
+          "text": "? Wizard shown; objectives not located",
+          "refs": [
+            "mobbin:2e01c0b8-2b25-491e-a7d1-992341cc9269",
+            "mobbin:b7491347-c116-4aad-950c-8d48f577b98a"
+          ]
+        }
+      ]
+    },
+    {
+      "app": "Skillshare",
+      "cells": [
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "✓ Informational level; no learning gate shown",
+          "refs": [
+            "mobbin:84584675-5845-46cc-a5bf-90fafdd128b4"
+          ]
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "app": "Teachable",
+      "cells": [
+        {
+          "text": "partial Checkout bullets; no reorder shown",
+          "refs": [
+            "mobbin:007d841f-48d2-425f-bbaf-75ba21693a3c",
+            "mobbin:fbde5f46-53c8-464f-8ff5-a4bca072426a"
+          ]
+        },
+        {
+          "text": "partial Student preview; published content only",
+          "refs": [
+            "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c",
+            "mobbin:007d841f-48d2-425f-bbaf-75ba21693a3c"
+          ]
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? AI button; objective coaching unseen",
+          "refs": [
+            "mobbin:c9d90a3c-c778-4949-ad9f-5537e5caf0a7"
+          ]
+        },
+        {
+          "text": "? Setup → publish; objective step unseen",
+          "refs": [
+            "mobbin:2da07b87-105e-4850-8686-9cad55f3f455",
+            "mobbin:757f57cb-e9e7-4355-a542-db3033f23dc0"
+          ]
+        }
+      ]
+    },
+    {
+      "app": "Udemy",
+      "cells": [
+        {
+          "text": "partial Separate items; reorder unverified",
+          "refs": [
+            "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+            "mobbin:04a7c094-adec-42d4-9f50-b4500ed8825d"
+          ]
+        },
+        {
+          "text": "partial Public mapping; exact fidelity unverified",
+          "refs": [
+            "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+            "mobbin:04a7c094-adec-42d4-9f50-b4500ed8825d"
+          ]
+        },
+        {
+          "text": "partial Separate prerequisite text; no gate shown",
+          "refs": [
+            "mobbin:4b041654-20d2-49dd-8779-2f45211103f7"
+          ]
+        },
+        {
+          "text": "partial Section-local objective; assessment mapping unverified",
+          "refs": [
+            "mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47"
+          ]
+        },
+        {
+          "text": "✓ Minimum, counters and prerequisite example",
+          "refs": [
+            "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+            "mobbin:3476c06a-c7b3-49ac-bc99-6875a0563ec6"
+          ]
+        },
+        {
+          "text": "✓ Required in early planning",
+          "refs": [
+            "mobbin:3558619c-01e4-44de-9e1b-159104717ba1"
+          ]
+        }
+      ]
+    },
+    {
+      "app": "Uxcel",
+      "cells": [
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "partial Readiness copy; commercial upsell separate",
+          "refs": [
+            "mobbin:074a824b-a9f4-4e59-9039-fc5a59eb12c4"
+          ]
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        },
+        {
+          "text": "? Not observed",
+          "refs": []
+        }
+      ]
+    }
+  ],
+  "differences": [
+    {
+      "text": "Udemy treats outcomes as explicit planning inputs with a minimum count and public destination; Teachable’s repeated checkout bullets serve optional presentation. Essentials should distinguish assessed outcomes from promotional summaries.",
+      "refs": [
+        "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+        "mobbin:007d841f-48d2-425f-bbaf-75ba21693a3c"
+      ]
+    },
+    {
+      "text": "Udemy authors prerequisite descriptions; Kajabi configures progression through a selected lesson; Codecademy states completion criteria; Skillshare exposes readiness information. These solve different course-management decisions and need different labels.",
+      "refs": [
+        "mobbin:4b041654-20d2-49dd-8779-2f45211103f7",
+        "mobbin:60f6d746-a953-49ba-9af9-784ff378d031",
+        "mobbin:6768ff06-2ec2-4e8b-8900-21500eb233a8",
+        "mobbin:84584675-5845-46cc-a5bf-90fafdd128b4"
+      ]
+    },
+    {
+      "text": "Udemy embeds an objective within a curriculum section. Asana instead offers an explicit attach/search/confirm relationship with progress roll-up. The latter interaction is transferable, but its completion metric is not evidence of learning.",
+      "refs": [
+        "mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47",
+        "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948"
+      ]
+    },
+    {
+      "text": "Udemy discloses that authored outcomes will be public, while Teachable’s preview exposes publication-state differences. A preview needs to explain what learners can currently see as well as how content is presented.",
+      "refs": [
+        "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+        "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c"
+      ]
+    },
+    {
+      "text": "Kajabi lets instructors edit and accept or discard generated structure. Udemy constrains outcome input, and Asana prompts authors to define success. These are complementary controls; none of the captures proves AI can validate a measurable learning outcome.",
+      "refs": [
+        "mobbin:4753100b-9870-45a7-88f7-447b3760e712",
+        "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+        "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948"
+      ]
+    },
+    {
+      "text": "Udemy visibly requires outcomes in early planning. Teachable’s sampled publication flow does not expose that step, so a publish flow alone cannot establish that outcomes are optional.",
+      "refs": [
+        "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+        "mobbin:ca328d45-4fee-42c1-925b-ff8e298dc4b8"
+      ]
+    }
+  ],
+  "practices": [
+    {
+      "text": "Use separate outcome items and state their learner-facing destination near the editor. Test order preservation explicitly; reorderability is not established by this board.",
+      "refs": [
+        "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+        "mobbin:007d841f-48d2-425f-bbaf-75ba21693a3c",
+        "mobbin:2d300077-7580-47c6-875a-369da8b0a065"
+      ]
+    },
+    {
+      "text": "Give readiness guidance, progression rules and completion criteria separate names and controls. Use a concrete example in the requirement editor and show each enforced rule’s condition next to its configuration.",
+      "refs": [
+        "mobbin:3476c06a-c7b3-49ac-bc99-6875a0563ec6",
+        "mobbin:60f6d746-a953-49ba-9af9-784ff378d031",
+        "mobbin:6768ff06-2ec2-4e8b-8900-21500eb233a8",
+        "mobbin:84584675-5845-46cc-a5bf-90fafdd128b4"
+      ]
+    },
+    {
+      "text": "Keep authored outcomes near curriculum context and make downstream connections inspectable. Treat completion roll-ups and assessed mastery as separate design decisions.",
+      "refs": [
+        "mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47",
+        "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948"
+      ]
+    },
+    {
+      "text": "Pair AI assistance with editable output and a clear acceptance action. Combine that control with explicit success criteria rather than assuming generated text is assessment-ready.",
+      "refs": [
+        "mobbin:4753100b-9870-45a7-88f7-447b3760e712",
+        "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948"
+      ]
+    },
+    {
+      "text": "Offer a learner preview that makes draft-versus-published state clear, and define the outcome publication requirement explicitly.",
+      "refs": [
+        "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c",
+        "mobbin:ca328d45-4fee-42c1-925b-ff8e298dc4b8",
+        "mobbin:3558619c-01e4-44de-9e1b-159104717ba1"
+      ]
+    }
+  ],
+  "openQuestions": [
+    {
+      "text": "For simulation education, which readiness items are advice, which require learner acknowledgement, and which must block an event or scenario? How would a faculty override be represented? Kajabi provides a rule-configuration analogue; Skillshare provides the informational contrast.",
+      "refs": [
+        "mobbin:60f6d746-a953-49ba-9af9-784ff378d031",
+        "mobbin:84584675-5845-46cc-a5bf-90fafdd128b4"
+      ]
+    },
+    {
+      "text": "Should course outcomes remain stable records with versioned wording when section objectives, scenarios or competencies change? Udemy’s local objective and Asana’s explicit relationship suggest different models; the competency and scenario sub-modules must resolve the seam.",
+      "refs": [
+        "mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47",
+        "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948"
+      ]
+    },
+    {
+      "text": "What demonstrates mastery: attendance, scenario completion, an assessment pass or faculty judgement? Codecademy’s stated completion threshold and Asana’s project progress are useful contrasts, not simulation assessment policy.",
+      "refs": [
+        "mobbin:6768ff06-2ec2-4e8b-8900-21500eb233a8",
+        "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948"
+      ]
+    },
+    {
+      "text": "Must the Learner Portal preserve the exact outcome wording and order, and should instructors preview drafts or only the published version? Capture one same-course round trip before choosing the contract.",
+      "refs": [
+        "mobbin:3558619c-01e4-44de-9e1b-159104717ba1",
+        "mobbin:04a7c094-adec-42d4-9f50-b4500ed8825d",
+        "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c"
+      ]
+    },
+    {
+      "text": "At the Canvas hand-off, which system owns outcome wording, stable identifiers, publication state and assessment links? This board shows local authoring and linkage patterns but does not supply evidence of Canvas interoperability. Resolve this in the adjacent hand-off module.",
+      "refs": [
+        "mobbin:7fa8a407-5fc0-4de1-b169-0c7825495e47",
+        "mobbin:2f67fe8d-dbad-4ee4-ad75-5d08c69fe948",
+        "mobbin:ca328d45-4fee-42c1-925b-ff8e298dc4b8"
+      ]
+    }
+  ]
+}

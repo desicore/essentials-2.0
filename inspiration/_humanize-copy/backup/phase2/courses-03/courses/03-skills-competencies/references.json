@@ -1,0 +1,467 @@
+{
+  "module": "03-skills-competencies",
+  "title": "Set skills and competencies to measure",
+  "intro": "Research for Essentials 2.0: Semester → Courses → skills and competencies. 25 curated Mobbin and Refero references across 12 products compare course-skill setup, rubrics, evidence and learner progress. Adjacent patterns and unsupported capabilities are identified explicitly; scenario/event mapping, reporting and Canvas remain neighbouring seams.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Framework model (central taxonomy vs. free tags vs. both)",
+      "answer": "The retained screenshots do not resolve central taxonomy versus free tags. Handshake shows skill entry and removable chips, but their vocabulary source and ownership remain unknown (refero:554289af-aead-4298-a222-73a19c1c1487; refero:b8e17eec-d089-4cd1-9663-63c8b65f85ac). Coursera’s ‘Skills you’ll gain’ labels communicate a course promise; they do not prove instructor selection or a governed framework (mobbin:2d300077-7580-47c6-875a-369da8b0a065). For Essentials, treat ‘institutional competency’ and ‘course-local skill’ as a proposed explicit distinction, with ownership and provenance visible. Choosing that model remains a product decision, not a convergence established by these examples. ClassDojo adds an instructor-side clue: Add skill and Import from coexist, but the capture does not establish institutional governance or how the import works (mobbin:e102067a-a1a6-400a-81c4-626f7fbb066c)."
+    },
+    {
+      "id": "Q2",
+      "title": "Selection UX (tree / search / suggestions) and scale when there are hundreds of items",
+      "answer": "Handshake demonstrates text entry, accumulating removable chips, saving and reviewing a truncated set through View all; no suggestion menu is captured, so autocomplete is not established (refero:8761). ClassDojo supplies small-set instructor controls—categories, point-valued skill cards, Add skill and Import from—without exposing the import contents (mobbin:e102067a-a1a6-400a-81c4-626f7fbb066c). Codecademy contributes grouping, sorting and expansion for browsing a larger catalog, while Brilliant’s four-domain choice is deliberately small (mobbin:c3b8347d-6ee8-4087-8d92-7902f37a53d3; refero:3345cd32-03fa-4571-9153-6ce930088570). For Essentials, combine discoverable vocabulary search with a persistent chosen set and category context; this combination is a design proposal. Hierarchical selection, duplicate handling, bulk selection and behavior at hundreds of items need further validation."
+    },
+    {
+      "id": "Q3",
+      "title": "Levels / rubric definition (numeric, descriptive, checklist)",
+      "answer": "Google Classroom directly supports rubric definition: criterion and level titles, descriptions, editable points, an optional scoring toggle, ordering and Save (refero:239a7ddc-e5ed-4209-87dd-f329502b2271; refero:fd8e5fc8-d22d-4b80-ad7d-83c457db08ef). Visible demonstrates readable numeric anchors in a respondent-facing questionnaire, while Codecademy exposes subskill percentages and roll-up relationships rather than a rubric builder (mobbin:9d4ec3e3-b07c-44ea-bc93-6d661226d178; mobbin:d5c43b15-4d4b-4c10-9eaf-33d1e9533e44). For Essentials, place observable performance descriptions beside each scoring level; keep criteria and rating scales editable as one structure. Checklist behavior, assessor calibration and version history remain open requirements, not patterns established by this set."
+    },
+    {
+      "id": "Q4",
+      "title": "Traceability: competency → activity → evidence → score",
+      "answer": "Codecademy brackets an assessment with the same named subskill, shows answer feedback and an aggregate result; its 86% result and 85% summary leave persistence unclear (mobbin:4a76a2f1-e45c-4d90-a3aa-a30debcc9f44). Uxcel explains that an assessment contributes to a multi-skill graph and displays reliability, but hides per-question contributions (mobbin:60c5af0c-ed0a-4f93-8c44-ca67daf3762a). ClassDojo shows evidence review and approval, while Kajabi shows assessment configuration: each covers a different part of the chain (mobbin:67096453-158a-4b59-8633-21fcb4684817; mobbin:66a38bfc-fc8d-4574-85d6-ae37dfe339cd). Essentials should connect a course competency and rubric version to the scenario/event, observation or recording, assessor and resulting score. That complete lineage is a proposed requirement; none of these captures proves it end to end."
+    },
+    {
+      "id": "Q5",
+      "title": "Learner-facing visualisation of mastery",
+      "answer": "Uxcel is the strongest diagnostic example: named competency axes, a score, reliability and related learning resources coexist (mobbin:c8fcc4c3-061d-4280-90d5-4600ac48bf53). Codecademy exposes individual skill percentages and a Beginner-to-Intermediate progression rule, while its tracking flow mainly reports XP (mobbin:41d3d178-1703-47b1-820d-b5c5348118a6; mobbin:042b8064-f255-4149-9649-a2bbc057dea5). Brilliant and Duolingo make current position and the next lesson clear, but those paths do not establish assessed mastery (mobbin:34856cb4-4cb0-4248-ab60-d1d4bf64b665; mobbin:063b737c-c4d3-4788-b91d-b137f93ebb9c). For the Learner Portal, combine an actionable next activity with separately labelled competency level and supporting evidence. Do not translate completion, streaks or XP into mastery without an explicit assessment rule."
+    },
+    {
+      "id": "Q6",
+      "title": "Reuse of the same competency set across courses and semesters",
+      "answer": "Hello Ivy is the only retained example with an explicit save-for-reuse journey: open page → overflow menu → Save as template → name and preview → personal/shared visibility → save confirmation (refero:4518). It does not show applying a template or propagation of later edits. Teachable exposes Import content, but the source and outcome are absent; keep it as a counter-example to claiming reusable competency templates from an import button (mobbin:5ce0dd31-4106-4884-ab40-431b863377f9). ClassDojo’s Import from entry is similarly incomplete (mobbin:e102067a-a1a6-400a-81c4-626f7fbb066c). For Essentials, propose an explicit saved competency/rubric set with ownership, preview and target-course selection. Decide snapshot versus live link, version lineage and historical-score behavior separately. Cross-course and cross-semester competency reuse is not proven by these captures."
+    }
+  ],
+  "references": [
+    {
+      "id": "mobbin:2d300077-7580-47c6-875a-369da8b0a065",
+      "source": "mobbin",
+      "app": "Coursera",
+      "title": "Course page displays ‘Skills you’ll gain’ labels",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/2d300077-7580-47c6-875a-369da8b0a065",
+      "images": [
+        "https://mobbin.com/api/mcp/short/qUY4Pbrs"
+      ],
+      "question": "Q1",
+      "take": "Coursera displays course skill labels and a View all skills link; this does not show instructor selection, taxonomy governance or assessed competencies.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:554289af-aead-4298-a222-73a19c1c1487",
+      "source": "refero",
+      "app": "Handshake",
+      "title": "Enter profile skills in a modal",
+      "kind": "screen",
+      "url": "https://refero.design/pages/554289af-aead-4298-a222-73a19c1c1487",
+      "images": [
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/d616c757-031f-4c01-be8e-7041656d61b5_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Handshake shows a skills text field, search icon, guidance to keep the set small, and Save/Cancel; the vocabulary source and governance are unknown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:b8e17eec-d089-4cd1-9663-63c8b65f85ac",
+      "source": "refero",
+      "app": "Handshake",
+      "title": "Review removable profile-skill chips",
+      "kind": "screen",
+      "url": "https://refero.design/pages/b8e17eec-d089-4cd1-9663-63c8b65f85ac",
+      "images": [
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/b425d5f6-85c4-491e-abe8-0f78f7767ba8_thumb.jpg"
+      ],
+      "question": "Q1",
+      "take": "Handshake displays removable chips and Save/Cancel for a chosen profile-skill set; chips do not establish a central taxonomy or course ownership.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:3345cd32-03fa-4571-9153-6ce930088570",
+      "source": "refero",
+      "app": "Brilliant",
+      "title": "Learner selects one of four onboarding domains",
+      "kind": "screen",
+      "url": "https://refero.design/pages/3345cd32-03fa-4571-9153-6ce930088570",
+      "images": [
+        "https://images.refero.design/screenshots/brilliant.org/desktop/5ba2c365-8641-4cdd-9bf5-336cc18f1d4b_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Brilliant offers four broad domains, a selected state and Continue; this small single-choice list does not demonstrate selection across hundreds of competencies.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:e102067a-a1a6-400a-81c4-626f7fbb066c",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Teacher reviews, imports or adds class skills",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/e102067a-a1a6-400a-81c4-626f7fbb066c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WmLvu7Nd"
+      ],
+      "question": "Q2",
+      "take": "ClassDojo shows Positive/Needs work skill categories, point-valued cards, Add skill, Import from and family visibility; search, hierarchy and import contents are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c3b8347d-6ee8-4087-8d92-7902f37a53d3",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Browse skill progress and additional subjects",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/c3b8347d-6ee8-4087-8d92-7902f37a53d3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sWsirRDm"
+      ],
+      "question": "Q2",
+      "take": "Codecademy groups subjects and languages with tabs, sorting, XP and More available; this supports catalog scanning, but does not show selecting course competencies.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:8761",
+      "source": "refero",
+      "app": "Handshake",
+      "title": "Enter and review profile skills as removable chips",
+      "kind": "flow",
+      "url": "https://refero.design/flows/8761",
+      "images": [
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/30909784-a728-404d-ad27-7e1f9b756027_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/95190a28-b029-4c0e-a165-f9a007ed12a3_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/d616c757-031f-4c01-be8e-7041656d61b5_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/27331d71-95ad-4ddf-84a9-463575497ee5_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/b425d5f6-85c4-491e-abe8-0f78f7767ba8_thumb.jpg",
+        "https://images.refero.design/screenshots/joinhandshake.com/desktop/2e177d68-15d2-4c63-9280-1edec1fa9907_thumb.jpg"
+      ],
+      "question": "Q2",
+      "take": "Handshake moves from skill entry to removable chips, Save and a truncated profile set with View all; no suggestion menu or taxonomy-backed matches are visible.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:d5c43b15-4d4b-4c10-9eaf-33d1e9533e44",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Subskill percentages and Learn/Evaluate actions",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/d5c43b15-4d4b-4c10-9eaf-33d1e9533e44",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lNwIBQLN"
+      ],
+      "question": "Q3",
+      "take": "Codecademy shows skill sets, percentage boxes and a subskill drawer with Builds toward, Learn and Evaluate; this is decomposition and roll-up, not rubric or level authoring.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:239a7ddc-e5ed-4209-87dd-f329502b2271",
+      "source": "refero",
+      "app": "Google Classroom",
+      "title": "Define rubric criteria, levels, descriptions and points",
+      "kind": "screen",
+      "url": "https://refero.design/pages/239a7ddc-e5ed-4209-87dd-f329502b2271",
+      "images": [
+        "https://images.refero.design/screenshots/google.com/desktop/bb92f314-08f0-46de-bc81-c5291a27a954_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "Google Classroom combines Use scoring, criterion title/description, level title/description/points, add-level and add-criterion controls, sorting and Save; checklist and versioning are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:fd8e5fc8-d22d-4b80-ad7d-83c457db08ef",
+      "source": "refero",
+      "app": "Google Classroom",
+      "title": "Edit point values within a criterion",
+      "kind": "screen",
+      "url": "https://refero.design/pages/fd8e5fc8-d22d-4b80-ad7d-83c457db08ef",
+      "images": [
+        "https://images.refero.design/screenshots/google.com/desktop/1cbc3f55-66c0-4e11-ae9d-8c66ba336e63_thumb.jpg"
+      ],
+      "question": "Q3",
+      "take": "A second Google Classroom rubric state shows a 1-point value and editable level fields, complementing the 10-point state; no scored learner example is shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:9d4ec3e3-b07c-44ea-bc93-6d661226d178",
+      "source": "mobbin",
+      "app": "Visible",
+      "title": "Health-impact ratings with descriptive interpretations",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/9d4ec3e3-b07c-44ea-bc93-6d661226d178",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ugpAZ6W1"
+      ],
+      "question": "Q3",
+      "take": "Visible pairs numeric responses with descriptive interpretations and Submit and calculate score; it illustrates readable scale anchors, not instructor-defined competencies.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:67096453-158a-4b59-8633-21fcb4684817",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Review learner evidence and approve or return it",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/67096453-158a-4b59-8633-21fcb4684817",
+      "images": [
+        "https://mobbin.com/api/mcp/short/W3V9gu5S",
+        "https://mobbin.com/api/mcp/short/OFuIeIWq"
+      ],
+      "question": "Q4",
+      "take": "ClassDojo shows a learner worksheet response/video and comment, followed by Approve or Return as draft and an approved view; this evidences review disposition, not a competency score.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:4a76a2f1-e45c-4d90-a3aa-a30debcc9f44",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Take a subskill assessment and view aggregate result",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4a76a2f1-e45c-4d90-a3aa-a30debcc9f44",
+      "images": [
+        "https://mobbin.com/api/mcp/short/K730AE1K",
+        "https://mobbin.com/api/mcp/short/7ypfXnEi",
+        "https://mobbin.com/api/mcp/short/Nzukda1Y",
+        "https://mobbin.com/api/mcp/short/hCOQM0RI",
+        "https://mobbin.com/api/mcp/short/pIwdTv1q",
+        "https://mobbin.com/api/mcp/short/JejbZKWQ",
+        "https://mobbin.com/api/mcp/short/N9UXEEFr"
+      ],
+      "question": "Q4",
+      "take": "A named Codecademy subskill leads through answered items and correctness feedback to an 86% result; highest/most-recent scores also appear, but the shown 85% value leaves persistence unclear.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:66a38bfc-fc8d-4574-85d6-ae37dfe339cd",
+      "source": "mobbin",
+      "app": "Kajabi",
+      "title": "Configure an assessment with an automatic-grading option",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/66a38bfc-fc8d-4574-85d6-ae37dfe339cd",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FeZwYuGL",
+        "https://mobbin.com/api/mcp/short/k44skRPJ",
+        "https://mobbin.com/api/mcp/short/GCzW3M2I",
+        "https://mobbin.com/api/mcp/short/ndVS8a4m",
+        "https://mobbin.com/api/mcp/short/vCNGSVBs"
+      ],
+      "question": "Q4",
+      "take": "Kajabi exposes assessment creation, an automatic-grading toggle, Edit questions and View results; captured evidence, computed scores and competency linkage are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:60c5af0c-ed0a-4f93-8c44-ca67daf3762a",
+      "source": "mobbin",
+      "app": "Uxcel",
+      "title": "Assessment result and declared skill graph impact",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/60c5af0c-ed0a-4f93-8c44-ca67daf3762a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TZXcEyW5",
+        "https://mobbin.com/api/mcp/short/QediaKZR",
+        "https://mobbin.com/api/mcp/short/4xjv7Zue",
+        "https://mobbin.com/api/mcp/short/XjLQwHf1"
+      ],
+      "question": "Q4",
+      "take": "Uxcel connects an assessment report and attempt number to six skills, a score, reliability and timestamp; help text explains graph impact, but per-question contributions are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:34856cb4-4cb0-4248-ab60-d1d4bf64b665",
+      "source": "mobbin",
+      "app": "Brilliant",
+      "title": "Curriculum path and current topic",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/34856cb4-4cb0-4248-ab60-d1d4bf64b665",
+      "images": [
+        "https://mobbin.com/api/mcp/short/8AglkM6B"
+      ],
+      "question": "Q5",
+      "take": "Brilliant shows connected topics, a current level, completed/current/upcoming states and a Start action; the path communicates curriculum progression, not validated competency.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:45ede6ec-1ebd-498f-9a48-2636087f1be4",
+      "source": "mobbin",
+      "app": "Brilliant",
+      "title": "Topic position and lesson counts",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/45ede6ec-1ebd-498f-9a48-2636087f1be4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/s5BIcxFw"
+      ],
+      "question": "Q5",
+      "take": "Brilliant adds lesson and exercise counts to topic progression; this helps learners locate the next activity but does not expose a competency score.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:ec3fe703-fe07-489e-92a5-45eb5b3d4720",
+      "source": "mobbin",
+      "app": "Brilliant",
+      "title": "Mobile curriculum path with streak",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/ec3fe703-fe07-489e-92a5-45eb5b3d4720",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wKykdbCB"
+      ],
+      "question": "Q5",
+      "take": "Brilliant combines topic nodes and a next action with a streak banner; sequencing and engagement are visible, while assessed mastery is not.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:41d3d178-1703-47b1-820d-b5c5348118a6",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "Skill percentages and progression levels",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/41d3d178-1703-47b1-820d-b5c5348118a6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/0X2I5p8u"
+      ],
+      "question": "Q5",
+      "take": "Codecademy groups named skills with per-skill percentages and a Beginner level, including the number of additional skills needed for Intermediate; assessment provenance is not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:042b8064-f255-4149-9649-a2bbc057dea5",
+      "source": "mobbin",
+      "app": "Codecademy",
+      "title": "XP-based subject tracking flow",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/042b8064-f255-4149-9649-a2bbc057dea5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WPziUsgL",
+        "https://mobbin.com/api/mcp/short/IYbnZOKJ",
+        "https://mobbin.com/api/mcp/short/uSmmN5l8",
+        "https://mobbin.com/api/mcp/short/KNsW3jOu",
+        "https://mobbin.com/api/mcp/short/VOxsRmu0"
+      ],
+      "question": "Q5",
+      "take": "Dashboard → Skills tracking → subject/language summary → expanded catalogue → Languages filter; XP bars and learned capabilities are visible, but rubric-based assessment is not.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:063b737c-c4d3-4788-b91d-b137f93ebb9c",
+      "source": "mobbin",
+      "app": "Duolingo",
+      "title": "Lesson path as a mastery counter-example",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/063b737c-c4d3-4788-b91d-b137f93ebb9c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Y1rdroUT"
+      ],
+      "question": "Q5",
+      "take": "Duolingo shows unit position, next lesson, XP and engagement signals; these screens do not establish a competency score, rubric level or supporting evidence.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:21f4097f-290b-438c-8f84-85f616578231",
+      "source": "mobbin",
+      "app": "Duolingo",
+      "title": "Mobile lesson-path progress",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/21f4097f-290b-438c-8f84-85f616578231",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rGkdJTHW"
+      ],
+      "question": "Q5",
+      "take": "Duolingo keeps the current lesson and upcoming nodes visible on mobile; this is a progression pattern, not evidence of assessed mastery.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:c8fcc4c3-061d-4280-90d5-4600ac48bf53",
+      "source": "mobbin",
+      "app": "Uxcel",
+      "title": "Competency scores, reliability and learning resources",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/c8fcc4c3-061d-4280-90d5-4600ac48bf53",
+      "images": [
+        "https://mobbin.com/api/mcp/short/rrc6X0ZQ"
+      ],
+      "question": "Q5",
+      "take": "Uxcel shows six competency axes, a 59/100 score, 40% reliability, peer rankings and resources for a selected competency; the calculation is not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "refero:4518",
+      "source": "refero",
+      "app": "Hello Ivy",
+      "title": "Save a page as a named personal or shared template",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4518",
+      "images": [
+        "https://images.refero.design/screenshots/helloivy.co/desktop/ee25f285-68b0-445d-ac64-add9528a7dc0_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/2d32362b-e6e4-4fdf-a327-ed9e02011016_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/6f963f73-8a01-450a-b979-46d9b25e001b_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/915d20dd-fe43-4ce1-8c62-a5283b25a015_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/fe84fa72-35be-4bba-b6f7-6acbe22693c6_thumb.jpg",
+        "https://images.refero.design/screenshots/helloivy.co/desktop/7580c209-55b9-42e4-85b3-a0f1d68e6a50_thumb.jpg"
+      ],
+      "question": "Q6",
+      "take": "Hello Ivy shows Save as template, a name and preview, For everyone / For me only visibility and a success confirmation; applying the template, synchronization and versioning are not shown.",
+      "counter_example": false,
+      "selected": false,
+      "crop": ""
+    },
+    {
+      "id": "mobbin:5ce0dd31-4106-4884-ab40-431b863377f9",
+      "source": "mobbin",
+      "app": "Teachable",
+      "title": "Content import is not proof of competency-template reuse",
+      "kind": "screen",
+      "url": "https://mobbin.com/screens/5ce0dd31-4106-4884-ab40-431b863377f9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TK08AeJM"
+      ],
+      "question": "Q6",
+      "take": "Teachable exposes Import content beside Bulk edit in the curriculum editor; source, copied fields and result are absent, so competency or rubric reuse cannot be established.",
+      "counter_example": true,
+      "selected": false,
+      "crop": ""
+    }
+  ]
+}

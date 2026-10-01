@@ -1,0 +1,108 @@
+{
+  "references": [
+    {
+      "id": "mobbin:c10feffc-9e32-4467-914a-72668daa0395",
+      "source": "mobbin",
+      "app": "Fabric",
+      "title": "Drawing on a video",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c10feffc-9e32-4467-914a-72668daa0395",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1Pq1Y4LJ",
+        "https://mobbin.com/api/mcp/short/1yLDGEGI",
+        "https://mobbin.com/api/mcp/short/N9kwPkpp",
+        "https://mobbin.com/api/mcp/short/MOHTNJFv",
+        "https://mobbin.com/api/mcp/short/oTrzJE12",
+        "https://mobbin.com/api/mcp/short/mCxNWSWp"
+      ],
+      "platform": "ios",
+      "jobs": ["debrief-annotations"],
+      "take": "Multi-step drawing and annotation workflow on video: open drawing tools, select color/brush, draw directly on the frame, and save timestamped marks."
+    },
+    {
+      "id": "mobbin:6915b30a-9982-4888-a599-f263dc314e5d",
+      "source": "mobbin",
+      "app": "Otter AI",
+      "title": "Adding a comment",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6915b30a-9982-4888-a599-f263dc314e5d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/VdWzoNxY",
+        "https://mobbin.com/api/mcp/short/3JGYmh2m",
+        "https://mobbin.com/api/mcp/short/19rcxEVY",
+        "https://mobbin.com/api/mcp/short/uoaVx8RT",
+        "https://mobbin.com/api/mcp/short/lzxOWfXd"
+      ],
+      "platform": "ios",
+      "jobs": ["debrief-annotations"],
+      "take": "Timestamped commenting on media: tap to add comment button, launch comment compose modal, type message, submit comment tied to a specific timestamp."
+    },
+    {
+      "id": "mobbin:8c1e112d-387d-4026-b3a9-81cdd74a0b88",
+      "source": "mobbin",
+      "app": "Google TV",
+      "title": "Remote",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8c1e112d-387d-4026-b3a9-81cdd74a0b88",
+      "images": [
+        "https://mobbin.com/api/mcp/short/d49QP39t",
+        "https://mobbin.com/api/mcp/short/jx3pR6PD"
+      ],
+      "platform": "ios",
+      "jobs": ["debrief-annotations"],
+      "take": "Phone-based TV remote: directional pad (up/down/left/right), center select button, and volume controls for controlling connected device playback."
+    },
+    {
+      "id": "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6",
+      "source": "mobbin",
+      "app": "Google TV",
+      "title": "Remote (movie)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3f1ac467-e548-499a-91bf-cd1e5a74aea6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WWd5Yu5a",
+        "https://mobbin.com/api/mcp/short/6idCNRyB"
+      ],
+      "platform": "ios",
+      "jobs": ["debrief-annotations"],
+      "take": "Playback control remote during movie playback: play/pause button, timeline scrubber with current position, and rewind/forward gestures."
+    },
+    {
+      "id": "mobbin:5b64fef9-ba2f-4ff0-bd5e-8f959b68ee24",
+      "source": "mobbin",
+      "app": "HBO Max",
+      "title": "Casting a show to a TV",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5b64fef9-ba2f-4ff0-bd5e-8f959b68ee24",
+      "images": [
+        "https://mobbin.com/api/mcp/short/u1813sTg",
+        "https://mobbin.com/api/mcp/short/92jcgxon",
+        "https://mobbin.com/api/mcp/short/MF1Ipq00",
+        "https://mobbin.com/api/mcp/short/B1FqUL0p",
+        "https://mobbin.com/api/mcp/short/MzJat28Z",
+        "https://mobbin.com/api/mcp/short/Ub1bKzqz"
+      ],
+      "platform": "ios",
+      "jobs": ["debrief-annotations"],
+      "take": "AirPlay casting workflow: icon tap, device selection menu with available devices, confirmation of connection, and linked playback controls."
+    },
+    {
+      "id": "mobbin:f4a1c6f0-b7ae-427b-a896-b4f3c2535f41",
+      "source": "mobbin",
+      "app": "Google TV",
+      "title": "Connecting to a TV",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f4a1c6f0-b7ae-427b-a896-b4f3c2535f41",
+      "images": [
+        "https://mobbin.com/api/mcp/short/8sUs8JGX",
+        "https://mobbin.com/api/mcp/short/17vjqT4n",
+        "https://mobbin.com/api/mcp/short/38Tqzi9n",
+        "https://mobbin.com/api/mcp/short/VRfGYo6h",
+        "https://mobbin.com/api/mcp/short/WZ4KKPEA"
+      ],
+      "platform": "ios",
+      "jobs": ["debrief-annotations"],
+      "take": "Multi-step device discovery and connection: navigate to device selection, list nearby devices with status (WiFi/Bluetooth requirement), select target device, confirm connection."
+    }
+  ]
+}

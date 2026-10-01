@@ -1,0 +1,44 @@
+{
+  "product": "luma",
+  "flows": {
+    "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c": {
+      "summary": "Host opens Scan to Check In, confirms a scanned guest on a sheet, then gets a green success toast while the scanner stays ready for the next person.",
+      "steps": [
+        "Scan to Check In — viewfinder + List/Scan toggle",
+        "Guest sheet — name, status Going, Check In",
+        "Green toast — Guest checked in (scan stays open)"
+      ],
+      "steal": [
+        "Confirm-before-commit guest sheet with name/email/status before Check In (step 2) — prevents wrong roster tags.",
+        "Inline green success pill without leaving the scanner (step 3) — keeps throughput for a line of learners.",
+        "List ↔ Scan segmented control + search shortcut (step 1) — QR fail path without abandoning the flow.",
+        "Flashlight control on the scan chrome (step 1) — real rooms are poorly lit."
+      ],
+      "avoid": [
+        "Tagging this as equipment-check — screens only show guest ticket check-in, not room/device setup."
+      ],
+      "fit": "Mobile beats desktop for door-side learner tagging: QR scan + one-tap confirm replaces paper roster / SRV search; same pattern maps to room QR for equipment-check but this flow itself is people only.",
+      "jobs": ["learner-tagging"],
+      "counter_example": false
+    },
+    "mobbin:26b0f3ea-2156-43d2-b580-f4774fbb7fc7": {
+      "summary": "From an event card the host opens Check In, scans a guest, confirms identity, then can Undo Check In after success.",
+      "steps": [
+        "Event card — Invite / Check In / Blast / More",
+        "Camera scan — viewfinder + list + flip camera",
+        "Guest sheet — Jason Smith, Check In",
+        "Success — Check In Successful + Undo Check In"
+      ],
+      "steal": [
+        "Check In as a first-class action on the session/event card (step 1) — not buried in settings.",
+        "Confirm sheet before commit (step 3) — name + status Going + ticket type.",
+        "Undo Check In on the success sheet (step 4) — fast recovery from accidental scan.",
+        "Flip-camera control on the scanner (step 2) — front/rear for badge vs phone-held QR."
+      ],
+      "avoid": [],
+      "fit": "Phone-in-hand at the room door beats TouchPro-only tagging; extends Baseline learner tagging / QR checklist with undo and confirm.",
+      "jobs": ["learner-tagging"],
+      "counter_example": false
+    }
+  }
+}

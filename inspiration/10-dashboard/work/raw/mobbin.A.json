@@ -1,0 +1,128 @@
+{
+  "references": [
+    {
+      "kind": "flow",
+      "id": "mobbin:2abedcd0-4648-4c73-be51-6dd1763ed125",
+      "url": "https://mobbin.com/flows/2abedcd0-4648-4c73-be51-6dd1763ed125",
+      "app": "Notion",
+      "jobs": [
+        "navigation"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/yU4VFsUC",
+        "https://mobbin.com/api/mcp/short/h2ocWxSU",
+        "https://mobbin.com/api/mcp/short/Lrzr3YQs"
+      ],
+      "take": "Notion private workspace home with left sidebar (Home, Trial, Recents, agents, workspace pages, settings), welcome onboarding, and home dashboard showing recently noted, upcoming events, and task list.",
+      "title": "Workspace sidebar and welcome checklist"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:d69bfc89-9340-4478-b035-387a87b188a9",
+      "url": "https://mobbin.com/flows/d69bfc89-9340-4478-b035-387a87b188a9",
+      "app": "Vercel",
+      "jobs": [
+        "navigation"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/rGnHHTF8",
+        "https://mobbin.com/api/mcp/short/2OARwOko"
+      ],
+      "take": "Command palette search (Cmd+K) showing quick project, team, and navigation shortcuts with organized categories (Projects, Teams, General, Navigation)."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:2864eb05-afa4-48d8-8a23-32ce230c90ec",
+      "url": "https://mobbin.com/flows/2864eb05-afa4-48d8-8a23-32ce230c90ec",
+      "app": "Figma",
+      "jobs": [
+        "navigation"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/Fj7ABFGM",
+        "https://mobbin.com/api/mcp/short/hO4BAT3b"
+      ],
+      "take": "Figma home with left sidebar (Recents, Templates and tools, Projects, Drafts, All projects, Trash), main area showing recently viewed files and shared files tabs with file cards."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:dcf29efb-dcab-466a-8460-6b2e95d8a1b4",
+      "url": "https://mobbin.com/flows/dcf29efb-dcab-466a-8460-6b2e95d8a1b4",
+      "app": "ClickUp",
+      "jobs": [
+        "navigation",
+        "role-home"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/h6ffbsyP",
+        "https://mobbin.com/api/mcp/short/eb9lkU6e",
+        "https://mobbin.com/api/mcp/short/8js3whHY",
+        "https://mobbin.com/api/mcp/short/h3tO732w"
+      ],
+      "take": "ClickUp workspace home with left sidebar (Home, Inbox, Docs, Dashboards, Clips, Timesheets, Favorites, Spaces), main dashboard with 'Good morning' greeting, Recents section listing recent work items, and Agenda sidebar."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:8156d93f-6cc0-4988-b7ef-d42de79e9010",
+      "url": "https://mobbin.com/flows/8156d93f-6cc0-4988-b7ef-d42de79e9010",
+      "app": "ClickUp",
+      "jobs": [
+        "navigation"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/djlwRfZq",
+        "https://mobbin.com/api/mcp/short/fL8zv0pF",
+        "https://mobbin.com/api/mcp/short/H91sDpvj",
+        "https://mobbin.com/api/mcp/short/MHK7l7HQ"
+      ],
+      "take": "ClickUp home dashboard with left sidebar, Create button, team/project spaces, main area with Recents (recently accessed items), My Work (task list with Today/Overdue/Next/Unscheduled), and Assigned comments sidebar."
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:6ec8698e-d2a3-4d6f-a711-3e4025e51a71",
+      "url": "https://mobbin.com/flows/6ec8698e-d2a3-4d6f-a711-3e4025e51a71",
+      "app": "Aboard",
+      "jobs": [
+        "role-home"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/XLo7jgQs",
+        "https://mobbin.com/api/mcp/short/czBQYWPk"
+      ],
+      "take": "Admin home (Hello there, Sam; Add employee; Create post; Tasks; Birthdays; Time-off Requests) switches to Employee portal home (Good evening, Alex; Onboarding; Time-off; welcome aboard). Two role-based home layouts.",
+      "title": "Admin home to employee portal"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:63dda702-ffb9-4b29-a69e-a58be8bf9ad9",
+      "url": "https://mobbin.com/flows/63dda702-ffb9-4b29-a69e-a58be8bf9ad9",
+      "app": "Patreon",
+      "jobs": [
+        "role-home"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/3Nvk2OUV",
+        "https://mobbin.com/api/mcp/short/o93crgpn",
+        "https://mobbin.com/api/mcp/short/ixPvLUcu"
+      ],
+      "take": "Account switcher dropdown (Alex Creator, Sam Moderator) showing creator home (My page, Library, Audience, Insights sidebar) vs. creator home with different colored theme and navigation tabs.",
+      "title": "Switch from creator to member home"
+    },
+    {
+      "kind": "flow",
+      "id": "mobbin:8efe875e-06af-4275-b53f-7f76ddce60da",
+      "url": "https://mobbin.com/flows/8efe875e-06af-4275-b53f-7f76ddce60da",
+      "app": "Time2book",
+      "jobs": [
+        "role-home"
+      ],
+      "images": [
+        "https://mobbin.com/api/mcp/short/xgLDGw22",
+        "https://mobbin.com/api/mcp/short/pwJX7rbr",
+        "https://mobbin.com/api/mcp/short/k2LRsvVG",
+        "https://mobbin.com/api/mcp/short/lA0e9Afp"
+      ],
+      "take": "Account role switch from personal to business: Schedule (Overview/Clients/Settings tabs) → My schedule/My passes sidebar navigation changes, showing different role-based home views."
+    }
+  ]
+}

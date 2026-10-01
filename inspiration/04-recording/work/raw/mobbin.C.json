@@ -1,0 +1,144 @@
+{
+  "references": [
+    {
+      "id": "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Turning on push-to-talk",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/2oH9RiHl",
+        "https://mobbin.com/api/mcp/short/AmCiuyGK",
+        "https://mobbin.com/api/mcp/short/31cmNaVv",
+        "https://mobbin.com/api/mcp/short/sAtbRqhk"
+      ],
+      "platform": "ios",
+      "jobs": ["announcements"],
+      "take": "Settings menu shows enabling push-to-talk mode toggle; user accesses audio preferences and switches to 'hold to talk' mode for live speaking."
+    },
+    {
+      "id": "mobbin:4a2af2e6-86bb-4af2-a8cf-dc106008e299",
+      "source": "mobbin",
+      "app": "Amazon Alexa",
+      "title": "Creating an announcement",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4a2af2e6-86bb-4af2-a8cf-dc106008e299",
+      "images": [
+        "https://mobbin.com/api/mcp/short/imiEe5pr",
+        "https://mobbin.com/api/mcp/short/T7syN4Bj",
+        "https://mobbin.com/api/mcp/short/6PKQsKsE",
+        "https://mobbin.com/api/mcp/short/BIUhxLBX",
+        "https://mobbin.com/api/mcp/short/NHnLlTW2"
+      ],
+      "platform": "ios",
+      "jobs": ["announcements"],
+      "take": "User navigates to Announcements, records or types message, selects sound effects or uses pre-recorded content, and broadcasts result to all Alexa devices with confirmation screen."
+    },
+    {
+      "id": "mobbin:208eda35-ad22-4f2e-bde2-2b8c24e68e9b",
+      "source": "mobbin",
+      "app": "WhatsApp",
+      "title": "Creating a broadcast message",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/208eda35-ad22-4f2e-bde2-2b8c24e68e9b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FlkkPyQj",
+        "https://mobbin.com/api/mcp/short/cayTEzSx",
+        "https://mobbin.com/api/mcp/short/To64BYDq",
+        "https://mobbin.com/api/mcp/short/Vi9N91XG",
+        "https://mobbin.com/api/mcp/short/iwydKTKy"
+      ],
+      "platform": "ios",
+      "jobs": ["announcements"],
+      "take": "User opens new broadcast list dialog, selects multiple recipients from contact list, types message, and sends announcement to selected broadcast group."
+    },
+    {
+      "id": "mobbin:74bc6276-56b0-44b9-9a2b-cd8ed27f650f",
+      "source": "mobbin",
+      "app": "Luma",
+      "title": "Checking in a guest",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/74bc6276-56b0-44b9-9a2b-cd8ed27f650f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FudgwhiB",
+        "https://mobbin.com/api/mcp/short/QlYOJJfD",
+        "https://mobbin.com/api/mcp/short/aMMlH0no",
+        "https://mobbin.com/api/mcp/short/h5qFE0Iz",
+        "https://mobbin.com/api/mcp/short/UMB3t7Kv",
+        "https://mobbin.com/api/mcp/short/AaLfYfBa",
+        "https://mobbin.com/api/mcp/short/V6ggci3S",
+        "https://mobbin.com/api/mcp/short/4PGzgcDj"
+      ],
+      "platform": "ios",
+      "jobs": ["participant-tagging"],
+      "take": "Full QR-code check-in flow: scanner opens with camera viewfinder, recognizes ticket QR code, displays guest card with email and status, tap to check-in, success toast, and undo option visible."
+    },
+    {
+      "id": "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c",
+      "source": "mobbin",
+      "app": "Luma",
+      "title": "Checking in a guest (scan QR code)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/024a7f32-0ecc-4767-9123-0fb0830f256c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/udfj6I8A",
+        "https://mobbin.com/api/mcp/short/mgHsq9zw",
+        "https://mobbin.com/api/mcp/short/nQwt2OUr"
+      ],
+      "platform": "ios",
+      "jobs": ["participant-tagging"],
+      "take": "Quick QR scan flow: camera ready to scan, guest card appears mid-scan, success notification shows guest is checked-in."
+    },
+    {
+      "id": "mobbin:c89738be-2928-4ed1-94ac-f730f042656c",
+      "source": "mobbin",
+      "app": "Partiful",
+      "title": "Cancelling a check in",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c89738be-2928-4ed1-94ac-f730f042656c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/v68vQdIq",
+        "https://mobbin.com/api/mcp/short/hGzoa0zD",
+        "https://mobbin.com/api/mcp/short/aUKWmKoj"
+      ],
+      "platform": "ios",
+      "jobs": ["participant-tagging"],
+      "take": "Undo check-in modal appears on guest list, user confirms 'Undo check-in' action, and guest status reverts to unchecked."
+    },
+    {
+      "id": "mobbin:cd3469d9-df14-4fa5-8003-021c7055af7e",
+      "source": "mobbin",
+      "app": "Luma",
+      "title": "Checking in a guest (manual check-in)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/cd3469d9-df14-4fa5-8003-021c7055af7e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/f1gYQ9Hy",
+        "https://mobbin.com/api/mcp/short/UfcHKy73",
+        "https://mobbin.com/api/mcp/short/qH9wqJjw",
+        "https://mobbin.com/api/mcp/short/549dcuJI"
+      ],
+      "platform": "ios",
+      "jobs": ["participant-tagging"],
+      "take": "Manual check-in from guest list: guest card displayed with manual check-in button, success notification shows participant is now checked-in."
+    },
+    {
+      "id": "mobbin:825f233b-9f3e-40c6-a2bb-8fa14d50b8f5",
+      "source": "mobbin",
+      "app": "LinkedIn",
+      "title": "Adding a tag",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/825f233b-9f3e-40c6-a2bb-8fa14d50b8f5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/nhUsIjL3",
+        "https://mobbin.com/api/mcp/short/iSWPRHU0",
+        "https://mobbin.com/api/mcp/short/vU2BwGa3",
+        "https://mobbin.com/api/mcp/short/Rz6iMVKa"
+      ],
+      "platform": "ios",
+      "jobs": ["participant-tagging"],
+      "take": "Tag interface: shows profile card, opens tag search with suggestions, selects one tag, and applies it to person with final confirmation view."
+    }
+  ]
+}

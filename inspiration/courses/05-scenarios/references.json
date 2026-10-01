@@ -1,37 +1,37 @@
 {
   "module": "05-scenarios",
-  "title": "Adding scenarios to courses",
-  "intro": "Semester \u2192 Courses \u2192 Scenarios. Research into selecting reusable scenarios from institutional and personal libraries, placing them in a course, and managing their sequence and course-specific settings. Scenario authoring is out of scope; events, competencies, learner visibility and Canvas hand-off are neighbouring concerns.",
+  "title": "Scenarios in courses: ideas from other products",
+  "intro": "This page gathers ideas for adding reusable scenarios to a course inside Courses in Essentials 2.0. It looks at how instructors pick items from institutional and personal libraries, place them in a course, and manage order and course-specific settings. Screenshots come from the design reference libraries Mobbin and Refero. Scenario authoring is out of scope. Events, competencies, learner visibility and Canvas hand-off sit in neighbouring areas.",
   "questions": [
     {
       "id": "Q1",
-      "title": "Library browse UX: search, filters (tags, competency, duration), preview before adding",
-      "answer": "Figma separates finding a reusable item from inspecting and inserting it: Assets search and library filters lead to a Details preview with provenance and \u201cInsert instance\u201d (refero:flow-5039; refero:screen-2e0d5f12). Canva keeps a large preview visible while options change (refero:flow-8062). MasterClass supplies compact category/filter discovery, but in a learner context (mobbin:666b7eaa-84c1-4d32-a152-9b6ae3ae9eb9). For Essentials, combine searchable institutional/own libraries with optional scenario inspection and a persistent selection basket. Competency, duration and equipment filters are proposed domain adaptations, not demonstrated together by this set."
+      "title": "How do people search, filter and preview a library before adding an item?",
+      "answer": "Figma separates finding a reusable item from inspecting and inserting it. Assets search and library filters lead to a Details preview with source info and 'Insert instance' (Figma assets flow; Figma details preview). Canva keeps a large preview visible while options change (Canva template preview). MasterClass has compact category and filter discovery, but for learners rather than authors (MasterClass lesson library). For Essentials, combine searchable institutional and own libraries with optional scenario inspection and a selection list that stays as people browse. Filters for competency, duration and equipment are ideas for our product; this set does not show them together."
     },
     {
       "id": "Q2",
-      "title": "Multi-select and batch add vs. one at a time",
-      "answer": "Teachable imports checked lessons from a source course into a destination curriculum (mobbin:e8676237-6e24-4e98-90a2-e37bfa82f60a). PandaDoc makes batch scope explicit with \u201cAdd 2 items\u201d and confirms insertion in the document (mobbin:7833133c-7d81-4179-86a5-6ba8ce80b92c). Canva offers a single-design \u201cCopy to course\u201d / \u201cMove\u201d choice (mobbin:4fb0fdd5-431c-4702-9bb5-fbcb4d78c2df). Circle\u2019s one-question authoring flow is a counterexample for this reuse task (mobbin:327fbad0-5e87-48c9-b7cf-fb0f5bcce035). Essentials should let instructors select several known scenarios, review a count, and add them once into a chosen section."
+      "title": "Can people select several items and add them together, or only one at a time?",
+      "answer": "Teachable imports checked lessons from a source course into a destination curriculum (Teachable import). PandaDoc makes the batch clear with 'Add 2 items' and confirms insertion in the document (PandaDoc content library). Canva offers a single-design 'Copy to course' or 'Move' choice (Canva copy to course). Circle's one-question authoring flow is an example of what not to do for this reuse task (Circle add question). Essentials should let instructors select several known scenarios, review a count, and add them once into a chosen section."
     },
     {
       "id": "Q3",
-      "title": "Instance vs. reference semantics (edits to master propagate? per-course overrides?)",
-      "answer": "Figma visibly inserts a library instance, identifies its source and offers a variable-mode choice (refero:flow-5040). Ditto explicitly attaches selected text to a named library component and confirms the relationship (mobbin:9d28e0e2-ba12-4eb5-9a77-c3227f36b647). Notion exposes \u201cSynced block,\u201d while Canva shows a choose-and-edit handoff; neither capture establishes later synchronization (mobbin:b8778e0e-13d3-49a6-9f01-3680ea66249b; refero:flow-8062-q3). None of these captures verifies master-update propagation or override survival. Essentials needs an explicit decision on linked version, pinned copy and course-only settings before choosing interaction copy."
+      "title": "When you add a library item, is it a copy or a link: do later edits to the original reach the course, and can the course change its own settings?",
+      "answer": "Figma inserts a linked copy of a library item, names its source and lets you pick which set of variables to use (Figma insert instance). Ditto attaches selected text to a named library component and confirms the link (Ditto attach). Notion shows 'Synced block', and Canva shows a choose-then-edit path into the editor; neither screenshot set shows later sync (Notion synced block; Canva template path). None of these screenshots show whether later changes to the original reach the course, or whether course overrides survive. Essentials needs a clear decision on a linked version, a fixed copy and course-only settings before writing the wording on screen."
     },
     {
       "id": "Q4",
-      "title": "Sequencing after add (drag reorder, grouping into sections, prerequisites between items)",
-      "answer": "Circle supplies direct before/after evidence of moving a whole section while preserving its lessons and Draft labels (mobbin:0489e85e-877c-41fc-92dc-6e6e7bc9c7da). Kajabi makes grouped content and Draft/Publish/Drip/Lock states visible; Podia shows a delayed section; Teachable exposes date- or enrollment-based section release (mobbin:5b4497cf-d3c9-445f-bff6-754fbbb1cf7c; mobbin:0aed2e1a-0de0-4f32-9dba-2d5a627a1e87; mobbin:e84f7cdf-c9b2-4a3d-bddf-31e53e19e509). The evidence supports in-place grouping and sequence management. It does not demonstrate item-prerequisite configuration. Keep sequence distinct from event scheduling and learner release."
+      "title": "After items are added, how do people reorder them, group them into sections and set prerequisites?",
+      "answer": "Circle shows before and after moving a whole section while keeping its lessons and Draft labels (Circle section reorder). Kajabi makes grouped content visible along with Draft, Publish, 'Drip' and 'Lock' labels. Podia shows a delayed section; Teachable shows section release by date or days after enrollment (Kajabi outline; Podia delayed section; Teachable drip). The screenshots support grouping and sequence management in place. They do not show setup of prerequisites between items. Keep sequence separate from event scheduling and learner release."
     },
     {
       "id": "Q5",
-      "title": "Metadata carried along (competencies, duration, equipment) and shown in the outline",
-      "answer": "Mindvalley, MasterClass and Udemy retain activity titles, numbering and duration in learner outlines (mobbin:99d3f73c-a804-4e4d-9b11-132afbe8ab1c; mobbin:eeaba88c-51dc-44b0-8c15-cf8775b9c361; mobbin:987d1aea-1d31-4f63-ae58-5989ee6837c7). These support a scannable outline, but they do not show metadata being copied by an instructor from a master library. For Essentials, duration, competencies and equipment are candidate course-row fields; their provenance, editability and learner visibility remain design decisions. Event links should lead to the Events sub-module rather than imply that adding a scenario schedules it."
+      "title": "Which details (competencies, duration, equipment) come along with an item and show in the course outline?",
+      "answer": "Mindvalley, MasterClass and Udemy keep activity titles, numbering and duration in learner outlines (Mindvalley program detail; MasterClass outline; Udemy lecture list). That supports a scannable outline, but none of the screenshots show an instructor copying those details from an original library item. For Essentials, duration, competencies and equipment could appear as fields on each course row; where they come from, who can edit them and what learners see are still design decisions. Event links should open the Events area rather than imply that adding a scenario schedules it."
     },
     {
       "id": "Q6",
-      "title": "Empty / first-run state and suggestions",
-      "answer": "Podia reduces first-run uncertainty with lightweight guidance and example content; Kajabi shows an editable starter outline (mobbin:6d57146d-b827-45d3-800f-d925dc03c06c; mobbin:8edcefcc-f539-46e6-a13a-d0ed44fa3308). Teachable offers outline methods and an explained empty course list (refero:screen-4f0eb823; refero:flow-9573-q6). Circle shows an empty section with inline add controls but no library route in the captured state (mobbin:5341f9e1-8516-4a2f-b941-a3ef17a2f63f). Essentials should open with \u201cBrowse scenario library,\u201d optional suggested scenarios and clear empty/search-empty states. MasterClass\u2019s captured no-results message coexists with an unrelated course card, making the search state ambiguous (refero:screen-75721406). Suggested items should remain editable and should not silently become scheduled learner activities."
+      "title": "What does a new, empty course show, and how are suggestions offered?",
+      "answer": "Podia eases the first empty course with light guidance and example content; Kajabi shows an editable starter outline (Podia course builder; Kajabi generated outline). Teachable offers outline methods and an explained empty course list (Teachable outline methods; Teachable empty courses). Circle shows an empty section with add buttons on the same screen but no library path (Circle empty lessons). Essentials should open with 'Browse scenario library', optional suggested scenarios and clear empty and no-results screens. MasterClass's no-results message sits beside an unrelated course card, so what the search found is unclear (MasterClass no-results). Suggested items should stay editable and should not silently become scheduled learner activities."
     }
   ],
   "references": [
@@ -39,7 +39,7 @@
       "id": "refero:flow-8062",
       "source": "refero",
       "app": "Canva",
-      "title": "Template preview with live customization",
+      "title": "Template preview with live options",
       "kind": "flow",
       "url": "https://refero.design/flows/8062",
       "images": [
@@ -49,7 +49,7 @@
         "https://images.refero.design/screenshots/canva.com/desktop/07eb6e97-a1df-4a53-afa9-2c1aa3e0e9af_thumb.jpg"
       ],
       "question": "Q1",
-      "take": "Suggested templates remain visible beside a live customizable preview and Use Canva Editor, but search/filter and course-add are absent.",
+      "take": "Suggested templates stay visible beside a live preview and Use Canva Editor. Search, filters and course-add are not on this screen.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -58,7 +58,7 @@
       "id": "refero:flow-5039",
       "source": "refero",
       "app": "Figma",
-      "title": "Asset library selection and filtering",
+      "title": "Asset library search and filters",
       "kind": "flow",
       "url": "https://refero.design/flows/5039",
       "images": [
@@ -67,7 +67,7 @@
         "https://images.refero.design/screenshots/figma.com/desktop/59a02c01-137f-47cd-acd5-fb72053de039_thumb.jpg"
       ],
       "question": "Q1",
-      "take": "Figma exposes an Assets panel with a search field, shared-library toggles, and grid/list layout controls before insertion.",
+      "take": "Figma shows an Assets panel with a search field, shared-library toggles, and grid or list layout controls before insertion.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -76,14 +76,14 @@
       "id": "refero:screen-2e0d5f12",
       "source": "refero",
       "app": "Figma",
-      "title": "Component details preview popover",
+      "title": "Component details before insert",
       "kind": "screen",
       "url": "https://refero.design/pages/2e0d5f12-305f-4ba5-a23d-89cde11a2aa8",
       "images": [
         "https://images.refero.design/screenshots/figma.com/desktop/d3da2d64-0791-4edc-9c8a-7e626fed161b_thumb.jpg"
       ],
       "question": "Q1",
-      "take": "Figma uses a focused details popup to inspect a reusable review-card component before committing it to the canvas.",
+      "take": "Figma opens a focused details pop-up so you can inspect a reusable review-card component before placing it on the canvas.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -101,7 +101,7 @@
         "https://mobbin.com/api/mcp/short/WvAvljgC"
       ],
       "question": "Q1",
-      "take": "Library shows search, category chips, Filters/Clear filters, and categorized lesson rows; it is learner discovery with no author add action.",
+      "take": "The library shows search, category filters, Filters and Clear filters, and lesson rows by category. This is learner discovery; there is no author add action.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -110,7 +110,7 @@
       "id": "refero:flow-9573",
       "source": "refero",
       "app": "Teachable",
-      "title": "Create and publish course",
+      "title": "Create and publish a course",
       "kind": "flow",
       "url": "https://refero.design/flows/9573",
       "images": [
@@ -124,7 +124,7 @@
         "https://images.refero.design/screenshots/teachable.com/desktop/baf81e06-e9a5-4321-88cd-ae082e177b5d_thumb.jpg"
       ],
       "question": "Q1",
-      "take": "Shows an empty course list and a guided create-course wizard, not reusable-library browsing or scenario preview/add.",
+      "take": "Shows an empty course list and a guided create-course flow, not reusable-library browsing or scenario preview and add.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -133,7 +133,7 @@
       "id": "mobbin:4fb0fdd5-431c-4702-9bb5-fbcb4d78c2df",
       "source": "mobbin",
       "app": "Canva",
-      "title": "Choose and copy a design into a course",
+      "title": "Copy a design into a course",
       "kind": "flow",
       "url": "https://mobbin.com/flows/4fb0fdd5-431c-4702-9bb5-fbcb4d78c2df",
       "images": [
@@ -145,7 +145,7 @@
         "https://mobbin.com/api/mcp/short/BgDeaCUx"
       ],
       "question": "Q2",
-      "take": "Choose design searches existing work, offers Copy to course or Move, and returns the copied item to Activities; only one design can be selected.",
+      "take": "Choose design searches existing work, offers Copy to course or Move, and returns the copied item to Activities. Only one design can be selected.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -164,7 +164,7 @@
         "https://mobbin.com/api/mcp/short/4V7ljd5d"
       ],
       "question": "Q2",
-      "take": "Add question configures and commits one original quiz question per modal; no library, multi-select, or batch add is visible.",
+      "take": "Add question sets up and saves one original quiz question in a pop-up window. No library, multi-select or batch add is visible.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -173,7 +173,7 @@
       "id": "mobbin:7833133c-7d81-4179-86a5-6ba8ce80b92c",
       "source": "mobbin",
       "app": "PandaDoc",
-      "title": "Add items from a content library with selection and batch add",
+      "title": "Select and batch-add library items",
       "kind": "flow",
       "url": "https://mobbin.com/flows/7833133c-7d81-4179-86a5-6ba8ce80b92c",
       "images": [
@@ -185,7 +185,7 @@
         "https://mobbin.com/api/mcp/short/Fn1Xq2VN"
       ],
       "question": "Q2",
-      "take": "Searchable Content Library supports multiple selected cards, Deselect all, a count-aware Add 2 items action, and immediate insertion of both blocks.",
+      "take": "A searchable Content Library supports several selected cards, Deselect all, an Add 2 items action that names the count, and immediate insertion of both blocks.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -205,7 +205,7 @@
         "https://mobbin.com/api/mcp/short/F0KfuEa7"
       ],
       "question": "Q2",
-      "take": "Import content selects a source course, exposes row/section checkboxes plus Select all/none, imports several lessons in one action, then shows them in Curriculum with a completion toast.",
+      "take": "Import content picks a source course and shows row and section checkboxes plus Select all and none. It imports several lessons in one action, then shows them in Curriculum with a short confirmation message.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -214,7 +214,7 @@
       "id": "mobbin:8c62da99-7eb3-46dd-9610-d7d932070129",
       "source": "mobbin",
       "app": "Teachable",
-      "title": "Build a quiz by adding questions within a lesson",
+      "title": "Build a quiz inside a lesson",
       "kind": "flow",
       "url": "https://mobbin.com/flows/8c62da99-7eb3-46dd-9610-d7d932070129",
       "images": [
@@ -228,7 +228,7 @@
         "https://mobbin.com/api/mcp/short/yRKYJqLg"
       ],
       "question": "Q2",
-      "take": "Quiz builder edits one question and its answers inline, then offers New question; useful authoring counterexample, with no reusable-library batch selection.",
+      "take": "The quiz builder edits one question and its answers on the same screen, then offers New question. Useful as an authoring example of what not to do for reusable-library batch selection.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -237,14 +237,14 @@
       "id": "refero:flow-8062-q3",
       "source": "refero",
       "app": "Canva",
-      "title": "Apply changes to a template instance",
+      "title": "Edit a chosen template copy",
       "kind": "flow",
       "url": "https://refero.design/flows/8062",
       "images": [
         "https://images.refero.design/screenshots/canva.com/desktop/e4600d1b-71ca-45b5-bd6a-51d3c7a6f9b9_thumb.jpg"
       ],
       "question": "Q3",
-      "take": "AI request, three generated choices, selected design, Color control, and Use Canva Editor handoff suggest choose-then-edit template-copy semantics; no source link, propagation, or overrides shown. Candidate counterexample.",
+      "take": "An AI request, three generated choices, a selected design, a Color control and Use Canva Editor suggest choose-then-edit copy behaviour. No source link, later updates to the original or overrides are shown. Possible example of what not to do.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -253,7 +253,7 @@
       "id": "mobbin:9d28e0e2-ba12-4eb5-9a77-c3227f36b647",
       "source": "mobbin",
       "app": "Ditto",
-      "title": "Attach text to an existing library component",
+      "title": "Attach text to a library component",
       "kind": "flow",
       "url": "https://mobbin.com/flows/9d28e0e2-ba12-4eb5-9a77-c3227f36b647",
       "images": [
@@ -263,7 +263,7 @@
         "https://mobbin.com/api/mcp/short/QjNxL1o1"
       ],
       "question": "Q3",
-      "take": "Select text \u2192 Library \u2192 Attach to existing component \u2192 select exact-match hero-title \u2192 Attach \u2192 linked label and confirmation toast. Propagation and overrides unverified.",
+      "take": "Select text, open Library, Attach to existing component, pick the matching hero-title, then Attach. A linked label and confirmation message appear. The screenshots do not show later changes to the original or overrides.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -272,7 +272,7 @@
       "id": "refero:flow-5040",
       "source": "refero",
       "app": "Figma",
-      "title": "Insert and configure a component instance",
+      "title": "Insert and set up a linked library item",
       "kind": "flow",
       "url": "https://refero.design/flows/5040",
       "images": [
@@ -285,7 +285,7 @@
         "https://images.refero.design/screenshots/figma.com/desktop/caff715e-04f1-4460-bfc7-fb8048c44fcd_thumb.jpg"
       ],
       "question": "Q3",
-      "take": "Browse library \u2192 Cards \u2192 Review Card details \u2192 Insert instance \u2192 choose variable mode \u2192 place card; selected instance visibly names Review Card and Simple Design System source. Propagation and override survival unverified.",
+      "take": "Browse library, open Cards, open Review Card details, choose 'Insert instance', pick which variables to use, then place the card. The selected item names Review Card and the Simple Design System source. The screenshots do not show whether later changes to the original reach the course, or whether overrides survive.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -294,14 +294,14 @@
       "id": "mobbin:b8778e0e-13d3-49a6-9f01-3680ea66249b",
       "source": "mobbin",
       "app": "Notion",
-      "title": "Insert a synced block from the advanced blocks menu",
+      "title": "Insert a synced block from the menu",
       "kind": "screen",
       "url": "https://mobbin.com/screens/b8778e0e-13d3-49a6-9f01-3680ea66249b",
       "images": [
         "https://mobbin.com/api/mcp/short/BnZU4tDF"
       ],
       "question": "Q3",
-      "take": "Advanced blocks visibly offers Synced block as an insertion choice; created block, source identity, edits, propagation, and overrides are not shown.",
+      "take": "Advanced blocks offers Synced block as an insertion choice. The created block, source identity, edits, update spread and overrides are not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -321,7 +321,7 @@
         "https://mobbin.com/api/mcp/short/4HRgPJdh"
       ],
       "question": "Q4",
-      "take": "Five frames show a newly present fifth lesson, the complete Culinary Explorations section lifted, moved above The World of Potatoes, and settled with lesson membership and Draft states preserved.",
+      "take": "Five frames show a new fifth lesson, then the whole Culinary Explorations section lifted above The World of Potatoes, still holding its lessons and Draft states.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -330,14 +330,14 @@
       "id": "mobbin:5b4497cf-d3c9-445f-bff6-754fbbb1cf7c",
       "source": "mobbin",
       "app": "Kajabi",
-      "title": "Course outline with modules, statuses, and add content",
+      "title": "Outline with modules, statuses and add content",
       "kind": "screen",
       "url": "https://mobbin.com/screens/5b4497cf-d3c9-445f-bff6-754fbbb1cf7c",
       "images": [
         "https://mobbin.com/api/mcp/short/TyuvKxHs"
       ],
       "question": "Q4",
-      "take": "One authoring screen shows four grouped modules, Add Content controls, collapse controls, and Draft, Publish, Drip, and Lock labels; no ordering action or prerequisite setup is shown.",
+      "take": "One authoring screen shows four grouped modules, Add Content controls, collapse controls, and Draft, Publish, 'Drip' and 'Lock' labels. No reorder action or prerequisite setup is shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -346,14 +346,14 @@
       "id": "mobbin:0aed2e1a-0de0-4f32-9dba-2d5a627a1e87",
       "source": "mobbin",
       "app": "Podia",
-      "title": "Course lessons grouped into sections with delayed release",
+      "title": "Lessons grouped in sections with delay",
       "kind": "screen",
       "url": "https://mobbin.com/screens/0aed2e1a-0de0-4f32-9dba-2d5a627a1e87",
       "images": [
         "https://mobbin.com/api/mcp/short/Ec5ZudwW"
       ],
       "question": "Q4",
-      "take": "The authoring screen shows New lesson and New section controls, lessons grouped in sections, and a module labeled Delayed 1 day; no reorder action or item prerequisite is shown.",
+      "take": "The authoring screen shows New lesson and New section, lessons grouped in sections, and a module labeled Delayed 1 day. No reorder action or item prerequisite is shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -362,14 +362,14 @@
       "id": "mobbin:e84f7cdf-c9b2-4a3d-bddf-31e53e19e509",
       "source": "mobbin",
       "app": "Teachable",
-      "title": "Curriculum outline with draggable lessons and sections",
+      "title": "Curriculum with sections and release timing",
       "kind": "screen",
       "url": "https://mobbin.com/screens/e84f7cdf-c9b2-4a3d-bddf-31e53e19e509",
       "images": [
         "https://mobbin.com/api/mcp/short/XLM7bEi4"
       ],
       "question": "Q4",
-      "take": "A sectioned curriculum shows lesson rows and creation controls; an open Drip panel configures release by date or days after enrollment. Grip icons are visible, but movement is not demonstrated.",
+      "take": "A sectioned curriculum shows lesson rows and creation controls. An open Drip panel sets release by date or days after enrollment. Grip icons are visible, but movement is not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -378,14 +378,14 @@
       "id": "mobbin:045c215d-6e08-432c-9bb6-3ddd4495fc69",
       "source": "mobbin",
       "app": "Udemy",
-      "title": "Curriculum grouped into numbered sections",
+      "title": "Curriculum in numbered sections",
       "kind": "screen",
       "url": "https://mobbin.com/screens/045c215d-6e08-432c-9bb6-3ddd4495fc69",
       "images": [
         "https://mobbin.com/api/mcp/short/pHIF8VGW"
       ],
       "question": "Q4",
-      "take": "The learner view shows 14 sections, 88 lectures, numbered lessons in an expanded first section, and collapsed later sections; authoring, reorder, and prerequisite controls are absent.",
+      "take": "The learner view shows 14 sections, 88 lectures, numbered lessons in an expanded first section, and later sections collapsed. Authoring, reorder and prerequisite controls are absent.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -394,14 +394,14 @@
       "id": "mobbin:eeaba88c-51dc-44b0-8c15-cf8775b9c361",
       "source": "mobbin",
       "app": "MasterClass",
-      "title": "Course outline with numbered sections and activity duration",
+      "title": "Outline with numbered sections and duration",
       "kind": "screen",
       "url": "https://mobbin.com/screens/eeaba88c-51dc-44b0-8c15-cf8775b9c361",
       "images": [
         "https://mobbin.com/api/mcp/short/223C4Scu"
       ],
       "question": "Q5",
-      "take": "Desktop learner outline shows numbered sections and an expanded activity with sequence, thumbnail, title, description, and 5-minute duration.",
+      "take": "The desktop learner outline shows numbered sections and an expanded activity with sequence, thumbnail, title, description and a 5-minute duration.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -410,14 +410,14 @@
       "id": "mobbin:72dcf33e-58e8-486f-a178-583a2d411f67",
       "source": "mobbin",
       "app": "MasterClass",
-      "title": "Mobile curriculum with numbered sections and lesson duration",
+      "title": "Mobile curriculum with duration",
       "kind": "screen",
       "url": "https://mobbin.com/screens/72dcf33e-58e8-486f-a178-583a2d411f67",
       "images": [
         "https://mobbin.com/api/mcp/short/OX2uhZGh"
       ],
       "question": "Q5",
-      "take": "Mobile curriculum shows numbered sections and expanded activity cards with sequence, thumbnail, title, and a 4-minute estimate where supplied.",
+      "take": "The mobile curriculum shows numbered sections and expanded activity cards with sequence, thumbnail, title and a 4-minute estimate where supplied.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -426,7 +426,7 @@
       "id": "mobbin:99d3f73c-a804-4e4d-9b11-132afbe8ab1c",
       "source": "mobbin",
       "app": "Mindvalley",
-      "title": "Program detail flow with lesson count, duration, enrollment, and lesson list",
+      "title": "Program detail with counts and durations",
       "kind": "flow",
       "url": "https://mobbin.com/flows/99d3f73c-a804-4e4d-9b11-132afbe8ab1c",
       "images": [
@@ -438,7 +438,7 @@
         "https://mobbin.com/api/mcp/short/d4E2o4GZ"
       ],
       "question": "Q5",
-      "take": "Program detail shows 29 lessons and 11h 34m; its Lessons view shows per-item minutes, and a resource card shows type plus 5-minute duration. Automatic source-to-outline copying is not shown.",
+      "take": "Program detail shows 29 lessons and 11h 34m. The Lessons view shows minutes per item, and a resource card shows type plus a 5-minute duration. Automatic copying from a source into the outline is not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -454,7 +454,7 @@
         "https://images.refero.design/screenshots/teachable.com/desktop/cefaef65-99e0-4a78-a75f-a1a58361c0a1_thumb.jpg"
       ],
       "question": "Q5",
-      "take": "Outline creation asks for course title and student-facing description and offers AI generation, but no curriculum item metadata or transfer is visible.",
+      "take": "Outline creation asks for a course title and student-facing description and offers AI generation. No curriculum item details or transfer is visible.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -463,14 +463,14 @@
       "id": "mobbin:987d1aea-1d31-4f63-ae58-5989ee6837c7",
       "source": "mobbin",
       "app": "Udemy",
-      "title": "Course lecture list with durations, section grouping, and downloads",
+      "title": "Lecture list with durations and downloads",
       "kind": "screen",
       "url": "https://mobbin.com/screens/987d1aea-1d31-4f63-ae58-5989ee6837c7",
       "images": [
         "https://mobbin.com/api/mcp/short/LuJZKmWG"
       ],
       "question": "Q5",
-      "take": "Learner lecture outline keeps section, lesson number, media type, title, remaining duration, and download affordance together.",
+      "take": "The learner lecture outline keeps section, lesson number, media type, title, remaining duration and a download control together.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -479,14 +479,14 @@
       "id": "mobbin:5341f9e1-8516-4a2f-b941-a3ef17a2f63f",
       "source": "mobbin",
       "app": "Circle",
-      "title": "Empty lessons state with inline add controls",
+      "title": "Empty lessons with add buttons",
       "kind": "screen",
       "url": "https://mobbin.com/screens/5341f9e1-8516-4a2f-b941-a3ef17a2f63f",
       "images": [
         "https://mobbin.com/api/mcp/short/okp6nuQ8"
       ],
       "question": "Q6",
-      "take": "Shows 1 section, 0 lessons, editable Untitled section - 1, Add new, and Add section. No suggestions, examples, guidance, or library route.",
+      "take": "Shows 1 section, 0 lessons, an editable Untitled section - 1, Add new and Add section on the same screen. No suggestions, examples, guidance or library path.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -495,14 +495,14 @@
       "id": "mobbin:8edcefcc-f539-46e6-a13a-d0ed44fa3308",
       "source": "mobbin",
       "app": "Kajabi",
-      "title": "Generated course outline with search and add content",
+      "title": "Starter outline with search and add content",
       "kind": "screen",
       "url": "https://mobbin.com/screens/8edcefcc-f539-46e6-a13a-d0ed44fa3308",
       "images": [
         "https://mobbin.com/api/mcp/short/BbnnJCVA"
       ],
       "question": "Q6",
-      "take": "Confirms successful outline creation, then shows search, three populated modules, global and module Add content actions, expandable rows, and Draft controls. Generation itself is not shown.",
+      "take": "Confirms successful outline creation, then shows search, three populated modules, global and module Add content actions, expandable rows and Draft controls. Generation itself is not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -511,14 +511,14 @@
       "id": "refero:screen-75721406",
       "source": "refero",
       "app": "MasterClass",
-      "title": "Search with an explicit no-results state",
+      "title": "Search with a no-results message",
       "kind": "screen",
       "url": "https://refero.design/pages/75721406-e435-4853-b334-8dca447af0d9",
       "images": [
         "https://images.refero.design/screenshots/masterclass.com/desktop/949bdb34-ad25-4401-b367-147f4b7c5616_thumb.jpg"
       ],
       "question": "Q6",
-      "take": "Reports No results found for \u201cbuddism\u201d while category controls, filters, and an unrelated Terence Tao course card remain visible, creating an ambiguous empty-result state; counterexample.",
+      "take": "Reports No results found for 'buddism' while category controls, filters and an unrelated Terence Tao course card stay visible, so what the search found is unclear. Example of what not to do.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -527,14 +527,14 @@
       "id": "mobbin:6d57146d-b827-45d3-800f-d925dc03c06c",
       "source": "mobbin",
       "app": "Podia",
-      "title": "Course builder with setup guidance and starter outline",
+      "title": "Course builder with guidance and starter outline",
       "kind": "screen",
       "url": "https://mobbin.com/screens/6d57146d-b827-45d3-800f-d925dc03c06c",
       "images": [
         "https://mobbin.com/api/mcp/short/Vtm8qhR7"
       ],
       "question": "Q6",
-      "take": "Combines How to create an online course/See how guidance, New lesson/New section actions, and starter content with sample text, video, and quiz lessons.",
+      "take": "Combines How to create an online course and See how guidance, New lesson and New section actions, and starter content with sample text, video and quiz lessons.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -543,14 +543,14 @@
       "id": "refero:flow-9573-q6",
       "source": "refero",
       "app": "Teachable",
-      "title": "Course creation onboarding from empty state",
+      "title": "Course creation from an empty list",
       "kind": "flow",
       "url": "https://refero.design/flows/9573",
       "images": [
         "https://images.refero.design/screenshots/teachable.com/desktop/8fb87bce-5e57-4056-91ef-8b00b4a2d294_thumb.jpg"
       ],
       "question": "Q6",
-      "take": "Empty Courses table explains where created courses appear and offers Create course plus Learn more. Only the flow entry screen is available locally, so later steps are unverified.",
+      "take": "An empty Courses table explains where new courses will appear and offers 'Create course' and 'Learn more'. Only the first screen of this sequence was collected, so what comes next is not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -566,7 +566,7 @@
         "https://images.refero.design/screenshots/teachable.com/desktop/3bd5b765-12e2-4cd9-bdbc-5e2ed41858f8_thumb.jpg"
       ],
       "question": "Q6",
-      "take": "Step 5/5 presents Generate with AI from a description, Start from scratch, and Bulk upload as distinct curriculum paths, with Back and Finish controls.",
+      "take": "On the last of five setup steps ('Step 5/5'), Teachable offers three ways to build the course outline: 'Generate with AI' from a description, 'Start from scratch' and 'Bulk upload'. 'Back' and 'Finish' buttons sit below.",
       "counter_example": false,
       "selected": false,
       "crop": ""

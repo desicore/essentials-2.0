@@ -1,0 +1,23 @@
+{
+  "product": "frame-io",
+  "flows": {
+    "mobbin:c537e383-521f-4785-8478-0ba54a3e6f74": {
+      "summary": "From the share sidebar, user sets an expiration via presets/calendar+time, confirms Dec 31 11:59pm, and lands on a set expiry with Edit/clear while passphrase and permission toggles stay visible.",
+      "steps": [
+        "Share sidebar · Expiration Not set",
+        "Expiry picker · presets + time",
+        "Select Dec 31 · 11:59pm",
+        "Expiration set · Edit / clear"
+      ],
+      "steal": [
+        "Step 0: share stays a persistent right sidebar beside the video asset — configure without leaving review context.",
+        "Step 1: relative presets ('24 Hours', '1 Week', '2 Weeks') above calendar + hour/minute/AM-PM — fast defaults for post-debrief windows.",
+        "Step 2–3: summary line 'Expiration date Dec 31 at 11:59pm', then compact 'Dec 31 at 11:59pm' with Edit and X clear.",
+        "Step 0/3: Comments / Downloads / Show all versions as independent toggles next to Security (passphrase + expiry)."
+      ],
+      "avoid": [],
+      "fit": "Best Baseline match for video share-after-debrief: sidebar next to playback, expiry presets for limited learner access, Downloads toggle — still add consent before any download of identifiable learners.",
+      "counter_example": false
+    }
+  }
+}

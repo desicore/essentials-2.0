@@ -1,0 +1,220 @@
+{
+  "references": [
+    {
+      "id": "mobbin:d8e9acd7-1fe9-4063-a03f-fc74d3f0b813",
+      "source": "mobbin",
+      "app": "Sweatpals",
+      "title": "Comparing data",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d8e9acd7-1fe9-4063-a03f-fc74d3f0b813",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hgxVdWT8",
+        "https://mobbin.com/api/mcp/short/76syxO9S",
+        "https://mobbin.com/api/mcp/short/WXNL0E85",
+        "https://mobbin.com/api/mcp/short/sBJGx7TD",
+        "https://mobbin.com/api/mcp/short/pidn5LMs"
+      ],
+      "platform": "web",
+      "jobs": ["comparison"],
+      "take": "Date range filtering with time period picker (previous day/month/year), metrics comparison view with charts"
+    },
+    {
+      "id": "mobbin:5d067428-a757-489e-83a9-b33e2d63e6b1",
+      "source": "mobbin",
+      "app": "Mixpanel",
+      "title": "Selecting segments",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5d067428-a757-489e-83a9-b33e2d63e6b1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/eT0xAjtd",
+        "https://mobbin.com/api/mcp/short/QZDTY7wX",
+        "https://mobbin.com/api/mcp/short/00RyylbR",
+        "https://mobbin.com/api/mcp/short/G1hsFh3i"
+      ],
+      "platform": "web",
+      "jobs": ["comparison"],
+      "take": "Multi-select segment filtering with cohort comparison, dynamic segment UI"
+    },
+    {
+      "id": "mobbin:09f6e5da-eaa5-4633-9a33-231f800317f6",
+      "source": "mobbin",
+      "app": "Mixpanel",
+      "title": "Comparing insight (time periods)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/09f6e5da-eaa5-4633-9a33-231f800317f6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Crv1dXD7",
+        "https://mobbin.com/api/mcp/short/GLbwRD7M",
+        "https://mobbin.com/api/mcp/short/p6hehz2J",
+        "https://mobbin.com/api/mcp/short/SfkQYFDd",
+        "https://mobbin.com/api/mcp/short/60c4wNfE",
+        "https://mobbin.com/api/mcp/short/zCqRGFWh"
+      ],
+      "platform": "web",
+      "jobs": ["comparison"],
+      "take": "Time period comparison with date range selector dropdown, multi-metric visualization, percentage change display"
+    },
+    {
+      "id": "mobbin:6795c6c2-7c7b-4ded-aea2-5d594e67afb0",
+      "source": "mobbin",
+      "app": "15Five",
+      "title": "Competency assessment",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6795c6c2-7c7b-4ded-aea2-5d594e67afb0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/SV9iOrgD",
+        "https://mobbin.com/api/mcp/short/hlV0yVSR",
+        "https://mobbin.com/api/mcp/short/KQD9UtiZ",
+        "https://mobbin.com/api/mcp/short/eMsOan5I",
+        "https://mobbin.com/api/mcp/short/kryHZzx0"
+      ],
+      "platform": "web",
+      "jobs": ["comparison"],
+      "take": "Competency matrix with self/manager/peer ratings comparison, sortable competency results with multi-perspective view"
+    },
+    {
+      "id": "mobbin:37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2",
+      "source": "mobbin",
+      "app": "15Five",
+      "title": "Breakdown",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/FGE7G8ed",
+        "https://mobbin.com/api/mcp/short/QIm3StBW",
+        "https://mobbin.com/api/mcp/short/uYZsJqvt"
+      ],
+      "platform": "web",
+      "jobs": ["comparison"],
+      "take": "Team outcomes dashboard with manager comparison dropdown, breakdown by role with key metrics"
+    },
+    {
+      "id": "mobbin:f486aaaa-0f9c-4f97-9ea4-280088b727f3",
+      "source": "mobbin",
+      "app": "15Five",
+      "title": "Performance review (employee)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f486aaaa-0f9c-4f97-9ea4-280088b727f3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/qf8nVzL5",
+        "https://mobbin.com/api/mcp/short/0F6TVLyW",
+        "https://mobbin.com/api/mcp/short/2D31DFMw",
+        "https://mobbin.com/api/mcp/short/sleiUMy2",
+        "https://mobbin.com/api/mcp/short/09fBhLnv"
+      ],
+      "platform": "web",
+      "jobs": ["comparison"],
+      "take": "Peer nomination flow with comparative review interface, peer selection and feedback collection across team members"
+    },
+    {
+      "id": "mobbin:75bb46c3-1130-4cba-b194-ba086320dcc6",
+      "source": "mobbin",
+      "app": "Fireflies",
+      "title": "Customizing a summary",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/75bb46c3-1130-4cba-b194-ba086320dcc6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/OIoNl962",
+        "https://mobbin.com/api/mcp/short/VpZghWxt",
+        "https://mobbin.com/api/mcp/short/TTm0I0yh",
+        "https://mobbin.com/api/mcp/short/qqxoisbN",
+        "https://mobbin.com/api/mcp/short/XL6C2TN6"
+      ],
+      "platform": "web",
+      "jobs": ["ai-evaluation"],
+      "take": "AI-generated summary customization with section templates (outline, blockers, topics, decisions), save and approval flow"
+    },
+    {
+      "id": "mobbin:9589355a-7154-4414-84ca-0228270aa40e",
+      "source": "mobbin",
+      "app": "Dialpad",
+      "title": "Updating a recap with AI",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9589355a-7154-4414-84ca-0228270aa40e",
+      "images": [
+        "https://mobbin.com/api/mcp/short/V8bA8XOj",
+        "https://mobbin.com/api/mcp/short/1rML8rEn",
+        "https://mobbin.com/api/mcp/short/99TaFvOh",
+        "https://mobbin.com/api/mcp/short/0bDjJoKI",
+        "https://mobbin.com/api/mcp/short/p9yFZpJZ"
+      ],
+      "platform": "web",
+      "jobs": ["ai-evaluation"],
+      "take": "AI recap editing with transcript view, summary length options dropdown, save and share approval functionality"
+    },
+    {
+      "id": "mobbin:f994c6dc-421c-4b95-9297-cac6afe69e7d",
+      "source": "mobbin",
+      "app": "Apollo",
+      "title": "Notes",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f994c6dc-421c-4b95-9297-cac6afe69e7d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sk65CvSB",
+        "https://mobbin.com/api/mcp/short/Kxn3YX6I"
+      ],
+      "platform": "web",
+      "jobs": ["ai-evaluation"],
+      "take": "AI-generated conversation insights with summary, transcript, and notes tabs; approval workflow with auto-email option"
+    },
+    {
+      "id": "mobbin:f2d6fb5a-36ee-4c5c-9612-55be9bbd3f28",
+      "source": "mobbin",
+      "app": "Charma",
+      "title": "Editing and sending feedback",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f2d6fb5a-36ee-4c5c-9612-55be9bbd3f28",
+      "images": [
+        "https://mobbin.com/api/mcp/short/63uEZtbF",
+        "https://mobbin.com/api/mcp/short/iIVKrThL",
+        "https://mobbin.com/api/mcp/short/PvjqwHCT",
+        "https://mobbin.com/api/mcp/short/u4KmAUnF"
+      ],
+      "platform": "web",
+      "jobs": ["ai-evaluation"],
+      "take": "AI-generated feedback selection and editing, with suggestion insertion options and review history display"
+    },
+    {
+      "id": "mobbin:e7700240-0fb3-4a8b-aa81-7a640b1aa2c1",
+      "source": "mobbin",
+      "app": "Charma",
+      "title": "Generating feedback suggestions",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e7700240-0fb3-4a8b-aa81-7a640b1aa2c1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Y0GeP2MQ",
+        "https://mobbin.com/api/mcp/short/TX77QGDu",
+        "https://mobbin.com/api/mcp/short/6UbSTUup",
+        "https://mobbin.com/api/mcp/short/QLWGOcqq",
+        "https://mobbin.com/api/mcp/short/OSKEhNVI",
+        "https://mobbin.com/api/mcp/short/fZDxsuNL"
+      ],
+      "platform": "web",
+      "jobs": ["ai-evaluation"],
+      "take": "AI feedback generation with competency tag selection, opportunities for improvement multi-select, custom feedback input"
+    },
+    {
+      "id": "mobbin:560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1",
+      "source": "mobbin",
+      "app": "Charma",
+      "title": "Giving a peer review",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Qf2BJQ2M",
+        "https://mobbin.com/api/mcp/short/TJ6JRv5G",
+        "https://mobbin.com/api/mcp/short/cQ9Exl7L",
+        "https://mobbin.com/api/mcp/short/mBYqVnzN",
+        "https://mobbin.com/api/mcp/short/vNNU97qS",
+        "https://mobbin.com/api/mcp/short/LIGG8Di6",
+        "https://mobbin.com/api/mcp/short/ntnYx4fX",
+        "https://mobbin.com/api/mcp/short/6WeJKnZd",
+        "https://mobbin.com/api/mcp/short/nQ3DdS6u",
+        "https://mobbin.com/api/mcp/short/kqRBrCA1"
+      ],
+      "platform": "web",
+      "jobs": ["ai-evaluation"],
+      "take": "Complete peer review workflow: questionnaire with competency selection, AI-generated feedback suggestions, approval and save draft states"
+    }
+  ]
+}

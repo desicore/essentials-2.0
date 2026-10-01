@@ -1,0 +1,12 @@
+{
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "total_cost_usd": 0.16508925000000002,
+  "result": {
+    "batch": 0,
+    "exit_code": 0,
+    "sanitized_upload_log": "{\"referenceId\":\"mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f\",\"index\":0,\"nodeId\":\"112:519\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f\",\"index\":1,\"nodeId\":\"112:524\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f\",\"index\":2,\"nodeId\":\"112:529\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f\",\"index\":3,\"nodeId\":\"112:534\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f\",\"index\":4,\"nodeId\":\"112:539\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:atlassian-group-conflicts\",\"index\":0,\"nodeId\":\"112:567\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:1250\",\"index\":0,\"nodeId\":\"113:546\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:1250\",\"index\":1,\"nodeId\":\"113:551\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:1250\",\"index\":2,\"nodeId\":\"113:556\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"refero:1250\",\"index\":3,\"nodeId\":\"113:561\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:entra-lifecycle\",\"index\":0,\"nodeId\":\"113:573\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:entra-lifecycle\",\"index\":1,\"nodeId\":\"113:578\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:entra-status\",\"index\":0,\"nodeId\":\"113:590\",\"status\":\"uploaded\",\"httpStatus\":200}\n{\"referenceId\":\"documentation:entra-logs\",\"index\":0,\"nodeId\":\"113:602\",\"status\":\"uploaded\",\"httpStatus\":200}\nAll URLs posted once; temporary URL file removed. Inspect actual screenshots before marking visual verification.\n",
+    "capabilities_persisted": false
+  }
+}

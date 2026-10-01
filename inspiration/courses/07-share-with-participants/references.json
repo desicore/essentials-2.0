@@ -1,37 +1,37 @@
 {
   "module": "07-share-with-participants",
-  "title": "Share courses with participants \u2192 Learner Portal",
-  "intro": "Semester \u2192 Courses \u2192 Share with participants \u2192 Learner Portal. Evidence for moving a course from setup to learner access, and making the first visit useful. Group assignment belongs to 04; reports to 08; announcements and material delivery to 09. Screens are research captures, not verification of current product capabilities.",
+  "title": "Sharing a course with participants: ideas from other products",
+  "intro": "This page covers Share with participants and the Learner Portal inside Semester, then Courses. It looks at how other products move a course from setup to learner access, and make the first visit useful. The examples come from the design reference libraries Mobbin and Refero. Group assignment belongs to report 04, reports to 08, and announcements and material delivery to 09. The screenshots were collected for this research. They do not prove what each product can do today.",
   "questions": [
     {
       "id": "Q1",
-      "title": "Publish model (single toggle vs. per-item visibility vs. scheduled release)",
-      "answer": "Publication is layered in these captures. Teachable [mobbin:9ef7d498-63b5-4d12-a94f-5779c906f717] shows lesson Publish controls and a Drip panel based on days after enrolment. Kajabi [mobbin:9aa981d2-b178-4843-b8dd-0685815ecd62] shows Draft, Publish, Drip and Lock in a module menu, followed by a Published state. Podia [mobbin:94f6be70-d9b2-4363-8091-62d20f8d1f9e] separates Published, Open and Visible and shows a delayed module. Circle [mobbin:ec16c800-3b82-4f66-8b88-76840a7590dc] explains Open, Private and Secret audiences. For Essentials, make course publication, audience scope and item release separately legible. The captures do not establish the consequences of unpublishing an active course."
+      "title": "How do products publish a course: one switch, per-item visibility, or a scheduled release?",
+      "answer": "These screenshots show publication as more than one switch. Teachable has per-lesson 'Publish' controls and a 'Drip' panel timed in days after enrolment. Kajabi's module menu offers 'Draft', 'Publish', 'Drip' and 'Lock', then shows a 'Published' result. Podia separates 'Published', 'Open' and 'Visible', and shows a delayed module. Circle explains 'Open', 'Private' and 'Secret' audiences. For Essentials, keep course publication, who can see it, and when each item releases as separate, readable choices. The screenshots do not show what happens if you unpublish a course that is already active."
     },
     {
       "id": "Q2",
-      "title": "Access grant paths (enrolled groups / link / code / email) and how permission levels are expressed",
-      "answer": "Grant access in the context of the course. Circle [mobbin:e801d8ae-1e7e-45e3-9035-0452816271e5] shows invitations with selected-space access and privileged-role controls. Figma [mobbin:b227715d-bc5d-4655-9133-921c156f6837] combines email invitations, copy link and visible permissions; Figma [mobbin:ffaf7085-3f32-450d-938b-812274011f53] adds Anyone access, View/Edit and password protection. Notion [mobbin:44650693-5283-421a-b978-d4cf1a8de987] names a Member role in an email invitation. These are access patterns, not a prescribed role model for learners. A password is not evidence of a classroom join-code workflow; enrolled-group inheritance and class codes remain unverified in this set. Podia [mobbin:157502c1-8bd1-4fd3-aae9-97358b725cad] makes a 30-day trial limit explicit before inviting a customer. Gumroad [refero:11b3c0a4-eb09-4d98-9a1a-742439189540] is a creator-side counter-example: Share and Collaborators navigation do not establish a learner-access workflow."
+      "title": "How do products grant access (enrolled groups, link, code, or email), and how do they show permission levels?",
+      "answer": "Grant access from inside the course. Circle shows invitations with selected-space access and admin or moderator controls. Figma combines email invitations, 'Copy link' and visible permissions. A second Figma screen adds 'Anyone' access, 'View'/'Edit' and password protection. Notion names a 'Member' role in an email invitation. These are access patterns, not a learner role model to copy. A password is not evidence of a classroom join-code workflow. Enrolled-group inheritance and class codes are not shown in this set. Podia makes a 30-day trial limit explicit before inviting a customer. Gumroad is an example of what not to do on the creator side: 'Share' and 'Collaborators' navigation do not show a learner-access workflow."
     },
     {
       "id": "Q3",
-      "title": "\"Preview as learner\" availability and fidelity",
-      "answer": "Preview has different scopes. Circle [mobbin:02f1cfb0-ef6b-4f9f-8218-bfe24c660981] explicitly labels preview as an enrolled member and retains lesson content and a completion action. Canva [mobbin:5c96453b-0c58-434f-94ba-c6d68a8f5bd5] places View as learner beside the course editor. Teachable [mobbin:e6757446-af84-43d5-bed0-da79c9a3826c] exposes curriculum preview without proving the same role simulation. SchoolAI [mobbin:56f720b3-daec-4967-9fc4-60a7f8501c55] previews an AI activity as a student, which is narrower than a whole course portal. For Essentials, label the simulated learner and group; confirm separately whether release dates, prerequisites and progress writes are simulated. Those behaviours are not established by the screenshots."
+      "title": "Can instructors preview the course as a learner, and how complete is that preview?",
+      "answer": "Preview means different things in different products. Circle explicitly labels preview as an enrolled member and keeps lesson content and a completion action. Canva places 'View as learner' beside the course editor. Teachable shows curriculum preview without proving the same role simulation. SchoolAI previews an AI activity as a student, which is narrower than a whole course portal. For Essentials, label the simulated learner and group. Confirm separately whether release dates, prerequisites and progress saves are simulated. The screenshots do not show those behaviours."
     },
     {
       "id": "Q4",
-      "title": "Learner course home: what is above the fold (next session, progress, materials, announcements)",
-      "answer": "Day one needs a clear next action. Teachable [mobbin:c04c0023-2365-4741-9dc9-4592f491c7ea] shows Start Lesson, the lesson list and 0% completion. Coursera [mobbin:18683325-d982-4756-b06e-4ed52c933b06] prioritises Continue learning, progress, Resume and a weekly goal. Circle [mobbin:afde5712-b2c0-4fc1-be7b-4ac42446d642] provides community context and content entry points. For simulation education, adapt the next-action pattern to the next scheduled session and required preparation; these captures do not establish a session-first portal. Treat announcements as context from module 09 and recordings/reports as a hand-off to 08."
+      "title": "What does the learner see first on the course home (next session, progress, materials, announcements)?",
+      "answer": "Day one needs a clear next action. Teachable shows 'Start Lesson', the lesson list and 0% completion. Coursera puts 'Continue learning', progress, 'Resume' and a weekly goal first. Circle provides community context and content entry points. For simulation education, adapt the next-action pattern to the next scheduled session and required preparation. These screenshots do not show a session-first portal. Treat announcements as context from module 09, and recordings and reports as a hand-off to 08."
     },
     {
       "id": "Q5",
-      "title": "Feedback to instructor that sharing worked (who has opened, pending invites)",
-      "answer": "Publishing, inviting, joining and learning are different events. Podia [mobbin:6462b667-d688-4634-a413-c914bdc3b20a] shows Customer invited alongside audience rows and progress; this supports an action confirmation and participation context, not email-open telemetry. Slack [mobbin:2fe9271e-36ed-4333-b809-6078dc790098] exposes Pending and Accepted tabs plus bounced, resent and revoked invitation states. Pending does not prove delivery. For Essentials, show the recipient, current access and available recovery action, then distinguish invitation status from first course access and learning progress. No retained capture demonstrates a course-open event. Canva [mobbin:a906866c-f694-41fd-b437-b086430c1585] confirms the course is ready, reports team notification and offers Classwork and Copy link; it does not enumerate learner acceptance."
+      "title": "How does the instructor see that sharing worked (who opened it, pending invites)?",
+      "answer": "Publishing, inviting, joining and learning are different events. Podia shows 'Customer invited' alongside audience rows and progress. That supports an action confirmation and participation context, not evidence that an email was opened. Slack shows 'Pending' and 'Accepted' tabs plus bounced, resent and revoked invitation states. 'Pending' does not prove delivery. For Essentials, show the recipient, current access and available recovery action. Then distinguish invitation status from first course access and learning progress. No screenshot in this set shows a course-open event. Canva confirms the course is ready, reports team notification and offers 'Classwork' and 'Copy link'. It does not list learner acceptance."
     },
     {
       "id": "Q6",
-      "title": "Cross-device (web vs. mobile portal) parity",
-      "answer": "Only Coursera has a matched web/iOS course-home pair in this set: Coursera [mobbin:f31fedca-3104-45d9-a48e-08afa231c723] and Coursera [mobbin:d76cce29-fa86-4e42-a549-54d3765ad5d9]. Both expose progress and the next learning action; goals and navigation adapt to the device. The iOS Download button shows an available action, not verified offline behaviour. Udemy [mobbin:89b6481f-0676-46bb-a15b-daa62b8a10cd] is Udemy mobile context without a matched web capture; Teachable [mobbin:be865fb9-7894-4e03-8262-c14a16d810e3] is a Teachable learner-facing preview inside an admin shell, not a verified ordinary learner session; no matched mobile capture was retained. Preserve shared learner state and the next action across devices, but validate invitation entry, authentication and session joining separately."
+      "title": "How similar is the course portal on web and on mobile?",
+      "answer": "Only Coursera has a matched web and iOS course-home pair in this set: Coursera's web home and Coursera's iOS home. Both show progress and the next learning action. Goals and navigation adapt to the device. The iOS 'Download' button shows an available action, not proven offline behaviour. Udemy is mobile context without a matched web screenshot. Teachable is a learner-facing preview inside an admin shell, not an ordinary learner session, and no matched mobile screenshot was kept. Keep shared learner progress and the next action across devices, but check invitation entry, sign-in and session joining separately."
     }
   ],
   "references": [
@@ -52,7 +52,7 @@
         "https://mobbin.com/api/mcp/short/hs9kvXaO"
       ],
       "question": "Q1",
-      "take": "Circle\u2019s publishing flow exposes draft mode and Open/Private/Secret audience descriptions, then topics, thumbnail and Save changes; Open refers to community members, not the public internet.",
+      "take": "Circle's publishing flow shows draft mode and 'Open'/'Private'/'Secret' audience descriptions, then topics, a thumbnail and 'Save changes'. 'Open' means community members, not the public internet.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -71,7 +71,7 @@
         "https://mobbin.com/api/mcp/short/ENcKKhPV"
       ],
       "question": "Q1",
-      "take": "Kajabi\u2019s module menu offers Draft, Publish, Drip and Lock; choosing Publish produces a Published state and confirmation toast.",
+      "take": "Kajabi's module menu offers 'Draft', 'Publish', 'Drip' and 'Lock'. Choosing 'Publish' produces a 'Published' result and a short confirmation message.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -91,7 +91,7 @@
         "https://mobbin.com/api/mcp/short/AH4yQthQ"
       ],
       "question": "Q1",
-      "take": "Podia confirms Course published, separates Published/Open/Visible, and shows a delayed module plus an audience table with progress, signup, start and expiry columns.",
+      "take": "Podia confirms 'Course published', separates 'Published'/'Open'/'Visible', and shows a delayed module plus an audience table with progress, signup, start and expiry columns.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -107,7 +107,7 @@
         "https://mobbin.com/api/mcp/short/NQ6v5T7Q"
       ],
       "question": "Q1",
-      "take": "Teachable places per-lesson Publish actions beside a Drip panel with days after enrolment, Activate drip, notification controls and saved feedback.",
+      "take": "Teachable places per-lesson 'Publish' actions beside a 'Drip' panel with days after enrolment, 'Activate drip', notification controls and saved feedback.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -116,14 +116,14 @@
       "id": "mobbin:d02990dd-8ca9-44d0-83b1-bb9862f2e417",
       "source": "mobbin",
       "app": "Teachable",
-      "title": "Course visibility state",
+      "title": "Course visibility controls",
       "kind": "screen",
       "url": "https://mobbin.com/screens/d02990dd-8ca9-44d0-83b1-bb9862f2e417",
       "images": [
         "https://mobbin.com/api/mcp/short/JdgHzlMn"
       ],
       "question": "Q1",
-      "take": "Teachable\u2019s curriculum combines Preview and per-lesson Publish controls with a Drip panel that visibly requires a plan upgrade.",
+      "take": "Teachable's curriculum combines 'Preview' and per-lesson 'Publish' controls with a 'Drip' panel that visibly requires a plan upgrade.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -132,14 +132,14 @@
       "id": "mobbin:6f84d500-27bc-4a9c-9bf9-04e5f525e5f3",
       "source": "mobbin",
       "app": "Teachable",
-      "title": "Course release control",
+      "title": "Course release timing controls",
       "kind": "screen",
       "url": "https://mobbin.com/screens/6f84d500-27bc-4a9c-9bf9-04e5f525e5f3",
       "images": [
         "https://mobbin.com/api/mcp/short/SsoSqCCo"
       ],
       "question": "Q1",
-      "take": "Teachable\u2019s Drip panel exposes days after enrolment, a numeric delay, Activate drip, student notification controls and saved feedback.",
+      "take": "Teachable's 'Drip' panel shows days after enrolment, a numeric delay, 'Activate drip', student notification controls and saved feedback.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -148,14 +148,14 @@
       "id": "mobbin:e801d8ae-1e7e-45e3-9035-0452816271e5",
       "source": "mobbin",
       "app": "Circle",
-      "title": "Community access dialog",
+      "title": "Community invite screen",
       "kind": "screen",
       "url": "https://mobbin.com/screens/e801d8ae-1e7e-45e3-9035-0452816271e5",
       "images": [
         "https://mobbin.com/api/mcp/short/YhkovCNE"
       ],
       "question": "Q2",
-      "take": "Circle\u2019s Invite members screen combines selected-space access with admin/moderator permission controls and Send invites; privilege assignment is separate from choosing spaces.",
+      "take": "Circle's 'Invite members' screen combines selected-space access with admin and moderator permission controls and 'Send invites'. Privilege assignment is separate from choosing spaces.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -171,7 +171,7 @@
         "https://mobbin.com/api/mcp/short/sqg8pknM"
       ],
       "question": "Q2",
-      "take": "Figma combines email invitation, Copy link, existing people and can-view permissions in one dialog; this is a content-sharing analogy for course access.",
+      "take": "Figma combines email invitation, 'Copy link', existing people and can-view permissions in one dialog. This is a content-sharing pattern that can inform course access.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -180,14 +180,14 @@
       "id": "mobbin:ffaf7085-3f32-450d-938b-812274011f53",
       "source": "mobbin",
       "app": "Figma",
-      "title": "Link sharing permission state",
+      "title": "Link sharing and password options",
       "kind": "screen",
       "url": "https://mobbin.com/screens/ffaf7085-3f32-450d-938b-812274011f53",
       "images": [
         "https://mobbin.com/api/mcp/short/kZmaa3gz"
       ],
       "question": "Q2",
-      "take": "Figma exposes Anyone access, View/Edit, optional password protection and a viewers-can-copy/save/export setting before Save; a password is not a classroom join code.",
+      "take": "Figma shows 'Anyone' access, 'View'/'Edit', optional password protection and a viewers-can-copy/save/export setting before 'Save'. A password is not a classroom join code.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -196,14 +196,14 @@
       "id": "refero:11b3c0a4-eb09-4d98-9a1a-742439189540",
       "source": "refero",
       "app": "Gumroad",
-      "title": "Digital course content manager",
+      "title": "Creator content manager with Share",
       "kind": "screen",
       "url": "https://refero.design/pages/11b3c0a4-eb09-4d98-9a1a-742439189540",
       "images": [
         "https://images.refero.design/screenshots/gumroad.com/desktop/97f93b6d-9424-4a99-b962-15abdc366417_thumb.jpg"
       ],
       "question": "Q2",
-      "take": "Counter-example in scope: Gumroad\u2019s creator content editor has a Share tab and Collaborators navigation, but this capture does not show a learner-access grant or invitation status.",
+      "take": "Example of what not to do: Gumroad shows a 'Share' tab and 'Collaborators' navigation, but not a learner-access grant or invitation status.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -219,7 +219,7 @@
         "https://mobbin.com/api/mcp/short/m2lDKh9Y"
       ],
       "question": "Q2",
-      "take": "Notion\u2019s Add members modal supports names or emails, an explained Member role, an invitation message and Send invite; workspace membership is an adjacent analogy, not course enrolment.",
+      "take": "Notion's 'Add members' pop-up window supports names or emails, an explained 'Member' role, an invitation message and 'Send invite'. Workspace membership is a related pattern, not course enrolment.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -228,14 +228,14 @@
       "id": "mobbin:9f7bcb4e-d95c-423d-b298-f40d338e310e",
       "source": "mobbin",
       "app": "Notion",
-      "title": "Guest access state",
+      "title": "Guest access suggestion",
       "kind": "screen",
       "url": "https://mobbin.com/screens/9f7bcb4e-d95c-423d-b298-f40d338e310e",
       "images": [
         "https://mobbin.com/api/mcp/short/zJg2ec9t"
       ],
       "question": "Q2",
-      "take": "Notion shows a typed email suggestion labelled Guest alongside Member role selection, an invite message and Send invite; inspect identity and role labels together.",
+      "take": "Notion shows a typed email suggestion labelled 'Guest' alongside 'Member' role selection, an invite message and 'Send invite'. Look at identity and role labels together.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -244,14 +244,14 @@
       "id": "mobbin:157502c1-8bd1-4fd3-aae9-97358b725cad",
       "source": "mobbin",
       "app": "Podia",
-      "title": "Invite a customer modal",
+      "title": "Invite a customer dialog",
       "kind": "screen",
       "url": "https://mobbin.com/screens/157502c1-8bd1-4fd3-aae9-97358b725cad",
       "images": [
         "https://mobbin.com/api/mcp/short/H6Ardk7E"
       ],
       "question": "Q2",
-      "take": "Podia\u2019s Invite a customer modal captures email entry, optional tags, a time-limited access warning, and explicit Don\u2019t invite/Invite customer actions; targeted enrolment evidence, but no role selector or access code/link is visible.",
+      "take": "Podia's 'Invite a customer' pop-up window shows email entry, optional tags, a time-limited access warning, and explicit 'Don't invite'/'Invite customer' actions. This is targeted enrolment evidence, but no role selector or access code or link is visible.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -268,7 +268,7 @@
         "https://mobbin.com/api/mcp/short/8jpYOkzx"
       ],
       "question": "Q3",
-      "take": "Captured two-step flow explicitly names View as learner and shows the resulting learner-facing state, strong evidence for a low-friction preview entry and fidelity check.",
+      "take": "This two-step flow explicitly names 'View as learner' and shows the resulting learner-facing screen. It is strong evidence for a low-friction preview entry and a completeness check.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -277,7 +277,7 @@
       "id": "mobbin:02f1cfb0-ef6b-4f9f-8218-bfe24c660981",
       "source": "mobbin",
       "app": "Circle",
-      "title": "Preview lesson flow",
+      "title": "Preview lesson as enrolled member",
       "kind": "flow",
       "url": "https://mobbin.com/flows/02f1cfb0-ef6b-4f9f-8218-bfe24c660981",
       "images": [
@@ -289,7 +289,7 @@
         "https://mobbin.com/api/mcp/short/tYbSTdks"
       ],
       "question": "Q3",
-      "take": "Captured six-step lesson preview flow shows preview can preserve real lesson navigation and content context; use as evidence for fidelity, with learner role labeling kept visible.",
+      "take": "This six-step lesson preview flow shows that preview can keep real lesson navigation and content context. Use it as evidence for how complete the preview is, with the learner role label kept visible.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -298,14 +298,14 @@
       "id": "mobbin:56f720b3-daec-4967-9fc4-60a7f8501c55",
       "source": "mobbin",
       "app": "SchoolAI",
-      "title": "AI classroom learner view (preview analogy)",
+      "title": "AI classroom learner preview",
       "kind": "screen",
       "url": "https://mobbin.com/screens/56f720b3-daec-4967-9fc4-60a7f8501c55",
       "images": [
         "https://mobbin.com/api/mcp/short/KxhWjTUk"
       ],
       "question": "Q3",
-      "take": "Counter-example in scope: \u201cPreviewing as a student\u201d and Restart preview are visible for an AI activity; this does not establish whole-course or cohort-access preview.",
+      "take": "Example of what not to treat as a full answer: 'Previewing as a student' and 'Restart preview' are visible for an AI activity. This does not show whole-course or cohort-access preview.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -314,7 +314,7 @@
       "id": "mobbin:e6757446-af84-43d5-bed0-da79c9a3826c",
       "source": "mobbin",
       "app": "Teachable",
-      "title": "Curriculum preview flow",
+      "title": "Curriculum preview in author setup",
       "kind": "flow",
       "url": "https://mobbin.com/flows/e6757446-af84-43d5-bed0-da79c9a3826c",
       "images": [
@@ -323,7 +323,7 @@
         "https://mobbin.com/api/mcp/short/OezD43Wz"
       ],
       "question": "Q3",
-      "take": "Counter-example in scope: Curriculum Preview is visible in the author setup flow; the retained steps do not establish the explicit enrolled-member simulation shown by Circle.",
+      "take": "Example of a narrower preview: 'Curriculum Preview' is visible in the author setup flow. The retained steps do not show the explicit enrolled-member simulation that Circle shows.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -332,14 +332,14 @@
       "id": "mobbin:2510f8c8-90c0-41ab-9f61-3c1a1f4993b9",
       "source": "mobbin",
       "app": "Circle",
-      "title": "Community space home (learner home analogy)",
+      "title": "Community space home",
       "kind": "screen",
       "url": "https://mobbin.com/screens/2510f8c8-90c0-41ab-9f61-3c1a1f4993b9",
       "images": [
         "https://mobbin.com/api/mcp/short/WRNXCILe"
       ],
       "question": "Q4",
-      "take": "Captured community home is an adjacent course-home analogy: orient the learner with a clear space title and content entry points above the fold; course progress and next session were not observed.",
+      "take": "This community home is a related course-home pattern: orient the learner with a clear space title and content entry points in the first view. Course progress and next session were not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -355,7 +355,7 @@
         "https://mobbin.com/api/mcp/short/A0Iktgci"
       ],
       "question": "Q4",
-      "take": "Captured home puts the community/course identity and latest content in the first view; use this as an adjacent learner-home pattern, with progress and next session needing explicit slots.",
+      "take": "This home puts the community or course identity and latest content in the first view. Use it as a related learner-home pattern, with progress and next session needing their own places.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -371,7 +371,7 @@
         "https://mobbin.com/api/mcp/short/7N4VdV4r"
       ],
       "question": "Q4",
-      "take": "Coursera foregrounds Continue learning, course progress, a module card, Resume and a weekly goal; session scheduling and announcements are not observed here.",
+      "take": "Coursera puts 'Continue learning', course progress, a module card, 'Resume' and a weekly goal first. Session scheduling and announcements are not shown here.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -387,7 +387,7 @@
         "https://mobbin.com/api/mcp/short/Ycz5amir"
       ],
       "question": "Q4",
-      "take": "Teachable\u2019s learner home shows Start Lesson, a lesson list and 0% completion, giving the new learner a clear first action.",
+      "take": "Teachable's learner home shows 'Start Lesson', a lesson list and 0% completion, giving the new learner a clear first action.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -403,7 +403,7 @@
         "https://mobbin.com/api/mcp/short/vcW6dW16"
       ],
       "question": "Q5",
-      "take": "Canva\u2019s post-publish confirmation says Your course is ready, notes team notification, and offers Go to Classwork plus Copy link; strong feedback that sharing/publishing succeeded, without pending/accepted learner counts.",
+      "take": "Canva's post-publish confirmation says 'Your course is ready', notes team notification, and offers 'Go to Classwork' plus 'Copy link'. That is strong feedback that sharing or publishing succeeded, without pending or accepted learner counts.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -426,7 +426,7 @@
         "https://mobbin.com/api/mcp/short/YVrvaz5a"
       ],
       "question": "Q5",
-      "take": "Podia\u2019s captured invitation flow shows Customer invited, audience rows with progress, and Customers/Pending analytics; these states do not establish email delivery, acceptance or course opening.",
+      "take": "Podia's invitation flow shows 'Customer invited', audience rows with progress, and 'Customers'/'Pending' analytics. These screens do not show email delivery, acceptance or course opening.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -435,14 +435,14 @@
       "id": "mobbin:2fe9271e-36ed-4333-b809-6078dc790098",
       "source": "mobbin",
       "app": "Slack",
-      "title": "Workspace invite confirmation",
+      "title": "Workspace invite management",
       "kind": "screen",
       "url": "https://mobbin.com/screens/2fe9271e-36ed-4333-b809-6078dc790098",
       "images": [
         "https://mobbin.com/api/mcp/short/cKJTrhLg"
       ],
       "question": "Q5",
-      "take": "Slack\u2019s invitation management shows Requests/Pending/Accepted/Invite Links tabs plus bounced, resent and revoked invitation states, providing recovery evidence beyond a success message.",
+      "take": "Slack's invitation management shows 'Requests'/'Pending'/'Accepted'/'Invite Links' tabs plus bounced, resent and revoked invitation states. That gives recovery options beyond a success message.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -451,14 +451,14 @@
       "id": "mobbin:f31fedca-3104-45d9-a48e-08afa231c723",
       "source": "mobbin",
       "app": "Coursera",
-      "title": "Course dashboard web",
+      "title": "Course dashboard on web",
       "kind": "screen",
       "url": "https://mobbin.com/screens/f31fedca-3104-45d9-a48e-08afa231c723",
       "images": [
         "https://mobbin.com/api/mcp/short/B6ctVs4d"
       ],
       "question": "Q6",
-      "take": "Coursera\u2019s web home shows enrolled learning, progress, Resume and a weekly goal; pair with its iOS reference to compare the core learner hierarchy.",
+      "take": "Coursera's web home shows enrolled learning, progress, 'Resume' and a weekly goal. Pair it with its iOS example to compare the core learner layout.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -467,14 +467,14 @@
       "id": "mobbin:d76cce29-fa86-4e42-a549-54d3765ad5d9",
       "source": "mobbin",
       "app": "Coursera",
-      "title": "Course dashboard mobile",
+      "title": "Course dashboard on mobile",
       "kind": "screen",
       "url": "https://mobbin.com/screens/d76cce29-fa86-4e42-a549-54d3765ad5d9",
       "images": [
         "https://mobbin.com/api/mcp/short/3MvaRhz7"
       ],
       "question": "Q6",
-      "take": "Coursera iOS shows module progress, Download, daily goals and Up Next; its matched web capture supports hierarchy parity, not verified offline or invite behaviour.",
+      "take": "Coursera iOS shows module progress, 'Download', daily goals and 'Up Next'. Its matched web screenshot supports layout parity, not proven offline or invite behaviour.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -483,14 +483,14 @@
       "id": "mobbin:be865fb9-7894-4e03-8262-c14a16d810e3",
       "source": "mobbin",
       "app": "Teachable",
-      "title": "Course learner portal",
+      "title": "Learner portal inside admin preview",
       "kind": "screen",
       "url": "https://mobbin.com/screens/be865fb9-7894-4e03-8262-c14a16d810e3",
       "images": [
         "https://mobbin.com/api/mcp/short/qaARpQod"
       ],
       "question": "Q6",
-      "take": "Teachable shows a learner-facing home inside an Edit in Admin / Preview as admin shell, with Draft lesson states, Start actions and 0% completion; this is preview context, not a verified ordinary learner session.",
+      "take": "Teachable shows a learner-facing home inside an 'Edit in Admin' / 'Preview as admin' shell, with Draft lesson labels, 'Start' actions and 0% completion. This is preview context, not an ordinary learner session.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -499,14 +499,14 @@
       "id": "mobbin:89b6481f-0676-46bb-a15b-daa62b8a10cd",
       "source": "mobbin",
       "app": "Udemy",
-      "title": "Course dashboard mobile",
+      "title": "Course dashboard on mobile",
       "kind": "screen",
       "url": "https://mobbin.com/screens/89b6481f-0676-46bb-a15b-daa62b8a10cd",
       "images": [
         "https://mobbin.com/api/mcp/short/EgnaVmZP"
       ],
       "question": "Q6",
-      "take": "Udemy\u2019s iOS learner course home provides mobile context; no matched web capture was retained, so cross-device parity remains unverified.",
+      "take": "Udemy's iOS learner course home provides mobile context. No matched web screenshot was kept, so web and mobile parity is not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""

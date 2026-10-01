@@ -1,0 +1,196 @@
+{
+  "references": [
+    {
+      "id": "mobbin:120dcf30-c0c9-4ff1-95bf-084ef14a56c6",
+      "source": "mobbin",
+      "app": "Otter AI",
+      "title": "Recording a conversation",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/120dcf30-c0c9-4ff1-95bf-084ef14a56c6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/JKN7IvcF",
+        "https://mobbin.com/api/mcp/short/VR29Do2O",
+        "https://mobbin.com/api/mcp/short/Ink2r3Kl",
+        "https://mobbin.com/api/mcp/short/i2bB1MjE",
+        "https://mobbin.com/api/mcp/short/8iZETOzk"
+      ],
+      "platform": "ios",
+      "jobs": ["record-debrief"],
+      "take": "Onboarding to recording conversation: connect calendar, record meeting, live transcript appears with AI summary, quality rating, and sharing options."
+    },
+    {
+      "id": "mobbin:b5d1550e-5945-48c2-97c4-e12e9ea63dc4",
+      "source": "mobbin",
+      "app": "Beside",
+      "title": "Recording in-person meetings",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b5d1550e-5945-48c2-97c4-e12e9ea63dc4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DU7MLZWm",
+        "https://mobbin.com/api/mcp/short/7aWXb4dK",
+        "https://mobbin.com/api/mcp/short/G17ytH0I",
+        "https://mobbin.com/api/mcp/short/l2sFDwgc",
+        "https://mobbin.com/api/mcp/short/7tnslMTU"
+      ],
+      "platform": "ios",
+      "jobs": ["record-debrief"],
+      "take": "In-person meeting recording setup: access settings, enable in-person recorder, capture meeting overview with transcript, and organize to-do lists from meeting."
+    },
+    {
+      "id": "mobbin:d7a0fc7c-713c-40b5-bbc4-4447ba7e6a8f",
+      "source": "mobbin",
+      "app": "Otter AI",
+      "title": "Recording a conversation (extended)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d7a0fc7c-713c-40b5-bbc4-4447ba7e6a8f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/jaSE5bQR",
+        "https://mobbin.com/api/mcp/short/4AjRlv09",
+        "https://mobbin.com/api/mcp/short/JFzI6gE9",
+        "https://mobbin.com/api/mcp/short/6yvnIqSa",
+        "https://mobbin.com/api/mcp/short/Nk5G7Wxi",
+        "https://mobbin.com/api/mcp/short/vG5XGc55",
+        "https://mobbin.com/api/mcp/short/Pemz3jtc",
+        "https://mobbin.com/api/mcp/short/LEEsHiHp",
+        "https://mobbin.com/api/mcp/short/WK0viCLg",
+        "https://mobbin.com/api/mcp/short/iSbekyjg",
+        "https://mobbin.com/api/mcp/short/VxAzeUEd"
+      ],
+      "platform": "ios",
+      "jobs": ["record-debrief", "ai-debrief"],
+      "take": "Full conversation lifecycle: upcoming meetings, recording, live transcript, AI chat on transcript, transcript sharing, and team messaging about recorded content."
+    },
+    {
+      "id": "mobbin:c2a5d587-f496-4eb4-bc78-509bd3c32787",
+      "source": "mobbin",
+      "app": "Otter AI",
+      "title": "Conversation detail",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c2a5d587-f496-4eb4-bc78-509bd3c32787",
+      "images": [
+        "https://mobbin.com/api/mcp/short/dALS7omA",
+        "https://mobbin.com/api/mcp/short/abkOZjwG",
+        "https://mobbin.com/api/mcp/short/gLkVTbrO",
+        "https://mobbin.com/api/mcp/short/jRAXw5hd"
+      ],
+      "platform": "web",
+      "jobs": ["record-debrief", "ai-debrief"],
+      "take": "Web meeting review: recorded meeting with summary, transcript, speaker breakdown, keywords extracted, and AI-generated action items from discussion."
+    },
+    {
+      "id": "mobbin:18674470-9df9-4976-94f2-2b5a44ae0704",
+      "source": "mobbin",
+      "app": "Notion",
+      "title": "Meeting notes transcript",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/18674470-9df9-4976-94f2-2b5a44ae0704",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5byuLgSX",
+        "https://mobbin.com/api/mcp/short/MLkRZsUE",
+        "https://mobbin.com/api/mcp/short/7DtDpjBD"
+      ],
+      "platform": "web",
+      "jobs": ["record-debrief"],
+      "take": "Notion meeting capture: meeting date/title, summary tab, notes tab, transcript tab with audio playback; background and next steps documented."
+    },
+    {
+      "id": "mobbin:f854d89a-1e1b-4048-b0ea-e6cf3e1765a1",
+      "source": "mobbin",
+      "app": "Fabric",
+      "title": "Asking AI about voice note",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f854d89a-1e1b-4048-b0ea-e6cf3e1765a1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ooEsDJWe",
+        "https://mobbin.com/api/mcp/short/uGmN2dFb",
+        "https://mobbin.com/api/mcp/short/nHAWZdSX",
+        "https://mobbin.com/api/mcp/short/v0r3EMBc",
+        "https://mobbin.com/api/mcp/short/fnxB9AoH",
+        "https://mobbin.com/api/mcp/short/CKPBxnHw"
+      ],
+      "platform": "ios",
+      "jobs": ["record-debrief", "ai-debrief"],
+      "take": "Voice note to AI workflow: record and transcribe voice note, ask Fabric AI questions (summarize, list points, explain), get AI-generated responses and save as note."
+    },
+    {
+      "id": "mobbin:3c069b65-da04-47ec-a852-5165ac63562b",
+      "source": "mobbin",
+      "app": "Fabric",
+      "title": "Creating a voice note",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3c069b65-da04-47ec-a852-5165ac63562b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Vx9R0P3h",
+        "https://mobbin.com/api/mcp/short/QoX6jd8R",
+        "https://mobbin.com/api/mcp/short/noq155II",
+        "https://mobbin.com/api/mcp/short/3QGVwofr",
+        "https://mobbin.com/api/mcp/short/skJIqAVT",
+        "https://mobbin.com/api/mcp/short/fl79kTiL",
+        "https://mobbin.com/api/mcp/short/KEATcOx3",
+        "https://mobbin.com/api/mcp/short/cKBa1V3f",
+        "https://mobbin.com/api/mcp/short/6dcLIuzf",
+        "https://mobbin.com/api/mcp/short/ViFd5RbQ"
+      ],
+      "platform": "ios",
+      "jobs": ["record-debrief"],
+      "take": "Full voice note lifecycle: create from menu, record audio, view transcript and summary tabs, ask AI follow-up questions, save note to recent items."
+    },
+    {
+      "id": "mobbin:f89be597-68c8-4d01-8eed-7c06bd5d7ed5",
+      "source": "mobbin",
+      "app": "Notion",
+      "title": "Creating an AI meeting note",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f89be597-68c8-4d01-8eed-7c06bd5d7ed5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/67JhiUFw",
+        "https://mobbin.com/api/mcp/short/tpdqaxqt",
+        "https://mobbin.com/api/mcp/short/aKwsNwNY",
+        "https://mobbin.com/api/mcp/short/mZLcQQRC",
+        "https://mobbin.com/api/mcp/short/nZqwNEwp",
+        "https://mobbin.com/api/mcp/short/TgDaZP1C",
+        "https://mobbin.com/api/mcp/short/ro2RjpUl",
+        "https://mobbin.com/api/mcp/short/SyDVLPWe",
+        "https://mobbin.com/api/mcp/short/8o0yUVJy",
+        "https://mobbin.com/api/mcp/short/UK8v9itt",
+        "https://mobbin.com/api/mcp/short/UfNWowGd",
+        "https://mobbin.com/api/mcp/short/Lr9FiPEQ"
+      ],
+      "platform": "ios",
+      "jobs": ["record-debrief", "ai-debrief"],
+      "take": "Notion mobile AI meeting note: launch feature, background record, upload and transcribe audio, AI generates summary with key points and action items."
+    },
+    {
+      "id": "mobbin:cc564ec1-29c1-4fcf-b901-2fcefbf34dd8",
+      "source": "mobbin",
+      "app": "Apollo",
+      "title": "Saving a note",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/cc564ec1-29c1-4fcf-b901-2fcefbf34dd8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/zZmrtEk9",
+        "https://mobbin.com/api/mcp/short/LGZcd9lw",
+        "https://mobbin.com/api/mcp/short/7hLXTtQl"
+      ],
+      "platform": "web",
+      "jobs": ["record-debrief"],
+      "take": "CRM note to record flow: record meeting call, answer follow-up questions via AI, associate note to contacts/accounts/deals/meetings in Apollo CRM."
+    },
+    {
+      "id": "mobbin:a228bed6-ec3c-4981-97eb-e052a41eabaa",
+      "source": "mobbin",
+      "app": "Apollo",
+      "title": "Recording detail",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/a228bed6-ec3c-4981-97eb-e052a41eabaa",
+      "images": [
+        "https://mobbin.com/api/mcp/short/9e4ZzpIW",
+        "https://mobbin.com/api/mcp/short/wy24m95i",
+        "https://mobbin.com/api/mcp/short/gKYeG17v"
+      ],
+      "platform": "web",
+      "jobs": ["record-debrief"],
+      "take": "Apollo recordings tab: list all recorded meetings with date, time, host, participants; drill into recording detail with transcript and notes display."
+    }
+  ]
+}

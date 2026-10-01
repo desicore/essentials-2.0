@@ -1,0 +1,269 @@
+{
+  "module": "03-scenario-manager",
+  "title": "Scenario manager: ideas from other products",
+  "intro": "This page shows examples from other products for the Scenario manager in Essentials 2.0, grouped by product. They cover creating, editing and retiring reusable scenarios, equipment lists with setup notes, and who can access each scenario. They also cover simple checklists and who fills them in, and feedback checklists opened by QR code on a phone without logging in. Other topics are scripts for the simulator and the standardized patient (SP), orientation and pre-briefing material, and what should happen automatically for each scenario. Adding scenarios to a course is in courses/05-scenarios, roles and sharing are in the user-management research, and equipment stock is in 05-inventory. Sources: the design reference libraries Mobbin and Refero, researched on 30 September 2026.",
+  "baseline": "Today's Essentials editor for a Simulated Clinical Experience (SCE) is a form with tabs: Details, Objectives, Patient, Briefing, and Equipment & Supplies with setup notes for the tech. It exports to PDF or to a Maestro file. Its builder for simulator stages is a subset of Laerdal Maestro, and its checklist editor is a cut-down version of the Enterprise Case Manager. Scheduling templates can send prep emails automatically, and start recording and announcements for each phase. Customers still write scenarios in Word or on paper, and closing a checklist window loses its data. The plan is a deliberately basic scenario manager, linked to inventory, with integration with SimCreate instead of a new Maestro. It adds simpler sharing and a new interactive maker for orientation and pre-briefing. Learners or faculty open checklists from a QR code on the room TV, optionally without logging in.",
+  "targets": {
+    "products": [
+      8,
+      12
+    ],
+    "flows": [
+      15,
+      25
+    ]
+  },
+  "jobs": [
+    {
+      "id": "crud",
+      "title": "Add, edit and delete scenarios",
+      "description": "Create from blank, from a template or by duplicating. Organize sections as tabs, one long page or an outline. Draft and published versions, version history, and archive versus delete."
+    },
+    {
+      "id": "equipment",
+      "title": "Add an equipment list to a scenario",
+      "description": "Picking items from a catalog or typing free text; quantities; setup notes for the tech; a printable prep list"
+    },
+    {
+      "id": "access",
+      "title": "Give access to specific scenarios",
+      "description": "Share one template with people, groups, or roles; view versus edit; org library versus private"
+    },
+    {
+      "id": "checklist",
+      "title": "Add simple checklists to scenarios",
+      "description": "Build a checklist or rubric (items, scoring, required); who fills it, when, and why; reusing items across scenarios"
+    },
+    {
+      "id": "checklist-qr",
+      "title": "Feedback checklist by QR code, without login",
+      "description": "QR shown on the room TV opens a form on the phone without an account; anonymous or identified; confirmation after submit"
+    },
+    {
+      "id": "scripts",
+      "title": "Add scripts (simulator, SP)",
+      "description": "Role-specific scripts and cue cards; branching or stage-based steps; per-role view"
+    },
+    {
+      "id": "orientation",
+      "title": "Add orientation material",
+      "description": "Attach or build a pre-briefing (video, slides, interactive walkthrough) shown before the session"
+    },
+    {
+      "id": "automation",
+      "title": "Choose what happens automatically for each scenario",
+      "description": "Per-template defaults that trigger automation: auto-record, auto announcements, learner tagging, reminders; rule builders (\"when X, do Y\")"
+    }
+  ],
+  "products": [
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "analog": "adjacent",
+      "why": "ClickUp is the only product that covers four of these tasks. It has 'Save as Template' with 'Share with' choices in the same pop-up window, and checklists with an assignee per item and 'Use Template'. Its When/Then automations come with a plain-language summary and an 'Active' switch.",
+      "flows": [
+        "mobbin:9e0d5df7-8fea-4a21-9032-7a84de9d100f",
+        "mobbin:456a85db-8ced-4de2-b541-c685bca7ec0c",
+        "mobbin:e17ac016-5f41-4926-bdbc-525e0a847c60"
+      ]
+    },
+    {
+      "id": "heidi",
+      "name": "Heidi",
+      "analog": "direct",
+      "why": "Heidi's clinical note templates offer three access options: 'Team can use but not edit', 'Community' and 'Only me'. A one-click 'Duplicate' in the library list adds '(Copy)' to the name. It is the clearest model for simpler sharing per scenario.",
+      "flows": [
+        "mobbin:4b33f07a-4b03-4b2f-aea9-b6d64bb521e5",
+        "mobbin:5e3fe2a1-1087-4372-94f7-927aa2a82e8d"
+      ]
+    },
+    {
+      "id": "cal-com",
+      "name": "Cal.com",
+      "analog": "adjacent",
+      "why": "In Cal.com you build a workflow once and attach it to selected event types. It offers 'Apply to all, including future event types' and shows where it is 'Active on N event types'. That is exactly a rule set on the template and applied to every run.",
+      "flows": [
+        "mobbin:f693c13b-9f45-4762-a988-c8e65b456e3c"
+      ]
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "analog": "adjacent",
+      "why": "Shopify's draft orders let you add items with 'Search', 'Browse' or 'Add custom item' from one row. The picker shows availability and quantities per variant, and a Notes box sits beside the list. It is the best model for an equipment list linked to inventory that still allows free text.",
+      "flows": [
+        "refero:5421"
+      ]
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "analog": "wildcard",
+      "why": "Arcade makes interactive walkthroughs, which fits orientation. You choose how to start (record, upload, or turn a video into a demo), then work in Edit, Preview and Insights tabs that show drop-off for each step. The text on each clickable spot in the demo drives the voiceover and can jump to another step.",
+      "flows": [
+        "mobbin:9b7b370a-b591-4494-b083-228f11e6f061",
+        "mobbin:644ef98c-516f-47e4-97e5-ee9ce4635793"
+      ]
+    },
+    {
+      "id": "pitch",
+      "name": "Pitch",
+      "analog": "direct",
+      "why": "Pitch lets a team write templates for a shared library. A banner says 'You are editing a template' the whole time, with Publish or Keep draft choices and Draft labels. Speaker notes for each slide sit in a side panel, and a dot shows that notes exist even when the panel is closed.",
+      "flows": [
+        "refero:593",
+        "mobbin:f0c62f24-6d13-42f6-acb6-f36d7c2a856e"
+      ]
+    },
+    {
+      "id": "tally",
+      "name": "Tally",
+      "analog": "direct",
+      "why": "Tally is a form builder that works like a document, with Draft, Preview and Publish, asterisks for required items, and When/Then logic under a field. Its feedback form needs no account and ends on a plain thank-you page, which is the respondent side a QR checklist needs.",
+      "flows": [
+        "mobbin:908fac0b-b720-4eb8-b992-5ed2da827e6b",
+        "mobbin:c7ec1d19-4938-4a20-87ea-dc9b92e82380"
+      ]
+    },
+    {
+      "id": "typeform",
+      "name": "Typeform",
+      "analog": "adjacent",
+      "why": "Typeform shows the author side of sharing by QR code. One Share area holds 'Copy link', email and embed, and a 'Get the QR code' pop-up offers a download to print or show on a screen.",
+      "flows": [
+        "mobbin:f8d34d78-f96d-4686-bfec-a453ee6ba89f"
+      ]
+    },
+    {
+      "id": "resend",
+      "name": "Resend",
+      "analog": "adjacent",
+      "why": "Resend is the only product here that shows versioning. A Draft label stays until 'Publish New Version', which first checks for warnings. In the history panel, reverting creates a new version that stays in Draft.",
+      "flows": [
+        "mobbin:8914ef26-a0a5-4618-a806-8d1ccba76c3f",
+        "mobbin:62ac5b2e-bca0-4c6c-95c5-3a11fa1336fb"
+      ]
+    },
+    {
+      "id": "teachable",
+      "name": "Teachable",
+      "analog": "direct",
+      "why": "Teachable's lesson list shows 'Empty' or a content count next to Publish. An 'Add content' panel puts media blocks next to a Quiz, which is a graded question builder, but questions are added one at a time with no reusable bank.",
+      "flows": [
+        "mobbin:98032d4a-7cd9-4d93-8993-43d0df586eec",
+        "mobbin:8c62da99-7eb3-46dd-9610-d7d932070129"
+      ]
+    },
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "analog": "wildcard",
+      "why": "Google AI Studio writes dialogue by role. Each line has a colour-coded speaker label, and you rename a role once in a side panel. General style instructions stay apart from the lines, and there is a plain-text view. It is a basic SP or operator script without a stage editor.",
+      "flows": [
+        "mobbin:4f2fdd14-7c4b-4cfb-861a-27ea49a594b5"
+      ]
+    },
+    {
+      "id": "instacart",
+      "name": "Instacart",
+      "analog": "adjacent",
+      "why": "Instacart builds a named list with a description from catalog search. It shows popular items before you type and lets you pick several, then tap Done. A 'Buy it again' tab helps reuse, and the list header has lock and share options.",
+      "flows": [
+        "mobbin:94df2baf-9653-4a11-ba8d-5131225a4ea4"
+      ]
+    },
+    {
+      "id": "luma",
+      "name": "Luma",
+      "analog": "adjacent",
+      "why": "Luma is the example of what not to do for the QR task, because the host's phone scans the guest's ticket QR code. That is the reverse of a learner's phone reading a QR code on the room TV. Its confirm-then-message steps do suit check-in by staff.",
+      "flows": [
+        "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c"
+      ]
+    }
+  ],
+  "synthesis": {
+    "patterns": [
+      {
+        "title": "Access is chosen when the template is saved, in plain words",
+        "body": "ClickUp puts a 'Share with' choice ('All members' / 'Only me' / 'Select people' / 'Admins only') inside the 'Save as Template' pop-up, with public sharing off by default. Heidi uses three cards and spells out that team members can use a template but not edit it. Pitch asks Publish or Keep draft before a template reaches workspace members. For Essentials this suggests a small visibility setting on the scenario itself (private, my team can use, editors) instead of a separate permissions screen. Heidi's moderated public Community is not needed.",
+        "flows": [
+          "mobbin:9e0d5df7-8fea-4a21-9032-7a84de9d100f",
+          "mobbin:4b33f07a-4b03-4b2f-aea9-b6d64bb521e5",
+          "refero:593"
+        ]
+      },
+      {
+        "title": "Draft is a visible status; publishing is a deliberate step",
+        "body": "Pitch shows a 'You are editing a template' banner the whole time, plus Draft labels. Tally keeps Draft, Preview and Publish in the header. Resend adds 'Publish New Version' with a check for warnings, and a revert that stays in Draft. Scenarios used by running courses need the same separation: faculty can edit freely while the published version keeps running. None of the flows shows what happens to existing copies or courses when a new version is published.",
+        "flows": [
+          "refero:593",
+          "mobbin:908fac0b-b720-4eb8-b992-5ed2da827e6b",
+          "mobbin:8914ef26-a0a5-4618-a806-8d1ccba76c3f",
+          "mobbin:62ac5b2e-bca0-4c6c-95c5-3a11fa1336fb"
+        ]
+      },
+      {
+        "title": "Create from something that already exists",
+        "body": "Heidi duplicates from the menu on a library row without opening the editor, names the copy '(Copy)' and confirms with a short pop-up message. Pitch and Tally let you choose 'start from scratch' or 'use a template' on the blank page. ClickUp's 'Save as Template' turns a working document into a reusable one and offers 'update existing' or 'save as new'. This answers the problem that customers write scenarios in Word: start from a colleague's scenario, not an empty form with tabs.",
+        "flows": [
+          "mobbin:5e3fe2a1-1087-4372-94f7-927aa2a82e8d",
+          "refero:593",
+          "mobbin:908fac0b-b720-4eb8-b992-5ed2da827e6b",
+          "mobbin:9e0d5df7-8fea-4a21-9032-7a84de9d100f"
+        ]
+      },
+      {
+        "title": "Rules attach to the template type and say where they are active",
+        "body": "Cal.com's workflow asks 'Which event type will this apply to?', offers 'Apply to all, including future event types' and lists 'Active on N event types'. ClickUp writes the When/Then rule back as a sentence and has an on/off switch for each rule. It also warns straight away when an action will be skipped because someone lacks access. For Essentials that means a short When/Do list on the scenario, with presets and an 'active on' count: auto-record at phase start, a prep email X days before, an announcement. It does not need a general automation product.",
+        "flows": [
+          "mobbin:f693c13b-9f45-4762-a988-c8e65b456e3c",
+          "mobbin:e17ac016-5f41-4926-bdbc-525e0a847c60"
+        ]
+      },
+      {
+        "title": "Equipment: pick from a catalog, allow free text, keep notes beside the list",
+        "body": "Shopify offers 'Search', 'Browse' and 'Add custom item' in one row, shows availability per variant in the picker and keeps a Notes box next to the items. Instacart shows popular items before you type, lets you pick several then tap Done, and has a 'Buy it again' tab to reuse earlier lists. Linking the list to Inventory items while still allowing a custom line covers centers whose inventory is incomplete. The setup notes for the tech belong next to the list, not in another tab.",
+        "flows": [
+          "refero:5421",
+          "mobbin:94df2baf-9653-4a11-ba8d-5131225a4ea4"
+        ]
+      },
+      {
+        "title": "Scripts sit beside what they cue, labelled by role",
+        "body": "Pitch attaches notes to one slide in a side panel and shows a dot when notes exist. Google AI Studio labels each line with a colour-coded speaker, renames a role once for all lines and keeps general style instructions apart from the lines. In Arcade, the text on each clickable spot drives the narration and can jump to another step. Together they point to a basic script per phase and per role (SP, operator) with simple 'go to' branching, without a Maestro-style stage editor.",
+        "flows": [
+          "mobbin:f0c62f24-6d13-42f6-acb6-f36d7c2a856e",
+          "mobbin:4f2fdd14-7c4b-4cfb-861a-27ea49a594b5",
+          "mobbin:644ef98c-516f-47e4-97e5-ee9ce4635793"
+        ]
+      },
+      {
+        "title": "Orientation is a set of blocks, with editing, preview and completion in one place",
+        "body": "Arcade starts with a choice of source (record, upload, or turn a video into a demo). It then keeps Edit, Preview and Insights together on one project, down to drop-off for each step. Teachable adds blocks from a panel that groups content blocks and a quiz, and its lesson list shows whether a lesson is empty. For the pre-briefing maker, this means an ordered set of blocks with a preview for learners. Blocks could be the existing video, text, a click-through of the room or simulator, and a short knowledge check. Completion data per step could show faculty who has done the pre-brief.",
+        "flows": [
+          "mobbin:9b7b370a-b591-4494-b083-228f11e6f061",
+          "mobbin:98032d4a-7cd9-4d93-8993-43d0df586eec",
+          "mobbin:8c62da99-7eb3-46dd-9610-d7d932070129"
+        ]
+      },
+      {
+        "title": "Checklists: required items and who fills them are captured; shared item banks are not",
+        "body": "Tally marks required items with asterisks and adds When/Then logic under a field. ClickUp gives each checklist item an assignee and a 'Use Template' action, and Teachable marks correct answers per question. The products differ on reuse: ClickUp reuses whole checklists, Teachable adds questions one at a time, and none shows an item bank shared across templates. For the person filling it in, Tally's form needs no account and ends on a plain thank-you page. Typeform makes a downloadable QR code in the same Share area as the link.",
+        "flows": [
+          "mobbin:908fac0b-b720-4eb8-b992-5ed2da827e6b",
+          "mobbin:456a85db-8ced-4de2-b541-c685bca7ec0c",
+          "mobbin:8c62da99-7eb3-46dd-9610-d7d932070129",
+          "mobbin:f8d34d78-f96d-4686-bfec-a453ee6ba89f"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Gap: no flow here shows the whole room-TV loop, from a QR code on a shared screen to a phone form with no login and a confirmation. Typeform shows only the author side (link and downloadable QR code). Tally shows only a no-account form with a thank-you page, on desktop. Luma is the reverse case: the host scans the guest. A targeted search for this gap found only in-app surveys that require login. How a no-login answer is tied to the right session and learner is still an Essentials design decision. Options are a code in the web address, a name field, or a room or session token.",
+      "Checklist editor: its own module, or part of the scenario? ClickUp keeps checklists on the item and reuses them with 'Use Template', Teachable builds a quiz inside a lesson, and Tally builds standalone forms. No product here shows one item bank reused across many templates. The evidence leans toward a checklist library that scenarios point to, so one fix updates every scenario. Who owns that library is a product decision.",
+      "Versions and running courses: Pitch, Tally and Resend make draft versus published explicit, and Resend restores old versions without deleting the current one. None shows what happens to courses, copies or scheduled sessions that already use a template when a new version is published. The courses/05-scenarios report raised the same open question: pin a version, make a copy, or keep a live link.",
+      "Automation scope: Cal.com and ClickUp only automate emails, assignees and fields. Nothing here sets physical room actions per template, such as auto-record, room announcements or learner tagging, and today these live on scheduling templates. Decide whether they move to the scenario, stay on the schedule, or come from scenario defaults that the schedule can override.",
+      "Equipment and Inventory: Shopify's picker shows availability per variant, which is tempting, but stock and check-out belong to 05-inventory. Decide whether the scenario list shows availability for the scheduled date, or only the item, its quantity and the tech's setup notes, with printing and prep sheets left to Inventory."
+    ]
+  }
+}

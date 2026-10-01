@@ -1,0 +1,122 @@
+{
+  "refero:91dab9ae-9676-49b6-8b26-01dde539cb0e": [
+    "zendesk-saml.jpg"
+  ],
+  "refero:4fc8ea47-ce2b-40b1-8817-71e138851fcc": [
+    "calendly-provisioning.jpg"
+  ],
+  "mobbin:e304a20c-fb7b-467a-97de-7f725cd317c1": [
+    "mobbin/31350159-fd49-4cd3-bc01-967f1a7bfe0e.jpg",
+    "mobbin/231210d1-e819-4996-994d-e20afa4b904d.jpg",
+    "mobbin/34474b95-2f25-44db-b004-df6e19041835.jpg",
+    "mobbin/fba63c89-1bfb-4bc5-a3b2-78e69958d8bd.jpg"
+  ],
+  "mobbin:ced1a847-5c4e-49bd-92b4-dcec2b5a8916": [
+    "mobbin/277cd6a1-2548-408c-ba65-3a0acf33c36e.jpg",
+    "mobbin/950bd8fb-e973-4367-a68b-a6c5ef485e8f.jpg",
+    "mobbin/eccd2f55-dcc7-44ce-b712-71a4c39def81.jpg",
+    "mobbin/87218698-4c32-45f7-adc3-61198ccd33b0.jpg",
+    "mobbin/821604af-39b9-46e2-8e20-3f8ced157142.jpg",
+    "mobbin/0c726d9e-6f02-432d-b2ba-055cbc15c6a6.jpg"
+  ],
+  "mobbin:b7696e33-f9a3-406d-ac04-a210bd88cc1c": [
+    "mobbin/952b02f6-5679-4afe-8d31-04532d1e14a3.jpg",
+    "mobbin/dc451bfe-7fdc-435e-bd9f-5e8d6301d82d.jpg",
+    "mobbin/1ab66cfd-4a8d-47a9-a543-49eb64f35e0a.jpg",
+    "mobbin/d31f7cc8-8f33-48b9-b1c1-3ee159a90f52.jpg"
+  ],
+  "documentation:entra-ldap": [],
+  "documentation:okta-ad-scope": [],
+  "documentation:google-simulation": [],
+  "documentation:entra-on-demand": [
+    "documentation/entra-on-demand-0.png",
+    "documentation/entra-on-demand-1.png"
+  ],
+  "refero:4649": [
+    "refero-4649/0.jpg",
+    "refero-4649/1.jpg",
+    "refero-4649/2.jpg",
+    "refero-4649/3.jpg",
+    "refero-4649/4.jpg"
+  ],
+  "mobbin:93a5db68-6f50-4b51-90fd-0b5ae39257a5": [
+    "mobbin/d320f96d-739d-45ea-a4a7-8c8f92fcaf90.jpg",
+    "mobbin/5ceb2f48-9668-421d-b59a-70da94d82a2e.jpg",
+    "mobbin/e1843d29-60fa-4786-9191-b9704e17142d.jpg",
+    "mobbin/95e1a260-5034-4e86-82cd-04c17cd785fa.jpg"
+  ],
+  "documentation:entra-matching": [],
+  "documentation:atlassian-jit": [
+    "documentation/atlassian-jit-0.png",
+    "documentation/atlassian-jit-1.png"
+  ],
+  "documentation:github-linking": [
+    "documentation/github-linking-1.png"
+  ],
+  "mobbin:986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f": [
+    "mobbin/91368794-4b0a-44aa-8556-4865258940d3.jpg",
+    "mobbin/02a533b3-ba02-4194-b5cb-5762d3d2b279.jpg",
+    "mobbin/9f98944b-93c9-4dc2-85f4-11f991d0545e.jpg",
+    "mobbin/cc52905e-1f42-4fe7-984a-6a86f8271bc6.jpg",
+    "mobbin/2ae61b76-5411-42b1-87ec-3564bde6bd73.jpg"
+  ],
+  "documentation:atlassian-managed": [],
+  "documentation:github-team-sync": [],
+  "documentation:atlassian-group-conflicts": [
+    "documentation/atlassian-group-conflicts-0.png"
+  ],
+  "documentation:canvas-course-roles": [],
+  "refero:1250": [
+    "refero-1250/0.jpg",
+    "refero-1250/1.jpg",
+    "refero-1250/2.jpg",
+    "refero-1250/3.jpg"
+  ],
+  "documentation:entra-lifecycle": [
+    "documentation/entra-lifecycle-3.png",
+    "documentation/entra-lifecycle-4.png"
+  ],
+  "documentation:entra-status": [
+    "documentation/entra-status-0.png"
+  ],
+  "documentation:entra-logs": [
+    "documentation/entra-logs-0.png"
+  ],
+  "documentation:entra-deletion-guard": [],
+  "documentation:atlassian-sync-actions": [],
+  "refero:671": [
+    "refero-671/0.jpg",
+    "refero-671/1.jpg",
+    "refero-671/2.jpg",
+    "refero-671/3.jpg",
+    "refero-671/4.jpg",
+    "refero-671/5.jpg",
+    "refero-671/6.jpg",
+    "refero-671/7.jpg",
+    "refero-671/8.jpg",
+    "refero-671/9.jpg",
+    "refero-671/10.jpg",
+    "refero-671/11.jpg",
+    "refero-671/12.jpg"
+  ],
+  "refero:10795": [
+    "refero-10795/0.jpg",
+    "refero-10795/1.jpg",
+    "refero-10795/2.jpg",
+    "refero-10795/3.jpg",
+    "refero-10795/4.jpg",
+    "refero-10795/5.jpg",
+    "refero-10795/6.jpg",
+    "refero-10795/7.jpg",
+    "refero-10795/8.jpg"
+  ],
+  "documentation:canvas-export": [
+    "documentation/canvas-export-2.png",
+    "documentation/canvas-export-7.png",
+    "documentation/canvas-export-15.png"
+  ],
+  "documentation:canvas-export-fields": [],
+  "documentation:canvas-nrps-roster": [],
+  "documentation:canvas-nrps-identifiers": [],
+  "documentation:canvas-enrollment-status": []
+}

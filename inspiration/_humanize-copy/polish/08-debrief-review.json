@@ -1,0 +1,180 @@
+{
+  "module": "08-debrief-review",
+  "flows": {
+    "grain 2523ca18": {
+      "summary": "From the meetings list, the user opens a recording and reviews the AI summary, then the chapters, with time-linked bullets next to the video and a timeline of who spoke when.",
+      "steal": [
+        "A first-time tip, 'Skip to the important parts', teaches that the times on AI outcomes jump the video and transcript to that moment (screen 2).",
+        "Outcomes and action items each carry clickable times that link a claim to the moment that supports it (screens 2 to 3).",
+        "A speaker timeline under the video shows each person's share of talk time as coloured bars, with empty Comments and Clips rows ready for markers (screen 3).",
+        "The chapter list nests time-linked bullets under each chapter, and the chapter name appears on the video's progress bar (screen 4)."
+      ],
+      "avoid": ["The AI summary and chapters go live with Share and Ask AI straight away, with no step for faculty to edit or approve before learners see them. The baseline wants human review."],
+      "fit": "Debrief and review: adds AI chapters, outcomes and action items to the SRV's Annotation and Transcript tabs. It clashes with the baseline if AI notes appear on the debrief big screen automatically."
+    },
+    "grain 47438eb0": {
+      "steal": [
+        "Transcript search highlights each match ('Grain'), and speaker colours match the bars on the timeline (screen 2).",
+        "The Transcript tab sits next to Summary and Chapters in the same panel, so one click checks an AI claim against what was said (screen 2).",
+        "A stripped-down player keeps only the chapter name, 10-second skips and a visible 1x speed, so nothing competes with the video on the room display (screen 3)."
+      ],
+      "fit": "Debrief and review: matches the SRV layout of video on the left and Transcript and Annotation tabs on the right. The stripped-down player could be the big-screen mode while the phone holds the notes."
+    },
+    "grain 6b6443d7": {
+      "summary": "In a coaching review, the user picks a scorecard for one speaker, answers yes/no and 1 to 5 items with notes, submits, then sees the results under the video with 'Send to Sam'.",
+      "steal": [
+        "Rubric rows with coloured 1 to 5 buttons and a large average score sit beside the video of all participants, so faculty grade while rewatching (screen 1).",
+        "A new scorecard asks for the speaker, the scorecard template and who can view it before scoring starts (screen 3).",
+        "'Submit' stays disabled until required answers are filled in, and each item offers N/A (screens 4 to 5).",
+        "A 'Send to Sam' button stays in view and sends the finished review to one named learner (screens 1 and 8)."
+      ],
+      "avoid": ["It scores one speaker at a time, with no way to grade the whole team and adjust individuals in one pass. That misses group grading, which the baseline says is the usual case."],
+      "fit": "Debrief and review: adds a rubric under the video and sharing with a named learner to the SRV's Data Entry tab. It is useful for adjusting one person's grade, but the default needs to start from the group."
+    },
+    "fireflies cc79d322": {
+      "summary": "In step 1 of 2 of creating an AI app, the author writes an AI prompt, picks at least two meetings, and turns on 'Preview Notes' before moving on.",
+      "steal": [
+        "The screen puts the plain-language instructions on the left and 'select meetings to preview / refine from output' on the right (screen 1).",
+        "'Preview Notes' stays disabled until at least two meetings are chosen, which forces a trial run (screens 1 to 4).",
+        "'Preview Notes' comes before 'Next', so a person checks the output before finishing setup (screen 4)."
+      ],
+      "avoid": ["The flow never shows step 2 or a share or publish screen, so it is weak evidence for approving before learners see anything. It only covers previewing during setup."],
+      "fit": "Debrief and review: faculty could set what the AI should pull out of sim recordings and preview it on past sessions before it runs on live debriefs."
+    },
+    "fireflies e91b3485": {
+      "summary": "The user opens a meeting, reads the general summary and notes with time links, searches the speaker-labelled transcript or asks AskFred, and controls playback (speed, 10-second skips, download, Share).",
+      "steal": [
+        "AI notes contain blue time links (for example 06:33) that jump from a claim to that moment in the recording (screen 1).",
+        "AskFred, a tab next to Transcript, keeps questions about the recording beside the searchable transcript (screens 1 to 3).",
+        "One bar at the bottom holds 1x speed, 10-second skips, Download and thumbs up or down on the AI output (screen 1)."
+      ],
+      "avoid": ["Share is available as soon as the AI summary appears, with no edit or approve step before sharing. That goes against the human review in the baseline."],
+      "fit": "Debrief and review: the closest Fireflies match to the SRV's summary, transcript and playback. Use it for AI debrief text linked to evidence, but add a faculty approval before learners can see it."
+    },
+    "fireflies 0384c559": {
+      "summary": "From the clips panel, the user creates a soundbite by dragging across a range while the transcript highlights it, then names the clip, picks a playlist and who can access it, and taps Done.",
+      "steps": { "1": "Clips panel: Create or AI Soundbite" },
+      "steal": [
+        "'Create Soundbite' (by hand) and 'AI Soundbite' sit side by side (screen 1).",
+        "Dragging across the recording, with START and END fields, colours the chosen part of the transcript purple so it can be checked before creating (screens 2 to 3).",
+        "Tabs for 'Magic Soundbite' and 'Keyword Soundbite' offer other ways to make clips without leaving the window (screen 2).",
+        "After creating, the window asks for a title and 'Who can access' (Participants only) before Done, so a person finishes the clip (screen 4)."
+      ],
+      "fit": "Debrief and review: a strong model for human review of AI clips before publishing. Trim against the transcript, publish with permissions, and attach the clip once faculty tap Done."
+    },
+    "canva f28f8936": {
+      "summary": "The presenter starts a live session on the big screen, where a QR code and a short code let the audience join. The join banner can then be hidden while the session stays live.",
+      "steal": [
+        "People can join through a large QR code, the canva.live address or a short code, which helps in rooms where phones struggle to scan (screen 2).",
+        "A live count of participants next to 'End session' shows the presenter that people have joined (screen 2).",
+        "Hide and Show on the join strip clear the join details from the public display once people are connected (screens 2 to 3).",
+        "'Copy invitation' gives people who join remotely or late a way in without the QR code (screen 2)."
+      ],
+      "fit": "Debrief and review: a strong pattern for the QR code on the debrief-room screen after recording. The public display shows the video and join details for a short time; the phone would hold the private annotations."
+    },
+    "canva f2fe9686": {
+      "summary": "From a presentation on the phone, the user opens remote control with a QR code and a link to copy, to hand control to another device, with a pause option.",
+      "steal": [
+        "The title 'Remote control this presentation' says what the screen is for in one line (screen 2).",
+        "An 'Available' status and a Pause control let the presenter switch off the remote link without ending the session (screen 2).",
+        "A 'Copy link' next to the QR code covers phones or tablets that fail to scan in a debrief room (screen 2)."
+      ],
+      "avoid": ["The flow shows only the phone, never the big screen it controls, so Essentials still needs both sides designed before this counts as strong second-screen evidence."]
+    },
+    "google-tv 3f1ac467": {
+      "summary": "From a movie page on the phone, the user taps 'Watch on TV' while connected to the living-room TV, then uses the phone as a remote with a touch pad, volume and a progress bar.",
+      "steal": [
+        "A bar at the bottom shows the title and a green 'Living Room TV' connection while you browse, so control stays one tap away (screen 1).",
+        "'Watch on TV' is the main button, which makes handing playback from the phone to the big screen explicit (screen 1).",
+        "A dedicated remote screen shows 'Connected' at the top, a swipe pad, 30-second skips and a progress bar for precise jumps (screen 2).",
+        "Playback controls are only on the phone, so the TV shows only the video, which matches the privacy goal (screen 2)."
+      ],
+      "avoid": ["An installed-app remote with arrow pad and Assistant buttons is heavier than needed. The baseline prefers a simple web page on a phone or tablet for faculty who are not technical."],
+      "fit": "Debrief and review: the closest pattern from another field for a second screen. The phone controls playback, and the big screen appears to show video only. It is weak on annotations but strong on showing the connection."
+    },
+    "otter-ai d7a0fc7c": {
+      "fit": "Debrief and review: matches using the phone to capture the debrief and as a second screen for private notes. It needs an approval step before learners see a summary."
+    },
+    "otter-ai c2a5d587": {
+      "avoid": ["Do not build this: the AI summary comes with Copy Summary, Share and Post to Slack as the main buttons, with no edit or approve step before it goes out."],
+      "fit": "Debrief and review: an example of what not to do for AI debrief. Still borrow the time-linked outline and 'Rematch speakers' for a phone view of the SRV where faculty approve first."
+    },
+    "descript 71f5995e": {
+      "summary": "In an editor where the transcript and video stay in step, the user opens Underlord's 'Repurpose' tools, sets up 'Create clips' (number, length, layout, optional topic), and reaches caption styles before Submit.",
+      "steal": [
+        "'Create clips' asks for the number of clips, their length, a layout and an optional topic before Submit (screens 3 to 5).",
+        "The Repurpose menu also offers 'Create highlight reel' and 'Find highlights' next to 'Create clips' (screen 1).",
+        "The transcript is lined up word by word with the timeline, so the start and end of each clip can still be changed by editing text (screens 1 to 5).",
+        "A person sets the rules and then taps Submit, so clips are never published silently (screens 3 to 5)."
+      ],
+      "avoid": ["'Viral bait' and social-media layouts are the wrong tone for clinical debrief highlights; use clinical topics to choose clips instead."],
+      "fit": "Debrief and review: the best reference for AI clips where a person sets the rules before sharing. Bring the topic, number and length settings into the SRV phone review, and drop the social layouts."
+    },
+    "frame-io c537e383": {
+      "steal": [
+        "Share settings stay in a side panel next to the video, so the user sets them without leaving the review (screen 1).",
+        "Quick choices ('24 Hours', '1 Week', '2 Weeks') sit above a calendar and time picker, which suits short sharing windows after a debrief (screen 2).",
+        "The chosen expiry ('Dec 31 at 11:59pm') is then shown in one short line with Edit and an X to clear it (screens 3 to 4).",
+        "Comments, Downloads and 'Show all versions' are separate switches next to Security (passphrase and expiry) (screens 1 and 4)."
+      ],
+      "fit": "Debrief and review: the best match for sharing video after a debrief, with settings next to playback, quick expiry choices and a Downloads switch. Essentials still needs consent before identifiable learners can be downloaded."
+    },
+    "dropbox 8fee942f": {
+      "steal": [
+        "Separate tabs for 'Link for editing' and 'Link for viewing' keep viewing and download rules apart from editing rights (screens 1 to 2).",
+        "Switches for Expiration, Require password and Disable downloads stay off until needed (screens 2 to 8).",
+        "A yellow note, 'This applies only within Dropbox', appears when downloads are disabled, which is honest about the limit (screen 8).",
+        "After saving, the share window shows 'Restrictions apply · Modify' under 'Copy link' and a 'Settings saved' message (screen 9)."
+      ],
+      "avoid": ["Nine nearly identical screens for one setting task are too long; Essentials should keep expiry, password and download on one small panel."],
+      "fit": "Debrief and review: adds a password, a download block and a clear 'restrictions apply' note to expiring share links for learners. Sim video of identifiable learners still needs consent before download."
+    },
+    "classdojo b83099d3": {
+      "steal": [
+        "The group's members are listed first, then one main 'Award group' button, before any grade is given (screen 1).",
+        "A fixed set of skill buttons (+1 Helping others, On task, Participating, Persistence, Teamwork, Working hard) applies to the whole group at once (screen 2).",
+        "A large, brief confirmation ('Group A · +1 for Persistence') and 'Undo last' let the teacher fix a wrong tap straight away (screen 3)."
+      ],
+      "avoid": ["The side panel highlights one member (Sam) while the title says 'Give feedback to Group A', so it is unclear whether the award goes to the group or one person. Essentials needs an explicit choice between group grade and individual adjustment."],
+      "fit": "Debrief and review: supports grading the group first. Skill buttons map to rubric items for the sim team, with 'Undo last' before the evaluation is locked."
+    },
+    "classdojo 8e7b5ca8": {
+      "steal": [
+        "The report's side list shows 'Whole class' first, then each learner with a percentage, so one click goes from the group to one person (screen 3).",
+        "Points earned, skills awarded, Export and Print, and an all-time range sit in the same header (screen 3).",
+        "A dated activity list ('+1 to Amanda · Working hard · Dec 24 · Alex Smith') works as a log of who graded what and when (screen 3)."
+      ],
+      "avoid": ["The next screen jumps to attendance instead of going deeper into grades or comments, which weakens it as an example of a detailed evaluation report (screen 4)."],
+      "fit": "Debrief and review: a pattern for a team report after the debrief, with a whole-team total, a list per learner and a dated log next to the SRV's Annotation and Data Entry."
+    },
+    "beside b5d1550e": {
+      "steal": [
+        "Settings has its own 'In-Person Recorder' switch, so recording a conversation in the room is a clear mode, not a one-off (screens 1 to 2).",
+        "A floating recorder with a timer, sound wave and stop button stays on screen while the user moves around the app (screens 3 to 4).",
+        "After the session, an overview shows a transcript link, sharing to Slack, email or notes, and playback with 'See Transcription' (screen 5).",
+        "When the AI finds nothing to do, the to-do list says 'No actions, you're in the clear!' (screen 5)."
+      ]
+    },
+    "google-maps 337a0dfd": {
+      "summary": "From a place page, the user enters the 360° street view, moves with arrows on the ground, splits the screen with a map whose marker shows which way they face, and opens older dates and recent photos.",
+      "steal": [
+        "The 360° view splits with a flat map whose marker points the way you are facing, which could map to a room layout next to 360° playback (screens 4 to 5).",
+        "Arrows on the ground move between capture points without leaving the 360° view (screens 2 to 3).",
+        "'See more dates' and 'Latest photos' switch to another capture date or to still photos of the same place without leaving 360° (screens 3 and 6).",
+        "There are two ways in: a Street View marker on the map and an Immersive View card among the photos (screen 1)."
+      ],
+      "avoid": ["Roaming freely through outdoor panoramas is not the same as moving through a fixed 360° recording of a sim room; do not make endless walking the main debrief control."],
+      "fit": "Debrief and review: a fallback for camera views, since Tesla showed no multi-camera switching. A map that shows your direction next to the 360° view is the idea to borrow for 360° review beside SRV playback."
+    },
+    "dazn 7f182913": {
+      "summary": "The user watches a live event with a rewind button, browses related highlights under the player, then opens a related day with 'Watch now' and 'Share'.",
+      "steal": [
+        "A row of related clips under the player ('Highlights from this competition') keeps highlights next to the main recording (screen 1).",
+        "A 10-second rewind on the live player lets the user go back quickly without leaving the event (screen 1).",
+        "A small panel with 'Watch now' and 'Share' lets the user jump to a related session or share it, and can be closed (screen 2)."
+      ],
+      "avoid": ["This was fetched as an example of switching between cameras, but the screens only show related days and highlights; do not treat it as evidence for camera views."],
+      "fit": "Debrief and review: closer to rewatching and browsing highlights next to the main playback than to switching PTZ or 360° cameras. A cast icon hints at sending video to a TV, but no big-screen view is shown."
+    }
+  }
+}

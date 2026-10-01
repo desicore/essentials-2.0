@@ -1,0 +1,25 @@
+{
+  "product": "patreon",
+  "flows": {
+    "mobbin:63dda702-ffb9-4b29-a69e-a58be8bf9ad9": {
+      "summary": "Creator opens their management home, switches account via the sidebar identity menu, and lands on a Member discovery home with a much smaller sidebar.",
+      "steps": [
+        "Creator home overview",
+        "Open role / account switcher",
+        "Member discovery home"
+      ],
+      "steal": [
+        "Step 0–1: Current role is always visible in the sidebar footer (“Alex” / “Creator”); opening the ⋮ menu lists alternate identities with a checkmark on the active one.",
+        "Step 0 vs 2: Creator sidebar exposes management modules (My page, Library, Audience, Insights, Payouts, Moderation Hub, Promotions, Community, Notifications, Settings) plus a persistent Create control; Member sidebar collapses to Home, Explore, Community, Notifications, Settings—no Create.",
+        "Step 0: Sparse Overview KPI (“Membership: 4 total”) with “Go to Insights” click-through and a Latest activity strip (comments / likes / impressions).",
+        "Step 2: Member home replaces management widgets with search, topic chips, and discovery carousels—same product shell, different job."
+      ],
+      "avoid": [
+        "Step 0: Large profile/edit banner dominates the first viewport before the Overview KPI—clashes with Essentials’ “show little, but precisely” home rule."
+      ],
+      "fit": "Maps to role-home for admin/faculty vs learner: switcher stays on the dashboard; Creator-side Insights/Create hand off to Reports and Scenario manager / Scheduling; Member home is the lightweight learner page (own content discovery), not a second full module tile grid.",
+      "jobs": ["role-home", "navigation", "kpis"],
+      "counter_example": false
+    }
+  }
+}

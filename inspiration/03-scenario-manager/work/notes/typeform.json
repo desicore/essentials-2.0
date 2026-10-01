@@ -1,0 +1,24 @@
+{
+  "product": "typeform",
+  "flows": {
+    "mobbin:f8d34d78-f96d-4686-bfec-a453ee6ba89f": {
+      "summary": "The author edits a question, opens Share to copy a public link, and downloads a QR code for room display.",
+      "steps": [
+        "Create: multiple choice with Required switch",
+        "Share: copy link and embed options",
+        "Get the QR code: download pop-up"
+      ],
+      "steal": [
+        "One Share area puts 'Copy link' next to email, QR code and phone-preview options, so the TV QR code and the link are shared from one place (screen 2).",
+        "A 'Get the QR code' pop-up shows a large code and 'Download QR Code', for printing or showing on a room screen (screen 3).",
+        "A side menu offers 'Share the link', 'Embed in an email' and 'Embed in a web page', so the form reaches people in other ways without being rebuilt (screen 2).",
+        "Each question has a Required switch while the author edits, before publishing (screen 1)."
+      ],
+      "avoid": [
+        "Social sharing buttons and Canva thumbnails are marketing extras; sim-room checklists need practical ways out (TV, QR code, link) (screen 2)."
+      ],
+      "fit": "Scenario manager: the author side of a checklist opened by QR: create a link and a QR code to show in the room. A public link works for named or anonymous answers without login.",
+      "counter_example": false
+    }
+  }
+}

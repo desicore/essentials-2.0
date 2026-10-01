@@ -1,0 +1,33 @@
+{
+  "product": "shopify",
+  "flows": {
+    "refero:5421": {
+      "summary": "From empty Orders, the admin creates an order, picks product variants, sets quantities and customer on a draft, saves as draft #D1, and sees it Open on the Drafts list.",
+      "steps": [
+        "Orders with nothing listed yet; Create order",
+        "Blank draft: Search / Browse / Add custom item",
+        "Select products pop-up (none selected)",
+        "Select products (2 variants checked)",
+        "Line items with quantities on unsaved draft",
+        "Customer assigned plus payment terms",
+        "Saved draft #D1 (Duplicate / Share)",
+        "Drafts index with #D1 Open"
+      ],
+      "steal": [
+        "The Products area has 'Search', 'Browse' and 'Add custom item' in one row, so catalog items and free text sit together.",
+        "The product picker shows how many of each variant are available, keeps 'Add' disabled until something is chosen, and counts selections out of 500.",
+        "An unsaved draft offers 'Discard' or 'Save'; once saved, 'Duplicate' and 'Share' sit at the top of the draft.",
+        "A Notes box sits to the right of the items, so setup notes stay next to the equipment list."
+      ],
+      "avoid": [
+        "Payment, invoice and 'Mark as paid' controls belong to selling and clash with a sim equipment list."
+      ],
+      "fit": "Scenario manager: the best model to replace the free-text Equipment & Supplies field with items linked to inventory, quantities and notes. Check-out stays in Inventory, and the draft stage extends SCE editing.",
+      "jobs": [
+        "equipment",
+        "crud"
+      ],
+      "counter_example": false
+    }
+  }
+}

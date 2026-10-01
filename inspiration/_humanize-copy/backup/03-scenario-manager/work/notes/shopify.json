@@ -1,0 +1,33 @@
+{
+  "product": "shopify",
+  "flows": {
+    "refero:5421": {
+      "summary": "From an empty Orders page, the admin opens Create order, picks product variants in a catalog modal, sets quantities and customer on an unsaved draft, saves as draft #D1, and sees it Open on the Drafts list.",
+      "steps": [
+        "Orders empty state \u2192 Create order",
+        "Blank draft: Search / Browse / Add custom item",
+        "Select products modal (none selected)",
+        "Select products (2 variants checked)",
+        "Line items with quantities on unsaved draft",
+        "Customer assigned + payment terms",
+        "Saved draft #D1 (Duplicate / Share)",
+        "Drafts index with #D1 Open"
+      ],
+      "steal": [
+        "Products card: Search + Browse + Add custom item in one row (catalog and free-text together).",
+        "Select products modal: availability counts per variant; Add disabled until selection; N/500 selected counter.",
+        "Unsaved draft chrome: Discard / Save; after save, Duplicate and Share on the draft header.",
+        "Right rail Notes card beside the line items \u2014 setup notes next to the equipment list."
+      ],
+      "avoid": [
+        "Payment / invoice / Mark as paid controls \u2014 commerce chrome that clashes with a sim equipment list."
+      ],
+      "fit": "Best model to replace free-text Equipment & Supplies with inventory-linked line items + qty + notes, while check-out stays in Inventory; draft lifecycle extends SCE authoring.",
+      "jobs": [
+        "equipment",
+        "crud"
+      ],
+      "counter_example": false
+    }
+  }
+}

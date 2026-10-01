@@ -1,0 +1,48 @@
+{
+  "product": "turo",
+  "flows": {
+    "mobbin:9f1a536c-16bb-424e-a558-0604130c4576": {
+      "summary": "Guest opens End trip with time remaining, documents exterior (and later interior) with photos, reviews host/guest photo sets, accepts liability on Finish checkout, and lands on trip-ended with a timestamp.",
+      "steps": [
+        "End trip sheet — time remaining",
+        "Exterior photos intro",
+        "Add photos sheet",
+        "Camera capture",
+        "Host/guest photo review",
+        "Save exterior — continue",
+        "Finish checkout — liability",
+        "Trip ended confirmation"
+      ],
+      "steal": [
+        "Pre-return hub (step 1): countdown ('ends in 2h 30m'), Change trip, Report damage, and End trip that requires a short inspection before checkout.",
+        "Photo compliance (steps 2–3): recommended area count + 'View all exterior areas'; Why-it-matters callout; Take photos vs Upload from Photos; Skip allowed.",
+        "Shared photo log (step 5): sections by party (host vs guest) with per-photo timestamps before Continue.",
+        "Accountability gate (step 7): Finish checkout modal — agree inspection is accurate / liable for unreported damage — then Submit; success shows Trip ended timestamp and notify counterparty."
+      ],
+      "avoid": [
+        "Requiring ~15 exterior + ~8 interior photos for every sim-equipment return — scale documentation to high-value assets only."
+      ],
+      "fit": "Fills the undefined Essentials return/damage path for check-out-manual: condition photos, dual-party evidence, liability confirm, and explicit return timestamp before the item is free again.",
+      "jobs": ["check-out-manual"]
+    },
+    "mobbin:928e0f27-77e0-456e-b079-4914013cb117": {
+      "summary": "From Pickup & return hours, host opens Block availability (empty), sets start/end date-time with calendar and time wheels, and confirms Add for a blocked window.",
+      "steps": [
+        "Pickup hours + Block entry",
+        "Empty blocked hours",
+        "Block form — empty range",
+        "Pick start date",
+        "Pick start time",
+        "Pick end date/time"
+      ],
+      "steal": [
+        "Empty state (step 2): No hours blocked + Block availability CTA; lightbulb nudge that host unavailability ≠ vehicle unavailability — Go to Calendar to block the asset itself.",
+        "Block form (steps 3–6): Start/End date + time fields; inline month calendar; 30-minute time drum; single Add commit.",
+        "Recurring vs ad-hoc (step 1): Always available toggle and per-weekday Available hours sit beside Block availability for one-off windows."
+      ],
+      "avoid": [],
+      "fit": "Maps to Essentials equipment scheduling / conflict handling (baseline): block a manikin or room for maintenance or exclusive use so two scenarios cannot claim the same asset; keep job as check-out-manual among current ids.",
+      "jobs": ["check-out-manual"]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "product": "glossgenius",
+  "flows": {
+    "refero:9972": {
+      "summary": "From the week calendar, click a time cell, fill in client, provider and services, confirm with notify, and save the appointment.",
+      "steps": [
+        "Empty week; provider filter Liam; Add",
+        "Click 9:00am cell highlight",
+        "New appointment panel: time, client, provider, services",
+        "Client search list plus Add New Client",
+        "Services picker with duration, price, end buffer",
+        "Multi-select 3 services; Add 3 services",
+        "Stacked services; end time calculated; preview",
+        "Book appointment confirm with notify checkbox",
+        "Confirm Book it with notify on",
+        "Booked block: John Doe, 3 services, Nail Room #1"
+      ],
+      "steal": [
+        "Clicking a calendar cell opens a side panel with the start time already filled (screens 2 to 3).",
+        "One form covers person, provider and multi-service Add; end time is derived from the sum (screens 3, 6 to 7).",
+        "Each service has duration plus a '10m block at the end' buffer, and the room sits on the card (screens 5 to 7).",
+        "A confirm step with 'Notify client via email and text' comes before commit (screens 8 to 9)."
+      ],
+      "avoid": [
+        "One client per appointment only leaves no group or capacity roster for 4 to 10 learners in one slot."
+      ],
+      "fit": "Scheduling: best proxy for simple events: scenario(s), room, faculty and learner from a calendar cell. Multi-service maps to multi-station rotation in one booking; extend with group capacity.",
+      "jobs": [
+        "simple-events",
+        "flexi-custom"
+      ],
+      "counter_example": false
+    }
+  }
+}

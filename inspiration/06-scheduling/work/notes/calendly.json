@@ -1,0 +1,89 @@
+{
+  "product": "calendly",
+  "flows": {
+    "mobbin:58c88fe6-2777-4b0f-8011-c816bff6dbd8": {
+      "summary": "An admin picks Group from Create, configures a multi-invitee event type (duration, location, availability, invitee limit) in a side panel, and creates it.",
+      "steps": [
+        "Create menu: pick Group event type",
+        "New Meeting panel: Group, limit 2",
+        "Name webinar; invitee limit expanded",
+        "Invitee limit shown as Group of 2",
+        "Duration set to 1 hr",
+        "Location options: Zoom, Phone, In-person",
+        "Full location list including Meet, Teams",
+        "Location set to Google Meet; Create ready",
+        "Availability: 60 days, 4h notice, hours",
+        "Custom weekly hours Mon to Fri",
+        "Weekly Unavailable and date-specific hours",
+        "Availability finished; Create"
+      ],
+      "steal": [
+        "The Create menu states how many hosts and invitees up front (One-on-one, Group, Round robin, Collective) (screen 1).",
+        "An invitee limit on Group sets capacity per generated slot ('Group event with 2 invitees') (screens 2 to 4).",
+        "A quick-create side panel keeps the list visible and offers 'More options' when needed (screens 2 to 8).",
+        "Availability covers a rolling horizon, minimum notice and date-specific overrides (screens 9 to 12)."
+      ],
+      "avoid": [
+        "A long multi-screen create with near-duplicate panels for duration, location and limit costs too many clicks for a simple capacity event."
+      ],
+      "fit": "Scheduling: maps to flexi capacity per slot and simple event types (scenario plus seats). Extends LearningSpace filtering with a group max-attendees, not Excel import.",
+      "jobs": [
+        "flexi-custom",
+        "simple-events"
+      ],
+      "counter_example": false
+    },
+    "mobbin:5c1d65f9-65f5-48a9-b250-d04ba6f1a7a8": {
+      "summary": "An admin creates a Round Robin event type, builds a rotating host pool, sets per-host locations and host-specific availability, then previews and saves.",
+      "steps": [
+        "Create menu: pick Round robin",
+        "Round Robin: add co-host or host pool",
+        "Named Round Robin; rotating host pool",
+        "Reschedule: reassign or keep same hosts",
+        "Pool of 3 hosts; reschedule keeps hosts",
+        "Per-host location list; Set location for all",
+        "Select location list per host",
+        "Alex on Google Meet; others still empty",
+        "Mix of Meet and Phone with number",
+        "Remaining hosts get Meet or phone",
+        "Availability by host and timezone",
+        "Booking preview calendar; Save changes"
+      ],
+      "steal": [
+        "A Round Robin Pool card says 'Rotating through N hosts' (screens 2 to 5).",
+        "Rescheduling asks whether to reassign through the pool or keep the original hosts (screen 4).",
+        "Per-host location plus 'Set location for all' covers cases where location varies by host (screens 6 to 10).",
+        "Availability 'Set by host' lists each host's hours by timezone (screen 11)."
+      ],
+      "avoid": [
+        "Making per-host location mandatory before Create when the pool has more than one host blocks save until every faculty member has a room or link."
+      ],
+      "fit": "Scheduling: direct pattern for faculty rotation across identical scenario sessions. Keep collective and round-robin from the baseline; map hosts to faculty and location to room.",
+      "jobs": [
+        "flexi-custom"
+      ],
+      "counter_example": false
+    },
+    "mobbin:f9b02a84-c8b6-4997-aa01-1f7d9de7792e": {
+      "summary": "The user opens Calendar sync, chooses Google, Outlook, Exchange or iCloud to connect, then configures which calendars are checked for conflicts versus where new events are written.",
+      "steps": [
+        "Calendar sync: conflicts vs Add to calendar",
+        "Select providers; iCloud help video",
+        "Connect list: Google, Outlook, Exchange, iCloud",
+        "Duplicate-connect error; sync config after"
+      ],
+      "steal": [
+        "'Check for conflicts' (read many) is split from 'Add to calendar' (write one) (screens 1 and 4).",
+        "The provider list includes Outlook and Exchange Server explicitly (screens 2 to 3).",
+        "An account cap (1/6) sits next to Add Calendar Account (screen 1).",
+        "An on-screen error appears when a calendar is already connected (screen 4)."
+      ],
+      "avoid": [],
+      "fit": "Scheduling: core Outlook sync pattern for Essentials. Which calendars block room or faculty time versus where session invites are written; cheap to adopt on top of existing sync.",
+      "jobs": [
+        "outlook-sync"
+      ],
+      "counter_example": false
+    }
+  }
+}

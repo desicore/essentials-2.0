@@ -1,0 +1,26 @@
+{
+  "product": "american-airlines",
+  "flows": {
+    "mobbin:23ce165d-078b-4adc-935a-83c4a40cbfb1": {
+      "summary": "Traveler opens a trip overview, enters Get ready to fly, then scrolls a Ready to Fly hub of time-gated prep tasks and know-before-you-go items.",
+      "steps": [
+        "Trip overview — route, placeholders for gate/seat",
+        "Sheet — Get ready to fly entry CTA",
+        "Ready to Fly — countdown + check-in/bags cards",
+        "Ready to Fly — TSA / Wi-Fi / REAL ID cards"
+      ],
+      "steal": [
+        "Single Ready to Fly hub keyed to one event/trip (steps 3–4) — pre-session readiness in one place.",
+        "Time-remaining / not-yet-available copy on cards (step 3) — show what cannot be done yet vs what to do now.",
+        "Missing-data placeholders (--) on the trip card (step 1) — glanceable incomplete setup fields.",
+        "Entry CTA sheet from the trip (step 2) — nudge into the checklist without hunting menus."
+      ],
+      "avoid": [
+        "Informational cards without tick/flag/broken states (steps 3–4) — sim-tech equipment-check needs explicit pass/fail, not brochure links."
+      ],
+      "fit": "Mobile readiness hub fits walking the floor before a session better than desktop; extend Baseline equipment-check / checklist with time-gated tasks, but add real tick/flag handoff AA lacks.",
+      "jobs": ["equipment-check", "checklist"],
+      "counter_example": false
+    }
+  }
+}

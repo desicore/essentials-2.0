@@ -1,0 +1,26 @@
+{
+  "product": "gopro-quik",
+  "flows": {
+    "mobbin:55941e7a-9532-47b7-bbe1-b5f8b7bca5b3": {
+      "summary": "From idle remote viewfinder with camera status, user starts recording, HiLights a moment (full-screen confirmation), then returns to the live recording UI with elapsed timer and stop control.",
+      "steps": [
+        "Idle remote viewfinder + start record",
+        "Recording: timer + stop + HiLight",
+        "HiLIGHT TAGGED confirmation",
+        "Recording continues with red-dot timer"
+      ],
+      "steal": [
+        "Idle: top strip shows remote camera storage remaining (3H:25), Wi‑Fi, and battery before start—preflight without leaving the control surface.",
+        "Recording: primary control morphs from red record circle to white-ring / red-square stop; elapsed time pill appears above the feed.",
+        "HiLight: one-thumb yellow mark button beside stop; momentary full-screen “HiLIGHT TAGGED” confirms the bookmark without opening a list.",
+        "Recording continues: red-dot + elapsed timer keeps recording state glanceable after the tag overlay dismisses."
+      ],
+      "avoid": [
+        "Idle/recording viewfinder is a large black empty plane with tiny mode metadata (1080|24|10s|W)—faculty need named room/camera and clear live-preview status, not cryptic capture specs."
+      ],
+      "fit": "Mobile wins as walk-around remote start/stop for room cameras (extends TouchPro; no phone app today)—HiLight maps to one-tap timestamped bookmarks during live take; keep big stop + unmistakable recording indicator.",
+      "jobs": ["recording-control"],
+      "counter_example": false
+    }
+  }
+}

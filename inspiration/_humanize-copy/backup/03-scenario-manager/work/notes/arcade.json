@@ -1,0 +1,46 @@
+{
+  "product": "arcade",
+  "flows": {
+    "mobbin:9b7b370a-b591-4494-b083-228f11e6f061": {
+      "summary": "From My Library the user picks a create path, lands in an empty step editor with import/capture sources, fills a captured step plus metadata, configures Preview player chrome, then reviews Insights engagement and step drop-off funnels.",
+      "steps": [
+        "My Library grid + Create",
+        "How would you like to get started?",
+        "Empty editor — Add from / Capture with",
+        "Step canvas with design + metadata",
+        "Preview — layout, logo, CTA, feature toggles",
+        "Insights — sample metrics + step funnel",
+        "Insights — CTA clicks tooltip",
+        "Insights — step drop-off tooltip"
+      ],
+      "steal": [
+        "Create chooser with Popular badge grouping related capture paths (Chrome Extension / Desktop App) vs upload vs video→demo (step 2).",
+        "Empty-step dual catalog: Add from (computer / Library / another demo) vs Capture with (extension / desktop / Figma) on the canvas (step 3).",
+        "Edit | Preview | Insights tabs keep authoring, learner view, and completion funnel in one project (steps 4–8).",
+        "Performance funnel with per-step drop-off tooltip (From Step N: conversion / drop-off %) (step 8)."
+      ],
+      "avoid": [
+        "Insights sample-dataset / Upgrade banner as the end of authoring (steps 6–8) — Essentials should not gate pre-brief completion stats behind a paywall empty state."
+      ],
+      "fit": "Extends today's Briefing tab video into the planned interactive orientation/pre-brief maker (step outline + hotspots); Preview feature toggles map to what learners see before a session — clash if we copy Arcade's product-demo Insights/CTA chrome wholesale.",
+      "counter_example": false
+    },
+    "mobbin:644ef98c-516f-47e4-97e5-ee9ce4635793": {
+      "summary": "On a demo step the user edits hotspot callout text, generates a voiceover from that script, then reviews the synced Voiceover AI waveform timeline with Edit voiceover.",
+      "steps": [
+        "Hotspot panel — text + Generate voiceover",
+        "Voiceover AI timeline under canvas"
+      ],
+      "steal": [
+        "Written callout text is the single source for Generate voiceover (step 1) — one script drives caption and audio.",
+        "Hotspot style triad Hotspot / Area / Callout plus Open by default (step 1).",
+        "Destination dropdown on the hotspot for jump-to-step branching (step 1).",
+        "Voiceover AI bottom timeline with waveform, duration, and Edit voiceover after generation (step 2)."
+      ],
+      "avoid": [],
+      "fit": "Supports the new interactive orientation maker with per-step narration; also a scripts pattern (written cue → optional audio) without building a Maestro-style state editor.",
+      "jobs": ["orientation", "scripts"],
+      "counter_example": false
+    }
+  }
+}

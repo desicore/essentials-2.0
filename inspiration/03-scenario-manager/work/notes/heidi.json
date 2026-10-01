@@ -1,0 +1,42 @@
+{
+  "product": "heidi",
+  "flows": {
+    "mobbin:5e3fe2a1-1087-4372-94f7-927aa2a82e8d": {
+      "summary": "From My Templates library, the user opens a row's more menu, chooses 'Duplicate', and sees a new '(Copy)' row plus a 'Template duplicated' message.",
+      "steps": [
+        "My Templates library table",
+        "Row menu: Duplicate / Edit visibility…",
+        "Copy row plus 'Template duplicated' message"
+      ],
+      "steal": [
+        "'Duplicate' is in each row's menu, so you can copy a template without opening the editor.",
+        "The new row is renamed automatically with '(Copy)' at the end.",
+        "A short message confirms 'Template duplicated'.",
+        "The Visibility column ('Just me', 'Community In review') stays in view while you duplicate."
+      ],
+      "avoid": [],
+      "fit": "Scenario manager: add a one-click duplicate from the library, so faculty can start from an existing scenario instead of a blank form or a Word import.",
+      "counter_example": false
+    },
+    "mobbin:4b33f07a-4b03-4b2f-aea9-b6d64bb521e5": {
+      "summary": "From the library row menu, the user opens 'Edit visibility', picks Team, Community or Only me, saves, and sees 'Community In review' plus a success message.",
+      "steps": [
+        "Library: 'Edit visibility' in the row menu",
+        "Visibility pop-up: Community with highlight on",
+        "Community selected; highlight contribution off",
+        "Saved: 'Community In review' plus success message"
+      ],
+      "steal": [
+        "Three cards set access: Team (can use, not edit), Community, and Only me.",
+        "The Team option says plainly that team members can use the template but not edit it.",
+        "Choosing Community shows an 'In review' label on the list after saving, because the community is moderated.",
+        "A 'Highlight your contribution' switch decides whether your name is shown publicly."
+      ],
+      "avoid": [
+        "Publishing to a public community of all product users is wrong for Essentials, which needs sharing by organization and role, not a global template marketplace."
+      ],
+      "fit": "Scenario manager: the best nearby model for simpler sharing per scenario (private, team can use only, or a moderated organization library) instead of today's unclear SCE access.",
+      "counter_example": false
+    }
+  }
+}

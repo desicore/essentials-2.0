@@ -1,0 +1,45 @@
+{
+  "product": "forest",
+  "flows": {
+    "mobbin:51398a50-ab88-4cb6-8d7d-08e18e411c49": {
+      "summary": "A lock-screen Live Activity shows a Rest countdown with dismiss, then a Study countdown with a progress bar, then a completed-focus summary with restart and today's total.",
+      "steps": [
+        "Lock screen Live Activity: Rest and X",
+        "Lock screen Live Activity: Study with progress",
+        "Lock screen done: duration and restart"
+      ],
+      "steal": [
+        "During Rest, large remaining time, a phase label and one X control appear without unlocking.",
+        "During Study, the same chrome adds a thin progress bar under the phase label.",
+        "When done, the lock screen shows outcome text, a start-to-end clock range, a restart control and today's total."
+      ],
+      "avoid": [
+        "This depends on native Live Activities. That clashes with a preferred web debrief client and phone-ban exams. Treat it as a native-only pattern, not the primary MVP surface."
+      ],
+      "fit": "Mobile and iPad app: only mobile can show phase time on the lock screen (desktop and SRV cannot). That is strong evidence the timer job benefits from a phone. Extend room timers with always-visible remaining time for faculty holding devices between tasks.",
+      "jobs": [
+        "timer"
+      ],
+      "counter_example": false
+    },
+    "mobbin:3ff1275c-8826-4b99-b53c-abb5a3c45ef6": {
+      "summary": "The Dynamic Island shows a compact sprout and countdown while the app is backgrounded, then expands to countdown, Rest phase label, and an X stop control.",
+      "steps": [
+        "Compact Island: sprout and countdown",
+        "Expanded Island: Rest and X stop"
+      ],
+      "steal": [
+        "Compact: remaining time stays in the system chrome while you work elsewhere in the OS.",
+        "Expanded: a phase label under the time plus a single X ends the timer without opening the app."
+      ],
+      "avoid": [
+        "iPhone Dynamic Island only is useless on generic tablets or web and during phone-banned graded exams. Do not require it."
+      ],
+      "fit": "Mobile and iPad app: this shows why mobile (not the SRV) can keep a session timer glanceable during other work. Prefer a lock-screen or widget-like always-on timer where the OS allows, with a large in-app fallback for web and tablet.",
+      "jobs": [
+        "timer"
+      ],
+      "counter_example": false
+    }
+  }
+}

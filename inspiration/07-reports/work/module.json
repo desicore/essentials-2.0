@@ -1,0 +1,233 @@
+{
+  "module": "07-reports",
+  "title": "Reports: ideas from other products",
+  "intro": "This page shows examples from other products for center-wide and cross-course reporting in Essentials 2.0, grouped by product. It covers scheduled summary reports for deans, comparing groups of learners, reviewing and approving AI evaluations, headline numbers (KPIs) on how rooms, equipment and people are used, and easy sharing. Reports from inside a single course are covered in courses/08-recordings-course-reports. This page is about sending reports out and about center-level numbers. Sources: the design reference libraries Mobbin and Refero (web products), researched on 30 September 2026.",
+  "baseline": "Today Essentials has four reports: Responses, Group Performance, Performance Matrix and Skill Development. Skill areas depend on naming abbreviations used across the program. An activity must be assigned before data is collected, so late setup loses data. Accreditation packs are put together by hand. Utilisation reporting is the one report every center we visited wants and none can get. The plan has five parts. Deans get an automatic weekly or monthly PDF or newsletter, shared by link. Learner feedback and faculty grading sit in one place and can be compared by course, year, learner or period. Headline numbers show sim and room usage and faculty hours, taken from the calendar. Formative work gets a colour or narrative scale, and AI writes formative and summative reports. Deep report builders are left out of the first version, in favour of ready-made defaults that need no setup.",
+  "targets": {
+    "products": [
+      8,
+      12
+    ],
+    "flows": [
+      15,
+      25
+    ]
+  },
+  "jobs": [
+    {
+      "id": "scheduled-reports",
+      "title": "Automatic weekly or monthly reports",
+      "description": "Subscribe to a report, pick how often it goes out, who gets it, and in what format. Cover email digest, PDF, newsletter layout, pausing, and what the recipient sees."
+    },
+    {
+      "id": "comparison",
+      "title": "Compare performance by learner, group, semester, course, or faculty",
+      "description": "Ways to regroup and filter the data, compare groups of learners, compare one period with the last, go from a total down to one learner, and grid views."
+    },
+    {
+      "id": "ai-evaluation",
+      "title": "AI evaluation (formative and summative)",
+      "description": "An AI-drafted assessment or summary with links to the evidence, human review, approve or edit, how confident the AI is, and formative versus summative framing."
+    },
+    {
+      "id": "kpis",
+      "title": "Totals for simulation and resource use (headline numbers)",
+      "description": "Usage dashboards for rooms, equipment and staff hours, headline-number boxes with trends, date range and filters, and what the screen shows when data is missing or thin."
+    },
+    {
+      "id": "sharing",
+      "title": "Easy sharing of reports",
+      "description": "Share link with an expiry date and permissions, export to PDF or CSV, embed, and send to a dean who has no account."
+    }
+  ],
+  "products": [
+    {
+      "id": "mixpanel",
+      "name": "Mixpanel",
+      "analog": "adjacent",
+      "why": "Mixpanel lets you subscribe to the live board you are looking at, by email or Slack, on a schedule. It also has a grid that splits results by group and a 'Compare' option for periods or groups, without a report builder.",
+      "flows": [
+        "mobbin:157d0155-3762-4ce7-81c3-aead25729dce",
+        "mobbin:5d067428-a757-489e-83a9-b33e2d63e6b1",
+        "mobbin:09f6e5da-eaa5-4633-9a33-231f800317f6"
+      ]
+    },
+    {
+      "id": "amplitude",
+      "name": "Amplitude",
+      "analog": "adjacent",
+      "why": "Amplitude sets up a dashboard subscription with one plain sentence, 'Every [day] at [time]'. It is the clearest scheduled report that works without any setup.",
+      "flows": [
+        "mobbin:a2ee58b7-b7cc-4381-819b-3dc0299734e7"
+      ]
+    },
+    {
+      "id": "later",
+      "name": "Later",
+      "analog": "adjacent",
+      "why": "Later has an on/off switch to pause its Monday email, and a public report link that updates itself and shows how often it was viewed. That covers pausing a digest and sharing with a dean who has no account.",
+      "flows": [
+        "mobbin:55855f6e-97e0-4984-9bae-f11cb21e653f",
+        "mobbin:a56091b1-7e85-4b1b-a790-7e7ccbea971b"
+      ]
+    },
+    {
+      "id": "15five",
+      "name": "15Five",
+      "analog": "direct",
+      "why": "15Five shows self, manager and peer ratings on the same competency scale and can regroup the numbers by manager. It is the closest match to comparing faculty and learner scoring.",
+      "flows": [
+        "mobbin:6795c6c2-7c7b-4ded-aea2-5d594e67afb0",
+        "mobbin:37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2"
+      ]
+    },
+    {
+      "id": "charma",
+      "name": "Charma",
+      "analog": "direct",
+      "why": "Charma's FeedbackAI drafts feedback from a fixed set of tags. A person picks and edits a draft before sending, and can see when it has not been read yet. This is the review loop for AI evaluations.",
+      "flows": [
+        "mobbin:e7700240-0fb3-4a8b-aa81-7a640b1aa2c1",
+        "mobbin:560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1",
+        "mobbin:f2d6fb5a-36ee-4c5c-9612-55be9bbd3f28"
+      ]
+    },
+    {
+      "id": "fireflies",
+      "name": "Fireflies",
+      "analog": "adjacent",
+      "why": "Fireflies lets you tick which sections a summary should have (Outline, Blockers and more), applies them with 'Save & Apply', and shows clearly when Blockers is empty. That suits formative narrative feedback better than a free-text prompt.",
+      "flows": [
+        "mobbin:75bb46c3-1130-4cba-b194-ba086320dcc6"
+      ]
+    },
+    {
+      "id": "dialpad",
+      "name": "Dialpad",
+      "analog": "adjacent",
+      "why": "Dialpad changes the length of its call recap right next to the transcript and @comments, then shares it by link. This is editing and approving with the evidence in view.",
+      "flows": [
+        "mobbin:9589355a-7154-4414-84ca-0228270aa40e"
+      ]
+    },
+    {
+      "id": "cal-com",
+      "name": "Cal.com",
+      "analog": "adjacent",
+      "why": "Cal.com shows booking headline numbers with the change since the last period, plus a grid of people by week. It is a model for room and time-slot usage.",
+      "flows": [
+        "mobbin:aa5da6b8-f37f-485c-9aea-ffa69cc0ed55",
+        "mobbin:ff3d88ad-6b47-453f-9f8f-5f333707e2bf"
+      ]
+    },
+    {
+      "id": "whereby",
+      "name": "Whereby",
+      "analog": "adjacent",
+      "why": "Whereby lists participant minutes and opens one room's detail, with the unit clearly defined. It is a model for boxes showing simulator and room contact hours.",
+      "flows": [
+        "mobbin:9649cfdc-dbbd-4c86-8a2d-9cdd25395064",
+        "mobbin:df187e39-3913-4484-8e5e-6af9a2f548c7"
+      ]
+    },
+    {
+      "id": "deputy",
+      "name": "Deputy",
+      "analog": "adjacent",
+      "why": "Deputy has a catalog of workforce reports and promotes scheduled summary emails. Its path into a Sigma-style report builder, where you build charts from scratch, is something to avoid.",
+      "flows": [
+        "mobbin:1e4db417-5727-4669-950b-cfb4f457df53"
+      ]
+    },
+    {
+      "id": "juicebox",
+      "name": "Juicebox",
+      "analog": "adjacent",
+      "why": "Juicebox puts three options in one Export menu: share to the web with a password, download, or email a PDF or image. That covers sending a report to a dean who has no account.",
+      "flows": [
+        "mobbin:a6f030e2-5e59-4c27-80a3-a16e8cd88fc0",
+        "mobbin:8f313eb2-7e52-42e2-9b78-1f6f33252111"
+      ]
+    },
+    {
+      "id": "midday",
+      "name": "Midday",
+      "analog": "adjacent",
+      "why": "Midday shares a snapshot of a single number through a public link with a set expiry date. That makes it safe to share for accreditation.",
+      "flows": [
+        "mobbin:ed6229f6-fa6d-413b-a6da-2edf7bb734ad"
+      ]
+    }
+  ],
+  "synthesis": {
+    "patterns": [
+      {
+        "title": "Subscribe to the view you are looking at",
+        "body": "Amplitude and Mixpanel attach a schedule and a channel (email or Slack) to the live dashboard, instead of using a separate report builder. Later adds a one-switch Monday digest and a public link that keeps itself up to date. By default, Essentials should send weekly or monthly packs to deans from the center dashboard, with a pause option, rather than offer a chart editor.",
+        "flows": [
+          "mobbin:a2ee58b7-b7cc-4381-819b-3dc0299734e7",
+          "mobbin:157d0155-3762-4ce7-81c3-aead25729dce",
+          "mobbin:55855f6e-97e0-4984-9bae-f11cb21e653f",
+          "mobbin:a56091b1-7e85-4b1b-a790-7e7ccbea971b"
+        ]
+      },
+      {
+        "title": "Compare by regrouping, not by building charts",
+        "body": "Mixpanel lets you switch between 'Time Period', 'Segment' and '% Overall'. 15Five shows self, manager and peer ratings on one competency scale and regroups the same numbers by manager. Both show how groups and raters line up without anyone designing a chart. In Essentials, this means filters by course, year, learner and faculty on Group Performance and Performance Matrix.",
+        "flows": [
+          "mobbin:5d067428-a757-489e-83a9-b33e2d63e6b1",
+          "mobbin:09f6e5da-eaa5-4633-9a33-231f800317f6",
+          "mobbin:6795c6c2-7c7b-4ded-aea2-5d594e67afb0",
+          "mobbin:37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2"
+        ]
+      },
+      {
+        "title": "AI drafts are never sent automatically",
+        "body": "Charma limits the tags the AI can use, shows several suggestions, requires an edit before 'Submit', and shows 'hasn't seen this yet' until the person reads it. Fireflies uses section checklists and shows clearly when a section is empty. Dialpad changes the recap length next to the transcript it is based on, then shares a link. For Essentials, formative feedback means narrative sections, and summative grading stays scored elsewhere.",
+        "flows": [
+          "mobbin:e7700240-0fb3-4a8b-aa81-7a640b1aa2c1",
+          "mobbin:560e3cdd-be36-4bf6-a0f1-8ca6fe9683a1",
+          "mobbin:f2d6fb5a-36ee-4c5c-9612-55be9bbd3f28",
+          "mobbin:75bb46c3-1130-4cba-b194-ba086320dcc6",
+          "mobbin:9589355a-7154-4414-84ca-0228270aa40e"
+        ]
+      },
+      {
+        "title": "Usage in a clearly defined unit, with the change since last period",
+        "body": "Whereby's 'Participant Minutes' (with a hint explaining the unit) and Cal.com's booking numbers with 'from last period' arrows make usage easy to read. Cal.com's people-by-week grid and Deputy's hours catalog could extend to faculty contact hours. Room and sim minutes taken from the calendar are more useful than engagement charts that only look impressive.",
+        "flows": [
+          "mobbin:9649cfdc-dbbd-4c86-8a2d-9cdd25395064",
+          "mobbin:df187e39-3913-4484-8e5e-6af9a2f548c7",
+          "mobbin:aa5da6b8-f37f-485c-9aea-ffa69cc0ed55",
+          "mobbin:ff3d88ad-6b47-453f-9f8f-5f333707e2bf",
+          "mobbin:1e4db417-5727-4669-950b-cfb4f457df53"
+        ]
+      },
+      {
+        "title": "Sharing with deans: a link with an expiry date, or a PDF by email",
+        "body": "Juicebox splits Export into a password-protected web link, a download, or a PDF or image by email. Midday shares a snapshot of one number with an explicit expiry date. Later's public report link, with its view count, is what a newsletter would point to. Leadership should not need an Essentials login.",
+        "flows": [
+          "mobbin:a6f030e2-5e59-4c27-80a3-a16e8cd88fc0",
+          "mobbin:8f313eb2-7e52-42e2-9b78-1f6f33252111",
+          "mobbin:ed6229f6-fa6d-413b-a6da-2edf7bb734ad",
+          "mobbin:a56091b1-7e85-4b1b-a790-7e7ccbea971b"
+        ]
+      },
+      {
+        "title": "Avoid built-in report builders",
+        "body": "Deputy's catalog promotes scheduled summaries and PDFs, but it also leads into a Sigma-style report builder. Treat that as the example of what not to do. The first version of Essentials should ship ready-made templates (usage, group performance, AI formative feedback) rather than a blank page.",
+        "flows": [
+          "mobbin:1e4db417-5727-4669-950b-cfb4f457df53"
+        ]
+      }
+    ],
+    "open_questions": [
+      "Robin and Envoy, which measure real workplace usage, never appeared in Mobbin's web results. Cal.com, Whereby and Deputy are the nearest examples from other fields. How far can bookings and participant minutes stand in for camera hours in sim rooms?",
+      "We found few examples of what the recipient sees in an email or PDF newsletter; most screens showed writing or subscribing. What does a dean's inbox view need beyond a link and a PDF attachment?",
+      "Going from a course overview down to one learner is already covered in courses/08. How should center-wide comparison hand over to a course report without repeating the Kajabi and SchoolAI patterns?",
+      "Fireflies' sections and Charma's competency tags hint at a colour or narrative scale for formative work. But no product showed a traffic-light formative score in place of points, so that is still to be designed.",
+      "Dashboards across several campuses raise hard questions about who can see what. None of the shortlisted flows solve access control across separate organizations.",
+      "Most Refero examples had only one screenshot and were dropped. Is another Refero search worth it to fill the gap on what digest recipients see?"
+    ]
+  }
+}

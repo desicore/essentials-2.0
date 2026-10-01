@@ -1,0 +1,35 @@
+{
+  "product": "instacart",
+  "flows": {
+    "mobbin:94df2baf-9653-4a11-ba8d-5131225a4ea4": {
+      "summary": "From an empty Lists page, the user names a list with description and cover photo, searches the store catalog to pick items, and lands on a saved list detail ready to edit or share.",
+      "steps": [
+        "Empty saved-lists page",
+        "Create-list modal (blank fields)",
+        "Fill title and description",
+        "Select cover photo",
+        "Cover grid confirm \u2192 Next",
+        "Add-items modal (Buy it again empty)",
+        "Search modal with popular searches",
+        "Catalog search results (eggs)",
+        "Select item in results grid",
+        "Named list detail with Edit items"
+      ],
+      "steal": [
+        "Empty Lists: dual CTAs (header + empty-state link) so create is never buried.",
+        "Add-items modal: Current list vs Buy it again tabs; empty Buy it again offers Browse categories.",
+        "Search modal: popular-search tiles with thumbnails before typing; multi-select checkmarks then Done.",
+        "List detail: lock + share on the named list header; description under title as setup notes analog."
+      ],
+      "avoid": [
+        "Required cover-photo picker before adding items \u2014 extra ceremony for a tech prep sheet."
+      ],
+      "fit": "Extends today's free-text Equipment & Supplies toward catalog pick + named list with notes; stock/checkout stays in Inventory, matching Baseline.",
+      "jobs": [
+        "equipment",
+        "access"
+      ],
+      "counter_example": false
+    }
+  }
+}

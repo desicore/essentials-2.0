@@ -1,0 +1,225 @@
+{
+  "module": "07-reports",
+  "flows": {
+    "mixpanel 157d0155": {
+      "summary": "From a board's 'Subscribe' pop-up, the user creates a weekly subscription with a day, time, time zone and a recipient found by search.",
+      "steal": [
+        "'Subscribe' sits on the board next to 'Share', so you subscribe to the view you are looking at (screen 1).",
+        "Email and Slack are tabs in the same window, so choosing a channel needs no separate steps (screens 2 to 5).",
+        "'Send Test' sits next to the subscriber list, so you can check the digest before it goes live (screens 2 to 5).",
+        "When there are no subscriptions, the screen says 'No email subscriptions found for this board' and offers 'Create New' (screen 1)."
+      ],
+      "avoid": ["Day, time and time zone must all be set before anything is sent, with no default, which works against ready-made weekly digests for deans (screens 2 to 3)."],
+      "fit": "Reports: subscribing from the board becomes an automatic weekly or monthly email for deans. It adds to today's reports, which are pulled by hand, without a report builder."
+    },
+    "mixpanel 5d067428": {
+      "summary": "The user builds an analysis with two measures, split by device type and user group, then chooses which groups show in the chart and table.",
+      "steps": { "1": "Analysis: two measures, table by device and group", "2": "Checkboxes to show or hide groups", "3": "Groups switched; chart lines update", "4": "Chart with several lines and the nested table back" },
+      "steal": [
+        "Rows nest by measure, then device type, then group, with an average and a column per day, so groups can be compared in one grid (screens 1 to 4).",
+        "Coloured checkboxes in the table also control the chart lines, so one control updates both views (screens 2 to 4).",
+        "Labels in the query panel name each split, such as device type or group, instead of hiding them in filters (screens 1 to 4)."
+      ],
+      "avoid": ["A full query builder (measures, filters, splits) as the first version goes against the plan to ship ready-made defaults rather than deep builders (screens 1 to 4)."],
+      "fit": "Reports: this maps to comparing groups by course, year and learner in Performance Matrix and Group Performance. Essentials should ship it as ready-made views, not a free-form analysis tool."
+    },
+    "mixpanel 09f6e5da": {
+      "summary": "From a chart, the user turns on a comparison with the previous period and sees 'Past Avg' columns with the change shown as green or red percentages.",
+      "steal": [
+        "The 'Compare' menu separates 'Time Period', 'Segment' and '% Overall', so comparing periods and comparing groups are not mixed in one control (screens 3 to 4).",
+        "Presets for the previous day, 7 days, 30 days, 3 months and a year, plus a custom option, cover most comparisons without picking dates (screen 4).",
+        "A 'Compare to previous day' label, 'Past Avg' columns and percentage changes show what moved at a glance (screens 5 to 6)."
+      ],
+      "fit": "Reports: compare this period with the last for room use and for faculty or learner headline numbers. It extends Performance Matrix, but does not help with accreditation packs."
+    },
+    "amplitude a2ee58b7": {
+      "summary": "From a dashboard's 'Subscribe' button, the user sets up a recurring email or Slack delivery with a one-line schedule, a CSV file and subscribers, then edits the saved subscription.",
+      "steal": [
+        "The schedule reads as one sentence, 'Every [day] at [time]', with a CSV attachment (screen 2).",
+        "A time zone line ('Showing times as...') sits above the schedule, so recipients on different campuses share one clock (screens 2 to 3).",
+        "After saving, a green message appears and the schedule stays editable, so you can pause or change it without starting over (screen 3).",
+        "A search box under the schedule adds subscribers, which supports digests for people who may not have an account (screens 2 to 3)."
+      ],
+      "avoid": ["CSV is the only default format, but deans need a PDF or a written newsletter rather than a raw data file (screens 2 to 3)."],
+      "fit": "Reports: the closest pattern for automatic weekly or monthly digests for deans from a fixed dashboard. It is a ready-made subscription instead of packs put together by hand."
+    },
+    "later 55855f6e": {
+      "summary": "In Account Settings, the user reads the fixed Monday schedule for the analytics email, switches it on for one profile, and sees a confirmation.",
+      "steal": [
+        "The schedule is fixed ('Emails are sent each Monday in the late afternoon (Pacific Time)'), so the only choice is on or off (screens 1 to 2).",
+        "A switch per profile, plus 'Enable All' and 'Disable All', pauses the email without losing the settings (screens 1 to 2).",
+        "The confirmation names the profile and repeats when the email goes out (screen 3)."
+      ],
+      "avoid": ["The digest is buried in Account Settings, far from Analytics; for deans, the subscribe option belongs on the report itself (screen 1)."],
+      "fit": "Reports: the simplest weekly or monthly newsletter for deans, with one default schedule and a pause switch instead of a report builder."
+    },
+    "later a56091b1": {
+      "summary": "From the analytics overview, the user creates a shareable performance report, waits for its unique link, sets it to update automatically, and copies the public link.",
+      "steal": [
+        "A public report link with 'Copy Link' and a view count lets people see the report without an Essentials account (screens 4 to 5).",
+        "'Update Report Automatically' every 24 hours keeps the link current instead of a one-off export (screen 4).",
+        "An 'Enable Report' switch turns the report off without losing its settings (screen 4).",
+        "Sharing starts from the overview, next to the headline numbers, not from the settings (screen 1)."
+      ],
+      "fit": "Reports: a report pack for deans or accreditation, shared by link without accounts. Automatic refresh comes close to a scheduled digest, and the industry comparison hints at benchmarks without a builder."
+    },
+    "15five 6795c6c2": {
+      "summary": "In a quarterly review, the user compares self, manager and peer ratings on one competency scale, then opens each competency to see the written answer behind it.",
+      "steal": [
+        "Coloured checkboxes for Self, Manager and Peer show or hide their ratings on one competency scale, so comparing raters needs no second report (screens 3 to 4).",
+        "'Top competencies' and 'Top opportunities' boxes above the grid show strengths and areas to grow before the full list (screen 3).",
+        "A highlighted note explains that the graph shows how far raters agree, which teaches the reader how to use it (screen 2).",
+        "Each competency links to its written answer ('1 answer'), so you can go from a score to the reasoning (screen 5)."
+      ],
+      "avoid": ["The full grid still shows when manager or peer ratings are missing; in sim, raters without ratings should stay hidden until there is data (screens 3 to 4)."],
+      "fit": "Reports: adds comparison from several points of view, with a path to the evidence, to Performance Matrix and Skill Development. It suits learner and faculty dashboards rather than a PDF newsletter for deans."
+    },
+    "15five 37ed7ec0": {
+      "summary": "On the outcomes dashboard, the user moves past empty summary boxes to 'Breakdown' and compares results by manager, with company-wide and 'No manager' rows.",
+      "steal": [
+        "A 'Compare by' list regroups the same columns by manager, so switching between learner, faculty or course would need no builder (screens 2 to 3).",
+        "A company-wide row above the team rows lets you compare one unit with the whole organization (screens 2 to 3).",
+        "'Who else can see this?' and 'Configure' sit next to the table, so visibility is set where the comparison is (screen 2)."
+      ],
+      "avoid": ["Empty summary screens show sales buttons ('Schedule survey', 'Configure performance'); Essentials should say plainly that data is missing (screen 1)."],
+      "fit": "Reports: a pattern for comparable tables of faculty or course numbers (room, simulator and faculty hours) that can be regrouped. The empty summary screens do not fit reporting that starts with room use."
+    },
+    "charma e7700240": {
+      "summary": "The user picks strength and improvement tags, waits up to about 30 seconds for FeedbackAI, then chooses one of three AI drafts to edit.",
+      "steps": { "3": "FeedbackAI loading, up to 30 seconds" },
+      "steal": [
+        "Tag fields, with a limit of two areas to improve, narrow what the AI writes about before it starts (screens 1 to 2).",
+        "The loading text says it can take up to 30 seconds and shows placeholder bars, so the wait is expected (screen 3).",
+        "The user chooses from three suggestions or asks for new ones, so a person picks the tone before editing (screens 4 to 6).",
+        "A note under the card says the text comes from GPT-3, so readers know the formative feedback is AI-written (screens 3 to 6)."
+      ],
+      "avoid": ["The AI drafts repeat playful custom tags ('good potato') in the feedback; clinical wording has to be checked and tied to competencies (screens 5 to 6)."],
+      "fit": "Reports: an AI-drafted formative note for faculty, written from competency tags. It adds to Responses and Skill Development, not to accreditation packs."
+    },
+    "charma 560e3cdd": {
+      "summary": "From the open 360 reviews, the user writes an anonymous peer review from chosen adjectives, lets FeedbackAI draft the text, reviews and submits it, and sees '1 of 2' progress.",
+      "steal": [
+        "A 'How it works' screen explains that chosen adjectives feed FeedbackAI and that peers stay anonymous, so privacy and the AI's role are clear before starting (screen 2).",
+        "'Generate Feedback' drafts text from the chosen adjectives, and the user is asked to 'sprinkle in specific examples' (screens 3 to 5).",
+        "A review screen gathers the tags and text for every competency before 'Submit' (screens 7 to 8).",
+        "After sending, the person who asked for reviews sees a '1 of 2 reviews submitted' progress bar (screens 1 and 10)."
+      ],
+      "avoid": ["An emoji and GIF toolbar in the feedback editor is too casual for summative clinical reports (screens 5 to 6)."],
+      "fit": "Reports: an AI write-up of formative feedback from peers or faculty, based on competency labels. Pooling answers anonymously fits reports with several raters per skill, not room-use numbers."
+    },
+    "charma f2d6fb5a": {
+      "summary": "The user picks an AI suggestion, edits it and submits, then sees the feedback marked 'Jon hasn't seen this yet', with Edit and Delete still available.",
+      "steal": [
+        "The chosen draft opens for editing before 'Submit', so AI text is never sent automatically (screens 1 to 2).",
+        "A 'hasn't seen this yet' status on the shared feedback shows whether it has been read (screens 3 to 4).",
+        "Edit and Delete stay available until it is read, so faculty can take feedback back before the learner opens it (screens 3 to 4)."
+      ],
+      "fit": "Reports: a faculty note written after the AI draft, with control over when it is seen. Useful for formative learner reports before PDFs are shared with deans."
+    },
+    "fireflies 75bb46c3": {
+      "summary": "On a meeting page, the user picks which sections the AI summary should include, taps 'Save & Apply', waits while it regenerates, then reads the notes, including an empty Blockers section.",
+      "steal": [
+        "A checklist of sections, each saying in plain words what the AI will pull out, shapes the report without a builder (screens 2 to 3).",
+        "'Save' keeps the preferences, and 'Save & Apply' also regenerates this meeting's summary straight away (screen 3).",
+        "A processing message while the transcript is analysed again is honest about the AI wait (screen 4).",
+        "An empty section says 'No blockers were explicitly discussed' instead of disappearing, so the absence is clear (screen 5)."
+      ],
+      "avoid": ["Sales and meeting templates (BANT, Standup) in the same list are the wrong lens for clinical simulation; keep only debrief and competency templates (screen 1)."],
+      "fit": "Reports: an AI formative or summative report of a recorded session, with templates and section switches for debrief PDFs. It pairs with the transcript time stamps in the SRV, not with Performance Matrix."
+    },
+    "dialpad 9589355a": {
+      "summary": "On a call review, the user reads the AI recap, picks a summary length, waits while it regenerates, and gets a longer recap that can still be shared.",
+      "steal": [
+        "A length menu (Short, Medium, Long, Bulleted) regenerates the recap in place with one control (screens 3 to 5).",
+        "A wait message on the recap while it reformats shows that the change is in progress (screen 4).",
+        "Time-stamped comments with @mentions next to the recap let faculty add notes to the same session report (screens 1 to 2).",
+        "'Copy link' and 'Share' in the call review header make sharing by link the default (screens 1 and 5)."
+      ],
+      "avoid": ["An empty Moments column with nothing to do should be hidden or explained until there are highlights (screens 1 to 5)."],
+      "fit": "Reports: an AI session recap with a length control and link sharing. It fits formative summaries for faculty or deans, not tables of room-use numbers."
+    },
+    "cal-com aa5da6b8": {
+      "summary": "The user opens booking insights, picks an account or team and the last 7 days, scans the headline boxes and trend chart, then the rankings of team members.",
+      "steps": { "3": "One team selected: spike in created and cancelled" },
+      "steal": [
+        "Each headline box shows a value, a coloured arrow and 'from last period', so performance can be compared without a builder (screens 1 to 4).",
+        "The trend chart shows Created, Completed, Rescheduled and Cancelled as separate lines, with a hint for each day (screen 4).",
+        "Rankings for Most Booked, Least Booked and Most Cancelled team members show use per person, as you would want for faculty (screens 5 to 6).",
+        "When there are no ratings yet, a 'Workflows' button offers to start collecting them (screen 6)."
+      ],
+      "avoid": ["Eight boxes that are always shown, many with zeros and 0% change, are noisy for small sim centers; fewer numbers, led by room use, work better (screens 1 to 3)."],
+      "fit": "Reports: fills the gap for room use, with room and faculty-hour numbers from the calendar and comparable performance. Its download is a light export, not a digest sent to deans by link."
+    },
+    "cal-com ff3d88ad": {
+      "summary": "The user opens routing insights, filters by team and form, reads funnel boxes and a table of responses, then views bookings per person by day, week or month and failed bookings by form answer.",
+      "steal": [
+        "Three headline boxes follow the funnel: 'Total Responses', 'Without Booking' and 'With Booking' (screens 1 to 2).",
+        "A day, week or month switch and a grid of people by period show each person's load, like faculty hours (screen 3).",
+        "Horizontal bars break down failed bookings by the answers given in the form (screen 4).",
+        "Segment, Save, Clear and Download sit on the report itself (screens 1 to 2)."
+      ],
+      "fit": "Reports: a strong model for use per person by week or month. It matches the time periods of automatic digests for deans without a deep report builder."
+    },
+    "whereby 9649cfdc": {
+      "summary": "The user lands on a 'Get started' page showing the plan's remaining minutes, then opens the rooms list to see when each room was last active, its participant minutes and its session count.",
+      "steal": [
+        "A plan label on the side always shows the participant minutes left, like a usage budget (screens 1 to 2).",
+        "The rooms list shows 'Last active', 'PM used' and 'Sessions' for each room (screen 2).",
+        "A small hint on the column header explains Participant Minutes (PM) while you read the number (screen 2)."
+      ],
+      "avoid": ["The flow opens on a welcome page before the insights; room use should not sit behind a getting-started screen (screen 1)."],
+      "fit": "Reports: a direct match for sim-room use, from the room list to minutes and sessions. It moves Essentials toward room-hour numbers taken from the calendar."
+    },
+    "whereby df187e39": {
+      "summary": "The user opens the rooms list, shows the hint that defines Participant Minutes (PM), then opens one room's details with summary boxes and a log of PM per session.",
+      "steal": [
+        "A hint defines PM right where you read the number (screen 2).",
+        "Room details show three headline numbers, then a row per session with duration, participants and 'PM used' (screen 3).",
+        "A 'Back to Rooms' link and a room name you can copy sit at the top (screen 3)."
+      ],
+      "fit": "Reports: the best first-version pattern for room use, from the list to a clearly defined unit of minutes to a log per session, without a report builder."
+    },
+    "deputy 1e4db417": {
+      "summary": "The user opens Analytics, sets up a schedule-adherence report for one team member with a tolerance, loads the comparison table, then browses the audit, attendance, map and turnover reports.",
+      "steal": [
+        "The welcome text offers three ways out: download a spreadsheet, print a PDF, or schedule the report to the people who need it (screen 3).",
+        "A tolerance (15 minutes) is chosen before the adherence data loads (screens 4 to 6).",
+        "Planned shifts and actual timesheets sit side by side, with differences in hours and cost shown in red (screen 6).",
+        "The Analytics home shows 'Shift Pulse' as a 4/5 average with a small trend line and a recent comment: a formative score with a narrative (screen 2)."
+      ],
+      "avoid": ["The catalog of business-intelligence reports, with '+ Create report' and 'Make a copy' (built on Sigma), goes against the plan of no deep report builders in the first version (screens 3 to 10)."],
+      "fit": "Reports: borrow the scheduled delivery, the comparisons of planned and actual use, and the formative pulse. Do not bring over the embedded report library."
+    },
+    "juicebox a6f030e2": {
+      "summary": "From an analytics page, the user opens 'Export', chooses 'Share to web', sets a password and whether viewers may use filters, then gets a link to copy.",
+      "steal": [
+        "One 'Export' menu offers 'Share to web', 'Download' and 'Send to email' (screen 2).",
+        "The shared page needs a password, set before or together with the link (screens 3 to 5).",
+        "A switch, 'Allow viewers to interact with filters', decides whether viewers can use the page's filters (screens 3 to 5).",
+        "Once set up, the live link is ready to paste (screen 5)."
+      ],
+      "avoid": ["The link lives on another company's site (explo.co); links for deans should sit under the Essentials domain (screen 5)."],
+      "fit": "Reports: the closest pattern to automatic digests shared by link: a report link with an optional password and control over what viewers can change."
+    },
+    "juicebox 8f313eb2": {
+      "summary": "The user opens 'Export', chooses 'Send to email', picks PDF or image, enters a recipient, and sees 'Email will be sent shortly'.",
+      "steal": [
+        "The user picks PDF or image before sending (screens 2 to 4).",
+        "'Send' stays disabled until an email address is entered (screen 2).",
+        "The message 'Email will be sent shortly' appears without leaving the dashboard (screen 4)."
+      ],
+      "fit": "Reports: sends the report to people who will not open a link. It complements scheduled weekly or monthly digests without a report builder."
+    },
+    "midday ed6229f6": {
+      "summary": "The user shares one headline number (Revenue) from its box, creates a public snapshot link that expires, then opens or copies the link.",
+      "steal": [
+        "Each number has its own 'Share' option in the box's menu, instead of one export for the whole app (screen 2).",
+        "Before creating the link, the window explains that the chart is 'a snapshot in time' and asks for an expiry date (screen 4).",
+        "Once created, the link can be opened or copied, and its expiry date stays visible (screen 5).",
+        "The shared box has a legend for current, previous and average values (screens 1 to 2)."
+      ],
+      "avoid": ["Buttons to post on X or LinkedIn in the share window have no place in digests for deans and faculty (screen 5)."],
+      "fit": "Reports: the best model for public digest links for deans that expire: one snapshot link per headline number. It is lighter than a live shared dashboard with filters."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "product": "google-tv",
+  "flows": {
+    "mobbin:f4a1c6f0-b7ae-427b-a896-b4f3c2535f41": {
+      "summary": "From For you the user taps TV Nearby, picks Living Room TV from a Wi-Fi/Bluetooth discovery list, confirms selection, sees Turning on…, then a persistent Connected bar with remote shortcut.",
+      "steps": [
+        "For you — TV Nearby FAB",
+        "Select a device — Living Room TV list",
+        "Select a device — Living Room TV checked",
+        "Toast — Turning on Living Room TV…",
+        "Connected bar — Living Room TV + remote"
+      ],
+      "steal": [
+        "Named device in AVAILABLE DEVICES (step 2) — room/screen identity before control.",
+        "Green check on selected TV (step 3) — confirm which screen before committing.",
+        "Turning on… toast then Connected + named TV (steps 4–5) — async power/link feedback.",
+        "Persistent Connected bar with remote shortcut (step 5) — stay in context while linked to the big screen."
+      ],
+      "avoid": [
+        "Five-step same-network Wi-Fi/Bluetooth discovery (steps 1–5) — slow and brittle vs a QR on the debrief display for faculty pairing."
+      ],
+      "fit": "Counter-example for debrief pairing: multi-step nearby discovery does not beat a QR-linked web page on the phone; keep named-screen + Connected chrome if pairing is QR-first.",
+      "jobs": ["debrief-annotations"],
+      "counter_example": true
+    },
+    "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6": {
+      "summary": "While browsing a title with Living Room TV already connected, the user opens the full remote and gets touchpad nav plus play/pause, seek, and ±30s skips for the big screen.",
+      "steps": [
+        "Title detail — Connected bar with pause",
+        "Remote — touchpad + transport + ±30s"
+      ],
+      "steal": [
+        "Docked bar naming Living Room TV with pause while browsing (step 1) — control without leaving context.",
+        "Connected header on the remote sheet (step 2) — always show which screen is driven.",
+        "±30s skip flanking the scrubber (step 2) — coarse jumps for debrief moments without precise scrubbing.",
+        "Large mute / vol targets under the touchpad (step 2) — one-hand glanceable AV controls."
+      ],
+      "avoid": [
+        "Full swipe-to-navigate touchpad as primary (step 2) — debrief needs timeline/bookmarks, not TV focus navigation."
+      ],
+      "fit": "Mobile beats desktop for faculty standing in the room driving the debrief big screen: preferred as a web remote with named screen + transport/±skip after QR pair — extends Baseline private annotations / screen control.",
+      "jobs": ["debrief-annotations"],
+      "counter_example": false
+    }
+  }
+}

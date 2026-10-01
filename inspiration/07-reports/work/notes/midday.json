@@ -1,0 +1,25 @@
+{
+  "product": "midday",
+  "flows": {
+    "mobbin:ed6229f6-fa6d-413b-a6da-2edf7bb734ad": {
+      "summary": "The user shares one headline number (Revenue) from its box, creates a public snapshot link that expires, then opens or copies the link.",
+      "steps": [
+        "Dashboard: Revenue, Burn, Expenses boxes; Customize; 3 months",
+        "Same boxes with updated totals; card more menu visible",
+        "Revenue more menu: Share",
+        "Share metric window: snapshot note, Expires date, Create link",
+        "Link created: URL, open or paste, Expires date, Open in X / LinkedIn"
+      ],
+      "steal": [
+        "Each number has its own 'Share' option in the box's menu, instead of one export for the whole app (screen 2).",
+        "Before creating the link, the window explains that the chart is 'a snapshot in time' and asks for an expiry date (screen 4).",
+        "Once created, the link can be opened or copied, and its expiry date stays visible (screen 5).",
+        "The shared box has a legend for current, previous and average values (screens 1 to 2)."
+      ],
+      "avoid": [
+        "Buttons to post on X or LinkedIn in the share window have no place in digests for deans and faculty (screen 5)."
+      ],
+      "fit": "Reports: the best model for public digest links for deans that expire: one snapshot link per headline number. It is lighter than a live shared dashboard with filters."
+    }
+  }
+}

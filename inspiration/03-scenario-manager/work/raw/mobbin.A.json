@@ -1,0 +1,373 @@
+{
+  "references": [
+    {
+      "id": "mobbin:23f9629e-4301-498e-a238-b5d41c6c7129",
+      "source": "mobbin",
+      "app": "Perplexity",
+      "title": "Creating a new page",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/23f9629e-4301-498e-a238-b5d41c6c7129",
+      "images": [
+        "https://mobbin.com/api/mcp/short/kqiBuGIf",
+        "https://mobbin.com/api/mcp/short/m38xFFB1",
+        "https://mobbin.com/api/mcp/short/tghgaMQH",
+        "https://mobbin.com/api/mcp/short/j7HjhW5M",
+        "https://mobbin.com/api/mcp/short/dyDU22af",
+        "https://mobbin.com/api/mcp/short/67sHrNRr",
+        "https://mobbin.com/api/mcp/short/3OCcoDeO"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Creating a new page/workspace area by navigating to library, accessing tabs for threads vs pages, and adding new content items."
+    },
+    {
+      "id": "mobbin:e60af65b-7aae-493f-85a3-d7f69be79568",
+      "source": "mobbin",
+      "app": "Squarespace",
+      "title": "Adding a section (template)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e60af65b-7aae-493f-85a3-d7f69be79568",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KFAqCHdV",
+        "https://mobbin.com/api/mcp/short/k6w8JSXW",
+        "https://mobbin.com/api/mcp/short/vNm9XDJ9",
+        "https://mobbin.com/api/mcp/short/r175I5gf"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Adding a pre-built template section via modal with options like blank sections, saved sections (marked NEW), and category browsing from sidebar menu."
+    },
+    {
+      "id": "mobbin:11b99525-bcde-4418-a5d6-db0237564d23",
+      "source": "mobbin",
+      "app": "Railway",
+      "title": "Templates",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/11b99525-bcde-4418-a5d6-db0237564d23",
+      "images": [
+        "https://mobbin.com/api/mcp/short/2XcTgD9x",
+        "https://mobbin.com/api/mcp/short/qLoM7gjH",
+        "https://mobbin.com/api/mcp/short/1Ak7uRsZ"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Template library view showing projects and templates section with billing/trial status banner, accessed via sidebar navigation."
+    },
+    {
+      "id": "mobbin:8914ef26-a0a5-4618-a806-8d1ccba76c3f",
+      "source": "mobbin",
+      "app": "Resend",
+      "title": "Creating a template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8914ef26-a0a5-4618-a806-8d1ccba76c3f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/b8BoeTCk",
+        "https://mobbin.com/api/mcp/short/DtCreO72",
+        "https://mobbin.com/api/mcp/short/XQpGBWsw",
+        "https://mobbin.com/api/mcp/short/53z7Opgt",
+        "https://mobbin.com/api/mcp/short/MfZrQxwQ"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Creating a template from scratch with UI editor, showing draft status, preview section selection, and publish button with completion state."
+    },
+    {
+      "id": "mobbin:9f418aa4-00d6-4ea6-b041-50e950af7742",
+      "source": "mobbin",
+      "app": "Squarespace",
+      "title": "Adding a new page",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9f418aa4-00d6-4ea6-b041-50e950af7742",
+      "images": [
+        "https://mobbin.com/api/mcp/short/s6v1RpCl",
+        "https://mobbin.com/api/mcp/short/jlVud5Sj",
+        "https://mobbin.com/api/mcp/short/ejLAq2xo",
+        "https://mobbin.com/api/mcp/short/9gzOyhU8"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Adding a new page with blank or template options, showing gallery of page templates (portfolio, about, contact, showcase sections) and final editing view."
+    },
+    {
+      "id": "mobbin:5d764622-5e5b-40e1-9da9-2e34352c6fdf",
+      "source": "mobbin",
+      "app": "Customer.io",
+      "title": "Version history",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5d764622-5e5b-40e1-9da9-2e34352c6fdf",
+      "images": [
+        "https://mobbin.com/api/mcp/short/zYUZWoWM",
+        "https://mobbin.com/api/mcp/short/PGINon5U"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Accessing version history from email template editor with options to restore previous versions and view revision details."
+    },
+    {
+      "id": "mobbin:c004cc46-eb4f-4d79-960e-029dc31ebfae",
+      "source": "mobbin",
+      "app": "Slite",
+      "title": "Archiving a template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c004cc46-eb4f-4d79-960e-029dc31ebfae",
+      "images": [
+        "https://mobbin.com/api/mcp/short/9PQqCGTY",
+        "https://mobbin.com/api/mcp/short/Mv2LYIit",
+        "https://mobbin.com/api/mcp/short/8sK1K5R7",
+        "https://mobbin.com/api/mcp/short/ZB3a9Ye9"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Archiving a template through context menu, showing templates view with categorized team templates and archive confirmation feedback."
+    },
+    {
+      "id": "mobbin:68387ab8-072e-4146-8e27-7f0fae27a2a4",
+      "source": "mobbin",
+      "app": "Obvious",
+      "title": "Template settings",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/68387ab8-072e-4146-8e27-7f0fae27a2a4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/XkPzjPA4",
+        "https://mobbin.com/api/mcp/short/pc6AZ7xS",
+        "https://mobbin.com/api/mcp/short/gsYXt4ty",
+        "https://mobbin.com/api/mcp/short/rfbjiPUp",
+        "https://mobbin.com/api/mcp/short/WjomKznm",
+        "https://mobbin.com/api/mcp/short/NoPUtTzH"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Template settings panel showing category selection, documentation, versioning, and visibility controls (private, only you, team, organization sharing)."
+    },
+    {
+      "id": "mobbin:62ac5b2e-bca0-4c6c-95c5-3a11fa1336fb",
+      "source": "mobbin",
+      "app": "Resend",
+      "title": "Restoring a version",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/62ac5b2e-bca0-4c6c-95c5-3a11fa1336fb",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wIovrjtj",
+        "https://mobbin.com/api/mcp/short/ZSZUQZw7",
+        "https://mobbin.com/api/mcp/short/szl3z8ah",
+        "https://mobbin.com/api/mcp/short/aQMaBCDV",
+        "https://mobbin.com/api/mcp/short/j8XdhRFg",
+        "https://mobbin.com/api/mcp/short/Tl54KXpp"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Restoring a template to a previous version via version history sidebar, showing restore option in versioning UI and success notification."
+    },
+    {
+      "id": "mobbin:5e3fe2a1-1087-4372-94f7-927aa2a82e8d",
+      "source": "mobbin",
+      "app": "Heidi",
+      "title": "Duplicating a template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5e3fe2a1-1087-4372-94f7-927aa2a82e8d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/9jMqhONh",
+        "https://mobbin.com/api/mcp/short/67Ha5DB2",
+        "https://mobbin.com/api/mcp/short/csAFGFWR"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Duplicating a template from context menu in library view, showing confirmation of duplicate creation."
+    },
+    {
+      "id": "mobbin:bb93c938-3277-4829-8819-0864ec9d59b8",
+      "source": "mobbin",
+      "app": "Langdock",
+      "title": "Sharing a template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/bb93c938-3277-4829-8819-0864ec9d59b8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/24sUTDiO",
+        "https://mobbin.com/api/mcp/short/vpHinIfG",
+        "https://mobbin.com/api/mcp/short/G37lSfDL",
+        "https://mobbin.com/api/mcp/short/Sf3qgcCj",
+        "https://mobbin.com/api/mcp/short/Hf5xKswU",
+        "https://mobbin.com/api/mcp/short/eqJDputN"
+      ],
+      "platform": "web",
+      "jobs": ["access"],
+      "take": "Sharing a template through modal showing people with access, workspace visibility option, and ability to add specific users or groups."
+    },
+    {
+      "id": "mobbin:4b33f07a-4b03-4b2f-aea9-b6d64bb521e5",
+      "source": "mobbin",
+      "app": "Heidi",
+      "title": "Updating a template visibility",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4b33f07a-4b03-4b2f-aea9-b6d64bb521e5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/o042i8fL",
+        "https://mobbin.com/api/mcp/short/eLoBR5lw",
+        "https://mobbin.com/api/mcp/short/oGtnZPHp",
+        "https://mobbin.com/api/mcp/short/h6F0xOdY"
+      ],
+      "platform": "web",
+      "jobs": ["access"],
+      "take": "Updating visibility settings for a template via context menu, showing options for community/team sharing and visibility controls."
+    },
+    {
+      "id": "mobbin:7e7943cf-7699-43bd-bad7-f910be0328b0",
+      "source": "mobbin",
+      "app": "HubSpot",
+      "title": "Updating sharing permission",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7e7943cf-7699-43bd-bad7-f910be0328b0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Vos39EIG",
+        "https://mobbin.com/api/mcp/short/Qp0ki60k",
+        "https://mobbin.com/api/mcp/short/FI133SMX",
+        "https://mobbin.com/api/mcp/short/xI74GnOY",
+        "https://mobbin.com/api/mcp/short/tkn1hO57",
+        "https://mobbin.com/api/mcp/short/TZvVCRgL"
+      ],
+      "platform": "web",
+      "jobs": ["access"],
+      "take": "Managing template permissions via modal showing private/everyone/specific users options and permission confirmation feedback."
+    },
+    {
+      "id": "mobbin:6da8739c-9e3e-4f60-a062-bb07d5a27529",
+      "source": "mobbin",
+      "app": "Zapier",
+      "title": "Sharing a template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6da8739c-9e3e-4f60-a062-bb07d5a27529",
+      "images": [
+        "https://mobbin.com/api/mcp/short/kfZ1LcDB",
+        "https://mobbin.com/api/mcp/short/gEVM9QvF",
+        "https://mobbin.com/api/mcp/short/lOq8ZWzu",
+        "https://mobbin.com/api/mcp/short/dsIx7wV4",
+        "https://mobbin.com/api/mcp/short/TGy6vnuM",
+        "https://mobbin.com/api/mcp/short/wBUs7uPp"
+      ],
+      "platform": "web",
+      "jobs": ["access"],
+      "take": "Sharing a custom Zap template via public/private options with link sharing and permission control to allow copies."
+    },
+    {
+      "id": "mobbin:c56aee9e-b9d5-4e60-a0bb-be91c84f8618",
+      "source": "mobbin",
+      "app": "Clay",
+      "title": "Sharing a table",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c56aee9e-b9d5-4e60-a0bb-be91c84f8618",
+      "images": [
+        "https://mobbin.com/api/mcp/short/PHXVjrOe",
+        "https://mobbin.com/api/mcp/short/NCjxvLcm",
+        "https://mobbin.com/api/mcp/short/wFsE4c8X",
+        "https://mobbin.com/api/mcp/short/iRF4mbXU",
+        "https://mobbin.com/api/mcp/short/CxioZasF",
+        "https://mobbin.com/api/mcp/short/MrhmDQuN",
+        "https://mobbin.com/api/mcp/short/6OnJomkn"
+      ],
+      "platform": "web",
+      "jobs": ["access"],
+      "take": "Sharing a reusable data table via modal with email-based access, field-level sharing, and collaboration visibility settings."
+    },
+    {
+      "id": "mobbin:a694dbea-b0b7-484d-9393-38a1f6741abf",
+      "source": "mobbin",
+      "app": "Obvious",
+      "title": "Saving as template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/a694dbea-b0b7-484d-9393-38a1f6741abf",
+      "images": [
+        "https://mobbin.com/api/mcp/short/vj5KnZWv",
+        "https://mobbin.com/api/mcp/short/3wAcTmbM",
+        "https://mobbin.com/api/mcp/short/OMHD7LYL",
+        "https://mobbin.com/api/mcp/short/Dvw2qafm",
+        "https://mobbin.com/api/mcp/short/zSifSuhD",
+        "https://mobbin.com/api/mcp/short/g53WXQms",
+        "https://mobbin.com/api/mcp/short/yKGOyZZJ",
+        "https://mobbin.com/api/mcp/short/vdb1zb0y",
+        "https://mobbin.com/api/mcp/short/53azJX1n",
+        "https://mobbin.com/api/mcp/short/MnlXzEOL",
+        "https://mobbin.com/api/mcp/short/2XfD5U5A",
+        "https://mobbin.com/api/mcp/short/AecirXRe"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Saving a document as a template via modal with name, category selection, visibility, and starter prompt generation features."
+    },
+    {
+      "id": "mobbin:9e0d5df7-8fea-4a21-9032-7a84de9d100f",
+      "source": "mobbin",
+      "app": "ClickUp",
+      "title": "Saving as a template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9e0d5df7-8fea-4a21-9032-7a84de9d100f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/tV5iulU2",
+        "https://mobbin.com/api/mcp/short/XaGDhaMf",
+        "https://mobbin.com/api/mcp/short/OH5zAGeF",
+        "https://mobbin.com/api/mcp/short/b04Pxo8Q",
+        "https://mobbin.com/api/mcp/short/QekObLiX",
+        "https://mobbin.com/api/mcp/short/oEJXYH6V",
+        "https://mobbin.com/api/mcp/short/ANaz9kAy",
+        "https://mobbin.com/api/mcp/short/0j4oE7iv",
+        "https://mobbin.com/api/mcp/short/NvOQgdrF",
+        "https://mobbin.com/api/mcp/short/677IQEUz"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Saving a document as a template with name, description, tags, sharing options (all members, only me, select people, public link)."
+    },
+    {
+      "id": "mobbin:da775d14-31d1-4777-969a-f19c159e678d",
+      "source": "mobbin",
+      "app": "Gamma",
+      "title": "Saving as a template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/da775d14-31d1-4777-969a-f19c159e678d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/GdwpJtBu",
+        "https://mobbin.com/api/mcp/short/Wkdasmhb",
+        "https://mobbin.com/api/mcp/short/xCoPywYo",
+        "https://mobbin.com/api/mcp/short/3f7bijlt",
+        "https://mobbin.com/api/mcp/short/UpFl7F0k"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Saving a presentation as workspace template via menu option, enabling reuse for team-level content creation."
+    },
+    {
+      "id": "mobbin:18fb556d-e129-41db-911f-2c7c814b9a8a",
+      "source": "mobbin",
+      "app": "ClickUp",
+      "title": "Saving doc as template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/18fb556d-e129-41db-911f-2c7c814b9a8a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hN7TpI54",
+        "https://mobbin.com/api/mcp/short/fNSerTSn",
+        "https://mobbin.com/api/mcp/short/GrqGKnXZ",
+        "https://mobbin.com/api/mcp/short/t6TRUO3Z",
+        "https://mobbin.com/api/mcp/short/uqAB0ei4"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Converting a live document to reusable template via right-click menu, preserving content structure for team reuse."
+    },
+    {
+      "id": "mobbin:cada3f3c-91b2-44ce-8ae8-bd3f4485b8c4",
+      "source": "mobbin",
+      "app": "Todoist",
+      "title": "Saving as template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/cada3f3c-91b2-44ce-8ae8-bd3f4485b8c4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/PLYoutnn",
+        "https://mobbin.com/api/mcp/short/nxzn3XvX",
+        "https://mobbin.com/api/mcp/short/bm4hPYWN",
+        "https://mobbin.com/api/mcp/short/2mxku2Q6"
+      ],
+      "platform": "web",
+      "jobs": ["crud"],
+      "take": "Saving a task or project as reusable template via menu, enabling quick creation of recurring workflows."
+    }
+  ]
+}

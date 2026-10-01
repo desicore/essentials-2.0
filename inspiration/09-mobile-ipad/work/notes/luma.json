@@ -1,0 +1,48 @@
+{
+  "product": "luma",
+  "flows": {
+    "mobbin:024a7f32-0ecc-4767-9123-0fb0830f256c": {
+      "summary": "The host opens Scan to Check In, confirms a scanned guest on a panel, then gets a green success message while the scanner stays ready for the next person.",
+      "steps": [
+        "Scan to Check In: viewfinder and List or Scan",
+        "Guest panel: name, status Going, Check In",
+        "Green message: Guest checked in; scan stays open"
+      ],
+      "steal": [
+        "A confirm-before-commit guest panel with name, email and status before Check In (screen 2) prevents wrong roster tags.",
+        "A green success message without leaving the scanner (screen 3) keeps throughput for a line of learners.",
+        "A List or Scan control plus search shortcut (screen 1) gives a QR fail path without abandoning the flow.",
+        "A flashlight control on the scan chrome (screen 1) helps in poorly lit rooms."
+      ],
+      "avoid": [
+        "Do not tag this as equipment check. The screens only show guest ticket check-in, not room or device setup."
+      ],
+      "fit": "Mobile and iPad app: mobile beats desktop for door-side learner tagging. QR scan plus one-tap confirm replaces paper roster or SRV search. The same pattern maps to room QR for equipment check, but this flow itself is people only.",
+      "jobs": [
+        "learner-tagging"
+      ],
+      "counter_example": false
+    },
+    "mobbin:26b0f3ea-2156-43d2-b580-f4774fbb7fc7": {
+      "summary": "From an event card the host opens Check In, scans a guest, confirms identity, then can Undo Check In after success.",
+      "steps": [
+        "Event card: Invite, Check In, Blast, More",
+        "Camera scan: viewfinder, list, flip camera",
+        "Guest panel: Jason Smith, Check In",
+        "Success: Check In Successful and Undo Check In"
+      ],
+      "steal": [
+        "Check In is a first-class action on the session or event card (screen 1), not buried in settings.",
+        "A confirm panel before commit (screen 3) shows name, status Going and ticket type.",
+        "Undo Check In on the success panel (screen 4) recovers fast from an accidental scan.",
+        "A flip-camera control on the scanner (screen 2) supports front or rear for badge versus phone-held QR."
+      ],
+      "avoid": [],
+      "fit": "Mobile and iPad app: phone in hand at the room door beats TouchPro-only tagging. Extends baseline learner tagging and QR checklist with undo and confirm.",
+      "jobs": [
+        "learner-tagging"
+      ],
+      "counter_example": false
+    }
+  }
+}

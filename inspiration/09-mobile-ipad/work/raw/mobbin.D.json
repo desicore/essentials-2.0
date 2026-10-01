@@ -1,0 +1,176 @@
+{
+  "references": [
+    {
+      "id": "mobbin:7c04e7a5-ee31-4531-9e1a-fc413f10c950",
+      "source": "mobbin",
+      "app": "Otter AI",
+      "title": "Editing transcript",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7c04e7a5-ee31-4531-9e1a-fc413f10c950",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hxG0CCuv",
+        "https://mobbin.com/api/mcp/short/D48grmwF",
+        "https://mobbin.com/api/mcp/short/HJQ650hE",
+        "https://mobbin.com/api/mcp/short/iHSbHHz9"
+      ],
+      "platform": "ios",
+      "jobs": ["voice-notes"],
+      "take": "Otter AI flow shows editing a timestamped transcript inline with playback controls, highlighting specific words to refine accuracy."
+    },
+    {
+      "id": "mobbin:3c069b65-da04-47ec-a852-5165ac63562b",
+      "source": "mobbin",
+      "app": "Fabric",
+      "title": "Creating a voice note",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3c069b65-da04-47ec-a852-5165ac63562b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wFbkdm0r",
+        "https://mobbin.com/api/mcp/short/oORnDp7R",
+        "https://mobbin.com/api/mcp/short/dBuiol0a",
+        "https://mobbin.com/api/mcp/short/OqUYcN5D",
+        "https://mobbin.com/api/mcp/short/EjEFFMAT",
+        "https://mobbin.com/api/mcp/short/SWb3KFZ5",
+        "https://mobbin.com/api/mcp/short/AHjjsNmb",
+        "https://mobbin.com/api/mcp/short/nXLnUzSG",
+        "https://mobbin.com/api/mcp/short/odRU64T0",
+        "https://mobbin.com/api/mcp/short/qBxLgQXO"
+      ],
+      "platform": "ios",
+      "jobs": ["voice-notes"],
+      "take": "Fabric shows voice note creation with a dual-screen design: recording UI with waveform, then transcript tab with playback, summary, and edit capability."
+    },
+    {
+      "id": "mobbin:6ef47959-5bcd-4515-bd9f-13d49e698189",
+      "source": "mobbin",
+      "app": "Apple Notes",
+      "title": "Recording an audio",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6ef47959-5bcd-4515-bd9f-13d49e698189",
+      "images": [
+        "https://mobbin.com/api/mcp/short/naz32aw1",
+        "https://mobbin.com/api/mcp/short/liAbhYZl",
+        "https://mobbin.com/api/mcp/short/zUb8s0vA",
+        "https://mobbin.com/api/mcp/short/NDC610Wa",
+        "https://mobbin.com/api/mcp/short/c8by70my"
+      ],
+      "platform": "ios",
+      "jobs": ["voice-notes"],
+      "take": "Apple Notes demonstrates inline audio recording within a note, with a waveform indicator and embedded playback controls, one-handed friendly."
+    },
+    {
+      "id": "mobbin:f89be597-68c8-4d01-8eed-7c06bd5d7ed5",
+      "source": "mobbin",
+      "app": "Notion",
+      "title": "Creating an AI meeting note",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f89be597-68c8-4d01-8eed-7c06bd5d7ed5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ENu2kcH2",
+        "https://mobbin.com/api/mcp/short/pBnUy2ID",
+        "https://mobbin.com/api/mcp/short/vqsL1kGo",
+        "https://mobbin.com/api/mcp/short/eBKJLAb7",
+        "https://mobbin.com/api/mcp/short/MbzcUDO1",
+        "https://mobbin.com/api/mcp/short/rOn3hBSg",
+        "https://mobbin.com/api/mcp/short/VLGMXXSB",
+        "https://mobbin.com/api/mcp/short/odFiSuHX",
+        "https://mobbin.com/api/mcp/short/UaEzx81Q",
+        "https://mobbin.com/api/mcp/short/aXaZiAG6",
+        "https://mobbin.com/api/mcp/short/wOvfRCwd",
+        "https://mobbin.com/api/mcp/short/NrMaQgcU"
+      ],
+      "platform": "ios",
+      "jobs": ["voice-notes"],
+      "take": "Notion's AI Meeting Notes flow shows background recording capture, progress indicators (Uploading, Transcribing), and generated summary with editing, suitable for async dictation."
+    },
+    {
+      "id": "mobbin:06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7",
+      "source": "mobbin",
+      "app": "Slack",
+      "title": "Turning on push-to-talk",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/06bcb061-a16d-4a6f-95bd-8c5e31c5f7e7",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Dab9JUXU",
+        "https://mobbin.com/api/mcp/short/KY4sHlFj",
+        "https://mobbin.com/api/mcp/short/PUsweRvp",
+        "https://mobbin.com/api/mcp/short/QMLVf8z3"
+      ],
+      "platform": "ios",
+      "jobs": ["intercom"],
+      "take": "Slack Huddle shows the flow to enable push-to-talk mode in the audio settings, activate a live room, and join with a clear green mic button in the room view."
+    },
+    {
+      "id": "mobbin:f9b9d253-9625-41b1-aa02-bedad412dee4",
+      "source": "mobbin",
+      "app": "Claude",
+      "title": "Asking Claude (push to talk mode)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f9b9d253-9625-41b1-aa02-bedad412dee4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TZhe6rVz",
+        "https://mobbin.com/api/mcp/short/YFgFPtkB",
+        "https://mobbin.com/api/mcp/short/WD1vTjyS",
+        "https://mobbin.com/api/mcp/short/qAcsIcqo"
+      ],
+      "platform": "ios",
+      "jobs": ["intercom"],
+      "take": "Claude's push-to-talk demonstrates holding a blue button to record, waveform animation during speech, release-to-send model, with state text 'Hold to speak, release to send'."
+    },
+    {
+      "id": "mobbin:733511f4-a722-47e7-8ae1-8a752966204f",
+      "source": "mobbin",
+      "app": "Perplexity",
+      "title": "Asking Perplexity (push to talk)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/733511f4-a722-47e7-8ae1-8a752966204f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1lvUodlO",
+        "https://mobbin.com/api/mcp/short/xxIAn8Pn",
+        "https://mobbin.com/api/mcp/short/SSgPpNUC",
+        "https://mobbin.com/api/mcp/short/Vs3yn0CU",
+        "https://mobbin.com/api/mcp/short/FOVlq6RN"
+      ],
+      "platform": "ios",
+      "jobs": ["intercom"],
+      "take": "Perplexity's push-to-talk flow shows a teal hold-button at bottom center, waveform during active recording, full-screen visual feedback, and one-handed design."
+    },
+    {
+      "id": "mobbin:8a834128-d249-425a-8bc6-029504038e5f",
+      "source": "mobbin",
+      "app": "ChatGPT",
+      "title": "Voice chat",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8a834128-d249-425a-8bc6-029504038e5f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/itz6YE4B",
+        "https://mobbin.com/api/mcp/short/yvxPhB91",
+        "https://mobbin.com/api/mcp/short/RzTpfaPB",
+        "https://mobbin.com/api/mcp/short/ZK0sjh0Q",
+        "https://mobbin.com/api/mcp/short/EXmxkXqN",
+        "https://mobbin.com/api/mcp/short/mr6uSTiO",
+        "https://mobbin.com/api/mcp/short/Tr8ajYwL",
+        "https://mobbin.com/api/mcp/short/2hGDrLKl"
+      ],
+      "platform": "ios",
+      "jobs": ["intercom"],
+      "take": "ChatGPT Voice Chat shows multi-screen flow: tap to call, waveform animation during listening, loading state with animated dots, response display, interruption option, and live state management."
+    },
+    {
+      "id": "mobbin:8faed082-5416-4324-b104-7056f0993931",
+      "source": "mobbin",
+      "app": "Amazon Alexa",
+      "title": "Communication",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8faed082-5416-4324-b104-7056f0993931",
+      "images": [
+        "https://mobbin.com/api/mcp/short/QElQ6Mnj",
+        "https://mobbin.com/api/mcp/short/e7kFRta9",
+        "https://mobbin.com/api/mcp/short/zhKJm77w"
+      ],
+      "platform": "ios",
+      "jobs": ["intercom"],
+      "take": "Alexa Communication feature demonstrates Household Drop-In (instant connection to home devices), Announce broadcast, and recent-devices quick-access for room-level one-touch audio routing."
+    }
+  ]
+}

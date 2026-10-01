@@ -1,0 +1,52 @@
+{
+  "product": "time2book",
+  "flows": {
+    "refero:6310": {
+      "summary": "From an empty Upcoming schedule, add a class from a catalog service, set start and weekly days, Create, and see series cards with capacity and a publish pop-up.",
+      "steps": [
+        "Empty Schedule: Upcoming and Past",
+        "Add a Class panel: service and start",
+        "Service list: catalog pick",
+        "Power Yoga with 15-min time steps",
+        "Repeat menu: weekly intervals",
+        "Weekly with Mon to Sun day labels",
+        "Pop-up: Power Yoga is now live",
+        "Upcoming list with capacity 0/10"
+      ],
+      "steal": [
+        "Picking a catalog service fills duration and location into a summary card, so only start time and repeat are left before Create (screens 2 to 4).",
+        "Repeat presets (Does not repeat, Weekly, Every 2 to 4 weeks) then Mon to Sun day labels expand only when Weekly is on (screens 5 to 6).",
+        "A live sentence summary ('…from 10:00 to 10:45, starting on Jul 5') confirms end time without a separate end field (screens 2 and 6).",
+        "After create, the pop-up 'Power Yoga is now live! Clients can now book…' marks publish, not just save (screen 7)."
+      ],
+      "avoid": [
+        "An agenda list alone has no week or room grid, so room or faculty double-booking cannot be spotted while creating."
+      ],
+      "fit": "Scheduling: cheap simple-event path. Scenario as catalog service, default duration and room, then weekly day labels for N sessions. Extends baseline simple events, not flexi cell assignment.",
+      "jobs": [
+        "simple-events"
+      ],
+      "counter_example": false
+    },
+    "refero:6311": {
+      "summary": "Open a class from Upcoming, Cancel booking, choose this occurrence versus all future classes, then see a Canceled label kept on the list with a success pop-up.",
+      "steps": [
+        "Upcoming agenda with class cards",
+        "Booking details: Cancel booking",
+        "Scope: this class or all future",
+        "Pop-up: Class cancelled plus badge",
+        "Canceled card kept in Upcoming"
+      ],
+      "steal": [
+        "The scope dialog offers 'Cancel only this class' (primary red) versus 'Cancel all future classes - on at 15:00', and says booked clients can rebook (screen 3).",
+        "The occurrence stays on the agenda with a red 'Canceled' label (and struck time) instead of vanishing, so schedule history remains visible (screens 4 to 5).",
+        "Booking details splits Clients into Attending and Cancelled tabs before the cancel action (screen 2)."
+      ],
+      "avoid": [
+        "There is no on-screen confirmation that invitees were notified, only organizer-side cancel. Do not assume attendee email behaviour from this flow."
+      ],
+      "fit": "Scheduling: reuse for session-series cancel scope (one run versus rest of rotation) with a cancel-in-place label for coordinators. Comparable to Amie/Motion this/all, but framed as organizer cancel.",
+      "counter_example": false
+    }
+  }
+}

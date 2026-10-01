@@ -1,0 +1,49 @@
+{
+  "product": "google-home",
+  "flows": {
+    "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4": {
+      "summary": "opens the Favourites home, then the Devices list where rooms group device tiles and an Offline light is visible without opening a device. Later the same list shows devices online.",
+      "steps": [
+        "Favourites home with Assistant tile and Reorder or Edit",
+        "Devices list with Living room Light Offline",
+        "Devices list with all online",
+        "Devices list with all online again"
+      ],
+      "steal": [
+        "Offline shows on the room tile itself as a gray card with an Offline label and warning triangle. You do not need to open it to see the problem.",
+        "Devices are grouped under room headers (Living room) with status on the tile (On at 100% versus Offline) (screens 2-3).",
+        "Favourites Reorder and Edit are explicit entry points to rearrange widgets (screen 1).",
+        "A home location switcher sits in the header for multi-site centers (screens 1-3)."
+      ],
+      "avoid": [
+        "Screens 3 and 4 are a duplicate all-online Devices capture. Do not treat the repeat as a distinct change."
+      ],
+      "fit": "Dashboard: room-grouped device tiles with Offline on the list extend Center Overview and hand off problem rooms to Recording for audio and video (AV) and device check. Favourites Reorder and Edit are dashboard-only widgets, not a replacement for module tiles.",
+      "jobs": [
+        "center-overview",
+        "system-health",
+        "widgets"
+      ]
+    },
+    "mobbin:b173bbc8-5ec9-487b-9837-c0b19fc34805": {
+      "summary": "opens Hue Bridge device settings with room assignment and details, opens a Help and Feedback menu, then lands on a searchable Help hub with articles and Contact us.",
+      "steps": [
+        "Hue Bridge settings with room and details",
+        "More menu with Help, Feedback, and Cancel",
+        "Help hub with articles and Contact us"
+      ],
+      "steal": [
+        "Device detail ties Name, Home, and Room and shows Connected through and Device type for tech troubleshooting (screen 1).",
+        "The fix path is a help-article list (for example Nest camera Wi-Fi) plus Search Help, not a guided per-step walkthrough (screen 3).",
+        "Who to call is offered via Contact us and Ask the Help Community (screen 3)."
+      ],
+      "avoid": [
+        "Help is a generic article list after the fact, with no problem-specific guided fix from the Offline tile itself."
+      ],
+      "fit": "Dashboard: device details and room assignment live on the system-health strip. Contact us maps to calling sim tech or AV support, while deep camera and mic repair still hands off to Recording.",
+      "jobs": [
+        "system-health"
+      ]
+    }
+  }
+}

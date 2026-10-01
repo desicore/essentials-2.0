@@ -1,0 +1,312 @@
+{
+  "references": [
+    {
+      "id": "mobbin:97fc2441-1ea3-492b-8577-d90ae090c48f",
+      "source": "mobbin",
+      "app": "Jira",
+      "title": "Adding a due date",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/97fc2441-1ea3-492b-8577-d90ae090c48f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5YQObHhh",
+        "https://mobbin.com/api/mcp/short/UjqopQ77",
+        "https://mobbin.com/api/mcp/short/f1RzJpqq"
+      ],
+      "platform": "web",
+      "jobs": [
+        "check-out-manual"
+      ],
+      "take": "Workflow for selecting and setting a due date on a task with calendar interface."
+    },
+    {
+      "id": "mobbin:f3e5d01f-52e2-4e5f-942d-006f39c62273",
+      "source": "mobbin",
+      "app": "Employment Hero",
+      "title": "Registering an asset",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f3e5d01f-52e2-4e5f-942d-006f39c62273",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Qf9qRbXX",
+        "https://mobbin.com/api/mcp/short/ucykm4Nf",
+        "https://mobbin.com/api/mcp/short/abt9CgJj",
+        "https://mobbin.com/api/mcp/short/MeRy9fs6",
+        "https://mobbin.com/api/mcp/short/4v4379k6",
+        "https://mobbin.com/api/mcp/short/lXSJmusU",
+        "https://mobbin.com/api/mcp/short/PXugLA17",
+        "https://mobbin.com/api/mcp/short/LD8Am8tm"
+      ],
+      "platform": "web",
+      "jobs": [
+        "check-out-manual",
+        "items"
+      ],
+      "take": "8-step asset registration with code, category, purchase date and amount entry."
+    },
+    {
+      "id": "mobbin:0841c4a6-14b2-4d83-a2cf-97497637fcaa",
+      "source": "mobbin",
+      "app": "Amazon Shopping",
+      "title": "Scan a barcode",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/0841c4a6-14b2-4d83-a2cf-97497637fcaa",
+      "images": [
+        "https://mobbin.com/api/mcp/short/MmmRYoAq",
+        "https://mobbin.com/api/mcp/short/Z06Sf3aj"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "check-out-auto"
+      ],
+      "take": "Two-step barcode scan interface with camera and barcode scan options visible."
+    },
+    {
+      "id": "mobbin:4b3b299e-3c60-408c-80f2-6a22ef047d99",
+      "source": "mobbin",
+      "app": "Bevel",
+      "title": "Scan a barcode",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4b3b299e-3c60-408c-80f2-6a22ef047d99",
+      "images": [
+        "https://mobbin.com/api/mcp/short/F3nMMhax",
+        "https://mobbin.com/api/mcp/short/lylUkYhk",
+        "https://mobbin.com/api/mcp/short/SmvAq4I2",
+        "https://mobbin.com/api/mcp/short/wXXYqPKW"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "check-out-auto"
+      ],
+      "take": "4-step barcode scan for food/nutrition tracking with focus rectangle and manual entry option."
+    },
+    {
+      "id": "mobbin:f6612862-77f9-4b6c-9ed5-4416ad9e8c42",
+      "source": "mobbin",
+      "app": "Woolworths",
+      "title": "Purchasing a product (Scan & Go)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f6612862-77f9-4b6c-9ed5-4416ad9e8c42",
+      "images": [
+        "https://mobbin.com/api/mcp/short/SKF2Aozw",
+        "https://mobbin.com/api/mcp/short/7QNE2Us0",
+        "https://mobbin.com/api/mcp/short/fZGjIHV8",
+        "https://mobbin.com/api/mcp/short/3xmZIBxY",
+        "https://mobbin.com/api/mcp/short/6hTYBFD2",
+        "https://mobbin.com/api/mcp/short/ZDoDlQlh",
+        "https://mobbin.com/api/mcp/short/twDVR3HR",
+        "https://mobbin.com/api/mcp/short/h8wMV7FP",
+        "https://mobbin.com/api/mcp/short/HdduLKGi"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "check-out-auto"
+      ],
+      "take": "9-step complete scan-and-go checkout with barcode scanning, cart view, and payment confirmation."
+    },
+    {
+      "id": "mobbin:12393b33-b078-4193-b3fd-8853983cabd0",
+      "source": "mobbin",
+      "app": "7-Eleven",
+      "title": "Adding to cart (barcode scan)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/12393b33-b078-4193-b3fd-8853983cabd0",
+      "images": [
+        "https://mobbin.com/api/mcp/short/2Ra7Xq39",
+        "https://mobbin.com/api/mcp/short/0T3BdUfa",
+        "https://mobbin.com/api/mcp/short/VkfGLynN",
+        "https://mobbin.com/api/mcp/short/2JesRBjS"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "check-out-auto"
+      ],
+      "take": "4-step mobile checkout with barcode scan integration and basket view."
+    },
+    {
+      "id": "mobbin:96eca170-e2c5-41da-be39-bc51510e7837",
+      "source": "mobbin",
+      "app": "Expensify",
+      "title": "Creating an expense",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/96eca170-e2c5-41da-be39-bc51510e7837",
+      "images": [
+        "https://mobbin.com/api/mcp/short/sWVT9Re3",
+        "https://mobbin.com/api/mcp/short/BAMNVxAQ",
+        "https://mobbin.com/api/mcp/short/tYQluZMC",
+        "https://mobbin.com/api/mcp/short/G69eP3TO",
+        "https://mobbin.com/api/mcp/short/HlQmanXA",
+        "https://mobbin.com/api/mcp/short/XYkrhljJ",
+        "https://mobbin.com/api/mcp/short/uXXAhzS4",
+        "https://mobbin.com/api/mcp/short/EsRyimio",
+        "https://mobbin.com/api/mcp/short/oFWx50j8"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "ai-equipment"
+      ],
+      "take": "9-step receipt scan and AI extraction to expense with OCR, categorization and workspace submission."
+    },
+    {
+      "id": "mobbin:973eb780-6f72-4489-8bf5-da466a4c4bf3",
+      "source": "mobbin",
+      "app": "Splitwise",
+      "title": "Importing a receipt",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/973eb780-6f72-4489-8bf5-da466a4c4bf3",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1X9zqMtN",
+        "https://mobbin.com/api/mcp/short/gmJ4OTJ1",
+        "https://mobbin.com/api/mcp/short/9MKbCPN4",
+        "https://mobbin.com/api/mcp/short/9ej6SEyG"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "ai-equipment"
+      ],
+      "take": "4-step expense receipt upload with itemization and split functionality."
+    },
+    {
+      "id": "mobbin:1e6a66d9-2186-4219-9aaf-4b09968fe447",
+      "source": "mobbin",
+      "app": "Lightfield",
+      "title": "Chatting with Lightfield AI (with doc)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/1e6a66d9-2186-4219-9aaf-4b09968fe447",
+      "images": [
+        "https://mobbin.com/api/mcp/short/C9Y1t8Ok",
+        "https://mobbin.com/api/mcp/short/9PCwhZTw",
+        "https://mobbin.com/api/mcp/short/c0mkELma",
+        "https://mobbin.com/api/mcp/short/eigMzseA",
+        "https://mobbin.com/api/mcp/short/GR0O0ZIO",
+        "https://mobbin.com/api/mcp/short/7qqaCXu7",
+        "https://mobbin.com/api/mcp/short/KbgWumjo",
+        "https://mobbin.com/api/mcp/short/HKoDrRX0"
+      ],
+      "platform": "web",
+      "jobs": [
+        "ai-equipment"
+      ],
+      "take": "8-step AI chat with document upload and task extraction from checklist PDFs."
+    },
+    {
+      "id": "mobbin:5d59a6e2-f9e9-4a6d-9103-c9bc6137ab58",
+      "source": "mobbin",
+      "app": "folk",
+      "title": "Editing data with AI",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5d59a6e2-f9e9-4a6d-9103-c9bc6137ab58",
+      "images": [
+        "https://mobbin.com/api/mcp/short/M6fbFjIv",
+        "https://mobbin.com/api/mcp/short/2DivTwIm",
+        "https://mobbin.com/api/mcp/short/eQ2Mrzti",
+        "https://mobbin.com/api/mcp/short/aJQNYJh0",
+        "https://mobbin.com/api/mcp/short/nr88skq2",
+        "https://mobbin.com/api/mcp/short/VprQFZPU",
+        "https://mobbin.com/api/mcp/short/eQ2Mrzti"
+      ],
+      "platform": "web",
+      "jobs": [
+        "ai-equipment"
+      ],
+      "take": "7-step bulk contact import from file with AI field mapping and data transformation."
+    },
+    {
+      "id": "mobbin:292c6ca6-3bd1-46f8-ab0f-a5036adaccc2",
+      "source": "mobbin",
+      "app": "Midday",
+      "title": "Chatting with AI (attach file)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/292c6ca6-3bd1-46f8-ab0f-a5036adaccc2",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WFMqkFKI",
+        "https://mobbin.com/api/mcp/short/chw8lrMY",
+        "https://mobbin.com/api/mcp/short/5aGHFRGQ",
+        "https://mobbin.com/api/mcp/short/396WLLEN",
+        "https://mobbin.com/api/mcp/short/OjtnztTg",
+        "https://mobbin.com/api/mcp/short/Pd07Za6Z"
+      ],
+      "platform": "web",
+      "jobs": [
+        "ai-equipment"
+      ],
+      "take": "6-step AI chat interface with file attachment for document parsing and expense matching."
+    },
+    {
+      "id": "mobbin:2b671e39-f2ec-4c61-a082-fa392bd44473",
+      "source": "mobbin",
+      "app": "Lime",
+      "title": "Starting a ride",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/2b671e39-f2ec-4c61-a082-fa392bd44473",
+      "images": [
+        "https://mobbin.com/api/mcp/short/WqMC5HVO",
+        "https://mobbin.com/api/mcp/short/7AXVBShB",
+        "https://mobbin.com/api/mcp/short/pJ2Zud4T",
+        "https://mobbin.com/api/mcp/short/INrhYpCl",
+        "https://mobbin.com/api/mcp/short/EHUOXvqW",
+        "https://mobbin.com/api/mcp/short/ocuaBniZ",
+        "https://mobbin.com/api/mcp/short/cyUDNXPe"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "check-out-auto"
+      ],
+      "take": "7-step scooter unlock with reserve, payment, ride start with in-progress tracking and end capability."
+    },
+    {
+      "id": "mobbin:e1c4e102-1958-4ff5-a9fb-b01d3ebe317f",
+      "source": "mobbin",
+      "app": "Lime",
+      "title": "Reserving a vehicle",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e1c4e102-1958-4ff5-a9fb-b01d3ebe317f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/tf3hqERA",
+        "https://mobbin.com/api/mcp/short/LhuhZEKc",
+        "https://mobbin.com/api/mcp/short/MkMn7iAv"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "check-out-auto",
+        "check-out-manual"
+      ],
+      "take": "3-step rental reservation with item selection, payment setup, and ride start action."
+    },
+    {
+      "id": "mobbin:01826238-e4a6-458c-8708-e912d7f2b780",
+      "source": "mobbin",
+      "app": "Lime",
+      "title": "Parking and zones",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/01826238-e4a6-458c-8708-e912d7f2b780",
+      "images": [
+        "https://mobbin.com/api/mcp/short/e98E3xE6",
+        "https://mobbin.com/api/mcp/short/icuXamWK",
+        "https://mobbin.com/api/mcp/short/QpdhWvod"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "check-out-auto"
+      ],
+      "take": "3-step return location and zone rules display before ending ride in allowed parking areas."
+    },
+    {
+      "id": "mobbin:d52976fe-f925-4900-9d1e-1e257cb5d98b",
+      "source": "mobbin",
+      "app": "Lime",
+      "title": "Home",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d52976fe-f925-4900-9d1e-1e257cb5d98b",
+      "images": [
+        "https://mobbin.com/api/mcp/short/v5dssSOo",
+        "https://mobbin.com/api/mcp/short/JITDTn4Y",
+        "https://mobbin.com/api/mcp/short/aamhaGrl"
+      ],
+      "platform": "ios",
+      "jobs": [
+        "check-out-auto",
+        "check-out-manual"
+      ],
+      "take": "3-step map view with nearby vehicle locations, scan entry point, and ride pass promotions."
+    }
+  ]
+}

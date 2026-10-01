@@ -1,0 +1,80 @@
+{
+  "product": "square",
+  "flows": {
+    "mobbin:bd125cb4-4946-44ee-a252-1e51eddab5ba": {
+      "summary": "From the Square home/setup dashboard the user opens Create item, picks an item type, fills a dense POS form (internal vs customer-facing name, price, online sale price, AI description, locations/channels), saves, and lands on Item library with a created toast.",
+      "steps": [
+        "Home setup with Add item",
+        "Pick item type",
+        "Create item form empty",
+        "Enter internal name",
+        "Enter customer-facing name",
+        "Set price and unit",
+        "Online sale price tip",
+        "Online sale price field",
+        "Fill online sale price",
+        "Generate AI description",
+        "Description filled; taxes/nutrition",
+        "Library toast item created"
+      ],
+      "steal": [
+        "Item-type chooser first so later fields match the kind of thing (step 2) — map to Equipment vs Consumable vs Service.",
+        "Internal name vs customer-facing name on one form (steps 4–5).",
+        "Sidebar Status / Categories / Locations alongside the main form (steps 3–11).",
+        "List status pill with quantity (e.g. \"20 available\") plus created toast (step 12)."
+      ],
+      "avoid": [
+        "Kitchen name, menus, sales channels, taxes, nutritional accordion, dual retail/online prices — retail POS chrome that fights a light sim-center catalog."
+      ],
+      "fit": "Clash / counter-example for Essentials' light inventory: replace with a short type → name/unit/location/photo create; keep type-first and location sidebar ideas only.",
+      "jobs": ["items"],
+      "counter_example": true
+    },
+    "mobbin:addf5027-28db-4b51-a6f7-24577166a06f": {
+      "summary": "From an empty Item library the user uploads a CSV, waits through import progress, reviews/edits a grid, chooses add-and-update vs overwrite, hits an all-failed error modal with downloadable report, then sees Import Successful and the updated library.",
+      "steps": [
+        "Empty library Create vs Import",
+        "Import upload dropzone",
+        "CSV file staged",
+        "Importing progress bar",
+        "Review items editable grid",
+        "Review more columns",
+        "Add-update vs overwrite",
+        "Background import progress",
+        "Review and fix errors",
+        "Import Successful banner",
+        "Library after import",
+        "Library with Sold out pills"
+      ],
+      "steal": [
+        "Empty state dual path: Create an item + Import items + Download template (step 1).",
+        "Editable review grid before commit, with row delete (steps 5–6).",
+        "Explicit merge decision: Add and update existing vs Delete and overwrite (step 7).",
+        "Failure modal: Require review vs Imported successfully counts + Download error report / Upload fixed errors (step 9)."
+      ],
+      "avoid": [
+        "Blocking full-page import that warns \"don't leave this page\" (step 4) when a later step already allows closing and continuing elsewhere (step 8)."
+      ],
+      "fit": "Extends Essentials item onboarding for centers migrating catalogs; merge vs overwrite and error-report loop are especially useful where failure cases are still undefined.",
+      "counter_example": false
+    },
+    "mobbin:981b5fb6-e739-4767-ac84-ddb20d08539d": {
+      "summary": "From Item library row actions the user opens Update low stock alert, sets alert amount and location, updates, and gets a success toast without leaving the list.",
+      "steps": [
+        "Row menu Update low stock alert",
+        "Alert modal amount 0",
+        "Set amount 5 and location",
+        "Toast alert updated"
+      ],
+      "steal": [
+        "Low-stock config reachable from list row overflow without opening full edit (step 1).",
+        "Copy that names both surfaces: marked low stock in library + daily low stock alert email (steps 2–3).",
+        "Alert amount + Locations scoped together (step 3).",
+        "Stay-on-list success toast after threshold save (step 4)."
+      ],
+      "avoid": [],
+      "fit": "Extends the planned reorder/trend notifications: per-item threshold + location + digest email maps cleanly; skip retail-only list chrome.",
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "app": "Teachable",
+    "reference_id": "mobbin:e8676237-6e24-4e98-90a2-e37bfa82f60a",
+    "status": "✓",
+    "evidence": "Import content selects a source course, exposes row/section checkboxes plus Select all/none, imports several lessons in one action, then shows them in Curriculum with a completion toast."
+  },
+  {
+    "app": "PandaDoc",
+    "reference_id": "mobbin:7833133c-7d81-4179-86a5-6ba8ce80b92c",
+    "status": "✓",
+    "evidence": "Searchable Content Library supports multiple selected cards, Deselect all, a count-aware Add 2 items action, and immediate insertion of both blocks."
+  },
+  {
+    "app": "Canva",
+    "reference_id": "mobbin:4fb0fdd5-431c-4702-9bb5-fbcb4d78c2df",
+    "status": "partial",
+    "evidence": "Choose design searches existing work, offers Copy to course or Move, and returns the copied item to Activities; only one design can be selected."
+  },
+  {
+    "app": "Circle",
+    "reference_id": "mobbin:327fbad0-5e87-48c9-b7cf-fb0f5bcce035",
+    "status": "✗",
+    "evidence": "Add question configures and commits one original quiz question per modal; no library, multi-select, or batch add is visible."
+  },
+  {
+    "app": "Teachable",
+    "reference_id": "mobbin:8c62da99-7eb3-46dd-9610-d7d932070129",
+    "status": "✗",
+    "evidence": "Quiz builder edits one question and its answers inline, then offers New question; useful authoring counterexample, with no reusable-library batch selection."
+  }
+]

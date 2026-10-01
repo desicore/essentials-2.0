@@ -1,0 +1,42 @@
+{
+  "product": "better-stack",
+  "flows": {
+    "mobbin:ed948f6a-ac7b-4742-add9-fafc58fda138": {
+      "summary": "User lands on the Incidents home showing an Ongoing sample incident with sidebar badge, then switches Comments/Post-mortems tabs while a first-run setup checklist stays on screen.",
+      "steps": [
+        "Incidents home — Ongoing sample + setup checklist",
+        "Incidents with comments — Ongoing + resolved rows",
+        "Post-mortems tab — Ongoing sample + checklist",
+        "Post-mortems tab (repeat)"
+      ],
+      "steal": [
+        "Step 1–2: Problem-first home — Ongoing incident with red status/dot, started-at, and Incidents sidebar badge (1); no All systems OK banner is shown.",
+        "Step 1–3: Persistent setup checklist with progress (5 of 6 left), completed check, and expanded next step with Integrations CTA.",
+        "Step 1: Report a new incident as a global primary action beside search."
+      ],
+      "avoid": [
+        "Setup checklist occupies half the home while an incident is Ongoing — clashes with show little, but precisely for faculty."
+      ],
+      "fit": "Incident list + badge is the dashboard system-health problem surface (hands off room AV failures to Recording); the setup checklist is dashboard-only first-run (rooms/cameras/users), not Reports.",
+      "jobs": ["system-health", "first-run", "action-items"]
+    },
+    "mobbin:fc2ba92b-4783-43da-92c7-8acf4f16a080": {
+      "summary": "User opens an Ongoing unacknowledged incident, acknowledges it (owner shown), resolves it with an AI post-mortem, then reviews metadata and a timeline of acknowledge/resolve.",
+      "steps": [
+        "Incident detail — Ongoing, Acknowledge CTA",
+        "Acknowledged — owner shown, Resolve CTA",
+        "Resolved — AI post-mortem summary",
+        "Metadata + acknowledge/resolve timeline"
+      ],
+      "steal": [
+        "Step 1: Problem state with Escalate + Acknowledge; green banner names who was escalated to (Alex) — who to call is explicit.",
+        "Step 2: Acknowledge stamps owner; primary action flips to Resolve.",
+        "Step 3–4: Resolve closes the loop with duration, severity/team/owner metadata, and a timestamped timeline — guided ownership path, not a help-article list.",
+        "No at-a-glance All OK on these screens — health is conveyed by incident presence and sidebar count."
+      ],
+      "avoid": [],
+      "fit": "Acknowledge → Resolve with named owner is the dashboard system-health fix path for failed room self-tests; deep device repair still hands off to Recording, while Who's on-call maps to User management / sim-tech roster.",
+      "jobs": ["system-health", "action-items"]
+    }
+  }
+}

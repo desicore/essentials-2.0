@@ -1,0 +1,256 @@
+{
+  "references": [
+    {
+      "id": "mobbin:b83099d3-97b5-452a-ab79-cece306cc444",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Adding a point to a group",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/b83099d3-97b5-452a-ab79-cece306cc444",
+      "images": [
+        "https://mobbin.com/api/mcp/short/TnEolzeI",
+        "https://mobbin.com/api/mcp/short/DO0zw7xq",
+        "https://mobbin.com/api/mcp/short/eHZIPx6y"
+      ],
+      "platform": "web",
+      "jobs": ["group-grading"],
+      "take": "Award points and feedback to a whole group at once with per-member customization."
+    },
+    {
+      "id": "mobbin:21198302-5056-4727-b6cf-99cc07068feb",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Giving a point",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/21198302-5056-4727-b6cf-99cc07068feb",
+      "images": [
+        "https://mobbin.com/api/mcp/short/AGNtE2NJ",
+        "https://mobbin.com/api/mcp/short/m0uyXgmg",
+        "https://mobbin.com/api/mcp/short/fUIkUSfh"
+      ],
+      "platform": "web",
+      "jobs": ["group-grading"],
+      "take": "Select from predefined feedback tags and award points to a specific student."
+    },
+    {
+      "id": "mobbin:15ef127a-3dcb-4128-88f2-59a7b84e7744",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Commenting on a worksheet",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/15ef127a-3dcb-4128-88f2-59a7b84e7744",
+      "images": [
+        "https://mobbin.com/api/mcp/short/bl5ZUwKt",
+        "https://mobbin.com/api/mcp/short/7yj6Lsxa",
+        "https://mobbin.com/api/mcp/short/nWQv6whb",
+        "https://mobbin.com/api/mcp/short/AXYlRosG",
+        "https://mobbin.com/api/mcp/short/khdljmHo"
+      ],
+      "platform": "web",
+      "jobs": ["group-grading"],
+      "take": "Review submitted work and approve or comment inline with per-student visibility."
+    },
+    {
+      "id": "mobbin:8e7b5ca8-2782-41a0-a0e8-8a6b29ec8af1",
+      "source": "mobbin",
+      "app": "ClassDojo",
+      "title": "Reports detail",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8e7b5ca8-2782-41a0-a0e8-8a6b29ec8af1",
+      "images": [
+        "https://mobbin.com/api/mcp/short/MVEPZ3Ry",
+        "https://mobbin.com/api/mcp/short/YP6g8mzn",
+        "https://mobbin.com/api/mcp/short/v9nUrSSQ",
+        "https://mobbin.com/api/mcp/short/I760ELiv"
+      ],
+      "platform": "web",
+      "jobs": ["group-grading"],
+      "take": "View class-level feedback report showing all team members' grades and comments."
+    },
+    {
+      "id": "mobbin:55682ecd-1cc5-4242-9c3c-796bca044862",
+      "source": "mobbin",
+      "app": "Miro",
+      "title": "Starting a voting session",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/55682ecd-1cc5-4242-9c3c-796bca044862",
+      "images": [
+        "https://mobbin.com/api/mcp/short/5z72fMss",
+        "https://mobbin.com/api/mcp/short/DX0oUlMs",
+        "https://mobbin.com/api/mcp/short/bD3iHhY1",
+        "https://mobbin.com/api/mcp/short/V66SK4dC"
+      ],
+      "platform": "web",
+      "jobs": ["group-grading"],
+      "take": "Initiate a team voting session to gather consensus on debrief feedback topics."
+    },
+    {
+      "id": "mobbin:322aeeff-b2e0-4961-a7e8-583e4938c0a5",
+      "source": "mobbin",
+      "app": "Miro",
+      "title": "Voting on a board",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/322aeeff-b2e0-4961-a7e8-583e4938c0a5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/wKYLKQfD",
+        "https://mobbin.com/api/mcp/short/XAtiYMUR",
+        "https://mobbin.com/api/mcp/short/LHa2oKIN",
+        "https://mobbin.com/api/mcp/short/Icc4hTiy",
+        "https://mobbin.com/api/mcp/short/nIat8Zjv",
+        "https://mobbin.com/api/mcp/short/XXgCIoxM"
+      ],
+      "platform": "web",
+      "jobs": ["group-grading"],
+      "take": "Vote on and discuss debrief outcomes, with results aggregated in real-time."
+    },
+    {
+      "id": "mobbin:6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9",
+      "source": "mobbin",
+      "app": "Grain",
+      "title": "Scoring a speaker",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1EU4GamX",
+        "https://mobbin.com/api/mcp/short/5tIh8YbU",
+        "https://mobbin.com/api/mcp/short/Yhh3cCRT",
+        "https://mobbin.com/api/mcp/short/S1o5WkE6",
+        "https://mobbin.com/api/mcp/short/xZOvE7DG",
+        "https://mobbin.com/api/mcp/short/igTmrSPL",
+        "https://mobbin.com/api/mcp/short/UZLTP1e9",
+        "https://mobbin.com/api/mcp/short/EEARbeqG"
+      ],
+      "platform": "web",
+      "jobs": ["group-grading"],
+      "take": "Score recorded session performance with rubric categories and numeric ratings."
+    },
+    {
+      "id": "mobbin:bc38591e-07b3-470f-b406-39d5303694ea",
+      "source": "mobbin",
+      "app": "Homerun",
+      "title": "Creating a scorecard template",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/bc38591e-07b3-470f-b406-39d5303694ea",
+      "images": [
+        "https://mobbin.com/api/mcp/short/EV8iuEmF",
+        "https://mobbin.com/api/mcp/short/Q93pQ3AH",
+        "https://mobbin.com/api/mcp/short/FeJ8r7WM",
+        "https://mobbin.com/api/mcp/short/heEfnPHt",
+        "https://mobbin.com/api/mcp/short/hqHxv7RT",
+        "https://mobbin.com/api/mcp/short/D9zMuLsk"
+      ],
+      "platform": "web",
+      "jobs": ["group-grading"],
+      "take": "Design reusable rubric templates for consistent group feedback on recordings."
+    },
+    {
+      "id": "mobbin:c537e383-521f-4785-8478-0ba54a3e6f74",
+      "source": "mobbin",
+      "app": "Frame.io",
+      "title": "Scheduling an expiration date",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/c537e383-521f-4785-8478-0ba54a3e6f74",
+      "images": [
+        "https://mobbin.com/api/mcp/short/KyE1F8pU",
+        "https://mobbin.com/api/mcp/short/ud0ntkIw",
+        "https://mobbin.com/api/mcp/short/WAAy6Q5Y",
+        "https://mobbin.com/api/mcp/short/RrdoJLnE"
+      ],
+      "platform": "web",
+      "jobs": ["download-share"],
+      "take": "Set expiry date on shared video link to auto-revoke access after debrief period."
+    },
+    {
+      "id": "mobbin:8fee942f-3bba-4b19-949e-9011dfee633f",
+      "source": "mobbin",
+      "app": "Dropbox",
+      "title": "Editing share settings",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8fee942f-3bba-4b19-949e-9011dfee633f",
+      "images": [
+        "https://mobbin.com/api/mcp/short/pZMoGt5w",
+        "https://mobbin.com/api/mcp/short/ACrbxi5D",
+        "https://mobbin.com/api/mcp/short/w2iuXjHE",
+        "https://mobbin.com/api/mcp/short/61fQKHlZ",
+        "https://mobbin.com/api/mcp/short/X6gEVVCr",
+        "https://mobbin.com/api/mcp/short/5vewj4kp",
+        "https://mobbin.com/api/mcp/short/8fC5mqxz",
+        "https://mobbin.com/api/mcp/short/Tml2OuYc",
+        "https://mobbin.com/api/mcp/short/FICHmYw7"
+      ],
+      "platform": "web",
+      "jobs": ["download-share"],
+      "take": "Configure expiration, password protection, and download permissions on shared files."
+    },
+    {
+      "id": "mobbin:fbafebfd-8549-4a0e-93aa-80e382b63934",
+      "source": "mobbin",
+      "app": "Adobe Express",
+      "title": "Creating a view only link",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fbafebfd-8549-4a0e-93aa-80e382b63934",
+      "images": [
+        "https://mobbin.com/api/mcp/short/pZWt2hds",
+        "https://mobbin.com/api/mcp/short/EwTMYyEN",
+        "https://mobbin.com/api/mcp/short/jko5oEff",
+        "https://mobbin.com/api/mcp/short/RHShiG2X",
+        "https://mobbin.com/api/mcp/short/PxmWN653"
+      ],
+      "platform": "web",
+      "jobs": ["download-share"],
+      "take": "Share view-only link with download permissions and password protection."
+    },
+    {
+      "id": "mobbin:e9cf684c-8ff5-43b5-93bf-2cbc1d527885",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "View file links",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e9cf684c-8ff5-43b5-93bf-2cbc1d527885",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7byVS2Uv",
+        "https://mobbin.com/api/mcp/short/w2dLhocT"
+      ],
+      "platform": "web",
+      "jobs": ["download-share"],
+      "take": "Review all shared video links with download/edit/view permissions visibility."
+    },
+    {
+      "id": "mobbin:f47fd63e-a00b-46ff-80b5-17b559f46648",
+      "source": "mobbin",
+      "app": "Vimeo",
+      "title": "Composing a message",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f47fd63e-a00b-46ff-80b5-17b559f46648",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hJKNt15t",
+        "https://mobbin.com/api/mcp/short/gS2j5Uyk",
+        "https://mobbin.com/api/mcp/short/pVPHwELR",
+        "https://mobbin.com/api/mcp/short/uESpjrlZ",
+        "https://mobbin.com/api/mcp/short/5A0XoOFe",
+        "https://mobbin.com/api/mcp/short/jSh6DMLa",
+        "https://mobbin.com/api/mcp/short/oyc4DeLy",
+        "https://mobbin.com/api/mcp/short/BUP0qIsb"
+      ],
+      "platform": "web",
+      "jobs": ["download-share"],
+      "take": "Compose and send recorded message with video link to specific learner with confirmation."
+    },
+    {
+      "id": "mobbin:7781d8ca-226d-4c89-861e-bc16fec7361d",
+      "source": "mobbin",
+      "app": "Faire",
+      "title": "Requesting a download link",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7781d8ca-226d-4c89-861e-bc16fec7361d",
+      "images": [
+        "https://mobbin.com/api/mcp/short/51OiRNRo",
+        "https://mobbin.com/api/mcp/short/xlEfkN8w",
+        "https://mobbin.com/api/mcp/short/PHaqJ4fa"
+      ],
+      "platform": "web",
+      "jobs": ["download-share"],
+      "take": "Request and generate download link with confirmation step for file delivery."
+    }
+  ]
+}

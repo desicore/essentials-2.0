@@ -1,0 +1,27 @@
+{
+  "product": "google-maps",
+  "flows": {
+    "mobbin:337a0dfd-6591-4af6-97b3-397dcc6eac6f": {
+      "summary": "From a place card, enter 360/Street View, navigate with ground arrows, split with a map peg showing facing direction, and open historical dates plus latest photos.",
+      "steps": [
+        "Place card: Immersive + Street View entry",
+        "Fullscreen 360 with path arrows",
+        "360 move; See more dates",
+        "Split 360 + map orientation peg",
+        "Advance along street; map stays synced",
+        "Map strip + Latest photos + dates"
+      ],
+      "steal": [
+        "Steps 4–5: Split 360 viewport + 2D map with directional peg — spatial orientation while looking around (maps to room layout beside 360 playback).",
+        "Steps 2–3: Ground-plane path arrows for moving between capture nodes without leaving immersive mode.",
+        "Steps 3/6: See more dates / Latest photos switch capture time or stills from the same place without exiting 360.",
+        "Step 1: Dual entry — Street View peg on the map and Immersive View card in the gallery."
+      ],
+      "avoid": [
+        "Free roam of outdoor panoramas ≠ scrubbing a fixed sim-room 360 timeline; do not copy endless walk navigation as the primary debrief control."
+      ],
+      "fit": "Fallback camera-views pattern for Baseline when Tesla lacked multi-cam: orientation map + immersive view is the steal for 360 review beside SRV playback.",
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "product": "15five",
+  "flows": {
+    "mobbin:6795c6c2-7c7b-4ded-aea2-5d594e67afb0": {
+      "summary": "In Q4 Review My results, the user moves from Summary (review-writer status) into Competency assessment, compares Self/Manager/Peer markers on a per-competency scale, then opens competency rows that link to answer evidence.",
+      "steps": [
+        "My results Summary — profile + Review writers counts",
+        "Competency assessment — alignment callout + Top comps/opps",
+        "Competency results matrix — Self/Manager/Peer toggles",
+        "Matrix rows — Self markers on Lowest→high scale",
+        "Competency list — each row links 1 answer"
+      ],
+      "steal": [
+        "Self / Manager / Peer color checkboxes that plot/hide markers on one competency scale (steps 3–4) — multi-rater alignment without a second report.",
+        "Top competencies + Top opportunities cards above the matrix (step 3) — strengths vs growth before the full list.",
+        "Peach callout that the graph is for alignment across raters (step 2) — teaches comparison intent.",
+        "Per-competency '1 answer' evidence link (step 5) — drill from score to narrative."
+      ],
+      "avoid": [
+        "Empty Manager/Peer series still show the full matrix chrome (steps 3–4) — in sim, hide unrated raters until data exists."
+      ],
+      "fit": "Extends Performance Matrix / Skill Development: multi-perspective skill comparison + evidence drill-down for learner/faculty dashboards; not a dean PDF newsletter."
+    },
+    "mobbin:37ed7ec0-3a4b-4d51-aea5-24f6f33b8bc2": {
+      "summary": "On Outcomes Dashboard, the user leaves empty Summary KPI cards, opens Breakdown, and compares Manager rows (plus Company / No manager) across Effectiveness, Engagement, Performance, Turnover.",
+      "steps": [
+        "Summary — empty KPI cards + Schedule/Configure CTAs",
+        "Breakdown — Compare by Manager table",
+        "Breakdown table — Company / team / No manager rows"
+      ],
+      "steal": [
+        "Compare by dropdown pivoting the same KPI columns by Manager (steps 2–3) — learner/faculty/course switch without a builder.",
+        "Company baseline row above team rows (steps 2–3) — org vs unit comparison.",
+        "Who else can see this? + Configure beside the table (step 2) — visibility next to comparison."
+      ],
+      "avoid": [
+        "Summary empty states are sales CTAs (Schedule survey / Configure performance) (step 1) — prefer data-missing copy for utilisation/KPI reports."
+      ],
+      "fit": "Pattern for comparable faculty/course KPI tables (room/sim/faculty hours) with a pivot dimension; Summary empties clash with utilisation-first reporting."
+    }
+  }
+}

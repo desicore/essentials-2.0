@@ -1,0 +1,30 @@
+{
+  "product": "descript",
+  "flows": {
+    "mobbin:71f5995e-099a-4f4a-ac23-6e4d884cf1f2": {
+      "summary": "In an editor where the transcript and video stay in step, the user opens Underlord's 'Repurpose' tools. They set up 'Create clips' (number, length, layout, optional topic) and reach caption styles before Submit.",
+      "steps": [
+        "Underlord: Create clips / Find highlights menu",
+        "Viral bait message for auto clip picking",
+        "Create clips: count 5, duration 30s",
+        "Create clips: duration 15s and layout choices",
+        "Captions style grid over Create clips"
+      ],
+      "steal": [
+        "'Create clips' asks for the number of clips, their length, a layout and an optional topic before Submit (screens 3 to 5).",
+        "The Repurpose menu also offers 'Create highlight reel' and 'Find highlights' next to 'Create clips' (screen 1).",
+        "The transcript is lined up word by word with the timeline, so the start and end of each clip can still be changed by editing text (screens 1 to 5).",
+        "A person sets the rules and then taps Submit, so clips are never published silently (screens 3 to 5)."
+      ],
+      "avoid": [
+        "'Viral bait' and social-media layouts are the wrong tone for clinical debrief highlights; use clinical topics to choose clips instead."
+      ],
+      "fit": "Debrief and review: the best reference for AI clips where a person sets the rules before sharing. Bring the topic, number and length settings into the SRV phone review, and drop the social layouts.",
+      "jobs": [
+        "ai-clips",
+        "rewatch"
+      ],
+      "counter_example": false
+    }
+  }
+}

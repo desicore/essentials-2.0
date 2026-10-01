@@ -1,0 +1,214 @@
+{
+  "references": [
+    {
+      "id": "mobbin:8b62ccef-2298-47f2-8193-d740fac356e4",
+      "source": "mobbin",
+      "app": "Google Home",
+      "title": "Devices",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8b62ccef-2298-47f2-8193-d740fac356e4",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ZIuFNhBO",
+        "https://mobbin.com/api/mcp/short/v8dkC1IX",
+        "https://mobbin.com/api/mcp/short/XLMsambG"
+      ],
+      "platform": "ios",
+      "jobs": ["multi-room", "device-check"],
+      "take": "Grid of connected devices grouped by room with online/offline status (light offline, Hue Bridge shows connection state)."
+    },
+    {
+      "id": "mobbin:7db28eda-b3e6-4948-ae78-198c4bc7d466",
+      "source": "mobbin",
+      "app": "Amazon Alexa",
+      "title": "Devices",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/7db28eda-b3e6-4948-ae78-198c4bc7d466",
+      "images": [
+        "https://mobbin.com/api/mcp/short/ixfSKrmx",
+        "https://mobbin.com/api/mcp/short/fa1XMyUo",
+        "https://mobbin.com/api/mcp/short/qxh4jjRi",
+        "https://mobbin.com/api/mcp/short/ZonaD5Fm"
+      ],
+      "platform": "ios",
+      "jobs": ["multi-room", "device-check"],
+      "take": "Room-grouped device management with status indicators and control options; shows multiple devices grouped by location (Bedroom, etc)."
+    },
+    {
+      "id": "mobbin:67505cf5-c446-413f-b315-f4038091b179",
+      "source": "mobbin",
+      "app": "Tailscale",
+      "title": "Home",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/67505cf5-c446-413f-b315-f4038091b179",
+      "images": [
+        "https://mobbin.com/api/mcp/short/J74wxXM2",
+        "https://mobbin.com/api/mcp/short/vXFH6p4X",
+        "https://mobbin.com/api/mcp/short/stsq4FSW"
+      ],
+      "platform": "web",
+      "jobs": ["multi-room", "device-check"],
+      "take": "Device list with connected status and last-seen timestamps; shows device health monitoring across network."
+    },
+    {
+      "id": "mobbin:97ba5b22-662d-4a5f-845f-e07f98e49b67",
+      "source": "mobbin",
+      "app": "Twingate",
+      "title": "Home",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/97ba5b22-662d-4a5f-845f-e07f98e49b67",
+      "images": [
+        "https://mobbin.com/api/mcp/short/SfHqM8dr",
+        "https://mobbin.com/api/mcp/short/CLD8V681",
+        "https://mobbin.com/api/mcp/short/0AOxxfLF",
+        "https://mobbin.com/api/mcp/short/OgeinImg",
+        "https://mobbin.com/api/mcp/short/EmXXmNDa",
+        "https://mobbin.com/api/mcp/short/IxOE63L6"
+      ],
+      "platform": "web",
+      "jobs": ["multi-room", "device-check"],
+      "take": "Device overview with connection status and activity history; shows success/failed connection metrics and detailed device info."
+    },
+    {
+      "id": "mobbin:05a3103f-f6ed-470a-90ca-a0efa9806f4c",
+      "source": "mobbin",
+      "app": "Kino",
+      "title": "Camera presets",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/05a3103f-f6ed-470a-90ca-a0efa9806f4c",
+      "images": [
+        "https://mobbin.com/api/mcp/short/1SKXl9wE",
+        "https://mobbin.com/api/mcp/short/hn9GD2q1",
+        "https://mobbin.com/api/mcp/short/njjq5i3N"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-control"],
+      "take": "Video camera preset selection UI with grade presets (Sando, Glostrup, Lekta) applied to live preview; shows applying preset effects."
+    },
+    {
+      "id": "mobbin:e5999abc-91ac-4d27-8ecd-cc615b24140a",
+      "source": "mobbin",
+      "app": "Kino",
+      "title": "Applying a preset",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e5999abc-91ac-4d27-8ecd-cc615b24140a",
+      "images": [
+        "https://mobbin.com/api/mcp/short/LwDiGero",
+        "https://mobbin.com/api/mcp/short/JZbX6xPM",
+        "https://mobbin.com/api/mcp/short/AQiFimhb"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-control"],
+      "take": "User selects camera preset from grid of options, then applies it with button confirmation."
+    },
+    {
+      "id": "mobbin:fcf80b65-2189-4aa6-ad0e-c2c9a984efb5",
+      "source": "mobbin",
+      "app": "Halide Mark III",
+      "title": "Changing a preset",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/fcf80b65-2189-4aa6-ad0e-c2c9a984efb5",
+      "images": [
+        "https://mobbin.com/api/mcp/short/lao3ztOY",
+        "https://mobbin.com/api/mcp/short/TjyyplVt",
+        "https://mobbin.com/api/mcp/short/NyZcLkxS",
+        "https://mobbin.com/api/mcp/short/ZcGRuFiN",
+        "https://mobbin.com/api/mcp/short/XtfCfPaT"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-control"],
+      "take": "Pro camera app switching between preset film stocks with visual preview changes in real-time."
+    },
+    {
+      "id": "mobbin:d9108d06-2686-4dcb-b1da-6847d7e5a655",
+      "source": "mobbin",
+      "app": "Halide Mark III",
+      "title": "Changing a focal length",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d9108d06-2686-4dcb-b1da-6847d7e5a655",
+      "images": [
+        "https://mobbin.com/api/mcp/short/8GULb3yb",
+        "https://mobbin.com/api/mcp/short/5jFMjtBK"
+      ],
+      "platform": "ios",
+      "jobs": ["camera-control"],
+      "take": "Focal length adjustment with visual zoom control indicators; camera settings accessible at bottom."
+    },
+    {
+      "id": "mobbin:d3ffcd9d-2646-4c40-aa25-7fc37e0fb925",
+      "source": "mobbin",
+      "app": "Tesla",
+      "title": "Live camera",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/d3ffcd9d-2646-4c40-aa25-7fc37e0fb925",
+      "images": [
+        "https://mobbin.com/api/mcp/short/6j9UsSGP",
+        "https://mobbin.com/api/mcp/short/34QDQMte"
+      ],
+      "platform": "ios",
+      "jobs": ["multi-room", "camera-control"],
+      "take": "Live camera feed with pan controls (blue dots around vehicle diagram); Sentry Mode controls and flash/honk actions."
+    },
+    {
+      "id": "mobbin:6cafaae7-edde-4ddb-8ce6-06091208dd04",
+      "source": "mobbin",
+      "app": "Posh",
+      "title": "Watching a video",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/6cafaae7-edde-4ddb-8ce6-06091208dd04",
+      "images": [
+        "https://mobbin.com/api/mcp/short/DphYkAlS",
+        "https://mobbin.com/api/mcp/short/wyd5zLVu"
+      ],
+      "platform": "ios",
+      "jobs": ["live-notes"],
+      "take": "Video playback with scrubbing timeline; shows frame-by-frame navigation of recorded content."
+    },
+    {
+      "id": "mobbin:e9059070-b101-48be-8404-dbd28a2ddbd8",
+      "source": "mobbin",
+      "app": "Philips Hue",
+      "title": "Security camera demo",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/e9059070-b101-48be-8404-dbd28a2ddbd8",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7FTNwGg6",
+        "https://mobbin.com/api/mcp/short/2CFC1nU3",
+        "https://mobbin.com/api/mcp/short/13FjdosM"
+      ],
+      "platform": "ios",
+      "jobs": ["multi-room", "camera-control"],
+      "take": "Camera orientation and rotation controls for repositioning smart cameras; status shows motion detection and recording state."
+    },
+    {
+      "id": "mobbin:a6ceb255-90b1-4e17-a112-ad37b77fa146",
+      "source": "mobbin",
+      "app": "Fi",
+      "title": "Live",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/a6ceb255-90b1-4e17-a112-ad37b77fa146",
+      "images": [
+        "https://mobbin.com/api/mcp/short/7hPL7vFM",
+        "https://mobbin.com/api/mcp/short/WU0tT6Ex",
+        "https://mobbin.com/api/mcp/short/JR30SXMW"
+      ],
+      "platform": "ios",
+      "jobs": ["multi-room", "device-check"],
+      "take": "Live location/status view of tracked subjects with map overlay; shows online status and last activity time."
+    },
+    {
+      "id": "mobbin:4236d93c-6dc4-414f-b504-559adae75204",
+      "source": "mobbin",
+      "app": "SmartThings",
+      "title": "Notifications",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/4236d93c-6dc4-414f-b504-559adae75204",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Y0f5pG8w",
+        "https://mobbin.com/api/mcp/short/Xpc56QNx"
+      ],
+      "platform": "ios",
+      "jobs": ["announcements"],
+      "take": "Notification center showing alerts and events from smart home devices; easy access to recent activity."
+    }
+  ]
+}

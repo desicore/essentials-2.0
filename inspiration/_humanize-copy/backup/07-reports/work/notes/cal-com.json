@@ -1,0 +1,43 @@
+{
+  "product": "cal-com",
+  "flows": {
+    "mobbin:aa5da6b8-f37f-485c-9aea-ffa69cc0ed55": {
+      "summary": "User opens Insights → Bookings, scopes account/team + Last 7 Days, scans KPI cards and Event Trends, then scrolls to popular-events / member leaderboards and an empty Recent ratings CTA.",
+      "steps": [
+        "Insights Bookings — KPI grid + Event Trends (Your account)",
+        "Account search dropdown open on Bookings insights",
+        "Team: ASMobt scoped — Created/Cancelled spike on chart",
+        "Trend tooltip — Apr 25 Created/Completed/Rescheduled/Cancelled",
+        "Lower cards — Popular Events, duration chart, Most/Least Booked",
+        "Most Cancelled + Recent ratings empty → Workflows CTA"
+      ],
+      "steal": [
+        "Every KPI card shows value + colored arrow + “from last period” (steps 0–3) — comparable performance without a builder.",
+        "Multi-series Event Trends with day tooltip breaking Created/Completed/Rescheduled/Cancelled (step 3).",
+        "Member leaderboards for Most Booked / Least Booked / Most Cancelled (steps 4–5) — faculty utilisation ranking.",
+        "Recent ratings empty state with Workflows button to enable collection (step 5)."
+      ],
+      "avoid": [
+        "Eight always-visible KPI cards with many zeros and 0% deltas (steps 0–2) — noisy for sparse sim centers; prefer fewer utilisation-first metrics."
+      ],
+      "fit": "Maps to missing utilisation + calendar-generated room/faculty-hour KPIs and comparable performance; Download is light export, not dean digests-by-link."
+    },
+    "mobbin:ff3d88ad-6b47-453f-9f8f-5f333707e2bf": {
+      "summary": "User opens Insights → Routing, filters team/form, reads response→booking funnel cards and response table, then pivots Routed-to-per-period day/week/month and Failed bookings by field.",
+      "steps": [
+        "Routing insights — empty funnel cards + response table + Routed to per period",
+        "Team + form filtered — Responses 4 / Without 3 / With 1 + Accepted row",
+        "Routed to per period — Per day/week/month toggle + user×week matrix",
+        "Failed Bookings By Field — role bar breakdown (Illustrator 3)"
+      ],
+      "steal": [
+        "Funnel KPI trio: Total Responses / Without Booking / With Booking (steps 0–1).",
+        "Routed to per period: day/week/month toggle + user×period matrix (step 2) — faculty-hour style load.",
+        "Failed Bookings By Field horizontal bars from form answers (step 3).",
+        "Segment/Save/Clear + Download on the report chrome (steps 0–1)."
+      ],
+      "avoid": [],
+      "fit": "Strong model for utilisation by person over weekly/monthly buckets; aligns with auto dean digests’ period grain without a deep report builder."
+    }
+  }
+}

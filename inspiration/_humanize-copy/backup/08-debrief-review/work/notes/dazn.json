@@ -1,0 +1,23 @@
+{
+  "product": "dazn",
+  "flows": {
+    "mobbin:7f182913-8d7d-4483-ac22-3ef0275de47b": {
+      "summary": "Watch a LIVE event with skip-back controls, browse Related highlights under the player, then open a related Day sheet with Watch now and Share.",
+      "steps": [
+        "LIVE player + Related highlights",
+        "Related Day sheet: Watch now / Share"
+      ],
+      "steal": [
+        "Step 1: Related horizontal gallery under the player ('Highlights from this competition') keeps clips adjacent to the main recording.",
+        "Step 1: −10s skip on the LIVE player for quick rewinds without leaving the event.",
+        "Step 2: Sheet actions Watch now + Share keep jump-to-related-session and share in one dismissible overlay."
+      ],
+      "avoid": [
+        "Candidate claimed multi-camera switching; screens show related days/highlights only — do not treat as camera-views evidence."
+      ],
+      "fit": "Closer to rewatch + highlight browsing beside a main playback than to PTZ/360 switching; Cast/AirPlay icons hint handoff but no paired big-screen UI.",
+      "jobs": ["rewatch"],
+      "counter_example": false
+    }
+  }
+}

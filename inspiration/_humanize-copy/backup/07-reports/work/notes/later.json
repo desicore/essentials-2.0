@@ -1,0 +1,43 @@
+{
+  "product": "later",
+  "flows": {
+    "mobbin:55855f6e-97e0-4984-9bae-f11cb21e653f": {
+      "summary": "From Account Settings the user reaches Analytics Email Report, reads the fixed Monday-afternoon cadence, enables a per-profile toggle, and gets a success banner naming the profile and send window.",
+      "steps": [
+        "Account Settings — Analytics Email Report section peeking at bottom",
+        "Fixed Monday PT cadence + Enable All + per-profile toggle off",
+        "Toggle on — success banner weekly report enabled for profile"
+      ],
+      "steal": [
+        "Fixed cadence copy “Emails are sent each Monday in the late afternoon (Pacific Time)” (steps 1–2) — zero-config schedule, only on/off.",
+        "Per-profile toggle + Enable All / Disable All (steps 1–2) — pause without deleting preferences.",
+        "Success banner names profile and repeats send window (step 2) — confirms what will arrive."
+      ],
+      "avoid": [
+        "Burying digest under Account Settings far from Analytics (step 0) — put subscribe on the report itself for deans."
+      ],
+      "fit": "Simplest weekly/monthly dean newsletter: one default cadence + pause toggle — not a report builder.",
+      "counter_example": false
+    },
+    "mobbin:a56091b1-7e85-4b1b-a790-7e7ccbea971b": {
+      "summary": "From Analytics Overview the user starts Share Performance Report, confirms create, waits through loading plus unique-link toast, then manages public URL, auto-update, Enable Report, and copies the link.",
+      "steps": [
+        "Overview — Share Performance Report CTA + Export CSV",
+        "Create Performance Report confirm modal",
+        "Loading spinner + “unique link” success toast",
+        "Report settings — public URL, auto-update 24h, Enable, industry comparison",
+        "Copy Link — clipboard success toast"
+      ],
+      "steal": [
+        "Public report URL + Copy Link + view count (steps 3–4) — share without an Essentials account.",
+        "Update Report Automatically every 24h toggle (step 3) — living link instead of one-shot export.",
+        "Enable Report master switch keeps settings when paused (step 3).",
+        "Share CTA on Overview next to KPIs (step 0) — digest-by-link from the report surface, not settings."
+      ],
+      "avoid": [],
+      "fit": "Link-shared dean/accreditation pack without accounts; auto-refresh approximates scheduled digests; industry comparison hints comparable performance without a builder.",
+      "jobs": ["sharing", "scheduled-reports"],
+      "counter_example": false
+    }
+  }
+}

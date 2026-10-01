@@ -1,0 +1,27 @@
+{
+  "product": "google-maps",
+  "flows": {
+    "mobbin:337a0dfd-6591-4af6-97b3-397dcc6eac6f": {
+      "summary": "From a place page, the user enters the 360° street view and moves with arrows on the ground. A split screen adds a map whose marker shows which way they face, and older dates and recent photos are one tap away.",
+      "steps": [
+        "Place card: Immersive and Street View entry",
+        "Fullscreen 360 with path arrows",
+        "360 move; See more dates",
+        "Split 360 and map orientation peg",
+        "Advance along street; map stays synced",
+        "Map strip with Latest photos and dates"
+      ],
+      "steal": [
+        "The 360° view splits with a flat map whose marker points the way you face (screens 4 to 5). That could become a room layout next to 360° playback.",
+        "Arrows on the ground move between capture points without leaving the 360° view (screens 2 to 3).",
+        "'See more dates' and 'Latest photos' switch to another capture date or to still photos of the same place without leaving 360° (screens 3 and 6).",
+        "There are two ways in: a Street View marker on the map and an Immersive View card among the photos (screen 1)."
+      ],
+      "avoid": [
+        "Roaming freely through outdoor panoramas is not the same as moving through a fixed 360° recording of a sim room; do not make endless walking the main debrief control."
+      ],
+      "fit": "Debrief and review: a fallback for camera views, since Tesla showed no multi-camera switching. A map that shows your direction next to the 360° view is the idea to borrow for 360° review beside SRV playback.",
+      "counter_example": false
+    }
+  }
+}

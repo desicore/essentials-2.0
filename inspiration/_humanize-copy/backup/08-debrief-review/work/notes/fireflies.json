@@ -1,0 +1,63 @@
+{
+  "product": "fireflies",
+  "flows": {
+    "mobbin:cc79d322-0fc9-4e2e-ac99-94fc9bee94fb": {
+      "summary": "In a 1-of-2 Create App modal, author an AI prompt, pick ≥2 meetings, and enable Preview Notes before advancing — configuration and dry-run before using the agent.",
+      "steps": [
+        "Prompt editor + empty meeting select",
+        "Open meeting checklist dropdown",
+        "Two meetings checked",
+        "Preview Notes enabled (2 selected)"
+      ],
+      "steal": [
+        "Step 1: Split UI — left natural-language instructions, right 'select meetings to preview / refine from output'.",
+        "Step 1–4: Preview Notes stays disabled until ≥2 meetings selected (hard gate on dry-run).",
+        "Step 4: Explicit Preview Notes CTA before Next (1 of 2) — human checks output before finishing setup."
+      ],
+      "avoid": [
+        "Flow never shows step 2 or a share/publish screen — weak evidence for learner-facing approve-before-share; only agent-setup preview."
+      ],
+      "fit": "Pattern for faculty configuring what AI should extract from sim recordings and previewing on past sessions before it runs on live debriefs; extends Baseline AI summary/clips with a prompt+preview gate.",
+      "counter_example": false
+    },
+    "mobbin:e91b3485-47e0-458f-a4d9-a934d59e64e6": {
+      "summary": "Open a meeting: read General Summary and Notes with embedded timestamps, search the speaker-labelled Transcript / AskFred, and control playback (speed, ±10s, download, Share).",
+      "steps": [
+        "Summary + Notes with timed link + transcript",
+        "Same review — transcript Find/Replace",
+        "Summary bullets + Notes heading + AskFred tab"
+      ],
+      "steal": [
+        "Step 1: AI Notes embed blue timestamp links (e.g. 06:33) that deep-link claims to the recording.",
+        "Step 1–2: Transcript peer tab AskFred keeps Q&A about the recording next to searchable speaker turns.",
+        "Step 1: Bottom bar exposes 1x speed, ±10s, Download, and thumbs feedback on AI in one strip."
+      ],
+      "avoid": [
+        "Share is available while AI General Summary is already published — no edit/approve step before sharing (counter to Baseline human review)."
+      ],
+      "fit": "Closest Fireflies twin of SRV summary+transcript+playback; use for evidence-linked AI debrief text, but add faculty approve before learner Share/SSO links.",
+      "jobs": ["ai-debrief", "rewatch"],
+      "counter_example": false
+    },
+    "mobbin:0384c559-2a2e-4a37-9cb8-7be772d37a27": {
+      "summary": "From the Soundbite rail, open Create Soundbite, drag-select a range with live transcript highlight, then title the clip, set playlist/access, and Done.",
+      "steps": [
+        "Soundbite rail: Create vs AI Soundbite",
+        "Create modal: Drag and Select defaults",
+        "Range set — transcript range highlighted",
+        "Soundbite created: title + who can access",
+        "Add to playlist picker open"
+      ],
+      "steal": [
+        "Step 1: Dual entry — Create Soundbite (manual) and AI Soundbite side by side.",
+        "Step 2–3: Drag-and-select + START/END fields; selected span paints purple on transcript for verification before Create.",
+        "Step 2: Tabs Magic Soundbite / Keyword Soundbite offer alternate clip generators without leaving the modal.",
+        "Step 4: Post-create modal requires title + Who can access (Participants only) + Copy/Open before Done — human finalize."
+      ],
+      "avoid": [],
+      "fit": "Strong human-review-before-publish model for Baseline AI clips: auto-suggest optional, trim against transcript, then permissioned publish — attach to session record after faculty Done.",
+      "jobs": ["ai-clips", "download-share"],
+      "counter_example": false
+    }
+  }
+}

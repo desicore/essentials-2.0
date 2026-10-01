@@ -1,0 +1,31 @@
+{
+  "title": "Reports — flow inspiration",
+  "imgs": 104,
+  "broken": 103,
+  "brokenSample": [
+    {
+      "id": "",
+      "alt": "Mixpanel — Subscribing a board (email), step 1 of 5: Subscribe popover — Email/Slack empty + Create New",
+      "src": "data:image/webp;base64,UklGRprbAABXRUJQVlA4II7bAAAwtQOdASoABXADPpVKoEwlpCotIxIqM"
+    },
+    {
+      "id": "",
+      "alt": "Mixpanel — Subscribing a board (email), step 2 of 5: Create Subscription modal — cadence + timezone",
+      "src": "data:image/webp;base64,UklGRrLbAABXRUJQVlA4IKbbAAAQvgOdASoABXADPpVKn0wlpCowIxI6O"
+    },
+    {
+      "id": "",
+      "alt": "Mixpanel — Subscribing a board (email), step 3 of 5: Weekly selected — day/time pickers",
+      "src": "data:image/webp;base64,UklGRkDeAABXRUJQVlA4IDTeAAAQyQOdASoABXADPpVIn0wlpCotIzIaO"
+    }
+  ],
+  "red": [],
+  "jobFilters": [
+    "Juicebox: Sharing dashboard to web",
+    "Midday: Sharing a metric"
+  ],
+  "hasSearch": true,
+  "searchPlaceholder": "Product, flow, idea…",
+  "firstFlowImgAlt": "Mixpanel — Subscribing a board (email), step 1 of 5: Subscribe popover — Email/Slack empty + Create New",
+  "bodyTextSample": "ESSENTIALS 2.0 · FLOW INSPIRATION · 07-REPORTS\nReports — flow inspiration\n\nCenter-wide and cross-course reporting for Essentials 2.0: scheduled digests for deans, cohort comparison, AI evaluation review/approve, utilisation KPIs, and easy sharing. Sources: Mobbin and Refero (web). Date: 2026-09-30. Course-level reports from inside a course are covered in courses/08-recordings-course-reports; this gallery focuses on delivery and center-level analytics.\n\nBaseline. Today Essentials ships four reports (Responses, Group Performance, Performance Matrix, Skill Development). Skill areas depend on program-wide naming abbreviations; an activity must be assigned before data is collected, so late setup loses data. Accreditation packs are hand-assembled. Utilisation reporting is the one report every vi"
+}

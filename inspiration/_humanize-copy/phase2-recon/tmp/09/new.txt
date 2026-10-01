@@ -1,0 +1,591 @@
+Announcements / Send learning materials or send to Canvas → Shareable link
+Essentials 2.0 · Design research · 09-announcements-send-materials
+Announcements / Send learning materials or send to Canvas → Shareable link
+Internal board for the Essentials 2.0 solution concept (Semester → Courses → Announcements / send materials → Shareable link). Not about UI: each reference shows how another product lets someone running a course communicate from inside it: announce to everyone or a group, send selected files or links ahead of a session, choose the channel (portal feed, email, shareable link, Canvas LMS), schedule it, and see who received or opened it. One section per question; every card says what we would take from it. Counter-examples are flagged. Raw material from Mobbin and Refero, to be cut down in the converge pass before anything is shown outside the team.
+Synthesis
+Read this first. Sections Q1–Q6 below hold the evidence cards; every product and reference id named here is in the report. Ids are shortened to their first block (for example mobbin:3135010e).
+Top examples
+The Leap (Refero, refero:4564) — one flow from recipient segment to confirmation to live open/click stats: the whole loop a course announcement needs, in eight steps.
+Google Classroom (Refero, refero:19605564) — the audience dropdown ("For · All students") sits on the composer itself; the canonical LMS composer.
+beehiiv (Mobbin, mobbin:748e794e) — one post object with Post / Email / Website tabs and a per-channel recipient summary before Send.
+Basecamp (Mobbin, mobbin:0bc24c79) — separates "who should see this" from "who gets notified" inside one composer.
+Mural (Mobbin, mobbin:836e980f) — a single access panel with access level, visitor-link level, password, timezone-stamped expiry and Reset link.
+Navan (Mobbin, mobbin:9d8af34f) — per-person status table where you select the non-responders and "Send a reminder" without leaving it.
+SchoolAI (Mobbin, mobbin:3135010e) — the only complete LMS hand-off: Export → permission → class picker → "Exported to Google Classroom!".
+Microsoft Teams (Mobbin, mobbin:88ad5199) — "Announcement" is a distinct post type with a bold title and replies attached; learners can tell it from chatter.
+Pattern comparison
+Product
+Q1 Composer
+Q2 Channel
+Q3 Link controls
+Q4 Feedback
+Q5 LMS hand-off
+Q6 Learner side
+Google Classroom
+✓ audience dropdown on composer
+◐ stream post is the channel
+✗
+✗
+✗ (destination only, via SchoolAI)
+◐ stream doubles as learner feed
+Basecamp
+◐ PDF + schedule, no audience
+✓ see vs notify split
+✗
+✗
+✗
+✗
+Teachable
+✓ everyone / course / individual
+◐ email only
+✗
+◐ sent confirmation
+✗
+✗
+The Leap
+✓ segments + confirm
+◐ email only
+✗
+✓ open/click stats after send
+✗
+✗
+beehiiv
+◐ schedule + exclusions
+✓ channel tabs + recipient summary
+✗
+✗
+✗
+✗
+Slack
+✓ schedule on send button
+✗
+✗
+✗
+✗
+✓ Activity inbox, unread counts
+Notion
+✗
+✗
+✓ level + expiry presets + Remove
+✗
+✗
+✗
+Mural
+✗
+✗
+✓ all five controls, reset link
+✗
+✗
+✗
+Loom
+✗
+✗
+✓ per-person level
+◐ view count beside share
+✗
+✗
+Navan
+✗
+✗
+✗
+✓ per-person status + reminder
+✗
+✗
+SchoolAI
+✗
+✗
+✗
+✗
+✓ export → permission → class → confirm
+✗
+ClassDojo
+✓ attach + schedule, one class
+✗
+✗
+✗
+✗
+✓ pin, attachment and replies inline
+✓ shown clearly in the referenced screens · ◐ partly shown or implicit · ✗ not shown in the references collected (not a claim that the product lacks it).
+What the best apps do differently
+They separate visibility from notification. Basecamp asks "who should see this?" and, separately, "when I post this, notify…" (mobbin:0bc24c79); beehiiv reconciles channels into a per-channel recipient count before Send (mobbin:748e794e). Substack collapses email and push into one default-on toggle (mobbin:a7ebc4ec), the simplest version of the same idea. Nobody in the set exposes an LMS as a channel inside the composer.
+Scheduling is a property of the send button, not a feature. Slack's send dropdown with presets (mobbin:fd356e91), Whop's inline popover (mobbin:16eb85ed), Kit's send-time field that defaults to now (mobbin:f722d4bb), LinkedIn's clock icon (refero:863). Only Confluence adds an end date (mobbin:fcc604e7), the closest thing to "show this until the session".
+Audience targeting is coarser than expected. Google Classroom offers "All students" or a selection (refero:19605564), Teachable everyone / course / individual (refero:9617), The Leap named segments (refero:4564). ClassDojo has no audience control at all because the class is the audience (mobbin:53e9bdad).
+Feedback only matters when it is per person and has an action next to it. Navan selects non-responders and reminds them from the same table (mobbin:9d8af34f); Superhuman shows who opened, on which device, when, inline on the thread (mobbin:ba56c2de); HoneyBook branches the follow-up on "viewed within 1 day" (mobbin:8afb0d65); Docusign configures reminder cadence (mobbin:e4a526c1). Aggregate dashboards (HubSpot mobbin:5814d24c, Dub refero:2fe44823) and Square's empty "Seen by" column (mobbin:1c8c3422) give a course manager nothing to act on.
+Link controls converge on one panel with five questions. Who can open, at what level, until when, with which password, how to revoke: Mural (mobbin:836e980f), Proton (mobbin:ef4fcd7f), Notion with relative presets resolved to a date (mobbin:cfca14fb). Loom is the only one that puts view tracking beside the share (refero:1242). ClickUp (mobbin:7f248abd) is the counter-example: expiry defaults to Never, no level, revoke is Unpublish.
+The LMS hand-off maps to a specific class and confirms. SchoolAI is the only complete example (mobbin:3135010e). Course platforms treat publishing as the send and never hand off (Kajabi mobbin:9aa981d2); generic connectors stop at authorization (Craft mobbin:e9079303, Cofounder mobbin:7897406d, counter-example).
+On the learner side, announcements get their own type or place. Teams' "Announcement" post type (mobbin:88ad5199), Circle's separate Announcements space (mobbin:c1b1c3ad), ClassDojo's teacher-only Pin (mobbin:3edf67a5); unread state aggregated centrally in Slack Activity (mobbin:8e65f9c9); channel preference per category in Spotify (refero:471b8f0c). Coursera's undifferentiated Latest list is the counter-example (mobbin:36db9592).
+Best practices top companies converge on
+One composer for announcements and material sends; the post in the portal is the record, channels (email, push, link, LMS) are how people hear about it.
+Ask two questions, not one: who can see this (course / group / individuals) and who gets notified now.
+Put "send now / schedule" on the send button with presets; add an optional end date for time-boxed material.
+Attach materials by reference from the course library, not by re-upload (no product in the set does this; it is the gap Essentials can fill).
+Give the shareable link one panel: who, level, expiry (relative presets resolved to a date), password, revoke; show opens next to the link.
+Report delivery per person with an action beside it (remind non-openers, optionally automatic before the session); aggregate counts are secondary.
+For the LMS hand-off: say what will be sent, map to one specific course, confirm with a toast, and keep the link back.
+On the learner side: a distinct announcement type, pinnable, with attachments and replies inline, and a central unread inbox that agrees with email.
+Open questions for Essentials 2.0
+Audience unit. The set targets by segment or course. For a simulation course the natural units are the course roster, the learner groups from sub-module 04, and the session cohort from 06; faculty and observers are a fourth audience nobody in the set models.
+Materials by reference. Every composer uploads. If materials live in sub-module 02, an announcement should link to the library item, inherit its access, and show whether it is already released; no reference shows this.
+Portal as source of truth. If the Learner Portal feed is the record, email and push are notifications of the same post, and the shareable link is a login-free view of it. That ties directly to the access-sharing module (magic links, time-boxed access); the link controls in Q3 should reuse those rules rather than add a second permission system.
+Canvas hand-off object. SchoolAI sends a document to one class. For Canvas the open questions are what object is created (announcement, module item, or a link back to the portal), how an Essentials course maps to a Canvas course when they differ, what happens on edit after send, and whether the learner then has two places to look. No reference shows edit-after-send or re-sync.
+"Seen" in education. Superhuman-style per-person opens are useful before a simulation (did they read the pre-brief?) but may feel like surveillance to learners. Whether reminders are manual (Navan) or automatic before the session (Docusign / HoneyBook) is a product decision, not a pattern the set settles.
+Scheduling against the session. Products schedule by date/time. Essentials could schedule relative to a session ("two days before", "after debrief"), which none of the references model.
+Search references
+SourceAll sources
+Mobbin
+Refero
+Selected only
+Reset filters
+QuestionsQ1
+Q2
+Q3
+Q4
+Q5
+Q6
+No references match these filters. Try another search or reset the filters.
+Enable JavaScript for filters and full-size previews. All references appear below.
+Q1Composer: audience targeting (course / group / individual), attachment of course materials, scheduling
+Every composer in the set treats scheduling as a property of the send action, not a separate feature: Slack's send-button dropdown with presets and a custom date/time (mobbin:fd356e91), Whop's inline calendar popover (mobbin:16eb85ed), LinkedIn's clock icon (refero:863), Basecamp's 'Schedule and save' (mobbin:25c42c82). Audience targeting is rarer and coarser than the question assumes: Google Classroom puts a 'For / All students' dropdown directly above the text box (refero:19605564), Teachable offers everyone / a course / an individual (refero:9617), The Leap uses described segments (refero:4564), and Confluence only Public/Private plus a start–end window (mobbin:fcc604e7). Attachments are inline uploads (ClassDojo photo, Basecamp PDF, Whop image); nobody attaches from a course library. Only The Leap closes the loop from recipients through confirmation to open/click stats. Confluence's one-active-banner cap is the caveat: a persistent materials banner and a timely one cannot coexist.
+9 references
+BasecampMobbinscreen
+Message scheduling with date/time and audience notification options
+PDF-attached message composer with a clock-icon schedule popover (date/time, 'Schedule and save'); no audience or notification controls on this screen.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+ClassDojoMobbinflow
+Scheduling a post with file attachments flow
+New Post modal for one class: attach a photo, optional AI writing assist, then a calendar-and-time scheduler; there is no audience selector because the class is the audience.
+View source ↗
+[IMG]
+Step 1 of 8 · Click to enlarge
+[IMG]
+Step 2 of 8 · Click to enlarge
+[IMG]
+Step 3 of 8 · Click to enlarge
+[IMG]
+Step 4 of 8 · Click to enlarge
+[IMG]
+Step 5 of 8 · Click to enlarge
+[IMG]
+Step 6 of 8 · Click to enlarge
+[IMG]
+Step 7 of 8 · Click to enlarge
+[IMG]
+Step 8 of 8 · Click to enlarge
+ConfluenceMobbinflow
+Creating an announcement flow
+Admin announcement-banner flow: title, banner style, Public/Private audience radio and an optional start/end date-time window with timezone; only one banner can be active at a time.
+View source ↗
+[IMG]
+Step 1 of 8 · Click to enlarge
+[IMG]
+Step 2 of 8 · Click to enlarge
+[IMG]
+Step 3 of 8 · Click to enlarge
+[IMG]
+Step 4 of 8 · Click to enlarge
+[IMG]
+Step 5 of 8 · Click to enlarge
+[IMG]
+Step 6 of 8 · Click to enlarge
+[IMG]
+Step 7 of 8 · Click to enlarge
+[IMG]
+Step 8 of 8 · Click to enlarge
+Google ClassroomReferoscreen
+Stream composer: "Announce to class" box with All students picker
+The class Stream page pairs a lightweight "Announce something to your class" text box with a "For / All students" audience dropdown directly above it, showing that audience targeting can live as one control next to the compose field instead of a separate step.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+LinkedInReferoflow
+LinkedIn: compose a post, then open a date/time scheduling dialog
+LinkedIn's composer exposes a scheduling entry point in the compose toolbar that opens a dedicated date-and-time picker before the post is queued, showing how scheduling can be an optional side-dialog off the main composer rather than a separate screen or mode.
+View source ↗
+[IMG]
+Step 1 of 3 · Click to enlarge
+[IMG]
+Step 2 of 3 · Click to enlarge
+[IMG]
+Step 3 of 3 · Click to enlarge
+SlackMobbinflow
+Scheduling a message flow
+Scheduling lives on the send button: a dropdown of presets or a custom date/time modal with timezone; channel targeting and attachments are not exercised in these steps.
+View source ↗
+[IMG]
+Step 1 of 8 · Click to enlarge
+[IMG]
+Step 2 of 8 · Click to enlarge
+[IMG]
+Step 3 of 8 · Click to enlarge
+[IMG]
+Step 4 of 8 · Click to enlarge
+[IMG]
+Step 5 of 8 · Click to enlarge
+[IMG]
+Step 6 of 8 · Click to enlarge
+[IMG]
+Step 7 of 8 · Click to enlarge
+[IMG]
+Step 8 of 8 · Click to enlarge
+TeachableReferoflow
+Teachable: compose and send a broadcast email to a recipient group
+Announcement email composer with a Send-to dropdown (everyone / a course / an individual) plus subject and body, a confirm modal, then a sent state; no attachment is used.
+View source ↗
+[IMG]
+Step 1 of 4 · Click to enlarge
+[IMG]
+Step 2 of 4 · Click to enlarge
+[IMG]
+Step 3 of 4 · Click to enlarge
+[IMG]
+Step 4 of 4 · Click to enlarge
+The LeapReferoflow
+The Leap: broadcast composer with template, editor, and recipient segments
+The Leap's broadcast flow chains a template chooser into a rich-text editor with a dedicated recipients dropdown for picking one or more contact segments, then forces a review-and-confirm modal before send and finishes on a sent-state screen with immediate analytics — a model for pairing audience targeting with an explicit confirm step in a course composer.
+View source ↗
+[IMG]
+Step 1 of 8 · Click to enlarge
+[IMG]
+Step 2 of 8 · Click to enlarge
+[IMG]
+Step 3 of 8 · Click to enlarge
+[IMG]
+Step 4 of 8 · Click to enlarge
+[IMG]
+Step 5 of 8 · Click to enlarge
+[IMG]
+Step 6 of 8 · Click to enlarge
+[IMG]
+Step 7 of 8 · Click to enlarge
+[IMG]
+Step 8 of 8 · Click to enlarge
+WhopMobbinflow
+Scheduling an announcement flow
+Composer with an embedded image where an inline calendar popover switches the primary action between publish now and scheduled; no audience control.
+View source ↗
+[IMG]
+Step 1 of 5 · Click to enlarge
+[IMG]
+Step 2 of 5 · Click to enlarge
+[IMG]
+Step 3 of 5 · Click to enlarge
+[IMG]
+Step 4 of 5 · Click to enlarge
+[IMG]
+Step 5 of 5 · Click to enlarge
+No references yet for this question.
+Q2Channel choice (in-app feed, email, push, link, external LMS) and whether it is one composer or many features
+Two models. 'One composer, many channels' puts the channel as a control on the same post: beehiiv's Post / Email / Website / Delivery tabs reconcile into a per-channel recipient summary before sending (mobbin:748e794e); Kit layers a 'Publish to web' opt-in over a default email send (mobbin:f722d4bb); Intercom folds platform (web / iOS / Android) and push into one panel (mobbin:7380bc5c). 'Implicit channel' treats the in-app post as the channel and only asks who is notified: Basecamp separates 'who should see this' from 'when I post this, notify…' (mobbin:0bc24c79), and Substack bundles email and push into a single default-on 'notify subscribers' toggle (mobbin:a7ebc4ec). Nobody in the set exposes an external LMS as a channel inside the composer; that lives in an export menu (see Q5). The useful distinction for a course is visibility versus notification: the post is the record, the channels are how people hear about it.
+5 references
+BasecampMobbinscreen
+Message with notification recipient and audience control
+One message-board composer that separates 'Who should see this?' (team only vs allow client) from 'When I post this, notify…' (requester / everyone I select / no one); the in-app post is the channel.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+beehiivMobbinscreen
+Excluded segments and delivery options
+Delivery tab of a single post object with Post / Email / Website / SEO tabs: segment exclusions, a web-access toggle and a per-channel recipient summary (Email: 6, Web: all free subscribers) before Schedule or Send.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+IntercomMobbinscreen
+Run a test with email collector and push notification options
+Content tab of one message composer mixing reply type (chat vs email collector), platform (Web / iOS / Android) and a mobile push toggle in a single panel; audience routing is not on this screen.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+KitMobbinscreen
+Send list with audience and delivery channel selection
+Single broadcast composer with an audience filter builder, a send-time field that defaults to 'Send now', and a 'Publish to web' toggle as an extra channel on top of the default email.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+SubstackMobbinscreen
+Publish with audience and delivery notification iOS
+iOS publish modal showing audience (who can view), notification delivery toggle for email/push, and send controls.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Q3Shareable link controls (expiry, access level, revoke, tracking)
+Link controls converge on one panel with five questions: who can open (anyone / workspace / specific people), at what level (view / comment / edit), until when, with which password, and how to revoke. Mural shows all five, including a timezone-stamped expiry and a 'Reset visitor link' that regenerates rather than merely disables (mobbin:836e980f); Proton has expiry, password and 'Stop sharing' (mobbin:ef4fcd7f); Notion resolves relative presets ('in a week') to an absolute date inline and ends with a red Remove (mobbin:cfca14fb). Coda (mobbin:c333ff8e), Dropbox (mobbin:777c4ef0) and Sketch (mobbin:1fb17c11) focus on tiered access (workspace / guests / everyone) and per-person levels, with Copy link always in the same corner; Sketch splits public rights into download versus comment checkboxes. Only Loom shows tracking next to the share ('No views yet', refero:1242). ClickUp is the counter-example (mobbin:7f248abd): expiry defaults to Never with no presets, no access level, and the only revoke is an all-or-nothing Unpublish.
+8 references
+ClickUpMobbinscreen
+Share link with expiration settings (iOS)
+Counter-example
+Public tab of the share sheet: public link, 'Expire link after: Never' with no presets, search-engine toggle, per-field visibility toggles, and Unpublish as the only, all-or-nothing revoke.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+CodaMobbinflow
+Sharing a doc
+Complete flow showing access mode selection (anyone, specific people), recipient selection, copy link action, and permission confirmation in a document sharing dialog.
+View source ↗
+[IMG]
+Step 1 of 8 · Click to enlarge
+[IMG]
+Step 2 of 8 · Click to enlarge
+[IMG]
+Step 3 of 8 · Click to enlarge
+[IMG]
+Step 4 of 8 · Click to enlarge
+[IMG]
+Step 5 of 8 · Click to enlarge
+[IMG]
+Step 6 of 8 · Click to enlarge
+[IMG]
+Step 7 of 8 · Click to enlarge
+[IMG]
+Step 8 of 8 · Click to enlarge
+DropboxMobbinflow
+Sharing a document
+Share dialog with an 'Anyone with this link: can edit' dropdown, add-person-by-email with a note, and Copy link; expiration and password sit behind an unopened Settings link.
+View source ↗
+[IMG]
+Step 1 of 5 · Click to enlarge
+[IMG]
+Step 2 of 5 · Click to enlarge
+[IMG]
+Step 3 of 5 · Click to enlarge
+[IMG]
+Step 4 of 5 · Click to enlarge
+[IMG]
+Step 5 of 5 · Click to enlarge
+LoomReferoflow
+Loom: share dialog with per-person permission level and invited list
+Loom's Share dialog lets the owner add a person or Space and set a permission level (e.g. Can view) before sending the invite, then confirms the person now appears in an invited/access list — a pattern for showing who currently has access to a shared item, not just generating a link.
+View source ↗
+[IMG]
+Step 1 of 4 · Click to enlarge
+[IMG]
+Step 2 of 4 · Click to enlarge
+[IMG]
+Step 3 of 4 · Click to enlarge
+[IMG]
+Step 4 of 4 · Click to enlarge
+MuralMobbinscreen
+Link sharing access and expiration settings
+Access and settings panel showing restricted/general access options, visitor link access controls, expiration date, password, and reset visitor link button.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+NotionMobbinscreen
+Link expiration and access controls (iOS)
+iOS link access dialog showing access level options (can edit, can comment, can view), link expiration with time presets (1 hour, 1 day, 1 week), and remove access option.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+ProtonMobbinscreen
+Share link settings with expiration and password
+Settings dialog for shared link with expiration date field, password requirement toggle, and stop sharing option to revoke access.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+SketchMobbinflow
+Share a document with permissions
+Share dialog with three access tiers (Workspace members / Guests / Everyone); the public-link tier has a view-or-no-access radio plus separate Inspect-and-download and Comment checkboxes, Copy Link fixed top-right.
+View source ↗
+[IMG]
+Step 1 of 4 · Click to enlarge
+[IMG]
+Step 2 of 4 · Click to enlarge
+[IMG]
+Step 3 of 4 · Click to enlarge
+[IMG]
+Step 4 of 4 · Click to enlarge
+No references yet for this question.
+Q4Delivery feedback (sent / delivered / seen, reminders)
+Feedback is worth having only when it is per person and has an action next to it. Navan lists each invitee with a status, lets you select the non-responders and 'Send a reminder' from the same table (mobbin:9d8af34f); Superhuman shows per-person, per-device, timestamped opens inline on the thread itself (mobbin:ba56c2de). Automation goes further: HoneyBook branches the follow-up on 'file viewed within 1 day' (mobbin:8afb0d65); Docusign lets you set the days before the first reminder and the repeat interval (mobbin:e4a526c1). Newsletter tools lead with aggregate counters (Mailchimp mobbin:6db18da5, HubSpot mobbin:5814d24c; Dub for link clicks, refero:2fe44823) and keep per-recipient detail one tab away (Outseta's Recipients tab with last-opened timestamps, mobbin:34451b74). WhatsApp's Delivered / Read is the minimum: two states, one recipient (mobbin:5580e66f). Square's Announcements list is the caution (mobbin:1c8c3422): a 'Seen by' column that shows nothing and offers no follow-up action.
+10 references
+DocusignMobbinflow
+Turning on auto reminders with conditions
+Advanced reminder setup: expiration date, recipient privileges, auto-reminder toggle, days before first reminder, repeat interval, and custom number of days config.
+View source ↗
+[IMG]
+Step 1 of 8 · Click to enlarge
+[IMG]
+Step 2 of 8 · Click to enlarge
+[IMG]
+Step 3 of 8 · Click to enlarge
+[IMG]
+Step 4 of 8 · Click to enlarge
+[IMG]
+Step 5 of 8 · Click to enlarge
+[IMG]
+Step 6 of 8 · Click to enlarge
+[IMG]
+Step 7 of 8 · Click to enlarge
+[IMG]
+Step 8 of 8 · Click to enlarge
+DubReferoscreen
+Dub link analytics: clicks/leads/sales for a tagged share link
+Dub's Analytics view shows Clicks/Leads/Sales counters plus a time-series chart for links filtered by tag, evidence that link-level delivery feedback can be a few aggregate counters and a trend line rather than a per-recipient log of who clicked.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+HoneyBookMobbinflow
+Adding conditions for automated reminders
+Workflow showing automation setup: send email, wait for 1 day, check if file was viewed within that period, then branch to send different followup emails.
+View source ↗
+[IMG]
+Step 1 of 4 · Click to enlarge
+[IMG]
+Step 2 of 4 · Click to enlarge
+[IMG]
+Step 3 of 4 · Click to enlarge
+[IMG]
+Step 4 of 4 · Click to enlarge
+HubSpotMobbinscreen
+Email campaign recipient engagement metrics
+Campaign Analyze tab with aggregate metrics only (Sent, Delivered rate, Open / Click / Reply rate, bounce, unsubscribe, spam); no per-recipient list or action on this screen.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+MailchimpMobbinscreen
+Email campaign report with sent, opened, clicked counts
+Campaign analytics overview showing 3 recipients, delivered, clicked, bounced, unsubscribed counts; recipient activity tab with open/click tracking per recipient.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+NavanMobbinflow
+Sending a reminder to non-responders
+Flow showing invite creation, reminder selection from invite list, and confirmation to send reminder email to selected non-responders.
+View source ↗
+[IMG]
+Step 1 of 4 · Click to enlarge
+[IMG]
+Step 2 of 4 · Click to enlarge
+[IMG]
+Step 3 of 4 · Click to enlarge
+[IMG]
+Step 4 of 4 · Click to enlarge
+OutsetaMobbinscreen
+Newsletter performance metrics with opened/clicked tracking
+Recipients tab of a sent broadcast: one row per recipient with Last opened / Clicked / Unsubscribed timestamps and status sub-filters (Opened, Clicked, Bounced…) plus Export; no resend action on this screen.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+SquareMobbinscreen
+Announcement status - sent indicator
+Announcements list with a Status column (Sent) and a separate 'Seen by' column that is empty for the row shown; the field exists without data and without a follow-up action.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+Superhuman MailMobbinscreen
+Message read status indicators
+Mail interface showing team read statuses with opened/unopened indicator: June and Perry have opened, and the view shows who has opened messages.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+WhatsAppMobbinscreen
+Message read and delivered status (iOS)
+Per-message info screen with two states, Read and Delivered (timestamped); the minimum viable feedback, single recipient, no breakdown.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Q5External LMS hand-off UX (auth, mapping to course, what is sent, confirmation)
+The thinnest question in the set and the most important one for Essentials. Only SchoolAI shows a complete hand-off (mobbin:3135010e): an Export menu that lists Google Classroom next to Docs / PDF, a permission modal that says what will be shared, an OAuth enable step, a Class picker that maps the document to one specific class, and an 'Exported to Google Classroom!' toast. Course platforms in the set have no hand-off at all: in Kajabi, publishing inside the product is the send, so the learner-facing surface is the product's own portal (mobbin:9aa981d2). Generic connectors stop at authorization: Craft is a Connect / Disconnect toggle on a settings page (mobbin:e9079303), and Cofounder's OAuth flow with per-scope toggles never reaches a 'what was sent' or success state (mobbin:7897406d, counter-example). Nobody shows editing or re-syncing after the hand-off.
+4 references
+CofounderMobbinflow
+OAuth-based app connection workflow
+Counter-example
+OAuth connect flow for cross-posting: destination picker, per-scope permission toggles, a 'continue sharing?' re-consent screen, then a loading state; the flow ends before showing what was sent or any success state.
+View source ↗
+[IMG]
+Step 1 of 5 · Click to enlarge
+[IMG]
+Step 2 of 5 · Click to enlarge
+[IMG]
+Step 3 of 5 · Click to enlarge
+[IMG]
+Step 4 of 5 · Click to enlarge
+[IMG]
+Step 5 of 5 · Click to enlarge
+CraftMobbinflow
+Connecting and integrating third-party services
+Settings-page list of integrations (Figma, GitHub, Jira, Linear) with a bare Connect / Disconnect toggle; no destination, no content, no confirmation of anything sent.
+View source ↗
+[IMG]
+Step 1 of 3 · Click to enlarge
+[IMG]
+Step 2 of 3 · Click to enlarge
+[IMG]
+Step 3 of 3 · Click to enlarge
+KajabiMobbinflow
+Publishing course content to members
+Internal Draft → Published status change on a curriculum module with a 'Successfully updated module' toast: in a course platform, publishing is the send and there is no external hand-off.
+View source ↗
+[IMG]
+Step 1 of 4 · Click to enlarge
+[IMG]
+Step 2 of 4 · Click to enlarge
+[IMG]
+Step 3 of 4 · Click to enlarge
+[IMG]
+Step 4 of 4 · Click to enlarge
+SchoolAIMobbinflow
+Adding content to Google Classroom
+Complete external hand-off: Export menu lists Google Classroom next to Docs / PDF, a permission modal says what will be shared, an OAuth enable step, a Class picker maps the document to one class, and a toast confirms the export.
+View source ↗
+[IMG]
+Step 1 of 7 · Click to enlarge
+[IMG]
+Step 2 of 7 · Click to enlarge
+[IMG]
+Step 3 of 7 · Click to enlarge
+[IMG]
+Step 4 of 7 · Click to enlarge
+[IMG]
+Step 5 of 7 · Click to enlarge
+[IMG]
+Step 6 of 7 · Click to enlarge
+[IMG]
+Step 7 of 7 · Click to enlarge
+No references yet for this question.
+Q6Learner-side reception (feed, notification, email) and consistency with the portal
+The consistent products give announcements a distinct type or place on the learner side. Microsoft Teams offers 'Post' versus 'Announcement' in the composer and renders announcements with a bold title and replies attached (mobbin:88ad5199); Circle routes them to an 'Announcements' space separate from the feed (mobbin:c1b1c3ad); ClassDojo keeps a teacher-only Pin so the post stays on top, with the attachment and replies inline (mobbin:3edf67a5). Unread state is aggregated centrally in Slack's Activity screen rather than only inside the source channel (mobbin:8e65f9c9), and Spotify lets the recipient choose email versus push per category, a model for learner notification preferences (refero:471b8f0c). Coursera is the counter-example (mobbin:36db9592): instructor content sits in a 'Latest'-sorted Q&A list with no pin, no unread marker and no sender role, so an announcement is indistinguishable from peer chatter.
+6 references
+CircleMobbinscreen
+Community course feed with announcements
+Sidebar with 'Announcements' as its own space separate from 'Feed' and a notification bell in the header, so admin announcements have a dedicated place instead of mixing into ordinary posts.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+ClassDojoMobbinscreen
+Course announcements feed with pinned posts
+Teacher-posted course announcement visible to families showing rich text, imagery, likes, and comments for learner reception.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+CourseraMobbinscreen
+Course discussion and activity feed (iOS)
+Counter-example
+Mobile discussion list sorted by Latest that mixes a bug report, a technical question and a lecture question with no pin, unread marker or sender role: an announcement dropped here would be indistinguishable from peer chatter.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+Microsoft TeamsMobbinscreen
+Course channel announcements and posts
+Team channel announcement post with metadata showing how learners receive course updates with reply and engagement options.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+SlackMobbinscreen
+Activity and announcements inbox (iOS)
+Mobile notification and activity inbox showing how learners receive course announcements and mentions in centralized notification interface.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+SpotifyReferoscreen
+Spotify notification settings: per-category Email/Push toggles
+Spotify's Notification settings list content categories (Music, Podcasts, Audiobooks, Concerts, Livestreams), each with its own Email and Push checkboxes, modeling how a learner-facing portal could let people set per-category channel preferences for course communications.
+View source ↗
+[IMG]
+Screen · Click to enlarge
+No references yet for this question.
+Close
+[IMG]

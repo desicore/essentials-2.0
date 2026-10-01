@@ -1,0 +1,69 @@
+{
+  "product": "grain",
+  "flows": {
+    "mobbin:2523ca18-b9ac-4576-8555-a20d27016d3e": {
+      "summary": "From the meetings list, the user opens a recording and reviews the AI summary, then the chapters. Time-linked bullets sit next to the video, above a timeline of who spoke when.",
+      "steps": [
+        "My Meetings list and auto-record banner",
+        "Summary tab with tip: click timed AI notes",
+        "Summary, video and speaker timeline",
+        "Chapters tab with timed bullets"
+      ],
+      "steal": [
+        "A first-time tip, 'Skip to the important parts', teaches that the times on AI outcomes jump the video and transcript to that moment (screen 2).",
+        "Outcomes and action items each carry clickable times that link a claim to the moment that supports it (screens 2 to 3).",
+        "A speaker timeline under the video shows each person's share of talk time as coloured bars, with empty Comments and Clips rows ready for markers (screen 3).",
+        "The chapter list nests time-linked bullets under each chapter, and the chapter name appears on the video's progress bar (screen 4)."
+      ],
+      "avoid": [
+        "The AI summary and chapters go live with Share and Ask AI straight away, with no step for faculty to edit or approve before learners see them. The baseline wants human review."
+      ],
+      "fit": "Debrief and review: adds AI chapters, outcomes and action items to the SRV's Annotation and Transcript tabs. It clashes with the baseline if AI notes appear on the debrief big screen automatically.",
+      "jobs": [
+        "ai-debrief",
+        "rewatch"
+      ],
+      "counter_example": false
+    },
+    "mobbin:47438eb0-03cb-427d-a962-dd32fd19c268": {
+      "summary": "The user opens a meeting review, switches from Summary to a searchable speaker-labelled Transcript synced to video, then uses a focused player with 10s skips and 1x speed.",
+      "steps": [
+        "Summary, video and speaker timeline",
+        "Transcript search and speaker labels",
+        "Focused player: chapter label and speed"
+      ],
+      "steal": [
+        "Transcript search highlights each match ('Grain'), and speaker colours match the bars on the timeline (screen 2).",
+        "The Transcript tab sits next to Summary and Chapters in the same panel, so one click checks an AI claim against what was said (screen 2).",
+        "A stripped-down player keeps only the chapter name, 10-second skips and a visible 1x speed, so nothing competes with the video on the room display (screen 3)."
+      ],
+      "avoid": [],
+      "fit": "Debrief and review: matches the SRV layout of video on the left and Transcript and Annotation tabs on the right. The stripped-down player could be the big-screen mode while the phone holds the notes.",
+      "counter_example": false
+    },
+    "mobbin:6b6443d7-dcb9-4e6e-b6a1-d82455a1fae9": {
+      "summary": "In a coaching review, the user picks a scorecard for one speaker and answers yes/no and 1 to 5 items with notes. After submitting, the results appear under the video with 'Send to Sam'.",
+      "steps": [
+        "Scorecard rubric and avg score under video",
+        "Scorecard picker: Add / Manage",
+        "New Scorecard: speaker, type, visibility",
+        "Score form empty; Submit disabled",
+        "Y/N and scale answered; Submit on",
+        "Per-question Add note expanded",
+        "Note filled; ready to Submit",
+        "Submitted Experience scorecard under video"
+      ],
+      "steal": [
+        "Rubric rows with coloured 1 to 5 buttons and a large average score sit beside the video of all participants, so faculty grade while rewatching (screen 1).",
+        "A new scorecard asks for the speaker, the scorecard template and who can view it before scoring starts (screen 3).",
+        "'Submit' stays disabled until required answers are filled in, and each item offers N/A (screens 4 to 5).",
+        "A 'Send to Sam' button stays in view and sends the finished review to one named learner (screens 1 and 8)."
+      ],
+      "avoid": [
+        "It scores one speaker at a time, with no way to grade the whole team and adjust individuals in one pass. That misses group grading, which the baseline says is the usual case."
+      ],
+      "fit": "Debrief and review: adds a rubric under the video and sharing with a named learner to the SRV's Data Entry tab. It is useful for adjusting one person's grade, but the default needs to start from the group.",
+      "counter_example": false
+    }
+  }
+}

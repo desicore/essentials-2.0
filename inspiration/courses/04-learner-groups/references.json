@@ -1,37 +1,37 @@
 {
   "module": "04-learner-groups",
-  "title": "Adding Learner Groups to Courses",
-  "intro": "Research for Essentials 2.0 · Semester → Courses → Adding Learner Groups. The retained screens and flow previews compare existing-group inheritance, enrollment review, rosters, bulk entry, limits and notification intent. Course evidence is distinguished from project, event and booking analogues. No retained example establishes live LMS cohort synchronization.",
+  "title": "Learner groups in courses: ideas from other products",
+  "intro": "This page gathers ideas for putting learners into groups inside a course in Essentials 2.0. Screens from the design reference libraries Mobbin and Refero show how products handle existing groups. They cover inheriting members, reviewing who will be enrolled, showing a roster, bulk entry, limits and notification choices. Some examples come from courses; others are nearby patterns from projects, events or bookings. None of the examples shows a group that stays in sync with a learning management system (LMS). We kept 21 examples across 12 products instead of adding weaker ones to reach a larger number.",
   "questions": [
     {
       "id": "Q1",
-      "title": "Group-as-unit enrolment (attach a group, membership stays synced) vs. copy-at-enrol",
-      "answer": "Separate selecting a group from keeping its membership synchronized. Circle [mobbin:7fccd8eb-8b47-4eba-9b29-c061ef84f911] shows existing-group member inheritance during course-space creation; Asana [mobbin:bb93bc5a-69d4-4f3e-8f70-fa48fb9b6b53] accepts teams in project-template access. Neither establishes later propagation. Basecamp [mobbin:03d638de-71a2-4fdd-a4a9-19fb51e82492] explicitly describes snapshot behavior: later group changes do not update previous assignments or mentions. For Essentials, make the chosen membership rule explicit; synchronization is a product decision requiring further validation."
+      "title": "When you attach a group, does membership stay in sync, or is it a one-time copy?",
+      "answer": "Treat picking a group as separate from keeping its membership in sync later. Circle lets you inherit members from an existing space group when you create a course space. Asana lets you add teams when setting access on a project template. Neither example shows that later group changes keep flowing into the course. Basecamp states the opposite: later group changes do not update earlier assignments or mentions. For Essentials, spell out the membership rule you choose; whether to sync later still needs a product decision."
     },
     {
       "id": "Q2",
-      "title": "Preview of impact before confirming (member count, conflicts, already enrolled)",
-      "answer": "Put the affected count beside the action. Deel [mobbin:e490327d-01e5-42c3-a4c7-c27925e5d6c1] shows 96/96 selected and a whole-team warning; Gusto [mobbin:9fb5633a-b981-4130-ac7f-bddf895856ae] reviews the learner count, completion date, reminders and per-person/total cost, with Edit links; GitBook [mobbin:bb97eec3-4564-4fab-a695-555b70cf9245] embeds the count in Add 1 member. These support count-based review, but none demonstrates duplicate resolution, already-enrolled learners, or the net-new enrollment delta. Those remain requirements to validate for overlapping semester groups."
+      "title": "How do products preview the impact before you confirm (counts, conflicts, already enrolled)?",
+      "answer": "Put the affected count next to the action. Deel shows 'Selected 96 of 96 items' and a whole-team warning. Gusto reviews the learner count, completion date, reminders and cost, with 'Edit' links. GitBook puts the count in an 'Add 1 member' action. These support count-based review, but none shows how duplicates, already enrolled learners or newly added learners are handled. Those remain requirements to check when semester groups overlap."
     },
     {
       "id": "Q3",
-      "title": "Roster view: status, role, group origin, exceptions visible",
-      "answer": "Treat role, enrollment status, activity and group origin as different information. Circle [mobbin:3e4b87ce-37eb-41e8-af41-026d197eeccc] exposes role and activity, while Circle [mobbin:eb1701f1-73e1-45e2-a31f-80df30333517] emphasizes progress and start dates. Teachable [mobbin:3b608ec9-63a0-4e82-b915-4535ea70a9ac] offers course-filtered students and bulk operations. None shows group-origin labels or per-learner sync exceptions. Essentials still needs a decision on how a roster explains why each learner has access."
+      "title": "What does the roster show: status, role, group origin and exceptions?",
+      "answer": "Treat role, enrollment status, activity and group origin as different kinds of information. One Circle members table shows role and activity. Another Circle course view emphasizes progress and start dates. Teachable filters students by course and offers bulk actions. None shows labels for where access came from, or per-learner sync exceptions. Essentials still needs a decision on how a roster explains why each learner has access."
     },
     {
       "id": "Q4",
-      "title": "Bulk paths (CSV, code/link, integration) alongside manual add",
-      "answer": "Keep alternate entry paths next to the manual action. Teachable [mobbin:61127de5-672c-4250-984a-73e1c0684ce1] shows manual enrollment and an Import CSV tab, with the manual path selecting a course and ending in success feedback. Partiful [refero:d19d15c3-daac-4d6e-834f-a128a511a7ba] supplies a secondary CSV-template and recipient-review analogy. Circle [mobbin:e50417f0-d6e6-4ad2-8fdc-bf7b11ff4b79] also exposes CSV and link paths for member invitations. These are visible entry points; no retained flow proves LMS integration, CSV conflict handling or continuing roster sync."
+      "title": "How do bulk paths (CSV, link or integration) sit beside manual add?",
+      "answer": "Keep other entry paths next to the manual action. Teachable shows manual enrollment beside an 'Import CSV' tab, with a course target and success feedback on the manual path. Partiful is a nearby event pattern with a CSV template and a review of recipients. Circle also offers CSV and link paths when inviting members. These are visible entry points; none of the kept flows proves LMS integration, CSV conflict handling or ongoing roster sync."
     },
     {
       "id": "Q5",
-      "title": "Capacity / waitlist / enrolment window handling",
-      "answer": "Distinguish course limits from a full-state recovery path. Podia [mobbin:ac312350-012f-49d9-9f95-25365859a6c3] shows course start-date and sign-up-limit settings; Luma [refero:4f821362-5e07-4f2a-9a8d-a63a3330ccdb] pairs event capacity with an optional waitlist; Fresha [mobbin:13c4d86b-b5dd-446d-8451-66c17cf96e32] demonstrates collecting preferences to join a booking waitlist. The event/booking patterns are analogues. Deel [mobbin:eac0772e-c47f-4a3d-973c-f6a7352fe5a1] adds immediate/scheduled assignment and an optional deadline; Gusto [mobbin:65695f4f-db86-4ab3-b40c-e2966edd2a79] adds completion reminders and permits overdue completion. These are assignment/completion dates, not enrollment cutoffs. No reference resolves a group larger than the remaining course capacity, partial group admission, enrollment closing dates or waitlist promotion."
+      "title": "How do products handle capacity, waitlists and enrollment windows?",
+      "answer": "Separate a course limit from what happens when the course is full. Podia shows course start date and sign-up limit settings. Luma pairs event capacity with an optional waitlist. Fresha collects date and time preferences when someone joins a booking waitlist. The event and booking patterns are nearby ideas, not direct course enrollment. Deel adds immediate or scheduled assignment and an optional deadline; Gusto adds completion reminders and still allows overdue completion. Those are assignment or completion dates, not enrollment cutoffs. No example settles an oversize group, partial admission, closing dates or waitlist promotion."
     },
     {
       "id": "Q6",
-      "title": "Notifications to learners on enrolment (seam with 07/09 — note only)",
-      "answer": "Expose notification intent at enrollment confirmation. Circle [mobbin:e50417f0-d6e6-4ad2-8fdc-bf7b11ff4b79] separates Send invites from Add without notification. Gusto [mobbin:b1497c40-cdea-4b8a-8e73-6cd70a8fcb2f] explains future course emails and learner next steps before purchase; it is a disclosure, not proof of sending. Cloudflare [mobbin:2e1d62a3-dcef-49da-b7f0-83211a076b8a] is a counter-example where a restricted skip-email option causes the invitation to fail. These screens show controls and failure feedback, not actual email delivery. Keep the course-side choice and outcome here; learner-facing access and message content remain in modules 07/09."
+      "title": "How do products notify learners on enrollment (hand-off to modules 07 and 09)?",
+      "answer": "Show the notification choice at enrollment confirmation. Circle separates 'Send invites' from 'Add without notification'. Gusto explains future course emails and learner next steps before purchase; that is a disclosure, not proof an email was sent. Cloudflare shows what not to copy: a restricted 'Skip confirmation email' option that fails the invitation. These screens show controls and failure feedback, not actual email delivery. Keep the course-side choice and outcome here; learner-facing access and message content stay in modules 07 and 09."
     }
   ],
   "references": [
@@ -46,7 +46,7 @@
         "https://mobbin.com/api/mcp/short/wDijgVB9"
       ],
       "question": "Q1",
-      "take": "The project-template member field accepts people or teams and says private teams are added only when the project creator is a member. No existing team is selected in the captured screen; completed attachment and ongoing sync are not demonstrated.",
+      "take": "Asana's project-template member field accepts people or teams. It says private teams are added only when the project creator is a member. No existing team is selected on this screen, and completed attachment or ongoing sync is not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -55,14 +55,14 @@
       "id": "mobbin:03d638de-71a2-4fdd-a4a9-19fb51e82492",
       "source": "mobbin",
       "app": "Basecamp",
-      "title": "Group membership policy — snapshot behavior",
+      "title": "Group policy that copies members once",
       "kind": "screen",
       "url": "https://mobbin.com/flows/03d638de-71a2-4fdd-a4a9-19fb51e82492",
       "images": [
         "https://mobbin.com/api/mcp/short/pnq0PVHZ"
       ],
       "question": "Q1",
-      "take": "Policy excerpt from a work-management flow: choosing a group expands its current members; later membership changes do not update previous assignments or mentions. This is explicit snapshot behavior, not live course-group sync.",
+      "take": "Basecamp explains that choosing a group expands its current members. Later membership changes do not update previous assignments or mentions. This is an explicit one-time copy, not live course-group sync.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -78,7 +78,7 @@
         "https://mobbin.com/api/mcp/short/BRbxQ6NJ"
       ],
       "question": "Q1",
-      "take": "During course-space creation, select a Space group and optionally Add members from this space group. Existing-group inheritance is visible; later membership propagation is not established.",
+      "take": "When creating a course space, Circle lets you select a Space group and optionally 'Add members from this space group'. Inheritance from an existing group is visible. The screenshots do not show whether later membership changes keep flowing in.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -94,7 +94,7 @@
         "https://mobbin.com/api/mcp/short/K8Te5pTO"
       ],
       "question": "Q2",
-      "take": "Assign workers to course shows Selected 96 of 96 items, worker metadata, a whole-team warning and Continue into Schedule Assignment. Duplicate learners and net-new enrollment counts are not shown.",
+      "take": "Deel's 'Assign workers to course' screen shows 'Selected 96 of 96 items', worker details, a whole-team warning and 'Continue' into 'Schedule Assignment'. It does not show duplicate learners or how many learners are new to the course.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -110,7 +110,7 @@
         "https://mobbin.com/api/mcp/short/WX6E91XO"
       ],
       "question": "Q2",
-      "take": "Assign workers to course shows Total 96 items, worker metadata and group/status/type filters, with Continue disabled before selection. A whole-team access warning notes that missing workers may need Engage access updated. This is not a selected-learner count or duplicate-conflict screen.",
+      "take": "Deel shows 'Total 96 items', worker details and group, status and type filters. 'Continue' stays disabled until someone is selected. A whole-team access warning says missing workers may need Engage access updated. This is not a selected-learner count or duplicate-conflict screen.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -119,14 +119,14 @@
       "id": "mobbin:bb97eec3-4564-4fab-a695-555b70cf9245",
       "source": "mobbin",
       "app": "GitBook",
-      "title": "Make the selected count explicit before adding",
+      "title": "Show the selected count before adding",
       "kind": "screen",
       "url": "https://mobbin.com/screens/bb97eec3-4564-4fab-a695-555b70cf9245",
       "images": [
         "https://mobbin.com/api/mcp/short/fgiJIr6c"
       ],
       "question": "Q2",
-      "take": "A searchable, role-filtered member picker shows 1 selected and Add 1 member. This is a team-access analogy for a count-bearing enrollment confirmation.",
+      "take": "GitBook's searchable, role-filtered member picker shows '1 selected' and 'Add 1 member'. This is a team-access analogy for putting a count on the enrollment confirmation.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -142,7 +142,7 @@
         "https://mobbin.com/api/mcp/short/74Gvoztb"
       ],
       "question": "Q2",
-      "take": "Before purchase, Review shows course name, number of team members, completion due date and reminder timing, with Edit links. This is a pre-commit review, not proof of completed enrollment or notification delivery.",
+      "take": "Before purchase, Gusto's 'Review' screen shows the course name, number of team members, completion due date and reminder timing, with 'Edit' links. This is a pre-commit review, not proof enrollment finished or a notification was sent.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -161,7 +161,7 @@
         "https://mobbin.com/api/mcp/short/s0Ry7Aiu"
       ],
       "question": "Q2",
-      "take": "Select a member → set due date and optional seven-day email reminder → review course, count, date and reminders with Edit links → inspect per-person and total cost plus post-purchase email disclosure. The captured flow stops before purchase; it does not prove enrollment or email delivery.",
+      "take": "Gusto lets you select a member, set a due date and an optional seven-day email reminder. Then you review course, count, date and reminders with 'Edit' links. It also shows per-person and total cost plus a post-purchase email note. The captured flow stops before purchase, so it does not prove enrollment or email delivery.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -177,7 +177,7 @@
         "https://mobbin.com/api/mcp/short/EwIXTCH7"
       ],
       "question": "Q3",
-      "take": "Circle’s Members table shows role, joined date, paywall and last activity with add/export controls. It does not show group origin or individual enrollment exceptions.",
+      "take": "Circle's Members table shows role, joined date, paywall and last activity, with add and export controls. It does not show where access came from or individual enrollment exceptions.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -198,7 +198,7 @@
         "https://mobbin.com/api/mcp/short/RAJ0paF2"
       ],
       "question": "Q3",
-      "take": "The course dashboard shows student progress, last activity and start date; later previews visit comments. Course status Open is not a learner enrollment status. Roles, group origin and exceptions are not shown.",
+      "take": "Circle's course dashboard shows student progress, last activity and start date; later screens visit comments. Course status 'Open' is not a learner enrollment status. Roles, group origin and exceptions are not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -214,7 +214,7 @@
         "https://mobbin.com/api/mcp/short/1B9BcgHG"
       ],
       "question": "Q3",
-      "take": "The Students table filters by Enrolled In Specific Course(s) and exposes bulk actions, email opt-out and account/activity metadata. It is course-filtered; group origin and exceptions are not shown.",
+      "take": "Teachable's Students table filters by 'Enrolled In Specific Course(s)' and offers bulk actions, email opt-out and account or activity details. It is filtered by course; group origin and exceptions are not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -230,7 +230,7 @@
         "https://images.refero.design/screenshots/partiful.com/desktop/661081f1-0107-49cc-9025-b88327fef7a3_thumb.jpg"
       ],
       "question": "Q4",
-      "take": "Event-invitation analogy: Add Manually/Bulk Add, CSV template and Name/Email headers, recipient review, a message and Send emails share one modal. This does not prove course enrollment or delivery.",
+      "take": "Partiful's event invite screen puts 'Add Manually' and 'Bulk Add', a CSV template with Name and Email headers, recipient review, a message and 'Send emails' in one place. This does not prove course enrollment or delivery.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -253,7 +253,7 @@
         "https://mobbin.com/api/mcp/short/VU2b1SSJ"
       ],
       "question": "Q4",
-      "take": "Students → Add Students → manually enter learners → choose a course/product and payment/access basis → Import → success feedback. Import CSV is a sibling tab, but its mapping and execution are not captured.",
+      "take": "Teachable walks from Students to 'Add Students', manual entry, choosing a course or product and payment or access basis, then 'Import' with success feedback. 'Import CSV' is a sibling tab, but its mapping and run are not captured.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -262,14 +262,14 @@
       "id": "mobbin:eac0772e-c47f-4a3d-973c-f6a7352fe5a1",
       "source": "mobbin",
       "app": "Deel",
-      "title": "Schedule assignment and optional completion deadline",
+      "title": "Schedule assignment and optional deadline",
       "kind": "screen",
       "url": "https://mobbin.com/screens/eac0772e-c47f-4a3d-973c-f6a7352fe5a1",
       "images": [
         "https://mobbin.com/api/mcp/short/b2ui1ZSE"
       ],
       "question": "Q5",
-      "take": "After selecting workers, choose immediate or scheduled assignment, optionally set a deadline, then Assign (96). This is assignment timing and a completion deadline, not a demonstrated enrollment-open or closing window.",
+      "take": "After selecting workers, Deel lets you choose immediate or scheduled assignment, optionally set a deadline, then 'Assign (96)'. This is assignment timing and a completion deadline, not an enrollment open or closing window.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -278,7 +278,7 @@
       "id": "mobbin:13c4d86b-b5dd-446d-8451-66c17cf96e32",
       "source": "mobbin",
       "app": "Fresha",
-      "title": "Collect preferences when joining a booking waitlist",
+      "title": "Collect preferences on a booking waitlist",
       "kind": "flow",
       "url": "https://mobbin.com/flows/13c4d86b-b5dd-446d-8451-66c17cf96e32",
       "images": [
@@ -292,7 +292,7 @@
         "https://mobbin.com/api/mcp/short/011xNvNN"
       ],
       "question": "Q5",
-      "take": "Booking analogy: a full date leads to date/time preferences, a first-visit question, payment/notes review and Join the waitlist. It does not establish course-level capacity, queue priority or automatic promotion.",
+      "take": "In Fresha, a full date leads to date and time preferences, a first-visit question, payment and notes review, then 'Join the waitlist'. It does not establish course-level capacity, queue priority or automatic promotion.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -308,7 +308,7 @@
         "https://mobbin.com/api/mcp/short/sBJO1HGj"
       ],
       "question": "Q5",
-      "take": "Training assignment separates participant selection, dates/reminders and review. The settings include a completion due date, reminders near the deadline, a seven-day reminder toggle and email preview; overdue completion remains possible. A due date is not an enrollment cutoff.",
+      "take": "Gusto's training assignment separates participant selection, dates and reminders, then review. Settings include a completion due date, reminders near the deadline, a seven-day reminder toggle and an email preview. Overdue completion remains possible. A due date is not an enrollment cutoff.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -317,14 +317,14 @@
       "id": "refero:4f821362-5e07-4f2a-9a8d-a63a3330ccdb",
       "source": "refero",
       "app": "Luma",
-      "title": "Pair event capacity with a waitlist policy",
+      "title": "Pair event capacity with a waitlist",
       "kind": "screen",
       "url": "https://refero.design/pages/4f821362-5e07-4f2a-9a8d-a63a3330ccdb",
       "images": [
         "https://images.refero.design/screenshots/lu.ma/desktop/591c4fb6-35ac-440c-9248-ce260385d0f6_thumb.jpg"
       ],
       "question": "Q5",
-      "take": "Event-registration analogy: Max Capacity states registration closes at the limit and exposes an Over-Capacity Waitlist toggle. Group admission and promotion rules are not shown.",
+      "take": "Luma's 'Max Capacity' setting says registration closes at the limit and offers an 'Over-Capacity Waitlist' toggle. Rules for admitting or promoting a whole group are not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -340,7 +340,7 @@
         "https://mobbin.com/api/mcp/short/DLqKAus5"
       ],
       "question": "Q5",
-      "take": "Course Availability groups Start date and Sign-up limit under Limits, with no-limit and limited-sign-up options. Enrollment closing dates and over-capacity group attachment are not shown.",
+      "take": "Podia's Course Availability groups 'Start date' and 'Sign-up limit' under Limits, with no-limit and limited-sign-up options. Enrollment closing dates and attaching an oversize group are not shown.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -356,7 +356,7 @@
         "https://mobbin.com/api/mcp/short/a9YxsroN"
       ],
       "question": "Q6",
-      "take": "The member-invite screen offers manual/CSV/link entry and an explicit Send invites versus Add without notification choice. It demonstrates notification intent, not email delivery or course enrollment completion.",
+      "take": "Circle's member-invite screen offers manual, CSV and link entry, plus an explicit 'Send invites' versus 'Add without notification' choice. It shows notification intent, not email delivery or finished course enrollment.",
       "counter_example": false,
       "selected": false,
       "crop": ""
@@ -365,14 +365,14 @@
       "id": "mobbin:2e1d62a3-dcef-49da-b7f0-83211a076b8a",
       "source": "mobbin",
       "app": "Cloudflare",
-      "title": "A notification exception blocks an invitation",
+      "title": "A skip-email option that fails the invite",
       "kind": "screen",
       "url": "https://mobbin.com/screens/2e1d62a3-dcef-49da-b7f0-83211a076b8a",
       "images": [
         "https://mobbin.com/api/mcp/short/j1zH10jr"
       ],
       "question": "Q6",
-      "take": "Workspace-invite counterexample: selecting Skip confirmation email produces an Enterprise-only error and an invitation failure. The screen makes the failed action visible; it does not demonstrate a course enrollment outcome.",
+      "take": "On Cloudflare's workspace invite, selecting 'Skip confirmation email' produces an Enterprise-only error and the invitation fails. The screen makes the failed action visible; it does not show a course enrollment outcome.",
       "counter_example": true,
       "selected": false,
       "crop": ""
@@ -388,7 +388,7 @@
         "https://mobbin.com/api/mcp/short/fFKO7ujr"
       ],
       "question": "Q6",
-      "take": "The pre-purchase What happens next section states that Gusto will email course information and a link, learners complete the course in Gusto, and the admin tracks progress. This describes future behavior, not an email already sent or received.",
+      "take": "Gusto's pre-purchase 'What happens next' section says Gusto will email course information and a link, learners complete the course in Gusto, and the admin tracks progress. This describes future behavior, not an email already sent or received.",
       "counter_example": false,
       "selected": false,
       "crop": ""

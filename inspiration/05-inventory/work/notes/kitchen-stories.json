@@ -1,0 +1,31 @@
+{
+  "product": "kitchen-stories",
+  "flows": {
+    "mobbin:8c74a0f5-c330-413e-96c1-59a8487cdda2": {
+      "summary": "From Home, the user opens an empty shopping list, adds recipes, checks how many items are missing, scales the servings, and ticks off what they already have.",
+      "steps": [
+        "Home with Shopping list tab",
+        "Shopping List before any items",
+        "Recipes tab all missing",
+        "Recipe detail servings and ingredients",
+        "All items unchecked list",
+        "All items mixed checked and Unmark all"
+      ],
+      "steal": [
+        "Each recipe shows a shortage headline such as '14 out of 14 items missing' before you open its list (screen 3).",
+        "Tabs switch between a list per recipe and one combined list, like grouping by scenario or flattening for a prep run (screens 3 to 6).",
+        "A servings control scales the quantities, like multiplying consumables by the number of learners or repeat runs (screen 4).",
+        "Ticking an item strikes it through, and 'Unmark all' resets the list for the next session (screens 5 to 6)."
+      ],
+      "avoid": [
+        "Matching is by hand only, with no automatic check against what is on the shelf, while the baseline asks for AI or shelf matching (screens 4 to 6)."
+      ],
+      "fit": "Inventory: a manual model for the AI equipment check. A recipe is like a scenario's equipment list, missing items are gaps on the shelf, and ticked items are already there. It does not subtract stock automatically.",
+      "jobs": [
+        "ai-equipment",
+        "low-stock"
+      ],
+      "counter_example": false
+    }
+  }
+}

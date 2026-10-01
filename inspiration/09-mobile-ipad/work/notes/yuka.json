@@ -1,0 +1,32 @@
+{
+  "product": "yuka",
+  "flows": {
+    "mobbin:78ae405b-2c59-46f6-94bc-933c189d235d": {
+      "summary": "From Help, the user picks a recently scanned product, chooses an issue category, and selects which fields are wrong. They write a note, attach a required photo, and get a thank-you with a 48-hour follow-up.",
+      "steps": [
+        "Help with recent scans and problem list",
+        "Product context: What's the issue categories",
+        "Correct a product: pick fields, Next disabled",
+        "Ingredients checked and Next enabled",
+        "Detail form with empty note and Add a photo Mandatory",
+        "Note filled; photo still required",
+        "Choose Take a picture or Photo library",
+        "Thank you alert: reply within 48 hours"
+      ],
+      "steal": [
+        "Recent scans act as reporting shortcuts with a thumb and relative time (screen 1), so you jump to the item you just touched.",
+        "The scanned-item header (photo, name, status, age) stays while picking issue type (screens 2 and 8).",
+        "A required-photo label and disabled Send until evidence is attached (screens 5 to 7) force proof before submit.",
+        "A camera versus library sheet puts Take a picture first (screen 7). A closed-loop Thank you plus reply-within time closes the loop (screen 8)."
+      ],
+      "avoid": [
+        "A deep multi-step path (issue, field pick, note, photo) is too many screens for a gloved sim tech flagging missing or broken gear on a pre-session walk."
+      ],
+      "fit": "Mobile and iPad app: this fits equipment check as an analog. It starts from a scanned item with issue categories and a required photo. It is not a room QR checklist or tick-all walkthrough. Mobile beats the SRV because the tech is at the broken gear. Extend baseline sim-tech setup with item-level flag and evidence handoff.",
+      "jobs": [
+        "equipment-check"
+      ],
+      "counter_example": false
+    }
+  }
+}

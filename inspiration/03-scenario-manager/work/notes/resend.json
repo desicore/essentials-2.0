@@ -1,0 +1,46 @@
+{
+  "product": "resend",
+  "flows": {
+    "mobbin:8914ef26-a0a5-4618-a806-8d1ccba76c3f": {
+      "summary": "From an empty Templates list, the user creates a draft template, fills content, and publishes it as a new version.",
+      "steps": [
+        "Templates with nothing listed yet; Create template",
+        "Blank draft editor with Draft badge",
+        "Editor with content and variables",
+        "Publish New Version: slide to publish",
+        "Library grid with new template card"
+      ],
+      "steal": [
+        "The empty list offers to create a new template or import one, with 'Create' in two places.",
+        "A Draft label stays beside the title until the template is published.",
+        "The 'Publish New Version' pop-up shows '✓ No warnings' and asks you to slide to publish.",
+        "A blank page offers 'Pick a template', 'Upload HTML' and typed / commands to add content."
+      ],
+      "avoid": [
+        "The extra slide-to-publish step should be kept for going live, not for every routine save of a scenario."
+      ],
+      "fit": "Scenario manager: add clear draft and published versions, with a check before publishing. It supports replacing Word and paper with a basic editor, not a Maestro rebuild.",
+      "counter_example": false
+    },
+    "mobbin:62ac5b2e-bca0-4c6c-95c5-3a11fa1336fb": {
+      "summary": "In the draft editor, the user opens 'View History', picks a past version, and restores it while keeping the current version.",
+      "steps": [
+        "Draft editor open",
+        "More menu: View History / Duplicate…",
+        "Version history side timeline",
+        "Prior version selected (restore control)",
+        "Revert version confirm (preserve current)",
+        "Version restored message; still Draft"
+      ],
+      "steal": [
+        "Version history opens as a side panel over the editor, so you do not leave the page.",
+        "The confirmation explains that restoring creates a new version and keeps the current content in the history.",
+        "Each history entry shows how long ago it was saved and who saved it.",
+        "After restoring, the template stays in Draft, so it still has to be published to go live."
+      ],
+      "avoid": [],
+      "fit": "Scenario manager: fills a known gap, because the SCE editor cannot restore old versions clearly. Restoring without losing anything protects faculty work, unlike today's checklists, which lose data when the window closes.",
+      "counter_example": false
+    }
+  }
+}

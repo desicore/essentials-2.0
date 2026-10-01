@@ -1,0 +1,25 @@
+{
+  "product": "google-ai-studio",
+  "flows": {
+    "mobbin:4f2fdd14-7c4b-4cfb-861a-27ea49a594b5": {
+      "summary": "In a multi-speaker playground, the user writes a dialogue with general style instructions, alternating lines for Speaker 1 and Speaker 2, and a name and voice for each speaker.",
+      "steps": [
+        "Multi-speaker playground (style and two speakers)",
+        "Script builder with '+ Add dialog'",
+        "Speaker 1/2 name and voice settings",
+        "Edited style instructions (warm/friendly)"
+      ],
+      "steal": [
+        "General style instructions stay separate from each speaker's lines.",
+        "Each line has a colour-coded speaker label, and '+ Add dialog' adds the next line.",
+        "A settings panel on the right renames a role once and picks its voice, and every line updates.",
+        "A plain-text view next to the script builder can serve as a printable cue card."
+      ],
+      "avoid": [
+        "The text-to-speech voice settings and the Run button that generates audio are not needed, because Essentials needs cue cards for people (SP, operator), not synthetic speech."
+      ],
+      "fit": "Scenario manager: a deliberately basic script builder per role for SP and sim-operator lines, in line with the plan not to build a Maestro editor or a stage machine.",
+      "counter_example": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "product": "whereby",
+  "flows": {
+    "mobbin:9649cfdc-dbbd-4c86-8a2d-9cdd25395064": {
+      "summary": "The user lands on a 'Get started' page showing the plan's remaining minutes. They then open the rooms list to see when each room was last active, its participant minutes and its session count.",
+      "steps": [
+        "Get started: Free plan 2000 participant minutes and create room buttons",
+        "Insights Rooms searchable table: name, Last active, 'PM used', Sessions"
+      ],
+      "steal": [
+        "A plan label on the side always shows the participant minutes left, like a usage budget (screens 1 to 2).",
+        "The rooms list shows 'Last active', 'PM used' and 'Sessions' for each room (screen 2).",
+        "A small hint on the column header explains Participant Minutes (PM) while you read the number (screen 2)."
+      ],
+      "avoid": [
+        "The flow opens on a welcome page before the insights; room use should not sit behind a getting-started screen (screen 1)."
+      ],
+      "fit": "Reports: a direct match for sim-room use, from the room list to minutes and sessions. It moves Essentials toward room-hour numbers taken from the calendar."
+    },
+    "mobbin:df187e39-3913-4484-8e5e-6af9a2f548c7": {
+      "summary": "The user opens the rooms list, shows the hint that defines Participant Minutes (PM), then opens one room's details with summary boxes and a log of PM per session.",
+      "steps": [
+        "Insights Rooms list: room row with 'PM used' and Sessions",
+        "PM hint: Participant Minutes equals sum of participant time",
+        "Room details: Sessions, Unique participants, 'PM used', and session table"
+      ],
+      "steal": [
+        "A hint defines PM right where you read the number (screen 2).",
+        "Room details show three headline numbers, then a row per session with duration, participants and 'PM used' (screen 3).",
+        "A 'Back to Rooms' link and a room name you can copy sit at the top (screen 3)."
+      ],
+      "avoid": [],
+      "fit": "Reports: the best first-version pattern for room use, from the list to a clearly defined unit of minutes to a log per session, without a report builder."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "product": "notion",
+  "flows": {
+    "mobbin:b0cb149f-d742-4d9e-a22f-5dfe5d15b0b1": {
+      "summary": "From Workspace Import, the user chooses CSV, uploads a file, maps headers to property types with a live table preview, and lands on a new database page of imported rows.",
+      "steps": [
+        "Import hub: Discover and drop zone",
+        "Import hub: CSV and third-party tiles",
+        "Import CSV window: Choose file",
+        "File selected: Map CSV headers",
+        "Setup columns: types and live preview",
+        "Result database table"
+      ],
+      "steal": [
+        "The wording states create a new database or merge into an existing one (screens 3 to 4), which calls out the merge path for re-import.",
+        "'Use first row as headers' sits beside property-type lists and a live preview (screen 5).",
+        "After Import CSV, the result is an immediate typed database page (screen 6)."
+      ],
+      "avoid": [
+        "This capture shows create-new only; no error or duplicate-resolution UI or matching-key picker on screen, so it is thin for bulk schedule re-imports."
+      ],
+      "fit": "Scheduling: light CSV to typed table path for first-time roster ingest. Essentials still needs Attio-like create/update preview and error resolution for master-file updates.",
+      "counter_example": false
+    },
+    "mobbin:601c6b07-ab5a-4a8b-8dfa-7f2d39b090b3": {
+      "summary": "From Meetings sidebar, the user connects Google or iCloud calendar, then sees upcoming events with Join and Transcribe, a Meet link, participants, and Open in calendar.",
+      "steps": [
+        "Meetings sidebar: Connect Calendar",
+        "Connect window: Google or iCloud",
+        "Meetings list: Upcoming, Today, Yesterday",
+        "Event actions: Join and Transcribe",
+        "Event menu: Meet link, Open in calendar",
+        "Participants list (workspace and external)"
+      ],
+      "steal": [
+        "The Connect button sits where events will appear (screen 1), not only in settings.",
+        "After connect, the sidebar shows events with Join and Open in calendar (screens 4 to 6), which proves what synced.",
+        "The connect window wording names AI notes and schedule via Notion AI (screen 2), stating the product purpose of the sync."
+      ],
+      "avoid": [
+        "The flow does not show write-back rules, conflict handling, or Outlook, so it is insufficient alone as the Essentials Outlook sync model."
+      ],
+      "fit": "Scheduling: pattern for faculty or learner 'see my sessions here' after connect. Essentials should add Outlook, directionality, and room or simulator conflict read.",
+      "counter_example": false
+    }
+  }
+}

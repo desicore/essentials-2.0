@@ -1,0 +1,139 @@
+{
+  "references": [
+    {
+      "id": "mobbin:ee3075cd-af6e-4a12-b483-b0045f9f0b41",
+      "source": "mobbin",
+      "app": "Deel",
+      "title": "Adding equipment",
+      "kind": "flow",
+      "platform": "web",
+      "url": "https://mobbin.com/flows/ee3075cd-af6e-4a12-b483-b0045f9f0b41",
+      "images": [
+        "https://mobbin.com/api/mcp/short/vSOXE9rK",
+        "https://mobbin.com/api/mcp/short/5il26jEK",
+        "https://mobbin.com/api/mcp/short/EvyvbDOr",
+        "https://mobbin.com/api/mcp/short/erth5qCp",
+        "https://mobbin.com/api/mcp/short/4an6IvWM",
+        "https://mobbin.com/api/mcp/short/rvGn1l1Q"
+      ],
+      "jobs": ["check-out-manual", "items"],
+      "take": "Assigns equipment to a person with metadata (type, model, serial, condition, notes), tracks delivery status and shipping dates—core checklist for inventory assignment."
+    },
+    {
+      "id": "mobbin:23c3bd61-0672-458b-ae86-5bb028da5384",
+      "source": "mobbin",
+      "app": "Deel",
+      "title": "Adding equipment",
+      "kind": "flow",
+      "platform": "ios",
+      "url": "https://mobbin.com/flows/23c3bd61-0672-458b-ae86-5bb028da5384",
+      "images": [
+        "https://mobbin.com/api/mcp/short/P8noGl9S",
+        "https://mobbin.com/api/mcp/short/AtUeR5ZR",
+        "https://mobbin.com/api/mcp/short/Ia1f1LKI",
+        "https://mobbin.com/api/mcp/short/WL8wlfb2",
+        "https://mobbin.com/api/mcp/short/1Uwt5P5y",
+        "https://mobbin.com/api/mcp/short/vNGvvyuJ3",
+        "https://mobbin.com/api/mcp/short/vNUk3rOh",
+        "https://mobbin.com/api/mcp/short/vNRg559v"
+      ],
+      "jobs": ["check-out-manual", "items"],
+      "take": "Mobile view of equipment assignment including device selection, inventory status, condition, and delivery/shipping preferences—matches Essentials check-out workflow."
+    },
+    {
+      "id": "mobbin:f3e5d01f-52e2-4e5f-942d-006f39c62273",
+      "source": "mobbin",
+      "app": "Employment Hero",
+      "title": "Registering an asset",
+      "kind": "flow",
+      "platform": "web",
+      "url": "https://mobbin.com/flows/f3e5d01f-52e2-4e5f-942d-006f39c62273",
+      "images": [
+        "https://mobbin.com/api/mcp/short/e2GsZI8S",
+        "https://mobbin.com/api/mcp/short/NcHZhrCP",
+        "https://mobbin.com/api/mcp/short/8Y0a1rul",
+        "https://mobbin.com/api/mcp/short/qHqDF4PR",
+        "https://mobbin.com/api/mcp/short/cVmu87X5"
+      ],
+      "jobs": ["check-out-manual", "items"],
+      "take": "Asset registration captures code, name, category, purchase date/amount, condition—foundational for inventory item master data."
+    },
+    {
+      "id": "mobbin:58cd5280-42c1-4bea-8d20-635fcbf3b882",
+      "source": "mobbin",
+      "app": "Deel",
+      "title": "Asset detail",
+      "kind": "flow",
+      "platform": "web",
+      "url": "https://mobbin.com/flows/58cd5280-42c1-4bea-8d20-635fcbf3b882",
+      "images": [
+        "https://mobbin.com/api/mcp/short/W1ubhrHc",
+        "https://mobbin.com/api/mcp/short/TpTZkIqo",
+        "https://mobbin.com/api/mcp/short/6TRafPxD"
+      ],
+      "jobs": ["items"],
+      "take": "Displays asset tracking state (location, storage intake date, status, ongoing service)—inventory visibility layer."
+    },
+    {
+      "id": "mobbin:9f1a536c-16bb-424e-a558-0604130c4576",
+      "source": "mobbin",
+      "app": "Turo",
+      "title": "Ending a trip",
+      "kind": "flow",
+      "platform": "ios",
+      "url": "https://mobbin.com/flows/9f1a536c-16bb-424e-a558-0604130c4576",
+      "images": [
+        "https://mobbin.com/api/mcp/short/jE6Qg3T2",
+        "https://mobbin.com/api/mcp/short/bvhdEZki",
+        "https://mobbin.com/api/mcp/short/UngzSyWq",
+        "https://mobbin.com/api/mcp/short/DXLNNHDY",
+        "https://mobbin.com/api/mcp/short/RPKna1OR",
+        "https://mobbin.com/api/mcp/short/5w1Ag9yX",
+        "https://mobbin.com/api/mcp/short/RsB8bJif",
+        "https://mobbin.com/api/mcp/short/f7QwgNFX"
+      ],
+      "jobs": ["check-out-manual"],
+      "take": "Complete return flow: trip countdown (time remaining), damage report, photo documentation, condition verification before check-in—rental return pattern."
+    },
+    {
+      "id": "mobbin:008e0e00-3ad2-45b8-b777-cca37ae9e087",
+      "source": "mobbin",
+      "app": "Uber",
+      "title": "Rent a car",
+      "kind": "flow",
+      "platform": "ios",
+      "url": "https://mobbin.com/flows/008e0e00-3ad2-45b8-b777-cca37ae9e087",
+      "images": [
+        "https://mobbin.com/api/mcp/short/s9fWHh5f",
+        "https://mobbin.com/api/mcp/short/PZwfeqo3",
+        "https://mobbin.com/api/mcp/short/8yFs8xui",
+        "https://mobbin.com/api/mcp/short/xLmE46rI",
+        "https://mobbin.com/api/mcp/short/BqUYvzKv",
+        "https://mobbin.com/api/mcp/short/EsVaovUs",
+        "https://mobbin.com/api/mcp/short/gpZgr6mI",
+        "https://mobbin.com/api/mcp/short/DIbCPwKB"
+      ],
+      "jobs": ["check-out-manual"],
+      "take": "Rental booking: select vehicle, set pickup/drop-off dates and times, flexible cancellation—checkout with who/what/when captured."
+    },
+    {
+      "id": "mobbin:928e0f27-77e0-456e-b079-4914013cb117",
+      "source": "mobbin",
+      "app": "Turo",
+      "title": "Blocking availability",
+      "kind": "flow",
+      "platform": "ios",
+      "url": "https://mobbin.com/flows/928e0f27-77e0-456e-b079-4914013cb117",
+      "images": [
+        "https://mobbin.com/api/mcp/short/0mzCwaa4",
+        "https://mobbin.com/api/mcp/short/9s4Sg6Ng",
+        "https://mobbin.com/api/mcp/short/XEHfZMr1",
+        "https://mobbin.com/api/mcp/short/FjvEwaAc",
+        "https://mobbin.com/api/mcp/short/jN8jP6bX",
+        "https://mobbin.com/api/mcp/short/KYaGuME7"
+      ],
+      "jobs": ["check-out-manual"],
+      "take": "Marks asset unavailability for date ranges with start/end time selection—models overdue and reservation blocking for Essentials due dates."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "product": "better-stack",
+  "flows": {
+    "mobbin:ed948f6a-ac7b-4742-add9-fafc58fda138": {
+      "summary": "lands on the Incidents home showing an Ongoing sample incident with a sidebar badge, then switches Comments and Post-mortems tabs while a first-run setup checklist stays on screen.",
+      "steps": [
+        "Incidents home with Ongoing sample and setup checklist",
+        "Incidents with comments, Ongoing and resolved rows",
+        "Post-mortems tab with Ongoing sample and checklist",
+        "Post-mortems tab again"
+      ],
+      "steal": [
+        "The home leads with the problem: an Ongoing incident with a red status, started-at time, and an Incidents sidebar badge of 1, with no All systems OK banner.",
+        "A setup checklist stays on screen with progress (5 of 6 left), a completed check, and the next step expanded with an Integrations button.",
+        "Report a new incident sits as a global main action beside search (screen 1)."
+      ],
+      "avoid": [
+        "The setup checklist takes about half the home while an incident is Ongoing, which clashes with show little, but precisely for faculty."
+      ],
+      "fit": "Dashboard: the incident list and badge is the system-health problem surface and hands off room audio and video (AV) failures to Recording. The setup checklist is dashboard-only first-run for rooms, cameras, and users, not Reports.",
+      "jobs": [
+        "system-health",
+        "first-run",
+        "action-items"
+      ]
+    },
+    "mobbin:fc2ba92b-4783-43da-92c7-8acf4f16a080": {
+      "summary": "opens an Ongoing unacknowledged incident, acknowledges it so the owner is shown, resolves it with an AI post-mortem, then reviews details and a timeline of acknowledge and resolve.",
+      "steps": [
+        "Incident detail Ongoing, with Acknowledge as the main button",
+        "Acknowledged with owner shown and Resolve as the main button",
+        "Resolved with an AI post-mortem summary",
+        "Details plus acknowledge and resolve timeline"
+      ],
+      "steal": [
+        "The problem state offers Escalate and Acknowledge, and a green banner names who was escalated to (Alex), so who to call is explicit.",
+        "Acknowledge stamps the owner, and the main button flips to Resolve (screen 2).",
+        "Resolve closes the loop with duration, severity, team, and owner details, plus a timestamped timeline, as a guided ownership path rather than a help-article list.",
+        "These screens convey health by incident presence and sidebar count, without an at-a-glance All OK view."
+      ],
+      "avoid": [],
+      "fit": "Dashboard: Acknowledge then Resolve with a named owner is the system-health fix path for failed room self-tests. Deep device repair still hands off to Recording, while Who's on-call maps to User management and the sim-tech roster.",
+      "jobs": [
+        "system-health",
+        "action-items"
+      ]
+    }
+  }
+}

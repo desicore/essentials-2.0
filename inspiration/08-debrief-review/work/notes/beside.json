@@ -1,0 +1,31 @@
+{
+  "product": "beside",
+  "flows": {
+    "mobbin:b5d1550e-5945-48c2-97c4-e12e9ea63dc4": {
+      "summary": "The user turns on In-Person Recorder in Settings, starts a floating background recording with a live waveform, then lands on a Meeting Overview with transcript, share targets and short playback.",
+      "steps": [
+        "Settings: In-Person Recorder off",
+        "In-Person Recorder on, with record button",
+        "Floating recorder at 0:00",
+        "Recording in progress with timer and waveform",
+        "Meeting Overview: tasks, share, play"
+      ],
+      "steal": [
+        "Settings has its own 'In-Person Recorder' switch, so recording a conversation in the room is a clear mode, not a one-off (screens 1 to 2).",
+        "A floating recorder with a timer, sound wave and stop button stays on screen while the user moves around the app (screens 3 to 4).",
+        "After the session, an overview shows a transcript link, sharing to Slack, email or notes, and playback with 'See Transcription' (screen 5).",
+        "When the AI finds nothing to do, the to-do list says 'No actions, you're in the clear!' (screen 5)."
+      ],
+      "avoid": [
+        "No consent or permission prompt appears when enabling or starting in-person recording, but the baseline needs consent before capturing faculty or group speech."
+      ],
+      "fit": "Debrief and review: a strong pattern for a phone voice-memo fallback beside the debrief room. Add consent before record and attach output to the session report.",
+      "jobs": [
+        "record-debrief",
+        "ai-debrief",
+        "download-share"
+      ],
+      "counter_example": false
+    }
+  }
+}

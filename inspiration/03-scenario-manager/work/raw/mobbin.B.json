@@ -1,0 +1,227 @@
+{"references": [
+  {
+    "id": "mobbin:94df2baf-9653-4a11-ba8d-5131225a4ea4",
+    "source": "mobbin",
+    "app": "Instacart",
+    "title": "Creating a list",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/94df2baf-9653-4a11-ba8d-5131225a4ea4",
+    "images": [
+      "https://mobbin.com/api/mcp/short/XEsD9BFD",
+      "https://mobbin.com/api/mcp/short/l1FnQuBs",
+      "https://mobbin.com/api/mcp/short/36Y1mU6B",
+      "https://mobbin.com/api/mcp/short/BAdlY5MW",
+      "https://mobbin.com/api/mcp/short/nVsgZDvG",
+      "https://mobbin.com/api/mcp/short/FPKXC0oF",
+      "https://mobbin.com/api/mcp/short/pKoYgfa8",
+      "https://mobbin.com/api/mcp/short/uB9VGS62",
+      "https://mobbin.com/api/mcp/short/jGvTsJ7p",
+      "https://mobbin.com/api/mcp/short/ZfLvYkJE"
+    ],
+    "platform": "web",
+    "jobs": ["equipment"],
+    "take": "User creates a named shopping list, adds items with quantities, searches catalog by category, adds notes to items, views finalized list ready to purchase."
+  },
+  {
+    "id": "mobbin:3189d051-d3cd-4f75-a8a1-69bf686a5619",
+    "source": "mobbin",
+    "app": "HelloFresh",
+    "title": "Recipe detail",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/3189d051-d3cd-4f75-a8a1-69bf686a5619",
+    "images": [
+      "https://mobbin.com/api/mcp/short/9sj85Gbd",
+      "https://mobbin.com/api/mcp/short/TEGj8w0p",
+      "https://mobbin.com/api/mcp/short/Gpxqu0p1",
+      "https://mobbin.com/api/mcp/short/9IWTKHwH",
+      "https://mobbin.com/api/mcp/short/eJEBrptA",
+      "https://mobbin.com/api/mcp/short/pq2IYz5j"
+    ],
+    "platform": "web",
+    "jobs": ["equipment"],
+    "take": "User views detailed ingredient list with quantities by serving size, allergenic annotations, and nutritional values; list is printable and shoppable as reference."
+  },
+  {
+    "id": "mobbin:37b24309-fd83-4db9-b487-eeee34df4888",
+    "source": "mobbin",
+    "app": "Amazon",
+    "title": "Adding items to a list",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/37b24309-fd83-4db9-b487-eeee34df4888",
+    "images": [
+      "https://mobbin.com/api/mcp/short/QoSkFpYp",
+      "https://mobbin.com/api/mcp/short/aGeVu8Ii",
+      "https://mobbin.com/api/mcp/short/mTqyih41",
+      "https://mobbin.com/api/mcp/short/GmbCfMi7",
+      "https://mobbin.com/api/mcp/short/JSHBkRBO",
+      "https://mobbin.com/api/mcp/short/tdJab6n1"
+    ],
+    "platform": "web",
+    "jobs": ["equipment"],
+    "take": "User picks items from a named wishlist, adds each to a shopping list, modifies quantities, optionally adds notes, and views cumulative list with price totals."
+  },
+  {
+    "id": "mobbin:64576f73-4cc4-46c7-9694-b8f291ce4756",
+    "source": "mobbin",
+    "app": "DoorDash",
+    "title": "Searching for items by list",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/64576f73-4cc4-46c7-9694-b8f291ce4756",
+    "images": [
+      "https://mobbin.com/api/mcp/short/mowiuPrE",
+      "https://mobbin.com/api/mcp/short/smKB54tb",
+      "https://mobbin.com/api/mcp/short/uXUNrcML",
+      "https://mobbin.com/api/mcp/short/MeoTBsd0"
+    ],
+    "platform": "web",
+    "jobs": ["equipment"],
+    "take": "User types multiple grocery items as free text with 'all-in-one' search, receives results categorized by type, and can add each found item to a cumulative list."
+  },
+  {
+    "id": "mobbin:bca8c4f6-1881-4c45-aaf0-cf62467189b4",
+    "source": "mobbin",
+    "app": "Programa",
+    "title": "Creating a schedule",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/bca8c4f6-1881-4c45-aaf0-cf62467189b4",
+    "images": [
+      "https://mobbin.com/api/mcp/short/Zc8ZYzZa",
+      "https://mobbin.com/api/mcp/short/3hQOMR1U",
+      "https://mobbin.com/api/mcp/short/El1gykN2",
+      "https://mobbin.com/api/mcp/short/kE5q7WdR",
+      "https://mobbin.com/api/mcp/short/PLZcFFQq",
+      "https://mobbin.com/api/mcp/short/GSKhtnas",
+      "https://mobbin.com/api/mcp/short/UPR4Jsy9"
+    ],
+    "platform": "web",
+    "jobs": ["scripts"],
+    "take": "User creates a schedule with named sections (roles), assigns items to each section, and publishes with version tracking."
+  },
+  {
+    "id": "mobbin:4f2fdd14-7c4b-4cfb-861a-27ea49a594b5",
+    "source": "mobbin",
+    "app": "Google AI Studio",
+    "title": "Adding dialogue",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/4f2fdd14-7c4b-4cfb-861a-27ea49a594b5",
+    "images": [
+      "https://mobbin.com/api/mcp/short/RitG5r32",
+      "https://mobbin.com/api/mcp/short/xQxgGStd",
+      "https://mobbin.com/api/mcp/short/La0KBup5",
+      "https://mobbin.com/api/mcp/short/ceyfi2Mr"
+    ],
+    "platform": "web",
+    "jobs": ["scripts"],
+    "take": "User adds multi-speaker dialogue with role labels (Speaker 1, Speaker 2), distinguishes system tone instructions from speaker text, edits per speaker, and saves."
+  },
+  {
+    "id": "mobbin:e449b336-e1ff-4101-aa71-15c5b9b54a09",
+    "source": "mobbin",
+    "app": "Vimeo",
+    "title": "Generating a script",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/e449b336-e1ff-4101-aa71-15c5b9b54a09",
+    "images": [
+      "https://mobbin.com/api/mcp/short/IbGggl4B",
+      "https://mobbin.com/api/mcp/short/E4fxvI8o",
+      "https://mobbin.com/api/mcp/short/TgKHVMP6",
+      "https://mobbin.com/api/mcp/short/9QxRgY1M",
+      "https://mobbin.com/api/mcp/short/YF77onhs",
+      "https://mobbin.com/api/mcp/short/1RAqLwmB",
+      "https://mobbin.com/api/mcp/short/Ura2oZJ6",
+      "https://mobbin.com/api/mcp/short/XJFcrw0m"
+    ],
+    "platform": "web",
+    "jobs": ["scripts"],
+    "take": "User answers prompts about script context, tone, and duration; AI generates script with marked sections; user selects variations and refines before saving."
+  },
+  {
+    "id": "mobbin:b5d07434-faa4-48e5-ad50-e65f6674e5e8",
+    "source": "mobbin",
+    "app": "WRITER",
+    "title": "Adding instructions",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/b5d07434-faa4-48e5-ad50-e65f6674e5e8",
+    "images": [
+      "https://mobbin.com/api/mcp/short/QnX9en5V",
+      "https://mobbin.com/api/mcp/short/f5MncRlO",
+      "https://mobbin.com/api/mcp/short/g8q0N1rp",
+      "https://mobbin.com/api/mcp/short/d4LhsXwm"
+    ],
+    "platform": "web",
+    "jobs": ["scripts"],
+    "take": "User enters step-by-step instructions with formatting, specifies connectors (AND/OR logic), and saves as reusable playbook/procedure."
+  },
+  {
+    "id": "mobbin:fe4ba717-dad7-4944-aeae-77cbfb51c663",
+    "source": "mobbin",
+    "app": "AirOps",
+    "title": "Creating a playbook",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/fe4ba717-dad7-4944-aeae-77cbfb51c663",
+    "images": [
+      "https://mobbin.com/api/mcp/short/WHKTOF52",
+      "https://mobbin.com/api/mcp/short/PCo1eBq3",
+      "https://mobbin.com/api/mcp/short/bAsPOS5A",
+      "https://mobbin.com/api/mcp/short/gEEVKEiM",
+      "https://mobbin.com/api/mcp/short/FmDyoQGy",
+      "https://mobbin.com/api/mcp/short/IrSvidR7"
+    ],
+    "platform": "web",
+    "jobs": ["scripts"],
+    "take": "User creates sections with step-by-step instructions, adds actions/triggers, optionally adds embeds, saves and publishes playbook version for reuse."
+  },
+  {
+    "id": "mobbin:f0c62f24-6d13-42f6-acb6-f36d7c2a856e",
+    "source": "mobbin",
+    "app": "Pitch",
+    "title": "Adding a speaker note",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/f0c62f24-6d13-42f6-acb6-f36d7c2a856e",
+    "images": [
+      "https://mobbin.com/api/mcp/short/AcjLGqI5",
+      "https://mobbin.com/api/mcp/short/EwAgam69",
+      "https://mobbin.com/api/mcp/short/KgYsX64c",
+      "https://mobbin.com/api/mcp/short/NPHxJC91"
+    ],
+    "platform": "web",
+    "jobs": ["scripts"],
+    "take": "User adds speaker notes per slide, hides notes from audience view, displays in presenter mode, and saves as part of deck."
+  },
+  {
+    "id": "mobbin:e25e44a2-0c1d-455e-b244-f948e1c18d41",
+    "source": "mobbin",
+    "app": "Miro",
+    "title": "Adding presenter notes",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/e25e44a2-0c1d-455e-b244-f948e1c18d41",
+    "images": [
+      "https://mobbin.com/api/mcp/short/S2F8vRVt",
+      "https://mobbin.com/api/mcp/short/22IR43lk",
+      "https://mobbin.com/api/mcp/short/wGfqxwpJ",
+      "https://mobbin.com/api/mcp/short/Dfujjj8B"
+    ],
+    "platform": "web",
+    "jobs": ["scripts"],
+    "take": "User adds frame-by-frame presenter notes visible only in editor, navigates frames, and maintains notes for reference during presentation."
+  },
+  {
+    "id": "mobbin:8ba1e154-a6f3-4af3-b26b-dbd0b2ce90fa",
+    "source": "mobbin",
+    "app": "Gamma",
+    "title": "Presenter view",
+    "kind": "flow",
+    "url": "https://mobbin.com/flows/8ba1e154-a6f3-4af3-b26b-dbd0b2ce90fa",
+    "images": [
+      "https://mobbin.com/api/mcp/short/sdWK3hZz",
+      "https://mobbin.com/api/mcp/short/eO3vPx0Z",
+      "https://mobbin.com/api/mcp/short/sgvytIEN",
+      "https://mobbin.com/api/mcp/short/BXr4HPyJ",
+      "https://mobbin.com/api/mcp/short/2qIOeVjX",
+      "https://mobbin.com/api/mcp/short/qILbjmfg"
+    ],
+    "platform": "web",
+    "jobs": ["scripts"],
+    "take": "Presenter view shows current slide with speaker notes visible to presenter only; separate window/view from audience display."
+  }
+]}

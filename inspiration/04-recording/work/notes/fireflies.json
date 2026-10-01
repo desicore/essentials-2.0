@@ -1,0 +1,37 @@
+{
+  "product": "fireflies",
+  "flows": {
+    "mobbin:2b3f4914-5fd3-49bc-8f83-32b7fcab62d3": {
+      "summary": "From Home, the user opens Live Notes on a LIVE banner, sees AI Notes still writing plus AskFred shortcuts, then works a live Transcript with 'REC' and assists.",
+      "steps": [
+        "Home LIVE banner with Live Notes and Stop",
+        "AI Notes writing with Catch me up",
+        "Live Assist with REC, transcript, assists"
+      ],
+      "steal": [
+        "A global LIVE banner shows session title, start time, 'Live Notes' and 'Stop' (screen 1), so recording is visible outside the player.",
+        "AI Notes say 'writing notes… points will appear here automatically' (screen 2) while speech-to-text works.",
+        "'Catch me up (Last 1 min)' and related assists (screens 2-3) help faculty re-enter without jumping through the video.",
+        "A live transcript shows speaker initials, clickable times and 'Scroll to bottom' (screen 3), like SRV Transcript during recording."
+      ],
+      "avoid": [
+        "Deal-centric AskFred prompts such as 'Ask anything across your deal' (screens 2-3) frame the wrong domain for clinical sim, so keep assists clinical and scenario-focused."
+      ],
+      "fit": "Recording: would add live Annotation and Transcript to the SRV and a Center Overview LIVE strip, with AI markers during the session and Catch-me-up for faculty who stepped away."
+    },
+    "mobbin:f1e15c44-a1fc-4eee-8644-7320cbca554b": {
+      "summary": "In post-meeting review, the user selects a transcript span, bookmarks it so a star appears on the timeline, with AI summary and notes linking to the same times.",
+      "steps": [
+        "Review with AI notes and transcript selection",
+        "Bookmarked span with pink highlight and star"
+      ],
+      "steal": [
+        "Selecting transcript text bookmarks it (screens 1-2), so Annotation can come from the Transcript tab, not only the marker track.",
+        "A star on the progress bar marks the bookmarked moment (screen 2), so one clear pin reduces marker collision risk.",
+        "AI Notes bullets have blue jump times (screens 1-2), so summary and seek work like SRV chapters."
+      ],
+      "avoid": [],
+      "fit": "Recording: would extend SRV Transcript so selecting text pins a single timeline star and Annotation entry instead of stacking more overlapping speech-bubble markers."
+    }
+  }
+}

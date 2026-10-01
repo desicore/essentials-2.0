@@ -1,0 +1,33 @@
+{
+  "product": "fresha",
+  "flows": {
+    "mobbin:4359c189-557b-424c-af85-3b1a7b5740bd": {
+      "summary": "From the empty Products landing the user starts Add new product, fills name/barcode/brand/measure/descriptions/photo/category, scrolls into Pricing and Inventory (SKU), saves, and lands on Product list with a created toast.",
+      "steps": [
+        "Products empty Start now",
+        "Add product form empty",
+        "Name + barcode warning",
+        "Brand and measure amount",
+        "Fill short/long descriptions",
+        "Photo uploading",
+        "Main photo assigned",
+        "Category still unset",
+        "Category added toast",
+        "Pricing and retail toggles",
+        "Supply price and SKU",
+        "Product list created"
+      ],
+      "steal": [
+        "Empty state sells catalog + ops: Start now, import many at once, and low stock reminders in one pitch (step 1).",
+        "Soft barcode validation that warns without blocking save (steps 3–9).",
+        "Measure dropdown paired with Amount (ml 100) for volume consumables (steps 4–5).",
+        "Enable retail sales toggle that can hide sell/commission chrome when the item is stock-only (step 10)."
+      ],
+      "avoid": [
+        "Team member commission + markup/tax stack on create (steps 10–11) — salon POS fields, not sim equipment."
+      ],
+      "fit": "Extends basic items with barcode + unit/amount useful for consumables and later scan check-out; clash if we ship full retail pricing on create. Catalog vs Inventory (Stocktakes / Stock orders / Suppliers) split is a useful IA hint.",
+      "counter_example": false
+    }
+  }
+}

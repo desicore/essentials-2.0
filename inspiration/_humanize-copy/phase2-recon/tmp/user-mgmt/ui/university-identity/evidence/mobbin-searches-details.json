@@ -1,0 +1,286 @@
+{
+  "tools_used": [
+    "ToolSearch",
+    "mcp__mobbin__search_flows"
+  ],
+  "mobbin_tools_available": [
+    "mcp__mobbin__search_flows",
+    "mcp__mobbin__search_screens",
+    "mcp__mobbin__search_sections"
+  ],
+  "notes": "No flow-detail/get-by-id tool and no image-retrieval tool are exposed. Screenshot image URLs below are verbatim `image_url` values returned by search_flows; no width/height or per-screen label fields were returned. Flow-level `name` is given as title.",
+  "searches": [
+    {
+      "query": "signing in with SSO where an existing account already exists and identity linking shows the account has no access to the managed organization",
+      "platform": "web",
+      "limit": 3,
+      "page": 1,
+      "has_next_page": true,
+      "results": [
+        {
+          "flow_id": "430942ac-9004-4999-91aa-b1ce2d2537df",
+          "title": "Logging in",
+          "app": "Twingate",
+          "source_url": "https://mobbin.com/flows/430942ac-9004-4999-91aa-b1ce2d2537df",
+          "screen_count": 2,
+          "screenshots": [
+            {
+              "position": 1,
+              "screenshot_id": "0223cd02-29d3-40de-ab9c-4a19073ec719",
+              "image_url": "https://mobbin.com/api/mcp/short/sg4lzOv7"
+            },
+            {
+              "position": 2,
+              "screenshot_id": "ccfa3aa7-dd0f-4951-890a-eb2090ac9c4d",
+              "image_url": "https://mobbin.com/api/mcp/short/I4chhhPI"
+            }
+          ]
+        },
+        {
+          "flow_id": "93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "title": "Logging in",
+          "app": "incident.io",
+          "source_url": "https://mobbin.com/flows/93a5db68-6f50-4b51-90fd-0b5ae39257a5",
+          "screen_count": 4,
+          "screenshots": [
+            {
+              "position": 1,
+              "screenshot_id": "d320f96d-739d-45ea-a4a7-8c8f92fcaf90",
+              "image_url": "https://mobbin.com/api/mcp/short/XgM8et9w"
+            },
+            {
+              "position": 2,
+              "screenshot_id": "5ceb2f48-9668-421d-b59a-70da94d82a2e",
+              "image_url": "https://mobbin.com/api/mcp/short/sXgvFIuj"
+            },
+            {
+              "position": 3,
+              "screenshot_id": "e1843d29-60fa-4786-9191-b9704e17142d",
+              "image_url": "https://mobbin.com/api/mcp/short/cuiD0gpD"
+            },
+            {
+              "position": 4,
+              "screenshot_id": "95e1a260-5034-4e86-82cd-04c17cd785fa",
+              "image_url": "https://mobbin.com/api/mcp/short/SRghy8zZ"
+            }
+          ]
+        },
+        {
+          "flow_id": "ce779e11-e45f-4a02-b2c2-128c4ba402ae",
+          "title": "Logging in",
+          "app": "Plain",
+          "source_url": "https://mobbin.com/flows/ce779e11-e45f-4a02-b2c2-128c4ba402ae",
+          "screen_count": 4,
+          "screenshots": [
+            {
+              "position": 1,
+              "screenshot_id": "b9ff7441-defd-4155-a73e-ec088c14eff3",
+              "image_url": "https://mobbin.com/api/mcp/short/7QphgbDc"
+            },
+            {
+              "position": 2,
+              "screenshot_id": "42ecbd80-9dc0-4982-8143-950274a2149e",
+              "image_url": "https://mobbin.com/api/mcp/short/tHTAQPIy"
+            },
+            {
+              "position": 3,
+              "screenshot_id": "49a2924d-b093-4717-b8c4-ffce9586f715",
+              "image_url": "https://mobbin.com/api/mcp/short/jJtzIdgB"
+            },
+            {
+              "position": 4,
+              "screenshot_id": "51f96c92-d0ba-4d47-afa7-7472885a1407",
+              "image_url": "https://mobbin.com/api/mcp/short/gmHtzWXe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "admin viewing directory synced groups and externally managed users provisioned through SCIM",
+      "platform": "web",
+      "limit": 3,
+      "page": 1,
+      "has_next_page": true,
+      "results": [
+        {
+          "flow_id": "986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "title": "Directory",
+          "app": "Okta",
+          "source_url": "https://mobbin.com/flows/986b4b4a-9fa5-470e-92fb-ecb1ba4d7a1f",
+          "screen_count": 5,
+          "screenshots": [
+            {
+              "position": 1,
+              "screenshot_id": "91368794-4b0a-44aa-8556-4865258940d3",
+              "image_url": "https://mobbin.com/api/mcp/short/OzyY7VDd"
+            },
+            {
+              "position": 2,
+              "screenshot_id": "02a533b3-ba02-4194-b5cb-5762d3d2b279",
+              "image_url": "https://mobbin.com/api/mcp/short/NAEUpnqU"
+            },
+            {
+              "position": 3,
+              "screenshot_id": "9f98944b-93c9-4dc2-85f4-11f991d0545e",
+              "image_url": "https://mobbin.com/api/mcp/short/UmfVz8n8"
+            },
+            {
+              "position": 4,
+              "screenshot_id": "cc52905e-1f42-4fe7-984a-6a86f8271bc6",
+              "image_url": "https://mobbin.com/api/mcp/short/pImW0NVr"
+            },
+            {
+              "position": 5,
+              "screenshot_id": "2ae61b76-5411-42b1-87ec-3564bde6bd73",
+              "image_url": "https://mobbin.com/api/mcp/short/vIv4bcae"
+            }
+          ]
+        },
+        {
+          "flow_id": "715b2b76-8c2f-424a-b65b-6b89b465e22a",
+          "title": "Integrations",
+          "app": "1Password",
+          "source_url": "https://mobbin.com/flows/715b2b76-8c2f-424a-b65b-6b89b465e22a",
+          "screen_count": 3,
+          "screenshots": [
+            {
+              "position": 1,
+              "screenshot_id": "7680667a-4710-4adc-9963-4caf26268f8c",
+              "image_url": "https://mobbin.com/api/mcp/short/gW2sCRjr"
+            },
+            {
+              "position": 2,
+              "screenshot_id": "a205c9f3-6d7d-426c-9d7e-47495f5ac10d",
+              "image_url": "https://mobbin.com/api/mcp/short/ci2XGeTW"
+            },
+            {
+              "position": 3,
+              "screenshot_id": "85c81997-fba7-4909-a2d4-cf0bf65644db",
+              "image_url": "https://mobbin.com/api/mcp/short/gdXkCdlT"
+            }
+          ]
+        },
+        {
+          "flow_id": "f93e92da-8afe-4bd8-b59f-68768793ef0d",
+          "title": "Directory sync",
+          "app": "WorkOS",
+          "source_url": "https://mobbin.com/flows/f93e92da-8afe-4bd8-b59f-68768793ef0d",
+          "screen_count": 3,
+          "screenshots": [
+            {
+              "position": 1,
+              "screenshot_id": "cb626ccc-5717-4737-bd67-1ea0cb4ab7a7",
+              "image_url": "https://mobbin.com/api/mcp/short/wBLsQxDH"
+            },
+            {
+              "position": 2,
+              "screenshot_id": "952b02f6-5679-4afe-8d31-04532d1e14a3",
+              "image_url": "https://mobbin.com/api/mcp/short/UAWb1mfa"
+            },
+            {
+              "position": 3,
+              "screenshot_id": "2e9d5af2-c7bd-4ef4-85b7-f46e34399340",
+              "image_url": "https://mobbin.com/api/mcp/short/b0CYEML0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "directory sync failed with provisioning error showing last sync status and retry action",
+      "platform": "web",
+      "limit": 3,
+      "page": 1,
+      "has_next_page": true,
+      "results": [
+        {
+          "flow_id": "f93e92da-8afe-4bd8-b59f-68768793ef0d",
+          "title": "Directory sync",
+          "app": "WorkOS",
+          "source_url": "https://mobbin.com/flows/f93e92da-8afe-4bd8-b59f-68768793ef0d",
+          "screen_count": 3,
+          "screenshots": [
+            {
+              "position": 1,
+              "screenshot_id": "cb626ccc-5717-4737-bd67-1ea0cb4ab7a7",
+              "image_url": "https://mobbin.com/api/mcp/short/RWohZzAF"
+            },
+            {
+              "position": 2,
+              "screenshot_id": "952b02f6-5679-4afe-8d31-04532d1e14a3",
+              "image_url": "https://mobbin.com/api/mcp/short/aiFk54No"
+            },
+            {
+              "position": 3,
+              "screenshot_id": "2e9d5af2-c7bd-4ef4-85b7-f46e34399340",
+              "image_url": "https://mobbin.com/api/mcp/short/FY1L60Xf"
+            }
+          ]
+        },
+        {
+          "flow_id": "b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "title": "Editing auto mapped attributes",
+          "app": "WorkOS",
+          "source_url": "https://mobbin.com/flows/b7696e33-f9a3-406d-ac04-a210bd88cc1c",
+          "screen_count": 4,
+          "screenshots": [
+            {
+              "position": 1,
+              "screenshot_id": "952b02f6-5679-4afe-8d31-04532d1e14a3",
+              "image_url": "https://mobbin.com/api/mcp/short/hftbtWHm"
+            },
+            {
+              "position": 2,
+              "screenshot_id": "dc451bfe-7fdc-435e-bd9f-5e8d6301d82d",
+              "image_url": "https://mobbin.com/api/mcp/short/bBZSRHE1"
+            },
+            {
+              "position": 3,
+              "screenshot_id": "1ab66cfd-4a8d-47a9-a543-49eb64f35e0a",
+              "image_url": "https://mobbin.com/api/mcp/short/vK9VFBLn"
+            },
+            {
+              "position": 4,
+              "screenshot_id": "d31f7cc8-8f33-48b9-b1c1-3ee159a90f52",
+              "image_url": "https://mobbin.com/api/mcp/short/mgGoCnQI"
+            }
+          ]
+        },
+        {
+          "flow_id": "497f0141-1d66-4e03-af45-087b2dbc48eb",
+          "title": "View invitation",
+          "app": "Pinterest",
+          "source_url": "https://mobbin.com/flows/497f0141-1d66-4e03-af45-087b2dbc48eb",
+          "screen_count": 2,
+          "screenshots": [
+            {
+              "position": 1,
+              "screenshot_id": "96f41c1e-d658-406d-bc5b-5297017c290b",
+              "image_url": "https://mobbin.com/api/mcp/short/2xp8TcyO"
+            },
+            {
+              "position": 2,
+              "screenshot_id": "b5a444a6-cf66-4379-9403-2b2faa28197e",
+              "image_url": "https://mobbin.com/api/mcp/short/NkGy3t0i"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "e304a20c-fb7b-467a-97de-7f725cd317c1",
+      "app": "Remote",
+      "status": "not_retrieved",
+      "reason": "No Mobbin MCP tool accepts a flow_id; only natural-language search tools exist."
+    },
+    {
+      "flow_id": "ced1a847-5c4e-49bd-92b4-dcec2b5a8916",
+      "app": "GitHub",
+      "status": "not_retrieved",
+      "reason": "Same limitation."
+    }
+  ]
+}

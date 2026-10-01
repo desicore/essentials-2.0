@@ -1,0 +1,54 @@
+{
+  "product": "teachable",
+  "flows": {
+    "mobbin:98032d4a-7cd9-4d93-8993-43d0df586eec": {
+      "summary": "From the Curriculum outline the user opens an empty lesson, picks Text & Images, edits it in a focused editor, and saves the block.",
+      "steps": [
+        "Curriculum outline: sections and lessons",
+        "Empty lesson: Add content panel",
+        "Text and images block: blank editor",
+        "Text and images block: filled and Save",
+        "Lesson with TEXT & IMAGES block and Outline"
+      ],
+      "steal": [
+        "Each lesson row shows whether it has content ('Empty' or '1 Text & Images') next to Publish or Published (screen 1).",
+        "The 'Add content' panel groups content blocks and teaching tools, with Quiz next to the media blocks (screen 2).",
+        "Each block opens in its own editor with Cancel and Save, instead of being edited on the long lesson page (screens 3-4).",
+        "A saved block is labelled TEXT & IMAGES with Edit and a drag handle, and the outline on the side marks the current lesson (screen 5)."
+      ],
+      "avoid": [
+        "Marketing tools (Upsell, Referrals) in the same 'Add content' list as teaching blocks should stay out of scenario building (screen 2)."
+      ],
+      "fit": "Scenario manager: grow Briefing from a single video into orientation and pre-brief material built from blocks. The outline and draft-to-publish steps mirror the SCE structure without replacing the tabbed Details, Objectives, Patient and Equipment form.",
+      "counter_example": false
+    },
+    "mobbin:8c62da99-7eb3-46dd-9610-d7d932070129": {
+      "summary": "From a lesson the user opens Add content, chooses Quiz, builds questions with answers and correct marks, and saves.",
+      "steps": [
+        "Lesson editor: existing blocks and Add content",
+        "Add content panel with Quiz selected",
+        "Quiz block: Q1 answers and Correct answer hint",
+        "Quiz block: Q1 answers (hint still shown)",
+        "Quiz block: Q1 correct answer checked",
+        "Q1 collapsed and Q2 empty editor",
+        "Q2 filled with correct answer checked",
+        "Q2 with attached image and alt text"
+      ],
+      "steal": [
+        "A banner explains that grades will not be recorded on this plan, so it is clear answers are collected without scores (screens 3-4).",
+        "Each answer has a checkbox to mark it correct, allowing one or several correct answers, plus 'Add answer' (screens 3-4).",
+        "A finished question collapses and shows a check on the correct answer, while the next question stays open for editing (screen 6).",
+        "Each question can have an image, with alt text and a Replace option (screen 8)."
+      ],
+      "avoid": [
+        "Questions can only be added one at a time with '+ New question' and cannot be reused across quizzes. That is weak for faculty checklists, which need item banks shared across scenarios (screens 6-8)."
+      ],
+      "fit": "Scenario manager: this supports checklists and knowledge checks for learners and faculty more than pre-brief videos. Quiz grading should stay lighter than the Enterprise Case Manager. Reusing items across scenarios is missing and needed.",
+      "jobs": [
+        "orientation",
+        "checklist"
+      ],
+      "counter_example": false
+    }
+  }
+}

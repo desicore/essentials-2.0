@@ -1,0 +1,9 @@
+{
+  "module": "07-reports",
+  "flows": {
+    "fireflies 75bb46c3": { "fit": "Reports: an AI formative or summative report of a recorded session, with templates and section switches for debrief PDFs. It pairs with the transcript time stamps in the session video review screen (SRV), not with Performance Matrix." },
+    "cal-com ff3d88ad": { "summary": "The user filters routing insights by team and form and reads the funnel boxes and response table. They then view bookings per person by day, week or month, and failed bookings by form answer." },
+    "whereby 9649cfdc": { "summary": "The user lands on a 'Get started' page showing the plan's remaining minutes. They then open the rooms list to see when each room was last active, its participant minutes and its session count." },
+    "deputy 1e4db417": { "avoid": ["The catalog of business-intelligence reports, with '+ Create report' and 'Make a copy', is built on Sigma. It goes against the plan of no deep report builders in the first version (screens 3 to 10)."] }
+  }
+}

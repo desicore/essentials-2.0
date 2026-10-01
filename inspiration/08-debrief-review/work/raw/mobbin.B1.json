@@ -1,0 +1,128 @@
+{
+  "references": [
+    {
+      "id": "mobbin:5b64fef9-ba2f-4ff0-bd5e-8f959b68ee24",
+      "source": "mobbin",
+      "app": "HBO Max",
+      "title": "Casting a show to a TV",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/5b64fef9-ba2f-4ff0-bd5e-8f959b68ee24",
+      "images": [
+        "https://mobbin.com/api/mcp/short/zKMZvDer",
+        "https://mobbin.com/api/mcp/short/T9fVGYe7",
+        "https://mobbin.com/api/mcp/short/Qk3bNqEE"
+      ],
+      "platform": "ios",
+      "jobs": ["second-screen"],
+      "take": "User discovers content in HBO Max player, then selects device to cast to; final screen shows phone controls playback on TV ('Casting to Bedroom TV') while video plays on remote screen."
+    },
+    {
+      "id": "mobbin:8c1e112d-387d-4026-b3a9-81cdd74a0b88",
+      "source": "mobbin",
+      "app": "Google TV",
+      "title": "Remote",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/8c1e112d-387d-4026-b3a9-81cdd74a0b88",
+      "images": [
+        "https://mobbin.com/api/mcp/short/hsTdwbnJ",
+        "https://mobbin.com/api/mcp/short/v2JSDXCJ"
+      ],
+      "platform": "ios",
+      "jobs": ["second-screen"],
+      "take": "Phone shows fullscreen circular remote interface with directional controls, volume, and home button — demonstrates phone as controller for connected living room TV."
+    },
+    {
+      "id": "mobbin:3f1ac467-e548-499a-91bf-cd1e5a74aea6",
+      "source": "mobbin",
+      "app": "Google TV",
+      "title": "Remote (movie)",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3f1ac467-e548-499a-91bf-cd1e5a74aea6",
+      "images": [
+        "https://mobbin.com/api/mcp/short/Ecbxtgl8",
+        "https://mobbin.com/api/mcp/short/oFaITg3K"
+      ],
+      "platform": "ios",
+      "jobs": ["second-screen"],
+      "take": "Phone shows 'Watch on TV' action for content, then displays remote control with playback scrubber and playback info for movie streaming to TV."
+    },
+    {
+      "id": "mobbin:f28f8936-895b-450a-8e9b-5a83c12ba692",
+      "source": "mobbin",
+      "app": "Canva",
+      "title": "Starting a session",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f28f8936-895b-450a-8e9b-5a83c12ba692",
+      "images": [
+        "https://mobbin.com/api/mcp/short/E8rvcPqw",
+        "https://mobbin.com/api/mcp/short/XTlQQmF0",
+        "https://mobbin.com/api/mcp/short/XMJt7Rnd"
+      ],
+      "platform": "web",
+      "jobs": ["second-screen"],
+      "take": "Big screen shows presentation with QR code; side panel displays 'Copy Invitation' and broadcast indicator showing audience on their device entering code A46W 2BBP to join the session."
+    },
+    {
+      "id": "mobbin:9c77d139-df49-4132-acf9-33807fae80af",
+      "source": "mobbin",
+      "app": "WhatsApp",
+      "title": "Logging in",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/9c77d139-df49-4132-acf9-33807fae80af",
+      "images": [
+        "https://mobbin.com/api/mcp/short/PGakND4V",
+        "https://mobbin.com/api/mcp/short/wvQ1P1dR",
+        "https://mobbin.com/api/mcp/short/YXIRKHPn"
+      ],
+      "platform": "web",
+      "jobs": ["second-screen"],
+      "take": "Web desktop displays QR code with instructions to 'Scan the QR code to confirm' on phone; final screen shows logged-in conversation interface on desktop."
+    },
+    {
+      "id": "mobbin:92e2c97b-4413-497c-8acd-e18ef46c6488",
+      "source": "mobbin",
+      "app": "Skype",
+      "title": "Generating a QR code",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/92e2c97b-4413-497c-8acd-e18ef46c6488",
+      "images": [
+        "https://mobbin.com/api/mcp/short/s9TZQDfY",
+        "https://mobbin.com/api/mcp/short/4cVOG4IZ"
+      ],
+      "platform": "web",
+      "jobs": ["second-screen"],
+      "take": "Desktop shows 'Sign in with QR code' modal with instructions for phone camera to scan and login; demonstrates QR-based device linking."
+    },
+    {
+      "id": "mobbin:3d9fc7d8-70ba-46c7-be13-8c55c636f1ff",
+      "source": "mobbin",
+      "app": "Quizlet",
+      "title": "Scan a QR code",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/3d9fc7d8-70ba-46c7-be13-8c55c636f1ff",
+      "images": [
+        "https://mobbin.com/api/mcp/short/q0Vcduqz",
+        "https://mobbin.com/api/mcp/short/CJ0Vr3mo",
+        "https://mobbin.com/api/mcp/short/UeFqLO8Q"
+      ],
+      "platform": "ios",
+      "jobs": ["second-screen"],
+      "take": "Student phone displays 'Scan QR code provided by your teacher' modal with camera viewfinder; demonstrates joining a live classroom session by QR scan from big screen."
+    },
+    {
+      "id": "mobbin:f2fe9686-5232-45d6-816e-8d7d99eae0dc",
+      "source": "mobbin",
+      "app": "Canva",
+      "title": "Share remote control",
+      "kind": "flow",
+      "url": "https://mobbin.com/flows/f2fe9686-5232-45d6-816e-8d7d99eae0dc",
+      "images": [
+        "https://mobbin.com/api/mcp/short/i2Dqt3N7",
+        "https://mobbin.com/api/mcp/short/AXnAvbhj"
+      ],
+      "platform": "ios",
+      "jobs": ["second-screen"],
+      "take": "Phone shows 'Share remote control' option and final screen shows QR code to 'Remote control this presentation' with instruction to 'Scan the code or copy link to use another device as a remote controller'."
+    }
+  ]
+}

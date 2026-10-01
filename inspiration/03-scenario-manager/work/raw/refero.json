@@ -1,0 +1,405 @@
+{
+  "references": [
+    {
+      "id": "refero:433",
+      "source": "refero",
+      "app": "Uber Eats",
+      "title": "Customize and add menu item",
+      "kind": "flow",
+      "url": "https://refero.design/flows/433",
+      "images": [
+        "https://images.refero.design/screenshots/ubereats.com/desktop/f4ac64db-4bbe-4574-af57-2241c5f9d9bb_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/0919872d-a963-4d71-b1a2-e852b07c5be3_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/1693fa63-2a5e-480d-bcee-c3341c85e075_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/08eec5f5-b936-4ac9-8d0a-ad5af0096739_thumb.jpg",
+        "https://images.refero.design/screenshots/ubereats.com/desktop/19a7b970-db32-47fe-81ac-410b452a0c2c_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "equipment"
+      ],
+      "take": "Happy path: A desktop user browses a restaurant's menu, opens a product detail modal for a sandwich, customizes required and optional options (bun, to"
+    },
+    {
+      "id": "refero:593",
+      "source": "refero",
+      "app": "Pitch",
+      "title": "Create branded template",
+      "kind": "flow",
+      "url": "https://refero.design/flows/593",
+      "images": [
+        "https://images.refero.design/screenshots/pitch.com/desktop/a24bb835-0c97-44f2-b756-e35ffac0d215_thumb.jpg",
+        "https://images.refero.design/screenshots/pitch.com/desktop/7ed905c9-1f39-4539-a57d-1e74dae6e8a5_thumb.jpg",
+        "https://images.refero.design/screenshots/pitch.com/desktop/22c69c35-14e2-4087-b59e-96a4335257fb_thumb.jpg",
+        "https://images.refero.design/screenshots/pitch.com/desktop/67ce34d1-f9d7-4559-ac34-8913ad8a5d29_thumb.jpg",
+        "https://images.refero.design/screenshots/pitch.com/desktop/e85f4197-50dd-46fb-bb24-505aadb2f4aa_thumb.jpg",
+        "https://images.refero.design/screenshots/pitch.com/desktop/ef318632-11c9-4259-8078-6279d2ef3876_thumb.jpg",
+        "https://images.refero.design/screenshots/pitch.com/desktop/05cae57a-64c3-42e7-b38a-d11de96aeedf_thumb.jpg",
+        "https://images.refero.design/screenshots/pitch.com/desktop/b52ec4a4-162d-4b12-b42a-11797c0ccdd8_thumb.jpg",
+        "https://images.refero.design/screenshots/pitch.com/desktop/e1d9fd64-172b-4cc9-bdda-a9301602e29c_thumb.jpg",
+        "https://images.refero.design/screenshots/pitch.com/desktop/4b282975-f497-4e77-ba78-4f2301eb6ce4_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "crud"
+      ],
+      "take": "Happy path: A user opens the Templates section of a team library, creates a new named template, chooses the \"Build a branded template\" option, customi"
+    },
+    {
+      "id": "refero:1529",
+      "source": "refero",
+      "app": "Wrike",
+      "title": "Status-triggered assignment",
+      "kind": "flow",
+      "url": "https://refero.design/flows/1529",
+      "images": [
+        "https://images.refero.design/screenshots/wrike.com/desktop/e9d3b27f-a7dc-4310-82d8-8f02ba51a38c_thumb.jpg",
+        "https://images.refero.design/screenshots/wrike.com/desktop/3102a3c7-0847-4b4b-8001-fbfbcc4ec2a8_thumb.jpg",
+        "https://images.refero.design/screenshots/wrike.com/desktop/27337120-3a6f-43e0-b83f-3ec14a68cdf1_thumb.jpg",
+        "https://images.refero.design/screenshots/wrike.com/desktop/067a7f5a-7381-4292-b6ab-23daad8d2367_thumb.jpg",
+        "https://images.refero.design/screenshots/wrike.com/desktop/7d8edb49-7fe5-42d7-ae43-0079b0bfb3d2_thumb.jpg",
+        "https://images.refero.design/screenshots/wrike.com/desktop/282b4910-70e6-46ab-b6fc-e0665609b513_thumb.jpg",
+        "https://images.refero.design/screenshots/wrike.com/desktop/2659b1cd-f266-4c0b-96d5-d3282f12ba8e_thumb.jpg",
+        "https://images.refero.design/screenshots/wrike.com/desktop/64546b0f-8f0e-440f-8624-fb7e8b388e83_thumb.jpg",
+        "https://images.refero.design/screenshots/wrike.com/desktop/a1eba8aa-4b4d-4fe6-936b-ce2b3ef7ccec_thumb.jpg",
+        "https://images.refero.design/screenshots/wrike.com/desktop/56b37bf6-37c2-4495-a8f6-e628fbb9ad9f_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "automation"
+      ],
+      "take": "Happy path: a logged-in user navigates to Account management \u2192 Automation, starts a new automation rule, selects the target scope (tasks), picks a tri"
+    },
+    {
+      "id": "refero:2111",
+      "source": "refero",
+      "app": "Descript",
+      "title": "Highlight and prepare transcript segment for recording",
+      "kind": "flow",
+      "url": "https://refero.design/flows/2111",
+      "images": [
+        "https://images.refero.design/screenshots/descript.com/desktop/cfc5715a-7307-4908-8755-9fc4a17b5f2c_thumb.jpg",
+        "https://images.refero.design/screenshots/descript.com/desktop/5bdabf4b-280e-4d07-9a71-8ba251290941_thumb.jpg",
+        "https://images.refero.design/screenshots/descript.com/desktop/2b32f098-95c6-4bae-96d5-9d737936a050_thumb.jpg",
+        "https://images.refero.design/screenshots/descript.com/desktop/a6eb5c07-1d0f-4994-98e5-7dd3c3f07688_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "scripts"
+      ],
+      "take": "Happy-path summary: The user is working inside an editing session with a transcript on the left, a media canvas in the center, and a recording control"
+    },
+    {
+      "id": "refero:2201",
+      "source": "refero",
+      "app": "Kit",
+      "title": "Create and publish landing template",
+      "kind": "flow",
+      "url": "https://refero.design/flows/2201",
+      "images": [
+        "https://images.refero.design/screenshots/kit.com/desktop/389f0811-76e6-4834-af0b-7af8346481df_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/1c90c401-a52b-46fa-a318-dfbb3e7e18a1_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/b70fc01e-1a64-4709-bf8d-740fde490fc8_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/bdafec38-4a48-4641-9e5e-35dbfee80667_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/53c32a09-9232-4b99-b210-df89603f67d3_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/682e1545-def8-41b0-8b5a-c582234b4752_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "crud"
+      ],
+      "take": "Happy path: A logged-in user (account header shows their name and trial status) starts from the Kit dashboard, follows an onboarding CTA to create a l"
+    },
+    {
+      "id": "refero:2289",
+      "source": "refero",
+      "app": "Kit",
+      "title": "Create subscription-to-tag rule",
+      "kind": "flow",
+      "url": "https://refero.design/flows/2289",
+      "images": [
+        "https://images.refero.design/screenshots/kit.com/desktop/cd094998-9e71-4b4a-8d19-13f64de7d249_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/9e838c10-694f-4597-800c-9443d994efcb_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/3ab1fb75-9522-430b-9c58-92a004958d7b_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/9410dd5b-73d8-4d00-b58e-e8d8bf4bfd86_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/1492eced-a1a2-43e1-8f59-fb8b70bcd354_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/a91bb9a9-ac7c-456a-b5a2-254ef2f93f62_thumb.jpg",
+        "https://images.refero.design/screenshots/kit.com/desktop/1308fd23-4b55-45f8-b3da-6fa2c1d9cb7e_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "automation"
+      ],
+      "take": "Happy path: a logged-in user opens the Rules area, creates a new automation by choosing a trigger (user subscribes to a sequence), selects which seque"
+    },
+    {
+      "id": "refero:3630",
+      "source": "refero",
+      "app": "Maze",
+      "title": "Connect Live Site for Testing",
+      "kind": "flow",
+      "url": "https://refero.design/flows/3630",
+      "images": [
+        "https://images.refero.design/screenshots/maze.co/desktop/f85c14f7-f6dc-468a-ad0d-397a16f89e20_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/ccabc0d0-94ab-45e4-ac8f-753d00725376_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/158b5613-9f10-4fd5-bbda-227144ee7c29_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/0c0915c9-a8e3-45ae-b898-b14f307ff66d_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/f369fac0-d4b5-437c-9ae6-6f09053c3010_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/3ae44206-f101-405c-8375-e59fe7e17d79_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/d4efc594-28b3-4cfc-8055-07b061071de8_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/f8d35aaf-a2ce-46c5-9f91-2d0c8da566fe_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/511f87c2-72ce-48fc-9209-a6d9cea4147e_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/60d9d3e8-3d0c-41f9-8ee7-5292c5f83015_thumb.jpg",
+        "https://images.refero.design/screenshots/maze.co/desktop/234991e7-6164-4cda-8c15-a4a3e6ae3def_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Happy path: A user in the Build editor adds a 'Live Website Test' block to a test (maze), connects a target site (domain) by registering its name and "
+    },
+    {
+      "id": "refero:3886",
+      "source": "refero",
+      "app": "Replo",
+      "title": "Version History: Filter and Load Restored Version",
+      "kind": "flow",
+      "url": "https://refero.design/flows/3886",
+      "images": [
+        "https://images.refero.design/screenshots/replo.app/desktop/ce043065-6cf2-4239-9d17-dcd7a90edeb6_thumb.jpg",
+        "https://images.refero.design/screenshots/replo.app/desktop/7d05e0e8-06fc-492d-85ed-ddc9027172fb_thumb.jpg",
+        "https://images.refero.design/screenshots/replo.app/desktop/f925b5cc-c19b-4d05-82fa-56f046a59a81_thumb.jpg",
+        "https://images.refero.design/screenshots/replo.app/desktop/15c90619-3933-4ed6-8ecd-b48b7a6ca84b_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "crud"
+      ],
+      "take": "Happy path: From inside the editor, the user opens the Version History panel, uses the filter dropdown to show only 'Restored' entries, selects the re"
+    },
+    {
+      "id": "refero:4351",
+      "source": "refero",
+      "app": "Brilliant",
+      "title": "Lesson answer to rewards",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4351",
+      "images": [
+        "https://images.refero.design/screenshots/brilliant.org/desktop/6c442931-ba34-4653-9213-d4045f3be950_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/e5b9f57d-23b9-4626-83b7-4f765fab0114_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/4b7527e1-a45f-4c05-895b-cbeee07630a7_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/28404746-c14a-453c-9ea8-cb668b3b8eea_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/9cd97551-8f7e-44ab-9b56-0b2076a3786e_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/47f08f77-920e-46ba-9b27-87d0982821f8_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/7d11e688-aa90-454c-a6a1-bfbbe6fe64bc_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/77751e1c-4ae8-465f-b7a5-b5503941d241_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/56c0e5fa-3e06-4276-8a1b-ac47c134a412_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "orientation"
+      ],
+      "take": "Happy-path: A learner opens a course lesson from the course map, answers a single visual puzzle (balance scales) via multiple-choice, receives immedia"
+    },
+    {
+      "id": "refero:4354",
+      "source": "refero",
+      "app": "Brilliant",
+      "title": "Complete single lesson and claim rewards",
+      "kind": "flow",
+      "url": "https://refero.design/flows/4354",
+      "images": [
+        "https://images.refero.design/screenshots/brilliant.org/desktop/56c0e5fa-3e06-4276-8a1b-ac47c134a412_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/515e0cd0-fc47-4ccb-9d69-d3ebd2cf37d0_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/3de74e74-4a5c-416d-a1cc-81f9c98dc946_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/a1e4c8b0-bfb2-4ae2-8317-78e3e4509669_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/70ef713e-dc25-44dd-b17b-64dc09225c62_thumb.jpg",
+        "https://images.refero.design/screenshots/brilliant.org/desktop/a09d66db-0f05-48ce-ae7d-aeeb62044e81_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "orientation"
+      ],
+      "take": "Happy path for completing a single lesson within a larger course. Entry point is the course view where an individual lesson (Count the Werewolves) is "
+    },
+    {
+      "id": "refero:5421",
+      "source": "refero",
+      "app": " Shopify",
+      "title": "Create and save draft order",
+      "kind": "flow",
+      "url": "https://refero.design/flows/5421",
+      "images": [
+        "https://images.refero.design/screenshots/shopify.com/desktop/790b0063-a021-470d-960e-d6add56c3876_thumb.jpg",
+        "https://images.refero.design/screenshots/shopify.com/desktop/db8947c6-65b8-4bba-a2c8-cd9f4ad00575_thumb.jpg",
+        "https://images.refero.design/screenshots/shopify.com/desktop/77e7572f-3bf1-4577-8844-d97292428e8e_thumb.jpg",
+        "https://images.refero.design/screenshots/shopify.com/desktop/2e119147-6955-4d5a-beb2-72a52b9279d2_thumb.jpg",
+        "https://images.refero.design/screenshots/shopify.com/desktop/01c3e151-d407-44bd-95e4-fbffd8bef268_thumb.jpg",
+        "https://images.refero.design/screenshots/shopify.com/desktop/d3c6fe23-1b4a-483c-a41f-57b9508b290e_thumb.jpg",
+        "https://images.refero.design/screenshots/shopify.com/desktop/41cf522d-97ca-4623-a54c-58b61e29e2b4_thumb.jpg",
+        "https://images.refero.design/screenshots/shopify.com/desktop/d9f91263-03b9-4b88-9188-6924e7a300c5_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "equipment"
+      ],
+      "take": "Happy path: A store admin creates a draft order from the Orders area, adds product variants via a modal, adjusts quantities and payment options, assig"
+    },
+    {
+      "id": "refero:6969",
+      "source": "refero",
+      "app": "Voicenotes",
+      "title": "Create account and activate Teams subscription",
+      "kind": "flow",
+      "url": "https://refero.design/flows/6969",
+      "images": [
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/03ae5eb6-8d65-475f-9907-bf8ace79991b_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/32689c84-a42a-485c-b618-f3bacdb42f8e_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/dd356b29-7cb0-42ee-ad5a-97bba2024cc0_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/c4d939ca-65a7-4db9-ac09-c1585c9f3b76_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/54fd8026-fc67-42e2-8a48-456c83a2b1e8_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/f2e872b9-4c4f-430d-99a2-2775d2a7ef74_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/f2da4fae-7f34-487e-be40-20cae274e38a_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/ad905017-96b9-4bc9-bf46-40ca7d595d46_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/0a6bbda3-bcbb-4763-b694-547bb19f6862_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/f8cd1d86-4ef3-41d9-b91a-0470fe68ada1_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/72c28cbc-0033-4824-9d50-0546261c407f_thumb.jpg",
+        "https://images.refero.design/screenshots/voicenotes.com/desktop/c1d63ea3-1242-4fe8-a14d-ba68b69fe477_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist-qr"
+      ],
+      "take": "Desktop (desktop browser) happy path: a visitor on the Voicenotes marketing homepage opens the Sign up flow, creates an account with email + password,"
+    },
+    {
+      "id": "refero:9238",
+      "source": "refero",
+      "app": "Gumroad",
+      "title": "Create and Publish Digital Course",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9238",
+      "images": [
+        "https://images.refero.design/screenshots/gumroad.com/desktop/62028400-26dc-413e-bc4c-f067a0595741_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/4dc22730-7a20-4bbc-bf46-74537c6db28b_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/ff2e2421-c2c9-4ac7-97fb-be219de734f4_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/5148750c-0cb8-4423-ad16-ea8939ccbbb7_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/99eb1369-d58a-49eb-babd-f2e98b67bb42_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/5ab39493-36ab-48b0-b7a3-bdfefc4f95b2_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/b05b79c3-847c-4aea-bd13-e68d28a1b920_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/97f93b6d-9424-4a99-b962-15abdc366417_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/0c5658a6-d9c8-464f-a8d7-8ea992052da3_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/4a109560-5ac5-4742-9aa5-b00d312b89ed_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/b0c1ffc3-b7a8-4eb8-9277-2bcbc6b2e0eb_thumb.jpg",
+        "https://images.refero.design/screenshots/gumroad.com/desktop/47ffb769-80d0-412d-9da3-5539bb1db3e6_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "orientation"
+      ],
+      "take": "Happy-path: a logged-in seller creates and publishes a digital course on Gumroad. Entry: Products dashboard (empty state). The user clicks New product"
+    },
+    {
+      "id": "refero:9490",
+      "source": "refero",
+      "app": "Mapbox",
+      "title": "Mapbox account creation and onboarding",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9490",
+      "images": [
+        "https://images.refero.design/screenshots/mapbox.com/desktop/2bfa0077-5b19-4873-a8a5-e33911cc9b93_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/9e0931ef-9738-4411-aa5e-8ca6e88912c3_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/629d0913-9219-4359-a8a3-7cbc37b654c6_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/c12d118f-48aa-4c40-b4cf-bc92003983d6_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/03eaaca0-1bd2-4a22-a94c-a36d5c5d9ecc_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/64852637-a15e-4eca-9485-2965b98542ea_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/e2ccf8ac-8222-48fb-beb8-9c245e0fca2b_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/4f246436-d83b-46d0-a7d3-cdd74ae41932_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/dd14e5e1-9e2f-4042-8096-2cb7970b9e93_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/5d7d48d9-754e-4e36-a542-8241831664d8_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/a4d4170f-f550-4e58-b01f-3920bde5c59a_thumb.jpg",
+        "https://images.refero.design/screenshots/mapbox.com/desktop/7400df2b-48ce-4151-afc5-5c33d1867fb0_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "orientation"
+      ],
+      "take": "Happy-path sign-up and onboarding for a new Mapbox user on desktop. Entry: user arrives from the marketing homepage and clicks to create an account. T"
+    },
+    {
+      "id": "refero:9579",
+      "source": "refero",
+      "app": " Teachable",
+      "title": "Create and publish coaching offering",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9579",
+      "images": [
+        "https://images.refero.design/screenshots/teachable.com/desktop/6797c3a4-75ff-44fa-b356-b9ea5102737a_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/ef375d39-8d6f-4965-a4a6-51622d3f0a7a_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/203ad224-2345-4754-877d-84b5b389c16f_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/34ff5f4b-6c4e-402d-9992-b8e382e248d4_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/629b3bd8-4e2d-4108-bdbd-0a495ba9807e_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/bb3cd6b5-1230-493d-b83e-970b85e6b516_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/f9f0564b-82ff-47e4-8ff1-e1f3956bd4ea_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/351fca43-1c8e-478f-bcce-0e428a93715c_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/6250edb3-82d5-4ca8-949b-1f249f75e612_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/c0563bed-30ce-49d3-9fcd-377f01ec9d5c_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/d587b7ba-f0bd-47f2-8ee2-ce66a3102f28_thumb.jpg",
+        "https://images.refero.design/screenshots/teachable.com/desktop/744be4a0-3cc3-447b-989c-d46388d54c7b_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Happy path: A logged-in school admin/author creates a one-on-one coaching product using a 5-step guided wizard, previews a live success confirmation, "
+    },
+    {
+      "id": "refero:9862",
+      "source": "refero",
+      "app": "Acuity Scheduling ",
+      "title": "Create intake form",
+      "kind": "flow",
+      "url": "https://refero.design/flows/9862",
+      "images": [
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/3e837732-07e2-46dc-a60b-5ddd61090b93_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/18a10f31-2bc6-4cb7-92a0-01e26ac6ff1a_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/d89ad968-779f-4c7d-aa2a-b0d8715f8a50_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/cc79c20c-a4a8-4162-bc9f-b6bfdd7047f8_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/fa6211db-3475-490c-8a71-2c32b3295c3c_thumb.jpg",
+        "https://images.refero.design/screenshots/acuityscheduling.com/desktop/3d1072f6-4a1d-492c-8e2f-ee0bad64469e_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "checklist"
+      ],
+      "take": "Happy path: an authenticated user navigates to Intake Form Questions, creates a new custom form, adds multiple question fields, marks the form for int"
+    },
+    {
+      "id": "refero:13724",
+      "source": "refero",
+      "app": "Synthesia.io",
+      "title": "Prompt-Based Video Creation",
+      "kind": "flow",
+      "url": "https://refero.design/flows/13724",
+      "images": [
+        "https://images.refero.design/screenshots/synthesia.io/desktop/b0992ba0-b1bd-435d-9192-9af568da7ebc_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/6df13638-aec2-41c9-aaf0-766679baeb69_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/e902bc80-d4c6-46a4-afed-47da06079488_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/12632b9c-91c2-4df4-bbd2-e5a887adc4e9_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/c4f9a5c7-3dbb-4dbc-a84d-ed443b2426dd_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/3c5af445-a6f2-4cbc-859c-0374407f8647_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/9c5134f1-c642-4889-b5af-8cdbc99a3f9f_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/0cbb5a42-505a-41d8-9ae4-5687ce7ba4b7_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/3eb28ab5-ebea-452b-8162-3315fb7b5e80_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/0b330afc-ff6d-494a-acb2-c81a9a83c8d6_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/fc025794-0afc-4339-ac59-310312021efd_thumb.jpg",
+        "https://images.refero.design/screenshots/synthesia.io/desktop/c69e071f-a2bd-449a-8a34-fbb8c3b98ecb_thumb.jpg"
+      ],
+      "platform": "web",
+      "jobs": [
+        "scripts"
+      ],
+      "take": "An authenticated workspace user creates a video from a text prompt. From the empty Videos library, the user opens the prompt creator, selects a video "
+    }
+  ]
+}

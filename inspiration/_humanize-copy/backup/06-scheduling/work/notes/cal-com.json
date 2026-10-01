@@ -1,0 +1,55 @@
+{
+  "product": "cal-com",
+  "flows": {
+    "mobbin:40bd9265-6569-49af-a402-77cd8de347ca": {
+      "summary": "From Teams, admin adds a team event type, chooses Collective/Round Robin/Managed assignment, configures maximize-availability vs load-balancing hosts, and sees the Collective event on the Event Types list.",
+      "steps": [
+        "Teams hub — Collective or round-robin recommended step",
+        "Add team event modal — Collective / Round Robin / Managed",
+        "Title + URL slug for Team Quick Chat",
+        "Collective selected; Continue",
+        "Assignment: Collective; Maximize availability vs Load balancing; Fixed hosts",
+        "Assignment saved toast; Add all team members toggle off",
+        "Event Types list — Team Quick Chat with Collective badge"
+      ],
+      "steal": [
+        "Assignment choice at create: Collective (all available) vs Round Robin (cycle) vs Managed (bulk distribute) — steps 1–3",
+        "Distribution: Maximize availability vs Load balancing with plain-language copy — steps 4–5",
+        "Fixed hosts + \"Add all team members, including future members\" toggle — step 5",
+        "List badge shows scheduling type (Collective) beside duration — step 6"
+      ],
+      "avoid": [
+        "Deep event settings sidebar (Setup/Availability/Limits/Advanced/…) — heavy for a simple session type"
+      ],
+      "fit": "Matches baseline faculty rotation (collective panel vs round-robin pool); use for multi-faculty scenario runs without rebuilding OSCE complexity.",
+      "jobs": ["flexi-custom"],
+      "counter_example": false
+    },
+    "mobbin:23bf0af9-943c-4ed2-ad8f-6203131d5560": {
+      "summary": "Invitee picks duration and date/time on the public booking page, fills name/email/location/custom fields, confirms, and lands on a recurring-booking success page with calendar add options.",
+      "steps": [
+        "Booking page: event meta, duration pills, calendar, time slots",
+        "Select alternate duration (1h 15m); slots update",
+        "Recurrence input 0 → validation error 1–12",
+        "Set occurrences to 1",
+        "Pick another date; new slot list",
+        "Confirm form: name, email, location radios, notes, guests, custom Q",
+        "Form filled; Confirm",
+        "Success: recurring scheduled; Host badge; Cancel link",
+        "Add to calendar providers + Google spam policy warning"
+      ],
+      "steal": [
+        "Self-sign-up three-pane: details → month → slot list with green available dots — steps 0–4",
+        "Inline duration chips change offered slots before confirm — steps 0–1",
+        "Occurrence validation with clear range error — step 2",
+        "Success: Host badge, intake answers echoed, Add to calendar (Google/Outlook/Office/ICS) — steps 7–8"
+      ],
+      "avoid": [
+        "Booker-controlled \"Every week for N occurrences\" on an onboarding-style event — easy to mis-set vs coordinator-owned series"
+      ],
+      "fit": "Learner-side self-sign-up into a capacity/slot model; extend for sim session booking + Outlook write-back; not Excel bulk create.",
+      "jobs": ["flexi-custom", "simple-events", "outlook-sync"],
+      "counter_example": false
+    }
+  }
+}
