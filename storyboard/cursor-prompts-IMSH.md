@@ -8,34 +8,62 @@ Written 2026-10-05 from `spec/flows/IMSH-demo-story.md`. **Temporary:** the stor
 
 ## How to run this in Cursor
 
+Each Cursor chat gets a one-line prompt that says **which panels to make**. The agent then reads the AGENT INSTRUCTIONS below on its own. You don't paste them.
+
 ### Option A · Parallel (recommended, about 4× faster)
 
-1. **Chat 0 (style lock, about 5 minutes).** Paste **AGENT BRIEF** with `PANELS = 1, 6`. Check that both images match the painted style and the faces from the character sheet. Fix STYLE here if anything drifts, before starting the other chats.
-2. **Then open 4 chats in parallel** (new chat each, same workspace). Paste **AGENT BRIEF** with:
-   - Chat 1: `PANELS = 2, 3, 4, 5` (Act 1, Dana)
-   - Chat 2: `PANELS = 7, 8, 9` (Act 2, Maya)
-   - Chat 3: `PANELS = 10, 11, 12, 13` (Act 3, Maya: the showpiece)
-   - Chat 4: `PANELS = 14, 15, 16` (Act 4 + optional Act 5)
-3. Each chat writes only its own files, so the chats can't collide.
+**Step 1: style check (one chat, about 5 minutes).** Paste this:
+
+```
+Follow the AGENT INSTRUCTIONS in storyboard/cursor-prompts-IMSH.md and generate panels 1 and 6.
+```
+
+Check that both images match the painted style and the faces on the character sheet. If anything is off, fix the STYLE section in this file before you go on.
+
+**Step 2: four chats in parallel** (a new chat for each, in the same workspace). Paste one line into each chat:
+
+Chat 1 · Act 1, Dana:
+```
+Follow the AGENT INSTRUCTIONS in storyboard/cursor-prompts-IMSH.md and generate panels 2, 3, 4 and 5.
+```
+
+Chat 2 · Act 2, Maya:
+```
+Follow the AGENT INSTRUCTIONS in storyboard/cursor-prompts-IMSH.md and generate panels 7, 8 and 9.
+```
+
+Chat 3 · Act 3, Maya (the showpiece):
+```
+Follow the AGENT INSTRUCTIONS in storyboard/cursor-prompts-IMSH.md and generate panels 10, 11, 12 and 13.
+```
+
+Chat 4 · Act 4 and the optional Act 5:
+```
+Follow the AGENT INSTRUCTIONS in storyboard/cursor-prompts-IMSH.md and generate panels 14, 15 and 16.
+```
+
+Each chat writes only its own files, so the chats don't get in each other's way.
 
 ### Option B · One chat
 
-Paste **AGENT BRIEF** with `PANELS = 1–16`. This is simpler, but it runs one image at a time, and long chats tend to drift in style by the end.
+```
+Follow the AGENT INSTRUCTIONS in storyboard/cursor-prompts-IMSH.md and generate all panels, 1 to 16.
+```
+
+This is simpler, but it makes one image at a time, and long chats tend to drift in style by the end.
 
 ---
 
-## AGENT BRIEF (paste this into the Cursor chat)
+## AGENT INSTRUCTIONS (the Cursor agent reads this section)
 
-> You are generating storyboard panels for a product demo. Use Cursor's built-in image generation. Do not write code and do not call external image services.
+> You are generating storyboard panels for a product demo. Use Cursor's built-in image generation. Do not write code and do not call external image services. **Generate only the panels named in the user's message.**
 >
-> **PANELS = {fill in, e.g. 2, 3, 4, 5}**
->
-> 1. Read `storyboard/cursor-prompts-IMSH.md` (this file): the STYLE, CHARACTERS and the PANELS table.
+> 1. Read this file: the STYLE, CHARACTERS and the PANELS table.
 > 2. Use these images as references for every panel:
 >    - **Identity:** `storyboard/png/00-character-sheet-v2.png` (the faces, hair and clothing must match).
 >    - **Style:** `storyboard/png/painted/DF-2-02-columns-matched.png` (the painted look, the frame layout, and a zoomed UI callout bubble).
 >    - **Composition:** the extra reference listed in the panel row, if there is one.
-> 3. For each panel in PANELS, build the prompt as `STYLE + CHARACTERS (only the people in the panel) + the panel's prompt`, and fill in `{N}`, `{TITLE}` and `{WHO · WHERE}` from the table. Use 16:9, 1920×1080 or larger.
+> 3. For each panel you were asked for, build the prompt as `STYLE + CHARACTERS (only the people in the panel) + the panel's prompt`, and fill in `{N}`, `{TITLE}` and `{WHO · WHERE}` from the table. Use 16:9, 1920×1080 or larger.
 > 4. Save each image as `storyboard/png/imsh/IMSH-{NN}-{slug}.png` (NN is zero-padded, e.g. `IMSH-03-column-mapping.png`). Create the folder if it doesn't exist.
 > 5. Look at each result. If on-screen text is misspelled, a face doesn't match the character sheet, or the header or footer is wrong, regenerate once. If it's still wrong, keep the best version and note it.
 > 6. At the end, list the files you created and anything that still looks off. Don't touch any other files.
