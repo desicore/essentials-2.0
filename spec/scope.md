@@ -37,9 +37,10 @@ Excel user and session import · user and group management · Canvas / LMS integ
 
 ## Still open
 
-1. **Course / activity concept** (Q-02). Gabor's concept (events, scenarios, groups) is kept if it holds up, but it won't be prominent in the flow. The demo shows the course only as a name on the event ("NURS 310").
-2. **Event vs Session in the UI** (Q-26). The approved flow and Gabor's screens say "Event". SPEC §6 used to hide the word. Needs a decision before the wireframes.
-3. **The 30-second definition.** "Debrief material ready" or "video playable"? Engineering needs to give a number.
+1. ~~Course / activity concept (Q-02)~~. Decided 2026-10-05: a course is a container (Gabor's concept), shown lightly.
+2. ~~Event vs Session in the UI (Q-26)~~. Decided 2026-10-05: **Event**, one object.
+3. ~~Rotations in learner assignment (Q-27)~~. Decided 2026-10-05: dropped.
+4. **The 30-second definition.** "Debrief material ready" or "video playable"? Engineering needs to give a number.
 
 ## Quality risk (on the record)
 

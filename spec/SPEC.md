@@ -77,19 +77,19 @@ Use these words in the UI, exactly. Don't bring back legacy LearningSpace terms 
 
 | Model term (PRD) | UI label | Prototype rule |
 |---|---|---|
-| Session | **Session** | Scheduled or ad hoc, one model (SES-07). Can be incomplete (SES-03). |
-| Event | **Event** `OPEN` (Q-26) | Shown in the calendar and on Edit event, as in the approved flow and Gabor's screens. This reverses the v0.1 rule ("hidden"). Whether an event *is* a scheduled session or contains one is open (Q-26). Proposed default: an event is the calendar view of a scheduled session. |
-| Recording | **Recording** | A session shows the user **at most one** recording. Capture attempts stay behind the scenes. |
+| Session | **Event** | Decided 2026-10-05 (Q-26): the PRD's Session is called **Event** in the UI and in the prototype model. One object, no separate session. This reverses the v0.1 rule ("hidden"). Can be incomplete (SES-03). The demo shows scheduled events only. |
+| Course | **Course** | Decided 2026-10-05 (Q-02): a container for events, groups and scenarios (Gabor's concept). Shown lightly ("NURS 310"). |
+| Recording | **Recording** | An event shows the user **at most one** recording. Capture attempts stay behind the scenes. |
 | Capture attempt | *(hidden)* | Only surfaces as "recovered after interruption" in the recording's history |
-| Segment | **Part** (hypothesis) | A non-destructive time range, usually one group. "Group A · 09:02–09:24". |
+| Segment | **Part** (hypothesis) | Not in the demo (fixing parts is out). A non-destructive time range, usually one group. |
 | Marker | **Marker** | Has a time, an optional category, a note and a source (Faculty / AI) |
 | Participant | **Participant** | Learner, faculty, guest, SP or evaluator. May exist without an account. |
 | Group | **Group** | Membership can change before, during or after recording |
 | Room | **Room** | Has a readiness state and a known-good AV configuration |
-| Scenario | **Scenario** | Reusable reference and materials. It seeds sessions. |
+| Scenario | **Scenario** | Reusable reference and materials. It seeds events. Owns the yes/no checklist. |
 | Share | **Share** | A revocable grant, with separate view and download rights, an expiry, and delivery status |
-| Readiness check | **Room check** | Labels are **Ready** / **Issue detected**. "Can record" is tracked separately (RDY-05). |
-| Audit event | **History** | Every correction shows the old value, who changed it, when and why |
+| Readiness check | **Room check** (not in the demo) | Labels are **Ready** / **Issue detected**. "Can record" is tracked separately (RDY-05). |
+| Audit event | **History** (not in the demo) | Every correction shows the old value, who changed it, when and why |
 
 ### 6a. Glossary: screens
 
@@ -99,7 +99,7 @@ The screen names used in `flows/`, `golden-paths/` and `screens.md`, one line ea
 |---|---|
 | **Dashboard** | The new staff home screen (EXP-03): upcoming events, recent recordings and a mini calendar. |
 | **Calendar** | Events by week. Clicking an event opens Edit event. |
-| **Edit event** | One event's time, room and scenario, and the **learner assignment**: which learners take part, in which rotation. A simplified version of the existing scheduling. |
+| **Edit event** | One event's time, room and scenario, and the **learner assignment**: which learners take part (no rotations). A simplified version of the existing scheduling. |
 | **Event (today)** | Today's event with everything prefilled. Untick an absent learner, then **Start recording**. |
 | **Recording view** | The refined SRV: cameras and layout, annotations and markers, the yes/no checklist, Stop. |
 | **Debrief** | The tablet debrief: checklist results, AI summary, AI short clips, annotations, playback speed, photo of notes. |
@@ -112,26 +112,26 @@ The screen names used in `flows/`, `golden-paths/` and `screens.md`, one line ea
 
 | Word | Means | Doesn't mean |
 |---|---|---|
-| **Session** | The sim occurrence: a room, a time, the participants and optionally a scenario. It exists before anyone presses record. | A recording. Recording is one thing that happens *in* a session. |
-| **Recording** | The video captured during a session. A session has at most one. Markers, parts and shares belong to it. | The session itself |
-| **Ad hoc / scheduled** | Two kinds of the same session. The demo shows only scheduled: the recording starts from today's event. Ad hoc recording is out of the demo. | Two different objects |
+| **Event** | The sim occurrence: a room, a time, the participants and optionally a scenario. It exists before anyone presses record. The PRD calls it Session. | A recording. Recording is one thing that happens *in* an event. Also not a container of sessions. |
+| **Recording** | The video captured during an event. An event has at most one. Markers, checklist answers, AI output and shares belong to it. | The event itself |
+| **Ad hoc / scheduled** | Two kinds of the same event. The demo shows only scheduled: the recording starts from today's event. Ad hoc recording is out of the demo. | Two different objects |
 | **Part** | A time range of one recording, usually one group ("Group A · 09:02–09:24"). Non-destructive. | A separate video file or a separate session |
-| **Course** | Only a name on the event ("NURS 310"). Whether it becomes a container for events, scenarios and groups (Gabor's concept) is open (Q-02). | A container, for now |
+| **Course** | A container for events, groups and scenarios (Q-02). In the demo it's mostly seen as a name on the event ("NURS 310"). | A label only. Also not an LMS course: Canvas is out. |
 | **Activity** | Not used. Legacy LearningSpace term. | — |
 | **Recipient** | The access role of someone who only receives shared material (usually a learner). No full account needed. | A kind of participant |
-| **Guest** | A kind of participant in a session (like an observer), next to learner, faculty, SP and evaluator. | A role. The no-account role is Recipient. |
+| **Guest** | A kind of participant in an event (like an observer), next to learner, faculty, SP and evaluator. | A role. The no-account role is Recipient. |
 | **Admin / Faculty** | The two staff roles as the UI shows them. The model names are Administrator and Faculty operator. Admin can do everything Faculty can. | Personas. Four personas map onto these two roles (§4). |
 
 ## 7. Rules that hold on every screen
 
 1. **Recording state is confirmed, not assumed (CAP-04).** Six states only: *Starting…* (command sent), *Recording* (backend confirmed), *Pausing…*, *Paused* (backend confirmed), *Stopping…*, *Not recording*. The UI never shows "Recording" or "Paused" on a click alone. When recording is on or paused, a persistent banner shows the room name, the state, the elapsed time and Stop (plus Resume when paused), across the whole app. A pause and resume stays **one recording** (CAP-07): it doesn't create a new recording or a new part.
-2. **Attribution is always visible (ATT-01).** Any session or recording whose participants are not confirmed shows **"Participants not confirmed"** with a one-click fix. Nothing blocks recording or debrief because of it (DEB-12).
+2. **Attribution is always visible (ATT-01).** Any event or recording whose participants are not confirmed shows **"Participants not confirmed"** with a one-click fix. Nothing blocks recording or debrief because of it (DEB-12).
 3. **Readiness is advisory (RDY-05, RDY-06).** "Issue detected" never hides or disables Record. Only "Can't record" (the backend is down) disables Record, and it then shows the reason and the fix next to the disabled button.
 4. **Say what happens, then do it.** Destructive or far-reaching actions (stop, revoke, split, correct attribution after sharing) state the consequence in one line before confirming.
 5. **AI output is labelled and reviewable (AI-04).** Each AI marker, transcript or summary carries an "AI" badge and a source time, and it never goes to a learner without a faculty approval. Without the AI subscription the screen still works; AI areas simply aren't there (AI-03).
 6. **Every list has four states:** loading, empty (with the next action), error (what failed, plus retry), and populated.
 7. **Plain, task-based language (EXP-02).** Verbs on buttons ("Start recording", "Share part"), no internal codes, no abbreviations a first-time faculty member wouldn't know.
-8. **Advanced settings stay folded (EXP-05).** Anything a normal session doesn't need sits behind "More options".
+8. **Advanced settings stay folded (EXP-05).** Anything a normal event doesn't need sits behind "More options".
 9. **Localizable (EXP-08).** No text baked into images. Dates and times use the locale format. The prototype runs in English.
 10. **WCAG 2.1 AA.** Status is never shown by colour alone (use an icon and a label). Targets are at least 44px on tablet screens.
 
@@ -170,7 +170,6 @@ The full list of scope cuts is in `scope.md`. Beyond scope, these are **principl
 ## 12. Open questions (spec level)
 
 The live list is in `open-questions.md`. The ones that block wireframes:
-- **Event vs Session** as the UI word, and what an event is (Q-26).
-- **Courses:** a name on the event, or Gabor's container concept (Q-02).
-- **Learner assignment:** what exactly is assigned (event, rotation, group) and how much of the existing scheduling is reused (Q-27).
+- ~~Event vs Session (Q-26)~~, ~~Courses (Q-02)~~, ~~rotations in learner assignment (Q-27)~~: decided 2026-10-05, see `data-model.md`.
+- Does sharing approve the AI items it includes (Q-28)?
 - Marker categories (DEB-08). Proposal: *Good practice · Discuss · Safety*, plus no category.

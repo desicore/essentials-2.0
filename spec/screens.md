@@ -12,7 +12,7 @@ The "Steps" column refers to the step numbers in the flow file.
 |---|---|---|---|---|
 | `/dashboard` | Dashboard (new) | **Demo** | 1, 4 | Upcoming events, recent recordings and a mini calendar. On sim day, today's NURS 310 event is on top. Gabor's Figma *Dashboard* is the reference. |
 | `/calendar` | Calendar | **Demo** | 2 | Week view with event blocks. Clicking an event opens Edit event. |
-| `/events/:id/edit` | Edit event: learner assignment | **Demo** | 3 | Time, room, scenario, and the learners assigned to the event and its rotations. Gabor's Figma *Edit Event* is the reference. A simplified version of the existing scheduling. |
+| `/events/:id/edit` | Edit event: learner assignment | **Demo** | 3 | Time, room, scenario, and the learners assigned to the event (no rotations). Gabor's Figma *Edit Event* is the reference. A simplified version of the existing scheduling. |
 | `/events/:id` | Event (today) | **Demo** | 4 | Today's event with its prefilled room, scenario and learners. Untick an absent learner, then **Start recording**. |
 | `/rooms/:id/live` | Recording view (refined SRV) | **Demo** | 5, 6 | The existing SRV with a facelift: camera layout, annotations and markers, the yes/no checklist, Stop. Gabor's Figma *SRV* is the reference. |
 | `/reports` | Simulation Lab Usage | **Demo** | 11 | Total simulation hours, students in simulation, room usage, learner contact hours, simulator usage, types of sessions. Period filter (12 weeks, quarter, year to date) and export. Gabor's Figma *Reports* is the reference. |

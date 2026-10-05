@@ -46,7 +46,7 @@ The showpiece is **the debrief on the tablet.** That's the part to get exactly r
 | # | Screen | What Maya does | What the system does |
 |---|---|---|---|
 | 2 | **Calendar** | Opens the calendar and clicks the NURS 310 *Sepsis recognition* event | Opens the event |
-| 3 | **Edit event: learner assignment** | Assigns the learners of Group A to the event and its rotations, and checks the time and room | Saves the event. On sim day it shows up on her dashboard with the learners already assigned. |
+| 3 | **Edit event: learner assignment** | Assigns the learners of Group A to the event, and checks the time and room | Saves the event. On sim day it shows up on her dashboard with the learners already assigned. |
 
 **Visuals, in order:**
 1. Storyboard: *The sim event in the calendar*
@@ -107,7 +107,7 @@ The showpiece is **the debrief on the tablet.** That's the part to get exactly r
 
 - **The 30-second definition.** Is it "debrief material ready" or "video playable"? Engineering needs to give a number.
 - **Desktop and tablet sync.** How video control and annotations stay in sync between the recording view and the debrief tablet is a technical question for engineering.
-- **Course / activity concept.** Whether Gabor's course concept (events, scenarios, groups) appears in the flow. Keep it if the concept holds, but it won't be prominent.
+- ~~**Course / activity concept.**~~ Decided 2026-10-05: the course is a container for events, groups and scenarios (Gabor's concept). The demo shows it lightly, as "NURS 310 · Group A" on the event.
 - **Checklist editor and shadowing.** Both are flagged as complex. Not part of the demo, but they need a simplification plan.
 
 ## Sources
