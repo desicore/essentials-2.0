@@ -16,3 +16,12 @@ Superseded spec documents, kept for reference. **Don't build from anything in th
 ```
 git show spec-pre-imsh-final:spec/scope.md
 ```
+
+## Storyboard prompts
+
+| File | What it was | Replaced by |
+|---|---|---|
+| `storyboard/cursor-prompts-IMSH.md` | Cursor image prompts for IMSH story v1 (16 numbered panels, images in `storyboard/png/imsh/`) | `storyboard/cursor-prompts-IMSH-final.md` |
+| `storyboard/cursor-prompts-IMSH-v2.md` | Cursor image prompts for IMSH story v2 (16 numbered panels, images in `storyboard/png/imsh-v2/`) | `storyboard/cursor-prompts-IMSH-final.md` |
+
+The images they produced stay in `storyboard/png/imsh/` and `storyboard/png/imsh-v2/`, because the final prompts use them as composition references.
