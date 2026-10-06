@@ -1,12 +1,12 @@
 # Essentials 2.0: prototype specification (SpecMD)
 
-Version 0.1 · 2026-09-30 · Owner: Daniel Brassnyo (the only editor) · Status: **draft, waiting for the scope sign-off**
+Version 0.2 · 2026-10-05 · Owner: Daniel Brassnyo (the only editor) · Status: **scope signed off (Gergely, 2026-10-05)**. v0.1 (the DF-1/2/3 version) is in Git at the tag `spec-pre-imsh-final`.
 
 This folder is the single source of truth for the Essentials 2.0 prototype up to the **2026-10-15 design handoff**. Wireframes (Pencil), the clickable prototype and the engineering handoff are all generated from it. If a screen and this spec disagree, the spec wins. Fix the spec, then regenerate the screen.
 
 ## 1. Purpose
 
-1. **IMSH demo (January 2027).** A click-through of "a normal day at a small sim center, run by one person without training".
+1. **IMSH demo (January 2027).** A happy-flow click-through of one faculty member's journey: dashboard → calendar and learner assignment → recording → debrief → report.
 2. **Engineering start (from 10-15).** Engineering builds *Early Essentials 2.0* from these flows until 12-15.
 
 The PRD (v0.2, 2026-09-30) is the main input and stays the long-term target. For the prototype, this spec supersedes it. Requirement IDs (`SES-01`, `AS-07` …) point back to the PRD.
@@ -16,8 +16,9 @@ The PRD (v0.2, 2026-09-30) is the main input and stays the long-term target. For
 | File | What it is | Who writes it |
 |---|---|---|
 | `SPEC.md` | This file: purpose, scope, navigation, model, rules and non-goals | Daniel |
-| `scope.md` | The scope one-pager: demo flows, wireframe level, out of scope | Daniel, agreed with Gabor and Patrik (signed off by Gergely?) |
-| `flows/DF-*.md` | One file per demo flow: steps, screens, states, done-when | Daniel |
+| `scope.md` | The scope one-pager: the demo flow and what's out | Daniel, signed off by Gergely on 2026-10-05 |
+| `flows/IMSH-demo-story-final.md` | The demo flow: 12 steps, screens and the visuals per step | Daniel |
+| `_archive/` | Superseded flows (DF-1/2/3, IMSH v1 and v2). **Don't build from it.** | — |
 | `screens.md` | Every route and screen, with its fidelity level | Daniel |
 | `personas.md` | The 4 personas, for AI testing and persona chats | Daniel generates, Gabor reviews |
 | `design-system.md` | The wireframe kit now, then the UI library, tokens and icons after 10-02 | Daniel |
@@ -31,9 +32,11 @@ The PRD (v0.2, 2026-09-30) is the main input and stays the long-term target. For
 
 ## 3. Scope
 
-See `scope.md`. In short: **three demo flows** (DF-1 Walk in and record, DF-2 The day doesn't go to plan, DF-3 Debrief in 30 seconds, then share), a set of wireframe-level screens, and an explicit out-of-scope list.
+See `scope.md`. In short: **one demo flow** in Gergely's five steps (dashboard → calendar and learner assignment → refined SRV → debrief → report), designed along its happy path, and an explicit out-of-scope list. The debrief is the showpiece.
 
 ## 4. Users and roles
+
+**The demo has one protagonist: Dr. Maya Ortiz, Faculty.** She does every step, including the calendar and the report. Role permissions aren't demoed. The table below is the model the product is built on.
 
 The four personas (`personas.md`) map onto the **two staff roles plus recipients** in the PRD:
 
@@ -54,21 +57,19 @@ Rules:
 
 Staff app, left navigation:
 
-| Item | Holds | Main PRD sections |
+| Item | Holds | Clickable in the demo |
 |---|---|---|
-| **Today** (home) | Today's sessions, room status, "Record now", things waiting for you | EXP-03 |
-| **Sessions** | List and day view, New session, Import | SES, IMP |
-| **Rooms** | Live rooms, readiness, room detail and live control | CAP, AV, RDY |
-| **Recordings** | Recent recordings, debrief, sharing | DEB, SHR |
-| **Scenarios** | A library to pick from and link to. No authoring. | SES-08 |
-| **Reports** | Curated core reports | RPT |
-| **People** | Users, groups, recipients, imports | IAM |
-| *(footer)* **Settings** | Institution, integrations, retention | INT, SHR-12 |
-| *(footer, admins only)* **Inventory 🔒** | Locked entry with "Contact Sales" | INV-05 |
+| **Dashboard** (home) | Upcoming events, recent recordings, mini calendar | Yes |
+| **Calendar** | Events by week; Edit event with learner assignment | Yes |
+| **Recordings** | Recent recordings | No (nav only) |
+| **Scenarios** | Scenario library | No (nav only) |
+| **Reports** | Simulation Lab Usage, weekly report | Yes |
+| **People** | Users and groups | No (nav only) |
+| *(footer)* **Settings** | Institution, integrations | No (nav only) |
 
-Recipient app (learner): no navigation. A single page per share: what was shared, who shared it, when it expires, and the player. Designed at phone width first (390 px), because learners open it from an email link with no account or app, and it works in any browser. **Not validated with learners yet** (Q-25).
+The recording view opens from today's event. The debrief is a full-screen tablet mode opened after Stop (DEB-03).
 
-Debrief: a full-screen mode opened from a recording or straight from "Stop". Tablet first (DEB-03).
+Recipients (learners) get a link that opens in the browser without logging in. The page they see is **out of scope** for the demo.
 
 ## 6. Information model and UI terms
 
@@ -76,19 +77,19 @@ Use these words in the UI, exactly. Don't bring back legacy LearningSpace terms 
 
 | Model term (PRD) | UI label | Prototype rule |
 |---|---|---|
-| Session | **Session** | Scheduled or ad hoc, one model (SES-07). Can be incomplete (SES-03). |
-| Event | *(hidden)* | Not shown in the prototype. Scheduled sessions are simply sessions with a time. |
-| Recording | **Recording** | A session shows the user **at most one** recording. Capture attempts stay behind the scenes. |
+| Session | **Event** | Decided 2026-10-05 (Q-26): the PRD's Session is called **Event** in the UI and in the prototype model. One object, no separate session. This reverses the v0.1 rule ("hidden"). Can be incomplete (SES-03). The demo shows scheduled events only. |
+| Course | **Course** | Decided 2026-10-05 (Q-02): a container for events, groups and scenarios (Gabor's concept). Shown lightly ("NURS 310"). |
+| Recording | **Recording** | An event shows the user **at most one** recording. Capture attempts stay behind the scenes. |
 | Capture attempt | *(hidden)* | Only surfaces as "recovered after interruption" in the recording's history |
-| Segment | **Part** (hypothesis) | A non-destructive time range, usually one group. "Group A · 09:02–09:24". |
+| Segment | **Part** (hypothesis) | Not in the demo (fixing parts is out). A non-destructive time range, usually one group. |
 | Marker | **Marker** | Has a time, an optional category, a note and a source (Faculty / AI) |
 | Participant | **Participant** | Learner, faculty, guest, SP or evaluator. May exist without an account. |
 | Group | **Group** | Membership can change before, during or after recording |
 | Room | **Room** | Has a readiness state and a known-good AV configuration |
-| Scenario | **Scenario** | Reusable reference and materials. It seeds sessions. |
+| Scenario | **Scenario** | Reusable reference and materials. It seeds events. Owns the yes/no checklist. |
 | Share | **Share** | A revocable grant, with separate view and download rights, an expiry, and delivery status |
-| Readiness check | **Room check** | Labels are **Ready** / **Issue detected**. "Can record" is tracked separately (RDY-05). |
-| Audit event | **History** | Every correction shows the old value, who changed it, when and why |
+| Readiness check | **Room check** (not in the demo) | Labels are **Ready** / **Issue detected**. "Can record" is tracked separately (RDY-05). |
+| Audit event | **History** (not in the demo) | Every correction shows the old value, who changed it, when and why |
 
 ### 6a. Glossary: screens
 
@@ -96,44 +97,41 @@ The screen names used in `flows/`, `golden-paths/` and `screens.md`, one line ea
 
 | Screen | What it is |
 |---|---|
-| **Today** | The staff home screen, the first thing you see after signing in (EXP-03). A one-line room status ("3 of 4 rooms ready"), today's sessions in time order with each row's action ("Open room", "Open debrief"), the **Record now** button, and "Waiting for you". Not a dashboard of tiles. |
-| **Start a session** | The side sheet that **Record now** opens over Today: room → scenario (optional) → people (optional) → **Open room**. It creates an ad hoc session and opens the Live room. It does **not** start recording. |
-| **Live room** | The control screen for one room during a session: cameras, audio, who's here, markers, Start / Stop recording, next group. |
-| **Session sheet** | One session's details: Details · People (planned parts) · Recording · History · Shares. Opened from Today or Sessions. |
-| **Fix parts** | Correcting a recording's group time ranges after the session: split, move a boundary, assign, with a reason. |
-| **Room check** | A room's readiness: the last check, what failed, and guided fix steps. |
-| **Debrief home** | The start screen of the tablet debrief mode. The latest relevant session is on top. |
-| **Debrief player** | Video with markers and notes, where faculty pick a time range to share. |
-| **Share sheet** | Who gets the range, view and download rights, expiry. Recipients are prefilled from attribution. |
-| **Share status** | Per-recipient delivery (sent, opened, not opened) with Resend and Revoke. |
-| **Share page** | What the learner sees on their phone: only the shared range, who shared it, and until when. |
-| **Room display** | The wall screen in the debrief room. |
+| **Dashboard** | The new staff home screen (EXP-03): upcoming events, recent recordings and a mini calendar. |
+| **Calendar** | Events by week. Clicking an event opens Edit event. |
+| **Edit event** | One event's time, room and scenario, and the **learner assignment**: which learners take part (no rotations). A simplified version of the existing scheduling. |
+| **Event (today)** | Today's event with everything prefilled. Untick an absent learner, then **Start recording**. |
+| **Recording view** | The refined SRV: cameras and layout, annotations and markers, the yes/no checklist, Stop. |
+| **Debrief** | The tablet debrief: checklist results, AI summary, AI short clips, annotations, playback speed, photo of notes. |
+| **Room display** | The wall screen in the debrief room, controlled from the tablet. |
+| **Share with participants** | The sheet that generates a secure link for the learners of the event. |
+| **Simulation Lab Usage** | The usage report, with a period filter and export. |
+| **Weekly report** | The dialog that schedules the report to management every week. |
 
 ### 6b. Glossary: words that are easy to mix up
 
 | Word | Means | Doesn't mean |
 |---|---|---|
-| **Session** | The sim occurrence: a room, a time, the participants and optionally a scenario. It exists before anyone presses record. | A recording. Recording is one thing that happens *in* a session. |
-| **Recording** | The video captured during a session. A session has at most one. Markers, parts and shares belong to it. | The session itself |
-| **Ad hoc / scheduled** | Two kinds of the same session. Ad hoc: started on the spot from Record now (DF-1). Scheduled: imported or created ahead, with a time (DF-2). | Two different objects |
+| **Event** | The sim occurrence: a room, a time, the participants and optionally a scenario. It exists before anyone presses record. The PRD calls it Session. | A recording. Recording is one thing that happens *in* an event. Also not a container of sessions. |
+| **Recording** | The video captured during an event. An event has at most one. Markers, checklist answers, AI output and shares belong to it. | The event itself |
+| **Ad hoc / scheduled** | Two kinds of the same event. The demo shows only scheduled: the recording starts from today's event. Ad hoc recording is out of the demo. | Two different objects |
 | **Part** | A time range of one recording, usually one group ("Group A · 09:02–09:24"). Non-destructive. | A separate video file or a separate session |
-| **Course** | Only a label on a session or group, synced from Canvas. Whether it becomes a container for scenarios and groups is open (Q-02). | A container, for now |
+| **Course** | A container for events, groups and scenarios (Q-02). In the demo it's mostly seen as a name on the event ("NURS 310"). | A label only. Also not an LMS course: Canvas is out. |
 | **Activity** | Not used. Legacy LearningSpace term. | — |
 | **Recipient** | The access role of someone who only receives shared material (usually a learner). No full account needed. | A kind of participant |
-| **Guest** | A kind of participant in a session (like an observer), next to learner, faculty, SP and evaluator. | A role. The no-account role is Recipient. |
+| **Guest** | A kind of participant in an event (like an observer), next to learner, faculty, SP and evaluator. | A role. The no-account role is Recipient. |
 | **Admin / Faculty** | The two staff roles as the UI shows them. The model names are Administrator and Faculty operator. Admin can do everything Faculty can. | Personas. Four personas map onto these two roles (§4). |
-| **Waiting for you** | Things on Today that need the user's action: paused shares, unconfirmed parts. Each has Done / Snooze. | Notifications |
 
 ## 7. Rules that hold on every screen
 
 1. **Recording state is confirmed, not assumed (CAP-04).** Six states only: *Starting…* (command sent), *Recording* (backend confirmed), *Pausing…*, *Paused* (backend confirmed), *Stopping…*, *Not recording*. The UI never shows "Recording" or "Paused" on a click alone. When recording is on or paused, a persistent banner shows the room name, the state, the elapsed time and Stop (plus Resume when paused), across the whole app. A pause and resume stays **one recording** (CAP-07): it doesn't create a new recording or a new part.
-2. **Attribution is always visible (ATT-01).** Any session or recording whose participants are not confirmed shows **"Participants not confirmed"** with a one-click fix. Nothing blocks recording or debrief because of it (DEB-12).
+2. **Attribution is always visible (ATT-01).** Any event or recording whose participants are not confirmed shows **"Participants not confirmed"** with a one-click fix. Nothing blocks recording or debrief because of it (DEB-12).
 3. **Readiness is advisory (RDY-05, RDY-06).** "Issue detected" never hides or disables Record. Only "Can't record" (the backend is down) disables Record, and it then shows the reason and the fix next to the disabled button.
 4. **Say what happens, then do it.** Destructive or far-reaching actions (stop, revoke, split, correct attribution after sharing) state the consequence in one line before confirming.
 5. **AI output is labelled and reviewable (AI-04).** Each AI marker, transcript or summary carries an "AI" badge and a source time, and it never goes to a learner without a faculty approval. Without the AI subscription the screen still works; AI areas simply aren't there (AI-03).
 6. **Every list has four states:** loading, empty (with the next action), error (what failed, plus retry), and populated.
 7. **Plain, task-based language (EXP-02).** Verbs on buttons ("Start recording", "Share part"), no internal codes, no abbreviations a first-time faculty member wouldn't know.
-8. **Advanced settings stay folded (EXP-05).** Anything a normal session doesn't need sits behind "More options".
+8. **Advanced settings stay folded (EXP-05).** Anything a normal event doesn't need sits behind "More options".
 9. **Localizable (EXP-08).** No text baked into images. Dates and times use the locale format. The prototype runs in English.
 10. **WCAG 2.1 AA.** Status is never shown by colour alone (use an icon and a label). Targets are at least 44px on tablet screens.
 
@@ -141,10 +139,10 @@ The screen names used in `flows/`, `golden-paths/` and `screens.md`, one line ea
 
 | Surface | Primary | Also works |
 |---|---|---|
-| Staff app (Today, Sessions, Rooms, Reports, People) | Laptop, 1280–1440 wide | Tablet in landscape |
-| Live room control | Laptop | Tablet |
-| Debrief | **Tablet, iPad landscape 1194×834** | Laptop, phone |
-| Recipient share page | **Phone, 390×844** (design call, not validated: Q-25) | Any browser |
+| Staff app (Dashboard, Calendar, Reports) | Laptop, 1280–1440 wide | Tablet in landscape |
+| Recording view | Laptop | Tablet |
+| Debrief | **Tablet, iPad landscape 1194×834** | Laptop |
+| Room display | Wall screen, 1920×1080 | — |
 
 ## 9. Non-goals (don't design or build these)
 
@@ -159,21 +157,19 @@ The full list of scope cuts is in `scope.md`. Beyond scope, these are **principl
 ## 10. Outputs expected from any builder (wireframe or code)
 
 - **Routes and screens:** exactly the list in `screens.md`. A new screen means a spec change first.
-- **Per flow:** every screen named in the flow file, with the states listed there.
-- **Definition of done per flow:** all "Done when" items in the flow file pass a scripted walkthrough (click path plus expected screen per step), and there are no open-question stickies left without an owner.
+- **For the flow:** every screen named in `flows/IMSH-demo-story-final.md`, in its happy-path state. Other states only where the flow file names them.
+- **Definition of done:** a scripted walkthrough of the 12 steps passes (click path plus the expected screen per step), and there are no open-question stickies left without an owner.
 
 ## 11. Order of work
 
 1. The AI reads this folder and lists its **ambiguities** (`open-questions.md`, appended). It doesn't invent answers.
 2. Daniel answers them in the spec.
-3. The AI proposes a **screen plan** per flow.
-4. Pencil wireframes are built one flow at a time (`wireframes/`). There's a joint walk on 10-05.
-5. The clickable build runs one flow at a time, each with a scripted walkthrough. Gabor tests every flow persona by persona.
+3. **Wireframes of each of the five steps**, focused on the essential parts (Patrik's next step, 10-05). Gabor's Figma screens are the starting point.
+4. The clickable build runs step by step, with a scripted walkthrough. Gabor tests the flow.
 
 ## 12. Open questions (spec level)
 
 The live list is in `open-questions.md`. The ones that block wireframes:
-- Navigation: wait for Gabor's map (§5).
-- Courses: in or out of the prototype (`scope.md`, decision 1).
-- "Part" vs "Segment" as the UI word for a group's time range. Test it with faculty.
+- ~~Event vs Session (Q-26)~~, ~~Courses (Q-02)~~, ~~rotations in learner assignment (Q-27)~~: decided 2026-10-05, see `data-model.md`.
+- Does sharing approve the AI items it includes (Q-28)?
 - Marker categories (DEB-08). Proposal: *Good practice · Discuss · Safety*, plus no category.

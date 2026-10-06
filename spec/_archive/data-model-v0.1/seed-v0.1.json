@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "version": "0.1",
+    "date": "2026-09-30",
+    "status": "draft: Gabor reviews for domain realism",
+    "note": "Everything here is fictional. The institution, people, course codes and email domain are invented. The scale follows the PRD's target center profile (1 site, 2-6 rooms, up to 2 parallel sessions, 1-2 staff, 20-30 learners a day, 2-3 cameras a room, groups of 4-10). Timings follow the site-visit evidence (15-20 min encounters, ~5 min turnaround, debrief ~30 min)."
+  },
+  "institution": {
+    "id": "riverbend",
+    "name": "Riverbend College of Nursing",
+    "emailDomain": "riverbend.edu",
+    "locale": "en-US",
+    "timezone": "America/New_York",
+    "subscriptions": { "ai": true, "inventory": false },
+    "integrations": {
+      "canvas": { "status": "connected", "lastSync": "2026-09-30T07:00:00-04:00" },
+      "outlook": { "status": "connected", "lastSync": "2026-09-30T08:15:00-04:00", "conflicts": 1 },
+      "googleCalendar": { "status": "not_connected" }
+    },
+    "sharingDefaults": { "expiryDays": 14, "downloadAllowed": false, "facultyNotesVisibleToLearners": false }
+  },
+  "users": [
+    { "id": "dana.whitfield", "name": "Dana Whitfield", "role": "admin", "persona": "coordinator", "email": "dwhitfield@riverbend.edu" },
+    { "id": "sam.keller", "name": "Sam Keller", "role": "faculty", "persona": "simtech", "email": "skeller@riverbend.edu", "note": "Also Admin in practice; kept as Faculty to test the two-role model" },
+    { "id": "maya.ortiz", "name": "Dr. Maya Ortiz", "role": "faculty", "persona": "faculty", "email": "mortiz@riverbend.edu", "usage": "about twice a month" },
+    { "id": "tom.reyes", "name": "Tom Reyes", "role": "faculty", "persona": "faculty", "email": "treyes@riverbend.edu" }
+  ],
+  "rooms": [
+    { "id": "sim-1", "name": "Sim Room 1", "type": "Adult acute care", "cameras": 3, "readiness": "ready", "canRecord": true, "lastCheck": "06:00" },
+    { "id": "sim-2", "name": "Sim Room 2", "type": "Med-surg", "cameras": 3, "readiness": "ready", "canRecord": true, "lastCheck": "06:00" },
+    { "id": "sim-3", "name": "Sim Room 3", "type": "Maternal-newborn", "cameras": 2, "readiness": "issue_detected", "issue": "Camera 2 not responding since 06:00", "canRecord": true, "lastCheck": "06:00" },
+    { "id": "sim-4", "name": "Sim Room 4", "type": "Pediatrics", "cameras": 2, "readiness": "ready", "canRecord": true, "lastCheck": "06:00" },
+    { "id": "debrief-a", "name": "Debrief Room A", "type": "Debrief", "cameras": 0, "display": "Wall display 65\"", "tablet": "iPad on stand" }
+  ],
+  "resources": [
+    { "id": "manikin-adult-1", "name": "Adult high-fidelity manikin", "room": "sim-1" },
+    { "id": "manikin-adult-2", "name": "Adult high-fidelity manikin", "room": "sim-2" },
+    { "id": "manikin-birth-1", "name": "Birthing simulator", "room": "sim-3" },
+    { "id": "manikin-peds-1", "name": "Pediatric manikin (5-year-old)", "room": "sim-4" }
+  ],
+  "courses": [
+    { "id": "nurs310", "label": "NURS 310 · Adult Health II", "source": "canvas", "note": "Course is only a session label in the prototype (scope decision 1)" },
+    { "id": "nurs340", "label": "NURS 340 · Maternal-Newborn Nursing", "source": "canvas" }
+  ],
+  "groups": [
+    { "id": "nurs310-grp-a", "name": "NURS 310 · Group A", "course": "nurs310", "source": "canvas",
+      "members": ["Emily Baker", "Priya Shah", "Marcus Chen", "Olivia Grant", "Noah Patel"] },
+    { "id": "nurs340-grp-a", "name": "NURS 340 · Group A", "course": "nurs340", "source": "canvas",
+      "members": ["Jordan Lee", "Hannah Kim", "Luis Romero", "Grace Owusu", "Ben Carter"] },
+    { "id": "nurs340-grp-b", "name": "NURS 340 · Group B", "course": "nurs340", "source": "canvas",
+      "members": ["Chloe Martin", "Ethan Brooks", "Sofia Alvarez", "Liam Walsh", "Ava Nguyen"] },
+    { "id": "nurs340-grp-c", "name": "NURS 340 · Group C", "course": "nurs340", "source": "canvas",
+      "members": ["Aisha Rahman", "Mia Novak", "Daniel Price", "Zoe Hart"] }
+  ],
+  "scenarios": [
+    { "id": "sepsis-recognition", "name": "Sepsis recognition", "durationMin": 20, "defaultRoom": "sim-2", "source": "Word packet (uploaded)" },
+    { "id": "postpartum-hemorrhage", "name": "Postpartum hemorrhage", "durationMin": 20, "defaultRoom": "sim-3", "source": "NLN packet (linked)" },
+    { "id": "chest-pain-stemi", "name": "Chest pain · STEMI", "durationMin": 20, "defaultRoom": "sim-1" },
+    { "id": "pediatric-asthma", "name": "Pediatric asthma exacerbation", "durationMin": 15, "defaultRoom": "sim-4" },
+    { "id": "med-admin-safety", "name": "Medication administration safety", "durationMin": 15, "defaultRoom": "sim-2" }
+  ],
+  "sessions": [
+    { "id": "s-today-1", "date": "2026-09-30", "start": "13:00", "end": "14:30", "room": "sim-1", "scenario": "chest-pain-stemi", "faculty": "tom.reyes", "status": "recording", "note": "Makes Sim Room 1 'In use until 14:30' in DF-1" },
+    { "id": "s-today-2", "date": "2026-09-30", "start": "15:30", "end": "16:30", "room": "sim-4", "scenario": "pediatric-asthma", "faculty": "tom.reyes", "status": "scheduled", "participants": "unconfirmed" },
+    { "id": "s-df1", "date": "2026-09-30", "start": "13:55", "room": "sim-2", "scenario": "sepsis-recognition", "faculty": "maya.ortiz", "type": "ad_hoc", "group": "nurs310-grp-a", "status": "created_in_flow",
+      "markers": [
+        { "t": "04:12", "category": "Discuss", "source": "faculty", "note": "Lactate result not escalated" },
+        { "t": "07:30", "category": null, "source": "faculty" },
+        { "t": "11:05", "category": "Good practice", "source": "faculty", "note": "SBAR handoff to provider" },
+        { "t": "02:40", "category": null, "source": "ai", "label": "First set of vitals taken" },
+        { "t": "04:05", "category": null, "source": "ai", "label": "Lab results mentioned" },
+        { "t": "08:50", "category": null, "source": "ai", "label": "Fluids started" },
+        { "t": "12:30", "category": null, "source": "ai", "label": "Provider called" }
+      ] },
+    { "id": "s-ob-thu", "date": "2026-10-01", "start": "09:00", "end": "11:15", "room": "sim-1", "scenario": "postpartum-hemorrhage", "faculty": "sam.keller", "type": "scheduled", "source": "import: ob-week-40.xlsx",
+      "plannedParts": [
+        { "group": "nurs340-grp-a", "start": "09:00" },
+        { "group": "nurs340-grp-b", "start": "09:40" },
+        { "group": "nurs340-grp-c", "start": "10:20" }
+      ],
+      "events": [
+        { "t": "08:52", "type": "swap", "out": "Jordan Lee", "in": "Aisha Rahman", "by": "sam.keller" },
+        { "t": "09:12", "type": "recording_confirmed" },
+        { "t": "09:49", "type": "next_group", "group": "nurs340-grp-b" },
+        { "t": "10:31", "type": "group_switch_missed", "note": "Group C entered; not marked live" },
+        { "t": "11:02", "type": "recording_stopped" }
+      ] }
+  ],
+  "reports": {
+    "period": "September 2026",
+    "sessionsCompleted": { "value": 38, "previous": 31 },
+    "learnerContactHours": { "value": 212, "previous": 176, "unit": "hours, rounded to 0.25 h per learner per session (definition OPEN, RPT-04)" },
+    "roomOccupiedHours": { "value": 71.5, "previous": 60, "note": "Occupied time only; availability denominator OPEN (RPT-05)" }
+  }
+}
