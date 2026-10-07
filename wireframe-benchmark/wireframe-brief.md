@@ -80,6 +80,58 @@ Purpose: Maya leads the debrief with the learners. Everything is ready within 30
   - **Annotations and markers** (time · source · note): 04:12 · Maya · Discuss · Lactate result not escalated / 07:30 · Maya · Check the IV site before fluids / 11:05 · Maya · Good practice · SBAR handoff to provider / 02:40 · AI · First set of vitals taken / 08:50 · AI · Fluids started / 12:30 · AI · Provider called
 - Learners for context (avatars/initials row): Emily Baker, Priya Shah, Marcus Chen, Noah Patel. Olivia Grant is absent.
 
+## Screen 3 · Recording view, the refined SRV (staff app, 1440×900, sim day 10:06, 04:20 into the recording)
+
+Added 2026-10-07. Purpose: Maya runs the scenario. She watches the cameras, drops markers and notes, and ticks the yes/no checklist as things happen. Then she presses Stop and walks to the debrief room.
+
+**This is a facelift of the existing SRV, not a new concept.** Look at it first: Figma page `learningspace screenshots`, frame `LS Essentials- Recording`, images `ls-essentials-recoding--recoding--single-room-view-srv` (node `126:1841`) and `…--srv-recording-setup` (node `126:1844`). Keep its structure: a focused full-screen mode with no left navigation, the camera area on the left, the transport bar (record/stop, timecode, state) under the video, and a tabbed side panel on the right. Restyle it with the library and replace the content as below.
+
+**What changes against today's SRV:**
+- **No Recording setup dialog.** Room, scenario and learners come prefilled from the event (Maya confirmed them on the Event page before pressing Start recording). They show in the header.
+- **The side panel gets the checklist.** Today's panel has Annotations and Layout tabs. The new one has **Checklist** and **Notes**; camera layout moves above the video.
+- **The bottom strip comes back as "Room audio"**, an **exploration layer** (see below). Sound controls are outside the approved demo scope, but audio quality and mic sensitivity are a top customer pain point, so Daniel wants it ready in case it goes into the demo as a highlight.
+- **Out of this wireframe:** the contrast toggle, AI markers (AI output appears only after processing, in the debrief).
+
+**Layout (locked, the same in both libraries):**
+
+| Zone | Size | Content |
+|---|---|---|
+| Header | full width × 64 | left · centre · right, see below |
+| Camera area | left, fill (about 1060 wide) | layout selector row, cameras, transport + timeline, quick notes bar, Room audio strip (about 160 high) |
+| Side panel | right, 380 wide, 1 px left divider | tabs **Checklist** (active) · Notes |
+
+- **Header:**
+  - Left: back arrow "Back to event" (icon button with tooltip text, or ghost button) · title **"NURS 310 · Sepsis recognition"** · meta "Sim Room 2 · Group A · Tue, Jan 19 · 10:00–11:00"
+  - Centre: learners: 4 initials avatars (EB, PS, MC, NP) + text "4 learners" · muted text "Olivia Grant absent"
+  - Right: **recording state** = red dot (#D92D20, the only colour on the screen) + label **"Recording"** + elapsed **"04:20"** in tabular figures · secondary button **"Pause"** (lucide `pause`) · primary button **"Stop recording"** (lucide `square`). Stop is the library's primary/dark button, **not red**.
+- **Camera area:**
+  - **Layout selector row** above the cameras: segmented control **"1 + 2"** (selected) · "Single" · "Grid"; at the right of the row a muted "Sim Room 2 · 3 cameras".
+  - **Cameras in the "1 + 2" layout:** Camera 1 large (about two thirds of the width), Camera 2 and Camera 3 stacked on the right. Grey placeholders with a lucide `video` icon and the label ("Camera 1", "Camera 2", "Camera 3"). Camera 1 is the selected camera (1 px darker border) and has a small overlay toolbar at its bottom-right: **"Preset"** dropdown button, zoom in (`zoom-in`), zoom out (`zoom-out`), full screen (`maximize`). Camera 2 and 3 show only their label.
+  - **Transport + timeline** under the cameras, full width of the camera area:
+    - A live progress track for the planned 20-minute scenario (04:20 of 20:00 filled). **One marker on the track at 04:12** (lucide `flag` icon above the track, a tick on it, "04:12" below), built like the accepted Debrief timeline: the marker sits on the track, not above it.
+    - Left of the track: **"04:20 / 20:00"** (tabular figures). Right: muted "Planned 20 min".
+  - **Quick notes bar** under the timeline: a text input "Add a note at 04:20…" (fills the width) · then three secondary buttons with icons: **"Discuss"** (`message-circle`) · **"Good practice"** (`thumbs-up`) · **"Marker"** (`flag`). Each button drops a marker at the current time; the input adds a note to it.
+- **Room audio strip (EXPLORATION, outside the approved demo scope):** at the bottom of the camera area, full width, 1 px top divider. Build it as **one frame named "EXPLORATION · Room audio"**, and give the cameras fill height, so hiding this one layer gives the screen back to the cameras for the approved demo. Visual reference for the controls: audiocn.dev (shadcn audio components: fader, level meter, knob, channel toggle, mixer). Neither Figma kit has these, so they will be `CUSTOM ·` frames; keep them greyscale (meters in greys, the loudest segments darker, **no green/yellow/red**). Four groups left to right, separated by vertical dividers, each with a 12 px group label and icon:
+  1. **Intercom** (`mic`): talk-to segmented control **"In-room"** (selected) · "Facilitator" · a large round **push-to-talk** button (`mic`, label "Hold to talk") · an "Announcements" select with a play icon button (`play`).
+  2. **Simulator voice** (`audio-lines`): switch **"Voice modulator"** (on) · select **"Adult male · low"** (other presets would be Adult female, Older adult, Child) · a small **Pitch** knob showing "-3". Applies to In-room talk, so the learners hear "the patient", not Maya.
+  3. **Microphones** (`sliders-horizontal`): three compact channel rows, each: name · mute toggle icon button (`mic-off`) · a horizontal live level meter · a gain slider · value in tabular figures. **"Bed mic · +6 dB"**, **"Room mic · 0 dB"**, **"Manikin · -3 dB"**. A small text button "Auto gain" at the group header right.
+  4. **Send to screen** (`monitor`): two outputs, each a select: "Patient monitor" · "No decoder added to room" (disabled look, as in today's SRV).
+  - Mic names and presets are **illustrative** (they aren't in `seed.json`); fine for an exploration layer.
+- **Side panel · Checklist tab (active):**
+  - Heading "Sepsis recognition checklist" · muted "Yes / no · no score" · counter "4 of 7 answered" (count of answered items, **not** a score or a percentage)
+  - 7 rows, each: number · item text · a Yes/No toggle pair (two-option segmented control or toggle group) · the time it was answered:
+    1. Performs hand hygiene and introduces self · **Yes** · 00:40
+    2. Takes a full set of vital signs · **Yes** · 02:40
+    3. Recognizes SIRS criteria · **Yes** · 03:30
+    4. Escalates the lactate result to the provider · **No** · 04:12
+    5. Starts IV fluids as ordered · (unanswered)
+    6. Draws blood cultures before antibiotics · (unanswered)
+    7. Uses SBAR in the handoff · (unanswered)
+  - Answered = the selected option shows its icon (`check` for Yes, `x` for No) + label. Status never by colour alone.
+- **Side panel · Notes tab (not active, only its tab label shows):** it would list the markers and notes in time order. At 04:20 there is one: 04:12 · Discuss · "Lactate result not escalated".
+
+Source: `spec/data/seed.json` → events `e-nurs310-sepsis` (afterStep4), scenarios `sepsis-recognition`, recordings `r-nurs310-sepsis` (markers m-1, checklistResults), rooms `sim-2`. Spec rules used: SPEC §7.1 (the state label only says "Recording" once confirmed), §7.4, §7.10.
+
 ## Out of scope
 
 The learner's page behind the share link, scoring, the checklist editor, scheduling rules, Canvas, inventory.

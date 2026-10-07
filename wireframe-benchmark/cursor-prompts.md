@@ -150,6 +150,76 @@ When done:
 2. Reply in under 10 lines: what was hard, what shadcn lacked (especially for the video player, timeline and segmented controls), and what you'd do differently.
 ```
 
+## Prompt 4A — Recording view (SRV) · Astryx
+
+Added 2026-10-07. Run 4A, then 4B, one after the other (not in parallel). The layout is locked in the brief, so only the library differs.
+
+```
+Build ONE greyscale wireframe in Figma using ONLY the Astryx library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - astryx". Do not touch any other page or any existing frame. Ignore "🚫 wireframe archive".
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules" and "Screen 3 · Recording view") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Reference (READ-ONLY): take a screenshot of node 126:1841 (today's SRV) and 126:1844 (its recording setup dialog) on the page "learningspace screenshots". Keep the SRV's structure as the brief describes. Don't copy its colours, icons or styling.
+
+Task: build "Screen 3 · Recording view" as a top-level frame named "S3 · Recording view · Astryx", 1440×900, staff app in focused mode: NO left navigation. Place it below the lowest existing frame on the page, left-aligned with it, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start and at the end, for the log.
+- Follow the locked layout table in the brief (header 64, side panel 380 on the right, camera area fills the rest). Don't invent a different arrangement.
+- Astryx INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>".
+- Bind to Astryx variables/styles. Neutral mode if it exists; otherwise defaults, no hand-overridden colours.
+- The ONLY colour is the recording dot, #D92D20. Astryx has no such token: set it by hand on that one dot and log how you did it. "Stop recording" is the library's primary button, NOT red, NOT a destructive variant.
+- Native control and icon sizes (16 px icons, don't resize instances). Status = icon + label, never colour alone. Tabular figures for 04:20 and 04:20 / 20:00 if the library's type allows it.
+- Avoid boxes inside boxes: checklist rows are flat rows with dividers inside the panel, not separate bordered cards (lesson from run 1B).
+- The timeline marker sits ON the track: a tick on the track, the flag icon above it, "04:12" below. Not floating above the track.
+- The checklist is yes/no with times. "4 of 7 answered" is the only count. NO score, NO percentage.
+- Build section by section (header → layout selector + cameras → transport + timeline → quick notes bar → side panel → Room audio strip LAST). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only. No AI markers on this screen.
+- The Room audio strip is an EXPLORATION layer: one frame named "EXPLORATION · Room audio" at the bottom of the camera area. Give the cameras fill height so that hiding this frame lets them grow. Its faders, meters and knob are CUSTOM (audiocn.dev is the visual reference), greyscale only. Hide it once and screenshot to check the screen still works without it, then show it again.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log row in your reply as ONE markdown table line, matching its columns (# = 5).
+2. Reply in under 10 lines: what was hard, what Astryx lacked (especially the camera grid, the live timeline, the Yes/No toggle pair, the red dot and the audio controls), and what you'd do differently.
+```
+
+## Prompt 4B — Recording view (SRV) · shadcn
+
+```
+Build ONE greyscale wireframe in Figma using ONLY the shadcn library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - shadcn". Do not touch any other page or any existing frame. Ignore "🚫 wireframe archive".
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules" and "Screen 3 · Recording view") and @wireframe-benchmark/discovery.md (the component map for shadcn).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Reference (READ-ONLY): take a screenshot of node 126:1841 (today's SRV) and 126:1844 (its recording setup dialog) on the page "learningspace screenshots". Keep the SRV's structure as the brief describes. Don't copy its colours, icons or styling.
+
+Task: build "Screen 3 · Recording view" as a top-level frame named "S3 · Recording view · shadcn", 1440×900, staff app in focused mode: NO left navigation. Place it below the lowest existing frame on the page, left-aligned with it, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start and at the end, for the log.
+- Follow the locked layout table in the brief (header 64, side panel 380 on the right, camera area fills the rest). Don't invent a different arrangement.
+- shadcn INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>".
+- Bind to shadcn variables/styles. Light mode; no hand-overridden colours.
+- The ONLY colour is the recording dot, #D92D20. shadcn has no such token (its `destructive` is not the recording red): set it by hand on that one dot and log how you did it. "Stop recording" is the default (dark) Button, NOT the destructive variant.
+- Native control and icon sizes (16 px icons, don't resize instances). Status = icon + label, never colour alone. Tabular figures for 04:20 and 04:20 / 20:00 if the library's type allows it.
+- Avoid boxes inside boxes: checklist rows are flat rows with dividers inside the panel, not separate bordered cards (lesson from run 1B).
+- The timeline marker sits ON the track: a tick on the track, the flag icon above it, "04:12" below. Not floating above the track.
+- The checklist is yes/no with times. "4 of 7 answered" is the only count. NO score, NO percentage.
+- Build section by section (header → layout selector + cameras → transport + timeline → quick notes bar → side panel → Room audio strip LAST). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only. No AI markers on this screen.
+- The Room audio strip is an EXPLORATION layer: one frame named "EXPLORATION · Room audio" at the bottom of the camera area. Give the cameras fill height so that hiding this frame lets them grow. Its faders, meters and knob are CUSTOM (audiocn.dev is the visual reference), greyscale only. Hide it once and screenshot to check the screen still works without it, then show it again.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log row in your reply as ONE markdown table line, matching its columns (# = 6).
+2. Reply in under 10 lines: what was hard, what shadcn lacked (especially the camera grid, the live timeline, the Yes/No toggle pair, the red dot and the audio controls), and what you'd do differently.
+```
+
 ---
 
 ## Prompt 3 — Comparison (after all four runs, read-only)
