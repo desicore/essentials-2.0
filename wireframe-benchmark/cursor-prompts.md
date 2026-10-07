@@ -220,6 +220,76 @@ When done:
 2. Reply in under 10 lines: what was hard, what shadcn lacked (especially the camera grid, the live timeline, the Yes/No toggle pair, the red dot and the audio controls), and what you'd do differently.
 ```
 
+## Prompt 5A — Calendar + Edit event · Astryx
+
+Added 2026-10-07. Flow step 2: two frames per library in one run. Run 5A, then 5B, one after the other. If Daniel's inspiration round changes the layout, change the brief first; both prompts read it.
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the Astryx library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - astryx". Do not touch any other page or any existing frame (including the "copy of" / duplicate frames Daniel made). Ignore "🚫 wireframe archive". Do NOT look at the current LearningSpace calendar screenshots for these screens.
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 4 · Calendar", "Screen 5 · Edit event") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task:
+1. "S2a · Calendar · Astryx", 1440×900.
+2. "S2b · Edit event · Astryx", 1440×900.
+Place S2a below the lowest existing frame on the page, left-aligned with it, 200 px gap; S2b to the right of S2a, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start, between the two frames, and at the end, for the log.
+- Shell: duplicate the sidebar and top bar from the accepted "S1 · Dashboard · Astryx" frame on this page into both new frames; set Calendar as the active nav item. Don't rebuild the shell.
+- Follow the locked layout tables in the brief. Don't invent a different arrangement, extra panels or extra events.
+- Astryx INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>".
+- Bind to Astryx variables/styles. Neutral mode; no hand-overridden colours.
+- Astryx's Calendar component is a month picker, not a week view: the week grid is expected to be CUSTOM. Use Astryx parts inside it where they fit (Badge, text styles, dividers).
+- Native control and icon sizes (16 px icons, don't resize instances). Status = icon + label, never colour alone. No colour at all on these two screens.
+- Week grid: event blocks are positioned by time (top = start, height = duration, 08:00–16:00 in hour rows). Check each block's top edge against the gutter before moving on. The NURS 310 Sepsis block is the hover state and carries the "No learners" badge.
+- Edit event: the Learners column is the focus; flat rows with dividers, not cards. No rotations, no score, nothing about attendance yet.
+- Build section by section (S2a: shell → page header + toolbar → notice → grid → event blocks; S2b: shell → page header → event details → learners). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log rows in your reply as TWO markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
+2. Reply in under 10 lines: what was hard, what Astryx lacked (especially the week grid, event blocks, date/time pickers and the checkbox list), and what you'd do differently.
+```
+
+## Prompt 5B — Calendar + Edit event · shadcn
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the shadcn library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - shadcn". Do not touch any other page or any existing frame (including the "copy of" / duplicate frames Daniel made). Ignore "🚫 wireframe archive". Do NOT look at the current LearningSpace calendar screenshots for these screens.
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 4 · Calendar", "Screen 5 · Edit event") and @wireframe-benchmark/discovery.md (the component map for shadcn).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task:
+1. "S2a · Calendar · shadcn", 1440×900.
+2. "S2b · Edit event · shadcn", 1440×900.
+Place S2a below the lowest existing frame on the page, left-aligned with it, 200 px gap; S2b to the right of S2a, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start, between the two frames, and at the end, for the log.
+- Shell: duplicate the sidebar and top bar from the accepted "S1 · Dashboard · shadcn" frame on this page into both new frames; set Calendar as the active nav item. Don't rebuild the shell.
+- Follow the locked layout tables in the brief. Don't invent a different arrangement, extra panels or extra events.
+- shadcn INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>".
+- Bind to shadcn variables/styles. Light mode; no hand-overridden colours.
+- shadcn's kit has no week view or day grid: the week grid is expected to be CUSTOM. Use shadcn parts inside it where they fit (Badge, text styles, Separator). Avoid boxes inside boxes.
+- Native control and icon sizes (16 px icons, don't resize instances). Status = icon + label, never colour alone. No colour at all on these two screens.
+- Week grid: event blocks are positioned by time (top = start, height = duration, 08:00–16:00 in hour rows). Check each block's top edge against the gutter before moving on. The NURS 310 Sepsis block is the hover state and carries the "No learners" badge.
+- Edit event: the Learners column is the focus; flat rows with dividers, not cards. No rotations, no score, nothing about attendance yet.
+- Build section by section (S2a: shell → page header + toolbar → notice → grid → event blocks; S2b: shell → page header → event details → learners). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log rows in your reply as TWO markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
+2. Reply in under 10 lines: what was hard, what shadcn lacked (especially the week grid, event blocks, date/time pickers and the checkbox list), and what you'd do differently.
+```
+
 ---
 
 ## Prompt 3 — Comparison (after all four runs, read-only)
