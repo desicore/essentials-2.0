@@ -17,7 +17,7 @@ The "Steps" column refers to the step numbers in the flow file.
 | `/events/:id/edit` | Edit event: learner assignment | **Demo** | 3 | Time, room, scenario, and the learners assigned to the event (no rotations). Brief: Screen 5. A simplified version of the existing scheduling. |
 | `/events/:id` | Event (today) | **Demo** | 4 | Today's event with its prefilled room, scenario and learners. Untick an absent learner, then **Start recording**. |
 | `/rooms/:id/live` | Recording view (refined SRV) | **Demo** | 5, 6 | The existing SRV with a facelift: camera layout, annotations and markers, the yes/no checklist, Stop with a confirmation. Each note is **private or shared** (a lock toggle on the note field; no tagging of people) *(idea: Gabor, 10-07 checkpoint)*. Brief: Screen 3. |
-| `/reports` | Simulation Lab Usage | **Demo** | 11 | Total simulation hours, students in simulation, room usage, learner contact hours, simulator usage, types of sessions. Period filter (12 weeks, quarter, year to date), a **"Compare with same period last year"** switch *(idea: Gabor, 10-07 checkpoint)*, and export. Brief: to be written (10-08). |
+| `/reports` | Simulation Lab Usage | **Demo** | 11 | Total simulation hours, students in simulation, room usage, learner contact hours, simulator usage, types of sessions. Faculty contact hours added 10-08 (survey Q5). Period filter (12 weeks, quarter, year to date), a **"Compare with same period last year"** switch *(idea: Gabor, 10-07 checkpoint)*, **show/hide per metric** (Customize), and export. Brief: Screens 6, 6c. |
 | `/reports` + dialog | Weekly report | **Demo** | 12 | Schedule a weekly email of the report: day, recipients, **Schedule**. |
 
 ## Debrief (iPad landscape 1194×834)

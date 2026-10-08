@@ -25,6 +25,8 @@ Append-only. AI agents add here (AGENTS.md rule 1) and Daniel answers. Format: `
 | Q-13 | CAP-04 | Latency from start command to backend confirmation? | ≤ 3 s, which the countdown covers | Engineering | |
 | Q-14 | SHR-05 | Recipient verification: email code, SSO, or both? | Email code; SSO where set up | Engineering + Security | |
 | Q-28 | AI-04, flow step 10 | AI output never reaches a learner without faculty approval. Does tapping **Share with participants** count as approving the AI summary and clips it includes? | Yes: the share sheet lists the AI items, and Share approves them | Daniel + Patrik | |
+| Q-29 | Reports, survey Q5 (10-08) | Faculty contact hours: what counts? | Faculty time in simulation events, including debrief, from the event's assigned faculty and times | Product + Gabor (realism) | |
+| Q-30 | Tablet ↔ TV decision (10-08) | How does a room display connect to the debrief? | Register any browser-capable screen once by pairing code (admin), then pick it from the tablet; per-debrief code for unregistered screens; no screen mirroring. See `wireframe-benchmark/explorations/tablet-tv.md` → Decision | Engineering (Balázs) | |
 | Q-15 | CAP-07 | After a pause, does the debrief timeline show the gap, or does the video jump over it? | Jump over it, with a visible marker ("Paused 2 min") at that point | Engineering | |
 
 ## Not blocking

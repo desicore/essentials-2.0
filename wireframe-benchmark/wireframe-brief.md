@@ -208,7 +208,9 @@ Source: `spec/data/seed.json` → events `e-nurs310-sepsis` (`afterStep3`), grou
 
 ## Screen 6 · Simulation Lab Usage (staff app, 1440×900, sim day Tue 19 Jan 2027, 15:00) · frame S6
 
-Added 2026-10-08. Flow step 11. Purpose: back at her desk, Maya opens the usage report that management keeps asking for, checks the last 12 weeks against last year, and exports it. **Don't look at any existing Reports screen** (current product or the other track): the layout should be new.
+Added 2026-10-08, metrics updated the same day. Flow step 11. Purpose: back at her desk, Maya opens the usage report that management keeps asking for, checks the last 12 weeks against last year, and exports it.
+
+**Which metrics, and why:** the 09-29 nursing school survey (13 responses, Q5 "Which metrics do you collect or would you like to collect?"). Ranked: Total simulation hours 12 · Students in simulation 11 · Room usage 10 · Learner contact hours 10 · Simulator usage 9 · Types of sessions 9 · **Faculty contact hours 5** · Other 2 ("room usage per activity / programme", "anything SSH requires"). The report shows the top seven, in roughly that order, and **every school can show or hide each one** (frame S6c), because no school wanted all of them. **Don't look at any existing Reports screen** (current product or the other track): the layout should be new.
 
 **Shell:** copy the sidebar and top bar from the accepted S1 Dashboard frame on the same page. **Reports** is the active nav item.
 
@@ -216,9 +218,9 @@ Added 2026-10-08. Flow step 11. Purpose: back at her desk, Maya opens the usage 
 
 | Zone | Content |
 |---|---|
-| Page header (one row) | left: title **"Simulation Lab Usage"** · muted subtitle "Riverbend College of Nursing · all rooms" · right: **"Schedule weekly report"** (secondary, `calendar-clock`) · **"Export"** (primary, `download`) |
+| Page header (one row) | left: title **"Simulation Lab Usage"** · muted subtitle "Riverbend College of Nursing · all rooms" · right: **"Customize"** (secondary, `sliders-horizontal`) · **"Schedule weekly report"** (secondary, `calendar-clock`) · **"Export"** (primary, `download`) |
 | Filter bar (one row) | left: period segmented control **"12 weeks"** (selected) · "Quarter" · "Year to date" · muted range text **"Oct 26, 2026 – Jan 17, 2027"** · right: switch **"Compare with same period last year"** (**on**) *(idea: Gabor, 10-07 checkpoint)* |
-| KPI row | 3 equal tiles (below) |
+| KPI row | 4 equal tiles (below) |
 | Chart row 1 | **Simulation hours per week**, full width |
 | Chart row 2 | 3 equal cards: **Room usage** · **Simulator usage** · **Types of sessions** |
 
@@ -228,6 +230,7 @@ The page may scroll; let the frame grow in height rather than squeezing the char
 - **Total simulation hours** · **186 h** · `trending-up` "+22% vs 152 h last year"
 - **Students in simulation** · **214** · `trending-up` "+14% vs 188 last year"
 - **Learner contact hours** · **1,048 h** · `trending-up` "+20% vs 874 h last year" · `info` tooltip trigger "0.25 h per learner per event"
+- **Faculty contact hours** · **262 h** · `trending-up` "+19% vs 221 h last year" · `info` tooltip trigger "Faculty time in simulation events, including debrief" (definition assumed: Q-29)
 
 Under the KPI row, muted 12 px: "Compared with Oct 27, 2025 – Jan 18, 2026." The comparison appears **only on the tiles**; the charts show this period only. (Gabor's reason for a single switch: comparing everything with everything makes the interface too complex.)
 
@@ -237,9 +240,23 @@ Under the KPI row, muted 12 px: "Compared with Oct 27, 2025 – Jan 18, 2026." T
 - **Simulator usage** (hours, horizontal bars): Adult high-fidelity manikin 2 · 55 · Adult high-fidelity manikin 1 · 52 · Birthing simulator · 36 · Pediatric manikin (5-year-old) · 24 · IV training arm · 18
 - **Types of sessions** (number of events, horizontal bars, not a pie: a pie needs colour to read): High-fidelity · 96 · Task trainer · 41 · Standardized patient · 27 · Hybrid · 10. Card footer muted: "174 events".
 
-Each chart card has a title row with a small ghost icon button `more-horizontal` (export this chart) on the right. No legends needed (one series each).
+Each chart card has a title row with a small ghost icon button `more-horizontal` on the right (its menu: "Export chart" · "Hide from report"). No legends needed (one series each).
 
 Source: `spec/data/seed.json` → `reports.simulationLabUsage["12 weeks"]` (the `previous` values are shown as **same period last year**), `rooms`, `resources`. Contact-hour unit: Q-23.
+
+## Screen 6c · Customize the report (over S6) · frame S6c
+
+Added 2026-10-08. Purpose: each school measures different things (survey Q5), so Maya chooses which metrics the report shows.
+
+**Frame:** duplicate S6 and open a popover anchored under **"Customize"**, about 320 wide. In this state Maya has just **unticked "Faculty contact hours"**, so behind the popover the KPI row already shows **3 tiles** (the remaining tiles stretch to fill the row; no empty gap).
+
+**Popover content:**
+- Title **"Show on this report"**
+- Group **"Key numbers"** (checkboxes): ☑ Total simulation hours · ☑ Students in simulation · ☑ Learner contact hours · ☐ Faculty contact hours
+- Group **"Charts"** (checkboxes): ☑ Simulation hours per week · ☑ Room usage · ☑ Simulator usage · ☑ Types of sessions
+- Footer: link button **"Reset to default"** · muted 12 px "Saved for you. Scheduled reports use the same choice."
+
+Rules: at least one metric stays ticked (the last checkbox can't be unticked). A hidden chart card leaves no gap: the row reflows (2 cards fill the width).
 
 ## Screen 6b · Weekly report dialog (over S6) · frame S6b
 
@@ -249,7 +266,7 @@ Added 2026-10-08. Flow step 12. Purpose: Maya sets the report to arrive in manag
 
 **Dialog content, top to bottom:**
 - Title **"Schedule weekly report"** · muted description "Simulation Lab Usage is emailed to these people every week." · close icon button (`x`)
-- **Report:** read-only text "Simulation Lab Usage · last 12 weeks · with comparison to last year"
+- **Report:** read-only text "Simulation Lab Usage · last 12 weeks · with comparison to last year · 7 metrics"
 - **Send every:** select **"Monday"** · **at:** time field **"08:00"** (one row, two fields)
 - **Recipients:** a tag/chip input with two chips, each with a remove `x`: **dwhitfield@riverbend.edu** · **dean.nursing@riverbend.edu**, then the placeholder "Add an email address"
 - Footer, right-aligned: **"Cancel"** (secondary) · **"Schedule"** (primary)

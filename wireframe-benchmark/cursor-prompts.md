@@ -292,40 +292,54 @@ When done:
 
 ---
 
-## Prompt 6A — Reports (Simulation Lab Usage + Weekly report) · Astryx
+## Prompt 6A — Reports (Simulation Lab Usage + Customize + Weekly report) · Astryx
 
-Added 2026-10-08. Flow steps 11–12: two frames per library in one run. **6A and 6B can run in parallel**: they write to different pages. Don't run either while another run writes to the same page.
+Added 2026-10-08; updated the same day with the survey metrics (4th KPI tile: Faculty contact hours) and the Customize popover (S6c). Flow steps 11–12. Don't run it while another run writes to the Astryx page. **If you already ran the two-frame version,** use the 6A-r1 delta below instead.
 
 ```
-Build TWO greyscale wireframes in Figma using ONLY the Astryx library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+Build THREE greyscale wireframes in Figma using ONLY the Astryx library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
 
 Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
 Target page: "wireframe test - astryx". Do not touch any other page or any existing frame (including duplicates and "copy of" frames). Ignore "🚫 wireframe archive". Do NOT look at any existing Reports screen (current-product screenshots or other pages).
 
-Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 6 · Simulation Lab Usage", "Screen 6b · Weekly report dialog") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 6 · Simulation Lab Usage", "Screen 6c · Customize the report", "Screen 6b · Weekly report dialog") and @wireframe-benchmark/discovery.md (the component map for Astryx).
 Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
 
 Task:
-1. "S6 · Reports · Astryx", 1440 wide (height grows with content, min 900).
-2. "S6b · Weekly report dialog · Astryx", same size, to the right of S6 with a 200 px gap.
+1. "S6 · Reports · Astryx", 1440 wide (height grows with content, min 900). 4 KPI tiles.
+2. "S6c · Customize report · Astryx", same size, to the right of S6 with a 200 px gap.
+3. "S6b · Weekly report dialog · Astryx", same size, to the right of S6c with a 200 px gap.
 Place S6 below the lowest existing frame on the page, left-aligned with it, 200 px gap.
 
 How:
-- Run `date +%H:%M` in the terminal at the start, between the two frames, and at the end, for the log.
+- Run `date +%H:%M` in the terminal at the start, between frames, and at the end, for the log.
 - Shell: duplicate the sidebar and top bar from the accepted "S1 · Dashboard · Astryx" frame on this page; set Reports as the active nav item. Don't rebuild the shell.
 - Follow the locked layout table in the brief. No extra charts, filters, legends or tabs.
 - Astryx INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>". Check discovery.md for a chart, stat or KPI component before building custom.
 - Astryx has no chart components in its Figma kit (expected): build each chart as "CUSTOM · Bar chart · <name>" from plain rectangles and Astryx text styles, inside an Astryx card/surface if one exists.
 - Charts are greyscale and every bar carries its value as text. The comparison shows only on the KPI tiles, as icon + text.
 - Native control and icon sizes (16 px icons, don't resize instances). No colour on these screens.
+- S6c: duplicate S6 (don't rebuild). Remove the Faculty contact hours tile so the other 3 stretch to fill the row, then add the popover under "Customize" with CheckboxInput rows in two groups. Use Astryx's Popover if its Content slot can hold the list; otherwise "CUSTOM · Popover" from library parts.
 - S6b: duplicate S6 (don't rebuild), add the library's overlay/scrim and the dialog from the brief. If Astryx has no dialog component, build it as "CUSTOM · Dialog" from library parts (card/surface, buttons, inputs) and log it.
 - Build section by section (shell → header + filter bar → KPI row → weekly chart → three chart cards; then the dialog). After each section take a screenshot and fix problems on the existing nodes before moving on.
 - Real content from the brief only.
 
 When done:
-1. Don't edit benchmark-log.md. Put your log rows in your reply as TWO markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
-2. Reply in under 10 lines: what was hard, what Astryx lacked (charts, KPI tile, segmented control, switch, dialog, chip input), and what you'd do differently.
+1. Don't edit benchmark-log.md. Put your log rows in your reply as THREE markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
+2. Reply in under 10 lines: what was hard, what Astryx lacked (charts, KPI tile, segmented control, switch, popover, dialog, chip input), and what you'd do differently.
 ```
+
+### 6A-r1 — delta, only if the two-frame 6A already ran
+
+```
+Update the Reports frames on page "wireframe test - astryx" in https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes. Work on existing nodes; don't rebuild. Don't touch any other frame.
+Read first: @wireframe-benchmark/wireframe-brief.md ("Screen 6", "Screen 6c", "Screen 6b"; the metrics changed on 10-08). Load the figma-use skill before any Figma tool call.
+1. "S6 · Reports · Astryx": add the "Customize" button (secondary, sliders-horizontal) left of "Schedule weekly report"; add the 4th KPI tile "Faculty contact hours · 262 h · +19% vs 221 h last year" with its info tooltip trigger, by duplicating an existing tile; the 4 tiles share the row equally.
+2. "S6b · Weekly report dialog · Astryx": the same 4th tile behind the scrim; the Report text ends with "· 7 metrics".
+3. New "S6c · Customize report · Astryx": duplicate the updated S6, place it between S6 and S6b (shift S6b right to keep 200 px gaps), and build the popover state from the brief.
+After each frame, screenshot and fix on the existing nodes. Reply in under 8 lines: what changed, what was CUSTOM.
+```
+
 
 ## Prompt 6B — Reports (Simulation Lab Usage + Weekly report) · shadcn
 

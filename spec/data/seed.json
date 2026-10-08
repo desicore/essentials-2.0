@@ -845,6 +845,11 @@
           "previous": 874,
           "unit": "0.25 h per learner per event (Q-23)"
         },
+        "facultyContactHours": {
+          "value": 262,
+          "previous": 221,
+          "unit": "faculty time in simulation events incl. debrief (assumed, Q-29)"
+        },
         "roomUsageHours": {
           "sim-1": 58,
           "sim-2": 61,
@@ -879,7 +884,33 @@
           17
         ]
       },
-      "note": "Figures are fictional but consistent with the 2-6 room profile. Quarter and year-to-date can scale the 12-week figures."
+      "note": "Figures are fictional but consistent with the 2-6 room profile. Quarter and year-to-date can scale the 12-week figures.",
+      "metrics": {
+        "source": "09-29 nursing school survey Q5 (13 responses)",
+        "order": [
+          "totalSimulationHours",
+          "studentsInSimulation",
+          "learnerContactHours",
+          "facultyContactHours",
+          "weeklySimulationHours",
+          "roomUsageHours",
+          "simulatorUsageHours",
+          "sessionTypes"
+        ],
+        "surveyVotes": {
+          "totalSimulationHours": 12,
+          "studentsInSimulation": 11,
+          "roomUsageHours": 10,
+          "learnerContactHours": 10,
+          "simulatorUsageHours": 9,
+          "sessionTypes": 9,
+          "facultyContactHours": 5
+        },
+        "hiddenInFlow": {
+          "step": "S6c",
+          "metric": "facultyContactHours"
+        }
+      }
     }
   },
   "reportSchedules": [
