@@ -292,6 +292,74 @@ When done:
 
 ---
 
+## Prompt 6A — Reports (Simulation Lab Usage + Weekly report) · Astryx
+
+Added 2026-10-08. Flow steps 11–12: two frames per library in one run. **6A and 6B can run in parallel**: they write to different pages. Don't run either while another run writes to the same page.
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the Astryx library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - astryx". Do not touch any other page or any existing frame (including duplicates and "copy of" frames). Ignore "🚫 wireframe archive". Do NOT look at any existing Reports screen (current-product screenshots or other pages).
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 6 · Simulation Lab Usage", "Screen 6b · Weekly report dialog") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task:
+1. "S6 · Reports · Astryx", 1440 wide (height grows with content, min 900).
+2. "S6b · Weekly report dialog · Astryx", same size, to the right of S6 with a 200 px gap.
+Place S6 below the lowest existing frame on the page, left-aligned with it, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start, between the two frames, and at the end, for the log.
+- Shell: duplicate the sidebar and top bar from the accepted "S1 · Dashboard · Astryx" frame on this page; set Reports as the active nav item. Don't rebuild the shell.
+- Follow the locked layout table in the brief. No extra charts, filters, legends or tabs.
+- Astryx INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>". Check discovery.md for a chart, stat or KPI component before building custom.
+- Astryx has no chart components in its Figma kit (expected): build each chart as "CUSTOM · Bar chart · <name>" from plain rectangles and Astryx text styles, inside an Astryx card/surface if one exists.
+- Charts are greyscale and every bar carries its value as text. The comparison shows only on the KPI tiles, as icon + text.
+- Native control and icon sizes (16 px icons, don't resize instances). No colour on these screens.
+- S6b: duplicate S6 (don't rebuild), add the library's overlay/scrim and the dialog from the brief. If Astryx has no dialog component, build it as "CUSTOM · Dialog" from library parts (card/surface, buttons, inputs) and log it.
+- Build section by section (shell → header + filter bar → KPI row → weekly chart → three chart cards; then the dialog). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log rows in your reply as TWO markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
+2. Reply in under 10 lines: what was hard, what Astryx lacked (charts, KPI tile, segmented control, switch, dialog, chip input), and what you'd do differently.
+```
+
+## Prompt 6B — Reports (Simulation Lab Usage + Weekly report) · shadcn
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the shadcn library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - shadcn". Do not touch any other page or any existing frame (including duplicates and "copy of" frames). Ignore "🚫 wireframe archive". Do NOT look at any existing Reports screen (current-product screenshots or other pages).
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 6 · Simulation Lab Usage", "Screen 6b · Weekly report dialog") and @wireframe-benchmark/discovery.md (the component map for shadcn).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task:
+1. "S6 · Reports · shadcn", 1440 wide (height grows with content, min 900).
+2. "S6b · Weekly report dialog · shadcn", same size, to the right of S6 with a 200 px gap.
+Place S6 below the lowest existing frame on the page, left-aligned with it, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start, between the two frames, and at the end, for the log.
+- Shell: duplicate the sidebar and top bar from the accepted "S1 · Dashboard · shadcn" frame on this page; set Reports as the active nav item. Don't rebuild the shell.
+- Follow the locked layout table in the brief. No extra charts, filters, legends or tabs.
+- shadcn INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>". The shadcn kit may ship Chart, Card, Switch, Dialog, Toggle Group and Badge: search for each before building custom.
+- If the shadcn kit has a Chart component (bar/horizontal bar), use it and set it to greyscale through its variables; otherwise build "CUSTOM · Bar chart · <name>" from plain rectangles inside a shadcn Card.
+- Charts are greyscale and every bar carries its value as text. The comparison shows only on the KPI tiles, as icon + text.
+- Native control and icon sizes (16 px icons, don't resize instances). No colour on these screens.
+- S6b: duplicate S6 (don't rebuild), add the library's overlay/scrim and the dialog from the brief. If shadcn has no dialog component, build it as "CUSTOM · Dialog" from library parts (card/surface, buttons, inputs) and log it.
+- Build section by section (shell → header + filter bar → KPI row → weekly chart → three chart cards; then the dialog). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log rows in your reply as TWO markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
+2. Reply in under 10 lines: what was hard, what shadcn lacked (charts, KPI tile, segmented control, switch, dialog, chip input), and what you'd do differently.
+```
+
 ## Prompt 3 — Comparison (after all four runs, read-only)
 
 ```

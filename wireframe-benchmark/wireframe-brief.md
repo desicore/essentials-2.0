@@ -82,7 +82,7 @@ Purpose: Maya leads the debrief with the learners. Everything is ready within 30
 
 ## Screen 3 · Recording view, the refined SRV (staff app, 1440×900, sim day 10:10, 08:00 into the recording)
 
-*Changed after runs 4A/4B (2026-10-07): the moment moved from 04:20 to 08:00 so two notes exist, and the side panel shows the checklist and the notes list together instead of in tabs.*
+*Changed after runs 4A/4B (2026-10-07): the moment moved from 04:20 to 08:00 so two notes exist.* *Changed again after explorations E1–E3b (2026-10-07): the side panel is back to tabs, the Yes/No pairs are equal-width without icons, and the recording controls sit above the cameras with a Stop confirmation.*
 
 Added 2026-10-07. Purpose: Maya runs the scenario. She watches the cameras, drops markers and notes, and ticks the yes/no checklist as things happen. Then she presses Stop and walks to the debrief room.
 
@@ -90,7 +90,7 @@ Added 2026-10-07. Purpose: Maya runs the scenario. She watches the cameras, drop
 
 **What changes against today's SRV:**
 - **No Recording setup dialog.** Room, scenario and learners come prefilled from the event (Maya confirmed them on the Event page before pressing Start recording). They show in the header.
-- **The side panel gets the checklist.** Today's panel has Annotations and Layout tabs. The new one has **Checklist** and **Notes**; camera layout moves above the video.
+- **The side panel gets the checklist.** Today's panel has Annotations and Layout tabs. The new one keeps tabs (**Notes · Checklist · Chapters · Transcript**, room for more later, close to today's SRV so engineering can reuse it); camera layout moves above the video.
 - **The bottom strip comes back as "Room audio"**, an **exploration layer** (see below). Sound controls are outside the approved demo scope, but audio quality and mic sensitivity are a top customer pain point, so Daniel wants it ready in case it goes into the demo as a highlight.
 - **Out of this wireframe:** the contrast toggle, AI markers (AI output appears only after processing, in the debrief).
 
@@ -99,17 +99,18 @@ Added 2026-10-07. Purpose: Maya runs the scenario. She watches the cameras, drop
 | Zone | Size | Content |
 |---|---|---|
 | Header | full width × 64 | left · centre · right, see below |
-| Camera area | left, fill (about 1060 wide) | layout selector row, cameras, transport + timeline, quick notes bar, Room audio strip (about 160 high) |
-| Side panel | right, 380 wide, 1 px left divider | two stacked sections, no tabs: **Checklist** (top) · **Notes and markers** (below, fills the rest) |
+| Camera area | left, fill (about 1060 wide) | camera toolbar row (layout selector + recording controls), cameras, timeline, quick notes bar, Room audio strip (about 160 high) |
+| Side panel | right, 380 wide, 1 px left divider | tabs **Notes 2** · **Checklist** (active) · Chapters · Transcript |
 
 - **Header:**
   - Left: back arrow "Back to event" (icon button with tooltip text, or ghost button) · title **"NURS 310 · Sepsis recognition"** · meta "Sim Room 2 · Group A · Tue, Jan 19 · 10:00–11:00"
-  - Centre: learners: 4 initials avatars (EB, PS, MC, NP) + text "4 learners" · muted text "Olivia Grant absent"
-  - Right: **recording state** = red dot (#D92D20, the only colour on the screen) + label **"Recording"** + elapsed **"08:00"** in tabular figures · secondary button **"Pause"** (lucide `pause`) · primary button **"Stop recording"** (lucide `square`). Stop is the library's primary/dark button, **not red**.
+  - Right: learners: 4 initials avatars (EB, PS, MC, NP) + text "4 learners" · muted text "Olivia Grant absent"
+  - **No recording controls in the header** (moved to the camera toolbar row, E3b).
 - **Camera area:**
-  - **Layout selector row** above the cameras: segmented control **"1 + 2"** (selected) · "Single" · "Grid"; at the right of the row a muted "Sim Room 2 · 3 cameras".
+  - **Camera toolbar row** above the cameras. Left: segmented control **"1 + 2"** (selected) · "Single" · "Grid" · muted "Sim Room 2 · 3 cameras". Right: **recording state** = red dot (#D92D20, the only colour on the screen) + **"Recording"** + **"08:00"** in tabular figures · 24 px gap · secondary **"Pause"** (`pause`) · primary **"Stop recording"** (`square`, the library's dark button, **not red**). Why here: the cameras separate Stop from the note input (the most-used target), so a misclick under stress can't end the recording.
+  - **Stop always asks first** (SPEC §7.4; an event has only one recording): a state frame "Stop confirmation" with a 40 % overlay and a dialog, about 440 wide: "Stop the recording?" · "This ends the recording for NURS 310 · Sepsis recognition. The debrief will be ready on the tablet in about 30 seconds." · "Keep recording" (secondary, default focus) · "Stop recording" (primary). Pause needs no dialog (resumes as the same recording, CAP-07).
   - **Cameras in the "1 + 2" layout:** Camera 1 large (about two thirds of the width), Camera 2 and Camera 3 stacked on the right. Grey placeholders with a lucide `video` icon and the label ("Camera 1", "Camera 2", "Camera 3"). Camera 1 is the selected camera (1 px darker border) and has a small overlay toolbar at its bottom-right: **"Preset"** dropdown button, zoom in (`zoom-in`), zoom out (`zoom-out`), full screen (`maximize`). Camera 2 and 3 show only their label.
-  - **Transport + timeline** under the cameras, full width of the camera area:
+  - **Timeline** under the cameras, full width of the camera area:
     - A live progress track for the planned 20-minute scenario (08:00 of 20:00 filled). **Two markers on the track: 04:12 (lucide `message-circle`, Discuss) and 07:30 (lucide `sticky-note`, note)**, each an icon above the track, a tick on it and the time below, built like the accepted Debrief timeline: the marker sits on the track, not above it.
     - Left of the track: **"08:00 / 20:00"** (tabular figures). Right: muted "Planned 20 min".
   - **Quick notes bar** under the timeline: a text input "Add a note at 08:00…" (fills the width) · then three secondary buttons with icons: **"Discuss"** (`message-circle`) · **"Good practice"** (`thumbs-up`) · **"Marker"** (`flag`). Each button drops a marker at the current time; the input adds a note to it.
@@ -119,9 +120,10 @@ Added 2026-10-07. Purpose: Maya runs the scenario. She watches the cameras, drop
   3. **Microphones** (`sliders-horizontal`): three compact channel rows, each: name · mute toggle icon button (all three are live, so it shows `mic`; `mic-off` would mean muted) · a horizontal live level meter · a gain slider · value in tabular figures. **"Bed mic · +6 dB"**, **"Room mic · 0 dB"**, **"Manikin · -3 dB"**. A small text button "Auto gain" at the group header right.
   4. **Send to screen** (`monitor`): two outputs, each a select: "Patient monitor" · "No decoder added to room" (disabled look, as in today's SRV).
   - Mic names and presets are **illustrative** (they aren't in `seed.json`); fine for an exploration layer.
-- **Side panel · Checklist section (top):**
+- **Side panel · tabs:** **"Notes 2"** (the count shows a new note landed without switching tabs) · **"Checklist"** (active) · "Chapters" · "Transcript". Chapters and Transcript are labels only, no content. The Layout tab of today's SRV is gone (the layout selector is above the cameras).
+- **Checklist tab (active):**
   - Heading "Sepsis recognition checklist" · muted "Yes / no · no score" · counter "4 of 7 answered" (count of answered items, **not** a score or a percentage)
-  - 7 rows, each: number · item text · a Yes/No toggle pair (two-option segmented control or toggle group) · the time it was answered:
+  - 7 rows, each: number · item text with **"Answered 00:40"** under it (muted 12 px; nothing when unanswered) · the Yes/No pair **flush right**:
     1. Performs hand hygiene and introduces self · **Yes** · 00:40
     2. Takes a full set of vital signs · **Yes** · 02:40
     3. Recognizes SIRS criteria · **Yes** · 03:30
@@ -129,9 +131,8 @@ Added 2026-10-07. Purpose: Maya runs the scenario. She watches the cameras, drop
     5. Starts IV fluids as ordered · (unanswered)
     6. Draws blood cultures before antibiotics · (unanswered)
     7. Uses SBAR in the handoff · (unanswered)
-  - Answered = the selected option shows its icon (`check` for Yes, `x` for No) + label. Status never by colour alone.
-  - Keep the rows compact so both sections fit: item text on one or two lines, the Yes/No pair and the time on the same row (time right-aligned, "—" when unanswered), dividers between rows, no cards.
-- **Side panel · Notes and markers section (below the checklist, fills the remaining height, scrolls):**
+  - **The Yes/No pair:** two buttons of **equal, fixed width**, **no icons**, the same size selected or not, all 14 forming one straight column at the panel's right padding. Selected = a **solid dark fill** (primary/default button); unselected = outline/secondary. A subtle selected state (e.g. a raised white segment on a grey track) is not enough: answered and unanswered rows must differ at a glance. Dividers between rows, no cards.
+- **Notes tab (not active in this frame; content for when it's opened):**
   - Header: "Notes and markers" · muted count "2".
   - A flat list in time order, **newest at the top** (the one Maya just added is where her eye is). Each row: time in tabular figures · the type as icon + label · the note text · a "more" icon button (`ellipsis`, for edit/delete):
     - 07:30 · Note (`sticky-note`) · "Check the IV site before fluids"
@@ -195,7 +196,7 @@ Added 2026-10-07. Flow step 3. Purpose: Maya assigns Group A to the event and ch
 - Header: **"Learners"** · muted counter **"5 assigned"**
 - An "Assign a group" row: select showing **"Group A · NURS 310 · 5 learners"** + secondary button **"Assign group"**. Under it, muted: "Assigning a group adds all its members. You can untick anyone later, also on the day."
 - A search field **"Add a learner by name or email"** (`search`), for someone outside the group.
-- The list, flat rows with dividers (no cards), each: checkbox (ticked) · initials avatar · name · email (muted) · a remove icon button (`x`):
+- The list, flat rows with dividers (no cards), each: initials avatar · name · email (muted) · a remove icon button (`x`, tooltip "Remove from event"). **No checkboxes** here: being in the list means assigned. Ticking someone off as absent happens on the day, on Event (today). *(Changed after 5A/5B: checkbox + remove were two controls for one thing.)*
   - Emily Baker · ebaker@student.riverbend.edu
   - Priya Shah · pshah@student.riverbend.edu
   - Marcus Chen · mchen@student.riverbend.edu
@@ -204,6 +205,56 @@ Added 2026-10-07. Flow step 3. Purpose: Maya assigns Group A to the event and ch
 - Under the list, muted 12 px with `info` icon: "On the day, the learners come prefilled when you start the recording."
 
 Source: `spec/data/seed.json` → events `e-nurs310-sepsis` (`afterStep3`), groups `nurs310-grp-a`, participants, courses `nurs310`, scenarios `sepsis-recognition`, rooms `sim-2`, resources `manikin-adult-2`. Decisions: Event is the UI word (Q-26) and learners are assigned to the event, not to rotations (Q-27), both 2026-10-05.
+
+## Screen 6 · Simulation Lab Usage (staff app, 1440×900, sim day Tue 19 Jan 2027, 15:00) · frame S6
+
+Added 2026-10-08. Flow step 11. Purpose: back at her desk, Maya opens the usage report that management keeps asking for, checks the last 12 weeks against last year, and exports it. **Don't look at any existing Reports screen** (current product or the other track): the layout should be new.
+
+**Shell:** copy the sidebar and top bar from the accepted S1 Dashboard frame on the same page. **Reports** is the active nav item.
+
+**Layout (locked, the same in both libraries):**
+
+| Zone | Content |
+|---|---|
+| Page header (one row) | left: title **"Simulation Lab Usage"** · muted subtitle "Riverbend College of Nursing · all rooms" · right: **"Schedule weekly report"** (secondary, `calendar-clock`) · **"Export"** (primary, `download`) |
+| Filter bar (one row) | left: period segmented control **"12 weeks"** (selected) · "Quarter" · "Year to date" · muted range text **"Oct 26, 2026 – Jan 17, 2027"** · right: switch **"Compare with same period last year"** (**on**) *(idea: Gabor, 10-07 checkpoint)* |
+| KPI row | 3 equal tiles (below) |
+| Chart row 1 | **Simulation hours per week**, full width |
+| Chart row 2 | 3 equal cards: **Room usage** · **Simulator usage** · **Types of sessions** |
+
+The page may scroll; let the frame grow in height rather than squeezing the charts.
+
+**KPI tiles** (label 12 px muted · value as the largest number on the page · comparison line 12 px). The switch is on, so each tile shows the comparison as an icon + text, **never colour alone**:
+- **Total simulation hours** · **186 h** · `trending-up` "+22% vs 152 h last year"
+- **Students in simulation** · **214** · `trending-up` "+14% vs 188 last year"
+- **Learner contact hours** · **1,048 h** · `trending-up` "+20% vs 874 h last year" · `info` tooltip trigger "0.25 h per learner per event"
+
+Under the KPI row, muted 12 px: "Compared with Oct 27, 2025 – Jan 18, 2026." The comparison appears **only on the tiles**; the charts show this period only. (Gabor's reason for a single switch: comparing everything with everything makes the interface too complex.)
+
+**Charts** (greyscale: bars #111111, gridlines #E6E6E6, labels 12 px #6B6B6B; values written on or next to each bar so nothing depends on reading the axis):
+- **Simulation hours per week:** vertical bars, 12 weeks, x labels are the week's Monday: Oct 26 · Nov 2 · Nov 9 · Nov 16 · Nov 23 · Nov 30 · Dec 7 · Dec 14 · Dec 21 · Dec 28 · Jan 4 · Jan 11. Values: 12 · 14 · 13 · 15 · 16 · 14 · 17 · 15 · 18 · 16 · 19 · 17. Y axis 0–20 h.
+- **Room usage** (hours, horizontal bars, sorted high → low): Sim Room 2 · 61 · Sim Room 1 · 58 · Sim Room 3 · 39 · Sim Room 4 · 28
+- **Simulator usage** (hours, horizontal bars): Adult high-fidelity manikin 2 · 55 · Adult high-fidelity manikin 1 · 52 · Birthing simulator · 36 · Pediatric manikin (5-year-old) · 24 · IV training arm · 18
+- **Types of sessions** (number of events, horizontal bars, not a pie: a pie needs colour to read): High-fidelity · 96 · Task trainer · 41 · Standardized patient · 27 · Hybrid · 10. Card footer muted: "174 events".
+
+Each chart card has a title row with a small ghost icon button `more-horizontal` (export this chart) on the right. No legends needed (one series each).
+
+Source: `spec/data/seed.json` → `reports.simulationLabUsage["12 weeks"]` (the `previous` values are shown as **same period last year**), `rooms`, `resources`. Contact-hour unit: Q-23.
+
+## Screen 6b · Weekly report dialog (over S6) · frame S6b
+
+Added 2026-10-08. Flow step 12. Purpose: Maya sets the report to arrive in management's inbox every Monday.
+
+**Frame:** duplicate S6, dim it with the library's overlay/scrim, and open a centred dialog (about 520 wide).
+
+**Dialog content, top to bottom:**
+- Title **"Schedule weekly report"** · muted description "Simulation Lab Usage is emailed to these people every week." · close icon button (`x`)
+- **Report:** read-only text "Simulation Lab Usage · last 12 weeks · with comparison to last year"
+- **Send every:** select **"Monday"** · **at:** time field **"08:00"** (one row, two fields)
+- **Recipients:** a tag/chip input with two chips, each with a remove `x`: **dwhitfield@riverbend.edu** · **dean.nursing@riverbend.edu**, then the placeholder "Add an email address"
+- Footer, right-aligned: **"Cancel"** (secondary) · **"Schedule"** (primary)
+
+Source: `seed.json` → `reportSchedules[0]`. Dana Whitfield is the sim centre coordinator; the second address is the dean's office.
 
 ## Out of scope
 

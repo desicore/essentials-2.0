@@ -60,4 +60,4 @@ Screenshot after each step and fix on the existing nodes. Reply in under 8 lines
 When Daniel accepts E3b, one merge prompt per library brings E1 (no-icon Yes/No, Astryx as Primary/Secondary buttons), E2 (tabs + "Notes 2") and E3b into the main frames 130:2098 / 141:4156, and the brief's Screen 3 gets updated.
 
 ## Status
-- [ ] E3b Astryx · [ ] E3b shadcn · [ ] accepted · [ ] merge
+- [x] E3b Astryx · [x] E3b shadcn · [x] accepted (188:4286, 188:9459, 189:8453, 189:8967) · merge prompts in `4-merge.md`

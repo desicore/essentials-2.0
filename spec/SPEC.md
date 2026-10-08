@@ -164,7 +164,7 @@ The full list of scope cuts is in `scope.md`. Beyond scope, these are **principl
 
 1. The AI reads this folder and lists its **ambiguities** (`open-questions.md`, appended). It doesn't invent answers.
 2. Daniel answers them in the spec.
-3. **Wireframes of each of the five steps**, focused on the essential parts (Patrik's next step, 10-05). Gabor's Figma screens are the starting point.
+3. **Wireframes of each of the five steps**, focused on the essential parts (Patrik's next step, 10-05). Each screen's reference is its section in `wireframe-benchmark/wireframe-brief.md`, not Gabor's Figma screens (the tracks stay apart until the end-of-week comparison, 10-07 rule).
 4. The clickable build runs step by step, with a scripted walkthrough. Gabor tests the flow.
 
 ## 12. Open questions (spec level)
