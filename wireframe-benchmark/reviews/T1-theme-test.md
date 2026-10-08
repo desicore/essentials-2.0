@@ -41,3 +41,35 @@ Step 3 · Screenshot both frames side by side, and list the 3 biggest visible di
 
 Reply in under 15 lines plus the token table: what could be themed, what couldn't, and how many minutes it took.
 ```
+
+---
+
+## Prompt T2 · Recording view (SRV), shadcn with the Astryx theme
+
+Added 2026-10-08, Daniel's ask: a second, denser screen for a better-informed decision. The SRV has nearly every control type (buttons, segmented controls, Yes/No toggles, switch, sliders, selects, tabs-to-be, avatars, list rows), so it shows the theme on far more than the Edit event form did.
+
+**Runs on:** page "IMSH · final". It can run in parallel with anything on the Astryx or shadcn benchmark pages. Not a benchmark run (no log row).
+
+```
+Theme test #2 in Figma. Goal: make one shadcn screen look like its Astryx twin by changing ONLY theme-level properties. Don't change layout or content.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Source (shadcn): node 202:10129 on page "IMSH · final" (the Recording view / SRV). Don't edit it.
+Reference (read-only): "S3 · Recording view · Astryx" (130:2098) on page "wireframe test - astryx". Don't edit anything on that page.
+Target: duplicate 202:10129, rename the copy "T2 · Recording view · shadcn with Astryx theme", place it 200 px to the right of the source. Work ONLY in the copy.
+
+Before any Figma tool call, load the figma-use skill. Run `date +%H:%M` at the start and at the end.
+
+Step 1 · Tokens. If T1 already created an "Astryx-like" variable mode (check the shadcn variable collections), reuse it and skip measuring. Otherwise measure from the Astryx SRV exactly as in T1 step 1 (font, sizes/weights, radius per control type, control heights and paddings, borders vs shadows, greys, primary/secondary buttons, icon set and stroke, row spacing) and create the mode.
+
+Step 2 · Theme the copy:
+a) Set the copy to the "Astryx-like" mode. The source frame and every other shadcn frame must stay unchanged.
+b) Only where a property isn't variable-bound: override it on the instances in the copy, and log each override.
+- Pay extra attention to the parts that differ most on this screen: the Yes/No pairs (Astryx's selected state vs shadcn's dark fill), the switch, the sliders and the level meters, the segmented controls ("1 + 2 / Single / Grid", "In-room / Facilitator"), the "Stop recording" and "Pause" buttons, and icon stroke weight.
+- Swap icons to the Astryx icon set/stroke where the instance allows it.
+- Keep the recording red (#D92D20) dot as the only colour.
+
+Step 3 · Screenshot the copy next to the Astryx SRV. List the 5 biggest visible differences that remain, each marked theme-fixable (variables/icons) or structural (the component itself differs), and which one you'd call "more polished" for each of these: buttons, toggles/segmented controls, form fields, list rows, icons.
+
+Reply in under 15 lines (plus the token table if you measured): what could be themed, what couldn't, overrides needed, minutes taken.
+```
