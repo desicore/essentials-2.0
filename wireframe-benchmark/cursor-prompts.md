@@ -150,7 +150,215 @@ When done:
 2. Reply in under 10 lines: what was hard, what shadcn lacked (especially for the video player, timeline and segmented controls), and what you'd do differently.
 ```
 
+## Prompt 4A — Recording view (SRV) · Astryx
+
+Added 2026-10-07. Run 4A, then 4B, one after the other (not in parallel). The layout is locked in the brief, so only the library differs.
+
+```
+Build ONE greyscale wireframe in Figma using ONLY the Astryx library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - astryx". Do not touch any other page or any existing frame. Ignore "🚫 wireframe archive".
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules" and "Screen 3 · Recording view") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Reference (READ-ONLY): take a screenshot of node 126:1841 (today's SRV) and 126:1844 (its recording setup dialog) on the page "learningspace screenshots". Keep the SRV's structure as the brief describes. Don't copy its colours, icons or styling.
+
+Task: build "Screen 3 · Recording view" as a top-level frame named "S3 · Recording view · Astryx", 1440×900, staff app in focused mode: NO left navigation. Place it below the lowest existing frame on the page, left-aligned with it, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start and at the end, for the log.
+- Follow the locked layout table in the brief (header 64, side panel 380 on the right, camera area fills the rest). Don't invent a different arrangement.
+- Astryx INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>".
+- Bind to Astryx variables/styles. Neutral mode if it exists; otherwise defaults, no hand-overridden colours.
+- The ONLY colour is the recording dot, #D92D20. Astryx has no such token: set it by hand on that one dot and log how you did it. "Stop recording" is the library's primary button, NOT red, NOT a destructive variant.
+- Native control and icon sizes (16 px icons, don't resize instances). Status = icon + label, never colour alone. Tabular figures for 04:20 and 04:20 / 20:00 if the library's type allows it.
+- Avoid boxes inside boxes: checklist rows are flat rows with dividers inside the panel, not separate bordered cards (lesson from run 1B).
+- The timeline marker sits ON the track: a tick on the track, the flag icon above it, "04:12" below. Not floating above the track.
+- The checklist is yes/no with times. "4 of 7 answered" is the only count. NO score, NO percentage.
+- Build section by section (header → layout selector + cameras → transport + timeline → quick notes bar → side panel → Room audio strip LAST). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only. No AI markers on this screen.
+- The Room audio strip is an EXPLORATION layer: one frame named "EXPLORATION · Room audio" at the bottom of the camera area. Give the cameras fill height so that hiding this frame lets them grow. Its faders, meters and knob are CUSTOM (audiocn.dev is the visual reference), greyscale only. Hide it once and screenshot to check the screen still works without it, then show it again.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log row in your reply as ONE markdown table line, matching its columns (# = 5).
+2. Reply in under 10 lines: what was hard, what Astryx lacked (especially the camera grid, the live timeline, the Yes/No toggle pair, the red dot and the audio controls), and what you'd do differently.
+```
+
+## Prompt 4B — Recording view (SRV) · shadcn
+
+```
+Build ONE greyscale wireframe in Figma using ONLY the shadcn library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - shadcn". Do not touch any other page or any existing frame. Ignore "🚫 wireframe archive".
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules" and "Screen 3 · Recording view") and @wireframe-benchmark/discovery.md (the component map for shadcn).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Reference (READ-ONLY): take a screenshot of node 126:1841 (today's SRV) and 126:1844 (its recording setup dialog) on the page "learningspace screenshots". Keep the SRV's structure as the brief describes. Don't copy its colours, icons or styling.
+
+Task: build "Screen 3 · Recording view" as a top-level frame named "S3 · Recording view · shadcn", 1440×900, staff app in focused mode: NO left navigation. Place it below the lowest existing frame on the page, left-aligned with it, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start and at the end, for the log.
+- Follow the locked layout table in the brief (header 64, side panel 380 on the right, camera area fills the rest). Don't invent a different arrangement.
+- shadcn INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>".
+- Bind to shadcn variables/styles. Light mode; no hand-overridden colours.
+- The ONLY colour is the recording dot, #D92D20. shadcn has no such token (its `destructive` is not the recording red): set it by hand on that one dot and log how you did it. "Stop recording" is the default (dark) Button, NOT the destructive variant.
+- Native control and icon sizes (16 px icons, don't resize instances). Status = icon + label, never colour alone. Tabular figures for 04:20 and 04:20 / 20:00 if the library's type allows it.
+- Avoid boxes inside boxes: checklist rows are flat rows with dividers inside the panel, not separate bordered cards (lesson from run 1B).
+- The timeline marker sits ON the track: a tick on the track, the flag icon above it, "04:12" below. Not floating above the track.
+- The checklist is yes/no with times. "4 of 7 answered" is the only count. NO score, NO percentage.
+- Build section by section (header → layout selector + cameras → transport + timeline → quick notes bar → side panel → Room audio strip LAST). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only. No AI markers on this screen.
+- The Room audio strip is an EXPLORATION layer: one frame named "EXPLORATION · Room audio" at the bottom of the camera area. Give the cameras fill height so that hiding this frame lets them grow. Its faders, meters and knob are CUSTOM (audiocn.dev is the visual reference), greyscale only. Hide it once and screenshot to check the screen still works without it, then show it again.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log row in your reply as ONE markdown table line, matching its columns (# = 6).
+2. Reply in under 10 lines: what was hard, what shadcn lacked (especially the camera grid, the live timeline, the Yes/No toggle pair, the red dot and the audio controls), and what you'd do differently.
+```
+
+## Prompt 5A — Calendar + Edit event · Astryx
+
+Added 2026-10-07. Flow step 2: two frames per library in one run. Run 5A, then 5B, one after the other. If Daniel's inspiration round changes the layout, change the brief first; both prompts read it.
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the Astryx library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - astryx". Do not touch any other page or any existing frame (including the "copy of" / duplicate frames Daniel made). Ignore "🚫 wireframe archive". Do NOT look at the current LearningSpace calendar screenshots for these screens.
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 4 · Calendar", "Screen 5 · Edit event") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task:
+1. "S2a · Calendar · Astryx", 1440×900.
+2. "S2b · Edit event · Astryx", 1440×900.
+Place S2a below the lowest existing frame on the page, left-aligned with it, 200 px gap; S2b to the right of S2a, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start, between the two frames, and at the end, for the log.
+- Shell: duplicate the sidebar and top bar from the accepted "S1 · Dashboard · Astryx" frame on this page into both new frames; set Calendar as the active nav item. Don't rebuild the shell.
+- Follow the locked layout tables in the brief. Don't invent a different arrangement, extra panels or extra events.
+- Astryx INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>".
+- Bind to Astryx variables/styles. Neutral mode; no hand-overridden colours.
+- Astryx's Calendar component is a month picker, not a week view: the week grid is expected to be CUSTOM. Use Astryx parts inside it where they fit (Badge, text styles, dividers).
+- Native control and icon sizes (16 px icons, don't resize instances). Status = icon + label, never colour alone. No colour at all on these two screens.
+- Week grid: event blocks are positioned by time (top = start, height = duration, 08:00–16:00 in hour rows). Check each block's top edge against the gutter before moving on. The NURS 310 Sepsis block is the hover state and carries the "No learners" badge.
+- Edit event: the Learners column is the focus; flat rows with dividers, not cards. No rotations, no score, nothing about attendance yet.
+- Build section by section (S2a: shell → page header + toolbar → notice → grid → event blocks; S2b: shell → page header → event details → learners). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log rows in your reply as TWO markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
+2. Reply in under 10 lines: what was hard, what Astryx lacked (especially the week grid, event blocks, date/time pickers and the checkbox list), and what you'd do differently.
+```
+
+## Prompt 5B — Calendar + Edit event · shadcn
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the shadcn library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - shadcn". Do not touch any other page or any existing frame (including the "copy of" / duplicate frames Daniel made). Ignore "🚫 wireframe archive". Do NOT look at the current LearningSpace calendar screenshots for these screens.
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 4 · Calendar", "Screen 5 · Edit event") and @wireframe-benchmark/discovery.md (the component map for shadcn).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task:
+1. "S2a · Calendar · shadcn", 1440×900.
+2. "S2b · Edit event · shadcn", 1440×900.
+Place S2a below the lowest existing frame on the page, left-aligned with it, 200 px gap; S2b to the right of S2a, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start, between the two frames, and at the end, for the log.
+- Shell: duplicate the sidebar and top bar from the accepted "S1 · Dashboard · shadcn" frame on this page into both new frames; set Calendar as the active nav item. Don't rebuild the shell.
+- Follow the locked layout tables in the brief. Don't invent a different arrangement, extra panels or extra events.
+- shadcn INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>".
+- Bind to shadcn variables/styles. Light mode; no hand-overridden colours.
+- shadcn's kit has no week view or day grid: the week grid is expected to be CUSTOM. Use shadcn parts inside it where they fit (Badge, text styles, Separator). Avoid boxes inside boxes.
+- Native control and icon sizes (16 px icons, don't resize instances). Status = icon + label, never colour alone. No colour at all on these two screens.
+- Week grid: event blocks are positioned by time (top = start, height = duration, 08:00–16:00 in hour rows). Check each block's top edge against the gutter before moving on. The NURS 310 Sepsis block is the hover state and carries the "No learners" badge.
+- Edit event: the Learners column is the focus; flat rows with dividers, not cards. No rotations, no score, nothing about attendance yet.
+- Build section by section (S2a: shell → page header + toolbar → notice → grid → event blocks; S2b: shell → page header → event details → learners). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log rows in your reply as TWO markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
+2. Reply in under 10 lines: what was hard, what shadcn lacked (especially the week grid, event blocks, date/time pickers and the checkbox list), and what you'd do differently.
+```
+
 ---
+
+## Prompt 6A — Reports (Simulation Lab Usage + Weekly report) · Astryx
+
+Added 2026-10-08. Flow steps 11–12: two frames per library in one run. **6A and 6B can run in parallel**: they write to different pages. Don't run either while another run writes to the same page.
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the Astryx library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - astryx". Do not touch any other page or any existing frame (including duplicates and "copy of" frames). Ignore "🚫 wireframe archive". Do NOT look at any existing Reports screen (current-product screenshots or other pages).
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 6 · Simulation Lab Usage", "Screen 6b · Weekly report dialog") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task:
+1. "S6 · Reports · Astryx", 1440 wide (height grows with content, min 900).
+2. "S6b · Weekly report dialog · Astryx", same size, to the right of S6 with a 200 px gap.
+Place S6 below the lowest existing frame on the page, left-aligned with it, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start, between the two frames, and at the end, for the log.
+- Shell: duplicate the sidebar and top bar from the accepted "S1 · Dashboard · Astryx" frame on this page; set Reports as the active nav item. Don't rebuild the shell.
+- Follow the locked layout table in the brief. No extra charts, filters, legends or tabs.
+- Astryx INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>". Check discovery.md for a chart, stat or KPI component before building custom.
+- Astryx has no chart components in its Figma kit (expected): build each chart as "CUSTOM · Bar chart · <name>" from plain rectangles and Astryx text styles, inside an Astryx card/surface if one exists.
+- Charts are greyscale and every bar carries its value as text. The comparison shows only on the KPI tiles, as icon + text.
+- Native control and icon sizes (16 px icons, don't resize instances). No colour on these screens.
+- S6b: duplicate S6 (don't rebuild), add the library's overlay/scrim and the dialog from the brief. If Astryx has no dialog component, build it as "CUSTOM · Dialog" from library parts (card/surface, buttons, inputs) and log it.
+- Build section by section (shell → header + filter bar → KPI row → weekly chart → three chart cards; then the dialog). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log rows in your reply as TWO markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
+2. Reply in under 10 lines: what was hard, what Astryx lacked (charts, KPI tile, segmented control, switch, dialog, chip input), and what you'd do differently.
+```
+
+## Prompt 6B — Reports (Simulation Lab Usage + Weekly report) · shadcn
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the shadcn library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - shadcn". Do not touch any other page or any existing frame (including duplicates and "copy of" frames). Ignore "🚫 wireframe archive". Do NOT look at any existing Reports screen (current-product screenshots or other pages).
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 6 · Simulation Lab Usage", "Screen 6b · Weekly report dialog") and @wireframe-benchmark/discovery.md (the component map for shadcn).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task:
+1. "S6 · Reports · shadcn", 1440 wide (height grows with content, min 900).
+2. "S6b · Weekly report dialog · shadcn", same size, to the right of S6 with a 200 px gap.
+Place S6 below the lowest existing frame on the page, left-aligned with it, 200 px gap.
+
+How:
+- Run `date +%H:%M` in the terminal at the start, between the two frames, and at the end, for the log.
+- Shell: duplicate the sidebar and top bar from the accepted "S1 · Dashboard · shadcn" frame on this page; set Reports as the active nav item. Don't rebuild the shell.
+- Follow the locked layout table in the brief. No extra charts, filters, legends or tabs.
+- shadcn INSTANCES only, never detached, no lookalikes. Missing components → plain auto-layout frame named "CUSTOM · <what>". The shadcn kit may ship Chart, Card, Switch, Dialog, Toggle Group and Badge: search for each before building custom.
+- If the shadcn kit has a Chart component (bar/horizontal bar), use it and set it to greyscale through its variables; otherwise build "CUSTOM · Bar chart · <name>" from plain rectangles inside a shadcn Card.
+- Charts are greyscale and every bar carries its value as text. The comparison shows only on the KPI tiles, as icon + text.
+- Native control and icon sizes (16 px icons, don't resize instances). No colour on these screens.
+- S6b: duplicate S6 (don't rebuild), add the library's overlay/scrim and the dialog from the brief. If shadcn has no dialog component, build it as "CUSTOM · Dialog" from library parts (card/surface, buttons, inputs) and log it.
+- Build section by section (shell → header + filter bar → KPI row → weekly chart → three chart cards; then the dialog). After each section take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done:
+1. Don't edit benchmark-log.md. Put your log rows in your reply as TWO markdown table lines (one per frame), matching its columns; leave # empty, Daniel numbers them.
+2. Reply in under 10 lines: what was hard, what shadcn lacked (charts, KPI tile, segmented control, switch, dialog, chip input), and what you'd do differently.
+```
 
 ## Prompt 3 — Comparison (after all four runs, read-only)
 
