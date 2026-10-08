@@ -240,7 +240,7 @@ Under the KPI row, muted 12 px: "Compared with Oct 27, 2025 – Jan 18, 2026." T
 - **Simulator usage** (hours, horizontal bars): Adult high-fidelity manikin 2 · 55 · Adult high-fidelity manikin 1 · 52 · Birthing simulator · 36 · Pediatric manikin (5-year-old) · 24 · IV training arm · 18
 - **Types of sessions** (number of events, horizontal bars, not a pie: a pie needs colour to read): High-fidelity · 96 · Task trainer · 41 · Standardized patient · 27 · Hybrid · 10. Card footer muted: "174 events".
 
-Each chart card has a title row with a small ghost icon button `more-horizontal` on the right (its menu: "Export chart" · "Hide from report"). No legends needed (one series each).
+Each chart card has a title row with a small ghost icon button `ellipsis` (lucide renamed `more-horizontal`) on the right (its menu: "Export chart" · "Hide from report"). No legends needed (one series each).
 
 Source: `spec/data/seed.json` → `reports.simulationLabUsage["12 weeks"]` (the `previous` values are shown as **same period last year**), `rooms`, `resources`. Contact-hour unit: Q-23.
 

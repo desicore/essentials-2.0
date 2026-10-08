@@ -103,7 +103,8 @@
                           "fill": "#6B6B6B",
                           "content": "Sim Room 2 · Group A · Tue, Jan 19 · 10:00–11:00",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -221,7 +222,8 @@
                       "fill": "#111111",
                       "content": "4 learners",
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -230,7 +232,8 @@
                       "fill": "#6B6B6B",
                       "content": "Olivia Grant absent",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -293,7 +296,8 @@
                                           "fill": "#111111",
                                           "content": "1 + 2",
                                           "fontFamily": "Inter",
-                                          "fontSize": 14
+                                          "fontSize": 14,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -315,7 +319,8 @@
                                           "fill": "#6B6B6B",
                                           "content": "Single",
                                           "fontFamily": "Inter",
-                                          "fontSize": 14
+                                          "fontSize": 14,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -337,7 +342,8 @@
                                           "fill": "#6B6B6B",
                                           "content": "Grid",
                                           "fontFamily": "Inter",
-                                          "fontSize": 14
+                                          "fontSize": 14,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     }
@@ -350,7 +356,8 @@
                                   "fill": "#6B6B6B",
                                   "content": "Sim Room 2 · 3 cameras",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -388,7 +395,8 @@
                                   "fill": "#111111",
                                   "content": "17:40",
                                   "fontFamily": "Inter",
-                                  "fontSize": 14
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -432,7 +440,8 @@
                                   "fill": "#6B6B6B",
                                   "content": "Camera 1",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -475,7 +484,8 @@
                                       "fill": "#6B6B6B",
                                       "content": "Camera 2",
                                       "fontFamily": "Inter",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -509,7 +519,8 @@
                                       "fill": "#6B6B6B",
                                       "content": "Camera 3",
                                       "fontFamily": "Inter",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -598,7 +609,8 @@
                                           "fill": "#6B6B6B",
                                           "content": "NURS 310 · Sepsis recognition · 17:40 · debrief ready in about 30 s",
                                           "fontFamily": "Inter",
-                                          "fontSize": 12
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
                                         }
                                       ]
                                     },
@@ -641,7 +653,8 @@
                                       "content": "Scan with the debrief tablet to open this debrief",
                                       "textAlign": "center",
                                       "fontFamily": "Inter",
-                                      "fontSize": 14
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
                                     },
                                     {
                                       "type": "frame",
@@ -699,7 +712,8 @@
                               "fill": "#111111",
                               "content": "17:40 / 20:00",
                               "fontFamily": "Inter",
-                              "fontSize": 14
+                              "fontSize": 14,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -728,7 +742,8 @@
                               "fill": "#6B6B6B",
                               "content": "Planned 20 min",
                               "fontFamily": "Inter",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -766,7 +781,8 @@
                               "fill": "#6B6B6B",
                               "content": "Notes · Checklist panel",
                               "fontFamily": "Inter",
-                              "fontSize": 14
+                              "fontSize": 14,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "text",
@@ -775,7 +791,8 @@
                               "fill": "#6B6B6B",
                               "content": "(as in Screen 3)",
                               "fontFamily": "Inter",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -878,7 +895,8 @@
                           "fill": "#111111",
                           "content": "Dr. Maya Ortiz",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -938,7 +956,8 @@
                               "fill": "#E6E6E6",
                               "content": "Scan the QR code on the recording screen",
                               "fontFamily": "Inter",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1015,7 +1034,8 @@
                                   "fill": "#111111",
                                   "content": "NURS 340 · Postpartum hemorrhage · Group A",
                                   "fontFamily": "Inter",
-                                  "fontSize": 14
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -1024,7 +1044,8 @@
                                   "fill": "#6B6B6B",
                                   "content": "Today 09:03 · 21 min",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -1052,7 +1073,8 @@
                                   "fill": "#111111",
                                   "content": "Debrief ready",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -1112,7 +1134,8 @@
                                   "fill": "#111111",
                                   "content": "NURS 310 · Chest pain (STEMI) · Group A",
                                   "fontFamily": "Inter",
-                                  "fontSize": 14
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
                                 },
                                 {
                                   "type": "text",
@@ -1121,7 +1144,8 @@
                                   "fill": "#6B6B6B",
                                   "content": "Thu 14 Jan · 22 min",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -1149,7 +1173,8 @@
                                   "fill": "#111111",
                                   "content": "Debrief ready",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -1330,7 +1355,8 @@
                                   "fill": "#6B6B6B",
                                   "content": "Opening…",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -1351,7 +1377,8 @@
                               "fill": "#6B6B6B",
                               "content": "Point the camera at the QR code on the recording screen.",
                               "fontFamily": "Inter",
-                              "fontSize": 14
+                              "fontSize": 14,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -1385,7 +1412,8 @@
                                   "fill": "#111111",
                                   "content": "Enter code instead",
                                   "fontFamily": "Inter",
-                                  "fontSize": 14
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -1489,7 +1517,8 @@
                           "fill": "#6B6B6B",
                           "content": "Group A · Sim Room 2 · Jan 19, 10:02–10:19 (17:40)",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1568,7 +1597,8 @@
                           "fill": "#111111",
                           "content": "TV: not connected",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "icon",
@@ -1612,7 +1642,8 @@
                               "fill": "#6B6B6B",
                               "content": "Single",
                               "fontFamily": "Inter",
-                              "fontSize": 14
+                              "fontSize": 14,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -1636,7 +1667,8 @@
                               "fill": "#6B6B6B",
                               "content": "Dual",
                               "fontFamily": "Inter",
-                              "fontSize": 14
+                              "fontSize": 14,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -1660,7 +1692,8 @@
                               "fill": "#6B6B6B",
                               "content": "Quad",
                               "fontFamily": "Inter",
-                              "fontSize": 14
+                              "fontSize": 14,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1731,7 +1764,8 @@
                           "fill": "#6B6B6B",
                           "content": "Debrief (as in Screen 2)",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1792,7 +1826,8 @@
                           "fill": "#6B6B6B",
                           "content": "Pick the TV in this room",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1846,7 +1881,8 @@
                               "fill": "#6B6B6B",
                               "content": "Wall display 65″ · on",
                               "fontFamily": "Inter",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -1885,7 +1921,8 @@
                           "width": "fill_container",
                           "content": "Only displays that are switched on and set up in LearningSpace are listed.",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1985,7 +2022,8 @@
                           "fill": "#6B6B6B",
                           "content": "Group A · Sim Room 2 · Jan 19, 10:02–10:19 (17:40)",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -2064,7 +2102,8 @@
                           "fill": "#111111",
                           "content": "On TV: Debrief Room A display",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "icon",
@@ -2133,7 +2172,8 @@
                               "fill": "#111111",
                               "content": "Dual",
                               "fontFamily": "Inter",
-                              "fontSize": 14
+                              "fontSize": 14,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -2157,7 +2197,8 @@
                               "fill": "#111111",
                               "content": "Quad",
                               "fontFamily": "Inter",
-                              "fontSize": 14
+                              "fontSize": 14,
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -2228,7 +2269,8 @@
                           "fill": "#6B6B6B",
                           "content": "Debrief (as in Screen 2)",
                           "fontFamily": "Inter",
-                          "fontSize": 14
+                          "fontSize": 14,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -2269,7 +2311,8 @@
                                   "fill": "#6B6B6B",
                                   "content": "Summary",
                                   "fontFamily": "Inter",
-                                  "fontSize": 14
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -2291,7 +2334,8 @@
                                   "fill": "#6B6B6B",
                                   "content": "Checklist",
                                   "fontFamily": "Inter",
-                                  "fontSize": 14
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -2340,7 +2384,8 @@
                                   "fill": "#6B6B6B",
                                   "content": "Annotations",
                                   "fontFamily": "Inter",
-                                  "fontSize": 14
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -2388,7 +2433,8 @@
                                   "fill": "#6B6B6B",
                                   "content": "AI-generated · review before sharing",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -2462,7 +2508,8 @@
                                       "fill": "#6B6B6B",
                                       "content": "03:50–04:40",
                                       "fontFamily": "Inter",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -2510,7 +2557,8 @@
                                       "fill": "#111111",
                                       "content": "Approve",
                                       "fontFamily": "Inter",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -2622,7 +2670,8 @@
                                       "fill": "#6B6B6B",
                                       "content": "08:30–09:30",
                                       "fontFamily": "Inter",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -2670,7 +2719,8 @@
                                       "fill": "#111111",
                                       "content": "Approve",
                                       "fontFamily": "Inter",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -2784,7 +2834,8 @@
                                       "fill": "#6B6B6B",
                                       "content": "10:50–11:40",
                                       "fontFamily": "Inter",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -2832,7 +2883,8 @@
                                       "fill": "#111111",
                                       "content": "Approve",
                                       "fontFamily": "Inter",
-                                      "fontSize": 12
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 },
@@ -8580,6 +8632,1018 @@
       "fontFamily": "Inter",
       "fontSize": 56,
       "fontWeight": "700"
+    },
+    {
+      "type": "frame",
+      "id": "X07LF",
+      "x": 517.1417624521073,
+      "y": 7596.762452107279,
+      "name": "Clips",
+      "clip": true,
+      "width": 762,
+      "gap": 8,
+      "layoutIncludeStroke": true,
+      "children": [
+        {
+          "type": "frame",
+          "id": "Z58S4",
+          "name": "Clip · The lactate result",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "#ffffffff",
+          "cornerRadius": 12,
+          "stroke": "#d4d4d4ff",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "layout": "vertical",
+          "padding": 4,
+          "children": [
+            {
+              "type": "frame",
+              "id": "sSJCo",
+              "name": "Content",
+              "clip": true,
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TwiIU",
+                  "name": "Clip content",
+                  "clip": true,
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "layoutIncludeStroke": true,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "X5Kho",
+                      "name": "Top",
+                      "clip": true,
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "layoutIncludeStroke": true,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GbKnR",
+                          "name": "Thumbnail",
+                          "clip": true,
+                          "width": 72,
+                          "height": 40,
+                          "fill": "#0000000f",
+                          "cornerRadius": 10,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "kKUCt",
+                              "name": "Placeholder",
+                              "clip": true,
+                              "width": 24,
+                              "height": 24,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "S6Feir",
+                                  "x": 1.9999799728393555,
+                                  "y": 1.9999799728393555,
+                                  "name": "Vector",
+                                  "geometry": "M16 0l-14 0c-1.10457 0-2 0.89543-2 2l0 14c0 1.10457 0.89543 2 2 2l14 0c1.10457 0 2-0.89543 2-2l0-14c0-1.10457-0.89543-2-2-2z m-10 8c1.10457 0 2-0.89543 2-2 0-1.10457-0.89543-2-2-2-1.10457 0-2 0.89543-2 2 0 1.10457 0.89543 2 2 2z m12 3.99994l-3.086-3.086c-0.37506-0.37494-0.88367-0.58557-1.414-0.58557-0.53033 0-1.03894 0.21063-1.414 0.58557l-9.086 9.086",
+                                  "width": 20.00004005432129,
+                                  "height": 20.00004005432129,
+                                  "stroke": "#737373ff",
+                                  "strokeWidth": 2,
+                                  "strokeLinejoin": "round",
+                                  "strokeLinecap": "round"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "l0VHIr",
+                              "layoutPosition": "absolute",
+                              "x": 41,
+                              "y": 2,
+                              "name": "Remove",
+                              "enabled": false,
+                              "width": 28,
+                              "height": 28,
+                              "fill": "#00000080",
+                              "cornerRadius": 10,
+                              "gap": 8,
+                              "padding": 4,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "t7SbF",
+                                  "name": "Icon",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "tL8rr",
+                                      "name": "Icon",
+                                      "clip": true,
+                                      "width": 16,
+                                      "height": 16,
+                                      "layout": "none",
+                                      "children": [
+                                        {
+                                          "type": "path",
+                                          "id": "vH0NB",
+                                          "x": 3.999959945678711,
+                                          "y": 3.999959945678711,
+                                          "name": "Vector",
+                                          "geometry": "M12 0l-12 12m0-12l12 12",
+                                          "width": 7.999919891357422,
+                                          "height": 7.999919891357422,
+                                          "stroke": "#ffffffff",
+                                          "strokeWidth": 1.3333200216293335,
+                                          "strokeLinejoin": "round",
+                                          "strokeLinecap": "round"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LdbRW",
+                          "name": "Text",
+                          "clip": true,
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "layoutIncludeStroke": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pFWy1",
+                              "name": "Clip title",
+                              "fill": "#171717ff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "The lactate result",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "Figtree",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hAK4s",
+                              "name": "Range",
+                              "fill": "#737373ff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "03:50–04:40",
+                              "lineHeight": 1.6666666666666667,
+                              "fontFamily": "Figtree",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mK1oc",
+                      "name": "Approve",
+                      "height": 32,
+                      "fill": "#0000000f",
+                      "cornerRadius": 10,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JtJVS",
+                          "name": "Icon",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "yG4hI",
+                              "name": "Icon",
+                              "clip": true,
+                              "width": 16,
+                              "height": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "IP1Zd",
+                                  "name": "Icon",
+                                  "clip": true,
+                                  "width": 16,
+                                  "height": 16,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "path",
+                                      "id": "jArms",
+                                      "x": 2.666719675064087,
+                                      "y": 3.999959945678711,
+                                      "name": "Vector",
+                                      "geometry": "M16 0l-11 11-5-5",
+                                      "width": 10.666560173034668,
+                                      "height": 8.000080108642578,
+                                      "stroke": "#171717ff",
+                                      "strokeWidth": 1.3300000429153442,
+                                      "strokeLinejoin": "round",
+                                      "strokeLinecap": "round"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZFUqU",
+                          "name": "Label",
+                          "fill": "#171717ff",
+                          "content": "Approve",
+                          "lineHeight": 1.4285714285714286,
+                          "fontFamily": "Figtree",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "c1424",
+                          "x": 88,
+                          "y": 6,
+                          "name": "End Content",
+                          "enabled": false,
+                          "clip": true,
+                          "height": 20,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Kjxgw",
+                              "name": "Badge",
+                              "height": 20,
+                              "fill": "#e5e5e5ff",
+                              "cornerRadius": 9999,
+                              "gap": 4,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "uA07x",
+                                  "x": 8,
+                                  "y": 4,
+                                  "name": "Icon",
+                                  "enabled": false,
+                                  "clip": true,
+                                  "width": 12,
+                                  "height": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "jMSp2",
+                                      "name": "Icon",
+                                      "clip": true,
+                                      "width": 12,
+                                      "height": 12,
+                                      "layout": "none",
+                                      "children": [
+                                        {
+                                          "type": "path",
+                                          "id": "qLDz6",
+                                          "x": 1.3333200216293335,
+                                          "y": 1.3333200216293335,
+                                          "name": "Vector",
+                                          "geometry": "M8.1001 0.18216c1.25502-0.24288 2.54498-0.24288 3.8 0m0 19.6362c-1.25502 0.24288-2.54498 0.24288-3.8 0m7.50903-18.09717c1.06147 0.71922 1.97472 1.63587 2.69 2.7m-18.11697 7.47915c-0.24288-1.25502-0.24288-2.54498 0-3.8m18.09694 7.50879c-0.71922 1.06147-1.63587 1.97472-2.7 2.69m4.23901-10.19879c0.24288 1.25502 0.24288 2.54498 0 3.8m-18.09704-7.50917c0.71922-1.06147 1.63587-1.97472 2.7-2.69m-0.0299 16.57818c-1.06147-0.71922-1.97472-1.63587-2.69-2.7",
+                                          "width": 9.333359718322754,
+                                          "height": 9.333359718322754,
+                                          "stroke": "#262626ff",
+                                          "strokeWidth": 1,
+                                          "strokeLinejoin": "round",
+                                          "strokeLinecap": "round"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "NFwCZ",
+                                  "name": "Label",
+                                  "fill": "#262626ff",
+                                  "content": "3",
+                                  "lineHeight": 1.6666666666666667,
+                                  "fontFamily": "Figtree",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XPiAb",
+          "name": "Clip · Fluids before cultures",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "#ffffffff",
+          "cornerRadius": 12,
+          "stroke": "#d4d4d4ff",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "layout": "vertical",
+          "padding": 4,
+          "children": [
+            {
+              "type": "frame",
+              "id": "SKe9a",
+              "name": "Content",
+              "clip": true,
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Tn7BB",
+                  "name": "Clip content",
+                  "clip": true,
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "layoutIncludeStroke": true,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rKagR",
+                      "name": "Top",
+                      "clip": true,
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "layoutIncludeStroke": true,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BA41z",
+                          "name": "Thumbnail",
+                          "clip": true,
+                          "width": 72,
+                          "height": 40,
+                          "fill": "#0000000f",
+                          "cornerRadius": 10,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "fvNGm",
+                              "name": "Placeholder",
+                              "clip": true,
+                              "width": 24,
+                              "height": 24,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "BFZV6",
+                                  "x": 1.9999799728393555,
+                                  "y": 1.9999799728393555,
+                                  "name": "Vector",
+                                  "geometry": "M16 0l-14 0c-1.10457 0-2 0.89543-2 2l0 14c0 1.10457 0.89543 2 2 2l14 0c1.10457 0 2-0.89543 2-2l0-14c0-1.10457-0.89543-2-2-2z m-10 8c1.10457 0 2-0.89543 2-2 0-1.10457-0.89543-2-2-2-1.10457 0-2 0.89543-2 2 0 1.10457 0.89543 2 2 2z m12 3.99994l-3.086-3.086c-0.37506-0.37494-0.88367-0.58557-1.414-0.58557-0.53033 0-1.03894 0.21063-1.414 0.58557l-9.086 9.086",
+                                  "width": 20.00004005432129,
+                                  "height": 20.00004005432129,
+                                  "stroke": "#737373ff",
+                                  "strokeWidth": 2,
+                                  "strokeLinejoin": "round",
+                                  "strokeLinecap": "round"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fzkkg",
+                              "layoutPosition": "absolute",
+                              "x": 41,
+                              "y": 2,
+                              "name": "Remove",
+                              "enabled": false,
+                              "width": 28,
+                              "height": 28,
+                              "fill": "#00000080",
+                              "cornerRadius": 10,
+                              "gap": 8,
+                              "padding": 4,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "SZScq",
+                                  "name": "Icon",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "JKoKw",
+                                      "name": "Icon",
+                                      "clip": true,
+                                      "width": 16,
+                                      "height": 16,
+                                      "layout": "none",
+                                      "children": [
+                                        {
+                                          "type": "path",
+                                          "id": "HEbv1",
+                                          "x": 3.999959945678711,
+                                          "y": 3.999959945678711,
+                                          "name": "Vector",
+                                          "geometry": "M12 0l-12 12m0-12l12 12",
+                                          "width": 7.999919891357422,
+                                          "height": 7.999919891357422,
+                                          "stroke": "#ffffffff",
+                                          "strokeWidth": 1.3333200216293335,
+                                          "strokeLinejoin": "round",
+                                          "strokeLinecap": "round"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wXvKg",
+                          "name": "Text",
+                          "clip": true,
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "layoutIncludeStroke": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qFrgH",
+                              "name": "Clip title",
+                              "fill": "#171717ff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Fluids before cultures",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "Figtree",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Z3cuH",
+                              "name": "Range",
+                              "fill": "#737373ff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "08:30–09:30",
+                              "lineHeight": 1.6666666666666667,
+                              "fontFamily": "Figtree",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mvCmD",
+                      "name": "Approve",
+                      "height": 32,
+                      "fill": "#0000000f",
+                      "cornerRadius": 10,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "kGlNe",
+                          "name": "Icon",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "r9MIo",
+                              "name": "Icon",
+                              "clip": true,
+                              "width": 16,
+                              "height": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "DUWIF",
+                                  "name": "Icon",
+                                  "clip": true,
+                                  "width": 16,
+                                  "height": 16,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "path",
+                                      "id": "BQVUK",
+                                      "x": 2.666719675064087,
+                                      "y": 3.999959945678711,
+                                      "name": "Vector",
+                                      "geometry": "M16 0l-11 11-5-5",
+                                      "width": 10.666560173034668,
+                                      "height": 8.000080108642578,
+                                      "stroke": "#171717ff",
+                                      "strokeWidth": 1.3300000429153442,
+                                      "strokeLinejoin": "round",
+                                      "strokeLinecap": "round"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "LaPjm",
+                          "name": "Label",
+                          "fill": "#171717ff",
+                          "content": "Approve",
+                          "lineHeight": 1.4285714285714286,
+                          "fontFamily": "Figtree",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wYRvv",
+                          "x": 88,
+                          "y": 6,
+                          "name": "End Content",
+                          "enabled": false,
+                          "clip": true,
+                          "height": 20,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "t5DVeX",
+                              "name": "Badge",
+                              "height": 20,
+                              "fill": "#e5e5e5ff",
+                              "cornerRadius": 9999,
+                              "gap": 4,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "V01p2n",
+                                  "x": 8,
+                                  "y": 4,
+                                  "name": "Icon",
+                                  "enabled": false,
+                                  "clip": true,
+                                  "width": 12,
+                                  "height": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "C03oVR",
+                                      "name": "Icon",
+                                      "clip": true,
+                                      "width": 12,
+                                      "height": 12,
+                                      "layout": "none",
+                                      "children": [
+                                        {
+                                          "type": "path",
+                                          "id": "HJzUM",
+                                          "x": 1.3333200216293335,
+                                          "y": 1.3333200216293335,
+                                          "name": "Vector",
+                                          "geometry": "M8.1001 0.18216c1.25502-0.24288 2.54498-0.24288 3.8 0m0 19.6362c-1.25502 0.24288-2.54498 0.24288-3.8 0m7.50903-18.09717c1.06147 0.71922 1.97472 1.63587 2.69 2.7m-18.11697 7.47915c-0.24288-1.25502-0.24288-2.54498 0-3.8m18.09694 7.50879c-0.71922 1.06147-1.63587 1.97472-2.7 2.69m4.23901-10.19879c0.24288 1.25502 0.24288 2.54498 0 3.8m-18.09704-7.50917c0.71922-1.06147 1.63587-1.97472 2.7-2.69m-0.0299 16.57818c-1.06147-0.71922-1.97472-1.63587-2.69-2.7",
+                                          "width": 9.333359718322754,
+                                          "height": 9.333359718322754,
+                                          "stroke": "#262626ff",
+                                          "strokeWidth": 1,
+                                          "strokeLinejoin": "round",
+                                          "strokeLinecap": "round"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ZHCRu",
+                                  "name": "Label",
+                                  "fill": "#262626ff",
+                                  "content": "3",
+                                  "lineHeight": 1.6666666666666667,
+                                  "fontFamily": "Figtree",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "B8QhT",
+          "name": "Clip · SBAR handoff",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "#ffffffff",
+          "cornerRadius": 12,
+          "stroke": "#d4d4d4ff",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "layout": "vertical",
+          "padding": 4,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZdXIO",
+              "name": "Content",
+              "clip": true,
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZDmEZ",
+                  "name": "Clip content",
+                  "clip": true,
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "layoutIncludeStroke": true,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SD2p0",
+                      "name": "Top",
+                      "clip": true,
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "layoutIncludeStroke": true,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Kb9yH",
+                          "name": "Thumbnail",
+                          "clip": true,
+                          "width": 72,
+                          "height": 40,
+                          "fill": "#0000000f",
+                          "cornerRadius": 10,
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "OYep6",
+                              "name": "Placeholder",
+                              "clip": true,
+                              "width": 24,
+                              "height": 24,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "HdV2Z",
+                                  "x": 1.9999799728393555,
+                                  "y": 1.9999799728393555,
+                                  "name": "Vector",
+                                  "geometry": "M16 0l-14 0c-1.10457 0-2 0.89543-2 2l0 14c0 1.10457 0.89543 2 2 2l14 0c1.10457 0 2-0.89543 2-2l0-14c0-1.10457-0.89543-2-2-2z m-10 8c1.10457 0 2-0.89543 2-2 0-1.10457-0.89543-2-2-2-1.10457 0-2 0.89543-2 2 0 1.10457 0.89543 2 2 2z m12 3.99994l-3.086-3.086c-0.37506-0.37494-0.88367-0.58557-1.414-0.58557-0.53033 0-1.03894 0.21063-1.414 0.58557l-9.086 9.086",
+                                  "width": 20.00004005432129,
+                                  "height": 20.00004005432129,
+                                  "stroke": "#737373ff",
+                                  "strokeWidth": 2,
+                                  "strokeLinejoin": "round",
+                                  "strokeLinecap": "round"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "e89vk0",
+                              "layoutPosition": "absolute",
+                              "x": 41,
+                              "y": 2,
+                              "name": "Remove",
+                              "enabled": false,
+                              "width": 28,
+                              "height": 28,
+                              "fill": "#00000080",
+                              "cornerRadius": 10,
+                              "gap": 8,
+                              "padding": 4,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "h7vNFS",
+                                  "name": "Icon",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "n8hqgZ",
+                                      "name": "Icon",
+                                      "clip": true,
+                                      "width": 16,
+                                      "height": 16,
+                                      "layout": "none",
+                                      "children": [
+                                        {
+                                          "type": "path",
+                                          "id": "pqE5u",
+                                          "x": 3.999959945678711,
+                                          "y": 3.999959945678711,
+                                          "name": "Vector",
+                                          "geometry": "M12 0l-12 12m0-12l12 12",
+                                          "width": 7.999919891357422,
+                                          "height": 7.999919891357422,
+                                          "stroke": "#ffffffff",
+                                          "strokeWidth": 1.3333200216293335,
+                                          "strokeLinejoin": "round",
+                                          "strokeLinecap": "round"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kKlBp",
+                          "name": "Text",
+                          "clip": true,
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "layoutIncludeStroke": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TGPAM",
+                              "name": "Clip title",
+                              "fill": "#171717ff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "SBAR handoff",
+                              "lineHeight": 1.4285714285714286,
+                              "fontFamily": "Figtree",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lIUOt",
+                              "name": "Range",
+                              "fill": "#737373ff",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "10:50–11:40",
+                              "lineHeight": 1.6666666666666667,
+                              "fontFamily": "Figtree",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zHbYM",
+                      "name": "Approve",
+                      "height": 32,
+                      "fill": "#0000000f",
+                      "cornerRadius": 10,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rxzB8",
+                          "name": "Icon",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "H7EKH",
+                              "name": "Icon",
+                              "clip": true,
+                              "width": 16,
+                              "height": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "P9w1YK",
+                                  "name": "Icon",
+                                  "clip": true,
+                                  "width": 16,
+                                  "height": 16,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "path",
+                                      "id": "i6Dtp",
+                                      "x": 2.666719675064087,
+                                      "y": 3.999959945678711,
+                                      "name": "Vector",
+                                      "geometry": "M16 0l-11 11-5-5",
+                                      "width": 10.666560173034668,
+                                      "height": 8.000080108642578,
+                                      "stroke": "#171717ff",
+                                      "strokeWidth": 1.3300000429153442,
+                                      "strokeLinejoin": "round",
+                                      "strokeLinecap": "round"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "d3kPG",
+                          "name": "Label",
+                          "fill": "#171717ff",
+                          "content": "Approve",
+                          "lineHeight": 1.4285714285714286,
+                          "fontFamily": "Figtree",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CNFk8",
+                          "x": 88,
+                          "y": 6,
+                          "name": "End Content",
+                          "enabled": false,
+                          "clip": true,
+                          "height": 20,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "EPwIZ",
+                              "name": "Badge",
+                              "height": 20,
+                              "fill": "#e5e5e5ff",
+                              "cornerRadius": 9999,
+                              "gap": 4,
+                              "padding": [
+                                0,
+                                8
+                              ],
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "qx1PZ",
+                                  "x": 8,
+                                  "y": 4,
+                                  "name": "Icon",
+                                  "enabled": false,
+                                  "clip": true,
+                                  "width": 12,
+                                  "height": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "ZksRi",
+                                      "name": "Icon",
+                                      "clip": true,
+                                      "width": 12,
+                                      "height": 12,
+                                      "layout": "none",
+                                      "children": [
+                                        {
+                                          "type": "path",
+                                          "id": "P5Zz1a",
+                                          "x": 1.3333200216293335,
+                                          "y": 1.3333200216293335,
+                                          "name": "Vector",
+                                          "geometry": "M8.1001 0.18216c1.25502-0.24288 2.54498-0.24288 3.8 0m0 19.6362c-1.25502 0.24288-2.54498 0.24288-3.8 0m7.50903-18.09717c1.06147 0.71922 1.97472 1.63587 2.69 2.7m-18.11697 7.47915c-0.24288-1.25502-0.24288-2.54498 0-3.8m18.09694 7.50879c-0.71922 1.06147-1.63587 1.97472-2.7 2.69m4.23901-10.19879c0.24288 1.25502 0.24288 2.54498 0 3.8m-18.09704-7.50917c0.71922-1.06147 1.63587-1.97472 2.7-2.69m-0.0299 16.57818c-1.06147-0.71922-1.97472-1.63587-2.69-2.7",
+                                          "width": 9.333359718322754,
+                                          "height": 9.333359718322754,
+                                          "stroke": "#262626ff",
+                                          "strokeWidth": 1,
+                                          "strokeLinejoin": "round",
+                                          "strokeLinecap": "round"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "wYRDd",
+                                  "name": "Label",
+                                  "fill": "#262626ff",
+                                  "content": "3",
+                                  "lineHeight": 1.6666666666666667,
+                                  "fontFamily": "Figtree",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "variables": {
