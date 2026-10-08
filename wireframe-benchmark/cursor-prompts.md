@@ -329,6 +329,8 @@ When done:
 
 ## Prompt 6B — Reports (Simulation Lab Usage + Weekly report) · shadcn
 
+> **Dropped 10-08 — do not run.** Astryx was chosen (`comparison.md` §4). Kept for the record.
+
 ```
 Build TWO greyscale wireframes in Figma using ONLY the shadcn library. This is a benchmark run: follow the brief exactly and log honestly what worked and what didn't.
 

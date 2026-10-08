@@ -1,5 +1,7 @@
 # T1 · Theme test: can shadcn look like Astryx?
 
+> **Dropped 10-08 — do not run T1 or T2.** Astryx was chosen (`../comparison.md` §4). The premise below was also too simple: a shadcn theme only covers colours and radius, while heights, states and density live in each component's classes, so "exactly like Astryx" would mean restyling every component by hand.
+
 Added 2026-10-08. **Why:** Daniel prefers how Astryx looks (icons, buttons, overall polish); shadcn covers more components and is easier to customise. If shadcn can take on the Astryx look by changing only its theme (variables, type, radius, icons), we get both. If it can't, that's a strong argument for Astryx.
 
 **What the test proves:** in code, a shadcn theme is just CSS variables plus an icon set, so if Figma variables can do it, the Next.js prototype can too.

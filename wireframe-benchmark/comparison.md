@@ -44,3 +44,25 @@ Neither screen used the recording red (#D92D20), so how each library handles tha
 3. **Parity between Figma and code, and the custom pieces.** Do the Figma variables map one-to-one to code tokens (light and dark, brand colour, recording red)? Is Code Connect or an equivalent available? Which libraries would supply the video player, timeline and calendar? These were custom in both libraries, so they will probably be third-party or in-house whichever library is chosen.
 
 **What the evidence supports:** Astryx covered more of our screens with library parts. shadcn was quicker to build with and had cleaner token bindings. Neither library is tablet-ready out of the box. Point 1 decides the choice; this benchmark doesn't.
+
+## 4. Decision (2026-10-08): Astryx for the IMSH prototype
+
+Daniel chose **Astryx** after a pros/cons review with Claude. Scope: the prototype only; the production library stays engineering's call (parked, see §3).
+
+**Why Astryx**
+- **Look:** clearly more polished (icons, buttons, overall finish), and "looks great" is an IMSH goal. shadcn apps tend to look alike.
+- **Coverage in code is better than the Figma kit suggests:** the code library has Switch, Dialog, Popover, Bottom Sheet, Toast, Table, Tab List, Segmented Control, Slider and Date Range Input. Most "missing" items in §2 are Figma-kit gaps.
+- **Theming:** `defineTheme` has tokens, a palette generator and per-component overrides, so contrast and touch-size fixes live in one file.
+- **Agent-ready:** ships AGENTS.md/CLAUDE.md and a CLI, which suits a Cursor-built prototype.
+- **Upgrades:** an npm package (bump + `astryx theme build`), versus manual diffing with shadcn's copied source.
+- **Backing:** Meta, MIT licence, ~13.6k GitHub stars (checked 10-08).
+
+**Accepted risks**
+- Beta (v0.6.x): breaking changes → pin the version.
+- React 19 + StyleX only, no Angular: only the visual language carries to production.
+- Weaker Figma kit and less LLM familiarity than shadcn.
+- Accessibility less proven than Radix; check focus and keyboard in code.
+
+**Dropped:** T1/T2 theme tests (making shadcn look *exactly* like Astryx means restyling every component, not just the theme) and prompt 6B.
+
+**Custom in the prototype (both libraries would have needed these):** charts (Recharts with Astryx tokens), video player, timeline with faculty and AI markers, room audio mixer.

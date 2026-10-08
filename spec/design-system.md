@@ -6,6 +6,11 @@ Status: **wireframe phase.** The UI library, tokens and icons are locked by Dani
 
 - **Stay close to the Elevate blue theme.** Don't go green, don't go wild (Gergely, 09-29).
 - **Use a ready-made UI library**, not a custom build (09-29 tasks call). **Astryx** is the choice for the prototype; it has a matching Figma library. Engineering chooses the production library.
+- **Astryx confirmed for the prototype on 10-08** after the Astryx vs shadcn benchmark (`wireframe-benchmark/comparison.md` §4). Rules that follow from it:
+  - **Pin the version** (beta, v0.6.x). Rerun `astryx theme build` after every upgrade.
+  - **Fix contrast and touch sizes once, in the theme** (`defineTheme` token and component overrides), never per screen. The theme file doubles as the token spec for engineering.
+  - **Custom components** (Astryx has none): charts (Recharts, coloured with Astryx tokens), the video player, the timeline with faculty and AI markers, and the room audio mixer. Build them from Astryx primitives and tokens.
+  - Gaps found in the Figma kit (switch, dialog/sheet, search field) exist in the Astryx **code** library, so they are not custom in the prototype.
 - The current Essentials icons are to be replaced (inconsistent and heavy). A candidate icon set is **lucide**, which the wireframe kit uses already.
 - **WCAG 2.1 AA.** Status always uses an icon plus a label, never colour alone. Tablet targets are ≥ 44 px.
 - Figma is the design source of truth after wireframes. Pencil comes first, then Figma.
