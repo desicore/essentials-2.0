@@ -362,6 +362,93 @@ When done:
 2. Reply in under 10 lines: what was hard, what shadcn lacked (charts, KPI tile, segmented control, switch, dialog, chip input), and what you'd do differently.
 ```
 
+## Sub-screens · Astryx only (7A, 8A, 9A)
+
+Added 2026-10-08, after the library decision (`comparison.md` §4). All three write to the Astryx page, so run them **one at a time**, never alongside 6A or another run on that page. Suggested order: 7A → 8A → 9A (9A duplicates the S8c frame). Not benchmark runs: no log rows, but the reply still lists what was CUSTOM.
+
+### Prompt 7A — Recording banner · Astryx
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the Astryx library.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - astryx". Do not touch any other page or any existing frame (including duplicates and "copy of" frames). Ignore "🚫 wireframe archive".
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Shells", "Screen 7 · Recording banner") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task:
+1. "S7a · Recording banner · Astryx", 1440×948 (the dashboard plus the 48 px banner): duplicate "S1 · Dashboard · Astryx" and add the banner above the top bar. Change nothing else.
+2. "S7b · Recording banner states · Astryx", 1440 wide, height as needed: the six states from the brief's table, stacked, each with a 12 px "State: …" label above it.
+Place S7a below the lowest existing frame on the page, left-aligned with it, 200 px gap; S7b to the right of S7a, 200 px gap.
+
+How:
+- Search the library for a Banner first. If it exists, use it in its neutral variant and put the content in its slots. If not, build ONE "CUSTOM · Recording banner" from an auto-layout frame with Astryx Buttons, Spinner and text styles inside, and reuse it (duplicate) for every state.
+- The recording dot is the only colour: a literal #D92D20 fill on one small CUSTOM ellipse. The banner background stays neutral. Paused uses a grey `pause` icon, no red.
+- Disabled buttons use the Button's disabled state, not lowered opacity.
+- Elapsed time uses tabular figures if the type style allows it.
+- After each frame, take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done, reply in under 10 lines: what was CUSTOM, what Astryx lacked, anything you weren't sure about.
+```
+
+### Prompt 8A — Photo of notes · Astryx
+
+```
+Build THREE greyscale wireframes in Figma using ONLY the Astryx library.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - astryx". Do not touch any other page or any existing frame (including duplicates and "copy of" frames). Ignore "🚫 wireframe archive".
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 2 · Debrief", "Screen 8 · Photo of notes") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task (all 1194×834, tablet, no left navigation):
+1. "S8a · Photo of notes · capture · Astryx"
+2. "S8b · Photo of notes · review · Astryx"
+3. "S8c · Debrief · summary with notes · Astryx": duplicate the accepted "S4 · Debrief · Astryx" frame and change ONLY the AI summary section. If there is more than one frame with that name, stop and ask me which one.
+Place S8a below the lowest existing frame on the page, left-aligned with it, 200 px gap; S8b and S8c to its right, 200 px gaps.
+
+How:
+- Tablet: use the library's largest native control size (Button Size=LG); don't resize instances beyond it. If that is under 44 px, note it in the reply.
+- Camera and photo areas = grey placeholders with a lucide icon and a label, as the brief says. The shutter is a large Button (icon + "Take photo"), not a hand-drawn circle.
+- S8c: keep the Debrief's structure exactly (tabs or stacked sections, whichever the accepted frame has). Mark the added sentence with a Neutral Badge, never with colour.
+- After each frame, take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done, reply in under 10 lines: what was CUSTOM, what Astryx lacked, anything you weren't sure about.
+```
+
+### Prompt 9A — Share with participants · Astryx
+
+```
+Build TWO greyscale wireframes in Figma using ONLY the Astryx library.
+
+Figma file: https://www.figma.com/design/maOZqRuLdksiPwUA43qSVI/Essentials-2.0---wireframes
+Target page: "wireframe test - astryx". Do not touch any other page or any existing frame (including duplicates and "copy of" frames). Ignore "🚫 wireframe archive".
+
+Read first: @wireframe-benchmark/wireframe-brief.md ("Wireframe rules", "Screen 9 · Share with participants") and @wireframe-benchmark/discovery.md (the component map for Astryx).
+Before any Figma tool call, load the figma-use skill (and figma-generate-design if available).
+
+Task (both 1194×834, tablet):
+1. "S9a · Share with participants · Astryx": duplicate "S8c · Debrief · summary with notes · Astryx", dim it with an overlay, and open a right-side sheet, full height, about 480 wide.
+2. "S9b · Shared · Astryx": duplicate S9a and switch the sheet to the sent state from the brief.
+Place S9a below the lowest existing frame on the page, left-aligned with it, 200 px gap; S9b to its right, 200 px gap.
+
+How:
+- Astryx's Figma kit has no Sheet or Dialog. Look at how "S3 · Recording view · Stop confirmation · Astryx" built its overlay and dialog and reuse that approach if it fits; otherwise build ONE "CUSTOM · Sheet" auto-layout container. Everything inside it is Astryx instances: CheckboxInput, ListItem, Avatar (initials), Badge, Button, Collapsible or a ghost "More options" Button, text styles.
+- One checkbox per item, exactly as listed. Fluids before cultures is the only unticked item. The "AI" badge is a Neutral Badge with the `sparkles` icon.
+- If the sheet content is taller than 834, let the item list scroll inside the sheet and keep the footer pinned; don't shrink the type.
+- Tablet: largest native control size; don't resize instances beyond it. Note anything under 44 px in the reply.
+- After each frame, take a screenshot and fix problems on the existing nodes before moving on.
+- Real content from the brief only.
+
+When done, reply in under 10 lines: what was CUSTOM, what Astryx lacked, anything you weren't sure about.
+```
+
+---
+
 ## Prompt 3 — Comparison (after all four runs, read-only)
 
 ```
