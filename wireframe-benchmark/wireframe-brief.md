@@ -208,7 +208,9 @@ Source: `spec/data/seed.json` → events `e-nurs310-sepsis` (`afterStep3`), grou
 
 ## Screen 6 · Simulation Lab Usage (staff app, 1440×900, sim day Tue 19 Jan 2027, 15:00) · frame S6
 
-Added 2026-10-08. Flow step 11. Purpose: back at her desk, Maya opens the usage report that management keeps asking for, checks the last 12 weeks against last year, and exports it. **Don't look at any existing Reports screen** (current product or the other track): the layout should be new.
+Added 2026-10-08, metrics updated the same day. Flow step 11. Purpose: back at her desk, Maya opens the usage report that management keeps asking for, checks the last 12 weeks against last year, and exports it.
+
+**Which metrics, and why:** the 09-29 nursing school survey (13 responses, Q5 "Which metrics do you collect or would you like to collect?"). Ranked: Total simulation hours 12 · Students in simulation 11 · Room usage 10 · Learner contact hours 10 · Simulator usage 9 · Types of sessions 9 · **Faculty contact hours 5** · Other 2 ("room usage per activity / programme", "anything SSH requires"). The report shows the top seven, in roughly that order, and **every school can show or hide each one** (frame S6c), because no school wanted all of them. **Don't look at any existing Reports screen** (current product or the other track): the layout should be new.
 
 **Shell:** copy the sidebar and top bar from the accepted S1 Dashboard frame on the same page. **Reports** is the active nav item.
 
@@ -216,9 +218,9 @@ Added 2026-10-08. Flow step 11. Purpose: back at her desk, Maya opens the usage 
 
 | Zone | Content |
 |---|---|
-| Page header (one row) | left: title **"Simulation Lab Usage"** · muted subtitle "Riverbend College of Nursing · all rooms" · right: **"Schedule weekly report"** (secondary, `calendar-clock`) · **"Export"** (primary, `download`) |
+| Page header (one row) | left: title **"Simulation Lab Usage"** · muted subtitle "Riverbend College of Nursing · all rooms" · right: **"Customize"** (secondary, `sliders-horizontal`) · **"Schedule weekly report"** (secondary, `calendar-clock`) · **"Export"** (primary, `download`) |
 | Filter bar (one row) | left: period segmented control **"12 weeks"** (selected) · "Quarter" · "Year to date" · muted range text **"Oct 26, 2026 – Jan 17, 2027"** · right: switch **"Compare with same period last year"** (**on**) *(idea: Gabor, 10-07 checkpoint)* |
-| KPI row | 3 equal tiles (below) |
+| KPI row | 4 equal tiles (below) |
 | Chart row 1 | **Simulation hours per week**, full width |
 | Chart row 2 | 3 equal cards: **Room usage** · **Simulator usage** · **Types of sessions** |
 
@@ -228,6 +230,7 @@ The page may scroll; let the frame grow in height rather than squeezing the char
 - **Total simulation hours** · **186 h** · `trending-up` "+22% vs 152 h last year"
 - **Students in simulation** · **214** · `trending-up` "+14% vs 188 last year"
 - **Learner contact hours** · **1,048 h** · `trending-up` "+20% vs 874 h last year" · `info` tooltip trigger "0.25 h per learner per event"
+- **Faculty contact hours** · **262 h** · `trending-up` "+19% vs 221 h last year" · `info` tooltip trigger "Faculty time in simulation events, including debrief" (definition assumed: Q-29)
 
 Under the KPI row, muted 12 px: "Compared with Oct 27, 2025 – Jan 18, 2026." The comparison appears **only on the tiles**; the charts show this period only. (Gabor's reason for a single switch: comparing everything with everything makes the interface too complex.)
 
@@ -237,9 +240,23 @@ Under the KPI row, muted 12 px: "Compared with Oct 27, 2025 – Jan 18, 2026." T
 - **Simulator usage** (hours, horizontal bars): Adult high-fidelity manikin 2 · 55 · Adult high-fidelity manikin 1 · 52 · Birthing simulator · 36 · Pediatric manikin (5-year-old) · 24 · IV training arm · 18
 - **Types of sessions** (number of events, horizontal bars, not a pie: a pie needs colour to read): High-fidelity · 96 · Task trainer · 41 · Standardized patient · 27 · Hybrid · 10. Card footer muted: "174 events".
 
-Each chart card has a title row with a small ghost icon button `more-horizontal` (export this chart) on the right. No legends needed (one series each).
+Each chart card has a title row with a small ghost icon button `ellipsis` (lucide renamed `more-horizontal`) on the right (its menu: "Export chart" · "Hide from report"). No legends needed (one series each).
 
 Source: `spec/data/seed.json` → `reports.simulationLabUsage["12 weeks"]` (the `previous` values are shown as **same period last year**), `rooms`, `resources`. Contact-hour unit: Q-23.
+
+## Screen 6c · Customize the report (over S6) · frame S6c
+
+Added 2026-10-08. Purpose: each school measures different things (survey Q5), so Maya chooses which metrics the report shows.
+
+**Frame:** duplicate S6 and open a popover anchored under **"Customize"**, about 320 wide. In this state Maya has just **unticked "Faculty contact hours"**, so behind the popover the KPI row already shows **3 tiles** (the remaining tiles stretch to fill the row; no empty gap).
+
+**Popover content:**
+- Title **"Show on this report"**
+- Group **"Key numbers"** (checkboxes): ☑ Total simulation hours · ☑ Students in simulation · ☑ Learner contact hours · ☐ Faculty contact hours
+- Group **"Charts"** (checkboxes): ☑ Simulation hours per week · ☑ Room usage · ☑ Simulator usage · ☑ Types of sessions
+- Footer: link button **"Reset to default"** · muted 12 px "Saved for you. Scheduled reports use the same choice."
+
+Rules: at least one metric stays ticked (the last checkbox can't be unticked). A hidden chart card leaves no gap: the row reflows (2 cards fill the width).
 
 ## Screen 6b · Weekly report dialog (over S6) · frame S6b
 
@@ -249,12 +266,91 @@ Added 2026-10-08. Flow step 12. Purpose: Maya sets the report to arrive in manag
 
 **Dialog content, top to bottom:**
 - Title **"Schedule weekly report"** · muted description "Simulation Lab Usage is emailed to these people every week." · close icon button (`x`)
-- **Report:** read-only text "Simulation Lab Usage · last 12 weeks · with comparison to last year"
+- **Report:** read-only text "Simulation Lab Usage · last 12 weeks · with comparison to last year · 7 metrics"
 - **Send every:** select **"Monday"** · **at:** time field **"08:00"** (one row, two fields)
 - **Recipients:** a tag/chip input with two chips, each with a remove `x`: **dwhitfield@riverbend.edu** · **dean.nursing@riverbend.edu**, then the placeholder "Add an email address"
 - Footer, right-aligned: **"Cancel"** (secondary) · **"Schedule"** (primary)
 
 Source: `seed.json` → `reportSchedules[0]`. Dana Whitfield is the sim centre coordinator; the second address is the dean's office.
+
+## Screen 7 · Recording banner (staff app, 1440×900, sim day 10:10, 08:00 into the recording) · frames S7a, S7b
+
+Added 2026-10-08. Flow steps 5–6, global element (`spec/screens.md` → Global elements, SPEC §7 rule 1). Purpose: while Sim Room 2 records, Maya can leave the Recording view and still see, from anywhere in the app, that the room is recording and stop it.
+
+**S7a · Banner in context:** duplicate the accepted S1 Dashboard frame. Add the banner as a **full-width strip above the top bar** (it pushes the shell down; it doesn't cover content). Change nothing else on the dashboard.
+
+**Banner content, left to right (one row, about 48 px high):**
+- Recording dot **#D92D20** (the brief's only colour) + state label **"Recording"** (dot and label together: the state is never colour alone)
+- **"Sim Room 2 · NURS 310 · Sepsis recognition"**
+- Elapsed time **"08:00"** (tabular figures)
+- Right: link-style button **"Open recording view"** · secondary button **"Pause"** (`pause`) · button **"Stop"** (`square`). Stop opens the same confirmation as the Recording view (not drawn here).
+
+The banner background stays neutral (light grey surface + 1 px bottom divider), not red: only the dot carries the colour.
+
+**S7b · The six states:** one frame, 1440 wide, height as needed. Stack the banner in each state with a 12 px label above it ("State: …"). SPEC §7 rule 1: the UI never shows "Recording" or "Paused" on a click alone.
+| State | Left | Elapsed | Buttons |
+|---|---|---|---|
+| Starting… | spinner + "Starting…" | "00:00" muted | Pause and Stop disabled |
+| Recording | red dot + "Recording" | "08:00" | Open recording view · Pause · Stop |
+| Pausing… | spinner + "Pausing…" | "08:00" | all disabled |
+| Paused | `pause` icon (grey, no red) + "Paused" | "08:00" frozen, with muted "Paused at 10:10" | Open recording view · **Resume** (`play`) · Stop |
+| Stopping… | spinner + "Stopping…" | "17:40" | all disabled |
+| Not recording | no banner: show an empty 12 px label "Not recording · no banner" | — | — |
+
+A pause and resume stays one recording (CAP-07), so Resume continues the same elapsed time.
+
+## Screen 8 · Photo of notes (tablet, 1194×834, sim day 10:31) · frames S8a, S8b, S8c
+
+Added 2026-10-08. Flow step 9. Purpose: after the debrief conversation, Maya photographs her handwritten notes; the AI reads them and adds them to the summary. Starts from **Add photo of notes** in the Debrief's AI summary.
+
+**S8a · Capture:** full-screen camera view on the tablet, no navigation.
+- Top bar: ghost button **"Cancel"** (`x`) · title **"Photo of notes"** · nothing on the right
+- Camera area (largest): grey placeholder with a lucide `camera` icon and the label "Camera view: Maya's handwritten notes on a clipboard". A thin guide rectangle (1 px dashed) shows where the page should sit.
+- Hint under the camera area, 14 px: **"Hold the page flat and fill the frame."**
+- Bottom centre: shutter button, the largest native button size (`camera` icon, label "Take photo")
+
+**S8b · Review:**
+- Same top bar, title **"Check the photo"**
+- The captured photo: grey placeholder with a `file-text` icon and the label "Photo: Maya's notes, 1 page"
+- Muted 14 px under it: **"The AI reads your notes and adds them to the summary. The photo stays with this recording."**
+- Bottom, right-aligned: secondary **"Retake"** (`rotate-ccw`) · primary **"Use photo"** (`check`)
+
+**S8c · Summary updated:** duplicate the accepted S4 Debrief frame and change **only the AI summary** section:
+- Summary text = seed `aiSummary.afterNotePhoto`: "The team took vitals early and recognized SIRS criteria within four minutes. The lactate result was mentioned but not escalated, and fluids were started before blood cultures were drawn. The SBAR handoff to the provider was clear and complete. **From Maya's notes:** discuss closed-loop communication, and who owns the escalation when the nurse is busy."
+- The added sentence is marked without colour: a small Neutral badge **"From your notes"** with a `pencil-line` icon before it.
+- Under the text, a source row: a 48 px thumbnail placeholder of the photo · "Photo of notes · 10:31" · ghost icon button `trash-2` ("Remove photo").
+- The label "AI-generated · review before sharing" stays. **Add photo of notes** becomes **"Add another photo"**.
+
+Source: `seed.json` → `recordings[r-nurs310-sepsis].notePhotos`, `.aiSummary`.
+
+## Screen 9 · Share with participants (tablet, 1194×834, sim day 10:35) · frames S9a, S9b
+
+Added 2026-10-08. Flow step 10. Purpose: Maya picks what the learners get, and sending it approves the AI items she ticked (Q-28). Opens from **Share with participants** in the Debrief header. The page the learner opens is out of scope.
+
+**Frame:** duplicate the S8c Debrief frame (the summary already includes Maya's notes), dim it with an overlay, and open a **right-side sheet**, full height, about 480 wide. Astryx's Figma kit has no Sheet or Dialog: build the container as `CUSTOM · Sheet` (reuse how the S3 Stop confirmation dialog was built on this page if it fits) and use Astryx parts inside it.
+
+**S9a · Sheet content, top to bottom:**
+- Title **"Share with participants"** · close icon button (`x`)
+- **Learners** · muted "From the event" · 4 rows (Avatar initials + name + email): Emily Baker · ebaker@student.riverbend.edu / Priya Shah · pshah@student.riverbend.edu / Marcus Chen · mchen@student.riverbend.edu / Noah Patel · npatel@student.riverbend.edu. Under them, muted 12 px: "Olivia Grant was absent and isn't included." · link button **"Add"**
+- **What to share** (one checkbox per item, label + muted detail):
+  - ☑ Video recording · "17:40"
+  - ☑ Annotations and markers · "6 · private notes are never shared" *(private/shared idea: Gabor, 10-07 checkpoint)*
+  - ☑ Checklist results · "7 items, yes/no, no score"
+  - ☑ Debrief notes · "Photo of notes, 10:31"
+  - ☑ AI summary · Neutral badge **"AI"** (`sparkles`)
+  - AI clips, each its own checkbox with the badge **"AI"** and its range: ☑ The lactate result · 03:50–04:40 / ☐ Fluids before cultures · 08:30–09:30 / ☑ SBAR handoff · 10:50–11:40
+  - Under the AI items, 12 px with an `info` icon: **"Sharing an AI item approves it. Unticked AI items stay private."** *(per-item choice: idea from Gabor, 10-07 checkpoint; settles Q-28)*
+- **Link** row: `link` icon · "Secure link, opens in the browser without logging in" · muted "Expires Feb 2, 2027 (14 days)" (Q-24)
+- **"More options"** collapsed (EXP-05: expiry and download rights live here, not drawn open)
+- Footer, right-aligned: secondary **"Cancel"** · primary **"Share with 4 learners"** (`send`)
+
+**S9b · Shared:** same sheet after sending.
+- `circle-check` icon + title **"Shared with 4 learners"**
+- The 4 learner rows, each with a Neutral badge `mail-check` **"Sent"** (icon + label)
+- Muted summary: "Video, annotations, checklist, debrief notes, AI summary and 2 AI clips · expires Feb 2, 2027"
+- Secondary **"Copy link"** (`copy`) · primary **"Done"**
+
+Source: `seed.json` → `recordings[r-nurs310-sepsis].share` (recipients, expiresAt), `participants`, event `afterStep4` (Olivia Grant absent).
 
 ## Out of scope
 
