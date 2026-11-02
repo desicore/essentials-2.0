@@ -11,16 +11,23 @@ This round only fixes **elements**, not whole screens. Each fix becomes a local 
 1. **One chat first:** `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F0 · Fixes section".`
 2. **Then F1–F6 in parallel, one Cursor chat each.** Each one writes only inside its own row, so they don't collide:
    - `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F1 · Side panel tabs".`
-   - `… run ONLY section "F2 · Ehli filter".`
-   - `… run ONLY section "F3 · Checklist item".`
-   - `… run ONLY section "F4 · Save status".`
-   - `… run ONLY section "F5 · Layout & audio at the top".`
-   - `… run ONLY section "F6 · Annotation cards".`
+   - `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F2 · Ehli filter".`
+   - `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F3 · Checklist item".`
+   - `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F4 · Save status".`
+   - `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F5 · Layout & audio at the top".`
+   - `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F6 · Annotation cards".`
 
 3. **Round 2 (Ehli, transcript, chapters; added 10-29 afternoon):**
-   - One chat first: `… run ONLY section "F0b · Rows F7–F10".`
-   - Then in parallel: `… run ONLY section "F7 · Ehli switch".` and `… run ONLY section "F10 · Transcript tab".`
-   - When F7 is done, in parallel: `… run ONLY section "F8 · Ehli annotations".` and `… run ONLY section "F9 · Chapters tab".` (both use F7's switch).
+   - One chat first:
+     `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F0b · Rows F7–F10".`
+   - Then in parallel:
+     `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F7 · Ehli switch".`
+     `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F10 · Transcript tab".`
+   - When F7 is done, in parallel (both use F7's switch):
+     `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F8 · Ehli annotations".`
+     `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "F9 · Chapters tab".`
+4. **R2 QA patch:**
+   `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "R2 · QA patch (F7–F10)".`
 
 High is enough. Rerun a section on Extra High only if it comes back broken. After a fix is approved, switch the original flag's category to `Fix [AI] DONE` yourself (the prompts never touch the v3 frames).
 
@@ -353,7 +360,7 @@ Assumes: Shared rules from this file. Write only in "Fix row · F10".
 
 ## R2 · QA patch (F7–F10)
 
-Claude's screenshot QA of rows F7–F10 (10-29). Everything is there, with all the variants. Three defects and one nit. Run as one chat: `… run ONLY section "R2 · QA patch (F7–F10)".` The fixes are on the main components, so every instance (F8 lists, F9 panel, F7 compositions) updates by itself.
+Claude's screenshot QA of rows F7–F10 (10-29). Everything is there, with all the variants. Three defects and one nit. Run as one chat: `Read @wireframe-benchmark/reviews/10-29-srv-fixes.md. Apply "Shared rules", then run ONLY section "R2 · QA patch (F7–F10)".` The fixes are on the main components, so every instance (F8 lists, F9 panel, F7 compositions) updates by itself.
 
 ```
 Assumes: Shared rules from this file. EDITS main components in rows F6, F7 and F9 of Section "Fixes" in place. Don't rebuild anything, don't touch the frames that only hold instances.
