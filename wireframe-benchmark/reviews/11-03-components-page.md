@@ -1,0 +1,79 @@
+# 11-03 · ⚙️ Components page (temporary greyscale library)
+
+Figma: IMSH-MVP (dbJVpAusLJCtreiz0jlEh3), page "⚙️ Components" (675:31351), empty today.
+
+## Context
+
+- **What this page is:** a temporary greyscale wireframe library in this file. The final components, with colour and UI, go later to a separate "Essentials 2.0 Components" file (DDC 11-03 with Gabor).
+- **Plan for 11-03:**
+  1. Move the stable SRV components here.
+  2. Finish the SRV flow, then the Dashboard, using these components.
+  3. After the Vertex news, decide on the base kit and add new components.
+  4. Joint review with Gabor. Then he swaps his own screens; Daniel does not touch Gabor's pages.
+- **Decision, 11-03:** Balázs Végső approved leaving out the timeline jump during recording, so in Live the annotation time stays plain text and doesn't jump. The current components already work this way.
+- **Not moved, because still open:** the SRV screen layout. Debrief vs Video Review is unresolved and the tablet versions don't exist yet. Only parts are moved here; whole screens are not.
+
+## How to run
+
+1. Tell Gabor before running it, since it's his file too.
+2. **C1 · Move SRV components.** Model: **Claude Sonnet 5.5 · Medium**. The moves are mechanical with a fixed list of IDs. The only risk is Cursor cloning a component instead of moving it, so the prompt forbids that and checks instance counts.
+   `Read @wireframe-benchmark/reviews/11-03-components-page.md, then run ONLY section "C1 · Move SRV components".`
+
+## C1 QA (11-03, Claude)
+
+Passed.
+- **All 20 moved:** every component is on "⚙️ Components" with its original node ID. No copies, and the page holds no extra components.
+- **Instance counts:** all identical to the table. The AI label (59) and Annotation card (92) only read lower until the Drafts page was loaded, because getInstancesAsync counts only loaded pages. Nothing was lost.
+- **Layout:** 8 Sections in the right order, each component labelled, plus the title and description at the top.
+- **Old locations:** the 5 superseded components are still in "Fixes", and 20 "Moved to ⚙️ Components (11-03)" notes mark the empty spots.
+- **Screens:** SP1a, SP2a and SP4c render unchanged.
+
+## C1 · Move SRV components
+
+| Section on ⚙️ Components | Components (ID · instances on 11-03) |
+|---|---|
+| SRV · Side panel | Side panel 605:30863 · 8; Side panel tabs 565:28541 · 32; Annotations toolbar 621:12636 · 7; Checklist toolbar 633:32518 · 7; Chapters toolbar 711:26209 · 6 |
+| SRV · Ehli (shared) | AI label 609:31470 · 59; Ehli status 621:12698 · 5 |
+| SRV · Annotations | Annotation card 565:29411 · 92; Hidden annotations 602:30521 · 2 |
+| SRV · Checklist | Checklist item 565:28998 · 43; Checklist heading 565:29372 · 7; Save status 565:29346 · 10 |
+| SRV · Chapters | Chapter row 570:56166 · 15 |
+| SRV · Transcript | Transcript search 570:55170 · 11; Transcript chapter header 570:55527 · 15; Transcript segment 570:55482 · 70 |
+| SRV · Player | Timeline 570:56218 · 0; Timeline marker 570:56124 · 8 |
+| SRV · Header | Header actions 565:29001 · 0; Intercom strip 565:29096 · 0 |
+
+**Staying in "Fixes" as history, NOT moved** (superseded): Ehli card 565:28820 (replaced by the Annotation card's Ehli variants); Ehli switch 570:55010 (the switch cards were dropped on 10-29); Annotations list 565:29625, Chapters panel 570:56363 and Transcript panel 570:55633 (all replaced by Side panel).
+
+```
+Figma file IMSH-MVP (dbJVpAusLJCtreiz0jlEh3). Source page "Dashboard + SRV [Drafts] (D) {Grayscale}" (305:18292). Target page "⚙️ Components" (675:31351), empty.
+
+Rules:
+- MOVE the main components; never clone, duplicate, recreate or detach them. Moving keeps their node IDs and keeps every instance in the file linked. A copy would break that.
+- Don't change any component's content, variants, properties, size or name.
+- Don't touch any other page, Gabor's pages ("(G)") included.
+
+1 · On "⚙️ Components", build this layout:
+   - A header text at the top left (x 0, y 0), 32 px bold: "SRV · temporary greyscale library". Under it, 16 px regular, max 800 px wide: "Wireframe components for the SRV flow, moved from the Drafts page on 11-03. Temporary: the final components with colour and UI go to a separate 'Essentials 2.0 Components' file. Edit a component here and every screen that uses it updates."
+   - Then ONE Section per row in the table below, stacked vertically, 160 px apart, in the table's order. Section names exactly as in the first column.
+   - Inside each Section: 80 px padding. The components sit in one row, left to right in the table's order, 120 px apart and top-aligned. Each one has a label text 24 px above it (16 px medium, its exact component name). If a row would be wider than 6000 px, wrap to a second row 160 px lower.
+   - Resize each Section to fit its contents plus the padding.
+
+| Section | Components (ID) |
+| SRV · Side panel | 605:30863, 565:28541, 621:12636, 633:32518, 711:26209 |
+| SRV · Ehli (shared) | 609:31470, 621:12698 |
+| SRV · Annotations | 565:29411, 602:30521 |
+| SRV · Checklist | 565:28998, 565:29372, 565:29346 |
+| SRV · Chapters | 570:56166 |
+| SRV · Transcript | 570:55170, 570:55527, 570:55482 |
+| SRV · Player | 570:56218, 570:56124 |
+| SRV · Header | 565:29001, 565:29096 |
+
+2 · Before moving anything, record each component's instance count (sum over its variants, with getInstancesAsync). After moving, count again. The counts must be identical. If any count changes, stop and report.
+
+3 · Move the components into their Sections (appendChild on the Section, or the auto-layout row you built inside it). Keep their annotations.
+
+4 · In the source page, every "After · <name>" wrapper (in Section "Fixes") or spot (in Section "Sidepanel") that held a moved component is now empty. Put a 14 px muted text inside it: "Moved to ⚙️ Components (11-03)". Don't delete the wrappers or the "Before" columns, because the fix history stays readable.
+
+5 · Leave these where they are, untouched: 565:28820, 570:55010, 565:29625, 570:56363, 570:55633.
+
+When done, report a table: component, ID, Section, instances before → after. Then screenshot the whole "⚙️ Components" page, and the Drafts page frames SP1a (605:31256), SP2a (634:32810) and SP4c (734:27459) to show the screens still render with their instances.
+```

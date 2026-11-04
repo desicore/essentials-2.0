@@ -22,7 +22,19 @@ One Cursor chat per tab, in order:
    `Read @wireframe-benchmark/reviews/10-29-sidepanel.md. Apply "Shared rules", then run ONLY section "SP1-fix E · Toolbar as default".`
 7. **SP2** (Checklist tab). Model: **Claude Opus 5.5 · Medium**. It adds two variants to the shared "SRV / Side panel" set and builds a new toolbar component, so a mistake reaches SP1a/SP1b too. Worth the smarter model.
    `Read @wireframe-benchmark/reviews/10-29-sidepanel.md. Apply "Shared rules", then run ONLY section "SP2 · Checklist tab".`
-8. Chapters, Transcript: sections to come.
+8. **SP3** (Chapters tab), after SP2 (done and QA'd 11-02). Model: **Claude Opus 5.5 · Medium**. Same reason as SP2: new variants in the shared set, plus one main-component fix.
+   `Read @wireframe-benchmark/reviews/10-29-sidepanel.md. Apply "Shared rules", then run ONLY section "SP3 · Chapters tab".`
+9. **SP4** (Transcript tab), after SP3 (done and QA'd 11-02). Model: **Claude Opus 5.5 · Medium**. New variants in the shared set, and the content has a sticky header and a scroll cut to get right.
+   `Read @wireframe-benchmark/reviews/10-29-sidepanel.md. Apply "Shared rules", then run ONLY section "SP4 · Transcript tab".`
+10. **SP1-fix F** (lighter timestamps on annotation cards and chapter rows), after SP4 (done and QA'd 11-02). Model: **Claude Opus 5.5 · Medium**. It edits two main components across about 12 variants that every side panel frame uses.
+   `Read @wireframe-benchmark/reviews/10-29-sidepanel.md. Apply "Shared rules", then run ONLY section "SP1-fix F · Timestamps".`
+11. **SP1-fix G** (the three fixes from the whole-panel review, plus the Checklist toolbar moving to the top), after F (done and QA'd 11-03). Model: **Claude Sonnet 5.5 · Medium**. These are small, well-specified edits to three existing components, with no layout decisions left.
+   `Read @wireframe-benchmark/reviews/10-29-sidepanel.md. Apply "Shared rules", then run ONLY section "SP1-fix G · Panel consistency".`
+12. **SP1-fix H** (the AI label goes bottom-right on checklist items too), only AFTER G is done, because it moves what G builds. Model: **Claude Sonnet 5.5 · Medium**. It's one component with three variants.
+   `Read @wireframe-benchmark/reviews/10-29-sidepanel.md. Apply "Shared rules", then run ONLY section "SP1-fix H · AI label position".`
+   *Ran 11-03, then rejected by Daniel (it looked off). Replaced by I.*
+13. **SP1-fix I** (Option B: the AI label sits next to the information it marks, on the left), after G and H. Model: **Claude Sonnet 5.5 · Medium**. Two components, five variants, with Daniel's reference frames to match.
+   `Read @wireframe-benchmark/reviews/10-29-sidepanel.md. Apply "Shared rules", then run ONLY section "SP1-fix I · AI label inline".`
 
 If a picker name differs, take the closest model of the same family and tier.
 
@@ -47,7 +59,7 @@ PANEL ANATOMY (the same for every tab, so the tabs look like one panel):
  - Component set "SRV / Side panel", 380 × 836, white background, 1 px left border in the border colour (it separates the panel from the video area). Clip content. Properties: Tab = Annotations | Checklist | Chapters | Transcript (each run adds its own) and Mode = Live | Debrief.
  - Top: an instance of "SRV / Side panel tabs" (565:28541) with Active = the tab, full width, 40 px.
  - Content area: 16 px padding left/right, 16 px top. Two parts:
-   1 · Fixed top (doesn't scroll): ONE 32 px toolbar: the tab's filter or search on the left, the inline Ehli control (icon + "Ehli" + Switch) on the right when the tab has one. Directly under it (8 px), the "SRV / Ehli status" strip, ONLY while Ehli has something to report (Preparing, Processing, Error, Ready). No Ehli switch cards (decided 10-29, Daniel: SP1e's one toolbar is the default). Checklist only: its heading ("SRV / Checklist heading", with the save status) sits ABOVE the toolbar, 12 px gap, because the save status must stay visible.
+   1 · Fixed top (doesn't scroll): ONE 32 px toolbar: the tab's filter or search on the left, the inline Ehli control (icon + "Ehli" + Switch) on the right when the tab has one. Directly under it (8 px), the "SRV / Ehli status" strip, ONLY while Ehli has something to report (Preparing, Processing, Error, Ready). No Ehli switch cards (decided 10-29, Daniel: SP1e's one toolbar is the default). Checklist only: its heading ("SRV / Checklist heading", with the save status) also sits in the fixed top so the save status stays visible. It goes BELOW the toolbar with a 12 px gap, so the toolbar and Ehli switch stay at the top as on every other tab (changed 11-03, Daniel; it used to sit above).
    2 · Scroll area: starts 12 px under the fixed top, fills to the bottom, 16 px bottom padding. Items 8 px apart. When the content is longer than the panel, it's cut at the bottom with a 32 px white-to-transparent fade over the last visible item (shows that it scrolls). No scrollbar drawn.
  - Type scale: content text 14 regular, titles 14 medium, meta and helper 12 muted, group headings 12 muted uppercase. No other sizes.
  - Width of everything inside: 348 px.
@@ -343,7 +355,266 @@ EXCEPTION for this run: you may ADD two variants to the component set "SRV / Sid
 When done: screenshot the toolbar set, both new variants, SP2a–SP2d and the menu. Check that the tab bar, the 16 px side padding and the toolbar's position look the same as in SP1a (the heading pushes the toolbar down; nothing else moves), every item is 348 px wide, and SP1a/SP1b are unchanged.
 ```
 
+## SP2 QA (11-02, Claude)
+
+Passes. Structure, the seven item states, the fixed heading + toolbar, Ehli off, the filtered view and the menu all match; SP1 is unchanged. Two nits in SP2d's filter line, fixed directly by Claude: "Clear" is now the same underlined link as "Retry" in the save pill (12 medium), and the double gap after "·" is gone.
+
+---
+
+## SP3 · Chapters tab
+
+**What it shows:**
+
+| Frame | Mode | What it shows |
+|---|---|---|
+| SP3a | Debrief | The main view: Ehli on, five chapters, "Spotting deterioration" is the current one |
+| SP3b | Live recording | No chapters yet: an empty state that says when they come. No status strip, same rule as Annotations |
+| SP3c | Debrief | Right after the recording: Ehli processing, skeleton rows under the strip |
+| SP3d | Debrief | Ehli off: "Chapters are off" empty state |
+
+**Claude's notes (for Daniel, not for Cursor):**
+- **Toolbar without a filter:** five chapters don't need one. The left side shows "5 chapters · 18:42", so the toolbar keeps the same shape and the Ehli control stays in the same spot on all three tabs.
+- **Live is an empty state, not a strip:** on Annotations the strip would have taken space from your own annotations. Here the whole tab is empty during the sim anyway, so the empty state says it once, in the middle: "Chapters come after the recording."
+- **I reused "SRV / Ehli status"** with chapter wording as text overrides, instead of a second status component. If that turns into a problem in the library, it gets a `Feature` property later.
+- **F9 fix still open:** the Current row's dark bar sits outside the highlighted fill (R2 fix 3 didn't land). It's in this run as step 1.
+
+```
+Assumes: Shared rules from this file. Adds a row "SP3 · Chapters tab" (32 px bold row title) 400 px below the SP2 row; grow the Section's height to fit, plus 120 px bottom padding.
+EXCEPTIONS for this run: you may ADD two variants to "SRV / Side panel" (605:30863), and EDIT the main component "SRV / Chapter row" (570:56166) in Section "Fixes" as in step 1 only. Nothing else in "Fixes".
+
+1 · "SRV / Chapter row" (570:56166), State=Current: the 2 px dark bar sits outside the row, about 8 px left of the highlighted fill. Put it INSIDE the row: absolute-positioned, x 0, full row height, flush with the fill's left edge, so the row's 8 px radius clips it (clip content on). The row stays 348 × 40.
+
+2 · Component set "SRV / Chapters toolbar" (first in the SP3 row, label above), 348 × 32, built like "SRV / Annotations toolbar" (621:12636): same icon, text and Switch instances, same spacing, Ehli control right-aligned. On the LEFT, instead of the Select, 14 regular text. Property Ehli:
+   - On: left "5 chapters · 18:42" (foreground). Sparkle + "Ehli" + Switch on.
+   - Off: left "Chapters" (muted). Sparkle, "Ehli" muted, Switch off.
+   - Preparing: left "Chapters" (muted). Loader icon instead of the sparkle, Switch on.
+   - Error: left "Chapters" (muted). Alert-triangle in the warning colour, Switch on.
+   Accessible name of the switch: "Ehli AI chapters".
+
+3 · Two new variants in "SRV / Side panel" (605:30863), same anatomy and size as the others, Tab=Chapters. Tabs: Active = Chapters. Fixed top: "SRV / Chapters toolbar". No status strip.
+   - "Tab=Chapters, Mode=Debrief": toolbar Ehli=On. Scroll area: five "SRV / Chapter row" instances, 4 px apart (rows, not cards): "00:00 Briefing · 2 min", "01:30 Initial assessment · 3 min", "04:10 Spotting deterioration · 3 min" (State=Current), "07:30 Fluid resuscitation · 5 min", "12:20 SBAR handoff · 6 min". Hide the scroll fade.
+   - "Tab=Chapters, Mode=Live": toolbar Ehli=On, left text "Chapters" (muted) as an override. Scroll area: the same empty-state structure as F9's Off panel (570:56422), centred vertically in the scroll area: list-video icon, 14 medium "Chapters come after the recording", 12 px muted "Ehli splits the recording into chapters a few minutes after it ends."
+
+4 · In the SP3 row, after the toolbar set (160 px gaps, label above each):
+   - "SP3a · Chapters · Debrief": instance of the Debrief variant.
+   - "SP3b · Chapters · Live recording": instance of the Live variant.
+   - "SP3c · Chapters · Ehli processing": instance of the Debrief variant, detach ONLY the outer instance. Toolbar Ehli=Preparing, left "Chapters". Under it (8 px) an "SRV / Ehli status" (621:12698) instance, State=Processing, text override "Ehli is splitting the recording into chapters · 60 %". Scroll area 12 px under the strip: five skeleton rows instead of the chapter rows (reuse the skeleton rows from F9's Preparing panel 570:56446).
+   - "SP3d · Chapters · Ehli off": instance of the Debrief variant, detach ONLY the outer instance. Toolbar Ehli=Off. Scroll area: F9's Off empty state (list-video icon, "Chapters are off", 12 px muted "Turn on Ehli to split the recording into chapters."), centred vertically.
+
+5 · Annotations (category "Interaction"):
+   - On the Debrief variant's toolbar: "Same toolbar as the other tabs; no filter needed for five chapters. The Ehli control stays in the same place on every tab."
+   - On the Current row: "Click a row to jump the playback to the chapter's start. 'Current' follows the playhead."
+   - On SP3b's empty state: "No status strip during the recording (same rule as Annotations). The whole tab is empty anyway, so the empty state says when chapters come."
+   - On SP3c's strip: "Then 'Ehli added 5 chapters.' (Ready) for 5 s, as on Annotations (SP1h)."
+   - On SP3d's toolbar: "Off also removes the chapter headers from the Transcript tab."
+
+When done: screenshot 570:56166 (Current), the toolbar set, both new variants, SP3a–SP3d. Check that the Current row's bar is inside the fill, the toolbar sits at the same y as on SP1a, the 16 px side padding is unchanged, every row is 348 px wide, and SP1/SP2 frames are unchanged.
+```
+
+## SP3 QA (11-02, Claude)
+
+Passes after one fix. The Current-row bar now sits inside the fill (R2 fix 3, finally done), the toolbar has all four states, the two new variants and SP3a–SP3d match the spec, and the annotations are there. The rows below SP1 moved down because "SRV / Side panel" now has six variants (it ends at y 2828); the 400 px row gaps are intact, so that's expected.
+
+- **Fixed directly by Claude:** in SP3a the five time pills had the play icon turned off (Icon=false on the instance), like a live time. In debrief the times jump the playback, so the icon is back on. The variant itself was right.
+
+## SP4 · Transcript tab
+
+**What it shows:**
+
+| Frame | Mode | What it shows |
+|---|---|---|
+| SP4a | Debrief | The main view: chapter headers, anonymous speakers, the segment playing now highlighted, the list cut at the bottom (it scrolls) |
+| SP4b | Live recording | No transcript yet: an empty state, same pattern as SP3b |
+| SP4c | Debrief | Search "lactate", 1 of 2, the active match highlighted |
+| SP4d | Debrief | Ehli chapters off (SP3d): the same transcript without chapter headers |
+| SP4e | Debrief | Right after the recording: the status strip and skeleton segments |
+
+**Claude's notes (for Daniel, not for Cursor):**
+- **The search is the toolbar:** this tab has no Ehli switch, so the search takes the toolbar's full width (F10's search with its counter and up/down). The toolbar is still one 32 px row in the same place, so the panel doesn't jump between tabs.
+- **Chapters off = no headers:** the transcript doesn't have its own switch, it follows the Chapters tab. SP4d shows that link, so nobody wonders where the headers went.
+- **Preparing uses the same status strip:** I reused "SRV / Ehli status" with transcript wording, so "processing after the recording" looks the same on Annotations, Chapters and Transcript. Open question: is the transcript an Ehli feature or a base feature? If it's base (no AI subscription), the strip still fits, as it has no sparkle.
+- **Sticky header:** the current chapter's header stays at the top of the scroll area while the segments scroll under it. In SP4a the playhead is in "Initial assessment", so that header sits at the top.
+
+```
+Assumes: Shared rules from this file. Adds a row "SP4 · Transcript tab" (32 px bold row title) 400 px below the SP3 row; grow the Section's height to fit, plus 120 px bottom padding.
+EXCEPTION for this run: you may ADD two variants to "SRV / Side panel" (605:30863). Never edit Section "Fixes".
+Content source: F10's component set "SRV / Transcript panel" (570:55633) in "Fixes". Rebuild its content in the side panel anatomy with NEW instances of the same components ("SRV / Transcript search" 570:55170, "SRV / Transcript chapter header" 570:55527, "SRV / Transcript segment" 570:55482), same order and copy. Don't instance the F10 panel itself.
+
+1 · Two new variants in "SRV / Side panel", same anatomy and size as the others, Tab=Transcript. Tabs: Active = Transcript.
+   Fixed top: ONE 32 px row holding "SRV / Transcript search" at full width (348), vertically centred. No Ehli control on this tab. No status strip.
+   - "Tab=Transcript, Mode=Debrief": search State=Empty. Scroll area: the content of F10's State=Playing (570:55634): header "Initial assessment 01:30–04:10" at the top, its segments (03:05 State=Current), header "Spotting deterioration 04:10–07:30", its segments, and on until the list runs past the bottom. Cut + the 32 px scroll fade at the bottom (this list really overflows, so the fade stays).
+   - "Tab=Transcript, Mode=Live": search State=Empty with the input disabled and the IconButtons disabled. Scroll area: the empty-state structure of SP3b (icon, 14 medium title, 12 px muted line), centred vertically, with a file-text icon (or the closest transcript icon), "The transcript comes after the recording", "Ready a few minutes after the recording ends."
+
+2 · In the SP4 row (160 px gaps, label above each):
+   - "SP4a · Transcript · Debrief": instance of the Debrief variant.
+   - "SP4b · Transcript · Live recording": instance of the Live variant.
+   - "SP4c · Transcript · Search": instance of the Debrief variant, detach ONLY the outer instance. Search State=Results ("lactate", "1 of 2"). Same list with the matches as in F10's State=Search (570:55773): the 03:05 segment State=Active match, the 04:12 segment State=Match. No Current highlight in this frame (the active match replaces it).
+   - "SP4d · Transcript · Chapters off": instance of the Debrief variant, detach ONLY the outer instance. Delete the chapter headers, keep the segments in the same order (as F10's State=No chapters 570:55920). The 03:05 segment stays Current.
+   - "SP4e · Transcript · Ehli processing": instance of the Debrief variant, detach ONLY the outer instance. Search disabled (State=Empty, input and IconButtons disabled). Under the toolbar (8 px), an "SRV / Ehli status" (621:12698) instance, State=Processing, text override "Transcribing the recording · 60 %". Scroll area 12 px under the strip: the skeleton segments from F10's State=Preparing (570:56050). Remove F10's old muted line "The transcript is ready…": the strip replaces it.
+
+3 · Annotations (category "Interaction"):
+   - On the Debrief variant's search: "No Ehli switch on this tab, so the search takes the toolbar's full width. Enter = next match, Shift+Enter = previous."
+   - On the first chapter header: "Sticky: the current chapter's header stays at the top while the segments scroll under it."
+   - On a segment's time: "In debrief, click to jump the playback there. The Current segment follows the playhead."
+   - On "Speaker 1": "No names or faces: speakers stay anonymous (GDPR, name + biometrics need per-person consent)."
+   - On SP4d's list: "Chapter headers come from Ehli's chapters. With chapters off (SP3d) the transcript is one continuous list."
+   - On SP4e's strip: "Same strip as Annotations and Chapters. Search is disabled until the transcript is ready."
+
+When done: screenshot both new variants and SP4a–SP4e. Check the toolbar row sits at the same y as on SP1a–SP3a, the 16 px side padding and 348 px width hold for every segment and header, the fade shows only in the frames whose list overflows, and the SP1–SP3 frames are unchanged.
+```
+
+## SP4 QA (11-02, Claude)
+
+Passes, no fixes. Eight variants in "SRV / Side panel"; the search row sits at the same y as on SP1a–SP3a; every segment and header is 348 px; the fade shows only where the list overflows (SP4a, SP4c); SP4b and SP4e have the right copy; SP4d has no headers.
+
+## SP1-fix F · Timestamps
+
+Decided with Daniel 11-03 (grilling round). References on page "Dashboard + SRV [Drafts] (D)": 747:22297 (Live), 747:22437 (Debrief at rest), 747:22342 (Debrief hover).
+
+| Decision | |
+|---|---|
+| Why | The grey play pill on every card is visual weight that competes with the annotation text |
+| Live | The time is flush plain text and does nothing (as today) |
+| Debrief | Astryx Ghost button, SM, 28 px, the 1 px border token, **no fill at rest**, no play icon. Hover adds a see-through fill on top; focus adds the focus ring. Hover and focus are annotations, not variants (component library later) |
+| Ehli cards | Same rule: the 10-29 white pill fill goes. If the border is too faint on the grey card, the fix is a stronger border, not a fill |
+| Clicks | Clicking the time jumps the playback. Clicking the rest of your card opens editing. Ehli cards edit only via "…" → Edit (as today) |
+| Chapters | Same time button in "SRV / Chapter row"; the row hover stays |
+| Transcript | No change: monospace underlined links |
+| Touch | Out of scope: tablet components with 44 px targets come later. Desktop stays 28 px |
+| Not chosen | ButtonGroup for the checklist Yes/No (11-02): keep the separate buttons; the 8 px gap isn't worth it |
+
+```
+Assumes: Shared rules from this file. EXCEPTION for this run: you may EDIT these main components in Section "Fixes" in place: "SRV / Annotation card" (565:29411) and "SRV / Chapter row" (570:56166). Don't rename variants, don't add variants. Nothing else in "Fixes".
+Reference frames (read-only) on page "Dashboard + SRV [Drafts] (D)": 747:22297 (Live), 747:22437 (Debrief at rest), 747:22342 (Debrief hover).
+
+1 · "SRV / Annotation card", every variant with Live=No (Comment · You, Tag only Default and Hover, Editing, Comment · Ehli, Edited · Ehli): the "Time pill" becomes the time button of 747:22437:
+   - Swap it to the Button "Variant=Ghost, Size=SM, State=Rest, Type=Default" (the same main 747:22437 uses). Icon = off (no play icon). Keep the monospace time label as it is.
+   - Add a 1 px inside stroke bound to the border colour variable (the same one 747:22437 uses). No fill.
+   - On the two Source=Ehli variants, delete the white fill and the stroke added on 10-29 (R2 fix 2); they follow the same rule as the others.
+   - Nothing else moves: the row stays time, 8 px, tag chip, spacer, "…".
+2 · "SRV / Annotation card", the Live=Yes variants: no change (flush plain text, as 747:22297). Check they really have no box.
+3 · "SRV / Chapter row" (570:56166), all three states (Default, Hover, Current): the same swap as step 1 (Ghost, Icon off, 1 px border, no fill). The row's own hover and current fills stay. The Current bar stays inside the row.
+4 · SP3a (711:26825) has an instance override that turns the time pill's icon ON (Claude's 11-02 fix). Reset that override on its five chapter rows so they follow the main component (no icon).
+5 · Annotations (category "Interaction"). Delete the old one on the time pill ("In debrief, the time jumps the playback there…") wherever it sits on the main component, then add:
+   - On the time in "Type=Comment, Live=No, Source=You": "Rest: Ghost button + border, no fill, no play icon. Hover: a see-through fill on top (foreground ≈ 6–8 %, tuned in the UI stage). Focus: + focus ring. Click or Enter jumps the playback here. Separate target: clicking the rest of the card opens editing."
+   - On the time in "Type=Comment, Live=Yes": "Live: plain text, no hover, not focusable. There's nothing to jump to yet."
+   - On "Type=Comment, Live=No, Source=Ehli": "The time jumps like on your cards. Clicking the card body does nothing: edit via '…' → Edit, because editing turns it into your annotation."
+   - On the time in "SRV / Chapter row", State=Default: "Same time button as the annotation cards. Clicking the row or the time jumps to the chapter's start."
+
+When done: screenshot 565:29411 and 570:56166, then SP1a (605:31256), SP1b (605:31468), SP1h (621:13448) and SP3a (711:26825). Check: no play icon on any Debrief time, no fill at rest, the border visible on the grey Ehli cards, the Live times still flush plain text, the tag chips haven't moved, and the cards and rows are still 348 px wide. The parked SP1 copies change too (their cards are instances); that's fine.
+```
+
+## SP1-fix F QA (11-03, Claude)
+
+Passed. Every Debrief time (7 card variants, 3 chapter-row states) is Ghost SM Rest with Icon off, no fill, and a 1 px inside stroke on var 3362:0. Live times are flush text. All 348 px wide. The border reads on the grey Ehli cards and on the Current/Hover chapter rows. The SP3a override is gone: its five rows are back on the component default. The four new annotations are in place and the old time-pill note is gone.
+
+Fixed directly: the annotation labels on the Drafts page showed literal HTML entities (`&#39;`, `&gt;`), which is an old bug and not just F's. I decoded them on 49 nodes; the text is unchanged.
+
 ## After this runs
 
-- Send Claude the Sidepanel Section link for a QA round.
-- Then the next tab: SP3 · Chapters (F7/F9 chapters + the toolbar with the Ehli Preparing status).
+- ~~Send Claude the Sidepanel Section link for a QA round.~~ Done (F QA above).
+- ~~Whole-panel review.~~ Done, see below.
+
+## Whole-panel review (11-03, Claude)
+
+Compared the four Debrief variants of "SRV / Side panel" (605:30863) side by side.
+
+**Holds as one panel:** the toolbar sits at y 56 and is 32 px tall on all four. The scroll area starts 12 px under the fixed top (Checklist's heading exception included). Everything is 348 px wide. The type uses only two sizes, 14 and 12. Times are always monospace, and the fade shows only on Transcript, the one tab that overflows.
+
+**Findings, most important first:**
+1. **Checklist breaks the two-Ehli-symbols rule.** Ehli's answers show a sparkle inside the Yes button. By our rule the sparkle means the feature and the round AI label means content Ehli generated, and an answer is content. Proposal: drop the sparkle from the button and put the AI label in front of the stars ("AI ★★★"). As a side effect, the Yes button goes back to a plain label, which also gives back some of the width the ButtonGroup idea was after.
+2. **Grey fill means three things.** It marks Ehli content (annotation cards), the current playback spot (chapter row, transcript segment) and a section header (transcript). The current spot is also drawn two ways: Chapters uses bar + fill, Transcript's current segment uses fill only. Proposal: Current = bar + fill everywhere, which means adding the bar to the transcript segment's Current state. The bar is then what says "now playing". Ehli cards keep their grey (R2); real colour comes in the UI stage.
+3. **Transcript search is 28 px tall, the selects are 32 px.** When you switch tabs, the toolbar control changes height. Proposal: make the search 32 px.
+4. *Note only:* where the content starts differs by tab: Checklist at 16, chapter and transcript rows at 24 (8 px inner padding for their hover fill), card text at 28. Each comes from its container and reads fine, so no change.
+- Then a look at the whole panel together: the four Debrief variants side by side, checking the tabs read as one panel (toolbar position, type scale, spacing).
+
+## SP1-fix G · Panel consistency
+
+From the whole-panel review (11-03), approved by Daniel, plus his Fix [AI] annotation on SP2a's Fixed top (fix 4). Four fixes:
+
+| # | Fix | Why |
+|---|---|---|
+| 1 | Checklist: no sparkle in the Yes button; the AI label goes in front of the stars | Sparkle = the Ehli feature, AI label = content Ehli made. An answer is content. |
+| 2 | Transcript segment Current: add the chapter row's Current bar | "Playing now" = bar + fill on every tab; grey alone also means Ehli cards and headers. |
+| 3 | Transcript search: 32 px tall | Matches the 32 px selects, so the toolbar keeps its height across tabs. |
+| 4 | Checklist: toolbar on top, heading under it | The Ehli switch sits at the top on every other tab. The heading stays fixed, so the save status stays visible. |
+
+```
+Assumes: Shared rules from this file. EXCEPTION for this run: you may EDIT these main components in place, in Section "Fixes": "SRV / Checklist item" (565:28998), "SRV / Transcript segment" (570:55482), "SRV / Transcript search" (570:55170); and in this Section, the two Checklist variants of "SRV / Side panel" (605:30863): Tab=Checklist, Mode=Debrief (633:32565) and Mode=Live (633:32980). Don't rename variants or properties. Don't touch any other component.
+
+1 · "SRV / Checklist item", the variants with Ehli=Suggested or Ehli=Changed:
+   - Every Yes/No Button: Icon off (no sparkle). Labels, variants and 56 px widths stay.
+   - In the "Meta" row (the stars): put an "SRV / AI label" instance, Type=AI, 14 × 14 (same as on "SRV / Timeline marker", Type=Ehli), BEFORE the stars, 4 px gap, centre-aligned. Item text and "Changed from Ehli's Yes" are unchanged.
+   - Ehli=None variants: no change.
+2 · "SRV / Transcript segment", State=Current only: add a "Current bar" exactly like the one in "SRV / Chapter row", State=Current (570:56210): a 2 px rectangle, absolute position, x 0, constraints Left + Top & Bottom (stretch), same fill (same variable), inside the segment's fill. Nothing else in the segment moves.
+3 · "SRV / Transcript search", all 3 states: set the Input to size md and both IconButtons to the Size one step up from SM, so the row is 32 px tall. If md doesn't give a 32 px field, stop and report the height instead of forcing it with a resize. The counter text stays.
+4 · Annotations: in the SP2 row and in Section "Fixes", find every annotation that mentions "sparkle" in the checklist context and reword it to "AI label" (e.g. SP2c's toolbar: "Off hides the AI labels, the stars and the 'To review' option. Answers stay as they are."). Leave the sparkle wording on toolbars and the Ehli switch alone: the sparkle still means the feature there.
+5 · Checklist order (Daniel's Fix [AI] annotation on SP2a's Fixed top): in the "Fixed top" of both Checklist variants (633:32565, 633:32980), swap the order. "SRV / Checklist toolbar" goes first, then "SRV / Checklist heading", 12 px gap (unchanged). The toolbar now sits at y 56 like on the other tabs, and the scroll area still starts 12 px under the fixed top.
+   - SP2a and SP2b are instances and follow automatically.
+   - SP2c (634:33370) and SP2d (634:33575) are detached frames: make the same swap in their own "Fixed top" (634:33373, 634:33578). In SP2d, the "Toolbar + filter" group moves up as one piece, so the filter line stays right under its toolbar, then the heading.
+   - "SP2 · menu open" (634:34113): move the open menu up so it keeps the same offset from the Select as before, now that the Select is at the top.
+   - The annotation on SP2a's Fixed top: set its category to "Fix [AI] DONE". Keep the text.
+
+When done: screenshot 565:28998, 570:55482, 570:55170, then "SRV / Side panel" Tab=Checklist, Mode=Debrief (633:32565) and Tab=Transcript, Mode=Debrief (734:26610), plus SP2a (634:32810), SP2d (634:33575), SP2 · menu open (634:34113) and SP4c (734:27459). Check: no sparkle in any checklist button, the AI label sits in front of the stars on items 1, 3, 4 and 5, the transcript Current segment shows the bar like the Current chapter row, the search row is 32 px and still 348 wide, the Checklist toolbar is at y 56 (same as the other tabs) with the heading 12 px under it, the menu hangs from the Select, and the scroll areas still start 12 px under the fixed top.
+```
+
+## SP1-fix H · AI label position
+
+Daniel, 11-03: on annotation cards the AI label sits bottom-right, but G puts it bottom-left on checklist items (in front of the stars, under the item text). That's inconsistent.
+
+**Rule:** Ehli's mark always sits bottom-right, at the end of what Ehli made. On a card, that's the whole card. On a checklist item, it's the answer, so "AI ★★★" moves under the Yes/No buttons, right-aligned. It then sits at the same bottom-right spot as on the cards, next to the answer it describes. Items with one line of text grow by about 10 px. That's fine.
+
+```
+Assumes: Shared rules from this file, and SP1-fix G already done. EXCEPTION for this run: you may EDIT the main component "SRV / Checklist item" (565:28998) in Section "Fixes". Nothing else.
+
+1 · Variants with Ehli=Suggested (Stars=3 and Stars=1): take the "Meta" row (AI label 14 × 14 + stars, 4 px gap, from G) out of the text column, so the item text column holds only the text. Turn "Answer" into a vertical column: the Yes/No row (unchanged), then the Meta row, 4 px gap, right-aligned (its right edge flush with the No button). Keep the item's top alignment: the buttons stay level with the first text line.
+2 · Variant Ehli=Changed (Stars=2): same move. In its "Answer column", the order becomes: the Yes/No row, the Meta row (AI label + stars), then "Changed from Ehli's Yes". 4 px gaps, everything right-aligned.
+3 · Ehli=None variants: no change.
+4 · Annotation on "Answer=Yes, Ehli=Suggested, Stars=3": "Ehli's mark sits bottom-right like on annotation cards: the AI label and its confidence stars, under the answer Ehli gave."
+
+When done: screenshot 565:28998, "SRV / Side panel" Tab=Checklist, Mode=Debrief (633:32565), SP2a (634:32810) and SP2c (634:33370). Check: on items 1, 3, 4 and 5 the AI label + stars sit right-aligned under the buttons, there's nothing under the item text, the buttons haven't moved sideways, the item text didn't get narrower, and SP2c (Ehli off) shows no labels or stars.
+```
+
+## SP1-fix I · AI label inline
+
+Daniel, 11-03: H's result (908:23494) is consistent but looks off: the AI label and stars hang under the buttons with nothing to attach to. He explored three options (908:24442) and picked **Option B**.
+
+| Decision | Why |
+|---|---|
+| **Rule:** the AI label sits on the same line as the information it marks, on the left. It replaces H's "always bottom-right". | Position alone was the wrong rule. The label belongs with what it describes. |
+| Checklist: AI label + stars under the item text (back to G's position) | Label and stars are one piece of information ("Ehli says Yes, this confident"). The buttons stay clean. |
+| Option A rejected: the AI label under the No button | It reads as "Ehli said No", but Ehli said Yes. |
+| Option C rejected: the AI label on its own line under the card text | It adds 18 px per card for a lone badge. |
+| Card: AI label right after the time, 4 px gap, centred on the time button | You see the card is from Ehli on its first line. The grey fill already hints at it, and the label confirms it. 4 px apart, it reads as a badge, not part of the clickable time. |
+| Edited Ehli card: "AI modified" moves next to the time too; the author line becomes just the name | Otherwise Ehli's mark would sit in a different place depending on whether the card was edited. |
+
+```
+Assumes: Shared rules from this file, and SP1-fix G + H already done. EXCEPTION for this run: you may EDIT the main components "SRV / Checklist item" (565:28998) and "SRV / Annotation card" (565:29411) in Section "Fixes". Nothing else.
+References (read-only, Daniel's): checklist item = "Option B - Ehli 3 – impaccable" (908:24285); card = "Option B - Annotation · 03:05 · Ehli" (908:24318). Match them.
+
+1 · "SRV / Checklist item", the three variants with Ehli=Suggested or Ehli=Changed (565:28995, 565:28996, 565:28997): undo H's move.
+   - Move the "Meta" row (AI label 14 × 14 + stars, 4 px gap) back into the "Text" frame, under the item text, left-aligned. Spacing as in 908:24285.
+   - Ehli=Suggested: the "Answer column" holds only the Yes/No row again. Remove the empty wrapper if H added one (907:27252, 907:27253), so "Answer" sits directly in the item row, top-aligned with the first text line as before H.
+   - Ehli=Changed: "Answer column" = the Yes/No row, then "Changed from Ehli's Yes" (4 px gap, right-aligned). No Meta row there.
+   - Replace H's annotation on "Answer=Yes, Ehli=Suggested, Stars=3" with: "The AI label sits with the stars it qualifies, under the item text: Ehli's answer and its confidence. Same rule as on the cards: the label goes next to what it marks."
+2 · "SRV / Annotation card", "Type=Comment, Live=No, Source=Ehli" (570:55569):
+   - Row 1: wrap "Time pill" and a NEW "SRV / AI label" (Type=AI, 16 × 16) in a horizontal auto-layout "Time + AI", 4 px gap, centre-aligned. Row 1 = "Time + AI", Spacer, "…".
+   - Content row: delete the old AI label (609:31492). The text fills the full width again (322).
+3 · "SRV / Annotation card", "Type=Edited, Live=No, Source=Ehli" (570:55599):
+   - Row 1: same "Time + AI" wrapper, with the AI label Type=AI modified moved here from the author row (609:31497). Row 1 = "Time + AI", Tag, Spacer, "…". Keep the 8 px gap before the tag.
+   - Author row: only "Dr. Maya Ortiz" is left.
+4 · Annotation on "Type=Comment, Live=No, Source=Ehli": add one line at the end of the existing text: "The AI label sits right after the time, so you can tell the card is from Ehli on its first line."
+
+When done: screenshot 565:28998, 565:29411, then SP1a (605:31256), SP1h (621:13448) and SP2a (634:32810). Check: the checklist AI label + stars are under the text on items 1, 3, 4 and 5 and nothing hangs under the buttons; the card AI label is 4 px after the time on both Ehli cards and gone from the content row and author line; card widths are 348; the Ehli card text wraps at the full width; SP2c (Ehli off) shows no labels or stars.
+```
+
+## SP1-fix G + I QA (11-03, Claude)
+
+Passed, nothing for Cursor to fix.
+- **G1 + I1 Checklist:** no sparkle in any button. On items 1, 3, 4 and 5 the AI label + stars sit under the item text. Item 4 keeps "Changed from Ehli's Yes" under the buttons. H's wrappers are gone.
+- **G2 Transcript:** the Current segment has the bar (2 px, absolute, stretch, bound fill), the same as the Current chapter row.
+- **G3 Search:** all 3 states are 32 px tall (Input md, IconButtons MD), 348 wide.
+- **G5 Checklist order:** the toolbar is at y 56 in both variants, SP2c and SP2d, with the heading 12 px under it. SP2d's filter line stays with its toolbar. Daniel's annotation is set to Fix [AI] DONE.
+- **I2–I3 Cards:** the AI label is 4 px after the time on both Ehli cards. "AI modified" sits before the Discuss tag. The text runs the full width, and the author line is just the name.
+- **Fixed directly by Claude:** two stale annotations still said "sparkle" for Ehli content (Timeline marker Type=Ehli, and "Annotations · Ehli on (mixed)"). Both now say AI label. Also tidied blank lines in the Ehli card's annotation.
+- **Correction to the F QA note:** the `&#39;` in annotation labels is how the Plugin API returns apostrophes. Writing a plain `'` reads back as `&#39;` again, so my 11-03 "fix" on 49 nodes most likely changed nothing, and the labels probably display fine in Figma.
