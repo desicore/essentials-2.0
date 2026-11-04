@@ -18,6 +18,8 @@ Figma: IMSH-MVP (dbJVpAusLJCtreiz0jlEh3), page "⚙️ Components" (675:31351), 
 1. Tell Gabor before running it, since it's his file too.
 2. **C1 · Move SRV components.** Model: **Claude Sonnet 5.5 · Medium**. The moves are mechanical with a fixed list of IDs. The only risk is Cursor cloning a component instead of moving it, so the prompt forbids that and checks instance counts.
    `Read @wireframe-benchmark/reviews/11-03-components-page.md, then run ONLY section "C1 · Move SRV components".`
+3. **C2 · Checklist status row.** Model: **Claude Opus 5.5 · Medium**. It's a small change on screen, but it adds a component and removes variants from one that 5 instances use, so the order of steps matters.
+   `Read @wireframe-benchmark/reviews/11-03-components-page.md, then run ONLY section "C2 · Checklist status row".`
 
 ## C1 QA (11-03, Claude)
 
@@ -76,4 +78,52 @@ Rules:
 5 · Leave these where they are, untouched: 565:28820, 570:55010, 565:29625, 570:56363, 570:55633.
 
 When done, report a table: component, ID, Section, instances before → after. Then screenshot the whole "⚙️ Components" page, and the Drafts page frames SP1a (605:31256), SP2a (634:32810) and SP4c (734:27459) to show the screens still render with their instances.
+```
+
+## C2 · Checklist status row
+
+From Daniel's annotations on the Checklist heading (11-04), all on 633:32825:
+
+| Decision | Why |
+|---|---|
+| Remove "Yes / no · no score" | The buttons already show yes/no on every row. "No score" describes a feature we ruled out on 10-15. |
+| Count and save status move to one row of their own, between the fixed top and the scroll area | Both describe the state of the answers, not the title. The row doesn't scroll, so the save status stays visible (F4). |
+| The heading becomes the title alone | The title leads; the count is supporting information (12 px Text/Secondary, already applied 11-03). |
+
+The list starts 8 px lower than today (y 168 instead of 160), because the row sits in Content with its 12 px gaps.
+
+```
+Figma file IMSH-MVP (dbJVpAusLJCtreiz0jlEh3), page "⚙️ Components" (675:31351) and the Drafts page (305:18292). Don't touch any other page.
+
+You may edit: "SRV / Checklist heading" (565:29372), the two Checklist variants of "SRV / Side panel" (633:32565 Debrief, 633:32980 Live), and the detached frames SP2c (634:33370) and SP2d (634:33575). Nothing else. Do the steps in this order.
+
+1 · New component set "SRV / Checklist status", in Section "SRV · Checklist", right after "SRV / Checklist heading", with a label in the same style as the others.
+   - 348 px wide, hug height (24), horizontal auto-layout, space between, centre-aligned.
+   - Left: text "Answered count", style Text/Supporting, fill Text/Secondary (same as the count in the heading today). Make it a text property "Count", default "5 of 7 answered".
+   - Right: an instance of "SRV / Save status" (565:29346).
+   - Property Save = Saved | Saving | Not saved, each swapping the pill to the matching state.
+   - Annotation on the set: "Sits between the fixed top and the scroll area: it's about the answers, not the title. It doesn't scroll, so the save status stays visible."
+
+2 · Add an instance as a direct child of the Content frame, between "Fixed top" and "Scroll area", FILL width. Content's 12 px gap gives the spacing.
+   - 633:32565 (Debrief): Save=Saved, Count "5 of 7 answered".
+   - 633:32980 (Live): Save=Saving, Count "4 of 7 answered".
+   - SP2c (634:33370, Content 634:33372): Save=Saved, Count "5 of 7 answered".
+   - SP2d (634:33575, Content 634:33577): Save=Saved, Count "5 of 7 answered".
+   SP2a and SP2b are instances and follow automatically.
+
+3 · Set every "SRV / Checklist heading" instance to Save=Saved. The Live variant's one (633:33098) is on Saving today.
+
+4 · Edit "SRV / Checklist heading":
+   - In Save=Saved: delete "Answered count" from Title row, and delete the whole Meta row ("Subtitle" and the Save status). The title is all that's left, so the height is 20.
+   - Delete the Save=Saving and Save=Not saved variants. Rename the remaining variant "State=Default".
+   - Replace the annotation on the set with: "Title only. The count and save status live in 'SRV / Checklist status', under the fixed top."
+   - Daniel's three open annotations on 633:32825 sit on the deleted layers and go with them. That's expected.
+
+5 · Instance 908:23770 is in a loose copy of SP2a on the Drafts page (Daniel's exploration). Leave it alone: it will just show the title.
+
+When done, screenshot the "SRV · Checklist" Section, then 633:32565, 633:32980, SP2c (634:33370), SP2d (634:33575) and SP2a (634:32810).
+Check, measured from the top of each panel:
+   - 633:32565, 633:32980, SP2a, SP2c: toolbar y 56, title y 100 (h 20), status row y 132 (h 24), scroll area y 168.
+   - SP2d: toolbar + filter y 56, title y 128, status row y 160, scroll area y 196.
+   - No "Yes / no · no score" anywhere in these. The count is on the left and the pill on the right, both inside 348 px. The Live variant shows "4 of 7 answered" and "Saving…".
 ```
