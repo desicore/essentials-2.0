@@ -180,14 +180,15 @@ REPORT WHEN DONE
 
 ## Shell facts
 
-Filled in by Claude after the F0 review gate. **Do not start a flow chat while this block says "not yet".**
+Filled in by Claude after the F0 review gate on 11-16. **F0 passed. The flow chats may start.**
 
 ```
-Status: not yet. F0 has not run.
-Target page id: (after F0)
-Section ids: (after F0)
-"Shell · Page" id: (after F0)
-"SideNav · One app" component id: (after F0)
-How to set the active nav item: (after F0)
+Status: F0 passed (checked 11-16). Flow chats may start.
+Target page: "🧭 One app · merge [D]" (1749:8314)
+Section ids: "0 · Shell" 1749:8315 · "1 · Sessions" 1749:8316 · "2 · Recordings and debrief" 1749:8317 · "3 · Rooms and devices" 1749:8318 · "4 · Participants" 1749:8319 · "5 · Import" 1749:8320
+"Shell · Page": 1749:8657 (1440 × 900). Children: "TopNav" 1749:8658, "Body" 1749:8659 with instance "SideNav" 1749:8916 and frame "Content" 1749:8661 (1180 × 852). In "Content": "Breadcrumb" 1749:8662 and "Page header" 1749:8666.
+"SideNav · One app" component: 1749:8656. Never edit it.
+How to set the active nav item: in YOUR clone of "Shell · Page", find the instance "SideNav", then inside it the nested instance named "Nav · <label>" (findOne by exact name, for example "Nav · Rooms"). Call setProperties({ State: "Selected" }) on it. Then call setProperties({ State: "Default" }) on "Nav · Live", which is the selected item in the source. Exactly one item is Selected per screen. The property key is "State", values "Default" and "Selected". Item names: "Nav · Today", "Nav · Notifications", "Nav · Events", "Nav · Live", "Nav · Recordings", "Nav · Rooms", "Nav · Simulators & Equipment", "Nav · People", "Nav · Inventory", "Nav · Labels", "Nav · Prep checklists", "Nav · Settings".
 Layer names inside "Shell · Page" (fixed by the F0 file, checked at the gate): "TopNav", "Body" with "SideNav" and "Content"; in "Content": "Breadcrumb" (texts "Section", "/", "Page") and "Page header" (text "Greeting" = page title, instance "Text · Tuesday, January 19" = sub text, instance "Button · Customize" = hidden header button).
+Placeholder texts to overwrite in every clone: breadcrumb "Section" and "Page", page title "Page title", sub text "Short page description".
 ```
