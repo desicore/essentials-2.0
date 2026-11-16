@@ -35,7 +35,7 @@ Model: **Claude Sonnet 5.5 · High**. One new Cursor chat per section. Run N1 fi
 
 | # | Where | Annotation, in short | Result |
 |---|---|---|---|
-| 1 | Side nav, "Live" | Could "Live" be called "Captured"? | No change. Open question for the workshop. Claude's view: "Captured" reads as "already recorded", so it collides with "Recordings" |
+| 1 | Side nav, "Live" | Could "Live" be called "Capture"? (Daniel meant "Capture"; the annotation says "Captured") | No change. Open question for the workshop: "Live" or "Capture" |
 | 2 | L3, Event select | Ad hoc is not an event. Nothing should be selected; show a placeholder | N3 · K |
 | 3 | L3, Learners select | "Add later" is not a state. Show a placeholder | N3 · K |
 | 4 | L3, Scenario select | Should show the empty state | N3 · K |

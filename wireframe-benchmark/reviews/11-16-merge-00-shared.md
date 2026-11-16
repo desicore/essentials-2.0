@@ -182,6 +182,15 @@ REPORT WHEN DONE
 
 Filled in by Claude after the F0 review gate on 11-16. **F0 passed. The flow chats may start.**
 
+**Changed later on 11-16 (fix round 2, run T1, checked by Claude). This overrides the block below and every "TopNav" rule in this file:**
+
+- There is no top bar any more. No frame on the page has a "TopNav". "Shell · Page" (1749:8657) has one child, "Body" (0, 0, 1440 × 900), with the instance "SideNav" (260 × 900) and "Content".
+- "SideNav · One app" (1749:8656) is now 260 × 900 with four children: "Header" (logo "ls-essentials-logo-small" and text "Institution"), "Search row" (instance "Search"), "Items" (the 11 nav items and 2 headings), "Footer" ("Nav · Help", "Nav · Settings", "User row" with avatar, name and chevron).
+- Room views (L4, P1, P1b, P3) are 1440 × 900 with one child "Shell row"; their captions sit at y 1044. The collapsed rail has 11 icons, then Settings and the avatar at the bottom.
+- B1 and B2 are 1440 × 948: "Recording banner" (48) on top, then "Body" (900).
+- New Section "6 · Recording banner" (1767:16448) at y 9000.
+- The logo exception in WORDS now applies to the logo in the side navigation.
+
 ```
 Status: F0 passed (checked 11-16). Flow chats may start.
 Target page: "🧭 One app · merge [D]" (1749:8314)
