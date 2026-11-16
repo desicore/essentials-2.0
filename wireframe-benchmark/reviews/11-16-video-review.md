@@ -4,7 +4,7 @@ Three greyscale wireframe sketches for the workshop on 11-17/18. They illustrate
 
 ## Context
 
-- The scope area "Video review / recording library" has no design at all (coverage "Zero"). Daniel's direction: a dedicated module for reviewing recordings, a recording can belong to an event or be ad hoc, and a very good filter system makes it usable.
+- The scope area "Video review / recording library" has no design at all (coverage "Zero"). Daniel's direction: a dedicated top-level menu entry "Recordings" for reviewing recordings (one app, the menu follows OpSpace), a recording can belong to an event or be ad hoc, and a very good filter system makes it usable.
 - Screen 1, **Recordings**, shows: a list with thumbnails, grouped by day, a filter bar on top (search, state chips, six filters), mixed states, and ad hoc recordings titled "Ad hoc · <room> · <date time>".
 - Screen 2, **Recordings, filtered**, shows: two filters applied ("Not linked to an event" and Room), and the way an ad hoc recording is linked to an event later.
 - Screen 3, **Review**, shows: the SRV layout in playback mode, same as the laptop debrief, with timeline, markers and annotations, plus the event link and what learners can see.
@@ -13,7 +13,7 @@ Three greyscale wireframe sketches for the workshop on 11-17/18. They illustrate
 ## What I found in the file (11-15, read-only)
 
 - No recordings library exists. The only recordings list is the card "Card · Recent recordings" `307:12799` in "D1 · Dashboard" `307:12788` (Drafts page `305:18292`). It has two rows, "Recording · NURS 340 · Postpartum hemorrhage · Group A" `307:12849` and "Recording · NURS 310 · Chest pain (STEMI) · Group A" `307:12850`. Each has an instance "Thumbnail · recording" (64 × 64) and "Badge · Debrief ready" (105 × 20).
-- List-page shell: frame "AV0 · Rooms" `1603:10516` (1440 × 900, Section "AV setup · Sketches" `1559:8318`). It has instance "TopNav" `1603:10517`, frame "Body" `1603:10518` with instance "SideNav" `1603:10519` (260 wide) and frame "Content" `1603:10520` (1180 wide, white, 24 px padding, 24 px gap). "Content" holds "Breadcrumb" `1603:10521`, "Page header" `1603:10527` (1132 × 52), "Card · Unassigned devices" `1605:5853` and "Card · Rooms" `1605:5790` (1132 wide). The SideNav items are Dashboard, Calendar, Recordings, Scenarios, Reports, People, and Settings in the footer. Settings is the active item.
+- List-page shell: frame "AV0 · Rooms" `1603:10516` (1440 × 900, Section "AV setup · Sketches" `1559:8318`). It has instance "TopNav" `1603:10517`, frame "Body" `1603:10518` with instance "SideNav" `1603:10519` (260 wide) and frame "Content" `1603:10520` (1180 wide, white, 24 px padding, 24 px gap). "Content" holds "Breadcrumb" `1603:10521`, "Page header" `1603:10527` (1132 × 52), "Card · Unassigned devices" `1605:5853` and "Card · Rooms" `1605:5790` (1132 wide). In the source, the SideNav items are Dashboard, Calendar, Recordings, Scenarios, Reports, People, and Settings in the footer. Settings is the active item. These are the old labels: the clones use the new menu (see "Product rules" in the Shared rules).
 - Inside "Page header": text "Greeting" `1603:10528`, instance "Text · Tuesday, January 19" `1603:10529`, instance "Button · Customize" `1603:10530` (its label reads "Manage rooms in OpSpace").
 - Badge instances in AV0: "Badge · Ready" `1605:5894`, "Badge · Needs attention" `1605:5899`, "Badge · No devices" `1605:5909`.
 - Player: frame "Preview · Debrief" `1098:6920` (1440 × 948). Its collapsed SideNav already has the Recordings icon active. "Main" `1098:6924` holds instance "Header" `1098:6925`, and frame "Body" `1098:6926` with "Video column" `1098:7490` (832 × 836) and instance "SRV / Debrief panel" `1098:7612` (560 × 836). "Video column" holds "SRV / Camera grid" `1098:7491`, "SRV / Playback bar" `1098:7505` (with the instance "Timeline"), and "SRV / Annotation input" `1098:7586`. Below the annotation input the column is empty from y 655 to y 836. The frame sits on the Components page `675:31351` (Section "SRV · Debrief panel").
@@ -29,8 +29,9 @@ Three greyscale wireframe sketches for the workshop on 11-17/18. They illustrate
 |---|---|
 | Where | A new Section "Video review · Sketches" on the SRV flow page, at x 0, y 4500 (nothing is below y 2680) |
 | Library option | Option A: list with thumbnails, grouped by day, filter bar on top. Grid is shown only as a "Grid" toggle (not built) |
-| Active nav item | Recordings (the SideNav already lists it) |
-| No breadcrumb | Recordings is a top-level module. The breadcrumb is deleted |
+| Active nav item | Recordings, the fourth item in the new menu (Today, Notifications, Events, Recordings, then the group heading "Resources" followed by Rooms, Simulators & Equipment, People, Inventory, Labels, Prep checklists; Settings in the footer) |
+| No breadcrumb | Recordings is a top-level entry in the menu. The breadcrumb is deleted |
+| One app (11-16) | No text names "OpSpace" or "Essentials" as a place to go. Components stay Astryx. The "Manage rooms in OpSpace" button is hidden in VR1 (and so in VR2) |
 | Persona in captions | Faculty: Dr. Maya Ortiz |
 | Sample data | Course names and rooms from the Dashboard and the AV frames. Dates in the library are November (13 Nov and earlier). The Dashboard still shows "Tuesday, January 19". Daniel decides which to keep |
 | Thumbnails | The existing 64 × 64 "Thumbnail · recording", so rows are 72 high |
@@ -41,7 +42,7 @@ Three greyscale wireframe sketches for the workshop on 11-17/18. They illustrate
 
 ## Gaps I expect in Cursor's report
 
-- The SideNav may not allow "Recordings" to be set active from the instance.
+- The SideNav may not allow "Recordings" to be set active from the instance, and it may have fewer than four item rows (Recordings is the fourth). The fallback is in the Shared rules.
 - The badge variant property may not offer Info or Error on the AV badge instances.
 - Cloning a thumbnail instance that sits inside another instance may not work.
 - The camera tiles show a red dot. Hiding it on the instance may not be possible.
@@ -117,6 +118,12 @@ Section "Video review · Sketches":
 
 Sample data, the same in all frames: Riverbend College of Nursing, Dr. Maya Ortiz (faculty). Rooms: Sim Room 1, Sim Room 2, Skills Lab 1, Debrief Room 1. Learners: Emily Baker, Priya Shah, Marcus Chen, Aisha Rahman. Courses: NURS 310, NURS 340.
 
+Product rules (decided 11-16, they apply to every clone):
+- One app for the customer. The source frame "AV0 · Rooms" has a button labelled "Manage rooms in OpSpace" (instance "Button · Customize"). In every clone, overwrite this button's label or hide the button. Never leave "Manage rooms in OpSpace". No product switcher anywhere. No text on any frame names "OpSpace" or "Essentials" as a place to go.
+- Use Astryx components and styling only. Do not copy the OpSpace Chakra UI look.
+- Side navigation: in VR1 (and so in VR2, which clones it), set the item labels of the instance "SideNav", top to bottom, to: Today, Notifications, Events, Recordings, then the group heading "Resources" followed by Rooms, Simulators & Equipment, People, Inventory, Labels, Prep checklists. "Settings" stays in the footer. The SideNav component may not show a group heading: add the heading "Resources" as a text label (a clone of a muted text, Regular 12 px, text/secondary) above "Rooms", and say so in your report. Never drop the group. Use text overrides on the existing items only. Never add, copy or detach an item. The active item is "Recordings" (the fourth). If the instance has fewer than ten item rows, set as many labels as there are rows, in that order, and list the labels that did not fit under "Component gaps". If it has fewer than four rows, do not relabel anything: leave the SideNav labels as in the source, make the existing item "Recordings" the active one, and report the row count. In VR3 the side navigation is collapsed (icons only) and already has Recordings active: leave it as it is.
+- Recordings is an entry in the menu. A recording opens from there. Recordings has no breadcrumb.
+
 Report when done: the new frame IDs, the badge property names you found, the "Component gaps" list, and every step you could not do exactly as written. Then screenshot each frame you built.
 ```
 
@@ -131,7 +138,7 @@ Create the Section "Video review · Sketches" as described in the Shared rules. 
 2 · Shell
 - Clone "AV0 · Rooms" (1603:10516) into the Section. Place it at x 80, y 120. Rename the clone "VR1 · Recordings".
 - Don't change "TopNav".
-- In the clone, find the instance "SideNav". Its footer item "Settings" is the active one. Make the item whose text is "Recordings" (the third item in "Items") the active item, and "Settings" a normal item: read the component properties of the nested "Settings" item, set the same values on the nested "Recordings" item, and set "Settings" to the values a non-active item (for example "Calendar") has. If this is not possible, report it and leave the SideNav as it is.
+- In the clone, find the instance "SideNav". Set its item labels as described in the Shared rules ("Side navigation"). Its footer item "Settings" is the active one in the source. Make the item that reads "Recordings" the active item (the fourth item in "Items"; in the source it is the third item), and "Settings" a normal item: read the component properties of the nested "Settings" item, set the same values on the nested "Recordings" item, and set "Settings" to the values a non-active item (for example "Events") has. If this is not possible, report it and leave the SideNav as it is.
 - In "Content", delete "Breadcrumb".
 - Annotations: if "Content" has an annotation attached, remove it from the clone only.
 
@@ -139,7 +146,7 @@ Create the Section "Video review · Sketches" as described in the Shared rules. 
 In "Page header":
 - Text "Greeting": change its text to "Recordings".
 - Instance "Text · Tuesday, January 19": change its text to "Every recording from your rooms, from events and ad hoc." If the text can't be changed on the instance, report it.
-- Instance "Button · Customize": set it hidden (visible = false).
+- Instance "Button · Customize" (its label in the source reads "Manage rooms in OpSpace"): set it hidden (visible = false). Do not just relabel it.
 
 4 · Keep one badge, then remove the old cards
 - Before deleting anything, clone one "Badge · Ready" instance (from "Row · Sim Room 1" in "Card · Rooms") into a temporary frame "TEMP badges", placed in the Section at x 80, y 1100. Clone one "Thumbnail · recording" twice into it as well (thumbnail A and thumbnail B, see Shared rules).
@@ -226,7 +233,7 @@ Delete "TEMP badges".
 
 Check before you report:
 - The Section "Video review · Sketches" is 4840 × 1180 at x 0, y 4500. "VR1 · Recordings" is 1440 × 900 at x 80, y 120 in it. Label at y 76, caption at y 1044, both at x 80. Nothing changed in the Sections 1343:3275 and 1559:8318.
-- The SideNav shows "Recordings" as the active item (or the gap is reported).
+- The SideNav shows "Recordings" as the active item (or the gap is reported). There is no breadcrumb and no text reading "OpSpace".
 - "Content" has three children: Page header, Filter bar, Card · Recordings. The header button is hidden.
 - "Filter row 1" has eight children: Search field, Spacer, six chips. "Filter row 2" has nine children: six dropdown chips, Spacer, Chip · Sort, View switch.
 - "Card · Recordings" has ten children: Columns header, two group headers, six rows, Footer row.
@@ -335,7 +342,7 @@ In the frame "Video column" (832 × 836), below "SRV / Annotation input", add a 
   "System: opens the same layout as the debrief, now with the timeline, markers and annotations, and shows the event link and the sharing choices for this recording."
 
 Check before you report:
-- The source "Preview · Debrief" (1098:6920) is unchanged.
+- The source "Preview · Debrief" (1098:6920) is unchanged. In "VR3 · Review" the side navigation still shows Recordings as active, and no text reads "OpSpace".
 - "VR3 · Review" is 1440 × 948 at x 3200, y 120 in the Section. Label at y 76, caption at y 1092, at x 3200.
 - The header shows the title, the meta line with "Fri, 13 Nov · 09:00–09:19", "Button · 4 learners" and "Button · Share". The mode switch and the three live-only buttons are hidden (or the gap is reported).
 - The playback bar still shows the timeline with its markers. The five panel tabs are unchanged.
@@ -349,7 +356,7 @@ Not part of these runs. Click targets for the prototype round:
 
 | From | Click target | To |
 |---|---|---|
-| Any AV or SRV frame, "AV0 · Rooms" `1603:10516`, "D1 · Dashboard" `307:12788` | SideNav item "Recordings" | "VR1 · Recordings" |
+| Any AV or SRV frame, "AV0 · Rooms" `1603:10516` (the Rooms page), "D1 · Dashboard" `307:12788` (the Today page) | SideNav item "Recordings" | "VR1 · Recordings" |
 | "VR1 · Recordings" | "Chip · Not linked to an event" | "VR2 · Recordings, filtered" |
 | "VR1 · Recordings" | "Row · NURS 310 · Sepsis recognition" | "VR3 · Review" |
 | "VR2 · Recordings, filtered" | "Chip · All" | "VR1 · Recordings" |

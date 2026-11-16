@@ -1,13 +1,13 @@
 # 11-16 · Session start and center overview sketches (CO1, SS1, SS2, SS3)
 
-Four greyscale wireframe sketches for the workshop on 11-17/18. They show everything that leads INTO the Session Recording View (S1): the center overview, and the step that starts a recording from the dashboard, from an event, and from a room card. They are discussion sketches, not final designs. The reasoning and the requirement lines (SM-1 to SM-9) are in the vault page `wiki/work/essentials-2.0-concept-session-start-center-overview.md`.
+Four greyscale wireframe sketches for the workshop on 11-17/18. They show everything that leads INTO the Session Recording View (S1): the center overview, and the step that starts a recording from the Today page, from an event, and from a room card. Since 11-16 the center overview IS the Today page (the app follows the OpSpace menu, one app for the customer). They are discussion sketches, not final designs. The reasoning and the requirement lines (SM-1 to SM-9) are in the vault page `wiki/work/essentials-2.0-concept-session-start-center-overview.md`.
 
 ## Context
 
 - Patrik asked on 11-13 for at least high-level wireframes or concepts for the center overview, because nobody will read long documents live.
-- The SRV recording flow (S1 to S9) is built. Nothing leads into S1 yet except the dashboard "Start recording" button on the Up next row.
+- The SRV recording flow (S1 to S9) is built. Nothing leads into S1 yet except the "Start recording" button on the Up next row of the Today page (source frame "D1 · Dashboard").
 - Design direction (Daniel, 11-15): one application, no "switch to OpSpace" moment. One start step with three entry points, all landing in S1. The entry points differ only in what is prefilled.
-- CO1 shows the center overview as a wall of room cards. SS1 shows the start step for an ad hoc recording (dashboard). SS2 shows it for an event whose room needs attention. SS3 shows the start step opened from a room card.
+- CO1 shows the center overview as a wall of room cards. SS1 shows the start step for an ad hoc recording (started from the Today page). SS2 shows it for an event whose room needs attention. SS3 shows the start step opened from a room card.
 - Sample data: Riverbend College of Nursing, Dr. Maya Ortiz (faculty), rooms Sim Room 1, Sim Room 2 (needs attention, 1 device not found), Skills Lab 1, Debrief Room 1.
 
 ## What I found in the file (11-15, read-only)
@@ -17,7 +17,7 @@ Four greyscale wireframe sketches for the workshop on 11-17/18. They show everyt
 - The Dashboard "D1 · Dashboard" `307:12788` has no ad hoc "Start recording" button. Its Page header holds one button, "Button · Customize". The Up next row has "Button · Open event" and "Button · Start recording".
 - Shell for CO1: "AV0 · Rooms" `1603:10516` (1440 × 900, in Section "AV setup · Sketches" `1559:8318`). Children: instance "TopNav" `1603:10517`, frame "Body" `1603:10518` with instance "SideNav" `1603:10519` and frame "Content" `1603:10520` (white, 1180 × 852). "Content" holds "Breadcrumb" `1603:10521` (texts "Settings", "Separator", "Rooms"), "Page header" `1603:10527` (text "Greeting", instance "Text · Tuesday, January 19", instance "Button · Customize" `1603:10529`/`1603:10530`), "Card · Unassigned devices" `1605:5853` (holds instance "Button · Assign" `1605:5864`, Secondary, SM) and "Card · Rooms" `1605:5790`. Badge instances in "Card · Rooms": "Badge · Ready" `1605:5894`, "Badge · Needs attention" `1605:5899`, "Badge · No devices" `1605:5909`. The layer names "Greeting" and "Text · Tuesday, January 19" are left over from the Dashboard.
 - Error badge: "Badge · Not found" `1560:7975` in "AV1 · Room devices" `1559:8319`.
-- Shell for SS1: "D1 · Dashboard" `307:12788` (page 305:18292, 1440 × 900): "TopNav" `307:12789`, "Body" `307:12790` with "SideNav" `307:12791` (Dashboard active) and "Content" `307:12792` with "Page header" `307:12793` (text "Greeting" `307:12794`, instance "Button · Customize" `307:13359`) and "Columns" `307:12796`.
+- Shell for SS1: "D1 · Dashboard" `307:12788` (page 305:18292, 1440 × 900): "TopNav" `307:12789`, "Body" `307:12790` with "SideNav" `307:12791` (the source has "Dashboard" active; in the clone this item reads "Today", see Shared rules) and "Content" `307:12792` with "Page header" `307:12793` (text "Greeting" `307:12794`, instance "Button · Customize" `307:13359`) and "Columns" `307:12796`.
 - Scrim: rounded rectangle "Dim" `1360:9294` in "S8 · Stop confirmation" `1360:8441` (Core/Overlay 50 %).
 - Sheet: instance "Sheet · Record 3 rooms (Astryx Dialog Fullscreen)" `1:7327` (480 × 1096) in "3d · Record 3 rooms" `1:7184`. Parts: "Header" with "Title" and "Subtitle", "Close Button", slot "Body" holding frame "Rooms" with three "Room block · Sim Room N" frames (each: "Room header" with texts "Room name" and "Cameras", instance "Select · Event", text "Hint"), slot "Footer Actions" with instances "Cancel" and "Start 3 recordings".
 - Participants popover: component "SRV / Participants popover" `1048:5499`, used in "S2 · Participants" `1348:10885` as instance `1348:11444`. Not used in these runs; the vault page says what is missing.
@@ -29,14 +29,15 @@ Four greyscale wireframe sketches for the workshop on 11-17/18. They show everyt
 | Topic | Decision |
 |---|---|
 | Where | A new Section "Session start · Sketches" at x 0, y 3000 on the SRV flow page. It leaves 320 px of air below the AV Section |
-| Words on screen | "Start recording", the label the Dashboard and S1 already use. The design direction calls the step "Start session". Users see "Start recording" |
-| Shell for CO1 | Clone of "AV0 · Rooms": white content area, breadcrumb, Button and Badge instances already there |
+| Words on screen | "Start recording", the label the Today page (D1) and S1 already use. The design direction calls the step "Start session". Users see "Start recording" |
+| Menu and names (11-16) | One app. The side navigation follows the OpSpace menu: Today, Notifications, Events, Recordings, then the group heading "Resources" followed by Rooms, Simulators & Equipment, People, Inventory, Labels, Prep checklists. Settings stays in the footer. The center overview IS the Today page. No text names "OpSpace" or "Essentials" as a place to go. Components stay Astryx |
+| Shell for CO1 | Clone of "AV0 · Rooms": white content area, Button and Badge instances already there. The breadcrumb is deleted (Today is a top-level page) |
 | Shell for SS1 to SS3 | Clone of "D1 · Dashboard" with a dim layer and a right-hand sheet. The sheet is the one from Daniel's concept 3d, so the look is his own |
 | Live picture in CO1 | A grey placeholder frame with the text "Live picture". The real card uses the camera image as in 3b. Cursor can't restructure the 3b card instances without detaching them |
 | Event case | If the room is ready, the Start recording button on the event opens S1 directly, with no sheet. The sheet appears only when something needs a decision. SS2 shows that case for Sim Room 2, which needs attention |
 | Stop all | Not on CO1, because only one room records. It appears when two or more rooms record (see 3e, 3g) |
 | Room states | Ready, Needs attention, Recording, Scheduled next. One badge per room. Order if several apply: Recording, Needs attention, Scheduled next, Ready |
-| Sample data | Sim Room 1 Ready, Sim Room 2 Needs attention, Skills Lab 1 Recording (ad hoc), Debrief Room 1 Scheduled next. The Dashboard puts the 13:00 NURS 340 event in "Sim Room 3", which has no row in the AV sketches. The sketches use Sim Room 1 for it. Fix when the data model is final |
+| Sample data | Sim Room 1 Ready, Sim Room 2 Needs attention, Skills Lab 1 Recording (ad hoc), Debrief Room 1 Scheduled next. The Today page (D1) puts the 13:00 NURS 340 event in "Sim Room 3", which has no row in the AV sketches. The sketches use Sim Room 1 for it. Fix when the data model is final |
 | Screen size | 1440 × 900 |
 | Persona in captions | Faculty (Maya) for the start step, sim technician or faculty for the overview |
 
@@ -45,7 +46,7 @@ Four greyscale wireframe sketches for the workshop on 11-17/18. They show everyt
 - The Button property that sets Primary may have another name or option than "Primary". The report must say what it found.
 - The Select instance may not expose its value text. The report must name the text layer it used.
 - The sheet instance may not resize to 900 high. The fallback is in SS1.
-- The nav "Recordings" item may not be settable as active from the instance. The fallback is in CO1.
+- The nav item "Today" may not be settable as active from the instance, and the SideNav may have fewer item rows than the ten items. The fallbacks are in the Shared rules and in CO1.
 - Live picture is a grey box, not a photo. That is on purpose.
 - Cursor has once reported success without writing anything. Check each frame in Figma.
 
@@ -64,7 +65,7 @@ All runs: **Claude Sonnet 5.5 · High**. One new Cursor chat per run. Run them o
 5. **SS3 · Start from a room card.** Run only after the CO1 gate. It is a cheap clone of CO1.
    `Read @wireframe-benchmark/reviews/11-16-session-start-center-overview.md. Apply "Shared rules", then run ONLY section "SS3 · Start from a room card".`
 
-6. **SS1b · Start session, ad hoc, from the center overview.** Added 11-15 after Daniel's review: the Recordings module is the main place to manage recordings. Claude Sonnet 5.5 · Medium (a pure clone). Run only after SS1 is checked. If SS3 is not built yet, that is fine.
+6. **SS1b · Start session, ad hoc, from the center overview.** Added 11-15 after Daniel's review: the Recordings entry in the menu is the main place to manage recordings. Claude Sonnet 5.5 · Medium (a pure clone). Run only after SS1 is checked. If SS3 is not built yet, that is fine.
    `Read @wireframe-benchmark/reviews/11-16-session-start-center-overview.md. Apply "Shared rules", then run ONLY section "SS1b · Start session, ad hoc, from the center overview".`
 
 After each run, check that the frame really exists in Figma.
@@ -123,6 +124,11 @@ Section "Session start · Sketches":
 - Label: at y 76, left-aligned with its screen. Make it by cloning "Label · AV0" (1603:10620), set its text to the new frame's exact name, name the layer "Label · <frame code>" (for example "Label · CO1").
 - Caption: at y 1044, left-aligned with its screen, 1440 px wide. Make it by cloning "Caption · AV0" (1603:10621), name it "Caption · <frame code>", and set the two lines given in each section.
 
+Product rules (decided 11-16, they apply to every clone):
+- One app for the customer. The source frame "AV0 · Rooms" has a button labelled "Manage rooms in OpSpace" (instance "Button · Customize"). In every clone, overwrite this button's label or hide the button. Never leave "Manage rooms in OpSpace". No product switcher anywhere. No text on any frame names "OpSpace" or "Essentials" as a place to go.
+- Use Astryx components and styling only. Do not copy the OpSpace Chakra UI look.
+- Side navigation: in every clone of "AV0 · Rooms" or "D1 · Dashboard", the item labels, top to bottom, are: Today, Notifications, Events, Recordings, then the group heading "Resources" followed by Rooms, Simulators & Equipment, People, Inventory, Labels, Prep checklists. "Settings" stays in the footer. The SideNav component may not show a group heading: add the heading "Resources" as a text label (a clone of a muted text, Regular 12 px, text/secondary) above "Rooms", and say so in your report. Never drop the group. Set the labels with text overrides on the existing items, in that order. Never add, copy or detach an item. If the instance has fewer than ten item rows, set as many as exist, in that order, and list the labels that did not fit under "Component gaps". The item "Dashboard" is now "Today". Today is the active item in CO1, SS1, SS2 and SS3. To change which item is active, read the properties of the currently active nested item, set the same values on the nested item that reads "Today", and give the old active item the values of a non-active item (for example "Events"). If this is not possible, report it and leave it as it is.
+
 Sample data, the same in all frames: Riverbend College of Nursing, Tue 19 Jan 2027, about 09:50. Rooms: Sim Room 1 (Simulation room, 3 cameras, 2 mics, Audio kit), Sim Room 2 (Simulation room, 2 cameras, 1 device not found), Skills Lab 1 (Skills lab, 1 camera, Audio kit), Debrief Room 1 (Debrief room, no cameras). Event at 10:00: NURS 310 · Sepsis recognition, Group A, 5 learners, Sim Room 2. Event at 13:00: NURS 340 · Postpartum hemorrhage, Group B.
 
 Report when done: the new frame IDs, the Badge and Button property names you found, the "Component gaps" list, and every step you could not do exactly as written. Then screenshot each frame you built.
@@ -145,25 +151,25 @@ Check page 960:51213: nothing may sit at y 3000 or lower. If a Section named "Se
 - Clone "AV0 · Rooms" (1603:10516) into the new Section. Place it at x 80, y 120. Rename the clone "CO1 · Center overview".
 - In the clone, remove any annotation from the frame "Content".
 - Don't change "TopNav".
-- In the instance "SideNav": the item "Settings" (in the footer) is the active one. Make "Recordings" the active item and "Settings" a normal item: read the component properties of the nested "Settings" item, set the same values on the nested item whose Label is "Recordings", and set "Settings" to the values a non-active item (for example "Calendar") has. If this is not possible, report it and leave the SideNav as it is.
+- In the instance "SideNav": set the labels as described in the Shared rules ("Side navigation"). The item "Settings" (in the footer) is the active one in the source. Make "Today" (the first item, which reads "Dashboard" in the source) the active item and "Settings" a normal item: read the component properties of the nested "Settings" item, set the same values on the nested item that reads "Today", and set "Settings" to the values a non-active item (for example "Events") has. If this is not possible, report it and leave the SideNav as it is.
 
 3 · Temporary badges
 Create a frame "TEMP badges" inside the Section at x 80, y 1100. Put clones in it: one "Badge · Ready", one "Badge · Needs attention", one "Badge · No devices" (from the clone of AV0), and one "Badge · Not found" cloned from "AV1 · Room devices" (1559:8319). Also put one clone of the instance "Button · Assign" in it. Delete "TEMP badges" at the end of the run.
 
 4 · Breadcrumb
-In "Breadcrumb", change the text "Settings" to "Recordings" and the text "Rooms" to "Center overview". Keep "Separator". "Center overview" stays Medium 12 px, text/primary.
+Delete the frame "Breadcrumb" from "Content". Today is a top-level page and has no breadcrumb. Do not write "Settings", "Recordings" or "Rooms" anywhere in a breadcrumb.
 
 5 · Page header
 In "Page header":
-- Text "Greeting": "Center overview".
+- Text "Greeting": "Today".
 - Instance "Text · Tuesday, January 19": text "4 rooms · 1 recording · 1 needs attention".
-- Instance "Button · Customize": label "Start recording". Set Variant to Primary. The icon stays hidden. If the button's width doesn't follow the text, set the width so the label has 12 px padding left and right. The button's right edge stays where it is (x 1132 inside "Page header").
+- Instance "Button · Customize": its label in the source reads "Manage rooms in OpSpace". Overwrite it with "Start recording" (see the product rules in the Shared rules). Set Variant to Primary. The icon stays hidden. If the button's width doesn't follow the text, set the width so the label has 12 px padding left and right. The button's right edge stays where it is (x 1132 inside "Page header").
 
 6 · Remove the old cards
 In "Content", delete "Card · Unassigned devices" and "Card · Rooms". "Content" keeps its auto-layout, 24 px padding and 24 px gap.
 
 7 · Room wall
-Add a frame as the third child of "Content" (after "Page header"). Name "Room wall". Width fill (1132). Height hug. Auto-layout vertical, gap spacing/6 (24), no fill, no stroke.
+Add a frame as the second child of "Content" (after "Page header"; the breadcrumb is gone). Name "Room wall". Width fill (1132). Height hug. Auto-layout vertical, gap spacing/6 (24), no fill, no stroke.
 It has two children, "Wall row 1" and "Wall row 2". Each: auto-layout horizontal, gap spacing/6 (24), width fill, height hug, top-aligned, no fill, no stroke. Each row holds two room cards, each set to fill width (554) and height 320.
 Row 1: "Card · Sim Room 1", "Card · Sim Room 2". Row 2: "Card · Skills Lab 1", "Card · Debrief Room 1".
 
@@ -203,10 +209,10 @@ Delete "TEMP badges".
 Check before you report:
 - The Section "Session start · Sketches" exists at x 0, y 3000, size 6400 × 1180, and nothing in Sections 1343:3275 and 1559:8318 has changed.
 - "CO1 · Center overview" is 1440 × 900 at x 80, y 120 in the new Section. Label at y 76, caption at y 1044, both at x 80.
-- "Content" has exactly three children: Breadcrumb, Page header, Room wall.
+- "Content" has exactly two children: Page header, Room wall. There is no breadcrumb. The page title reads "Today".
 - "Room wall" has two rows with two cards each. Every card is 554 × 320 and has four children: Card header, Live picture, Details, Actions.
 - Four badges: Ready, Needs attention, Recording 12:20, Next 10:15. All are instances. Six buttons in the cards: Start recording (Primary) x2, Room devices, Open recording (Primary), Stop, Open event. Plus the Primary header button "Start recording". All are instances.
-- The nav item "Recordings" is active, or the gap is reported.
+- The nav item "Today" is active, or the gap is reported. The nav labels follow the Shared rules. No text on the frame reads "OpSpace".
 - Nothing overflows the 1440 × 900 frame and no text is clipped. If a card is taller than 320, report the overflow in px and don't shrink anything.
 - "TEMP badges" is gone.
 
@@ -221,14 +227,15 @@ Run: **Claude Sonnet 5.5 · High**, one new Cursor chat.
 `Read @wireframe-benchmark/reviews/11-16-session-start-center-overview.md. Apply "Shared rules", then run ONLY section "SS1 · Start session, ad hoc".`
 
 ```
-Goal: one frame "SS1 · Start session, ad hoc" in slot 2 of the Section "Session start · Sketches". It is the Dashboard with a dim layer and a right-hand sheet "Start recording". Only a room is required. Event, learners and scenario are optional.
+Goal: one frame "SS1 · Start session, ad hoc" in slot 2 of the Section "Session start · Sketches". It is the Today page (clone of "D1 · Dashboard") with a dim layer and a right-hand sheet "Start recording". Only a room is required. Event, learners and scenario are optional.
 
 1 · Check
 Find the Section "Session start · Sketches" and the frame "CO1 · Center overview" in it. If either is missing, stop and report.
 
 2 · Shell
 - Clone "D1 · Dashboard" (307:12788) into the Section. Place it at x 1640, y 120. Rename the clone "SS1 · Start session, ad hoc". Clip content on.
-- Don't change anything in "Columns", "TopNav" or "SideNav".
+- Don't change anything in "Columns" or "TopNav".
+- In the instance "SideNav": set the labels as described in the Shared rules ("Side navigation"). "Today" (the first item, "Dashboard" in the source) is already the active item. Change nothing else in "SideNav".
 - In "Page header", the instance "Button · Customize": label "Start recording". Set Variant to Primary. Hide the child named "Icon" (visible = false). Keep the button's right edge where it is. If the width doesn't follow the text, set the width so the label has 12 px padding left and right.
 
 3 · Temporary badges
@@ -272,18 +279,18 @@ Delete "TEMP badges".
 9 · Label and caption
 - Label text: "SS1 · Start session, ad hoc".
 - Caption, two lines:
-  "Faculty (Dr. Maya Ortiz): starts a recording from the dashboard without an event. Only the room is required."
+  "Faculty (Dr. Maya Ortiz): starts a recording from the Today page without an event. Only the room is required."
   "System: lists ready rooms first, shows the problem on a room that needs attention, and leaves event, learners and scenario for later."
 
 Check before you report:
 - "SS1 · Start session, ad hoc" is 1440 × 900 at x 1640, y 120. Label at y 76, caption at y 1044, both at x 1640.
 - "CO1 · Center overview" is unchanged.
-- The header button reads "Start recording", Primary, with no icon.
+- The header button reads "Start recording", Primary, with no icon. The SideNav labels follow the Shared rules and "Today" is active. No text on the frame reads "OpSpace".
 - "Dim" covers the whole frame (1440 × 900). The sheet sits at x 960, y 0 and reaches y 900. Its footer buttons sit at the bottom of the sheet.
 - "Start form" has four children: Room options, Block · Event, Block · Learners, Block · Scenario. "Room options" has five children: header, three options, hint.
 - The sheet's Body slot no longer contains "Rooms" or any "Room block · Sim Room" frame.
 - Three badges, all instances. No text is clipped and nothing overflows the sheet.
-- "TEMP badges" is gone. The Dashboard content behind the dim layer is unchanged.
+- "TEMP badges" is gone. The Today page content behind the dim layer is unchanged (apart from the SideNav labels).
 
 Report: new IDs, the Select value layer name, "Component gaps", every step you could not do exactly as written, and a screenshot of the frame.
 ```
@@ -402,7 +409,7 @@ Report: new IDs, "Component gaps", every step you could not do exactly as writte
 ```
 Assumes: Shared rules from this file. SS1 is built and checked (11-15).
 
-Goal: one frame "SS1b · Start session, ad hoc, from the center overview". It is the built frame CO1 with the same dim layer and the same sheet as SS1 on top. It shows that the sheet opens from the Recordings module too. Nothing in the sheet changes.
+Goal: one frame "SS1b · Start session, ad hoc, from the center overview". It is the built frame CO1 with the same dim layer and the same sheet as SS1 on top. It shows that the sheet opens from the Today page (the center overview) too. Nothing in the sheet changes.
 
 Sources, all inside Section "Session start · Sketches" (1692:9755). Do not change any of them:
 - "CO1 · Center overview" (1692:9756), 1440 × 900.
@@ -432,7 +439,7 @@ Check list:
 - The Section is 7960 × 1180 at x 0, y 3000. CO1, SS1, SS2 and their labels and captions have not moved or changed. SS3, if it exists, has not moved.
 - "SS1b · Start session, ad hoc, from the center overview" is 1440 × 900 at x 6320, y 120.
 - Its last two children are "Dim" (1440 × 900 at 0, 0) and "Sheet · Start recording" (480 × 900 at 960, 0), in that order.
-- Behind the dim layer the four room cards of the center overview are visible. The side navigation shows Recordings as active.
+- Behind the dim layer the four room cards of the center overview are visible. The side navigation shows Today as active.
 - The sheet looks the same as in SS1, text for text.
 - Label and caption exist with the texts above.
 - Report: anything that could not be cloned with its overrides.
@@ -446,7 +453,7 @@ Not part of these runs. After the four frames pass review, wire these click targ
 | From (frame, element) | To |
 |---|---|
 | CO1, "Button · Customize" (reads "Start recording"), Page header | SS1b (the sheet over the center overview) |
-| D1 · Dashboard or SS1 background, "Button · Customize" (reads "Start recording") | SS1 |
+| D1 · Dashboard (the Today page) or SS1 background, "Button · Customize" (reads "Start recording") | SS1 |
 | SS1b, instance "Start recording" in "Footer Actions" | S1 · Ready to record `1343:4038` |
 | SS1b, instance "Cancel", and "Close Button" | CO1 |
 | CO1, button "Start recording" in "Card · Sim Room 1" | SS3 |
@@ -458,10 +465,10 @@ Not part of these runs. After the four frames pass review, wire these click targ
 | SS1, instance "Cancel", and "Close Button" | CO1 |
 | SS2, instance "Start anyway" in "Footer Actions" | S1 · Ready to record `1343:4038` |
 | SS2, instance "Cancel", and "Close Button" | CO1 |
-| SS2, text "See room devices" | AV1 · Room devices `1559:8319` (Sim Room 2 detail) |
+| SS2, text "See room devices" | Sim Room 2, AV tab (frame AV1 · Room devices) `1559:8319` |
 
 Notes:
-- The dashboard "Up next" row button "Start recording" (in D1 on the Drafts page, and inside the clones SS1 and SS2) should go straight to S1 for a ready room. Only the Sim Room 2 event goes to SS2.
+- The Today page "Up next" row button "Start recording" (in D1 on the Drafts page, and inside the clones SS1 and SS2) should go straight to S1 for a ready room. Only the Sim Room 2 event goes to SS2.
 - Every path ends at S1 `1343:4038`. The existing flow "SRV · Recording" continues from there.
 
 ## After these run

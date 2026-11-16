@@ -5,8 +5,8 @@ Three greyscale wireframe sketches for the workshop on 11-17/18. They illustrate
 ## Context
 
 - The scope area "AV diagnosis, monitoring & room readiness" is rated Conceptual. Health is shown where the room is shown (AV-9), so there is no diagnostics page. The sketches add three screens next to the existing AV sketches.
-- RR1, **Room check, results**, shows: the result of "Check this room" for Sim Room 2, one result per device, plain fix text for the device that failed, and the actions "Check again" and "Report a problem".
-- RR2, **Device problem**, shows: the device page of the missing patient monitor capture with what is wrong, what to try, and when it was last seen.
+- RR1, **Room check, results**, shows: the result of "Check this room" for Sim Room 2 (on the AV tab of the room page), one result per device, plain fix text for the device that failed, and the actions "Check again" and "Report a problem".
+- RR2, **Device problem**, shows: the device page (under the AV tab of Sim Room 2) of the missing patient monitor capture with what is wrong, what to try, and when it was last seen.
 - RR3, **Ready to record, with a room warning**, shows: the ready-to-record screen with a room warning that has a fix and does not block recording.
 - Sample data matches the AV sketches: Sim Room 2, Riverbend College of Nursing. Devices: Overhead camera (PTZ camera, AXIS M5525), Foot camera (Fixed camera), Patient monitor capture (Capture unit, not found, last seen 10 Nov, 14:32), Audio kit (Microphone and speaker).
 
@@ -35,6 +35,9 @@ Three greyscale wireframe sketches for the workshop on 11-17/18. They illustrate
 | RR3 warning | A floating card under a chip in the header, not a banner, because the camera area has no spare height and the frame must stay 948 high. It does not block recording: the Start recording button is not touched |
 | Sample values | "00408C7B21D3" (serial) and "10.0.4.25" (address) are made up for the sketch. Last seen "10 Nov, 14:32" and the check time "09:41" are the same in all frames |
 | Badge colours | Green, yellow and red stay, as in the AV sketches |
+| One app, one menu (11-16) | The app follows the OpSpace menu. Rooms is its own menu entry, not under Settings. Room settings and AV settings live in one place: AV is a tab on the room page. So "AV1 · Room devices" is now described as "Sim Room 2, AV tab" and the breadcrumbs read "Rooms, Sim Room 2, AV". No text names "OpSpace" or "Essentials" as a place to go. Components stay Astryx |
+| Tab bar in RR1 | No tab component is referenced in this file, so RR1 gets a text note "Tab bar here: Details \| AV. AV is active." instead of a real tab bar. Replace it when a Tabs component is chosen |
+| Attention path | The Rooms page row for Sim Room 2 shows "Needs attention". The attention badge on the Today page opens Sim Room 2, AV tab. The old "AVs · Settings home" card "Rooms & devices" with the badge "1 room needs attention" is gone |
 
 ## Gaps I expect in Cursor's report
 
@@ -109,6 +112,12 @@ Section "Room readiness · Sketches":
 - Label: 44 px above the frame (y 76), left-aligned with it. Make it by cloning "Label · AV1" (1560:8021) from Section 1559:8318, then set its text to the new frame's exact name and name the layer "Label · <frame code>" (for example "Label · RR1").
 - Caption: below the frame, left-aligned with it, 1440 px wide. Make it by cloning "Caption · AV1" (1560:8022) from Section 1559:8318 and set its y: 1044 for RR1 and RR2, 1092 for RR3. Name it "Caption · <frame code>". Set the two lines given in each section.
 
+Product rules (decided 11-16, they apply to every clone):
+- One app for the customer. The source frames carry a button that may read "Manage rooms in OpSpace" (instance "Button · Customize"). In every clone, overwrite this button's label or hide the button. Never leave "Manage rooms in OpSpace". No product switcher anywhere. No text on any frame names "OpSpace" or "Essentials" as a place to go.
+- Use Astryx components and styling only. Do not copy the OpSpace Chakra UI look.
+- Rooms is its own menu entry. Never write "Settings" in a breadcrumb. The frame "AV1 · Room devices" is described as "Sim Room 2, AV tab": the breadcrumb reads "Rooms, Sim Room 2, AV".
+- Side navigation: where a clone shows the SideNav instance, set its item labels, top to bottom, to: Today, Notifications, Events, Recordings, then the group heading "Resources" followed by Rooms, Simulators & Equipment, People, Inventory, Labels, Prep checklists. "Settings" stays in the footer. The SideNav component may not show a group heading: add the heading "Resources" as a text label (a clone of a muted text, Regular 12 px, text/secondary) above "Rooms", and say so in your report. Never drop the group. Use text overrides on the existing items only. Never add, copy or detach an item. If the instance has fewer than ten item rows, set as many as exist, in that order, and list the labels that did not fit under "Component gaps". In RR1 and RR2 the active item is "Rooms". To change the active item, read the properties of the currently active nested item, set the same values on the nested item that reads "Rooms", and give the old active item the values of a non-active item (for example "Events"). If this is not possible, report it and leave it. In RR3, leave the SideNav of S1 as it is.
+
 Report when done: the new frame IDs, the "Component gaps" list, and every step you could not do exactly as written. Then take a screenshot of the frame you built.
 ```
 
@@ -131,6 +140,14 @@ Goal: one frame "RR1 · Room check, results" in slot 1 of a new Section.
 - Don't change the original "AV1 · Room devices".
 
 Everything below happens inside "RR1 · Room check, results". Find layers by name.
+
+2b · Breadcrumb, tab note and side navigation
+This frame is "Sim Room 2, AV tab". In "Content", find "Breadcrumb". It has the texts "Settings", "Rooms" and "Sim Room 2" with a "Separator" between each.
+- Change the text "Settings" to "Rooms". Change the text "Rooms" to "Sim Room 2". Change the text "Sim Room 2" to "AV".
+- Clone the last "Separator" and the last text (now "AV") and place them at the end of the breadcrumb, in that order. Set the cloned text to "Check results". The breadcrumb now reads: Rooms, Sim Room 2, AV, Check results, with a "Separator" between each. The last text stays Medium 12 px, text/primary.
+- Tab bar: no tab component is referenced in this file, so do not build tabs. Add a text note as the second child of "Content" (after "Breadcrumb", before "Page header"): a clone of the muted text "Last seen 10 Nov, 14:32" (clone it from "Row · Patient monitor capture"; this step comes before you edit that row), text "Tab bar here: Details | AV. AV is active.", name "Note · Tab bar". Say in your report that the tab bar is a text note.
+- In the instance "SideNav": set the labels and the active item "Rooms" as described in the Shared rules ("Side navigation").
+- In "Page header", the instance "Button · Customize" may read "Manage rooms in OpSpace". Step 3 overwrites its label. Check that no text in the frame reads "OpSpace".
 
 3 · Page header
 In "Content", find "Page header".
@@ -210,11 +227,12 @@ Done in step 2.
 Check before you report:
 - The Section "Room readiness · Sketches" exists at x 0, y 6000, 4840 × 1220. Nothing in Sections 1343:3275 and 1559:8318 has changed.
 - "RR1 · Room check, results" is 1440 × 900 at x 80, y 120 in the new Section. Its label is at y 76 and its caption at y 1044.
-- "Content" has exactly four children: "Breadcrumb", "Page header", "Card · Readiness", "Card · Devices".
+- "Content" has exactly five children: "Breadcrumb", "Note · Tab bar", "Page header", "Card · Readiness", "Card · Devices". The breadcrumb reads "Rooms, Sim Room 2, AV, Check results". It does not contain "Settings".
+- The SideNav labels follow the Shared rules and "Rooms" is active (or the gap is reported). No text on the frame reads "OpSpace".
 - "Card · Devices" has nine children: Devices header, Columns header, six rows, Check footer.
 - Eight badges exist: 1 Needs attention, 1 Primary, 5 Working, 1 Not found. All are instances.
 - "Page header" has two buttons: "Button · Check again" with its right edge at x 1132, and "Button · Assign a device" to its left.
-- No text is clipped and nothing goes below y 876 of the 900 px frame.
+- No text is clipped and nothing goes below y 876 of the 900 px frame. The tab note adds about 44 px. If anything goes lower, report the overflow in px and don't shrink anything.
 - Take a screenshot of the frame.
 ```
 
@@ -238,7 +256,8 @@ Everything below happens inside "RR2 · Device problem". Find layers by name.
 Before you delete anything: clone "Badge · Not found" from "AV1 · Room devices" (1559:8319, "Row · Patient monitor capture", "Cell · Status") into a temporary frame named "TEMP badge" inside the Section at x 80, y 1300. Delete "TEMP badge" at the end of the run.
 
 3 · Breadcrumb
-In "Breadcrumb", change the last text "Overhead camera" to "Patient monitor capture". Everything else stays.
+In "Breadcrumb" (texts "Settings", "Rooms", "Sim Room 2", "Overhead camera", with a "Separator" between each; if it is different, stop this step and report): change the text "Settings" to "Rooms", "Rooms" to "Sim Room 2", "Sim Room 2" to "AV", and "Overhead camera" to "Patient monitor capture". Keep every "Separator". The breadcrumb now reads: Rooms, Sim Room 2, AV, Patient monitor capture. This frame is the device detail under the AV tab of Sim Room 2.
+- In the instance "SideNav": set the labels and the active item "Rooms" as described in the Shared rules ("Side navigation").
 
 4 · Page header
 - Text "Greeting": "Patient monitor capture".
@@ -285,7 +304,8 @@ Delete "TEMP badge".
 
 Check before you report:
 - "AV2 · Device detail" is unchanged. "RR2 · Device problem" is 1440 × 900 at x 1640, y 120 in the Section. Label at y 76, caption at y 1044.
-- "Content" has exactly three children: "Breadcrumb", "Page header", "Columns".
+- "Content" has exactly three children: "Breadcrumb", "Page header", "Columns". The breadcrumb reads "Rooms, Sim Room 2, AV, Patient monitor capture" and does not contain "Settings".
+- The SideNav labels follow the Shared rules and "Rooms" is active (or the gap is reported). No text on the frame reads "OpSpace".
 - "Main column" holds "Card · What is wrong" and "Card · Last known state". "Side column" holds "Card · Details" and "Card · Advanced".
 - "Card · What is wrong" has no camera tile. Its badge reads "Not found" and is an instance.
 - "Card · Details" has four rows plus the serial line.
@@ -350,18 +370,20 @@ Not part of these runs. When the frames are checked, Claude writes a short promp
 
 | From | Click target | To |
 |---|---|---|
-| AV0 · Rooms `1603:10516` | Row "Sim Room 2" (shows "Needs attention") | AV1 `1559:8319` (already wired) |
-| AV1 · Room devices `1559:8319` | A new button "Check this room" in "Page header" (to be added when wiring) | RR1 |
+| AV0 · Rooms `1603:10516` (the Rooms page) | Row "Sim Room 2" (shows "Needs attention") | Sim Room 2, AV tab (frame AV1) `1559:8319` (already wired) |
+| Sim Room 2, AV tab (frame AV1 · Room devices) `1559:8319` | A new button "Check this room" in "Page header" (to be added when wiring) | RR1 |
 | RR1 | "Button · Check again", "Check again" in "Fix actions", "Check footer" | RR1 (same frame, no change; a real check is a later state) |
 | RR1 | Row "Patient monitor capture" | RR2 |
 | RR1 | "Report a problem" in "Fix actions" | The Report a problem dialog `1024:8738` (check which frame holds it before wiring) |
-| RR1 | Breadcrumb "Sim Room 2" | AV1 `1559:8319` |
+| RR1 | Breadcrumb "Sim Room 2" | Sim Room 2, AV tab (frame AV1) `1559:8319` |
 | RR2 | "Check again" in "Actions" and in "Card · Last known state" | RR1 |
 | RR2 | "Report a problem" in "Actions" | The Report a problem dialog |
-| RR2 | Breadcrumb "Sim Room 2" | AV1 `1559:8319` |
+| RR2 | Breadcrumb "Sim Room 2" | Sim Room 2, AV tab (frame AV1) `1559:8319` |
 | RR3 | "Button · Check this room" in "Card · Room warning" | RR1 |
 | RR3 | "Button · Report a problem" in "Card · Room warning" | The Report a problem dialog |
 | RR3 | "Badge · Room warning" in the header | Shows or hides "Card · Room warning" (needs a second frame; skip if it costs too much) |
-| AVs · Settings home `1625:9358` | Badge "1 room needs attention" on the Rooms & devices card | AV0 `1603:10516` (already wired) |
+| CO1 · Center overview (the Today page, `1692:9756` in Section "Session start · Sketches") | Badge "Needs attention" in "Card · Sim Room 2" | Sim Room 2, AV tab (frame AV1) `1559:8319` |
+
+Note: the old card "Rooms & devices" with the badge "1 room needs attention" on "AVs · Settings home" `1625:9358` is replaced by the two paths above (the Rooms page row for Sim Room 2 and the attention badge on the Today page). Do not wire the old card.
 
 After these run, Claude reviews the three frames in Figma (read-only) and writes a fix section here if needed.
