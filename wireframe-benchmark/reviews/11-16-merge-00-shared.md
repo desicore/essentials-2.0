@@ -79,6 +79,34 @@ Frame names are exact. "Low-fi" is the node id of the low-fi screen on the FigJa
 | I4 · Import, Done | 5 · Import | 4 | People | `18:1885` |
 | I5 · Settings, Integrations | 5 · Import | 5 | Settings | `18:1988` |
 
+Added in the final round (11-16 evening, prompt files `11-17-final-*.md`). All were checked by Claude in the file. They have no low-fi screen.
+
+| Frame name | Id | Section | Slot | Active nav item |
+|---|---|---|---|---|
+| L8f · Room, add a device | `1799:37735` | 3 · Rooms and devices | 7 | Rooms |
+| L8g · Room, device added | `1799:40286` | 3 · Rooms and devices | 8 | Rooms |
+| RR1 · Room check, results | `1798:20804` | 8 · Room readiness | 1 | Rooms |
+| RR2 · Device not found | `1799:33642` | 8 · Room readiness | 2 | Rooms |
+| RR3 · Room view, room warning | `1799:39475` | 8 · Room readiness | 3 | none (collapsed rail) |
+| V1 · Room view, ready to record | `1799:21249` | 9 · Room view, recording flow | 1 | none (collapsed rail) |
+| V2 · Room view, Layout & audio | `1799:21721` | 9 · Room view, recording flow | 2 | none (collapsed rail) |
+| V3 · Room view, annotations | `1799:22107` | 9 · Room view, recording flow | 3 | none (collapsed rail) |
+| V4 · Room view, checklist | `1799:22249` | 9 · Room view, recording flow | 4 | none (collapsed rail) |
+| V5 · Room view, intercom in use | `1799:22384` | 9 · Room view, recording flow | 5 | none (collapsed rail) |
+| V6 · Room view, stop confirmation | `1799:28639` | 9 · Room view, recording flow | 6 | none (collapsed rail) |
+| V7 · Room view, stopped | `1799:28803` | 9 · Room view, recording flow | 7 | none (collapsed rail) |
+| V8 · Room view, debrief hand-off | `1799:38871` | 9 · Room view, recording flow | 8 | none (collapsed rail) |
+| V9 · Room view, chapters | `1799:33933` | 10 · Room view, more states | 1 | none (collapsed rail) |
+| V10 · Room view, transcript | `1799:33993` | 10 · Room view, more states | 2 | none (collapsed rail) |
+| V11 · Room view, tab menu | `1799:34053` | 10 · Room view, more states | 3 | none (collapsed rail) |
+| V12 · Room view, side panel collapsed | `1799:34113` | 10 · Room view, more states | 4 | none (collapsed rail) |
+| V13 · Room view, intercom collapsed | `1799:34173` | 10 · Room view, more states | 5 | none (collapsed rail) |
+| V14 · Room view, no intercom | `1799:34233` | 10 · Room view, more states | 6 | none (collapsed rail) |
+| V15 · Room view, a camera stops | `1799:34293` | 10 · Room view, more states | 7 | none (collapsed rail) |
+| V16 · Room view, report a problem | `1799:34353` | 10 · Room view, more states | 8 | none (collapsed rail) |
+| L3e · Live, stop all | `1799:23903` | 15 · Sessions, more states | 1 | Live |
+| L2b · Live, event in two rooms | `1799:29560` | 15 · Sessions, more states | 2 | Live |
+
 ## How to run
 
 Every flow file has its own "How to run" with the full line to paste. The pattern is always:
@@ -190,6 +218,16 @@ Filled in by Claude after the F0 review gate on 11-16. **F0 passed. The flow cha
 - B1 and B2 are 1440 × 948: "Recording banner" (48) on top, then "Body" (900).
 - New Section "6 · Recording banner" (1767:16448) at y 9000.
 - The logo exception in WORDS now applies to the logo in the side navigation.
+
+**Changed in the final round (11-16 evening, checked by Claude):**
+
+- New Sections, all at x 0 and 12640 × 1240: "8 · Room readiness" (1798:20803) y 11900 · "9 · Room view, recording flow" (1799:21248) y 13400 · "10 · Room view, more states" (1799:23855) y 14900 · "15 · Sessions, more states" (1799:23902) y 22400. Reserved for later runs: "11 · Recordings, more states" y 16400 · "12 · Rooms, more states" y 17900 · "13 · Devices, more states" y 19400 · "14 · Import, more states" y 20900. The index Section "Index · Topics T01 to T10" sits at y −2200.
+- Section "3 · Rooms and devices" is full. Since 11-17 (run D1 of `11-17-rooms-details-tab.md`, checked by Claude) it is 14200 × 1240 and has nine slots: L7 (x 80), "L8b · Room, Details tab" (1813:28810, x 1640), L8 (3200), L9 (4760), L10 (6320), L10b (7880), L11 (9440), L8f (11000), L8g (12560). It is the only Section wider than 12640.
+- The base of every room view state is "L4 · Room view" (1752:40197). The S1 to S9 frames on "👤 SRV flow [D]" are the archive. A state is a clone of L4 with the "Body" frame of an S frame, or with variant properties set.
+- A right-hand sheet is an instance of the library component "Dialog", Variant "Fullscreen" (text properties "Title" and "Subtitle Text", slots "Body" and "Footer Actions"). Sources: "Sheet · Start event" (1752:34595) with "Dim" (1752:34594) in L1b; "Sheet · Start recording" (1752:18431) with "Dim" (1752:18430) in L3.
+- A confirmation dialog is "SRV / Stop confirmation" (1024:8693), with text overrides. The report dialog is "SRV / Report a problem" (1024:8740).
+- Every screen has a topic tag next to its label (a text named "Topic T.. · <code>"). Do not delete or move these tags.
+- Fixed in place: P4 has "Download" and "Share" in the tab row; the event blocks in B1 and B2 are not selected; P3 shows the Checklist tab; "Button · Manage" in L3c is hidden.
 
 ```
 Status: F0 passed (checked 11-16). Flow chats may start.

@@ -1,5 +1,7 @@
 # 11-17 · Final round: Rooms, Details tab and room management
 
+> **Changed on 11-17 (Daniel): do not run "A1" of this file.** The Details tab is now built by `11-17-rooms-details-tab.md`: it sits in Section "3 · Rooms and devices" before L8 and shows the content of the OpSpace room page. "A2" (L8c) must be rewritten before it runs, because it expects L8b in Section "12 · Rooms, more states". "B1" to "B4" still need that Section, which A1 would have created.
+
 Topics T04 and T05. The room page (L8) has a "Details" tab that is not drawn, the rooms list (L7) has an "Add room" button with no result, and the list and the AV tab have no empty state. This file adds six frames in a new Section. It does not change any existing frame.
 
 The Shared rules and the sample data are in `11-16-merge-00-shared.md`. The concept and requirement lines are in the vault pages `wiki/work/essentials-2.0-concept-room-readiness.md` (RD-8) and `wiki/work/essentials-2.0-av-device-management.md` (AV-1, AV-6).
