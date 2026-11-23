@@ -83,3 +83,13 @@ Consistency (run vs repeat): Sonnet High 15 / 15, Intelligence 15 / 15, both wit
 No run copied a screen; all passed the no-copy check.
 
 Practical finding: eight parallel runs hit the Figma MCP rate limit of the seat (one run failed, four were slowed down). Run at most three or four at a time.
+
+### C3r rerun (run alone, 11-22)
+
+| Run | Run time | Model | Score | Notes |
+|---|---|---|---|---|
+| C3r · Auto · Balance (rerun) | 13m 30s | Sonnet 5.5, effort not shown | 13 of 14 (no report pasted, item 8 not scored) | Checked from a screenshot of the whole Section. Filter buttons with icons, sort arrow on Date, 10 rows. L6 single camera (C3 had 1+2), side panel edited to four sketch notes but on the marker times (03:05, 04:12…), not the sketch's. L6b: marked moments, checklist bar 8 of 12. Same main decisions as C3. |
+
+Consistency Balance: 16 / 13 of 14. Slowest run of the whole test.
+
+Update: C3r's report arrived (frames L5 `2028:8316`, L6 `2028:26943`, L6b `2030:25730`). It matches the screenshot and names its deviations (component marker times, invented checklist numbers, hidden recording dot), so item 8 scores 2: **C3r = 15 of 16.** It also confirms the stray `SRV / Annotation input` (`2024:147128`) was at the page root before its first write.

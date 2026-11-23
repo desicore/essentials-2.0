@@ -163,12 +163,14 @@ Recommendation: use Auto · Balance (or Sonnet 5.5 High by hand) for spec-driven
 
 ## Message for Balázs (paste-ready)
 
+Updated after all three rounds (11-22). Replace [report link] with the doc link once it is shared.
+
 EN:
-> Hi Balázs, I ran a quick Cursor test after the model change. Same detailed prompt, same three Figma screens (Recordings list, Recording page, Debrief tab), four setups: Sonnet 5.5 High picked by hand, and Auto with Cost, Balance and Intelligence.
-> Result: Sonnet 5.5 High, Auto Balance and Auto Intelligence gave practically the same, usable output (13/14 on an 8-point checklist). Auto Cost scored 7/14: two of the three screens were cut off, and its own report said everything passed.
-> So for spec-driven design work Auto Balance is fine; Auto Cost isn't. Caveat: our prompts are very detailed, so this tests following a spec, not figuring things out alone. Happy to show the frames.
+> Hi Balázs, I tested Cursor's model settings after the change. Same three Figma screens (Recordings list, Recording page, Debrief tab), four setups: Sonnet 5.5 High picked by hand, and Auto with Cost, Balance and Intelligence. Three rounds: a very detailed prompt, a short brief, and a short brief with copying banned, each setup run twice in the last round.
+> Result: Auto Balance and Auto Intelligence both hand the work to Sonnet 5.5, and they were as good as Sonnet 5.5 High picked by hand in every round (13–16 out of 14–16 points), with the same result on the repeat runs. Auto Cost uses Cursor's Composer model: it scored clearly lower (7–12), left placeholders and broken layouts, and its own report said everything passed.
+> So: Auto Intelligence is a good default for design work, it was usually the fastest of the good ones. Auto Cost isn't usable for this. One practical thing: running 8 chats in parallel hit the Figma MCP rate limit of my seat, so 3–4 at a time is the max. Full report: [report link]
 
 HU:
-> Szia Balázs, csináltam egy gyors Cursor tesztet a modellváltás után. Ugyanaz a részletes prompt, ugyanaz a három Figma képernyő (Recordings lista, Recording oldal, Debrief tab), négy beállítás: kézzel választott Sonnet 5.5 High, és Auto Cost, Balance és Intelligence módban.
-> Eredmény: a Sonnet 5.5 High, az Auto Balance és az Auto Intelligence gyakorlatilag ugyanazt, használható eredményt adta (13/14 egy 8 pontos ellenőrzőlistán). Az Auto Cost 7/14 lett: a három képernyőből kettő félbe volt vágva, és a saját riportja szerint minden rendben volt.
-> Vagyis spec alapú design munkára az Auto Balance jó, az Auto Cost nem. Fontos: a promptjaink nagyon részletesek, ez a teszt azt méri, mennyire követi a modell a specifikációt, nem azt, mennyire boldogul egyedül. Szívesen megmutatom a frame-eket.
+> Szia Balázs, a modellváltás után teszteltem a Cursor beállításait. Ugyanaz a három Figma képernyő (Recordings lista, Recording oldal, Debrief tab), négy beállítás: kézzel választott Sonnet 5.5 High, és Auto Cost, Balance és Intelligence. Három kör: egy nagyon részletes prompt, egy rövid brief, és egy rövid brief másolás nélkül, az utolsó körben minden beállítást kétszer futtattam.
+> Eredmény: az Auto Balance és az Auto Intelligence is a Sonnet 5.5-nek adja a munkát, és minden körben ugyanolyan jók voltak, mint a kézzel választott Sonnet 5.5 High (13–16 pont a 14–16-ból), az ismételt futtatásnál is ugyanazt az eredményt adták. Az Auto Cost a Cursor saját Composer modelljét használja: egyértelműen gyengébb lett (7–12), placeholder szövegek és szétcsúszott layoutok maradtak benne, a saját riportja szerint pedig minden rendben volt.
+> Vagyis: design munkára az Auto Intelligence jó alapbeállítás, a jók közül általában ez volt a leggyorsabb. Az Auto Cost erre nem használható. Gyakorlati tapasztalat: 8 párhuzamos chat elérte a Figma MCP limitet a seatemen, így egyszerre max 3–4 futtatás fér bele. A teljes riport: [report link]
