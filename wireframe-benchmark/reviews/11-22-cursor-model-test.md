@@ -111,6 +111,25 @@ Frames exist: L5 `2016:9858`, L6 `2016:49195`, L6b `2016:51811`. About 25 Figma 
 
 Total so far: 13 / 14 (item 7 open). Close to the reference quality.
 
+## Review · Run B · Auto · Cost (Claude, 11-22, screenshots only)
+
+Restored on 11-25 from the 11-22 session; it had been overwritten in this file.
+
+Frames exist: L5 `2016:48661`, L6 `2016:49867`, L6b `2016:50537`. No nudges.
+
+| # | Check | Score | Notes |
+|---|---|---|---|
+| 1 | Frames, slots, names | 2 | All three in Section B. |
+| 2 | Content | 1 | L5 title is the description line ("Past recordings…"), no "Recordings" title. L6/L6b title shows the meta line instead of "NURS 310 · Group A". Placeholder "Short page description" left on all three. |
+| 3 | Components | 1 | Tabs, buttons, feedback toggle are instances. Playback bar, annotation input, marked moments, checklist results not visible (clipped, see 5). |
+| 4 | Navigation | 2 | Collapsed, Recordings active, content fills. |
+| 5 | Layout | 0 | L6 and L6b "Body" is ~85 px high: video, notes card and feedback cards are cut off. L5 filter chips clipped ("Learr", "Scen"), no ▾. Share/Download sit above the tab row, not in it. Notes card fixed width. |
+| 6 | Text kinds, forbidden words | 1 | Placeholder text not overwritten (Shared rules say it must be). |
+| 7 | Layer naming | – | Not checked (same for all four runs). |
+| 8 | Honest report | 0 | Says all check lists passed and lists playback + marked moments; the Body is clipped and they are not visible. |
+
+Total: 7 / 14 (item 7 open).
+
 ## Review · Run C · Auto · Balance (Claude, 11-22, screenshots only)
 
 Frames exist: L5 `2016:42011`, L6 `2016:50962`, L6b `2016:52406`. No nudges.
@@ -161,9 +180,39 @@ Takeaways:
 
 Recommendation: use Auto · Balance (or Sonnet 5.5 High by hand) for spec-driven Figma builds; never Auto · Cost for this. Keep the Claude review step, it is what caught run B.
 
+## Usage data, all rounds (Cursor team export, 11-25)
+
+From `team-usage-events-…-2026-11-25.csv`, 22 Nov, paid rows only (the 17 "Free" rows of about 10k tokens are small helper calls). Times are local (CET; the export is UTC). Runs matched by setting, start order and size; in round 3 the first four starts are assumed to be the first runs and the next four the repeats, which fits the run lengths and the small failed C3r row.
+
+| Start | Run | Model in the log | Tokens | Cost |
+|---|---|---|---|---|
+| 16:24:02 | A · Sonnet High | claude-sonnet-5-5-high | 5.34M | $2.65 |
+| 16:24:27 | B · Cost | auto | 2.26M | $0.63 |
+| 16:24:55 | C · Balance | claude-sonnet-5-5-high (Auto Balanced) | 3.85M | $2.09 |
+| 16:25:15 | D · Intelligence | claude-sonnet-5-5-high (Auto Intelligence) | 3.15M | $1.82 |
+| 16:46:36 | A2 · Sonnet High | claude-sonnet-5-5-high | 10.31M | $4.95 |
+| 16:46:58 | B2 · Cost | auto | 0.84M | $0.20 |
+| 16:47:17 | C2 · Balance | claude-sonnet-5-5-high (Auto Balanced) | 1.56M | $0.93 |
+| 16:47:36 | D2 · Intelligence | claude-sonnet-5-5-high (Auto Intelligence) | 4.04M | $2.27 |
+| 17:23:30 | A3 · Sonnet High | claude-sonnet-5-5-high | 7.33M | $3.64 |
+| 17:23:49 | B3 · Cost | auto | 2.24M | $0.54 |
+| 17:24:51 | C3 · Balance | claude-sonnet-5-5-high (Auto Balanced) | 6.33M | $3.36 |
+| 17:25:10 | D3 · Intelligence | claude-sonnet-5-5-high (Auto Intelligence) | 4.63M | $2.46 |
+| 17:25:29 | A3r · Sonnet High | claude-sonnet-5-5-high | 8.99M | $4.23 |
+| 17:25:49 | B3r · Cost | auto | 0.91M | $0.27 |
+| 17:26:10 | C3r · Balance (blocked by rate limit) | claude-sonnet-5-5-high (Auto Balanced) | 0.99M | $0.63 |
+| 17:26:26 | D3r · Intelligence | claude-sonnet-5-5-high (Auto Intelligence) | 7.21M | $3.49 |
+| 17:50:13 | C3r · Balance (rerun alone) | claude-sonnet-5-5-high (Auto Balanced) | 10.11M | $4.94 |
+
+Total $39.10. Per setting: Sonnet High by hand $15.47 (4 builds), Intelligence $10.04 (4), Balance $11.95 (4 builds + 1 blocked), Cost $1.64 (4).
+
+Corrections this brings: Balance ran Sonnet 5.5 **High**, not Medium. Auto · Cost is logged only as "auto" (the B2 run itself named Composer). Rounds 1 and 2 ran four chats in parallel with no rate-limit trouble.
+
+The shareable write-up for Balázs is `11-25-cursor-model-test-report.md`.
+
 ## Message for Balázs (paste-ready)
 
-Updated after all three rounds (11-22). Replace [report link] with the doc link once it is shared.
+Superseded on 11-25 by the email draft in `11-25-cursor-model-test-email.md` (the text below predates the usage data and says Balance is "probably Medium").
 
 EN:
 > Hi Balázs, I tested Cursor's model settings after the change. Same three Figma screens (Recordings list, Recording page, Debrief tab), four setups: Sonnet 5.5 High picked by hand, and Auto with Cost, Balance and Intelligence. Three rounds: a very detailed prompt, a short brief, and a short brief with copying banned, each setup run twice in the last round.
